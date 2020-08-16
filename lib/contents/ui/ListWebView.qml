@@ -42,9 +42,7 @@ Repeater {
         privateMode: privateTabsMode
         Component.onCompleted: {
             tabsModel.loadInitialTabs();
-            loadTabsModel();
         }
-        signal loadTabsModel()
     }
 
     delegate: WebView {
@@ -58,6 +56,10 @@ Repeater {
         width: tabs.width
 
         profile: tabs.profile
+
+        Component.onCompleted: {
+            url = model.pageurl
+        }
 
         property bool readyForSnapshot: false
         property bool showView: index === tabs.currentIndex
@@ -74,19 +76,10 @@ Repeater {
 
         onRequestedUrlChanged: tabsModel.setUrl(index, requestedUrl)
 
-        Component.onCompleted: url = model.pageurl
-
         Connections {
             target: webView.userAgent
             function onUserAgentChanged() {
                 tabsModel.setIsMobile(index, webView.userAgent.isMobile);
-            }
-        }
-
-        Connections {
-            target: tabs.model
-            function onLoadTabsModel() {
-                url = model.pageurl
             }
         }
     }
