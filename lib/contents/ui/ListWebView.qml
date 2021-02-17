@@ -40,9 +40,6 @@ Repeater {
         id: tabsModel
         isMobileDefault: Kirigami.Settings.isMobile
         privateMode: privateTabsMode
-        Component.onCompleted: {
-            tabsModel.loadInitialTabs();
-        }
     }
 
     delegate: WebView {
