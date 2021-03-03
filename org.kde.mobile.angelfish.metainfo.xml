@@ -6,6 +6,7 @@
   <name xml:lang="ca">Navegador web Angelfish</name>
   <name xml:lang="ca-valencia">Navegador web Angelfish</name>
   <name xml:lang="cs">Webový prohlížeč Angelfish</name>
+  <name xml:lang="de">Angelfish-Webbrowser</name>
   <name xml:lang="el">Angelfish περιηγητής ιστού</name>
   <name xml:lang="en-GB">Angelfish Web Browser</name>
   <name xml:lang="es">Navegador web Angelfish</name>
@@ -28,6 +29,7 @@
   <summary xml:lang="ca-valencia">Navegador web per a dispositius mòbils</summary>
   <summary xml:lang="cs">Webový prohlížeč pro mobilní zařízení</summary>
   <summary xml:lang="da">Webbrowser til mobile enheder</summary>
+  <summary xml:lang="de">Webbrowser für mobile Geräte</summary>
   <summary xml:lang="el">Πειηγητής ιστού για κινητά</summary>
   <summary xml:lang="en-GB">Web browser for mobile devices</summary>
   <summary xml:lang="es">Navegador web para dispositivos móviles</summary>
