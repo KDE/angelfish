@@ -24,10 +24,12 @@ Item {
     property int expandedHeight: Kirigami.Units.gridUnit * 3
     property int buttonSize: Kirigami.Units.gridUnit * 2
 
+    property var tabsSheet
+    
     signal activateUrlEntry;
 
     Rectangle { anchors.fill: parent; color: Kirigami.Theme.backgroundColor; }
-
+    
     RowLayout {
         id: layout
         anchors.fill: parent
@@ -39,7 +41,7 @@ Item {
 
         Controls.ToolButton {
             id: mainMenuButton
-            icon.name: rootPage.privateMode ? "view-private" : "open-menu-symbolic"
+            icon.name: rootPage.privateMode ? "view-private" : "application-menu"
             visible: webBrowser.landscape || Settings.navBarMainMenu
 
             Layout.preferredWidth: buttonSize
@@ -82,7 +84,7 @@ Item {
                 }
             }
 
-            onClicked: pageStack.push(Qt.resolvedUrl("Tabs.qml"))
+            onClicked: tabsSheet.open()
         }
 
         Controls.ToolButton {

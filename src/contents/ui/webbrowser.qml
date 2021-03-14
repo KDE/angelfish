@@ -67,7 +67,7 @@ Kirigami.ApplicationWindow {
                 icon.name: "tab-duplicate"
                 onTriggered: {
                     popSubPages();
-                    pageStack.push(Qt.resolvedUrl("Tabs.qml"))
+                    tabsSheetLoader.open();
                 }
                 text: i18n("Tabs")
             },
@@ -361,6 +361,17 @@ Kirigami.ApplicationWindow {
                 }
             }
         ]
+        
+        // Tabs sheet
+        Loader {
+            id: tabsSheetLoader
+            active: false
+            function open() {
+                active = true;
+                item.open();
+            }
+            sourceComponent: Tabs {}
+        }
 
         // Find bar
         FindInPageBar {
@@ -391,6 +402,8 @@ Kirigami.ApplicationWindow {
             navigationShown: visible && rootPage.navigationAutoShow
             visible: webBrowser.visibility !== Window.FullScreen && !findInPage.active
 
+            tabsSheet: tabsSheetLoader
+            
             Kirigami.Theme.colorSet: rootPage.privateMode ? Kirigami.Theme.Complementary : Kirigami.Theme.Window
 
             layer.enabled: navigation.navigationShown
