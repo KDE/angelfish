@@ -38,7 +38,7 @@ class TabsModel : public QAbstractListModel
 
     Q_PROPERTY(int currentTab READ currentTab WRITE setCurrentTab NOTIFY currentTabChanged)
     Q_PROPERTY(bool isMobileDefault READ isMobileDefault WRITE setIsMobileDefault NOTIFY isMobileDefaultChanged)
-    Q_PROPERTY(bool privateMode READ privateMode WRITE setPrivateMode NOTIFY privateModeChanged)
+    Q_PROPERTY(bool privateMode READ privateMode WRITE setPrivateMode NOTIFY privateModeChanged REQUIRED)
 
     enum RoleNames { UrlRole = Qt::UserRole + 1, IsMobileRole };
 
@@ -81,6 +81,7 @@ private:
     bool m_privateMode = false;
     bool m_tabsReadOnly = false;
     bool m_isMobileDefault = false;
+    bool m_initialTabsLoaded = false;
 
 signals:
     void currentTabChanged();

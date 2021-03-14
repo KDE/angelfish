@@ -29,7 +29,10 @@ TabsModel::TabsModel(QObject *parent)
     // Make sure model always contains at least one tab
     createEmptyTab();
 
-    loadInitialTabs();
+    // Only load tabs after private mode is known
+    connect(this, &TabsModel::privateModeChanged, [this] {
+        loadInitialTabs();
+    });
 }
 
 QHash<int, QByteArray> TabsModel::roleNames() const
@@ -83,6 +86,10 @@ TabState TabsModel::tab(int index)
  */
 void TabsModel::loadInitialTabs()
 {
+    if (m_initialTabsLoaded) {
+        return;
+    }
+
     if (!m_privateMode) {
         loadTabs();
     }
@@ -100,6 +107,8 @@ void TabsModel::loadInitialTabs()
                 newTab(BrowserManager::instance()->initialUrl());
         }
     }
+
+    m_initialTabsLoaded = true;
 }
 
 /**
