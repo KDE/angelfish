@@ -1,6 +1,7 @@
 /***************************************************************************
  *                                                                         *
  *   SPDX-FileCopyrightText: 2014-2015 Sebastian Kügler <sebas@kde.org>    *
+ *                           2021 Devin Lin <espidev@gmail.com>            *
  *                                                                         *
  *   SPDX-License-Identifier: GPL-2.0-or-later                             *
  *                                                                         *
