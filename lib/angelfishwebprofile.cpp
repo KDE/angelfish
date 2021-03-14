@@ -38,8 +38,7 @@ void AngelfishWebProfile::handleDownload(QQuickWebEngineDownloadItem *downloadIt
     if (m_questionLoader) {
         m_questionLoader->setProperty("source", QStringLiteral("qrc:/DownloadQuestion.qml"));
 
-        QQuickItem *question = m_questionLoader->property("item").value<QQuickItem *>();
-        if (question) {
+        if (QQuickItem *question = m_questionLoader->property("item").value<QQuickItem *>()) {
             question->setProperty("download", QVariant::fromValue(downloadItem));
             question->setVisible(true);
         }
@@ -93,4 +92,5 @@ void AngelfishWebProfile::setUrlInterceptor(QWebEngineUrlRequestInterceptor *url
 {
     setUrlRequestInterceptor(urlRequestInterceptor);
     m_urlInterceptor = urlRequestInterceptor;
+    Q_EMIT urlInterceptorChanged();
 }
