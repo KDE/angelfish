@@ -25,7 +25,7 @@ Item {
 
     property int expandedHeight: Kirigami.Units.gridUnit * 3
     property int buttonSize: Kirigami.Units.gridUnit * 2
-    property int gestureThreshold: height - Kirigami.Units.largeSpacing
+    property int gestureThreshold: height * 2
     
     property var tabsSheet
     
