@@ -11,8 +11,6 @@
 
 #include "angelfishsettings.h"
 
-constexpr QStringView PUBLIC_SUFFIX_LIST_URL = u"https://raw.githubusercontent.com/publicsuffix/list/master/public_suffix_list.dat";
-
 AdblockFilterListsManager::AdblockFilterListsManager(QObject *parent)
     : QObject(parent)
     , m_filterLists(loadFromConfig())
@@ -27,27 +25,14 @@ void AdblockFilterListsManager::refreshLists()
         m_runningRequests++;
         m_networkManager.get(QNetworkRequest(list.url));
     }
-
-    m_runningRequests++;
-    m_networkManager.get(QNetworkRequest(PUBLIC_SUFFIX_LIST_URL.toString()));
 }
 
 QString AdblockFilterListsManager::filterListPath()
 {
     static const QString path = []() {
-        const auto path = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) + QStringLiteral("/filterlists/");
+        auto path = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) + QStringLiteral("/filterlists/");
         QDir(path).mkpath(QStringLiteral("."));
         return path;
-    }();
-    return path;
-}
-
-QString AdblockFilterListsManager::publicSuffixListPath()
-{
-    static const QString path = []() {
-        const auto path = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
-        QDir(path).mkpath(QStringLiteral("."));
-        return path + QStringLiteral("/publicsuffixlist.txt");
     }();
     return path;
 }
@@ -60,22 +45,13 @@ void AdblockFilterListsManager::handleListFetched(QNetworkReply *reply)
         Q_EMIT refreshFinished();
     }
 
-    if (reply->url() == PUBLIC_SUFFIX_LIST_URL.toString()) {
-        QFile file(publicSuffixListPath());
-        if (!file.open(QIODevice::WriteOnly)) {
-            qDebug() << "Failed to open" << file.fileName() << "for writing";
-            return;
-        }
-        file.write(reply->readAll());
-    } else {
-        QFile file(filterListPath() + reply->url().fileName());
-        if (!file.open(QIODevice::WriteOnly)) {
-            qDebug() << "Failed to open" << file.fileName() << "for writing."
-                     << "Filter list not updated";
-            return;
-        }
-        file.write(reply->readAll()); // TODO don't read everything into memory maybe
+    QFile file(filterListPath() + reply->url().fileName());
+    if (!file.open(QIODevice::WriteOnly)) {
+        qDebug() << "Failed to open" << file.fileName() << "for writing."
+                 << "Filter list not updated";
+        return;
     }
+    file.write(reply->readAll()); // TODO don't read everything into memory maybe
 }
 
 QVector<AdblockFilterListsManager::FilterList> AdblockFilterListsManager::loadFromConfig()

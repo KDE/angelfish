@@ -14,6 +14,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/addr/addr-0.11.8.crate",
+        "sha256": "936697e9caf938eb2905036100edf8e1269da8291f8a02f5fe7b37073784eec0",
+        "dest": "cargo/vendor",
+        "dest-filename": "addr-0.11.8.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22936697e9caf938eb2905036100edf8e1269da8291f8a02f5fe7b37073784eec0%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/addr-0.11.8",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/adler/adler-1.0.2.crate",
         "sha256": "f26201604c87b1e01bd3d98f8d5d9a8fcbb815e8cedb41ffccbeb4bf593a35fe",
         "dest": "cargo/vendor",
@@ -404,15 +417,28 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/publicsuffix/publicsuffix-1.5.6.crate",
-        "sha256": "95b4ce31ff0a27d93c8de1849cf58162283752f065a90d508f1105fa6c9a213f",
+        "url": "https://static.crates.io/crates/psl/psl-2.0.7.crate",
+        "sha256": "43dd8634e9462bc610fab758a26b6568b420a3c79b548759ca6dc662a3ddfe45",
         "dest": "cargo/vendor",
-        "dest-filename": "publicsuffix-1.5.6.crate"
+        "dest-filename": "psl-2.0.7.crate"
     },
     {
         "type": "file",
-        "url": "data:%7B%22package%22%3A%20%2295b4ce31ff0a27d93c8de1849cf58162283752f065a90d508f1105fa6c9a213f%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/publicsuffix-1.5.6",
+        "url": "data:%7B%22package%22%3A%20%2243dd8634e9462bc610fab758a26b6568b420a3c79b548759ca6dc662a3ddfe45%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/psl-2.0.7",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/psl-types/psl-types-2.0.2.crate",
+        "sha256": "8e9aa996d9ccdfb96682edbcdfbeb899efa3deae893ae0f932c21a56cdbf90ff",
+        "dest": "cargo/vendor",
+        "dest-filename": "psl-types-2.0.2.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%228e9aa996d9ccdfb96682edbcdfbeb899efa3deae893ae0f932c21a56cdbf90ff%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/psl-types-2.0.2",
         "dest-filename": ".cargo-checksum.json"
     },
     {

@@ -8,6 +8,7 @@ version = "0.3.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e9a586a63ecd26b9cb45ea77f43292c4985b87c8afa408b6dc11cfe9f1282a4a"
 dependencies = [
+ "addr",
  "base64",
  "bitflags",
  "flate2",
@@ -22,6 +23,16 @@ dependencies = [
  "serde",
  "twoway",
  "url",
+]
+
+[[package]]
+name = "addr"
+version = "0.11.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "936697e9caf938eb2905036100edf8e1269da8291f8a02f5fe7b37073784eec0"
+dependencies = [
+ "psl",
+ "psl-types",
 ]
 
 [[package]]
@@ -46,7 +57,6 @@ dependencies = [
  "adblock",
  "cxx",
  "cxx-build",
- "publicsuffix",
 ]
 
 [[package]]
@@ -276,14 +286,19 @@ dependencies = [
 ]
 
 [[package]]
-name = "publicsuffix"
-version = "1.5.6"
+name = "psl"
+version = "2.0.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "95b4ce31ff0a27d93c8de1849cf58162283752f065a90d508f1105fa6c9a213f"
+checksum = "43dd8634e9462bc610fab758a26b6568b420a3c79b548759ca6dc662a3ddfe45"
 dependencies = [
- "idna",
- "url",
+ "psl-types",
 ]
+
+[[package]]
+name = "psl-types"
+version = "2.0.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8e9aa996d9ccdfb96682edbcdfbeb899efa3deae893ae0f932c21a56cdbf90ff"
 
 [[package]]
 name = "quote"

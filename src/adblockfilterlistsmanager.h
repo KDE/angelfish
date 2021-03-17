@@ -20,8 +20,6 @@ public:
 
     /// filterListPath always returns an existing path to a filter list directory
     static QString filterListPath();
-    /// publicSuffixListPath always returns a an existing path to which a public suffix list can be written
-    static QString publicSuffixListPath();
 
     void refreshLists();
     Q_SIGNAL void refreshFinished();
@@ -39,5 +37,5 @@ private:
 
     QVector<FilterList> m_filterLists;
     QNetworkAccessManager m_networkManager;
-    int m_runningRequests;
+    int m_runningRequests = 0;
 };

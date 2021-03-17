@@ -41,10 +41,7 @@ AdblockUrlInterceptor::AdblockUrlInterceptor(QObject *parent)
 #ifdef BUILD_ADBLOCK
 rust::Box<Adblock> AdblockUrlInterceptor::createAdblock()
 {
-    const std::string filterListsPath = AdblockFilterListsManager::filterListPath().toStdString();
-    const std::string publicSuffixList = AdblockFilterListsManager::publicSuffixListPath().toStdString();
-
-    auto adb = new_adblock(std::move(filterListsPath), std::move(publicSuffixList));
+    auto adb = new_adblock(AdblockFilterListsManager::filterListPath().toStdString());
     Q_EMIT adblockInitialized();
     return adb;
 }
@@ -134,13 +131,13 @@ void AdblockUrlInterceptor::interceptRequest(QWebEngineUrlRequestInfo &info)
 
     const std::string url = info.requestUrl().toString().toStdString();
     const std::string firstPartyUrl = info.firstPartyUrl().toString().toStdString();
-    const AdblockResult result = m_adblock.value()->should_block(std::move(url), std::move(firstPartyUrl), resourceTypeToString(info.resourceType()));
+    const AdblockResult result = m_adblock.value()->should_block(url, firstPartyUrl, resourceTypeToString(info.resourceType()));
 
-    const auto redirect = std::move(result.redirect);
+    const auto &redirect = result.redirect;
     if (redirect.begin() != redirect.end()) {
         info.redirect(QUrl(QString::fromStdString({redirect.begin(), redirect.end()})));
     } else {
-        info.block(std::move(result.matched));
+        info.block(result.matched);
     }
 #else
     Q_UNUSED(info);
