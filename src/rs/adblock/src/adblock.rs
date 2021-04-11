@@ -23,14 +23,12 @@ fn new_adblock(list_dir: &str) -> Box<Adblock> {
 
     // iterate directory
     if let Ok(entries) = fs::read_dir(list_dir) {
-        for entry in entries {
-            if let Ok(e) = entry {
-                if let Ok(ft) = e.file_type() {
-                    if ft.is_file() {
-                        adblock_debug!("Loading filter {:?}", e);
-                        let contents = read_to_string(e.path().as_path()).unwrap();
-                        filter_set.add_filter_list(&contents, FilterFormat::Standard);
-                    }
+        for entry in entries.into_iter().flatten() {
+            if let Ok(ft) = entry.file_type() {
+                if ft.is_file() {
+                    adblock_debug!("Loading filter {:?}", entry);
+                    let contents = read_to_string(entry.path().as_path()).unwrap();
+                    filter_set.add_filter_list(&contents, FilterFormat::Standard);
                 }
             }
         }
