@@ -27,8 +27,14 @@ fn new_adblock(list_dir: &str) -> Box<Adblock> {
             if let Ok(ft) = entry.file_type() {
                 if ft.is_file() {
                     adblock_debug!("Loading filter {:?}", entry);
-                    let contents = read_to_string(entry.path().as_path()).unwrap();
-                    filter_set.add_filter_list(&contents, FilterFormat::Standard);
+                    match read_to_string(&entry.path()) {
+                        Ok(contents) => {
+                            filter_set.add_filter_list(&contents, FilterFormat::Standard);
+                        }
+                        Err(e) => {
+                            adblock_debug!("Loading filter {:?} failed: {}", entry.path(), e);
+                        }
+                    }
                 }
             }
         }
