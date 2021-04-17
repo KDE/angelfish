@@ -1,6 +1,6 @@
 /***************************************************************************
  *                                                                         *
- *   SPDX-FileCopyrightText: 2020 Jonah Brüchert <jbb@kaidan.im>           *
+ *   SPDX-FileCopyrightText: 2021 Jonah Brüchert <jbb@kaidan.im>           *
  *   SPDX-FileCopyrightText: 2020 Rinigus <rinigus.git@gmail.com>          *
  *                                                                         *
  *   SPDX-License-Identifier: GPL-2.0-or-later                             *
@@ -15,20 +15,21 @@
 UserAgent::UserAgent(QObject *parent)
     : QObject(parent)
     , m_defaultProfile(QQuickWebEngineProfile::defaultProfile())
-    , m_chromeVersion(extractValueFromAgent("Chrome"))
-    , m_appleWebKitVersion(extractValueFromAgent("AppleWebKit"))
-    , m_webEngineVersion(extractValueFromAgent("QtWebEngine"))
-    , m_safariVersion(extractValueFromAgent("Safari"))
+    , m_defaultUserAgent(m_defaultProfile->httpUserAgent())
+    , m_chromeVersion(extractValueFromAgent(u"Chrome"))
+    , m_appleWebKitVersion(extractValueFromAgent(u"AppleWebKit"))
+    , m_webEngineVersion(extractValueFromAgent(u"QtWebEngine"))
+    , m_safariVersion(extractValueFromAgent(u"Safari"))
     , m_isMobile(true)
 {
 }
 
 QString UserAgent::userAgent() const
 {
-    return QStringLiteral(
-               "Mozilla/5.0 (%1) AppleWebKit/%2 (KHTML, like Gecko) QtWebEngine/%3 "
-               "Chrome/%4 %5 Safari/%6")
-        .arg(m_isMobile ? QStringLiteral("Linux; Plasma Mobile, like Android 9.0") : QStringLiteral("X11; Linux x86_64"),
+    return QStringView(
+               u"Mozilla/5.0 (%1) AppleWebKit/%2 (KHTML, like Gecko) QtWebEngine/%3 "
+               u"Chrome/%4 %5 Safari/%6")
+        .arg(m_isMobile ? u"Linux; Plasma Mobile, like Android 9.0" : u"X11; Linux x86_64",
              m_appleWebKitVersion,
              m_webEngineVersion,
              m_chromeVersion,
@@ -51,10 +52,9 @@ void UserAgent::setIsMobile(bool value)
     }
 }
 
-QString UserAgent::extractValueFromAgent(const std::string &key)
+QStringView UserAgent::extractValueFromAgent(const QStringView key)
 {
-    const std::string defaultUserAgent = m_defaultProfile->httpUserAgent().toStdString();
-    const std::string::size_type index = defaultUserAgent.find(key) + key.length() + 1;
-    const std::string::size_type endIndex = defaultUserAgent.find(' ', index);
-    return QString::fromStdString(defaultUserAgent.substr(index, endIndex - index));
+    const qsizetype index = m_defaultUserAgent.indexOf(key) + key.length() + 1;
+    const qsizetype endIndex = m_defaultUserAgent.indexOf(u' ', index);
+    return m_defaultUserAgent.midRef(index, int(endIndex - index));
 }

@@ -33,13 +33,14 @@ signals:
     void userAgentChanged();
 
 private:
-    QString extractValueFromAgent(const std::string &key);
+    QStringView extractValueFromAgent(const QStringView key);
 
     const QQuickWebEngineProfile *m_defaultProfile;
-    const QString m_chromeVersion;
-    const QString m_appleWebKitVersion;
-    const QString m_webEngineVersion;
-    const QString m_safariVersion;
+    const QString m_defaultUserAgent;
+    const QStringView m_chromeVersion;
+    const QStringView m_appleWebKitVersion;
+    const QStringView m_webEngineVersion;
+    const QStringView m_safariVersion;
 
     bool m_isMobile;
 };
