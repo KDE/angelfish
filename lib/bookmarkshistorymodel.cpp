@@ -13,6 +13,7 @@
 #include <QDateTime>
 #include <QDebug>
 #include <QSqlError>
+#include <QSqlQuery>
 
 constexpr int QUERY_LIMIT = 1000;
 

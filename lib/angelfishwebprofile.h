@@ -6,10 +6,10 @@
 
 #include <QObject>
 #include <QQuickWebEngineProfile>
-#include <QWebEngineUrlRequestInterceptor>
 
 class QWebEngineNotification;
 class QQuickItem;
+class QWebEngineUrlRequestInterceptor;
 
 class AngelfishWebProfile : public QQuickWebEngineProfile
 {

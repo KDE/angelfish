@@ -11,6 +11,7 @@
 #define USERAGENT_H
 
 #include <QObject>
+
 class QQuickWebEngineProfile;
 
 class UserAgent : public QObject

@@ -8,7 +8,8 @@
 #define TABSMODEL_H
 
 #include <QAbstractListModel>
-#include <QJsonObject>
+
+class QJsonObject;
 
 class TabState
 {

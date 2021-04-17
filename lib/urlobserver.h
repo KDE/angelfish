@@ -10,7 +10,6 @@
 #define URLOBSERVER_H
 
 #include <QObject>
-#include <QString>
 
 class UrlObserver : public QObject
 {
@@ -27,7 +26,7 @@ public:
     bool bookmarked() const;
 
 signals:
-    void urlChanged(QString url);
+    void urlChanged(const QString &url);
     void bookmarkedChanged(bool bookmarked);
 
 private:

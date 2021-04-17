@@ -8,6 +8,7 @@
 #include <QSignalSpy>
 #include <QCoreApplication>
 #include <QStandardPaths>
+#include <QSqlQuery>
 
 #include "dbmanager.h"
 #include "sqlquerymodel.h"

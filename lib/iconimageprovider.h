@@ -10,8 +10,9 @@
 #ifndef ICONIMAGEPROVIDER_H
 #define ICONIMAGEPROVIDER_H
 
-#include <QQmlApplicationEngine>
 #include <QQuickImageProvider>
+
+class QQmlApplicationEngine;
 
 class IconImageProvider : public QQuickImageProvider
 {
