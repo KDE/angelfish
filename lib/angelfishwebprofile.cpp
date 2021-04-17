@@ -47,7 +47,7 @@ void AngelfishWebProfile::handleDownload(QQuickWebEngineDownloadItem *downloadIt
 
 void AngelfishWebProfile::handleDownloadFinished(QQuickWebEngineDownloadItem *downloadItem)
 {
-    QQuickWindow *window = static_cast<QQuickItem *>(m_questionLoader)->window();
+    QQuickWindow *window = m_questionLoader->window();
     const auto passiveNotification = [window](const QString &text) {
         QMetaObject::invokeMethod(window, "showPassiveNotification", Q_ARG(QVariant, text), Q_ARG(QVariant, {}), Q_ARG(QVariant, {}), Q_ARG(QVariant, {}));
     };
@@ -72,7 +72,7 @@ void AngelfishWebProfile::handleDownloadFinished(QQuickWebEngineDownloadItem *do
 
 void AngelfishWebProfile::showNotification(QWebEngineNotification *webNotification)
 {
-    KNotification *notification = new KNotification(QStringLiteral("web-notification"));
+    auto *notification = new KNotification(QStringLiteral("web-notification"));
     notification->setTitle(webNotification->title());
     notification->setText(webNotification->message());
     notification->setPixmap(QPixmap::fromImage(webNotification->icon()));

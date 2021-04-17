@@ -9,12 +9,13 @@
 #include <QWebEngineUrlRequestInterceptor>
 
 class QWebEngineNotification;
+class QQuickItem;
 
 class AngelfishWebProfile : public QQuickWebEngineProfile
 {
     Q_OBJECT
 
-    Q_PROPERTY(QObject *questionLoader MEMBER m_questionLoader NOTIFY questionLoaderChanged)
+    Q_PROPERTY(QQuickItem *questionLoader MEMBER m_questionLoader NOTIFY questionLoaderChanged)
     Q_PROPERTY(QWebEngineUrlRequestInterceptor *urlInterceptor WRITE setUrlInterceptor READ urlInterceptor NOTIFY urlInterceptorChanged)
 
 public:
@@ -31,7 +32,7 @@ private:
     void handleDownloadFinished(QQuickWebEngineDownloadItem *downloadItem);
     void showNotification(QWebEngineNotification *webNotification);
 
-    QObject *m_questionLoader;
+    QQuickItem *m_questionLoader;
 
     // A valid property needs a read function, and there is no getter in QQuickWebEngineProfile
     // so store a pointer ourselves
