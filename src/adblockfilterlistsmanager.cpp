@@ -11,6 +11,24 @@
 
 #include "angelfishsettings.h"
 
+void copyStream(QIODevice &input, QIODevice &output) {
+    constexpr auto BUFFER_SIZE = 1024;
+
+    QByteArray buffer;
+    buffer.reserve(BUFFER_SIZE);
+
+    while (true) {
+        int64_t read = input.read(buffer.data(), BUFFER_SIZE);
+
+        if (read > 0) {
+            output.write(buffer.data(), read);
+        } else {
+            break;
+        }
+    }
+}
+
+
 AdblockFilterListsManager::AdblockFilterListsManager(QObject *parent)
     : QObject(parent)
     , m_filterLists(loadFromConfig())
@@ -39,6 +57,8 @@ QString AdblockFilterListsManager::filterListPath()
 
 void AdblockFilterListsManager::handleListFetched(QNetworkReply *reply)
 {
+    Q_ASSERT(reply);
+
     m_runningRequests--;
 
     if (m_runningRequests < 1) {
@@ -51,7 +71,8 @@ void AdblockFilterListsManager::handleListFetched(QNetworkReply *reply)
                  << "Filter list not updated";
         return;
     }
-    file.write(reply->readAll()); // TODO don't read everything into memory maybe
+
+    copyStream(*reply, file);
 }
 
 QVector<AdblockFilterListsManager::FilterList> AdblockFilterListsManager::loadFromConfig()
