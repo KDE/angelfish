@@ -116,9 +116,9 @@ dependencies = [
 
 [[package]]
 name = "cxx"
-version = "1.0.46"
+version = "1.0.48"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "786d5484d1e8ec307dbd6565f534de31f1d1131afce0fa1eb77ac3b8b47d3f26"
+checksum = "b53ffa1d2355414f3a0d7345e5191e77dca352c66a21486c8bfae33c5f470a47"
 dependencies = [
  "cc",
  "cxxbridge-flags",
@@ -128,9 +128,9 @@ dependencies = [
 
 [[package]]
 name = "cxx-build"
-version = "1.0.46"
+version = "1.0.48"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "773012f0cc8a0d4fa96c884664eea2589b78bb53adfd566df80715335fb0c9fa"
+checksum = "d7fc1451a69507649784d0ae9537aa3557d6943ede21460747bdc0ddba9bbf18"
 dependencies = [
  "cc",
  "codespan-reporting",
@@ -143,15 +143,15 @@ dependencies = [
 
 [[package]]
 name = "cxxbridge-flags"
-version = "1.0.46"
+version = "1.0.48"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1ebc520fbb05a3913547145a408100889e01a45443cd6b97eb2aaf0c992e4736"
+checksum = "34560513bcf81a14fb75fbf2d2636bf144c75ece86fec9787ae1e3f5c92c2619"
 
 [[package]]
 name = "cxxbridge-macro"
-version = "1.0.46"
+version = "1.0.48"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2fc494eaa42be90f0e55f5b85d664598c0513a97cddd3143b74eeada92bfc154"
+checksum = "36c47326a5dd27a59d1a5c79bb4f3c46e30e7bc07a78f185112a83c4e270a0dd"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -214,9 +214,9 @@ checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
 
 [[package]]
 name = "libc"
-version = "0.2.93"
+version = "0.2.94"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9385f66bf6105b241aa65a61cb923ef20efc665cb9f9bb50ac2f0c4b7f378d41"
+checksum = "18794a8ad5b29321f790b55d93dfba91e125cb1a9edbd4f8e3150acc771c1a5e"
 
 [[package]]
 name = "lifeguard"
@@ -287,9 +287,9 @@ dependencies = [
 
 [[package]]
 name = "psl"
-version = "2.0.22"
+version = "2.0.24"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "05fb789c0926b693dff68852600350828b36b95ae9c18cc7b22e5c8cebaa5fb4"
+checksum = "e0182c0839df773d0806240ed3cf65faa47aba447e235c3137a7a0b7f6abed54"
 dependencies = [
  "psl-types",
 ]
@@ -381,9 +381,9 @@ dependencies = [
 
 [[package]]
 name = "syn"
-version = "1.0.70"
+version = "1.0.71"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b9505f307c872bab8eb46f77ae357c8eba1fdacead58ee5a850116b1d7f82883"
+checksum = "ad184cc9470f9117b2ac6817bfe297307418819ba40552f9b3846f05c33d5373"
 dependencies = [
  "proc-macro2",
  "quote",
