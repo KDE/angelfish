@@ -65,9 +65,20 @@
             ]
         },
         {
+            "name": "kf5feedback",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://invent.kde.org/jbbgameich/qtfeedback/",
+                    "branch": "kf5"
+                }
+            ]
+        },
+        {
             "name": "angelfish",
             "buildsystem": "cmake-ninja",
-            "config-opts": ["-DBUILD_TESTING=OFF", "-DCMAKE_BUILD_TYPE=Release"],
+            "config-opts": ["-DBUILD_TESTING=OFF", "-DCMAKE_BUILD_TYPE=Release", "-DQt5Feedback_DIR=/app/lib/cmake/Qt5Feedback"],
             "builddir": true,
             "build-options": {
                 "env": {
