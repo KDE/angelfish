@@ -63,7 +63,6 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+</project_license>
   <developer_name>KDE Community</developer_name>
-  <url type="bugtracker">https://invent.kde.org/plasma-mobile/angelfish/-/issues</url>
   <developer_name xml:lang="az">KDE İcması</developer_name>
   <developer_name xml:lang="ca">La comunitat KDE</developer_name>
   <developer_name xml:lang="ca-valencia">La comunitat KDE</developer_name>
@@ -97,6 +96,7 @@
   <developer_name xml:lang="uk">Спільнота KDE</developer_name>
   <developer_name xml:lang="x-test">xxKDE Communityxx</developer_name>
   <developer_name xml:lang="zh-TW">KDE 社群</developer_name>
+  <url type="bugtracker">https://invent.kde.org/plasma-mobile/angelfish/-/issues</url>
   <description>
     <p>Angelfish is a modern mobile webbrowser</p>
     <p xml:lang="az">Angelfish müasir mobil veb_bələdçidir</p>
