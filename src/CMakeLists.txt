@@ -33,7 +33,7 @@ if (Corrosion_FOUND)
         ${CMAKE_BINARY_DIR}/cargo/build/${Rust_CARGO_TARGET}/cxxbridge/angelfish-adblock/src/)
 endif()
 
-target_include_directories(angelfish PRIVATE)
+target_include_directories(angelfish PRIVATE ${CMAKE_BINARY_DIR})
 target_compile_definitions(angelfish PRIVATE -DQT_NO_CAST_FROM_ASCII)
 target_link_libraries(angelfish PRIVATE
     Qt5::Core

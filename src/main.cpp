@@ -33,6 +33,7 @@
 #include "urlobserver.h"
 #include "urlutils.h"
 #include "useragent.h"
+#include "version.h"
 
 constexpr auto APPLICATION_ID = "org.kde.mobile.angelfish";
 
@@ -51,6 +52,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
     QCoreApplication::setOrganizationDomain(QStringLiteral("mobile.kde.org"));
     QCoreApplication::setApplicationName(QStringLiteral("angelfish"));
+    QCoreApplication::setApplicationVersion(QStringLiteral(ANGELFISH_VERSION_STRING));
     KLocalizedString::setApplicationDomain("angelfish");
 
 #if QT_VERSION <= QT_VERSION_CHECK(5, 14, 0)
@@ -61,6 +63,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QCommandLineParser parser;
     parser.addPositionalArgument(QStringLiteral("url"), i18n("URL to open"), QStringLiteral("[url]"));
     parser.addHelpOption();
+    parser.addVersionOption();
     parser.process(app);
 
     // QML loading
