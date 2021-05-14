@@ -61,7 +61,7 @@ bool DesktopFileGenerator::removeDesktopFile(const QString &name)
 {
     const QString location = QStandardPaths::writableLocation(QStandardPaths::ApplicationsLocation);
     const QString filename = generateFileName(name);
-    return QFile::remove(QStringLiteral("%1/%2.desktop").arg(std::move(location), std::move(filename)));
+    return QFile::remove(QStringLiteral("%1/%2.desktop").arg(location, filename));
 }
 
 void DesktopFileGenerator::storeIcon(const QString &url, const QString &fileName)
@@ -109,8 +109,8 @@ QString DesktopFileGenerator::generateFileName(const QString &name)
 {
     QString filename = name.toLower();
     filename.replace(QStringLiteral(" "), QStringLiteral("_"));
-    filename.replace(QStringLiteral("'"), QStringLiteral(""));
-    filename.replace(QStringLiteral("\""), QStringLiteral(""));
+    filename.replace(QStringLiteral("'"), QLatin1String());
+    filename.replace(QStringLiteral("\""), QLatin1String());
     return filename;
 }
 
