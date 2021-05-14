@@ -12,7 +12,7 @@ import QtQml.Models 2.1
 import QtWebEngine 1.6
 
 import org.kde.kirigami 2.7 as Kirigami
-import org.kde.mobile.angelfish 1.0
+import org.kde.angelfish 1.0
 
 
 Repeater {

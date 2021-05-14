@@ -36,7 +36,7 @@
 #include "version.h"
 #include "webappmanagermodel.h"
 
-constexpr auto APPLICATION_ID = "org.kde.mobile.angelfish";
+constexpr auto APPLICATION_ID = "org.kde.angelfish";
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {

@@ -16,7 +16,7 @@
 #include "angelfishsettings.h"
 #endif
 
-Q_LOGGING_CATEGORY(AdblockCategory, "org.kde.mobile.angelfish.adblock", QtWarningMsg);
+Q_LOGGING_CATEGORY(AdblockCategory, "org.kde.angelfish.adblock", QtWarningMsg);
 
 AdblockUrlInterceptor::AdblockUrlInterceptor(QObject *parent)
     : QWebEngineUrlRequestInterceptor(parent)

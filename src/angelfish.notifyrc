@@ -1,6 +1,6 @@
 [Global]
-IconName=org.kde.mobile.angelfish
-DesktopEntry=org.kde.mobile.angelfish
+IconName=org.kde.angelfish
+DesktopEntry=org.kde.angelfish
 Comment=Webbrowser
 Comment[az]=Veb Bələdçi
 Comment[ca]=Navegador web

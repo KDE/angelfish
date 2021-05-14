@@ -12,7 +12,7 @@ import QtQuick.Controls 2.2 as Controls
 import QtQuick.Layouts 1.2
 
 import org.kde.kirigami 2.5 as Kirigami
-import org.kde.mobile.angelfish 1.0
+import org.kde.angelfish 1.0
 
 import "regex-weburl.js" as RegexWebUrl
 

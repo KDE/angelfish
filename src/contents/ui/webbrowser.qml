@@ -15,7 +15,7 @@ import QtQuick.Controls 2.2 as Controls
 
 import org.kde.kirigami 2.7 as Kirigami
 
-import org.kde.mobile.angelfish 1.0
+import org.kde.angelfish 1.0
 
 Kirigami.ApplicationWindow {
     id: webBrowser

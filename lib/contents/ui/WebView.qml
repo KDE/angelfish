@@ -13,7 +13,7 @@ import QtQuick.Layouts 1.3
 import QtWebEngine 1.10
 
 import org.kde.kirigami 2.4 as Kirigami
-import org.kde.mobile.angelfish 1.0
+import org.kde.angelfish 1.0
 
 
 WebEngineView {

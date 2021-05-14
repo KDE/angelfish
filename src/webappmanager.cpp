@@ -128,7 +128,7 @@ QString WebAppManager::webAppCommand()
                    "flatpak run "
                    "--command=angelfish-webapp "
                    "--filesystem=%1 "
-                   "org.kde.mobile.angelfish")
+                   "org.kde.angelfish")
             .arg(QStandardPaths::writableLocation(QStandardPaths::ApplicationsLocation));
     }
 

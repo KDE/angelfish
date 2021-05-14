@@ -1,5 +1,5 @@
 {
-    "id": "org.kde.mobile.angelfish",
+    "id": "org.kde.angelfish",
     "runtime": "org.kde.Platform",
     "runtime-version": "5.15",
     "sdk": "org.kde.Sdk",
@@ -18,7 +18,7 @@
         "--filesystem=xdg-data",
         "--filesystem=xdg-download",
         "--talk-name=org.freedesktop.Notifications",
-        "--own-name=org.kde.mobile.angelfish"
+        "--own-name=org.kde.angelfish"
     ],
     "separate-locales": false,
     "add-extensions": {

@@ -11,7 +11,7 @@ import QtQuick.Controls 2.4 as Controls
 import QtQuick.Layouts 1.11
 
 import org.kde.kirigami 2.7 as Kirigami
-import org.kde.mobile.angelfish 1.0
+import org.kde.angelfish 1.0
 
 Kirigami.ScrollablePage {
     title: i18n("Settings")
