@@ -349,39 +349,6 @@
     </screenshot>
     <screenshot>
       <caption>Tabs View</caption>
-      <caption xml:lang="az">Vərəqlər</caption>
-      <caption xml:lang="ca">Pestanyes</caption>
-      <caption xml:lang="ca-valencia">Pestanyes</caption>
-      <caption xml:lang="cs">Karty</caption>
-      <caption xml:lang="da">Faneblade</caption>
-      <caption xml:lang="de">Unterfenster</caption>
-      <caption xml:lang="el">Καρτέλες</caption>
-      <caption xml:lang="en-GB">Tabs</caption>
-      <caption xml:lang="es">Pestañas</caption>
-      <caption xml:lang="et">Kaardid</caption>
-      <caption xml:lang="eu">Fitxak</caption>
-      <caption xml:lang="fi">Välilehdet</caption>
-      <caption xml:lang="fr">Onglets</caption>
-      <caption xml:lang="gl">Separadores</caption>
-      <caption xml:lang="hu">Lapok</caption>
-      <caption xml:lang="ia">Schedas</caption>
-      <caption xml:lang="id">Tab</caption>
-      <caption xml:lang="it">Schede</caption>
-      <caption xml:lang="ko">탭</caption>
-      <caption xml:lang="lt">Kortelės</caption>
-      <caption xml:lang="nl">Tabbladen</caption>
-      <caption xml:lang="nn">Faner</caption>
-      <caption xml:lang="pa">ਟੈਬਾਂ</caption>
-      <caption xml:lang="pl">Karty</caption>
-      <caption xml:lang="pt">Páginas</caption>
-      <caption xml:lang="pt-BR">Abas</caption>
-      <caption xml:lang="ru">Вкладки</caption>
-      <caption xml:lang="sk">Karty</caption>
-      <caption xml:lang="sl">Zavihki</caption>
-      <caption xml:lang="sv">Flikar</caption>
-      <caption xml:lang="uk">Вкладки</caption>
-      <caption xml:lang="x-test">xxTabsxx</caption>
-      <caption xml:lang="zh-TW">分頁</caption>
       <image type="source">https://cdn.kde.org/screenshots/plasma-angelfish/tabs.png</image>
     </screenshot>
   </screenshots>
