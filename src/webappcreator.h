@@ -6,27 +6,31 @@
  *                                                                         *
  ***************************************************************************/
 
-#ifndef DESKTOPFILEGENERATOR_H
-#define DESKTOPFILEGENERATOR_H
+#pragma once
 
 #include <QObject>
-class QQmlEngine;
 
-class DesktopFileGenerator : public QObject
+#include <memory>
+
+class QQmlEngine;
+class WebAppManager;
+
+class WebAppCreator : public QObject
 {
     Q_OBJECT
+
 public:
-    explicit DesktopFileGenerator(QQmlEngine *engine, QObject *parent = nullptr);
+    explicit WebAppCreator(QQmlEngine *engine, QObject *parent = nullptr);
+    ~WebAppCreator();
 
     Q_INVOKABLE void createDesktopFile(const QString &name, const QString &url, const QString &icon);
     Q_INVOKABLE bool desktopFileExists(const QString &name);
-    Q_INVOKABLE bool removeDesktopFile(const QString &name);
+
+Q_SIGNALS:
+    void applicationsChanged();
 
 private:
-    void storeIcon(const QString &url, const QString &fileName);
-    QString generateFileName(const QString &name);
-    QString webappCommand();
+    QImage fetchIcon(const QString &url);
     QQmlEngine *m_engine;
+    WebAppManager &m_webAppMngr;
 };
-
-#endif // DESKTOPFILEGENERATOR_H

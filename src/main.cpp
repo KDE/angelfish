@@ -26,7 +26,7 @@
 #include "angelfishwebprofile.h"
 #include "bookmarkshistorymodel.h"
 #include "browsermanager.h"
-#include "desktopfilegenerator.h"
+#include "webappcreator.h"
 #include "downloadsmodel.h"
 #include "iconimageprovider.h"
 #include "tabsmodel.h"
@@ -34,6 +34,7 @@
 #include "urlutils.h"
 #include "useragent.h"
 #include "version.h"
+#include "webappmanagermodel.h"
 
 constexpr auto APPLICATION_ID = "org.kde.mobile.angelfish";
 
@@ -122,6 +123,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     qmlRegisterSingletonInstance<AngelfishSettings>(APPLICATION_ID, 1, 0, "Settings", AngelfishSettings::self());
     qmlRegisterType<AdblockFilterListsModel>(APPLICATION_ID, 1, 0, "AdblockFilterListsModel");
     qmlRegisterType<DownloadsModel>(APPLICATION_ID, 1, 0, "DownloadsModel");
+    qmlRegisterType<WebAppManagerModel>(APPLICATION_ID, 1, 0, "WebAppManagerModel");
     qmlRegisterAnonymousType<QWebEngineUrlRequestInterceptor>(APPLICATION_ID, 1);
 
     // URL utils
@@ -135,8 +137,8 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     });
 
     // Angelfish-webapp generator
-    qmlRegisterSingletonType<DesktopFileGenerator>(APPLICATION_ID, 1, 0, "DesktopFileGenerator", [](QQmlEngine *engine, QJSEngine *) -> QObject * {
-        return new DesktopFileGenerator(engine);
+    qmlRegisterSingletonType<WebAppCreator>(APPLICATION_ID, 1, 0, "WebAppCreator", [](QQmlEngine *engine, QJSEngine *) -> QObject * {
+        return new WebAppCreator(engine);
     });
 
     Q_INIT_RESOURCE(resources);

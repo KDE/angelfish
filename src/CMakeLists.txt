@@ -5,11 +5,13 @@
 
 set(angelfish_SRCS
     main.cpp
-    desktopfilegenerator.cpp
     adblockfilterlistsmodel.cpp
     adblockfilterlistsmanager.cpp
     adblockurlinterceptor.cpp
     downloadsmodel.cpp
+    webappcreator.cpp
+    webappmanager.cpp
+    webappmanagermodel.cpp
     angelfish.qrc
 )
 

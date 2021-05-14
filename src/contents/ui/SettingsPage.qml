@@ -99,6 +99,19 @@ Kirigami.ScrollablePage {
             Layout.fillWidth: true
         }
 
+        Controls.ItemDelegate {
+            text: i18n("Web Apps")
+            Layout.fillWidth: true
+            leftPadding: Kirigami.Units.gridUnit
+            rightPadding: Kirigami.Units.gridUnit
+            implicitHeight: Kirigami.Units.gridUnit * 2.5
+            onClicked: pageStack.push(Qt.resolvedUrl("SettingsWebApps.qml"))
+        }
+
+        Kirigami.Separator {
+            Layout.fillWidth: true
+        }
+
         Item {
             Layout.fillHeight: true
         }

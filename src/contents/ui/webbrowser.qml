@@ -279,18 +279,14 @@ Kirigami.ApplicationWindow {
                 }
             },
             Kirigami.Action {
+                id: addHomeScreenAction
                 icon.name: "list-add"
                 text: i18n("Add to homescreen")
-                checkable: true
-                checked: DesktopFileGenerator.desktopFileExists(currentWebView.title)
+                enabled: !WebAppCreator.desktopFileExists(currentWebView.title)
                 onTriggered: {
-                    if (checked) {
-                        DesktopFileGenerator.createDesktopFile(currentWebView.title,
-                                                               currentWebView.url,
-                                                               currentWebView.icon)
-                    } else {
-                        DesktopFileGenerator.removeDesktopFile(currentWebView.title)
-                    }
+                    WebAppCreator.createDesktopFile(currentWebView.title,
+                                                           currentWebView.url,
+                                                           currentWebView.icon)
                 }
             },
             Kirigami.Action {
@@ -361,6 +357,15 @@ Kirigami.ApplicationWindow {
                 }
             }
         ]
+
+        // Update enabled state of the add to homescreen action
+        Connections {
+            target: WebAppCreator
+
+            function onApplicationsChanged() {
+                addHomeScreenAction.enabled = !WebAppCreator.desktopFileExists(currentWebView.title)
+            }
+        }
         
         // Tabs sheet
         Loader {
