@@ -1,6 +1,6 @@
 # Angelfish
 
-This is an experimental webbrowser designed to 
+This is a webbrowser designed to
 
 - be used on small mobile devices,
 - integrate well in Plasma workspaces
@@ -34,5 +34,5 @@ To enable adblock logging, add the following to `~/.config/QtProject/qtlogging.i
 org.kde.mobile.angelfish.adblock.debug=true
 ```
 
-## Flatpak
+### Flatpak
 If one of the Cargo.toml files is updated, the flatpak sources need to be regenerated. That can be done using the `./flatpak/regenerate-sources.sh` script.
