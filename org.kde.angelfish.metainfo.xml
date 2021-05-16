@@ -349,6 +349,17 @@
     </screenshot>
     <screenshot>
       <caption>Tabs View</caption>
+      <caption xml:lang="az">Vərəq görünüşü</caption>
+      <caption xml:lang="ca">Vista en pestanyes</caption>
+      <caption xml:lang="de">Unterfensteransicht</caption>
+      <caption xml:lang="es">Vista de pestañas</caption>
+      <caption xml:lang="nl">Tabbladenweergave</caption>
+      <caption xml:lang="pl">Widok kart</caption>
+      <caption xml:lang="pt">Vista de Páginas</caption>
+      <caption xml:lang="sl">Pogled zavihkov</caption>
+      <caption xml:lang="sv">Flikvy</caption>
+      <caption xml:lang="uk">Перегляд з вкладками</caption>
+      <caption xml:lang="x-test">xxTabs Viewxx</caption>
       <image type="source">https://cdn.kde.org/screenshots/plasma-angelfish/tabs.png</image>
     </screenshot>
   </screenshots>
