@@ -15,6 +15,7 @@
   <name xml:lang="fr">Navigateur Internet Angelfish</name>
   <name xml:lang="ia">Angelfish Webbrowser (navigator web)</name>
   <name xml:lang="it">Browser web Angelfish</name>
+  <name xml:lang="ko">Angelfish 웹 브라우저</name>
   <name xml:lang="nl">Webbrowser Angelfish</name>
   <name xml:lang="nn">Angelfish nettlesar</name>
   <name xml:lang="pa">ਐਂਗਲਫਿਸ਼ ਵੈੱਬ ਬਰਾਊਜ਼ਰ</name>
@@ -351,8 +352,10 @@
       <caption>Tabs View</caption>
       <caption xml:lang="az">Vərəq görünüşü</caption>
       <caption xml:lang="ca">Vista en pestanyes</caption>
+      <caption xml:lang="ca-valencia">Vista en pestanyes</caption>
       <caption xml:lang="de">Unterfensteransicht</caption>
       <caption xml:lang="es">Vista de pestañas</caption>
+      <caption xml:lang="ko">탭 보기</caption>
       <caption xml:lang="nl">Tabbladenweergave</caption>
       <caption xml:lang="pl">Widok kart</caption>
       <caption xml:lang="pt">Vista de Páginas</caption>
