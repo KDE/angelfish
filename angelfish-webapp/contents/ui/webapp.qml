@@ -13,7 +13,7 @@ import QtGraphicalEffects 1.0
 import Qt.labs.settings 1.0 as QtSettings
 
 import org.kde.kirigami 2.7 as Kirigami
-import org.kde.mobile.angelfish 1.0
+import org.kde.angelfish 1.0
 
 import QtQuick.Layouts 1.2
 

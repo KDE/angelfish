@@ -31,7 +31,7 @@ The variable contains the port on which the development tools will be available.
 To enable adblock logging, add the following to `~/.config/QtProject/qtlogging.ini`:
 ```
 [Rules]
-org.kde.mobile.angelfish.adblock.debug=true
+org.kde.angelfish.adblock.debug=true
 ```
 
 ### Flatpak
