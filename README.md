@@ -5,6 +5,10 @@ This is a webbrowser designed to
 - be used on small mobile devices,
 - integrate well in Plasma workspaces
 
+## Reporting bugs
+
+Please choose the "default_issue" description template when opening issues.
+
 ## Preliminary roadmap:
 - [x] browser navigation: back + forward + reload
 - [x] browser status
