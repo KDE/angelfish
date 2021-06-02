@@ -25,7 +25,6 @@ Kirigami.OverlaySheet {
     Purpose.AlternativesView {
         id: view
         pluginType: "ShareUrl"
-        implicitHeight: initialItem.contentHeight
         clip: true
 
         delegate: Kirigami.BasicListItem {
