@@ -18,21 +18,13 @@ set(angelfish_SRCS
 add_executable(angelfish ${angelfish_SRCS})
 
 if (Corrosion_FOUND)
-    add_custom_target(adblock
-        SOURCES
-        rs/adblock/Cargo.toml
-        rs/adblock/build.rs
-        rs/adblock/src/lib.rs
-        rs/adblock/src/adblock.rs
-        rs/adblock/src/domainresolver.rs
-        rs/adblock/src/logging.rs)
-
-    corrosion_import_crate(MANIFEST_PATH ${CMAKE_CURRENT_SOURCE_DIR}/rs/adblock/Cargo.toml)
-    target_link_libraries(angelfish PRIVATE angelfish-adblock)
-    target_compile_definitions(angelfish PRIVATE -DBUILD_ADBLOCK)
+    corrosion_import_crate(MANIFEST_PATH ${CMAKE_SOURCE_DIR}/Cargo.toml CRATES angelfish-adblock angelfish-readability)
+    target_link_libraries(angelfish PRIVATE angelfish-adblock angelfish-readability)
+    target_compile_definitions(angelfish PRIVATE -DHAVE_RUST)
 
     target_include_directories(angelfish PRIVATE
-        ${CMAKE_BINARY_DIR}/cargo/build/${Rust_CARGO_TARGET}/cxxbridge/angelfish-adblock/src/)
+        ${CMAKE_BINARY_DIR}/cargo/build/${Rust_CARGO_TARGET}/cxxbridge/angelfish-adblock/src/
+        ${CMAKE_BINARY_DIR}/cargo/build/${Rust_CARGO_TARGET}/cxxbridge/angelfish-readability/src/)
 endif()
 
 target_include_directories(angelfish PRIVATE ${CMAKE_BINARY_DIR})

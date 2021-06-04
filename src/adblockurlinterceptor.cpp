@@ -19,7 +19,7 @@ Q_LOGGING_CATEGORY(AdblockCategory, "org.kde.angelfish.adblock", QtWarningMsg);
 
 AdblockUrlInterceptor::AdblockUrlInterceptor(QObject *parent)
     : QWebEngineUrlRequestInterceptor(parent)
-#ifdef BUILD_ADBLOCK
+#ifdef HAVE_RUST
     // parsing the block lists takes some time, try to do it asynchronously
     // if it is not ready when it's needed, reading the future will block
     , m_adblockInitFuture(std::async(std::launch::async, [this] { return createOrRestoreAdblock(); }))
@@ -27,7 +27,7 @@ AdblockUrlInterceptor::AdblockUrlInterceptor(QObject *parent)
 #endif
     , m_enabled(AngelfishSettings::adblockEnabled())
 {
-#ifdef BUILD_ADBLOCK
+#ifdef HAVE_RUST
     connect(this, &AdblockUrlInterceptor::adblockInitialized, this, [this] {
         if (m_adblockInitFuture.valid()) {
             qDebug() << "Adblock ready";
@@ -37,7 +37,7 @@ AdblockUrlInterceptor::AdblockUrlInterceptor(QObject *parent)
 #endif
 }
 
-#ifdef BUILD_ADBLOCK
+#ifdef HAVE_RUST
 rust::Box<Adblock> AdblockUrlInterceptor::createOrRestoreAdblock()
 {
     rust::Box<Adblock> adb = [] {
@@ -78,7 +78,7 @@ AdblockUrlInterceptor &AdblockUrlInterceptor::instance()
 
 AdblockUrlInterceptor::~AdblockUrlInterceptor()
 {
-#ifdef BUILD_ADBLOCK
+#ifdef HAVE_RUST
     if (m_adblock && (*m_adblock)->isValid() && (*m_adblock)->needsSave()) {
         (*m_adblock)->save(adblockCacheLocation().toStdString());
     }
@@ -92,7 +92,7 @@ bool AdblockUrlInterceptor::downloadNeeded() const
 
 void AdblockUrlInterceptor::resetAdblock()
 {
-#ifdef BUILD_ADBLOCK
+#ifdef HAVE_RUST
     if (m_adblock) {
         m_adblock = std::nullopt;
     }
@@ -142,7 +142,7 @@ inline std::string resourceTypeToString(const QWebEngineUrlRequestInfo::Resource
 
 void AdblockUrlInterceptor::interceptRequest(QWebEngineUrlRequestInfo &info)
 {
-#ifdef BUILD_ADBLOCK
+#ifdef HAVE_RUST
     if (!m_enabled) {
         return;
     }

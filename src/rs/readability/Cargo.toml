@@ -1,0 +1,20 @@
+# SPDX-FileCopyrightText: 2021 Jonah Brüchert <jbb@kaidan.im>
+#
+# SPDX-License-Identifier: GPL-2.0-or-later
+
+[package]
+name = "angelfish-readability"
+version = "0.1.0"
+authors = ["Jonah Brüchert <jbb.prv@gmx.de>"]
+edition = "2018"
+
+[lib]
+crate-type = ["staticlib"]
+
+[build-dependencies]
+cxx-build = "1.0"
+
+[dependencies]
+readability = { version = "0.2", default-features = false }
+url = "*"
+cxx = "1.0"

@@ -77,7 +77,7 @@ fn load_adblock(path: &str) -> Box<Adblock> {
 }
 
 impl Adblock {
-    /// returns a boxed AdblockResult object with information on whether
+    /// returns an AdblockResult object with information on whether
     /// the request should be blocked or redirected.
     fn should_block(&self, url: &str, source_url: &str, request_type: &str) -> ffi::AdblockResult {
         if let Some(engine) = &self.blocker {
