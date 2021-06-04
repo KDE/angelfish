@@ -8,7 +8,7 @@
 class QWebEngineUrlRequestInfo;
 class QQuickWebEngineProfile;
 
-#ifdef BUILD_ADBLOCK
+#ifdef HAVE_RUST
 #include <adblock.rs.h>
 #include <optional>
 #endif
@@ -20,6 +20,7 @@ class AdblockUrlInterceptor : public QWebEngineUrlRequestInterceptor
     Q_OBJECT
 
     Q_PROPERTY(bool downloadNeeded READ downloadNeeded NOTIFY downloadNeededChanged)
+
     Q_PROPERTY(bool enabled READ enabled WRITE setEnabled NOTIFY enabledChanged)
     Q_PROPERTY(bool adblockSupported READ adblockSupported CONSTANT)
 
@@ -42,7 +43,7 @@ public:
 
     constexpr static bool adblockSupported()
     {
-#ifdef BUILD_ADBLOCK
+#ifdef HAVE_RUST
         return true;
 #endif
         return false;
@@ -58,6 +59,7 @@ private:
     /// If an adblock cache is found, loads it, otherwise creates a new adblock
     /// from the current filter lists.
     rust::Box<Adblock> createOrRestoreAdblock();
+    rust::Box<Adblock> createAdblock();
 
     std::future<rust::Box<Adblock>> m_adblockInitFuture;
     std::optional<rust::Box<Adblock>> m_adblock;
