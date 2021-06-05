@@ -381,9 +381,9 @@
   <releases>
     <release version="21.06" date="2021-06-10">
       <description>
-       <ul>
-         <li>Add a settings page for managing web apps</li>
-       </ul>
+        <ul>
+          <li>Add a settings page for managing web apps</li>
+        </ul>
       </description>
     </release>
     <release version="21.05" date="2021-05-10"/>
