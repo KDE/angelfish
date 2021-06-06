@@ -1,10 +1,6 @@
-/***************************************************************************
- *                                                                         *
- *   SPDX-FileCopyrightText: 2020 Jonah Brüchert <jbb@kaidan.im>           *
- *                                                                         *
- *   SPDX-License-Identifier: GPL-2.0-or-later                             *
- *                                                                         *
- ***************************************************************************/
+// SPDX-FileCopyrightText: 2020 Jonah Brüchert <jbb@kaidan.im>
+//
+// SPDX-License-Identifier: GPL-2.0-or-later
 
 import org.kde.kirigami 2.4 as Kirigami
 import QtWebEngine 1.9

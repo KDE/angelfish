@@ -1,12 +1,8 @@
-/***************************************************************************
- *                                                                         *
- *   SPDX-FileCopyrightText: 2019 Simon Schmeisser <s.schmeisser@gmx.net>  *
- *   SPDX-FileCopyrightText: 2019 Jonah Brüchert <jbb@kaidan.im>           *
- *   SPDX-FileCopyrightText: 2020 Rinigus <rinigus.git@gmail.com>          *
- *                                                                         *
- *   SPDX-License-Identifier: GPL-2.0-or-later                             *
- *                                                                         *
- ***************************************************************************/
+// SPDX-FileCopyrightText: 2019 Simon Schmeisser <s.schmeisser@gmx.net>
+// SPDX-FileCopyrightText: 2019 Jonah Brüchert <jbb@kaidan.im>
+// SPDX-FileCopyrightText: 2020 Rinigus <rinigus.git@gmail.com>
+//
+// SPDX-License-Identifier: GPL-2.0-or-later
 
 import QtQuick 2.7
 import QtQuick.Controls 2.2 as Controls

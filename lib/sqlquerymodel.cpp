@@ -1,11 +1,7 @@
-/***************************************************************************
- *                                                                         *
- *   SPDX-FileCopyrightText: 2020 Jonah Brüchert <jbb@kaidan.im>           *
- *             2020 Rinigus <rinigus.git@gmail.com>                        *
- *                                                                         *
- *   SPDX-License-Identifier: GPL-2.0-or-later                             *
- *                                                                         *
- ***************************************************************************/
+// SPDX-FileCopyrightText: 2020 Jonah Brüchert <jbb@kaidan.im>
+// SPDX-FileCopyrightText: 2020 Rinigus <rinigus.git@gmail.com>
+//
+// SPDX-License-Identifier: GPL-2.0-or-later
 
 // Based on https://wiki.qt.io/How_to_Use_a_QSqlQueryModel_in_QML
 

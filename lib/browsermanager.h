@@ -1,10 +1,6 @@
-/***************************************************************************
- *                                                                         *
- *   SPDX-FileCopyrightText: 2014 Sebastian Kügler <sebas@kde.org>         *
- *                                                                         *
- *   SPDX-License-Identifier: GPL-2.0-or-later                             *
- *                                                                         *
- ***************************************************************************/
+// SPDX-FileCopyrightText: 2014 Sebastian Kügler <sebas@kde.org>
+//
+// SPDX-License-Identifier: GPL-2.0-or-later
 
 #ifndef BOOKMARKSMANAGER_H
 #define BOOKMARKSMANAGER_H

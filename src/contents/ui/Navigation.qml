@@ -1,11 +1,7 @@
-/***************************************************************************
- *                                                                         *
- *   SPDX-FileCopyrightText: 2014-2015 Sebastian Kügler <sebas@kde.org>    *
- *                           2021 Devin Lin <espidev@gmail.com>            *
- *                                                                         *
- *   SPDX-License-Identifier: GPL-2.0-or-later                             *
- *                                                                         *
- ***************************************************************************/
+// SPDX-FileCopyrightText: 2014-2015 Sebastian Kügler <sebas@kde.org>
+// SPDX-FileCopyrightText: 2021 Devin Lin <espidev@gmail.com>
+//
+// SPDX-License-Identifier: GPL-2.0-or-later
 
 import QtQuick 2.15
 import QtQuick.Layouts 1.0

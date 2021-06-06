@@ -1,10 +1,6 @@
-/***************************************************************************
- *                                                                         *
- *   SPDX-FileCopyrightText: 2019 Jonah Brüchert                           *
- *                                                                         *
- *   SPDX-License-Identifier: GPL-2.0-or-later                             *
- *                                                                         *
- ***************************************************************************/
+// SPDX-FileCopyrightText: 2019 Jonah Brüchert
+//
+// SPDX-License-Identifier: GPL-2.0-or-later
 
 import QtQuick.Controls 2.1 as Controls
 import QtQuick.Layouts 1.7

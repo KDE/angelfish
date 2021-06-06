@@ -1,10 +1,6 @@
-/***************************************************************************
- *                                                                         *
- *   SPDX-FileCopyrightText: 2020 Rinigus <rinigus.git@gmail.com>          *
- *                                                                         *
- *   SPDX-License-Identifier: GPL-2.0-or-later                             *
- *                                                                         *
- ***************************************************************************/
+// SPDX-FileCopyrightText: 2020 Rinigus <rinigus.git@gmail.com>
+//
+// SPDX-License-Identifier: GPL-2.0-or-later
 
 #include "urlobserver.h"
 #include "browsermanager.h"
