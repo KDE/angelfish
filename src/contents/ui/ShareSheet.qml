@@ -4,6 +4,7 @@
 import QtQuick.Controls 2.1 as Controls
 import QtQuick.Layouts 1.7
 import QtQuick 2.7
+import QtQuick.Window 2.15
 
 import org.kde.kirigami 2.5 as Kirigami
 import org.kde.purpose 1.0 as Purpose
@@ -21,6 +22,8 @@ Kirigami.OverlaySheet {
         id: view
         pluginType: "ShareUrl"
         clip: true
+
+        implicitHeight: Window.height * 0.5 //TODO remove one we depend on KF 5.84
 
         delegate: Kirigami.BasicListItem {
             label: model.display
