@@ -158,8 +158,8 @@ void AdblockUrlInterceptor::interceptRequest(QWebEngineUrlRequestInfo &info)
     const AdblockResult result = m_adblock.value()->shouldBlock(url, firstPartyUrl, resourceTypeToString(info.resourceType()));
 
     const auto &redirect = result.redirect;
-    if (redirect.begin() != redirect.end()) {
-        info.redirect(QUrl(QString::fromStdString({redirect.begin(), redirect.end()})));
+    if (!redirect.empty()) {
+        info.redirect(QUrl(QString::fromStdString(std::string(redirect))));
     } else {
         info.block(result.matched);
     }
