@@ -5,13 +5,13 @@
 use readability::extractor;
 use url::Url;
 
-fn extract_reader_view(html: &str, url: &str) -> ffi::ReadabilityResult {
+pub fn extract_reader_view(html: &str, url: &str) -> crate::ffi::ReadabilityResult {
     let mut contents = html.as_bytes();
     if let Ok(url) = Url::parse(url) {
         if let Ok(output) = extractor::extract(&mut contents, &url) {
-            return ffi::ReadabilityResult {
+            return crate::ffi::ReadabilityResult {
                 success: true,
-                data: ffi::ReadabilityOutput {
+                data: crate::ffi::ReadabilityOutput {
                     title: output.title,
                     content: output.content
                 }
@@ -19,28 +19,11 @@ fn extract_reader_view(html: &str, url: &str) -> ffi::ReadabilityResult {
         }
     }
 
-    ffi::ReadabilityResult {
+    crate::ffi::ReadabilityResult {
         success: false,
-        data: ffi::ReadabilityOutput {
+        data: crate::ffi::ReadabilityOutput {
             title: String::new(),
             content: String::new()
         }
-    }
-}
-
-#[cxx::bridge]
-mod ffi {
-    struct ReadabilityOutput {
-        title: String,
-        content: String
-    }
-
-    struct ReadabilityResult {
-        success: bool,
-        data: ReadabilityOutput
-    }
-
-    extern "Rust" {
-        fn extract_reader_view(html: &str, url: &str) -> ReadabilityResult;
     }
 }

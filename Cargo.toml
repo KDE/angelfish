@@ -1,7 +1,6 @@
 [workspace]
 members = [
-        "src/rs/adblock/",
-        "src/rs/readability/"
+        "src/rs/",
 ]
 
 [profile.release]

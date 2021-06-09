@@ -9,7 +9,7 @@ class QWebEngineUrlRequestInfo;
 class QQuickWebEngineProfile;
 
 #ifdef HAVE_RUST
-#include <adblock.rs.h>
+#include <lib.rs.h>
 #include <optional>
 #endif
 

@@ -4,7 +4,7 @@
 
 #include "readerview.h"
 
-#include <readability.rs.h>
+#include <lib.rs.h>
 
 #include <utility>
 
