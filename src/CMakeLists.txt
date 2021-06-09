@@ -12,6 +12,7 @@ set(angelfish_SRCS
     webappcreator.cpp
     webappmanager.cpp
     webappmanagermodel.cpp
+    readerview.cpp
     angelfish.qrc
 )
 
