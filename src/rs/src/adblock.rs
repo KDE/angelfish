@@ -10,14 +10,14 @@ use adblock::lists::{FilterFormat, FilterSet};
 
 use crate::adblock_debug;
 
-struct Adblock {
+pub struct Adblock {
     blocker: Option<Engine>,
     needs_save: bool,
 }
 
 /// creates a new adblock object, and returns a pointer to it.
 /// If the passed list_dir is invalid, the Adblock will not contain an engine.
-fn new_adblock(list_dir: &str) -> Box<Adblock> {
+pub fn new_adblock(list_dir: &str) -> Box<Adblock> {
     adblock_debug!("## Creating new adblock instance");
     // Create domain resolver
     let mut filter_set = FilterSet::new(true);
@@ -79,13 +79,13 @@ fn load_adblock(path: &str) -> Box<Adblock> {
 impl Adblock {
     /// returns an AdblockResult object with information on whether
     /// the request should be blocked or redirected.
-    fn should_block(&self, url: &str, source_url: &str, request_type: &str) -> ffi::AdblockResult {
+    pub fn should_block(&self, url: &str, source_url: &str, request_type: &str) -> crate::ffi::AdblockResult {
         if let Some(engine) = &self.blocker {
             let blocker_result = engine.check_network_urls(url, source_url, request_type);
             adblock_debug!("Blocker input: {}, {}, {}", url, source_url, request_type);
             adblock_debug!("Blocker result: {:?}", blocker_result);
 
-            return ffi::AdblockResult {
+            return crate::ffi::AdblockResult {
                 matched: blocker_result.matched,
                 important: blocker_result.important,
                 redirect: blocker_result.redirect.unwrap_or_default(),

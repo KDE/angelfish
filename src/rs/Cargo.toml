@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: GPL-2.0-or-later
 
 [package]
-name = "angelfish-adblock"
+name = "angelfish-rust"
 version = "0.1.0"
 authors = ["Jonah Brüchert <jbb.prv@gmx.de>"]
 edition = "2018"
@@ -17,4 +17,6 @@ cxx-build = "1.0"
 
 [dependencies]
 adblock = {version = "0.3", default-features = false, features = [ "full-regex-handling", "object-pooling", "embedded-domain-resolver" ]}
+readability = { version = "0.2", default-features = false }
+url = "*"
 cxx = "1.0"

@@ -52,18 +52,10 @@ dependencies = [
 ]
 
 [[package]]
-name = "angelfish-adblock"
+name = "angelfish-rust"
 version = "0.1.0"
 dependencies = [
  "adblock",
- "cxx",
- "cxx-build",
-]
-
-[[package]]
-name = "angelfish-readability"
-version = "0.1.0"
-dependencies = [
  "cxx",
  "cxx-build",
  "readability",
