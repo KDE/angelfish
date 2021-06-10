@@ -6,8 +6,6 @@
 
 #include <QObject>
 
-#include <memory>
-
 class QQmlEngine;
 class WebAppManager;
 
@@ -15,18 +13,23 @@ class WebAppCreator : public QObject
 {
     Q_OBJECT
 
+    Q_PROPERTY(QString websiteName READ websiteName WRITE setWebsiteName NOTIFY websiteNameChanged)
+    Q_PROPERTY(bool exists READ exists NOTIFY existsChanged)
+
 public:
-    explicit WebAppCreator(QQmlEngine *engine, QObject *parent = nullptr);
-    ~WebAppCreator();
+    explicit WebAppCreator(QObject *parent = nullptr);
+
+    const QString &websiteName() const;
+    void setWebsiteName(const QString &websiteName);
+    Q_SIGNAL void websiteNameChanged();
+
+    bool exists() const;
+    Q_SIGNAL void existsChanged();
 
     Q_INVOKABLE void createDesktopFile(const QString &name, const QString &url, const QString &icon);
-    Q_INVOKABLE bool desktopFileExists(const QString &name);
-
-Q_SIGNALS:
-    void applicationsChanged();
 
 private:
+    QString m_websiteName;
     QImage fetchIcon(const QString &url);
-    QQmlEngine *m_engine;
     WebAppManager &m_webAppMngr;
 };

@@ -75,8 +75,10 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     }
 
     const QString fileName = parser.positionalArguments().constFirst();
-    const KDesktopFile desktopFile(desktopFileDirectory() % fileName);
+    const QString path = desktopFileDirectory() % QDir::separator() % fileName;
+    const KDesktopFile desktopFile(path);
     if (desktopFile.readUrl().isEmpty()) {
+        qDebug() << "Failed to find url in" << path;
         return 2;
     }
     const QString initialUrl = QUrl::fromUserInput(desktopFile.readUrl()).toString();

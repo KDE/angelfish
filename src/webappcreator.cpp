@@ -17,15 +17,29 @@
 
 #include "webappmanager.h"
 
-WebAppCreator::WebAppCreator(QQmlEngine *engine, QObject *parent)
+WebAppCreator::WebAppCreator(QObject *parent)
     : QObject(parent)
-    , m_engine(engine)
     , m_webAppMngr(WebAppManager::instance())
 {
-    connect(&m_webAppMngr, &WebAppManager::applicationsChanged, this, &WebAppCreator::applicationsChanged);
+    connect(this, &WebAppCreator::websiteNameChanged, this, &WebAppCreator::existsChanged);
+    connect(&m_webAppMngr, &WebAppManager::applicationsChanged, this, &WebAppCreator::existsChanged);
 }
 
-WebAppCreator::~WebAppCreator() = default;
+bool WebAppCreator::exists() const
+{
+    return m_webAppMngr.exists(m_websiteName);
+}
+
+const QString &WebAppCreator::websiteName() const
+{
+    return m_websiteName;
+}
+
+void WebAppCreator::setWebsiteName(const QString &websiteName)
+{
+    m_websiteName = websiteName;
+    Q_EMIT websiteNameChanged();
+}
 
 void WebAppCreator::createDesktopFile(const QString &name, const QString &url, const QString &iconUrl)
 {
@@ -37,14 +51,10 @@ void WebAppCreator::createDesktopFile(const QString &name, const QString &url, c
     buildsycoca.startDetached();
 }
 
-bool WebAppCreator::desktopFileExists(const QString &name)
-{
-    return m_webAppMngr.exists(name);
-}
 
 QImage WebAppCreator::fetchIcon(const QString &url)
 {
-    auto *provider = static_cast<QQuickImageProvider *>(m_engine->imageProvider(QStringLiteral("favicon")));
+    auto *provider = static_cast<QQuickImageProvider *>(qmlEngine(this)->imageProvider(QStringLiteral("favicon")));
 
     const QStringView prefixFavicon = QStringView(u"image://favicon/");
     const QString providerIconName = url.mid(prefixFavicon.size());

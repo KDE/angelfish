@@ -124,6 +124,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     qmlRegisterType<AdblockFilterListsModel>(APPLICATION_ID, 1, 0, "AdblockFilterListsModel");
     qmlRegisterType<DownloadsModel>(APPLICATION_ID, 1, 0, "DownloadsModel");
     qmlRegisterType<WebAppManagerModel>(APPLICATION_ID, 1, 0, "WebAppManagerModel");
+    qmlRegisterType<WebAppCreator>(APPLICATION_ID, 1, 0, "WebAppCreator");
     qmlRegisterAnonymousType<QWebEngineUrlRequestInterceptor>(APPLICATION_ID, 1);
 
     // URL utils
@@ -134,11 +135,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     // Browser Manager
     qmlRegisterSingletonType<BrowserManager>(APPLICATION_ID, 1, 0, "BrowserManager", [](QQmlEngine *, QJSEngine *) -> QObject * {
         return BrowserManager::instance();
-    });
-
-    // Angelfish-webapp generator
-    qmlRegisterSingletonType<WebAppCreator>(APPLICATION_ID, 1, 0, "WebAppCreator", [](QQmlEngine *engine, QJSEngine *) -> QObject * {
-        return new WebAppCreator(engine);
     });
 
     Q_INIT_RESOURCE(resources);

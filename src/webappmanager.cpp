@@ -68,13 +68,13 @@ void WebAppManager::addApp(const QString &name, const QString &url, const QImage
     const QString iconLocation = iconDirectory();
     const QString filename = generateFileName(name);
 
-    icon.save(QStringLiteral("%1/%2.png").arg(iconLocation, filename), "PNG");
-    KConfig desktopFile(QStringLiteral("%1/%2.desktop").arg(location, filename), KConfig::SimpleConfig);
+    icon.save(iconLocation % QDir::separator() % filename % u".png", "PNG");
+    KConfig desktopFile(location % QDir::separator() % filename, KConfig::SimpleConfig);
 
     auto desktopEntry = desktopFile.group("Desktop Entry");
     desktopEntry.writeEntry(QStringLiteral("URL"), url);
     desktopEntry.writeEntry(QStringLiteral("Name"), name);
-    desktopEntry.writeEntry(QStringLiteral("Exec"), QStringLiteral("%1 %2.desktop").arg(webAppCommand(), filename));
+    desktopEntry.writeEntry(QStringLiteral("Exec"), QString(webAppCommand() % u' ' % filename));
     desktopEntry.writeEntry(QStringLiteral("Icon"), filename);
 
     m_webApps.push_back(WebApp {
@@ -93,8 +93,7 @@ bool WebAppManager::exists(const QString &name)
     const QString location = desktopFileDirectory();
     const QString filename = generateFileName(name);
 
-    auto exists = QFile::exists(QStringLiteral("%1/%2.desktop").arg(location, filename));
-    return exists;
+    return QFile::exists(location % QDir::separator() % filename);
 }
 
 bool WebAppManager::removeApp(const QString &name)
@@ -108,9 +107,9 @@ bool WebAppManager::removeApp(const QString &name)
 
     m_webApps.erase(it);
 
+    bool success = QFile::remove(location % QDir::separator() % filename);
     Q_EMIT applicationsChanged();
-
-    return QFile::remove(QStringLiteral("%1/%2.desktop").arg(location, filename));
+    return success;
 }
 
 WebAppManager &WebAppManager::instance()
@@ -122,10 +121,14 @@ WebAppManager &WebAppManager::instance()
 QString WebAppManager::generateFileName(const QString &name)
 {
     QString filename = name.toLower();
-    filename.replace(QStringLiteral(" "), QStringLiteral("_"));
-    filename.replace(QStringLiteral("'"), QLatin1String());
-    filename.replace(QStringLiteral("\""), QLatin1String());
-    return filename;
+    filename.replace(QChar(u' '), QChar(u'_'));
+    filename.remove(u'/');
+    filename.remove(u'"');
+    filename.remove(u'\'');
+    filename.remove(u',');
+    filename.remove(u'.');
+    filename.remove(u'|');
+    return filename % u".desktop";
 }
 
 QString WebAppManager::webAppCommand()

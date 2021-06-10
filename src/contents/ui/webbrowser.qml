@@ -256,6 +256,11 @@ Kirigami.ApplicationWindow {
             url: currentWebView.url
         }
 
+        WebAppCreator {
+            id: webAppCreator
+            websiteName: currentWebView.title
+        }
+
         // The menu at the bottom right
         contextualActions: [
             Kirigami.Action {
@@ -278,9 +283,9 @@ Kirigami.ApplicationWindow {
                 id: addHomeScreenAction
                 icon.name: "list-add"
                 text: i18n("Add to homescreen")
-                enabled: !WebAppCreator.desktopFileExists(currentWebView.title)
+                enabled: !webAppCreator.exists
                 onTriggered: {
-                    WebAppCreator.createDesktopFile(currentWebView.title,
+                    webAppCreator.createDesktopFile(currentWebView.title,
                                                            currentWebView.url,
                                                            currentWebView.icon)
                 }
