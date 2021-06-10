@@ -63,7 +63,7 @@
   <summary xml:lang="zh-TW">適用於行動裝置的網頁瀏覽器</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0-or-later</project_license>
-  <content_rating type="oars-1.1"/>
+  <content_rating type="oars-1.1" />
   <developer_name>KDE Community</developer_name>
   <developer_name xml:lang="az">KDE İcması</developer_name>
   <developer_name xml:lang="ca">La comunitat KDE</developer_name>
@@ -385,7 +385,8 @@
           <li>Add a settings page for managing web apps</li>
         </ul>
       </description>
+      <url>https://www.plasma-mobile.org/2021/06/10/plasma-mobile-update-june/</url>
     </release>
-    <release version="21.05" date="2021-05-10"/>
+    <release version="21.05" date="2021-05-10" />
   </releases>
 </component>
