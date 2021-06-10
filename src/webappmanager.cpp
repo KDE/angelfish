@@ -6,6 +6,7 @@
 
 #include <QStandardPaths>
 #include <QImage>
+#include <QStringBuilder>
 
 #include <KDesktopFile>
 #include <KConfigGroup>
@@ -41,6 +42,9 @@ WebAppManager::WebAppManager(QObject *parent)
 
 QString WebAppManager::desktopFileDirectory()
 {
+    if (!QStandardPaths::locate(QStandardPaths::RuntimeLocation, QStringLiteral("flatpak-info")).isEmpty()) {
+        return qEnvironmentVariable("HOME") % u"/.local/share/applications/";
+    }
     return QStandardPaths::writableLocation(QStandardPaths::ApplicationsLocation);
 }
 
@@ -129,7 +133,7 @@ QString WebAppManager::webAppCommand()
                    "--command=angelfish-webapp "
                    "--filesystem=%1 "
                    "org.kde.angelfish")
-            .arg(QStandardPaths::writableLocation(QStandardPaths::ApplicationsLocation));
+            .arg(desktopFileDirectory());
     }
 
     return QStringLiteral("angelfish-webapp");

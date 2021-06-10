@@ -28,6 +28,14 @@
 
 constexpr auto APPLICATION_ID = "org.kde.angelfish";
 
+QString desktopFileDirectory()
+{
+    if (!QStandardPaths::locate(QStandardPaths::RuntimeLocation, QStringLiteral("flatpak-info")).isEmpty()) {
+        return qEnvironmentVariable("HOME") % u"/.local/share/applications/";
+    }
+    return QStandardPaths::writableLocation(QStandardPaths::ApplicationsLocation);
+}
+
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
@@ -67,7 +75,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     }
 
     const QString fileName = parser.positionalArguments().constFirst();
-    const KDesktopFile desktopFile(fileName);
+    const KDesktopFile desktopFile(desktopFileDirectory() % fileName);
     if (desktopFile.readUrl().isEmpty()) {
         return 2;
     }
