@@ -36,6 +36,7 @@ Q_SIGNALS:
     void applicationsChanged();
 
 private:
+    static bool isFlatpak();
     static QString generateFileName(const QString &name);
     static QString webAppCommand();
 
