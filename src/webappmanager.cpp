@@ -64,17 +64,17 @@ const std::vector<WebApp> &WebAppManager::applications() const
 
 void WebAppManager::addApp(const QString &name, const QString &url, const QImage &icon)
 {
-    const QString location = desktopFileDirectory();
-    const QString iconLocation = iconDirectory();
     const QString filename = generateFileName(name);
+    const QString desktopFileName = generateDesktopFileName(name);
 
-    icon.save(iconLocation % QDir::separator() % filename % u".png", "PNG");
-    KConfig desktopFile(location % QDir::separator() % filename, KConfig::SimpleConfig);
+    icon.save(iconDirectory() % QDir::separator() % filename % u".png", "PNG");
+    KConfig desktopFile(desktopFileDirectory() % QDir::separator() % desktopFileName,
+                        KConfig::SimpleConfig);
 
     auto desktopEntry = desktopFile.group("Desktop Entry");
     desktopEntry.writeEntry(QStringLiteral("URL"), url);
     desktopEntry.writeEntry(QStringLiteral("Name"), name);
-    desktopEntry.writeEntry(QStringLiteral("Exec"), QString(webAppCommand() % u' ' % filename));
+    desktopEntry.writeEntry(QStringLiteral("Exec"), QString(webAppCommand() % u' ' % desktopFileName));
     desktopEntry.writeEntry(QStringLiteral("Icon"), filename);
 
     m_webApps.push_back(WebApp {
@@ -91,7 +91,7 @@ void WebAppManager::addApp(const QString &name, const QString &url, const QImage
 bool WebAppManager::exists(const QString &name)
 {
     const QString location = desktopFileDirectory();
-    const QString filename = generateFileName(name);
+    const QString filename = generateDesktopFileName(name);
 
     return QFile::exists(location % QDir::separator() % filename);
 }
@@ -99,7 +99,7 @@ bool WebAppManager::exists(const QString &name)
 bool WebAppManager::removeApp(const QString &name)
 {
     const QString location = desktopFileDirectory();
-    const QString filename = generateFileName(name);
+    const QString filename = generateDesktopFileName(name);
 
     auto it = std::remove_if(m_webApps.begin(), m_webApps.end(), [&name](const WebApp &app) {
         return app.name == name;
@@ -128,7 +128,12 @@ QString WebAppManager::generateFileName(const QString &name)
     filename.remove(u',');
     filename.remove(u'.');
     filename.remove(u'|');
-    return filename % u".desktop";
+    return filename;
+}
+
+QString WebAppManager::generateDesktopFileName(const QString &name)
+{
+    return generateFileName(name) % u".desktop";
 }
 
 QString WebAppManager::webAppCommand()

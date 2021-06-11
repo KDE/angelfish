@@ -38,6 +38,7 @@ Q_SIGNALS:
 private:
     static bool isFlatpak();
     static QString generateFileName(const QString &name);
+    static QString generateDesktopFileName(const QString &name);
     static QString webAppCommand();
 
 private:
