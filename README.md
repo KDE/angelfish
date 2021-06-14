@@ -5,7 +5,11 @@ This is a webbrowser designed to
 - be used on small mobile devices,
 - integrate well in Plasma workspaces
 
+<a href='https://flathub.org/apps/details/org.kde.angelfish'><img width='190px' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-i-en.png'/></a>
+
 ## Reporting bugs
+
+Bugtracker: https://invent.kde.org/plasma-mobile/angelfish/-/issues
 
 Please choose the "default_issue" description template when opening issues.
 
