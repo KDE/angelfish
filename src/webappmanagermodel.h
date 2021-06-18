@@ -17,7 +17,7 @@ class WebAppManagerModel : public QAbstractListModel
     enum Role {
         NameRole,
         IconRole,
-        UrlRole
+        UrlRole,
     };
 
 public:

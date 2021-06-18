@@ -51,7 +51,6 @@ void WebAppCreator::createDesktopFile(const QString &name, const QString &url, c
     buildsycoca.startDetached();
 }
 
-
 QImage WebAppCreator::fetchIcon(const QString &url)
 {
     auto *provider = static_cast<QQuickImageProvider *>(qmlEngine(this)->imageProvider(QStringLiteral("favicon")));

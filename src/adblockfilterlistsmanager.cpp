@@ -11,7 +11,8 @@
 
 #include "angelfishsettings.h"
 
-void copyStream(QIODevice &input, QIODevice &output) {
+void copyStream(QIODevice &input, QIODevice &output)
+{
     constexpr auto BUFFER_SIZE = 1024;
 
     QByteArray buffer;
@@ -27,7 +28,6 @@ void copyStream(QIODevice &input, QIODevice &output) {
         }
     }
 }
-
 
 AdblockFilterListsManager::AdblockFilterListsManager(QObject *parent)
     : QObject(parent)

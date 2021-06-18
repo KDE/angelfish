@@ -26,7 +26,6 @@
 #include "angelfishwebprofile.h"
 #include "bookmarkshistorymodel.h"
 #include "browsermanager.h"
-#include "webappcreator.h"
 #include "downloadsmodel.h"
 #include "iconimageprovider.h"
 #include "tabsmodel.h"
@@ -34,6 +33,7 @@
 #include "urlutils.h"
 #include "useragent.h"
 #include "version.h"
+#include "webappcreator.h"
 #include "webappmanagermodel.h"
 
 constexpr auto APPLICATION_ID = "org.kde.angelfish";

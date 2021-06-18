@@ -4,8 +4,8 @@
 
 #pragma once
 
-#include <QObject>
 #include <QDir>
+#include <QObject>
 
 #include <memory>
 

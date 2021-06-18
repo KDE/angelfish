@@ -4,19 +4,18 @@
 
 #include "webappmanager.h"
 
-#include <QStandardPaths>
 #include <QImage>
+#include <QStandardPaths>
 #include <QStringBuilder>
 
-#include <KDesktopFile>
 #include <KConfigGroup>
+#include <KDesktopFile>
 
 WebAppManager::WebAppManager(QObject *parent)
     : QObject(parent)
     , m_desktopFileDirectory(desktopFileDirectory())
 {
-    const auto fileInfos = m_desktopFileDirectory
-            .entryInfoList(QDir::Files);
+    const auto fileInfos = m_desktopFileDirectory.entryInfoList(QDir::Files);
 
     // Likely almost all files in the directory are webapps, so this should be worth it
     m_webApps.reserve(fileInfos.size());
@@ -28,11 +27,7 @@ WebAppManager::WebAppManager(QObject *parent)
 
             // Only handle desktop files referencing angelfish-webapp
             if (desktopFile.group("Desktop Entry").readEntry("Exec").contains(QStringView(u"angelfish-webapp"))) {
-                WebApp app {
-                    desktopFile.readName(),
-                    desktopFile.readIcon(),
-                    desktopFile.readUrl()
-                };
+                WebApp app{desktopFile.readName(), desktopFile.readIcon(), desktopFile.readUrl()};
 
                 m_webApps.push_back(std::move(app));
             }
@@ -53,8 +48,7 @@ QString WebAppManager::iconDirectory()
     if (isFlatpak()) {
         return qEnvironmentVariable("HOME") % u"/.local/share/icons/hicolor/16x16/apps/";
     }
-    return QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation)
-            + QStringLiteral("/icons/hicolor/16x16/apps/");
+    return QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QStringLiteral("/icons/hicolor/16x16/apps/");
 }
 
 const std::vector<WebApp> &WebAppManager::applications() const
@@ -68,8 +62,7 @@ void WebAppManager::addApp(const QString &name, const QString &url, const QImage
     const QString desktopFileName = generateDesktopFileName(name);
 
     icon.save(iconDirectory() % QDir::separator() % filename % u".png", "PNG");
-    KConfig desktopFile(desktopFileDirectory() % QDir::separator() % desktopFileName,
-                        KConfig::SimpleConfig);
+    KConfig desktopFile(desktopFileDirectory() % QDir::separator() % desktopFileName, KConfig::SimpleConfig);
 
     auto desktopEntry = desktopFile.group("Desktop Entry");
     desktopEntry.writeEntry(QStringLiteral("URL"), url);
@@ -77,11 +70,7 @@ void WebAppManager::addApp(const QString &name, const QString &url, const QImage
     desktopEntry.writeEntry(QStringLiteral("Exec"), QString(webAppCommand() % u' ' % desktopFileName));
     desktopEntry.writeEntry(QStringLiteral("Icon"), filename);
 
-    m_webApps.push_back(WebApp {
-        name,
-        filename,
-        url
-    });
+    m_webApps.push_back(WebApp{name, filename, url});
 
     desktopFile.sync();
 

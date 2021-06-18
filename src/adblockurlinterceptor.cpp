@@ -23,7 +23,10 @@ AdblockUrlInterceptor::AdblockUrlInterceptor(QObject *parent)
 #ifdef BUILD_ADBLOCK
     // parsing the block lists takes some time, try to do it asynchronously
     // if it is not ready when it's needed, reading the future will block
-    , m_adblockInitFuture(std::async(std::launch::async, [this] { return createAdblock(); }))
+    , m_adblockInitFuture(std::async(std::launch::async,
+                                     [this] {
+                                         return createAdblock();
+                                     }))
     , m_adblock(std::nullopt)
     , m_enabled(AngelfishSettings::adblockEnabled())
 #endif
@@ -76,7 +79,9 @@ void AdblockUrlInterceptor::resetAdblock()
     if (m_adblock) {
         m_adblock = std::nullopt;
     }
-    m_adblockInitFuture = std::async(std::launch::async, [this] { return createAdblock(); });
+    m_adblockInitFuture = std::async(std::launch::async, [this] {
+        return createAdblock();
+    });
 #endif
 }
 
