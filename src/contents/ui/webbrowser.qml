@@ -356,6 +356,15 @@ Kirigami.ApplicationWindow {
                     if (!navigation.visible) return;
                     rootPage.navigationAutoShow = !rootPage.navigationAutoShow;
                 }
+            },
+            Kirigami.Action {
+                icon.name: "dialog-scripts"
+                text: i18n("Show developer tools")
+                checkable: true
+                checked: tabs.tabsModel.isDeveloperToolsOpen(tabs.currentIndex);
+                onTriggered: {
+                    tabs.tabsModel.setIsDeveloperToolsOpen(tabs.currentIndex, !tabs.tabsModel.isDeveloperToolsOpen(tabs.currentIndex))
+                }
             }
         ]
 

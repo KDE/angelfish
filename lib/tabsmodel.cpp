@@ -41,6 +41,7 @@ QHash<int, QByteArray> TabsModel::roleNames() const
     return {
         {RoleNames::UrlRole, QByteArrayLiteral("pageurl")},
         {RoleNames::IsMobileRole, QByteArrayLiteral("isMobile")},
+        {RoleNames::IsDeveloperToolsOpen, QByteArrayLiteral("isDeveloperToolsOpen")},
     };
 }
 
@@ -55,6 +56,8 @@ QVariant TabsModel::data(const QModelIndex &index, int role) const
         return m_tabs.at(index.row()).url();
     case RoleNames::IsMobileRole:
         return m_tabs.at(index.row()).isMobile();
+    case RoleNames::IsDeveloperToolsOpen:
+        return m_tabs.at(index.row()).isDeveloperToolsOpen();
     }
 
     return {};
@@ -333,6 +336,27 @@ void TabsModel::setIsMobile(int index, bool isMobile)
     saveTabs();
 }
 
+void TabsModel::setIsDeveloperToolsOpen(int index, bool isDeveloperToolsOpen)
+{
+    qDebug() << "Setting isDeveloperToolsOpen:" << index << isDeveloperToolsOpen << "tabs open" << m_tabs.count();
+    if (index < 0 && index >= m_tabs.count())
+        return; // index out of bounds
+
+    m_tabs[index].setIsDeveloperToolsOpen(isDeveloperToolsOpen);
+
+    const QModelIndex mindex = createIndex(index, index);
+    emit dataChanged(mindex, mindex, {RoleNames::IsDeveloperToolsOpen});
+    saveTabs();
+}
+
+bool TabsModel::isDeveloperToolsOpen(int index)
+{
+    if (index < 0 && index >= m_tabs.count())
+        return false;
+
+    return m_tabs.at(index).isDeveloperToolsOpen();
+}
+
 void TabsModel::setUrl(int index, const QString &url)
 {
     qDebug() << "Setting URL:" << index << url << "tabs open" << m_tabs.count();
@@ -366,11 +390,22 @@ void TabState::setIsMobile(bool isMobile)
     m_isMobile = isMobile;
 }
 
+bool TabState::isDeveloperToolsOpen() const
+{
+    return m_isDeveloperToolsOpen;
+}
+
+void TabState::setIsDeveloperToolsOpen(bool isDeveloperToolsOpen)
+{
+    m_isDeveloperToolsOpen = isDeveloperToolsOpen;
+}
+
 TabState TabState::fromJson(const QJsonObject &obj)
 {
     TabState tab;
     tab.setUrl(obj.value(QStringLiteral("url")).toString());
     tab.setIsMobile(obj.value(QStringLiteral("isMobile")).toBool());
+    tab.setIsDeveloperToolsOpen(obj.value(QStringLiteral("isDeveloperToolsOpen")).toBool());
     return tab;
 }
 
@@ -382,7 +417,11 @@ TabState::TabState(const QString &url, const bool isMobile)
 
 bool TabState::operator==(const TabState &other) const
 {
-    return (m_url == other.url() && m_isMobile == other.isMobile());
+    return (
+        m_url == other.url() &&
+        m_isMobile == other.isMobile() &&
+        m_isDeveloperToolsOpen == other.isDeveloperToolsOpen()
+    );
 }
 
 QJsonObject TabState::toJson() const
@@ -390,5 +429,6 @@ QJsonObject TabState::toJson() const
     return {
         {QStringLiteral("url"), m_url},
         {QStringLiteral("isMobile"), m_isMobile},
+        {QStringLiteral("isDeveloperToolsOpen"), m_isDeveloperToolsOpen},
     };
 }

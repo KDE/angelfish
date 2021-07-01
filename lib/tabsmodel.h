@@ -25,12 +25,16 @@ public:
     bool isMobile() const;
     void setIsMobile(bool isMobile);
 
+    bool isDeveloperToolsOpen() const;
+    void setIsDeveloperToolsOpen(bool isDeveloperToolsOpen);
+
     QString url() const;
     void setUrl(const QString &url);
 
 private:
     QString m_url;
     bool m_isMobile = true;
+    bool m_isDeveloperToolsOpen = false;
 };
 
 class TabsModel : public QAbstractListModel
@@ -41,7 +45,7 @@ class TabsModel : public QAbstractListModel
     Q_PROPERTY(bool isMobileDefault READ isMobileDefault WRITE setIsMobileDefault NOTIFY isMobileDefaultChanged)
     Q_PROPERTY(bool privateMode READ privateMode WRITE setPrivateMode NOTIFY privateModeChanged REQUIRED)
 
-    enum RoleNames { UrlRole = Qt::UserRole + 1, IsMobileRole };
+    enum RoleNames { UrlRole = Qt::UserRole + 1, IsMobileRole, IsDeveloperToolsOpen };
 
 public:
     explicit TabsModel(QObject *parent = nullptr);
@@ -65,7 +69,9 @@ public:
 
     Q_INVOKABLE void setUrl(int index, const QString &url);
     Q_INVOKABLE void setIsMobile(int index, bool isMobile);
+    Q_INVOKABLE void setIsDeveloperToolsOpen(int index, bool isDeveloperToolsOpen);
 
+    Q_INVOKABLE bool isDeveloperToolsOpen(int index);
     bool isMobileDefault() const;
     void setIsMobileDefault(bool def);
 

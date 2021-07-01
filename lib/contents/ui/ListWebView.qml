@@ -3,9 +3,9 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 import QtQuick 2.3
-import QtQuick.Controls 2.0
+import QtQuick.Controls 2.15
 import QtQml.Models 2.1
-import QtWebEngine 1.6
+import QtWebEngine 1.10
 
 import org.kde.kirigami 2.7 as Kirigami
 import org.kde.angelfish 1.0
@@ -38,41 +38,70 @@ Repeater {
         privateMode: privateTabsMode
     }
 
-    delegate: WebView {
-        id: webView
-        anchors {
-            bottom: tabs.bottom
-            top: tabs.top
-        }
-        privateMode: tabs.privateTabsMode
-        userAgent.isMobile: model.isMobile
-        width: tabs.width
-
-        profile: tabs.profile
-
-        Component.onCompleted: {
-            url = model.pageurl
-        }
+    delegate: SplitView {
+        anchors.fill: parent
+        orientation: Qt.Vertical
 
         property bool readyForSnapshot: false
         property bool showView: index === tabs.currentIndex
-
-        visible: (showView || readyForSnapshot || loadingActive) && tabs.activeTabs
-        x: showView && tabs.activeTabs ? 0 : -width
-        z: showView && tabs.activeTabs ? 0 : -1
-
+        property bool isVisible: (showView || readyForSnapshot || loadingActive) && tabs.activeTabs
         onShowViewChanged: {
             if (showView) {
-                tabs.currentItem = webView
+                tabs.currentItem = pageWebView
+            }
+        }
+        x: showView && tabs.activeTabs ? 0 : -width
+        z: showView && tabs.activeTabs ? 0 : -1
+        visible: isVisible
+
+        Item {
+            SplitView.minimumHeight: 100
+            WebView {
+                id: pageWebView
+                anchors.fill: parent
+                visible: isVisible
+                
+                privateMode: tabs.privateTabsMode
+                userAgent.isMobile: model.isMobile
+                width: tabs.width
+
+                profile: tabs.profile
+
+                Component.onCompleted: {
+                    url = model.pageurl
+                }
+
+                onRequestedUrlChanged: tabsModel.setUrl(index, requestedUrl)
+
+                Connections {
+                    target: pageWebView.userAgent
+                    function onUserAgentChanged() {
+                        tabsModel.setIsMobile(index, pageWebView.userAgent.isMobile);
+                    }
+                }
             }
         }
 
-        onRequestedUrlChanged: tabsModel.setUrl(index, requestedUrl)
+        Item {
+            SplitView.minimumHeight: 100
+            visible: model.isDeveloperToolsOpen
 
-        Connections {
-            target: webView.userAgent
-            function onUserAgentChanged() {
-                tabsModel.setIsMobile(index, webView.userAgent.isMobile);
+            Loader {
+                id: developerToolsLoader
+                anchors.fill: parent
+
+                onLoaded: {
+                    item.inspectedView = pageWebView;
+                }
+
+                Connections {
+                    target: tabsModel
+                    onDataChanged: {
+                        if (model.isDeveloperToolsOpen) {
+                            developerToolsLoader.setSource("WebDeveloperTools.qml");
+                        }
+                    }
+                }
             }
         }
     }
