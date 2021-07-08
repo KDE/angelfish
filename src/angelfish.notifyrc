@@ -28,6 +28,7 @@ Comment[sl]=Spletni brskalnik
 Comment[sv]=webbläsare
 Comment[uk]=Браузер
 Comment[x-test]=xxWebbrowserxx
+Comment[zh_CN]=网页浏览器
 Name=Angelfish
 Name[az]=Angelfish
 Name[ca]=Angelfish
@@ -60,6 +61,7 @@ Name[sl]=Angelfish
 Name[sv]=Angelfish
 Name[uk]=Angelfish
 Name[x-test]=xxAngelfishxx
+Name[zh_CN]=Angelfish
 Name[zh_TW]=Angelfish
 
 [Event/web-notification]
@@ -90,4 +92,5 @@ Name[sl]=Obvestilo spletišča
 Name[sv]=Underrättelse om webbplats
 Name[uk]=Сповіщення від сайта
 Name[x-test]=xxWebsite Notificationxx
+Name[zh_CN]=网站通知
 Action=Popup
