@@ -3,7 +3,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 use std::fs;
-use std::fs::read_to_string;
+use std::io::Write;
 
 use adblock::engine::Engine;
 use adblock::lists::{FilterFormat, FilterSet};
@@ -12,6 +12,7 @@ use crate::adblock_debug;
 
 struct Adblock {
     blocker: Option<Engine>,
+    needs_save: bool,
 }
 
 /// creates a new adblock object, and returns a pointer to it.
@@ -27,7 +28,7 @@ fn new_adblock(list_dir: &str) -> Box<Adblock> {
             if let Ok(ft) = entry.file_type() {
                 if ft.is_file() {
                     adblock_debug!("Loading filter {:?}", entry);
-                    match read_to_string(&entry.path()) {
+                    match fs::read_to_string(&entry.path()) {
                         Ok(contents) => {
                             filter_set.add_filter_list(&contents, FilterFormat::Standard);
                         }
@@ -42,9 +43,37 @@ fn new_adblock(list_dir: &str) -> Box<Adblock> {
         let blocker = Engine::from_filter_set(filter_set, true);
         return Box::new(Adblock {
             blocker: Some(blocker),
+            needs_save: true,
         });
     }
-    Box::new(Adblock { blocker: None })
+    Box::new(Adblock {
+        blocker: None,
+        needs_save: false,
+    })
+}
+
+fn load_adblock(path: &str) -> Box<Adblock> {
+    let engine = match std::fs::read(path) {
+        Ok(data) => {
+            let mut engine = Engine::new(true);
+            match engine.deserialize(&data) {
+                Ok(()) => Some(engine),
+                Err(e) => {
+                    adblock_debug!("Failed to deserialize saved adblock data: {:?}", e);
+                    None
+                }
+            }
+        }
+        Err(e) => {
+            adblock_debug!("Failed to read adblock state from disk: {:?}", e);
+            None
+        }
+    };
+
+    Box::from(Adblock {
+        blocker: engine,
+        needs_save: false,
+    })
 }
 
 impl Adblock {
@@ -61,9 +90,40 @@ impl Adblock {
                 important: blocker_result.important,
                 redirect: blocker_result.redirect.unwrap_or_default(),
             };
+        } else {
+            adblock_debug!("Adblock engine doesn't exist! Probably it failed to load or restore");
         }
 
         ffi::AdblockResult::default()
+    }
+
+    fn save(&self, path: &str) -> bool {
+        match fs::File::create(path) {
+            Ok(mut file) => match &self.blocker {
+                Some(engine) => match engine.serialize_raw() {
+                    Ok(data) => match file.write_all(&data) {
+                        Ok(()) => {
+                            adblock_debug!("Successfully saved adblock cache");
+                            return true;
+                        }
+                        Err(e) => adblock_debug!("Failed to write adblock cache: {:?}", e),
+                    },
+                    Err(e) => adblock_debug!("Can't save adblock cache: {:?}", e),
+                },
+                None => adblock_debug!("Can't save adblock cache, since the engine is not loaded."),
+            },
+            Err(e) => adblock_debug!("Can't save adblock cache, failed to write to file: {:?}", e),
+        }
+
+        false
+    }
+
+    fn is_valid(&self) -> bool {
+        self.blocker.is_some()
+    }
+
+    fn needs_save(&self) -> bool {
+        self.needs_save
     }
 }
 
@@ -80,11 +140,16 @@ mod ffi {
         type Adblock;
 
         fn new_adblock(list_dir: &str) -> Box<Adblock>;
+        fn load_adblock(path: &str) -> Box<Adblock>;
+
+        fn is_valid(self: &Adblock) -> bool;
+        fn needs_save(self: &Adblock) -> bool;
         fn should_block(
             self: &Adblock,
             url: &str,
             source_url: &str,
             request_type: &str,
         ) -> AdblockResult;
+        fn save(self: &Adblock, path: &str) -> bool;
     }
 }

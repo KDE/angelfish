@@ -9,6 +9,7 @@
 #include <QLoggingCategory>
 #include <QQuickWebEngineProfile>
 #include <QStandardPaths>
+#include <QStringBuilder>
 
 #include "adblockfilterlistsmanager.h"
 
@@ -23,10 +24,7 @@ AdblockUrlInterceptor::AdblockUrlInterceptor(QObject *parent)
 #ifdef BUILD_ADBLOCK
     // parsing the block lists takes some time, try to do it asynchronously
     // if it is not ready when it's needed, reading the future will block
-    , m_adblockInitFuture(std::async(std::launch::async,
-                                     [this] {
-                                         return createAdblock();
-                                     }))
+    , m_adblockInitFuture(std::async(std::launch::async, [this] { return createOrRestoreAdblock(); }))
     , m_adblock(std::nullopt)
     , m_enabled(AngelfishSettings::adblockEnabled())
 #endif
@@ -42,11 +40,23 @@ AdblockUrlInterceptor::AdblockUrlInterceptor(QObject *parent)
 }
 
 #ifdef BUILD_ADBLOCK
-rust::Box<Adblock> AdblockUrlInterceptor::createAdblock()
+rust::Box<Adblock> AdblockUrlInterceptor::createOrRestoreAdblock()
 {
-    auto adb = new_adblock(AdblockFilterListsManager::filterListPath().toStdString());
+    rust::Box<Adblock> adb = [] {
+        auto cacheLocation = adblockCacheLocation();
+        if (QFile::exists(cacheLocation)) {
+            return load_adblock(cacheLocation.toStdString());
+        }
+        return new_adblock(AdblockFilterListsManager::filterListPath().toStdString());
+    }();
+
     Q_EMIT adblockInitialized();
     return adb;
+}
+
+QString AdblockUrlInterceptor::adblockCacheLocation()
+{
+    return QStandardPaths::writableLocation(QStandardPaths::CacheLocation) % u"/adblockCache";
 }
 
 bool AdblockUrlInterceptor::enabled() const
@@ -68,6 +78,13 @@ AdblockUrlInterceptor &AdblockUrlInterceptor::instance()
     return instance;
 }
 
+AdblockUrlInterceptor::~AdblockUrlInterceptor()
+{
+    if (m_adblock && (*m_adblock)->is_valid() && (*m_adblock)->needs_save()) {
+        (*m_adblock)->save(adblockCacheLocation().toStdString());
+    }
+}
+
 bool AdblockUrlInterceptor::downloadNeeded() const
 {
     return QDir(AdblockFilterListsManager::filterListPath()).isEmpty();
@@ -80,7 +97,9 @@ void AdblockUrlInterceptor::resetAdblock()
         m_adblock = std::nullopt;
     }
     m_adblockInitFuture = std::async(std::launch::async, [this] {
-        return createAdblock();
+        auto adb = new_adblock(AdblockFilterListsManager::filterListPath().toStdString());
+        Q_EMIT adblockInitialized();
+        return adb;
     });
 #endif
 }

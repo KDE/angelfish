@@ -27,6 +27,7 @@ class AdblockUrlInterceptor : public QWebEngineUrlRequestInterceptor
 
 public:
     static AdblockUrlInterceptor &instance();
+    ~AdblockUrlInterceptor();
 
     void interceptRequest(QWebEngineUrlRequestInfo &info) override;
 
@@ -57,7 +58,10 @@ public:
 private:
     explicit AdblockUrlInterceptor(QObject *parent = nullptr);
 #ifdef BUILD_ADBLOCK
-    rust::Box<Adblock> createAdblock();
+    /// If an adblock cache is found, loads it, otherwise creates a new adblock
+    /// from the current filter lists.
+    rust::Box<Adblock> createOrRestoreAdblock();
+    static QString adblockCacheLocation();
 
     std::future<rust::Box<Adblock>> m_adblockInitFuture;
     std::optional<rust::Box<Adblock>> m_adblock;
