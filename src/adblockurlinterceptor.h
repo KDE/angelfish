@@ -20,9 +20,7 @@ class AdblockUrlInterceptor : public QWebEngineUrlRequestInterceptor
     Q_OBJECT
 
     Q_PROPERTY(bool downloadNeeded READ downloadNeeded NOTIFY downloadNeededChanged)
-#ifdef BUILD_ADBLOCK
     Q_PROPERTY(bool enabled READ enabled WRITE setEnabled NOTIFY enabledChanged)
-#endif
     Q_PROPERTY(bool adblockSupported READ adblockSupported CONSTANT)
 
 public:
@@ -50,23 +48,23 @@ public:
         return false;
     }
 
-#ifdef BUILD_ADBLOCK
     bool enabled() const;
     void setEnabled(bool enabled);
-#endif
 
 private:
     explicit AdblockUrlInterceptor(QObject *parent = nullptr);
+
 #ifdef BUILD_ADBLOCK
     /// If an adblock cache is found, loads it, otherwise creates a new adblock
     /// from the current filter lists.
     rust::Box<Adblock> createOrRestoreAdblock();
-    static QString adblockCacheLocation();
 
     std::future<rust::Box<Adblock>> m_adblockInitFuture;
     std::optional<rust::Box<Adblock>> m_adblock;
-    bool m_enabled;
 #endif
+
+    static QString adblockCacheLocation();
+    bool m_enabled;
 };
 
 extern "C" {
