@@ -45,9 +45,9 @@ rust::Box<Adblock> AdblockUrlInterceptor::createOrRestoreAdblock()
     rust::Box<Adblock> adb = [] {
         auto cacheLocation = adblockCacheLocation();
         if (QFile::exists(cacheLocation)) {
-            return load_adblock(cacheLocation.toStdString());
+            return loadAdblock(cacheLocation.toStdString());
         }
-        return new_adblock(AdblockFilterListsManager::filterListPath().toStdString());
+        return newAdblock(AdblockFilterListsManager::filterListPath().toStdString());
     }();
 
     Q_EMIT adblockInitialized();
@@ -80,7 +80,7 @@ AdblockUrlInterceptor &AdblockUrlInterceptor::instance()
 
 AdblockUrlInterceptor::~AdblockUrlInterceptor()
 {
-    if (m_adblock && (*m_adblock)->is_valid() && (*m_adblock)->needs_save()) {
+    if (m_adblock && (*m_adblock)->isValid() && (*m_adblock)->needsSave()) {
         (*m_adblock)->save(adblockCacheLocation().toStdString());
     }
 }
@@ -97,7 +97,7 @@ void AdblockUrlInterceptor::resetAdblock()
         m_adblock = std::nullopt;
     }
     m_adblockInitFuture = std::async(std::launch::async, [this] {
-        auto adb = new_adblock(AdblockFilterListsManager::filterListPath().toStdString());
+        auto adb = newAdblock(AdblockFilterListsManager::filterListPath().toStdString());
         Q_EMIT adblockInitialized();
         return adb;
     });
@@ -155,7 +155,7 @@ void AdblockUrlInterceptor::interceptRequest(QWebEngineUrlRequestInfo &info)
 
     const std::string url = info.requestUrl().toString().toStdString();
     const std::string firstPartyUrl = info.firstPartyUrl().toString().toStdString();
-    const AdblockResult result = m_adblock.value()->should_block(url, firstPartyUrl, resourceTypeToString(info.resourceType()));
+    const AdblockResult result = m_adblock.value()->shouldBlock(url, firstPartyUrl, resourceTypeToString(info.resourceType()));
 
     const auto &redirect = result.redirect;
     if (redirect.begin() != redirect.end()) {
