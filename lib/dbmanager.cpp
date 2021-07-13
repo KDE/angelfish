@@ -51,7 +51,7 @@ int DBManager::version()
 {
     QSqlQuery query(QStringLiteral("PRAGMA user_version"));
     if (query.next()) {
-        bool ok;
+        bool ok = false;
         int value = query.value(0).toInt(&ok);
         if (ok)
             return value;

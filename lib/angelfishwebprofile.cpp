@@ -38,7 +38,7 @@ void AngelfishWebProfile::handleDownload(QQuickWebEngineDownloadItem *downloadIt
     if (m_questionLoader) {
         m_questionLoader->setProperty("source", QStringLiteral("qrc:/DownloadQuestion.qml"));
 
-        if (QQuickItem *question = m_questionLoader->property("item").value<QQuickItem *>()) {
+        if (auto *question = m_questionLoader->property("item").value<QQuickItem *>()) {
             question->setProperty("download", QVariant::fromValue(downloadItem));
             question->setVisible(true);
         }

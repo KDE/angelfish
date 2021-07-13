@@ -8,9 +8,7 @@
 
 #include "qquickwebenginedownloaditem.h"
 
-DownloadManager::DownloadManager()
-{
-}
+DownloadManager::DownloadManager() = default;
 
 DownloadManager &DownloadManager::instance()
 {

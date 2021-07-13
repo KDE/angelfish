@@ -41,7 +41,7 @@ QString IconImageProvider::storeImage(const QString &iconSource)
     }
 
     // new uri for image
-    const QString url = QStringLiteral("image://%1/%2").arg(providerId(), iconSource.mid(prefix_favicon.size()));
+    QString url = QStringLiteral("image://%1/%2").arg(providerId(), iconSource.mid(prefix_favicon.size()));
 
     // check if we have that image already
     QSqlQuery query_check;
