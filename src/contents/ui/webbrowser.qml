@@ -359,15 +359,6 @@ Kirigami.ApplicationWindow {
             }
         ]
 
-        // Update enabled state of the add to homescreen action
-        Connections {
-            target: WebAppCreator
-
-            function onApplicationsChanged() {
-                addHomeScreenAction.enabled = !WebAppCreator.desktopFileExists(currentWebView.title)
-            }
-        }
-        
         // Tabs sheet
         Loader {
             id: tabsSheetLoader
