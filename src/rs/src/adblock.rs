@@ -8,7 +8,7 @@ use std::io::Write;
 use adblock::engine::Engine;
 use adblock::lists::{FilterFormat, FilterSet};
 
-use crate::adblock_debug;
+use crate::{adblock_debug, ffi};
 
 pub struct Adblock {
     blocker: Option<Engine>,
@@ -52,7 +52,7 @@ pub fn new_adblock(list_dir: &str) -> Box<Adblock> {
     })
 }
 
-fn load_adblock(path: &str) -> Box<Adblock> {
+pub fn load_adblock(path: &str) -> Box<Adblock> {
     let engine = match std::fs::read(path) {
         Ok(data) => {
             let mut engine = Engine::new(true);
@@ -97,7 +97,7 @@ impl Adblock {
         ffi::AdblockResult::default()
     }
 
-    fn save(&self, path: &str) -> bool {
+    pub fn save(&self, path: &str) -> bool {
         match fs::File::create(path) {
             Ok(mut file) => match &self.blocker {
                 Some(engine) => match engine.serialize_raw() {
@@ -118,43 +118,11 @@ impl Adblock {
         false
     }
 
-    fn is_valid(&self) -> bool {
+    pub fn is_valid(&self) -> bool {
         self.blocker.is_some()
     }
 
-    fn needs_save(&self) -> bool {
+    pub fn needs_save(&self) -> bool {
         self.needs_save
-    }
-}
-
-#[cxx::bridge]
-mod ffi {
-    #[derive(Default)]
-    struct AdblockResult {
-        matched: bool,
-        important: bool,
-        redirect: String,
-    }
-
-    extern "Rust" {
-        type Adblock;
-
-        #[cxx_name="newAdblock"]
-        fn new_adblock(list_dir: &str) -> Box<Adblock>;
-        #[cxx_name="loadAdblock"]
-        fn load_adblock(path: &str) -> Box<Adblock>;
-
-        #[cxx_name="isValid"]
-        fn is_valid(self: &Adblock) -> bool;
-        #[cxx_name="needsSave"]
-        fn needs_save(self: &Adblock) -> bool;
-        #[cxx_name="shouldBlock"]
-        fn should_block(
-            self: &Adblock,
-            url: &str,
-            source_url: &str,
-            request_type: &str,
-        ) -> AdblockResult;
-        fn save(self: &Adblock, path: &str) -> bool;
     }
 }
