@@ -393,6 +393,16 @@
   </provides>
   <launchable type="desktop-id">org.kde.angelfish.desktop</launchable>
   <releases>
+    <release version="21.07" date="2021-07-20">
+      <description>
+        <ul>
+          <li>Improve the startup time of the ad blocker</li>
+          <li>Fix various bugs and safety issues in the web app manager</li>
+          <li>Improve flatpak support</li>
+        </ul>
+      </description>
+      <url>https://www.plasma-mobile.org/2021/07/20/plasma-mobile-gear-21-07/</url>
+    </release>
     <release version="21.06" date="2021-06-10">
       <description>
         <ul>
