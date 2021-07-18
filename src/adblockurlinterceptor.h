@@ -55,7 +55,7 @@ public:
 private:
     explicit AdblockUrlInterceptor(QObject *parent = nullptr);
 
-#ifdef BUILD_ADBLOCK
+#ifdef HAVE_RUST
     /// If an adblock cache is found, loads it, otherwise creates a new adblock
     /// from the current filter lists.
     rust::Box<Adblock> createOrRestoreAdblock();
