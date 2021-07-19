@@ -23,8 +23,6 @@ Kirigami.OverlaySheet {
         pluginType: "ShareUrl"
         clip: true
 
-        implicitHeight: Window.height * 0.5 //TODO remove one we depend on KF 5.84
-
         delegate: Kirigami.BasicListItem {
             label: model.display
             icon: "arrow-right"
