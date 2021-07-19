@@ -393,7 +393,6 @@
   </provides>
   <launchable type="desktop-id">org.kde.angelfish.desktop</launchable>
   <releases>
-    <release version="21.07" date="2021-07-20"/>
     <release version="21.07" date="2021-07-20">
       <description>
         <ul>
