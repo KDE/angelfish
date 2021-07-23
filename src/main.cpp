@@ -35,6 +35,7 @@
 #include "version.h"
 #include "webappcreator.h"
 #include "webappmanagermodel.h"
+#include "readerview.h"
 
 constexpr auto APPLICATION_ID = "org.kde.angelfish";
 
@@ -125,7 +126,11 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     qmlRegisterType<DownloadsModel>(APPLICATION_ID, 1, 0, "DownloadsModel");
     qmlRegisterType<WebAppManagerModel>(APPLICATION_ID, 1, 0, "WebAppManagerModel");
     qmlRegisterType<WebAppCreator>(APPLICATION_ID, 1, 0, "WebAppCreator");
+    qmlRegisterSingletonType<ReaderViewExtractor>(APPLICATION_ID, 1, 0, "ReaderViewExtractor", [](QQmlEngine *, QJSEngine *) {
+        return new ReaderViewExtractor();
+    });
     qmlRegisterAnonymousType<QWebEngineUrlRequestInterceptor>(APPLICATION_ID, 1);
+    qmlRegisterUncreatableType<ReaderView>(APPLICATION_ID, 1, 0, "ReaderView", QStringLiteral("Created by ReaderViewExtractor"));
 
     // URL utils
     qmlRegisterSingletonType<UrlUtils>(APPLICATION_ID, 1, 0, "UrlUtils", [](QQmlEngine *, QJSEngine *) -> QObject * {

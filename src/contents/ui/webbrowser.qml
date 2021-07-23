@@ -365,6 +365,17 @@ Kirigami.ApplicationWindow {
                 onTriggered: {
                     tabs.tabsModel.setIsDeveloperToolsOpen(tabs.currentIndex, !tabs.tabsModel.isDeveloperToolsOpen(tabs.currentIndex))
                 }
+            },
+            Kirigami.Action {
+                text: i18n("Reader View")
+                onTriggered: {
+                    currentWebView.runJavaScript("document.documentElement.outerHTML.toString()", function(result) {
+                        var content = ReaderViewExtractor.extractContent(result, currentWebView.url)
+                        pageStack.push("qrc:/ReaderViewPage.qml", {
+                            "readerView": content
+                        })
+                    })
+                }
             }
         ]
 

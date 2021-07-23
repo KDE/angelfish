@@ -20,5 +20,6 @@
         <file alias="Bookmarks.qml">contents/ui/Bookmarks.qml</file>
         <file alias="Downloads.qml">contents/ui/Downloads.qml</file>
         <file alias="SettingsWebApps.qml">contents/ui/SettingsWebApps.qml</file>
+        <file alias="ReaderViewPage.qml">contents/ui/ReaderViewPage.qml</file>
     </qresource>
 </RCC>

@@ -13,6 +13,7 @@ class ReaderView {
     Q_PROPERTY(QString content MEMBER m_content CONSTANT)
 
 public:
+    ReaderView() = default;
     ReaderView(QString title, QString content);
 
 private:
@@ -27,6 +28,6 @@ class ReaderViewExtractor : public QObject
 public:
     explicit ReaderViewExtractor(QObject *parent = nullptr);
 
-    ReaderView *extractContent(const QString &originalHtml, const QString &sourceUrl);
+    Q_INVOKABLE ReaderView extractContent(const QString &originalHtml, const QString &sourceUrl);
 };
 
