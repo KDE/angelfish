@@ -371,9 +371,7 @@ Kirigami.ApplicationWindow {
                 onTriggered: {
                     currentWebView.runJavaScript("document.documentElement.outerHTML.toString()", function(result) {
                         var content = ReaderViewExtractor.extractContent(result, currentWebView.url)
-                        pageStack.push("qrc:/ReaderViewPage.qml", {
-                            "readerView": content
-                        })
+                        currentWebView.loadHtml(content.content, currentWebView.url)
                     })
                 }
             }
