@@ -32,6 +32,28 @@ Please choose the "default_issue" description template when opening issues.
 - [x] adblock
 
 ## Development
+
+### Building
+
+If you are using a rolling release distribution, you can install the dependencies using your package manager.
+Otherwise, use kdesrc-build to build angelfish and its dependencies. Setting up kdesrc-build is documented in the [Community Wiki](https://community.kde.org/Get_Involved/development#Set_up_kdesrc-build)
+
+Currently the dependencies are:
+ * Qt (including QtCore, QtQuick, QtTest, QtGui, QtSvg, QtQuickControls2, QtSql and QtFeedback)
+ * The KDE Frameworks (including Kirigami2, Purpose, I18n, Config, CoreAddons, DBusAddons, WindowSystem, Notifications)
+ * Rust (including cargo and rustc) (optional)
+
+Please check the community wiki for how to build projects with kdesrc-build.
+If you went for using your distribution's package manager, then you can build (and install) Angelfish like this:
+```
+mkdir build
+cd build
+cmake .. # add -DCMAKE_BUILD_TYPE=Release to compile for release
+make
+sudo make install # optional, if you want to install Angelfish into your system
+```
+
+### Adblock
 To debug requests sent by the browser, for example for debugging the ad blocker, it can be useful to have a look at the development tools.
 For using them, the browser needs to be started with a special environment variable set: `QTWEBENGINE_REMOTE_DEBUGGING=4321 angelfish`.
 The variable contains the port on which the development tools will be available. You can now point another browser to http://localhost:4321.
