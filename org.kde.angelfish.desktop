@@ -108,3 +108,4 @@ X-DocPath=angelfish/index.html
 Categories=Qt;KDE;Network;WebBrowser;
 Terminal=false
 MimeType=text/html;x-scheme-handler/http;x-scheme-handler/https;
+X-KDE-FormFactor=desktop;tablet;handset;
