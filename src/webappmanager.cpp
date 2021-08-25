@@ -37,18 +37,30 @@ WebAppManager::WebAppManager(QObject *parent)
 
 QString WebAppManager::desktopFileDirectory()
 {
-    if (isFlatpak()) {
-        return qEnvironmentVariable("HOME") % u"/.local/share/applications/";
-    }
-    return QStandardPaths::writableLocation(QStandardPaths::ApplicationsLocation);
+    auto dir = []() -> QString {
+        if (isFlatpak()) {
+            return qEnvironmentVariable("HOME") % u"/.local/share/applications/";
+        }
+        return QStandardPaths::writableLocation(QStandardPaths::ApplicationsLocation);
+    }();
+
+    QDir(dir).mkpath(QStringLiteral("."));
+
+    return dir;
 }
 
 QString WebAppManager::iconDirectory()
 {
-    if (isFlatpak()) {
-        return qEnvironmentVariable("HOME") % u"/.local/share/icons/hicolor/16x16/apps/";
-    }
-    return QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QStringLiteral("/icons/hicolor/16x16/apps/");
+    auto dir = []() -> QString {
+        if (isFlatpak()) {
+            return qEnvironmentVariable("HOME") % u"/.local/share/icons/hicolor/16x16/apps/";
+        }
+        return QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QStringLiteral("/icons/hicolor/16x16/apps/");
+    }();
+
+    QDir(dir).mkpath(QStringLiteral("."));
+
+    return dir;
 }
 
 const std::vector<WebApp> &WebAppManager::applications() const
