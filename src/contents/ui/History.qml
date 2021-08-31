@@ -12,6 +12,12 @@ Kirigami.ScrollablePage {
     title: i18n("History")
     Kirigami.ColumnView.fillWidth: false
 
+    actions.main: Kirigami.Action {
+        text: "Clear"
+
+        onTriggered: BrowserManager.clearHistory()
+    }
+
     header: Item {
         anchors.horizontalCenter: parent.horizontalCenter
         height: Kirigami.Units.gridUnit * 3

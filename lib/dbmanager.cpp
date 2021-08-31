@@ -172,6 +172,15 @@ void DBManager::removeRecord(const QString &table, const QString &url)
     emit databaseTableChanged(table);
 }
 
+void DBManager::removeAllRecords(const QString &table)
+{
+    QSqlQuery query;
+    query.prepare(QStringLiteral("DELETE FROM %1").arg(table));
+    execute(query);
+
+    emit databaseTableChanged(table);
+}
+
 bool DBManager::hasRecord(const QString &table, const QString &url) const
 {
     QSqlQuery query;
@@ -241,6 +250,11 @@ void DBManager::addToHistory(const QVariantMap &pagedata)
 void DBManager::removeFromHistory(const QString &url)
 {
     removeRecord(QStringLiteral("history"), url);
+}
+
+void DBManager::clearHistory()
+{
+    removeAllRecords(QStringLiteral("history"));
 }
 
 void DBManager::updateLastVisited(const QString &url)

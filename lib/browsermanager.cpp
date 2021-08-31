@@ -48,6 +48,11 @@ void BrowserManager::removeFromHistory(const QString &url)
     m_dbmanager->removeFromHistory(url);
 }
 
+void BrowserManager::clearHistory()
+{
+    m_dbmanager->clearHistory();
+}
+
 void BrowserManager::updateLastVisited(const QString &url)
 {
     m_dbmanager->updateLastVisited(url);

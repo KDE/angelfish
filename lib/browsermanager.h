@@ -44,6 +44,7 @@ public slots:
 
     void addToHistory(const QVariantMap &pagedata);
     void removeFromHistory(const QString &url);
+    void clearHistory();
 
     void updateLastVisited(const QString &url);
     void updateIcon(const QString &url, const QString &iconSource);

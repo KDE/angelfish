@@ -32,6 +32,7 @@ public:
 
     void addToHistory(const QVariantMap &pagedata);
     void removeFromHistory(const QString &url);
+    void clearHistory();
 
     void updateIcon(const QString &url, const QString &iconSource);
     void updateLastVisited(const QString &url);
@@ -57,6 +58,7 @@ private:
     // methods for manipulation of bookmarks or history tables
     void addRecord(const QString &table, const QVariantMap &pagedata);
     void removeRecord(const QString &table, const QString &url);
+    void removeAllRecords(const QString &table);
     void updateIconRecord(const QString &table, const QString &url, const QString &iconSource);
     void setLastVisitedRecord(const QString &table, const QString &url);
     bool hasRecord(const QString &table, const QString &url) const;
