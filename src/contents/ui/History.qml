@@ -14,6 +14,7 @@ Kirigami.ScrollablePage {
 
     actions.main: Kirigami.Action {
         text: "Clear"
+        iconName: "edit-clear-all"
 
         onTriggered: BrowserManager.clearHistory()
     }
