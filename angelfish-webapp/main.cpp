@@ -81,7 +81,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
         qDebug() << "Failed to find url in" << path;
         return 2;
     }
-    const QString initialUrl = QUrl::fromUserInput(desktopFile.readUrl()).toString();
+    const QUrl initialUrl = QUrl::fromUserInput(desktopFile.readUrl());
 
     const QString appName = desktopFile.readName().toLower().replace(QLatin1Char(' '), QLatin1Char('-')) + QStringLiteral("-angelfish-webapp");
     KAboutData aboutData(appName.toLower(),

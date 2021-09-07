@@ -8,6 +8,7 @@
 #define TABSMODEL_H
 
 #include <QAbstractListModel>
+#include <QUrl>
 
 class QJsonObject;
 
@@ -18,7 +19,7 @@ public:
     QJsonObject toJson() const;
 
     TabState() = default;
-    TabState(const QString &url, const bool isMobile);
+    TabState(const QUrl &url, const bool isMobile);
 
     bool operator==(const TabState &other) const;
 
@@ -28,11 +29,11 @@ public:
     bool isDeveloperToolsOpen() const;
     void setIsDeveloperToolsOpen(bool isDeveloperToolsOpen);
 
-    QString url() const;
-    void setUrl(const QString &url);
+    QUrl url() const;
+    void setUrl(const QUrl &url);
 
 private:
-    QString m_url;
+    QUrl m_url;
     bool m_isMobile = true;
     bool m_isDeveloperToolsOpen = false;
 };
@@ -63,11 +64,11 @@ public:
 
     Q_INVOKABLE void loadInitialTabs();
 
-    Q_INVOKABLE void newTab(const QString &url);
+    Q_INVOKABLE void newTab(const QUrl &url);
     Q_INVOKABLE void createEmptyTab();
     Q_INVOKABLE void closeTab(int index);
 
-    Q_INVOKABLE void setUrl(int index, const QString &url);
+    Q_INVOKABLE void setUrl(int index, const QUrl &url);
     Q_INVOKABLE void setIsMobile(int index, bool isMobile);
     Q_INVOKABLE void setIsDeveloperToolsOpen(int index, bool isDeveloperToolsOpen);
 

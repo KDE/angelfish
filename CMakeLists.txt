@@ -62,7 +62,7 @@ set_package_properties(Corrosion PROPERTIES
 
 ################# Definitions to pass to the compiler #################
 
-add_definitions(-DQT_NO_FOREACH)
+add_definitions(-DQT_NO_FOREACH -DQT_NO_URL_CAST_FROM_STRING)
 kde_enable_exceptions()
 
 ################# build and install #################

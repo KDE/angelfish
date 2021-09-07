@@ -6,6 +6,7 @@
 #define BOOKMARKSMANAGER_H
 
 #include <QObject>
+#include <QUrl>
 
 #include "dbmanager.h"
 
@@ -21,13 +22,13 @@ class BrowserManager : public QObject
 {
     Q_OBJECT
 
-    Q_PROPERTY(QString initialUrl READ initialUrl WRITE setInitialUrl NOTIFY initialUrlChanged)
+    Q_PROPERTY(QUrl initialUrl READ initialUrl WRITE setInitialUrl NOTIFY initialUrlChanged)
 
 public:
     static BrowserManager *instance();
 
-    QString initialUrl() const;
-    void setInitialUrl(const QString &initialUrl);
+    QUrl initialUrl() const;
+    void setInitialUrl(const QUrl &initialUrl);
 
     bool isBookmarked(const QString &url) const;
 
@@ -55,7 +56,7 @@ private:
 
     DBManager *m_dbmanager;
 
-    QString m_initialUrl;
+    QUrl m_initialUrl;
 
     static BrowserManager *s_instance;
 };

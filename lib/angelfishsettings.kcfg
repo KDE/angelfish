@@ -15,11 +15,11 @@ SPDX-License-Identifier: LGPL-2.0-or-later
         <entry key="searchCustomUrl" type="string" />
     </group>
     <group name="Browser">
-        <entry key="homepage" type="string">
-            <default>QStringLiteral("https://start.duckduckgo.com")</default>
+        <entry key="homepage" type="url">
+            <default>QUrl(QStringLiteral("https://start.duckduckgo.com"))</default>
         </entry>
-        <entry key="searchBaseUrl" type="string">
-            <default>QStringLiteral("https://start.duckduckgo.com/?q=")</default>
+        <entry key="searchBaseUrl" type="url">
+            <default>QUrl(QStringLiteral("https://start.duckduckgo.com/?q="))</default>
         </entry>
     </group>
     <!-- Remember states -->
@@ -70,14 +70,14 @@ SPDX-License-Identifier: LGPL-2.0-or-later
         <entry key="adblockFilterUrls" type="urlList">
             <default>
                 {
-                    QStringLiteral("https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt"),
-                    QStringLiteral("https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt"),
-                    QStringLiteral("https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt"),
-                    QStringLiteral("https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt"),
-                    QStringLiteral("https://easylist.to/easylist/easyprivacy.txt"),
-                    QStringLiteral("https://easylist.to/easylist/easylist.txt"),
-                    QStringLiteral("https://filters.adtidy.org/extension/ublock/filters/14.txt"),
-                    QStringLiteral("https://easylist-downloads.adblockplus.org/antiadblockfilters.txt")
+                    QUrl(QStringLiteral("https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt")),
+                    QUrl(QStringLiteral("https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt")),
+                    QUrl(QStringLiteral("https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt")),
+                    QUrl(QStringLiteral("https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt")),
+                    QUrl(QStringLiteral("https://easylist.to/easylist/easyprivacy.txt")),
+                    QUrl(QStringLiteral("https://easylist.to/easylist/easylist.txt")),
+                    QUrl(QStringLiteral("https://filters.adtidy.org/extension/ublock/filters/14.txt")),
+                    QUrl(QStringLiteral("https://easylist-downloads.adblockplus.org/antiadblockfilters.txt"))
                 }
             </default>
         </entry>

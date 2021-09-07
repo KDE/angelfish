@@ -102,10 +102,10 @@ void TabsModel::loadInitialTabs()
 
     if (!m_privateMode) {
         if (BrowserManager::instance()->initialUrl().isEmpty()) {
-            if (m_tabs.first().url() == QStringLiteral("about:blank"))
+            if (m_tabs.first().url() == QUrl(QStringLiteral("about:blank")))
                 setUrl(0, AngelfishSettings::self()->homepage());
         } else {
-            if (m_tabs.first().url() == QStringLiteral("about:blank"))
+            if (m_tabs.first().url() == QUrl(QStringLiteral("about:blank")))
                 setUrl(0, BrowserManager::instance()->initialUrl());
             else
                 newTab(BrowserManager::instance()->initialUrl());
@@ -259,7 +259,7 @@ void TabsModel::setPrivateMode(bool privateMode)
  */
 void TabsModel::createEmptyTab()
 {
-    newTab(QStringLiteral("about:blank"));
+    newTab(QUrl(QStringLiteral("about:blank")));
 };
 
 /**
@@ -267,7 +267,7 @@ void TabsModel::createEmptyTab()
  * @param url
  * @param isMobile
  */
-void TabsModel::newTab(const QString &url)
+void TabsModel::newTab(const QUrl &url)
 {
     beginInsertRows({}, m_tabs.count(), m_tabs.count());
 
@@ -357,7 +357,7 @@ bool TabsModel::isDeveloperToolsOpen(int index)
     return m_tabs.at(index).isDeveloperToolsOpen();
 }
 
-void TabsModel::setUrl(int index, const QString &url)
+void TabsModel::setUrl(int index, const QUrl &url)
 {
     qDebug() << "Setting URL:" << index << url << "tabs open" << m_tabs.count();
     if (index < 0 && index >= m_tabs.count())
@@ -370,12 +370,12 @@ void TabsModel::setUrl(int index, const QString &url)
     saveTabs();
 }
 
-QString TabState::url() const
+QUrl TabState::url() const
 {
     return m_url;
 }
 
-void TabState::setUrl(const QString &url)
+void TabState::setUrl(const QUrl &url)
 {
     m_url = url;
 }
@@ -403,13 +403,13 @@ void TabState::setIsDeveloperToolsOpen(bool isDeveloperToolsOpen)
 TabState TabState::fromJson(const QJsonObject &obj)
 {
     TabState tab;
-    tab.setUrl(obj.value(QStringLiteral("url")).toString());
+    tab.setUrl(QUrl(obj.value(QStringLiteral("url")).toString()));
     tab.setIsMobile(obj.value(QStringLiteral("isMobile")).toBool());
     tab.setIsDeveloperToolsOpen(obj.value(QStringLiteral("isDeveloperToolsOpen")).toBool());
     return tab;
 }
 
-TabState::TabState(const QString &url, const bool isMobile)
+TabState::TabState(const QUrl &url, const bool isMobile)
 {
     setIsMobile(isMobile);
     setUrl(url);
@@ -427,7 +427,7 @@ bool TabState::operator==(const TabState &other) const
 QJsonObject TabState::toJson() const
 {
     return {
-        {QStringLiteral("url"), m_url},
+        {QStringLiteral("url"), m_url.toString()},
         {QStringLiteral("isMobile"), m_isMobile},
         {QStringLiteral("isDeveloperToolsOpen"), m_isDeveloperToolsOpen},
     };

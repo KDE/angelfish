@@ -76,7 +76,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
         parser.parse(arguments);
 
         if (!parser.positionalArguments().isEmpty()) {
-            const QString initialUrl = QUrl::fromUserInput(parser.positionalArguments().constFirst()).toString();
+            const QUrl initialUrl = QUrl::fromUserInput(parser.positionalArguments().constFirst());
             const auto *webbrowserWindow = qobject_cast<QQuickWindow *>(engine.rootObjects().constFirst());
             if (!webbrowserWindow) {
                 qWarning() << "No webbrowser window is open, can't open the url";
@@ -110,7 +110,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     // initial url command line parameter
     if (!parser.positionalArguments().isEmpty()) {
-        const QString initialUrl = QUrl::fromUserInput(parser.positionalArguments().constFirst()).toString();
+        const auto initialUrl = QUrl::fromLocalFile(parser.positionalArguments().constFirst());
         BrowserManager::instance()->setInitialUrl(initialUrl);
     }
 
@@ -168,7 +168,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     // Load QML
     engine.load(QUrl(QStringLiteral("qrc:///webbrowser.qml")));
 
-    const auto *window = qobject_cast<QQuickWindow *>(engine.rootObjects().constFirst());
+    const auto window = qobject_cast<QQuickWindow *>(engine.rootObjects().constFirst());
     QObject::connect(window, &QQuickWindow::widthChanged, AngelfishSettings::self(), [window] {
         AngelfishSettings::setWindowWidth(window->width());
     });

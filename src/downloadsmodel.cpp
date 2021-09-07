@@ -34,7 +34,7 @@ QVariant DownloadsModel::data(const QModelIndex &index, int role) const
     }
     case Role::DownloadedFilePathRole: {
         const QQuickWebEngineDownloadItem *download = downloads.at(index.row());
-        return QUrl(QStringLiteral("file://") + download->downloadDirectory() + QDir::separator() + download->downloadFileName());
+        return QUrl::fromLocalFile(download->downloadDirectory() + QDir::separator() + download->downloadFileName());
     }
     }
 

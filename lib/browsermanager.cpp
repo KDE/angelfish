@@ -63,12 +63,12 @@ void BrowserManager::updateIcon(const QString &url, const QString &iconSource)
     m_dbmanager->updateIcon(url, iconSource);
 }
 
-QString BrowserManager::initialUrl() const
+QUrl BrowserManager::initialUrl() const
 {
     return m_initialUrl;
 }
 
-void BrowserManager::setInitialUrl(const QString &initialUrl)
+void BrowserManager::setInitialUrl(const QUrl &initialUrl)
 {
     m_initialUrl = initialUrl;
     Q_EMIT initialUrlChanged();
