@@ -36,7 +36,6 @@ Item {
         anchors.left: navigation.left
         anchors.top: navigation.top
         anchors.bottom: navigation.bottom
-        anchors.verticalCenter: navigation.verticalCenter
         implicitWidth: height
         
         opacity: Math.abs(navContainer.x) / gestureThreshold
@@ -54,7 +53,6 @@ Item {
         anchors.right: navigation.right
         anchors.top: navigation.top
         anchors.bottom: navigation.bottom
-        anchors.verticalCenter: navigation.verticalCenter
         implicitWidth: height
         
         opacity: Math.abs(navContainer.x) / gestureThreshold
