@@ -44,7 +44,7 @@ Repeater {
 
         property bool readyForSnapshot: false
         property bool showView: index === tabs.currentIndex
-        property bool isVisible: (showView || readyForSnapshot || loadingActive) && tabs.activeTabs
+        property bool isVisible: (showView || readyForSnapshot || pageWebView.loadingActive) && tabs.activeTabs
         onShowViewChanged: {
             if (showView) {
                 tabs.currentItem = pageWebView
