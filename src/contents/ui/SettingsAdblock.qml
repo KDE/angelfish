@@ -60,6 +60,7 @@ Kirigami.ScrollablePage {
             Controls.TextField {
                 id: urlInput
                 Layout.fillWidth: true
+                inputMethodHints: Qt.ImhUrlCharactersOnly
             }
 
             Controls.Button {
