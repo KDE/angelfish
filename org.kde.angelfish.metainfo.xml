@@ -16,6 +16,7 @@
   <name xml:lang="ia">Angelfish Webbrowser (navigator web)</name>
   <name xml:lang="it">Browser web Angelfish</name>
   <name xml:lang="ko">Angelfish 웹 브라우저</name>
+  <name xml:lang="lt">Angelfish saityno naršyklė</name>
   <name xml:lang="nl">Webbrowser Angelfish</name>
   <name xml:lang="nn">Angelfish nettlesar</name>
   <name xml:lang="pa">ਐਂਗਲਫਿਸ਼ ਵੈੱਬ ਬਰਾਊਜ਼ਰ</name>
@@ -374,6 +375,7 @@
       <caption xml:lang="ia">Vista de Schedas</caption>
       <caption xml:lang="it">Vista a schede</caption>
       <caption xml:lang="ko">탭 보기</caption>
+      <caption xml:lang="lt">Kortelių rodinys</caption>
       <caption xml:lang="nl">Tabbladenweergave</caption>
       <caption xml:lang="pl">Widok kart</caption>
       <caption xml:lang="pt">Vista de Páginas</caption>
