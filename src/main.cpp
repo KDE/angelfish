@@ -110,7 +110,10 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     // initial url command line parameter
     if (!parser.positionalArguments().isEmpty()) {
-        const auto initialUrl = QUrl::fromLocalFile(parser.positionalArguments().constFirst());
+        const auto initialUrl = QUrl::fromUserInput(parser.positionalArguments().constFirst());
+        if (initialUrl.isValid()) {
+            BrowserManager::instance()->setInitialUrl(initialUrl);
+        }
         BrowserManager::instance()->setInitialUrl(initialUrl);
     }
 
