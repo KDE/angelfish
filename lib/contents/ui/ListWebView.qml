@@ -39,6 +39,14 @@ Repeater {
     }
 
     delegate: SplitView {
+        id: tabDelegate
+
+        required property bool isMobile
+        required property url pageurl
+        required property bool isDeveloperToolsOpen
+
+        required property int index
+
         anchors.fill: parent
         orientation: Qt.Vertical
 
@@ -62,13 +70,13 @@ Repeater {
                 visible: isVisible
                 
                 privateMode: tabs.privateTabsMode
-                userAgent.isMobile: model.isMobile
+                userAgent.isMobile: tabDelegate.isMobile
                 width: tabs.width
 
                 profile: tabs.profile
 
                 Component.onCompleted: {
-                    url = model.pageurl
+                    url = tabDelegate.pageurl
                 }
 
                 onRequestedUrlChanged: tabsModel.setUrl(index, requestedUrl)
@@ -84,7 +92,7 @@ Repeater {
 
         Item {
             SplitView.minimumHeight: 100
-            visible: model.isDeveloperToolsOpen
+            visible: tabDelegate.isDeveloperToolsOpen
 
             Loader {
                 id: developerToolsLoader
@@ -97,7 +105,7 @@ Repeater {
                 Connections {
                     target: tabsModel
                     function onDataChanged() {
-                        if (model.isDeveloperToolsOpen) {
+                        if (tabDelegate.isDeveloperToolsOpen) {
                             developerToolsLoader.setSource("WebDeveloperTools.qml");
                         }
                     }
