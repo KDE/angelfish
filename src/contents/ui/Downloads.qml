@@ -26,30 +26,39 @@ Kirigami.ScrollablePage {
             text: i18n("No running downloads")
         }
         delegate: Kirigami.SwipeListItem {
-            onClicked: Qt.openUrlExternally(model.downloadedFilePath)
+            id: downloadDelegate
+            required property WebEngineDownloadItem download
+            required property var mimeTypeIcon
+            required property string fileName
+            required property url url
+            required property url downloadedFilePath
+
+            required property int index
+
+            onClicked: Qt.openUrlExternally(downloadDelegate.downloadedFilePath)
             actions: [
                 Kirigami.Action {
                     text: i18n("Cancel")
-                    icon.name: model.download.state === WebEngineDownloadItem.DownloadInProgress ? "dialog-cancel" : "list-remove"
+                    icon.name: downloadDelegate.download.state === WebEngineDownloadItem.DownloadInProgress ? "dialog-cancel" : "list-remove"
                     onTriggered: downloadsModel.removeDownload(index)
                 },
                 Kirigami.Action {
-                    visible: !model.download.isPaused && model.download.state === WebEngineDownloadItem.DownloadInProgress
+                    visible: !downloadDelegate.download.isPaused && downloadDelegate.download.state === WebEngineDownloadItem.DownloadInProgress
                     text: i18n("Pause")
                     icon.name: "media-playback-pause"
-                    onTriggered: model.download.pause()
+                    onTriggered: downloadDelegate.download.pause()
                 },
                 Kirigami.Action {
-                    visible: model.download.isPaused && model.download.state === WebEngineDownloadItem.DownloadInProgress
+                    visible: downloadDelegate.download.isPaused && downloadDelegate.download.state === WebEngineDownloadItem.DownloadInProgress
                     text: i18n("Continue")
                     icon.name: "media-playback-start"
-                    onTriggered: model.download.resume();
+                    onTriggered: downloadDelegate.download.resume();
                 }
 
             ]
             RowLayout {
                 Kirigami.Icon {
-                    source: model.mimeTypeIcon
+                    source: downloadDelegate.mimeTypeIcon
                     height: Kirigami.Units.iconSizes.medium
                     width: height
                 }
@@ -60,24 +69,24 @@ Kirigami.ScrollablePage {
                         Layout.fillWidth: true
                         level: 3
                         elide: Qt.ElideRight
-                        text: model.fileName
+                        text: downloadDelegate.fileName
                     }
                     Controls.Label {
                         Layout.fillWidth: true
                         elide: Qt.ElideRight
-                        text: model.url
+                        text: downloadDelegate.url
                     }
                     Controls.ProgressBar {
                         Layout.fillWidth: true
-                        visible: model.download.state === WebEngineDownloadItem.DownloadInProgress
+                        visible: downloadDelegate.download.state === WebEngineDownloadItem.DownloadInProgress
                         from: 0
-                        value: model.download.receivedBytes
-                        to: model.download.totalBytes
+                        value: downloadDelegate.download.receivedBytes
+                        to: downloadDelegate.download.totalBytes
                     }
                     Controls.Label {
-                        visible: model.download.state !== WebEngineDownloadItem.DownloadInProgress
+                        visible: downloadDelegate.download.state !== WebEngineDownloadItem.DownloadInProgress
                         text: {
-                            switch (model.download.state) {
+                            switch (downloadDelegate.download.state) {
                             case WebEngineDownloadItem.DownloadRequested:
                                 return i18nc("download state", "Starting…");
                             case WebEngineDownloadItem.DownloadCompleted:
@@ -86,6 +95,8 @@ Kirigami.ScrollablePage {
                                 return i18n("Cancelled");
                             case WebEngineDownloadItem.DownloadInterrupted:
                                 return i18nc("download state", "Interrupted");
+                            case WebEngineDownloadItem.DownloadInProgress:
+                                return i18nc("download state", "In progress")
                             }
                         }
                     }
