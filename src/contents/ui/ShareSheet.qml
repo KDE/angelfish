@@ -24,11 +24,16 @@ Kirigami.OverlaySheet {
         clip: true
 
         delegate: Kirigami.BasicListItem {
-            label: model.display
+            id: shareDelegate
+
+            required property string display
+            required property int index
+
+            label: shareDelegate.display
             icon: "arrow-right"
-            onClicked: view.createJob (model.index)
-            Keys.onReturnPressed: view.createJob (model.index)
-            Keys.onEnterPressed: view.createJob (model.index)
+            onClicked: view.createJob (shareDelegate.index)
+            Keys.onReturnPressed: view.createJob (shareDelegate.index)
+            Keys.onEnterPressed: view.createJob (shareDelegate.index)
         }
 
         onFinished: close()
