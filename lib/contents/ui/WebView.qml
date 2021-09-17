@@ -258,6 +258,11 @@ WebEngineView {
         }
     }
 
+    onCertificateError: (error) => {
+        error.defer();
+        errorHandler.enqueue(error);
+    }
+
     function findInPageBack(text) {
         findText(text, WebEngineView.FindBackward);
     }

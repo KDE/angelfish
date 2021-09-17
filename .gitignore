@@ -1,1 +1,4 @@
 .clang-format
+CMakeLists.txt.user
+build
+_build
