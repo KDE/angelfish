@@ -80,7 +80,7 @@ Controls.Drawer {
                 }
 
                 function applyUrl() {
-                    if (text.match(RegexWebUrl.re_weburl)) {
+                    if (text.match(RegexWebUrl.re_weburl) || text.startsWith("chrome://")) {
                         currentWebView.url = UrlUtils.urlFromUserInput(text);
                     } else {
                         currentWebView.url = UrlUtils.urlFromUserInput(Settings.searchBaseUrl + text);
