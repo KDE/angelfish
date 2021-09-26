@@ -7,7 +7,6 @@
 #include <QDebug>
 #include <QDir>
 #include <QLoggingCategory>
-#include <QQuickWebEngineProfile>
 #include <QStandardPaths>
 #include <QStringBuilder>
 
@@ -104,7 +103,7 @@ void AdblockUrlInterceptor::resetAdblock()
 #endif
 }
 
-inline std::string resourceTypeToString(const QWebEngineUrlRequestInfo::ResourceType type)
+inline auto resourceTypeToString(const QWebEngineUrlRequestInfo::ResourceType type)
 {
     // Strings from https://docs.rs/crate/adblock/0.3.3/source/src/request.rs
     using Type = QWebEngineUrlRequestInfo::ResourceType;
@@ -158,8 +157,8 @@ void AdblockUrlInterceptor::interceptRequest(QWebEngineUrlRequestInfo &info)
     const AdblockResult result = m_adblock.value()->shouldBlock(url, firstPartyUrl, resourceTypeToString(info.resourceType()));
 
     const auto &redirect = result.redirect;
-    if (redirect.begin() != redirect.end()) {
-        info.redirect(QUrl(QString::fromStdString({redirect.begin(), redirect.end()})));
+    if (!redirect.empty()) {
+        info.redirect(QUrl(QString::fromStdString(std::string(redirect))));
     } else {
         info.block(result.matched);
     }
