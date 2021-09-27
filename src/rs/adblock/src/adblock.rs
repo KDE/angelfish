@@ -97,6 +97,16 @@ impl Adblock {
         ffi::AdblockResult::default()
     }
 
+    fn get_cosmetic_filters(&self, url: &str, classes: &Vec<String>, ids: &Vec<String>) -> Vec<String> {
+        if let Some(engine) = &self.blocker {
+            let cosmetic_resources = engine.url_cosmetic_resources(url);
+            let selectors = engine.hidden_class_id_selectors(&classes, &ids, &cosmetic_resources.exceptions);
+            return selectors
+        }
+
+        Vec::new()
+    }
+
     fn save(&self, path: &str) -> bool {
         match fs::File::create(path) {
             Ok(mut file) => match &self.blocker {
@@ -155,6 +165,8 @@ mod ffi {
             source_url: &str,
             request_type: &str,
         ) -> AdblockResult;
+        #[cxx_name="getCosmeticFilters"]
+        fn get_cosmetic_filters(self: &Adblock, url: &str, classes: &Vec<String>, ids: &Vec<String>) -> Vec<String>;
         fn save(self: &Adblock, path: &str) -> bool;
     }
 }

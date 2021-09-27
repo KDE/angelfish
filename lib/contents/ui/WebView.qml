@@ -155,6 +155,38 @@ WebEngineView {
                 BrowserManager.addToHistory(request);
                 BrowserManager.updateLastVisited(currentWebView.url);
             }
+            webEngineView.runJavaScript(
+`var elements = document.querySelectorAll("*[id]");
+var ids = [];
+for (var i in elements) {
+    if (elements[i].id) {
+        ids.push(elements[i].id)
+    }
+}
+ids
+`, (ids) => {
+                webEngineView.runJavaScript(
+`var elements = document.querySelectorAll("*[class]");
+var classes = [];
+for (var i in elements) {
+    if (elements[i].id) {
+        classes.push(elements[i].className);
+    }
+}
+classes
+`, (classes) => {
+                    let selectors = AdblockUrlInterceptor.getCosmeticFilters(webEngineView.url, classes, ids)
+
+                    for (var i = 0; i < selectors.length; i++) {
+                        webEngineView.runJavaScript(
+`{
+    let adblockStyleElement = document.createElement("style")
+    adblockStyleElement.textContent = "${selectors[i]} { display: none }"
+    document.head.appendChild(adblockStyleElement);
+}`)
+                    }
+                })
+            })
             loadingActive = false;
         }
         if (loadRequest.status === WebEngineView.LoadFailedStatus) {

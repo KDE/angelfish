@@ -33,13 +33,6 @@ public:
     bool downloadNeeded() const;
     Q_SIGNAL void downloadNeededChanged();
 
-    /// Deletes the old adblock and creates a new one from the current filter lists.
-    /// This needs to be called after lists were changed.
-    void resetAdblock();
-    Q_SIGNAL void adblockInitialized();
-
-    Q_SIGNAL void enabledChanged();
-
     constexpr static bool adblockSupported()
     {
 #ifdef BUILD_ADBLOCK
@@ -50,6 +43,17 @@ public:
 
     bool enabled() const;
     void setEnabled(bool enabled);
+    Q_SIGNAL void enabledChanged();
+
+    /// Deletes the old adblock and creates a new one from the current filter lists.
+    /// This needs to be called after lists were changed.
+    void resetAdblock();
+
+    Q_INVOKABLE std::vector<QString> getCosmeticFilters(const QUrl &url,
+                                                        const std::vector<QString> &classes,
+                                                        const std::vector<QString> &ids) const;
+
+    Q_SIGNAL void adblockInitialized();
 
 private:
     explicit AdblockUrlInterceptor(QObject *parent = nullptr);
