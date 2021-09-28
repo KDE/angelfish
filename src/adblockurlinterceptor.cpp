@@ -14,6 +14,8 @@
 
 #include "angelfishsettings.h"
 
+namespace ranges = std::ranges;
+
 Q_LOGGING_CATEGORY(AdblockCategory, "org.kde.angelfish.adblock", QtWarningMsg);
 
 AdblockUrlInterceptor::AdblockUrlInterceptor(QObject *parent)
@@ -113,13 +115,13 @@ std::vector<QString> AdblockUrlInterceptor::getCosmeticFilters(const QUrl &url,
 
     rust::Vec<rust::String> rustClasses;
     rustClasses.reserve(classes.size());
-    std::transform(classes.begin(), classes.end(), std::back_inserter(rustClasses), [](const QString &c) {
+    ranges::transform(classes, std::back_inserter(rustClasses), [](const QString &c) {
         return rust::String(c.toStdString());
     });
 
     rust::Vec<rust::String> rustIds;
     rustIds.reserve(ids.size());
-    std::transform(ids.begin(), ids.end(), std::back_inserter(rustIds), [](const QString &id) {
+    ranges::transform(ids, std::back_inserter(rustIds), [](const QString &id) {
         return rust::String(id.toStdString());
     });
 
@@ -127,7 +129,7 @@ std::vector<QString> AdblockUrlInterceptor::getCosmeticFilters(const QUrl &url,
 
     std::vector<QString> selectors;
     selectors.reserve(rustSelectors.size());
-    std::transform(rustSelectors.begin(), rustSelectors.end(), std::back_inserter(selectors), [](const auto &selector) {
+    ranges::transform(rustSelectors, std::back_inserter(selectors), [](const auto &selector) {
         return QString::fromStdString(std::string(selector));
     });
 

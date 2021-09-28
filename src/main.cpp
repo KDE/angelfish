@@ -18,6 +18,7 @@
 #include <KWindowSystem>
 
 #include <csignal>
+#include <ranges>
 
 #include "adblockfilterlistsmanager.h"
 #include "adblockfilterlistsmodel.h"
@@ -35,6 +36,8 @@
 #include "version.h"
 #include "webappcreator.h"
 #include "webappmanagermodel.h"
+
+namespace ranges = std::ranges;
 
 constexpr auto APPLICATION_ID = "org.kde.angelfish";
 
@@ -88,7 +91,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
             // This should be initialPage->findChild<TabsModel *>(QStringLiteral("regularTabsObject")), for some reason
             // it doesn't find our tabsModel.
             const auto children = initialPage->children();
-            const auto *regularTabs = *std::find_if(children.cbegin(), children.cend(), [](const QObject *child) {
+            const auto *regularTabs = *ranges::find_if(children, [](const QObject *child) {
                 return child->objectName() == QStringLiteral("regularTabsObject");
             });
 

@@ -15,8 +15,12 @@
 #include <QStandardPaths>
 #include <QUrl>
 
+#include <ranges>
+
 #include "angelfishsettings.h"
 #include "browsermanager.h"
+
+namespace ranges = std::ranges;
 
 TabsModel::TabsModel(QObject *parent)
     : QAbstractListModel(parent)
@@ -166,7 +170,8 @@ bool TabsModel::loadTabs()
         m_tabs.clear();
 
         const auto tabs = tabsStorage.value(QLatin1String("tabs")).toArray();
-        std::transform(tabs.begin(), tabs.end(), std::back_inserter(m_tabs), [](const QJsonValue &tab) {
+
+        ranges::transform(tabs, std::back_inserter(m_tabs), [](const QJsonValue &tab) {
             return TabState::fromJson(tab.toObject());
         });
 
@@ -207,7 +212,7 @@ bool TabsModel::saveTabs() const
         }
 
         QJsonArray tabsArray;
-        std::transform(m_tabs.cbegin(), m_tabs.cend(), std::back_inserter(tabsArray), [](const TabState &tab) {
+        ranges::transform(m_tabs, std::back_inserter(tabsArray), [](const TabState &tab) {
             return tab.toJson();
         });
 
