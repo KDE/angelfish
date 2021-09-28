@@ -7,7 +7,7 @@ import QtQuick.Controls 2.0 as Controls
 import QtQuick.Layouts 1.0
 import QtWebEngine 1.1
 
-import org.kde.kirigami 2.0 as Kirigami
+import org.kde.kirigami 2.17 as Kirigami
 
 
 Item {
@@ -20,9 +20,16 @@ Item {
     property alias errorString: errorDescription.text
     property var certErrors: []
 
+    Kirigami.Theme.inherit: false
+    Kirigami.Theme.colorSet: Kirigami.Theme.View
+
     Behavior on height { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad} }
 
-    Rectangle { anchors.fill: parent; color: Kirigami.Theme.viewBackgroundColor; }
+    Rectangle {
+        anchors.fill: parent
+        Kirigami.Theme.inherit: true
+        color: Kirigami.Theme.backgroundColor
+    }
 
     ColumnLayout {
         spacing: Kirigami.Units.gridUnit
