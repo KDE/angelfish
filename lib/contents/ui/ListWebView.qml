@@ -104,7 +104,7 @@ Repeater {
 
                 Connections {
                     target: tabsModel
-                    function onDataChanged() {
+                    function onDataChanged(_, _, _) {
                         if (tabDelegate.isDeveloperToolsOpen) {
                             developerToolsLoader.setSource("WebDeveloperTools.qml");
                         }
