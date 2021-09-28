@@ -5,6 +5,7 @@
 import QtQuick 2.3
 import QtQuick.Layouts 1.0
 import QtQuick.Controls 2.0 as Controls
+import QtWebEngine 1.5
 
 import org.kde.kirigami 2.5 as Kirigami
 import org.kde.angelfish 1.0
@@ -44,8 +45,8 @@ Item {
             inputMethodHints: rootPage.privateMode ? Qt.ImhNoPredictiveText : Qt.ImhNone
             placeholderText: i18n("Search...")
 
-            onAccepted: currentWebView.findInPageForward(displayText)
-            onDisplayTextChanged: currentWebView.findInPageForward(displayText)
+            onAccepted: currentWebView.findText(displayText)
+            onDisplayTextChanged: currentWebView.findText(displayText)
             Keys.onEscapePressed: findInPage.active = false
 
             Controls.Label {
@@ -68,7 +69,7 @@ Item {
 
             icon.name: "go-up"
 
-            onClicked: currentWebView.findInPageBack(input.displayText)
+            onClicked: currentWebView.findText(input.displayText, WebEngineView.FindBackward)
         }
 
         Controls.ToolButton {
@@ -78,7 +79,7 @@ Item {
 
             icon.name: "go-down"
 
-            onClicked: currentWebView.findInPageForward(input.displayText)
+            onClicked: currentWebView.findText(input.displayText)
         }
 
         Controls.ToolButton {

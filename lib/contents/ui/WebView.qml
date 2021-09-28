@@ -263,10 +263,6 @@ WebEngineView {
         errorHandler.enqueue(error);
     }
 
-    function findInPageBack(text) {
-        findText(text, WebEngineView.FindBackward);
-    }
-
     function findInPageForward(text) {
         findText(text);
     }
