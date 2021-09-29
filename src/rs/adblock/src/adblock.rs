@@ -97,10 +97,10 @@ impl Adblock {
         ffi::AdblockResult::default()
     }
 
-    fn get_cosmetic_filters(&self, url: &str, classes: &Vec<String>, ids: &Vec<String>) -> Vec<String> {
+    fn get_cosmetic_filters(&self, url: &str, classes: &[String], ids: &[String]) -> Vec<String> {
         if let Some(engine) = &self.blocker {
             let cosmetic_resources = engine.url_cosmetic_resources(url);
-            let selectors = engine.hidden_class_id_selectors(&classes, &ids, &cosmetic_resources.exceptions);
+            let selectors = engine.hidden_class_id_selectors(classes, ids, &cosmetic_resources.exceptions);
             return selectors
         }
 
@@ -166,7 +166,7 @@ mod ffi {
             request_type: &str,
         ) -> AdblockResult;
         #[cxx_name="getCosmeticFilters"]
-        fn get_cosmetic_filters(self: &Adblock, url: &str, classes: &Vec<String>, ids: &Vec<String>) -> Vec<String>;
+        fn get_cosmetic_filters(self: &Adblock, url: &str, classes: &[String], ids: &[String]) -> Vec<String>;
         fn save(self: &Adblock, path: &str) -> bool;
     }
 }

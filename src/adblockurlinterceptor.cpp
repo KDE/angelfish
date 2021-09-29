@@ -18,6 +18,28 @@ namespace ranges = std::ranges;
 
 Q_LOGGING_CATEGORY(AdblockCategory, "org.kde.angelfish.adblock", QtWarningMsg);
 
+template <typename T>
+auto toRustType(T input) {
+    if constexpr (std::is_same_v<T, std::vector<QString>>) {
+        std::vector<rust::String> rustStringVec;
+        ranges::transform(input, std::back_inserter(rustStringVec), [](const QString &c) {
+            return rust::String(c.toStdString());
+        });
+        return rustStringVec;
+    }
+}
+
+template <typename T>
+auto toQtType(T input) {
+    if constexpr (std::is_same_v<T, rust::Vec<rust::String>>) {
+        std::vector<QString> qStringVec;
+        ranges::transform(input, std::back_inserter(qStringVec), [](const auto &c) {
+            return QString::fromStdString(std::string(c));
+        });
+        return qStringVec;
+    }
+}
+
 AdblockUrlInterceptor::AdblockUrlInterceptor(QObject *parent)
     : QWebEngineUrlRequestInterceptor(parent)
 #ifdef BUILD_ADBLOCK
@@ -114,27 +136,11 @@ std::vector<QString> AdblockUrlInterceptor::getCosmeticFilters(const QUrl &url,
         return std::vector<QString>();
     }
 
-    rust::Vec<rust::String> rustClasses;
-    rustClasses.reserve(classes.size());
-    ranges::transform(classes, std::back_inserter(rustClasses), [](const QString &c) {
-        return rust::String(c.toStdString());
-    });
-
-    rust::Vec<rust::String> rustIds;
-    rustIds.reserve(ids.size());
-    ranges::transform(ids, std::back_inserter(rustIds), [](const QString &id) {
-        return rust::String(id.toStdString());
-    });
-
-    const auto rustSelectors = (*m_adblock)->getCosmeticFilters(url.toString().toStdString(), rustClasses, rustIds);
-
-    std::vector<QString> selectors;
-    selectors.reserve(rustSelectors.size());
-    ranges::transform(rustSelectors, std::back_inserter(selectors), [](const auto &selector) {
-        return QString::fromStdString(std::string(selector));
-    });
-
-    return selectors;
+    const auto rustClasses = toRustType(classes);
+    const auto rustIds = toRustType(ids);
+    return toQtType((*m_adblock)->getCosmeticFilters(url.toString().toStdString(),
+                                                     rust::Slice<const rust::String>(rustClasses.data(), rustClasses.size()),
+                                                     rust::Slice<const rust::String>(rustIds.data(), rustIds.size())));
 }
 #endif
 
