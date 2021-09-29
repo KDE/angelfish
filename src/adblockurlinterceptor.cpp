@@ -139,8 +139,8 @@ std::vector<QString> AdblockUrlInterceptor::getCosmeticFilters(const QUrl &url,
     const auto rustClasses = toRustType(classes);
     const auto rustIds = toRustType(ids);
     return toQtType((*m_adblock)->getCosmeticFilters(url.toString().toStdString(),
-                                                     rust::Slice<const rust::String>(rustClasses.data(), rustClasses.size()),
-                                                     rust::Slice<const rust::String>(rustIds.data(), rustIds.size())));
+                                                     {rustClasses.data(), rustClasses.size()},
+                                                     {rustIds.data(), rustIds.size()}));
 }
 #endif
 
