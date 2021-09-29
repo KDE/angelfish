@@ -155,6 +155,11 @@ WebEngineView {
                 BrowserManager.addToHistory(request);
                 BrowserManager.updateLastVisited(currentWebView.url);
             }
+
+            if (typeof AdblockUrlInterceptor === "undefined" || !AdblockUrlInterceptor.adblockSupported) {
+                return;
+            }
+
             webEngineView.runJavaScript(
 `var elements = document.querySelectorAll("*[id]");
 var ids = [];

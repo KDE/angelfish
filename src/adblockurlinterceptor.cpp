@@ -105,6 +105,7 @@ void AdblockUrlInterceptor::resetAdblock()
 #endif
 }
 
+#ifdef BUILD_ADBLOCK
 std::vector<QString> AdblockUrlInterceptor::getCosmeticFilters(const QUrl &url,
                                                                const std::vector<QString> &classes,
                                                                const std::vector<QString> &ids) const
@@ -135,6 +136,7 @@ std::vector<QString> AdblockUrlInterceptor::getCosmeticFilters(const QUrl &url,
 
     return selectors;
 }
+#endif
 
 inline auto resourceTypeToString(const QWebEngineUrlRequestInfo::ResourceType type)
 {

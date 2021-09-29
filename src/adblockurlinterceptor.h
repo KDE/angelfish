@@ -49,9 +49,11 @@ public:
     /// This needs to be called after lists were changed.
     void resetAdblock();
 
+#ifdef BUILD_ADBLOCK
     Q_INVOKABLE std::vector<QString> getCosmeticFilters(const QUrl &url,
                                                         const std::vector<QString> &classes,
                                                         const std::vector<QString> &ids) const;
+#endif
 
     Q_SIGNAL void adblockInitialized();
 
