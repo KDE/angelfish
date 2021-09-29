@@ -126,7 +126,7 @@ std::vector<QString> AdblockUrlInterceptor::getCosmeticFilters(const QUrl &url,
         return rust::String(id.toStdString());
     });
 
-    const auto rustSelectors = m_adblock.value()->getCosmeticFilters(url.toString().toStdString(), rustClasses, rustIds);
+    const auto rustSelectors = (*m_adblock)->getCosmeticFilters(url.toString().toStdString(), rustClasses, rustIds);
 
     std::vector<QString> selectors;
     selectors.reserve(rustSelectors.size());
@@ -189,7 +189,7 @@ void AdblockUrlInterceptor::interceptRequest(QWebEngineUrlRequestInfo &info)
 
     const std::string url = info.requestUrl().toString().toStdString();
     const std::string firstPartyUrl = info.firstPartyUrl().toString().toStdString();
-    const AdblockResult result = m_adblock.value()->shouldBlock(url, firstPartyUrl, resourceTypeToString(info.resourceType()));
+    const AdblockResult result = (*m_adblock)->shouldBlock(url, firstPartyUrl, resourceTypeToString(info.resourceType()));
 
     const auto &redirect = result.redirect;
     if (!redirect.empty()) {

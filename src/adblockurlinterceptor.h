@@ -5,15 +5,15 @@
 #pragma once
 
 #include <QWebEngineUrlRequestInterceptor>
-class QWebEngineUrlRequestInfo;
-class QQuickWebEngineProfile;
 
 #ifdef BUILD_ADBLOCK
 #include <adblock.rs.h>
 #include <optional>
+#include <future>
 #endif
 
-#include <future>
+class QWebEngineUrlRequestInfo;
+class QQuickWebEngineProfile;
 
 class AdblockUrlInterceptor : public QWebEngineUrlRequestInterceptor
 {
