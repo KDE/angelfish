@@ -1,3 +1,5 @@
+[![Flatpak build status](https://binary-factory.kde.org/buildStatus/icon?subject=Flatpak&job=Angelfish_x86_64_flatpak)](https://binary-factory.kde.org/job/Angelfish_x86_64_flatpak)
+
 # Angelfish
 
 This is a webbrowser designed to
