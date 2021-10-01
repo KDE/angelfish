@@ -18,6 +18,7 @@ namespace ranges = std::ranges;
 
 Q_LOGGING_CATEGORY(AdblockCategory, "org.kde.angelfish.adblock", QtWarningMsg);
 
+#ifdef BUILD_ADBLOCK
 template <typename T>
 auto toRustType(T input) {
     if constexpr (std::is_same_v<T, std::vector<QString>>) {
@@ -39,6 +40,7 @@ auto toQtType(T input) {
         return qStringVec;
     }
 }
+#endif
 
 AdblockUrlInterceptor::AdblockUrlInterceptor(QObject *parent)
     : QWebEngineUrlRequestInterceptor(parent)
