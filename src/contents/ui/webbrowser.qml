@@ -44,13 +44,11 @@ Kirigami.ApplicationWindow {
     width: Settings.windowWidth
     height: Settings.windowHeight
 
+    pageStack.globalToolBar.style: Kirigami.ApplicationHeaderStyle.Titles
     pageStack.globalToolBar.showNavigationButtons: {
         if (pageStack.depth <= 1)
             return Kirigami.ApplicationHeaderStyle.None;
-        if (pageStack.currentIndex === pageStack.depth - 1)
-            return Kirigami.ApplicationHeaderStyle.ShowBackButton;
-        // not used so far, but maybe in future
-        return (Kirigami.ApplicationHeaderStyle.ShowBackButton | Kirigami.ApplicationHeaderStyle.ShowForwardButton);
+        return Kirigami.ApplicationHeaderStyle.ShowBackButton;
     }
 
     globalDrawer: Kirigami.GlobalDrawer {
