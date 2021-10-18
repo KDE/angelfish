@@ -52,17 +52,19 @@ Kirigami.OverlayDrawer {
         }
         
         RowLayout {
+            Layout.maximumWidth: contents.tabsRoot.width - Kirigami.units.smallSpacing * 2
             Layout.leftMargin: Kirigami.Units.smallSpacing
             Layout.rightMargin: Kirigami.Units.smallSpacing
             Layout.bottomMargin: Kirigami.Units.smallSpacing
             Kirigami.Heading {
                 level: 1
+                elide: Text.ElideRight
+                Layout.fillWidth: true
                 text: rootPage.privateMode ? i18n("Private Tabs") : i18n("Tabs")
             }
-            Item { Layout.fillWidth: true }
             Controls.ToolButton {
                 icon.name: "list-add"
-                text: i18n("New Tab")
+                text: i18n("New Tabs")
                 onClicked: {
                     tabs.tabsModel.newTab("about:blank")
                     urlEntry.open();
