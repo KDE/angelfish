@@ -64,7 +64,7 @@ Kirigami.OverlayDrawer {
             }
             Controls.ToolButton {
                 icon.name: "list-add"
-                text: i18n("New Tabs")
+                text: i18n("New Tab")
                 onClicked: {
                     tabs.tabsModel.newTab("about:blank")
                     urlEntry.open();
