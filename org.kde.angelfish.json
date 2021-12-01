@@ -1,10 +1,10 @@
 {
     "id": "org.kde.angelfish",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15",
+    "runtime-version": "5.15-21.08",
     "sdk": "org.kde.Sdk",
     "base": "io.qt.qtwebengine.BaseApp",
-    "base-version": "5.15",
+    "base-version": "5.15-21.08",
     "command": "angelfish",
     "tags": ["nightly"],
     "desktop-file-name-suffix": " (Nightly)",
@@ -25,7 +25,7 @@
         "org.freedesktop.Platform.ffmpeg-full": {
             "directory": "lib/ffmpeg",
             "add-ld-path": ".",
-            "version": "20.08"
+            "version": "21.08"
         }
     },
     "cleanup-commands": [
@@ -91,7 +91,7 @@
                     "path": ".",
                     "skip": [".git"]
                 },
-                "generated-sources.json"
+                "flatpak/generated-sources.json"
             ]
         }
     ]
