@@ -397,6 +397,18 @@
   </provides>
   <launchable type="desktop-id">org.kde.angelfish.desktop</launchable>
   <releases>
+    <release version="21.12" date="2021-12-07">
+      <url>https://www.plasma-mobile.org/2021/12/07/plasma-mobile-gear-21-12/</url>
+      <description>
+        <ul>
+          <li>Add action button to clear history</li>
+          <li>Improve virtual keyboard integration</li>
+          <li>Allow user to ignore SSL errors</li>
+          <li>Fix loading chrome:// URLs</li>
+          <li>Improved ad-blocker support for cosmetic filters</li>
+        </ul>
+      </description>
+    </release>
     <release version="21.08" date="2021-08-31">
       <url>https://www.plasma-mobile.org/2021/08/31/plasma-mobile-gear-21-08/</url>
     </release>
