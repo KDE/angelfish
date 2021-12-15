@@ -186,7 +186,8 @@ classes
                         webEngineView.runJavaScript(
 `{
     let adblockStyleElement = document.createElement("style")
-    adblockStyleElement.textContent = "${selectors[i]} { display: none }"
+    adblockStyleElement.type = "text/css"
+    adblockStyleElement.textContent = "${selectors[i]} { display: none !important; }"
     document.head.appendChild(adblockStyleElement);
 }`)
                     }
