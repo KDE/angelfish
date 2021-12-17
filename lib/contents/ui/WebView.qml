@@ -117,7 +117,7 @@ WebEngineView {
         // Load larger touch icons
         touchIconsEnabled: true
         // Disable scrollbars on mobile
-        showScrollBars: false
+        showScrollBars: !Kirigami.Settings.isMobile
     }
 
     focus: true

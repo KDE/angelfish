@@ -281,8 +281,10 @@ void TabsModel::newTab(const QUrl &url)
     endInsertRows();
 
     // Switch to last tab
-    m_currentTab = m_tabs.count() - 1;
-    emit currentTabChanged();
+    if (AngelfishSettings::self()->switchToNewTab()) {
+        m_currentTab = m_tabs.count() - 1;
+        emit currentTabChanged();
+    }
     saveTabs();
 }
 
@@ -317,7 +319,11 @@ void TabsModel::closeTab(int index)
     if (m_currentTab == index) {
         // handle the removal of current tab
         // Just reset to first tab
-        m_currentTab = 0;
+        if (index != 0) {
+            m_currentTab = index - 1;
+        } else {
+            m_currentTab = 0;
+        }
     }
 
     beginRemoveRows({}, index, index);

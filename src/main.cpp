@@ -1,5 +1,6 @@
 /*
     SPDX-FileCopyrightText: 2019 Jonah Brüchert <jbb.prv@gmx.de>
+    SPDX-FileCopyrightText: 2021 Carson Black <uhhadd@gmail.com>
 
     SPDX-License-Identifier: LGPL-2.0-or-later
 */
@@ -172,7 +173,19 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     }
 
     // Load QML
-    engine.load(QUrl(QStringLiteral("qrc:///webbrowser.qml")));
+
+    const QUrl url(!qgetenv("QT_QUICK_CONTROLS_MOBILE").isEmpty() ? QStringLiteral("qrc:/mobile.qml") : QStringLiteral("qrc:/desktop.qml"));
+    QObject::connect(
+        &engine,
+        &QQmlApplicationEngine::objectCreated,
+        &app,
+        [url](QObject* obj, const QUrl& objUrl) {
+            if ((obj == nullptr) && url == objUrl) {
+                QCoreApplication::exit(-1);
+            }
+        },
+        Qt::QueuedConnection);
+    engine.load(url);
 
     // Error handling
     if (engine.rootObjects().isEmpty()) {

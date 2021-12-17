@@ -18,8 +18,17 @@ SPDX-License-Identifier: LGPL-2.0-or-later
         <entry key="homepage" type="url">
             <default>QUrl(QStringLiteral("https://start.duckduckgo.com"))</default>
         </entry>
+        <entry key="showHomeButton" type="bool">
+            <default>true</default>
+        </entry>
         <entry key="searchBaseUrl" type="url">
             <default>QUrl(QStringLiteral("https://start.duckduckgo.com/?q="))</default>
+        </entry>
+        <entry key="newTabUrl" type="url">
+            <default>QUrl(QStringLiteral("https://start.duckduckgo.com/?q="))</default>
+        </entry>
+        <entry key="switchToNewTab" type="bool">
+            <default>true</default>
         </entry>
     </group>
     <!-- Remember states -->

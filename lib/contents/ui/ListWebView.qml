@@ -54,6 +54,7 @@ Repeater {
         property bool showView: index === tabs.currentIndex
         property bool isVisible: (showView || readyForSnapshot || pageWebView.loadingActive) && tabs.activeTabs
         property alias title: pageWebView.title
+        property alias icon: pageWebView.icon
 
         onShowViewChanged: {
             if (showView) {
