@@ -174,7 +174,7 @@ ids
 `var elements = document.querySelectorAll("*[class]");
 var classes = [];
 for (var i in elements) {
-    if (elements[i].id) {
+    if (elements[i].className) {
         classes.push(elements[i].className);
     }
 }
