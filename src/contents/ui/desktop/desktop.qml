@@ -9,6 +9,8 @@ import org.kde.kirigami 2.19 as Kirigami
 
 import org.kde.angelfish 1.0
 
+import "regex-weburl.js" as RegexWebUrl
+
 Kirigami.ApplicationWindow {
     id: webBrowser
 
@@ -121,13 +123,7 @@ Kirigami.ApplicationWindow {
                 }
 
                 function validURL(str) {
-                    var pattern = new RegExp('^(https?:\\/\\/)?'+ // protocol
-                        '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|'+ // domain name
-                        '((\\d{1,3}\\.){3}\\d{1,3}))'+ // OR ip (v4) address
-                        '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*'+ // port and path
-                        '(\\?[;&a-z\\d%_.~+=-]*)?'+ // query string
-                        '(\\#[-a-z\\d_]*)?$','i'); // fragment locator
-                    return !!pattern.test(str);
+                    return text.match(RegexWebUrl.re_weburl) || text.startsWith("chrome://")
                 }
 
                 QQC2.ToolButton {
