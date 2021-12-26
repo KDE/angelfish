@@ -30,5 +30,6 @@
         <file alias="DesktopSettingsPage.qml">contents/ui/desktop/SettingsPage.qml</file>
         <file alias="DesktopGeneralSettingsPage.qml">contents/ui/desktop/settings/GeneralSettingsPage.qml</file>
         <file alias="DesktopHomeSettingsPage.qml">contents/ui/desktop/settings/HomeSettingsPage.qml</file>
+        <file alias="SettingsGeneral.qml">contents/ui/SettingsGeneral.qml</file>
     </qresource>
 </RCC>
