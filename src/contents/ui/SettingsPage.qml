@@ -56,6 +56,22 @@ Kirigami.ScrollablePage {
             Layout.fillWidth: true
         }
 
+        Controls.SwitchDelegate {
+            text: i18n("Enable adblock")
+            Layout.fillWidth: true
+            visible: AdblockUrlInterceptor.adblockSupported
+            enabled: AdblockUrlInterceptor.adblockSupported
+            checked: AdblockUrlInterceptor.enabled
+            onClicked: AdblockUrlInterceptor.enabled = checked
+            leftPadding: Kirigami.Units.gridUnit
+            rightPadding: Kirigami.Units.gridUnit
+            implicitHeight: Kirigami.Units.gridUnit * 2.5
+        }
+
+        Kirigami.Separator {
+            Layout.fillWidth: true
+        }
+
         Controls.ItemDelegate {
             text: i18n("Search Engine")
             Layout.fillWidth: true
