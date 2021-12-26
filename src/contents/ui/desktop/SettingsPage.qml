@@ -11,11 +11,27 @@ Kirigami.CategorizedSettings {
         Kirigami.SettingAction {
             text: i18n("General")
             icon.name: "org.kde.angelfish"
-            page: Qt.resolvedUrl("DesktopGeneralSettingsPage.qml")
+            page: Qt.resolvedUrl("SettingsGeneral.qml")
         },
         Kirigami.SettingAction {
+            text: i18n("Ad Block")
+            icon.name: "security-medium"
+            page: Qt.resolvedUrl("SettingsAdblock.qml")
+        },
+        Kirigami.SettingAction {
+            text: i18n("Web Apps")
+            icon.name: "applications-all"
+            page: Qt.resolvedUrl("SettingsWebApps.qml")
+        },
+        Kirigami.SettingAction {
+            text: i18n("Search Engine")
+            icon.name: "preferences-desktop-search"
+            page: Qt.resolvedUrl("SettingsSearchEnginePage.qml")
+        },
+        Kirigami.SettingAction {
+            visible: !Kirigami.Settings.isMobile
             text: i18n("Home")
-            icon.name: "go-home-symbolic"
+            icon.name: "home"
             page: Qt.resolvedUrl("DesktopHomeSettingsPage.qml")
         }
     ]

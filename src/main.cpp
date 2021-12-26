@@ -174,7 +174,9 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     // Load QML
 
-    const QUrl url(!qgetenv("QT_QUICK_CONTROLS_MOBILE").isEmpty() ? QStringLiteral("qrc:/mobile.qml") : QStringLiteral("qrc:/desktop.qml"));
+    const QUrl url(SettingsHelper::isMobile()
+                   ? QStringLiteral("qrc:/mobile.qml")
+                   : QStringLiteral("qrc:/desktop.qml"));
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreated,

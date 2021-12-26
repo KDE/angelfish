@@ -17,6 +17,8 @@ Kirigami.ScrollablePage {
     leftPadding: 0
     rightPadding: 0
 
+    Kirigami.Theme.colorSet: Kirigami.Settings.isMobile ? Kirigami.Theme.View : Kirigami.Theme.Background
+
     ColumnLayout {
         spacing: 0
 
@@ -48,19 +50,6 @@ Kirigami.ScrollablePage {
             Layout.fillWidth: true
         }
 
-        Controls.ItemDelegate {
-            text: i18n("Search Engine")
-            Layout.fillWidth: true
-            onClicked: pageStack.push(Qt.resolvedUrl("SettingsSearchEnginePage.qml"))
-            leftPadding: Kirigami.Units.gridUnit
-            rightPadding: Kirigami.Units.gridUnit
-            implicitHeight: Kirigami.Units.gridUnit * 2.5
-        }
-
-        Kirigami.Separator {
-            Layout.fillWidth: true
-        }
-
         Controls.SwitchDelegate {
             text: i18n("Enable adblock")
             Layout.fillWidth: true
@@ -75,6 +64,16 @@ Kirigami.ScrollablePage {
         
         Kirigami.Separator {
             Layout.fillWidth: true
+        }
+
+        Controls.SwitchDelegate {
+            Layout.fillWidth: true
+            text: i18n("When you open a link, image or media in a new tab, switch to it immediately")
+            checked: Settings.switchToNewTab
+            onClicked: Settings.switchToNewTab = checked
+            leftPadding: Kirigami.Units.gridUnit
+            rightPadding: Kirigami.Units.gridUnit
+            implicitHeight: Kirigami.Units.gridUnit * 2.5
         }
     }
 }

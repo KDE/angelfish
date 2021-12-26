@@ -16,7 +16,7 @@ Kirigami.ScrollablePage {
 
     title: i18n("Adblock settings")
 
-    Kirigami.ColumnView.fillWidth: false
+    Kirigami.Theme.colorSet: Kirigami.Settings.isMobile ? Kirigami.Theme.View : Kirigami.Theme.Background
 
     actions.main: Kirigami.Action {
         icon.name: "list-add"

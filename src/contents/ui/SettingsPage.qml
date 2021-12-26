@@ -80,6 +80,19 @@ Kirigami.ScrollablePage {
             Layout.fillWidth: true
         }
 
+        Controls.ItemDelegate {
+            text: i18n("Search Engine")
+            Layout.fillWidth: true
+            onClicked: pageStack.push(Qt.resolvedUrl("SettingsSearchEnginePage.qml"))
+            leftPadding: Kirigami.Units.gridUnit
+            rightPadding: Kirigami.Units.gridUnit
+            implicitHeight: Kirigami.Units.gridUnit * 2.5
+        }
+
+        Kirigami.Separator {
+            Layout.fillWidth: true
+        }
+
         Item {
             Layout.fillHeight: true
         }
