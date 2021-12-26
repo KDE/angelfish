@@ -89,9 +89,14 @@ Kirigami.ApplicationWindow {
                 }
             }
 
+            Item {
+                Layout.fillWidth: true
+            }
+
             QQC2.TextField {
                 id: urlBar
                 Layout.fillWidth: true
+                Layout.maximumWidth: 1000
                 text: currentWebView.url
                 onAccepted: {
                     let url = text;
@@ -155,6 +160,10 @@ Kirigami.ApplicationWindow {
                         urlBar.forceActiveFocus();
                     }
                 }
+            }
+
+            Item {
+                Layout.fillWidth: true
             }
 
             QQC2.ToolButton {
