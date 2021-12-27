@@ -47,7 +47,7 @@ void AdblockFilterListsManager::refreshLists()
 
 QString AdblockFilterListsManager::filterListPath()
 {
-    static const QString path = []() {
+    static const auto path = []() -> QString {
         auto path = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) + QStringLiteral("/filterlists/");
         QDir(path).mkpath(QStringLiteral("."));
         return path;
