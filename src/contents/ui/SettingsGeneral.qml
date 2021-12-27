@@ -17,6 +17,8 @@ Kirigami.ScrollablePage {
     leftPadding: 0
     rightPadding: 0
 
+    title: i18n("General")
+
     Kirigami.Theme.colorSet: Kirigami.Settings.isMobile ? Kirigami.Theme.View : Kirigami.Theme.Background
 
     ColumnLayout {
