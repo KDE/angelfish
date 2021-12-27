@@ -1,100 +1,37 @@
-// SPDX-FileCopyrightText: 2014-2015 Sebastian Kügler <sebas@kde.org>
-//
-// SPDX-License-Identifier: GPL-2.0-or-later
+//SPDX-FileCopyrightText: 2021 Felipe Kinoshita <kinofhek@gmail.com>
+//SPDX-License-Identifier: LGPL-2.0-or-later
 
-import QtQuick 2.3
-import QtQuick.Controls 2.4 as Controls
-import QtQuick.Layouts 1.11
+import QtQuick 2.15
+import QtQuick.Controls 2.15 as QQC2
+import QtQuick.Layouts 1.15
+import org.kde.kirigami 2.19 as Kirigami
 
-import org.kde.kirigami 2.7 as Kirigami
-import org.kde.angelfish 1.0
-
-Kirigami.ScrollablePage {
-    title: i18n("Settings")
-
-    topPadding: 0
-    bottomPadding: 0
-    leftPadding: 0
-    rightPadding: 0
-    Kirigami.ColumnView.fillWidth: false
-
-    background: Rectangle {
-        Kirigami.Theme.colorSet: Kirigami.Theme.View
-        color: Kirigami.Theme.backgroundColor
-    }
-
-    ColumnLayout {
-        id: settingsPage
-
-        spacing: 0
-
-        Controls.ItemDelegate {
+Kirigami.CategorizedSettings {
+    actions: [
+        Kirigami.SettingAction {
             text: i18n("General")
-            Layout.fillWidth: true
-            leftPadding: Kirigami.Units.gridUnit
-            rightPadding: Kirigami.Units.gridUnit
-            implicitHeight: Kirigami.Units.gridUnit * 2.5
-            onClicked: pageStack.push(Qt.resolvedUrl("SettingsGeneral.qml"))
-        }
-
-        Kirigami.Separator {
-            Layout.fillWidth: true
-        }
-
-        Controls.ItemDelegate {
-            text: i18n("Navigation bar")
-            Layout.fillWidth: true
-            leftPadding: Kirigami.Units.gridUnit
-            rightPadding: Kirigami.Units.gridUnit
-            implicitHeight: Kirigami.Units.gridUnit * 2.5
-            onClicked: pageStack.push(Qt.resolvedUrl("SettingsNavigationBarPage.qml"))
-        }
-
-        Kirigami.Separator {
-            Layout.fillWidth: true
-        }
-
-        Controls.ItemDelegate {
-            text: i18n("Adblock filter lists")
-            Layout.fillWidth: true
-            leftPadding: Kirigami.Units.gridUnit
-            rightPadding: Kirigami.Units.gridUnit
-            implicitHeight: Kirigami.Units.gridUnit * 2.5
-            onClicked: pageStack.push(Qt.resolvedUrl("SettingsAdblock.qml"))
-        }
-
-        Kirigami.Separator {
-            Layout.fillWidth: true
-        }
-
-        Controls.ItemDelegate {
+            icon.name: "org.kde.angelfish"
+            page: Qt.resolvedUrl("SettingsGeneral.qml")
+        },
+        Kirigami.SettingAction {
+            text: i18n("Ad Block")
+            icon.name: "security-medium"
+            page: Qt.resolvedUrl("SettingsAdblock.qml")
+        },
+        Kirigami.SettingAction {
             text: i18n("Web Apps")
-            Layout.fillWidth: true
-            leftPadding: Kirigami.Units.gridUnit
-            rightPadding: Kirigami.Units.gridUnit
-            implicitHeight: Kirigami.Units.gridUnit * 2.5
-            onClicked: pageStack.push(Qt.resolvedUrl("SettingsWebApps.qml"))
-        }
-
-        Kirigami.Separator {
-            Layout.fillWidth: true
-        }
-
-        Controls.ItemDelegate {
+            icon.name: "applications-all"
+            page: Qt.resolvedUrl("SettingsWebApps.qml")
+        },
+        Kirigami.SettingAction {
             text: i18n("Search Engine")
-            Layout.fillWidth: true
-            onClicked: pageStack.push(Qt.resolvedUrl("SettingsSearchEnginePage.qml"))
-            leftPadding: Kirigami.Units.gridUnit
-            rightPadding: Kirigami.Units.gridUnit
-            implicitHeight: Kirigami.Units.gridUnit * 2.5
+            icon.name: "preferences-desktop-search"
+            page: Qt.resolvedUrl("SettingsSearchEnginePage.qml")
+        },
+        Kirigami.SettingAction {
+            text: i18n("Toolbars")
+            icon.name: "home"
+            page: Kirigami.Settings.isMobile ? Qt.resolvedUrl("SettingsNavigationBarPage.qml") : Qt.resolvedUrl("DesktopHomeSettingsPage.qml")
         }
-
-        Kirigami.Separator {
-            Layout.fillWidth: true
-        }
-
-        Item {
-            Layout.fillHeight: true
-        }
-    }
+    ]
 }

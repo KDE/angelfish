@@ -224,7 +224,7 @@ Kirigami.ApplicationWindow {
                     icon.name: "settings-configure"
                     shortcut: "Ctrl+Shift+,"
                     onTriggered: {
-                        const openDialogWindow = pageStack.pushDialogLayer("qrc:/DesktopSettingsPage.qml", {
+                        const openDialogWindow = pageStack.pushDialogLayer("qrc:/SettingsPage.qml", {
                             width: webBrowser.width
                         }, {
                             title: i18n("Configure Angelfish"),

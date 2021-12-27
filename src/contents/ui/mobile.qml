@@ -101,7 +101,14 @@ Kirigami.ApplicationWindow {
                 text: i18n("Settings")
                 onTriggered: {
                     popSubPages();
-                    pageStack.push(Qt.resolvedUrl("SettingsPage.qml"))
+                    pageStack.pushDialogLayer("qrc:/SettingsPage.qml", {
+                        width: webBrowser.width
+                    },
+                    {
+                        title: i18n("Configure Angelfish"),
+                        width: Kirigami.Units.gridUnit * 45,
+                        height: Kirigami.Units.gridUnit * 35
+                    });
                 }
             }
         ]
