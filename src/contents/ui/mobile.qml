@@ -44,13 +44,6 @@ Kirigami.ApplicationWindow {
     width: Settings.windowWidth
     height: Settings.windowHeight
 
-    pageStack.globalToolBar.style: Kirigami.ApplicationHeaderStyle.Titles
-    pageStack.globalToolBar.showNavigationButtons: {
-        if (pageStack.depth <= 1)
-            return Kirigami.ApplicationHeaderStyle.None;
-        return Kirigami.ApplicationHeaderStyle.ShowBackButton;
-    }
-
     globalDrawer: Kirigami.GlobalDrawer {
         id: globalDrawer
 
@@ -123,6 +116,7 @@ Kirigami.ApplicationWindow {
     // Main Page
     pageStack.initialPage: Kirigami.Page {
         id: rootPage
+        title: currentWebView.title
         leftPadding: 0
         rightPadding: 0
         topPadding: 0
