@@ -25,7 +25,7 @@ QVariant WebAppManagerModel::data(const QModelIndex &index, int role) const
     case Role::NameRole:
         return m_webAppMngr.applications()[index.row()].name;
     case Role::IconRole:
-        return WebAppManager::iconDirectory() + QDir::separator() + m_webAppMngr.applications()[index.row()].icon;
+        return QString(WebAppManager::iconDirectory() + QString(QDir::separator()) + m_webAppMngr.applications()[index.row()].icon);
     case Role::UrlRole:
         return m_webAppMngr.applications()[index.row()].url;
     }

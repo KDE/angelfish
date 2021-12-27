@@ -20,10 +20,10 @@ class TabsModelTest : public QObject
 private Q_SLOTS:
     void initTestCase()
     {
-        QCoreApplication::setOrganizationName("autotests");
-        QCoreApplication::setApplicationName("angelfish_dbmanagertest");
+        QCoreApplication::setOrganizationName(QStringLiteral("autotests"));
+        QCoreApplication::setApplicationName(QStringLiteral("angelfish_dbmanagertest"));
         QDir dir(QStandardPaths::writableLocation(QStandardPaths::AppLocalDataLocation));
-        dir.mkpath(".");
+        dir.mkpath(QStringLiteral("."));
 
         m_dbmanager = new DBManager();
     }
@@ -31,7 +31,11 @@ private Q_SLOTS:
     void testAddBookmark()
     {
         QSignalSpy spy(m_dbmanager, &DBManager::databaseTableChanged);
-        m_dbmanager->addBookmark({{"url", "https://kde.org"}, {"title", "KDE"}, {"icon", "TESTDATA"}});
+        m_dbmanager->addBookmark({
+            {QStringLiteral("url"), QStringLiteral("https://kde.org")},
+            {QStringLiteral("title"), QStringLiteral("KDE")},
+            {QStringLiteral("icon"), QStringLiteral("TESTDATA")}
+        });
 
         QCOMPARE(spy.count(), 1);
     }
@@ -39,7 +43,10 @@ private Q_SLOTS:
     void testAddToHistory()
     {
         QSignalSpy spy(m_dbmanager, &DBManager::databaseTableChanged);
-        m_dbmanager->addToHistory({{"url", "https://kde.org"}, {"title", "KDE"}, {"icon", "TESTDATA"}});
+        m_dbmanager->addToHistory({
+            {QStringLiteral("url"), QStringLiteral("https://kde.org")},
+            {QStringLiteral("title"), QStringLiteral("KDE")},
+            {QStringLiteral("icon"), QStringLiteral("TESTDATA")}});
 
         QCOMPARE(spy.count(), 1);
     }
@@ -47,7 +54,7 @@ private Q_SLOTS:
     void testLastVisited()
     {
         QSignalSpy spy(m_dbmanager, &DBManager::databaseTableChanged);
-        m_dbmanager->updateLastVisited("https://kde.org");
+        m_dbmanager->updateLastVisited(QStringLiteral("https://kde.org"));
 
         // Will be updated in both tables
         QCOMPARE(spy.count(), 2);
@@ -56,7 +63,7 @@ private Q_SLOTS:
     void testRemoveBookmark()
     {
         QSignalSpy spy(m_dbmanager, &DBManager::databaseTableChanged);
-        m_dbmanager->removeBookmark("https://kde.org");
+        m_dbmanager->removeBookmark(QStringLiteral("https://kde.org"));
 
         QCOMPARE(spy.count(), 1);
     }
@@ -64,7 +71,7 @@ private Q_SLOTS:
     void testRemoveFromHistory()
     {
         QSignalSpy spy(m_dbmanager, &DBManager::databaseTableChanged);
-        m_dbmanager->removeBookmark("https://kde.org");
+        m_dbmanager->removeBookmark(QStringLiteral("https://kde.org"));
 
         QCOMPARE(spy.count(), 1);
     }
@@ -72,7 +79,7 @@ private Q_SLOTS:
     void testSqlQueryModelRoleNames()
     {
         auto model = new SqlQueryModel();
-        model->setQuery(QSqlQuery("SELECT * FROM history"));
+        model->setQuery(QSqlQuery(QStringLiteral("SELECT * FROM history")));
 
         QHash<int, QByteArray> expectedRoleNames = {
             { Qt::UserRole + 1, "url"},

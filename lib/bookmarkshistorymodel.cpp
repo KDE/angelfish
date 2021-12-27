@@ -28,7 +28,7 @@ void BookmarksHistoryModel::setActive(bool a)
         setQuery();
     else
         clear();
-    emit activeChanged();
+    Q_EMIT activeChanged();
 }
 
 void BookmarksHistoryModel::setBookmarks(bool b)
@@ -37,7 +37,7 @@ void BookmarksHistoryModel::setBookmarks(bool b)
         return;
     m_bookmarks = b;
     setQuery();
-    emit bookmarksChanged();
+    Q_EMIT bookmarksChanged();
 }
 
 void BookmarksHistoryModel::setHistory(bool h)
@@ -46,7 +46,7 @@ void BookmarksHistoryModel::setHistory(bool h)
         return;
     m_history = h;
     setQuery();
-    emit historyChanged();
+    Q_EMIT historyChanged();
 }
 
 void BookmarksHistoryModel::setFilter(const QString &f)
@@ -55,7 +55,7 @@ void BookmarksHistoryModel::setFilter(const QString &f)
         return;
     m_filter = f;
     setQuery();
-    emit filterChanged();
+    Q_EMIT filterChanged();
 }
 
 void BookmarksHistoryModel::onDatabaseChanged(const QString &table)

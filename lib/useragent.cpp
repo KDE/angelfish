@@ -43,8 +43,8 @@ void UserAgent::setIsMobile(bool value)
     if (m_isMobile != value) {
         m_isMobile = value;
 
-        emit isMobileChanged();
-        emit userAgentChanged();
+        Q_EMIT isMobileChanged();
+        Q_EMIT userAgentChanged();
     }
 }
 

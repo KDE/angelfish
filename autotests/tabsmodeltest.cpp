@@ -24,16 +24,16 @@ private Q_SLOTS:
 
         // Current tab should be initial tab
         QCOMPARE(m_tabsModel->currentTab(), 0);
-        QCOMPARE(m_tabsModel->tab(0).url(), QUrl("about:blank"));
+        QCOMPARE(m_tabsModel->tab(0).url(), QUrl(QStringLiteral("about:blank")));
     }
 
     void testNewTab()
     {
-        m_tabsModel->newTab(QUrl("https://kde.org"));
+        m_tabsModel->newTab(QUrl(QStringLiteral("https://kde.org")));
         QCOMPARE(m_tabsModel->tabs().count(), 2);
 
         qDebug() << m_tabsModel->tab(1).url() << m_tabsModel->tab(0).isMobile();
-        QCOMPARE(m_tabsModel->tab(1).url(), QUrl("https://kde.org"));
+        QCOMPARE(m_tabsModel->tab(1).url(), QUrl(QStringLiteral("https://kde.org")));
 
         // newly created tab should be current tab now
         QCOMPARE(m_tabsModel->currentTab(), 1);
@@ -41,7 +41,7 @@ private Q_SLOTS:
 
     void testCurrentTab()
     {
-        QCOMPARE(m_tabsModel->tabs().at(m_tabsModel->currentTab()).url(), QUrl("https://kde.org"));
+        QCOMPARE(m_tabsModel->tabs().at(m_tabsModel->currentTab()).url(), QUrl(QStringLiteral("https://kde.org")));
     }
 
     void testCloseTab() {
@@ -50,16 +50,16 @@ private Q_SLOTS:
         QCOMPARE(m_tabsModel->tabs().count(), 1);
 
         // Check tabs moved properly
-        QCOMPARE(m_tabsModel->tabs().at(0).url(), QUrl("https://kde.org"));
+        QCOMPARE(m_tabsModel->tabs().at(0).url(), QUrl(QStringLiteral("https://kde.org")));
     }
 
     void testLoad() {
-        m_tabsModel->setUrl(0, QUrl("https://debian.org"));
+        m_tabsModel->setUrl(0, QUrl(QStringLiteral("https://debian.org")));
 
         // Number of tabs must not change
         QCOMPARE(m_tabsModel->tabs().count(), 1);
 
-        QCOMPARE(m_tabsModel->tabs().at(0).url(), QUrl("https://debian.org"));
+        QCOMPARE(m_tabsModel->tabs().at(0).url(), QUrl(QStringLiteral("https://debian.org")));
     }
 
     void testRowCountMatches() {
@@ -76,18 +76,18 @@ private Q_SLOTS:
 
         // Check whether a new empty tab was created (count must not be less than one)
         QCOMPARE(m_tabsModel->tabs().count(), 1);
-        QCOMPARE(m_tabsModel->tabs().at(0).url(), QUrl("about:blank"));
+        QCOMPARE(m_tabsModel->tabs().at(0).url(), QUrl(QStringLiteral("about:blank")));
 
         //
         // Case 2: There are multiple tabs
         //
-        m_tabsModel->newTab(QUrl("second"));
-        m_tabsModel->newTab(QUrl("third"));
+        m_tabsModel->newTab(QUrl(QStringLiteral("second")));
+        m_tabsModel->newTab(QUrl(QStringLiteral("third")));
 
         QCOMPARE(m_tabsModel->tabs(), QVector<TabState>({
-            TabState(QUrl("about:blank"), m_tabsModel->isMobileDefault()),
-            TabState(QUrl("second"), m_tabsModel->isMobileDefault()),
-            TabState(QUrl("third"), m_tabsModel->isMobileDefault())
+            TabState(QUrl(QStringLiteral("about:blank")), m_tabsModel->isMobileDefault()),
+            TabState(QUrl(QStringLiteral("second")), m_tabsModel->isMobileDefault()),
+            TabState(QUrl(QStringLiteral("third")), m_tabsModel->isMobileDefault())
         }));
 
         // current tab is 2
@@ -98,16 +98,16 @@ private Q_SLOTS:
 
         // "second" is indeed gone
         QCOMPARE(m_tabsModel->tabs(), QVector<TabState>({
-            TabState(QUrl("about:blank"),  m_tabsModel->isMobileDefault()),
-            TabState(QUrl("third"),  m_tabsModel->isMobileDefault())
+            TabState(QUrl(QStringLiteral("about:blank")),  m_tabsModel->isMobileDefault()),
+            TabState(QUrl(QStringLiteral("third")),  m_tabsModel->isMobileDefault())
         }));
     }
 
     void testSetTab() {
-        m_tabsModel->setUrl(0, QUrl("https://debian.org"));
+        m_tabsModel->setUrl(0, QUrl(QStringLiteral("https://debian.org")));
         QCOMPARE(m_tabsModel->tabs(), QVector<TabState>({
-            TabState(QUrl("https://debian.org"),  m_tabsModel->isMobileDefault()),
-            TabState(QUrl("third"),  m_tabsModel->isMobileDefault())}
+            TabState(QUrl(QStringLiteral("https://debian.org")),  m_tabsModel->isMobileDefault()),
+            TabState(QUrl(QStringLiteral("third")),  m_tabsModel->isMobileDefault())}
         ));
     }
 

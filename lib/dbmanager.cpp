@@ -156,7 +156,7 @@ void DBManager::addRecord(const QString &table, const QVariantMap &pagedata)
     query.bindValue(QStringLiteral(":lastVisited"), lastVisited);
     execute(query);
 
-    emit databaseTableChanged(table);
+    Q_EMIT databaseTableChanged(table);
 }
 
 void DBManager::removeRecord(const QString &table, const QString &url)
@@ -169,7 +169,7 @@ void DBManager::removeRecord(const QString &table, const QString &url)
     query.bindValue(QStringLiteral(":url"), url);
     execute(query);
 
-    emit databaseTableChanged(table);
+    Q_EMIT databaseTableChanged(table);
 }
 
 void DBManager::removeAllRecords(const QString &table)
@@ -178,7 +178,7 @@ void DBManager::removeAllRecords(const QString &table)
     query.prepare(QStringLiteral("DELETE FROM %1").arg(table));
     execute(query);
 
-    emit databaseTableChanged(table);
+    Q_EMIT databaseTableChanged(table);
 }
 
 bool DBManager::hasRecord(const QString &table, const QString &url) const
@@ -209,7 +209,7 @@ void DBManager::updateIconRecord(const QString &table, const QString &url, const
     query.bindValue(QStringLiteral(":icon"), iconSource);
     execute(query);
 
-    emit databaseTableChanged(table);
+    Q_EMIT databaseTableChanged(table);
 }
 
 void DBManager::setLastVisitedRecord(const QString &table, const QString &url)
@@ -224,7 +224,7 @@ void DBManager::setLastVisitedRecord(const QString &table, const QString &url)
     query.bindValue(QStringLiteral(":lv"), lastVisited);
     execute(query);
 
-    emit databaseTableChanged(table);
+    Q_EMIT databaseTableChanged(table);
 }
 
 void DBManager::addBookmark(const QVariantMap &bookmarkdata)

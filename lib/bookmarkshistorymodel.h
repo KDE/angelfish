@@ -54,7 +54,7 @@ public:
     }
     void setFilter(const QString &f);
 
-signals:
+Q_SIGNALS:
     void activeChanged();
     void bookmarksChanged();
     void historyChanged();

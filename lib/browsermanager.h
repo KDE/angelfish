@@ -32,14 +32,14 @@ public:
 
     bool isBookmarked(const QString &url) const;
 
-signals:
+Q_SIGNALS:
     void updated();
 
     void initialUrlChanged();
 
     void databaseTableChanged(QString table);
 
-public slots:
+public Q_SLOTS:
     void addBookmark(const QVariantMap &bookmarkdata);
     void removeBookmark(const QString &url);
 

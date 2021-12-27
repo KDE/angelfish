@@ -91,7 +91,7 @@ private:
     bool m_isMobileDefault = false;
     bool m_initialTabsLoaded = false;
 
-signals:
+Q_SIGNALS:
     void currentTabChanged();
     void isMobileDefaultChanged();
     void privateModeChanged();

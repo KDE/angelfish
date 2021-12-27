@@ -20,7 +20,7 @@ void UrlObserver::setUrl(const QString &url)
 {
     m_url = url;
     updateBookmarked();
-    emit urlChanged(url);
+    Q_EMIT urlChanged(url);
 }
 
 bool UrlObserver::bookmarked() const
@@ -40,6 +40,6 @@ void UrlObserver::updateBookmarked()
 {
     if (const bool isBookmarked = BrowserManager::instance()->isBookmarked(m_url); isBookmarked != m_bookmarked) {
         m_bookmarked = isBookmarked;
-        emit bookmarkedChanged(m_bookmarked);
+        Q_EMIT bookmarkedChanged(m_bookmarked);
     }
 }

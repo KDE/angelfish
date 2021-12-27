@@ -22,10 +22,10 @@ private Q_SLOTS:
 
     void initTestCase()
     {
-        QCoreApplication::setOrganizationName("autotests");
-        QCoreApplication::setApplicationName("angelfish_dbmanagertest");
+        QCoreApplication::setOrganizationName(QStringLiteral("autotests"));
+        QCoreApplication::setApplicationName(QStringLiteral("angelfish_dbmanagertest"));
         QDir dir(QStandardPaths::writableLocation(QStandardPaths::AppLocalDataLocation));
-        dir.mkpath(".");
+        dir.mkpath(QStringLiteral("."));
 
         m_browserManager = BrowserManager::instance();
     }

@@ -21,7 +21,7 @@ public:
 
     bool bookmarked() const;
 
-signals:
+Q_SIGNALS:
     void urlChanged(const QString &url);
     void bookmarkedChanged(bool bookmarked);
 

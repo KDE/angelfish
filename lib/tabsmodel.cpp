@@ -138,7 +138,7 @@ void TabsModel::setCurrentTab(int index)
         return;
 
     m_currentTab = index;
-    emit currentTabChanged();
+    Q_EMIT currentTabChanged();
     saveTabs();
 }
 
@@ -185,7 +185,7 @@ bool TabsModel::loadTabs()
         }
 
         endResetModel();
-        emit currentTabChanged();
+        Q_EMIT currentTabChanged();
 
         return true;
     }
@@ -239,7 +239,7 @@ void TabsModel::setIsMobileDefault(bool def)
 {
     if (m_isMobileDefault != def) {
         m_isMobileDefault = def;
-        emit isMobileDefaultChanged();
+        Q_EMIT isMobileDefaultChanged();
 
         // used in initialization of the tab
         if (m_tabs.count() == 1) {
@@ -256,7 +256,7 @@ bool TabsModel::privateMode() const
 void TabsModel::setPrivateMode(bool privateMode)
 {
     m_privateMode = privateMode;
-    emit privateModeChanged();
+    Q_EMIT privateModeChanged();
 }
 
 /**
@@ -283,7 +283,7 @@ void TabsModel::newTab(const QUrl &url)
     // Switch to last tab
     if (AngelfishSettings::self()->switchToNewTab()) {
         m_currentTab = m_tabs.count() - 1;
-        emit currentTabChanged();
+        Q_EMIT currentTabChanged();
     }
     saveTabs();
 }
@@ -330,7 +330,7 @@ void TabsModel::closeTab(int index)
     m_tabs.removeAt(index);
     endRemoveRows();
 
-    emit currentTabChanged();
+    Q_EMIT currentTabChanged();
     saveTabs();
 }
 
@@ -343,7 +343,7 @@ void TabsModel::setIsMobile(int index, bool isMobile)
     m_tabs[index].setIsMobile(isMobile);
 
     const QModelIndex mindex = createIndex(index, index);
-    emit dataChanged(mindex, mindex, {RoleNames::IsMobileRole});
+    Q_EMIT dataChanged(mindex, mindex, {RoleNames::IsMobileRole});
     saveTabs();
 }
 
@@ -356,7 +356,7 @@ void TabsModel::setIsDeveloperToolsOpen(int index, bool isDeveloperToolsOpen)
     m_tabs[index].setIsDeveloperToolsOpen(isDeveloperToolsOpen);
 
     const QModelIndex mindex = createIndex(index, index);
-    emit dataChanged(mindex, mindex, {RoleNames::IsDeveloperToolsOpen});
+    Q_EMIT dataChanged(mindex, mindex, {RoleNames::IsDeveloperToolsOpen});
     saveTabs();
 }
 
@@ -377,7 +377,7 @@ void TabsModel::setUrl(int index, const QUrl &url)
     m_tabs[index].setUrl(url);
 
     const QModelIndex mindex = createIndex(index, index);
-    emit dataChanged(mindex, mindex, {RoleNames::UrlRole});
+    Q_EMIT dataChanged(mindex, mindex, {RoleNames::UrlRole});
     saveTabs();
 }
 

@@ -25,7 +25,7 @@ public:
     bool isMobile() const;
     void setIsMobile(bool value);
 
-signals:
+Q_SIGNALS:
     void isMobileChanged();
     void userAgentChanged();
 

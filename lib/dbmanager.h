@@ -21,7 +21,7 @@ class DBManager : public QObject
 public:
     explicit DBManager(QObject *parent = nullptr);
 
-signals:
+Q_SIGNALS:
     // emitted with the name of the table that has been changed
     void databaseTableChanged(QString table);
 
