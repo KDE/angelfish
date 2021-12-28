@@ -58,6 +58,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QCoreApplication::setOrganizationDomain(QStringLiteral("kde.org"));
     QCoreApplication::setApplicationName(QStringLiteral("angelfish"));
     QCoreApplication::setApplicationVersion(QStringLiteral(ANGELFISH_VERSION_STRING));
+    QGuiApplication::setDesktopFileName(QStringLiteral("org.kde.angelfish"));
     KLocalizedString::setApplicationDomain("angelfish");
 
 #if QT_VERSION <= QT_VERSION_CHECK(5, 14, 0)
