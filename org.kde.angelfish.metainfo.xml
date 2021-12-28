@@ -389,6 +389,10 @@
       <caption xml:lang="zh-CN">标签视图</caption>
       <image type="source">https://cdn.kde.org/screenshots/plasma-angelfish/tabs.png</image>
     </screenshot>
+    <screenshot>
+      <caption>Desktop User Interface</caption>
+      <image type="source">https://cdn.kde.org/screenshots/plasma-angelfish/desktop.png</image>
+    </screenshot>
   </screenshots>
   <url type="homepage">https://invent.kde.org/plasma-mobile/angelfish</url>
   <url type="bugtracker">https://invent.kde.org/plasma-mobile/angelfish/-/issues</url>
