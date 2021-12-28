@@ -12,7 +12,7 @@ import org.kde.angelfish 1.0
 Kirigami.ScrollablePage {
     title: i18n("Web Apps")
 
-    Kirigami.Theme.colorSet: Kirigami.Settings.isMobile ? Kirigami.Theme.View : Kirigami.Theme.Background
+    Kirigami.Theme.colorSet: Kirigami.Settings.isMobile ? Kirigami.Theme.View : Kirigami.Theme.Window
 
     ListView {
         model: WebAppManagerModel {

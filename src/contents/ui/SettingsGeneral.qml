@@ -19,7 +19,7 @@ Kirigami.ScrollablePage {
 
     title: i18n("General")
 
-    Kirigami.Theme.colorSet: Kirigami.Settings.isMobile ? Kirigami.Theme.View : Kirigami.Theme.Background
+    Kirigami.Theme.colorSet: Kirigami.Settings.isMobile ? Kirigami.Theme.View : Kirigami.Theme.Window
 
     ColumnLayout {
         spacing: 0

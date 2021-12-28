@@ -19,7 +19,7 @@ Kirigami.ScrollablePage {
     rightPadding: 0
     Kirigami.ColumnView.fillWidth: false
 
-    Kirigami.Theme.colorSet: Kirigami.Settings.isMobile ? Kirigami.Theme.View : Kirigami.Theme.Background
+    Kirigami.Theme.colorSet: Kirigami.Settings.isMobile ? Kirigami.Theme.View : Kirigami.Theme.Window
 
     background: Rectangle {
         Kirigami.Theme.colorSet: Kirigami.Theme.View
