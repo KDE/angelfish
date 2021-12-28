@@ -18,9 +18,19 @@ Kirigami.ScrollablePage {
 
     Kirigami.Theme.colorSet: Kirigami.Settings.isMobile ? Kirigami.Theme.View : Kirigami.Theme.Window
 
-    actions.main: Kirigami.Action {
-        icon.name: "list-add"
-        onTriggered: addSheet.open()
+    actions {
+        main: Kirigami.Action {
+            icon.name: "list-add"
+            onTriggered: addSheet.open()
+        }
+        right: Kirigami.Action {
+            text: i18n("Update lists")
+            icon.name: "view-refresh"
+            onTriggered: {
+                adblockSettings.refreshing = true
+                filterlistModel.refreshLists()
+            }
+        }
     }
 
     supportsRefreshing: true
