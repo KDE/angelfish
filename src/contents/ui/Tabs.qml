@@ -202,7 +202,7 @@ Kirigami.OverlayDrawer {
                         }
 
                         Controls.ToolButton {
-                            icon.name: "window-close"
+                            icon.name: "tab-close"
                             height: Kirigami.Units.gridUnit * 2
                             width: height
                             anchors.right: parent.right
