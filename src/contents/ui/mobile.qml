@@ -39,6 +39,9 @@ Kirigami.ApplicationWindow {
     property int borderWidth: Math.round(Kirigami.Units.gridUnit / 18);
     property color borderColor: Kirigami.Theme.highlightColor;
 
+    pageStack.globalToolBar.style: Kirigami.ApplicationHeaderStyle.Titles
+    pageStack.globalToolBar.showNavigationButtons: Kirigami.ApplicationHeaderStyle.ShowBackButton
+    
     x: Settings.windowX
     y: Settings.windowY
     width: Settings.windowWidth
