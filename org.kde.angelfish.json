@@ -59,7 +59,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/AndrewGaspar/corrosion",
-                    "commit": "ae88df0a81fa749cb4a8c4fcf5753c83f1cdcd76"
+                    "commit": "85eb3f98d5517cfa4414f02a1b5885ce5ee56345"
                 },
                 "flatpak/corrosion-generated-sources.json"
             ]
