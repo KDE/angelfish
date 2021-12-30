@@ -391,6 +391,15 @@
     </screenshot>
     <screenshot>
       <caption>Desktop User Interface</caption>
+      <caption xml:lang="az">İş Masası İstifadəçi İnterfeysi</caption>
+      <caption xml:lang="ca">Interfície d'usuari d'escriptori</caption>
+      <caption xml:lang="ca-valencia">Interfície d'usuari d'escriptori</caption>
+      <caption xml:lang="es">Interfaz de usuario del escritorio</caption>
+      <caption xml:lang="hu">Asztali felhasználói felület</caption>
+      <caption xml:lang="nl">Gebruikersinterface op bureaublad</caption>
+      <caption xml:lang="sv">Användargränssnitt för skrivbord</caption>
+      <caption xml:lang="uk">Інтерфейс користувача стільниці</caption>
+      <caption xml:lang="x-test">xxDesktop User Interfacexx</caption>
       <image type="source">https://cdn.kde.org/screenshots/plasma-angelfish/desktop.png</image>
     </screenshot>
   </screenshots>
