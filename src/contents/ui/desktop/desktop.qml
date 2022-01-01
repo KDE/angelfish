@@ -7,6 +7,8 @@ import QtQuick.Window 2.15
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.19 as Kirigami
 
+import QtGraphicalEffects 1.0
+
 import org.kde.angelfish 1.0
 
 import "regex-weburl.js" as RegexWebUrl
@@ -227,6 +229,13 @@ Kirigami.ApplicationWindow {
                     }
                 }
 
+                Kirigami.Action {
+                    icon.name: "edit-find"
+                    shortcut: "Ctrl+F"
+                    onTriggered: findInPage.activate()
+                    text: i18n("Find in page")
+                }
+
                 QQC2.MenuSeparator {}
 
                 Kirigami.Action {
@@ -372,6 +381,22 @@ Kirigami.ApplicationWindow {
             anchors.top: parent.top
             anchors.left: parent.left
             anchors.right: parent.right
+        }
+
+        // Find bar
+        FindInPageBar {
+            id: findInPage
+
+            Kirigami.Theme.colorSet: rootPage.privateMode ? Kirigami.Theme.Complementary : Kirigami.Theme.Window
+
+            layer.enabled: active
+            layer.effect: DropShadow {
+                verticalOffset: - 1
+                color: Kirigami.Theme.disabledTextColor
+                samples: 10
+                spread: 0.1
+                cached: true // element is static
+            }
         }
 
         // Container for the progress bar
