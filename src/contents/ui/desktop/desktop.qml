@@ -220,6 +220,25 @@ Kirigami.ApplicationWindow {
                 QQC2.MenuSeparator {}
 
                 Kirigami.Action {
+                    text: i18n("Add to application launcher")
+                    icon.name: "install"
+                    enabled: !webAppCreator.exists
+
+                    WebAppCreator {
+                        id: webAppCreator
+                        websiteName: currentWebView.title
+                    }
+
+                    onTriggered: {
+                        webAppCreator.createDesktopFile(currentWebView.title,
+                                                        currentWebView.url,
+                                                        currentWebView.icon)
+                    }
+                }
+
+                QQC2.MenuSeparator {}
+
+                Kirigami.Action {
                     text: i18n("Settings")
                     icon.name: "settings-configure"
                     shortcut: "Ctrl+Shift+,"
