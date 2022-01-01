@@ -217,6 +217,16 @@ Kirigami.ApplicationWindow {
                     }
                 }
 
+                Kirigami.Action {
+                    icon.name: "dialog-scripts"
+                    text: i18n("Show developer tools")
+                    checkable: true
+                    checked: tabs.tabsModel.isDeveloperToolsOpen(tabs.currentIndex);
+                    onTriggered: {
+                        tabs.tabsModel.setIsDeveloperToolsOpen(tabs.currentIndex, !tabs.tabsModel.isDeveloperToolsOpen(tabs.currentIndex))
+                    }
+                }
+
                 QQC2.MenuSeparator {}
 
                 Kirigami.Action {
