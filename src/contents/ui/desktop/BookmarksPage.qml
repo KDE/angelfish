@@ -36,14 +36,6 @@ Kirigami.ScrollablePage {
                 Component.onCompleted: search.forceActiveFocus()
             }
             QQC2.ToolButton {
-                icon.name: "edit-clear-all"
-                onClicked: BrowserManager.clearHistory()
-
-                QQC2.ToolTip.visible: hovered
-                QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
-                QQC2.ToolTip.text: i18n("Clear all history")
-            }
-            QQC2.ToolButton {
                 icon.name: "tab-close"
                 onClicked: pageStack.pop()
             }
@@ -75,7 +67,7 @@ Kirigami.ScrollablePage {
             visible: list.count === 0
             anchors.centerIn: parent
 
-            text: i18n("Not history yet")
+            text: i18n("No bookmarks yet")
         }
     }
 }
