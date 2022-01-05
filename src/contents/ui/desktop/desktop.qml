@@ -114,13 +114,20 @@ Kirigami.ApplicationWindow {
                         currentWebView.url = UrlUtils.urlFromUserInput(Settings.searchBaseUrl + text);
                     }
 
+                    navigationPopup.close();
                     focus = false;
+                }
+                onDisplayTextChanged: {
+                    if (text === "" || text.length > 2) {
+                        historyList.model.filter = displayText;
+                    }
                 }
                 color: activeFocus ? Kirigami.Theme.textColor : Kirigami.Theme.disabledTextColor
 
                 onActiveFocusChanged: {
                     if (activeFocus) {
                         urlBar.selectAll();
+                        navigationPopup.open();
                     }
                 }
 
@@ -156,6 +163,46 @@ Kirigami.ApplicationWindow {
                     sequence: "Ctrl+L"
                     onActivated: {
                         urlBar.forceActiveFocus();
+                    }
+                }
+            }
+
+            QQC2.Popup {
+                id: navigationPopup
+
+                x: urlBar.x
+                y: urlBar.y + urlBar.height
+                width: urlBar.width
+                height: Math.min(historyList.contentHeight, webBrowser.height * 0.7) + 1 // prevent weird line glitch
+                padding: 0
+                closePolicy: QQC2.Popup.CloseOnEscape | QQC2.Popup.CloseOnPressOutsideParent
+                clip: true
+
+                ColumnLayout {
+                    anchors.fill: parent
+
+                    ListView {
+                        id: historyList
+
+                        Layout.fillWidth: true
+                        Layout.fillHeight: true
+
+                        currentIndex: -1
+                        model: BookmarksHistoryModel {
+                            history: true
+                            bookmarks: false
+                        }
+                        delegate: Kirigami.BasicListItem {
+                            label: model.title
+                            subtitle: model.url
+                            icon: model && model.icon ? model.icon : "internet-services"
+                            iconSize: Kirigami.Units.largeSpacing * 3
+                            onClicked: {
+                                currentWebView.url = model.url;
+                                navigationPopup.close();
+                                urlBar.focus = false;
+                            }
+                        }
                     }
                 }
             }
