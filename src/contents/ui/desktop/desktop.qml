@@ -194,6 +194,7 @@ Kirigami.ApplicationWindow {
                         }
                         delegate: Kirigami.BasicListItem {
                             label: model.title
+                            labelItem.textFormat: Text.PlainText
                             subtitle: model.url
                             icon: model && model.icon ? model.icon : "internet-services"
                             iconSize: Kirigami.Units.largeSpacing * 3
