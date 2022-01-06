@@ -8,6 +8,8 @@
 #include <QQuickWebEngineProfile>
 #include <QtWebEngineVersion>
 
+#include "settingshelper.h"
+
 UserAgent::UserAgent(QObject *parent)
     : QObject(parent)
     , m_defaultProfile(QQuickWebEngineProfile::defaultProfile())
@@ -16,7 +18,7 @@ UserAgent::UserAgent(QObject *parent)
     , m_appleWebKitVersion(extractValueFromAgent(u"AppleWebKit"))
     , m_webEngineVersion(extractValueFromAgent(u"QtWebEngine"))
     , m_safariVersion(extractValueFromAgent(u"Safari"))
-    , m_isMobile(true)
+    , m_isMobile(SettingsHelper::isMobile())
 {
 }
 
