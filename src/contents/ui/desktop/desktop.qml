@@ -185,6 +185,8 @@ Kirigami.ApplicationWindow {
                         Layout.fillWidth: true
                         Layout.fillHeight: true
 
+                        QQC2.ScrollBar.horizontal.visible: false
+
                         ListView {
                             id: historyList
 
