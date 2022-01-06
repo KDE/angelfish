@@ -420,6 +420,20 @@ Kirigami.ApplicationWindow {
         }
 
         Loader {
+            id: sheetLoader
+        }
+
+        // Unload the ShareSheet again after it closed
+        Connections {
+            target: sheetLoader.item
+            function onSheetOpenChanged() {
+                if (!sheetLoader.item.sheetOpen) {
+                    sheetLoader.source = ""
+                }
+            }
+        }
+
+        Loader {
             id: questionLoader
 
             Component.onCompleted: {
