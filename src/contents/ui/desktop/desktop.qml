@@ -181,27 +181,29 @@ Kirigami.ApplicationWindow {
                 ColumnLayout {
                     anchors.fill: parent
 
-                    ListView {
-                        id: historyList
-
+                    QQC2.ScrollView {
                         Layout.fillWidth: true
                         Layout.fillHeight: true
 
-                        currentIndex: -1
-                        model: BookmarksHistoryModel {
-                            history: true
-                            bookmarks: false
-                        }
-                        delegate: Kirigami.BasicListItem {
-                            label: model.title
-                            labelItem.textFormat: Text.PlainText
-                            subtitle: model.url
-                            icon: model && model.icon ? model.icon : "internet-services"
-                            iconSize: Kirigami.Units.largeSpacing * 3
-                            onClicked: {
-                                currentWebView.url = model.url;
-                                navigationPopup.close();
-                                urlBar.focus = false;
+                        ListView {
+                            id: historyList
+
+                            currentIndex: -1
+                            model: BookmarksHistoryModel {
+                                history: true
+                                bookmarks: false
+                            }
+                            delegate: Kirigami.BasicListItem {
+                                label: model.title
+                                labelItem.textFormat: Text.PlainText
+                                subtitle: model.url
+                                icon: model && model.icon ? model.icon : "internet-services"
+                                iconSize: Kirigami.Units.largeSpacing * 3
+                                onClicked: {
+                                    currentWebView.url = model.url;
+                                    navigationPopup.close();
+                                    urlBar.focus = false;
+                                }
                             }
                         }
                     }
