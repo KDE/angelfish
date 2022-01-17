@@ -29,6 +29,12 @@ void copyStream(QIODevice &input, QIODevice &output)
     }
 }
 
+const QString filterListIdFromUrl(const QString &url) {
+    QCryptographicHash fileNameHash(QCryptographicHash::Sha256);
+    fileNameHash.addData(url.toUtf8());
+    return QString::fromUtf8(fileNameHash.result().toHex());
+}
+
 AdblockFilterListsManager::AdblockFilterListsManager(QObject *parent)
     : QObject(parent)
     , m_filterLists(loadFromConfig())
@@ -39,6 +45,14 @@ AdblockFilterListsManager::AdblockFilterListsManager(QObject *parent)
 
 void AdblockFilterListsManager::refreshLists()
 {
+    // Delete old lists, in case the names change.
+    // Otherwise we might not be overwriting all of them.
+    const QDir dir(filterListPath());
+    const auto entries = dir.entryList();
+    for (const auto &entry : entries) {
+        QFile::remove(dir.path() + QDir::separator() + entry);
+    }
+
     for (const auto &list : std::as_const(m_filterLists)) {
         m_runningRequests++;
         m_networkManager.get(QNetworkRequest(list.url));
@@ -65,7 +79,9 @@ void AdblockFilterListsManager::handleListFetched(QNetworkReply *reply)
         Q_EMIT refreshFinished();
     }
 
-    QFile file(filterListPath() + reply->url().fileName());
+    const auto id = filterListIdFromUrl(reply->url().toString());
+
+    QFile file(filterListPath() + id);
     if (!file.open(QIODevice::WriteOnly)) {
         qDebug() << "Failed to open" << file.fileName() << "for writing."
                  << "Filter list not updated";
