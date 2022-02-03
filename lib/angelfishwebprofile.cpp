@@ -73,6 +73,7 @@ void AngelfishWebProfile::handleDownloadFinished(QQuickWebEngineDownloadItem *do
 void AngelfishWebProfile::showNotification(QWebEngineNotification *webNotification)
 {
     auto *notification = new KNotification(QStringLiteral("web-notification"));
+    notification->setComponentName(QStringLiteral("angelfish"));
     notification->setTitle(webNotification->title());
     notification->setText(webNotification->message());
     notification->setPixmap(QPixmap::fromImage(webNotification->icon()));

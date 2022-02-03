@@ -30,3 +30,4 @@ target_link_libraries(AngelfishCore PUBLIC
 )
 
 install(FILES angelfishsettings.kcfg DESTINATION ${KCFG_INSTALL_DIR})
+install(FILES angelfish.notifyrc DESTINATION ${KNOTIFYRC_INSTALL_DIR})
