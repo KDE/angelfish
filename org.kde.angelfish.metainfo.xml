@@ -419,6 +419,21 @@
   </provides>
   <launchable type="desktop-id">org.kde.angelfish.desktop</launchable>
   <releases>
+    <release version="22.02" date="2021-02-09">
+      <url>https://www.plasma-mobile.org/2022/02/09/plasma-mobile-gear-22-02/</url>
+      <description>
+        <ul>
+          <li>Fix developer tools</li>
+          <li>Fix displaying the page title in tab switcher</li>
+          <li>Fix wrong check in ad-blocker</li>
+          <li>Implement a desktop UI</li>
+          <li>Re-organize the settings UI and unify for desktop and mobile</li>
+          <li>Simplify the navigation logic</li>
+          <li>Show a popup when URL bar is focused showing history and related text for current URL</li>
+          <li>Use a better default user-agent for mobile devices</li>
+        </ul>
+      </description>
+    </release>
     <release version="21.12" date="2021-12-07">
       <url>https://www.plasma-mobile.org/2021/12/07/plasma-mobile-gear-21-12/</url>
       <description>
