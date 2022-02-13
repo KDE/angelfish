@@ -255,6 +255,14 @@ Kirigami.ApplicationWindow {
                         webBrowser.pageStack.push(Qt.resolvedUrl("BookmarksPage.qml"))
                     }
                 }
+                Kirigami.Action {
+                    text: i18n("Downloads")
+                    icon.name: "download"
+                    onTriggered: {
+                        popSubPages();
+                        webBrowser.pageStack.push(Qt.resolvedUrl("Downloads.qml"))
+                    }
+                }
 
                 QQC2.MenuSeparator {}
 
