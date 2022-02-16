@@ -56,7 +56,6 @@ name = "angelfish-adblock"
 version = "0.1.0"
 dependencies = [
  "adblock",
- "base64",
  "cxx",
  "cxx-build",
 ]

@@ -18,4 +18,3 @@ cxx-build = "1.0"
 [dependencies]
 adblock = {version = "0.4", default-features = false, features = [ "full-regex-handling", "object-pooling", "embedded-domain-resolver" ]}
 cxx = "1.0"
-base64 = "0.13"
