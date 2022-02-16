@@ -6,7 +6,10 @@ use std::fs;
 use std::io::Write;
 
 use adblock::engine::Engine;
-use adblock::lists::{FilterFormat, FilterSet};
+use adblock::{
+    blocker::Redirection,
+    lists::{FilterSet, ParseOptions},
+};
 
 use crate::adblock_debug;
 
@@ -30,7 +33,7 @@ fn new_adblock(list_dir: &str) -> Box<Adblock> {
                     adblock_debug!("Loading filter {:?}", entry);
                     match fs::read_to_string(&entry.path()) {
                         Ok(contents) => {
-                            filter_set.add_filter_list(&contents, FilterFormat::Standard);
+                            filter_set.add_filter_list(&contents, ParseOptions::default());
                         }
                         Err(e) => {
                             adblock_debug!("Loading filter {:?} failed: {}", entry.path(), e);
@@ -88,7 +91,11 @@ impl Adblock {
             return ffi::AdblockResult {
                 matched: blocker_result.matched,
                 important: blocker_result.important,
-                redirect: blocker_result.redirect.unwrap_or_default(),
+                redirect: match blocker_result.redirect {
+                    Some(Redirection::Url(url)) => url,
+                    Some(Redirection::Resource(data_url)) => data_url, // Seems to contain a data:text/plain;base64 url
+                    _ => String::new(),
+                },
             };
         } else {
             adblock_debug!("Adblock engine doesn't exist! Probably it failed to load or restore");
@@ -100,8 +107,9 @@ impl Adblock {
     fn get_cosmetic_filters(&self, url: &str, classes: &[String], ids: &[String]) -> Vec<String> {
         if let Some(engine) = &self.blocker {
             let cosmetic_resources = engine.url_cosmetic_resources(url);
-            let selectors = engine.hidden_class_id_selectors(classes, ids, &cosmetic_resources.exceptions);
-            return selectors
+            let selectors =
+                engine.hidden_class_id_selectors(classes, ids, &cosmetic_resources.exceptions);
+            return selectors;
         }
 
         Vec::new()
@@ -149,24 +157,29 @@ mod ffi {
     extern "Rust" {
         type Adblock;
 
-        #[cxx_name="newAdblock"]
+        #[cxx_name = "newAdblock"]
         fn new_adblock(list_dir: &str) -> Box<Adblock>;
-        #[cxx_name="loadAdblock"]
+        #[cxx_name = "loadAdblock"]
         fn load_adblock(path: &str) -> Box<Adblock>;
 
-        #[cxx_name="isValid"]
+        #[cxx_name = "isValid"]
         fn is_valid(self: &Adblock) -> bool;
-        #[cxx_name="needsSave"]
+        #[cxx_name = "needsSave"]
         fn needs_save(self: &Adblock) -> bool;
-        #[cxx_name="shouldBlock"]
+        #[cxx_name = "shouldBlock"]
         fn should_block(
             self: &Adblock,
             url: &str,
             source_url: &str,
             request_type: &str,
         ) -> AdblockResult;
-        #[cxx_name="getCosmeticFilters"]
-        fn get_cosmetic_filters(self: &Adblock, url: &str, classes: &[String], ids: &[String]) -> Vec<String>;
+        #[cxx_name = "getCosmeticFilters"]
+        fn get_cosmetic_filters(
+            self: &Adblock,
+            url: &str,
+            classes: &[String],
+            ids: &[String],
+        ) -> Vec<String>;
         fn save(self: &Adblock, path: &str) -> bool;
     }
 }
