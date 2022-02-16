@@ -138,7 +138,7 @@
     <p xml:lang="sv">Angelfish är en modern mobilwebbläsare</p>
     <p xml:lang="uk">Angelfish — сучасний браузер для мобільних пристроїв</p>
     <p xml:lang="x-test">xxAngelfish is a modern mobile webbrowserxx</p>
-    <p xml:lang="zh-CN">Angelfish 是一个现代化移动网络浏览器</p>
+    <p xml:lang="zh-CN">Angelfish 是一款现代化的移动设备网络浏览器</p>
     <p xml:lang="zh-TW">Angelfish 是款現代化的行動網頁瀏覽器</p>
     <p>It supports typical browser features, such as</p>
     <p xml:lang="az">O, veb bələdçilərə xas aşağıda göstərilən bir çox xüsusiyyətləri dəstəkləyir</p>
@@ -356,7 +356,7 @@
       <caption xml:lang="sv">Menyalternativ</caption>
       <caption xml:lang="uk">Пункти меню</caption>
       <caption xml:lang="x-test">xxMenu Actionsxx</caption>
-      <caption xml:lang="zh-CN">菜单行为</caption>
+      <caption xml:lang="zh-CN">菜单操作</caption>
       <caption xml:lang="zh-TW">選單動作</caption>
       <image type="source">https://cdn.kde.org/screenshots/plasma-angelfish/actions.png</image>
     </screenshot>
@@ -387,7 +387,7 @@
       <caption xml:lang="sv">Flikvy</caption>
       <caption xml:lang="uk">Перегляд з вкладками</caption>
       <caption xml:lang="x-test">xxTabs Viewxx</caption>
-      <caption xml:lang="zh-CN">标签视图</caption>
+      <caption xml:lang="zh-CN">标签页视图</caption>
       <image type="source">https://cdn.kde.org/screenshots/plasma-angelfish/tabs.png</image>
     </screenshot>
     <screenshot>
@@ -410,6 +410,7 @@
       <caption xml:lang="sv">Användargränssnitt för skrivbord</caption>
       <caption xml:lang="uk">Інтерфейс користувача стільниці</caption>
       <caption xml:lang="x-test">xxDesktop User Interfacexx</caption>
+      <caption xml:lang="zh-CN">桌面用户界面</caption>
       <image type="source">https://cdn.kde.org/screenshots/plasma-angelfish/desktop.png</image>
     </screenshot>
   </screenshots>
