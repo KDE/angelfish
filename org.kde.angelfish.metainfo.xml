@@ -24,6 +24,7 @@
   <name xml:lang="pl">Przeglądarka sieciowa Angelfish</name>
   <name xml:lang="pt">Navegador Web Angelfish</name>
   <name xml:lang="pt-BR">Navegador Web Angelfish</name>
+  <name xml:lang="ru">Веб-браузер Angelfish</name>
   <name xml:lang="sk">Webový prehliadač Angelfish</name>
   <name xml:lang="sl">Angelfish spletni brskalnik</name>
   <name xml:lang="sv">Angelfish webbläsare</name>
@@ -383,6 +384,7 @@
       <caption xml:lang="pl">Widok kart</caption>
       <caption xml:lang="pt">Vista de Páginas</caption>
       <caption xml:lang="pt-BR">Visualização das abas</caption>
+      <caption xml:lang="ru">Вкладки</caption>
       <caption xml:lang="sl">Pogled zavihkov</caption>
       <caption xml:lang="sv">Flikvy</caption>
       <caption xml:lang="uk">Перегляд з вкладками</caption>
@@ -398,6 +400,7 @@
       <caption xml:lang="de">Benutzeroberfläche der Arbeitsfläche</caption>
       <caption xml:lang="en-GB">Desktop User Interface</caption>
       <caption xml:lang="es">Interfaz de usuario del escritorio</caption>
+      <caption xml:lang="eu">Mahaigaineko erabiltzailearen interfazea</caption>
       <caption xml:lang="fi">Työpöytäkäyttöliittymä</caption>
       <caption xml:lang="fr">Interface utilisateur de bureau</caption>
       <caption xml:lang="hu">Asztali felhasználói felület</caption>
@@ -408,6 +411,7 @@
       <caption xml:lang="pa">ਡੈਸਕਟਾਪ ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ</caption>
       <caption xml:lang="pl">Interfejs użytkownika na komputerze</caption>
       <caption xml:lang="pt-BR">Desktop User Interface</caption>
+      <caption xml:lang="ru">Графический интерфейс пользователя для ПК</caption>
       <caption xml:lang="sl">Uporabniški vmesnik namizja</caption>
       <caption xml:lang="sv">Användargränssnitt för skrivbord</caption>
       <caption xml:lang="uk">Інтерфейс користувача стільниці</caption>
