@@ -41,6 +41,7 @@ target_link_libraries(angelfish PRIVATE
     Qt5::Core
     Qt5::Qml
     Qt5::Quick
+    Qt5::QuickControls2
     Qt5::Sql
     Qt5::Svg
     Qt5::WebEngine

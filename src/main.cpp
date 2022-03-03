@@ -12,6 +12,7 @@
 #include <QUrl>
 #include <QtQml>
 #include <QtWebEngine>
+#include <QQuickStyle>
 
 #include <KDBusService>
 #include <KLocalizedContext>
@@ -53,6 +54,15 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QtWebEngine::initialize();
 #endif
 
+    // Set default style
+    if (qEnvironmentVariableIsEmpty("QT_QUICK_CONTROLS_STYLE")) {
+        QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
+    }
+    // If using org.kde.desktop, ensure we use kde style if possible
+    if (qEnvironmentVariableIsEmpty("QT_QPA_PLATFORMTHEME")) {
+        qputenv("QT_QPA_PLATFORMTHEME", "kde");
+    }
+    
     QApplication app(argc, argv);
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
     QCoreApplication::setOrganizationDomain(QStringLiteral("kde.org"));
