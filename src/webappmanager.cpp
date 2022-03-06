@@ -77,6 +77,7 @@ void WebAppManager::addApp(const QString &name, const QString &url, const QImage
     KConfig desktopFile(desktopFileDirectory() % QDir::separator() % desktopFileName, KConfig::SimpleConfig);
 
     auto desktopEntry = desktopFile.group("Desktop Entry");
+    desktopEntry.writeEntry(QStringLiteral("Type"), QStringLiteral("Application"));
     desktopEntry.writeEntry(QStringLiteral("URL"), url);
     desktopEntry.writeEntry(QStringLiteral("Name"), name);
     desktopEntry.writeEntry(QStringLiteral("Exec"), QString(webAppCommand() % u' ' % desktopFileName));
