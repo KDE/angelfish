@@ -15,6 +15,7 @@
   <name xml:lang="fr">Navigateur Internet Angelfish</name>
   <name xml:lang="hu">Angelfish webböngésző</name>
   <name xml:lang="ia">Angelfish Webbrowser (navigator web)</name>
+  <name xml:lang="id">Browser Web Angelfish</name>
   <name xml:lang="it">Browser web Angelfish</name>
   <name xml:lang="ko">Angelfish 웹 브라우저</name>
   <name xml:lang="lt">Angelfish saityno naršyklė</name>
@@ -376,6 +377,7 @@
       <caption xml:lang="fr">Vue par onglets</caption>
       <caption xml:lang="hu">Lapnézet</caption>
       <caption xml:lang="ia">Vista de Schedas</caption>
+      <caption xml:lang="id">Tampilan Tab</caption>
       <caption xml:lang="it">Vista a schede</caption>
       <caption xml:lang="ko">탭 보기</caption>
       <caption xml:lang="lt">Kortelių rodinys</caption>
@@ -406,6 +408,7 @@
       <caption xml:lang="fr">Interface utilisateur de bureau</caption>
       <caption xml:lang="hu">Asztali felhasználói felület</caption>
       <caption xml:lang="ia">Interfacie de usator de scriptorio</caption>
+      <caption xml:lang="id">Antarmuka Pengguna Desktop</caption>
       <caption xml:lang="it">Interfaccia utente desktop</caption>
       <caption xml:lang="ko">데스크톱 사용자 인터페이스</caption>
       <caption xml:lang="nl">Gebruikersinterface op bureaublad</caption>
