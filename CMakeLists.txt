@@ -74,6 +74,8 @@ if (BUILD_TESTING)
 endif()
 add_subdirectory(angelfish-webapp)
 
+ki18n_install(po)
+
 install(PROGRAMS org.kde.angelfish.desktop DESTINATION ${KDE_INSTALL_APPDIR})
 install(FILES org.kde.angelfish.metainfo.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
 install(FILES org.kde.angelfish.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
