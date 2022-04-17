@@ -1,0 +1,708 @@
+# Lithuanian translations for plasma-angelfish package.
+# Copyright (C) 2019 This file is copyright:
+# This file is distributed under the same license as the plasma-angelfish package.
+# Automatically generated, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-angelfish\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-02-14 00:45+0000\n"
+"PO-Revision-Date: 2021-09-10 14:03+0300\n"
+"Last-Translator: Moo\n"
+"Language-Team: lt\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
+"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Poedit 2.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Moo"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "<>"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:31
+#: lib/contents/ui/WebView.qml:68
+#, kde-format
+msgid "Copy"
+msgstr "Kopijuoti"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:36
+#: lib/contents/ui/WebView.qml:73
+#, kde-format
+msgid "Cut"
+msgstr "Iškirpti"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:41
+#: lib/contents/ui/WebView.qml:78
+#, kde-format
+msgid "Paste"
+msgstr "Įdėti"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:46
+#: lib/contents/ui/WebView.qml:83
+#, kde-format
+msgid "Search online for '%1'"
+msgstr "Ieškoti internete \"%1\""
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:46
+#: lib/contents/ui/WebView.qml:83
+#, kde-format
+msgid "Search online"
+msgstr "Ieškoti internete"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:51
+#: lib/contents/ui/WebView.qml:88
+#, kde-format
+msgid "Copy Url"
+msgstr "Kopijuoti Url"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:55
+#: lib/contents/ui/DownloadQuestion.qml:20 lib/contents/ui/WebView.qml:96
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:25
+#, kde-format
+msgid "Download"
+msgstr "Atsisiųsti"
+
+#: angelfish-webapp/main.cpp:63
+#, kde-format
+msgid "desktop file to open"
+msgstr ""
+
+#: angelfish-webapp/main.cpp:90
+#, fuzzy, kde-format
+#| msgid "Angelfish Web Browser"
+msgid "Angelfish Web App runtime"
+msgstr "Angelfish saityno naršyklė"
+
+#: angelfish-webapp/main.cpp:92
+#, kde-format
+msgid "Copyright 2020 Angelfish developers"
+msgstr "Autorių teisės 2020 Angelfish programuotojai"
+
+#: angelfish-webapp/main.cpp:94
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: lib/angelfishwebprofile.cpp:58
+#, kde-format
+msgid "Download finished"
+msgstr "Atsisiuntimas užbaigtas"
+
+#: lib/angelfishwebprofile.cpp:62
+#, kde-format
+msgid "Download failed"
+msgstr "Atsisiuntimas nepavyko"
+
+#: lib/contents/ui/AuthSheet.qml:21
+#, kde-format
+msgid "Authentication required"
+msgstr "Reikia nustatyti tapatybę"
+
+#: lib/contents/ui/AuthSheet.qml:30
+#, kde-format
+msgid "Username"
+msgstr "Naudotojo vardas"
+
+#: lib/contents/ui/AuthSheet.qml:37
+#, kde-format
+msgid "Password"
+msgstr "Slaptažodis"
+
+#: lib/contents/ui/AuthSheet.qml:46 lib/contents/ui/PermissionQuestion.qml:43
+#, kde-format
+msgid "Accept"
+msgstr "Priimti"
+
+#: lib/contents/ui/AuthSheet.qml:55 lib/contents/ui/DownloadQuestion.qml:28
+#: lib/contents/ui/JavaScriptDialogSheet.qml:43
+#: lib/contents/ui/JavaScriptDialogSheet.qml:66
+#: src/contents/ui/Downloads.qml:41
+#, kde-format
+msgid "Cancel"
+msgstr "Atsisakyti"
+
+#: lib/contents/ui/DownloadQuestion.qml:12
+#, kde-format
+msgid "Do you want to download this file?"
+msgstr "Ar norite atsisiųsti šį failą?"
+
+#: lib/contents/ui/ErrorHandler.qml:47
+#, kde-format
+msgid "Error loading the page"
+msgstr "Klaida įkeliant puslapį"
+
+#: lib/contents/ui/ErrorHandler.qml:58
+#, kde-format
+msgid "Retry"
+msgstr "Bandyti dar kartą"
+
+#: lib/contents/ui/ErrorHandler.qml:71
+#, kde-format
+msgid ""
+"Do you wish to continue?\n"
+"\n"
+" If you wish so, you may continue with an unverified certificate.\n"
+" Accepting an unverified certificate means\n"
+" you may not be connected with the host you tried to connect to.\n"
+" Do you wish to override the security check and continue?"
+msgstr ""
+
+#: lib/contents/ui/ErrorHandler.qml:79
+#, kde-format
+msgid "Yes"
+msgstr ""
+
+#: lib/contents/ui/ErrorHandler.qml:88
+#, kde-format
+msgid "No"
+msgstr ""
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:21
+#, kde-format
+msgid "Close"
+msgstr "Užverti"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:35
+#, kde-format
+msgid "Confirm"
+msgstr "Patvirtinti"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:75
+#, kde-format
+msgid "Submit"
+msgstr "Pateikti"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:89
+#, kde-format
+msgid "Leave page"
+msgstr "Išeiti iš puslapio"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:129
+#, kde-format
+msgid ""
+"The website asks for confirmation that you want to leave. Unsaved "
+"information might not be saved."
+msgstr ""
+"Internetinė svetainė prašo patvirtinimo, kad norite išeiti. Visa neįrašyta "
+"informacija gali likti neįrašyta."
+
+#: lib/contents/ui/PermissionQuestion.qml:16
+#, kde-format
+msgid "Do you want to allow the website to access the geo location?"
+msgstr ""
+"Ar norite leisti internetinei svetainei prieigą prie jūsų geografinės buvimo "
+"vietos?"
+
+#: lib/contents/ui/PermissionQuestion.qml:19
+#, kde-format
+msgid "Do you want to allow the website to access the microphone?"
+msgstr "Ar norite leisti internetinei svetainei prieigą prie jūsų mikrofono?"
+
+#: lib/contents/ui/PermissionQuestion.qml:22
+#, kde-format
+msgid "Do you want to allow the website to access the camera?"
+msgstr "Ar norite leisti internetinei svetainei prieigą prie jūsų kameros?"
+
+#: lib/contents/ui/PermissionQuestion.qml:25
+#, kde-format
+msgid ""
+"Do you want to allow the website to access the camera and the microphone?"
+msgstr ""
+"Ar norite leisti internetinei svetainei prieigą prie jūsų kameros ir "
+"mikrofono?"
+
+#: lib/contents/ui/PermissionQuestion.qml:28
+#, fuzzy, kde-format
+#| msgid "Do you want to allow the website to access the camera?"
+msgid "Do you want to allow the website to share your screen?"
+msgstr "Ar norite leisti internetinei svetainei prieigą prie jūsų kameros?"
+
+#: lib/contents/ui/PermissionQuestion.qml:31
+#, fuzzy, kde-format
+#| msgid "Do you want to allow the website to access the geo location?"
+msgid "Do you want to allow the website to share the sound output?"
+msgstr ""
+"Ar norite leisti internetinei svetainei prieigą prie jūsų geografinės buvimo "
+"vietos?"
+
+#: lib/contents/ui/PermissionQuestion.qml:34
+#, fuzzy, kde-format
+#| msgid "Do you want to allow the website to access the geo location?"
+msgid "Do you want to allow the website to send you notifications?"
+msgstr ""
+"Ar norite leisti internetinei svetainei prieigą prie jūsų geografinės buvimo "
+"vietos?"
+
+#: lib/contents/ui/PermissionQuestion.qml:53
+#, kde-format
+msgid "Decline"
+msgstr "Atmesti"
+
+#: lib/contents/ui/WebView.qml:92
+#, kde-format
+msgid "View source"
+msgstr "Rodyti pradinį kodą"
+
+#: lib/contents/ui/WebView.qml:101
+#, kde-format
+msgid "Open in new Tab"
+msgstr "Atverti naujoje kortelėje"
+
+#: lib/contents/ui/WebView.qml:234
+#, kde-format
+msgid "Website was opened in a new tab"
+msgstr "Internetinė svetainė atverta naujoje kortelėje"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
+#, kde-format
+msgid ""
+"The ad blocker is missing its filter lists, do you want to download them now?"
+msgstr ""
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
+#, kde-format
+msgid "Downloading..."
+msgstr "Atsisiunčiama..."
+
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:250
+#: src/contents/ui/mobile.qml:77
+#, kde-format
+msgid "Bookmarks"
+msgstr "Žymelės"
+
+#: src/contents/ui/desktop/BookmarksPage.qml:28
+#, kde-format
+msgid "Search bookmarks…"
+msgstr ""
+
+#: src/contents/ui/desktop/BookmarksPage.qml:70
+#, fuzzy, kde-format
+#| msgid "Add bookmark"
+msgid "No bookmarks yet"
+msgstr "Pridėti žymelę"
+
+#: src/contents/ui/desktop/desktop.qml:232 src/contents/ui/Tabs.qml:67
+#, kde-format
+msgid "New Tab"
+msgstr "Nauja kortelė"
+
+#: src/contents/ui/desktop/desktop.qml:241 src/contents/ui/History.qml:12
+#: src/contents/ui/mobile.qml:85
+#, kde-format
+msgid "History"
+msgstr "Istorija"
+
+#: src/contents/ui/desktop/desktop.qml:259 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/mobile.qml:89
+#, kde-format
+msgid "Downloads"
+msgstr "Atsiuntimai"
+
+#: src/contents/ui/desktop/desktop.qml:270
+#, kde-format
+msgid "Full Screen"
+msgstr ""
+
+#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:364
+#, kde-format
+msgid "Show developer tools"
+msgstr ""
+
+#: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:272
+#, kde-format
+msgid "Find in page"
+msgstr "Rasti puslapyje"
+
+#: src/contents/ui/desktop/desktop.qml:302
+#, kde-format
+msgid "Add to application launcher"
+msgstr ""
+
+#: src/contents/ui/desktop/desktop.qml:321 src/contents/ui/mobile.qml:97
+#, kde-format
+msgid "Settings"
+msgstr "Nuostatos"
+
+#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:104
+#, kde-format
+msgid "Configure Angelfish"
+msgstr ""
+
+#: src/contents/ui/desktop/HistoryPage.qml:28
+#, kde-format
+msgid "Search history…"
+msgstr ""
+
+#: src/contents/ui/desktop/HistoryPage.qml:44
+#, kde-format
+msgid "Clear all history"
+msgstr ""
+
+#: src/contents/ui/desktop/HistoryPage.qml:80
+#, kde-format
+msgid "Not history yet"
+msgstr ""
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:12
+#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#, kde-format
+msgid "General"
+msgstr ""
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:18
+#, kde-format
+msgid "Show home button:"
+msgstr ""
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#, kde-format
+msgid "Enabled"
+msgstr ""
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#, kde-format
+msgid "Disabled"
+msgstr ""
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:26
+#, fuzzy, kde-format
+#| msgid "Homepage"
+msgid "Homepage:"
+msgstr "Pradžios tinklalapis"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:51
+#, fuzzy, kde-format
+#| msgid "New Tab"
+msgid "New tabs:"
+msgstr "Nauja kortelė"
+
+#: src/contents/ui/Downloads.qml:26
+#, kde-format
+msgid "No running downloads"
+msgstr "Nėra vykdomų atsiuntimų"
+
+#: src/contents/ui/Downloads.qml:47
+#, kde-format
+msgid "Pause"
+msgstr "Pristabdyti"
+
+#: src/contents/ui/Downloads.qml:53
+#, kde-format
+msgid "Continue"
+msgstr "Tęsti"
+
+#: src/contents/ui/Downloads.qml:91
+#, kde-format
+msgctxt "download state"
+msgid "Starting…"
+msgstr "Pradedama…"
+
+#: src/contents/ui/Downloads.qml:93
+#, kde-format
+msgid "Completed"
+msgstr "Užbaigtas"
+
+#: src/contents/ui/Downloads.qml:95
+#, kde-format
+msgid "Cancelled"
+msgstr "Atsisakytas"
+
+#: src/contents/ui/Downloads.qml:97
+#, kde-format
+msgctxt "download state"
+msgid "Interrupted"
+msgstr "Pertrauktas"
+
+#: src/contents/ui/Downloads.qml:99
+#, kde-format
+msgctxt "download state"
+msgid "In progress"
+msgstr ""
+
+#: src/contents/ui/FindInPageBar.qml:46
+#, kde-format
+msgid "Search..."
+msgstr "Ieškoti..."
+
+#: src/contents/ui/InputSheet.qml:47
+#, kde-format
+msgid "OK"
+msgstr "Gerai"
+
+#: src/contents/ui/mobile.qml:18
+#, kde-format
+msgid "Angelfish Web Browser"
+msgstr "Angelfish saityno naršyklė"
+
+#: src/contents/ui/mobile.qml:62 src/contents/ui/Tabs.qml:63
+#, kde-format
+msgid "Tabs"
+msgstr "Kortelės"
+
+#: src/contents/ui/mobile.qml:69
+#, kde-format
+msgid "Leave private mode"
+msgstr "Išeiti iš privačios veiksenos"
+
+#: src/contents/ui/mobile.qml:69
+#, kde-format
+msgid "Private mode"
+msgstr "Privati veiksena"
+
+#: src/contents/ui/mobile.qml:276 src/contents/ui/ShareSheet.qml:18
+#, kde-format
+msgid "Share page"
+msgstr "Bendrinti puslapį"
+
+#: src/contents/ui/mobile.qml:287
+#, kde-format
+msgid "Add to homescreen"
+msgstr ""
+
+#: src/contents/ui/mobile.qml:297
+#, kde-format
+msgid "Open in app"
+msgstr "Atverti programėlėje"
+
+#: src/contents/ui/mobile.qml:305
+#, kde-format
+msgid "Go previous"
+msgstr "Eiti į ankstesnį"
+
+#: src/contents/ui/mobile.qml:313
+#: src/contents/ui/SettingsNavigationBarPage.qml:109
+#, kde-format
+msgid "Go forward"
+msgstr "Eiti į tolimesnį"
+
+#: src/contents/ui/mobile.qml:320
+#, kde-format
+msgid "Stop loading"
+msgstr "Stabdyti įkėlimą"
+
+#: src/contents/ui/mobile.qml:320
+#, kde-format
+msgid "Refresh"
+msgstr "Įkelti iš naujo"
+
+#: src/contents/ui/mobile.qml:330
+#, kde-format
+msgid "Bookmarked"
+msgstr "Įrašyta į žymeles"
+
+#: src/contents/ui/mobile.qml:330
+#, kde-format
+msgid "Bookmark"
+msgstr "Įrašyti į žymeles"
+
+#: src/contents/ui/mobile.qml:346
+#, kde-format
+msgid "Show desktop site"
+msgstr "Rodyti darbalaukiui skirtą svetainės versiją"
+
+#: src/contents/ui/mobile.qml:355
+#, kde-format
+msgid "Hide navigation bar"
+msgstr "Slėpti naršymo juostą"
+
+#: src/contents/ui/mobile.qml:355
+#, kde-format
+msgid "Show navigation bar"
+msgstr "Rodyti naršymo juostą"
+
+#: src/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgid ""
+"Site wants to open a new tab: \n"
+"%1"
+msgstr ""
+"Svetainė nori atverti naują kortelę: \n"
+"%1"
+
+#: src/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgid "Open"
+msgstr "Atverti"
+
+#: src/contents/ui/SettingsAdblock.qml:17
+#, kde-format
+msgid "Adblock settings"
+msgstr ""
+
+#: src/contents/ui/SettingsAdblock.qml:27
+#, kde-format
+msgid "Update lists"
+msgstr ""
+
+#: src/contents/ui/SettingsAdblock.qml:48
+#, kde-format
+msgid "The adblock functionality isn't included in this build."
+msgstr ""
+
+#: src/contents/ui/SettingsAdblock.qml:54
+#, kde-format
+msgid "Add filterlist"
+msgstr ""
+
+#: src/contents/ui/SettingsAdblock.qml:59
+#, kde-format
+msgid "Name"
+msgstr "Pavadinimas"
+
+#: src/contents/ui/SettingsAdblock.qml:68
+#, kde-format
+msgid "Url"
+msgstr "Url"
+
+#: src/contents/ui/SettingsAdblock.qml:78
+#, kde-format
+msgid "Add"
+msgstr "Pridėti"
+
+#: src/contents/ui/SettingsAdblock.qml:121
+#, kde-format
+msgid "Remove this filter list"
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:28
+#, kde-format
+msgid "Enable JavaScript"
+msgstr "Įjungti JavaScript"
+
+#: src/contents/ui/SettingsGeneral.qml:42
+#, kde-format
+msgid "Load images"
+msgstr "Įkelti paveiksliukus"
+
+#: src/contents/ui/SettingsGeneral.qml:56
+#, kde-format
+msgid "Enable adblock"
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:73
+#, kde-format
+msgid ""
+"When you open a link, image or media in a new tab, switch to it immediately"
+msgstr ""
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:14
+#, kde-format
+msgid "Navigation bar"
+msgstr "Naršymo juostą"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:35
+#, kde-format
+msgid ""
+"Choose the buttons enabled in navigation bar. Some of the buttons can be "
+"hidden only in portrait orientation of the browser and are always shown if  "
+"the browser is wider than its height.\n"
+"\n"
+" Note that if you disable the menu buttons, you will be able to access the "
+"menus either by swiping from the left or right side or to a side along the "
+"bottom of the window."
+msgstr ""
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:53
+#, kde-format
+msgid "Main menu in portrait"
+msgstr "Pagrindinis meniu stačiai"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:67
+#, kde-format
+msgid "Tabs in portrait"
+msgstr "Kortelės stačiai"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:81
+#, kde-format
+msgid "Context menu in portrait"
+msgstr "Kontekstinis meniu stačiai"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:95
+#, kde-format
+msgid "Go back"
+msgstr "Grįžti"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:123
+#, kde-format
+msgid "Reload/Stop"
+msgstr "Įkelti iš naujo/Stabdyti"
+
+#: src/contents/ui/SettingsPage.qml:17
+#, kde-format
+msgid "Ad Block"
+msgstr ""
+
+#: src/contents/ui/SettingsPage.qml:22 src/contents/ui/SettingsWebApps.qml:13
+#, kde-format
+msgid "Web Apps"
+msgstr "Saityno programėlės"
+
+#: src/contents/ui/SettingsPage.qml:27
+#: src/contents/ui/SettingsSearchEnginePage.qml:13
+#: src/contents/ui/SettingsSearchEnginePage.qml:33
+#, kde-format
+msgid "Search Engine"
+msgstr "Paieškos sistema"
+
+#: src/contents/ui/SettingsPage.qml:32
+#, kde-format
+msgid "Toolbars"
+msgstr ""
+
+#: src/contents/ui/SettingsSearchEnginePage.qml:28
+#, kde-format
+msgid "Custom"
+msgstr "Tinkinta"
+
+#: src/contents/ui/SettingsSearchEnginePage.qml:34
+#, kde-format
+msgid "Base URL of your preferred search engine"
+msgstr "Pagrindinis, jūsų pageidaujamos paieškos sistemos, URL"
+
+#: src/contents/ui/SettingsWebApps.qml:44
+#, kde-format
+msgid "Remove app"
+msgstr "Šalinti programėlę"
+
+#: src/contents/ui/Tabs.qml:63
+#, kde-format
+msgid "Private Tabs"
+msgstr "Privačios kortelės"
+
+#: src/main.cpp:70
+#, kde-format
+msgid "URL to open"
+msgstr "URL, kurį atverti"
+
+#, fuzzy
+#~| msgid "Homepage"
+#~ msgid "Home"
+#~ msgstr "Pradžios tinklalapis"
+
+#~ msgid "New"
+#~ msgstr "Nauja"
+
+#~ msgid "Choose the buttons enabled in navigation bar. "
+#~ msgstr "Pasirinkite mygtukus, kurie atsiras naršymo juostoje. "
+
+#~ msgid "Website that should be loaded on startup"
+#~ msgstr "Paleidimo metu įkeliama internetinė svetainė"
+
+#~ msgid "Find..."
+#~ msgstr "Rasti..."
+
+#~ msgid "Highlight text on the current website"
+#~ msgstr "Paryškinti tekstą dabartinėje internetinėje svetainėje"
+
+#~ msgid "Start without UI"
+#~ msgstr "Paleisti be naudotojo sąsajos"

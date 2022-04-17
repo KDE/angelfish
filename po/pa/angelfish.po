@@ -1,0 +1,687 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-angelfish package.
+#
+# A S Alam <aalam.yellow@gmail.com>, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-angelfish\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-02-14 00:45+0000\n"
+"PO-Revision-Date: 2022-01-01 09:26-0800\n"
+"Last-Translator: A S Alam <aalam@satluj.org>\n"
+"Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 21.04.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ਅ.ਸ.ਆਲਮ. ੨੦੦੯-੨੦੨੧"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "alam.yellow@gmail.com"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:31
+#: lib/contents/ui/WebView.qml:68
+#, kde-format
+msgid "Copy"
+msgstr "ਕਾਪੀ ਕਰੋ"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:36
+#: lib/contents/ui/WebView.qml:73
+#, kde-format
+msgid "Cut"
+msgstr "ਕੱਟੋ"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:41
+#: lib/contents/ui/WebView.qml:78
+#, kde-format
+msgid "Paste"
+msgstr "ਚੇਪੋ"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:46
+#: lib/contents/ui/WebView.qml:83
+#, kde-format
+msgid "Search online for '%1'"
+msgstr "'%1' ਲਈ ਆਨਲਾਈਨ ਖੋਜੋ"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:46
+#: lib/contents/ui/WebView.qml:83
+#, kde-format
+msgid "Search online"
+msgstr "ਆਨਲਾਈਨ ਖੋਜੋ"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:51
+#: lib/contents/ui/WebView.qml:88
+#, kde-format
+msgid "Copy Url"
+msgstr "URL ਕਾਪੀ ਕਰੋ"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:55
+#: lib/contents/ui/DownloadQuestion.qml:20 lib/contents/ui/WebView.qml:96
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:25
+#, kde-format
+msgid "Download"
+msgstr "ਡਾਊਨਲੋਡ"
+
+#: angelfish-webapp/main.cpp:63
+#, kde-format
+msgid "desktop file to open"
+msgstr "ਖੋਲ੍ਹਣ ਲਈ ਡੈਸਕਟਾਪ ਫਾਇਲ"
+
+#: angelfish-webapp/main.cpp:90
+#, kde-format
+msgid "Angelfish Web App runtime"
+msgstr "ਐਂਗਲਫਿਸ਼ ਵੈੱਬ ਐਪ ਰਨਟਾਈਮ"
+
+#: angelfish-webapp/main.cpp:92
+#, kde-format
+msgid "Copyright 2020 Angelfish developers"
+msgstr "Copyright 2020 Angelfish developers"
+
+#: angelfish-webapp/main.cpp:94
+#, kde-format
+msgid "Marco Martin"
+msgstr "ਮਾਰਕੋ ਮਾਰਟਿਨ"
+
+#: lib/angelfishwebprofile.cpp:58
+#, kde-format
+msgid "Download finished"
+msgstr "ਡਾਊਨਲੋਡ ਪੂਰਾ ਹੋਇਆ"
+
+#: lib/angelfishwebprofile.cpp:62
+#, kde-format
+msgid "Download failed"
+msgstr "ਡਾਊਨਲੋਡ ਫੇਲ੍ਹ ਹੈ"
+
+#: lib/contents/ui/AuthSheet.qml:21
+#, kde-format
+msgid "Authentication required"
+msgstr "ਪਰਮਾਣਕਿਤਾ ਚਾਹੀਦੀ ਹੈ"
+
+#: lib/contents/ui/AuthSheet.qml:30
+#, kde-format
+msgid "Username"
+msgstr "ਵਰਤੋਂਕਾਰ-ਨਾਂ"
+
+#: lib/contents/ui/AuthSheet.qml:37
+#, kde-format
+msgid "Password"
+msgstr "ਪਾਸਵਰਡ"
+
+#: lib/contents/ui/AuthSheet.qml:46 lib/contents/ui/PermissionQuestion.qml:43
+#, kde-format
+msgid "Accept"
+msgstr "ਮਨਜ਼ੂਰ ਕਰੋ"
+
+#: lib/contents/ui/AuthSheet.qml:55 lib/contents/ui/DownloadQuestion.qml:28
+#: lib/contents/ui/JavaScriptDialogSheet.qml:43
+#: lib/contents/ui/JavaScriptDialogSheet.qml:66
+#: src/contents/ui/Downloads.qml:41
+#, kde-format
+msgid "Cancel"
+msgstr "ਰੱਦ ਕਰੋ"
+
+#: lib/contents/ui/DownloadQuestion.qml:12
+#, kde-format
+msgid "Do you want to download this file?"
+msgstr "ਕੀ ਤੁਸੀਂ ਇਹ ਫ਼ਾਇਲ ਡਾਊਨਲੋਡ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: lib/contents/ui/ErrorHandler.qml:47
+#, kde-format
+msgid "Error loading the page"
+msgstr "ਸਫ਼ਾ ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
+
+#: lib/contents/ui/ErrorHandler.qml:58
+#, kde-format
+msgid "Retry"
+msgstr "ਮੁੜ-ਕੋਸ਼ਿਸ਼"
+
+#: lib/contents/ui/ErrorHandler.qml:71
+#, kde-format
+msgid ""
+"Do you wish to continue?\n"
+"\n"
+" If you wish so, you may continue with an unverified certificate.\n"
+" Accepting an unverified certificate means\n"
+" you may not be connected with the host you tried to connect to.\n"
+" Do you wish to override the security check and continue?"
+msgstr ""
+"ਕੀ ਤੁਸੀਂ ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ?\n"
+"\n"
+"ਜੇ ਤੁਸੀਂ ਇਹ ਕਰਨਾ ਤਾਂ ਤੁਸੀਂ ਨਾ-ਤਸਦੀਕ ਕੀਤੇ ਸਰਟੀਫਿਕੇਟ ਨਾਲ ਜਾਰੀ ਰੱਖ ਸਕਦੇ ਹੋ।\n"
+"ਨਾ-ਤਸਦੀਕ ਕੀਤੇ ਸਰਟੀਫਿਕੇਟ ਨੂੰ ਮੰਨਣ ਦਾ ਅਰਥ ਹੈ ਕਿ\n"
+"ਤੁਸੀਂ ਜਿਸ ਹੋਸਟ ਨਾਲ ਕਨੈਕਟ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੇ ਹੋ, ਉਹ ਸ਼ਾਇਦ ਉਹ ਨਾ ਹੋਵੇ।\n"
+"ਕੀ ਤੁਸੀਂ ਸੁਰੱਖਿਆ ਜਾਂਚ ਨੂੰ ਅਣਡਿੱਠਾ ਕਰਕੇ ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: lib/contents/ui/ErrorHandler.qml:79
+#, kde-format
+msgid "Yes"
+msgstr "ਹਾਂ"
+
+#: lib/contents/ui/ErrorHandler.qml:88
+#, kde-format
+msgid "No"
+msgstr "ਨਹੀਂ"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:21
+#, kde-format
+msgid "Close"
+msgstr "ਬੰਦ ਕਰੋ"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:35
+#, kde-format
+msgid "Confirm"
+msgstr "ਤਸਦੀਕ ਕਰੋ"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:75
+#, kde-format
+msgid "Submit"
+msgstr "ਭੇਜੋ"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:89
+#, kde-format
+msgid "Leave page"
+msgstr "ਸਫ਼ੇ ਨੂੰ ਛੱਡੋ"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:129
+#, kde-format
+msgid ""
+"The website asks for confirmation that you want to leave. Unsaved "
+"information might not be saved."
+msgstr ""
+"ਵੈੱਬਸਾਈਟ ਨੇ ਤਸਦੀਕ ਕਰਨ ਲਈ ਕਿਹਾ ਹੈ ਕਿ ਕੀ ਤੁਸੀ ਇਸ ਨੂੰ ਛੱਡ ਕੇ ਜਾਣਾ ਚਾਹੁੰਦੇ ਹੋ। ਨਾ ਸੰਭਾਲੀ "
+"ਜਾਣਕਾਰੀ ਨੂੰ ਸੰਭਾਲਿਆ ਨਹੀਂ ਜਾ ਸਕੇਗਾ।"
+
+#: lib/contents/ui/PermissionQuestion.qml:16
+#, kde-format
+msgid "Do you want to allow the website to access the geo location?"
+msgstr "ਕੀ ਤੁਸੀਂ ਵੈੱਬਸਾਈਟ ਨੂੰ ਭੂਗੋਲਿਕ ਟਿਕਾਣੇ ਲਈ ਪਹੁੰਚ ਦੀ ਮਨਜ਼ੂਰੀ ਦੇਣੀ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: lib/contents/ui/PermissionQuestion.qml:19
+#, kde-format
+msgid "Do you want to allow the website to access the microphone?"
+msgstr "ਕੀ ਤੁਸੀਂ ਵੈੱਬਸਾਈਟ ਨੂੰ ਮਾਈਕਰੋਫ਼ੋਨ ਲਈ ਪਹੁੰਚ ਦੀ ਮਨਜ਼ੂਰੀ ਦੇਣੀ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: lib/contents/ui/PermissionQuestion.qml:22
+#, kde-format
+msgid "Do you want to allow the website to access the camera?"
+msgstr "ਕੀ ਤੁਸੀਂ ਵੈੱਬਸਾਈਟ ਨੂੰ ਕੈਮਰੇ ਲਈ ਪਹੁੰਚ ਦੀ ਮਨਜ਼ੂਰੀ ਦੇਣੀ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: lib/contents/ui/PermissionQuestion.qml:25
+#, kde-format
+msgid ""
+"Do you want to allow the website to access the camera and the microphone?"
+msgstr "ਕੀ ਤੁਸੀਂ ਵੈੱਬਸਾਈਟ ਨੂੰ ਕੈਮਰੇ ਅਤੇ ਮਾਈਕਰੋਫ਼ੋਨ ਲਈ ਪਹੁੰਚ ਦੀ ਮਨਜ਼ੂਰੀ ਦੇਣੀ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: lib/contents/ui/PermissionQuestion.qml:28
+#, kde-format
+msgid "Do you want to allow the website to share your screen?"
+msgstr "ਕੀ ਤੁਸੀਂ ਵੈੱਬਸਾਈਟ ਨੂੰ ਤੁਹਾਡੀ ਸਕਰੀਨ ਸਾਂਝੀ ਕਰਨ ਲਈ ਮਨਜ਼ੂਰੀ ਦੇਣੀ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: lib/contents/ui/PermissionQuestion.qml:31
+#, kde-format
+msgid "Do you want to allow the website to share the sound output?"
+msgstr "ਕੀ ਤੁਸੀਂ ਵੈੱਬਸਾਈਟ ਨੂੰ ਸਾਊਂਡ ਆਉਟਪੁੱਟ ਸਾਂਝੀ ਕਰਨ ਲਈ ਮਨਜ਼ੂਰੀ ਦੇਣੀ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: lib/contents/ui/PermissionQuestion.qml:34
+#, kde-format
+msgid "Do you want to allow the website to send you notifications?"
+msgstr "ਕੀ ਤੁਸੀਂ ਵੈੱਬਸਾਈਟ ਨੂੰ ਤੁਹਾਨੂੰ ਨੋਟੀਫਿਕੇਸ਼ਨ ਲਈ ਪਹੁੰਚ ਦੀ ਮਨਜ਼ੂਰੀ ਦੇਣੀ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: lib/contents/ui/PermissionQuestion.qml:53
+#, kde-format
+msgid "Decline"
+msgstr "ਇਨਕਾਰ"
+
+#: lib/contents/ui/WebView.qml:92
+#, kde-format
+msgid "View source"
+msgstr "ਸਰੋਤ ਵੇਖੋ"
+
+#: lib/contents/ui/WebView.qml:101
+#, kde-format
+msgid "Open in new Tab"
+msgstr "ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹੋ"
+
+#: lib/contents/ui/WebView.qml:234
+#, kde-format
+msgid "Website was opened in a new tab"
+msgstr "ਵੈੱਬਸਾਈਟ ਨੂੰ ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹਿਆ ਗਿਆ ਸੀ"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
+#, kde-format
+msgid ""
+"The ad blocker is missing its filter lists, do you want to download them now?"
+msgstr ""
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
+#, kde-format
+msgid "Downloading..."
+msgstr "ਡਾਊਨਲੋਡ ਜਾਰੀ ਹੈ…"
+
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:250
+#: src/contents/ui/mobile.qml:77
+#, kde-format
+msgid "Bookmarks"
+msgstr "ਬੁੱਕਮਾਰਕ"
+
+#: src/contents/ui/desktop/BookmarksPage.qml:28
+#, kde-format
+msgid "Search bookmarks…"
+msgstr "…ਬੁੱਕਮਾਰਕ ਲੱਭੋ"
+
+#: src/contents/ui/desktop/BookmarksPage.qml:70
+#, fuzzy, kde-format
+#| msgid "Bookmarks"
+msgid "No bookmarks yet"
+msgstr "ਬੁੱਕਮਾਰਕ"
+
+#: src/contents/ui/desktop/desktop.qml:232 src/contents/ui/Tabs.qml:67
+#, kde-format
+msgid "New Tab"
+msgstr "ਨਵੀਂ ਟੈਬ"
+
+#: src/contents/ui/desktop/desktop.qml:241 src/contents/ui/History.qml:12
+#: src/contents/ui/mobile.qml:85
+#, kde-format
+msgid "History"
+msgstr "ਅਤੀਤ"
+
+#: src/contents/ui/desktop/desktop.qml:259 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/mobile.qml:89
+#, kde-format
+msgid "Downloads"
+msgstr "ਡਾਊਨਲੋਡ"
+
+#: src/contents/ui/desktop/desktop.qml:270
+#, kde-format
+msgid "Full Screen"
+msgstr "ਪੂਰੀ ਸਕਰੀਨ"
+
+#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:364
+#, kde-format
+msgid "Show developer tools"
+msgstr "ਡਿਵੈਲਪਰ ਟੂਲ ਵੇਖਾਓ"
+
+#: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:272
+#, kde-format
+msgid "Find in page"
+msgstr "ਸਫ਼ੇ ਵਿੱਚ ਲੱਭੋ"
+
+#: src/contents/ui/desktop/desktop.qml:302
+#, kde-format
+msgid "Add to application launcher"
+msgstr ""
+
+#: src/contents/ui/desktop/desktop.qml:321 src/contents/ui/mobile.qml:97
+#, kde-format
+msgid "Settings"
+msgstr "ਸੈਟਿੰਗਾਂ"
+
+#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:104
+#, kde-format
+msgid "Configure Angelfish"
+msgstr "ਐਂਗਲਫਿਸ਼ ਦੀ ਸੰਰਚਨਾ"
+
+#: src/contents/ui/desktop/HistoryPage.qml:28
+#, kde-format
+msgid "Search history…"
+msgstr "…ਅਤੀਤ ਵਿੱਚ ਖੋਜੋ"
+
+#: src/contents/ui/desktop/HistoryPage.qml:44
+#, kde-format
+msgid "Clear all history"
+msgstr "ਸਾਰੇ ਅਤੀਤ ਨੂੰ ਮਿਟਾਓ"
+
+#: src/contents/ui/desktop/HistoryPage.qml:80
+#, kde-format
+msgid "Not history yet"
+msgstr "ਹਾਲੇ ਕੋਈ ਅਤੀਤੀ ਨਹੀਂ ਹੈ"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:12
+#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#, kde-format
+msgid "General"
+msgstr "ਆਮ"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:18
+#, kde-format
+msgid "Show home button:"
+msgstr "ਮੁੱਖ-ਸਕਰੀਨ ਬਟਨ ਵੇਖਾਓ:"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#, fuzzy, kde-format
+#| msgid "Enable Adblock"
+msgid "Enabled"
+msgstr "ਇਸ਼ਤਿਹਾਰ-ਰੋਕੂ ਸਮਰੱਥ ਕਰੋ"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#, kde-format
+msgid "Disabled"
+msgstr "ਅਸਮਰੱਥ ਹੈ"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:26
+#, kde-format
+msgid "Homepage:"
+msgstr "ਮੁੱਖ ਸਫ਼ਾ:"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:51
+#, fuzzy, kde-format
+#| msgid "New Tab"
+msgid "New tabs:"
+msgstr "ਨਵੀਂ ਟੈਬ"
+
+#: src/contents/ui/Downloads.qml:26
+#, kde-format
+msgid "No running downloads"
+msgstr "ਕੋਈ ਡਾਊਨਲੋਡ ਨਹੀਂ ਹੋ ਰਿਹਾ ਹੈ"
+
+#: src/contents/ui/Downloads.qml:47
+#, kde-format
+msgid "Pause"
+msgstr "ਵਿਰਾਮ"
+
+#: src/contents/ui/Downloads.qml:53
+#, kde-format
+msgid "Continue"
+msgstr "ਜਾਰੀ ਰੱਖੋ"
+
+#: src/contents/ui/Downloads.qml:91
+#, kde-format
+msgctxt "download state"
+msgid "Starting…"
+msgstr "...ਸ਼ੁਰੂ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
+
+#: src/contents/ui/Downloads.qml:93
+#, kde-format
+msgid "Completed"
+msgstr "ਪੂਰਾ ਹੋਇਆ"
+
+#: src/contents/ui/Downloads.qml:95
+#, kde-format
+msgid "Cancelled"
+msgstr "ਰੱਦ ਕੀਤਾ"
+
+#: src/contents/ui/Downloads.qml:97
+#, kde-format
+msgctxt "download state"
+msgid "Interrupted"
+msgstr "ਰੋਕਿਆ"
+
+#: src/contents/ui/Downloads.qml:99
+#, kde-format
+msgctxt "download state"
+msgid "In progress"
+msgstr "ਜਾਰੀ"
+
+#: src/contents/ui/FindInPageBar.qml:46
+#, kde-format
+msgid "Search..."
+msgstr "...ਖੋਜੋ"
+
+#: src/contents/ui/InputSheet.qml:47
+#, kde-format
+msgid "OK"
+msgstr "ਠੀਕ ਹੈ"
+
+#: src/contents/ui/mobile.qml:18
+#, kde-format
+msgid "Angelfish Web Browser"
+msgstr "ਐਂਗਲਫਿਸ਼ ਵੈੱਬ ਬਰਾਊਜ਼ਰ"
+
+#: src/contents/ui/mobile.qml:62 src/contents/ui/Tabs.qml:63
+#, kde-format
+msgid "Tabs"
+msgstr "ਟੈਬਾਂ"
+
+#: src/contents/ui/mobile.qml:69
+#, kde-format
+msgid "Leave private mode"
+msgstr "ਪ੍ਰਾਈਵੇਟ ਢੰਗ ਛੱਡੋ"
+
+#: src/contents/ui/mobile.qml:69
+#, kde-format
+msgid "Private mode"
+msgstr "ਪ੍ਰਾਈਵੇਟ ਢੰਗ"
+
+#: src/contents/ui/mobile.qml:276 src/contents/ui/ShareSheet.qml:18
+#, kde-format
+msgid "Share page"
+msgstr "ਸਫ਼ਾ ਸਾਂਝਾ ਕਰੋ"
+
+#: src/contents/ui/mobile.qml:287
+#, kde-format
+msgid "Add to homescreen"
+msgstr "ਮੁੱਖ-ਸਕਰੀਨ ਉੱਤੇ ਜੋੜੋ"
+
+#: src/contents/ui/mobile.qml:297
+#, kde-format
+msgid "Open in app"
+msgstr "ਐਪ ਵਿੱਚ ਖੋਲ੍ਹੋ"
+
+#: src/contents/ui/mobile.qml:305
+#, kde-format
+msgid "Go previous"
+msgstr "ਪਿੱਛੇ ਜਾਓ"
+
+#: src/contents/ui/mobile.qml:313
+#: src/contents/ui/SettingsNavigationBarPage.qml:109
+#, kde-format
+msgid "Go forward"
+msgstr "ਅੱਗੇ ਜਾਓ"
+
+#: src/contents/ui/mobile.qml:320
+#, kde-format
+msgid "Stop loading"
+msgstr "ਲੋਡ ਕਰਨਾ ਰੋਕੋ"
+
+#: src/contents/ui/mobile.qml:320
+#, kde-format
+msgid "Refresh"
+msgstr "ਤਾਜ਼ਾ ਕਰੋ"
+
+#: src/contents/ui/mobile.qml:330
+#, kde-format
+msgid "Bookmarked"
+msgstr "ਬੁੱਕਮਾਰਕ ਕੀਤਾ"
+
+#: src/contents/ui/mobile.qml:330
+#, kde-format
+msgid "Bookmark"
+msgstr "ਬੁੱਕਮਾਰਕ ਕਰੋ"
+
+#: src/contents/ui/mobile.qml:346
+#, kde-format
+msgid "Show desktop site"
+msgstr "ਡੈਸਕਟਾਪ ਸਾਈਟ ਵੇਖਾਓ"
+
+#: src/contents/ui/mobile.qml:355
+#, kde-format
+msgid "Hide navigation bar"
+msgstr "ਨੇਵੀਗੇਸ਼ਨ ਪੱਟੀ ਲੁਕਾਓ"
+
+#: src/contents/ui/mobile.qml:355
+#, kde-format
+msgid "Show navigation bar"
+msgstr "ਨੇਵੀਗੇਸ਼ਨ ਪੱਟੀ ਵੇਖਾਓ"
+
+#: src/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgid ""
+"Site wants to open a new tab: \n"
+"%1"
+msgstr ""
+"ਸਾਈਟ ਨਵੀਂ ਟੈਬ ਖੋਲ੍ਹਣਾ ਚਾਹੁੰਦੀ ਹੈ:\n"
+"%1"
+
+#: src/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgid "Open"
+msgstr "ਖੋਲ੍ਹੋ"
+
+#: src/contents/ui/SettingsAdblock.qml:17
+#, kde-format
+msgid "Adblock settings"
+msgstr "ਇਸ਼ਤਿਹਾਰ-ਰੋਕੂ ਸੈਟਿੰਗਾਂ"
+
+#: src/contents/ui/SettingsAdblock.qml:27
+#, kde-format
+msgid "Update lists"
+msgstr "ਲਿਸਟਾਂ ਨੂੰ ਅੱਪਡੇਟ ਕਰੋ"
+
+#: src/contents/ui/SettingsAdblock.qml:48
+#, kde-format
+msgid "The adblock functionality isn't included in this build."
+msgstr "ਇਸ਼ਤਿਹਾਰ-ਰੋਕੂ ਸਹੂਲਤਾਂ ਇਸ ਬਿਲਡ ਵਿੱਚ ਸ਼ਾਮਲ ਨਹੀਂ ਹਨ।"
+
+#: src/contents/ui/SettingsAdblock.qml:54
+#, kde-format
+msgid "Add filterlist"
+msgstr "ਫਿਲਟਰ-ਸੂਚੀ ਜੋੜੋ"
+
+#: src/contents/ui/SettingsAdblock.qml:59
+#, kde-format
+msgid "Name"
+msgstr "ਨਾਂ"
+
+#: src/contents/ui/SettingsAdblock.qml:68
+#, kde-format
+msgid "Url"
+msgstr "URL"
+
+#: src/contents/ui/SettingsAdblock.qml:78
+#, kde-format
+msgid "Add"
+msgstr "ਜੋੜੋ"
+
+#: src/contents/ui/SettingsAdblock.qml:121
+#, kde-format
+msgid "Remove this filter list"
+msgstr "ਇਹ ਫਿਲਟਰ ਸੂਚੀ ਨੂੰ ਹਟਾਓ"
+
+#: src/contents/ui/SettingsGeneral.qml:28
+#, kde-format
+msgid "Enable JavaScript"
+msgstr "ਜਾਵਾ-ਸਕ੍ਰਿਪਟ ਸਮਰੱਥ ਕਰੋ"
+
+#: src/contents/ui/SettingsGeneral.qml:42
+#, kde-format
+msgid "Load images"
+msgstr "ਚਿੱਤਰ ਲੋਡ ਕਰੋ"
+
+#: src/contents/ui/SettingsGeneral.qml:56
+#, fuzzy, kde-format
+#| msgid "Enable Adblock"
+msgid "Enable adblock"
+msgstr "ਇਸ਼ਤਿਹਾਰ-ਰੋਕੂ ਸਮਰੱਥ ਕਰੋ"
+
+#: src/contents/ui/SettingsGeneral.qml:73
+#, kde-format
+msgid ""
+"When you open a link, image or media in a new tab, switch to it immediately"
+msgstr "ਜਦੋਂ ਤੁਸੀਂ ਲਿੰਕ, ਚਿੱਤਰ ਜਾਂ ਮੀਡੀਏ ਨੂੰ ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹਦੇ ਹੋ ਤਾਂ ਉਸ ਉੱਤੇ ਫ਼ੌਰਨ ਜਾਓ"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:14
+#, kde-format
+msgid "Navigation bar"
+msgstr "ਨੇਵੀਗੇਸ਼ਨ ਪੱਟੀ"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:35
+#, kde-format
+msgid ""
+"Choose the buttons enabled in navigation bar. Some of the buttons can be "
+"hidden only in portrait orientation of the browser and are always shown if  "
+"the browser is wider than its height.\n"
+"\n"
+" Note that if you disable the menu buttons, you will be able to access the "
+"menus either by swiping from the left or right side or to a side along the "
+"bottom of the window."
+msgstr ""
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:53
+#, kde-format
+msgid "Main menu in portrait"
+msgstr "ਪੋਰਟਰੇਟ ਵਿੱਚ ਮੁੱਖ ਮੇਨੂ"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:67
+#, kde-format
+msgid "Tabs in portrait"
+msgstr "ਪੋਰਟਰੇਟ ਵਿੱਚ ਟੈਬਾਂ"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:81
+#, kde-format
+msgid "Context menu in portrait"
+msgstr "ਪੋਰਟਰੇਟ ਵਿੱਚ ਪ੍ਰਸੰਗ ਮੇਨੂ"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:95
+#, kde-format
+msgid "Go back"
+msgstr "ਪਿੱਛੇ ਜਾਓ"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:123
+#, kde-format
+msgid "Reload/Stop"
+msgstr "ਮੁੜ-ਲੋਡ ਕਰੋ/ਰੋਕੋ"
+
+#: src/contents/ui/SettingsPage.qml:17
+#, kde-format
+msgid "Ad Block"
+msgstr "ਇਸ਼ਤਿਹਾਰ ਪਾਬੰਦੀ"
+
+#: src/contents/ui/SettingsPage.qml:22 src/contents/ui/SettingsWebApps.qml:13
+#, kde-format
+msgid "Web Apps"
+msgstr "ਵੈੱਬ ਐਪਾਂ"
+
+#: src/contents/ui/SettingsPage.qml:27
+#: src/contents/ui/SettingsSearchEnginePage.qml:13
+#: src/contents/ui/SettingsSearchEnginePage.qml:33
+#, kde-format
+msgid "Search Engine"
+msgstr "ਖੋਜ ਇੰਜਣ"
+
+#: src/contents/ui/SettingsPage.qml:32
+#, kde-format
+msgid "Toolbars"
+msgstr "ਟੂਲਬਾਰ"
+
+#: src/contents/ui/SettingsSearchEnginePage.qml:28
+#, kde-format
+msgid "Custom"
+msgstr "ਕਸਟਮ"
+
+#: src/contents/ui/SettingsSearchEnginePage.qml:34
+#, kde-format
+msgid "Base URL of your preferred search engine"
+msgstr "ਤੁਹਾਡੇ ਤਰਜੀਹੀ ਖੋਜ ਇੰਜਣ ਲਈ ਮੁੱਢਲਾ URL"
+
+#: src/contents/ui/SettingsWebApps.qml:44
+#, kde-format
+msgid "Remove app"
+msgstr "ਐਪ ਹਟਾਓ"
+
+#: src/contents/ui/Tabs.qml:63
+#, kde-format
+msgid "Private Tabs"
+msgstr "ਪ੍ਰਾਈਵੇਟ ਟੈਬਾਂ"
+
+#: src/main.cpp:70
+#, kde-format
+msgid "URL to open"
+msgstr "ਖੋਲ੍ਹਣ ਲਈ URL"
+
+#~ msgid "Enable Adblock"
+#~ msgstr "ਇਸ਼ਤਿਹਾਰ-ਰੋਕੂ ਸਮਰੱਥ ਕਰੋ"
+
+#~ msgid "Adblock filter lists"
+#~ msgstr "ਇਸ਼ਤਿਹਾਰ-ਰੋਕੂ ਫਿਲਟਰ ਸੂਚੀਆਂ"
+
+#~ msgid "New"
+#~ msgstr "ਨਵਾਂ"

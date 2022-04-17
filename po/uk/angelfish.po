@@ -1,0 +1,734 @@
+# Translation of angelfish.po to Ukrainian
+# Copyright (C) 2019-2021 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2019, 2020, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: angelfish\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-02-14 00:45+0000\n"
+"PO-Revision-Date: 2022-01-05 09:24+0200\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 20.12.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Юрій Чорноіван"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "yurchor@ukr.net"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:31
+#: lib/contents/ui/WebView.qml:68
+#, kde-format
+msgid "Copy"
+msgstr "Копіювати"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:36
+#: lib/contents/ui/WebView.qml:73
+#, kde-format
+msgid "Cut"
+msgstr "Вирізати"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:41
+#: lib/contents/ui/WebView.qml:78
+#, kde-format
+msgid "Paste"
+msgstr "Вставити"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:46
+#: lib/contents/ui/WebView.qml:83
+#, kde-format
+msgid "Search online for '%1'"
+msgstr "Шукати у мережі «%1»"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:46
+#: lib/contents/ui/WebView.qml:83
+#, kde-format
+msgid "Search online"
+msgstr "Шукати у мережі"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:51
+#: lib/contents/ui/WebView.qml:88
+#, kde-format
+msgid "Copy Url"
+msgstr "Копіювати адресу"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:55
+#: lib/contents/ui/DownloadQuestion.qml:20 lib/contents/ui/WebView.qml:96
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:25
+#, kde-format
+msgid "Download"
+msgstr "Отримати"
+
+#: angelfish-webapp/main.cpp:63
+#, kde-format
+msgid "desktop file to open"
+msgstr "файл desktop, який слід відкрити"
+
+#: angelfish-webapp/main.cpp:90
+#, kde-format
+msgid "Angelfish Web App runtime"
+msgstr "Середовище виконання вебпрограм Angelfish"
+
+#: angelfish-webapp/main.cpp:92
+#, kde-format
+msgid "Copyright 2020 Angelfish developers"
+msgstr "© Розробники Angelfish, 2020"
+
+#: angelfish-webapp/main.cpp:94
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: lib/angelfishwebprofile.cpp:58
+#, kde-format
+msgid "Download finished"
+msgstr "Отримання завершено"
+
+#: lib/angelfishwebprofile.cpp:62
+#, kde-format
+msgid "Download failed"
+msgstr "Не вдалося отримати"
+
+#: lib/contents/ui/AuthSheet.qml:21
+#, kde-format
+msgid "Authentication required"
+msgstr "Слід пройти розпізнавання"
+
+#: lib/contents/ui/AuthSheet.qml:30
+#, kde-format
+msgid "Username"
+msgstr "Користувач"
+
+#: lib/contents/ui/AuthSheet.qml:37
+#, kde-format
+msgid "Password"
+msgstr "Пароль"
+
+#: lib/contents/ui/AuthSheet.qml:46 lib/contents/ui/PermissionQuestion.qml:43
+#, kde-format
+msgid "Accept"
+msgstr "Прийняти"
+
+#: lib/contents/ui/AuthSheet.qml:55 lib/contents/ui/DownloadQuestion.qml:28
+#: lib/contents/ui/JavaScriptDialogSheet.qml:43
+#: lib/contents/ui/JavaScriptDialogSheet.qml:66
+#: src/contents/ui/Downloads.qml:41
+#, kde-format
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: lib/contents/ui/DownloadQuestion.qml:12
+#, kde-format
+msgid "Do you want to download this file?"
+msgstr "Хочете отримати цей файл?"
+
+#: lib/contents/ui/ErrorHandler.qml:47
+#, kde-format
+msgid "Error loading the page"
+msgstr "Помилка під час спроби Завантажити сторінку"
+
+#: lib/contents/ui/ErrorHandler.qml:58
+#, kde-format
+msgid "Retry"
+msgstr "Повторити"
+
+#: lib/contents/ui/ErrorHandler.qml:71
+#, kde-format
+msgid ""
+"Do you wish to continue?\n"
+"\n"
+" If you wish so, you may continue with an unverified certificate.\n"
+" Accepting an unverified certificate means\n"
+" you may not be connected with the host you tried to connect to.\n"
+" Do you wish to override the security check and continue?"
+msgstr ""
+"Хочете продовжити обробку?\n"
+"\n"
+" Якщо обробку буде продовжено, її може бути виконано із неперевіреним "
+"сертифікатом.\n"
+" Прийняття неперевіреного сертифіката означає, що ви можете\n"
+" встановити зв'язок не з тим вузлом мережі, з яким хотіли це зробити.\n"
+" Хочете забути про заходи безпеки і продовжити обробку?"
+
+#: lib/contents/ui/ErrorHandler.qml:79
+#, kde-format
+msgid "Yes"
+msgstr "Так"
+
+#: lib/contents/ui/ErrorHandler.qml:88
+#, kde-format
+msgid "No"
+msgstr "Ні"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:21
+#, kde-format
+msgid "Close"
+msgstr "Закрити"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:35
+#, kde-format
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:75
+#, kde-format
+msgid "Submit"
+msgstr "Надіслати"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:89
+#, kde-format
+msgid "Leave page"
+msgstr "Полишити сторінку"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:129
+#, kde-format
+msgid ""
+"The website asks for confirmation that you want to leave. Unsaved "
+"information might not be saved."
+msgstr ""
+"Сайтові потрібне підтвердження тощо, що ви полишаєте сторінку. Незбережені "
+"дані може бути втрачено."
+
+#: lib/contents/ui/PermissionQuestion.qml:16
+#, kde-format
+msgid "Do you want to allow the website to access the geo location?"
+msgstr "Хочете надати сайту доступ до даних геопозиціювання?"
+
+#: lib/contents/ui/PermissionQuestion.qml:19
+#, kde-format
+msgid "Do you want to allow the website to access the microphone?"
+msgstr "Хочете надати сайту доступ до мікрофона?"
+
+#: lib/contents/ui/PermissionQuestion.qml:22
+#, kde-format
+msgid "Do you want to allow the website to access the camera?"
+msgstr "Хочете надати сайту доступ до відеокамери?"
+
+#: lib/contents/ui/PermissionQuestion.qml:25
+#, kde-format
+msgid ""
+"Do you want to allow the website to access the camera and the microphone?"
+msgstr "Хочете надати сайту доступ до відеокамери та мікрофона?"
+
+#: lib/contents/ui/PermissionQuestion.qml:28
+#, kde-format
+msgid "Do you want to allow the website to share your screen?"
+msgstr "Хочете надати сайту доступ до зображення на вашому екрані?"
+
+#: lib/contents/ui/PermissionQuestion.qml:31
+#, kde-format
+msgid "Do you want to allow the website to share the sound output?"
+msgstr "Хочете надати сайту доступ до виведення звукових даних?"
+
+#: lib/contents/ui/PermissionQuestion.qml:34
+#, kde-format
+msgid "Do you want to allow the website to send you notifications?"
+msgstr "Хочете надати сайту доступ до надсилання вам сповіщень?"
+
+#: lib/contents/ui/PermissionQuestion.qml:53
+#, kde-format
+msgid "Decline"
+msgstr "Відхилити"
+
+#: lib/contents/ui/WebView.qml:92
+#, kde-format
+msgid "View source"
+msgstr "Переглянути код"
+
+#: lib/contents/ui/WebView.qml:101
+#, kde-format
+msgid "Open in new Tab"
+msgstr "Відкрити у новій вкладці"
+
+#: lib/contents/ui/WebView.qml:234
+#, kde-format
+msgid "Website was opened in a new tab"
+msgstr "Сайт було відкрито у новій вкладці"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
+#, kde-format
+msgid ""
+"The ad blocker is missing its filter lists, do you want to download them now?"
+msgstr ""
+"У засобу блокування реклами немає списків фільтрування. Хочете отримати їх "
+"зараз?"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
+#, kde-format
+msgid "Downloading..."
+msgstr "Отримання даних…"
+
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:250
+#: src/contents/ui/mobile.qml:77
+#, kde-format
+msgid "Bookmarks"
+msgstr "Закладки"
+
+#: src/contents/ui/desktop/BookmarksPage.qml:28
+#, kde-format
+msgid "Search bookmarks…"
+msgstr "Шукати закладки…"
+
+#: src/contents/ui/desktop/BookmarksPage.qml:70
+#, kde-format
+msgid "No bookmarks yet"
+msgstr "Закладок поки немає"
+
+#: src/contents/ui/desktop/desktop.qml:232 src/contents/ui/Tabs.qml:67
+#, kde-format
+msgid "New Tab"
+msgstr "Нова вкладка"
+
+#: src/contents/ui/desktop/desktop.qml:241 src/contents/ui/History.qml:12
+#: src/contents/ui/mobile.qml:85
+#, kde-format
+msgid "History"
+msgstr "Журнал"
+
+#: src/contents/ui/desktop/desktop.qml:259 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/mobile.qml:89
+#, kde-format
+msgid "Downloads"
+msgstr "Отримання файлів"
+
+#: src/contents/ui/desktop/desktop.qml:270
+#, kde-format
+msgid "Full Screen"
+msgstr "На весь екран"
+
+#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:364
+#, kde-format
+msgid "Show developer tools"
+msgstr "Показати інструменти розробника"
+
+#: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:272
+#, kde-format
+msgid "Find in page"
+msgstr "Знайти на сторінці"
+
+#: src/contents/ui/desktop/desktop.qml:302
+#, kde-format
+msgid "Add to application launcher"
+msgstr "Додати до інструмента запуску програм"
+
+#: src/contents/ui/desktop/desktop.qml:321 src/contents/ui/mobile.qml:97
+#, kde-format
+msgid "Settings"
+msgstr "Параметри"
+
+#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:104
+#, kde-format
+msgid "Configure Angelfish"
+msgstr "Налаштувати Angelfish"
+
+#: src/contents/ui/desktop/HistoryPage.qml:28
+#, kde-format
+msgid "Search history…"
+msgstr "Шукати у журналі…"
+
+#: src/contents/ui/desktop/HistoryPage.qml:44
+#, kde-format
+msgid "Clear all history"
+msgstr "Спорожнити увесь журнал"
+
+#: src/contents/ui/desktop/HistoryPage.qml:80
+#, kde-format
+msgid "Not history yet"
+msgstr "Записів журналу ще немає"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:12
+#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#, kde-format
+msgid "General"
+msgstr "Загальне"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:18
+#, kde-format
+msgid "Show home button:"
+msgstr "Показ кнопки домівки:"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#, kde-format
+msgid "Enabled"
+msgstr "Увімкнено"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#, kde-format
+msgid "Disabled"
+msgstr "Вимкнено"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:26
+#, kde-format
+msgid "Homepage:"
+msgstr "Домашня сторінка:"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:51
+#, kde-format
+msgid "New tabs:"
+msgstr "Нові вкладки:"
+
+#: src/contents/ui/Downloads.qml:26
+#, kde-format
+msgid "No running downloads"
+msgstr "Немає сеансів отримання файлів"
+
+#: src/contents/ui/Downloads.qml:47
+#, kde-format
+msgid "Pause"
+msgstr "Призупинити"
+
+#: src/contents/ui/Downloads.qml:53
+#, kde-format
+msgid "Continue"
+msgstr "Продовжити"
+
+#: src/contents/ui/Downloads.qml:91
+#, kde-format
+msgctxt "download state"
+msgid "Starting…"
+msgstr "Починаємо…"
+
+#: src/contents/ui/Downloads.qml:93
+#, kde-format
+msgid "Completed"
+msgstr "Завершено"
+
+#: src/contents/ui/Downloads.qml:95
+#, kde-format
+msgid "Cancelled"
+msgstr "Скасовано"
+
+#: src/contents/ui/Downloads.qml:97
+#, kde-format
+msgctxt "download state"
+msgid "Interrupted"
+msgstr "Перервано"
+
+#: src/contents/ui/Downloads.qml:99
+#, kde-format
+msgctxt "download state"
+msgid "In progress"
+msgstr "Триває"
+
+#: src/contents/ui/FindInPageBar.qml:46
+#, kde-format
+msgid "Search..."
+msgstr "Шукати…"
+
+#: src/contents/ui/InputSheet.qml:47
+#, kde-format
+msgid "OK"
+msgstr "Гаразд"
+
+#: src/contents/ui/mobile.qml:18
+#, kde-format
+msgid "Angelfish Web Browser"
+msgstr "Веббраузер Angelfish"
+
+#: src/contents/ui/mobile.qml:62 src/contents/ui/Tabs.qml:63
+#, kde-format
+msgid "Tabs"
+msgstr "Вкладки"
+
+#: src/contents/ui/mobile.qml:69
+#, kde-format
+msgid "Leave private mode"
+msgstr "Вийти з конфіденційного режиму"
+
+#: src/contents/ui/mobile.qml:69
+#, kde-format
+msgid "Private mode"
+msgstr "Конфіденційний режим"
+
+#: src/contents/ui/mobile.qml:276 src/contents/ui/ShareSheet.qml:18
+#, kde-format
+msgid "Share page"
+msgstr "Оприлюднити сторінку"
+
+#: src/contents/ui/mobile.qml:287
+#, kde-format
+msgid "Add to homescreen"
+msgstr "Додати на домашню сторінку"
+
+#: src/contents/ui/mobile.qml:297
+#, kde-format
+msgid "Open in app"
+msgstr "Відкрити у програмі"
+
+#: src/contents/ui/mobile.qml:305
+#, kde-format
+msgid "Go previous"
+msgstr "Перейти до попереднього"
+
+#: src/contents/ui/mobile.qml:313
+#: src/contents/ui/SettingsNavigationBarPage.qml:109
+#, kde-format
+msgid "Go forward"
+msgstr "Перейти до наступного"
+
+#: src/contents/ui/mobile.qml:320
+#, kde-format
+msgid "Stop loading"
+msgstr "Припинити завантаження"
+
+#: src/contents/ui/mobile.qml:320
+#, kde-format
+msgid "Refresh"
+msgstr "Оновити"
+
+#: src/contents/ui/mobile.qml:330
+#, kde-format
+msgid "Bookmarked"
+msgstr "Додано до закладок"
+
+#: src/contents/ui/mobile.qml:330
+#, kde-format
+msgid "Bookmark"
+msgstr "Створити закладку"
+
+#: src/contents/ui/mobile.qml:346
+#, kde-format
+msgid "Show desktop site"
+msgstr "Показати місце стільниці"
+
+#: src/contents/ui/mobile.qml:355
+#, kde-format
+msgid "Hide navigation bar"
+msgstr "Приховати панель навігації"
+
+#: src/contents/ui/mobile.qml:355
+#, kde-format
+msgid "Show navigation bar"
+msgstr "Показати панель навігації"
+
+#: src/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgid ""
+"Site wants to open a new tab: \n"
+"%1"
+msgstr ""
+"Сайт хоче відкрити нову вкладку: \n"
+"%1"
+
+#: src/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgid "Open"
+msgstr "Відкрити"
+
+#: src/contents/ui/SettingsAdblock.qml:17
+#, kde-format
+msgid "Adblock settings"
+msgstr "Параметри блокування реклами"
+
+#: src/contents/ui/SettingsAdblock.qml:27
+#, kde-format
+msgid "Update lists"
+msgstr "Оновити списки"
+
+#: src/contents/ui/SettingsAdblock.qml:48
+#, kde-format
+msgid "The adblock functionality isn't included in this build."
+msgstr "Можливості з блокування реклами не включено до цієї збірки."
+
+#: src/contents/ui/SettingsAdblock.qml:54
+#, kde-format
+msgid "Add filterlist"
+msgstr "Додати список фільтрування"
+
+#: src/contents/ui/SettingsAdblock.qml:59
+#, kde-format
+msgid "Name"
+msgstr "Назва"
+
+#: src/contents/ui/SettingsAdblock.qml:68
+#, kde-format
+msgid "Url"
+msgstr "Адреса"
+
+#: src/contents/ui/SettingsAdblock.qml:78
+#, kde-format
+msgid "Add"
+msgstr "Додати"
+
+#: src/contents/ui/SettingsAdblock.qml:121
+#, kde-format
+msgid "Remove this filter list"
+msgstr "Вилучити цей список фільтрування"
+
+#: src/contents/ui/SettingsGeneral.qml:28
+#, kde-format
+msgid "Enable JavaScript"
+msgstr "Увімкнути JavaScript"
+
+#: src/contents/ui/SettingsGeneral.qml:42
+#, kde-format
+msgid "Load images"
+msgstr "Завантажити зображення"
+
+#: src/contents/ui/SettingsGeneral.qml:56
+#, kde-format
+msgid "Enable adblock"
+msgstr "Увімкнути блокування реклами"
+
+#: src/contents/ui/SettingsGeneral.qml:73
+#, kde-format
+msgid ""
+"When you open a link, image or media in a new tab, switch to it immediately"
+msgstr ""
+"Коли ви відкриваєте посилання, зображення або мультимедійні дані у новій "
+"вкладці, перемикатися на неї негайно"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:14
+#, kde-format
+msgid "Navigation bar"
+msgstr "Панель навігації"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:35
+#, kde-format
+msgid ""
+"Choose the buttons enabled in navigation bar. Some of the buttons can be "
+"hidden only in portrait orientation of the browser and are always shown if  "
+"the browser is wider than its height.\n"
+"\n"
+" Note that if you disable the menu buttons, you will be able to access the "
+"menus either by swiping from the left or right side or to a side along the "
+"bottom of the window."
+msgstr ""
+"Виберіть кнопки, які буде увімкнено на панелі навігації. Деякі з кнопок може "
+"бути приховано лише у книжковій орієнтації навігатора і завжди показано, "
+"якщо ширина вікна навігатора перевищує його висоту.\n"
+"\n"
+"Зауважте, що якщо ви вимкнете кнопки меню, ви зможете отримати доступ до "
+"меню або проведенням пальцем з лівого або правого краю екрана, або "
+"проведенням убік уздовж нижнього краю вікна."
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:53
+#, kde-format
+msgid "Main menu in portrait"
+msgstr "Головне меню у книжковому режимі"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:67
+#, kde-format
+msgid "Tabs in portrait"
+msgstr "Вкладки у книжковому режимі"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:81
+#, kde-format
+msgid "Context menu in portrait"
+msgstr "Контекстне меню у книжковому режимі"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:95
+#, kde-format
+msgid "Go back"
+msgstr "Назад"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:123
+#, kde-format
+msgid "Reload/Stop"
+msgstr "Перезавантажити/Зупинити"
+
+#: src/contents/ui/SettingsPage.qml:17
+#, kde-format
+msgid "Ad Block"
+msgstr "Блокування реклами"
+
+#: src/contents/ui/SettingsPage.qml:22 src/contents/ui/SettingsWebApps.qml:13
+#, kde-format
+msgid "Web Apps"
+msgstr "Вебпрограми"
+
+#: src/contents/ui/SettingsPage.qml:27
+#: src/contents/ui/SettingsSearchEnginePage.qml:13
+#: src/contents/ui/SettingsSearchEnginePage.qml:33
+#, kde-format
+msgid "Search Engine"
+msgstr "Рушій пошуку"
+
+#: src/contents/ui/SettingsPage.qml:32
+#, kde-format
+msgid "Toolbars"
+msgstr "Панелі інструментів"
+
+#: src/contents/ui/SettingsSearchEnginePage.qml:28
+#, kde-format
+msgid "Custom"
+msgstr "Нетиповий"
+
+#: src/contents/ui/SettingsSearchEnginePage.qml:34
+#, kde-format
+msgid "Base URL of your preferred search engine"
+msgstr "Базова адреса бажаного для вас рушія пошуку"
+
+#: src/contents/ui/SettingsWebApps.qml:44
+#, kde-format
+msgid "Remove app"
+msgstr "Вилучити програму"
+
+#: src/contents/ui/Tabs.qml:63
+#, kde-format
+msgid "Private Tabs"
+msgstr "Конфіденційні вкладки"
+
+#: src/main.cpp:70
+#, kde-format
+msgid "URL to open"
+msgstr "Адреса, яку слід відкрити"
+
+#~ msgid "General:"
+#~ msgstr "Загальне:"
+
+#~ msgid "Enable Adblock"
+#~ msgstr "Увімкнути блокування реклами"
+
+#~ msgid "Home"
+#~ msgstr "Домівка"
+
+#~ msgid "Adblock filter lists"
+#~ msgstr "Списки фільтрування для блокування реклами"
+
+#~ msgid "New"
+#~ msgstr "Створити"
+
+#~ msgid "Choose the buttons enabled in navigation bar. "
+#~ msgstr "Виберіть кнопки, які буде показано на панелі навігації. "
+
+#~ msgid "Website that should be loaded on startup"
+#~ msgstr "Сайт, сторінку якого слід відкривати після запуску"
+
+#~ msgid "Find..."
+#~ msgstr "Знайти…"
+
+#~ msgid "Highlight text on the current website"
+#~ msgstr "Підсвітити текст на поточному сайті"
+
+#~ msgid "Start without UI"
+#~ msgstr "Запустити без графічного інтерфейсу"
+
+#~ msgid "geo location"
+#~ msgstr "даних геопозиціювання"
+
+#~ msgid "the microphone"
+#~ msgstr "мікрофона"
+
+#~ msgid "the camera"
+#~ msgstr "камери"
+
+#~ msgid "camera and microphone"
+#~ msgstr "камери і мікрофона"
+
+#~ msgid "Ok"
+#~ msgstr "Гаразд"

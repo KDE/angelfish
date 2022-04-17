@@ -1,0 +1,715 @@
+# Translation for angelfish.po to Euskara/Basque (eu).
+# Copyright (C) 2020-2022, This file is copyright:
+# This file is distributed under the same license as the angelfish package.
+# KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>.
+#
+# Translators:
+# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2020, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: angelfish\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-02-14 00:45+0000\n"
+"PO-Revision-Date: 2022-02-21 18:47+0100\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 21.12.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Iñigo Salvador Azurmendi"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "xalba@ni.eus"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:31
+#: lib/contents/ui/WebView.qml:68
+#, kde-format
+msgid "Copy"
+msgstr "Kopiatu"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:36
+#: lib/contents/ui/WebView.qml:73
+#, kde-format
+msgid "Cut"
+msgstr "Ebaki"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:41
+#: lib/contents/ui/WebView.qml:78
+#, kde-format
+msgid "Paste"
+msgstr "Itsatsi"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:46
+#: lib/contents/ui/WebView.qml:83
+#, kde-format
+msgid "Search online for '%1'"
+msgstr "Bilatu «%1» lerroan"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:46
+#: lib/contents/ui/WebView.qml:83
+#, kde-format
+msgid "Search online"
+msgstr "Bilatu lerroan"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:51
+#: lib/contents/ui/WebView.qml:88
+#, kde-format
+msgid "Copy Url"
+msgstr "Kopiatu URLa"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:55
+#: lib/contents/ui/DownloadQuestion.qml:20 lib/contents/ui/WebView.qml:96
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:25
+#, kde-format
+msgid "Download"
+msgstr "Zama-jaitsi"
+
+#: angelfish-webapp/main.cpp:63
+#, kde-format
+msgid "desktop file to open"
+msgstr "Ireki beharreko mahaigaineko fitxategia"
+
+#: angelfish-webapp/main.cpp:90
+#, kde-format
+msgid "Angelfish Web App runtime"
+msgstr "Angelfish web aplikazioak exekutatzeko ingurunea"
+
+#: angelfish-webapp/main.cpp:92
+#, kde-format
+msgid "Copyright 2020 Angelfish developers"
+msgstr "Copyright 2020 Angelfish garatzaileak"
+
+#: angelfish-webapp/main.cpp:94
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: lib/angelfishwebprofile.cpp:58
+#, kde-format
+msgid "Download finished"
+msgstr "Zama-jaistea amaitu da"
+
+#: lib/angelfishwebprofile.cpp:62
+#, kde-format
+msgid "Download failed"
+msgstr "Zama-jaistea huts egin du"
+
+#: lib/contents/ui/AuthSheet.qml:21
+#, kde-format
+msgid "Authentication required"
+msgstr "Autentifikatzea beharrezkoa da"
+
+#: lib/contents/ui/AuthSheet.qml:30
+#, kde-format
+msgid "Username"
+msgstr "Erabiltzaile-izena"
+
+#: lib/contents/ui/AuthSheet.qml:37
+#, kde-format
+msgid "Password"
+msgstr "Pasahitza"
+
+#: lib/contents/ui/AuthSheet.qml:46 lib/contents/ui/PermissionQuestion.qml:43
+#, kde-format
+msgid "Accept"
+msgstr "Onartu"
+
+#: lib/contents/ui/AuthSheet.qml:55 lib/contents/ui/DownloadQuestion.qml:28
+#: lib/contents/ui/JavaScriptDialogSheet.qml:43
+#: lib/contents/ui/JavaScriptDialogSheet.qml:66
+#: src/contents/ui/Downloads.qml:41
+#, kde-format
+msgid "Cancel"
+msgstr "Utzi"
+
+#: lib/contents/ui/DownloadQuestion.qml:12
+#, kde-format
+msgid "Do you want to download this file?"
+msgstr "Fitxategi hau zama-jaitsi nahi duzu?"
+
+#: lib/contents/ui/ErrorHandler.qml:47
+#, kde-format
+msgid "Error loading the page"
+msgstr "Errorea orria zamatzean"
+
+#: lib/contents/ui/ErrorHandler.qml:58
+#, kde-format
+msgid "Retry"
+msgstr "Berriz saiatu"
+
+#: lib/contents/ui/ErrorHandler.qml:71
+#, kde-format
+msgid ""
+"Do you wish to continue?\n"
+"\n"
+" If you wish so, you may continue with an unverified certificate.\n"
+" Accepting an unverified certificate means\n"
+" you may not be connected with the host you tried to connect to.\n"
+" Do you wish to override the security check and continue?"
+msgstr ""
+"Jarraitu nahi duzu?\n"
+"\n"
+" Hala nahi baduzu, egiaztatu gabeko ziurtagiri batekin jarrai dezakezu.\n"
+" Egiaztatu gabeko ziurtagiri bat onartzeak esan nahi du\n"
+" agian ez zaudela konektatuta zuk konektatu nahi duzun ostalariarekin.\n"
+" Segurtasun-kontrola ezeztatu eta jarraitu nahi duzu?"
+
+#: lib/contents/ui/ErrorHandler.qml:79
+#, kde-format
+msgid "Yes"
+msgstr "Bai"
+
+#: lib/contents/ui/ErrorHandler.qml:88
+#, kde-format
+msgid "No"
+msgstr "Ez"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:21
+#, kde-format
+msgid "Close"
+msgstr "Itxi"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:35
+#, kde-format
+msgid "Confirm"
+msgstr "Berretsi"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:75
+#, kde-format
+msgid "Submit"
+msgstr "Bidali"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:89
+#, kde-format
+msgid "Leave page"
+msgstr "Utzi orria"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:129
+#, kde-format
+msgid ""
+"The website asks for confirmation that you want to leave. Unsaved "
+"information might not be saved."
+msgstr ""
+"Webguneak alde egin nahi duzun berrestea eskatzen du. Gorde gabeko "
+"informazioa agian ez da gordeko."
+
+#: lib/contents/ui/PermissionQuestion.qml:16
+#, kde-format
+msgid "Do you want to allow the website to access the geo location?"
+msgstr "Webguneari geo-kokapena atzitzen utzi nahi diozu?"
+
+#: lib/contents/ui/PermissionQuestion.qml:19
+#, kde-format
+msgid "Do you want to allow the website to access the microphone?"
+msgstr "Webguneari mikrofonoa atzitzen utzi nahi diozu?"
+
+#: lib/contents/ui/PermissionQuestion.qml:22
+#, kde-format
+msgid "Do you want to allow the website to access the camera?"
+msgstr "Webguneari kamera atzitzen utzi nahi diozu?"
+
+#: lib/contents/ui/PermissionQuestion.qml:25
+#, kde-format
+msgid ""
+"Do you want to allow the website to access the camera and the microphone?"
+msgstr "Webguneari kamera eta mikrofonoa atzitzen utzi nahi diozu?"
+
+#: lib/contents/ui/PermissionQuestion.qml:28
+#, kde-format
+msgid "Do you want to allow the website to share your screen?"
+msgstr "Webguneari zure pantaila partekatzen utzi nahi diozu?"
+
+#: lib/contents/ui/PermissionQuestion.qml:31
+#, kde-format
+msgid "Do you want to allow the website to share the sound output?"
+msgstr "Webguneari soinuaren irteerakoa partekatzen utzi nahi diozu?"
+
+#: lib/contents/ui/PermissionQuestion.qml:34
+#, kde-format
+msgid "Do you want to allow the website to send you notifications?"
+msgstr "Webguneari zure jakinarazpenak bidaltzen utzi nahi diozu?"
+
+#: lib/contents/ui/PermissionQuestion.qml:53
+#, kde-format
+msgid "Decline"
+msgstr "Uko egin"
+
+#: lib/contents/ui/WebView.qml:92
+#, kde-format
+msgid "View source"
+msgstr "Ikusi sorburua"
+
+#: lib/contents/ui/WebView.qml:101
+#, kde-format
+msgid "Open in new Tab"
+msgstr "Ireki fitxa berrian"
+
+#: lib/contents/ui/WebView.qml:234
+#, kde-format
+msgid "Website was opened in a new tab"
+msgstr "Webgunea fitxa berria ireki da"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
+#, kde-format
+msgid ""
+"The ad blocker is missing its filter lists, do you want to download them now?"
+msgstr ""
+"Iragarki eragozleak iragazki-zerrendak falta ditu, orain zama-jaitsi nahi "
+"dituzu?"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
+#, kde-format
+msgid "Downloading..."
+msgstr "Zama-jaisten..."
+
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:250
+#: src/contents/ui/mobile.qml:77
+#, kde-format
+msgid "Bookmarks"
+msgstr "Laster-markak"
+
+#: src/contents/ui/desktop/BookmarksPage.qml:28
+#, kde-format
+msgid "Search bookmarks…"
+msgstr "Bilatu laster-marketan..."
+
+#: src/contents/ui/desktop/BookmarksPage.qml:70
+#, kde-format
+msgid "No bookmarks yet"
+msgstr "Oraindik laster-markarik ez"
+
+#: src/contents/ui/desktop/desktop.qml:232 src/contents/ui/Tabs.qml:67
+#, kde-format
+msgid "New Tab"
+msgstr "Fitxa berria"
+
+#: src/contents/ui/desktop/desktop.qml:241 src/contents/ui/History.qml:12
+#: src/contents/ui/mobile.qml:85
+#, kde-format
+msgid "History"
+msgstr "Historia"
+
+#: src/contents/ui/desktop/desktop.qml:259 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/mobile.qml:89
+#, kde-format
+msgid "Downloads"
+msgstr "Zama-jaitsierak"
+
+#: src/contents/ui/desktop/desktop.qml:270
+#, kde-format
+msgid "Full Screen"
+msgstr "Pantaila-betea"
+
+#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:364
+#, kde-format
+msgid "Show developer tools"
+msgstr "Erakutsi garatzailearen tresnak"
+
+#: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:272
+#, kde-format
+msgid "Find in page"
+msgstr "Aurkitu orrian"
+
+#: src/contents/ui/desktop/desktop.qml:302
+#, kde-format
+msgid "Add to application launcher"
+msgstr "Gehitu aplikazio abiarazlean"
+
+#: src/contents/ui/desktop/desktop.qml:321 src/contents/ui/mobile.qml:97
+#, kde-format
+msgid "Settings"
+msgstr "Ezarpenak"
+
+#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:104
+#, kde-format
+msgid "Configure Angelfish"
+msgstr "Konfiguratu Angelfish"
+
+#: src/contents/ui/desktop/HistoryPage.qml:28
+#, kde-format
+msgid "Search history…"
+msgstr "Bilatu historialean..."
+
+#: src/contents/ui/desktop/HistoryPage.qml:44
+#, kde-format
+msgid "Clear all history"
+msgstr "Garbitu historia osoa"
+
+#: src/contents/ui/desktop/HistoryPage.qml:80
+#, kde-format
+msgid "Not history yet"
+msgstr "Oraindik historialik ez"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:12
+#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#, kde-format
+msgid "General"
+msgstr "Orokorra"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:18
+#, kde-format
+msgid "Show home button:"
+msgstr "Erakutsi etxeko botoia:"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#, kde-format
+msgid "Enabled"
+msgstr "Gaituta"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#, kde-format
+msgid "Disabled"
+msgstr "Ezgaituta"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:26
+#, kde-format
+msgid "Homepage:"
+msgstr "Orri nagusia:"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:51
+#, kde-format
+msgid "New tabs:"
+msgstr "Fitxa berriak:"
+
+#: src/contents/ui/Downloads.qml:26
+#, kde-format
+msgid "No running downloads"
+msgstr "Ez dago zama-jaitsierarik martxan"
+
+#: src/contents/ui/Downloads.qml:47
+#, kde-format
+msgid "Pause"
+msgstr "Etena"
+
+#: src/contents/ui/Downloads.qml:53
+#, kde-format
+msgid "Continue"
+msgstr "Jarraitu"
+
+#: src/contents/ui/Downloads.qml:91
+#, kde-format
+msgctxt "download state"
+msgid "Starting…"
+msgstr "Abiatzen..."
+
+#: src/contents/ui/Downloads.qml:93
+#, kde-format
+msgid "Completed"
+msgstr "Osatuta"
+
+#: src/contents/ui/Downloads.qml:95
+#, kde-format
+msgid "Cancelled"
+msgstr "Bertan behera utzi da"
+
+#: src/contents/ui/Downloads.qml:97
+#, kde-format
+msgctxt "download state"
+msgid "Interrupted"
+msgstr "Etenda"
+
+#: src/contents/ui/Downloads.qml:99
+#, kde-format
+msgctxt "download state"
+msgid "In progress"
+msgstr "Egiteko bidean"
+
+#: src/contents/ui/FindInPageBar.qml:46
+#, kde-format
+msgid "Search..."
+msgstr "Bilatu..."
+
+#: src/contents/ui/InputSheet.qml:47
+#, kde-format
+msgid "OK"
+msgstr "Ados"
+
+#: src/contents/ui/mobile.qml:18
+#, kde-format
+msgid "Angelfish Web Browser"
+msgstr "Angelfish web arakatzailea"
+
+#: src/contents/ui/mobile.qml:62 src/contents/ui/Tabs.qml:63
+#, kde-format
+msgid "Tabs"
+msgstr "Fitxak"
+
+#: src/contents/ui/mobile.qml:69
+#, kde-format
+msgid "Leave private mode"
+msgstr "Utzi modu pribatua"
+
+#: src/contents/ui/mobile.qml:69
+#, kde-format
+msgid "Private mode"
+msgstr "Modu pribatua"
+
+#: src/contents/ui/mobile.qml:276 src/contents/ui/ShareSheet.qml:18
+#, kde-format
+msgid "Share page"
+msgstr "Partekatu orria"
+
+#: src/contents/ui/mobile.qml:287
+#, kde-format
+msgid "Add to homescreen"
+msgstr "Gehitu pantaila nagusira"
+
+#: src/contents/ui/mobile.qml:297
+#, kde-format
+msgid "Open in app"
+msgstr "Ireki aplikazioan"
+
+#: src/contents/ui/mobile.qml:305
+#, kde-format
+msgid "Go previous"
+msgstr "Joan aurrekora"
+
+#: src/contents/ui/mobile.qml:313
+#: src/contents/ui/SettingsNavigationBarPage.qml:109
+#, kde-format
+msgid "Go forward"
+msgstr "Joan aurrera"
+
+#: src/contents/ui/mobile.qml:320
+#, kde-format
+msgid "Stop loading"
+msgstr "Gelditu zamatzea"
+
+#: src/contents/ui/mobile.qml:320
+#, kde-format
+msgid "Refresh"
+msgstr "Freskatu"
+
+#: src/contents/ui/mobile.qml:330
+#, kde-format
+msgid "Bookmarked"
+msgstr "Laster-marketan dago"
+
+#: src/contents/ui/mobile.qml:330
+#, kde-format
+msgid "Bookmark"
+msgstr "Laster-marka"
+
+#: src/contents/ui/mobile.qml:346
+#, kde-format
+msgid "Show desktop site"
+msgstr "Erakutsi mahaigaineko lekua"
+
+#: src/contents/ui/mobile.qml:355
+#, kde-format
+msgid "Hide navigation bar"
+msgstr "Ezkutatu nabigatzeko barra"
+
+#: src/contents/ui/mobile.qml:355
+#, kde-format
+msgid "Show navigation bar"
+msgstr "Erakutsi nabigatzeko barra"
+
+#: src/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgid ""
+"Site wants to open a new tab: \n"
+"%1"
+msgstr ""
+"Lekuak fitxa berri bat ireki nahi du:\n"
+"%1"
+
+#: src/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgid "Open"
+msgstr "Ireki"
+
+#: src/contents/ui/SettingsAdblock.qml:17
+#, kde-format
+msgid "Adblock settings"
+msgstr "Iragarkiak eragozteko ezarpenak"
+
+#: src/contents/ui/SettingsAdblock.qml:27
+#, kde-format
+msgid "Update lists"
+msgstr "Eguneratu zerrendak"
+
+#: src/contents/ui/SettingsAdblock.qml:48
+#, kde-format
+msgid "The adblock functionality isn't included in this build."
+msgstr ""
+"Iragarkiak eragozteko funtzionalitatea ez dago eraikin honetan barneratuta."
+
+#: src/contents/ui/SettingsAdblock.qml:54
+#, kde-format
+msgid "Add filterlist"
+msgstr "Gehitu iragazki-zerrenda"
+
+#: src/contents/ui/SettingsAdblock.qml:59
+#, kde-format
+msgid "Name"
+msgstr "Izena"
+
+#: src/contents/ui/SettingsAdblock.qml:68
+#, kde-format
+msgid "Url"
+msgstr "URLa"
+
+#: src/contents/ui/SettingsAdblock.qml:78
+#, kde-format
+msgid "Add"
+msgstr "Gehitu"
+
+#: src/contents/ui/SettingsAdblock.qml:121
+#, kde-format
+msgid "Remove this filter list"
+msgstr "Kendu iragazki-zerrenda hau"
+
+#: src/contents/ui/SettingsGeneral.qml:28
+#, kde-format
+msgid "Enable JavaScript"
+msgstr "Gaitu JavaScript"
+
+#: src/contents/ui/SettingsGeneral.qml:42
+#, kde-format
+msgid "Load images"
+msgstr "Zamatu irudiak"
+
+#: src/contents/ui/SettingsGeneral.qml:56
+#, kde-format
+msgid "Enable adblock"
+msgstr "Gaitu iragarkiak eragoztea"
+
+#: src/contents/ui/SettingsGeneral.qml:73
+#, kde-format
+msgid ""
+"When you open a link, image or media in a new tab, switch to it immediately"
+msgstr ""
+"Esteka bat, irudi bat edo multimedia fitxa berri batean irekitzen duzunean, "
+"berehala hartara aldatu"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:14
+#, kde-format
+msgid "Navigation bar"
+msgstr "Nabigatzeko barra"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:35
+#, kde-format
+msgid ""
+"Choose the buttons enabled in navigation bar. Some of the buttons can be "
+"hidden only in portrait orientation of the browser and are always shown if  "
+"the browser is wider than its height.\n"
+"\n"
+" Note that if you disable the menu buttons, you will be able to access the "
+"menus either by swiping from the left or right side or to a side along the "
+"bottom of the window."
+msgstr ""
+"Aukeratu nabigatze-barran gaitutako botoiak. Botoietako batzuk "
+"arakatzailearen erretratu orientazioan baino ezin dira ezkutatu eta ikusgai "
+"egongo dira, beti, arakatzailea luze baino zabalagoa denean.\n"
+"\n"
+" Kontuan izan menuko botoiak ezgaitzen badituzu, menuetara sartzeko aukera "
+"izango duzula ezker edo eskuin alboetan hatz-kolpe arin bat eginez edo leiho "
+"beheko aldetik albo batera irristatuz."
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:53
+#, kde-format
+msgid "Main menu in portrait"
+msgstr "Menu nagusia erretratu itxuran"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:67
+#, kde-format
+msgid "Tabs in portrait"
+msgstr "Fitxak erretratu itxuran"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:81
+#, kde-format
+msgid "Context menu in portrait"
+msgstr "Testuinguru menua erretratu itxuran"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:95
+#, kde-format
+msgid "Go back"
+msgstr "Joan atzera"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:123
+#, kde-format
+msgid "Reload/Stop"
+msgstr "Birzamatu/Gelditu"
+
+#: src/contents/ui/SettingsPage.qml:17
+#, kde-format
+msgid "Ad Block"
+msgstr "Iragarkiak eragoztea"
+
+#: src/contents/ui/SettingsPage.qml:22 src/contents/ui/SettingsWebApps.qml:13
+#, kde-format
+msgid "Web Apps"
+msgstr "Web aplikazioak"
+
+#: src/contents/ui/SettingsPage.qml:27
+#: src/contents/ui/SettingsSearchEnginePage.qml:13
+#: src/contents/ui/SettingsSearchEnginePage.qml:33
+#, kde-format
+msgid "Search Engine"
+msgstr "Bilaketa motorra"
+
+#: src/contents/ui/SettingsPage.qml:32
+#, kde-format
+msgid "Toolbars"
+msgstr "Tresna-barrak"
+
+#: src/contents/ui/SettingsSearchEnginePage.qml:28
+#, kde-format
+msgid "Custom"
+msgstr "Norberak finkatua"
+
+#: src/contents/ui/SettingsSearchEnginePage.qml:34
+#, kde-format
+msgid "Base URL of your preferred search engine"
+msgstr "Zure gogoko bilaketa motorraren oinarri URLa"
+
+#: src/contents/ui/SettingsWebApps.qml:44
+#, kde-format
+msgid "Remove app"
+msgstr "Kendu aplikazioa"
+
+#: src/contents/ui/Tabs.qml:63
+#, kde-format
+msgid "Private Tabs"
+msgstr "Fitxa pribatuak"
+
+#: src/main.cpp:70
+#, kde-format
+msgid "URL to open"
+msgstr "Ireki beharreko URLa"
+
+#~ msgid "Enable Adblock"
+#~ msgstr "Gaitu iragarkiak blokeatzea"
+
+#, fuzzy
+#~| msgid "Homepage"
+#~ msgid "Home"
+#~ msgstr "Orri nagusia"
+
+#~ msgid "Adblock filter lists"
+#~ msgstr "Iragarkiak blokeatzeko iragazki-zerrendak"
+
+#~ msgid "New"
+#~ msgstr "Berria"
+
+#~ msgid "Choose the buttons enabled in navigation bar. "
+#~ msgstr "Hautatu nabigatzeko barran gaitutako botoiak."
+
+#~ msgid "Website that should be loaded on startup"
+#~ msgstr "Abioan zamatu beharreko webgunea"
+
+#~ msgid "Find..."
+#~ msgstr "Aurkitu..."
+
+#~ msgid "Highlight text on the current website"
+#~ msgstr "Nabarmendu testua uneko webgunean"

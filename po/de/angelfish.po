@@ -1,0 +1,710 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-angelfish package.
+# Burkhard Lück <lueck@hube-lueck.de>, 2019, 2021.
+# Frederik Schwarzer <schwarzer@kde.org>, 2020, 2021, 2022.
+# Alois Spitzbart <spitz234@hotmail.com>, 2020, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-angelfish\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-02-14 00:45+0000\n"
+"PO-Revision-Date: 2022-02-20 09:55+0100\n"
+"Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
+"Language-Team: German <kde-i18n-doc@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 21.08.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Deutsches KDE-Übersetzerteam"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-i18n-de@kde.org"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:31
+#: lib/contents/ui/WebView.qml:68
+#, kde-format
+msgid "Copy"
+msgstr "Kopieren"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:36
+#: lib/contents/ui/WebView.qml:73
+#, kde-format
+msgid "Cut"
+msgstr "Ausschneiden"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:41
+#: lib/contents/ui/WebView.qml:78
+#, kde-format
+msgid "Paste"
+msgstr "Einfügen"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:46
+#: lib/contents/ui/WebView.qml:83
+#, kde-format
+msgid "Search online for '%1'"
+msgstr "Online nach „%1“ suchen"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:46
+#: lib/contents/ui/WebView.qml:83
+#, kde-format
+msgid "Search online"
+msgstr "Online suchen"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:51
+#: lib/contents/ui/WebView.qml:88
+#, kde-format
+msgid "Copy Url"
+msgstr "Adresse (URL) kopieren"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:55
+#: lib/contents/ui/DownloadQuestion.qml:20 lib/contents/ui/WebView.qml:96
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:25
+#, kde-format
+msgid "Download"
+msgstr "Herunterladen"
+
+#: angelfish-webapp/main.cpp:63
+#, kde-format
+msgid "desktop file to open"
+msgstr "Zu öffnende Desktop-Datei"
+
+#: angelfish-webapp/main.cpp:90
+#, kde-format
+msgid "Angelfish Web App runtime"
+msgstr "Angelfish Web App-Laufzeit-Laufzeitumgebung"
+
+#: angelfish-webapp/main.cpp:92
+#, kde-format
+msgid "Copyright 2020 Angelfish developers"
+msgstr "Copyright 2020 Angelfish-Entwickler"
+
+#: angelfish-webapp/main.cpp:94
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: lib/angelfishwebprofile.cpp:58
+#, kde-format
+msgid "Download finished"
+msgstr "Herunterladen abgeschlossen"
+
+#: lib/angelfishwebprofile.cpp:62
+#, kde-format
+msgid "Download failed"
+msgstr "Herunterladen fehlgeschlagen"
+
+#: lib/contents/ui/AuthSheet.qml:21
+#, kde-format
+msgid "Authentication required"
+msgstr "Authentifizierung erforderlich"
+
+#: lib/contents/ui/AuthSheet.qml:30
+#, kde-format
+msgid "Username"
+msgstr "Benutzername"
+
+#: lib/contents/ui/AuthSheet.qml:37
+#, kde-format
+msgid "Password"
+msgstr "Passwort"
+
+#: lib/contents/ui/AuthSheet.qml:46 lib/contents/ui/PermissionQuestion.qml:43
+#, kde-format
+msgid "Accept"
+msgstr "Annehmen"
+
+#: lib/contents/ui/AuthSheet.qml:55 lib/contents/ui/DownloadQuestion.qml:28
+#: lib/contents/ui/JavaScriptDialogSheet.qml:43
+#: lib/contents/ui/JavaScriptDialogSheet.qml:66
+#: src/contents/ui/Downloads.qml:41
+#, kde-format
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: lib/contents/ui/DownloadQuestion.qml:12
+#, kde-format
+msgid "Do you want to download this file?"
+msgstr "Möchten Sie diese Datei herunterladen?"
+
+#: lib/contents/ui/ErrorHandler.qml:47
+#, kde-format
+msgid "Error loading the page"
+msgstr "Fehler beim Laden der Seite"
+
+#: lib/contents/ui/ErrorHandler.qml:58
+#, kde-format
+msgid "Retry"
+msgstr "Erneut versuchen"
+
+#: lib/contents/ui/ErrorHandler.qml:71
+#, kde-format
+msgid ""
+"Do you wish to continue?\n"
+"\n"
+" If you wish so, you may continue with an unverified certificate.\n"
+" Accepting an unverified certificate means\n"
+" you may not be connected with the host you tried to connect to.\n"
+" Do you wish to override the security check and continue?"
+msgstr ""
+
+#: lib/contents/ui/ErrorHandler.qml:79
+#, kde-format
+msgid "Yes"
+msgstr "Ja"
+
+#: lib/contents/ui/ErrorHandler.qml:88
+#, kde-format
+msgid "No"
+msgstr "Nein"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:21
+#, kde-format
+msgid "Close"
+msgstr "Schließen"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:35
+#, kde-format
+msgid "Confirm"
+msgstr "Bestätigen"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:75
+#, kde-format
+msgid "Submit"
+msgstr "Absenden"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:89
+#, kde-format
+msgid "Leave page"
+msgstr "Seite verlassen"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:129
+#, kde-format
+msgid ""
+"The website asks for confirmation that you want to leave. Unsaved "
+"information might not be saved."
+msgstr ""
+"Die Webseite bittet um Bestätigung, dass Sie sie verlassen möchten.  Nicht "
+"gespeicherte Informationen werden möglicherweise nicht gespeichert."
+
+#: lib/contents/ui/PermissionQuestion.qml:16
+#, kde-format
+msgid "Do you want to allow the website to access the geo location?"
+msgstr "Möchten Sie der Webseite den Zugriff auf den Standort erlauben?"
+
+#: lib/contents/ui/PermissionQuestion.qml:19
+#, kde-format
+msgid "Do you want to allow the website to access the microphone?"
+msgstr "Möchten Sie der Webseite den Zugriff auf das Mikrofon erlauben?"
+
+#: lib/contents/ui/PermissionQuestion.qml:22
+#, kde-format
+msgid "Do you want to allow the website to access the camera?"
+msgstr "Möchten Sie der Webseite den Zugriff auf die Kamera erlauben?"
+
+#: lib/contents/ui/PermissionQuestion.qml:25
+#, kde-format
+msgid ""
+"Do you want to allow the website to access the camera and the microphone?"
+msgstr ""
+"Möchten Sie der Webseite den Zugriff auf die Kamera und das Mikrofon "
+"erlauben?"
+
+#: lib/contents/ui/PermissionQuestion.qml:28
+#, kde-format
+msgid "Do you want to allow the website to share your screen?"
+msgstr "Möchten Sie der Webseite das Teilen des Bildschirms erlauben?"
+
+#: lib/contents/ui/PermissionQuestion.qml:31
+#, kde-format
+msgid "Do you want to allow the website to share the sound output?"
+msgstr "Möchten Sie der Webseite das Teilen der Tonausgabe erlauben?"
+
+#: lib/contents/ui/PermissionQuestion.qml:34
+#, kde-format
+msgid "Do you want to allow the website to send you notifications?"
+msgstr "Möchten Sie der Webseite das Senden von Benachrichtigungen erlauben?"
+
+#: lib/contents/ui/PermissionQuestion.qml:53
+#, kde-format
+msgid "Decline"
+msgstr "Ablehnen"
+
+#: lib/contents/ui/WebView.qml:92
+#, kde-format
+msgid "View source"
+msgstr "Quelltext anzeigen"
+
+#: lib/contents/ui/WebView.qml:101
+#, kde-format
+msgid "Open in new Tab"
+msgstr "In neuem Unterfenster öffnen"
+
+#: lib/contents/ui/WebView.qml:234
+#, kde-format
+msgid "Website was opened in a new tab"
+msgstr "Webseite wurde in neuem Unterfenster geöffnet"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
+#, kde-format
+msgid ""
+"The ad blocker is missing its filter lists, do you want to download them now?"
+msgstr ""
+"Die Filterlisten des Werbefilters fehlen. Möchten Sie sie jetzt "
+"herunterladen?"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
+#, kde-format
+msgid "Downloading..."
+msgstr "Herunterladen ..."
+
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:250
+#: src/contents/ui/mobile.qml:77
+#, kde-format
+msgid "Bookmarks"
+msgstr "Lesezeichen"
+
+#: src/contents/ui/desktop/BookmarksPage.qml:28
+#, kde-format
+msgid "Search bookmarks…"
+msgstr "In Lesezeichen suchen ..."
+
+#: src/contents/ui/desktop/BookmarksPage.qml:70
+#, kde-format
+msgid "No bookmarks yet"
+msgstr "Keine Lesezeichen vorhanden"
+
+#: src/contents/ui/desktop/desktop.qml:232 src/contents/ui/Tabs.qml:67
+#, kde-format
+msgid "New Tab"
+msgstr "Neues Unterfenster"
+
+#: src/contents/ui/desktop/desktop.qml:241 src/contents/ui/History.qml:12
+#: src/contents/ui/mobile.qml:85
+#, kde-format
+msgid "History"
+msgstr "Verlauf"
+
+#: src/contents/ui/desktop/desktop.qml:259 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/mobile.qml:89
+#, kde-format
+msgid "Downloads"
+msgstr "Downloads"
+
+#: src/contents/ui/desktop/desktop.qml:270
+#, kde-format
+msgid "Full Screen"
+msgstr "Vollbild"
+
+#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:364
+#, kde-format
+msgid "Show developer tools"
+msgstr "Entwicklungswerkzeuge anzeigen"
+
+#: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:272
+#, kde-format
+msgid "Find in page"
+msgstr "In Seite suchen"
+
+#: src/contents/ui/desktop/desktop.qml:302
+#, kde-format
+msgid "Add to application launcher"
+msgstr "Zu Anwendungsstarter hinzufügen"
+
+#: src/contents/ui/desktop/desktop.qml:321 src/contents/ui/mobile.qml:97
+#, kde-format
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:104
+#, kde-format
+msgid "Configure Angelfish"
+msgstr "Angelfish einrichten"
+
+#: src/contents/ui/desktop/HistoryPage.qml:28
+#, kde-format
+msgid "Search history…"
+msgstr "Im Verlauf suchen …"
+
+#: src/contents/ui/desktop/HistoryPage.qml:44
+#, kde-format
+msgid "Clear all history"
+msgstr "Gesamten Verlauf leeren"
+
+#: src/contents/ui/desktop/HistoryPage.qml:80
+#, kde-format
+msgid "Not history yet"
+msgstr "Nein Verlauf vorhanden"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:12
+#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#, kde-format
+msgid "General"
+msgstr "Allgemein"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:18
+#, kde-format
+msgid "Show home button:"
+msgstr ""
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#, kde-format
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#, kde-format
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:26
+#, kde-format
+msgid "Homepage:"
+msgstr "Internetseite:"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:51
+#, kde-format
+msgid "New tabs:"
+msgstr "Neue Unterfenster:"
+
+#: src/contents/ui/Downloads.qml:26
+#, kde-format
+msgid "No running downloads"
+msgstr "Keine aktive Downloads"
+
+#: src/contents/ui/Downloads.qml:47
+#, kde-format
+msgid "Pause"
+msgstr "Pause"
+
+#: src/contents/ui/Downloads.qml:53
+#, kde-format
+msgid "Continue"
+msgstr "Fortsetzen"
+
+#: src/contents/ui/Downloads.qml:91
+#, kde-format
+msgctxt "download state"
+msgid "Starting…"
+msgstr "Starten ..."
+
+#: src/contents/ui/Downloads.qml:93
+#, kde-format
+msgid "Completed"
+msgstr "Abgeschlossen"
+
+#: src/contents/ui/Downloads.qml:95
+#, kde-format
+msgid "Cancelled"
+msgstr "Abgebrochen"
+
+#: src/contents/ui/Downloads.qml:97
+#, kde-format
+msgctxt "download state"
+msgid "Interrupted"
+msgstr "Unterbrochen"
+
+#: src/contents/ui/Downloads.qml:99
+#, kde-format
+msgctxt "download state"
+msgid "In progress"
+msgstr "In Bearbeitung"
+
+#: src/contents/ui/FindInPageBar.qml:46
+#, kde-format
+msgid "Search..."
+msgstr "Suchen ..."
+
+#: src/contents/ui/InputSheet.qml:47
+#, kde-format
+msgid "OK"
+msgstr "OK"
+
+#: src/contents/ui/mobile.qml:18
+#, kde-format
+msgid "Angelfish Web Browser"
+msgstr "Angelfish-Webbrowser"
+
+#: src/contents/ui/mobile.qml:62 src/contents/ui/Tabs.qml:63
+#, kde-format
+msgid "Tabs"
+msgstr "Unterfenster"
+
+#: src/contents/ui/mobile.qml:69
+#, kde-format
+msgid "Leave private mode"
+msgstr "Privaten Modus verlassen"
+
+#: src/contents/ui/mobile.qml:69
+#, kde-format
+msgid "Private mode"
+msgstr "Privater Modus"
+
+#: src/contents/ui/mobile.qml:276 src/contents/ui/ShareSheet.qml:18
+#, kde-format
+msgid "Share page"
+msgstr "Seite teilen"
+
+#: src/contents/ui/mobile.qml:287
+#, kde-format
+msgid "Add to homescreen"
+msgstr "Zu Startbildschirm hinzufügen"
+
+#: src/contents/ui/mobile.qml:297
+#, kde-format
+msgid "Open in app"
+msgstr "In Anwendung öffnen"
+
+#: src/contents/ui/mobile.qml:305
+#, kde-format
+msgid "Go previous"
+msgstr "Zurück"
+
+#: src/contents/ui/mobile.qml:313
+#: src/contents/ui/SettingsNavigationBarPage.qml:109
+#, kde-format
+msgid "Go forward"
+msgstr "Vorwärts"
+
+#: src/contents/ui/mobile.qml:320
+#, kde-format
+msgid "Stop loading"
+msgstr "Ladevorgang abbrechen"
+
+#: src/contents/ui/mobile.qml:320
+#, kde-format
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+#: src/contents/ui/mobile.qml:330
+#, kde-format
+msgid "Bookmarked"
+msgstr "Lesezeichen angelegt"
+
+#: src/contents/ui/mobile.qml:330
+#, kde-format
+msgid "Bookmark"
+msgstr "Lesezeichen"
+
+#: src/contents/ui/mobile.qml:346
+#, kde-format
+msgid "Show desktop site"
+msgstr "Desktop-Seite anzeigen"
+
+#: src/contents/ui/mobile.qml:355
+#, kde-format
+msgid "Hide navigation bar"
+msgstr "Navigationsleiste ausblenden"
+
+#: src/contents/ui/mobile.qml:355
+#, kde-format
+msgid "Show navigation bar"
+msgstr "Navigationsleiste anzeigen"
+
+#: src/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgid ""
+"Site wants to open a new tab: \n"
+"%1"
+msgstr ""
+"Seite möchte ein neues Unterfenster öffnen: \n"
+"%1"
+
+#: src/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgid "Open"
+msgstr "Öffnen"
+
+#: src/contents/ui/SettingsAdblock.qml:17
+#, kde-format
+msgid "Adblock settings"
+msgstr "Werbefilter-Einstellungen"
+
+#: src/contents/ui/SettingsAdblock.qml:27
+#, kde-format
+msgid "Update lists"
+msgstr "Liste aktualisieren"
+
+#: src/contents/ui/SettingsAdblock.qml:48
+#, kde-format
+msgid "The adblock functionality isn't included in this build."
+msgstr "Die Werbefilter-Funktionalität ist in diesem Build nicht enthalten"
+
+#: src/contents/ui/SettingsAdblock.qml:54
+#, kde-format
+msgid "Add filterlist"
+msgstr "Filterliste hinzufügen"
+
+#: src/contents/ui/SettingsAdblock.qml:59
+#, kde-format
+msgid "Name"
+msgstr "Name"
+
+#: src/contents/ui/SettingsAdblock.qml:68
+#, kde-format
+msgid "Url"
+msgstr "Adresse"
+
+#: src/contents/ui/SettingsAdblock.qml:78
+#, kde-format
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: src/contents/ui/SettingsAdblock.qml:121
+#, kde-format
+msgid "Remove this filter list"
+msgstr "Diese Filterliste entfernen"
+
+#: src/contents/ui/SettingsGeneral.qml:28
+#, kde-format
+msgid "Enable JavaScript"
+msgstr "JavaScript aktivieren"
+
+#: src/contents/ui/SettingsGeneral.qml:42
+#, kde-format
+msgid "Load images"
+msgstr "Bilder laden"
+
+#: src/contents/ui/SettingsGeneral.qml:56
+#, kde-format
+msgid "Enable adblock"
+msgstr "Werbefilter aktivieren"
+
+#: src/contents/ui/SettingsGeneral.qml:73
+#, kde-format
+msgid ""
+"When you open a link, image or media in a new tab, switch to it immediately"
+msgstr ""
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:14
+#, kde-format
+msgid "Navigation bar"
+msgstr "Navigationsleiste"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:35
+#, kde-format
+msgid ""
+"Choose the buttons enabled in navigation bar. Some of the buttons can be "
+"hidden only in portrait orientation of the browser and are always shown if  "
+"the browser is wider than its height.\n"
+"\n"
+" Note that if you disable the menu buttons, you will be able to access the "
+"menus either by swiping from the left or right side or to a side along the "
+"bottom of the window."
+msgstr ""
+"Wählen Sie die in der Navigationsleiste aktivierten Knöpfe. Einige der "
+"Knöpfe können nur im Hochformat des Browsers ausgeblendet werden und werden "
+"immer angezeigt, wenn  der Browserfenster breiter ist als hoch ist.\n"
+"\n"
+"Wenn Sie die Menüknöpfe deaktivieren, erhalten Sie wieder Zugriff auf die "
+"Menüs, entweder durch Streichen von der linken oder rechten Seite oder auf "
+"eine Seite entlang des unteren Rand des Fensters."
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:53
+#, kde-format
+msgid "Main menu in portrait"
+msgstr "Hauptmenü im Hochformat"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:67
+#, kde-format
+msgid "Tabs in portrait"
+msgstr "Unterfenster im Hochformat"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:81
+#, kde-format
+msgid "Context menu in portrait"
+msgstr "Kontextmenü im Hochformat"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:95
+#, kde-format
+msgid "Go back"
+msgstr "Zurück"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:123
+#, kde-format
+msgid "Reload/Stop"
+msgstr "Neu laden/Stoppen"
+
+#: src/contents/ui/SettingsPage.qml:17
+#, kde-format
+msgid "Ad Block"
+msgstr "Werbefilter"
+
+#: src/contents/ui/SettingsPage.qml:22 src/contents/ui/SettingsWebApps.qml:13
+#, kde-format
+msgid "Web Apps"
+msgstr "Web-Apps"
+
+#: src/contents/ui/SettingsPage.qml:27
+#: src/contents/ui/SettingsSearchEnginePage.qml:13
+#: src/contents/ui/SettingsSearchEnginePage.qml:33
+#, kde-format
+msgid "Search Engine"
+msgstr "Suchmaschine"
+
+#: src/contents/ui/SettingsPage.qml:32
+#, kde-format
+msgid "Toolbars"
+msgstr "Werkzeugleisten"
+
+#: src/contents/ui/SettingsSearchEnginePage.qml:28
+#, kde-format
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+#: src/contents/ui/SettingsSearchEnginePage.qml:34
+#, kde-format
+msgid "Base URL of your preferred search engine"
+msgstr "Adresse der bevorzugten Suchmaschine"
+
+#: src/contents/ui/SettingsWebApps.qml:44
+#, kde-format
+msgid "Remove app"
+msgstr "App entfernen"
+
+#: src/contents/ui/Tabs.qml:63
+#, kde-format
+msgid "Private Tabs"
+msgstr "Private Unterfenster"
+
+#: src/main.cpp:70
+#, kde-format
+msgid "URL to open"
+msgstr "Aufzurufende Adresse"
+
+#~ msgid "Enable Adblock"
+#~ msgstr "Werbefilter aktivieren"
+
+#, fuzzy
+#~| msgid "Homepage"
+#~ msgid "Home"
+#~ msgstr "Startseite"
+
+#~ msgid "Adblock filter lists"
+#~ msgstr "Werbefilter-Liste"
+
+#~ msgid "New"
+#~ msgstr "Neu"
+
+#~ msgid "Choose the buttons enabled in navigation bar. "
+#~ msgstr "Wählen Sie die in der Navigationsleiste aktivierten Schaltflächen."
+
+#~ msgid "Website that should be loaded on startup"
+#~ msgstr "Webseite, die beim Start geladen wird"
+
+#~ msgid "Find..."
+#~ msgstr "Suchen ..."
+
+#~ msgid "Highlight text on the current website"
+#~ msgstr "Text auf der aktuellen Webseite hervorheben"
+
+#~ msgid "Start without UI"
+#~ msgstr "Start ohne grafische Oberfläche"

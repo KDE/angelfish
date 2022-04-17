@@ -1,0 +1,734 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-angelfish package.
+#
+# Stelios <sstavra@gmail.com>, 2019, 2020, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-angelfish\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-02-14 00:45+0000\n"
+"PO-Revision-Date: 2021-09-19 08:34+0300\n"
+"Last-Translator: Stelios <sstavra@gmail.com>\n"
+"Language-Team: Greek <kde-i18n-el@kde.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 20.04.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Stelios"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sstavra@gmail.com"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:31
+#: lib/contents/ui/WebView.qml:68
+#, kde-format
+msgid "Copy"
+msgstr "Αντιγραφή"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:36
+#: lib/contents/ui/WebView.qml:73
+#, kde-format
+msgid "Cut"
+msgstr "Αποκοπή"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:41
+#: lib/contents/ui/WebView.qml:78
+#, kde-format
+msgid "Paste"
+msgstr "Επικόλληση"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:46
+#: lib/contents/ui/WebView.qml:83
+#, kde-format
+msgid "Search online for '%1'"
+msgstr "Αναζήτηση σε σύνδεση για το '%1'"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:46
+#: lib/contents/ui/WebView.qml:83
+#, kde-format
+msgid "Search online"
+msgstr "Αναζήτηση σε σύνδεση"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:51
+#: lib/contents/ui/WebView.qml:88
+#, kde-format
+msgid "Copy Url"
+msgstr "Αντιγραφή Url"
+
+#: angelfish-webapp/contents/ui/WebAppView.qml:55
+#: lib/contents/ui/DownloadQuestion.qml:20 lib/contents/ui/WebView.qml:96
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:25
+#, kde-format
+msgid "Download"
+msgstr "Λήψη"
+
+#: angelfish-webapp/main.cpp:63
+#, kde-format
+msgid "desktop file to open"
+msgstr "αρχείο επιφάνειας εργασίας για άνοιγμα"
+
+#: angelfish-webapp/main.cpp:90
+#, kde-format
+msgid "Angelfish Web App runtime"
+msgstr "Εκτέλεση εφαρμογής ιστού Angelfish"
+
+#: angelfish-webapp/main.cpp:92
+#, kde-format
+msgid "Copyright 2020 Angelfish developers"
+msgstr "Copyright 2020 οι προγραμματιστές του Angelfish"
+
+#: angelfish-webapp/main.cpp:94
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: lib/angelfishwebprofile.cpp:58
+#, kde-format
+msgid "Download finished"
+msgstr "Η λήψη ολοκληρώθηκε"
+
+#: lib/angelfishwebprofile.cpp:62
+#, kde-format
+msgid "Download failed"
+msgstr "Αποτυχία λήψης"
+
+#: lib/contents/ui/AuthSheet.qml:21
+#, kde-format
+msgid "Authentication required"
+msgstr "Απαιτείται ταυτοποίηση"
+
+#: lib/contents/ui/AuthSheet.qml:30
+#, kde-format
+msgid "Username"
+msgstr "Όνομα χρήστη"
+
+#: lib/contents/ui/AuthSheet.qml:37
+#, kde-format
+msgid "Password"
+msgstr "Κωδικός πρόσβασης"
+
+#: lib/contents/ui/AuthSheet.qml:46 lib/contents/ui/PermissionQuestion.qml:43
+#, kde-format
+msgid "Accept"
+msgstr "Αποδοχή"
+
+#: lib/contents/ui/AuthSheet.qml:55 lib/contents/ui/DownloadQuestion.qml:28
+#: lib/contents/ui/JavaScriptDialogSheet.qml:43
+#: lib/contents/ui/JavaScriptDialogSheet.qml:66
+#: src/contents/ui/Downloads.qml:41
+#, kde-format
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: lib/contents/ui/DownloadQuestion.qml:12
+#, kde-format
+msgid "Do you want to download this file?"
+msgstr "Θέλετε να κάνετε λήψη αυτού του αρχείου;"
+
+#: lib/contents/ui/ErrorHandler.qml:47
+#, kde-format
+msgid "Error loading the page"
+msgstr "Σφάλμα στη φόρτωση της σελίδας"
+
+#: lib/contents/ui/ErrorHandler.qml:58
+#, kde-format
+msgid "Retry"
+msgstr "Νέα προσπάθεια"
+
+#: lib/contents/ui/ErrorHandler.qml:71
+#, kde-format
+msgid ""
+"Do you wish to continue?\n"
+"\n"
+" If you wish so, you may continue with an unverified certificate.\n"
+" Accepting an unverified certificate means\n"
+" you may not be connected with the host you tried to connect to.\n"
+" Do you wish to override the security check and continue?"
+msgstr ""
+"Θέλετε να συνεχίσετε;\n"
+"\n"
+" Αν ναι, μπορείτε να συνεχίσετε με ένα μη επιβεβαιωμένο πιστοποιητικό.\n"
+" Η αποδοχή ενός μη επιβεβαιωμένου πιστοποιητικού σημαίνει\n"
+" ίσως να μη μπορείτε να συνδεθείτε με τον υπολογιστή που θέλετε.\n"
+" Θέλετε να παρακάμψετε τον έλεγχο ασφαλείας και να συνεχίσετε;"
+
+#: lib/contents/ui/ErrorHandler.qml:79
+#, kde-format
+msgid "Yes"
+msgstr "Ναι"
+
+#: lib/contents/ui/ErrorHandler.qml:88
+#, kde-format
+msgid "No"
+msgstr "Όχι"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:21
+#, kde-format
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:35
+#, kde-format
+msgid "Confirm"
+msgstr "Επιβεβαίωση"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:75
+#, kde-format
+msgid "Submit"
+msgstr "Υποβολή"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:89
+#, kde-format
+msgid "Leave page"
+msgstr "Αποχώρηση από σελίδα"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:129
+#, kde-format
+msgid ""
+"The website asks for confirmation that you want to leave. Unsaved "
+"information might not be saved."
+msgstr ""
+"Ο ιστότοπος ζητάει να επιβεβαιώσετε ότι θέλετε να φύγετε. Ίσως να μην "
+"αποθηκευθεί η μη αποθηκευμένη πληροφορία."
+
+#: lib/contents/ui/PermissionQuestion.qml:16
+#, kde-format
+msgid "Do you want to allow the website to access the geo location?"
+msgstr ""
+"Θέλετε να επιτρέψετε στον ιστότοπο να έχει πρόσβαση στη γεωγραφική θέση;"
+
+#: lib/contents/ui/PermissionQuestion.qml:19
+#, kde-format
+msgid "Do you want to allow the website to access the microphone?"
+msgstr "Θέλετε να επιτρέψετε στον ιστότοπο να έχει πρόσβαση στο μικρόφωνο;"
+
+#: lib/contents/ui/PermissionQuestion.qml:22
+#, kde-format
+msgid "Do you want to allow the website to access the camera?"
+msgstr "Θέλετε να επιτρέψετε στον ιστότοπο να έχει πρόσβαση στην κάμερα;"
+
+#: lib/contents/ui/PermissionQuestion.qml:25
+#, kde-format
+msgid ""
+"Do you want to allow the website to access the camera and the microphone?"
+msgstr ""
+"Θέλετε να επιτρέψετε στον ιστότοπο να έχει πρόσβαση στην κάμερα και στο "
+"μικρόφωνο;"
+
+#: lib/contents/ui/PermissionQuestion.qml:28
+#, kde-format
+msgid "Do you want to allow the website to share your screen?"
+msgstr "Θέλετε να επιτρέψετε στον ιστότοπο να έχει πρόσβαση στην οθόνη σας;"
+
+#: lib/contents/ui/PermissionQuestion.qml:31
+#, kde-format
+msgid "Do you want to allow the website to share the sound output?"
+msgstr "Θέλετε να επιτρέψετε στον ιστότοπο να έχει πρόσβαση στα ηχεία σας;"
+
+#: lib/contents/ui/PermissionQuestion.qml:34
+#, kde-format
+msgid "Do you want to allow the website to send you notifications?"
+msgstr "Θέλετε να επιτρέψετε στον ιστότοπο να σας στέλνει ειδοποιήσεις;"
+
+#: lib/contents/ui/PermissionQuestion.qml:53
+#, kde-format
+msgid "Decline"
+msgstr "Απόρριψη"
+
+#: lib/contents/ui/WebView.qml:92
+#, kde-format
+msgid "View source"
+msgstr "Προβολή πηγαίου κώδικα"
+
+#: lib/contents/ui/WebView.qml:101
+#, kde-format
+msgid "Open in new Tab"
+msgstr "Άνοιγμα σε νέα καρτέλα"
+
+#: lib/contents/ui/WebView.qml:234
+#, kde-format
+msgid "Website was opened in a new tab"
+msgstr "Ο ιστότοπος άνοιξε σε νέα καρτέλα"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
+#, kde-format
+msgid ""
+"The ad blocker is missing its filter lists, do you want to download them now?"
+msgstr ""
+"Λείπουν από το απαγορευτικό διαφημίσεων οι λίστες των φίλτρων, θέλετς να "
+"κάνετε λήψη τώρα;"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
+#, kde-format
+msgid "Downloading..."
+msgstr "Λήψη..."
+
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:250
+#: src/contents/ui/mobile.qml:77
+#, kde-format
+msgid "Bookmarks"
+msgstr "Σελιδοδείκτες"
+
+#: src/contents/ui/desktop/BookmarksPage.qml:28
+#, kde-format
+msgid "Search bookmarks…"
+msgstr ""
+
+#: src/contents/ui/desktop/BookmarksPage.qml:70
+#, fuzzy, kde-format
+#| msgid "Add bookmark"
+msgid "No bookmarks yet"
+msgstr "Προσθήκη σελιδοδείκτη"
+
+#: src/contents/ui/desktop/desktop.qml:232 src/contents/ui/Tabs.qml:67
+#, kde-format
+msgid "New Tab"
+msgstr "Νέα καρτέλα"
+
+#: src/contents/ui/desktop/desktop.qml:241 src/contents/ui/History.qml:12
+#: src/contents/ui/mobile.qml:85
+#, kde-format
+msgid "History"
+msgstr "Ιστορικό"
+
+#: src/contents/ui/desktop/desktop.qml:259 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/mobile.qml:89
+#, kde-format
+msgid "Downloads"
+msgstr "Λήψεις"
+
+#: src/contents/ui/desktop/desktop.qml:270
+#, kde-format
+msgid "Full Screen"
+msgstr ""
+
+#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:364
+#, kde-format
+msgid "Show developer tools"
+msgstr "Εμφάνιση εργαλείων προγραμματιστή"
+
+#: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:272
+#, kde-format
+msgid "Find in page"
+msgstr "Εύρεση σε σελίδα"
+
+#: src/contents/ui/desktop/desktop.qml:302
+#, kde-format
+msgid "Add to application launcher"
+msgstr ""
+
+#: src/contents/ui/desktop/desktop.qml:321 src/contents/ui/mobile.qml:97
+#, kde-format
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:104
+#, kde-format
+msgid "Configure Angelfish"
+msgstr ""
+
+#: src/contents/ui/desktop/HistoryPage.qml:28
+#, kde-format
+msgid "Search history…"
+msgstr ""
+
+#: src/contents/ui/desktop/HistoryPage.qml:44
+#, kde-format
+msgid "Clear all history"
+msgstr ""
+
+#: src/contents/ui/desktop/HistoryPage.qml:80
+#, kde-format
+msgid "Not history yet"
+msgstr ""
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:12
+#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#, kde-format
+msgid "General"
+msgstr ""
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:18
+#, kde-format
+msgid "Show home button:"
+msgstr ""
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#, fuzzy, kde-format
+#| msgid "Enable Adblock"
+msgid "Enabled"
+msgstr "Ενεργοποίηση απαγορευτικού διαφημίσεων"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#, kde-format
+msgid "Disabled"
+msgstr ""
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:26
+#, fuzzy, kde-format
+#| msgid "Homepage"
+msgid "Homepage:"
+msgstr "Αρχική"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:51
+#, fuzzy, kde-format
+#| msgid "New Tab"
+msgid "New tabs:"
+msgstr "Νέα καρτέλα"
+
+#: src/contents/ui/Downloads.qml:26
+#, kde-format
+msgid "No running downloads"
+msgstr "Δενε εκτελούνται λήψεις"
+
+#: src/contents/ui/Downloads.qml:47
+#, kde-format
+msgid "Pause"
+msgstr "Παύση"
+
+#: src/contents/ui/Downloads.qml:53
+#, kde-format
+msgid "Continue"
+msgstr "Συνέχεια"
+
+#: src/contents/ui/Downloads.qml:91
+#, kde-format
+msgctxt "download state"
+msgid "Starting…"
+msgstr "Έναρξη…"
+
+#: src/contents/ui/Downloads.qml:93
+#, kde-format
+msgid "Completed"
+msgstr "Ολοκληρώθηκε"
+
+#: src/contents/ui/Downloads.qml:95
+#, kde-format
+msgid "Cancelled"
+msgstr "Ακυρώθηκε"
+
+#: src/contents/ui/Downloads.qml:97
+#, kde-format
+msgctxt "download state"
+msgid "Interrupted"
+msgstr "Διακόπηκε"
+
+#: src/contents/ui/Downloads.qml:99
+#, kde-format
+msgctxt "download state"
+msgid "In progress"
+msgstr "Σε εξέλιξη"
+
+#: src/contents/ui/FindInPageBar.qml:46
+#, kde-format
+msgid "Search..."
+msgstr "Αναζήτηση..."
+
+#: src/contents/ui/InputSheet.qml:47
+#, kde-format
+msgid "OK"
+msgstr "Εντάξει"
+
+#: src/contents/ui/mobile.qml:18
+#, kde-format
+msgid "Angelfish Web Browser"
+msgstr "Περιηγητής ιστού Angelfish"
+
+#: src/contents/ui/mobile.qml:62 src/contents/ui/Tabs.qml:63
+#, kde-format
+msgid "Tabs"
+msgstr "Καρτέλες"
+
+#: src/contents/ui/mobile.qml:69
+#, kde-format
+msgid "Leave private mode"
+msgstr "Να παραμείνει σε ιδιωτική λειτουργία"
+
+#: src/contents/ui/mobile.qml:69
+#, kde-format
+msgid "Private mode"
+msgstr "Ιδιωτική λειτουργία"
+
+#: src/contents/ui/mobile.qml:276 src/contents/ui/ShareSheet.qml:18
+#, kde-format
+msgid "Share page"
+msgstr "Διαμοιρασμός σελίδας"
+
+#: src/contents/ui/mobile.qml:287
+#, kde-format
+msgid "Add to homescreen"
+msgstr "Προσθήκη στην προσωπική οθόνη"
+
+#: src/contents/ui/mobile.qml:297
+#, kde-format
+msgid "Open in app"
+msgstr "Άνοιγμα σε εφαρμογή"
+
+#: src/contents/ui/mobile.qml:305
+#, kde-format
+msgid "Go previous"
+msgstr "Μετάβαση στην προηγούμενη"
+
+#: src/contents/ui/mobile.qml:313
+#: src/contents/ui/SettingsNavigationBarPage.qml:109
+#, kde-format
+msgid "Go forward"
+msgstr "Μετάβαση στην επόμενη"
+
+#: src/contents/ui/mobile.qml:320
+#, kde-format
+msgid "Stop loading"
+msgstr "Διακοπή φόρτωσης"
+
+#: src/contents/ui/mobile.qml:320
+#, kde-format
+msgid "Refresh"
+msgstr "Ανανέωση"
+
+#: src/contents/ui/mobile.qml:330
+#, kde-format
+msgid "Bookmarked"
+msgstr "Στους σελιδοδείκτες"
+
+#: src/contents/ui/mobile.qml:330
+#, kde-format
+msgid "Bookmark"
+msgstr "Σελιδοδείκτης"
+
+#: src/contents/ui/mobile.qml:346
+#, kde-format
+msgid "Show desktop site"
+msgstr "Εμφάνιση τόπου επιφάνειας εργασίας"
+
+#: src/contents/ui/mobile.qml:355
+#, kde-format
+msgid "Hide navigation bar"
+msgstr "Απόκρυψη γραμμής πλοήγησης"
+
+#: src/contents/ui/mobile.qml:355
+#, kde-format
+msgid "Show navigation bar"
+msgstr "Εμφάνιση γραμμής πλοήγησης"
+
+#: src/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgid ""
+"Site wants to open a new tab: \n"
+"%1"
+msgstr ""
+"Ο ιστότοπος θέλει να ανοίξει μια νέα καρτέλα: \n"
+"%1"
+
+#: src/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgid "Open"
+msgstr "Άνοιγμα"
+
+#: src/contents/ui/SettingsAdblock.qml:17
+#, kde-format
+msgid "Adblock settings"
+msgstr "Ρυθμίσεις απαγορευτικού διαφημίσεων"
+
+#: src/contents/ui/SettingsAdblock.qml:27
+#, kde-format
+msgid "Update lists"
+msgstr ""
+
+#: src/contents/ui/SettingsAdblock.qml:48
+#, kde-format
+msgid "The adblock functionality isn't included in this build."
+msgstr ""
+"Η λειτουργία του απαγορευτικού διαφημίσεων δεν περιλαμβάνεται σε αυτήν την "
+"έκδοση."
+
+#: src/contents/ui/SettingsAdblock.qml:54
+#, kde-format
+msgid "Add filterlist"
+msgstr "Προσθήκη λίστας φίλτρων"
+
+#: src/contents/ui/SettingsAdblock.qml:59
+#, kde-format
+msgid "Name"
+msgstr "Όνομα"
+
+#: src/contents/ui/SettingsAdblock.qml:68
+#, kde-format
+msgid "Url"
+msgstr "Url"
+
+#: src/contents/ui/SettingsAdblock.qml:78
+#, kde-format
+msgid "Add"
+msgstr "Προσθήκη"
+
+#: src/contents/ui/SettingsAdblock.qml:121
+#, kde-format
+msgid "Remove this filter list"
+msgstr "Αφαίρεση αυτής τηε λίστας φίλτρων"
+
+#: src/contents/ui/SettingsGeneral.qml:28
+#, kde-format
+msgid "Enable JavaScript"
+msgstr "Ενεργοποίηση JavaScript"
+
+#: src/contents/ui/SettingsGeneral.qml:42
+#, kde-format
+msgid "Load images"
+msgstr "Φόρτωση εικόνων"
+
+#: src/contents/ui/SettingsGeneral.qml:56
+#, fuzzy, kde-format
+#| msgid "Enable Adblock"
+msgid "Enable adblock"
+msgstr "Ενεργοποίηση απαγορευτικού διαφημίσεων"
+
+#: src/contents/ui/SettingsGeneral.qml:73
+#, kde-format
+msgid ""
+"When you open a link, image or media in a new tab, switch to it immediately"
+msgstr ""
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:14
+#, kde-format
+msgid "Navigation bar"
+msgstr "Γραμμή πλοήγησης"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:35
+#, kde-format
+msgid ""
+"Choose the buttons enabled in navigation bar. Some of the buttons can be "
+"hidden only in portrait orientation of the browser and are always shown if  "
+"the browser is wider than its height.\n"
+"\n"
+" Note that if you disable the menu buttons, you will be able to access the "
+"menus either by swiping from the left or right side or to a side along the "
+"bottom of the window."
+msgstr ""
+"Επιλέξτε τα ενεργά κουμπιά στη γραμμή πλοήγησης. Μερικά κουμπιά μπορεί να "
+"είναι κρυμμένα μόνο κατακόρυφα στον περιηγητή και εμφανίζονται πάντα αν ο "
+"περιηγητής έχει πλάτος μεγαλύτερο από το ύψος του.\n"
+"\n"
+" Σημειώστε ότι αν απενεργοποιήσετε τα κουμπιά του μενού, θα έχετε πρόσβαση "
+"σε αυτό ή χτυπώντας από την αριστερή ή τη δεξιά πλευρά ή σε μια πλευρά κατά "
+"μήκος της βάσης του παραθύρου."
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:53
+#, kde-format
+msgid "Main menu in portrait"
+msgstr "Κύριο μενού στο πορτρέτο"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:67
+#, kde-format
+msgid "Tabs in portrait"
+msgstr "Καρτέλες στο πορτρέτο"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:81
+#, kde-format
+msgid "Context menu in portrait"
+msgstr "Μενού επιλογών στο πορτρέτο"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:95
+#, kde-format
+msgid "Go back"
+msgstr "Μετάβαση πίσω"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:123
+#, kde-format
+msgid "Reload/Stop"
+msgstr "Επαναφόρτωση/διακοπή"
+
+#: src/contents/ui/SettingsPage.qml:17
+#, kde-format
+msgid "Ad Block"
+msgstr ""
+
+#: src/contents/ui/SettingsPage.qml:22 src/contents/ui/SettingsWebApps.qml:13
+#, kde-format
+msgid "Web Apps"
+msgstr "Εφαρμογές ιστού"
+
+#: src/contents/ui/SettingsPage.qml:27
+#: src/contents/ui/SettingsSearchEnginePage.qml:13
+#: src/contents/ui/SettingsSearchEnginePage.qml:33
+#, kde-format
+msgid "Search Engine"
+msgstr "Μηχανή αναζήτησης"
+
+#: src/contents/ui/SettingsPage.qml:32
+#, kde-format
+msgid "Toolbars"
+msgstr ""
+
+#: src/contents/ui/SettingsSearchEnginePage.qml:28
+#, kde-format
+msgid "Custom"
+msgstr "Προσαρμοσμένο"
+
+#: src/contents/ui/SettingsSearchEnginePage.qml:34
+#, kde-format
+msgid "Base URL of your preferred search engine"
+msgstr "URL βάσης της μηχανής αναζήτησης της προτίμησής σας"
+
+#: src/contents/ui/SettingsWebApps.qml:44
+#, kde-format
+msgid "Remove app"
+msgstr "Διαγραφή εφαρμογής"
+
+#: src/contents/ui/Tabs.qml:63
+#, kde-format
+msgid "Private Tabs"
+msgstr "Ιδιωτικές καρτέλες"
+
+#: src/main.cpp:70
+#, kde-format
+msgid "URL to open"
+msgstr "URL για άνοιγμα"
+
+#~ msgid "Enable Adblock"
+#~ msgstr "Ενεργοποίηση απαγορευτικού διαφημίσεων"
+
+#, fuzzy
+#~| msgid "Homepage"
+#~ msgid "Home"
+#~ msgstr "Αρχική"
+
+#~ msgid "Adblock filter lists"
+#~ msgstr "Λίστες φίλτρων απαγορευτικών διαφημίσεων"
+
+#~ msgid "New"
+#~ msgstr "Νέα"
+
+#~ msgid "Choose the buttons enabled in navigation bar. "
+#~ msgstr "Επιλέξτε τα ενεργά κουμπιά στη γραμμή πλοήγησης. "
+
+#~ msgid "Website that should be loaded on startup"
+#~ msgstr "Ιστότοπος που φορτώνεται στην εκκίνηση"
+
+#~ msgid "Find..."
+#~ msgstr "Εύρεση..."
+
+#~ msgid "Highlight text on the current website"
+#~ msgstr "Τονισμός κειμένου στον τρέχοντα ιστότοπο"
+
+#~ msgid "Start without UI"
+#~ msgstr "Εκκίνηση χωρίς περιβάλλον χρήστη"
+
+#~ msgid "geo location"
+#~ msgstr "γεωγραφική θέση"
+
+#~ msgid "the microphone"
+#~ msgstr "το μικρφωνο"
+
+#~ msgid "the camera"
+#~ msgstr "η κάμερα"
+
+#~ msgid "camera and microphone"
+#~ msgstr "κάμερα και μικρόφωνο"
