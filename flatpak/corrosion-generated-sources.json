@@ -7,8 +7,8 @@
         "dest": "cargo/vendor/bitflags-1.2.1"
     },
     {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22cf1de2fe8c75bc145a2f577add951f8134889b4795d47466a54a5c846d691693%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "type": "inline",
+        "contents": "{\"package\": \"cf1de2fe8c75bc145a2f577add951f8134889b4795d47466a54a5c846d691693\", \"files\": {}}",
         "dest": "cargo/vendor/bitflags-1.2.1",
         "dest-filename": ".cargo-checksum.json"
     },
@@ -20,8 +20,8 @@
         "dest": "cargo/vendor/camino-1.0.5"
     },
     {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%2252d74260d9bf6944e2208aa46841b4b8f0d7ffc0849a06837b2f510337f86b2b%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "type": "inline",
+        "contents": "{\"package\": \"52d74260d9bf6944e2208aa46841b4b8f0d7ffc0849a06837b2f510337f86b2b\", \"files\": {}}",
         "dest": "cargo/vendor/camino-1.0.5",
         "dest-filename": ".cargo-checksum.json"
     },
@@ -33,8 +33,8 @@
         "dest": "cargo/vendor/cargo-platform-0.1.2"
     },
     {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22cbdb825da8a5df079a43676dbe042702f1707b1109f713a01420fbb4cc71fa27%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "type": "inline",
+        "contents": "{\"package\": \"cbdb825da8a5df079a43676dbe042702f1707b1109f713a01420fbb4cc71fa27\", \"files\": {}}",
         "dest": "cargo/vendor/cargo-platform-0.1.2",
         "dest-filename": ".cargo-checksum.json"
     },
@@ -46,8 +46,8 @@
         "dest": "cargo/vendor/cargo_metadata-0.14.1"
     },
     {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22ba2ae6de944143141f6155a473a6b02f66c7c3f9f47316f802f80204ebfe6e12%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "type": "inline",
+        "contents": "{\"package\": \"ba2ae6de944143141f6155a473a6b02f66c7c3f9f47316f802f80204ebfe6e12\", \"files\": {}}",
         "dest": "cargo/vendor/cargo_metadata-0.14.1",
         "dest-filename": ".cargo-checksum.json"
     },
@@ -59,8 +59,8 @@
         "dest": "cargo/vendor/clap-2.34.0"
     },
     {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22a0610544180c38b88101fecf2dd634b174a62eef6946f84dfc6a7127512b381c%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "type": "inline",
+        "contents": "{\"package\": \"a0610544180c38b88101fecf2dd634b174a62eef6946f84dfc6a7127512b381c\", \"files\": {}}",
         "dest": "cargo/vendor/clap-2.34.0",
         "dest-filename": ".cargo-checksum.json"
     },
@@ -72,8 +72,8 @@
         "dest": "cargo/vendor/itoa-1.0.1"
     },
     {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%221aab8fc367588b89dcee83ab0fd66b72b50b72fa1904d7095045ace2b0c81c35%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "type": "inline",
+        "contents": "{\"package\": \"1aab8fc367588b89dcee83ab0fd66b72b50b72fa1904d7095045ace2b0c81c35\", \"files\": {}}",
         "dest": "cargo/vendor/itoa-1.0.1",
         "dest-filename": ".cargo-checksum.json"
     },
@@ -85,8 +85,8 @@
         "dest": "cargo/vendor/platforms-2.0.0"
     },
     {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22e8d0eef3571242013a0d5dc84861c3ae4a652e56e12adf8bdc26ff5f8cb34c94%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "type": "inline",
+        "contents": "{\"package\": \"e8d0eef3571242013a0d5dc84861c3ae4a652e56e12adf8bdc26ff5f8cb34c94\", \"files\": {}}",
         "dest": "cargo/vendor/platforms-2.0.0",
         "dest-filename": ".cargo-checksum.json"
     },
@@ -98,8 +98,8 @@
         "dest": "cargo/vendor/proc-macro2-1.0.36"
     },
     {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22c7342d5883fbccae1cc37a2353b09c87c9b0f3afd73f5fb9bba687a1f733b029%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "type": "inline",
+        "contents": "{\"package\": \"c7342d5883fbccae1cc37a2353b09c87c9b0f3afd73f5fb9bba687a1f733b029\", \"files\": {}}",
         "dest": "cargo/vendor/proc-macro2-1.0.36",
         "dest-filename": ".cargo-checksum.json"
     },
@@ -111,8 +111,8 @@
         "dest": "cargo/vendor/quote-1.0.14"
     },
     {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%2247aa80447ce4daf1717500037052af176af5d38cc3e571d9ec1c7353fc10c87d%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "type": "inline",
+        "contents": "{\"package\": \"47aa80447ce4daf1717500037052af176af5d38cc3e571d9ec1c7353fc10c87d\", \"files\": {}}",
         "dest": "cargo/vendor/quote-1.0.14",
         "dest-filename": ".cargo-checksum.json"
     },
@@ -124,8 +124,8 @@
         "dest": "cargo/vendor/ryu-1.0.9"
     },
     {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%2273b4b750c782965c211b42f022f59af1fbceabdd026623714f104152f1ec149f%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "type": "inline",
+        "contents": "{\"package\": \"73b4b750c782965c211b42f022f59af1fbceabdd026623714f104152f1ec149f\", \"files\": {}}",
         "dest": "cargo/vendor/ryu-1.0.9",
         "dest-filename": ".cargo-checksum.json"
     },
@@ -137,8 +137,8 @@
         "dest": "cargo/vendor/semver-1.0.4"
     },
     {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22568a8e6258aa33c13358f81fd834adb854c6f7c9468520910a9b1e8fac068012%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "type": "inline",
+        "contents": "{\"package\": \"568a8e6258aa33c13358f81fd834adb854c6f7c9468520910a9b1e8fac068012\", \"files\": {}}",
         "dest": "cargo/vendor/semver-1.0.4",
         "dest-filename": ".cargo-checksum.json"
     },
@@ -150,8 +150,8 @@
         "dest": "cargo/vendor/serde-1.0.132"
     },
     {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%228b9875c23cf305cd1fd7eb77234cbb705f21ea6a72c637a5c6db5fe4b8e7f008%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "type": "inline",
+        "contents": "{\"package\": \"8b9875c23cf305cd1fd7eb77234cbb705f21ea6a72c637a5c6db5fe4b8e7f008\", \"files\": {}}",
         "dest": "cargo/vendor/serde-1.0.132",
         "dest-filename": ".cargo-checksum.json"
     },
@@ -163,8 +163,8 @@
         "dest": "cargo/vendor/serde_derive-1.0.132"
     },
     {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22ecc0db5cb2556c0e558887d9bbdcf6ac4471e83ff66cf696e5419024d1606276%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "type": "inline",
+        "contents": "{\"package\": \"ecc0db5cb2556c0e558887d9bbdcf6ac4471e83ff66cf696e5419024d1606276\", \"files\": {}}",
         "dest": "cargo/vendor/serde_derive-1.0.132",
         "dest-filename": ".cargo-checksum.json"
     },
@@ -176,8 +176,8 @@
         "dest": "cargo/vendor/serde_json-1.0.73"
     },
     {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22bcbd0344bc6533bc7ec56df11d42fb70f1b912351c0825ccb7211b59d8af7cf5%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "type": "inline",
+        "contents": "{\"package\": \"bcbd0344bc6533bc7ec56df11d42fb70f1b912351c0825ccb7211b59d8af7cf5\", \"files\": {}}",
         "dest": "cargo/vendor/serde_json-1.0.73",
         "dest-filename": ".cargo-checksum.json"
     },
@@ -189,8 +189,8 @@
         "dest": "cargo/vendor/syn-1.0.84"
     },
     {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22ecb2e6da8ee5eb9a61068762a32fa9619cc591ceb055b3687f4cd4051ec2e06b%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "type": "inline",
+        "contents": "{\"package\": \"ecb2e6da8ee5eb9a61068762a32fa9619cc591ceb055b3687f4cd4051ec2e06b\", \"files\": {}}",
         "dest": "cargo/vendor/syn-1.0.84",
         "dest-filename": ".cargo-checksum.json"
     },
@@ -202,8 +202,8 @@
         "dest": "cargo/vendor/textwrap-0.11.0"
     },
     {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22d326610f408c7a4eb6f51c37c330e496b08506c9457c9d34287ecc38809fb060%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "type": "inline",
+        "contents": "{\"package\": \"d326610f408c7a4eb6f51c37c330e496b08506c9457c9d34287ecc38809fb060\", \"files\": {}}",
         "dest": "cargo/vendor/textwrap-0.11.0",
         "dest-filename": ".cargo-checksum.json"
     },
@@ -215,8 +215,8 @@
         "dest": "cargo/vendor/unicode-width-0.1.9"
     },
     {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%223ed742d4ea2bd1176e236172c8429aaf54486e7ac098db29ffe6529e0ce50973%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "type": "inline",
+        "contents": "{\"package\": \"3ed742d4ea2bd1176e236172c8429aaf54486e7ac098db29ffe6529e0ce50973\", \"files\": {}}",
         "dest": "cargo/vendor/unicode-width-0.1.9",
         "dest-filename": ".cargo-checksum.json"
     },
@@ -228,14 +228,14 @@
         "dest": "cargo/vendor/unicode-xid-0.2.2"
     },
     {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%228ccb82d61f80a663efe1f787a51b16b5a51e3314d6ac365b08639f52387b33f3%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "type": "inline",
+        "contents": "{\"package\": \"8ccb82d61f80a663efe1f787a51b16b5a51e3314d6ac365b08639f52387b33f3\", \"files\": {}}",
         "dest": "cargo/vendor/unicode-xid-0.2.2",
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "file",
-        "url": "data:%5Bsource.vendored-sources%5D%0Adirectory%20%3D%20%22cargo/vendor%22%0A%0A%5Bsource.crates-io%5D%0Areplace-with%20%3D%20%22vendored-sources%22%0A",
+        "type": "inline",
+        "contents": "[source.vendored-sources]\ndirectory = \"cargo/vendor\"\n\n[source.crates-io]\nreplace-with = \"vendored-sources\"\n",
         "dest": "cargo",
         "dest-filename": "config"
     }
