@@ -9,7 +9,7 @@ import org.kde.kirigami 2.19 as Kirigami
 import org.kde.angelfish 1.0
 
 Kirigami.ScrollablePage {
-    title: i18n("General")
+    title: i18n("Toolbars")
 
     Kirigami.FormLayout {
         anchors.centerIn: parent
@@ -70,6 +70,13 @@ Kirigami.ScrollablePage {
                 }
                 Settings.newTabUrl = url;
             }
+        }
+
+        QQC2.CheckBox {
+            Kirigami.FormData.label: i18n("Always show the tab bar:")
+            text: checked ? i18n("Enabled") : i18n("Disabled")
+            checked: Settings.showTabBar
+            onClicked: Settings.showTabBar = checked
         }
     }
 }

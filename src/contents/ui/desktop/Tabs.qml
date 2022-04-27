@@ -114,6 +114,7 @@ RowLayout {
 
     ListView {
         id: listview
+        visible: Settings.showTabBar || listview.count > 1
         Layout.fillWidth: true
         Layout.preferredHeight: footerItem.height
         model: tabs.model

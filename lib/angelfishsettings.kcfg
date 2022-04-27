@@ -21,6 +21,9 @@ SPDX-License-Identifier: LGPL-2.0-or-later
         <entry key="showHomeButton" type="bool">
             <default>true</default>
         </entry>
+        <entry key="showTabBar" type="bool">
+            <default>true</default>
+        </entry>
         <entry key="searchBaseUrl" type="url">
             <default>QUrl(QStringLiteral("https://start.duckduckgo.com/?q="))</default>
         </entry>
