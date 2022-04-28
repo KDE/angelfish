@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-14 00:45+0000\n"
+"POT-Creation-Date: 2022-04-28 00:46+0000\n"
 "PO-Revision-Date: 2022-04-03 20:25+0700\n"
 "Last-Translator: Wantoyèk <wantoyek@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
@@ -349,10 +349,10 @@ msgid "Not history yet"
 msgstr "Belum ada histori"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:12
-#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#: src/contents/ui/SettingsPage.qml:32
 #, kde-format
-msgid "General"
-msgstr "Umum"
+msgid "Toolbars"
+msgstr "Toolbar"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:18
 #, kde-format
@@ -360,11 +360,13 @@ msgid "Show home button:"
 msgstr "Tampilkan tombol beranda:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
 #, kde-format
 msgid "Enabled"
 msgstr "Diaktifkan"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
 #, kde-format
 msgid "Disabled"
 msgstr "Dinonaktifkan"
@@ -378,6 +380,11 @@ msgstr "Laman:"
 #, kde-format
 msgid "New tabs:"
 msgstr "Tab baru:"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:76
+#, kde-format
+msgid "Always show the tab bar:"
+msgstr ""
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -567,6 +574,11 @@ msgstr "Tambah"
 msgid "Remove this filter list"
 msgstr "Hapus daftar filter ini"
 
+#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#, kde-format
+msgid "General"
+msgstr "Umum"
+
 #: src/contents/ui/SettingsGeneral.qml:28
 #, kde-format
 msgid "Enable JavaScript"
@@ -655,11 +667,6 @@ msgstr "Apl Web"
 #, kde-format
 msgid "Search Engine"
 msgstr "Mesin Pencari"
-
-#: src/contents/ui/SettingsPage.qml:32
-#, kde-format
-msgid "Toolbars"
-msgstr "Toolbar"
 
 #: src/contents/ui/SettingsSearchEnginePage.qml:28
 #, kde-format

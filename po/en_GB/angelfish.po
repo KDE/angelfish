@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-14 00:45+0000\n"
+"POT-Creation-Date: 2022-04-28 00:46+0000\n"
 "PO-Revision-Date: 2022-02-19 11:57+0000\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English <kde-l10n-en_gb@kde.org>\n"
@@ -347,10 +347,10 @@ msgid "Not history yet"
 msgstr "Not history yet"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:12
-#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#: src/contents/ui/SettingsPage.qml:32
 #, kde-format
-msgid "General"
-msgstr "General"
+msgid "Toolbars"
+msgstr "Toolbars"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:18
 #, kde-format
@@ -358,11 +358,13 @@ msgid "Show home button:"
 msgstr "Show home button:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
 #, kde-format
 msgid "Enabled"
 msgstr "Enabled"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
 #, kde-format
 msgid "Disabled"
 msgstr "Disabled"
@@ -376,6 +378,11 @@ msgstr "Homepage:"
 #, kde-format
 msgid "New tabs:"
 msgstr "New tabs:"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:76
+#, kde-format
+msgid "Always show the tab bar:"
+msgstr ""
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -565,6 +572,11 @@ msgstr "Add"
 msgid "Remove this filter list"
 msgstr "Remove this filter list"
 
+#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#, kde-format
+msgid "General"
+msgstr "General"
+
 #: src/contents/ui/SettingsGeneral.qml:28
 #, kde-format
 msgid "Enable JavaScript"
@@ -652,11 +664,6 @@ msgstr "Web Apps"
 #, kde-format
 msgid "Search Engine"
 msgstr "Search Engine"
-
-#: src/contents/ui/SettingsPage.qml:32
-#, kde-format
-msgid "Toolbars"
-msgstr "Toolbars"
 
 #: src/contents/ui/SettingsSearchEnginePage.qml:28
 #, kde-format

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-14 00:45+0000\n"
+"POT-Creation-Date: 2022-04-28 00:46+0000\n"
 "PO-Revision-Date: 2022-01-07 13:27+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -348,10 +348,10 @@ msgid "Not history yet"
 msgstr "Še ni zgodovine"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:12
-#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#: src/contents/ui/SettingsPage.qml:32
 #, kde-format
-msgid "General"
-msgstr "Splošno"
+msgid "Toolbars"
+msgstr "Orodne vrstice"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:18
 #, kde-format
@@ -359,11 +359,13 @@ msgid "Show home button:"
 msgstr "Prikazuj gumb domov:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
 #, kde-format
 msgid "Enabled"
 msgstr "Omogočeno"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
 #, kde-format
 msgid "Disabled"
 msgstr "Onemogočeno"
@@ -377,6 +379,11 @@ msgstr "Domača stran:"
 #, kde-format
 msgid "New tabs:"
 msgstr "Novi zavihki:"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:76
+#, kde-format
+msgid "Always show the tab bar:"
+msgstr ""
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -566,6 +573,11 @@ msgstr "Dodaj"
 msgid "Remove this filter list"
 msgstr "Odstrani ta filtrirni seznam"
 
+#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#, kde-format
+msgid "General"
+msgstr "Splošno"
+
 #: src/contents/ui/SettingsGeneral.qml:28
 #, kde-format
 msgid "Enable JavaScript"
@@ -652,11 +664,6 @@ msgstr "Spletne aplikacije"
 #, kde-format
 msgid "Search Engine"
 msgstr "Iskalnik"
-
-#: src/contents/ui/SettingsPage.qml:32
-#, kde-format
-msgid "Toolbars"
-msgstr "Orodne vrstice"
 
 #: src/contents/ui/SettingsSearchEnginePage.qml:28
 #, kde-format

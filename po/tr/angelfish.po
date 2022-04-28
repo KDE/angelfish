@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-14 00:45+0000\n"
+"POT-Creation-Date: 2022-04-28 00:46+0000\n"
 "PO-Revision-Date: 2021-10-27 11:39+0200\n"
 "Last-Translator: Volkan Gezer <volkangezer@gmail.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -343,9 +343,9 @@ msgid "Not history yet"
 msgstr ""
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:12
-#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#: src/contents/ui/SettingsPage.qml:32
 #, kde-format
-msgid "General"
+msgid "Toolbars"
 msgstr ""
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:18
@@ -354,12 +354,14 @@ msgid "Show home button:"
 msgstr ""
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
 #, fuzzy, kde-format
 #| msgid "Enable Adblock"
 msgid "Enabled"
 msgstr "Adblock'u etkinleştir"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
 #, kde-format
 msgid "Disabled"
 msgstr ""
@@ -372,6 +374,11 @@ msgstr ""
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:51
 #, kde-format
 msgid "New tabs:"
+msgstr ""
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:76
+#, kde-format
+msgid "Always show the tab bar:"
 msgstr ""
 
 #: src/contents/ui/Downloads.qml:26
@@ -563,6 +570,11 @@ msgstr "Ekle"
 msgid "Remove this filter list"
 msgstr "Bu filtre listesini kaldır"
 
+#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#, kde-format
+msgid "General"
+msgstr ""
+
 #: src/contents/ui/SettingsGeneral.qml:28
 #, kde-format
 msgid "Enable JavaScript"
@@ -643,11 +655,6 @@ msgstr ""
 #, kde-format
 msgid "Search Engine"
 msgstr "Arama Motoru"
-
-#: src/contents/ui/SettingsPage.qml:32
-#, kde-format
-msgid "Toolbars"
-msgstr ""
 
 #: src/contents/ui/SettingsSearchEnginePage.qml:28
 #, kde-format

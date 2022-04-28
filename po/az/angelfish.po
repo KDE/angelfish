@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-14 00:45+0000\n"
+"POT-Creation-Date: 2022-04-28 00:46+0000\n"
 "PO-Revision-Date: 2022-01-12 00:29+0400\n"
 "Last-Translator: Kheyyam Gojayev <xxmn77@gmail.com>\n"
 "Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
@@ -346,10 +346,10 @@ msgid "Not history yet"
 msgstr "Hələlik heç bir tarixçə yoxdur"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:12
-#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#: src/contents/ui/SettingsPage.qml:32
 #, kde-format
-msgid "General"
-msgstr "Əsas"
+msgid "Toolbars"
+msgstr "Alətlər çubuğu"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:18
 #, kde-format
@@ -357,11 +357,13 @@ msgid "Show home button:"
 msgstr "Ev dyməsini göstərmək:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
 #, kde-format
 msgid "Enabled"
 msgstr "Aktiv edildi"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
 #, kde-format
 msgid "Disabled"
 msgstr "Söndürüldü"
@@ -375,6 +377,11 @@ msgstr "Ev səhifəsi:"
 #, kde-format
 msgid "New tabs:"
 msgstr "Yeni vərəqlər:"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:76
+#, kde-format
+msgid "Always show the tab bar:"
+msgstr ""
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -564,6 +571,11 @@ msgstr "Əlavə etmək"
 msgid "Remove this filter list"
 msgstr "Bu filtr siyahısını silmək"
 
+#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#, kde-format
+msgid "General"
+msgstr "Əsas"
+
 #: src/contents/ui/SettingsGeneral.qml:28
 #, kde-format
 msgid "Enable JavaScript"
@@ -650,11 +662,6 @@ msgstr "Veb tətbiqlər"
 #, kde-format
 msgid "Search Engine"
 msgstr "Axtarış Vasitəsi"
-
-#: src/contents/ui/SettingsPage.qml:32
-#, kde-format
-msgid "Toolbars"
-msgstr "Alətlər çubuğu"
 
 #: src/contents/ui/SettingsSearchEnginePage.qml:28
 #, kde-format

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-14 00:45+0000\n"
+"POT-Creation-Date: 2022-04-28 00:46+0000\n"
 "PO-Revision-Date: 2021-09-19 08:34+0300\n"
 "Last-Translator: Stelios <sstavra@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -351,9 +351,9 @@ msgid "Not history yet"
 msgstr ""
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:12
-#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#: src/contents/ui/SettingsPage.qml:32
 #, kde-format
-msgid "General"
+msgid "Toolbars"
 msgstr ""
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:18
@@ -362,12 +362,14 @@ msgid "Show home button:"
 msgstr ""
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
 #, fuzzy, kde-format
 #| msgid "Enable Adblock"
 msgid "Enabled"
 msgstr "Ενεργοποίηση απαγορευτικού διαφημίσεων"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
 #, kde-format
 msgid "Disabled"
 msgstr ""
@@ -383,6 +385,11 @@ msgstr "Αρχική"
 #| msgid "New Tab"
 msgid "New tabs:"
 msgstr "Νέα καρτέλα"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:76
+#, kde-format
+msgid "Always show the tab bar:"
+msgstr ""
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -574,6 +581,11 @@ msgstr "Προσθήκη"
 msgid "Remove this filter list"
 msgstr "Αφαίρεση αυτής τηε λίστας φίλτρων"
 
+#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#, kde-format
+msgid "General"
+msgstr ""
+
 #: src/contents/ui/SettingsGeneral.qml:28
 #, kde-format
 msgid "Enable JavaScript"
@@ -661,11 +673,6 @@ msgstr "Εφαρμογές ιστού"
 #, kde-format
 msgid "Search Engine"
 msgstr "Μηχανή αναζήτησης"
-
-#: src/contents/ui/SettingsPage.qml:32
-#, kde-format
-msgid "Toolbars"
-msgstr ""
 
 #: src/contents/ui/SettingsSearchEnginePage.qml:28
 #, kde-format

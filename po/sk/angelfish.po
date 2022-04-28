@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-14 00:45+0000\n"
+"POT-Creation-Date: 2022-04-28 00:46+0000\n"
 "PO-Revision-Date: 2022-04-07 17:59+0200\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -339,10 +339,10 @@ msgid "Not history yet"
 msgstr ""
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:12
-#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#: src/contents/ui/SettingsPage.qml:32
 #, kde-format
-msgid "General"
-msgstr "Všeobecné"
+msgid "Toolbars"
+msgstr "Panely nástrojov"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:18
 #, kde-format
@@ -350,11 +350,13 @@ msgid "Show home button:"
 msgstr ""
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
 #, kde-format
 msgid "Enabled"
 msgstr "Povolené"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
 #, kde-format
 msgid "Disabled"
 msgstr "Zakázané"
@@ -368,6 +370,11 @@ msgstr "Domovská stránka:"
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:51
 #, kde-format
 msgid "New tabs:"
+msgstr ""
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:76
+#, kde-format
+msgid "Always show the tab bar:"
 msgstr ""
 
 #: src/contents/ui/Downloads.qml:26
@@ -556,6 +563,11 @@ msgstr "Pridať"
 msgid "Remove this filter list"
 msgstr ""
 
+#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#, kde-format
+msgid "General"
+msgstr "Všeobecné"
+
 #: src/contents/ui/SettingsGeneral.qml:28
 #, kde-format
 msgid "Enable JavaScript"
@@ -635,11 +647,6 @@ msgstr ""
 #, kde-format
 msgid "Search Engine"
 msgstr "Vyhľadávací stroj"
-
-#: src/contents/ui/SettingsPage.qml:32
-#, kde-format
-msgid "Toolbars"
-msgstr "Panely nástrojov"
 
 #: src/contents/ui/SettingsSearchEnginePage.qml:28
 #, kde-format

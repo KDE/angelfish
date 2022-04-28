@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-14 00:45+0000\n"
-"PO-Revision-Date: 2022-01-05 01:58+0000\n"
+"POT-Creation-Date: 2022-04-28 00:46+0000\n"
+"PO-Revision-Date: 2022-04-28 01:42+0000\n"
 "Last-Translator: transxx.py program <null@kde.org>\n"
 "Language-Team: KDE Test Language <kde-i18n-doc@kde.org>\n"
 "Language: x-test\n"
@@ -348,10 +348,10 @@ msgid "Not history yet"
 msgstr "xxNot history yetxx"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:12
-#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#: src/contents/ui/SettingsPage.qml:32
 #, kde-format
-msgid "General"
-msgstr "xxGeneralxx"
+msgid "Toolbars"
+msgstr "xxToolbarsxx"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:18
 #, kde-format
@@ -359,11 +359,13 @@ msgid "Show home button:"
 msgstr "xxShow home button:xx"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
 #, kde-format
 msgid "Enabled"
 msgstr "xxEnabledxx"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
 #, kde-format
 msgid "Disabled"
 msgstr "xxDisabledxx"
@@ -377,6 +379,11 @@ msgstr "xxHomepage:xx"
 #, kde-format
 msgid "New tabs:"
 msgstr "xxNew tabs:xx"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:76
+#, kde-format
+msgid "Always show the tab bar:"
+msgstr "xxAlways show the tab bar:xx"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -566,6 +573,11 @@ msgstr "xxAddxx"
 msgid "Remove this filter list"
 msgstr "xxRemove this filter listxx"
 
+#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#, kde-format
+msgid "General"
+msgstr "xxGeneralxx"
+
 #: src/contents/ui/SettingsGeneral.qml:28
 #, kde-format
 msgid "Enable JavaScript"
@@ -654,11 +666,6 @@ msgstr "xxWeb Appsxx"
 #, kde-format
 msgid "Search Engine"
 msgstr "xxSearch Enginexx"
-
-#: src/contents/ui/SettingsPage.qml:32
-#, kde-format
-msgid "Toolbars"
-msgstr "xxToolbarsxx"
 
 #: src/contents/ui/SettingsSearchEnginePage.qml:28
 #, kde-format
