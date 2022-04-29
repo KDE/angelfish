@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-04-28 00:46+0000\n"
-"PO-Revision-Date: 2022-01-05 21:57+0100\n"
+"PO-Revision-Date: 2022-04-28 17:16+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -380,7 +380,7 @@ msgstr "Nya flikar:"
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:76
 #, kde-format
 msgid "Always show the tab bar:"
-msgstr ""
+msgstr "Visa alltid flikraden:"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format

@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-04-28 00:46+0000\n"
-"PO-Revision-Date: 2022-03-20 19:23+0100\n"
+"PO-Revision-Date: 2022-04-28 09:30+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -386,7 +386,7 @@ msgstr "Pestanyes noves:"
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:76
 #, kde-format
 msgid "Always show the tab bar:"
-msgstr ""
+msgstr "Mostra sempre la barra de pestanyes:"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -694,48 +694,3 @@ msgstr "Pestanyes privades"
 #, kde-format
 msgid "URL to open"
 msgstr "URL a obrir"
-
-#~ msgid "General:"
-#~ msgstr "General:"
-
-#~ msgid "Enable Adblock"
-#~ msgstr "Habilita l'Adblock"
-
-#~ msgid "Home"
-#~ msgstr "Inici"
-
-#~ msgid "Adblock filter lists"
-#~ msgstr "Llistes de filtres de l'Adblock"
-
-#~ msgid "New"
-#~ msgstr "Nova"
-
-#~ msgid "Choose the buttons enabled in navigation bar. "
-#~ msgstr "Trieu els botons activats a la barra de navegació. "
-
-#~ msgid "Website that should be loaded on startup"
-#~ msgstr "Lloc web que s'hauria de carregar en iniciar"
-
-#~ msgid "Find..."
-#~ msgstr "Cerca..."
-
-#~ msgid "Highlight text on the current website"
-#~ msgstr "Text ressaltat al lloc web actual"
-
-#~ msgid "Start without UI"
-#~ msgstr "Inicia sense IU"
-
-#~ msgid "geo location"
-#~ msgstr "geolocalització"
-
-#~ msgid "the microphone"
-#~ msgstr "el micròfon"
-
-#~ msgid "the camera"
-#~ msgstr "la càmera"
-
-#~ msgid "camera and microphone"
-#~ msgstr "càmera i micròfon"
-
-#~ msgid "Ok"
-#~ msgstr "D'acord"
