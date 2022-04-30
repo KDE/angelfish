@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-04-28 00:46+0000\n"
-"PO-Revision-Date: 2022-01-06 08:42+0100\n"
+"PO-Revision-Date: 2022-04-28 19:49+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 21.12.0\n"
+"X-Generator: Lokalize 21.12.3\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: \n"
 "X-Text-Markup: \n"
@@ -11612,7 +11612,7 @@ msgstr "Nouveaux onglets :"
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:76
 #, kde-format
 msgid "Always show the tab bar:"
-msgstr ""
+msgstr "Toujours afficher la barre d'onglets :"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
