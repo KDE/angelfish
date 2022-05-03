@@ -29,6 +29,7 @@
   <name xml:lang="sk">Webový prehliadač Angelfish</name>
   <name xml:lang="sl">Angelfish spletni brskalnik</name>
   <name xml:lang="sv">Angelfish webbläsare</name>
+  <name xml:lang="tr">Angelfish Web Tarayıcısı</name>
   <name xml:lang="uk">Веббраузер Angelfish</name>
   <name xml:lang="x-test">xxAngelfish Web Browserxx</name>
   <name xml:lang="zh-CN">Angelfish 网页浏览器</name>
@@ -63,6 +64,7 @@
   <summary xml:lang="sk">Webový prehliadač pre mobilné zariadenia</summary>
   <summary xml:lang="sl">Spletni brskalnik za mobilne naprave</summary>
   <summary xml:lang="sv">Webbläsare för mobila apparater</summary>
+  <summary xml:lang="tr">Taşınabilir aygıtlar için web tarayıcı</summary>
   <summary xml:lang="uk">Браузер для мобільних пристроїв</summary>
   <summary xml:lang="x-test">xxWebbrowser for mobile devicesxx</summary>
   <summary xml:lang="zh-CN">移动设备的网络浏览器</summary>
@@ -101,6 +103,7 @@
   <developer_name xml:lang="sk">KDE komunita</developer_name>
   <developer_name xml:lang="sl">Skupnost KDE</developer_name>
   <developer_name xml:lang="sv">KDE-gemenskapen</developer_name>
+  <developer_name xml:lang="tr">KDE Topluluğu</developer_name>
   <developer_name xml:lang="uk">Спільнота KDE</developer_name>
   <developer_name xml:lang="x-test">xxKDE Communityxx</developer_name>
   <developer_name xml:lang="zh-CN">KDE 社区</developer_name>
@@ -138,6 +141,7 @@
     <p xml:lang="sk">Angelfish je moderný mobilný webový prehliadač</p>
     <p xml:lang="sl">Angelfish je sodobni mobilni spletni brskalnik</p>
     <p xml:lang="sv">Angelfish är en modern mobilwebbläsare</p>
+    <p xml:lang="tr">Angelfish; çağdaş ve taşınabilir bir web tarayıcıdır</p>
     <p xml:lang="uk">Angelfish — сучасний браузер для мобільних пристроїв</p>
     <p xml:lang="x-test">xxAngelfish is a modern mobile webbrowserxx</p>
     <p xml:lang="zh-CN">Angelfish 是一款现代化的移动设备网络浏览器</p>
@@ -173,6 +177,7 @@
     <p xml:lang="sk">Podporuje typické funkcie prehliadača, ako napr.</p>
     <p xml:lang="sl">Podpira tipične možnosti brskalnikov, kot so</p>
     <p xml:lang="sv">Den stöder typiska webbläsarfunktioner, såsom</p>
+    <p xml:lang="tr">Aşağıda bir listesini görebileceğiniz standart web tarayıcı özelliklerine sahiptir:</p>
     <p xml:lang="uk">Передбачено типові можливості браузера, зокрема</p>
     <p xml:lang="x-test">xxIt supports typical browser features, such asxx</p>
     <p xml:lang="zh-CN">它支持典型的浏览器功能，例如：</p>
@@ -209,6 +214,7 @@
       <li xml:lang="sk">zalozky</li>
       <li xml:lang="sl">zaznamki</li>
       <li xml:lang="sv">bokmärken</li>
+      <li xml:lang="tr">yer imleri</li>
       <li xml:lang="uk">закладки</li>
       <li xml:lang="x-test">xxbookmarksxx</li>
       <li xml:lang="zh-CN">书签</li>
@@ -244,6 +250,7 @@
       <li xml:lang="sk">História</li>
       <li xml:lang="sl">zgodovino brskanja</li>
       <li xml:lang="sv">historik</li>
+      <li xml:lang="tr">geçmiş</li>
       <li xml:lang="uk">журнал</li>
       <li xml:lang="x-test">xxhistoryxx</li>
       <li xml:lang="zh-CN">历史记录</li>
@@ -279,6 +286,7 @@
       <li xml:lang="sk">karty</li>
       <li xml:lang="sl">zavihke</li>
       <li xml:lang="sv">flikar</li>
+      <li xml:lang="tr">sekmeler</li>
       <li xml:lang="uk">вкладки</li>
       <li xml:lang="x-test">xxtabsxx</li>
       <li xml:lang="zh-CN">标签页</li>
@@ -318,6 +326,7 @@
       <caption xml:lang="sk">Domovská stránka</caption>
       <caption xml:lang="sl">Domača stran</caption>
       <caption xml:lang="sv">Hemsida</caption>
+      <caption xml:lang="tr">Anasayfa</caption>
       <caption xml:lang="uk">Домашня сторінка</caption>
       <caption xml:lang="x-test">xxHomepagexx</caption>
       <caption xml:lang="zh-CN">主页</caption>
@@ -356,6 +365,7 @@
       <caption xml:lang="sk">Akcie ponuky</caption>
       <caption xml:lang="sl">Dejavnosti menija</caption>
       <caption xml:lang="sv">Menyalternativ</caption>
+      <caption xml:lang="tr">Menü Eylemleri</caption>
       <caption xml:lang="uk">Пункти меню</caption>
       <caption xml:lang="x-test">xxMenu Actionsxx</caption>
       <caption xml:lang="zh-CN">菜单操作</caption>
@@ -390,6 +400,7 @@
       <caption xml:lang="sk">Zobrazenie kariet</caption>
       <caption xml:lang="sl">Pogled zavihkov</caption>
       <caption xml:lang="sv">Flikvy</caption>
+      <caption xml:lang="tr">Sekmeler Görünümü</caption>
       <caption xml:lang="uk">Перегляд з вкладками</caption>
       <caption xml:lang="x-test">xxTabs Viewxx</caption>
       <caption xml:lang="zh-CN">标签页视图</caption>
@@ -421,6 +432,7 @@
       <caption xml:lang="sk">Desktopové používateľské rozhranie</caption>
       <caption xml:lang="sl">Uporabniški vmesnik namizja</caption>
       <caption xml:lang="sv">Användargränssnitt för skrivbord</caption>
+      <caption xml:lang="tr">Masaüstü Kullanıcı Arayüzü</caption>
       <caption xml:lang="uk">Інтерфейс користувача стільниці</caption>
       <caption xml:lang="x-test">xxDesktop User Interfacexx</caption>
       <caption xml:lang="zh-CN">桌面用户界面</caption>
