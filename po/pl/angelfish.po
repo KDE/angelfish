@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-04-28 00:46+0000\n"
-"PO-Revision-Date: 2022-02-13 20:00+0100\n"
+"PO-Revision-Date: 2022-05-03 07:36+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -382,7 +382,7 @@ msgstr "Nowe karty:"
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:76
 #, kde-format
 msgid "Always show the tab bar:"
-msgstr ""
+msgstr "Zawsze pokazuj pasek kart:"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format

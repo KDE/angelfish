@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-04-28 00:46+0000\n"
-"PO-Revision-Date: 2022-01-17 15:30-0300\n"
+"PO-Revision-Date: 2022-05-03 13:03-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -384,7 +384,7 @@ msgstr "Novas abas:"
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:76
 #, kde-format
 msgid "Always show the tab bar:"
-msgstr ""
+msgstr "Sempre mostrar a aba de barras:"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
