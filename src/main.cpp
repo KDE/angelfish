@@ -80,13 +80,14 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QObject::connect(&service, &KDBusService::activateRequested, &app, [&parser, &engine](const QStringList &arguments) {
         parser.parse(arguments);
 
+        auto *webbrowserWindow = qobject_cast<QQuickWindow *>(engine.rootObjects().constFirst());
+        if (!webbrowserWindow) {
+            qWarning() << "No webbrowser window is open, can't activate";
+            return;
+        }
+
         if (!parser.positionalArguments().isEmpty()) {
             const QUrl initialUrl = QUrl::fromUserInput(parser.positionalArguments().constFirst());
-            const auto *webbrowserWindow = qobject_cast<QQuickWindow *>(engine.rootObjects().constFirst());
-            if (!webbrowserWindow) {
-                qWarning() << "No webbrowser window is open, can't open the url";
-                return;
-            }
             const auto *pageStack = webbrowserWindow->property("pageStack").value<QObject *>();
             const auto *initialPage = pageStack->property("initialPage").value<QObject *>();
 
@@ -100,10 +101,11 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
             auto *tabsModel = regularTabs->property("tabsModel").value<TabsModel *>();
             // Open new tab with requested url
             tabsModel->newTab(initialUrl);
-
-            // Move window to the front
-            KWindowSystem::raiseWindow(webbrowserWindow->winId());
         }
+
+        // Move window to the front
+        KWindowSystem::updateStartupId(webbrowserWindow);
+        KWindowSystem::activateWindow(webbrowserWindow);
     });
 
     // register as early possible so it has time to load, constructor doesn't block
