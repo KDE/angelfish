@@ -130,7 +130,7 @@ msgstr "Accepta"
 #: src/contents/ui/Downloads.qml:41
 #, kde-format
 msgid "Cancel"
-msgstr "Cancel·la"
+msgstr "Cancela"
 
 #: lib/contents/ui/DownloadQuestion.qml:12
 #, kde-format
@@ -162,7 +162,7 @@ msgstr ""
 " Si voleu, podeu continuar amb un certificat sense verificar.\n"
 " Acceptar un certificat sense verificar vol dir que no podreu\n"
 " estar connectat amb l'amfitrió amb el qual intenteu connectar.\n"
-" Voleu anul·lar la comprovació de seguretat i continuar?"
+" Voleu anular la comprovació de seguretat i continuar?"
 
 #: lib/contents/ui/ErrorHandler.qml:79
 #, kde-format
@@ -417,7 +417,7 @@ msgstr "Completada"
 #: src/contents/ui/Downloads.qml:95
 #, kde-format
 msgid "Cancelled"
-msgstr "Cancel·lada"
+msgstr "Cancelada"
 
 #: src/contents/ui/Downloads.qml:97
 #, kde-format
@@ -454,12 +454,12 @@ msgstr "Pestanyes"
 #: src/contents/ui/mobile.qml:69
 #, kde-format
 msgid "Leave private mode"
-msgstr "Ix del mode privat"
+msgstr "Ix de modo privat"
 
 #: src/contents/ui/mobile.qml:69
 #, kde-format
 msgid "Private mode"
-msgstr "Mode privat"
+msgstr "Modo privat"
 
 #: src/contents/ui/mobile.qml:276 src/contents/ui/ShareSheet.qml:18
 #, kde-format
