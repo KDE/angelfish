@@ -206,7 +206,7 @@ msgstr ""
 #: lib/contents/ui/PermissionQuestion.qml:16
 #, kde-format
 msgid "Do you want to allow the website to access the geo location?"
-msgstr "Voleu permetre que el lloc web accedisca a la geolocalització?"
+msgstr "Voleu permetre que el lloc web accedisca a la geolocalisació?"
 
 #: lib/contents/ui/PermissionQuestion.qml:19
 #, kde-format
@@ -544,7 +544,7 @@ msgstr "Configuració de l'Adblock"
 #: src/contents/ui/SettingsAdblock.qml:27
 #, kde-format
 msgid "Update lists"
-msgstr "Actualitza les llistes"
+msgstr "Actualisa les llistes"
 
 #: src/contents/ui/SettingsAdblock.qml:48
 #, kde-format
