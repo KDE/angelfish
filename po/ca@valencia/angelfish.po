@@ -53,13 +53,13 @@ msgstr "Apega"
 #: lib/contents/ui/WebView.qml:83
 #, kde-format
 msgid "Search online for '%1'"
-msgstr "Busca en línia de «%1»"
+msgstr "Busca en llínea de «%1»"
 
 #: angelfish-webapp/contents/ui/WebAppView.qml:46
 #: lib/contents/ui/WebView.qml:83
 #, kde-format
 msgid "Search online"
-msgstr "Busca en línia"
+msgstr "Busca en llínea"
 
 #: angelfish-webapp/contents/ui/WebAppView.qml:51
 #: lib/contents/ui/WebView.qml:88
