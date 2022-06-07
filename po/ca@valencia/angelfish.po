@@ -77,7 +77,7 @@ msgstr "Baixa"
 #: angelfish-webapp/main.cpp:63
 #, kde-format
 msgid "desktop file to open"
-msgstr "Fitxer «desktop» que s'obrirà"
+msgstr "Ficher «desktop» que s'obrirà"
 
 #: angelfish-webapp/main.cpp:90
 #, kde-format
@@ -135,7 +135,7 @@ msgstr "Cancela"
 #: lib/contents/ui/DownloadQuestion.qml:12
 #, kde-format
 msgid "Do you want to download this file?"
-msgstr "Voleu baixar este fitxer?"
+msgstr "Voleu baixar este ficher?"
 
 #: lib/contents/ui/ErrorHandler.qml:47
 #, kde-format
@@ -216,13 +216,13 @@ msgstr "Voleu permetre que el lloc web accedisca al micròfon?"
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format
 msgid "Do you want to allow the website to access the camera?"
-msgstr "Voleu permetre que el lloc web accedisca a la càmera?"
+msgstr "Voleu permetre que el lloc web accedisca a la càmara?"
 
 #: lib/contents/ui/PermissionQuestion.qml:25
 #, kde-format
 msgid ""
 "Do you want to allow the website to access the camera and the microphone?"
-msgstr "Voleu permetre que el lloc web accedisca a la càmera i al micròfon?"
+msgstr "Voleu permetre que el lloc web accedisca a la càmara i al micròfon?"
 
 #: lib/contents/ui/PermissionQuestion.qml:28
 #, kde-format
@@ -464,7 +464,7 @@ msgstr "Modo privat"
 #: src/contents/ui/mobile.qml:276 src/contents/ui/ShareSheet.qml:18
 #, kde-format
 msgid "Share page"
-msgstr "Comparteix la pàgina"
+msgstr "Compartix la pàgina"
 
 #: src/contents/ui/mobile.qml:287
 #, kde-format
@@ -584,12 +584,12 @@ msgstr "General"
 #: src/contents/ui/SettingsGeneral.qml:28
 #, kde-format
 msgid "Enable JavaScript"
-msgstr "Habilita el JavaScript"
+msgstr "Habilita JavaScript"
 
 #: src/contents/ui/SettingsGeneral.qml:42
 #, kde-format
 msgid "Load images"
-msgstr "Carrega les imatges"
+msgstr "Carrega les imàgens"
 
 #: src/contents/ui/SettingsGeneral.qml:56
 #, kde-format
@@ -601,7 +601,7 @@ msgstr "Habilita l'Adblock"
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately"
 msgstr ""
-"Quan obriu un enllaç, imatge o suport en una pestanya nova, hi canviarà "
+"Quan obriu un enllaç, image o soport en una pestanya nova, hi canviarà "
 "immediatament"
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:14
