@@ -77,7 +77,7 @@ msgstr "Baixa"
 #: angelfish-webapp/main.cpp:63
 #, kde-format
 msgid "desktop file to open"
-msgstr "Ficher «desktop» que s'obrirà"
+msgstr "Fitxer «desktop» que s'obrirà"
 
 #: angelfish-webapp/main.cpp:90
 #, kde-format
@@ -107,7 +107,7 @@ msgstr "Ha fallat la baixada"
 #: lib/contents/ui/AuthSheet.qml:21
 #, kde-format
 msgid "Authentication required"
-msgstr "Es requereix autenticació"
+msgstr "Es requerix autenticació"
 
 #: lib/contents/ui/AuthSheet.qml:30
 #, kde-format
@@ -135,7 +135,7 @@ msgstr "Cancela"
 #: lib/contents/ui/DownloadQuestion.qml:12
 #, kde-format
 msgid "Do you want to download this file?"
-msgstr "Voleu baixar este ficher?"
+msgstr "Voleu baixar este fitxer?"
 
 #: lib/contents/ui/ErrorHandler.qml:47
 #, kde-format
