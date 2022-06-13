@@ -53,13 +53,13 @@ msgstr "Apega"
 #: lib/contents/ui/WebView.qml:83
 #, kde-format
 msgid "Search online for '%1'"
-msgstr "Busca en llínea de «%1»"
+msgstr "Busca en línia de «%1»"
 
 #: angelfish-webapp/contents/ui/WebAppView.qml:46
 #: lib/contents/ui/WebView.qml:83
 #, kde-format
 msgid "Search online"
-msgstr "Busca en llínea"
+msgstr "Busca en línia"
 
 #: angelfish-webapp/contents/ui/WebAppView.qml:51
 #: lib/contents/ui/WebView.qml:88
@@ -130,7 +130,7 @@ msgstr "Accepta"
 #: src/contents/ui/Downloads.qml:41
 #, kde-format
 msgid "Cancel"
-msgstr "Cancela"
+msgstr "Cancel·la"
 
 #: lib/contents/ui/DownloadQuestion.qml:12
 #, kde-format
@@ -162,7 +162,7 @@ msgstr ""
 " Si voleu, podeu continuar amb un certificat sense verificar.\n"
 " Acceptar un certificat sense verificar vol dir que no podreu\n"
 " estar connectat amb l'amfitrió amb el qual intenteu connectar.\n"
-" Voleu anular la comprovació de seguretat i continuar?"
+" Voleu anul·lar la comprovació de seguretat i continuar?"
 
 #: lib/contents/ui/ErrorHandler.qml:79
 #, kde-format
@@ -206,7 +206,7 @@ msgstr ""
 #: lib/contents/ui/PermissionQuestion.qml:16
 #, kde-format
 msgid "Do you want to allow the website to access the geo location?"
-msgstr "Voleu permetre que el lloc web accedisca a la geolocalisació?"
+msgstr "Voleu permetre que el lloc web accedisca a la geolocalització?"
 
 #: lib/contents/ui/PermissionQuestion.qml:19
 #, kde-format
@@ -216,13 +216,13 @@ msgstr "Voleu permetre que el lloc web accedisca al micròfon?"
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format
 msgid "Do you want to allow the website to access the camera?"
-msgstr "Voleu permetre que el lloc web accedisca a la càmara?"
+msgstr "Voleu permetre que el lloc web accedisca a la càmera?"
 
 #: lib/contents/ui/PermissionQuestion.qml:25
 #, kde-format
 msgid ""
 "Do you want to allow the website to access the camera and the microphone?"
-msgstr "Voleu permetre que el lloc web accedisca a la càmara i al micròfon?"
+msgstr "Voleu permetre que el lloc web accedisca a la càmera i al micròfon?"
 
 #: lib/contents/ui/PermissionQuestion.qml:28
 #, kde-format
@@ -417,7 +417,7 @@ msgstr "Completada"
 #: src/contents/ui/Downloads.qml:95
 #, kde-format
 msgid "Cancelled"
-msgstr "Cancelada"
+msgstr "Cancel·lada"
 
 #: src/contents/ui/Downloads.qml:97
 #, kde-format
@@ -454,12 +454,12 @@ msgstr "Pestanyes"
 #: src/contents/ui/mobile.qml:69
 #, kde-format
 msgid "Leave private mode"
-msgstr "Ix de modo privat"
+msgstr "Ix del mode privat"
 
 #: src/contents/ui/mobile.qml:69
 #, kde-format
 msgid "Private mode"
-msgstr "Modo privat"
+msgstr "Mode privat"
 
 #: src/contents/ui/mobile.qml:276 src/contents/ui/ShareSheet.qml:18
 #, kde-format
@@ -544,7 +544,7 @@ msgstr "Configuració de l'Adblock"
 #: src/contents/ui/SettingsAdblock.qml:27
 #, kde-format
 msgid "Update lists"
-msgstr "Actualisa les llistes"
+msgstr "Actualitza les llistes"
 
 #: src/contents/ui/SettingsAdblock.qml:48
 #, kde-format
@@ -589,7 +589,7 @@ msgstr "Habilita JavaScript"
 #: src/contents/ui/SettingsGeneral.qml:42
 #, kde-format
 msgid "Load images"
-msgstr "Carrega les imàgens"
+msgstr "Carrega les imatges"
 
 #: src/contents/ui/SettingsGeneral.qml:56
 #, kde-format
@@ -601,7 +601,7 @@ msgstr "Habilita l'Adblock"
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately"
 msgstr ""
-"Quan obriu un enllaç, image o soport en una pestanya nova, hi canviarà "
+"Quan obriu un enllaç, imatge o suport en una pestanya nova, hi canviarà "
 "immediatament"
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:14
