@@ -646,7 +646,7 @@ msgstr "Menú contextual en vertical"
 #: src/contents/ui/SettingsNavigationBarPage.qml:95
 #, kde-format
 msgid "Go back"
-msgstr "Retrocedeix"
+msgstr "Retrocedix"
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:123
 #, kde-format
