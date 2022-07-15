@@ -95,7 +95,7 @@ void BookmarksHistoryModel::setQuery()
     }
 
     const qint64 ref = QDateTime::currentSecsSinceEpoch();
-    QSqlQuery query;
+    QSqlQuery query(BrowserManager::instance()->databaseManager()->database());
     if (!query.prepare(command)) {
         qWarning() << Q_FUNC_INFO << "Failed to prepare SQL statement";
         qWarning() << query.lastQuery();

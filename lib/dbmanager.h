@@ -8,6 +8,7 @@
 
 #include <QObject>
 #include <QString>
+#include <QSqlDatabase>
 
 class QSqlQuery;
 
@@ -37,6 +38,10 @@ public:
     void updateIcon(const QString &url, const QString &iconSource);
     void updateLastVisited(const QString &url);
 
+    inline QSqlDatabase database() {
+        return m_database;
+    }
+
 private:
     // version of database schema
     int version();
@@ -62,6 +67,8 @@ private:
     void updateIconRecord(const QString &table, const QString &url, const QString &iconSource);
     void setLastVisitedRecord(const QString &table, const QString &url);
     bool hasRecord(const QString &table, const QString &url) const;
+
+    QSqlDatabase m_database;
 };
 
 #endif // DBMANAGER_H

@@ -15,6 +15,8 @@
 #include <QSqlQuery>
 #include <QString>
 
+#include "browsermanager.h"
+
 // As there is only one instance of the IconImageProvider
 // and icons are added into the database using static methods,
 // engine has to be accessed via static property
@@ -44,7 +46,7 @@ QString IconImageProvider::storeImage(const QString &iconSource)
     QString url = QStringLiteral("image://%1/%2").arg(providerId(), iconSource.mid(prefix_favicon.size()));
 
     // check if we have that image already
-    QSqlQuery query_check;
+    QSqlQuery query_check(BrowserManager::instance()->databaseManager()->database());
     query_check.prepare(QStringLiteral("SELECT 1 FROM icons WHERE url = :url LIMIT 1"));
     query_check.bindValue(QStringLiteral(":url"), url);
     if (!query_check.exec()) {
@@ -96,7 +98,7 @@ QString IconImageProvider::storeImage(const QString &iconSource)
         return iconSource; // as something is wrong
     }
 
-    QSqlQuery query_write;
+    QSqlQuery query_write(BrowserManager::instance()->databaseManager()->database());
     query_write.prepare(QStringLiteral("INSERT INTO icons(url, icon) VALUES (:url, :icon)"));
     query_write.bindValue(QStringLiteral(":url"), url);
     query_write.bindValue(QStringLiteral(":icon"), data);
@@ -112,7 +114,7 @@ QString IconImageProvider::storeImage(const QString &iconSource)
 
 QImage IconImageProvider::requestImage(const QString &id, QSize *size, const QSize & /*requestedSize*/)
 {
-    QSqlQuery query;
+    QSqlQuery query(BrowserManager::instance()->databaseManager()->database());
     query.prepare(QStringLiteral("SELECT icon FROM icons WHERE url LIKE :url LIMIT 1"));
     query.bindValue(QStringLiteral(":url"), QStringLiteral("image://%1/%2%").arg(providerId(), id));
     if (!query.exec()) {

@@ -32,6 +32,10 @@ public:
 
     bool isBookmarked(const QString &url) const;
 
+    inline DBManager *databaseManager() {
+        return m_dbmanager;
+    }
+
 Q_SIGNALS:
     void updated();
 

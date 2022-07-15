@@ -31,9 +31,9 @@ DBManager::DBManager(QObject *parent)
         throw std::runtime_error("Database directory does not exist and cannot be created: " + dbpath.toStdString());
     }
 
-    QSqlDatabase database = QSqlDatabase::addDatabase(QStringLiteral("QSQLITE"));
-    database.setDatabaseName(dbname);
-    if (!database.open()) {
+    m_database = QSqlDatabase::addDatabase(QStringLiteral("QSQLITE"));
+    m_database.setDatabaseName(dbname);
+    if (!m_database.open()) {
         qCritical() << "Failed to open database" << dbname;
         throw std::runtime_error("Failed to open database " + dbname.toStdString());
     }
@@ -49,7 +49,7 @@ DBManager::DBManager(QObject *parent)
 
 int DBManager::version()
 {
-    QSqlQuery query(QStringLiteral("PRAGMA user_version"));
+    QSqlQuery query(QStringLiteral("PRAGMA user_version"), m_database);
     if (query.next()) {
         bool ok = false;
         int value = query.value(0).toInt(&ok);
@@ -61,14 +61,14 @@ int DBManager::version()
 
 void DBManager::setVersion(int v)
 {
-    QSqlQuery query;
+    QSqlQuery query(m_database);
     query.prepare(QStringLiteral("PRAGMA user_version = %1").arg(v));
     query.exec();
 }
 
 bool DBManager::execute(const QString &command)
 {
-    QSqlQuery query;
+    QSqlQuery query(m_database);
     if (!query.exec(command)) {
         qWarning() << Q_FUNC_INFO << "Failed to execute SQL statement";
         qWarning() << query.lastQuery();
@@ -146,7 +146,7 @@ void DBManager::addRecord(const QString &table, const QVariantMap &pagedata)
     if (url.isEmpty() || url == QStringLiteral("about:blank"))
         return;
 
-    QSqlQuery query;
+    QSqlQuery query(m_database);
     query.prepare(QStringLiteral("INSERT OR REPLACE INTO %1 (url, title, icon, lastVisited) "
                                  "VALUES (:url, :title, :icon, :lastVisited)")
                       .arg(table));
@@ -164,7 +164,7 @@ void DBManager::removeRecord(const QString &table, const QString &url)
     if (url.isEmpty())
         return;
 
-    QSqlQuery query;
+    QSqlQuery query(m_database);
     query.prepare(QStringLiteral("DELETE FROM %1 WHERE url = :url").arg(table));
     query.bindValue(QStringLiteral(":url"), url);
     execute(query);
@@ -174,7 +174,7 @@ void DBManager::removeRecord(const QString &table, const QString &url)
 
 void DBManager::removeAllRecords(const QString &table)
 {
-    QSqlQuery query;
+    QSqlQuery query(m_database);
     query.prepare(QStringLiteral("DELETE FROM %1").arg(table));
     execute(query);
 
@@ -183,7 +183,7 @@ void DBManager::removeAllRecords(const QString &table)
 
 bool DBManager::hasRecord(const QString &table, const QString &url) const
 {
-    QSqlQuery query;
+    QSqlQuery query(m_database);
     query.prepare(QStringLiteral("SELECT 1 FROM %1 WHERE url = :url").arg(table));
     query.bindValue(QStringLiteral(":url"), url);
     if (!query.exec()) {
@@ -203,7 +203,7 @@ void DBManager::updateIconRecord(const QString &table, const QString &url, const
     if (url.isEmpty())
         return;
 
-    QSqlQuery query;
+    QSqlQuery query(m_database);
     query.prepare(QStringLiteral("UPDATE %1 SET icon = :icon WHERE url = :url").arg(table));
     query.bindValue(QStringLiteral(":url"), url);
     query.bindValue(QStringLiteral(":icon"), iconSource);
@@ -218,7 +218,7 @@ void DBManager::setLastVisitedRecord(const QString &table, const QString &url)
         return;
 
     const qint64 lastVisited = QDateTime::currentSecsSinceEpoch();
-    QSqlQuery query;
+    QSqlQuery query(m_database);
     query.prepare(QStringLiteral("UPDATE %1 SET lastVisited = :lv WHERE url = :url").arg(table));
     query.bindValue(QStringLiteral(":url"), url);
     query.bindValue(QStringLiteral(":lv"), lastVisited);
