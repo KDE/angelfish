@@ -160,7 +160,10 @@ WebEngineView {
                 return;
             }
 
-            webEngineView.runJavaScript(AdblockUrlInterceptor.getInjectedScript())
+            let script = AdblockUrlInterceptor.getInjectedScript(webEngineView.url)
+            if (script !== "") {
+                webEngineView.runJavaScript(script)
+            }
 
             webEngineView.runJavaScript(
 `var elements = document.querySelectorAll("*[id]");
