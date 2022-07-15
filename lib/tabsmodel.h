@@ -70,7 +70,7 @@ public:
 
     Q_INVOKABLE void setUrl(int index, const QUrl &url);
     Q_INVOKABLE void setIsMobile(int index, bool isMobile);
-    Q_INVOKABLE void setIsDeveloperToolsOpen(int index, bool isDeveloperToolsOpen);
+    Q_INVOKABLE void toggleDeveloperTools(int index);
 
     Q_INVOKABLE bool isDeveloperToolsOpen(int index);
     bool isMobileDefault() const;

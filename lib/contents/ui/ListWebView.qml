@@ -108,8 +108,10 @@ Repeater {
                 Connections {
                     target: tabsModel
                     function onDataChanged(left, right, roles) {
-                        if (tabDelegate.isDeveloperToolsOpen) {
+                        if (tabsModel.isDeveloperToolsOpen(tabDelegate.index)) {
                             developerToolsLoader.setSource("WebDeveloperTools.qml");
+                        } else {
+                            developerToolsLoader.setSource("")
                         }
                     }
                 }

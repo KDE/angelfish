@@ -365,7 +365,7 @@ Kirigami.ApplicationWindow {
                 checkable: true
                 checked: tabs.tabsModel.isDeveloperToolsOpen(tabs.currentIndex);
                 onTriggered: {
-                    tabs.tabsModel.setIsDeveloperToolsOpen(tabs.currentIndex, !tabs.tabsModel.isDeveloperToolsOpen(tabs.currentIndex))
+                    tabs.tabsModel.toggleDeveloperTools(tabs.currentIndex)
                 }
             }
         ]

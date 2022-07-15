@@ -347,13 +347,13 @@ void TabsModel::setIsMobile(int index, bool isMobile)
     saveTabs();
 }
 
-void TabsModel::setIsDeveloperToolsOpen(int index, bool isDeveloperToolsOpen)
+void TabsModel::toggleDeveloperTools(int index)
 {
-    qDebug() << "Setting isDeveloperToolsOpen:" << index << isDeveloperToolsOpen << "tabs open" << m_tabs.count();
     if (index < 0 && index >= m_tabs.count())
         return; // index out of bounds
 
-    m_tabs[index].setIsDeveloperToolsOpen(isDeveloperToolsOpen);
+    auto &tab = m_tabs[index];
+    tab.setIsDeveloperToolsOpen(!tab.isDeveloperToolsOpen());
 
     const QModelIndex mindex = createIndex(index, index);
     Q_EMIT dataChanged(mindex, mindex, {RoleNames::IsDeveloperToolsOpen});
