@@ -192,7 +192,7 @@ classes
 `{
     let adblockStyleElement = document.createElement("style")
     adblockStyleElement.type = "text/css"
-    adblockStyleElement.textContent = "${selectors[i]} { display: none !important; }"
+    adblockStyleElement.textContent = '${selectors[i]} { display: none !important; }'
     document.head.appendChild(adblockStyleElement);
 }`)
                     }
