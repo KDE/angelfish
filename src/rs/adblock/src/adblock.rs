@@ -56,7 +56,7 @@ fn new_adblock(list_dir: &str) -> Box<Adblock> {
 }
 
 fn load_adblock(path: &str) -> Box<Adblock> {
-    let engine = match std::fs::read(path) {
+    let engine = match fs::read(path) {
         Ok(data) => {
             let mut engine = Engine::new(true);
             match engine.deserialize(&data) {
@@ -105,14 +105,13 @@ impl Adblock {
     }
 
     fn get_cosmetic_filters(&self, url: &str, classes: &[String], ids: &[String]) -> Vec<String> {
-        if let Some(engine) = &self.blocker {
-            let cosmetic_resources = engine.url_cosmetic_resources(url);
-            let selectors =
-                engine.hidden_class_id_selectors(classes, ids, &cosmetic_resources.exceptions);
-            return selectors;
-        }
-
-        Vec::new()
+        self.blocker
+            .as_ref()
+            .map(|engine| {
+                let cosmetic_resources = engine.url_cosmetic_resources(url);
+                engine.hidden_class_id_selectors(classes, ids, &cosmetic_resources.exceptions)
+            })
+            .unwrap_or_default()
     }
 
     fn save(&self, path: &str) -> bool {
