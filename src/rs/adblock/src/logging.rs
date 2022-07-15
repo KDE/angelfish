@@ -2,10 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-use std::ffi::CString;
-use std::os::raw::c_char;
-
-use std::mem::drop;
+use std::{ffi::CString, mem::drop, os::raw::c_char};
 
 extern "C" {
     fn q_cdebug_adblock(message: *const c_char);

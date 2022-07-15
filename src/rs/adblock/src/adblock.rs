@@ -5,9 +5,9 @@
 use std::fs;
 use std::io::Write;
 
-use adblock::engine::Engine;
 use adblock::{
     blocker::Redirection,
+    engine::Engine,
     lists::{FilterSet, ParseOptions},
 };
 
