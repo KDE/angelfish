@@ -10,6 +10,7 @@
 
 #include <KConfigGroup>
 #include <KDesktopFile>
+#include <KSandbox>
 
 WebAppManager::WebAppManager(QObject *parent)
     : QObject(parent)
@@ -38,7 +39,7 @@ WebAppManager::WebAppManager(QObject *parent)
 QString WebAppManager::desktopFileDirectory()
 {
     auto dir = []() -> QString {
-        if (isFlatpak()) {
+        if (KSandbox::isFlatpak()) {
             return qEnvironmentVariable("HOME") % u"/.local/share/applications/";
         }
         return QStandardPaths::writableLocation(QStandardPaths::ApplicationsLocation);
@@ -52,7 +53,7 @@ QString WebAppManager::desktopFileDirectory()
 QString WebAppManager::iconDirectory()
 {
     auto dir = []() -> QString {
-        if (isFlatpak()) {
+        if (KSandbox::isFlatpak()) {
             return qEnvironmentVariable("HOME") % u"/.local/share/icons/hicolor/16x16/apps/";
         }
         return QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QStringLiteral("/icons/hicolor/16x16/apps/");
@@ -140,7 +141,7 @@ QString WebAppManager::generateDesktopFileName(const QString &name)
 
 QString WebAppManager::webAppCommand()
 {
-    if (isFlatpak()) {
+    if (KSandbox::isFlatpak()) {
         return QStringLiteral(
                    "flatpak run "
                    "--command=angelfish-webapp "
@@ -150,10 +151,4 @@ QString WebAppManager::webAppCommand()
     }
 
     return QStringLiteral("angelfish-webapp");
-}
-
-bool WebAppManager::isFlatpak()
-{
-    static bool isFlatpak = !QStandardPaths::locate(QStandardPaths::RuntimeLocation, QStringLiteral("flatpak-info")).isEmpty();
-    return isFlatpak;
 }
