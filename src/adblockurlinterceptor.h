@@ -53,6 +53,7 @@ public:
     Q_INVOKABLE std::vector<QString> getCosmeticFilters(const QUrl &url,
                                                         const std::vector<QString> &classes,
                                                         const std::vector<QString> &ids) const;
+    Q_INVOKABLE QString getInjectedScript(const QUrl &url) const;
 #endif
 
     Q_SIGNAL void adblockInitialized();

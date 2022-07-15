@@ -104,6 +104,13 @@ impl Adblock {
         ffi::AdblockResult::default()
     }
 
+    fn get_injected_script(&self, url: &str) -> String {
+        self.blocker
+            .as_ref()
+            .map(|engine| engine.url_cosmetic_resources(url).injected_script)
+            .unwrap_or_default()
+    }
+
     fn get_cosmetic_filters(&self, url: &str, classes: &[String], ids: &[String]) -> Vec<String> {
         self.blocker
             .as_ref()
@@ -179,6 +186,8 @@ mod ffi {
             classes: &[String],
             ids: &[String],
         ) -> Vec<String>;
+        #[cxx_name = "getInjectedScript"]
+        fn get_injected_script(self: &Adblock, url: &str) -> String;
         fn save(self: &Adblock, path: &str) -> bool;
     }
 }

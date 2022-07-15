@@ -38,6 +38,8 @@ auto toQtType(T input) {
             return QString::fromStdString(std::string(c));
         });
         return qStringVec;
+    } else if constexpr (std::is_same_v<T, rust::String>) {
+        return QString::fromStdString(std::string(input));
     }
 }
 #endif
@@ -135,7 +137,7 @@ std::vector<QString> AdblockUrlInterceptor::getCosmeticFilters(const QUrl &url,
                                                                const std::vector<QString> &ids) const
 {
     if (!m_adblock.has_value()) {
-        return std::vector<QString>();
+        return {};
     }
 
     const auto rustClasses = toRustType(classes);
@@ -143,6 +145,16 @@ std::vector<QString> AdblockUrlInterceptor::getCosmeticFilters(const QUrl &url,
     return toQtType((*m_adblock)->getCosmeticFilters(url.toString().toStdString(),
                                                      {rustClasses.data(), rustClasses.size()},
                                                      {rustIds.data(), rustIds.size()}));
+}
+
+QString AdblockUrlInterceptor::getInjectedScript(const QUrl &url) const
+{
+    if (!m_adblock) {
+        return {};
+    }
+
+    auto u = (*m_adblock)->getInjectedScript(url.toString().toStdString());
+    return toQtType(u);
 }
 #endif
 

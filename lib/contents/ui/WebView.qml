@@ -160,6 +160,8 @@ WebEngineView {
                 return;
             }
 
+            webEngineView.runJavaScript(AdblockUrlInterceptor.getInjectedScript())
+
             webEngineView.runJavaScript(
 `var elements = document.querySelectorAll("*[id]");
 var ids = [];
