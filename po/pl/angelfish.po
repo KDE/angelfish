@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-28 00:46+0000\n"
+"POT-Creation-Date: 2022-07-16 00:50+0000\n"
 "PO-Revision-Date: 2022-05-03 07:36+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -252,7 +252,7 @@ msgstr "Pokaż źródło"
 msgid "Open in new Tab"
 msgstr "Otwórz w nowej karcie"
 
-#: lib/contents/ui/WebView.qml:234
+#: lib/contents/ui/WebView.qml:239
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr "Strona sieciowa otworzyła się w nowej karcie"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-28 00:46+0000\n"
+"POT-Creation-Date: 2022-07-16 00:50+0000\n"
 "PO-Revision-Date: 2022-07-10 09:19\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -250,7 +250,7 @@ msgstr "查看源代码"
 msgid "Open in new Tab"
 msgstr "在新标签页中打开"
 
-#: lib/contents/ui/WebView.qml:234
+#: lib/contents/ui/WebView.qml:239
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr "网站已在新标签页中打开"

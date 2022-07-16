@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-28 00:46+0000\n"
+"POT-Creation-Date: 2022-07-16 00:50+0000\n"
 "PO-Revision-Date: 2022-04-29 09:55+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -251,7 +251,7 @@ msgstr "Poglej vir"
 msgid "Open in new Tab"
 msgstr "Odpri v novem zavihku"
 
-#: lib/contents/ui/WebView.qml:234
+#: lib/contents/ui/WebView.qml:239
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr "Spletišče je bilo odprto v novem zavihku"
