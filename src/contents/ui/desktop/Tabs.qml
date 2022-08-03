@@ -197,7 +197,13 @@ RowLayout {
                     icon.name: "tab-close"
                     onClicked: tabs.tabsModel.closeTab(model.index)
 
-                    opacity: control.hovered ? 1 : 0
+                    opacity: {
+                        if(Kirigami.Settings.tabletMode) {
+                            1
+                        } else {
+                            control.hovered ? 1 : 0
+                        }
+                    }
                     Behavior on opacity {
                         OpacityAnimator {
                             duration: Kirigami.Units.shortDuration
