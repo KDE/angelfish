@@ -10,5 +10,6 @@
         <file alias="WebDeveloperTools.qml">contents/ui/WebDeveloperTools.qml</file>
         <file alias="SelectDropdownOverrideDialog.qml">contents/ui/SelectDropdownOverrideDialog.qml</file>
         <file alias="select_overrides.js">contents/ui/select_overrides.js</file>
+        <file alias="Questions.qml">contents/ui/Questions.qml</file>
     </qresource>
 </RCC>

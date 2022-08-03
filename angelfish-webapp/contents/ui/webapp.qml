@@ -34,6 +34,8 @@ Kirigami.ApplicationWindow {
         Kirigami.ColumnView.pinned: true
         Kirigami.ColumnView.preventStealing: true
 
+        property alias questions: questions
+
         WebAppView {
             // ID for compatibility with angelfish components
             id: currentWebView
@@ -53,6 +55,14 @@ Kirigami.ApplicationWindow {
 
         Loader {
             id: questionLoader
+
+            anchors.bottom: parent.bottom
+            anchors.left: parent.left
+            anchors.right: parent.right
+        }
+
+        Question {
+            id: questions
 
             anchors.bottom: parent.bottom
             anchors.left: parent.left

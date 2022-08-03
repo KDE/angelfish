@@ -142,6 +142,7 @@ Kirigami.ApplicationWindow {
         property bool navigationAutoShow: true
 
         property alias questionLoader: questionLoader
+        property alias questions: questions
 
         ListWebView {
             id: regularTabs
@@ -205,6 +206,14 @@ Kirigami.ApplicationWindow {
                     questionLoader.setSource("AdblockFilterDownloadQuestion.qml")
                 }
             }
+
+            anchors.bottom: navigation.top
+            anchors.left: parent.left
+            anchors.right: parent.right
+        }
+
+        Question {
+            id: questions
 
             anchors.bottom: navigation.top
             anchors.left: parent.left

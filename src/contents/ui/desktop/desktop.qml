@@ -364,6 +364,7 @@ Kirigami.ApplicationWindow {
         property bool privateMode: false
 
         property alias questionLoader: questionLoader
+        property alias questions: questions
 
         header: Loader {
             id: tabsLoader
@@ -451,6 +452,14 @@ Kirigami.ApplicationWindow {
                     questionLoader.setSource("AdblockFilterDownloadQuestion.qml")
                 }
             }
+
+            anchors.top: parent.top
+            anchors.left: parent.left
+            anchors.right: parent.right
+        }
+
+        Questions {
+            id: questions
 
             anchors.top: parent.top
             anchors.left: parent.left

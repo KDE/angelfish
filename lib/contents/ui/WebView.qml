@@ -103,7 +103,6 @@ WebEngineView {
         }
     }
 
-
     UserAgentGenerator {
         id: userAgent
         onUserAgentChanged: webEngineView.reload()
@@ -118,6 +117,8 @@ WebEngineView {
         touchIconsEnabled: true
         // Disable scrollbars on mobile
         showScrollBars: !Kirigami.Settings.isMobile
+        // Generally allow screen sharing, still needs permission from the user
+        screenCaptureEnabled: true
     }
 
     focus: true
@@ -273,11 +274,11 @@ classes
         sheetLoader.item.open()
     }
 
-    onFeaturePermissionRequested: {
-        questionLoader.setSource("PermissionQuestion.qml")
-        questionLoader.item.permission = feature
-        questionLoader.item.origin = securityOrigin
-        questionLoader.item.visible = true
+    onFeaturePermissionRequested: (securityOrigin, feature) => {
+        let newQuestion = rootPage.questions.newPermissionQuestion()
+        newQuestion.permission = feature
+        newQuestion.origin = securityOrigin
+        newQuestion.visible = true
     }
 
     onJavaScriptDialogRequested: {
