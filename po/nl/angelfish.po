@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-16 00:50+0000\n"
+"POT-Creation-Date: 2022-08-04 00:48+0000\n"
 "PO-Revision-Date: 2022-04-28 10:11+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -250,7 +250,7 @@ msgstr "Broncode tonen"
 msgid "Open in new Tab"
 msgstr "In nieuw tabblad openen"
 
-#: lib/contents/ui/WebView.qml:239
+#: lib/contents/ui/WebView.qml:240
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr "Website is geopend in een nieuw tabblad"
@@ -305,12 +305,12 @@ msgstr "Downloads"
 msgid "Full Screen"
 msgstr "Volledig scherm"
 
-#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:364
+#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:373
 #, kde-format
 msgid "Show developer tools"
 msgstr "Hulpmiddelen voor ontwikkelaars tonen"
 
-#: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:272
+#: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:281
 #, kde-format
 msgid "Find in page"
 msgstr "In pagina zoeken"
@@ -456,63 +456,63 @@ msgstr "Modus privé verlaten"
 msgid "Private mode"
 msgstr "Modus privé"
 
-#: src/contents/ui/mobile.qml:276 src/contents/ui/ShareSheet.qml:18
+#: src/contents/ui/mobile.qml:285 src/contents/ui/ShareSheet.qml:18
 #, kde-format
 msgid "Share page"
 msgstr "Pagina delen"
 
-#: src/contents/ui/mobile.qml:287
+#: src/contents/ui/mobile.qml:296
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Aan thuisscherm toevoegen"
 
-#: src/contents/ui/mobile.qml:297
+#: src/contents/ui/mobile.qml:306
 #, kde-format
 msgid "Open in app"
 msgstr "In toepassing openen"
 
-#: src/contents/ui/mobile.qml:305
+#: src/contents/ui/mobile.qml:314
 #, kde-format
 msgid "Go previous"
 msgstr "Ga naar vorige"
 
-#: src/contents/ui/mobile.qml:313
+#: src/contents/ui/mobile.qml:322
 #: src/contents/ui/SettingsNavigationBarPage.qml:109
 #, kde-format
 msgid "Go forward"
 msgstr "Ga verder"
 
-#: src/contents/ui/mobile.qml:320
+#: src/contents/ui/mobile.qml:329
 #, kde-format
 msgid "Stop loading"
 msgstr "Laden stoppen"
 
-#: src/contents/ui/mobile.qml:320
+#: src/contents/ui/mobile.qml:329
 #, kde-format
 msgid "Refresh"
 msgstr "Vernieuwen"
 
-#: src/contents/ui/mobile.qml:330
+#: src/contents/ui/mobile.qml:339
 #, kde-format
 msgid "Bookmarked"
 msgstr "Met bladwijzer"
 
-#: src/contents/ui/mobile.qml:330
+#: src/contents/ui/mobile.qml:339
 #, kde-format
 msgid "Bookmark"
 msgstr "Bladwijzer"
 
-#: src/contents/ui/mobile.qml:346
+#: src/contents/ui/mobile.qml:355
 #, kde-format
 msgid "Show desktop site"
 msgstr "Bureaubladsite tonen"
 
-#: src/contents/ui/mobile.qml:355
+#: src/contents/ui/mobile.qml:364
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "Navigatiebalk verbergen"
 
-#: src/contents/ui/mobile.qml:355
+#: src/contents/ui/mobile.qml:364
 #, kde-format
 msgid "Show navigation bar"
 msgstr "Navigatiebalk tonen"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-16 00:50+0000\n"
+"POT-Creation-Date: 2022-08-04 00:48+0000\n"
 "PO-Revision-Date: 2022-06-17 18:43+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -250,7 +250,7 @@ msgstr "Näytä lähdekoodi"
 msgid "Open in new Tab"
 msgstr "Avaa uuteen välilehteen"
 
-#: lib/contents/ui/WebView.qml:239
+#: lib/contents/ui/WebView.qml:240
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr "Uuteen välilehteen avattava sivusto"
@@ -304,12 +304,12 @@ msgstr "Lataukset"
 msgid "Full Screen"
 msgstr "Koko näyttö"
 
-#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:364
+#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:373
 #, kde-format
 msgid "Show developer tools"
 msgstr "Näytä kehitystyökalut"
 
-#: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:272
+#: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:281
 #, kde-format
 msgid "Find in page"
 msgstr "Etsi sivulta"
@@ -455,63 +455,63 @@ msgstr "Poistu yksityistilasta"
 msgid "Private mode"
 msgstr "Yksityistila"
 
-#: src/contents/ui/mobile.qml:276 src/contents/ui/ShareSheet.qml:18
+#: src/contents/ui/mobile.qml:285 src/contents/ui/ShareSheet.qml:18
 #, kde-format
 msgid "Share page"
 msgstr "Jaa sivu"
 
-#: src/contents/ui/mobile.qml:287
+#: src/contents/ui/mobile.qml:296
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Lisää kotinäyttöön"
 
-#: src/contents/ui/mobile.qml:297
+#: src/contents/ui/mobile.qml:306
 #, kde-format
 msgid "Open in app"
 msgstr "Avaa sovellukseen"
 
-#: src/contents/ui/mobile.qml:305
+#: src/contents/ui/mobile.qml:314
 #, kde-format
 msgid "Go previous"
 msgstr "Siirry edelliseen"
 
-#: src/contents/ui/mobile.qml:313
+#: src/contents/ui/mobile.qml:322
 #: src/contents/ui/SettingsNavigationBarPage.qml:109
 #, kde-format
 msgid "Go forward"
 msgstr "Siirry eteenpäin"
 
-#: src/contents/ui/mobile.qml:320
+#: src/contents/ui/mobile.qml:329
 #, kde-format
 msgid "Stop loading"
 msgstr "Keskeytä lataaminen"
 
-#: src/contents/ui/mobile.qml:320
+#: src/contents/ui/mobile.qml:329
 #, kde-format
 msgid "Refresh"
 msgstr "Virkistä"
 
-#: src/contents/ui/mobile.qml:330
+#: src/contents/ui/mobile.qml:339
 #, kde-format
 msgid "Bookmarked"
 msgstr "Kirjanmerkitty"
 
-#: src/contents/ui/mobile.qml:330
+#: src/contents/ui/mobile.qml:339
 #, kde-format
 msgid "Bookmark"
 msgstr "Kirjanmerkki"
 
-#: src/contents/ui/mobile.qml:346
+#: src/contents/ui/mobile.qml:355
 #, kde-format
 msgid "Show desktop site"
 msgstr "Näytä työpöytäsivusto"
 
-#: src/contents/ui/mobile.qml:355
+#: src/contents/ui/mobile.qml:364
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "Piilota navigointirivi"
 
-#: src/contents/ui/mobile.qml:355
+#: src/contents/ui/mobile.qml:364
 #, kde-format
 msgid "Show navigation bar"
 msgstr "Näytä navigointirivi"

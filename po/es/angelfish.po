@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-16 00:50+0000\n"
+"POT-Creation-Date: 2022-08-04 00:48+0000\n"
 "PO-Revision-Date: 2022-04-28 20:10+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -253,7 +253,7 @@ msgstr "Ver código fuente"
 msgid "Open in new Tab"
 msgstr "Abrir en nueva pestaña"
 
-#: lib/contents/ui/WebView.qml:239
+#: lib/contents/ui/WebView.qml:240
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr "El sitio web se ha abierto en una nueva pestaña"
@@ -309,12 +309,12 @@ msgstr "Descargas"
 msgid "Full Screen"
 msgstr "Pantalla completa"
 
-#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:364
+#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:373
 #, kde-format
 msgid "Show developer tools"
 msgstr "Mostrar herramientas de desarrollador"
 
-#: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:272
+#: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:281
 #, kde-format
 msgid "Find in page"
 msgstr "Buscar en la página"
@@ -460,63 +460,63 @@ msgstr "Abandonar el modo privado"
 msgid "Private mode"
 msgstr "Modo privado"
 
-#: src/contents/ui/mobile.qml:276 src/contents/ui/ShareSheet.qml:18
+#: src/contents/ui/mobile.qml:285 src/contents/ui/ShareSheet.qml:18
 #, kde-format
 msgid "Share page"
 msgstr "Compartir página"
 
-#: src/contents/ui/mobile.qml:287
+#: src/contents/ui/mobile.qml:296
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Añadir a la pantalla de inicio"
 
-#: src/contents/ui/mobile.qml:297
+#: src/contents/ui/mobile.qml:306
 #, kde-format
 msgid "Open in app"
 msgstr "Abrir en la aplicación"
 
-#: src/contents/ui/mobile.qml:305
+#: src/contents/ui/mobile.qml:314
 #, kde-format
 msgid "Go previous"
 msgstr "Retroceder"
 
-#: src/contents/ui/mobile.qml:313
+#: src/contents/ui/mobile.qml:322
 #: src/contents/ui/SettingsNavigationBarPage.qml:109
 #, kde-format
 msgid "Go forward"
 msgstr "Avanzar"
 
-#: src/contents/ui/mobile.qml:320
+#: src/contents/ui/mobile.qml:329
 #, kde-format
 msgid "Stop loading"
 msgstr "Detener la carga"
 
-#: src/contents/ui/mobile.qml:320
+#: src/contents/ui/mobile.qml:329
 #, kde-format
 msgid "Refresh"
 msgstr "Actualizar"
 
-#: src/contents/ui/mobile.qml:330
+#: src/contents/ui/mobile.qml:339
 #, kde-format
 msgid "Bookmarked"
 msgstr "Marcado"
 
-#: src/contents/ui/mobile.qml:330
+#: src/contents/ui/mobile.qml:339
 #, kde-format
 msgid "Bookmark"
 msgstr "Marcador"
 
-#: src/contents/ui/mobile.qml:346
+#: src/contents/ui/mobile.qml:355
 #, kde-format
 msgid "Show desktop site"
 msgstr "Mostrar el sitio del escritorio"
 
-#: src/contents/ui/mobile.qml:355
+#: src/contents/ui/mobile.qml:364
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "Ocultar la barra de navegación"
 
-#: src/contents/ui/mobile.qml:355
+#: src/contents/ui/mobile.qml:364
 #, kde-format
 msgid "Show navigation bar"
 msgstr "Mostrar la barra de navegación"

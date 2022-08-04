@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-16 00:50+0000\n"
+"POT-Creation-Date: 2022-08-04 00:48+0000\n"
 "PO-Revision-Date: 2021-09-19 08:34+0300\n"
 "Last-Translator: Stelios <sstavra@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -253,7 +253,7 @@ msgstr "Προβολή πηγαίου κώδικα"
 msgid "Open in new Tab"
 msgstr "Άνοιγμα σε νέα καρτέλα"
 
-#: lib/contents/ui/WebView.qml:239
+#: lib/contents/ui/WebView.qml:240
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr "Ο ιστότοπος άνοιξε σε νέα καρτέλα"
@@ -310,12 +310,12 @@ msgstr "Λήψεις"
 msgid "Full Screen"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:364
+#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:373
 #, kde-format
 msgid "Show developer tools"
 msgstr "Εμφάνιση εργαλείων προγραμματιστή"
 
-#: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:272
+#: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:281
 #, kde-format
 msgid "Find in page"
 msgstr "Εύρεση σε σελίδα"
@@ -464,63 +464,63 @@ msgstr "Να παραμείνει σε ιδιωτική λειτουργία"
 msgid "Private mode"
 msgstr "Ιδιωτική λειτουργία"
 
-#: src/contents/ui/mobile.qml:276 src/contents/ui/ShareSheet.qml:18
+#: src/contents/ui/mobile.qml:285 src/contents/ui/ShareSheet.qml:18
 #, kde-format
 msgid "Share page"
 msgstr "Διαμοιρασμός σελίδας"
 
-#: src/contents/ui/mobile.qml:287
+#: src/contents/ui/mobile.qml:296
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Προσθήκη στην προσωπική οθόνη"
 
-#: src/contents/ui/mobile.qml:297
+#: src/contents/ui/mobile.qml:306
 #, kde-format
 msgid "Open in app"
 msgstr "Άνοιγμα σε εφαρμογή"
 
-#: src/contents/ui/mobile.qml:305
+#: src/contents/ui/mobile.qml:314
 #, kde-format
 msgid "Go previous"
 msgstr "Μετάβαση στην προηγούμενη"
 
-#: src/contents/ui/mobile.qml:313
+#: src/contents/ui/mobile.qml:322
 #: src/contents/ui/SettingsNavigationBarPage.qml:109
 #, kde-format
 msgid "Go forward"
 msgstr "Μετάβαση στην επόμενη"
 
-#: src/contents/ui/mobile.qml:320
+#: src/contents/ui/mobile.qml:329
 #, kde-format
 msgid "Stop loading"
 msgstr "Διακοπή φόρτωσης"
 
-#: src/contents/ui/mobile.qml:320
+#: src/contents/ui/mobile.qml:329
 #, kde-format
 msgid "Refresh"
 msgstr "Ανανέωση"
 
-#: src/contents/ui/mobile.qml:330
+#: src/contents/ui/mobile.qml:339
 #, kde-format
 msgid "Bookmarked"
 msgstr "Στους σελιδοδείκτες"
 
-#: src/contents/ui/mobile.qml:330
+#: src/contents/ui/mobile.qml:339
 #, kde-format
 msgid "Bookmark"
 msgstr "Σελιδοδείκτης"
 
-#: src/contents/ui/mobile.qml:346
+#: src/contents/ui/mobile.qml:355
 #, kde-format
 msgid "Show desktop site"
 msgstr "Εμφάνιση τόπου επιφάνειας εργασίας"
 
-#: src/contents/ui/mobile.qml:355
+#: src/contents/ui/mobile.qml:364
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "Απόκρυψη γραμμής πλοήγησης"
 
-#: src/contents/ui/mobile.qml:355
+#: src/contents/ui/mobile.qml:364
 #, kde-format
 msgid "Show navigation bar"
 msgstr "Εμφάνιση γραμμής πλοήγησης"

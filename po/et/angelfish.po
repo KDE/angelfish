@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-16 00:50+0000\n"
+"POT-Creation-Date: 2022-08-04 00:48+0000\n"
 "PO-Revision-Date: 2020-06-03 20:47+0300\n"
 "Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
 "Language-Team: Estonian <kde-et@lists.linux.ee>\n"
@@ -244,7 +244,7 @@ msgstr "Vaata lähtekoodi"
 msgid "Open in new Tab"
 msgstr "Ava uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:239
+#: lib/contents/ui/WebView.qml:240
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr "Veebilehekülg avati uuel kaardil"
@@ -301,12 +301,12 @@ msgstr "Laadi alla"
 msgid "Full Screen"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:364
+#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:373
 #, kde-format
 msgid "Show developer tools"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:272
+#: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:281
 #, kde-format
 msgid "Find in page"
 msgstr "Otsi leheküljelt"
@@ -455,64 +455,64 @@ msgstr "Välju privaatrežiimist"
 msgid "Private mode"
 msgstr "Privaatrežiim"
 
-#: src/contents/ui/mobile.qml:276 src/contents/ui/ShareSheet.qml:18
+#: src/contents/ui/mobile.qml:285 src/contents/ui/ShareSheet.qml:18
 #, kde-format
 msgid "Share page"
 msgstr "Jaga lehekülge"
 
-#: src/contents/ui/mobile.qml:287
+#: src/contents/ui/mobile.qml:296
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Lisa avaekraanile"
 
-#: src/contents/ui/mobile.qml:297
+#: src/contents/ui/mobile.qml:306
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgid "Open in app"
 msgstr "Ava uuel kaardil"
 
-#: src/contents/ui/mobile.qml:305
+#: src/contents/ui/mobile.qml:314
 #, kde-format
 msgid "Go previous"
 msgstr "Liigu tagasi"
 
-#: src/contents/ui/mobile.qml:313
+#: src/contents/ui/mobile.qml:322
 #: src/contents/ui/SettingsNavigationBarPage.qml:109
 #, kde-format
 msgid "Go forward"
 msgstr "Liigu edasi"
 
-#: src/contents/ui/mobile.qml:320
+#: src/contents/ui/mobile.qml:329
 #, kde-format
 msgid "Stop loading"
 msgstr "Peata laadimine"
 
-#: src/contents/ui/mobile.qml:320
+#: src/contents/ui/mobile.qml:329
 #, kde-format
 msgid "Refresh"
 msgstr "Värskenda"
 
-#: src/contents/ui/mobile.qml:330
+#: src/contents/ui/mobile.qml:339
 #, kde-format
 msgid "Bookmarked"
 msgstr "järjehoidjates"
 
-#: src/contents/ui/mobile.qml:330
+#: src/contents/ui/mobile.qml:339
 #, kde-format
 msgid "Bookmark"
 msgstr "Järjehoidjatesse"
 
-#: src/contents/ui/mobile.qml:346
+#: src/contents/ui/mobile.qml:355
 #, kde-format
 msgid "Show desktop site"
 msgstr "Näita töölaua saiti"
 
-#: src/contents/ui/mobile.qml:355
+#: src/contents/ui/mobile.qml:364
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "Peida liikumisriba"
 
-#: src/contents/ui/mobile.qml:355
+#: src/contents/ui/mobile.qml:364
 #, kde-format
 msgid "Show navigation bar"
 msgstr "Näita liikumisriba"
