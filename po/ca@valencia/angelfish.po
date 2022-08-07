@@ -539,7 +539,7 @@ msgstr "Obri"
 #: src/contents/ui/SettingsAdblock.qml:17
 #, kde-format
 msgid "Adblock settings"
-msgstr "Configuració de l'Adblock"
+msgstr "Configuració d'Adblock"
 
 #: src/contents/ui/SettingsAdblock.qml:27
 #, kde-format
@@ -594,7 +594,7 @@ msgstr "Carrega les imatges"
 #: src/contents/ui/SettingsGeneral.qml:56
 #, kde-format
 msgid "Enable adblock"
-msgstr "Habilita l'Adblock"
+msgstr "Habilita Adblock"
 
 #: src/contents/ui/SettingsGeneral.qml:73
 #, kde-format
