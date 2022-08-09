@@ -44,6 +44,7 @@ Currently the dependencies are:
  * Qt (including QtCore, QtQuick, QtTest, QtGui, QtSvg, QtQuickControls2, QtSql and QtFeedback)
  * The KDE Frameworks (including Kirigami2, Purpose, I18n, Config, CoreAddons, DBusAddons, WindowSystem, Notifications)
  * Rust (including cargo and rustc) (optional)
+ * [Corrosion](https://github.com/corrosion-rs/corrosion) (optional)
 
 Please check the community wiki for how to build projects with kdesrc-build.
 If you went for using your distribution's package manager, then you can build (and install) Angelfish like this:
