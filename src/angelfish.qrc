@@ -2,6 +2,7 @@
     <qresource prefix="/">
         <file alias="FindInPageBar.qml">contents/ui/FindInPageBar.qml</file>
         <file alias="regex-weburl.js">regex-weburl/regex-weburl.js</file>
+        <file alias="domdistiller.js">dom-distiller-dist/domdistiller.js</file>
         <file alias="ShareSheet.qml">contents/ui/ShareSheet.qml</file>
         <file alias="AdblockFilterDownloadQuestion.qml">contents/ui/AdblockFilterDownloadQuestion.qml</file>
         <file alias="SettingsAdblock.qml">contents/ui/SettingsAdblock.qml</file>

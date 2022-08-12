@@ -28,6 +28,7 @@
 #include "angelfishwebprofile.h"
 #include "bookmarkshistorymodel.h"
 #include "browsermanager.h"
+#include "domdistiller.h"
 #include "downloadsmodel.h"
 #include "iconimageprovider.h"
 #include "tabsmodel.h"
@@ -136,6 +137,11 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     qmlRegisterType<WebAppManagerModel>(APPLICATION_ID, 1, 0, "WebAppManagerModel");
     qmlRegisterType<WebAppCreator>(APPLICATION_ID, 1, 0, "WebAppCreator");
     qmlRegisterAnonymousType<QWebEngineUrlRequestInterceptor>(APPLICATION_ID, 1);
+
+    // Dom Distiller
+    qmlRegisterSingletonType<DomDistiller>(APPLICATION_ID, 1, 0, "DomDistiller", [](QQmlEngine *, QJSEngine *) -> QObject * {
+        return new DomDistiller();
+    });
 
     // URL utils
     qmlRegisterSingletonType<UrlUtils>(APPLICATION_ID, 1, 0, "UrlUtils", [](QQmlEngine *, QJSEngine *) -> QObject * {

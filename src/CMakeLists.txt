@@ -8,6 +8,7 @@ set(angelfish_SRCS
     adblockfilterlistsmodel.cpp
     adblockfilterlistsmanager.cpp
     adblockurlinterceptor.cpp
+    domdistiller.cpp
     downloadsmodel.cpp
     webappcreator.cpp
     webappmanager.cpp

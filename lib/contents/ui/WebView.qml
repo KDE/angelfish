@@ -112,31 +112,14 @@ WebEngineView {
     // string to keep last title to return from reader mode
     property string readerTitle
 
-    // helper function to load remote text by url
-    function getText(url, callback) {
-        var xmlhttp = new XMLHttpRequest();
-        xmlhttp.onreadystatechange = function() {
-            if (xmlhttp.readyState == XMLHttpRequest.DONE && xmlhttp.status == 200) {
-                callback(xmlhttp.responseText)
-            }
-        }
-        xmlhttp.open("GET", url, true);
-        xmlhttp.send();
-    }
-
     // helper function to apply DomDistiller
     function readerDistillerRun() {
         readerSourceUrl = url
-        const sourceUrl = "https://raw.githubusercontent.com/chromium/dom-distiller-dist/main/js/domdistiller.js"
-        getText(sourceUrl, function(distillerJs) {
-            const distillerScript = distillerJs
-            runJavaScript(distillerScript, function() {
-                    const applyScript = "org.chromium.distiller.DomDistiller.apply()"
-                    runJavaScript(applyScript, function(result) {
-                        loadHtml(result[2][1])
-                        readerTitle = result[1]
-                    })
-            })
+        runJavaScript(DomDistiller.script, function() {
+                runJavaScript(DomDistiller.applyScript, function(result) {
+                    loadHtml(result[2][1])
+                    readerTitle = result[1]
+                })
         })
     }
 
