@@ -228,7 +228,11 @@ Kirigami.OverlayDrawer {
                                 id: heading
                                 elide: Text.ElideRight
                                 level: 4
-                                text: tabs.itemAt(index) ? tabs.itemAt(index).title : ""
+                                text: tabs.itemAt(index) ?
+                                          tabs.itemAt(index).readerMode ?
+                                              i18n("Reader Mode: %1", tabs.itemAt(index).readerTitle)
+                                            : tabs.itemAt(index).title
+                                        : ""
                                 width: label.width
                                 color: "white"
                             }

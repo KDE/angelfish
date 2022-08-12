@@ -296,6 +296,15 @@ Kirigami.ApplicationWindow {
                     text: i18n("Find in page")
                 }
 
+                Kirigami.Action {
+                    checkable: true
+                    checked: currentWebView.readerMode
+                    icon.name: currentWebView.readerMode ? "view-readermode-active" : "view-readermode"
+                    shortcut: "Ctrl+Shift+R"
+                    onTriggered: currentWebView.readerModeSwitch()
+                    text: i18nc("@action:inmenu", "Reader Mode")
+                }
+
                 QQC2.MenuSeparator {}
 
                 Kirigami.Action {

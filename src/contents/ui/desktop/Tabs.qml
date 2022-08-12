@@ -185,7 +185,9 @@ RowLayout {
                     Layout.alignment: Qt.AlignLeft
                     Layout.leftMargin: Kirigami.Units.smallSpacing
                     Layout.rightMargin: Kirigami.Units.smallSpacing
-                    text: tabs.itemAt(model.index).title
+                    text: tabs.itemAt(model.index).readerMode ?
+                              i18n("Reader Mode: %1", tabs.itemAt(model.index).readerTitle)
+                            : tabs.itemAt(model.index).title
                     elide: Text.ElideRight
                     horizontalAlignment: Text.AlignLeft
                 }

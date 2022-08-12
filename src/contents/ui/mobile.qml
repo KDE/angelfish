@@ -360,6 +360,14 @@ Kirigami.ApplicationWindow {
                 }
             },
             Kirigami.Action {
+                icon.name: currentWebView.readerMode ? "view-readermode-active" : "view-readermode"
+                text: i18n("Reader Mode")
+                checkable: true
+                checked: currentWebView.readerMode
+                onTriggered: currentWebView.readerModeSwitch()
+
+            },
+            Kirigami.Action {
                 icon.name: "edit-select-text"
                 text: rootPage.navigationAutoShow ? i18n("Hide navigation bar") : i18n("Show navigation bar")
                 visible: navigation.visible
