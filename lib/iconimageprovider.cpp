@@ -35,6 +35,10 @@ QString IconImageProvider::providerId()
 
 QString IconImageProvider::storeImage(const QString &iconSource)
 {
+    if (iconSource.isEmpty()) {
+        return {};
+    }
+
     const QLatin1String prefix_favicon = QLatin1String("image://favicon/");
     if (!iconSource.startsWith(prefix_favicon)) {
         // don't know what to do with it, return as it is
