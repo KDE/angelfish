@@ -61,7 +61,7 @@ Kirigami.ApplicationWindow {
             anchors.right: parent.right
         }
 
-        Question {
+        Questions {
             id: questions
 
             anchors.bottom: parent.bottom
