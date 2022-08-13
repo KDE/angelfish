@@ -1,0 +1,24 @@
+{
+   "build-options" : {
+      "env" : {
+         "CARGO_HOME" : "/run/build/corrosion/cargo"
+      }
+   },
+   "buildsystem" : "cmake-ninja",
+   "cleanup" : [
+      "/app"
+   ],
+   "config-opts" : [
+      "-DCORROSION_INSTALL_EXECUTABLE=OFF",
+      "-DCORROSION_BUILD_TESTS=OFF",
+      "-DCORROSION_DEV_MODE=OFF"
+   ],
+   "name" : "corrosion",
+   "sources" : [
+      {
+         "commit" : "ca21ae1cb9d0c0a3c31b2041a46dc11810f871b5",
+         "type" : "git",
+         "url" : "https://github.com/AndrewGaspar/corrosion"
+      }
+   ]
+}
