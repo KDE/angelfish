@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-04 00:48+0000\n"
+"POT-Creation-Date: 2022-08-14 00:47+0000\n"
 "PO-Revision-Date: 2022-04-28 20:10+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -253,7 +253,7 @@ msgstr "Ver código fuente"
 msgid "Open in new Tab"
 msgstr "Abrir en nueva pestaña"
 
-#: lib/contents/ui/WebView.qml:240
+#: lib/contents/ui/WebView.qml:269
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr "El sitio web se ha abierto en una nueva pestaña"
@@ -309,7 +309,7 @@ msgstr "Descargas"
 msgid "Full Screen"
 msgstr "Pantalla completa"
 
-#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:373
+#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:381
 #, kde-format
 msgid "Show developer tools"
 msgstr "Mostrar herramientas de desarrollador"
@@ -319,17 +319,23 @@ msgstr "Mostrar herramientas de desarrollador"
 msgid "Find in page"
 msgstr "Buscar en la página"
 
-#: src/contents/ui/desktop/desktop.qml:302
+#: src/contents/ui/desktop/desktop.qml:305
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reader Mode"
+msgstr ""
+
+#: src/contents/ui/desktop/desktop.qml:311
 #, kde-format
 msgid "Add to application launcher"
 msgstr "Añadir al lanzador de aplicaciones"
 
-#: src/contents/ui/desktop/desktop.qml:321 src/contents/ui/mobile.qml:97
+#: src/contents/ui/desktop/desktop.qml:330 src/contents/ui/mobile.qml:97
 #, kde-format
 msgid "Settings"
 msgstr "Preferencias"
 
-#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:104
+#: src/contents/ui/desktop/desktop.qml:337 src/contents/ui/mobile.qml:104
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "Configurar Angelfish"
@@ -386,6 +392,11 @@ msgstr "Nuevas pestañas:"
 #, kde-format
 msgid "Always show the tab bar:"
 msgstr "Mostrar siempre la barra de pestañas:"
+
+#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:233
+#, kde-format
+msgid "Reader Mode: %1"
+msgstr ""
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -513,10 +524,15 @@ msgstr "Mostrar el sitio del escritorio"
 
 #: src/contents/ui/mobile.qml:364
 #, kde-format
+msgid "Reader Mode"
+msgstr ""
+
+#: src/contents/ui/mobile.qml:372
+#, kde-format
 msgid "Hide navigation bar"
 msgstr "Ocultar la barra de navegación"
 
-#: src/contents/ui/mobile.qml:364
+#: src/contents/ui/mobile.qml:372
 #, kde-format
 msgid "Show navigation bar"
 msgstr "Mostrar la barra de navegación"
@@ -690,7 +706,7 @@ msgstr "Eliminar aplicación"
 msgid "Private Tabs"
 msgstr "Pestañas privadas"
 
-#: src/main.cpp:70
+#: src/main.cpp:71
 #, kde-format
 msgid "URL to open"
 msgstr "URL a abrir"

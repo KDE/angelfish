@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-04 00:48+0000\n"
+"POT-Creation-Date: 2022-08-14 00:47+0000\n"
 "PO-Revision-Date: 2021-09-19 08:34+0300\n"
 "Last-Translator: Stelios <sstavra@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -253,7 +253,7 @@ msgstr "Προβολή πηγαίου κώδικα"
 msgid "Open in new Tab"
 msgstr "Άνοιγμα σε νέα καρτέλα"
 
-#: lib/contents/ui/WebView.qml:240
+#: lib/contents/ui/WebView.qml:269
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr "Ο ιστότοπος άνοιξε σε νέα καρτέλα"
@@ -310,7 +310,7 @@ msgstr "Λήψεις"
 msgid "Full Screen"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:373
+#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:381
 #, kde-format
 msgid "Show developer tools"
 msgstr "Εμφάνιση εργαλείων προγραμματιστή"
@@ -320,17 +320,23 @@ msgstr "Εμφάνιση εργαλείων προγραμματιστή"
 msgid "Find in page"
 msgstr "Εύρεση σε σελίδα"
 
-#: src/contents/ui/desktop/desktop.qml:302
+#: src/contents/ui/desktop/desktop.qml:305
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reader Mode"
+msgstr ""
+
+#: src/contents/ui/desktop/desktop.qml:311
 #, kde-format
 msgid "Add to application launcher"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:321 src/contents/ui/mobile.qml:97
+#: src/contents/ui/desktop/desktop.qml:330 src/contents/ui/mobile.qml:97
 #, kde-format
 msgid "Settings"
 msgstr "Ρυθμίσεις"
 
-#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:104
+#: src/contents/ui/desktop/desktop.qml:337 src/contents/ui/mobile.qml:104
 #, kde-format
 msgid "Configure Angelfish"
 msgstr ""
@@ -389,6 +395,11 @@ msgstr "Νέα καρτέλα"
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:76
 #, kde-format
 msgid "Always show the tab bar:"
+msgstr ""
+
+#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:233
+#, kde-format
+msgid "Reader Mode: %1"
 msgstr ""
 
 #: src/contents/ui/Downloads.qml:26
@@ -517,10 +528,15 @@ msgstr "Εμφάνιση τόπου επιφάνειας εργασίας"
 
 #: src/contents/ui/mobile.qml:364
 #, kde-format
+msgid "Reader Mode"
+msgstr ""
+
+#: src/contents/ui/mobile.qml:372
+#, kde-format
 msgid "Hide navigation bar"
 msgstr "Απόκρυψη γραμμής πλοήγησης"
 
-#: src/contents/ui/mobile.qml:364
+#: src/contents/ui/mobile.qml:372
 #, kde-format
 msgid "Show navigation bar"
 msgstr "Εμφάνιση γραμμής πλοήγησης"
@@ -694,7 +710,7 @@ msgstr "Διαγραφή εφαρμογής"
 msgid "Private Tabs"
 msgstr "Ιδιωτικές καρτέλες"
 
-#: src/main.cpp:70
+#: src/main.cpp:71
 #, kde-format
 msgid "URL to open"
 msgstr "URL για άνοιγμα"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-04 00:48+0000\n"
+"POT-Creation-Date: 2022-08-14 00:47+0000\n"
 "PO-Revision-Date: 2019-03-02 16:12-0800\n"
 "Last-Translator: Japanese KDE translation team <kde-jp@kde.org>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -239,7 +239,7 @@ msgstr ""
 msgid "Open in new Tab"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:240
+#: lib/contents/ui/WebView.qml:269
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr ""
@@ -293,7 +293,7 @@ msgstr ""
 msgid "Full Screen"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:373
+#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:381
 #, kde-format
 msgid "Show developer tools"
 msgstr ""
@@ -303,17 +303,23 @@ msgstr ""
 msgid "Find in page"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:302
+#: src/contents/ui/desktop/desktop.qml:305
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reader Mode"
+msgstr ""
+
+#: src/contents/ui/desktop/desktop.qml:311
 #, kde-format
 msgid "Add to application launcher"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:321 src/contents/ui/mobile.qml:97
+#: src/contents/ui/desktop/desktop.qml:330 src/contents/ui/mobile.qml:97
 #, kde-format
 msgid "Settings"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:104
+#: src/contents/ui/desktop/desktop.qml:337 src/contents/ui/mobile.qml:104
 #, kde-format
 msgid "Configure Angelfish"
 msgstr ""
@@ -369,6 +375,11 @@ msgstr ""
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:76
 #, kde-format
 msgid "Always show the tab bar:"
+msgstr ""
+
+#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:233
+#, kde-format
+msgid "Reader Mode: %1"
 msgstr ""
 
 #: src/contents/ui/Downloads.qml:26
@@ -497,10 +508,15 @@ msgstr ""
 
 #: src/contents/ui/mobile.qml:364
 #, kde-format
+msgid "Reader Mode"
+msgstr ""
+
+#: src/contents/ui/mobile.qml:372
+#, kde-format
 msgid "Hide navigation bar"
 msgstr ""
 
-#: src/contents/ui/mobile.qml:364
+#: src/contents/ui/mobile.qml:372
 #, kde-format
 msgid "Show navigation bar"
 msgstr ""
@@ -662,7 +678,7 @@ msgstr ""
 msgid "Private Tabs"
 msgstr ""
 
-#: src/main.cpp:70
+#: src/main.cpp:71
 #, kde-format
 msgid "URL to open"
 msgstr ""

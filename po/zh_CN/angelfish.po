@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-04 00:48+0000\n"
-"PO-Revision-Date: 2022-08-07 13:29\n"
+"POT-Creation-Date: 2022-08-14 00:47+0000\n"
+"PO-Revision-Date: 2022-08-13 03:53\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -250,7 +250,7 @@ msgstr "查看源代码"
 msgid "Open in new Tab"
 msgstr "在新标签页中打开"
 
-#: lib/contents/ui/WebView.qml:240
+#: lib/contents/ui/WebView.qml:269
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr "网站已在新标签页中打开"
@@ -304,7 +304,7 @@ msgstr "下载"
 msgid "Full Screen"
 msgstr "全屏"
 
-#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:373
+#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:381
 #, kde-format
 msgid "Show developer tools"
 msgstr "显示开发者工具"
@@ -314,17 +314,23 @@ msgstr "显示开发者工具"
 msgid "Find in page"
 msgstr "在页面中查找"
 
-#: src/contents/ui/desktop/desktop.qml:302
+#: src/contents/ui/desktop/desktop.qml:305
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reader Mode"
+msgstr ""
+
+#: src/contents/ui/desktop/desktop.qml:311
 #, kde-format
 msgid "Add to application launcher"
 msgstr "添加到应用程序启动器"
 
-#: src/contents/ui/desktop/desktop.qml:321 src/contents/ui/mobile.qml:97
+#: src/contents/ui/desktop/desktop.qml:330 src/contents/ui/mobile.qml:97
 #, kde-format
 msgid "Settings"
 msgstr "设置"
 
-#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:104
+#: src/contents/ui/desktop/desktop.qml:337 src/contents/ui/mobile.qml:104
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "配置 Angelfish"
@@ -380,6 +386,11 @@ msgstr "新标签页："
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:76
 #, kde-format
 msgid "Always show the tab bar:"
+msgstr ""
+
+#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:233
+#, kde-format
+msgid "Reader Mode: %1"
 msgstr ""
 
 #: src/contents/ui/Downloads.qml:26
@@ -508,10 +519,15 @@ msgstr "显示桌面版网站"
 
 #: src/contents/ui/mobile.qml:364
 #, kde-format
+msgid "Reader Mode"
+msgstr ""
+
+#: src/contents/ui/mobile.qml:372
+#, kde-format
 msgid "Hide navigation bar"
 msgstr "隐藏导航栏"
 
-#: src/contents/ui/mobile.qml:364
+#: src/contents/ui/mobile.qml:372
 #, kde-format
 msgid "Show navigation bar"
 msgstr "显示导航栏"
@@ -679,7 +695,7 @@ msgstr "移除应用"
 msgid "Private Tabs"
 msgstr "隐私标签页"
 
-#: src/main.cpp:70
+#: src/main.cpp:71
 #, kde-format
 msgid "URL to open"
 msgstr "要打开的 URL"
