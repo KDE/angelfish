@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-14 00:47+0000\n"
-"PO-Revision-Date: 2022-07-08 16:48+0200\n"
+"PO-Revision-Date: 2022-08-14 19:00+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -324,7 +324,7 @@ msgstr "Busca a la pàgina"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
-msgstr ""
+msgstr "Mode lector"
 
 #: src/contents/ui/desktop/desktop.qml:311
 #, kde-format
@@ -397,7 +397,7 @@ msgstr "Mostra sempre la barra de pestanyes:"
 #: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:233
 #, kde-format
 msgid "Reader Mode: %1"
-msgstr ""
+msgstr "Mode lector: %1"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -526,7 +526,7 @@ msgstr "Mostra una pàgina de l'escriptori"
 #: src/contents/ui/mobile.qml:364
 #, kde-format
 msgid "Reader Mode"
-msgstr ""
+msgstr "Mode lector"
 
 #: src/contents/ui/mobile.qml:372
 #, kde-format

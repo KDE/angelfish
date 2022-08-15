@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-14 00:47+0000\n"
-"PO-Revision-Date: 2022-07-06 14:41+0200\n"
+"PO-Revision-Date: 2022-08-14 21:41+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.04.2\n"
+"X-Generator: Lokalize 22.04.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -323,7 +323,7 @@ msgstr "Aurkitu orrian"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
-msgstr ""
+msgstr "Irakurle modua"
 
 #: src/contents/ui/desktop/desktop.qml:311
 #, kde-format
@@ -396,7 +396,7 @@ msgstr "Erakutsi beti fitxa-barra:"
 #: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:233
 #, kde-format
 msgid "Reader Mode: %1"
-msgstr ""
+msgstr "Irakurle modua: %1"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -525,7 +525,7 @@ msgstr "Erakutsi mahaigaineko lekua"
 #: src/contents/ui/mobile.qml:364
 #, kde-format
 msgid "Reader Mode"
-msgstr ""
+msgstr "Irakurle modua"
 
 #: src/contents/ui/mobile.qml:372
 #, kde-format

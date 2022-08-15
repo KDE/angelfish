@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-14 00:47+0000\n"
-"PO-Revision-Date: 2022-05-04 18:32+0100\n"
+"PO-Revision-Date: 2022-08-14 11:29+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -321,7 +321,7 @@ msgstr "Procurar na página"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
-msgstr ""
+msgstr "Modo de Leitor"
 
 #: src/contents/ui/desktop/desktop.qml:311
 #, kde-format
@@ -394,7 +394,7 @@ msgstr "Mostrar sempre a barra de páginas:"
 #: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:233
 #, kde-format
 msgid "Reader Mode: %1"
-msgstr ""
+msgstr "Modo de Leitor: %1"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -523,7 +523,7 @@ msgstr "Mostrar a página do ambiente de trabalho"
 #: src/contents/ui/mobile.qml:364
 #, kde-format
 msgid "Reader Mode"
-msgstr ""
+msgstr "Modo de Leitor"
 
 #: src/contents/ui/mobile.qml:372
 #, kde-format
