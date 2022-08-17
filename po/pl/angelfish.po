@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-14 00:47+0000\n"
-"PO-Revision-Date: 2022-05-03 07:36+0200\n"
+"PO-Revision-Date: 2022-08-16 20:58+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 22.03.70\n"
+"X-Generator: Lokalize 22.04.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -320,7 +320,7 @@ msgstr "Znajdź na stronie"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
-msgstr ""
+msgstr "Tryb czytania"
 
 #: src/contents/ui/desktop/desktop.qml:311
 #, kde-format
@@ -393,7 +393,7 @@ msgstr "Zawsze pokazuj pasek kart:"
 #: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:233
 #, kde-format
 msgid "Reader Mode: %1"
-msgstr ""
+msgstr "Tryb czytania: %1"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -522,7 +522,7 @@ msgstr "Pokaż stronę pulpitu"
 #: src/contents/ui/mobile.qml:364
 #, kde-format
 msgid "Reader Mode"
-msgstr ""
+msgstr "Tryb czytania"
 
 #: src/contents/ui/mobile.qml:372
 #, kde-format
