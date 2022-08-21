@@ -87,7 +87,7 @@ msgstr "Entorn d'execució de l'aplicació web Angelfish"
 #: angelfish-webapp/main.cpp:92
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
-msgstr "Copyright 2020 Angelfish developers"
+msgstr "Copyright 2020 Els desenvolupadors d'Angelfish"
 
 #: angelfish-webapp/main.cpp:94
 #, kde-format
