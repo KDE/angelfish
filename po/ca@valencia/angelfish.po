@@ -344,7 +344,7 @@ msgstr "Configura Angelfish"
 #: src/contents/ui/desktop/HistoryPage.qml:28
 #, kde-format
 msgid "Search history…"
-msgstr "Busca a l'historial…"
+msgstr "Busca en l'historial…"
 
 #: src/contents/ui/desktop/HistoryPage.qml:44
 #, kde-format
@@ -485,7 +485,7 @@ msgstr "Afig a la pantalla principal"
 #: src/contents/ui/mobile.qml:306
 #, kde-format
 msgid "Open in app"
-msgstr "Obri a l'aplicació"
+msgstr "Obri en l'aplicació"
 
 #: src/contents/ui/mobile.qml:314
 #, kde-format
@@ -636,9 +636,9 @@ msgid ""
 "menus either by swiping from the left or right side or to a side along the "
 "bottom of the window."
 msgstr ""
-"Trieu els botons habilitats en la barra de navegació. Algun dels botons pot "
-"estar ocult en l'orientació de retrat del navegador i es mostra sempre si el "
-"navegador és més ample que la seua alçària.\n"
+"Seleccioneu els botons habilitats en la barra de navegació. Algun dels "
+"botons pot estar ocult en l'orientació de retrat del navegador i es mostra "
+"sempre si el navegador és més ample que la seua alçària.\n"
 "\n"
 " Cal tindre en compte que si inhabiliteu els botons del menú, podreu accedir "
 "als menús lliscant des de la banda esquerra o dreta, o a una banda al llarg "
