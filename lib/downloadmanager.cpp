@@ -16,18 +16,18 @@ DownloadManager &DownloadManager::instance()
     return instance;
 }
 
-void DownloadManager::addDownload(QQuickWebEngineDownloadItem *download)
+void DownloadManager::addDownload(std::unique_ptr<QQuickWebEngineDownloadItem> &&download)
 {
-    m_downloads.push_back(download);
+    m_downloads.push_back(std::move(download));
 }
 
 void DownloadManager::removeDownload(const int index)
 {
     m_downloads.at(index)->cancel();
-    m_downloads.removeAt(index);
+    m_downloads.erase(m_downloads.begin() + index);
 }
 
-const QVector<QQuickWebEngineDownloadItem *> &DownloadManager::downloads()
+const std::vector<std::unique_ptr<QQuickWebEngineDownloadItem> > &DownloadManager::downloads()
 {
     return m_downloads;
 }

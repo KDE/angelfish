@@ -33,7 +33,7 @@ void AngelfishWebProfile::handleDownload(QQuickWebEngineDownloadItem *downloadIt
     // and ask the user for confirmation
     downloadItem->pause();
 
-    DownloadManager::instance().addDownload(downloadItem);
+    DownloadManager::instance().addDownload(std::unique_ptr<QQuickWebEngineDownloadItem>(downloadItem));
 
     if (m_questionLoader) {
         m_questionLoader->setProperty("source", QStringLiteral("qrc:/DownloadQuestion.qml"));

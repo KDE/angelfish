@@ -6,6 +6,9 @@
 
 #include <QObject>
 
+#include <memory>
+#include <vector>
+
 class QQuickWebEngineDownloadItem;
 
 class DownloadManager
@@ -13,12 +16,12 @@ class DownloadManager
 public:
     static DownloadManager &instance();
 
-    Q_INVOKABLE void addDownload(QQuickWebEngineDownloadItem *download);
+    Q_INVOKABLE void addDownload(std::unique_ptr<QQuickWebEngineDownloadItem> &&download);
     Q_INVOKABLE void removeDownload(const int index);
-    const QVector<QQuickWebEngineDownloadItem *> &downloads();
+    const std::vector<std::unique_ptr<QQuickWebEngineDownloadItem>> &downloads();
 
 private:
     DownloadManager();
 
-    QVector<QQuickWebEngineDownloadItem *> m_downloads;
+    std::vector<std::unique_ptr<QQuickWebEngineDownloadItem>> m_downloads;
 };

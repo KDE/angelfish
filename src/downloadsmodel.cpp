@@ -27,13 +27,13 @@ QVariant DownloadsModel::data(const QModelIndex &index, int role) const
     case Role::UrlRole:
         return downloads.at(index.row())->url();
     case Role::DownloadRole:
-        return QVariant::fromValue(downloads.at(index.row()));
+        return QVariant::fromValue(downloads.at(index.row()).get());
     case Role::MimeTypeIconRole: {
         static auto mimeDB = QMimeDatabase();
         return mimeDB.mimeTypeForName(downloads.at(index.row())->mimeType()).iconName();
     }
     case Role::DownloadedFilePathRole: {
-        const QQuickWebEngineDownloadItem *download = downloads.at(index.row());
+        const auto &download = downloads.at(index.row());
         return QUrl::fromLocalFile(download->downloadDirectory() + QDir::separator() + download->downloadFileName());
     }
     }
