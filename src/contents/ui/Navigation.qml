@@ -7,7 +7,6 @@ import QtQuick 2.15
 import QtQuick.Layouts 1.0
 import QtWebEngine 1.4
 import QtQuick.Controls 2.0 as Controls
-import QtFeedback 5.0
 
 import org.kde.kirigami 2.5 as Kirigami
 import org.kde.angelfish 1.0
@@ -74,10 +73,8 @@ Item {
         opacity: 1 - (Math.abs(navContainer.x) / (gestureThreshold * 2))
         
         // left/right gestures
-        HapticsEffect {
+        HapticsEffectLoader {
             id: vibrate
-            intensity: 0.5
-            duration: Kirigami.Units.shortDuration
         }
         DragHandler {
             id: dragHandler
