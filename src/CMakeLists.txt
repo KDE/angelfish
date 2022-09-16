@@ -54,4 +54,4 @@ target_link_libraries(angelfish PRIVATE
     AngelfishCore
 )
 
-install(TARGETS angelfish ${KF5_INSTALL_TARGETS_DEFAULT_ARGS})
+install(TARGETS angelfish ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

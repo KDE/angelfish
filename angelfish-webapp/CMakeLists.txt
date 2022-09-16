@@ -24,5 +24,5 @@ target_link_libraries(angelfish-webapp
     AngelfishCore
 )
 
-install(TARGETS angelfish-webapp ${KF5_INSTALL_TARGETS_DEFAULT_ARGS})
+install(TARGETS angelfish-webapp ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
 
