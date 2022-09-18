@@ -298,6 +298,11 @@ void TabsModel::closeTab(int index)
         return; // index out of bounds
 
     if (m_tabs.count() <= 1) {
+        // if not in mobile, close application
+        if (!SettingsHelper::isMobile()) {
+            QCoreApplication::quit();
+        }
+
         // create new tab before removing the last one
         // to avoid linking all signals to null object
         createEmptyTab();
