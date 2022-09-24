@@ -318,7 +318,7 @@ msgstr "Mostra les eines del desenvolupador"
 #: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:281
 #, kde-format
 msgid "Find in page"
-msgstr "Busca a la pàgina"
+msgstr "Busca en la pàgina"
 
 #: src/contents/ui/desktop/desktop.qml:305
 #, kde-format
