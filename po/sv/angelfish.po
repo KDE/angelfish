@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-14 00:47+0000\n"
-"PO-Revision-Date: 2022-04-28 17:16+0200\n"
+"PO-Revision-Date: 2022-09-24 14:54+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -318,7 +318,7 @@ msgstr "Sök på sidan"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
-msgstr ""
+msgstr "Läsläge"
 
 #: src/contents/ui/desktop/desktop.qml:311
 #, kde-format
@@ -391,7 +391,7 @@ msgstr "Visa alltid flikraden:"
 #: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:233
 #, kde-format
 msgid "Reader Mode: %1"
-msgstr ""
+msgstr "Läsläge: %1"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -520,7 +520,7 @@ msgstr "Visa skrivbordsplats"
 #: src/contents/ui/mobile.qml:364
 #, kde-format
 msgid "Reader Mode"
-msgstr ""
+msgstr "Läsläge"
 
 #: src/contents/ui/mobile.qml:372
 #, kde-format
