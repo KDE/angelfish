@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-14 00:47+0000\n"
-"PO-Revision-Date: 2022-05-06 00:29+0200\n"
+"PO-Revision-Date: 2022-10-03 14:17+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
-"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language-Team: Korean <kde-i18n-doc@kde.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -319,7 +319,7 @@ msgstr "페이지에서 찾기"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
-msgstr ""
+msgstr "읽기 모드"
 
 #: src/contents/ui/desktop/desktop.qml:311
 #, kde-format
@@ -392,7 +392,7 @@ msgstr "항상 탭 목록 표시:"
 #: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:233
 #, kde-format
 msgid "Reader Mode: %1"
-msgstr ""
+msgstr "읽기 모드: %1"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -521,7 +521,7 @@ msgstr "데스크톱 사이트 표시"
 #: src/contents/ui/mobile.qml:364
 #, kde-format
 msgid "Reader Mode"
-msgstr ""
+msgstr "읽기 모드"
 
 #: src/contents/ui/mobile.qml:372
 #, kde-format
