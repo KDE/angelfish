@@ -108,6 +108,14 @@ Repeater {
                 }
 
                 Connections {
+                    target: developerToolsLoader.item
+
+                    function onWindowCloseRequested() {
+                        tabsModel.toggleDeveloperTools(tabDelegate.index)
+                    }
+                }
+
+                Connections {
                     target: tabsModel
                     function onDataChanged(left, right, roles) {
                         if (tabsModel.isDeveloperToolsOpen(tabDelegate.index)) {
