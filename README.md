@@ -11,9 +11,7 @@ This is a webbrowser designed to
 
 ## Reporting bugs
 
-Bugtracker: https://invent.kde.org/plasma-mobile/angelfish/-/issues
-
-Please choose the "default_issue" description template when opening issues.
+Bugtracker: https://bugs.kde.org/describecomponents.cgi?product=angelfish
 
 ## Preliminary roadmap:
 - [x] browser navigation: back + forward + reload
