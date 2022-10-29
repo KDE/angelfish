@@ -29,5 +29,5 @@ target_link_libraries(AngelfishCore PUBLIC
     KF5::Notifications
 )
 
-install(FILES angelfishsettings.kcfg DESTINATION ${KCFG_INSTALL_DIR})
-install(FILES angelfish.notifyrc DESTINATION ${KNOTIFYRC_INSTALL_DIR})
+install(FILES angelfishsettings.kcfg DESTINATION ${KDE_INSTALL_KCFGDIR})
+install(FILES angelfish.notifyrc DESTINATION ${KDE_INSTALL_KNOTIFYRCDIR})
