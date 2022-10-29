@@ -6,7 +6,6 @@
 #include "useragent.h"
 
 #include <QQuickWebEngineProfile>
-#include <QtWebEngineVersion>
 
 #include "settingshelper.h"
 
