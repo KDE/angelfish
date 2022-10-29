@@ -39,12 +39,12 @@ endif()
 target_include_directories(angelfish PRIVATE ${CMAKE_BINARY_DIR})
 target_compile_definitions(angelfish PRIVATE -DQT_NO_CAST_FROM_ASCII)
 target_link_libraries(angelfish PRIVATE
-    Qt5::Core
-    Qt5::Qml
-    Qt5::Quick
-    Qt5::Sql
-    Qt5::Svg
-    Qt5::WebEngine
+    Qt::Core
+    Qt::Qml
+    Qt::Quick
+    Qt::Sql
+    Qt::Svg
+    Qt::WebEngine
     KF5::I18n
     KF5::CoreAddons
     KF5::ConfigCore
