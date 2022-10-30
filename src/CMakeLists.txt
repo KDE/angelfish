@@ -44,7 +44,6 @@ target_link_libraries(angelfish PRIVATE
     Qt::Quick
     Qt::Sql
     Qt::Svg
-    Qt::WebEngine
     KF5::I18n
     KF5::CoreAddons
     KF5::ConfigCore
@@ -53,5 +52,11 @@ target_link_libraries(angelfish PRIVATE
     KF5::WindowSystem
     AngelfishCore
 )
+
+if(QT_MAJOR_VERSION STREQUAL "6")
+    target_link_libraries(angelfish PRIVATE Qt::CorePrivate Qt::WebEngineCore Qt::WebEngineQuick Qt::WebEngineQuickPrivate)
+else()
+    target_link_libraries(angelfish PRIVATE Qt::WebEngine)
+endif()
 
 install(TARGETS angelfish ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

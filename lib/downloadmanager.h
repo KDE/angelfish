@@ -9,19 +9,25 @@
 #include <memory>
 #include <vector>
 
+#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
 class QQuickWebEngineDownloadItem;
+using DownloadItem = QQuickWebEngineDownloadItem;
+#else
+class QQuickWebEngineDownloadRequest;
+using DownloadItem = QQuickWebEngineDownloadRequest;
+#endif
 
 class DownloadManager
 {
 public:
     static DownloadManager &instance();
 
-    Q_INVOKABLE void addDownload(std::unique_ptr<QQuickWebEngineDownloadItem> &&download);
+    Q_INVOKABLE void addDownload(std::unique_ptr<DownloadItem> &&download);
     Q_INVOKABLE void removeDownload(const int index);
-    const std::vector<std::unique_ptr<QQuickWebEngineDownloadItem>> &downloads();
+    const std::vector<std::unique_ptr<DownloadItem>> &downloads();
 
 private:
     DownloadManager();
 
-    std::vector<std::unique_ptr<QQuickWebEngineDownloadItem>> m_downloads;
+    std::vector<std::unique_ptr<DownloadItem>> m_downloads;
 };

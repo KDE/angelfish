@@ -6,7 +6,11 @@
 
 #include <QUrl>
 
+#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
 #include "qquickwebenginedownloaditem.h"
+#else
+#include <private/qquickwebenginedownloadrequest_p.h>
+#endif
 
 DownloadManager::DownloadManager() = default;
 
@@ -16,7 +20,7 @@ DownloadManager &DownloadManager::instance()
     return instance;
 }
 
-void DownloadManager::addDownload(std::unique_ptr<QQuickWebEngineDownloadItem> &&download)
+void DownloadManager::addDownload(std::unique_ptr<DownloadItem> &&download)
 {
     m_downloads.push_back(std::move(download));
 }
@@ -27,7 +31,7 @@ void DownloadManager::removeDownload(const int index)
     m_downloads.erase(m_downloads.begin() + index);
 }
 
-const std::vector<std::unique_ptr<QQuickWebEngineDownloadItem> > &DownloadManager::downloads()
+const std::vector<std::unique_ptr<DownloadItem>> &DownloadManager::downloads()
 {
     return m_downloads;
 }

@@ -53,5 +53,5 @@ QStringView UserAgent::extractValueFromAgent(const QStringView key)
 {
     const int index = m_defaultUserAgent.indexOf(key) + key.length() + 1;
     const int endIndex = m_defaultUserAgent.indexOf(u' ', index);
-    return m_defaultUserAgent.midRef(index, endIndex - index);
+    return QStringView(m_defaultUserAgent).mid(index, endIndex - index);
 }

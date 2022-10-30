@@ -9,9 +9,14 @@
 #include <QCommandLineOption>
 #include <QCommandLineParser>
 #include <QQmlApplicationEngine>
+#include <QQuickWindow>
 #include <QUrl>
 #include <QtQml>
+#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
 #include <QtWebEngine>
+#else
+#include <QtWebEngineQuick>
+#endif
 
 #include <KDBusService>
 #include <KLocalizedContext>
@@ -50,8 +55,10 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     // Setup QtWebEngine
     qputenv("QTWEBENGINE_DIALOG_SET", "QtQuickControls2");
-#if QT_VERSION > QT_VERSION_CHECK(5, 14, 0)
+#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
     QtWebEngine::initialize();
+#else
+    QtWebEngineQuick::initialize();
 #endif
 
     QApplication app(argc, argv);

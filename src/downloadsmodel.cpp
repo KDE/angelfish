@@ -10,7 +10,14 @@
 #include <QUrl>
 
 #include "downloadmanager.h"
+
+#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
 #include "qquickwebenginedownloaditem.h"
+using DownloadItem = QQuickWebEngineDownloadItem;
+#else
+#include <private/qquickwebenginedownloadrequest_p.h>
+using DownloadItem = QQuickWebEngineDownloadRequest;
+#endif
 
 DownloadsModel::DownloadsModel(QObject *parent)
     : QAbstractListModel(parent)

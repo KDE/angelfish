@@ -52,7 +52,12 @@ find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} OPTIONAL_COMPONENTS Feedbac
 find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 Purpose I18n Config CoreAddons DBusAddons WindowSystem Notifications)
 
 # Necessary to support QtWebEngine installed in a different prefix than the rest of Qt (e.g flatpak)
-find_package(Qt${QT_MAJOR_VERSION}WebEngine REQUIRED)
+if(QT_MAJOR_VERSION STREQUAL "6")
+    find_package(Qt${QT_MAJOR_VERSION}WebEngineCore REQUIRED)
+    find_package(Qt${QT_MAJOR_VERSION}WebEngineQuick REQUIRED)
+else()
+    find_package(Qt${QT_MAJOR_VERSION}WebEngine REQUIRED)
+endif()
 
 # For adblocker
 find_package(Corrosion)
