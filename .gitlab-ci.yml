@@ -1,14 +1,2 @@
 include:
-  - https://invent.kde.org/sysadmin/ci-tooling/raw/master/invent/binary-flatpak.yml
   - https://invent.kde.org/sysadmin/ci-utilities/raw/master/gitlab-templates/linux.yml
-
-variables:
-  BUNDLE: org.kde.angelfish.flatpak
-
-flatpak:
-  extends: .flatpak
-  variables:
-    MANIFEST_PATH: org.kde.angelfish.json
-    APP_ID: org.kde.angelfish
-    FLATPAK_MODULE: angelfish
-
