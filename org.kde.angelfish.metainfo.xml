@@ -111,7 +111,6 @@
   <developer_name xml:lang="x-test">xxKDE Communityxx</developer_name>
   <developer_name xml:lang="zh-CN">KDE 社区</developer_name>
   <developer_name xml:lang="zh-TW">KDE 社群</developer_name>
-  <url type="bugtracker">https://invent.kde.org/plasma-mobile/angelfish/-/issues</url>
   <description>
     <p>Angelfish is a modern mobile webbrowser</p>
     <p xml:lang="az">Angelfish müasir mobil veb_bələdçidir</p>
@@ -452,7 +451,7 @@
     </screenshot>
   </screenshots>
   <url type="homepage">https://invent.kde.org/plasma-mobile/angelfish</url>
-  <url type="bugtracker">https://invent.kde.org/plasma-mobile/angelfish/-/issues</url>
+  <url type="bugtracker">https://bugs.kde.org/describecomponents.cgi?product=angelfish</url>
   <provides>
     <binary>angelfish</binary>
   </provides>
