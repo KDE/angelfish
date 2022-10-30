@@ -13,3 +13,6 @@ Dependencies:
     'frameworks/kwindowsystem': '@stable'
     'frameworks/knotifications': '@stable'
     'frameworks/purpose': '@stable'
+
+Options:
+  require-passing-tests-on: [ 'Linux' ]
