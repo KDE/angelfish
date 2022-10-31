@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-14 00:47+0000\n"
+"POT-Creation-Date: 2022-10-31 00:48+0000\n"
 "PO-Revision-Date: 2022-08-19 15:13-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -72,32 +72,32 @@ msgstr "Copiar URL"
 msgid "Download"
 msgstr "Download"
 
-#: angelfish-webapp/main.cpp:63
+#: angelfish-webapp/main.cpp:70
 #, kde-format
 msgid "desktop file to open"
 msgstr "Arquivo desktop a abrir"
 
-#: angelfish-webapp/main.cpp:90
+#: angelfish-webapp/main.cpp:97
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr "Execução de aplicativos web do Angelfish"
 
-#: angelfish-webapp/main.cpp:92
+#: angelfish-webapp/main.cpp:99
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "Copyright 2020 Desenvolvedores do Angelfish"
 
-#: angelfish-webapp/main.cpp:94
+#: angelfish-webapp/main.cpp:101
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
 
-#: lib/angelfishwebprofile.cpp:58
+#: lib/angelfishwebprofile.cpp:63
 #, kde-format
 msgid "Download finished"
 msgstr "Download concluído"
 
-#: lib/angelfishwebprofile.cpp:62
+#: lib/angelfishwebprofile.cpp:67
 #, kde-format
 msgid "Download failed"
 msgstr "Falha no download"
@@ -704,7 +704,7 @@ msgstr "Remover aplicativo"
 msgid "Private Tabs"
 msgstr "Abas privativas"
 
-#: src/main.cpp:71
+#: src/main.cpp:78
 #, kde-format
 msgid "URL to open"
 msgstr "URL a ser aberta"

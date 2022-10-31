@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-14 00:47+0000\n"
+"POT-Creation-Date: 2022-10-31 00:48+0000\n"
 "PO-Revision-Date: 2021-09-10 14:03+0300\n"
 "Last-Translator: Moo\n"
 "Language-Team: lt\n"
@@ -72,33 +72,33 @@ msgstr "Kopijuoti Url"
 msgid "Download"
 msgstr "Atsisiųsti"
 
-#: angelfish-webapp/main.cpp:63
+#: angelfish-webapp/main.cpp:70
 #, kde-format
 msgid "desktop file to open"
 msgstr ""
 
-#: angelfish-webapp/main.cpp:90
+#: angelfish-webapp/main.cpp:97
 #, fuzzy, kde-format
 #| msgid "Angelfish Web Browser"
 msgid "Angelfish Web App runtime"
 msgstr "Angelfish saityno naršyklė"
 
-#: angelfish-webapp/main.cpp:92
+#: angelfish-webapp/main.cpp:99
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "Autorių teisės 2020 Angelfish programuotojai"
 
-#: angelfish-webapp/main.cpp:94
+#: angelfish-webapp/main.cpp:101
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
 
-#: lib/angelfishwebprofile.cpp:58
+#: lib/angelfishwebprofile.cpp:63
 #, kde-format
 msgid "Download finished"
 msgstr "Atsisiuntimas užbaigtas"
 
-#: lib/angelfishwebprofile.cpp:62
+#: lib/angelfishwebprofile.cpp:67
 #, kde-format
 msgid "Download failed"
 msgstr "Atsisiuntimas nepavyko"
@@ -702,7 +702,7 @@ msgstr "Šalinti programėlę"
 msgid "Private Tabs"
 msgstr "Privačios kortelės"
 
-#: src/main.cpp:71
+#: src/main.cpp:78
 #, kde-format
 msgid "URL to open"
 msgstr "URL, kurį atverti"

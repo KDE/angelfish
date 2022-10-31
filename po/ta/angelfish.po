@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-14 00:47+0000\n"
+"POT-Creation-Date: 2022-10-31 00:48+0000\n"
 "PO-Revision-Date: 2022-05-19 21:58+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
@@ -70,32 +70,32 @@ msgstr "முகவரியை நகலெடு"
 msgid "Download"
 msgstr "பதிவிறக்கு"
 
-#: angelfish-webapp/main.cpp:63
+#: angelfish-webapp/main.cpp:70
 #, kde-format
 msgid "desktop file to open"
 msgstr ""
 
-#: angelfish-webapp/main.cpp:90
+#: angelfish-webapp/main.cpp:97
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr ""
 
-#: angelfish-webapp/main.cpp:92
+#: angelfish-webapp/main.cpp:99
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr ""
 
-#: angelfish-webapp/main.cpp:94
+#: angelfish-webapp/main.cpp:101
 #, kde-format
 msgid "Marco Martin"
 msgstr ""
 
-#: lib/angelfishwebprofile.cpp:58
+#: lib/angelfishwebprofile.cpp:63
 #, kde-format
 msgid "Download finished"
 msgstr "பதிவிறக்கம் முடிந்த‍து"
 
-#: lib/angelfishwebprofile.cpp:62
+#: lib/angelfishwebprofile.cpp:67
 #, kde-format
 msgid "Download failed"
 msgstr "பதிவிறக்கம் தோல்வியடைந்தது"
@@ -681,7 +681,7 @@ msgstr ""
 msgid "Private Tabs"
 msgstr ""
 
-#: src/main.cpp:71
+#: src/main.cpp:78
 #, kde-format
 msgid "URL to open"
 msgstr ""

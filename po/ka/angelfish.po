@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-14 00:47+0000\n"
+"POT-Creation-Date: 2022-10-31 00:48+0000\n"
 "PO-Revision-Date: 2022-09-01 07:23+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -71,32 +71,32 @@ msgstr "URL-ის კოპირება"
 msgid "Download"
 msgstr "გადმოწერა"
 
-#: angelfish-webapp/main.cpp:63
+#: angelfish-webapp/main.cpp:70
 #, kde-format
 msgid "desktop file to open"
 msgstr "გასახსნელი desktop faili"
 
-#: angelfish-webapp/main.cpp:90
+#: angelfish-webapp/main.cpp:97
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr "Angelfish WebApp"
 
-#: angelfish-webapp/main.cpp:92
+#: angelfish-webapp/main.cpp:99
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "2020 Angelfish-ის პროგრამისტები, ყველა უფლება დაცულია"
 
-#: angelfish-webapp/main.cpp:94
+#: angelfish-webapp/main.cpp:101
 #, kde-format
 msgid "Marco Martin"
 msgstr "მაკრო მარტინი"
 
-#: lib/angelfishwebprofile.cpp:58
+#: lib/angelfishwebprofile.cpp:63
 #, kde-format
 msgid "Download finished"
 msgstr "გადმოწერა დასრულდა"
 
-#: lib/angelfishwebprofile.cpp:62
+#: lib/angelfishwebprofile.cpp:67
 #, kde-format
 msgid "Download failed"
 msgstr "გადმოწერის შეცდომა"
@@ -682,7 +682,7 @@ msgstr "აპის წაშლა"
 msgid "Private Tabs"
 msgstr "კონფიდენციალური ჩანართები"
 
-#: src/main.cpp:71
+#: src/main.cpp:78
 #, kde-format
 msgid "URL to open"
 msgstr "URL-ის გახსნა"

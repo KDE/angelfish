@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-14 00:47+0000\n"
+"POT-Creation-Date: 2022-10-31 00:48+0000\n"
 "PO-Revision-Date: 2022-01-01 09:26-0800\n"
 "Last-Translator: A S Alam <aalam@satluj.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -70,32 +70,32 @@ msgstr "URL ਕਾਪੀ ਕਰੋ"
 msgid "Download"
 msgstr "ਡਾਊਨਲੋਡ"
 
-#: angelfish-webapp/main.cpp:63
+#: angelfish-webapp/main.cpp:70
 #, kde-format
 msgid "desktop file to open"
 msgstr "ਖੋਲ੍ਹਣ ਲਈ ਡੈਸਕਟਾਪ ਫਾਇਲ"
 
-#: angelfish-webapp/main.cpp:90
+#: angelfish-webapp/main.cpp:97
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr "ਐਂਗਲਫਿਸ਼ ਵੈੱਬ ਐਪ ਰਨਟਾਈਮ"
 
-#: angelfish-webapp/main.cpp:92
+#: angelfish-webapp/main.cpp:99
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "Copyright 2020 Angelfish developers"
 
-#: angelfish-webapp/main.cpp:94
+#: angelfish-webapp/main.cpp:101
 #, kde-format
 msgid "Marco Martin"
 msgstr "ਮਾਰਕੋ ਮਾਰਟਿਨ"
 
-#: lib/angelfishwebprofile.cpp:58
+#: lib/angelfishwebprofile.cpp:63
 #, kde-format
 msgid "Download finished"
 msgstr "ਡਾਊਨਲੋਡ ਪੂਰਾ ਹੋਇਆ"
 
-#: lib/angelfishwebprofile.cpp:62
+#: lib/angelfishwebprofile.cpp:67
 #, kde-format
 msgid "Download failed"
 msgstr "ਡਾਊਨਲੋਡ ਫੇਲ੍ਹ ਹੈ"
@@ -695,7 +695,7 @@ msgstr "ਐਪ ਹਟਾਓ"
 msgid "Private Tabs"
 msgstr "ਪ੍ਰਾਈਵੇਟ ਟੈਬਾਂ"
 
-#: src/main.cpp:71
+#: src/main.cpp:78
 #, kde-format
 msgid "URL to open"
 msgstr "ਖੋਲ੍ਹਣ ਲਈ URL"
