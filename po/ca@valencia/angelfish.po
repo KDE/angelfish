@@ -565,7 +565,7 @@ msgstr "Actualitza les llistes"
 #: src/contents/ui/SettingsAdblock.qml:48
 #, kde-format
 msgid "The adblock functionality isn't included in this build."
-msgstr "La funcionalitat «adblock» no està inclosa en esta construcció."
+msgstr "La característica «adblock» no està inclosa en esta construcció."
 
 #: src/contents/ui/SettingsAdblock.qml:54
 #, kde-format
