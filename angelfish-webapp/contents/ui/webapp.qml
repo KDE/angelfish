@@ -17,8 +17,8 @@ Kirigami.ApplicationWindow {
     id: webBrowser
     title: currentWebView.title
 
-    minimumWidth: Kirigami.Units.gridUnit * 20
-    minimumHeight: Kirigami.Units.gridUnit * 30
+    minimumWidth: Kirigami.Units.gridUnit * 15
+    minimumHeight: Kirigami.Units.gridUnit * 15
 
     pageStack.globalToolBar.showNavigationButtons: false
 
