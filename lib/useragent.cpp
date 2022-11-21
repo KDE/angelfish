@@ -52,6 +52,9 @@ void UserAgent::setIsMobile(bool value)
 QStringView UserAgent::extractValueFromAgent(const QStringView key)
 {
     const int index = m_defaultUserAgent.indexOf(key) + key.length() + 1;
-    const int endIndex = m_defaultUserAgent.indexOf(u' ', index);
+    int endIndex = m_defaultUserAgent.indexOf(u' ', index);
+    if (endIndex == -1) {
+        endIndex = m_defaultUserAgent.size();
+    }
     return QStringView(m_defaultUserAgent).mid(index, endIndex - index);
 }
