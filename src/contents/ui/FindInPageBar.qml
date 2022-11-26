@@ -121,5 +121,6 @@ Item {
 
     function activate() {
         active = true;
+        input.forceActiveFocus()
     }
 }
