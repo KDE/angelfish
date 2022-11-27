@@ -6,17 +6,17 @@ import QtQuick.Layouts 1.7
 import QtQuick 2.7
 import QtQuick.Window 2.15
 
-import org.kde.kirigami 2.5 as Kirigami
+import org.kde.kirigami 2.20 as Kirigami
 import org.kde.purpose 1.0 as Purpose
 
-Kirigami.OverlaySheet {
+Kirigami.Dialog {
     id: inputSheet
     property url url
-    property string title
+    property string inputTitle
 
-    header: Kirigami.Heading {
-        text: i18n("Share page")
-    }
+    title: i18n("Share page to")
+    preferredWidth: Kirigami.Units.gridUnit * 16
+    standardButtons: Kirigami.Dialog.NoButton
 
     Purpose.AlternativesView {
         id: view
@@ -30,19 +30,24 @@ Kirigami.OverlaySheet {
             required property int index
 
             label: shareDelegate.display
-            icon: "arrow-right"
             onClicked: view.createJob (shareDelegate.index)
             Keys.onReturnPressed: view.createJob (shareDelegate.index)
             Keys.onEnterPressed: view.createJob (shareDelegate.index)
+            
+            trailing: Kirigami.Icon {
+                implicitWidth: Kirigami.Units.iconSizes.small
+                implicitHeight: Kirigami.Units.iconSizes.small
+                source: "arrow-right"
+            }
         }
 
         onFinished: close()
     }
 
-    onSheetOpenChanged: {
+    onVisibleChanged: {
         view.inputData = {
             "urls": [inputSheet.url.toString()],
-            "title": inputSheet.title
+            "title": inputSheet.inputTitle
         }
     }
 }

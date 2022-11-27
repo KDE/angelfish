@@ -4,121 +4,56 @@
 
 import QtQuick 2.7
 import QtQuick.Controls 2.2 as Controls
-import org.kde.kirigami 2.7 as Kirigami
+import org.kde.kirigami 2.20 as Kirigami
 import QtQuick.Layouts 1.2
 
 import QtWebEngine 1.4
 
-Kirigami.OverlaySheet {
-    id: dialogSheet
+Kirigami.PromptDialog {
+    id: root
     property JavaScriptDialogRequest request
+    
+    onAccepted: root.request.dialogAccept()
+    onRejected: root.request.dialogReject()
 
-    Item {
-        Component {
-            id: alert
-
-            Controls.Button {
-                text: i18n("Close")
-                onClicked: {
-                    dialogSheet.request.dialogReject()
-                    dialogSheet.close()
-                }
-            }
-        }
-
-        Component {
-            id: confirm
-
-            RowLayout {
-                Controls.Button {
-                    Layout.fillWidth: true
-                    text: i18n("Confirm")
-                    onClicked: {
-                        dialogSheet.request.dialogAccept()
-                        dialogSheet.close()
-                    }
-                }
-                Controls.Button {
-                    Layout.fillWidth: true
-                    text: i18n("Cancel")
-                    onClicked: {
-                        dialogSheet.request.dialogReject()
-                        dialogSheet.close()
-                    }
-                }
-            }
-        }
-
-        Component {
-            id: prompt
-
-            ColumnLayout {
-                Controls.TextField {
-                    id: inputField
-                    Layout.fillWidth: true
-                    text: dialogSheet.request.defaultText
-                }
-
-                RowLayout {
-                    Layout.fillWidth: true
-                    Controls.Button {
-                        Layout.fillWidth: true
-                        text: i18n("Cancel")
-                        onClicked: {
-                            dialogSheet.request.dialogReject()
-                            dialogSheet.close()
-                        }
-                    }
-
-                    Controls.Button {
-                        Layout.fillWidth: true
-                        text: i18n("Submit")
-                        onClicked: {
-                            dialogSheet.request.dialogAccept(inputField.text)
-                            dialogSheet.close()
-                        }
-                    }
-                }
-            }
-        }
-
-        Component {
-            id: beforeUnload
-
-            Controls.Button {
-                text: i18n("Leave page")
-                onClicked: {
-                    dialogSheet.request.dialogAccept()
-                    dialogSheet.close()
-                }
-            }
-        }
-    }
-
-    onSheetOpenChanged: {
-        if (dialogSheet.sheetOpen) {
+    onVisibleChanged: {
+        if (root.visible) {
             switch(request.type) {
             case JavaScriptDialogRequest.DialogTypeAlert:
-                controlLoader.sourceComponent = alert
-                break
+                root.standardButtons = Kirigami.Dialog.Close;
+                root.customFooterActions = [];
+                inputField.visible = false;
+                break;
             case JavaScriptDialogRequest.DialogTypeConfirm:
-                controlLoader.sourceComponent = confirm
-                break
+                root.standardButtons = Kirigami.Dialog.Ok | Kirigami.Dialog.Cancel;
+                root.customFooterActions = [];
+                inputField.visible = false;
+                break;
             case JavaScriptDialogRequest.DialogTypePrompt:
-                controlLoader.sourceComponent = prompt
-                break
+                root.standardButtons = Kirigami.Dialog.Cancel;
+                root.customFooterActions = [root.submitAction];
+                inputField.text = "";
+                inputField.visible = true;
+                break;
             case JavaScriptDialogRequest.DialogTypeBeforeUnload:
-                controlLoader.sourceComponent = beforeUnload
-                break
+                root.standardButtons = Kirigami.Dialog.NoButton
+                root.customFooterActions = [root.leavePageAction];
+                inputField.visible = false;
+                break;
             }
         } else {
-            dialogSheet.request.dialogReject()
+            root.request.dialogReject()
         }
     }
-
+    
+    title: i18n("This page says")
+    
     ColumnLayout {
+        spacing: Kirigami.Units.smallSpacing
+        
         Controls.Label {
-            visible: text
+            Layout.fillWidth: true
+            wrapMode: Text.Wrap
             text: {
                 if (request) {
                     if (request.message) {
@@ -132,13 +67,28 @@ Kirigami.OverlaySheet {
 
                 return ""
             }
-            Layout.fillWidth: true
-            Layout.fillHeight: true
-            wrapMode: Text.WordWrap
         }
-        Loader {
+        
+        Controls.TextField {
+            id: inputField
             Layout.fillWidth: true
-            id: controlLoader
+        }
+    }
+
+    property var leavePageAction: Kirigami.Action {
+        text: i18n("Leave page")
+        onTriggered: {
+            root.request.dialogAccept()
+            root.close()
+        }
+    }
+    
+    property var submitAction: Kirigami.Action {
+        text: i18n("Submit")
+        icon.name: "dialog-ok"
+        onTriggered: {
+            root.request.dialogAccept(inputField.text)
+            root.close()
         }
     }
 }

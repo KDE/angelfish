@@ -6,18 +6,17 @@
 import QtQuick 2.15
 import QtQuick.Layouts 1.3
 import QtQuick.Controls 2.15 as Controls
-import org.kde.kirigami 2.7 as Kirigami
+import org.kde.kirigami 2.20 as Kirigami
 
-Kirigami.OverlaySheet {
+Kirigami.Dialog {
     id: selectOverlay
 
     property string options: ""
     property int selectedIndex: -1
     property var selectOptions:  []
-    property bool accepted: false
+    property bool hasAccepted: false
 
-    signal accept(string text)
-    signal reject()
+    signal acceptText(string text)
 
     onOptionsChanged: {
         if (options.length > 0) {
@@ -26,35 +25,32 @@ Kirigami.OverlaySheet {
             selectedIndex = props.selectedIndex
         }
     }
+    preferredWidth: Kirigami.Units.gridUnit * 16
+    standardButtons: Kirigami.Dialog.NoButton
 
-    contentItem: ListView {
-        model: selectOverlay.selectOptions
-        currentIndex: selectedIndex
-        Layout.preferredWidth: Kirigami.Units.gridUnit * 16
+    ColumnLayout {
+        id: column
+        spacing: 0
+        Repeater {
+            model: selectOverlay.selectOptions
+            
+            delegate: Controls.RadioDelegate {
+                Layout.fillWidth: true
+                topPadding: Kirigami.Units.smallSpacing * 2
+                bottomPadding: Kirigami.Units.smallSpacing * 2
 
-        delegate: Controls.RadioDelegate {
-            topPadding: Kirigami.Units.smallSpacing * 2
-            bottomPadding: Kirigami.Units.smallSpacing * 2
-            width: parent.width
+                checked: index == selectedIndex
+                text: modelData
 
-            checked: index == selectedIndex
-            text: modelData
-
-            onCheckedChanged: {
-                if (checked) {
-                    accepted = true;
-                    selectOverlay.accept(index);
-                    selectOverlay.close();
+                onCheckedChanged: {
+                    if (checked) {
+                        hasAccepted = true;
+                        selectOverlay.acceptText(index);
+                        selectOverlay.accepted();
+                        selectOverlay.close();
+                    }
                 }
             }
-        }
-    }
-
-    onSheetOpenChanged: {
-        if (!sheetOpen && !accepted) {
-            selectOverlay.reject();
-        } else if (sheetOpen) {
-            accepted = false;
         }
     }
 }

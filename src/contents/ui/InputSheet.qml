@@ -1,4 +1,5 @@
 // SPDX-FileCopyrightText: 2019 Jonah Brüchert
+// SPDX-FileCopyrightText: 2022 Devin Lin <devin@kde.org>
 //
 // SPDX-License-Identifier: GPL-2.0-or-later
 
@@ -6,53 +7,38 @@ import QtQuick.Controls 2.1 as Controls
 import QtQuick.Layouts 1.7
 import QtQuick 2.7
 
-import org.kde.kirigami 2.5 as Kirigami
+import org.kde.kirigami 2.20 as Kirigami
 
-Kirigami.OverlaySheet {
-    id: inputSheet
+Kirigami.PromptDialog {
+    id: root
     property string placeholderText
     property string description
-    property string title
     property string text
 
-    signal accepted
+    standardButtons: Kirigami.Dialog.Ok
 
-    function accept() {
-        inputSheet.text = sheetTextField.text
-        inputSheet.close()
-        accepted()
-    }
-
-    header: Kirigami.Heading {
-        text: title
-    }
+    onAccepted: root.text = textField.text
 
     ColumnLayout {
         Controls.Label {
             Layout.fillWidth: true
-            text: inputSheet.description
+            text: root.description
             wrapMode: Text.WordWrap
         }
 
         Controls.TextField {
-            id: sheetTextField
+            id: textField
             Layout.fillWidth: true
-            placeholderText: inputSheet.placeholderText
-            text: inputSheet.text
+            placeholderText: root.placeholderText
+            text: root.text
             focus: true
             onAccepted: accept()
         }
-
-        Controls.Button {
-            text: i18n("OK")
-            Layout.alignment: Qt.AlignRight
-            onClicked: accept()
-        }
     }
 
-    onSheetOpenChanged: {
-        if (sheetOpen) {
-            sheetTextField.forceActiveFocus()
+    onVisibleChanged: {
+        if (visible) {
+            textField.forceActiveFocus()
         }
     }
 }

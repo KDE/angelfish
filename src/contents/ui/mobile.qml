@@ -250,8 +250,8 @@ Kirigami.ApplicationWindow {
         // Unload the ShareSheet again after it closed
         Connections {
             target: sheetLoader.item
-            function onSheetOpenChanged() {
-                if (!sheetLoader.item.sheetOpen) {
+            function onVisibleChanged() {
+                if (!sheetLoader.item.visible) {
                     sheetLoader.source = ""
                 }
             }
@@ -281,7 +281,7 @@ Kirigami.ApplicationWindow {
                 onTriggered: {
                     sheetLoader.setSource("ShareSheet.qml")
                     sheetLoader.item.url = currentWebView.url
-                    sheetLoader.item.title = currentWebView.title
+                    sheetLoader.item.inputTitle = currentWebView.title
                     sheetLoader.item.open()
                 }
             },

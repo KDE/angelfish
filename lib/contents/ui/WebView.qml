@@ -318,8 +318,8 @@ classes
             // dropdown dialog
             sheetLoader.setSource("SelectDropdownOverrideDialog.qml");
             sheetLoader.item.options = request.defaultText;
-            sheetLoader.item.accept.connect(request.dialogAccept);
-            sheetLoader.item.reject.connect(request.dialogReject);
+            sheetLoader.item.acceptText.connect(request.dialogAccept);
+            sheetLoader.item.rejected.connect(request.dialogReject);
             sheetLoader.item.open();
             
         } else {
