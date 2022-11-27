@@ -21,7 +21,7 @@ Kirigami.ApplicationWindow {
     minimumWidth: Kirigami.Units.gridUnit * 40
     minimumHeight: Kirigami.Units.gridUnit * 20
     width: Kirigami.Units.gridUnit * 60
-    height: Kirigami.Units.gridUnit * 30
+    height: Kirigami.Units.gridUnit * 40
 
     /** Pointer to the currently active view.
      *
