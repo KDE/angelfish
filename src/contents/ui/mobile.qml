@@ -39,8 +39,10 @@ Kirigami.ApplicationWindow {
     property int borderWidth: Math.round(Kirigami.Units.gridUnit / 18);
     property color borderColor: Kirigami.Theme.highlightColor;
 
-    pageStack.globalToolBar.style: Kirigami.ApplicationHeaderStyle.Titles
+    pageStack.globalToolBar.style: Kirigami.ApplicationHeaderStyle.ToolBar
     pageStack.globalToolBar.showNavigationButtons: Kirigami.ApplicationHeaderStyle.ShowBackButton
+    
+    pageStack.columnView.columnResizeMode: Kirigami.ColumnView.SingleColumn
     
     x: Settings.windowX
     y: Settings.windowY
@@ -97,14 +99,7 @@ Kirigami.ApplicationWindow {
                 text: i18n("Settings")
                 onTriggered: {
                     popSubPages();
-                    pageStack.pushDialogLayer("qrc:/SettingsPage.qml", {
-                        width: webBrowser.width
-                    },
-                    {
-                        title: i18n("Configure Angelfish"),
-                        width: Kirigami.Units.gridUnit * 45,
-                        height: Kirigami.Units.gridUnit * 35
-                    });
+                    pageStack.push("qrc:/SettingsPage.qml");
                 }
             }
         ]

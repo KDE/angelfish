@@ -38,6 +38,7 @@ include(KDEInstallDirs)
 include(KDECMakeSettings)
 include(KDEClangFormat)
 include(ECMPoQmTools)
+include(ECMFindQmlModule)
 include(KDECompilerSettings NO_POLICY_SCOPE)
 
 ecm_setup_version(${PROJECT_VERSION}
@@ -50,6 +51,8 @@ ecm_setup_version(${PROJECT_VERSION}
 find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} REQUIRED NO_MODULE COMPONENTS Core Quick Test Gui Svg QuickControls2 Sql)
 find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} OPTIONAL_COMPONENTS Feedback)
 find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 Purpose I18n Config CoreAddons DBusAddons WindowSystem Notifications)
+
+ecm_find_qmlmodule(org.kde.kirigamiaddons.labs.mobileform 0.1)
 
 # Necessary to support QtWebEngine installed in a different prefix than the rest of Qt (e.g flatpak)
 if(QT_MAJOR_VERSION STREQUAL "6")
