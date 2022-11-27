@@ -77,7 +77,7 @@ Kirigami.ApplicationWindow {
                 text: i18n("Bookmarks")
             },
             Kirigami.Action {
-                icon.name: "view-history"
+                icon.name: "shallow-history"
                 onTriggered: {
                     popSubPages();
                     pageStack.push(Qt.resolvedUrl("History.qml"))
