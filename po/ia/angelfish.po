@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-31 00:48+0000\n"
-"PO-Revision-Date: 2022-06-29 12:50+0200\n"
+"PO-Revision-Date: 2022-11-28 21:49+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Lokalize 22.11.80\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -320,7 +320,7 @@ msgstr "Trova in pagina"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
-msgstr ""
+msgstr "Modo de Lectura"
 
 #: src/contents/ui/desktop/desktop.qml:311
 #, kde-format
@@ -393,7 +393,7 @@ msgstr "Monstra sempre le barra de scheda:"
 #: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:233
 #, kde-format
 msgid "Reader Mode: %1"
-msgstr ""
+msgstr "Modo de Lectura: %1"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -522,7 +522,7 @@ msgstr "Monstr sito de scriptorioa"
 #: src/contents/ui/mobile.qml:364
 #, kde-format
 msgid "Reader Mode"
-msgstr ""
+msgstr "Modo de Lectura"
 
 #: src/contents/ui/mobile.qml:372
 #, kde-format
