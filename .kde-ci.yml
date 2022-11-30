@@ -13,6 +13,7 @@ Dependencies:
     'frameworks/kwindowsystem': '@stable'
     'frameworks/knotifications': '@stable'
     'frameworks/purpose': '@stable'
+    'libraries/kirigami-addons': '@latest'
 
 Options:
   require-passing-tests-on: [ 'Linux' ]
