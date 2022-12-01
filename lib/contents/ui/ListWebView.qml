@@ -13,7 +13,6 @@ import org.kde.angelfish 1.0
 
 Repeater {
     id: tabs
-    clip: true
 
     property bool activeTabs: false
     property bool privateTabsMode: false

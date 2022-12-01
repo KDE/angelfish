@@ -41,7 +41,6 @@ Item {
             Layout.fillWidth: true
             leftPadding: index.anchors.rightMargin
             rightPadding: index.width + 2 * index.anchors.rightMargin
-            clip: true
             inputMethodHints: rootPage.privateMode ? Qt.ImhNoPredictiveText : Qt.ImhNone
             placeholderText: i18n("Search...")
 
