@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-31 00:48+0000\n"
-"PO-Revision-Date: 2022-12-01 09:08+0100\n"
+"PO-Revision-Date: 2022-12-02 07:22+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.2\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -154,6 +154,13 @@ msgid ""
 " you may not be connected with the host you tried to connect to.\n"
 " Do you wish to override the security check and continue?"
 msgstr ""
+"გნებავთ, გააგრძელოთ??\n"
+"\n"
+" თუ გნებავთ, თქვენ იმუშავებთ გადაუმოწმებელი სერტიფიკატით.\n"
+" ამ სერტიფიკატის მიღება ნიშნავს, რომ\n"
+" თქვენ შეიძლება სინამდვილეში არ იყოთ იმ ჰოსტთან მიერთებული, რომელზეც "
+"აპირებდით.\n"
+" გნებავთ, გადაფაროთ ეს უსაფრთხოების შემოწმენა და გააგრძელოთ?"
 
 #: lib/contents/ui/ErrorHandler.qml:79
 #, kde-format
@@ -191,6 +198,8 @@ msgid ""
 "The website asks for confirmation that you want to leave. Unsaved "
 "information might not be saved."
 msgstr ""
+"ვებგვერდი გთხოვთ დადასტურებას, რომ გნებავთ, გახვიდეთ. შეუნახავი ინფორმაცია "
+"დაიკარგება."
 
 #: lib/contents/ui/PermissionQuestion.qml:16
 #, kde-format
@@ -623,6 +632,12 @@ msgid ""
 "menus either by swiping from the left or right side or to a side along the "
 "bottom of the window."
 msgstr ""
+"აირჩიეთ ნავიგაციის ზოლში ჩართული ღილაკები. ზოგიერთი ამ ღილაკის დამალვა "
+"მხოლოდ ბრაუზერის პორტრეტული ორიენტაციის დროს შეიძლება და ყოველთვის "
+"ნაჩვენებია, სანამ ბრაუზერის ფანჯრის სიგანე მის სიმაღლეზე მეტია.\n"
+"\n"
+"დაიმახსოვრეთ, რომ თუ მენიუს ღილაკებს გამორთავთ, მენიუსთან წვდომა ფანჯარაზე "
+"მარცხნიდან მარჯვნივ ან ფანჯრის ქვედა კუთხეზე გასმით გექნებათ."
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:53
 #, kde-format
