@@ -16,7 +16,7 @@ Kirigami.PromptDialog {
 
     title: i18n("Authentication required")
 
-    standardButtons: Kirigami.Dialog.Ok | Dialog.Cancel
+    standardButtons: Kirigami.Dialog.Ok | Kirigami.Dialog.Cancel
     
     onAccepted: root.request.dialogAccept(usernameField.text, passwordField.text)
     onRejected: root.request.dialogReject()
