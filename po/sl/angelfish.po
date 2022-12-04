@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-31 00:48+0000\n"
+"POT-Creation-Date: 2022-12-04 00:48+0000\n"
 "PO-Revision-Date: 2022-08-15 05:58+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -101,7 +101,7 @@ msgstr "Prenos sem končan"
 msgid "Download failed"
 msgstr "Prenos sem ni uspel"
 
-#: lib/contents/ui/AuthSheet.qml:21
+#: lib/contents/ui/AuthSheet.qml:17
 #, kde-format
 msgid "Authentication required"
 msgstr "Zahtevana overovitev"
@@ -116,23 +116,15 @@ msgstr "Uporabniško ime"
 msgid "Password"
 msgstr "Geslo"
 
-#: lib/contents/ui/AuthSheet.qml:46 lib/contents/ui/PermissionQuestion.qml:43
-#, kde-format
-msgid "Accept"
-msgstr "Sprejmi"
-
-#: lib/contents/ui/AuthSheet.qml:55 lib/contents/ui/DownloadQuestion.qml:28
-#: lib/contents/ui/JavaScriptDialogSheet.qml:43
-#: lib/contents/ui/JavaScriptDialogSheet.qml:66
-#: src/contents/ui/Downloads.qml:41
-#, kde-format
-msgid "Cancel"
-msgstr "Prekliči"
-
 #: lib/contents/ui/DownloadQuestion.qml:12
 #, kde-format
 msgid "Do you want to download this file?"
 msgstr "Ali želite prenesti sem to datoteko?"
+
+#: lib/contents/ui/DownloadQuestion.qml:28 src/contents/ui/Downloads.qml:41
+#, kde-format
+msgid "Cancel"
+msgstr "Prekliči"
 
 #: lib/contents/ui/ErrorHandler.qml:47
 #, kde-format
@@ -171,27 +163,12 @@ msgstr "Da"
 msgid "No"
 msgstr "Ne"
 
-#: lib/contents/ui/JavaScriptDialogSheet.qml:21
+#: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
-msgid "Close"
-msgstr "Zapri"
+msgid "This page says"
+msgstr ""
 
-#: lib/contents/ui/JavaScriptDialogSheet.qml:35
-#, kde-format
-msgid "Confirm"
-msgstr "Potrdi"
-
-#: lib/contents/ui/JavaScriptDialogSheet.qml:75
-#, kde-format
-msgid "Submit"
-msgstr "Oddaj"
-
-#: lib/contents/ui/JavaScriptDialogSheet.qml:89
-#, kde-format
-msgid "Leave page"
-msgstr "Zapusti stran"
-
-#: lib/contents/ui/JavaScriptDialogSheet.qml:129
+#: lib/contents/ui/JavaScriptDialogSheet.qml:64
 #, kde-format
 msgid ""
 "The website asks for confirmation that you want to leave. Unsaved "
@@ -199,6 +176,16 @@ msgid ""
 msgstr ""
 "Spletna stran zahteva potrditev, da jo želite zapustiti. Neshranjeni podatki "
 "morda ne bodo shranjeni."
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:79
+#, kde-format
+msgid "Leave page"
+msgstr "Zapusti stran"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:87
+#, kde-format
+msgid "Submit"
+msgstr "Oddaj"
 
 #: lib/contents/ui/PermissionQuestion.qml:16
 #, kde-format
@@ -236,6 +223,11 @@ msgstr "Ali želite spletišču dovoliti skupno rabo zvočnega izhoda?"
 msgid "Do you want to allow the website to send you notifications?"
 msgstr "Ali želite spletišču dovoliti pošiljanje obvestil?"
 
+#: lib/contents/ui/PermissionQuestion.qml:43
+#, kde-format
+msgid "Accept"
+msgstr "Sprejmi"
+
 #: lib/contents/ui/PermissionQuestion.qml:53
 #, kde-format
 msgid "Decline"
@@ -270,7 +262,7 @@ msgid "Downloading..."
 msgstr "Prenašam..."
 
 #: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:250
-#: src/contents/ui/mobile.qml:77
+#: src/contents/ui/mobile.qml:79
 #, kde-format
 msgid "Bookmarks"
 msgstr "Zaznamki"
@@ -291,13 +283,13 @@ msgid "New Tab"
 msgstr "Nov zavihek"
 
 #: src/contents/ui/desktop/desktop.qml:241 src/contents/ui/History.qml:12
-#: src/contents/ui/mobile.qml:85
+#: src/contents/ui/mobile.qml:87
 #, kde-format
 msgid "History"
 msgstr "Zgodovina"
 
 #: src/contents/ui/desktop/desktop.qml:259 src/contents/ui/Downloads.qml:15
-#: src/contents/ui/mobile.qml:89
+#: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
 msgstr "Prenosi"
@@ -307,12 +299,12 @@ msgstr "Prenosi"
 msgid "Full Screen"
 msgstr "Celotni zaslon"
 
-#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:381
+#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Show developer tools"
 msgstr "Prikaži razvojna orodja"
 
-#: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:281
+#: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:276
 #, kde-format
 msgid "Find in page"
 msgstr "Išči po strani"
@@ -328,12 +320,12 @@ msgstr "Bralni način"
 msgid "Add to application launcher"
 msgstr "Dodaj v zaganjalnik programov"
 
-#: src/contents/ui/desktop/desktop.qml:330 src/contents/ui/mobile.qml:97
+#: src/contents/ui/desktop/desktop.qml:330 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "Nastavitve"
 
-#: src/contents/ui/desktop/desktop.qml:337 src/contents/ui/mobile.qml:104
+#: src/contents/ui/desktop/desktop.qml:337
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "Nastavi Angelfish"
@@ -439,98 +431,93 @@ msgctxt "download state"
 msgid "In progress"
 msgstr "V postopku"
 
-#: src/contents/ui/FindInPageBar.qml:46
+#: src/contents/ui/FindInPageBar.qml:45
 #, kde-format
 msgid "Search..."
 msgstr "Išči..."
-
-#: src/contents/ui/InputSheet.qml:47
-#, kde-format
-msgid "OK"
-msgstr "V redu"
 
 #: src/contents/ui/mobile.qml:18
 #, kde-format
 msgid "Angelfish Web Browser"
 msgstr "Angelfish spletni brskalnik"
 
-#: src/contents/ui/mobile.qml:62 src/contents/ui/Tabs.qml:63
+#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:63
 #, kde-format
 msgid "Tabs"
 msgstr "Zavihki"
 
-#: src/contents/ui/mobile.qml:69
+#: src/contents/ui/mobile.qml:71
 #, kde-format
 msgid "Leave private mode"
 msgstr "Zapusti zasebni način"
 
-#: src/contents/ui/mobile.qml:69
+#: src/contents/ui/mobile.qml:71
 #, kde-format
 msgid "Private mode"
 msgstr "Zasebni način"
 
-#: src/contents/ui/mobile.qml:285 src/contents/ui/ShareSheet.qml:18
+#: src/contents/ui/mobile.qml:280
 #, kde-format
 msgid "Share page"
 msgstr "Deli stran"
 
-#: src/contents/ui/mobile.qml:296
+#: src/contents/ui/mobile.qml:291
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Dodaj na začetni zaslon"
 
-#: src/contents/ui/mobile.qml:306
+#: src/contents/ui/mobile.qml:301
 #, kde-format
 msgid "Open in app"
 msgstr "Odpri v aplikaciji"
 
-#: src/contents/ui/mobile.qml:314
+#: src/contents/ui/mobile.qml:309
 #, kde-format
 msgid "Go previous"
 msgstr "Pojdi na prejšnjo"
 
-#: src/contents/ui/mobile.qml:322
-#: src/contents/ui/SettingsNavigationBarPage.qml:109
+#: src/contents/ui/mobile.qml:317
+#: src/contents/ui/SettingsNavigationBarPage.qml:76
 #, kde-format
 msgid "Go forward"
 msgstr "Pojdi naprej"
 
-#: src/contents/ui/mobile.qml:329
+#: src/contents/ui/mobile.qml:324
 #, kde-format
 msgid "Stop loading"
 msgstr "Ustavi nalaganje"
 
-#: src/contents/ui/mobile.qml:329
+#: src/contents/ui/mobile.qml:324
 #, kde-format
 msgid "Refresh"
 msgstr "Osveži"
 
-#: src/contents/ui/mobile.qml:339
+#: src/contents/ui/mobile.qml:334
 #, kde-format
 msgid "Bookmarked"
 msgstr "Zaznamovana"
 
-#: src/contents/ui/mobile.qml:339
+#: src/contents/ui/mobile.qml:334
 #, kde-format
 msgid "Bookmark"
 msgstr "Zaznamek"
 
-#: src/contents/ui/mobile.qml:355
+#: src/contents/ui/mobile.qml:350
 #, kde-format
 msgid "Show desktop site"
 msgstr "Prikaži namizno spletišče"
 
-#: src/contents/ui/mobile.qml:364
+#: src/contents/ui/mobile.qml:359
 #, kde-format
 msgid "Reader Mode"
 msgstr "Bralni način"
 
-#: src/contents/ui/mobile.qml:372
+#: src/contents/ui/mobile.qml:367
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "Skrij navigacijsko letvico"
 
-#: src/contents/ui/mobile.qml:372
+#: src/contents/ui/mobile.qml:367
 #, kde-format
 msgid "Show navigation bar"
 msgstr "Prikaži navigacijsko letvico"
@@ -589,39 +576,65 @@ msgstr "Dodaj"
 msgid "Remove this filter list"
 msgstr "Odstrani ta filtrirni seznam"
 
-#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#: src/contents/ui/SettingsGeneral.qml:16 src/contents/ui/SettingsPage.qml:12
 #, kde-format
 msgid "General"
 msgstr "Splošno"
 
-#: src/contents/ui/SettingsGeneral.qml:28
+#: src/contents/ui/SettingsGeneral.qml:37
 #, kde-format
 msgid "Enable JavaScript"
 msgstr "Omogoči JavaScript"
 
-#: src/contents/ui/SettingsGeneral.qml:42
+#: src/contents/ui/SettingsGeneral.qml:38
+#, kde-format
+msgid "This may be required on certain websites for them to work."
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:47
 #, kde-format
 msgid "Load images"
 msgstr "Naloži slike"
 
-#: src/contents/ui/SettingsGeneral.qml:56
+#: src/contents/ui/SettingsGeneral.qml:48
+#, kde-format
+msgid "Whether to load images on websites."
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:57
 #, kde-format
 msgid "Enable adblock"
 msgstr "Omogoči adblock"
 
-#: src/contents/ui/SettingsGeneral.qml:73
+#: src/contents/ui/SettingsGeneral.qml:58
+#, kde-format
+msgid "Attempts to prevent advertisements on websites from showing."
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:58
+#, fuzzy, kde-format
+#| msgid "The adblock functionality isn't included in this build."
+msgid "AdBlock functionality was not included in this build."
+msgstr "Možnost blokiranja oglasov ni vključena v to sestavo."
+
+#: src/contents/ui/SettingsGeneral.qml:68
+#, kde-format
+msgid "Switch to new tab immediately"
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:69
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately"
 msgstr ""
 "Ko odpreš povezavo, sliko ali medij v novem zavihku, se takoj preklopi tja"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:14
+#: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format
 msgid "Navigation bar"
 msgstr "Navigacijska letvica"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:35
+#: src/contents/ui/SettingsNavigationBarPage.qml:36
 #, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
@@ -639,27 +652,27 @@ msgstr ""
 " Če onemogočite gumbe menija, boste lahko dostopali do menijev, tako da "
 "povlečete z leve ali desne strani ali na stran ob dnu okna."
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:53
+#: src/contents/ui/SettingsNavigationBarPage.qml:52
 #, kde-format
 msgid "Main menu in portrait"
 msgstr "Glavni meni v pokončni legi"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:67
+#: src/contents/ui/SettingsNavigationBarPage.qml:58
 #, kde-format
 msgid "Tabs in portrait"
 msgstr "Zavihki v pokončni legi"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:81
+#: src/contents/ui/SettingsNavigationBarPage.qml:64
 #, kde-format
 msgid "Context menu in portrait"
 msgstr "Kontekstni meni v pokončni legi"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:95
+#: src/contents/ui/SettingsNavigationBarPage.qml:70
 #, kde-format
 msgid "Go back"
 msgstr "Pojdi nazaj"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:123
+#: src/contents/ui/SettingsNavigationBarPage.qml:82
 #, kde-format
 msgid "Reload/Stop"
 msgstr "Ponovno naloži/Ustavi"
@@ -675,18 +688,18 @@ msgid "Web Apps"
 msgstr "Spletne aplikacije"
 
 #: src/contents/ui/SettingsPage.qml:27
-#: src/contents/ui/SettingsSearchEnginePage.qml:13
-#: src/contents/ui/SettingsSearchEnginePage.qml:33
+#: src/contents/ui/SettingsSearchEnginePage.qml:15
+#: src/contents/ui/SettingsSearchEnginePage.qml:119
 #, kde-format
 msgid "Search Engine"
 msgstr "Iskalnik"
 
-#: src/contents/ui/SettingsSearchEnginePage.qml:28
+#: src/contents/ui/SettingsSearchEnginePage.qml:31
 #, kde-format
 msgid "Custom"
 msgstr "Po meri"
 
-#: src/contents/ui/SettingsSearchEnginePage.qml:34
+#: src/contents/ui/SettingsSearchEnginePage.qml:120
 #, kde-format
 msgid "Base URL of your preferred search engine"
 msgstr "Spletni naslov vašega najbolj zaželenega iskalnika"
@@ -695,6 +708,12 @@ msgstr "Spletni naslov vašega najbolj zaželenega iskalnika"
 #, kde-format
 msgid "Remove app"
 msgstr "Odstrani aplikacijo"
+
+#: src/contents/ui/ShareSheet.qml:17
+#, fuzzy, kde-format
+#| msgid "Share page"
+msgid "Share page to"
+msgstr "Deli stran"
 
 #: src/contents/ui/Tabs.qml:63
 #, kde-format
@@ -705,6 +724,15 @@ msgstr "Zasebni zavihki"
 #, kde-format
 msgid "URL to open"
 msgstr "Spletni naslov za odpiranje"
+
+#~ msgid "Close"
+#~ msgstr "Zapri"
+
+#~ msgid "Confirm"
+#~ msgstr "Potrdi"
+
+#~ msgid "OK"
+#~ msgstr "V redu"
 
 #~ msgid "General:"
 #~ msgstr "Splošno:"

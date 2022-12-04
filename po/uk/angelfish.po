@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-31 00:48+0000\n"
+"POT-Creation-Date: 2022-12-04 00:48+0000\n"
 "PO-Revision-Date: 2022-08-14 08:31+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -103,7 +103,7 @@ msgstr "Отримання завершено"
 msgid "Download failed"
 msgstr "Не вдалося отримати"
 
-#: lib/contents/ui/AuthSheet.qml:21
+#: lib/contents/ui/AuthSheet.qml:17
 #, kde-format
 msgid "Authentication required"
 msgstr "Слід пройти розпізнавання"
@@ -118,23 +118,15 @@ msgstr "Користувач"
 msgid "Password"
 msgstr "Пароль"
 
-#: lib/contents/ui/AuthSheet.qml:46 lib/contents/ui/PermissionQuestion.qml:43
-#, kde-format
-msgid "Accept"
-msgstr "Прийняти"
-
-#: lib/contents/ui/AuthSheet.qml:55 lib/contents/ui/DownloadQuestion.qml:28
-#: lib/contents/ui/JavaScriptDialogSheet.qml:43
-#: lib/contents/ui/JavaScriptDialogSheet.qml:66
-#: src/contents/ui/Downloads.qml:41
-#, kde-format
-msgid "Cancel"
-msgstr "Скасувати"
-
 #: lib/contents/ui/DownloadQuestion.qml:12
 #, kde-format
 msgid "Do you want to download this file?"
 msgstr "Хочете отримати цей файл?"
+
+#: lib/contents/ui/DownloadQuestion.qml:28 src/contents/ui/Downloads.qml:41
+#, kde-format
+msgid "Cancel"
+msgstr "Скасувати"
 
 #: lib/contents/ui/ErrorHandler.qml:47
 #, kde-format
@@ -174,27 +166,12 @@ msgstr "Так"
 msgid "No"
 msgstr "Ні"
 
-#: lib/contents/ui/JavaScriptDialogSheet.qml:21
+#: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
-msgid "Close"
-msgstr "Закрити"
+msgid "This page says"
+msgstr ""
 
-#: lib/contents/ui/JavaScriptDialogSheet.qml:35
-#, kde-format
-msgid "Confirm"
-msgstr "Підтвердити"
-
-#: lib/contents/ui/JavaScriptDialogSheet.qml:75
-#, kde-format
-msgid "Submit"
-msgstr "Надіслати"
-
-#: lib/contents/ui/JavaScriptDialogSheet.qml:89
-#, kde-format
-msgid "Leave page"
-msgstr "Полишити сторінку"
-
-#: lib/contents/ui/JavaScriptDialogSheet.qml:129
+#: lib/contents/ui/JavaScriptDialogSheet.qml:64
 #, kde-format
 msgid ""
 "The website asks for confirmation that you want to leave. Unsaved "
@@ -202,6 +179,16 @@ msgid ""
 msgstr ""
 "Сайтові потрібне підтвердження тощо, що ви полишаєте сторінку. Незбережені "
 "дані може бути втрачено."
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:79
+#, kde-format
+msgid "Leave page"
+msgstr "Полишити сторінку"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:87
+#, kde-format
+msgid "Submit"
+msgstr "Надіслати"
 
 #: lib/contents/ui/PermissionQuestion.qml:16
 #, kde-format
@@ -239,6 +226,11 @@ msgstr "Хочете надати сайту доступ до виведенн�
 msgid "Do you want to allow the website to send you notifications?"
 msgstr "Хочете надати сайту доступ до надсилання вам сповіщень?"
 
+#: lib/contents/ui/PermissionQuestion.qml:43
+#, kde-format
+msgid "Accept"
+msgstr "Прийняти"
+
 #: lib/contents/ui/PermissionQuestion.qml:53
 #, kde-format
 msgid "Decline"
@@ -273,7 +265,7 @@ msgid "Downloading..."
 msgstr "Отримання даних…"
 
 #: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:250
-#: src/contents/ui/mobile.qml:77
+#: src/contents/ui/mobile.qml:79
 #, kde-format
 msgid "Bookmarks"
 msgstr "Закладки"
@@ -294,13 +286,13 @@ msgid "New Tab"
 msgstr "Нова вкладка"
 
 #: src/contents/ui/desktop/desktop.qml:241 src/contents/ui/History.qml:12
-#: src/contents/ui/mobile.qml:85
+#: src/contents/ui/mobile.qml:87
 #, kde-format
 msgid "History"
 msgstr "Журнал"
 
 #: src/contents/ui/desktop/desktop.qml:259 src/contents/ui/Downloads.qml:15
-#: src/contents/ui/mobile.qml:89
+#: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
 msgstr "Отримання файлів"
@@ -310,12 +302,12 @@ msgstr "Отримання файлів"
 msgid "Full Screen"
 msgstr "На весь екран"
 
-#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:381
+#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Show developer tools"
 msgstr "Показати інструменти розробника"
 
-#: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:281
+#: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:276
 #, kde-format
 msgid "Find in page"
 msgstr "Знайти на сторінці"
@@ -331,12 +323,12 @@ msgstr "Режим читання"
 msgid "Add to application launcher"
 msgstr "Додати до інструмента запуску програм"
 
-#: src/contents/ui/desktop/desktop.qml:330 src/contents/ui/mobile.qml:97
+#: src/contents/ui/desktop/desktop.qml:330 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "Параметри"
 
-#: src/contents/ui/desktop/desktop.qml:337 src/contents/ui/mobile.qml:104
+#: src/contents/ui/desktop/desktop.qml:337
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "Налаштувати Angelfish"
@@ -442,98 +434,93 @@ msgctxt "download state"
 msgid "In progress"
 msgstr "Триває"
 
-#: src/contents/ui/FindInPageBar.qml:46
+#: src/contents/ui/FindInPageBar.qml:45
 #, kde-format
 msgid "Search..."
 msgstr "Шукати…"
-
-#: src/contents/ui/InputSheet.qml:47
-#, kde-format
-msgid "OK"
-msgstr "Гаразд"
 
 #: src/contents/ui/mobile.qml:18
 #, kde-format
 msgid "Angelfish Web Browser"
 msgstr "Веббраузер Angelfish"
 
-#: src/contents/ui/mobile.qml:62 src/contents/ui/Tabs.qml:63
+#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:63
 #, kde-format
 msgid "Tabs"
 msgstr "Вкладки"
 
-#: src/contents/ui/mobile.qml:69
+#: src/contents/ui/mobile.qml:71
 #, kde-format
 msgid "Leave private mode"
 msgstr "Вийти з конфіденційного режиму"
 
-#: src/contents/ui/mobile.qml:69
+#: src/contents/ui/mobile.qml:71
 #, kde-format
 msgid "Private mode"
 msgstr "Конфіденційний режим"
 
-#: src/contents/ui/mobile.qml:285 src/contents/ui/ShareSheet.qml:18
+#: src/contents/ui/mobile.qml:280
 #, kde-format
 msgid "Share page"
 msgstr "Оприлюднити сторінку"
 
-#: src/contents/ui/mobile.qml:296
+#: src/contents/ui/mobile.qml:291
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Додати на домашню сторінку"
 
-#: src/contents/ui/mobile.qml:306
+#: src/contents/ui/mobile.qml:301
 #, kde-format
 msgid "Open in app"
 msgstr "Відкрити у програмі"
 
-#: src/contents/ui/mobile.qml:314
+#: src/contents/ui/mobile.qml:309
 #, kde-format
 msgid "Go previous"
 msgstr "Перейти до попереднього"
 
-#: src/contents/ui/mobile.qml:322
-#: src/contents/ui/SettingsNavigationBarPage.qml:109
+#: src/contents/ui/mobile.qml:317
+#: src/contents/ui/SettingsNavigationBarPage.qml:76
 #, kde-format
 msgid "Go forward"
 msgstr "Перейти до наступного"
 
-#: src/contents/ui/mobile.qml:329
+#: src/contents/ui/mobile.qml:324
 #, kde-format
 msgid "Stop loading"
 msgstr "Припинити завантаження"
 
-#: src/contents/ui/mobile.qml:329
+#: src/contents/ui/mobile.qml:324
 #, kde-format
 msgid "Refresh"
 msgstr "Оновити"
 
-#: src/contents/ui/mobile.qml:339
+#: src/contents/ui/mobile.qml:334
 #, kde-format
 msgid "Bookmarked"
 msgstr "Додано до закладок"
 
-#: src/contents/ui/mobile.qml:339
+#: src/contents/ui/mobile.qml:334
 #, kde-format
 msgid "Bookmark"
 msgstr "Створити закладку"
 
-#: src/contents/ui/mobile.qml:355
+#: src/contents/ui/mobile.qml:350
 #, kde-format
 msgid "Show desktop site"
 msgstr "Показати місце стільниці"
 
-#: src/contents/ui/mobile.qml:364
+#: src/contents/ui/mobile.qml:359
 #, kde-format
 msgid "Reader Mode"
 msgstr "Режим читання"
 
-#: src/contents/ui/mobile.qml:372
+#: src/contents/ui/mobile.qml:367
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "Приховати панель навігації"
 
-#: src/contents/ui/mobile.qml:372
+#: src/contents/ui/mobile.qml:367
 #, kde-format
 msgid "Show navigation bar"
 msgstr "Показати панель навігації"
@@ -592,27 +579,53 @@ msgstr "Додати"
 msgid "Remove this filter list"
 msgstr "Вилучити цей список фільтрування"
 
-#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#: src/contents/ui/SettingsGeneral.qml:16 src/contents/ui/SettingsPage.qml:12
 #, kde-format
 msgid "General"
 msgstr "Загальне"
 
-#: src/contents/ui/SettingsGeneral.qml:28
+#: src/contents/ui/SettingsGeneral.qml:37
 #, kde-format
 msgid "Enable JavaScript"
 msgstr "Увімкнути JavaScript"
 
-#: src/contents/ui/SettingsGeneral.qml:42
+#: src/contents/ui/SettingsGeneral.qml:38
+#, kde-format
+msgid "This may be required on certain websites for them to work."
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:47
 #, kde-format
 msgid "Load images"
 msgstr "Завантажити зображення"
 
-#: src/contents/ui/SettingsGeneral.qml:56
+#: src/contents/ui/SettingsGeneral.qml:48
+#, kde-format
+msgid "Whether to load images on websites."
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:57
 #, kde-format
 msgid "Enable adblock"
 msgstr "Увімкнути блокування реклами"
 
-#: src/contents/ui/SettingsGeneral.qml:73
+#: src/contents/ui/SettingsGeneral.qml:58
+#, kde-format
+msgid "Attempts to prevent advertisements on websites from showing."
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:58
+#, fuzzy, kde-format
+#| msgid "The adblock functionality isn't included in this build."
+msgid "AdBlock functionality was not included in this build."
+msgstr "Можливості з блокування реклами не включено до цієї збірки."
+
+#: src/contents/ui/SettingsGeneral.qml:68
+#, kde-format
+msgid "Switch to new tab immediately"
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:69
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately"
@@ -620,12 +633,12 @@ msgstr ""
 "Коли ви відкриваєте посилання, зображення або мультимедійні дані у новій "
 "вкладці, перемикатися на неї негайно"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:14
+#: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format
 msgid "Navigation bar"
 msgstr "Панель навігації"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:35
+#: src/contents/ui/SettingsNavigationBarPage.qml:36
 #, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
@@ -644,27 +657,27 @@ msgstr ""
 "меню або проведенням пальцем з лівого або правого краю екрана, або "
 "проведенням убік уздовж нижнього краю вікна."
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:53
+#: src/contents/ui/SettingsNavigationBarPage.qml:52
 #, kde-format
 msgid "Main menu in portrait"
 msgstr "Головне меню у книжковому режимі"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:67
+#: src/contents/ui/SettingsNavigationBarPage.qml:58
 #, kde-format
 msgid "Tabs in portrait"
 msgstr "Вкладки у книжковому режимі"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:81
+#: src/contents/ui/SettingsNavigationBarPage.qml:64
 #, kde-format
 msgid "Context menu in portrait"
 msgstr "Контекстне меню у книжковому режимі"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:95
+#: src/contents/ui/SettingsNavigationBarPage.qml:70
 #, kde-format
 msgid "Go back"
 msgstr "Назад"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:123
+#: src/contents/ui/SettingsNavigationBarPage.qml:82
 #, kde-format
 msgid "Reload/Stop"
 msgstr "Перезавантажити/Зупинити"
@@ -680,18 +693,18 @@ msgid "Web Apps"
 msgstr "Вебпрограми"
 
 #: src/contents/ui/SettingsPage.qml:27
-#: src/contents/ui/SettingsSearchEnginePage.qml:13
-#: src/contents/ui/SettingsSearchEnginePage.qml:33
+#: src/contents/ui/SettingsSearchEnginePage.qml:15
+#: src/contents/ui/SettingsSearchEnginePage.qml:119
 #, kde-format
 msgid "Search Engine"
 msgstr "Рушій пошуку"
 
-#: src/contents/ui/SettingsSearchEnginePage.qml:28
+#: src/contents/ui/SettingsSearchEnginePage.qml:31
 #, kde-format
 msgid "Custom"
 msgstr "Нетиповий"
 
-#: src/contents/ui/SettingsSearchEnginePage.qml:34
+#: src/contents/ui/SettingsSearchEnginePage.qml:120
 #, kde-format
 msgid "Base URL of your preferred search engine"
 msgstr "Базова адреса бажаного для вас рушія пошуку"
@@ -700,6 +713,12 @@ msgstr "Базова адреса бажаного для вас рушія по
 #, kde-format
 msgid "Remove app"
 msgstr "Вилучити програму"
+
+#: src/contents/ui/ShareSheet.qml:17
+#, fuzzy, kde-format
+#| msgid "Share page"
+msgid "Share page to"
+msgstr "Оприлюднити сторінку"
 
 #: src/contents/ui/Tabs.qml:63
 #, kde-format
@@ -710,6 +729,15 @@ msgstr "Конфіденційні вкладки"
 #, kde-format
 msgid "URL to open"
 msgstr "Адреса, яку слід відкрити"
+
+#~ msgid "Close"
+#~ msgstr "Закрити"
+
+#~ msgid "Confirm"
+#~ msgstr "Підтвердити"
+
+#~ msgid "OK"
+#~ msgstr "Гаразд"
 
 #~ msgid "General:"
 #~ msgstr "Загальне:"

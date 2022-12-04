@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-31 00:48+0000\n"
+"POT-Creation-Date: 2022-12-04 00:48+0000\n"
 "PO-Revision-Date: 2022-08-16 20:58+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -101,7 +101,7 @@ msgstr "Ukończono pobieranie"
 msgid "Download failed"
 msgstr "Nie udało się pobrać"
 
-#: lib/contents/ui/AuthSheet.qml:21
+#: lib/contents/ui/AuthSheet.qml:17
 #, kde-format
 msgid "Authentication required"
 msgstr "Wymagane uwierzytelnienie"
@@ -116,23 +116,15 @@ msgstr "Nazwa użytkownika"
 msgid "Password"
 msgstr "Hasło"
 
-#: lib/contents/ui/AuthSheet.qml:46 lib/contents/ui/PermissionQuestion.qml:43
-#, kde-format
-msgid "Accept"
-msgstr "Przyjmij"
-
-#: lib/contents/ui/AuthSheet.qml:55 lib/contents/ui/DownloadQuestion.qml:28
-#: lib/contents/ui/JavaScriptDialogSheet.qml:43
-#: lib/contents/ui/JavaScriptDialogSheet.qml:66
-#: src/contents/ui/Downloads.qml:41
-#, kde-format
-msgid "Cancel"
-msgstr "Anuluj"
-
 #: lib/contents/ui/DownloadQuestion.qml:12
 #, kde-format
 msgid "Do you want to download this file?"
 msgstr "Czy pobrać ten plik?"
+
+#: lib/contents/ui/DownloadQuestion.qml:28 src/contents/ui/Downloads.qml:41
+#, kde-format
+msgid "Cancel"
+msgstr "Anuluj"
 
 #: lib/contents/ui/ErrorHandler.qml:47
 #, kde-format
@@ -172,27 +164,12 @@ msgstr "Tak"
 msgid "No"
 msgstr "Nie"
 
-#: lib/contents/ui/JavaScriptDialogSheet.qml:21
+#: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
-msgid "Close"
-msgstr "Zamknij"
+msgid "This page says"
+msgstr ""
 
-#: lib/contents/ui/JavaScriptDialogSheet.qml:35
-#, kde-format
-msgid "Confirm"
-msgstr "Potwierdź"
-
-#: lib/contents/ui/JavaScriptDialogSheet.qml:75
-#, kde-format
-msgid "Submit"
-msgstr "Wyślij"
-
-#: lib/contents/ui/JavaScriptDialogSheet.qml:89
-#, kde-format
-msgid "Leave page"
-msgstr "Opuść stronę"
-
-#: lib/contents/ui/JavaScriptDialogSheet.qml:129
+#: lib/contents/ui/JavaScriptDialogSheet.qml:64
 #, kde-format
 msgid ""
 "The website asks for confirmation that you want to leave. Unsaved "
@@ -200,6 +177,16 @@ msgid ""
 msgstr ""
 "Strona sieciowa prosi o potwierdzenie, że chcesz wyjść. Niezapisane dane, "
 "mogą pozostać niezapisanymi."
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:79
+#, kde-format
+msgid "Leave page"
+msgstr "Opuść stronę"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:87
+#, kde-format
+msgid "Submit"
+msgstr "Wyślij"
 
 #: lib/contents/ui/PermissionQuestion.qml:16
 #, kde-format
@@ -237,6 +224,11 @@ msgstr "Czy strona może słyszeć twoje wyjście dźwiękowe?"
 msgid "Do you want to allow the website to send you notifications?"
 msgstr "Czy strona może wysyłać ci powiadomienia?"
 
+#: lib/contents/ui/PermissionQuestion.qml:43
+#, kde-format
+msgid "Accept"
+msgstr "Przyjmij"
+
 #: lib/contents/ui/PermissionQuestion.qml:53
 #, kde-format
 msgid "Decline"
@@ -269,7 +261,7 @@ msgid "Downloading..."
 msgstr "Pobieranie..."
 
 #: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:250
-#: src/contents/ui/mobile.qml:77
+#: src/contents/ui/mobile.qml:79
 #, kde-format
 msgid "Bookmarks"
 msgstr "Zakładki"
@@ -290,13 +282,13 @@ msgid "New Tab"
 msgstr "Nowa karta"
 
 #: src/contents/ui/desktop/desktop.qml:241 src/contents/ui/History.qml:12
-#: src/contents/ui/mobile.qml:85
+#: src/contents/ui/mobile.qml:87
 #, kde-format
 msgid "History"
 msgstr "Historia"
 
 #: src/contents/ui/desktop/desktop.qml:259 src/contents/ui/Downloads.qml:15
-#: src/contents/ui/mobile.qml:89
+#: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
 msgstr "Pobierane"
@@ -306,12 +298,12 @@ msgstr "Pobierane"
 msgid "Full Screen"
 msgstr "Pełny ekran"
 
-#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:381
+#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Show developer tools"
 msgstr "Pokaż narzędzia programistyczne"
 
-#: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:281
+#: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:276
 #, kde-format
 msgid "Find in page"
 msgstr "Znajdź na stronie"
@@ -327,12 +319,12 @@ msgstr "Tryb czytania"
 msgid "Add to application launcher"
 msgstr "Dodaj do uruchamiacza aplikacji"
 
-#: src/contents/ui/desktop/desktop.qml:330 src/contents/ui/mobile.qml:97
+#: src/contents/ui/desktop/desktop.qml:330 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "Ustawienia"
 
-#: src/contents/ui/desktop/desktop.qml:337 src/contents/ui/mobile.qml:104
+#: src/contents/ui/desktop/desktop.qml:337
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "Ustawienia Angelfisha"
@@ -438,98 +430,93 @@ msgctxt "download state"
 msgid "In progress"
 msgstr "Wykonywanie"
 
-#: src/contents/ui/FindInPageBar.qml:46
+#: src/contents/ui/FindInPageBar.qml:45
 #, kde-format
 msgid "Search..."
 msgstr "Szukaj..."
-
-#: src/contents/ui/InputSheet.qml:47
-#, kde-format
-msgid "OK"
-msgstr "OK"
 
 #: src/contents/ui/mobile.qml:18
 #, kde-format
 msgid "Angelfish Web Browser"
 msgstr "Przeglądarka sieciowa Angelfish"
 
-#: src/contents/ui/mobile.qml:62 src/contents/ui/Tabs.qml:63
+#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:63
 #, kde-format
 msgid "Tabs"
 msgstr "Karty"
 
-#: src/contents/ui/mobile.qml:69
+#: src/contents/ui/mobile.qml:71
 #, kde-format
 msgid "Leave private mode"
 msgstr "Opuść tryb prywatny"
 
-#: src/contents/ui/mobile.qml:69
+#: src/contents/ui/mobile.qml:71
 #, kde-format
 msgid "Private mode"
 msgstr "Tryb prywatny"
 
-#: src/contents/ui/mobile.qml:285 src/contents/ui/ShareSheet.qml:18
+#: src/contents/ui/mobile.qml:280
 #, kde-format
 msgid "Share page"
 msgstr "Udostępnij stronę"
 
-#: src/contents/ui/mobile.qml:296
+#: src/contents/ui/mobile.qml:291
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Dodaj do strony domowej"
 
-#: src/contents/ui/mobile.qml:306
+#: src/contents/ui/mobile.qml:301
 #, kde-format
 msgid "Open in app"
 msgstr "Otwórz w programie"
 
-#: src/contents/ui/mobile.qml:314
+#: src/contents/ui/mobile.qml:309
 #, kde-format
 msgid "Go previous"
 msgstr "Przejdź wstecz"
 
-#: src/contents/ui/mobile.qml:322
-#: src/contents/ui/SettingsNavigationBarPage.qml:109
+#: src/contents/ui/mobile.qml:317
+#: src/contents/ui/SettingsNavigationBarPage.qml:76
 #, kde-format
 msgid "Go forward"
 msgstr "Przejdź naprzód"
 
-#: src/contents/ui/mobile.qml:329
+#: src/contents/ui/mobile.qml:324
 #, kde-format
 msgid "Stop loading"
 msgstr "Zatrzymaj wczytywanie"
 
-#: src/contents/ui/mobile.qml:329
+#: src/contents/ui/mobile.qml:324
 #, kde-format
 msgid "Refresh"
 msgstr "Odśwież"
 
-#: src/contents/ui/mobile.qml:339
+#: src/contents/ui/mobile.qml:334
 #, kde-format
 msgid "Bookmarked"
 msgstr "W zakładkach"
 
-#: src/contents/ui/mobile.qml:339
+#: src/contents/ui/mobile.qml:334
 #, kde-format
 msgid "Bookmark"
 msgstr "Zakładka"
 
-#: src/contents/ui/mobile.qml:355
+#: src/contents/ui/mobile.qml:350
 #, kde-format
 msgid "Show desktop site"
 msgstr "Pokaż stronę pulpitu"
 
-#: src/contents/ui/mobile.qml:364
+#: src/contents/ui/mobile.qml:359
 #, kde-format
 msgid "Reader Mode"
 msgstr "Tryb czytania"
 
-#: src/contents/ui/mobile.qml:372
+#: src/contents/ui/mobile.qml:367
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "Ukryj pasek poruszania się"
 
-#: src/contents/ui/mobile.qml:372
+#: src/contents/ui/mobile.qml:367
 #, kde-format
 msgid "Show navigation bar"
 msgstr "Pokaż pasek poruszania się"
@@ -588,27 +575,53 @@ msgstr "Dodaj"
 msgid "Remove this filter list"
 msgstr "Usuń ten spis filtrów"
 
-#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#: src/contents/ui/SettingsGeneral.qml:16 src/contents/ui/SettingsPage.qml:12
 #, kde-format
 msgid "General"
 msgstr "Ogólne"
 
-#: src/contents/ui/SettingsGeneral.qml:28
+#: src/contents/ui/SettingsGeneral.qml:37
 #, kde-format
 msgid "Enable JavaScript"
 msgstr "Włącz JavaScript"
 
-#: src/contents/ui/SettingsGeneral.qml:42
+#: src/contents/ui/SettingsGeneral.qml:38
+#, kde-format
+msgid "This may be required on certain websites for them to work."
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:47
 #, kde-format
 msgid "Load images"
 msgstr "Wczytaj obrazy"
 
-#: src/contents/ui/SettingsGeneral.qml:56
+#: src/contents/ui/SettingsGeneral.qml:48
+#, kde-format
+msgid "Whether to load images on websites."
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:57
 #, kde-format
 msgid "Enable adblock"
 msgstr "Włącz AdBlock"
 
-#: src/contents/ui/SettingsGeneral.qml:73
+#: src/contents/ui/SettingsGeneral.qml:58
+#, kde-format
+msgid "Attempts to prevent advertisements on websites from showing."
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:58
+#, fuzzy, kde-format
+#| msgid "The adblock functionality isn't included in this build."
+msgid "AdBlock functionality was not included in this build."
+msgstr "Brak możliwości blokowania reklam w tym wydaniu."
+
+#: src/contents/ui/SettingsGeneral.qml:68
+#, kde-format
+msgid "Switch to new tab immediately"
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:69
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately"
@@ -616,12 +629,12 @@ msgstr ""
 "Po otwarciu odnośnika, obrazu lub filmu w nowej karcie, przełącz na nią "
 "natychmiast"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:14
+#: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format
 msgid "Navigation bar"
 msgstr "Pasek poruszania się"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:35
+#: src/contents/ui/SettingsNavigationBarPage.qml:36
 #, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
@@ -640,27 +653,27 @@ msgstr ""
 "do menu, przeciągając palcem od lewej do prawej strony wzdłuż dolnej "
 "krawędzi okna."
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:53
+#: src/contents/ui/SettingsNavigationBarPage.qml:52
 #, kde-format
 msgid "Main menu in portrait"
 msgstr "Główne menu w pionie"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:67
+#: src/contents/ui/SettingsNavigationBarPage.qml:58
 #, kde-format
 msgid "Tabs in portrait"
 msgstr "Karty w pionie"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:81
+#: src/contents/ui/SettingsNavigationBarPage.qml:64
 #, kde-format
 msgid "Context menu in portrait"
 msgstr "Menu podręczne w pionie"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:95
+#: src/contents/ui/SettingsNavigationBarPage.qml:70
 #, kde-format
 msgid "Go back"
 msgstr "Przejdź wstecz"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:123
+#: src/contents/ui/SettingsNavigationBarPage.qml:82
 #, kde-format
 msgid "Reload/Stop"
 msgstr "Wczytaj ponownie/Zatrzymaj"
@@ -676,18 +689,18 @@ msgid "Web Apps"
 msgstr "Programy sieciowe"
 
 #: src/contents/ui/SettingsPage.qml:27
-#: src/contents/ui/SettingsSearchEnginePage.qml:13
-#: src/contents/ui/SettingsSearchEnginePage.qml:33
+#: src/contents/ui/SettingsSearchEnginePage.qml:15
+#: src/contents/ui/SettingsSearchEnginePage.qml:119
 #, kde-format
 msgid "Search Engine"
 msgstr "Wyszukiwarka"
 
-#: src/contents/ui/SettingsSearchEnginePage.qml:28
+#: src/contents/ui/SettingsSearchEnginePage.qml:31
 #, kde-format
 msgid "Custom"
 msgstr "Własny"
 
-#: src/contents/ui/SettingsSearchEnginePage.qml:34
+#: src/contents/ui/SettingsSearchEnginePage.qml:120
 #, kde-format
 msgid "Base URL of your preferred search engine"
 msgstr "Podstawowy adres URL dla wyszukiwarki"
@@ -696,6 +709,12 @@ msgstr "Podstawowy adres URL dla wyszukiwarki"
 #, kde-format
 msgid "Remove app"
 msgstr "Usuń program"
+
+#: src/contents/ui/ShareSheet.qml:17
+#, fuzzy, kde-format
+#| msgid "Share page"
+msgid "Share page to"
+msgstr "Udostępnij stronę"
 
 #: src/contents/ui/Tabs.qml:63
 #, kde-format
@@ -706,6 +725,15 @@ msgstr "Prywatne karty"
 #, kde-format
 msgid "URL to open"
 msgstr "Adres URL do otwarcia"
+
+#~ msgid "Close"
+#~ msgstr "Zamknij"
+
+#~ msgid "Confirm"
+#~ msgstr "Potwierdź"
+
+#~ msgid "OK"
+#~ msgstr "OK"
 
 #~ msgid "Enable Adblock"
 #~ msgstr "Włącz AdBlock"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-31 00:48+0000\n"
+"POT-Creation-Date: 2022-12-04 00:48+0000\n"
 "PO-Revision-Date: 2022-10-03 14:17+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-i18n-doc@kde.org>\n"
@@ -101,7 +101,7 @@ msgstr "다운로드 완료"
 msgid "Download failed"
 msgstr "다운로드 실패"
 
-#: lib/contents/ui/AuthSheet.qml:21
+#: lib/contents/ui/AuthSheet.qml:17
 #, kde-format
 msgid "Authentication required"
 msgstr "인증 필요함"
@@ -116,23 +116,15 @@ msgstr "사용자 이름"
 msgid "Password"
 msgstr "암호"
 
-#: lib/contents/ui/AuthSheet.qml:46 lib/contents/ui/PermissionQuestion.qml:43
-#, kde-format
-msgid "Accept"
-msgstr "수락"
-
-#: lib/contents/ui/AuthSheet.qml:55 lib/contents/ui/DownloadQuestion.qml:28
-#: lib/contents/ui/JavaScriptDialogSheet.qml:43
-#: lib/contents/ui/JavaScriptDialogSheet.qml:66
-#: src/contents/ui/Downloads.qml:41
-#, kde-format
-msgid "Cancel"
-msgstr "취소"
-
 #: lib/contents/ui/DownloadQuestion.qml:12
 #, kde-format
 msgid "Do you want to download this file?"
 msgstr "이 파일을 다운로드 하시겠습니까?"
+
+#: lib/contents/ui/DownloadQuestion.qml:28 src/contents/ui/Downloads.qml:41
+#, kde-format
+msgid "Cancel"
+msgstr "취소"
 
 #: lib/contents/ui/ErrorHandler.qml:47
 #, kde-format
@@ -171,27 +163,12 @@ msgstr "예"
 msgid "No"
 msgstr "아니요"
 
-#: lib/contents/ui/JavaScriptDialogSheet.qml:21
+#: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
-msgid "Close"
-msgstr "닫기"
+msgid "This page says"
+msgstr ""
 
-#: lib/contents/ui/JavaScriptDialogSheet.qml:35
-#, kde-format
-msgid "Confirm"
-msgstr "확인"
-
-#: lib/contents/ui/JavaScriptDialogSheet.qml:75
-#, kde-format
-msgid "Submit"
-msgstr "보내기"
-
-#: lib/contents/ui/JavaScriptDialogSheet.qml:89
-#, kde-format
-msgid "Leave page"
-msgstr "페이지 떠나기"
-
-#: lib/contents/ui/JavaScriptDialogSheet.qml:129
+#: lib/contents/ui/JavaScriptDialogSheet.qml:64
 #, kde-format
 msgid ""
 "The website asks for confirmation that you want to leave. Unsaved "
@@ -199,6 +176,16 @@ msgid ""
 msgstr ""
 "웹사이트를 떠날지 물어 보고 있습니다. 저장하지 않은 정보는 손실될 수 있습니"
 "다."
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:79
+#, kde-format
+msgid "Leave page"
+msgstr "페이지 떠나기"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:87
+#, kde-format
+msgid "Submit"
+msgstr "보내기"
 
 #: lib/contents/ui/PermissionQuestion.qml:16
 #, kde-format
@@ -236,6 +223,11 @@ msgstr "웹사이트에서 소리 출력을 공유할 수 있도록 허용하시
 msgid "Do you want to allow the website to send you notifications?"
 msgstr "웹사이트에서 알림을 보낼 수 있도록 허용하시겠습니까?"
 
+#: lib/contents/ui/PermissionQuestion.qml:43
+#, kde-format
+msgid "Accept"
+msgstr "수락"
+
 #: lib/contents/ui/PermissionQuestion.qml:53
 #, kde-format
 msgid "Decline"
@@ -268,7 +260,7 @@ msgid "Downloading..."
 msgstr "다운로드 중..."
 
 #: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:250
-#: src/contents/ui/mobile.qml:77
+#: src/contents/ui/mobile.qml:79
 #, kde-format
 msgid "Bookmarks"
 msgstr "책갈피"
@@ -289,13 +281,13 @@ msgid "New Tab"
 msgstr "새 탭"
 
 #: src/contents/ui/desktop/desktop.qml:241 src/contents/ui/History.qml:12
-#: src/contents/ui/mobile.qml:85
+#: src/contents/ui/mobile.qml:87
 #, kde-format
 msgid "History"
 msgstr "과거 기록"
 
 #: src/contents/ui/desktop/desktop.qml:259 src/contents/ui/Downloads.qml:15
-#: src/contents/ui/mobile.qml:89
+#: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
 msgstr "다운로드"
@@ -305,12 +297,12 @@ msgstr "다운로드"
 msgid "Full Screen"
 msgstr "전체 화면"
 
-#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:381
+#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Show developer tools"
 msgstr "개발자 도구 표시"
 
-#: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:281
+#: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:276
 #, kde-format
 msgid "Find in page"
 msgstr "페이지에서 찾기"
@@ -326,12 +318,12 @@ msgstr "읽기 모드"
 msgid "Add to application launcher"
 msgstr "프로그램 실행기에 추가"
 
-#: src/contents/ui/desktop/desktop.qml:330 src/contents/ui/mobile.qml:97
+#: src/contents/ui/desktop/desktop.qml:330 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "설정"
 
-#: src/contents/ui/desktop/desktop.qml:337 src/contents/ui/mobile.qml:104
+#: src/contents/ui/desktop/desktop.qml:337
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "Angelfish 설정"
@@ -437,98 +429,93 @@ msgctxt "download state"
 msgid "In progress"
 msgstr "진행 중"
 
-#: src/contents/ui/FindInPageBar.qml:46
+#: src/contents/ui/FindInPageBar.qml:45
 #, kde-format
 msgid "Search..."
 msgstr "검색..."
-
-#: src/contents/ui/InputSheet.qml:47
-#, kde-format
-msgid "OK"
-msgstr "확인"
 
 #: src/contents/ui/mobile.qml:18
 #, kde-format
 msgid "Angelfish Web Browser"
 msgstr "Angelfish 웹 브라우저"
 
-#: src/contents/ui/mobile.qml:62 src/contents/ui/Tabs.qml:63
+#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:63
 #, kde-format
 msgid "Tabs"
 msgstr "탭"
 
-#: src/contents/ui/mobile.qml:69
+#: src/contents/ui/mobile.qml:71
 #, kde-format
 msgid "Leave private mode"
 msgstr "사생활 보호 모드 나가기"
 
-#: src/contents/ui/mobile.qml:69
+#: src/contents/ui/mobile.qml:71
 #, kde-format
 msgid "Private mode"
 msgstr "사생활 보호 모드"
 
-#: src/contents/ui/mobile.qml:285 src/contents/ui/ShareSheet.qml:18
+#: src/contents/ui/mobile.qml:280
 #, kde-format
 msgid "Share page"
 msgstr "공유 페이지"
 
-#: src/contents/ui/mobile.qml:296
+#: src/contents/ui/mobile.qml:291
 #, kde-format
 msgid "Add to homescreen"
 msgstr "홈 화면에 추가"
 
-#: src/contents/ui/mobile.qml:306
+#: src/contents/ui/mobile.qml:301
 #, kde-format
 msgid "Open in app"
 msgstr "앱에서 열기"
 
-#: src/contents/ui/mobile.qml:314
+#: src/contents/ui/mobile.qml:309
 #, kde-format
 msgid "Go previous"
 msgstr "뒤로 이동"
 
-#: src/contents/ui/mobile.qml:322
-#: src/contents/ui/SettingsNavigationBarPage.qml:109
+#: src/contents/ui/mobile.qml:317
+#: src/contents/ui/SettingsNavigationBarPage.qml:76
 #, kde-format
 msgid "Go forward"
 msgstr "앞으로 이동"
 
-#: src/contents/ui/mobile.qml:329
+#: src/contents/ui/mobile.qml:324
 #, kde-format
 msgid "Stop loading"
 msgstr "불러오기 멈추기"
 
-#: src/contents/ui/mobile.qml:329
+#: src/contents/ui/mobile.qml:324
 #, kde-format
 msgid "Refresh"
 msgstr "새로 고침"
 
-#: src/contents/ui/mobile.qml:339
+#: src/contents/ui/mobile.qml:334
 #, kde-format
 msgid "Bookmarked"
 msgstr "책갈피에 추가됨"
 
-#: src/contents/ui/mobile.qml:339
+#: src/contents/ui/mobile.qml:334
 #, kde-format
 msgid "Bookmark"
 msgstr "책갈피"
 
-#: src/contents/ui/mobile.qml:355
+#: src/contents/ui/mobile.qml:350
 #, kde-format
 msgid "Show desktop site"
 msgstr "데스크톱 사이트 표시"
 
-#: src/contents/ui/mobile.qml:364
+#: src/contents/ui/mobile.qml:359
 #, kde-format
 msgid "Reader Mode"
 msgstr "읽기 모드"
 
-#: src/contents/ui/mobile.qml:372
+#: src/contents/ui/mobile.qml:367
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "탐색 표시줄 숨기기"
 
-#: src/contents/ui/mobile.qml:372
+#: src/contents/ui/mobile.qml:367
 #, kde-format
 msgid "Show navigation bar"
 msgstr "탐색 표시줄 표시"
@@ -587,38 +574,64 @@ msgstr "추가"
 msgid "Remove this filter list"
 msgstr "이 필터 목록 삭제"
 
-#: src/contents/ui/SettingsGeneral.qml:20 src/contents/ui/SettingsPage.qml:12
+#: src/contents/ui/SettingsGeneral.qml:16 src/contents/ui/SettingsPage.qml:12
 #, kde-format
 msgid "General"
 msgstr "일반"
 
-#: src/contents/ui/SettingsGeneral.qml:28
+#: src/contents/ui/SettingsGeneral.qml:37
 #, kde-format
 msgid "Enable JavaScript"
 msgstr "자바스크립트 사용"
 
-#: src/contents/ui/SettingsGeneral.qml:42
+#: src/contents/ui/SettingsGeneral.qml:38
+#, kde-format
+msgid "This may be required on certain websites for them to work."
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:47
 #, kde-format
 msgid "Load images"
 msgstr "이미지 불러오기"
 
-#: src/contents/ui/SettingsGeneral.qml:56
+#: src/contents/ui/SettingsGeneral.qml:48
+#, kde-format
+msgid "Whether to load images on websites."
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:57
 #, kde-format
 msgid "Enable adblock"
 msgstr "광고 차단 활성화"
 
-#: src/contents/ui/SettingsGeneral.qml:73
+#: src/contents/ui/SettingsGeneral.qml:58
+#, kde-format
+msgid "Attempts to prevent advertisements on websites from showing."
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:58
+#, fuzzy, kde-format
+#| msgid "The adblock functionality isn't included in this build."
+msgid "AdBlock functionality was not included in this build."
+msgstr "이 빌드에 광고 차단 기능이 제외되어 있습니다."
+
+#: src/contents/ui/SettingsGeneral.qml:68
+#, kde-format
+msgid "Switch to new tab immediately"
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:69
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately"
 msgstr "링크, 그림, 미디어를 새 탭으로 열 때 연 즉시 전환"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:14
+#: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format
 msgid "Navigation bar"
 msgstr "탐색 표시줄"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:35
+#: src/contents/ui/SettingsNavigationBarPage.qml:36
 #, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
@@ -635,27 +648,27 @@ msgstr ""
 " 메뉴 단추를 비활성화하면 화면 왼쪽이나 오른쪽에서 밀거나 창 아래쪽에서 밀어"
 "서 메뉴에 접근할 수 있습니다."
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:53
+#: src/contents/ui/SettingsNavigationBarPage.qml:52
 #, kde-format
 msgid "Main menu in portrait"
 msgstr "세로로 주 메뉴 표시"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:67
+#: src/contents/ui/SettingsNavigationBarPage.qml:58
 #, kde-format
 msgid "Tabs in portrait"
 msgstr "세로로 탭 표시"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:81
+#: src/contents/ui/SettingsNavigationBarPage.qml:64
 #, kde-format
 msgid "Context menu in portrait"
 msgstr "세로로 콘텍스트 메뉴 표시"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:95
+#: src/contents/ui/SettingsNavigationBarPage.qml:70
 #, kde-format
 msgid "Go back"
 msgstr "뒤로 이동"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:123
+#: src/contents/ui/SettingsNavigationBarPage.qml:82
 #, kde-format
 msgid "Reload/Stop"
 msgstr "새로 고침/중지"
@@ -671,18 +684,18 @@ msgid "Web Apps"
 msgstr "웹 앱"
 
 #: src/contents/ui/SettingsPage.qml:27
-#: src/contents/ui/SettingsSearchEnginePage.qml:13
-#: src/contents/ui/SettingsSearchEnginePage.qml:33
+#: src/contents/ui/SettingsSearchEnginePage.qml:15
+#: src/contents/ui/SettingsSearchEnginePage.qml:119
 #, kde-format
 msgid "Search Engine"
 msgstr "검색 엔진"
 
-#: src/contents/ui/SettingsSearchEnginePage.qml:28
+#: src/contents/ui/SettingsSearchEnginePage.qml:31
 #, kde-format
 msgid "Custom"
 msgstr "사용자 정의"
 
-#: src/contents/ui/SettingsSearchEnginePage.qml:34
+#: src/contents/ui/SettingsSearchEnginePage.qml:120
 #, kde-format
 msgid "Base URL of your preferred search engine"
 msgstr "선호하는 검색 엔진의 기본 URL"
@@ -691,6 +704,12 @@ msgstr "선호하는 검색 엔진의 기본 URL"
 #, kde-format
 msgid "Remove app"
 msgstr "앱 삭제"
+
+#: src/contents/ui/ShareSheet.qml:17
+#, fuzzy, kde-format
+#| msgid "Share page"
+msgid "Share page to"
+msgstr "공유 페이지"
 
 #: src/contents/ui/Tabs.qml:63
 #, kde-format
@@ -701,6 +720,15 @@ msgstr "사생활 보호 탭"
 #, kde-format
 msgid "URL to open"
 msgstr "열려는 URL"
+
+#~ msgid "Close"
+#~ msgstr "닫기"
+
+#~ msgid "Confirm"
+#~ msgstr "확인"
+
+#~ msgid "OK"
+#~ msgstr "확인"
 
 #~ msgid "Enable Adblock"
 #~ msgstr "광고 차단 활성화"
