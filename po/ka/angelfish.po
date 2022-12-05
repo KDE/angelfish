@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-04 00:48+0000\n"
-"PO-Revision-Date: 2022-12-02 07:22+0100\n"
+"PO-Revision-Date: 2022-12-04 06:23+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -167,7 +167,7 @@ msgstr "არა"
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
 msgid "This page says"
-msgstr ""
+msgstr "გვერდი იძახის"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:64
 #, kde-format
@@ -589,6 +589,7 @@ msgstr "JavaScript-ის ჩართვა"
 #, kde-format
 msgid "This may be required on certain websites for them to work."
 msgstr ""
+"ეს შეიძლება ზოგიერთი ვებგვერდების სამუშაოდ აუცილებელ პირობას წარმოადგენდეს."
 
 #: src/contents/ui/SettingsGeneral.qml:47
 #, kde-format
@@ -598,7 +599,7 @@ msgstr "გამოსახულებების ჩატვირთვ�
 #: src/contents/ui/SettingsGeneral.qml:48
 #, kde-format
 msgid "Whether to load images on websites."
-msgstr ""
+msgstr "ვებგვერდებზე გამოსახულებების ჩატვირთვა."
 
 #: src/contents/ui/SettingsGeneral.qml:57
 #, kde-format
@@ -608,18 +609,17 @@ msgstr "AdBlock-ის ჩართვა"
 #: src/contents/ui/SettingsGeneral.qml:58
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
-msgstr ""
+msgstr "ვებგვერდებზე რეკლამის ჩვენების აკრძალვის მცდელობა."
 
 #: src/contents/ui/SettingsGeneral.qml:58
-#, fuzzy, kde-format
-#| msgid "The adblock functionality isn't included in this build."
+#, kde-format
 msgid "AdBlock functionality was not included in this build."
 msgstr "ამ აგებაში Adblock-ი ჩართული არაა."
 
 #: src/contents/ui/SettingsGeneral.qml:68
 #, kde-format
 msgid "Switch to new tab immediately"
-msgstr ""
+msgstr "ახალ ჩანართზე დაუყოვნებლივი გადართვა"
 
 #: src/contents/ui/SettingsGeneral.qml:69
 #, kde-format
@@ -710,8 +710,7 @@ msgid "Remove app"
 msgstr "აპის წაშლა"
 
 #: src/contents/ui/ShareSheet.qml:17
-#, fuzzy, kde-format
-#| msgid "Share page"
+#, kde-format
 msgid "Share page to"
 msgstr "გვერდის გაზიარება"
 

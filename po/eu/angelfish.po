@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-04 00:48+0000\n"
-"PO-Revision-Date: 2022-08-14 21:41+0200\n"
+"PO-Revision-Date: 2022-12-04 22:10+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.04.3\n"
+"X-Generator: Lokalize 22.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -168,7 +168,7 @@ msgstr "Ez"
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
 msgid "This page says"
-msgstr ""
+msgstr "Orri honek dio"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:64
 #, kde-format
@@ -593,6 +593,7 @@ msgstr "Gaitu JavaScript"
 #, kde-format
 msgid "This may be required on certain websites for them to work."
 msgstr ""
+"Webgune jakin batzuetan, haiek ibiltzeko, hau beharrezkoa izan daiteke."
 
 #: src/contents/ui/SettingsGeneral.qml:47
 #, kde-format
@@ -602,7 +603,7 @@ msgstr "Zamatu irudiak"
 #: src/contents/ui/SettingsGeneral.qml:48
 #, kde-format
 msgid "Whether to load images on websites."
-msgstr ""
+msgstr "Webguneetan irudiak zamatu behar diren edo ez."
 
 #: src/contents/ui/SettingsGeneral.qml:57
 #, kde-format
@@ -612,19 +613,17 @@ msgstr "Gaitu iragarkiak eragoztea"
 #: src/contents/ui/SettingsGeneral.qml:58
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
-msgstr ""
+msgstr "Webguneetako iragarkiak erakustea eragozten saiatzen da."
 
 #: src/contents/ui/SettingsGeneral.qml:58
-#, fuzzy, kde-format
-#| msgid "The adblock functionality isn't included in this build."
+#, kde-format
 msgid "AdBlock functionality was not included in this build."
-msgstr ""
-"Iragarkiak eragozteko funtzionalitatea ez dago eraikin honetan barneratuta."
+msgstr "AdBlock funtzionalitatea ez dago barneratuta eraikin honetan."
 
 #: src/contents/ui/SettingsGeneral.qml:68
 #, kde-format
 msgid "Switch to new tab immediately"
-msgstr ""
+msgstr "Aldatu fitxa berrira berehala"
 
 #: src/contents/ui/SettingsGeneral.qml:69
 #, kde-format
@@ -716,10 +715,9 @@ msgid "Remove app"
 msgstr "Kendu aplikazioa"
 
 #: src/contents/ui/ShareSheet.qml:17
-#, fuzzy, kde-format
-#| msgid "Share page"
+#, kde-format
 msgid "Share page to"
-msgstr "Partekatu orria"
+msgstr "Partekatu orria honekin,"
 
 #: src/contents/ui/Tabs.qml:63
 #, kde-format

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-04 00:48+0000\n"
-"PO-Revision-Date: 2022-08-14 11:29+0100\n"
+"PO-Revision-Date: 2022-12-04 11:44+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -166,7 +166,7 @@ msgstr "Não"
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
 msgid "This page says"
-msgstr ""
+msgstr "Esta página diz"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:64
 #, kde-format
@@ -590,7 +590,7 @@ msgstr "Activar o JavaScript"
 #: src/contents/ui/SettingsGeneral.qml:38
 #, kde-format
 msgid "This may be required on certain websites for them to work."
-msgstr ""
+msgstr "Isto pode ser necessário em algumas páginas Web para funcionarem."
 
 #: src/contents/ui/SettingsGeneral.qml:47
 #, kde-format
@@ -600,7 +600,7 @@ msgstr "Carregar as imagens"
 #: src/contents/ui/SettingsGeneral.qml:48
 #, kde-format
 msgid "Whether to load images on websites."
-msgstr ""
+msgstr "Se deve carregar as imagens nas páginas Web."
 
 #: src/contents/ui/SettingsGeneral.qml:57
 #, kde-format
@@ -610,11 +610,10 @@ msgstr "Activar o bloqueio de anúncios"
 #: src/contents/ui/SettingsGeneral.qml:58
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
-msgstr ""
+msgstr "Tenta prevenir a apresentação de publicidade nas páginas Web."
 
 #: src/contents/ui/SettingsGeneral.qml:58
-#, fuzzy, kde-format
-#| msgid "The adblock functionality isn't included in this build."
+#, kde-format
 msgid "AdBlock functionality was not included in this build."
 msgstr ""
 "A funcionalidade de bloqueio de anúncios não está incluída nesta versão."
@@ -622,7 +621,7 @@ msgstr ""
 #: src/contents/ui/SettingsGeneral.qml:68
 #, kde-format
 msgid "Switch to new tab immediately"
-msgstr ""
+msgstr "Mudar imediatamente para a nova página"
 
 #: src/contents/ui/SettingsGeneral.qml:69
 #, kde-format
@@ -713,10 +712,9 @@ msgid "Remove app"
 msgstr "Remover a aplicação"
 
 #: src/contents/ui/ShareSheet.qml:17
-#, fuzzy, kde-format
-#| msgid "Share page"
+#, kde-format
 msgid "Share page to"
-msgstr "Partilhar a página"
+msgstr "Partilhar a página com"
 
 #: src/contents/ui/Tabs.qml:63
 #, kde-format
@@ -727,12 +725,3 @@ msgstr "Páginas Privadas"
 #, kde-format
 msgid "URL to open"
 msgstr "URL a abrir"
-
-#~ msgid "Close"
-#~ msgstr "Fechar"
-
-#~ msgid "Confirm"
-#~ msgstr "Confirmação"
-
-#~ msgid "OK"
-#~ msgstr "OK"

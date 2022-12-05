@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-04 00:48+0000\n"
-"PO-Revision-Date: 2022-08-14 19:00+0200\n"
+"PO-Revision-Date: 2022-12-04 11:13+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -169,7 +169,7 @@ msgstr "No"
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
 msgid "This page says"
-msgstr ""
+msgstr "Esta pàgina diu"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:64
 #, kde-format
@@ -321,7 +321,7 @@ msgstr "Mode lector"
 #: src/contents/ui/desktop/desktop.qml:311
 #, kde-format
 msgid "Add to application launcher"
-msgstr "Afig al iniciador d'aplicacions"
+msgstr "Afig a l'iniciador d'aplicacions"
 
 #: src/contents/ui/desktop/desktop.qml:330 src/contents/ui/mobile.qml:99
 #, kde-format
@@ -542,7 +542,7 @@ msgstr "Obri"
 #: src/contents/ui/SettingsAdblock.qml:17
 #, kde-format
 msgid "Adblock settings"
-msgstr "Configuració d'Adblock"
+msgstr "Configuració d'AdBlock"
 
 #: src/contents/ui/SettingsAdblock.qml:27
 #, kde-format
@@ -592,7 +592,7 @@ msgstr "Habilita JavaScript"
 #: src/contents/ui/SettingsGeneral.qml:38
 #, kde-format
 msgid "This may be required on certain websites for them to work."
-msgstr ""
+msgstr "Açò ho poden requerir determinats llocs web per a que funcionen."
 
 #: src/contents/ui/SettingsGeneral.qml:47
 #, kde-format
@@ -602,28 +602,27 @@ msgstr "Carrega les imatges"
 #: src/contents/ui/SettingsGeneral.qml:48
 #, kde-format
 msgid "Whether to load images on websites."
-msgstr ""
+msgstr "Si s'han de carregar les imatges dels llocs web."
 
 #: src/contents/ui/SettingsGeneral.qml:57
 #, kde-format
 msgid "Enable adblock"
-msgstr "Habilita Adblock"
+msgstr "Habilita AdBlock"
 
 #: src/contents/ui/SettingsGeneral.qml:58
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
-msgstr ""
+msgstr "Intenta evitar que es mostren anuncis en els llocs web."
 
 #: src/contents/ui/SettingsGeneral.qml:58
-#, fuzzy, kde-format
-#| msgid "The adblock functionality isn't included in this build."
+#, kde-format
 msgid "AdBlock functionality was not included in this build."
-msgstr "La característica «adblock» no està inclosa en esta construcció."
+msgstr "La característica AdBlock no s'ha inclòs en esta construcció."
 
 #: src/contents/ui/SettingsGeneral.qml:68
 #, kde-format
 msgid "Switch to new tab immediately"
-msgstr ""
+msgstr "Canvia a una pestanya nova immediatament"
 
 #: src/contents/ui/SettingsGeneral.qml:69
 #, kde-format
@@ -715,10 +714,9 @@ msgid "Remove app"
 msgstr "Elimina l'aplicació"
 
 #: src/contents/ui/ShareSheet.qml:17
-#, fuzzy, kde-format
-#| msgid "Share page"
+#, kde-format
 msgid "Share page to"
-msgstr "Compartix la pàgina"
+msgstr "Compartix la pàgina a"
 
 #: src/contents/ui/Tabs.qml:63
 #, kde-format
@@ -729,12 +727,3 @@ msgstr "Pestanyes privades"
 #, kde-format
 msgid "URL to open"
 msgstr "URL que s'ha d'obrir"
-
-#~ msgid "Close"
-#~ msgstr "Tanca"
-
-#~ msgid "Confirm"
-#~ msgstr "Confirma"
-
-#~ msgid "OK"
-#~ msgstr "D'acord"
