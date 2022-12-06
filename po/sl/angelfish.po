@@ -7,14 +7,14 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-04 00:48+0000\n"
-"PO-Revision-Date: 2022-08-15 05:58+0200\n"
+"PO-Revision-Date: 2022-12-05 06:31+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 22.04.1\n"
+"X-Generator: Lokalize 22.08.3\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
 
@@ -166,7 +166,7 @@ msgstr "Ne"
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
 msgid "This page says"
-msgstr ""
+msgstr "Ta stran pravi"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:64
 #, kde-format
@@ -589,7 +589,7 @@ msgstr "Omogoči JavaScript"
 #: src/contents/ui/SettingsGeneral.qml:38
 #, kde-format
 msgid "This may be required on certain websites for them to work."
-msgstr ""
+msgstr "To je lahko zahtevano na nekaterih spletiščih, da delujejo."
 
 #: src/contents/ui/SettingsGeneral.qml:47
 #, kde-format
@@ -599,7 +599,7 @@ msgstr "Naloži slike"
 #: src/contents/ui/SettingsGeneral.qml:48
 #, kde-format
 msgid "Whether to load images on websites."
-msgstr ""
+msgstr "Ali naj naloži slike na spletiščih."
 
 #: src/contents/ui/SettingsGeneral.qml:57
 #, kde-format
@@ -609,18 +609,17 @@ msgstr "Omogoči adblock"
 #: src/contents/ui/SettingsGeneral.qml:58
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
-msgstr ""
+msgstr "Poskusi preprečevanja prikazovanja oglasov na spletiščih."
 
 #: src/contents/ui/SettingsGeneral.qml:58
-#, fuzzy, kde-format
-#| msgid "The adblock functionality isn't included in this build."
+#, kde-format
 msgid "AdBlock functionality was not included in this build."
-msgstr "Možnost blokiranja oglasov ni vključena v to sestavo."
+msgstr "Funkcionalnost AdBclocka ni vključena v to sestavo."
 
 #: src/contents/ui/SettingsGeneral.qml:68
 #, kde-format
 msgid "Switch to new tab immediately"
-msgstr ""
+msgstr "Takoj preklopi na novi zavihek"
 
 #: src/contents/ui/SettingsGeneral.qml:69
 #, kde-format
@@ -710,10 +709,9 @@ msgid "Remove app"
 msgstr "Odstrani aplikacijo"
 
 #: src/contents/ui/ShareSheet.qml:17
-#, fuzzy, kde-format
-#| msgid "Share page"
+#, kde-format
 msgid "Share page to"
-msgstr "Deli stran"
+msgstr "Deli stran z"
 
 #: src/contents/ui/Tabs.qml:63
 #, kde-format
