@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-04 00:48+0000\n"
-"PO-Revision-Date: 2022-08-14 21:27+0200\n"
+"PO-Revision-Date: 2022-12-05 19:33+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.04.3\n"
+"X-Generator: Lokalize 22.11.90\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: \n"
 "X-Text-Markup: \n"
@@ -11388,7 +11388,7 @@ msgstr "Non"
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
 msgid "This page says"
-msgstr ""
+msgstr "La page dit"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:64
 #, kde-format
@@ -11821,6 +11821,8 @@ msgstr "Activer JavaScript"
 #, kde-format
 msgid "This may be required on certain websites for them to work."
 msgstr ""
+"Cela peut être nécessaire sur certains sites Internet pour qu’ils "
+"fonctionnent."
 
 #: src/contents/ui/SettingsGeneral.qml:47
 #, kde-format
@@ -11830,7 +11832,7 @@ msgstr "Charger les images"
 #: src/contents/ui/SettingsGeneral.qml:48
 #, kde-format
 msgid "Whether to load images on websites."
-msgstr ""
+msgstr "Définir s'il faut charger ou non les images sur les sites Internet."
 
 #: src/contents/ui/SettingsGeneral.qml:57
 #, kde-format
@@ -11840,11 +11842,10 @@ msgstr "Activer le bloqueur de publicités"
 #: src/contents/ui/SettingsGeneral.qml:58
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
-msgstr ""
+msgstr "Tente d’empêcher l'apparition de publicités sur les sites Internet."
 
 #: src/contents/ui/SettingsGeneral.qml:58
-#, fuzzy, kde-format
-#| msgid "The adblock functionality isn't included in this build."
+#, kde-format
 msgid "AdBlock functionality was not included in this build."
 msgstr ""
 "La fonctionnalité de blocage des publicités n'est pas comprise dans cette "
@@ -11853,7 +11854,7 @@ msgstr ""
 #: src/contents/ui/SettingsGeneral.qml:68
 #, kde-format
 msgid "Switch to new tab immediately"
-msgstr ""
+msgstr "Basculer immédiatement vers un nouvel onglet"
 
 #: src/contents/ui/SettingsGeneral.qml:69
 #, kde-format
@@ -11946,10 +11947,9 @@ msgid "Remove app"
 msgstr "Supprimer une application"
 
 #: src/contents/ui/ShareSheet.qml:17
-#, fuzzy, kde-format
-#| msgid "Share page"
+#, kde-format
 msgid "Share page to"
-msgstr "Partager la page"
+msgstr "Partager la page avec"
 
 #: src/contents/ui/Tabs.qml:63
 #, kde-format

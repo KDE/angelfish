@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-04 00:48+0000\n"
-"PO-Revision-Date: 2022-05-19 21:58+0530\n"
+"PO-Revision-Date: 2022-12-06 19:52+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
 "Language: ta\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.04.1\n"
+"X-Generator: Lokalize 22.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -49,7 +49,7 @@ msgstr "ஒட்டு"
 #: lib/contents/ui/WebView.qml:83
 #, kde-format
 msgid "Search online for '%1'"
-msgstr ""
+msgstr "'%1' என்பதை இணையத்தில் தேடு"
 
 #: angelfish-webapp/contents/ui/WebAppView.qml:46
 #: lib/contents/ui/WebView.qml:83
@@ -73,7 +73,7 @@ msgstr "பதிவிறக்கு"
 #: angelfish-webapp/main.cpp:70
 #, kde-format
 msgid "desktop file to open"
-msgstr ""
+msgstr "திறக்க வேண்டிய desktop கோப்பு"
 
 #: angelfish-webapp/main.cpp:97
 #, kde-format
@@ -88,7 +88,7 @@ msgstr ""
 #: angelfish-webapp/main.cpp:101
 #, kde-format
 msgid "Marco Martin"
-msgstr ""
+msgstr "மார்க்கோ மார்ட்டின்"
 
 #: lib/angelfishwebprofile.cpp:63
 #, kde-format
@@ -103,37 +103,37 @@ msgstr "பதிவிறக்கம் தோல்வியடைந்த�
 #: lib/contents/ui/AuthSheet.qml:17
 #, kde-format
 msgid "Authentication required"
-msgstr ""
+msgstr "சான்றளிக்க வேண்டும்"
 
 #: lib/contents/ui/AuthSheet.qml:30
 #, kde-format
 msgid "Username"
-msgstr ""
+msgstr "பயனர் பெயர்"
 
 #: lib/contents/ui/AuthSheet.qml:37
 #, kde-format
 msgid "Password"
-msgstr ""
+msgstr "கடவுச்சொல்"
 
 #: lib/contents/ui/DownloadQuestion.qml:12
 #, kde-format
 msgid "Do you want to download this file?"
-msgstr ""
+msgstr "இக்கோப்பை பதிவிறக்க வேண்டுமா?"
 
 #: lib/contents/ui/DownloadQuestion.qml:28 src/contents/ui/Downloads.qml:41
 #, kde-format
 msgid "Cancel"
-msgstr ""
+msgstr "ரத்து செய்"
 
 #: lib/contents/ui/ErrorHandler.qml:47
 #, kde-format
 msgid "Error loading the page"
-msgstr ""
+msgstr "பக்கத்தை ஏற்றுவதில் சிக்கல்"
 
 #: lib/contents/ui/ErrorHandler.qml:58
 #, kde-format
 msgid "Retry"
-msgstr ""
+msgstr "மீண்டும் முயற்சி"
 
 #: lib/contents/ui/ErrorHandler.qml:71
 #, kde-format
