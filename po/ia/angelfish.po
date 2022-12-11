@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-04 00:48+0000\n"
-"PO-Revision-Date: 2022-11-28 21:49+0100\n"
+"PO-Revision-Date: 2022-12-10 23:58+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.11.80\n"
+"X-Generator: Lokalize 22.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -165,7 +165,7 @@ msgstr "No"
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
 msgid "This page says"
-msgstr ""
+msgstr "Iste pagina dice"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:64
 #, kde-format
@@ -591,6 +591,8 @@ msgstr "Habilita JavaScript"
 #, kde-format
 msgid "This may be required on certain websites for them to work."
 msgstr ""
+"Isto pote esser requirite sur certe sitos web per facer que illos "
+"functionara."
 
 #: src/contents/ui/SettingsGeneral.qml:47
 #, kde-format
@@ -600,7 +602,7 @@ msgstr "Carga imagines"
 #: src/contents/ui/SettingsGeneral.qml:48
 #, kde-format
 msgid "Whether to load images on websites."
-msgstr ""
+msgstr "Si cargar images sur sitios web"
 
 #: src/contents/ui/SettingsGeneral.qml:57
 #, kde-format
@@ -610,11 +612,10 @@ msgstr "Activa AdBlock"
 #: src/contents/ui/SettingsGeneral.qml:58
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
-msgstr ""
+msgstr "Tentativas de evitar anuncios de publicitate sur sitos web"
 
 #: src/contents/ui/SettingsGeneral.qml:58
-#, fuzzy, kde-format
-#| msgid "The adblock functionality isn't included in this build."
+#, kde-format
 msgid "AdBlock functionality was not included in this build."
 msgstr ""
 "Le functionalitate de adblock (bloco de annuncios) non es includite in iste "
@@ -623,7 +624,7 @@ msgstr ""
 #: src/contents/ui/SettingsGeneral.qml:68
 #, kde-format
 msgid "Switch to new tab immediately"
-msgstr ""
+msgstr "Commuta a nove scheda immediatemente"
 
 #: src/contents/ui/SettingsGeneral.qml:69
 #, kde-format
@@ -715,10 +716,9 @@ msgid "Remove app"
 msgstr "Remove app"
 
 #: src/contents/ui/ShareSheet.qml:17
-#, fuzzy, kde-format
-#| msgid "Share page"
+#, kde-format
 msgid "Share page to"
-msgstr "Comparti pagina"
+msgstr "Comparti pagina con"
 
 #: src/contents/ui/Tabs.qml:63
 #, kde-format
