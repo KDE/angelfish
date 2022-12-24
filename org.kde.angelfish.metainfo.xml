@@ -34,6 +34,7 @@
   <name xml:lang="uk">Веббраузер Angelfish</name>
   <name xml:lang="x-test">xxAngelfish Web Browserxx</name>
   <name xml:lang="zh-CN">Angelfish 网页浏览器</name>
+  <name xml:lang="zh-TW">Angelfish 網頁瀏覽器</name>
   <summary>Webbrowser for mobile devices</summary>
   <summary xml:lang="az">Mobil qurğular üçün Veb_Bələdçi</summary>
   <summary xml:lang="ca">Navegador web per a dispositius mòbils</summary>
@@ -414,6 +415,7 @@
       <caption xml:lang="uk">Перегляд з вкладками</caption>
       <caption xml:lang="x-test">xxTabs Viewxx</caption>
       <caption xml:lang="zh-CN">标签页视图</caption>
+      <caption xml:lang="zh-TW">分頁檢視</caption>
       <image type="source">https://cdn.kde.org/screenshots/plasma-angelfish/tabs.png</image>
     </screenshot>
     <screenshot>
@@ -447,6 +449,7 @@
       <caption xml:lang="uk">Інтерфейс користувача стільниці</caption>
       <caption xml:lang="x-test">xxDesktop User Interfacexx</caption>
       <caption xml:lang="zh-CN">桌面用户界面</caption>
+      <caption xml:lang="zh-TW">桌面版使用者介面</caption>
       <image type="source">https://cdn.kde.org/screenshots/plasma-angelfish/desktop.png</image>
     </screenshot>
   </screenshots>
