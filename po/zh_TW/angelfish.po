@@ -2,30 +2,31 @@
 # This file is distributed under the same license as the plasma-angelfish package.
 #
 # pan93412 <pan93412@gmail.com>, 2019, 2020.
+# Kisaragi Hiu <mail@kisaragi-hiu.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-04 00:48+0000\n"
-"PO-Revision-Date: 2020-04-26 12:52+0800\n"
-"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
-"Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
+"PO-Revision-Date: 2022-12-24 01:08+0900\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
+"Language-Team: Traditional Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.12.3\n"
+"X-Generator: Lokalize 22.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Yi-Jyun Pan"
+msgstr "Yi-Jyun Pan, Kisaragi Hiu"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "pan93412@gmail.com"
+msgstr "pan93412@gmail.com, mail@kisaragi-hiu.com"
 
 #: angelfish-webapp/contents/ui/WebAppView.qml:31
 #: lib/contents/ui/WebView.qml:68
@@ -145,21 +146,27 @@ msgid ""
 " you may not be connected with the host you tried to connect to.\n"
 " Do you wish to override the security check and continue?"
 msgstr ""
+"您希望繼續嗎？\n"
+"\n"
+" 如果您希望，您可以繼續使用未認證的憑證。\n"
+" 接受未認證的憑證代表\n"
+" 您可能並不是連線到您嘗試連線的註記。\n"
+" 您要忽略這個安全性檢查並繼續嗎？"
 
 #: lib/contents/ui/ErrorHandler.qml:79
 #, kde-format
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 #: lib/contents/ui/ErrorHandler.qml:88
 #, kde-format
 msgid "No"
-msgstr ""
+msgstr "否"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
 msgid "This page says"
-msgstr ""
+msgstr "這個頁面說"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:64
 #, kde-format
@@ -200,22 +207,19 @@ msgid ""
 msgstr "是否允許網站使用相機及麥克風？"
 
 #: lib/contents/ui/PermissionQuestion.qml:28
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to access the camera?"
+#, kde-format
 msgid "Do you want to allow the website to share your screen?"
-msgstr "是否允許網站使用相機？"
+msgstr "是否允許網站分享您的螢幕？"
 
 #: lib/contents/ui/PermissionQuestion.qml:31
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to access the geo location?"
+#, kde-format
 msgid "Do you want to allow the website to share the sound output?"
-msgstr "是否允許網站存取地理位置？"
+msgstr "是否允許網站分享音訊輸出？"
 
 #: lib/contents/ui/PermissionQuestion.qml:34
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to access the geo location?"
+#, kde-format
 msgid "Do you want to allow the website to send you notifications?"
-msgstr "是否允許網站存取地理位置？"
+msgstr "是否允許網站向您傳送通知？"
 
 #: lib/contents/ui/PermissionQuestion.qml:43
 #, kde-format
@@ -246,13 +250,12 @@ msgstr "已在新分頁中開啟網站"
 #, kde-format
 msgid ""
 "The ad blocker is missing its filter lists, do you want to download them now?"
-msgstr ""
+msgstr "廣告阻擋器缺少它的過濾列表，您要現在下載它們嗎？"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
-#, fuzzy, kde-format
-#| msgid "Download"
+#, kde-format
 msgid "Downloading..."
-msgstr "下載"
+msgstr "正在下載…"
 
 #: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:250
 #: src/contents/ui/mobile.qml:79
@@ -263,18 +266,17 @@ msgstr "書籤"
 #: src/contents/ui/desktop/BookmarksPage.qml:28
 #, kde-format
 msgid "Search bookmarks…"
-msgstr ""
+msgstr "搜尋書籤…"
 
 #: src/contents/ui/desktop/BookmarksPage.qml:70
-#, fuzzy, kde-format
-#| msgid "Add bookmark"
+#, kde-format
 msgid "No bookmarks yet"
-msgstr "新增書籤"
+msgstr "還沒有書籤"
 
 #: src/contents/ui/desktop/desktop.qml:232 src/contents/ui/Tabs.qml:67
 #, kde-format
 msgid "New Tab"
-msgstr ""
+msgstr "新增分頁"
 
 #: src/contents/ui/desktop/desktop.qml:241 src/contents/ui/History.qml:12
 #: src/contents/ui/mobile.qml:87
@@ -284,20 +286,19 @@ msgstr "歷史記錄"
 
 #: src/contents/ui/desktop/desktop.qml:259 src/contents/ui/Downloads.qml:15
 #: src/contents/ui/mobile.qml:91
-#, fuzzy, kde-format
-#| msgid "Download"
+#, kde-format
 msgid "Downloads"
 msgstr "下載"
 
 #: src/contents/ui/desktop/desktop.qml:270
 #, kde-format
 msgid "Full Screen"
-msgstr ""
+msgstr "全螢幕"
 
 #: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Show developer tools"
-msgstr ""
+msgstr "顯示開發者工具"
 
 #: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:276
 #, kde-format
@@ -308,12 +309,12 @@ msgstr "在頁面中尋找內容"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
-msgstr ""
+msgstr "閱讀模式"
 
 #: src/contents/ui/desktop/desktop.qml:311
 #, kde-format
 msgid "Add to application launcher"
-msgstr ""
+msgstr "新增到應用程式啟動器"
 
 #: src/contents/ui/desktop/desktop.qml:330 src/contents/ui/mobile.qml:99
 #, kde-format
@@ -323,111 +324,108 @@ msgstr "設定"
 #: src/contents/ui/desktop/desktop.qml:337
 #, kde-format
 msgid "Configure Angelfish"
-msgstr ""
+msgstr "設定 Angelfish"
 
 #: src/contents/ui/desktop/HistoryPage.qml:28
 #, kde-format
 msgid "Search history…"
-msgstr ""
+msgstr "搜尋歷史…"
 
 #: src/contents/ui/desktop/HistoryPage.qml:44
 #, kde-format
 msgid "Clear all history"
-msgstr ""
+msgstr "清空歷史"
 
 #: src/contents/ui/desktop/HistoryPage.qml:80
 #, kde-format
 msgid "Not history yet"
-msgstr ""
+msgstr "還沒有歷史"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:12
 #: src/contents/ui/SettingsPage.qml:32
 #, kde-format
 msgid "Toolbars"
-msgstr ""
+msgstr "工具列"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:18
 #, kde-format
 msgid "Show home button:"
-msgstr ""
+msgstr "顯示首頁按鈕："
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
 #, kde-format
 msgid "Enabled"
-msgstr ""
+msgstr "啟用"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
 #, kde-format
 msgid "Disabled"
-msgstr ""
+msgstr "停用"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:26
-#, fuzzy, kde-format
-#| msgid "Homepage"
+#, kde-format
 msgid "Homepage:"
 msgstr "首頁"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:51
 #, kde-format
 msgid "New tabs:"
-msgstr ""
+msgstr "新分頁："
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:76
 #, kde-format
 msgid "Always show the tab bar:"
-msgstr ""
+msgstr "總是顯示分頁列："
 
 #: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:233
 #, kde-format
 msgid "Reader Mode: %1"
-msgstr ""
+msgstr "閱讀模式：%1"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
 msgid "No running downloads"
-msgstr ""
+msgstr "沒有執行中的下載"
 
 #: src/contents/ui/Downloads.qml:47
 #, kde-format
 msgid "Pause"
-msgstr ""
+msgstr "暫停"
 
 #: src/contents/ui/Downloads.qml:53
 #, kde-format
 msgid "Continue"
-msgstr ""
+msgstr "繼續"
 
 #: src/contents/ui/Downloads.qml:91
-#, fuzzy, kde-format
-#| msgid "Settings"
+#, kde-format
 msgctxt "download state"
 msgid "Starting…"
-msgstr "設定"
+msgstr "正在開始…"
 
 #: src/contents/ui/Downloads.qml:93
 #, kde-format
 msgid "Completed"
-msgstr ""
+msgstr "已完成"
 
 #: src/contents/ui/Downloads.qml:95
-#, fuzzy, kde-format
-#| msgid "Cancel"
+#, kde-format
 msgid "Cancelled"
-msgstr "取消"
+msgstr "已取消"
 
 #: src/contents/ui/Downloads.qml:97
 #, kde-format
 msgctxt "download state"
 msgid "Interrupted"
-msgstr ""
+msgstr "已中斷"
 
 #: src/contents/ui/Downloads.qml:99
 #, kde-format
 msgctxt "download state"
 msgid "In progress"
-msgstr ""
+msgstr "進行中"
 
 #: src/contents/ui/FindInPageBar.qml:45
 #, kde-format
@@ -465,10 +463,9 @@ msgid "Add to homescreen"
 msgstr "新增至主螢幕"
 
 #: src/contents/ui/mobile.qml:301
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open in app"
-msgstr "在新分頁開啟"
+msgstr "在應用程式中開啟"
 
 #: src/contents/ui/mobile.qml:309
 #, kde-format
@@ -492,14 +489,12 @@ msgid "Refresh"
 msgstr "重新整理"
 
 #: src/contents/ui/mobile.qml:334
-#, fuzzy, kde-format
-#| msgid "Bookmarks"
+#, kde-format
 msgid "Bookmarked"
-msgstr "書籤"
+msgstr "已加入書籤"
 
 #: src/contents/ui/mobile.qml:334
-#, fuzzy, kde-format
-#| msgid "Bookmarks"
+#, kde-format
 msgid "Bookmark"
 msgstr "書籤"
 
@@ -511,7 +506,7 @@ msgstr "顯示桌面站台"
 #: src/contents/ui/mobile.qml:359
 #, kde-format
 msgid "Reader Mode"
-msgstr ""
+msgstr "閱讀模式"
 
 #: src/contents/ui/mobile.qml:367
 #, kde-format
@@ -540,47 +535,47 @@ msgstr "開啟"
 #: src/contents/ui/SettingsAdblock.qml:17
 #, kde-format
 msgid "Adblock settings"
-msgstr ""
+msgstr "廣告阻擋設定"
 
 #: src/contents/ui/SettingsAdblock.qml:27
 #, kde-format
 msgid "Update lists"
-msgstr ""
+msgstr "更新列表"
 
 #: src/contents/ui/SettingsAdblock.qml:48
 #, kde-format
 msgid "The adblock functionality isn't included in this build."
-msgstr ""
+msgstr "廣告阻擋功能沒有包含在這個建置版裡。"
 
 #: src/contents/ui/SettingsAdblock.qml:54
 #, kde-format
 msgid "Add filterlist"
-msgstr ""
+msgstr "新增過濾列表"
 
 #: src/contents/ui/SettingsAdblock.qml:59
 #, kde-format
 msgid "Name"
-msgstr ""
+msgstr "名稱"
 
 #: src/contents/ui/SettingsAdblock.qml:68
 #, kde-format
 msgid "Url"
-msgstr ""
+msgstr "網址"
 
 #: src/contents/ui/SettingsAdblock.qml:78
 #, kde-format
 msgid "Add"
-msgstr ""
+msgstr "新增"
 
 #: src/contents/ui/SettingsAdblock.qml:121
 #, kde-format
 msgid "Remove this filter list"
-msgstr ""
+msgstr "移除這個過濾列表"
 
 #: src/contents/ui/SettingsGeneral.qml:16 src/contents/ui/SettingsPage.qml:12
 #, kde-format
 msgid "General"
-msgstr ""
+msgstr "一般"
 
 #: src/contents/ui/SettingsGeneral.qml:37
 #, kde-format
@@ -590,7 +585,7 @@ msgstr "啟用 JavaScript"
 #: src/contents/ui/SettingsGeneral.qml:38
 #, kde-format
 msgid "This may be required on certain websites for them to work."
-msgstr ""
+msgstr "有些網站可能需要這個才能正常運作。"
 
 #: src/contents/ui/SettingsGeneral.qml:47
 #, kde-format
@@ -600,33 +595,33 @@ msgstr "載入圖片"
 #: src/contents/ui/SettingsGeneral.qml:48
 #, kde-format
 msgid "Whether to load images on websites."
-msgstr ""
+msgstr "是否要在網站上載入圖片。"
 
 #: src/contents/ui/SettingsGeneral.qml:57
 #, kde-format
 msgid "Enable adblock"
-msgstr ""
+msgstr "啟用廣告阻擋"
 
 #: src/contents/ui/SettingsGeneral.qml:58
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
-msgstr ""
+msgstr "嘗試阻止網站上廣告的顯示。"
 
 #: src/contents/ui/SettingsGeneral.qml:58
 #, kde-format
 msgid "AdBlock functionality was not included in this build."
-msgstr ""
+msgstr "廣告阻擋功能未被包含在這個建置版裡。"
 
 #: src/contents/ui/SettingsGeneral.qml:68
 #, kde-format
 msgid "Switch to new tab immediately"
-msgstr ""
+msgstr "馬上切換到新分頁"
 
 #: src/contents/ui/SettingsGeneral.qml:69
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately"
-msgstr ""
+msgstr "當您在新分頁開啟連結、圖片或媒體時，馬上切換到新分頁"
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format
@@ -644,6 +639,11 @@ msgid ""
 "menus either by swiping from the left or right side or to a side along the "
 "bottom of the window."
 msgstr ""
+"選擇在導覽列啟用的按鈕。某些按鈕只能在瀏覽器直立顯示時隱藏，亦即它們在瀏覽器"
+"寬度大於高度時總是會顯示。\n"
+"\n"
+" 請注意，如果您停用了選單按鈕，要存取選單將會需要從左端或右端滑入，或是從視窗"
+"底端滑到邊緣去。"
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:52
 #, kde-format
@@ -673,12 +673,12 @@ msgstr "重新載入/停止"
 #: src/contents/ui/SettingsPage.qml:17
 #, kde-format
 msgid "Ad Block"
-msgstr ""
+msgstr "廣告阻擋"
 
 #: src/contents/ui/SettingsPage.qml:22 src/contents/ui/SettingsWebApps.qml:13
 #, kde-format
 msgid "Web Apps"
-msgstr ""
+msgstr "網頁應用程式"
 
 #: src/contents/ui/SettingsPage.qml:27
 #: src/contents/ui/SettingsSearchEnginePage.qml:15
@@ -700,11 +700,10 @@ msgstr "偏好搜尋引擎的基礎網址"
 #: src/contents/ui/SettingsWebApps.qml:44
 #, kde-format
 msgid "Remove app"
-msgstr ""
+msgstr "移除應用程式"
 
 #: src/contents/ui/ShareSheet.qml:17
-#, fuzzy, kde-format
-#| msgid "Share page"
+#, kde-format
 msgid "Share page to"
 msgstr "分享頁面"
 
