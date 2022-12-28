@@ -45,6 +45,7 @@ Kirigami.ApplicationWindow {
             anchors.fill: parent
 
             QQC2.ToolButton {
+                id: backButton
                 Layout.alignment: Qt.AlignLeft
                 action: Kirigami.Action {
                     enabled: currentWebView.canGoBack
@@ -55,6 +56,7 @@ Kirigami.ApplicationWindow {
             }
 
             QQC2.ToolButton {
+                id: forwardButton
                 Layout.alignment: Qt.AlignLeft
                 action: Kirigami.Action {
                     enabled: currentWebView.canGoForward
@@ -521,6 +523,20 @@ Kirigami.ApplicationWindow {
         UrlObserver {
             id: urlObserver
             url: currentWebView.url
+        }
+    }
+
+    MouseArea {
+        anchors.fill: parent
+
+        acceptedButtons: Qt.ForwardButton | Qt.BackButton
+
+        onClicked: {
+            if (mouse.button === Qt.ForwardButton && forwardButton.action.enabled) {
+                forwardButton.action.trigger();
+            } else if (mouse.button === Qt.BackButton && backButton.action.enabled) {
+                backButton.action.trigger();
+            }
         }
     }
 
