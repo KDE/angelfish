@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-12-04 00:48+0000\n"
+"POT-Creation-Date: 2022-12-29 00:54+0000\n"
 "PO-Revision-Date: 2022-08-24 17:58+0400\n"
 "Last-Translator: Kheyyam <xxmn77@gmail.com>\n"
 "Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
@@ -259,7 +259,7 @@ msgstr "Reklam bloklayıcında filtr siyahısı yoxdur, onlar indi yüklənsin?"
 msgid "Downloading..."
 msgstr "Yüklənir..."
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:250
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:252
 #: src/contents/ui/mobile.qml:79
 #, kde-format
 msgid "Bookmarks"
@@ -275,55 +275,55 @@ msgstr "Əlfəcinləri axtarın..."
 msgid "No bookmarks yet"
 msgstr "Hələlik əlfəcin yoxdur"
 
-#: src/contents/ui/desktop/desktop.qml:232 src/contents/ui/Tabs.qml:67
+#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:67
 #, kde-format
 msgid "New Tab"
 msgstr "Yeni Vərəq"
 
-#: src/contents/ui/desktop/desktop.qml:241 src/contents/ui/History.qml:12
+#: src/contents/ui/desktop/desktop.qml:243 src/contents/ui/History.qml:12
 #: src/contents/ui/mobile.qml:87
 #, kde-format
 msgid "History"
 msgstr "Tarixçə"
 
-#: src/contents/ui/desktop/desktop.qml:259 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:261 src/contents/ui/Downloads.qml:15
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
 msgstr "Yükləmələr"
 
-#: src/contents/ui/desktop/desktop.qml:270
+#: src/contents/ui/desktop/desktop.qml:272
 #, kde-format
 msgid "Full Screen"
 msgstr "Tam ekran-"
 
-#: src/contents/ui/desktop/desktop.qml:284 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:286 src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Show developer tools"
 msgstr "Tərtibatçı alətlərini göstərmək"
 
-#: src/contents/ui/desktop/desktop.qml:296 src/contents/ui/mobile.qml:276
+#: src/contents/ui/desktop/desktop.qml:298 src/contents/ui/mobile.qml:276
 #, kde-format
 msgid "Find in page"
 msgstr "Səhifədə tapmaq"
 
-#: src/contents/ui/desktop/desktop.qml:305
+#: src/contents/ui/desktop/desktop.qml:307
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Oxu rejimi"
 
-#: src/contents/ui/desktop/desktop.qml:311
+#: src/contents/ui/desktop/desktop.qml:313
 #, kde-format
 msgid "Add to application launcher"
 msgstr "Tətbiq başladıcıya əlavə edin"
 
-#: src/contents/ui/desktop/desktop.qml:330 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:332 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "Ayarlar"
 
-#: src/contents/ui/desktop/desktop.qml:337
+#: src/contents/ui/desktop/desktop.qml:339
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "Angelfish'i tənzimləyin"
