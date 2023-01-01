@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-29 00:54+0000\n"
-"PO-Revision-Date: 2022-08-22 17:11+0100\n"
+"PO-Revision-Date: 2022-12-31 15:42+0000\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
-"Language-Team: British English <kde-l10n-en_gb@kde.org>\n"
+"Language-Team: English <kde-i18n-doc@kde.org>\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.08.0\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -165,7 +165,7 @@ msgstr "No"
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
 msgid "This page says"
-msgstr ""
+msgstr "This page says"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:64
 #, kde-format
@@ -588,7 +588,7 @@ msgstr "Enable JavaScript"
 #: src/contents/ui/SettingsGeneral.qml:38
 #, kde-format
 msgid "This may be required on certain websites for them to work."
-msgstr ""
+msgstr "This may be required on certain websites for them to work."
 
 #: src/contents/ui/SettingsGeneral.qml:47
 #, kde-format
@@ -598,7 +598,7 @@ msgstr "Load images"
 #: src/contents/ui/SettingsGeneral.qml:48
 #, kde-format
 msgid "Whether to load images on websites."
-msgstr ""
+msgstr "Whether to load images on websites."
 
 #: src/contents/ui/SettingsGeneral.qml:57
 #, kde-format
@@ -608,18 +608,17 @@ msgstr "Enable adblock"
 #: src/contents/ui/SettingsGeneral.qml:58
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
-msgstr ""
+msgstr "Attempts to prevent advertisements on websites from showing."
 
 #: src/contents/ui/SettingsGeneral.qml:58
-#, fuzzy, kde-format
-#| msgid "The adblock functionality isn't included in this build."
+#, kde-format
 msgid "AdBlock functionality was not included in this build."
-msgstr "The adblock functionality isn't included in this build."
+msgstr "AdBlock functionality was not included in this build."
 
 #: src/contents/ui/SettingsGeneral.qml:68
 #, kde-format
 msgid "Switch to new tab immediately"
-msgstr ""
+msgstr "Switch to new tab immediately"
 
 #: src/contents/ui/SettingsGeneral.qml:69
 #, kde-format
@@ -710,10 +709,9 @@ msgid "Remove app"
 msgstr "Remove app"
 
 #: src/contents/ui/ShareSheet.qml:17
-#, fuzzy, kde-format
-#| msgid "Share page"
+#, kde-format
 msgid "Share page to"
-msgstr "Share page"
+msgstr "Share page to"
 
 #: src/contents/ui/Tabs.qml:63
 #, kde-format
