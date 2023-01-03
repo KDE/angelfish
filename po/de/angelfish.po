@@ -3,13 +3,14 @@
 # Burkhard Lück <lueck@hube-lueck.de>, 2019, 2021.
 # Frederik Schwarzer <schwarzer@kde.org>, 2020, 2021, 2022.
 # Alois Spitzbart <spitz234@hotmail.com>, 2020, 2021.
+# Frank Steinmetzger <dev-kde@felsenfleischer.de>, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-29 00:54+0000\n"
-"PO-Revision-Date: 2022-07-14 00:35+0200\n"
+"PO-Revision-Date: 2022-12-19 10:00+0100\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.07.70\n"
+"X-Generator: Lokalize 22.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -80,7 +81,7 @@ msgstr "Zu öffnende Desktop-Datei"
 #: angelfish-webapp/main.cpp:97
 #, kde-format
 msgid "Angelfish Web App runtime"
-msgstr "Angelfish Web App-Laufzeit-Laufzeitumgebung"
+msgstr "Angelfish Web-App-Laufzeitumgebung"
 
 #: angelfish-webapp/main.cpp:99
 #, kde-format
@@ -147,6 +148,12 @@ msgid ""
 " you may not be connected with the host you tried to connect to.\n"
 " Do you wish to override the security check and continue?"
 msgstr ""
+"Möchten Sie fortfahren?\n"
+"\n"
+"Falls ja, dann tun Sie dies möglicherweise mit einem ungeprüften Zertifikat. "
+"Ein ungeprüftes Zertifikat zu akzeptieren könnte bedeuten, dass Sie nicht "
+"mit dem Rechner verbunden werden, den Sie erwarten.\n"
+"Möchten Sie diese Sicherheitsprüfung übergehen und fortfahren?"
 
 #: lib/contents/ui/ErrorHandler.qml:79
 #, kde-format
@@ -169,7 +176,7 @@ msgid ""
 "The website asks for confirmation that you want to leave. Unsaved "
 "information might not be saved."
 msgstr ""
-"Die Webseite bittet um Bestätigung, dass Sie sie verlassen möchten.  Nicht "
+"Die Webseite bittet um Bestätigung, dass Sie sie verlassen möchten. Nicht "
 "gespeicherte Informationen werden möglicherweise nicht gespeichert."
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:79
@@ -256,7 +263,7 @@ msgstr ""
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
 #, kde-format
 msgid "Downloading..."
-msgstr "Herunterladen ..."
+msgstr "Wird heruntergeladen ..."
 
 #: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:252
 #: src/contents/ui/mobile.qml:79
@@ -310,7 +317,7 @@ msgstr "In Seite suchen"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
-msgstr ""
+msgstr "LesemodusLesemodus"
 
 #: src/contents/ui/desktop/desktop.qml:313
 #, kde-format
@@ -340,7 +347,7 @@ msgstr "Gesamten Verlauf leeren"
 #: src/contents/ui/desktop/HistoryPage.qml:80
 #, kde-format
 msgid "Not history yet"
-msgstr "Nein Verlauf vorhanden"
+msgstr "Kein Verlauf vorhanden"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:12
 #: src/contents/ui/SettingsPage.qml:32
@@ -351,7 +358,7 @@ msgstr "Werkzeugleisten"
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:18
 #, kde-format
 msgid "Show home button:"
-msgstr ""
+msgstr "Knopf für Startseite anzeigen:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
@@ -368,7 +375,7 @@ msgstr "Deaktiviert"
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:26
 #, kde-format
 msgid "Homepage:"
-msgstr "Internetseite:"
+msgstr "Startseite:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:51
 #, kde-format
@@ -383,7 +390,7 @@ msgstr "Unterfensterleiste immer anzeigen:"
 #: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:233
 #, kde-format
 msgid "Reader Mode: %1"
-msgstr ""
+msgstr "Lesemodus: %1Lesemodus: %1"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -393,7 +400,7 @@ msgstr "Keine aktive Downloads"
 #: src/contents/ui/Downloads.qml:47
 #, kde-format
 msgid "Pause"
-msgstr "Pause"
+msgstr "Pausieren"
 
 #: src/contents/ui/Downloads.qml:53
 #, kde-format
@@ -404,7 +411,7 @@ msgstr "Fortsetzen"
 #, kde-format
 msgctxt "download state"
 msgid "Starting…"
-msgstr "Starten ..."
+msgstr "Wird gestartet ..."
 
 #: src/contents/ui/Downloads.qml:93
 #, kde-format
@@ -426,7 +433,7 @@ msgstr "Unterbrochen"
 #, kde-format
 msgctxt "download state"
 msgid "In progress"
-msgstr "In Bearbeitung"
+msgstr "Läuft"
 
 #: src/contents/ui/FindInPageBar.qml:45
 #, kde-format
@@ -507,7 +514,7 @@ msgstr "Desktop-Seite anzeigen"
 #: src/contents/ui/mobile.qml:359
 #, kde-format
 msgid "Reader Mode"
-msgstr ""
+msgstr "LesemodusLesemodus"
 
 #: src/contents/ui/mobile.qml:367
 #, kde-format
@@ -541,12 +548,12 @@ msgstr "Werbefilter-Einstellungen"
 #: src/contents/ui/SettingsAdblock.qml:27
 #, kde-format
 msgid "Update lists"
-msgstr "Liste aktualisieren"
+msgstr "Listen aktualisieren"
 
 #: src/contents/ui/SettingsAdblock.qml:48
 #, kde-format
 msgid "The adblock functionality isn't included in this build."
-msgstr "Die Werbefilter-Funktionalität ist in diesem Build nicht enthalten"
+msgstr "Die Werbefilter-Funktionalität ist in diesem Build nicht enthalten."
 
 #: src/contents/ui/SettingsAdblock.qml:54
 #, kde-format
@@ -624,6 +631,8 @@ msgstr ""
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately"
 msgstr ""
+"Beim Öffnen eines Bildes, einer Verknüpfung oder Mediendatei in einem neuen "
+"Unterfenster sofort zu diesem wechseln"
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format
@@ -643,11 +652,11 @@ msgid ""
 msgstr ""
 "Wählen Sie die in der Navigationsleiste aktivierten Knöpfe. Einige der "
 "Knöpfe können nur im Hochformat des Browsers ausgeblendet werden und werden "
-"immer angezeigt, wenn  der Browserfenster breiter ist als hoch ist.\n"
+"immer angezeigt, wenn das Browserfenster breiter als hoch ist.\n"
 "\n"
-"Wenn Sie die Menüknöpfe deaktivieren, erhalten Sie wieder Zugriff auf die "
-"Menüs, entweder durch Streichen von der linken oder rechten Seite oder auf "
-"eine Seite entlang des unteren Rand des Fensters."
+"Wenn Sie die Menüknöpfe deaktivieren, haben Sie Zugriff auf die Menüs "
+"entweder durch Streichen von der linken oder rechten Seite oder auf eine "
+"Seite entlang des unteren Rands des Fensters."
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:52
 #, kde-format
@@ -672,7 +681,7 @@ msgstr "Zurück"
 #: src/contents/ui/SettingsNavigationBarPage.qml:82
 #, kde-format
 msgid "Reload/Stop"
-msgstr "Neu laden/Stoppen"
+msgstr "Neu laden/Abbrechen"
 
 #: src/contents/ui/SettingsPage.qml:17
 #, kde-format
@@ -707,10 +716,9 @@ msgid "Remove app"
 msgstr "App entfernen"
 
 #: src/contents/ui/ShareSheet.qml:17
-#, fuzzy, kde-format
-#| msgid "Share page"
+#, kde-format
 msgid "Share page to"
-msgstr "Seite teilen"
+msgstr "Seite teilen mit"
 
 #: src/contents/ui/Tabs.qml:63
 #, kde-format
