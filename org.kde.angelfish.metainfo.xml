@@ -156,7 +156,7 @@
     <p xml:lang="ca-valencia">Permet les característiques típiques de navegació, com</p>
     <p xml:lang="cs">Podporuje typické vlastnosti prohlížeče jako</p>
     <p xml:lang="da">Den understøtter almindelige browserfunktioner såsom</p>
-    <p xml:lang="de">Es unterstützt die typischen Funktionen von Browsern wie</p>
+    <p xml:lang="de">Er unterstützt die typischen Funktionen von Browsern wie</p>
     <p xml:lang="el">Υποστηρίζει τις τυπικές λειτουργίες ενός περιηγητή, όπως</p>
     <p xml:lang="en-GB">It supports typical browser features, such as</p>
     <p xml:lang="es">Permite las funciones típicas de un navegador, como</p>
@@ -309,7 +309,7 @@
       <caption xml:lang="ca-valencia">Pàgina inicial</caption>
       <caption xml:lang="cs">Domovská stránka</caption>
       <caption xml:lang="da">Startside</caption>
-      <caption xml:lang="de">Internetseite</caption>
+      <caption xml:lang="de">Startseite</caption>
       <caption xml:lang="el">Προσωπική σελίδα</caption>
       <caption xml:lang="en-GB">Homepage</caption>
       <caption xml:lang="es">Página de inicio</caption>
@@ -424,7 +424,7 @@
       <caption xml:lang="ca">Interfície d'usuari d'escriptori</caption>
       <caption xml:lang="ca-valencia">Interfície d'usuari d'escriptori</caption>
       <caption xml:lang="cs">Uživatelské rozhraní pracovní plochy</caption>
-      <caption xml:lang="de">Benutzeroberfläche der Arbeitsfläche</caption>
+      <caption xml:lang="de">Benutzeroberfläche für die Arbeitsfläche</caption>
       <caption xml:lang="en-GB">Desktop User Interface</caption>
       <caption xml:lang="es">Interfaz de usuario del escritorio</caption>
       <caption xml:lang="eu">Mahaigaineko erabiltzailearen interfazea</caption>
