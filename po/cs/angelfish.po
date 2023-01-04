@@ -693,10 +693,9 @@ msgid "Remove app"
 msgstr "Odstranit aplikaci"
 
 #: src/contents/ui/ShareSheet.qml:17
-#, fuzzy, kde-format
-#| msgid "Share page"
+#, kde-format
 msgid "Share page to"
-msgstr "Sdílet stránku"
+msgstr ""
 
 #: src/contents/ui/Tabs.qml:63
 #, kde-format
@@ -707,12 +706,3 @@ msgstr "Soukromé karty"
 #, kde-format
 msgid "URL to open"
 msgstr "URL k otevření"
-
-#~ msgid "Close"
-#~ msgstr "Zavřít"
-
-#~ msgid "Confirm"
-#~ msgstr "Potvrdit"
-
-#~ msgid "OK"
-#~ msgstr "OK"
