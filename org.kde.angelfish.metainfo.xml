@@ -42,7 +42,7 @@
   <summary xml:lang="cs">Webový prohlížeč pro mobilní zařízení</summary>
   <summary xml:lang="da">Webbrowser til mobile enheder</summary>
   <summary xml:lang="de">Webbrowser für mobile Geräte</summary>
-  <summary xml:lang="el">Πειηγητής ιστού για κινητά</summary>
+  <summary xml:lang="el">Περιηγητής ιστού για κινητά</summary>
   <summary xml:lang="en-GB">Web browser for mobile devices</summary>
   <summary xml:lang="es">Navegador web para dispositivos móviles</summary>
   <summary xml:lang="et">Mobiilseadmete veebilehitseja</summary>
@@ -82,7 +82,7 @@
   <developer_name xml:lang="cs">Komunita KDE</developer_name>
   <developer_name xml:lang="da">KDE-fællesskabet</developer_name>
   <developer_name xml:lang="de">KDE-Gemeinschaft</developer_name>
-  <developer_name xml:lang="el">Κοινότητα του KDE</developer_name>
+  <developer_name xml:lang="el">Η Κοινότητα του KDE</developer_name>
   <developer_name xml:lang="en-GB">KDE Community</developer_name>
   <developer_name xml:lang="es">Comunidad KDE</developer_name>
   <developer_name xml:lang="et">KDE kogukond</developer_name>
@@ -425,6 +425,7 @@
       <caption xml:lang="ca-valencia">Interfície d'usuari d'escriptori</caption>
       <caption xml:lang="cs">Uživatelské rozhraní pracovní plochy</caption>
       <caption xml:lang="de">Benutzeroberfläche für die Arbeitsfläche</caption>
+      <caption xml:lang="el">Περιβάλλον χρήστη επιφάνειας εργασίας</caption>
       <caption xml:lang="en-GB">Desktop User Interface</caption>
       <caption xml:lang="es">Interfaz de usuario del escritorio</caption>
       <caption xml:lang="eu">Mahaigaineko erabiltzailearen interfazea</caption>
