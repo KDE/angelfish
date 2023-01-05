@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the plasma-angelfish package.
 #
-# Stelios <sstavra@gmail.com>, 2019, 2020, 2021.
+# Stelios <sstavra@gmail.com>, 2019, 2020, 2021, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-29 00:54+0000\n"
-"PO-Revision-Date: 2021-09-19 08:34+0300\n"
+"PO-Revision-Date: 2023-01-04 09:34+0200\n"
 "Last-Translator: Stelios <sstavra@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
 "Language: el\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 20.04.2\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -165,7 +165,7 @@ msgstr "Όχι"
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
 msgid "This page says"
-msgstr ""
+msgstr "Αυτή η σελίδα λέει"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:64
 #, kde-format
@@ -173,8 +173,8 @@ msgid ""
 "The website asks for confirmation that you want to leave. Unsaved "
 "information might not be saved."
 msgstr ""
-"Ο ιστότοπος ζητάει να επιβεβαιώσετε ότι θέλετε να φύγετε. Ίσως να μην "
-"αποθηκευθεί η μη αποθηκευμένη πληροφορία."
+"Ο ιστότοπος ζητάει να επιβεβαιώσετε ότι θέλετε να αποχωρήσετε. Μη "
+"αποθηκευμένες πληροφορίες ίσως να μην αποθηκευτούν."
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:79
 #, kde-format
@@ -255,7 +255,7 @@ msgstr "Ο ιστότοπος άνοιξε σε νέα καρτέλα"
 msgid ""
 "The ad blocker is missing its filter lists, do you want to download them now?"
 msgstr ""
-"Λείπουν από το απαγορευτικό διαφημίσεων οι λίστες των φίλτρων, θέλετς να "
+"Λείπουν από το απαγορευτικό διαφημίσεων οι λίστες των φίλτρων, θέλετε να "
 "κάνετε λήψη τώρα;"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
@@ -272,13 +272,12 @@ msgstr "Σελιδοδείκτες"
 #: src/contents/ui/desktop/BookmarksPage.qml:28
 #, kde-format
 msgid "Search bookmarks…"
-msgstr ""
+msgstr "Αναζήτηση στους σελιδοδείκτες…"
 
 #: src/contents/ui/desktop/BookmarksPage.qml:70
-#, fuzzy, kde-format
-#| msgid "Add bookmark"
+#, kde-format
 msgid "No bookmarks yet"
-msgstr "Προσθήκη σελιδοδείκτη"
+msgstr "Κανένας σελιδοδείκτης ακόμη"
 
 #: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:67
 #, kde-format
@@ -300,7 +299,7 @@ msgstr "Λήψεις"
 #: src/contents/ui/desktop/desktop.qml:272
 #, kde-format
 msgid "Full Screen"
-msgstr ""
+msgstr "Πλήρης οθόνη"
 
 #: src/contents/ui/desktop/desktop.qml:286 src/contents/ui/mobile.qml:376
 #, kde-format
@@ -316,12 +315,12 @@ msgstr "Εύρεση σε σελίδα"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
-msgstr ""
+msgstr "Λειτουργία αναγνώστη"
 
 #: src/contents/ui/desktop/desktop.qml:313
 #, kde-format
 msgid "Add to application launcher"
-msgstr ""
+msgstr "Προσθήκη στον εκτελεστή εφαρμογών"
 
 #: src/contents/ui/desktop/desktop.qml:332 src/contents/ui/mobile.qml:99
 #, kde-format
@@ -331,73 +330,70 @@ msgstr "Ρυθμίσεις"
 #: src/contents/ui/desktop/desktop.qml:339
 #, kde-format
 msgid "Configure Angelfish"
-msgstr ""
+msgstr "Διαμόρφωση Angelfish"
 
 #: src/contents/ui/desktop/HistoryPage.qml:28
 #, kde-format
 msgid "Search history…"
-msgstr ""
+msgstr "Αναζήτηση στο ιστορικό…"
 
 #: src/contents/ui/desktop/HistoryPage.qml:44
 #, kde-format
 msgid "Clear all history"
-msgstr ""
+msgstr "Καθαρισμός όλου του ιστορικού"
 
 #: src/contents/ui/desktop/HistoryPage.qml:80
 #, kde-format
 msgid "Not history yet"
-msgstr ""
+msgstr "Κανένα ιστορικό ακόμη"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:12
 #: src/contents/ui/SettingsPage.qml:32
 #, kde-format
 msgid "Toolbars"
-msgstr ""
+msgstr "Γραμμές εργαλείων"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:18
 #, kde-format
 msgid "Show home button:"
-msgstr ""
+msgstr "Να εμφανίζεται το κουμπί της αρχικής σελίδας:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
-#, fuzzy, kde-format
-#| msgid "Enable Adblock"
+#, kde-format
 msgid "Enabled"
-msgstr "Ενεργοποίηση απαγορευτικού διαφημίσεων"
+msgstr "Ενεργό"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
 #, kde-format
 msgid "Disabled"
-msgstr ""
+msgstr "Απενεργοποιημένο"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:26
-#, fuzzy, kde-format
-#| msgid "Homepage"
+#, kde-format
 msgid "Homepage:"
-msgstr "Αρχική"
+msgstr "Αρχική:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:51
-#, fuzzy, kde-format
-#| msgid "New Tab"
+#, kde-format
 msgid "New tabs:"
-msgstr "Νέα καρτέλα"
+msgstr "Νέες καρτέλες:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:76
 #, kde-format
 msgid "Always show the tab bar:"
-msgstr ""
+msgstr "Να εμφανίζεται πάντα η γραμμή καρτελών:"
 
 #: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:233
 #, kde-format
 msgid "Reader Mode: %1"
-msgstr ""
+msgstr "Λειτουργία αναγνώστη: %1"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
 msgid "No running downloads"
-msgstr "Δενε εκτελούνται λήψεις"
+msgstr "Δεν εκτελούνται λήψεις"
 
 #: src/contents/ui/Downloads.qml:47
 #, kde-format
@@ -516,7 +512,7 @@ msgstr "Εμφάνιση τόπου επιφάνειας εργασίας"
 #: src/contents/ui/mobile.qml:359
 #, kde-format
 msgid "Reader Mode"
-msgstr ""
+msgstr "Λειτουργία αναγνώστη"
 
 #: src/contents/ui/mobile.qml:367
 #, kde-format
@@ -550,7 +546,7 @@ msgstr "Ρυθμίσεις απαγορευτικού διαφημίσεων"
 #: src/contents/ui/SettingsAdblock.qml:27
 #, kde-format
 msgid "Update lists"
-msgstr ""
+msgstr "Ενημέρωση λιστών"
 
 #: src/contents/ui/SettingsAdblock.qml:48
 #, kde-format
@@ -582,12 +578,12 @@ msgstr "Προσθήκη"
 #: src/contents/ui/SettingsAdblock.qml:121
 #, kde-format
 msgid "Remove this filter list"
-msgstr "Αφαίρεση αυτής τηε λίστας φίλτρων"
+msgstr "Αφαίρεση αυτής της λίστας φίλτρων"
 
 #: src/contents/ui/SettingsGeneral.qml:16 src/contents/ui/SettingsPage.qml:12
 #, kde-format
 msgid "General"
-msgstr ""
+msgstr "Γενικά"
 
 #: src/contents/ui/SettingsGeneral.qml:37
 #, kde-format
@@ -597,7 +593,7 @@ msgstr "Ενεργοποίηση JavaScript"
 #: src/contents/ui/SettingsGeneral.qml:38
 #, kde-format
 msgid "This may be required on certain websites for them to work."
-msgstr ""
+msgstr "Αυτό ίσως απαιτείται σε ορισμένους ιστοτόπους για να λειτουργήσουν."
 
 #: src/contents/ui/SettingsGeneral.qml:47
 #, kde-format
@@ -607,22 +603,20 @@ msgstr "Φόρτωση εικόνων"
 #: src/contents/ui/SettingsGeneral.qml:48
 #, kde-format
 msgid "Whether to load images on websites."
-msgstr ""
+msgstr "Αν θα φορτώνονται εικόνες σε ιστοτόπους."
 
 #: src/contents/ui/SettingsGeneral.qml:57
-#, fuzzy, kde-format
-#| msgid "Enable Adblock"
+#, kde-format
 msgid "Enable adblock"
 msgstr "Ενεργοποίηση απαγορευτικού διαφημίσεων"
 
 #: src/contents/ui/SettingsGeneral.qml:58
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
-msgstr ""
+msgstr "Επιχειρεί να εμποδίσει την εμφάνιση διαφημίσεων σε ιστοτόπους."
 
 #: src/contents/ui/SettingsGeneral.qml:58
-#, fuzzy, kde-format
-#| msgid "The adblock functionality isn't included in this build."
+#, kde-format
 msgid "AdBlock functionality was not included in this build."
 msgstr ""
 "Η λειτουργία του απαγορευτικού διαφημίσεων δεν περιλαμβάνεται σε αυτήν την "
@@ -631,13 +625,15 @@ msgstr ""
 #: src/contents/ui/SettingsGeneral.qml:68
 #, kde-format
 msgid "Switch to new tab immediately"
-msgstr ""
+msgstr "Άμεση εναλλαγή σε νέα καρτέλα"
 
 #: src/contents/ui/SettingsGeneral.qml:69
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately"
 msgstr ""
+"Με το άνοιγμα συνδέσμου, εικόνας ή πολυμέσου σε νέα καρτέλα να γίνεται άμεσα "
+"εναλλαγή σε αυτήν."
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format
@@ -691,7 +687,7 @@ msgstr "Επαναφόρτωση/διακοπή"
 #: src/contents/ui/SettingsPage.qml:17
 #, kde-format
 msgid "Ad Block"
-msgstr ""
+msgstr "Ad Block"
 
 #: src/contents/ui/SettingsPage.qml:22 src/contents/ui/SettingsWebApps.qml:13
 #, kde-format
@@ -721,10 +717,9 @@ msgid "Remove app"
 msgstr "Διαγραφή εφαρμογής"
 
 #: src/contents/ui/ShareSheet.qml:17
-#, fuzzy, kde-format
-#| msgid "Share page"
+#, kde-format
 msgid "Share page to"
-msgstr "Διαμοιρασμός σελίδας"
+msgstr "Διαμοιρασμός σελίδας με"
 
 #: src/contents/ui/Tabs.qml:63
 #, kde-format
