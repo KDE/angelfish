@@ -542,7 +542,7 @@ msgstr "Obri"
 #: src/contents/ui/SettingsAdblock.qml:17
 #, kde-format
 msgid "Adblock settings"
-msgstr "Configuració d'AdBlock"
+msgstr "Configureu AdBlock"
 
 #: src/contents/ui/SettingsAdblock.qml:27
 #, kde-format
