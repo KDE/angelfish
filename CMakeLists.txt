@@ -3,13 +3,14 @@
 #
 # SPDX-License-Identifier: LGPL-2.0-or-later
 
-project(angelfish)
-
 cmake_minimum_required(VERSION 3.16.0)
+
+set(PROJECT_VERSION "23.01")
+project(angelfish VERSION ${PROJECT_VERSION})
+
 set(KF5_MIN_VERSION "5.95.0")
 set(QT_MIN_VERSION "5.15.0")
 
-set(PROJECT_VERSION "22.11")
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
