@@ -1,21 +1,21 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the plasma-angelfish package.
-# Vit Pelcak <vit@pelcak.org>, 2019, 2020, 2021, 2022.
+# Vit Pelcak <vit@pelcak.org>, 2019, 2020, 2021, 2022, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-29 00:54+0000\n"
-"PO-Revision-Date: 2022-05-12 14:49+0200\n"
-"Last-Translator: Vit Pelcak <vpelcak@suse.cz>\n"
+"PO-Revision-Date: 2023-01-31 15:01+0100\n"
+"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 22.04.0\n"
+"X-Generator: Lokalize 22.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -159,7 +159,7 @@ msgstr "Ne"
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
 msgid "This page says"
-msgstr ""
+msgstr "Tato stránka tvrdí"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:64
 #, kde-format
@@ -303,7 +303,7 @@ msgstr "Najít na stránce"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
-msgstr ""
+msgstr "Režim čtení"
 
 #: src/contents/ui/desktop/desktop.qml:313
 #, kde-format
@@ -376,7 +376,7 @@ msgstr "Vždy zobrazovat panel karet:"
 #: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:233
 #, kde-format
 msgid "Reader Mode: %1"
-msgstr ""
+msgstr "Režim čtení: %1"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -500,7 +500,7 @@ msgstr ""
 #: src/contents/ui/mobile.qml:359
 #, kde-format
 msgid "Reader Mode"
-msgstr ""
+msgstr "Režim čtení"
 
 #: src/contents/ui/mobile.qml:367
 #, kde-format
@@ -590,7 +590,7 @@ msgstr "Načíst obrázky"
 #: src/contents/ui/SettingsGeneral.qml:48
 #, kde-format
 msgid "Whether to load images on websites."
-msgstr ""
+msgstr "Zda načítat obrázky na webových stránkách."
 
 #: src/contents/ui/SettingsGeneral.qml:57
 #, kde-format
@@ -605,12 +605,12 @@ msgstr ""
 #: src/contents/ui/SettingsGeneral.qml:58
 #, kde-format
 msgid "AdBlock functionality was not included in this build."
-msgstr ""
+msgstr "Funkcionalita AdBlocku v tomto sestavení nebyla zahrnuta."
 
 #: src/contents/ui/SettingsGeneral.qml:68
 #, kde-format
 msgid "Switch to new tab immediately"
-msgstr ""
+msgstr "Okamžitě přepnout na novou kartu"
 
 #: src/contents/ui/SettingsGeneral.qml:69
 #, kde-format
@@ -695,7 +695,7 @@ msgstr "Odstranit aplikaci"
 #: src/contents/ui/ShareSheet.qml:17
 #, kde-format
 msgid "Share page to"
-msgstr ""
+msgstr "Sdílet stránku s"
 
 #: src/contents/ui/Tabs.qml:63
 #, kde-format
