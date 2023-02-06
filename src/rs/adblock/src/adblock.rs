@@ -6,7 +6,6 @@ use std::fs;
 use std::io::Write;
 
 use adblock::{
-    blocker::Redirection,
     engine::Engine,
     lists::{FilterSet, ParseOptions},
 };
@@ -91,11 +90,8 @@ impl Adblock {
             return ffi::AdblockResult {
                 matched: blocker_result.matched,
                 important: blocker_result.important,
-                redirect: match blocker_result.redirect {
-                    Some(Redirection::Url(url)) => url,
-                    Some(Redirection::Resource(data_url)) => data_url, // Seems to contain a data:text/plain;base64 url
-                    _ => String::new(),
-                },
+                redirect: blocker_result.redirect.unwrap_or_default(),
+                rewritten_url: blocker_result.rewritten_url.unwrap_or_default(),
             };
         } else {
             adblock_debug!("Adblock engine doesn't exist! Probably it failed to load or restore");
@@ -158,6 +154,8 @@ mod ffi {
         matched: bool,
         important: bool,
         redirect: String,
+        #[cxx_name = "rewrittenUrl"]
+        rewritten_url: String,
     }
 
     extern "Rust" {
