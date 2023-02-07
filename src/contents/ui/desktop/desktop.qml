@@ -36,324 +36,25 @@ Kirigami.ApplicationWindow {
     // them according to the current mode.
     property ListWebView tabs: rootPage.privateMode ? privateTabs : regularTabs
 
-    header: QQC2.ToolBar {
-        id: toolbar
+    header: Loader {
+        id: tabsLoader
 
-        visible: webBrowser.visibility === Window.FullScreen ? false : true
-
-        RowLayout {
-            anchors.fill: parent
-
-            QQC2.ToolButton {
-                id: backButton
-                Layout.alignment: Qt.AlignLeft
-                action: Kirigami.Action {
-                    enabled: currentWebView.canGoBack
-                    icon.name: "go-previous"
-                    shortcut: StandardKey.Back
-                    onTriggered: currentWebView.goBack()
-                }
-            }
-
-            QQC2.ToolButton {
-                id: forwardButton
-                Layout.alignment: Qt.AlignLeft
-                action: Kirigami.Action {
-                    enabled: currentWebView.canGoForward
-                    icon.name: "go-next"
-                    shortcut: StandardKey.Forward
-                    onTriggered: currentWebView.goForward()
-                }
-            }
-
-            QQC2.ToolButton {
-                id: refreshButton
-                Layout.alignment: Qt.AlignLeft
-                action: Kirigami.Action {
-                    icon.name: currentWebView.loading ? "process-stop" : "view-refresh"
-                    onTriggered: {
-                        if (currentWebView.loading) {
-                            currentWebView.stop();
-                        } else {
-                            currentWebView.reload();
-                        }
-                    }
-                }
-
-                Shortcut {
-                    sequences: [StandardKey.Refresh, "Ctrl+R"]
-                    onActivated: refreshButton.action.trigger()
-                }
-            }
-
-            QQC2.ToolButton {
-                visible: Settings.showHomeButton
-                Layout.alignment: Qt.AlignLeft
-                action: Kirigami.Action {
-                    icon.name: "go-home"
-                    onTriggered: currentWebView.url = Settings.homepage
-                }
-            }
-
-            Item {
-                Layout.fillWidth: true
-            }
-
-            QQC2.TextField {
-                id: urlBar
-                Layout.fillWidth: true
-                Layout.maximumWidth: 1000
-                text: currentWebView.url
-                onAccepted: {
-                    let url = text;
-                    if (url.indexOf(":/") < 0) {
-                        url = "http://" + url;
-                    }
-
-                    if (validURL(url)) {
-                        currentWebView.url = url;
-                    } else {
-                        currentWebView.url = UrlUtils.urlFromUserInput(Settings.searchBaseUrl + text);
-                    }
-
-                    navigationPopup.close();
-                    focus = false;
-                }
-                onDisplayTextChanged: {
-                    if (text === "" || text.length > 2) {
-                        historyList.model.filter = displayText;
-                    }
-                }
-                color: activeFocus ? Kirigami.Theme.textColor : Kirigami.Theme.disabledTextColor
-
-                onActiveFocusChanged: {
-                    if (activeFocus) {
-                        urlBar.selectAll();
-                        navigationPopup.open();
-                    }
-                }
-
-                function validURL(str) {
-                    return text.match(RegexWebUrl.re_weburl) || text.startsWith("chrome://")
-                }
-
-                QQC2.ToolButton {
-                    anchors.top: parent.top
-                    anchors.bottom: parent.bottom
-                    anchors.right: parent.right
-
-                    action: Kirigami.Action {
-                        icon.name: checked ? "rating" : "rating-unrated"
-                        checkable: true
-                        checked: urlObserver.bookmarked
-                        onTriggered: {
-                            if (checked) {
-                                var request = {
-                                    url: currentWebView.url,
-                                    title: currentWebView.title,
-                                    icon: currentWebView.icon
-                                }
-                                BrowserManager.addBookmark(request);
-                            } else {
-                                BrowserManager.removeBookmark(currentWebView.url);
-                            }
-                        }
-                    }
-                }
-
-                Shortcut {
-                    sequence: "Ctrl+L"
-                    onActivated: {
-                        urlBar.forceActiveFocus();
-                    }
-                }
-            }
-
-            QQC2.Popup {
-                id: navigationPopup
-
-                x: urlBar.x
-                y: urlBar.y + urlBar.height
-                width: urlBar.width
-                height: Math.min(historyList.contentHeight, webBrowser.height * 0.7) + 1 // prevent weird line glitch
-                padding: 0
-                closePolicy: QQC2.Popup.CloseOnEscape | QQC2.Popup.CloseOnPressOutsideParent
-                clip: true
-
-                ColumnLayout {
-                    anchors.fill: parent
-
-                    QQC2.ScrollView {
-                        Layout.fillWidth: true
-                        Layout.fillHeight: true
-
-                        QQC2.ScrollBar.horizontal.visible: false
-
-                        ListView {
-                            id: historyList
-
-                            currentIndex: -1
-                            model: BookmarksHistoryModel {
-                                history: true
-                                bookmarks: false
-                            }
-                            delegate: Kirigami.BasicListItem {
-                                label: model.title
-                                labelItem.textFormat: Text.PlainText
-                                subtitle: model.url
-                                icon: model && model.icon ? model.icon : "internet-services"
-                                iconSize: Kirigami.Units.largeSpacing * 3
-                                onClicked: {
-                                    currentWebView.url = model.url;
-                                    navigationPopup.close();
-                                    urlBar.focus = false;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-
-            Item {
-                Layout.fillWidth: true
-            }
-
-            QQC2.ToolButton {
-                Layout.alignment: Qt.AlignRight
-                action: Kirigami.Action {
-                    icon.name: "list-add"
-                    shortcut: "Ctrl+T"
-                    onTriggered: tabs.tabsModel.newTab(Settings.newTabUrl)
-                }
-            }
-
-            QQC2.Menu {
-                id: menu
-
-                Kirigami.Action {
-                    text: i18n("New Tab")
-                    icon.name: "list-add"
-                    shortcut: "Ctrl+T"
-                    onTriggered: tabs.tabsModel.newTab(Settings.newTabUrl)
-                }
-
-                QQC2.MenuSeparator {}
-
-                Kirigami.Action {
-                    text: i18n("History")
-                    icon.name: "view-history"
-                    shortcut: "Ctrl+H"
-                    onTriggered: {
-                        popSubPages();
-                        webBrowser.pageStack.push(Qt.resolvedUrl("HistoryPage.qml"));
-                    }
-                }
-                Kirigami.Action {
-                    text: i18n("Bookmarks")
-                    icon.name: "bookmarks"
-                    shortcut: "Ctrl+Shift+O"
-                    onTriggered: {
-                        popSubPages();
-                        webBrowser.pageStack.push(Qt.resolvedUrl("BookmarksPage.qml"))
-                    }
-                }
-                Kirigami.Action {
-                    text: i18n("Downloads")
-                    icon.name: "download"
-                    onTriggered: {
-                        popSubPages();
-                        webBrowser.pageStack.push(Qt.resolvedUrl("Downloads.qml"))
-                    }
-                }
-
-                QQC2.MenuSeparator {}
-
-                Kirigami.Action {
-                    text: i18n("Full Screen")
-                    icon.name: "view-fullscreen"
-                    shortcut: "F11"
-                    onTriggered: {
-                        if (webBrowser.visibility !== Window.FullScreen) {
-                            webBrowser.showFullScreen();
-                        } else {
-                            webBrowser.showNormal();
-                        }
-                    }
-                }
-
-                Kirigami.Action {
-                    icon.name: "dialog-scripts"
-                    text: i18n("Show developer tools")
-                    checkable: true
-                    checked: tabs.itemAt(tabs.currentIndex).isDeveloperToolsOpen
-                    onTriggered: {
-                        tabs.tabsModel.toggleDeveloperTools(tabs.currentIndex)
-                    }
-                }
-
-                Kirigami.Action {
-                    icon.name: "edit-find"
-                    shortcut: "Ctrl+F"
-                    onTriggered: findInPage.activate()
-                    text: i18n("Find in page")
-                }
-
-                Kirigami.Action {
-                    checkable: true
-                    checked: currentWebView.readerMode
-                    icon.name: currentWebView.readerMode ? "view-readermode-active" : "view-readermode"
-                    shortcut: "Ctrl+Shift+R"
-                    onTriggered: currentWebView.readerModeSwitch()
-                    text: i18nc("@action:inmenu", "Reader Mode")
-                }
-
-                QQC2.MenuSeparator {}
-
-                Kirigami.Action {
-                    text: i18n("Add to application launcher")
-                    icon.name: "install"
-                    enabled: !webAppCreator.exists
-
-                    WebAppCreator {
-                        id: webAppCreator
-                        websiteName: currentWebView.title
-                    }
-
-                    onTriggered: {
-                        webAppCreator.createDesktopFile(currentWebView.title,
-                                                        currentWebView.url,
-                                                        currentWebView.icon)
-                    }
-                }
-
-                QQC2.MenuSeparator {}
-
-                Kirigami.Action {
-                    text: i18n("Settings")
-                    icon.name: "settings-configure"
-                    shortcut: "Ctrl+Shift+,"
-                    onTriggered: {
-                        const openDialogWindow = pageStack.pushDialogLayer("qrc:/SettingsPage.qml", {
-                            width: webBrowser.width
-                        }, {
-                            title: i18n("Configure Angelfish"),
-                            width: Kirigami.Units.gridUnit * 45,
-                            height: Kirigami.Units.gridUnit * 35
-                        });
-                        openDialogWindow.Keys.escapePressed.connect(function() { openDialogWindow.closeDialog() });
-                    }
-                }
-            }
-
-            QQC2.ToolButton {
-                id: menuButton
-                Layout.alignment: Qt.AlignRight
-                icon.name: "application-menu"
-                checked: menu.opened
-                down: menu.visible
-                onPressed: menu.visible ? menu.close() : menu.popup(menuButton.x, menuButton.y + menuButton.height, webBrowser)
+        visible: {
+            if (webBrowser.visibility === Window.FullScreen) {
+                return false;
+            } else {
+                return true;
             }
         }
+        height: visible ? implicitHeight : 0
+
+        Kirigami.Separator {
+            anchors.top: tabsLoader.item.bottom
+            anchors.right: parent.right
+            anchors.left: parent.left
+        }
+
+        source: Qt.resolvedUrl("DesktopTabs.qml")
     }
 
     pageStack.initialPage: Kirigami.Page {
@@ -377,25 +78,323 @@ Kirigami.ApplicationWindow {
         property alias questionLoader: questionLoader
         property alias questions: questions
 
-        header: Loader {
-            id: tabsLoader
+        header: QQC2.ToolBar {
+            id: toolbar
 
-            visible: {
-                if (webBrowser.visibility === Window.FullScreen) {
-                    return false;
-                } else {
-                    return true;
+            visible: webBrowser.visibility === Window.FullScreen ? false : true
+
+            RowLayout {
+                anchors.fill: parent
+
+                QQC2.ToolButton {
+                    id: backButton
+                    Layout.alignment: Qt.AlignLeft
+                    action: Kirigami.Action {
+                        enabled: currentWebView.canGoBack
+                        icon.name: "go-previous"
+                        shortcut: StandardKey.Back
+                        onTriggered: currentWebView.goBack()
+                    }
+                }
+
+                QQC2.ToolButton {
+                    id: forwardButton
+                    Layout.alignment: Qt.AlignLeft
+                    action: Kirigami.Action {
+                        enabled: currentWebView.canGoForward
+                        icon.name: "go-next"
+                        shortcut: StandardKey.Forward
+                        onTriggered: currentWebView.goForward()
+                    }
+                }
+
+                QQC2.ToolButton {
+                    id: refreshButton
+                    Layout.alignment: Qt.AlignLeft
+                    action: Kirigami.Action {
+                        icon.name: currentWebView.loading ? "process-stop" : "view-refresh"
+                        onTriggered: {
+                            if (currentWebView.loading) {
+                                currentWebView.stop();
+                            } else {
+                                currentWebView.reload();
+                            }
+                        }
+                    }
+
+                    Shortcut {
+                        sequences: [StandardKey.Refresh, "Ctrl+R"]
+                        onActivated: refreshButton.action.trigger()
+                    }
+                }
+
+                QQC2.ToolButton {
+                    visible: Settings.showHomeButton
+                    Layout.alignment: Qt.AlignLeft
+                    action: Kirigami.Action {
+                        icon.name: "go-home"
+                        onTriggered: currentWebView.url = Settings.homepage
+                    }
+                }
+
+                Item {
+                    Layout.fillWidth: true
+                }
+
+                QQC2.TextField {
+                    id: urlBar
+                    Layout.fillWidth: true
+                    Layout.maximumWidth: 1000
+                    text: currentWebView.url
+                    onAccepted: {
+                        let url = text;
+                        if (url.indexOf(":/") < 0) {
+                            url = "http://" + url;
+                        }
+
+                        if (validURL(url)) {
+                            currentWebView.url = url;
+                        } else {
+                            currentWebView.url = UrlUtils.urlFromUserInput(Settings.searchBaseUrl + text);
+                        }
+
+                        navigationPopup.close();
+                        focus = false;
+                    }
+                    onDisplayTextChanged: {
+                        if (text === "" || text.length > 2) {
+                            historyList.model.filter = displayText;
+                        }
+                    }
+                    color: activeFocus ? Kirigami.Theme.textColor : Kirigami.Theme.disabledTextColor
+
+                    onActiveFocusChanged: {
+                        if (activeFocus) {
+                            urlBar.selectAll();
+                            navigationPopup.open();
+                        }
+                    }
+
+                    function validURL(str) {
+                        return text.match(RegexWebUrl.re_weburl) || text.startsWith("chrome://")
+                    }
+
+                    QQC2.ToolButton {
+                        anchors.top: parent.top
+                        anchors.bottom: parent.bottom
+                        anchors.right: parent.right
+
+                        action: Kirigami.Action {
+                            icon.name: checked ? "rating" : "rating-unrated"
+                            checkable: true
+                            checked: urlObserver.bookmarked
+                            onTriggered: {
+                                if (checked) {
+                                    var request = {
+                                        url: currentWebView.url,
+                                        title: currentWebView.title,
+                                        icon: currentWebView.icon
+                                    }
+                                    BrowserManager.addBookmark(request);
+                                } else {
+                                    BrowserManager.removeBookmark(currentWebView.url);
+                                }
+                            }
+                        }
+                    }
+
+                    Shortcut {
+                        sequence: "Ctrl+L"
+                        onActivated: {
+                            urlBar.forceActiveFocus();
+                        }
+                    }
+                }
+
+                QQC2.Popup {
+                    id: navigationPopup
+
+                    x: urlBar.x
+                    y: urlBar.y + urlBar.height
+                    width: urlBar.width
+                    height: Math.min(historyList.contentHeight, webBrowser.height * 0.7) + 1 // prevent weird line glitch
+                    padding: 0
+                    closePolicy: QQC2.Popup.CloseOnEscape | QQC2.Popup.CloseOnPressOutsideParent
+                    clip: true
+
+                    ColumnLayout {
+                        anchors.fill: parent
+
+                        QQC2.ScrollView {
+                            Layout.fillWidth: true
+                            Layout.fillHeight: true
+
+                            QQC2.ScrollBar.horizontal.visible: false
+
+                            ListView {
+                                id: historyList
+
+                                currentIndex: -1
+                                model: BookmarksHistoryModel {
+                                    history: true
+                                    bookmarks: false
+                                }
+                                delegate: Kirigami.BasicListItem {
+                                    label: model.title
+                                    labelItem.textFormat: Text.PlainText
+                                    subtitle: model.url
+                                    icon: model && model.icon ? model.icon : "internet-services"
+                                    iconSize: Kirigami.Units.largeSpacing * 3
+                                    onClicked: {
+                                        currentWebView.url = model.url;
+                                        navigationPopup.close();
+                                        urlBar.focus = false;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                Item {
+                    Layout.fillWidth: true
+                }
+
+                QQC2.ToolButton {
+                    Layout.alignment: Qt.AlignRight
+                    action: Kirigami.Action {
+                        icon.name: "list-add"
+                        shortcut: "Ctrl+T"
+                        onTriggered: tabs.tabsModel.newTab(Settings.newTabUrl)
+                    }
+                }
+
+                QQC2.Menu {
+                    id: menu
+
+                    Kirigami.Action {
+                        text: i18n("New Tab")
+                        icon.name: "list-add"
+                        shortcut: "Ctrl+T"
+                        onTriggered: tabs.tabsModel.newTab(Settings.newTabUrl)
+                    }
+
+                    QQC2.MenuSeparator {}
+
+                    Kirigami.Action {
+                        text: i18n("History")
+                        icon.name: "view-history"
+                        shortcut: "Ctrl+H"
+                        onTriggered: {
+                            popSubPages();
+                            webBrowser.pageStack.push(Qt.resolvedUrl("HistoryPage.qml"));
+                        }
+                    }
+                    Kirigami.Action {
+                        text: i18n("Bookmarks")
+                        icon.name: "bookmarks"
+                        shortcut: "Ctrl+Shift+O"
+                        onTriggered: {
+                            popSubPages();
+                            webBrowser.pageStack.push(Qt.resolvedUrl("BookmarksPage.qml"))
+                        }
+                    }
+                    Kirigami.Action {
+                        text: i18n("Downloads")
+                        icon.name: "download"
+                        onTriggered: {
+                            popSubPages();
+                            webBrowser.pageStack.push(Qt.resolvedUrl("Downloads.qml"))
+                        }
+                    }
+
+                    QQC2.MenuSeparator {}
+
+                    Kirigami.Action {
+                        text: i18n("Full Screen")
+                        icon.name: "view-fullscreen"
+                        shortcut: "F11"
+                        onTriggered: {
+                            if (webBrowser.visibility !== Window.FullScreen) {
+                                webBrowser.showFullScreen();
+                            } else {
+                                webBrowser.showNormal();
+                            }
+                        }
+                    }
+
+                    Kirigami.Action {
+                        icon.name: "dialog-scripts"
+                        text: i18n("Show developer tools")
+                        checkable: true
+                        checked: tabs.itemAt(tabs.currentIndex).isDeveloperToolsOpen
+                        onTriggered: {
+                            tabs.tabsModel.toggleDeveloperTools(tabs.currentIndex)
+                        }
+                    }
+
+                    Kirigami.Action {
+                        icon.name: "edit-find"
+                        shortcut: "Ctrl+F"
+                        onTriggered: findInPage.activate()
+                        text: i18n("Find in page")
+                    }
+
+                    Kirigami.Action {
+                        checkable: true
+                        checked: currentWebView.readerMode
+                        icon.name: currentWebView.readerMode ? "view-readermode-active" : "view-readermode"
+                        shortcut: "Ctrl+Shift+R"
+                        onTriggered: currentWebView.readerModeSwitch()
+                        text: i18nc("@action:inmenu", "Reader Mode")
+                    }
+
+                    QQC2.MenuSeparator {}
+
+                    Kirigami.Action {
+                        text: i18n("Add to application launcher")
+                        icon.name: "install"
+                        enabled: !webAppCreator.exists
+
+                        WebAppCreator {
+                            id: webAppCreator
+                            websiteName: currentWebView.title
+                        }
+
+                        onTriggered: {
+                            webAppCreator.createDesktopFile(currentWebView.title,
+                                                            currentWebView.url,
+                                                            currentWebView.icon)
+                        }
+                    }
+
+                    QQC2.MenuSeparator {}
+
+                    Kirigami.Action {
+                        text: i18n("Settings")
+                        icon.name: "settings-configure"
+                        shortcut: "Ctrl+Shift+,"
+                        onTriggered: {
+                            const openDialogWindow = pageStack.pushDialogLayer("qrc:/SettingsPage.qml", {
+                                width: webBrowser.width
+                            }, {
+                                title: i18n("Configure Angelfish"),
+                                                                               width: Kirigami.Units.gridUnit * 45,
+                                                                               height: Kirigami.Units.gridUnit * 35
+                            });
+                            openDialogWindow.Keys.escapePressed.connect(function() { openDialogWindow.closeDialog() });
+                        }
+                    }
+                }
+
+                QQC2.ToolButton {
+                    id: menuButton
+                    Layout.alignment: Qt.AlignRight
+                    icon.name: "application-menu"
+                    down: menu.visible
+                    onPressed: menu.visible ? menu.close() : menu.popup(menuButton.x, menuButton.y + menuButton.height, webBrowser)
                 }
             }
-            height: visible ? implicitHeight : 0
-
-            Kirigami.Separator {
-                anchors.top: tabsLoader.item.bottom
-                anchors.right: parent.right
-                anchors.left: parent.left
-            }
-
-            source: Qt.resolvedUrl("DesktopTabs.qml")
         }
 
         ListWebView {
