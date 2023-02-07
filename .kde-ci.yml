@@ -13,6 +13,7 @@ Dependencies:
     'frameworks/kwindowsystem': '@stable'
     'frameworks/knotifications': '@stable'
     'frameworks/purpose': '@stable'
+    'frameworks/qqc2-desktop-style': '@stable'
     'libraries/kirigami-addons': '@latest'
 
 Options:

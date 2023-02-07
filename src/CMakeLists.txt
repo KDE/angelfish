@@ -42,8 +42,10 @@ target_link_libraries(angelfish PRIVATE
     Qt::Core
     Qt::Qml
     Qt::Quick
+    Qt::QuickControls2
     Qt::Sql
     Qt::Svg
+    Qt::Widgets
     KF5::I18n
     KF5::CoreAddons
     KF5::ConfigCore

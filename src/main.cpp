@@ -9,6 +9,7 @@
 #include <QCommandLineOption>
 #include <QCommandLineParser>
 #include <QQmlApplicationEngine>
+#include <QQuickStyle>
 #include <QQuickWindow>
 #include <QUrl>
 #include <QtQml>
@@ -50,6 +51,12 @@ constexpr auto APPLICATION_ID = "org.kde.angelfish";
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
+    // set default style and icon theme
+    QIcon::setFallbackThemeName(QStringLiteral("breeze"));
+    if (qEnvironmentVariableIsEmpty("QT_QUICK_CONTROLS_STYLE") && QQuickStyle::name().isEmpty()) {
+        QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
+    }
+
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QGuiApplication::setAttribute(Qt::AA_ShareOpenGLContexts);
 
