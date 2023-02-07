@@ -192,25 +192,35 @@ RowLayout {
                     horizontalAlignment: Text.AlignLeft
                 }
 
-                QQC2.ToolButton {
+                QQC2.AbstractButton {
                     Layout.alignment: Qt.AlignRight
-                    Layout.preferredWidth: Kirigami.Units.iconSizes.small
+                    Layout.preferredWidth: Kirigami.Units.iconSizes.smallMedium
                     Layout.preferredHeight: width
-                    icon.name: "tab-close"
                     onClicked: tabs.tabsModel.closeTab(model.index)
 
-                    opacity: {
-                        if(Kirigami.Settings.tabletMode) {
-                            1
-                        } else {
-                            control.hovered ? 1 : 0
-                        }
+                    background: Rectangle {
+                        anchors.fill: parent
+                        radius: height / 2
+                        color: hoverHandler.hovered ? control.background.color : Kirigami.Theme.disabledTextColor
+                        border.width: 4
+                        border.color: control.background.color
                     }
-                    Behavior on opacity {
-                        OpacityAnimator {
-                            duration: Kirigami.Units.shortDuration
-                            easing.type: Easing.InOutQuad
-                        }
+
+                    contentItem: Kirigami.Icon {
+                        source: "tab-close-symbolic"
+                        color: hoverHandler.hovered ? Kirigami.Theme.negativeTextColor : control.background.color
+                        anchors.centerIn: parent
+                        implicitWidth: parent.width
+                        implicitHeight: width
+                    }
+
+                    QQC2.ToolTip.visible: hoverHandler.hovered
+                    QQC2.ToolTip.delay: Qt.styleHints.mousePressAndHoldInterval
+                    QQC2.ToolTip.text: i18n("Close tab")
+
+                    HoverHandler {
+                        id: hoverHandler
+                        acceptedDevices: PointerDevice.Mouse | PointerDevice.Stylus
                     }
                 }
             }
