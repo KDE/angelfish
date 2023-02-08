@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-12-29 00:54+0000\n"
+"POT-Creation-Date: 2023-02-08 01:02+0000\n"
 "PO-Revision-Date: 2022-12-20 10:45-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -389,6 +389,12 @@ msgstr "Sempre mostrar a aba de barras:"
 msgid "Reader Mode: %1"
 msgstr "Modo de leitura: %1"
 
+#: src/contents/ui/desktop/Tabs.qml:219
+#, fuzzy, kde-format
+#| msgid "Close"
+msgid "Close tab"
+msgstr "Fechar"
+
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
 msgid "No running downloads"
@@ -721,13 +727,10 @@ msgstr "Compartilhar página para"
 msgid "Private Tabs"
 msgstr "Abas privativas"
 
-#: src/main.cpp:78
+#: src/main.cpp:85
 #, kde-format
 msgid "URL to open"
 msgstr "URL a ser aberta"
-
-#~ msgid "Close"
-#~ msgstr "Fechar"
 
 #~ msgid "Confirm"
 #~ msgstr "Confirmar"

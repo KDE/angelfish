@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-12-29 00:54+0000\n"
+"POT-Creation-Date: 2023-02-08 01:02+0000\n"
 "PO-Revision-Date: 2023-01-19 17:17+0300\n"
 "Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
 "Language-Team: Basealt Translation Team\n"
@@ -388,6 +388,12 @@ msgstr "Всегда показывать панель вкладок:"
 msgid "Reader Mode: %1"
 msgstr "Режим чтения: %1"
 
+#: src/contents/ui/desktop/Tabs.qml:219
+#, fuzzy, kde-format
+#| msgid "Close"
+msgid "Close tab"
+msgstr "Закрыть"
+
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
 msgid "No running downloads"
@@ -723,13 +729,10 @@ msgstr "Поделиться страницей"
 msgid "Private Tabs"
 msgstr "Приватные вкладки"
 
-#: src/main.cpp:78
+#: src/main.cpp:85
 #, kde-format
 msgid "URL to open"
 msgstr "Открываемый URL-адрес."
-
-#~ msgid "Close"
-#~ msgstr "Закрыть"
 
 #~ msgid "Confirm"
 #~ msgstr "Подтвердить"

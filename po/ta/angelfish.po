@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-12-29 00:54+0000\n"
+"POT-Creation-Date: 2023-02-08 01:02+0000\n"
 "PO-Revision-Date: 2022-12-06 19:52+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
@@ -377,6 +377,11 @@ msgstr ""
 msgid "Reader Mode: %1"
 msgstr ""
 
+#: src/contents/ui/desktop/Tabs.qml:219
+#, kde-format
+msgid "Close tab"
+msgstr ""
+
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
 msgid "No running downloads"
@@ -698,7 +703,7 @@ msgstr ""
 msgid "Private Tabs"
 msgstr ""
 
-#: src/main.cpp:78
+#: src/main.cpp:85
 #, kde-format
 msgid "URL to open"
 msgstr ""

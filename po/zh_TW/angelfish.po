@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-12-29 00:54+0000\n"
+"POT-Creation-Date: 2023-02-08 01:02+0000\n"
 "PO-Revision-Date: 2022-12-24 01:08+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@linux.org.tw>\n"
@@ -384,6 +384,12 @@ msgstr "總是顯示分頁列："
 msgid "Reader Mode: %1"
 msgstr "閱讀模式：%1"
 
+#: src/contents/ui/desktop/Tabs.qml:219
+#, fuzzy, kde-format
+#| msgid "Close"
+msgid "Close tab"
+msgstr "關閉"
+
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
 msgid "No running downloads"
@@ -712,13 +718,10 @@ msgstr "分享頁面"
 msgid "Private Tabs"
 msgstr "隱私分頁"
 
-#: src/main.cpp:78
+#: src/main.cpp:85
 #, kde-format
 msgid "URL to open"
 msgstr "欲開啟網址"
-
-#~ msgid "Close"
-#~ msgstr "關閉"
 
 #~ msgid "Confirm"
 #~ msgstr "確認"

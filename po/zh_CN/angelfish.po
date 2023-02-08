@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-12-29 00:54+0000\n"
-"PO-Revision-Date: 2023-01-12 10:32\n"
+"POT-Creation-Date: 2023-02-08 01:02+0000\n"
+"PO-Revision-Date: 2023-02-07 11:03\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -304,7 +304,7 @@ msgstr "显示开发者工具"
 #: src/contents/ui/desktop/desktop.qml:298 src/contents/ui/mobile.qml:276
 #, kde-format
 msgid "Find in page"
-msgstr "在页面中查找"
+msgstr "查找页面中的内容"
 
 #: src/contents/ui/desktop/desktop.qml:307
 #, kde-format
@@ -383,6 +383,11 @@ msgstr ""
 #: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:233
 #, kde-format
 msgid "Reader Mode: %1"
+msgstr ""
+
+#: src/contents/ui/desktop/Tabs.qml:219
+#, kde-format
+msgid "Close tab"
 msgstr ""
 
 #: src/contents/ui/Downloads.qml:26
@@ -712,7 +717,7 @@ msgstr ""
 msgid "Private Tabs"
 msgstr "隐私标签页"
 
-#: src/main.cpp:78
+#: src/main.cpp:85
 #, kde-format
 msgid "URL to open"
 msgstr "要打开的 URL"

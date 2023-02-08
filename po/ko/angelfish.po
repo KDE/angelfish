@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-12-29 00:54+0000\n"
+"POT-Creation-Date: 2023-02-08 01:02+0000\n"
 "PO-Revision-Date: 2022-10-03 14:17+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-i18n-doc@kde.org>\n"
@@ -386,6 +386,12 @@ msgstr "항상 탭 목록 표시:"
 msgid "Reader Mode: %1"
 msgstr "읽기 모드: %1"
 
+#: src/contents/ui/desktop/Tabs.qml:219
+#, fuzzy, kde-format
+#| msgid "Close"
+msgid "Close tab"
+msgstr "닫기"
+
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
 msgid "No running downloads"
@@ -716,13 +722,10 @@ msgstr "공유 페이지"
 msgid "Private Tabs"
 msgstr "사생활 보호 탭"
 
-#: src/main.cpp:78
+#: src/main.cpp:85
 #, kde-format
 msgid "URL to open"
 msgstr "열려는 URL"
-
-#~ msgid "Close"
-#~ msgstr "닫기"
 
 #~ msgid "Confirm"
 #~ msgstr "확인"

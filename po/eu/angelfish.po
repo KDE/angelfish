@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-12-29 00:54+0000\n"
+"POT-Creation-Date: 2023-02-08 01:02+0000\n"
 "PO-Revision-Date: 2022-12-04 22:10+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -390,6 +390,12 @@ msgstr "Erakutsi beti fitxa-barra:"
 msgid "Reader Mode: %1"
 msgstr "Irakurle modua: %1"
 
+#: src/contents/ui/desktop/Tabs.qml:219
+#, fuzzy, kde-format
+#| msgid "Close"
+msgid "Close tab"
+msgstr "Itxi"
+
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
 msgid "No running downloads"
@@ -724,13 +730,10 @@ msgstr "Partekatu orria honekin,"
 msgid "Private Tabs"
 msgstr "Fitxa pribatuak"
 
-#: src/main.cpp:78
+#: src/main.cpp:85
 #, kde-format
 msgid "URL to open"
 msgstr "Ireki beharreko URLa"
-
-#~ msgid "Close"
-#~ msgstr "Itxi"
 
 #~ msgid "Confirm"
 #~ msgstr "Berretsi"

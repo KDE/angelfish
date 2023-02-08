@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-12-29 00:54+0000\n"
+"POT-Creation-Date: 2023-02-08 01:02+0000\n"
 "PO-Revision-Date: 2022-04-07 17:59+0200\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -380,6 +380,12 @@ msgstr ""
 msgid "Reader Mode: %1"
 msgstr ""
 
+#: src/contents/ui/desktop/Tabs.qml:219
+#, fuzzy, kde-format
+#| msgid "Close"
+msgid "Close tab"
+msgstr "Zatvoriť"
+
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
 msgid "No running downloads"
@@ -702,13 +708,10 @@ msgstr "Zdielať stránku"
 msgid "Private Tabs"
 msgstr "Súkromné karty"
 
-#: src/main.cpp:78
+#: src/main.cpp:85
 #, kde-format
 msgid "URL to open"
 msgstr "Otvoriť URL"
-
-#~ msgid "Close"
-#~ msgstr "Zatvoriť"
 
 #~ msgid "Confirm"
 #~ msgstr "Potvrdiť"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-12-29 00:54+0000\n"
+"POT-Creation-Date: 2023-02-08 01:02+0000\n"
 "PO-Revision-Date: 2022-01-14 10:51+0100\n"
 "Last-Translator: Kristóf Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -387,6 +387,12 @@ msgstr ""
 msgid "Reader Mode: %1"
 msgstr ""
 
+#: src/contents/ui/desktop/Tabs.qml:219
+#, fuzzy, kde-format
+#| msgid "Close"
+msgid "Close tab"
+msgstr "Bezárás"
+
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
 msgid "No running downloads"
@@ -718,13 +724,10 @@ msgstr "Oldal megosztása"
 msgid "Private Tabs"
 msgstr "Privát lapok"
 
-#: src/main.cpp:78
+#: src/main.cpp:85
 #, kde-format
 msgid "URL to open"
 msgstr "A megnyitandó URL"
-
-#~ msgid "Close"
-#~ msgstr "Bezárás"
 
 #~ msgid "Confirm"
 #~ msgstr "Megerősítés"
