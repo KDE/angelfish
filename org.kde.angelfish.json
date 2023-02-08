@@ -1,10 +1,10 @@
 {
     "id": "org.kde.angelfish",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-21.08",
+    "runtime-version": "5.15-22.08",
     "sdk": "org.kde.Sdk",
     "base": "io.qt.qtwebengine.BaseApp",
-    "base-version": "5.15-21.08",
+    "base-version": "5.15-22.08",
     "command": "angelfish",
     "tags": ["nightly"],
     "desktop-file-name-suffix": " (Nightly)",
@@ -45,6 +45,7 @@
     "modules": [
         "flatpak/corrosion.json",
         "flatpak/kf5feedback.json",
+        "flatpak/kirigami-addons.json",
         {
             "name": "angelfish",
             "buildsystem": "cmake-ninja",
