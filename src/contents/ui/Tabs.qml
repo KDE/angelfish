@@ -1,16 +1,14 @@
 // SPDX-FileCopyrightText: 2014-2015 Sebastian Kügler <sebas@kde.org>
 // SPDX-FileCopyrightText: 2021 Devin Lin <espidev@gmail.com>
+// SPDX-FileCopyrightText: 2023 Michael Lang <criticaltemp@protonmail.com>
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 import QtQuick 2.15
-import QtQuick.Controls 2.15 as Controls
-import QtGraphicalEffects 1.0
+import QtQuick.Layouts 1.15
+import QtQuick.Controls 2.15 as QQC2
+import QtGraphicalEffects 1.15
 
-//import QtWebEngine 1.0
-
-import QtQuick.Layouts 1.0
-
-import org.kde.kirigami 2.15 as Kirigami
+import org.kde.kirigami 2.19 as Kirigami
 
 import org.kde.angelfish 1.0
 
@@ -20,27 +18,21 @@ Kirigami.OverlayDrawer {
     height: contents.implicitHeight + Kirigami.Units.largeSpacing
     width: webBrowser.width
     edge: Qt.BottomEdge
-    parent: applicationWindow().overlay
     
     onClosed: tabsSheetLoader.active = false // unload tabs when the sheet is closed
 
-    property int itemHeight: Kirigami.Units.gridUnit * 6
-    property int itemWidth: {
-        if (!landscapeMode)
-            return width - Kirigami.Units.smallSpacing * 2;
-        // using grid width to take into account its scrollbar
-        const n = Math.floor((grid.width - Kirigami.Units.largeSpacing) / (landscapeMinWidth + Kirigami.Units.largeSpacing));
-        return Math.floor(grid.width / n) - Kirigami.Units.largeSpacing;
-    }
-    property int  landscapeMinWidth: Kirigami.Units.gridUnit * 12
-    property bool landscapeMode: grid.width > landscapeMinWidth * 2 + 3 * Kirigami.Units.largeSpacing
+    property int columns: width > 800 ? 4 : width > 600 ? 3 : 2
+    property real ratio: webBrowser.height / webBrowser.width
+    property int itemWidth: webBrowser.width / columns - Kirigami.Units.smallSpacing * 3
+    property int itemHeight: (itemWidth * ratio + Kirigami.Units.gridUnit) * columns / 4
 
-    //Rectangle { anchors.fill: parent; color: "brown"; opacity: 0.5; }
+    Component.onCompleted: grid.currentIndex = tabs.currentIndex
+
+    onOpened: grid.width = width // prevents gridview layout issues
 
     ColumnLayout {
         id: contents
-        anchors.left: parent.left
-        anchors.right: parent.right
+        width: parent.width
         spacing: 0
         
         Kirigami.Icon {
@@ -52,17 +44,20 @@ Kirigami.OverlayDrawer {
         }
         
         RowLayout {
-            Layout.maximumWidth: contents.tabsRoot.width - Kirigami.units.smallSpacing * 2
+            Layout.maximumWidth: tabsRoot.width - Kirigami.Units.smallSpacing * 2
             Layout.leftMargin: Kirigami.Units.smallSpacing
             Layout.rightMargin: Kirigami.Units.smallSpacing
             Layout.bottomMargin: Kirigami.Units.smallSpacing
+            z: 1
+
             Kirigami.Heading {
                 level: 1
                 elide: Text.ElideRight
                 Layout.fillWidth: true
                 text: rootPage.privateMode ? i18n("Private Tabs") : i18n("Tabs")
             }
-            Controls.ToolButton {
+
+            QQC2.ToolButton {
                 icon.name: "list-add"
                 text: i18n("New Tab")
                 onClicked: {
@@ -71,24 +66,22 @@ Kirigami.OverlayDrawer {
                     tabsRoot.close();
                 }
             }
-            z: 1
         }
         
-        Controls.ScrollView {
+        QQC2.ScrollView {
             id: scrollView
             Layout.fillWidth: true
             Layout.minimumHeight: Kirigami.Units.gridUnit * 12
             Layout.preferredHeight: applicationWindow().height * 0.6
             Layout.bottomMargin: Kirigami.Units.smallSpacing
             Layout.topMargin: Kirigami.Units.largeSpacing
-            Controls.ScrollBar.horizontal.policy: Controls.ScrollBar.AlwaysOff
+            QQC2.ScrollBar.horizontal.policy: QQC2.ScrollBar.AlwaysOff
             
             GridView {
                 id: grid
                 model: tabs.model
-                cellWidth: itemWidth + (landscapeMode ? Kirigami.Units.largeSpacing : 0)
+                cellWidth: itemWidth + Kirigami.Units.largeSpacing
                 cellHeight: itemHeight + Kirigami.Units.largeSpacing
-                clip: true
                 
                 add: Transition {
                     NumberAnimation { property: "opacity"; from: 0; to: 1.0; duration: Kirigami.Units.shortDuration }
@@ -100,13 +93,16 @@ Kirigami.OverlayDrawer {
                     NumberAnimation { properties: "x,y"; duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad}
                 }
                 
-                delegate: Controls.ItemDelegate {
+                delegate: QQC2.ItemDelegate {
                     id: gridItem
                     // taking care of spacing
                     width: grid.cellWidth
                     height: grid.cellHeight
+                    padding: Kirigami.Units.smallSpacing + borderWidth
+                    clip: true
                     
                     property int sourceX: (index % (grid.width / grid.cellWidth)) * grid.cellWidth
+                    property int borderWidth: 2
                     
                     DragHandler {
                         id: dragHandler
@@ -140,56 +136,21 @@ Kirigami.OverlayDrawer {
                             }
                         }
                     }
-                    
-                    onClicked: {
-                        print("Switch from " + tabs.currentIndex + "  to tab " + index);
 
+                    onClicked: {
                         tabs.currentIndex = index;
                         tabsRoot.close();
                     }
-                    background: Item {}
-                    
-                    Item {
-                        id: tabItem
+
+                    background: Item {
                         anchors.centerIn: parent
                         width: itemWidth
                         height: itemHeight
-
-                        // ShaderEffectSource requires that corresponding WebEngineView is
-                        // visible. Here, visibility is enabled while snapshot is taken and
-                        // removed as soon as it is ready.
-                        ShaderEffectSource {
-                            id: shaderItem
-
-                            live: false
-                            anchors.fill: parent
-                            sourceRect: Qt.rect(0, 0, sourceItem.width, height/width * sourceItem.width)
-                            sourceItem: tabs.itemAt(index)
-
-                            Component.onCompleted: {
-                                sourceItem.readyForSnapshot = true;
-                                scheduleUpdate();
-                            }
-                            onScheduledUpdateCompleted: sourceItem.readyForSnapshot = false
-
-                            LinearGradient {
-                                id: grad
-                                anchors.fill: parent
-                                cached: true
-                                start: Qt.point(0,0)
-                                end: Qt.point(0,height)
-                                gradient: Gradient {
-                                    GradientStop { position: 0.4; color: "transparent"; }
-                                    GradientStop { position: 1.3; color: "black"; }
-                                }
-                            }
-                        }
-
                         Rectangle {
                             // border around a selected tile
                             anchors.fill: parent;
-                            border.color: Kirigami.Theme.disabledTextColor
-                            border.width: webBrowser.borderWidth
+                            border.color: tabs.currentIndex === index ? Kirigami.Theme.highlightColor : Kirigami.Theme.disabledTextColor
+                            border.width: borderWidth
                             color: "transparent"
                             opacity: tabs.currentIndex === index ? 1.0 : 0.2
                         }
@@ -200,69 +161,120 @@ Kirigami.OverlayDrawer {
                             color: gridItem.pressed ? Kirigami.Theme.highlightColor : "transparent"
                             opacity: 0.2
                         }
+                    }
 
-                        Controls.ToolButton {
-                            icon.name: "tab-close"
-                            height: Kirigami.Units.gridUnit * 2
-                            width: height
-                            anchors.right: parent.right
-                            anchors.rightMargin: Kirigami.Units.smallSpacing + Kirigami.Units.largeSpacing + (tabsRoot.landscapeMode ? 0 : tabsRoot.width-grid.width)
-                            anchors.top: parent.top
-                            anchors.topMargin: Kirigami.Units.smallSpacing
-                            onClicked: tabs.tabsModel.closeTab(index)
+                    contentItem: Column {
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        width: itemWidth - Kirigami.Units.smallSpacing
+
+                        Kirigami.Theme.inherit: false
+                        Kirigami.Theme.colorSet: Kirigami.Theme.Header
+
+                        Rectangle {
+                            anchors.horizontalCenter: parent.horizontalCenter
+                            color: Kirigami.Theme.backgroundColor
+                            width: itemWidth - Kirigami.Units.smallSpacing
+                            height: Kirigami.Units.gridUnit * 1.5
+
+                            RowLayout {
+                                anchors.fill: parent
+                                spacing: Kirigami.Units.smallSpacing
+
+                                Image {
+                                    id: image
+                                    Layout.alignment: Qt.AlignVCenter
+                                    Layout.preferredHeight: Kirigami.Units.iconSizes.smallMedium
+                                    Layout.preferredWidth: height
+                                    fillMode: Image.PreserveAspectFit
+                                    //smooth: true
+                                    source: tabs.itemAt(index) ? tabs.itemAt(index).icon : ""
+
+                                    // rounded image
+                                    layer.enabled: true
+                                    layer.effect: OpacityMask {
+                                        maskSource: Rectangle {
+                                            anchors.fill: parent
+                                            radius: height / 2
+                                            width: image.width
+                                            height: image.height
+                                        }
+                                    }
+                                }
+
+                                QQC2.Label {
+                                    Layout.alignment: Qt.AlignVCenter
+                                    Layout.fillWidth: true
+                                    color: Kirigami.Theme.textColor
+                                    text: tabs.itemAt(index) ?
+                                    tabs.itemAt(index).readerMode ?
+                                    i18n("Reader Mode: %1", tabs.itemAt(index).readerTitle)
+                                    : tabs.itemAt(index).title
+                                    : ""
+                                    font.pointSize: Kirigami.Theme.defaultFont.pointSize - 2
+                                    elide: Text.ElideRight
+                                }
+
+                                QQC2.AbstractButton {
+                                    Layout.alignment: Qt.AlignVCenter
+                                    Layout.preferredHeight: Kirigami.Units.gridUnit * 1.5
+                                    Layout.preferredWidth: height
+                                    onClicked: tabs.tabsModel.closeTab(index)
+
+                                    background: Rectangle {
+                                        anchors.fill: parent
+                                        radius: height / 2
+                                        color: hoverHandler.hovered ? Kirigami.Theme.backgroundColor : Kirigami.Theme.disabledTextColor
+                                        border.width: 6
+                                        border.color: Kirigami.Theme.backgroundColor
+                                    }
+
+                                    contentItem: Kirigami.Icon {
+                                        source: "tab-close-symbolic"
+                                        color: hoverHandler.hovered ? Kirigami.Theme.negativeTextColor : Kirigami.Theme.backgroundColor
+                                        anchors.centerIn: parent
+                                        implicitWidth: parent.width
+                                        implicitHeight: width
+                                    }
+
+                                    QQC2.ToolTip.visible: hoverHandler.hovered
+                                    QQC2.ToolTip.delay: Qt.styleHints.mousePressAndHoldInterval
+                                    QQC2.ToolTip.text: i18n("Close tab")
+
+                                    HoverHandler {
+                                        id: hoverHandler
+                                        acceptedDevices: PointerDevice.Mouse | PointerDevice.Stylus
+                                    }
+                                }
+                            }
                         }
 
-                        Column {
-                            id: label
-                            anchors {
-                                left: tabItem.left
-                                right: tabItem.right
-                                bottom: tabItem.bottom
-                                bottomMargin: Kirigami.Units.smallSpacing
-                                leftMargin: Kirigami.Units.largeSpacing
-                                rightMargin: Kirigami.Units.largeSpacing
-                            }
-                            spacing: 0
+                        Item {
+                            id: tabItem
+                            anchors.horizontalCenter: parent.horizontalCenter
+                            width: itemWidth - Kirigami.Units.smallSpacing
+                            height: itemHeight - Kirigami.Units.gridUnit * 1.5 - Kirigami.Units.smallSpacing
 
-                            Kirigami.Heading {
-                                id: heading
-                                elide: Text.ElideRight
-                                level: 4
-                                text: tabs.itemAt(index) ?
-                                          tabs.itemAt(index).readerMode ?
-                                              i18n("Reader Mode: %1", tabs.itemAt(index).readerTitle)
-                                            : tabs.itemAt(index).title
-                                        : ""
-                                width: label.width
-                                color: "white"
-                            }
+                            // ShaderEffectSource requires that corresponding WebEngineView is
+                            // visible. Here, visibility is enabled while snapshot is taken and
+                            // removed as soon as it is ready.
+                            ShaderEffectSource {
+                                id: shaderItem
 
-                            Controls.Label {
-                                elide: Text.ElideRight
-                                font.pointSize: Kirigami.Theme.defaultFont.pointSize * 0.5
-                                text: tabs.itemAt(index) ? tabs.itemAt(index).url : ""
-                                width: label.width
-                                color: "white"
-                                visible: heading.text === ""
-                            }
-                        }
+                                live: false
+                                anchors.fill: parent
+                                sourceRect: Qt.rect(0, 0, sourceItem.width, height/width * sourceItem.width)
+                                sourceItem: tabs.itemAt(index)
 
-                        Image {
-                            anchors {
-                                bottom: tabItem.bottom
-                                right: tabItem.right
-                                bottomMargin: Kirigami.Units.smallSpacing
-                                rightMargin: Kirigami.Units.smallSpacing + Kirigami.Units.largeSpacing + (tabsRoot.landscapeMode ? 0 : tabsRoot.width-grid.width)
+                                Component.onCompleted: {
+                                    sourceItem.readyForSnapshot = true;
+                                    scheduleUpdate();
+                                }
+                                onScheduledUpdateCompleted: sourceItem.readyForSnapshot = false
                             }
-                            fillMode: Image.PreserveAspectFit
-                            height: Math.min(sourceSize.height, Kirigami.Units.gridUnit * 2)
-                            source: tabs.itemAt(index) ? tabs.itemAt(index).icon : ""
                         }
                     }
                 }
             }
         }
     }
-
-    Component.onCompleted: grid.currentIndex = tabs.currentIndex
 }
