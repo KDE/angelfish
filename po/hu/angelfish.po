@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-08 01:02+0000\n"
+"POT-Creation-Date: 2023-02-09 01:04+0000\n"
 "PO-Revision-Date: 2022-01-14 10:51+0100\n"
 "Last-Translator: Kristóf Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -276,7 +276,7 @@ msgstr "Könyvjelzők keresése…"
 msgid "No bookmarks yet"
 msgstr "Nincsenek könyvjelzők"
 
-#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:67
+#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:62
 #, kde-format
 msgid "New Tab"
 msgstr "Új lap"
@@ -382,12 +382,12 @@ msgstr "Új lapok:"
 msgid "Always show the tab bar:"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:233
+#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:210
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:219
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:241
 #, fuzzy, kde-format
 #| msgid "Close"
 msgid "Close tab"
@@ -446,7 +446,7 @@ msgstr "Keresés…"
 msgid "Angelfish Web Browser"
 msgstr "Angelfish webböngésző"
 
-#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:63
+#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:57
 #, kde-format
 msgid "Tabs"
 msgstr "Lapok"
@@ -719,7 +719,7 @@ msgstr "Alkalmazás eltávolítása"
 msgid "Share page to"
 msgstr "Oldal megosztása"
 
-#: src/contents/ui/Tabs.qml:63
+#: src/contents/ui/Tabs.qml:57
 #, kde-format
 msgid "Private Tabs"
 msgstr "Privát lapok"

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-08 01:02+0000\n"
+"POT-Creation-Date: 2023-02-09 01:04+0000\n"
 "PO-Revision-Date: 2023-01-05 16:05+0100\n"
 "Last-Translator: Xavier BESNARD <xavier.besnard]neuf.fr>\n"
 "Language-Team: fr\n"
@@ -11507,7 +11507,7 @@ msgstr "Recherche des signets"
 msgid "No bookmarks yet"
 msgstr "Aucun signet pour l'instant"
 
-#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:67
+#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:62
 #, kde-format
 msgid "New Tab"
 msgstr "Nouvel onglet"
@@ -11613,12 +11613,12 @@ msgstr "Nouveaux onglets :"
 msgid "Always show the tab bar:"
 msgstr "Toujours afficher la barre d'onglets :"
 
-#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:233
+#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:210
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Mode lecteur : %1"
 
-#: src/contents/ui/desktop/Tabs.qml:219
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:241
 #, fuzzy, kde-format
 #| msgid "Close"
 msgid "Close tab"
@@ -11677,7 +11677,7 @@ msgstr "Chercher…"
 msgid "Angelfish Web Browser"
 msgstr "Navigateur Web Angelfish"
 
-#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:63
+#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:57
 #, kde-format
 msgid "Tabs"
 msgstr "Onglets"
@@ -11958,7 +11958,7 @@ msgstr "Supprimer une application"
 msgid "Share page to"
 msgstr "Partager la page avec"
 
-#: src/contents/ui/Tabs.qml:63
+#: src/contents/ui/Tabs.qml:57
 #, kde-format
 msgid "Private Tabs"
 msgstr "Onglets privés"

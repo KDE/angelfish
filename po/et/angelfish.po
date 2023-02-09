@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-08 01:02+0000\n"
+"POT-Creation-Date: 2023-02-09 01:04+0000\n"
 "PO-Revision-Date: 2020-06-03 20:47+0300\n"
 "Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
 "Language-Team: Estonian <kde-et@lists.linux.ee>\n"
@@ -270,7 +270,7 @@ msgstr ""
 msgid "No bookmarks yet"
 msgstr "Lisa järjehoidja"
 
-#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:67
+#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:62
 #, kde-format
 msgid "New Tab"
 msgstr ""
@@ -378,12 +378,12 @@ msgstr ""
 msgid "Always show the tab bar:"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:233
+#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:210
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:219
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:241
 #, fuzzy, kde-format
 #| msgid "Close"
 msgid "Close tab"
@@ -444,7 +444,7 @@ msgstr "Otsi ..."
 msgid "Angelfish Web Browser"
 msgstr "Angelfishi veebilehitseja"
 
-#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:63
+#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:57
 #, kde-format
 msgid "Tabs"
 msgstr "Kaardid"
@@ -711,7 +711,7 @@ msgstr ""
 msgid "Share page to"
 msgstr "Jaga lehekülge"
 
-#: src/contents/ui/Tabs.qml:63
+#: src/contents/ui/Tabs.qml:57
 #, kde-format
 msgid "Private Tabs"
 msgstr "Privaatkaardid"

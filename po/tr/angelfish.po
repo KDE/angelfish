@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the plasma-angelfish package.
 #
 # Volkan Gezer <volkangezer@gmail.com>, 2020, 2021.
-# Emir SARI <emir_sari@icloud.com>, 2022.
+# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-08 01:02+0000\n"
-"PO-Revision-Date: 2022-12-04 14:12+0300\n"
+"POT-Creation-Date: 2023-02-09 01:04+0000\n"
+"PO-Revision-Date: 2023-02-08 11:04+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.08.3\n"
+"X-Generator: Lokalize 22.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -278,7 +278,7 @@ msgstr "Yer imlerinde ara…"
 msgid "No bookmarks yet"
 msgstr "Henüz yer imi yok"
 
-#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:67
+#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:62
 #, kde-format
 msgid "New Tab"
 msgstr "Yeni Sekme"
@@ -384,16 +384,15 @@ msgstr "Yeni sekmeler:"
 msgid "Always show the tab bar:"
 msgstr "Her zaman sekme çubuğunu göster:"
 
-#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:233
+#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:210
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Okuyucu Kipi: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:219
-#, fuzzy, kde-format
-#| msgid "Close"
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:241
+#, kde-format
 msgid "Close tab"
-msgstr "Kapat"
+msgstr "Sekmeyi kapat"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -448,7 +447,7 @@ msgstr "Ara..."
 msgid "Angelfish Web Browser"
 msgstr "Angelfish Web Tarayıcı"
 
-#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:63
+#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:57
 #, kde-format
 msgid "Tabs"
 msgstr "Sekmeler"
@@ -721,7 +720,7 @@ msgstr "Uygulamayı kaldır"
 msgid "Share page to"
 msgstr "Sayfayı şuraya paylaş"
 
-#: src/contents/ui/Tabs.qml:63
+#: src/contents/ui/Tabs.qml:57
 #, kde-format
 msgid "Private Tabs"
 msgstr "Özel Sekmeler"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-08 01:02+0000\n"
+"POT-Creation-Date: 2023-02-09 01:04+0000\n"
 "PO-Revision-Date: 2019-03-02 16:12-0800\n"
 "Last-Translator: Japanese KDE translation team <kde-jp@kde.org>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -263,7 +263,7 @@ msgstr ""
 msgid "No bookmarks yet"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:67
+#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:62
 #, kde-format
 msgid "New Tab"
 msgstr ""
@@ -369,12 +369,12 @@ msgstr ""
 msgid "Always show the tab bar:"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:233
+#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:210
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:219
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:241
 #, kde-format
 msgid "Close tab"
 msgstr ""
@@ -432,7 +432,7 @@ msgstr ""
 msgid "Angelfish Web Browser"
 msgstr ""
 
-#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:63
+#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:57
 #, kde-format
 msgid "Tabs"
 msgstr ""
@@ -695,7 +695,7 @@ msgstr ""
 msgid "Share page to"
 msgstr ""
 
-#: src/contents/ui/Tabs.qml:63
+#: src/contents/ui/Tabs.qml:57
 #, kde-format
 msgid "Private Tabs"
 msgstr ""

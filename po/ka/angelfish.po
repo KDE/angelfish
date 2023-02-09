@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-08 01:02+0000\n"
-"PO-Revision-Date: 2022-12-04 06:23+0100\n"
+"POT-Creation-Date: 2023-02-09 01:04+0000\n"
+"PO-Revision-Date: 2023-02-08 07:05+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -276,7 +276,7 @@ msgstr "სანიშნეების ძებნა…"
 msgid "No bookmarks yet"
 msgstr "სანიშნები ჯერ არ დაგიმატებიათ"
 
-#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:67
+#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:62
 #, kde-format
 msgid "New Tab"
 msgstr "ახალი ჩანართი"
@@ -382,16 +382,15 @@ msgstr "ახალი ჩანართები:"
 msgid "Always show the tab bar:"
 msgstr "ჩანართების ზოლის ყოველთვის ჩვენება:"
 
-#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:233
+#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:210
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "მკითხველის რეჟიმი: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:219
-#, fuzzy, kde-format
-#| msgid "Close"
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:241
+#, kde-format
 msgid "Close tab"
-msgstr "დახურვა"
+msgstr "ჩანართის დახურვა"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -446,7 +445,7 @@ msgstr "ძებნა..."
 msgid "Angelfish Web Browser"
 msgstr "Angelfish ბრაუზერი"
 
-#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:63
+#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:57
 #, kde-format
 msgid "Tabs"
 msgstr "დაფები"
@@ -720,7 +719,7 @@ msgstr "აპის წაშლა"
 msgid "Share page to"
 msgstr "გვერდის გაზიარება"
 
-#: src/contents/ui/Tabs.qml:63
+#: src/contents/ui/Tabs.qml:57
 #, kde-format
 msgid "Private Tabs"
 msgstr "კონფიდენციალური ჩანართები"
