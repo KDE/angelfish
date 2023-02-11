@@ -391,7 +391,7 @@ msgstr "Modo de Leitor: %1"
 #: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:241
 #, kde-format
 msgid "Close tab"
-msgstr ""
+msgstr "Fechar a página"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
