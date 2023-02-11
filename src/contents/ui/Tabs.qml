@@ -12,50 +12,57 @@ import org.kde.kirigami 2.19 as Kirigami
 
 import org.kde.angelfish 1.0
 
-Kirigami.OverlayDrawer {
+QQC2.Drawer {
     id: tabsRoot
     
     height: contents.implicitHeight + Kirigami.Units.largeSpacing
-    width: webBrowser.width
+    width: applicationWindow().width
     edge: Qt.BottomEdge
     
-    onClosed: tabsSheetLoader.active = false // unload tabs when the sheet is closed
-
     property int columns: width > 800 ? 4 : width > 600 ? 3 : 2
     property real ratio: webBrowser.height / webBrowser.width
-    property int itemWidth: webBrowser.width / columns - Kirigami.Units.smallSpacing * 3
-    property int itemHeight: (itemWidth * ratio + Kirigami.Units.gridUnit) * columns / 4
+    readonly property int itemWidth: webBrowser.width / columns - Kirigami.Units.smallSpacing * 2
+    readonly property int itemHeight: (itemWidth * ratio + Kirigami.Units.gridUnit) * columns / 4
 
     Component.onCompleted: grid.currentIndex = tabs.currentIndex
 
+    background: Kirigami.ShadowedRectangle {
+        corners.topRightRadius: 10
+        corners.topLeftRadius: 10
+        shadow.size: 20
+        shadow.color: Qt.rgba(0, 0, 0, 0.5)
+        color: Kirigami.Theme.backgroundColor
+    }
+    
     onOpened: grid.width = width // prevents gridview layout issues
+    onClosed: {
+        tabsSheetLoader.active = false // unload tabs when the sheet is closed
+        interactive = false
+    }
 
     ColumnLayout {
         id: contents
         width: parent.width
         spacing: 0
         
-        Kirigami.Icon {
-            Layout.margins: Kirigami.Units.smallSpacing
-            source: "arrow-down"
-            implicitWidth: Kirigami.Units.gridUnit
-            implicitHeight: Kirigami.Units.gridUnit
+        Rectangle {
+            Layout.topMargin: Kirigami.Units.largeSpacing
             Layout.alignment: Qt.AlignHCenter
+            radius: height
+            color: Kirigami.Theme.textColor
+            opacity: 0.5
+            width: 40
+            height: 4
         }
-        
+
         RowLayout {
             Layout.maximumWidth: tabsRoot.width - Kirigami.Units.smallSpacing * 2
             Layout.leftMargin: Kirigami.Units.smallSpacing
             Layout.rightMargin: Kirigami.Units.smallSpacing
             Layout.bottomMargin: Kirigami.Units.smallSpacing
             z: 1
-
-            Kirigami.Heading {
-                level: 1
-                elide: Text.ElideRight
-                Layout.fillWidth: true
-                text: rootPage.privateMode ? i18n("Private Tabs") : i18n("Tabs")
-            }
+            
+            Item { Layout.fillWidth: true }
 
             QQC2.ToolButton {
                 icon.name: "list-add"
