@@ -218,15 +218,6 @@ Kirigami.ApplicationWindow {
                 Layout.fillWidth: true
             }
 
-            QQC2.ToolButton {
-                Layout.alignment: Qt.AlignRight
-                action: Kirigami.Action {
-                    icon.name: "list-add"
-                    shortcut: "Ctrl+T"
-                    onTriggered: tabs.tabsModel.newTab(Settings.newTabUrl)
-                }
-            }
-
             QQC2.Menu {
                 id: menu
 
@@ -349,7 +340,6 @@ Kirigami.ApplicationWindow {
                 id: menuButton
                 Layout.alignment: Qt.AlignRight
                 icon.name: "application-menu"
-                checked: menu.opened
                 down: menu.visible
                 onPressed: menu.visible ? menu.close() : menu.popup(menuButton.x, menuButton.y + menuButton.height, webBrowser)
             }
@@ -376,6 +366,9 @@ Kirigami.ApplicationWindow {
 
         property alias questionLoader: questionLoader
         property alias questions: questions
+
+        Kirigami.Theme.inherit: false
+        Kirigami.Theme.colorSet: Kirigami.Theme.Header
 
         header: Loader {
             id: tabsLoader
