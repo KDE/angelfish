@@ -18,10 +18,12 @@ Kirigami.ApplicationWindow {
 
     title: currentWebView.title + " ― Angelfish"
 
-    minimumWidth: Kirigami.Units.gridUnit * 40
-    minimumHeight: Kirigami.Units.gridUnit * 20
-    width: Kirigami.Units.gridUnit * 60
-    height: Kirigami.Units.gridUnit * 40
+    minimumWidth: Kirigami.Units.gridUnit * 20
+    minimumHeight: Kirigami.Units.gridUnit * 10
+    x: Settings.windowX
+    y: Settings.windowY
+    width: Settings.windowWidth
+    height: Settings.windowHeight
 
     /** Pointer to the currently active view.
      *

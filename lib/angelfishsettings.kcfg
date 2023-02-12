@@ -68,10 +68,10 @@ SPDX-License-Identifier: LGPL-2.0-or-later
         <entry key="windowX" type="int" />
         <entry key="windowY" type="int" />
         <entry key="windowWidth" type="int">
-            <default>300</default>
+            <default>SettingsHelper::isMobile() ? 300 : 1020</default>
         </entry>
         <entry key="windowHeight" type="int">
-            <default>450</default>
+            <default>SettingsHelper::isMobile() ? 450 : 680</default>
         </entry>
     </group>
     <!-- Store adblock lists -->
