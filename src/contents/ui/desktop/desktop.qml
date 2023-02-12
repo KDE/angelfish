@@ -138,6 +138,7 @@ Kirigami.ApplicationWindow {
                 }
 
                 QQC2.ToolButton {
+                    id: bookmarkButton
                     anchors.top: parent.top
                     anchors.bottom: parent.bottom
                     anchors.right: parent.right
@@ -158,6 +159,11 @@ Kirigami.ApplicationWindow {
                                 BrowserManager.removeBookmark(currentWebView.url);
                             }
                         }
+                    }
+
+                    Shortcut {
+                        sequence: "Ctrl+D"
+                        onActivated: bookmarkButton.action.trigger()
                     }
                 }
 

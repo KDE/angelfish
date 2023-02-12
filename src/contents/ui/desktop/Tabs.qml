@@ -406,6 +406,7 @@ RowLayout {
         Kirigami.Action {
             text: i18n("Bookmark Tab")
             icon.name: urlObserver.bookmarked ? "rating" : "rating-unrated"
+            shortcut: "Ctrl+D"
             onTriggered: {
                 const request = {
                     url: currentWebView.url,
@@ -421,6 +422,7 @@ RowLayout {
         Kirigami.Action {
             text: i18n("Close Tab")
             icon.name: "tab-close"
+            shortcut: "Ctrl+W"
             onTriggered: tabs.tabsModel.closeTab(tabMenu.index)
         }
     }
