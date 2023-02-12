@@ -140,6 +140,11 @@ RowLayout {
             }
         }
 
+        WheelHandler {
+            acceptedDevices: PointerDevice.Mouse | PointerDevice.TouchPad
+            onWheel: listview.flick(event.angleDelta.y * 10, 0)
+        }
+
         property int baseWidth: Kirigami.Units.gridUnit * 14
         property real tabWidth: baseWidth * Math.min(Math.max(listview.width / (baseWidth * (listview.count + 1)), 0.4), 1)
         property bool tabScroll: listview.tabWidth * listview.count > listview.width
@@ -186,7 +191,7 @@ RowLayout {
                             tabs.tabsModel.closeTab(model.index);
                         } else if (mouse.button === Qt.RightButton) {
                             tabMenu.index = model.index
-                            tabMenu.visible ? tabMenu.close() : tabMenu.popup(control.x, control.y + control.height)
+                            tabMenu.visible ? tabMenu.close() : tabMenu.popup(control)
                         }
                     }
                 }
