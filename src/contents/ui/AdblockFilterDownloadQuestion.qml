@@ -18,6 +18,10 @@ Kirigami.InlineMessage {
         onRefreshFinished: question.visible = false
     }
 
+    onVisibleChanged: if (!visible) {
+        Settings.adblockFilterDownloadDismissed = true
+    }
+
     actions: [
         Kirigami.Action {
             id: downloadAction

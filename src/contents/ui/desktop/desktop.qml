@@ -460,7 +460,9 @@ Kirigami.ApplicationWindow {
             id: questionLoader
 
             Component.onCompleted: {
-                if (AdblockUrlInterceptor.adblockSupported && AdblockUrlInterceptor.downloadNeeded) {
+                if (AdblockUrlInterceptor.adblockSupported
+                        && AdblockUrlInterceptor.downloadNeeded
+                        && !Settings.adblockFilterDownloadDismissed) {
                     questionLoader.setSource("AdblockFilterDownloadQuestion.qml")
                 }
             }

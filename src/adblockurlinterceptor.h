@@ -6,6 +6,8 @@
 
 #include <QWebEngineUrlRequestInterceptor>
 
+#include <angelfishsettings.h>
+
 #ifdef BUILD_ADBLOCK
 #include <adblock.rs.h>
 #include <optional>
