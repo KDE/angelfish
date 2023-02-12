@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-09 01:04+0000\n"
+"POT-Creation-Date: 2023-02-12 01:00+0000\n"
 "PO-Revision-Date: 2023-02-08 03:34+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -279,7 +279,7 @@ msgstr "Buscar en los marcadores..."
 msgid "No bookmarks yet"
 msgstr "Aún no hay marcadores"
 
-#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:62
+#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:69
 #, kde-format
 msgid "New Tab"
 msgstr "Nueva pestaña"
@@ -385,12 +385,12 @@ msgstr "Nuevas pestañas:"
 msgid "Always show the tab bar:"
 msgstr "Mostrar siempre la barra de pestañas:"
 
-#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:210
+#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:217
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Modo lector: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:241
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:248
 #, kde-format
 msgid "Close tab"
 msgstr "Cerrar pestaña"
@@ -448,7 +448,7 @@ msgstr "Buscar..."
 msgid "Angelfish Web Browser"
 msgstr "Navegador web Angelfish"
 
-#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:57
+#: src/contents/ui/mobile.qml:64
 #, kde-format
 msgid "Tabs"
 msgstr "Pestañas"
@@ -724,15 +724,13 @@ msgstr "Eliminar aplicación"
 msgid "Share page to"
 msgstr "Compartir página con"
 
-#: src/contents/ui/Tabs.qml:57
-#, kde-format
-msgid "Private Tabs"
-msgstr "Pestañas privadas"
-
 #: src/main.cpp:85
 #, kde-format
 msgid "URL to open"
 msgstr "URL a abrir"
+
+#~ msgid "Private Tabs"
+#~ msgstr "Pestañas privadas"
 
 #~ msgid "Confirm"
 #~ msgstr "Confirmar"

@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-09 01:04+0000\n"
-"PO-Revision-Date: 2023-01-05 16:05+0100\n"
+"POT-Creation-Date: 2023-02-12 01:00+0000\n"
+"PO-Revision-Date: 2023-02-11 16:26+0100\n"
 "Last-Translator: Xavier BESNARD <xavier.besnard]neuf.fr>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.12.0\n"
+"X-Generator: Lokalize 22.12.1\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: \n"
 "X-Text-Markup: \n"
@@ -11507,7 +11507,7 @@ msgstr "Recherche des signets"
 msgid "No bookmarks yet"
 msgstr "Aucun signet pour l'instant"
 
-#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:62
+#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:69
 #, kde-format
 msgid "New Tab"
 msgstr "Nouvel onglet"
@@ -11613,16 +11613,15 @@ msgstr "Nouveaux onglets :"
 msgid "Always show the tab bar:"
 msgstr "Toujours afficher la barre d'onglets :"
 
-#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:210
+#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:217
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Mode lecteur : %1"
 
-#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:241
-#, fuzzy, kde-format
-#| msgid "Close"
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:248
+#, kde-format
 msgid "Close tab"
-msgstr "Fermer"
+msgstr "Fermer un onglet"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -11677,7 +11676,7 @@ msgstr "Chercher…"
 msgid "Angelfish Web Browser"
 msgstr "Navigateur Web Angelfish"
 
-#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:57
+#: src/contents/ui/mobile.qml:64
 #, kde-format
 msgid "Tabs"
 msgstr "Onglets"
@@ -11958,15 +11957,13 @@ msgstr "Supprimer une application"
 msgid "Share page to"
 msgstr "Partager la page avec"
 
-#: src/contents/ui/Tabs.qml:57
-#, kde-format
-msgid "Private Tabs"
-msgstr "Onglets privés"
-
 #: src/main.cpp:85
 #, kde-format
 msgid "URL to open"
 msgstr "URL à ouvrir"
+
+#~ msgid "Private Tabs"
+#~ msgstr "Onglets privés"
 
 #~ msgid "Confirm"
 #~ msgstr "Confirmer"

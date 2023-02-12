@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-09 01:04+0000\n"
+"POT-Creation-Date: 2023-02-12 01:00+0000\n"
 "PO-Revision-Date: 2022-08-24 17:58+0400\n"
 "Last-Translator: Kheyyam <xxmn77@gmail.com>\n"
 "Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
@@ -275,7 +275,7 @@ msgstr "Əlfəcinləri axtarın..."
 msgid "No bookmarks yet"
 msgstr "Hələlik əlfəcin yoxdur"
 
-#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:62
+#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:69
 #, kde-format
 msgid "New Tab"
 msgstr "Yeni Vərəq"
@@ -381,12 +381,12 @@ msgstr "Yeni vərəqlər:"
 msgid "Always show the tab bar:"
 msgstr "Vərəq zolağı həmişə göstərilsin:"
 
-#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:210
+#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:217
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Oxu rejimi: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:241
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:248
 #, fuzzy, kde-format
 #| msgid "Close"
 msgid "Close tab"
@@ -445,7 +445,7 @@ msgstr "Axtar..."
 msgid "Angelfish Web Browser"
 msgstr "Angelfish Veb Bələdçisi"
 
-#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:57
+#: src/contents/ui/mobile.qml:64
 #, kde-format
 msgid "Tabs"
 msgstr "Vərəqlər"
@@ -719,15 +719,13 @@ msgstr "Tətbiqi silmək"
 msgid "Share page to"
 msgstr "Səhifəni paylaşmaq"
 
-#: src/contents/ui/Tabs.qml:57
-#, kde-format
-msgid "Private Tabs"
-msgstr "Gizli Vərəqlər"
-
 #: src/main.cpp:85
 #, kde-format
 msgid "URL to open"
 msgstr "Açmaq üçün URL ünvanı"
+
+#~ msgid "Private Tabs"
+#~ msgstr "Gizli Vərəqlər"
 
 #~ msgid "Confirm"
 #~ msgstr "Təsdiq etmək"

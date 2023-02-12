@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-09 01:04+0000\n"
+"POT-Creation-Date: 2023-02-12 01:00+0000\n"
 "PO-Revision-Date: 2022-09-24 14:54+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -274,7 +274,7 @@ msgstr "Sök bokmärken…"
 msgid "No bookmarks yet"
 msgstr "Inga bokmärken ännu"
 
-#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:62
+#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:69
 #, kde-format
 msgid "New Tab"
 msgstr "Ny flik"
@@ -380,12 +380,12 @@ msgstr "Nya flikar:"
 msgid "Always show the tab bar:"
 msgstr "Visa alltid flikraden:"
 
-#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:210
+#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:217
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Läsläge: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:241
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:248
 #, fuzzy, kde-format
 #| msgid "Close"
 msgid "Close tab"
@@ -444,7 +444,7 @@ msgstr "Sök..."
 msgid "Angelfish Web Browser"
 msgstr "Angelfish webbläsare"
 
-#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:57
+#: src/contents/ui/mobile.qml:64
 #, kde-format
 msgid "Tabs"
 msgstr "Flikar"
@@ -719,15 +719,13 @@ msgstr "Ta bort program"
 msgid "Share page to"
 msgstr "Dela sida"
 
-#: src/contents/ui/Tabs.qml:57
-#, kde-format
-msgid "Private Tabs"
-msgstr "Privata flikar"
-
 #: src/main.cpp:85
 #, kde-format
 msgid "URL to open"
 msgstr "Webbadress att öppna"
+
+#~ msgid "Private Tabs"
+#~ msgstr "Privata flikar"
 
 #~ msgid "Confirm"
 #~ msgstr "Bekräfta"

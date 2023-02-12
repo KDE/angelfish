@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-09 01:04+0000\n"
+"POT-Creation-Date: 2023-02-12 01:00+0000\n"
 "PO-Revision-Date: 2023-01-31 15:01+0100\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -267,7 +267,7 @@ msgstr "Hledat záložky..."
 msgid "No bookmarks yet"
 msgstr "Zatím žádné záložky"
 
-#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:62
+#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:69
 #, kde-format
 msgid "New Tab"
 msgstr "Nová karta"
@@ -373,12 +373,12 @@ msgstr "Nové karty:"
 msgid "Always show the tab bar:"
 msgstr "Vždy zobrazovat panel karet:"
 
-#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:210
+#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:217
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Režim čtení: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:241
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:248
 #, kde-format
 msgid "Close tab"
 msgstr "Zavřít kartu"
@@ -436,7 +436,7 @@ msgstr "Hledat..."
 msgid "Angelfish Web Browser"
 msgstr "Webový prohlížeč Angelfish"
 
-#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:57
+#: src/contents/ui/mobile.qml:64
 #, kde-format
 msgid "Tabs"
 msgstr "Karty"
@@ -702,12 +702,10 @@ msgstr "Odstranit aplikaci"
 msgid "Share page to"
 msgstr "Sdílet stránku s"
 
-#: src/contents/ui/Tabs.qml:57
-#, kde-format
-msgid "Private Tabs"
-msgstr "Soukromé karty"
-
 #: src/main.cpp:85
 #, kde-format
 msgid "URL to open"
 msgstr "URL k otevření"
+
+#~ msgid "Private Tabs"
+#~ msgstr "Soukromé karty"

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-09 01:04+0000\n"
+"POT-Creation-Date: 2023-02-12 01:00+0000\n"
 "PO-Revision-Date: 2022-04-07 17:59+0200\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -268,7 +268,7 @@ msgstr ""
 msgid "No bookmarks yet"
 msgstr "Záložky"
 
-#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:62
+#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:69
 #, kde-format
 msgid "New Tab"
 msgstr "Nová karta"
@@ -375,12 +375,12 @@ msgstr ""
 msgid "Always show the tab bar:"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:210
+#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:217
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:241
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:248
 #, fuzzy, kde-format
 #| msgid "Close"
 msgid "Close tab"
@@ -439,7 +439,7 @@ msgstr "Hľadať..."
 msgid "Angelfish Web Browser"
 msgstr "Webový prehliadač Angelfish"
 
-#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:57
+#: src/contents/ui/mobile.qml:64
 #, kde-format
 msgid "Tabs"
 msgstr "Karty"
@@ -703,15 +703,13 @@ msgstr ""
 msgid "Share page to"
 msgstr "Zdielať stránku"
 
-#: src/contents/ui/Tabs.qml:57
-#, kde-format
-msgid "Private Tabs"
-msgstr "Súkromné karty"
-
 #: src/main.cpp:85
 #, kde-format
 msgid "URL to open"
 msgstr "Otvoriť URL"
+
+#~ msgid "Private Tabs"
+#~ msgstr "Súkromné karty"
 
 #~ msgid "Confirm"
 #~ msgstr "Potvrdiť"

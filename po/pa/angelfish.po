@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-09 01:04+0000\n"
+"POT-Creation-Date: 2023-02-12 01:00+0000\n"
 "PO-Revision-Date: 2022-01-01 09:26-0800\n"
 "Last-Translator: A S Alam <aalam@satluj.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -275,7 +275,7 @@ msgstr "…ਬੁੱਕਮਾਰਕ ਲੱਭੋ"
 msgid "No bookmarks yet"
 msgstr "ਬੁੱਕਮਾਰਕ"
 
-#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:62
+#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:69
 #, kde-format
 msgid "New Tab"
 msgstr "ਨਵੀਂ ਟੈਬ"
@@ -383,12 +383,12 @@ msgstr "ਨਵੀਂ ਟੈਬ"
 msgid "Always show the tab bar:"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:210
+#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:217
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:241
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:248
 #, fuzzy, kde-format
 #| msgid "Close"
 msgid "Close tab"
@@ -447,7 +447,7 @@ msgstr "...ਖੋਜੋ"
 msgid "Angelfish Web Browser"
 msgstr "ਐਂਗਲਫਿਸ਼ ਵੈੱਬ ਬਰਾਊਜ਼ਰ"
 
-#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:57
+#: src/contents/ui/mobile.qml:64
 #, kde-format
 msgid "Tabs"
 msgstr "ਟੈਬਾਂ"
@@ -715,15 +715,13 @@ msgstr "ਐਪ ਹਟਾਓ"
 msgid "Share page to"
 msgstr "ਸਫ਼ਾ ਸਾਂਝਾ ਕਰੋ"
 
-#: src/contents/ui/Tabs.qml:57
-#, kde-format
-msgid "Private Tabs"
-msgstr "ਪ੍ਰਾਈਵੇਟ ਟੈਬਾਂ"
-
 #: src/main.cpp:85
 #, kde-format
 msgid "URL to open"
 msgstr "ਖੋਲ੍ਹਣ ਲਈ URL"
+
+#~ msgid "Private Tabs"
+#~ msgstr "ਪ੍ਰਾਈਵੇਟ ਟੈਬਾਂ"
 
 #~ msgid "Confirm"
 #~ msgstr "ਤਸਦੀਕ ਕਰੋ"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-09 01:04+0000\n"
+"POT-Creation-Date: 2023-02-12 01:00+0000\n"
 "PO-Revision-Date: 2023-02-08 14:22+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -275,7 +275,7 @@ msgstr "Bladwijzers zoeken…"
 msgid "No bookmarks yet"
 msgstr "Nog geen bladwijzers"
 
-#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:62
+#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:69
 #, kde-format
 msgid "New Tab"
 msgstr "Nieuw tabblad"
@@ -381,12 +381,12 @@ msgstr "Nieuwe tabbladen:"
 msgid "Always show the tab bar:"
 msgstr "Altijd de tabbladbalk weergeven:"
 
-#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:210
+#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:217
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Modus Lezer: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:241
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:248
 #, kde-format
 msgid "Close tab"
 msgstr "Tabblad sluiten"
@@ -444,7 +444,7 @@ msgstr "Zoeken..."
 msgid "Angelfish Web Browser"
 msgstr "Webbrowser Angelfish"
 
-#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:57
+#: src/contents/ui/mobile.qml:64
 #, kde-format
 msgid "Tabs"
 msgstr "Tabbladen"
@@ -718,15 +718,13 @@ msgstr "Toepassing verwijderen"
 msgid "Share page to"
 msgstr "Pagina delen met"
 
-#: src/contents/ui/Tabs.qml:57
-#, kde-format
-msgid "Private Tabs"
-msgstr "Privé tabbladen"
-
 #: src/main.cpp:85
 #, kde-format
 msgid "URL to open"
 msgstr "URL-adres om te openen"
+
+#~ msgid "Private Tabs"
+#~ msgstr "Privé tabbladen"
 
 #~ msgid "Confirm"
 #~ msgstr "Bevestigen"
