@@ -6,7 +6,6 @@
 import QtQuick 2.15
 import QtQuick.Layouts 1.15
 import QtQuick.Controls 2.15 as QQC2
-import QtGraphicalEffects 1.15
 
 import org.kde.kirigami 2.19 as Kirigami
 
@@ -188,24 +187,13 @@ QQC2.Drawer {
                                 spacing: Kirigami.Units.smallSpacing
 
                                 Image {
-                                    id: image
+                                    Layout.leftMargin: 2
                                     Layout.alignment: Qt.AlignVCenter
                                     Layout.preferredHeight: Kirigami.Units.iconSizes.smallMedium
                                     Layout.preferredWidth: height
                                     fillMode: Image.PreserveAspectFit
-                                    //smooth: true
+                                    sourceSize: Qt.size(Kirigami.Units.iconSizes.smallMedium, Kirigami.Units.iconSizes.smallMedium)
                                     source: tabs.itemAt(index) ? tabs.itemAt(index).icon : ""
-
-                                    // rounded image
-                                    layer.enabled: true
-                                    layer.effect: OpacityMask {
-                                        maskSource: Rectangle {
-                                            anchors.fill: parent
-                                            radius: height / 2
-                                            width: image.width
-                                            height: image.height
-                                        }
-                                    }
                                 }
 
                                 QQC2.Label {
