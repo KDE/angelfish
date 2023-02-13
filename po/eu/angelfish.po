@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-12 01:00+0000\n"
+"POT-Creation-Date: 2023-02-13 00:59+0000\n"
 "PO-Revision-Date: 2023-02-08 07:46+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -68,7 +68,7 @@ msgstr "Kopiatu URLa"
 
 #: angelfish-webapp/contents/ui/WebAppView.qml:55
 #: lib/contents/ui/DownloadQuestion.qml:20 lib/contents/ui/WebView.qml:96
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:25
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:29
 #, kde-format
 msgid "Download"
 msgstr "Zama-jaitsi"
@@ -258,12 +258,12 @@ msgstr ""
 "Iragarki eragozleak iragazki-zerrendak falta ditu, orain zama-jaitsi nahi "
 "dituzu?"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:34
 #, kde-format
 msgid "Downloading..."
 msgstr "Zama-jaisten..."
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:252
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:251
 #: src/contents/ui/mobile.qml:79
 #, kde-format
 msgid "Bookmarks"
@@ -279,55 +279,56 @@ msgstr "Bilatu laster-marketan..."
 msgid "No bookmarks yet"
 msgstr "Oraindik laster-markarik ez"
 
-#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:69
+#: src/contents/ui/desktop/desktop.qml:233 src/contents/ui/desktop/Tabs.qml:382
+#: src/contents/ui/Tabs.qml:68
 #, kde-format
 msgid "New Tab"
 msgstr "Fitxa berria"
 
-#: src/contents/ui/desktop/desktop.qml:243 src/contents/ui/History.qml:12
+#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/History.qml:12
 #: src/contents/ui/mobile.qml:87
 #, kde-format
 msgid "History"
 msgstr "Historia"
 
-#: src/contents/ui/desktop/desktop.qml:261 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:260 src/contents/ui/Downloads.qml:15
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
 msgstr "Zama-jaitsierak"
 
-#: src/contents/ui/desktop/desktop.qml:272
+#: src/contents/ui/desktop/desktop.qml:271
 #, kde-format
 msgid "Full Screen"
 msgstr "Pantaila-betea"
 
-#: src/contents/ui/desktop/desktop.qml:286 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Show developer tools"
 msgstr "Erakutsi garatzailearen tresnak"
 
-#: src/contents/ui/desktop/desktop.qml:298 src/contents/ui/mobile.qml:276
+#: src/contents/ui/desktop/desktop.qml:297 src/contents/ui/mobile.qml:276
 #, kde-format
 msgid "Find in page"
 msgstr "Aurkitu orrian"
 
-#: src/contents/ui/desktop/desktop.qml:307
+#: src/contents/ui/desktop/desktop.qml:306
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Irakurle modua"
 
-#: src/contents/ui/desktop/desktop.qml:313
+#: src/contents/ui/desktop/desktop.qml:312
 #, kde-format
 msgid "Add to application launcher"
 msgstr "Gehitu aplikazio abiarazlean"
 
-#: src/contents/ui/desktop/desktop.qml:332 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:331 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "Ezarpenak"
 
-#: src/contents/ui/desktop/desktop.qml:339
+#: src/contents/ui/desktop/desktop.qml:338
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "Konfiguratu Angelfish"
@@ -385,14 +386,49 @@ msgstr "Fitxa berriak:"
 msgid "Always show the tab bar:"
 msgstr "Erakutsi beti fitxa-barra:"
 
-#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:217
+#: src/contents/ui/desktop/Tabs.qml:214 src/contents/ui/desktop/Tabs.qml:361
+#: src/contents/ui/Tabs.qml:205
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Irakurle modua: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:248
+#: src/contents/ui/desktop/Tabs.qml:245 src/contents/ui/Tabs.qml:236
 #, kde-format
 msgid "Close tab"
+msgstr "Itxi fitxa"
+
+#: src/contents/ui/desktop/Tabs.qml:285
+#, fuzzy, kde-format
+#| msgid "Open in new Tab"
+msgid "Open a new tab"
+msgstr "Ireki fitxa berrian"
+
+#: src/contents/ui/desktop/Tabs.qml:318
+#, kde-format
+msgid "List all tabs"
+msgstr ""
+
+#: src/contents/ui/desktop/Tabs.qml:391
+#, kde-format
+msgid "Reload Tab"
+msgstr ""
+
+#: src/contents/ui/desktop/Tabs.qml:399
+#, fuzzy, kde-format
+#| msgid "Private Tabs"
+msgid "Duplicate Tab"
+msgstr "Fitxa pribatuak"
+
+#: src/contents/ui/desktop/Tabs.qml:407
+#, fuzzy, kde-format
+#| msgid "Bookmark"
+msgid "Bookmark Tab"
+msgstr "Laster-marka"
+
+#: src/contents/ui/desktop/Tabs.qml:423
+#, fuzzy, kde-format
+#| msgid "Close tab"
+msgid "Close Tab"
 msgstr "Itxi fitxa"
 
 #: src/contents/ui/Downloads.qml:26
@@ -728,9 +764,6 @@ msgstr "Partekatu orria honekin,"
 #, kde-format
 msgid "URL to open"
 msgstr "Ireki beharreko URLa"
-
-#~ msgid "Private Tabs"
-#~ msgstr "Fitxa pribatuak"
 
 #~ msgid "Confirm"
 #~ msgstr "Berretsi"

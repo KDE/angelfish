@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-12 01:00+0000\n"
+"POT-Creation-Date: 2023-02-13 00:59+0000\n"
 "PO-Revision-Date: 2019-03-02 16:12-0800\n"
 "Last-Translator: Japanese KDE translation team <kde-jp@kde.org>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -62,7 +62,7 @@ msgstr ""
 
 #: angelfish-webapp/contents/ui/WebAppView.qml:55
 #: lib/contents/ui/DownloadQuestion.qml:20 lib/contents/ui/WebView.qml:96
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:25
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:29
 #, kde-format
 msgid "Download"
 msgstr ""
@@ -242,12 +242,12 @@ msgid ""
 "The ad blocker is missing its filter lists, do you want to download them now?"
 msgstr ""
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:34
 #, kde-format
 msgid "Downloading..."
 msgstr ""
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:252
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:251
 #: src/contents/ui/mobile.qml:79
 #, kde-format
 msgid "Bookmarks"
@@ -263,55 +263,56 @@ msgstr ""
 msgid "No bookmarks yet"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:69
+#: src/contents/ui/desktop/desktop.qml:233 src/contents/ui/desktop/Tabs.qml:382
+#: src/contents/ui/Tabs.qml:68
 #, kde-format
 msgid "New Tab"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:243 src/contents/ui/History.qml:12
+#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/History.qml:12
 #: src/contents/ui/mobile.qml:87
 #, kde-format
 msgid "History"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:261 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:260 src/contents/ui/Downloads.qml:15
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:272
+#: src/contents/ui/desktop/desktop.qml:271
 #, kde-format
 msgid "Full Screen"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:286 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Show developer tools"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:298 src/contents/ui/mobile.qml:276
+#: src/contents/ui/desktop/desktop.qml:297 src/contents/ui/mobile.qml:276
 #, kde-format
 msgid "Find in page"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:307
+#: src/contents/ui/desktop/desktop.qml:306
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:313
+#: src/contents/ui/desktop/desktop.qml:312
 #, kde-format
 msgid "Add to application launcher"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:332 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:331 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:339
+#: src/contents/ui/desktop/desktop.qml:338
 #, kde-format
 msgid "Configure Angelfish"
 msgstr ""
@@ -369,14 +370,45 @@ msgstr ""
 msgid "Always show the tab bar:"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:217
+#: src/contents/ui/desktop/Tabs.qml:214 src/contents/ui/desktop/Tabs.qml:361
+#: src/contents/ui/Tabs.qml:205
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:248
+#: src/contents/ui/desktop/Tabs.qml:245 src/contents/ui/Tabs.qml:236
 #, kde-format
 msgid "Close tab"
+msgstr ""
+
+#: src/contents/ui/desktop/Tabs.qml:285
+#, kde-format
+msgid "Open a new tab"
+msgstr ""
+
+#: src/contents/ui/desktop/Tabs.qml:318
+#, kde-format
+msgid "List all tabs"
+msgstr ""
+
+#: src/contents/ui/desktop/Tabs.qml:391
+#, kde-format
+msgid "Reload Tab"
+msgstr ""
+
+#: src/contents/ui/desktop/Tabs.qml:399
+#, kde-format
+msgid "Duplicate Tab"
+msgstr ""
+
+#: src/contents/ui/desktop/Tabs.qml:407
+#, kde-format
+msgid "Bookmark Tab"
+msgstr ""
+
+#: src/contents/ui/desktop/Tabs.qml:423
+#, kde-format
+msgid "Close Tab"
 msgstr ""
 
 #: src/contents/ui/Downloads.qml:26

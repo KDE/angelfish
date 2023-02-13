@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-12 01:00+0000\n"
+"POT-Creation-Date: 2023-02-13 00:59+0000\n"
 "PO-Revision-Date: 2022-08-19 20:36+0700\n"
 "Last-Translator: Wantoyèk <wantoyek@gmail.com>\n"
 "Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
@@ -65,7 +65,7 @@ msgstr "Salin URL"
 
 #: angelfish-webapp/contents/ui/WebAppView.qml:55
 #: lib/contents/ui/DownloadQuestion.qml:20 lib/contents/ui/WebView.qml:96
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:25
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:29
 #, kde-format
 msgid "Download"
 msgstr "Unduh"
@@ -257,12 +257,12 @@ msgstr ""
 "Pemblokir iklan kehilangan daftar filternya, apakah Anda ingin mengunduhnya "
 "sekarang?"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:34
 #, kde-format
 msgid "Downloading..."
 msgstr "Mengunduh..."
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:252
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:251
 #: src/contents/ui/mobile.qml:79
 #, kde-format
 msgid "Bookmarks"
@@ -278,55 +278,56 @@ msgstr "Cari markah..."
 msgid "No bookmarks yet"
 msgstr "Belum ada markah"
 
-#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:69
+#: src/contents/ui/desktop/desktop.qml:233 src/contents/ui/desktop/Tabs.qml:382
+#: src/contents/ui/Tabs.qml:68
 #, kde-format
 msgid "New Tab"
 msgstr "Tab Baru"
 
-#: src/contents/ui/desktop/desktop.qml:243 src/contents/ui/History.qml:12
+#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/History.qml:12
 #: src/contents/ui/mobile.qml:87
 #, kde-format
 msgid "History"
 msgstr "Histori"
 
-#: src/contents/ui/desktop/desktop.qml:261 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:260 src/contents/ui/Downloads.qml:15
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
 msgstr "Unduhan"
 
-#: src/contents/ui/desktop/desktop.qml:272
+#: src/contents/ui/desktop/desktop.qml:271
 #, kde-format
 msgid "Full Screen"
 msgstr "Layar Penuh"
 
-#: src/contents/ui/desktop/desktop.qml:286 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Show developer tools"
 msgstr "Tampilkan peralatan pengembang"
 
-#: src/contents/ui/desktop/desktop.qml:298 src/contents/ui/mobile.qml:276
+#: src/contents/ui/desktop/desktop.qml:297 src/contents/ui/mobile.qml:276
 #, kde-format
 msgid "Find in page"
 msgstr "Temukan halaman"
 
-#: src/contents/ui/desktop/desktop.qml:307
+#: src/contents/ui/desktop/desktop.qml:306
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:313
+#: src/contents/ui/desktop/desktop.qml:312
 #, kde-format
 msgid "Add to application launcher"
 msgstr "Tambahkan peluncur aplikasi"
 
-#: src/contents/ui/desktop/desktop.qml:332 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:331 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "Pengaturan"
 
-#: src/contents/ui/desktop/desktop.qml:339
+#: src/contents/ui/desktop/desktop.qml:338
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "Pengaturan Angelfish"
@@ -384,15 +385,50 @@ msgstr "Tab baru:"
 msgid "Always show the tab bar:"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:217
+#: src/contents/ui/desktop/Tabs.qml:214 src/contents/ui/desktop/Tabs.qml:361
+#: src/contents/ui/Tabs.qml:205
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:248
+#: src/contents/ui/desktop/Tabs.qml:245 src/contents/ui/Tabs.qml:236
 #, fuzzy, kde-format
 #| msgid "Close"
 msgid "Close tab"
+msgstr "Tutup"
+
+#: src/contents/ui/desktop/Tabs.qml:285
+#, fuzzy, kde-format
+#| msgid "Open in new Tab"
+msgid "Open a new tab"
+msgstr "Buka di Tab baru"
+
+#: src/contents/ui/desktop/Tabs.qml:318
+#, kde-format
+msgid "List all tabs"
+msgstr ""
+
+#: src/contents/ui/desktop/Tabs.qml:391
+#, kde-format
+msgid "Reload Tab"
+msgstr ""
+
+#: src/contents/ui/desktop/Tabs.qml:399
+#, fuzzy, kde-format
+#| msgid "Private Tabs"
+msgid "Duplicate Tab"
+msgstr "Tab Privasi"
+
+#: src/contents/ui/desktop/Tabs.qml:407
+#, fuzzy, kde-format
+#| msgid "Bookmark"
+msgid "Bookmark Tab"
+msgstr "Markah"
+
+#: src/contents/ui/desktop/Tabs.qml:423
+#, fuzzy, kde-format
+#| msgid "Close"
+msgid "Close Tab"
 msgstr "Tutup"
 
 #: src/contents/ui/Downloads.qml:26
@@ -728,9 +764,6 @@ msgstr "Bagikan halaman"
 #, kde-format
 msgid "URL to open"
 msgstr "URL untuk dibuka"
-
-#~ msgid "Private Tabs"
-#~ msgstr "Tab Privasi"
 
 #~ msgid "Confirm"
 #~ msgstr "Konfirmasi"

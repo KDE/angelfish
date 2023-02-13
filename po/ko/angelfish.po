@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-12 01:00+0000\n"
+"POT-Creation-Date: 2023-02-13 00:59+0000\n"
 "PO-Revision-Date: 2022-10-03 14:17+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-i18n-doc@kde.org>\n"
@@ -66,7 +66,7 @@ msgstr "URL 복사"
 
 #: angelfish-webapp/contents/ui/WebAppView.qml:55
 #: lib/contents/ui/DownloadQuestion.qml:20 lib/contents/ui/WebView.qml:96
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:25
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:29
 #, kde-format
 msgid "Download"
 msgstr "다운로드"
@@ -254,12 +254,12 @@ msgid ""
 "The ad blocker is missing its filter lists, do you want to download them now?"
 msgstr "광고 차단기 필터가 비어 있습니다. 지금 다운로드하시겠습니까?"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:34
 #, kde-format
 msgid "Downloading..."
 msgstr "다운로드 중..."
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:252
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:251
 #: src/contents/ui/mobile.qml:79
 #, kde-format
 msgid "Bookmarks"
@@ -275,55 +275,56 @@ msgstr "책갈피 검색…"
 msgid "No bookmarks yet"
 msgstr "책갈피 없음"
 
-#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:69
+#: src/contents/ui/desktop/desktop.qml:233 src/contents/ui/desktop/Tabs.qml:382
+#: src/contents/ui/Tabs.qml:68
 #, kde-format
 msgid "New Tab"
 msgstr "새 탭"
 
-#: src/contents/ui/desktop/desktop.qml:243 src/contents/ui/History.qml:12
+#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/History.qml:12
 #: src/contents/ui/mobile.qml:87
 #, kde-format
 msgid "History"
 msgstr "과거 기록"
 
-#: src/contents/ui/desktop/desktop.qml:261 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:260 src/contents/ui/Downloads.qml:15
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
 msgstr "다운로드"
 
-#: src/contents/ui/desktop/desktop.qml:272
+#: src/contents/ui/desktop/desktop.qml:271
 #, kde-format
 msgid "Full Screen"
 msgstr "전체 화면"
 
-#: src/contents/ui/desktop/desktop.qml:286 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Show developer tools"
 msgstr "개발자 도구 표시"
 
-#: src/contents/ui/desktop/desktop.qml:298 src/contents/ui/mobile.qml:276
+#: src/contents/ui/desktop/desktop.qml:297 src/contents/ui/mobile.qml:276
 #, kde-format
 msgid "Find in page"
 msgstr "페이지에서 찾기"
 
-#: src/contents/ui/desktop/desktop.qml:307
+#: src/contents/ui/desktop/desktop.qml:306
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "읽기 모드"
 
-#: src/contents/ui/desktop/desktop.qml:313
+#: src/contents/ui/desktop/desktop.qml:312
 #, kde-format
 msgid "Add to application launcher"
 msgstr "프로그램 실행기에 추가"
 
-#: src/contents/ui/desktop/desktop.qml:332 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:331 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "설정"
 
-#: src/contents/ui/desktop/desktop.qml:339
+#: src/contents/ui/desktop/desktop.qml:338
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "Angelfish 설정"
@@ -381,15 +382,50 @@ msgstr "새 탭:"
 msgid "Always show the tab bar:"
 msgstr "항상 탭 목록 표시:"
 
-#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:217
+#: src/contents/ui/desktop/Tabs.qml:214 src/contents/ui/desktop/Tabs.qml:361
+#: src/contents/ui/Tabs.qml:205
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "읽기 모드: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:248
+#: src/contents/ui/desktop/Tabs.qml:245 src/contents/ui/Tabs.qml:236
 #, fuzzy, kde-format
 #| msgid "Close"
 msgid "Close tab"
+msgstr "닫기"
+
+#: src/contents/ui/desktop/Tabs.qml:285
+#, fuzzy, kde-format
+#| msgid "Open in new Tab"
+msgid "Open a new tab"
+msgstr "새 탭에서 열기"
+
+#: src/contents/ui/desktop/Tabs.qml:318
+#, kde-format
+msgid "List all tabs"
+msgstr ""
+
+#: src/contents/ui/desktop/Tabs.qml:391
+#, kde-format
+msgid "Reload Tab"
+msgstr ""
+
+#: src/contents/ui/desktop/Tabs.qml:399
+#, fuzzy, kde-format
+#| msgid "Private Tabs"
+msgid "Duplicate Tab"
+msgstr "사생활 보호 탭"
+
+#: src/contents/ui/desktop/Tabs.qml:407
+#, fuzzy, kde-format
+#| msgid "Bookmark"
+msgid "Bookmark Tab"
+msgstr "책갈피"
+
+#: src/contents/ui/desktop/Tabs.qml:423
+#, fuzzy, kde-format
+#| msgid "Close"
+msgid "Close Tab"
 msgstr "닫기"
 
 #: src/contents/ui/Downloads.qml:26
@@ -721,9 +757,6 @@ msgstr "공유 페이지"
 #, kde-format
 msgid "URL to open"
 msgstr "열려는 URL"
-
-#~ msgid "Private Tabs"
-#~ msgstr "사생활 보호 탭"
 
 #~ msgid "Confirm"
 #~ msgstr "확인"

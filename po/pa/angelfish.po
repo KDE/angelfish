@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-12 01:00+0000\n"
+"POT-Creation-Date: 2023-02-13 00:59+0000\n"
 "PO-Revision-Date: 2022-01-01 09:26-0800\n"
 "Last-Translator: A S Alam <aalam@satluj.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -65,7 +65,7 @@ msgstr "URL ਕਾਪੀ ਕਰੋ"
 
 #: angelfish-webapp/contents/ui/WebAppView.qml:55
 #: lib/contents/ui/DownloadQuestion.qml:20 lib/contents/ui/WebView.qml:96
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:25
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:29
 #, kde-format
 msgid "Download"
 msgstr "ਡਾਊਨਲੋਡ"
@@ -253,12 +253,12 @@ msgid ""
 "The ad blocker is missing its filter lists, do you want to download them now?"
 msgstr ""
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:34
 #, kde-format
 msgid "Downloading..."
 msgstr "ਡਾਊਨਲੋਡ ਜਾਰੀ ਹੈ…"
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:252
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:251
 #: src/contents/ui/mobile.qml:79
 #, kde-format
 msgid "Bookmarks"
@@ -275,55 +275,56 @@ msgstr "…ਬੁੱਕਮਾਰਕ ਲੱਭੋ"
 msgid "No bookmarks yet"
 msgstr "ਬੁੱਕਮਾਰਕ"
 
-#: src/contents/ui/desktop/desktop.qml:234 src/contents/ui/Tabs.qml:69
+#: src/contents/ui/desktop/desktop.qml:233 src/contents/ui/desktop/Tabs.qml:382
+#: src/contents/ui/Tabs.qml:68
 #, kde-format
 msgid "New Tab"
 msgstr "ਨਵੀਂ ਟੈਬ"
 
-#: src/contents/ui/desktop/desktop.qml:243 src/contents/ui/History.qml:12
+#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/History.qml:12
 #: src/contents/ui/mobile.qml:87
 #, kde-format
 msgid "History"
 msgstr "ਅਤੀਤ"
 
-#: src/contents/ui/desktop/desktop.qml:261 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:260 src/contents/ui/Downloads.qml:15
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
 msgstr "ਡਾਊਨਲੋਡ"
 
-#: src/contents/ui/desktop/desktop.qml:272
+#: src/contents/ui/desktop/desktop.qml:271
 #, kde-format
 msgid "Full Screen"
 msgstr "ਪੂਰੀ ਸਕਰੀਨ"
 
-#: src/contents/ui/desktop/desktop.qml:286 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Show developer tools"
 msgstr "ਡਿਵੈਲਪਰ ਟੂਲ ਵੇਖਾਓ"
 
-#: src/contents/ui/desktop/desktop.qml:298 src/contents/ui/mobile.qml:276
+#: src/contents/ui/desktop/desktop.qml:297 src/contents/ui/mobile.qml:276
 #, kde-format
 msgid "Find in page"
 msgstr "ਸਫ਼ੇ ਵਿੱਚ ਲੱਭੋ"
 
-#: src/contents/ui/desktop/desktop.qml:307
+#: src/contents/ui/desktop/desktop.qml:306
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:313
+#: src/contents/ui/desktop/desktop.qml:312
 #, kde-format
 msgid "Add to application launcher"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:332 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:331 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "ਸੈਟਿੰਗਾਂ"
 
-#: src/contents/ui/desktop/desktop.qml:339
+#: src/contents/ui/desktop/desktop.qml:338
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "ਐਂਗਲਫਿਸ਼ ਦੀ ਸੰਰਚਨਾ"
@@ -383,15 +384,50 @@ msgstr "ਨਵੀਂ ਟੈਬ"
 msgid "Always show the tab bar:"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:189 src/contents/ui/Tabs.qml:217
+#: src/contents/ui/desktop/Tabs.qml:214 src/contents/ui/desktop/Tabs.qml:361
+#: src/contents/ui/Tabs.qml:205
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:248
+#: src/contents/ui/desktop/Tabs.qml:245 src/contents/ui/Tabs.qml:236
 #, fuzzy, kde-format
 #| msgid "Close"
 msgid "Close tab"
+msgstr "ਬੰਦ ਕਰੋ"
+
+#: src/contents/ui/desktop/Tabs.qml:285
+#, fuzzy, kde-format
+#| msgid "Open in new Tab"
+msgid "Open a new tab"
+msgstr "ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹੋ"
+
+#: src/contents/ui/desktop/Tabs.qml:318
+#, kde-format
+msgid "List all tabs"
+msgstr ""
+
+#: src/contents/ui/desktop/Tabs.qml:391
+#, kde-format
+msgid "Reload Tab"
+msgstr ""
+
+#: src/contents/ui/desktop/Tabs.qml:399
+#, fuzzy, kde-format
+#| msgid "Private Tabs"
+msgid "Duplicate Tab"
+msgstr "ਪ੍ਰਾਈਵੇਟ ਟੈਬਾਂ"
+
+#: src/contents/ui/desktop/Tabs.qml:407
+#, fuzzy, kde-format
+#| msgid "Bookmark"
+msgid "Bookmark Tab"
+msgstr "ਬੁੱਕਮਾਰਕ ਕਰੋ"
+
+#: src/contents/ui/desktop/Tabs.qml:423
+#, fuzzy, kde-format
+#| msgid "Close"
+msgid "Close Tab"
 msgstr "ਬੰਦ ਕਰੋ"
 
 #: src/contents/ui/Downloads.qml:26
@@ -719,9 +755,6 @@ msgstr "ਸਫ਼ਾ ਸਾਂਝਾ ਕਰੋ"
 #, kde-format
 msgid "URL to open"
 msgstr "ਖੋਲ੍ਹਣ ਲਈ URL"
-
-#~ msgid "Private Tabs"
-#~ msgstr "ਪ੍ਰਾਈਵੇਟ ਟੈਬਾਂ"
 
 #~ msgid "Confirm"
 #~ msgstr "ਤਸਦੀਕ ਕਰੋ"
