@@ -236,6 +236,13 @@ Kirigami.ApplicationWindow {
                     onTriggered: tabs.tabsModel.newTab(Settings.newTabUrl)
                 }
 
+                Kirigami.Action { // TODO: should ideally open up a new window in private mode
+                    text: rootPage.privateMode ? i18n("Leave private mode") : i18n("Private mode")
+                    icon.name: "view-private"
+                    shortcut: "Ctrl+Shift+P"
+                    onTriggered: rootPage.privateMode = !rootPage.privateMode
+                }
+
                 QQC2.MenuSeparator {}
 
                 Kirigami.Action {
@@ -347,6 +354,7 @@ Kirigami.ApplicationWindow {
             QQC2.ToolButton {
                 id: menuButton
                 Layout.alignment: Qt.AlignRight
+                text: rootPage.privateMode ? i18n("Private Mode") : ""
                 icon.name: "application-menu"
                 down: menu.visible
                 onPressed: menu.visible ? menu.close() : menu.popup(menuButton.x, menuButton.y + menuButton.height, webBrowser)
