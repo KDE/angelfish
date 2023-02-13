@@ -13,7 +13,7 @@
 #include "dbmanager.h"
 #include "sqlquerymodel.h"
 
-class TabsModelTest : public QObject
+class DbManagerTest : public QObject
 {
     Q_OBJECT
 
@@ -93,6 +93,6 @@ private:
     DBManager *m_dbmanager;
 };
 
-QTEST_GUILESS_MAIN(TabsModelTest);
+QTEST_GUILESS_MAIN(DbManagerTest);
 
 #include "dbmanagertest.moc"
