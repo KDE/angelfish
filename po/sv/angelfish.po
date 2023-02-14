@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-13 00:59+0000\n"
+"POT-Creation-Date: 2023-02-14 01:00+0000\n"
 "PO-Revision-Date: 2022-09-24 14:54+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -274,7 +274,7 @@ msgstr "Sök bokmärken…"
 msgid "No bookmarks yet"
 msgstr "Inga bokmärken ännu"
 
-#: src/contents/ui/desktop/desktop.qml:233 src/contents/ui/desktop/Tabs.qml:382
+#: src/contents/ui/desktop/desktop.qml:233 src/contents/ui/desktop/Tabs.qml:387
 #: src/contents/ui/Tabs.qml:68
 #, kde-format
 msgid "New Tab"
@@ -381,47 +381,47 @@ msgstr "Nya flikar:"
 msgid "Always show the tab bar:"
 msgstr "Visa alltid flikraden:"
 
-#: src/contents/ui/desktop/Tabs.qml:214 src/contents/ui/desktop/Tabs.qml:361
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/desktop/Tabs.qml:366
 #: src/contents/ui/Tabs.qml:205
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Läsläge: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:245 src/contents/ui/Tabs.qml:236
+#: src/contents/ui/desktop/Tabs.qml:250 src/contents/ui/Tabs.qml:236
 #, fuzzy, kde-format
 #| msgid "Close"
 msgid "Close tab"
 msgstr "Stäng"
 
-#: src/contents/ui/desktop/Tabs.qml:285
+#: src/contents/ui/desktop/Tabs.qml:290
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgid "Open a new tab"
 msgstr "Öppna under ny flik"
 
-#: src/contents/ui/desktop/Tabs.qml:318
+#: src/contents/ui/desktop/Tabs.qml:323
 #, kde-format
 msgid "List all tabs"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:391
+#: src/contents/ui/desktop/Tabs.qml:396
 #, kde-format
 msgid "Reload Tab"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:399
+#: src/contents/ui/desktop/Tabs.qml:404
 #, fuzzy, kde-format
 #| msgid "Private Tabs"
 msgid "Duplicate Tab"
 msgstr "Privata flikar"
 
-#: src/contents/ui/desktop/Tabs.qml:407
+#: src/contents/ui/desktop/Tabs.qml:412
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgid "Bookmark Tab"
 msgstr "Bokmärke"
 
-#: src/contents/ui/desktop/Tabs.qml:423
+#: src/contents/ui/desktop/Tabs.qml:428
 #, fuzzy, kde-format
 #| msgid "Close"
 msgid "Close Tab"

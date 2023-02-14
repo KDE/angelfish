@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-13 00:59+0000\n"
-"PO-Revision-Date: 2023-02-08 07:46+0100\n"
+"POT-Creation-Date: 2023-02-14 01:00+0000\n"
+"PO-Revision-Date: 2023-02-13 07:06+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -279,7 +279,7 @@ msgstr "Bilatu laster-marketan..."
 msgid "No bookmarks yet"
 msgstr "Oraindik laster-markarik ez"
 
-#: src/contents/ui/desktop/desktop.qml:233 src/contents/ui/desktop/Tabs.qml:382
+#: src/contents/ui/desktop/desktop.qml:233 src/contents/ui/desktop/Tabs.qml:387
 #: src/contents/ui/Tabs.qml:68
 #, kde-format
 msgid "New Tab"
@@ -386,48 +386,44 @@ msgstr "Fitxa berriak:"
 msgid "Always show the tab bar:"
 msgstr "Erakutsi beti fitxa-barra:"
 
-#: src/contents/ui/desktop/Tabs.qml:214 src/contents/ui/desktop/Tabs.qml:361
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/desktop/Tabs.qml:366
 #: src/contents/ui/Tabs.qml:205
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Irakurle modua: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:245 src/contents/ui/Tabs.qml:236
+#: src/contents/ui/desktop/Tabs.qml:250 src/contents/ui/Tabs.qml:236
 #, kde-format
 msgid "Close tab"
 msgstr "Itxi fitxa"
 
-#: src/contents/ui/desktop/Tabs.qml:285
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#: src/contents/ui/desktop/Tabs.qml:290
+#, kde-format
 msgid "Open a new tab"
-msgstr "Ireki fitxa berrian"
+msgstr "Ireki fitxa berri bat"
 
-#: src/contents/ui/desktop/Tabs.qml:318
+#: src/contents/ui/desktop/Tabs.qml:323
 #, kde-format
 msgid "List all tabs"
-msgstr ""
+msgstr "Zerrendatu fitxa guztiak"
 
-#: src/contents/ui/desktop/Tabs.qml:391
+#: src/contents/ui/desktop/Tabs.qml:396
 #, kde-format
 msgid "Reload Tab"
-msgstr ""
+msgstr "Birzamatu fitxa"
 
-#: src/contents/ui/desktop/Tabs.qml:399
-#, fuzzy, kde-format
-#| msgid "Private Tabs"
+#: src/contents/ui/desktop/Tabs.qml:404
+#, kde-format
 msgid "Duplicate Tab"
-msgstr "Fitxa pribatuak"
+msgstr "Bikoiztu fitxa"
 
-#: src/contents/ui/desktop/Tabs.qml:407
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#: src/contents/ui/desktop/Tabs.qml:412
+#, kde-format
 msgid "Bookmark Tab"
-msgstr "Laster-marka"
+msgstr "Egin fitxaren laster-marka"
 
-#: src/contents/ui/desktop/Tabs.qml:423
-#, fuzzy, kde-format
-#| msgid "Close tab"
+#: src/contents/ui/desktop/Tabs.qml:428
+#, kde-format
 msgid "Close Tab"
 msgstr "Itxi fitxa"
 

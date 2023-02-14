@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-13 00:59+0000\n"
-"PO-Revision-Date: 2023-02-08 08:23+0200\n"
+"POT-Creation-Date: 2023-02-14 01:00+0000\n"
+"PO-Revision-Date: 2023-02-13 09:13+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -280,7 +280,7 @@ msgstr "Шукати закладки…"
 msgid "No bookmarks yet"
 msgstr "Закладок поки немає"
 
-#: src/contents/ui/desktop/desktop.qml:233 src/contents/ui/desktop/Tabs.qml:382
+#: src/contents/ui/desktop/desktop.qml:233 src/contents/ui/desktop/Tabs.qml:387
 #: src/contents/ui/Tabs.qml:68
 #, kde-format
 msgid "New Tab"
@@ -387,48 +387,44 @@ msgstr "Нові вкладки:"
 msgid "Always show the tab bar:"
 msgstr "Завжди показувати панель вкладок:"
 
-#: src/contents/ui/desktop/Tabs.qml:214 src/contents/ui/desktop/Tabs.qml:361
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/desktop/Tabs.qml:366
 #: src/contents/ui/Tabs.qml:205
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Режим читання: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:245 src/contents/ui/Tabs.qml:236
+#: src/contents/ui/desktop/Tabs.qml:250 src/contents/ui/Tabs.qml:236
 #, kde-format
 msgid "Close tab"
 msgstr "Закрити вкладку"
 
-#: src/contents/ui/desktop/Tabs.qml:285
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#: src/contents/ui/desktop/Tabs.qml:290
+#, kde-format
 msgid "Open a new tab"
-msgstr "Відкрити у новій вкладці"
+msgstr "Відкрити нову вкладку"
 
-#: src/contents/ui/desktop/Tabs.qml:318
+#: src/contents/ui/desktop/Tabs.qml:323
 #, kde-format
 msgid "List all tabs"
-msgstr ""
+msgstr "Показати список усіх вкладок"
 
-#: src/contents/ui/desktop/Tabs.qml:391
+#: src/contents/ui/desktop/Tabs.qml:396
 #, kde-format
 msgid "Reload Tab"
-msgstr ""
+msgstr "Перезавантажити вкладку"
 
-#: src/contents/ui/desktop/Tabs.qml:399
-#, fuzzy, kde-format
-#| msgid "Private Tabs"
+#: src/contents/ui/desktop/Tabs.qml:404
+#, kde-format
 msgid "Duplicate Tab"
-msgstr "Конфіденційні вкладки"
+msgstr "Дублювати вкладку"
 
-#: src/contents/ui/desktop/Tabs.qml:407
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#: src/contents/ui/desktop/Tabs.qml:412
+#, kde-format
 msgid "Bookmark Tab"
-msgstr "Створити закладку"
+msgstr "Створити закладку для вкладки"
 
-#: src/contents/ui/desktop/Tabs.qml:423
-#, fuzzy, kde-format
-#| msgid "Close tab"
+#: src/contents/ui/desktop/Tabs.qml:428
+#, kde-format
 msgid "Close Tab"
 msgstr "Закрити вкладку"
 

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-13 00:59+0000\n"
-"PO-Revision-Date: 2023-02-08 14:22+0100\n"
+"POT-Creation-Date: 2023-02-14 01:00+0000\n"
+"PO-Revision-Date: 2023-02-13 10:53+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -20,7 +20,7 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Freek de Kruijf - t/m 2022"
+msgstr "Freek de Kruijf - t/m 2023"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
@@ -275,7 +275,7 @@ msgstr "Bladwijzers zoeken…"
 msgid "No bookmarks yet"
 msgstr "Nog geen bladwijzers"
 
-#: src/contents/ui/desktop/desktop.qml:233 src/contents/ui/desktop/Tabs.qml:382
+#: src/contents/ui/desktop/desktop.qml:233 src/contents/ui/desktop/Tabs.qml:387
 #: src/contents/ui/Tabs.qml:68
 #, kde-format
 msgid "New Tab"
@@ -382,48 +382,44 @@ msgstr "Nieuwe tabbladen:"
 msgid "Always show the tab bar:"
 msgstr "Altijd de tabbladbalk weergeven:"
 
-#: src/contents/ui/desktop/Tabs.qml:214 src/contents/ui/desktop/Tabs.qml:361
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/desktop/Tabs.qml:366
 #: src/contents/ui/Tabs.qml:205
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Modus Lezer: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:245 src/contents/ui/Tabs.qml:236
+#: src/contents/ui/desktop/Tabs.qml:250 src/contents/ui/Tabs.qml:236
 #, kde-format
 msgid "Close tab"
 msgstr "Tabblad sluiten"
 
-#: src/contents/ui/desktop/Tabs.qml:285
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#: src/contents/ui/desktop/Tabs.qml:290
+#, kde-format
 msgid "Open a new tab"
-msgstr "In nieuw tabblad openen"
+msgstr "Een nieuw tabblad openen"
 
-#: src/contents/ui/desktop/Tabs.qml:318
+#: src/contents/ui/desktop/Tabs.qml:323
 #, kde-format
 msgid "List all tabs"
-msgstr ""
+msgstr "Alle tabbladen tonen"
 
-#: src/contents/ui/desktop/Tabs.qml:391
+#: src/contents/ui/desktop/Tabs.qml:396
 #, kde-format
 msgid "Reload Tab"
-msgstr ""
+msgstr "Tabblad herladen"
 
-#: src/contents/ui/desktop/Tabs.qml:399
-#, fuzzy, kde-format
-#| msgid "Private Tabs"
+#: src/contents/ui/desktop/Tabs.qml:404
+#, kde-format
 msgid "Duplicate Tab"
-msgstr "Privé tabbladen"
+msgstr "Tabblad dupliceren"
 
-#: src/contents/ui/desktop/Tabs.qml:407
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#: src/contents/ui/desktop/Tabs.qml:412
+#, kde-format
 msgid "Bookmark Tab"
-msgstr "Bladwijzer"
+msgstr "Bladwijzer maken van tabblad"
 
-#: src/contents/ui/desktop/Tabs.qml:423
-#, fuzzy, kde-format
-#| msgid "Close tab"
+#: src/contents/ui/desktop/Tabs.qml:428
+#, kde-format
 msgid "Close Tab"
 msgstr "Tabblad sluiten"
 
