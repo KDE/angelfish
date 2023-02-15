@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-14 01:00+0000\n"
+"POT-Creation-Date: 2023-02-15 01:01+0000\n"
 "PO-Revision-Date: 2022-01-14 10:51+0100\n"
 "Last-Translator: Kristóf Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -260,7 +260,7 @@ msgstr "Az adblocker szűrőlistái hiányoznak, szeretné letölteni azokat mos
 msgid "Downloading..."
 msgstr "Letöltés…"
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:251
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:258
 #: src/contents/ui/mobile.qml:79
 #, kde-format
 msgid "Bookmarks"
@@ -282,53 +282,69 @@ msgstr "Nincsenek könyvjelzők"
 msgid "New Tab"
 msgstr "Új lap"
 
-#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/History.qml:12
+#: src/contents/ui/desktop/desktop.qml:240 src/contents/ui/mobile.qml:71
+#, kde-format
+msgid "Leave private mode"
+msgstr "Kilépés a privát módból"
+
+#: src/contents/ui/desktop/desktop.qml:240 src/contents/ui/mobile.qml:71
+#, kde-format
+msgid "Private mode"
+msgstr "Privát mód"
+
+#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/History.qml:12
 #: src/contents/ui/mobile.qml:87
 #, kde-format
 msgid "History"
 msgstr "Előzmények"
 
-#: src/contents/ui/desktop/desktop.qml:260 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:267 src/contents/ui/Downloads.qml:15
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
 msgstr "Letöltések"
 
-#: src/contents/ui/desktop/desktop.qml:271
+#: src/contents/ui/desktop/desktop.qml:278
 #, kde-format
 msgid "Full Screen"
 msgstr "Teljes képernyő"
 
-#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:292 src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Show developer tools"
 msgstr "Fejlesztői eszközök"
 
-#: src/contents/ui/desktop/desktop.qml:297 src/contents/ui/mobile.qml:276
+#: src/contents/ui/desktop/desktop.qml:304 src/contents/ui/mobile.qml:276
 #, kde-format
 msgid "Find in page"
 msgstr "Keresés az oldalon"
 
-#: src/contents/ui/desktop/desktop.qml:306
+#: src/contents/ui/desktop/desktop.qml:313
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:312
+#: src/contents/ui/desktop/desktop.qml:319
 #, kde-format
 msgid "Add to application launcher"
 msgstr "Hozzáadás az alkalmazásindítóhoz"
 
-#: src/contents/ui/desktop/desktop.qml:331 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:338 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "Beállítások"
 
-#: src/contents/ui/desktop/desktop.qml:338
+#: src/contents/ui/desktop/desktop.qml:345
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "Az Angelfish beállítása"
+
+#: src/contents/ui/desktop/desktop.qml:357
+#, fuzzy, kde-format
+#| msgid "Private mode"
+msgid "Private Mode"
+msgstr "Privát mód"
 
 #: src/contents/ui/desktop/HistoryPage.qml:28
 #, kde-format
@@ -486,16 +502,6 @@ msgstr "Angelfish webböngésző"
 #, kde-format
 msgid "Tabs"
 msgstr "Lapok"
-
-#: src/contents/ui/mobile.qml:71
-#, kde-format
-msgid "Leave private mode"
-msgstr "Kilépés a privát módból"
-
-#: src/contents/ui/mobile.qml:71
-#, kde-format
-msgid "Private mode"
-msgstr "Privát mód"
 
 #: src/contents/ui/mobile.qml:280
 #, kde-format

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-14 01:00+0000\n"
+"POT-Creation-Date: 2023-02-15 01:01+0000\n"
 "PO-Revision-Date: 2023-01-19 17:17+0300\n"
 "Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
 "Language-Team: Basealt Translation Team\n"
@@ -261,7 +261,7 @@ msgstr "Блокировщику рекламы не хватает списко
 msgid "Downloading..."
 msgstr "Загрузка…"
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:251
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:258
 #: src/contents/ui/mobile.qml:79
 #, kde-format
 msgid "Bookmarks"
@@ -283,53 +283,69 @@ msgstr "Закладок ещё нет"
 msgid "New Tab"
 msgstr "Новая вкладка"
 
-#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/History.qml:12
+#: src/contents/ui/desktop/desktop.qml:240 src/contents/ui/mobile.qml:71
+#, kde-format
+msgid "Leave private mode"
+msgstr "Отключить приватный режим"
+
+#: src/contents/ui/desktop/desktop.qml:240 src/contents/ui/mobile.qml:71
+#, kde-format
+msgid "Private mode"
+msgstr "Включить приватный режим"
+
+#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/History.qml:12
 #: src/contents/ui/mobile.qml:87
 #, kde-format
 msgid "History"
 msgstr "Журнал"
 
-#: src/contents/ui/desktop/desktop.qml:260 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:267 src/contents/ui/Downloads.qml:15
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
 msgstr "Загрузки"
 
-#: src/contents/ui/desktop/desktop.qml:271
+#: src/contents/ui/desktop/desktop.qml:278
 #, kde-format
 msgid "Full Screen"
 msgstr "Во весь экран"
 
-#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:292 src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Show developer tools"
 msgstr "Показать инструменты для разработки"
 
-#: src/contents/ui/desktop/desktop.qml:297 src/contents/ui/mobile.qml:276
+#: src/contents/ui/desktop/desktop.qml:304 src/contents/ui/mobile.qml:276
 #, kde-format
 msgid "Find in page"
 msgstr "Найти на странице"
 
-#: src/contents/ui/desktop/desktop.qml:306
+#: src/contents/ui/desktop/desktop.qml:313
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Режим чтения"
 
-#: src/contents/ui/desktop/desktop.qml:312
+#: src/contents/ui/desktop/desktop.qml:319
 #, kde-format
 msgid "Add to application launcher"
 msgstr "Добавить в средство запуска программ"
 
-#: src/contents/ui/desktop/desktop.qml:331 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:338 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "Параметры"
 
-#: src/contents/ui/desktop/desktop.qml:338
+#: src/contents/ui/desktop/desktop.qml:345
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "Настройка Angelfish"
+
+#: src/contents/ui/desktop/desktop.qml:357
+#, fuzzy, kde-format
+#| msgid "Private mode"
+msgid "Private Mode"
+msgstr "Включить приватный режим"
 
 #: src/contents/ui/desktop/HistoryPage.qml:28
 #, kde-format
@@ -487,16 +503,6 @@ msgstr "Веб-браузер Angelfish"
 #, kde-format
 msgid "Tabs"
 msgstr "Вкладки"
-
-#: src/contents/ui/mobile.qml:71
-#, kde-format
-msgid "Leave private mode"
-msgstr "Отключить приватный режим"
-
-#: src/contents/ui/mobile.qml:71
-#, kde-format
-msgid "Private mode"
-msgstr "Включить приватный режим"
 
 #: src/contents/ui/mobile.qml:280
 #, kde-format

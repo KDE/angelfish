@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the angelfish package.
 #
-# Kishore G <kishore96@gmail.com>, 2022.
+# Kishore G <kishore96@gmail.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-14 01:00+0000\n"
-"PO-Revision-Date: 2022-12-06 19:52+0530\n"
+"POT-Creation-Date: 2023-02-15 01:01+0000\n"
+"PO-Revision-Date: 2023-02-14 21:48+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
 "Language: ta\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.08.3\n"
+"X-Generator: Lokalize 22.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -149,17 +149,17 @@ msgstr ""
 #: lib/contents/ui/ErrorHandler.qml:79
 #, kde-format
 msgid "Yes"
-msgstr ""
+msgstr "ஆம்"
 
 #: lib/contents/ui/ErrorHandler.qml:88
 #, kde-format
 msgid "No"
-msgstr ""
+msgstr "இல்லை"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
 msgid "This page says"
-msgstr ""
+msgstr "இப்பக்கம் கூறுவது"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:64
 #, kde-format
@@ -167,72 +167,74 @@ msgid ""
 "The website asks for confirmation that you want to leave. Unsaved "
 "information might not be saved."
 msgstr ""
+"இப்பக்கத்திலிருந்து வெளியேறுவதை உறுதி செய்யுமாறு இத்தளம் கோருகிறது. சேமிக்கப்படாதவற்றை "
+"இழக்க நேரிடலாம்."
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:79
 #, kde-format
 msgid "Leave page"
-msgstr ""
+msgstr "பக்கத்திலிருந்து வெளியேறு"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:87
 #, kde-format
 msgid "Submit"
-msgstr ""
+msgstr "சமர்ப்பி"
 
 #: lib/contents/ui/PermissionQuestion.qml:16
 #, kde-format
 msgid "Do you want to allow the website to access the geo location?"
-msgstr ""
+msgstr "உங்கள் புவியிருப்பிடத்தை அணுக இத்தளத்தை அனுமதிக்க வேண்டுமா?"
 
 #: lib/contents/ui/PermissionQuestion.qml:19
 #, kde-format
 msgid "Do you want to allow the website to access the microphone?"
-msgstr ""
+msgstr "உங்கள் ஒலிவாங்கியை அணுக இத்தளத்தை அனுமதிக்க வேண்டுமா?"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format
 msgid "Do you want to allow the website to access the camera?"
-msgstr ""
+msgstr "உங்கள் படக்கருவியை அணுக இத்தளத்தை அனுமதிக்க வேண்டுமா?"
 
 #: lib/contents/ui/PermissionQuestion.qml:25
 #, kde-format
 msgid ""
 "Do you want to allow the website to access the camera and the microphone?"
-msgstr ""
+msgstr "உங்கள் ஒலிவாங்கியையும் படக்கருவியையும் அணுக இத்தளத்தை அனுமதிக்க வேண்டுமா?"
 
 #: lib/contents/ui/PermissionQuestion.qml:28
 #, kde-format
 msgid "Do you want to allow the website to share your screen?"
-msgstr ""
+msgstr "உங்கள் திரையைப் பகிர இத்தளத்தை அனுமதிக்க வேண்டுமா?"
 
 #: lib/contents/ui/PermissionQuestion.qml:31
 #, kde-format
 msgid "Do you want to allow the website to share the sound output?"
-msgstr ""
+msgstr "உங்கள் ஒலிவெளியீட்டைப் பகிர இத்தளத்தை அனுமதிக்க வேண்டுமா?"
 
 #: lib/contents/ui/PermissionQuestion.qml:34
 #, kde-format
 msgid "Do you want to allow the website to send you notifications?"
-msgstr ""
+msgstr "உங்களுக்கு அறிவிப்புகளனுப்ப இத்தளத்தை அனுமதிக்க வேண்டுமா?"
 
 #: lib/contents/ui/PermissionQuestion.qml:43
 #, kde-format
 msgid "Accept"
-msgstr ""
+msgstr "ஏற்றுக்கொள்"
 
 #: lib/contents/ui/PermissionQuestion.qml:53
 #, kde-format
 msgid "Decline"
-msgstr ""
+msgstr "நிராகரி"
 
 #: lib/contents/ui/WebView.qml:92
 #, kde-format
 msgid "View source"
-msgstr ""
+msgstr "மூலத்தைக் காட்டு"
 
 #: lib/contents/ui/WebView.qml:101
 #, kde-format
 msgid "Open in new Tab"
-msgstr ""
+msgstr "புதிய கீற்றில் திற"
 
 #: lib/contents/ui/WebView.qml:269
 #, kde-format
@@ -250,7 +252,7 @@ msgstr ""
 msgid "Downloading..."
 msgstr ""
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:251
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:258
 #: src/contents/ui/mobile.qml:79
 #, kde-format
 msgid "Bookmarks"
@@ -272,52 +274,67 @@ msgstr ""
 msgid "New Tab"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/History.qml:12
+#: src/contents/ui/desktop/desktop.qml:240 src/contents/ui/mobile.qml:71
+#, kde-format
+msgid "Leave private mode"
+msgstr ""
+
+#: src/contents/ui/desktop/desktop.qml:240 src/contents/ui/mobile.qml:71
+#, kde-format
+msgid "Private mode"
+msgstr ""
+
+#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/History.qml:12
 #: src/contents/ui/mobile.qml:87
 #, kde-format
 msgid "History"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:260 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:267 src/contents/ui/Downloads.qml:15
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:271
+#: src/contents/ui/desktop/desktop.qml:278
 #, kde-format
 msgid "Full Screen"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:292 src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Show developer tools"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:297 src/contents/ui/mobile.qml:276
+#: src/contents/ui/desktop/desktop.qml:304 src/contents/ui/mobile.qml:276
 #, kde-format
 msgid "Find in page"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:306
+#: src/contents/ui/desktop/desktop.qml:313
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:312
+#: src/contents/ui/desktop/desktop.qml:319
 #, kde-format
 msgid "Add to application launcher"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:331 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:338 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:338
+#: src/contents/ui/desktop/desktop.qml:345
 #, kde-format
 msgid "Configure Angelfish"
+msgstr ""
+
+#: src/contents/ui/desktop/desktop.qml:357
+#, kde-format
+msgid "Private Mode"
 msgstr ""
 
 #: src/contents/ui/desktop/HistoryPage.qml:28
@@ -470,16 +487,6 @@ msgstr ""
 #: src/contents/ui/mobile.qml:64
 #, kde-format
 msgid "Tabs"
-msgstr ""
-
-#: src/contents/ui/mobile.qml:71
-#, kde-format
-msgid "Leave private mode"
-msgstr ""
-
-#: src/contents/ui/mobile.qml:71
-#, kde-format
-msgid "Private mode"
 msgstr ""
 
 #: src/contents/ui/mobile.qml:280

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-14 01:00+0000\n"
+"POT-Creation-Date: 2023-02-15 01:01+0000\n"
 "PO-Revision-Date: 2023-02-13 06:46+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -260,7 +260,7 @@ msgstr "Adblocker-ს მისი ფილტრების სია არ 
 msgid "Downloading..."
 msgstr "გადმოწერა..."
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:251
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:258
 #: src/contents/ui/mobile.qml:79
 #, kde-format
 msgid "Bookmarks"
@@ -282,53 +282,69 @@ msgstr "სანიშნები ჯერ არ დაგიმატებ
 msgid "New Tab"
 msgstr "ახალი ჩანართი"
 
-#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/History.qml:12
+#: src/contents/ui/desktop/desktop.qml:240 src/contents/ui/mobile.qml:71
+#, kde-format
+msgid "Leave private mode"
+msgstr "კონფიდენციალური რეჟიმიდან გასვლა"
+
+#: src/contents/ui/desktop/desktop.qml:240 src/contents/ui/mobile.qml:71
+#, kde-format
+msgid "Private mode"
+msgstr "კონფიდენციალური რეჟიმი"
+
+#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/History.qml:12
 #: src/contents/ui/mobile.qml:87
 #, kde-format
 msgid "History"
 msgstr "ისტორია"
 
-#: src/contents/ui/desktop/desktop.qml:260 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:267 src/contents/ui/Downloads.qml:15
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
 msgstr "გადმოწერები"
 
-#: src/contents/ui/desktop/desktop.qml:271
+#: src/contents/ui/desktop/desktop.qml:278
 #, kde-format
 msgid "Full Screen"
 msgstr "სრულეკრანიანი რეჟიმი"
 
-#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:292 src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Show developer tools"
 msgstr "პროგრამირების ხელსაწყოების ჩვენება"
 
-#: src/contents/ui/desktop/desktop.qml:297 src/contents/ui/mobile.qml:276
+#: src/contents/ui/desktop/desktop.qml:304 src/contents/ui/mobile.qml:276
 #, kde-format
 msgid "Find in page"
 msgstr "გვერდში ძებნა"
 
-#: src/contents/ui/desktop/desktop.qml:306
+#: src/contents/ui/desktop/desktop.qml:313
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "კითხვის რეჟიმი"
 
-#: src/contents/ui/desktop/desktop.qml:312
+#: src/contents/ui/desktop/desktop.qml:319
 #, kde-format
 msgid "Add to application launcher"
 msgstr "აპლიკაციების გამშვებში ჩამატება"
 
-#: src/contents/ui/desktop/desktop.qml:331 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:338 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "პარამეტრები"
 
-#: src/contents/ui/desktop/desktop.qml:338
+#: src/contents/ui/desktop/desktop.qml:345
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "Angelfish-ის მორგება"
+
+#: src/contents/ui/desktop/desktop.qml:357
+#, fuzzy, kde-format
+#| msgid "Private mode"
+msgid "Private Mode"
+msgstr "კონფიდენციალური რეჟიმი"
 
 #: src/contents/ui/desktop/HistoryPage.qml:28
 #, kde-format
@@ -481,16 +497,6 @@ msgstr "Angelfish ბრაუზერი"
 #, kde-format
 msgid "Tabs"
 msgstr "დაფები"
-
-#: src/contents/ui/mobile.qml:71
-#, kde-format
-msgid "Leave private mode"
-msgstr "კონფიდენციალური რეჟიმიდან გასვლა"
-
-#: src/contents/ui/mobile.qml:71
-#, kde-format
-msgid "Private mode"
-msgstr "კონფიდენციალური რეჟიმი"
 
 #: src/contents/ui/mobile.qml:280
 #, kde-format

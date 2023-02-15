@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-14 01:00+0000\n"
+"POT-Creation-Date: 2023-02-15 01:01+0000\n"
 "PO-Revision-Date: 2020-06-03 20:47+0300\n"
 "Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
 "Language-Team: Estonian <kde-et@lists.linux.ee>\n"
@@ -253,7 +253,7 @@ msgstr ""
 msgid "Downloading..."
 msgstr "Laadi alla"
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:251
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:258
 #: src/contents/ui/mobile.qml:79
 #, kde-format
 msgid "Bookmarks"
@@ -276,54 +276,70 @@ msgstr "Lisa järjehoidja"
 msgid "New Tab"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/History.qml:12
+#: src/contents/ui/desktop/desktop.qml:240 src/contents/ui/mobile.qml:71
+#, kde-format
+msgid "Leave private mode"
+msgstr "Välju privaatrežiimist"
+
+#: src/contents/ui/desktop/desktop.qml:240 src/contents/ui/mobile.qml:71
+#, kde-format
+msgid "Private mode"
+msgstr "Privaatrežiim"
+
+#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/History.qml:12
 #: src/contents/ui/mobile.qml:87
 #, kde-format
 msgid "History"
 msgstr "Ajalugu"
 
-#: src/contents/ui/desktop/desktop.qml:260 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:267 src/contents/ui/Downloads.qml:15
 #: src/contents/ui/mobile.qml:91
 #, fuzzy, kde-format
 #| msgid "Download"
 msgid "Downloads"
 msgstr "Laadi alla"
 
-#: src/contents/ui/desktop/desktop.qml:271
+#: src/contents/ui/desktop/desktop.qml:278
 #, kde-format
 msgid "Full Screen"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:292 src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Show developer tools"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:297 src/contents/ui/mobile.qml:276
+#: src/contents/ui/desktop/desktop.qml:304 src/contents/ui/mobile.qml:276
 #, kde-format
 msgid "Find in page"
 msgstr "Otsi leheküljelt"
 
-#: src/contents/ui/desktop/desktop.qml:306
+#: src/contents/ui/desktop/desktop.qml:313
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:312
+#: src/contents/ui/desktop/desktop.qml:319
 #, kde-format
 msgid "Add to application launcher"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:331 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:338 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "Seadistused"
 
-#: src/contents/ui/desktop/desktop.qml:338
+#: src/contents/ui/desktop/desktop.qml:345
 #, kde-format
 msgid "Configure Angelfish"
 msgstr ""
+
+#: src/contents/ui/desktop/desktop.qml:357
+#, fuzzy, kde-format
+#| msgid "Private mode"
+msgid "Private Mode"
+msgstr "Privaatrežiim"
 
 #: src/contents/ui/desktop/HistoryPage.qml:28
 #, kde-format
@@ -484,16 +500,6 @@ msgstr "Angelfishi veebilehitseja"
 #, kde-format
 msgid "Tabs"
 msgstr "Kaardid"
-
-#: src/contents/ui/mobile.qml:71
-#, kde-format
-msgid "Leave private mode"
-msgstr "Välju privaatrežiimist"
-
-#: src/contents/ui/mobile.qml:71
-#, kde-format
-msgid "Private mode"
-msgstr "Privaatrežiim"
 
 #: src/contents/ui/mobile.qml:280
 #, kde-format

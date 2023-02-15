@@ -396,10 +396,10 @@ msgid "Close tab"
 msgstr "Fechar a página"
 
 #: src/contents/ui/desktop/Tabs.qml:290
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Open in new Tab"
 msgid "Open a new tab"
-msgstr "Abrir numa Nova Página"
+msgstr "Abrir uma nova página"
 
 #: src/contents/ui/desktop/Tabs.qml:323
 #, kde-format
@@ -412,10 +412,10 @@ msgid "Reload Tab"
 msgstr ""
 
 #: src/contents/ui/desktop/Tabs.qml:404
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Private Tabs"
 msgid "Duplicate Tab"
-msgstr "Páginas Privadas"
+msgstr "Duplicar a Página"
 
 #: src/contents/ui/desktop/Tabs.qml:412
 #, fuzzy, kde-format
@@ -424,10 +424,10 @@ msgid "Bookmark Tab"
 msgstr "Favorito"
 
 #: src/contents/ui/desktop/Tabs.qml:428
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Close tab"
 msgid "Close Tab"
-msgstr "Fechar a página"
+msgstr "Fechar a Página"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format

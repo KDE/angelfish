@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-14 01:00+0000\n"
-"PO-Revision-Date: 2023-02-08 10:12+0100\n"
+"POT-Creation-Date: 2023-02-15 01:01+0000\n"
+"PO-Revision-Date: 2023-02-13 10:10+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -264,7 +264,7 @@ msgstr ""
 msgid "Downloading..."
 msgstr "S'està baixant..."
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:251
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:258
 #: src/contents/ui/mobile.qml:79
 #, kde-format
 msgid "Bookmarks"
@@ -286,53 +286,69 @@ msgstr "Encara no hi ha cap adreça d'interés"
 msgid "New Tab"
 msgstr "Pestanya nova"
 
-#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/History.qml:12
+#: src/contents/ui/desktop/desktop.qml:240 src/contents/ui/mobile.qml:71
+#, kde-format
+msgid "Leave private mode"
+msgstr "Ix del mode privat"
+
+#: src/contents/ui/desktop/desktop.qml:240 src/contents/ui/mobile.qml:71
+#, kde-format
+msgid "Private mode"
+msgstr "Mode privat"
+
+#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/History.qml:12
 #: src/contents/ui/mobile.qml:87
 #, kde-format
 msgid "History"
 msgstr "Historial"
 
-#: src/contents/ui/desktop/desktop.qml:260 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:267 src/contents/ui/Downloads.qml:15
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
 msgstr "Baixades"
 
-#: src/contents/ui/desktop/desktop.qml:271
+#: src/contents/ui/desktop/desktop.qml:278
 #, kde-format
 msgid "Full Screen"
 msgstr "Pantalla completa"
 
-#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:292 src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Show developer tools"
 msgstr "Mostra les eines del desenvolupador"
 
-#: src/contents/ui/desktop/desktop.qml:297 src/contents/ui/mobile.qml:276
+#: src/contents/ui/desktop/desktop.qml:304 src/contents/ui/mobile.qml:276
 #, kde-format
 msgid "Find in page"
 msgstr "Busca en la pàgina"
 
-#: src/contents/ui/desktop/desktop.qml:306
+#: src/contents/ui/desktop/desktop.qml:313
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Mode lector"
 
-#: src/contents/ui/desktop/desktop.qml:312
+#: src/contents/ui/desktop/desktop.qml:319
 #, kde-format
 msgid "Add to application launcher"
 msgstr "Afig a l'iniciador d'aplicacions"
 
-#: src/contents/ui/desktop/desktop.qml:331 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:338 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "Configuració"
 
-#: src/contents/ui/desktop/desktop.qml:338
+#: src/contents/ui/desktop/desktop.qml:345
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "Configura Angelfish"
+
+#: src/contents/ui/desktop/desktop.qml:357
+#, fuzzy, kde-format
+#| msgid "Private mode"
+msgid "Private Mode"
+msgstr "Mode privat"
 
 #: src/contents/ui/desktop/HistoryPage.qml:28
 #, kde-format
@@ -399,36 +415,32 @@ msgid "Close tab"
 msgstr "Tanca la pestanya"
 
 #: src/contents/ui/desktop/Tabs.qml:290
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open a new tab"
-msgstr "Obri en una pestanya nova"
+msgstr "Obri una pestanya nova"
 
 #: src/contents/ui/desktop/Tabs.qml:323
 #, kde-format
 msgid "List all tabs"
-msgstr ""
+msgstr "Llista totes les pestanyes"
 
 #: src/contents/ui/desktop/Tabs.qml:396
 #, kde-format
 msgid "Reload Tab"
-msgstr ""
+msgstr "Torna a carregar la pestanya"
 
 #: src/contents/ui/desktop/Tabs.qml:404
-#, fuzzy, kde-format
-#| msgid "Private Tabs"
+#, kde-format
 msgid "Duplicate Tab"
-msgstr "Pestanyes privades"
+msgstr "Duplica la pestanya"
 
 #: src/contents/ui/desktop/Tabs.qml:412
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#, kde-format
 msgid "Bookmark Tab"
-msgstr "Adreça d'interés"
+msgstr "Pestanya d'adreces d'interés"
 
 #: src/contents/ui/desktop/Tabs.qml:428
-#, fuzzy, kde-format
-#| msgid "Close tab"
+#, kde-format
 msgid "Close Tab"
 msgstr "Tanca la pestanya"
 
@@ -489,16 +501,6 @@ msgstr "Navegador web Angelfish"
 #, kde-format
 msgid "Tabs"
 msgstr "Pestanyes"
-
-#: src/contents/ui/mobile.qml:71
-#, kde-format
-msgid "Leave private mode"
-msgstr "Ix del mode privat"
-
-#: src/contents/ui/mobile.qml:71
-#, kde-format
-msgid "Private mode"
-msgstr "Mode privat"
 
 #: src/contents/ui/mobile.qml:280
 #, kde-format

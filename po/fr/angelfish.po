@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-14 01:00+0000\n"
-"PO-Revision-Date: 2023-02-11 16:26+0100\n"
+"POT-Creation-Date: 2023-02-15 01:01+0000\n"
+"PO-Revision-Date: 2023-02-13 19:10+0100\n"
 "Last-Translator: Xavier BESNARD <xavier.besnard]neuf.fr>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.12.1\n"
+"X-Generator: Lokalize 22.12.2\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: \n"
 "X-Text-Markup: \n"
@@ -11491,7 +11491,7 @@ msgstr ""
 msgid "Downloading..."
 msgstr "Téléchargement..."
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:251
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:258
 #: src/contents/ui/mobile.qml:79
 #, kde-format
 msgid "Bookmarks"
@@ -11513,53 +11513,69 @@ msgstr "Aucun signet pour l'instant"
 msgid "New Tab"
 msgstr "Nouvel onglet"
 
-#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/History.qml:12
+#: src/contents/ui/desktop/desktop.qml:240 src/contents/ui/mobile.qml:71
+#, kde-format
+msgid "Leave private mode"
+msgstr "Quitter le mode navigation privée"
+
+#: src/contents/ui/desktop/desktop.qml:240 src/contents/ui/mobile.qml:71
+#, kde-format
+msgid "Private mode"
+msgstr "Mode navigation privée"
+
+#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/History.qml:12
 #: src/contents/ui/mobile.qml:87
 #, kde-format
 msgid "History"
 msgstr "Historique"
 
-#: src/contents/ui/desktop/desktop.qml:260 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:267 src/contents/ui/Downloads.qml:15
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
 msgstr "Téléchargements"
 
-#: src/contents/ui/desktop/desktop.qml:271
+#: src/contents/ui/desktop/desktop.qml:278
 #, kde-format
 msgid "Full Screen"
 msgstr "Plein écran"
 
-#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:292 src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Show developer tools"
 msgstr "Afficher les outils de développement"
 
-#: src/contents/ui/desktop/desktop.qml:297 src/contents/ui/mobile.qml:276
+#: src/contents/ui/desktop/desktop.qml:304 src/contents/ui/mobile.qml:276
 #, kde-format
 msgid "Find in page"
 msgstr "Chercher dans cette page"
 
-#: src/contents/ui/desktop/desktop.qml:306
+#: src/contents/ui/desktop/desktop.qml:313
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Mode lecteur"
 
-#: src/contents/ui/desktop/desktop.qml:312
+#: src/contents/ui/desktop/desktop.qml:319
 #, kde-format
 msgid "Add to application launcher"
 msgstr "Ajouter au lanceur d'applications"
 
-#: src/contents/ui/desktop/desktop.qml:331 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:338 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "Configuration"
 
-#: src/contents/ui/desktop/desktop.qml:338
+#: src/contents/ui/desktop/desktop.qml:345
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "Configurer Angelfish"
+
+#: src/contents/ui/desktop/desktop.qml:357
+#, fuzzy, kde-format
+#| msgid "Private mode"
+msgid "Private Mode"
+msgstr "Mode navigation privée"
 
 #: src/contents/ui/desktop/HistoryPage.qml:28
 #, kde-format
@@ -11626,36 +11642,32 @@ msgid "Close tab"
 msgstr "Fermer un onglet"
 
 #: src/contents/ui/desktop/Tabs.qml:290
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open a new tab"
-msgstr "Ouvrir dans un nouvel onglet"
+msgstr "Ouvrir un nouvel onglet"
 
 #: src/contents/ui/desktop/Tabs.qml:323
 #, kde-format
 msgid "List all tabs"
-msgstr ""
+msgstr "Lister tous les onglets"
 
 #: src/contents/ui/desktop/Tabs.qml:396
 #, kde-format
 msgid "Reload Tab"
-msgstr ""
+msgstr "Recharger un onglet"
 
 #: src/contents/ui/desktop/Tabs.qml:404
-#, fuzzy, kde-format
-#| msgid "Private Tabs"
+#, kde-format
 msgid "Duplicate Tab"
-msgstr "Onglets privés"
+msgstr "Dupliquer un onglet"
 
 #: src/contents/ui/desktop/Tabs.qml:412
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#, kde-format
 msgid "Bookmark Tab"
-msgstr "Signet"
+msgstr "Ajouter un onglet aux favoris"
 
 #: src/contents/ui/desktop/Tabs.qml:428
-#, fuzzy, kde-format
-#| msgid "Close tab"
+#, kde-format
 msgid "Close Tab"
 msgstr "Fermer un onglet"
 
@@ -11716,16 +11728,6 @@ msgstr "Navigateur Web Angelfish"
 #, kde-format
 msgid "Tabs"
 msgstr "Onglets"
-
-#: src/contents/ui/mobile.qml:71
-#, kde-format
-msgid "Leave private mode"
-msgstr "Quitter le mode navigation privée"
-
-#: src/contents/ui/mobile.qml:71
-#, kde-format
-msgid "Private mode"
-msgstr "Mode navigation privée"
 
 #: src/contents/ui/mobile.qml:280
 #, kde-format
