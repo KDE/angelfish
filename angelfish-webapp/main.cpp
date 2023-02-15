@@ -9,6 +9,7 @@
 #include <QCommandLineParser>
 #include <QIcon>
 #include <QQmlApplicationEngine>
+#include <QQuickStyle>
 #include <QUrl>
 #include <QtQml>
 #if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
@@ -43,6 +44,12 @@ QString desktopFileDirectory()
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
+    // set default style and icon theme
+    QIcon::setFallbackThemeName(QStringLiteral("breeze"));
+    if (qEnvironmentVariableIsEmpty("QT_QUICK_CONTROLS_STYLE") && QQuickStyle::name().isEmpty()) {
+        QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
+    }
+
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QGuiApplication::setAttribute(Qt::AA_ShareOpenGLContexts);
 
