@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-15 01:01+0000\n"
+"POT-Creation-Date: 2023-02-16 01:01+0000\n"
 "PO-Revision-Date: 2019-03-02 16:12-0800\n"
 "Last-Translator: Japanese KDE translation team <kde-jp@kde.org>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -67,22 +67,22 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
-#: angelfish-webapp/main.cpp:70
+#: angelfish-webapp/main.cpp:77
 #, kde-format
 msgid "desktop file to open"
 msgstr ""
 
-#: angelfish-webapp/main.cpp:97
+#: angelfish-webapp/main.cpp:104
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr ""
 
-#: angelfish-webapp/main.cpp:99
+#: angelfish-webapp/main.cpp:106
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr ""
 
-#: angelfish-webapp/main.cpp:101
+#: angelfish-webapp/main.cpp:108
 #, kde-format
 msgid "Marco Martin"
 msgstr ""

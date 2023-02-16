@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-15 01:01+0000\n"
-"PO-Revision-Date: 2023-02-13 09:13+0200\n"
+"POT-Creation-Date: 2023-02-16 01:01+0000\n"
+"PO-Revision-Date: 2023-02-15 08:55+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -73,22 +73,22 @@ msgstr "Копіювати адресу"
 msgid "Download"
 msgstr "Отримати"
 
-#: angelfish-webapp/main.cpp:70
+#: angelfish-webapp/main.cpp:77
 #, kde-format
 msgid "desktop file to open"
 msgstr "файл desktop, який слід відкрити"
 
-#: angelfish-webapp/main.cpp:97
+#: angelfish-webapp/main.cpp:104
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr "Середовище виконання вебпрограм Angelfish"
 
-#: angelfish-webapp/main.cpp:99
+#: angelfish-webapp/main.cpp:106
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "© Розробники Angelfish, 2020"
 
-#: angelfish-webapp/main.cpp:101
+#: angelfish-webapp/main.cpp:108
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
@@ -345,8 +345,7 @@ msgid "Configure Angelfish"
 msgstr "Налаштувати Angelfish"
 
 #: src/contents/ui/desktop/desktop.qml:357
-#, fuzzy, kde-format
-#| msgid "Private mode"
+#, kde-format
 msgid "Private Mode"
 msgstr "Конфіденційний режим"
 

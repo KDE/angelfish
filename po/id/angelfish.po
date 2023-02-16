@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-15 01:01+0000\n"
+"POT-Creation-Date: 2023-02-16 01:01+0000\n"
 "PO-Revision-Date: 2022-08-19 20:36+0700\n"
 "Last-Translator: Wantoyèk <wantoyek@gmail.com>\n"
 "Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
@@ -70,22 +70,22 @@ msgstr "Salin URL"
 msgid "Download"
 msgstr "Unduh"
 
-#: angelfish-webapp/main.cpp:70
+#: angelfish-webapp/main.cpp:77
 #, kde-format
 msgid "desktop file to open"
 msgstr "file desktop untuk dibuka"
 
-#: angelfish-webapp/main.cpp:97
+#: angelfish-webapp/main.cpp:104
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr "Rntime Apl Web Angelfish"
 
-#: angelfish-webapp/main.cpp:99
+#: angelfish-webapp/main.cpp:106
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "Hak cipta 2010 para pengembang Angelfish"
 
-#: angelfish-webapp/main.cpp:101
+#: angelfish-webapp/main.cpp:108
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"

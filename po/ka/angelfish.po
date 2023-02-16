@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-15 01:01+0000\n"
+"POT-Creation-Date: 2023-02-16 01:01+0000\n"
 "PO-Revision-Date: 2023-02-13 06:46+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -71,22 +71,22 @@ msgstr "URL-ის კოპირება"
 msgid "Download"
 msgstr "გადმოწერა"
 
-#: angelfish-webapp/main.cpp:70
+#: angelfish-webapp/main.cpp:77
 #, kde-format
 msgid "desktop file to open"
 msgstr "გასახსნელი desktop faili"
 
-#: angelfish-webapp/main.cpp:97
+#: angelfish-webapp/main.cpp:104
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr "Angelfish WebApp"
 
-#: angelfish-webapp/main.cpp:99
+#: angelfish-webapp/main.cpp:106
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "2020 Angelfish-ის პროგრამისტები, ყველა უფლება დაცულია"
 
-#: angelfish-webapp/main.cpp:101
+#: angelfish-webapp/main.cpp:108
 #, kde-format
 msgid "Marco Martin"
 msgstr "მაკრო მარტინი"

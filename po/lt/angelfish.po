@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-15 01:01+0000\n"
+"POT-Creation-Date: 2023-02-16 01:01+0000\n"
 "PO-Revision-Date: 2021-09-10 14:03+0300\n"
 "Last-Translator: Moo\n"
 "Language-Team: lt\n"
@@ -72,23 +72,23 @@ msgstr "Kopijuoti Url"
 msgid "Download"
 msgstr "Atsisiųsti"
 
-#: angelfish-webapp/main.cpp:70
+#: angelfish-webapp/main.cpp:77
 #, kde-format
 msgid "desktop file to open"
 msgstr ""
 
-#: angelfish-webapp/main.cpp:97
+#: angelfish-webapp/main.cpp:104
 #, fuzzy, kde-format
 #| msgid "Angelfish Web Browser"
 msgid "Angelfish Web App runtime"
 msgstr "Angelfish saityno naršyklė"
 
-#: angelfish-webapp/main.cpp:99
+#: angelfish-webapp/main.cpp:106
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "Autorių teisės 2020 Angelfish programuotojai"
 
-#: angelfish-webapp/main.cpp:101
+#: angelfish-webapp/main.cpp:108
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"

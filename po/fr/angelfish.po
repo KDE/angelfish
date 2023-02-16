@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-15 01:01+0000\n"
-"PO-Revision-Date: 2023-02-13 19:10+0100\n"
+"POT-Creation-Date: 2023-02-16 01:01+0000\n"
+"PO-Revision-Date: 2023-02-15 18:18+0100\n"
 "Last-Translator: Xavier BESNARD <xavier.besnard]neuf.fr>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -11292,22 +11292,22 @@ msgstr "Copier l'URL"
 msgid "Download"
 msgstr "Télécharger"
 
-#: angelfish-webapp/main.cpp:70
+#: angelfish-webapp/main.cpp:77
 #, kde-format
 msgid "desktop file to open"
 msgstr "fichier bureau à ouvrir"
 
-#: angelfish-webapp/main.cpp:97
+#: angelfish-webapp/main.cpp:104
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr "Exécutif d'appli Web Angelfish"
 
-#: angelfish-webapp/main.cpp:99
+#: angelfish-webapp/main.cpp:106
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "Copyright 2020 L'équipe de développement de Angelfish"
 
-#: angelfish-webapp/main.cpp:101
+#: angelfish-webapp/main.cpp:108
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
@@ -11572,10 +11572,9 @@ msgid "Configure Angelfish"
 msgstr "Configurer Angelfish"
 
 #: src/contents/ui/desktop/desktop.qml:357
-#, fuzzy, kde-format
-#| msgid "Private mode"
+#, kde-format
 msgid "Private Mode"
-msgstr "Mode navigation privée"
+msgstr "Mode privé"
 
 #: src/contents/ui/desktop/HistoryPage.qml:28
 #, kde-format
