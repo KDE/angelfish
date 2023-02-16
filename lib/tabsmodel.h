@@ -58,7 +58,7 @@ public:
     int currentTab() const;
     void setCurrentTab(int index);
 
-    QVector<TabState> tabs() const;
+    const std::vector<TabState> &tabs() const;
 
     Q_INVOKABLE TabState tab(int index);
 
@@ -85,7 +85,7 @@ protected:
 
 private:
     int m_currentTab = 0;
-    QVector<TabState> m_tabs{};
+    std::vector<TabState> m_tabs{};
     bool m_privateMode = false;
     bool m_tabsReadOnly = false;
     bool m_isMobileDefault = false;

@@ -20,7 +20,7 @@ private Q_SLOTS:
 
     void testInitialTabExists()
     {
-        QCOMPARE(m_tabsModel->tabs().count(), 1);
+        QCOMPARE(m_tabsModel->tabs().size(), 1);
 
         // Current tab should be initial tab
         QCOMPARE(m_tabsModel->currentTab(), 0);
@@ -30,7 +30,7 @@ private Q_SLOTS:
     void testNewTab()
     {
         m_tabsModel->newTab(QUrl(QStringLiteral("https://kde.org")));
-        QCOMPARE(m_tabsModel->tabs().count(), 2);
+        QCOMPARE(m_tabsModel->tabs().size(), 2);
 
         qDebug() << m_tabsModel->tab(1).url() << m_tabsModel->tab(0).isMobile();
         QCOMPARE(m_tabsModel->tab(1).url(), QUrl(QStringLiteral("https://kde.org")));
@@ -47,7 +47,7 @@ private Q_SLOTS:
     void testCloseTab() {
         // Close initial tab, keep kde.org one
         m_tabsModel->closeTab(0);
-        QCOMPARE(m_tabsModel->tabs().count(), 1);
+        QCOMPARE(m_tabsModel->tabs().size(), 1);
 
         // Check tabs moved properly
         QCOMPARE(m_tabsModel->tabs().at(0).url(), QUrl(QStringLiteral("https://kde.org")));
@@ -57,25 +57,25 @@ private Q_SLOTS:
         m_tabsModel->setUrl(0, QUrl(QStringLiteral("https://debian.org")));
 
         // Number of tabs must not change
-        QCOMPARE(m_tabsModel->tabs().count(), 1);
+        QCOMPARE(m_tabsModel->tabs().size(), 1);
 
         QCOMPARE(m_tabsModel->tabs().at(0).url(), QUrl(QStringLiteral("https://debian.org")));
     }
 
     void testRowCountMatches() {
-        QCOMPARE(m_tabsModel->tabs().count(), m_tabsModel->rowCount());
+        QCOMPARE(m_tabsModel->tabs().size(), m_tabsModel->rowCount());
     }
 
     void testCloseCurrentTab() {
         //
         // Case 1: There is only one tab, a new one should be created
         //
-        QCOMPARE(m_tabsModel->tabs().count(), 1);
+        QCOMPARE(m_tabsModel->tabs().size(), 1);
         m_tabsModel->setCurrentTab(0);
         m_tabsModel->closeTab(0);
 
         // Check whether a new empty tab was created (count must not be less than one)
-        QCOMPARE(m_tabsModel->tabs().count(), 1);
+        QCOMPARE(m_tabsModel->tabs().size(), 1);
         QCOMPARE(m_tabsModel->tabs().at(0).url(), QUrl(QStringLiteral("about:blank")));
 
         //
@@ -84,7 +84,7 @@ private Q_SLOTS:
         m_tabsModel->newTab(QUrl(QStringLiteral("second")));
         m_tabsModel->newTab(QUrl(QStringLiteral("third")));
 
-        QCOMPARE(m_tabsModel->tabs(), QVector<TabState>({
+        QCOMPARE(m_tabsModel->tabs(), std::vector<TabState>({
             TabState(QUrl(QStringLiteral("about:blank")), m_tabsModel->isMobileDefault()),
             TabState(QUrl(QStringLiteral("second")), m_tabsModel->isMobileDefault()),
             TabState(QUrl(QStringLiteral("third")), m_tabsModel->isMobileDefault())
@@ -97,7 +97,7 @@ private Q_SLOTS:
         QCOMPARE(m_tabsModel->currentTab(), 0);
 
         // "second" is indeed gone
-        QCOMPARE(m_tabsModel->tabs(), QVector<TabState>({
+        QCOMPARE(m_tabsModel->tabs(), std::vector<TabState>({
             TabState(QUrl(QStringLiteral("about:blank")),  m_tabsModel->isMobileDefault()),
             TabState(QUrl(QStringLiteral("third")),  m_tabsModel->isMobileDefault())
         }));
@@ -105,7 +105,7 @@ private Q_SLOTS:
 
     void testSetTab() {
         m_tabsModel->setUrl(0, QUrl(QStringLiteral("https://debian.org")));
-        QCOMPARE(m_tabsModel->tabs(), QVector<TabState>({
+        QCOMPARE(m_tabsModel->tabs(), std::vector<TabState>({
             TabState(QUrl(QStringLiteral("https://debian.org")),  m_tabsModel->isMobileDefault()),
             TabState(QUrl(QStringLiteral("third")),  m_tabsModel->isMobileDefault())}
         ));

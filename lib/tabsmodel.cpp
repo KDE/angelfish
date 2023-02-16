@@ -51,7 +51,7 @@ QHash<int, QByteArray> TabsModel::roleNames() const
 
 QVariant TabsModel::data(const QModelIndex &index, int role) const
 {
-    if (!index.isValid() || index.row() < 0 || index.row() >= m_tabs.count()) {
+    if (!index.isValid() || index.row() < 0 || size_t(index.row()) >= m_tabs.size()) {
         return {};
     }
 
@@ -69,7 +69,7 @@ QVariant TabsModel::data(const QModelIndex &index, int role) const
 
 int TabsModel::rowCount(const QModelIndex &parent) const
 {
-    return parent.isValid() ? 0 : m_tabs.count();
+    return parent.isValid() ? 0 : int(m_tabs.size());
 }
 
 /**
@@ -79,7 +79,7 @@ int TabsModel::rowCount(const QModelIndex &parent) const
  */
 TabState TabsModel::tab(int index)
 {
-    if (index < 0 && index >= m_tabs.count())
+    if (index < 0 || size_t(index) >= m_tabs.size())
         return {}; // index out of bounds
 
     return m_tabs.at(index);
@@ -106,10 +106,10 @@ void TabsModel::loadInitialTabs()
 
     if (!m_privateMode) {
         if (BrowserManager::instance()->initialUrl().isEmpty()) {
-            if (m_tabs.first().url() == QUrl(QStringLiteral("about:blank")))
+            if (m_tabs.front().url() == QUrl(QStringLiteral("about:blank")))
                 setUrl(0, AngelfishSettings::self()->homepage());
         } else {
-            if (m_tabs.first().url() == QUrl(QStringLiteral("about:blank")))
+            if (m_tabs.front().url() == QUrl(QStringLiteral("about:blank")))
                 setUrl(0, BrowserManager::instance()->initialUrl());
             else
                 newTab(BrowserManager::instance()->initialUrl());
@@ -134,7 +134,7 @@ int TabsModel::currentTab() const
  */
 void TabsModel::setCurrentTab(int index)
 {
-    if (index >= m_tabs.count())
+    if (index < 0 || size_t(index) >= m_tabs.size())
         return;
 
     m_currentTab = index;
@@ -142,7 +142,7 @@ void TabsModel::setCurrentTab(int index)
     saveTabs();
 }
 
-QVector<TabState> TabsModel::tabs() const
+const std::vector<TabState> &TabsModel::tabs() const
 {
     return m_tabs;
 }
@@ -175,12 +175,12 @@ bool TabsModel::loadTabs()
             return TabState::fromJson(tab.toObject());
         });
 
-        qDebug() << "loaded from file:" << m_tabs.count() << input;
+        qDebug() << "loaded from file:" << m_tabs.size() << input;
 
         m_currentTab = tabsStorage.value(QLatin1String("currentTab")).toInt();
 
         // Make sure model always contains at least one tab
-        if (m_tabs.count() == 0) {
+        if (m_tabs.size() == 0) {
             createEmptyTab();
         }
 
@@ -242,7 +242,7 @@ void TabsModel::setIsMobileDefault(bool def)
         Q_EMIT isMobileDefaultChanged();
 
         // used in initialization of the tab
-        if (m_tabs.count() == 1) {
+        if (m_tabs.size() == 1) {
             setIsMobile(0, def);
         }
     }
@@ -274,15 +274,15 @@ void TabsModel::createEmptyTab()
  */
 void TabsModel::newTab(const QUrl &url)
 {
-    beginInsertRows({}, m_tabs.count(), m_tabs.count());
+    beginInsertRows({}, m_tabs.size(), m_tabs.size());
 
-    m_tabs.append(TabState(url, m_isMobileDefault));
+    m_tabs.push_back(TabState(url, m_isMobileDefault));
 
     endInsertRows();
 
     // Switch to last tab
     if (AngelfishSettings::self()->switchToNewTab()) {
-        m_currentTab = m_tabs.count() - 1;
+        m_currentTab = m_tabs.size() - 1;
         Q_EMIT currentTabChanged();
     }
     saveTabs();
@@ -294,10 +294,10 @@ void TabsModel::newTab(const QUrl &url)
  */
 void TabsModel::closeTab(int index)
 {
-    if (index < 0 && index >= m_tabs.count())
+    if (index < 0 || size_t(index) >= m_tabs.size())
         return; // index out of bounds
 
-    if (m_tabs.count() <= 1) {
+    if (m_tabs.size() <= 1) {
         // if not in mobile, close application
         if (!SettingsHelper::isMobile()) {
             QCoreApplication::quit();
@@ -332,7 +332,7 @@ void TabsModel::closeTab(int index)
     }
 
     beginRemoveRows({}, index, index);
-    m_tabs.removeAt(index);
+    m_tabs.erase(m_tabs.begin() + index);
     endRemoveRows();
 
     Q_EMIT currentTabChanged();
@@ -341,8 +341,8 @@ void TabsModel::closeTab(int index)
 
 void TabsModel::setIsMobile(int index, bool isMobile)
 {
-    qDebug() << "Setting isMobile:" << index << isMobile << "tabs open" << m_tabs.count();
-    if (index < 0 && index >= m_tabs.count())
+    qDebug() << "Setting isMobile:" << index << isMobile << "tabs open" << m_tabs.size();
+    if (index < 0 || size_t(index) >= m_tabs.size())
         return; // index out of bounds
 
     m_tabs[index].setIsMobile(isMobile);
@@ -354,7 +354,7 @@ void TabsModel::setIsMobile(int index, bool isMobile)
 
 void TabsModel::toggleDeveloperTools(int index)
 {
-    if (index < 0 && index >= m_tabs.count())
+    if (index < 0 || size_t(index) >= m_tabs.size())
         return; // index out of bounds
 
     auto &tab = m_tabs[index];
@@ -367,7 +367,7 @@ void TabsModel::toggleDeveloperTools(int index)
 
 bool TabsModel::isDeveloperToolsOpen(int index)
 {
-    if (index < 0 && index >= m_tabs.count())
+    if (index < 0 || size_t(index) >= m_tabs.size())
         return false;
 
     return m_tabs.at(index).isDeveloperToolsOpen();
@@ -375,8 +375,8 @@ bool TabsModel::isDeveloperToolsOpen(int index)
 
 void TabsModel::setUrl(int index, const QUrl &url)
 {
-    qDebug() << "Setting URL:" << index << url << "tabs open" << m_tabs.count();
-    if (index < 0 && index >= m_tabs.count())
+    qDebug() << "Setting URL:" << index << url << "tabs open" << m_tabs.size();
+    if (index < 0 || size_t(index) >= m_tabs.size())
         return; // index out of bounds
 
     m_tabs[index].setUrl(url);
