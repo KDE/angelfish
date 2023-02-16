@@ -48,7 +48,13 @@ Item {
             onDisplayTextChanged: currentWebView.findText(displayText)
             Keys.onEscapePressed: findInPage.active = false
 
-            color: currentWebView.findInPageResultCount == 0 ? Kirigami.Theme.neutralTextColor : Kirigami.Theme.textColor
+            color: {
+                if (input.text === "") {
+                    return Kirigami.Theme.textColor
+                }
+
+                currentWebView.findInPageResultCount == 0 ? Kirigami.Theme.neutralTextColor : Kirigami.Theme.textColor
+            }
 
             Controls.Label {
                 id: index
