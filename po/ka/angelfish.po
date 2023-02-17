@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-16 01:01+0000\n"
-"PO-Revision-Date: 2023-02-13 06:46+0100\n"
+"PO-Revision-Date: 2023-02-16 05:36+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -341,8 +341,7 @@ msgid "Configure Angelfish"
 msgstr "Angelfish-ის მორგება"
 
 #: src/contents/ui/desktop/desktop.qml:357
-#, fuzzy, kde-format
-#| msgid "Private mode"
+#, kde-format
 msgid "Private Mode"
 msgstr "კონფიდენციალური რეჟიმი"
 
