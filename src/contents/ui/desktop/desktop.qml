@@ -316,6 +316,17 @@ Kirigami.ApplicationWindow {
                 QQC2.MenuSeparator {}
 
                 Kirigami.Action {
+                    icon.name: "document-share"
+                    text: i18n("Share page")
+                    onTriggered: {
+                        sheetLoader.setSource("ShareSheet.qml")
+                        sheetLoader.item.url = currentWebView.url
+                        sheetLoader.item.inputTitle = currentWebView.title
+                        Qt.callLater(sheetLoader.item.open)
+                    }
+                }
+
+                Kirigami.Action {
                     text: i18n("Add to application launcher")
                     icon.name: "install"
                     enabled: !webAppCreator.exists
