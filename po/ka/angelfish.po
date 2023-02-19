@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-16 01:01+0000\n"
+"POT-Creation-Date: 2023-02-19 01:00+0000\n"
 "PO-Revision-Date: 2023-02-16 05:36+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -325,22 +325,27 @@ msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "კითხვის რეჟიმი"
 
-#: src/contents/ui/desktop/desktop.qml:319
+#: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:280
+#, kde-format
+msgid "Share page"
+msgstr "გვერდის გაზიარება"
+
+#: src/contents/ui/desktop/desktop.qml:330
 #, kde-format
 msgid "Add to application launcher"
 msgstr "აპლიკაციების გამშვებში ჩამატება"
 
-#: src/contents/ui/desktop/desktop.qml:338 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:349 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "პარამეტრები"
 
-#: src/contents/ui/desktop/desktop.qml:345
+#: src/contents/ui/desktop/desktop.qml:356
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "Angelfish-ის მორგება"
 
-#: src/contents/ui/desktop/desktop.qml:357
+#: src/contents/ui/desktop/desktop.qml:368
 #, kde-format
 msgid "Private Mode"
 msgstr "კონფიდენციალური რეჟიმი"
@@ -496,11 +501,6 @@ msgstr "Angelfish ბრაუზერი"
 #, kde-format
 msgid "Tabs"
 msgstr "დაფები"
-
-#: src/contents/ui/mobile.qml:280
-#, kde-format
-msgid "Share page"
-msgstr "გვერდის გაზიარება"
 
 #: src/contents/ui/mobile.qml:291
 #, kde-format

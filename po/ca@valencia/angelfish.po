@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-16 01:01+0000\n"
+"POT-Creation-Date: 2023-02-19 01:00+0000\n"
 "PO-Revision-Date: 2023-02-15 12:31+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -329,22 +329,27 @@ msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Mode lector"
 
-#: src/contents/ui/desktop/desktop.qml:319
+#: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:280
+#, kde-format
+msgid "Share page"
+msgstr "Compartix la pàgina"
+
+#: src/contents/ui/desktop/desktop.qml:330
 #, kde-format
 msgid "Add to application launcher"
 msgstr "Afig a l'iniciador d'aplicacions"
 
-#: src/contents/ui/desktop/desktop.qml:338 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:349 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "Configuració"
 
-#: src/contents/ui/desktop/desktop.qml:345
+#: src/contents/ui/desktop/desktop.qml:356
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "Configura Angelfish"
 
-#: src/contents/ui/desktop/desktop.qml:357
+#: src/contents/ui/desktop/desktop.qml:368
 #, kde-format
 msgid "Private Mode"
 msgstr "Mode privat"
@@ -500,11 +505,6 @@ msgstr "Navegador web Angelfish"
 #, kde-format
 msgid "Tabs"
 msgstr "Pestanyes"
-
-#: src/contents/ui/mobile.qml:280
-#, kde-format
-msgid "Share page"
-msgstr "Compartix la pàgina"
 
 #: src/contents/ui/mobile.qml:291
 #, kde-format

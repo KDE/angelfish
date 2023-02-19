@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-16 01:01+0000\n"
+"POT-Creation-Date: 2023-02-19 01:00+0000\n"
 "PO-Revision-Date: 2023-02-15 19:12+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -328,22 +328,27 @@ msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Irakurle modua"
 
-#: src/contents/ui/desktop/desktop.qml:319
+#: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:280
+#, kde-format
+msgid "Share page"
+msgstr "Partekatu orria"
+
+#: src/contents/ui/desktop/desktop.qml:330
 #, kde-format
 msgid "Add to application launcher"
 msgstr "Gehitu aplikazio abiarazlean"
 
-#: src/contents/ui/desktop/desktop.qml:338 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:349 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "Ezarpenak"
 
-#: src/contents/ui/desktop/desktop.qml:345
+#: src/contents/ui/desktop/desktop.qml:356
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "Konfiguratu Angelfish"
 
-#: src/contents/ui/desktop/desktop.qml:357
+#: src/contents/ui/desktop/desktop.qml:368
 #, kde-format
 msgid "Private Mode"
 msgstr "Modu pribatua"
@@ -499,11 +504,6 @@ msgstr "Angelfish web arakatzailea"
 #, kde-format
 msgid "Tabs"
 msgstr "Fitxak"
-
-#: src/contents/ui/mobile.qml:280
-#, kde-format
-msgid "Share page"
-msgstr "Partekatu orria"
 
 #: src/contents/ui/mobile.qml:291
 #, kde-format

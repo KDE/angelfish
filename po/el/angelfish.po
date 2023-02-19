@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-16 01:01+0000\n"
+"POT-Creation-Date: 2023-02-19 01:00+0000\n"
 "PO-Revision-Date: 2023-01-04 09:34+0200\n"
 "Last-Translator: Stelios <sstavra@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -328,22 +328,27 @@ msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Λειτουργία αναγνώστη"
 
-#: src/contents/ui/desktop/desktop.qml:319
+#: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:280
+#, kde-format
+msgid "Share page"
+msgstr "Διαμοιρασμός σελίδας"
+
+#: src/contents/ui/desktop/desktop.qml:330
 #, kde-format
 msgid "Add to application launcher"
 msgstr "Προσθήκη στον εκτελεστή εφαρμογών"
 
-#: src/contents/ui/desktop/desktop.qml:338 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:349 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "Ρυθμίσεις"
 
-#: src/contents/ui/desktop/desktop.qml:345
+#: src/contents/ui/desktop/desktop.qml:356
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "Διαμόρφωση Angelfish"
 
-#: src/contents/ui/desktop/desktop.qml:357
+#: src/contents/ui/desktop/desktop.qml:368
 #, fuzzy, kde-format
 #| msgid "Private mode"
 msgid "Private Mode"
@@ -505,11 +510,6 @@ msgstr "Περιηγητής ιστού Angelfish"
 #, kde-format
 msgid "Tabs"
 msgstr "Καρτέλες"
-
-#: src/contents/ui/mobile.qml:280
-#, kde-format
-msgid "Share page"
-msgstr "Διαμοιρασμός σελίδας"
 
 #: src/contents/ui/mobile.qml:291
 #, kde-format
