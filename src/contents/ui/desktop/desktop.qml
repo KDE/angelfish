@@ -294,12 +294,11 @@ Kirigami.ApplicationWindow {
 
                 Kirigami.Action {
                     icon.name: "dialog-scripts"
-                    text: i18n("Show developer tools")
-                    checkable: true
-                    checked: tabs.itemAt(tabs.currentIndex).isDeveloperToolsOpen
-                    onTriggered: {
-                        tabs.tabsModel.toggleDeveloperTools(tabs.currentIndex)
-                    }
+                    text: tabs.itemAt(tabs.currentIndex) && tabs.itemAt(tabs.currentIndex).isDeveloperToolsOpen
+                        ? i18n("Hide developer tools")
+                        : i18n("Show developer tools")
+                    shortcut: "F12"
+                    onTriggered: tabs.tabsModel.toggleDeveloperTools(tabs.currentIndex)
                 }
 
                 Kirigami.Action {

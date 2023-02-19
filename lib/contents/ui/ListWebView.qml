@@ -2,14 +2,14 @@
 //
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-import QtQuick 2.3
-import QtQuick.Controls 2.15
-import QtQml.Models 2.1
+import QtQuick 2.15
+import QtQuick.Controls 2.15 as QQC2
+import QtQml.Models 2.15
 import QtWebEngine 1.10
 
-import org.kde.kirigami 2.7 as Kirigami
-import org.kde.angelfish 1.0
+import org.kde.kirigami 2.19 as Kirigami
 
+import org.kde.angelfish 1.0
 
 Repeater {
     id: tabs
@@ -37,7 +37,7 @@ Repeater {
         privateMode: privateTabsMode
     }
 
-    delegate: SplitView {
+    delegate: QQC2.SplitView {
         id: tabDelegate
 
         required property bool isMobile
@@ -47,7 +47,7 @@ Repeater {
         required property int index
 
         anchors.fill: parent
-        orientation: Qt.Vertical
+        orientation: width < height ? Qt.Vertical : Qt.Horizontal
 
         property bool readyForSnapshot: false
         property bool showView: index === tabs.currentIndex
@@ -67,7 +67,11 @@ Repeater {
         visible: isVisible
 
         Item {
-            SplitView.minimumHeight: 100
+            QQC2.SplitView.minimumWidth: 25
+            QQC2.SplitView.minimumHeight: 25
+            QQC2.SplitView.fillWidth: true
+            QQC2.SplitView.fillHeight: true
+
             WebView {
                 id: pageWebView
                 anchors.fill: parent
@@ -95,7 +99,10 @@ Repeater {
         }
 
         Item {
-            SplitView.minimumHeight: 100
+            QQC2.SplitView.minimumWidth: 75
+            QQC2.SplitView.minimumHeight: 27 // height of the developer tools menu
+            QQC2.SplitView.preferredWidth: 500
+            QQC2.SplitView.preferredHeight: 200
             visible: tabDelegate.isDeveloperToolsOpen
 
             Loader {
