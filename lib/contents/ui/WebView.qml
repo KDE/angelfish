@@ -2,15 +2,14 @@
 //
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-import QtQuick 2.3
-import QtQuick.Controls 2.4 as Controls
-import QtQuick.Window 2.1
-import QtQuick.Layouts 1.3
+import QtQuick 2.15
+import QtQuick.Controls 2.15 as QQC2
+import QtQuick.Layouts 1.15
 import QtWebEngine 1.10
 
-import org.kde.kirigami 2.4 as Kirigami
-import org.kde.angelfish 1.0
+import org.kde.kirigami 2.19 as Kirigami
 
+import org.kde.angelfish 1.0
 
 WebEngineView {
     id: webEngineView
@@ -59,49 +58,8 @@ WebEngineView {
     property int findInPageResultIndex
     property int findInPageResultCount
 
-    // Menu that can be overriden from subclasses
-    property Controls.Menu contextMenu: Controls.Menu {
-        property ContextMenuRequest request
-
-        Controls.MenuItem {
-            enabled: contextMenu.request && (contextMenu.request.editFlags & ContextMenuRequest.CanCopy) != 0
-            text: i18n("Copy")
-            onTriggered: webEngineView.triggerWebAction(WebEngineView.Copy)
-        }
-        Controls.MenuItem {
-            enabled: contextMenu.request && (contextMenu.request.editFlags & ContextMenuRequest.CanCut) != 0
-            text: i18n("Cut")
-            onTriggered: webEngineView.triggerWebAction(WebEngineView.Cut)
-        }
-        Controls.MenuItem {
-            enabled: contextMenu.request && (contextMenu.request.editFlags & ContextMenuRequest.CanPaste) != 0
-            text: i18n("Paste")
-            onTriggered: webEngineView.triggerWebAction(WebEngineView.Paste)
-        }
-        Controls.MenuItem {
-            enabled: contextMenu.request && contextMenu.request.selectedText
-            text: contextMenu.request && contextMenu.request.selectedText ? i18n("Search online for '%1'", contextMenu.request.selectedText) : i18n("Search online")
-            onTriggered: tabsModel.newTab(UrlUtils.urlFromUserInput(Settings.searchBaseUrl + contextMenu.request.selectedText));
-        }
-        Controls.MenuItem {
-            enabled: contextMenu.request && contextMenu.request.linkUrl !== ""
-            text: i18n("Copy Url")
-            onTriggered: webEngineView.triggerWebAction(WebEngineView.CopyLinkToClipboard)
-        }
-        Controls.MenuItem {
-            text: i18n("View source")
-            onTriggered: tabsModel.newTab("view-source:" + webEngineView.url)
-        }
-        Controls.MenuItem {
-            text: i18n("Download")
-            onTriggered: webEngineView.triggerWebAction(WebEngineView.DownloadLinkToDisk)
-        }
-        Controls.MenuItem {
-            enabled: contextMenu.request && contextMenu.request.linkUrl !== ""
-            text: i18n("Open in new Tab")
-            onTriggered: webEngineView.triggerWebAction(WebEngineView.OpenLinkInNewTab)
-        }
-    }
+    // Used to hide certain context menu items
+    property bool isAppView: false
 
     // Used to track reader mode switch
     property bool readerMode: false
@@ -111,6 +69,12 @@ WebEngineView {
 
     // string to keep last title to return from reader mode
     property string readerTitle
+
+    Shortcut {
+        enabled: webEngineView.isFullScreen
+        sequence: "Esc"
+        onActivated: webEngineView.fullScreenCancelled();
+    }
 
     // helper function to apply DomDistiller
     function readerDistillerRun() {
@@ -148,6 +112,8 @@ WebEngineView {
         showScrollBars: !Kirigami.Settings.isMobile
         // Generally allow screen sharing, still needs permission from the user
         screenCaptureEnabled: true
+        // Enables a web page to request that one of its HTML elements be made to occupy the user's entire screen
+        fullScreenSupportEnabled: true
     }
 
     focus: true
@@ -283,11 +249,16 @@ classes
     }
 
     onFullScreenRequested: {
-        request.accept()
-        if (webBrowser.visibility !== Window.FullScreen)
+        if (request.toggleOn) {
             webBrowser.showFullScreen()
-        else
+            const message = i18n("Entered Full Screen Mode")
+            const actionText = i18n("Exit Full Screen (Esc)")
+            showPassiveNotification(message, "short", actionText, function() { webEngineView.fullScreenCancelled() });
+        } else {
             webBrowser.showNormal()
+        }
+
+        request.accept()
     }
 
     onContextMenuRequested: {
@@ -363,5 +334,258 @@ classes
     function stopLoading() {
         loadingActive = false;
         stop();
+    }
+
+    onLinkHovered: hoveredLink.text = hoveredUrl
+
+    QQC2.Label {
+        id: hoveredLink
+        visible: text.length > 0
+        z: 2
+        anchors.bottom: parent.bottom
+        anchors.left: parent.left
+        leftPadding: Kirigami.Units.smallSpacing
+        rightPadding: Kirigami.Units.smallSpacing
+        color: Kirigami.Theme.textColor
+        font.pointSize: Kirigami.Theme.defaultFont.pointSize - 1
+
+        background: Rectangle {
+            anchors.fill: parent
+            color: Kirigami.Theme.backgroundColor
+        }
+    }
+
+    QQC2.Menu {
+        id: contextMenu
+        property ContextMenuRequest request
+        property bool isValidUrl: contextMenu.request && contextMenu.request.linkUrl != "" // not strict equality
+        property bool isAudio: contextMenu.request && contextMenu.request.mediaType === ContextMenuRequest.MediaTypeAudio
+        property bool isImage: contextMenu.request && contextMenu.request.mediaType === ContextMenuRequest.MediaTypeImage
+        property bool isVideo: contextMenu.request && contextMenu.request.mediaType === ContextMenuRequest.MediaTypeVideo
+        property real playbackRate: 100
+
+        onAboutToShow: {
+            if (webEngineView.settings.javascriptEnabled && (contextMenu.isAudio || contextMenu.isVideo)) {
+                const point = contextMenu.request.x + ', ' + contextMenu.request.y
+                const js = 'document.elementFromPoint(' + point + ').playbackRate * 100;'
+                webEngineView.runJavaScript(js, function(result) { contextMenu.playbackRate = result })
+            }
+        }
+
+        QQC2.MenuItem {
+            visible: contextMenu.isAudio || contextMenu.isVideo
+            height: visible ? implicitHeight : 0
+            text: contextMenu.request && contextMenu.request.mediaFlags & ContextMenuRequest.MediaPaused
+            ? i18n("Play")
+            : i18n("Pause")
+            onTriggered: webEngineView.triggerWebAction(WebEngineView.ToggleMediaPlayPause)
+        }
+        QQC2.MenuItem {
+            visible: contextMenu.request && contextMenu.request.mediaFlags & ContextMenuRequest.MediaHasAudio
+            height: visible ? implicitHeight : 0
+            text:  contextMenu.request && contextMenu.request.mediaFlags & ContextMenuRequest.MediaMuted
+            ? i18n("Unmute")
+            : i18n("Mute")
+            onTriggered: webEngineView.triggerWebAction(WebEngineView.ToggleMediaMute)
+        }
+        QQC2.MenuItem {
+            visible: webEngineView.settings.javascriptEnabled && (contextMenu.isAudio || contextMenu.isVideo)
+            height: visible ? implicitHeight : 0
+            contentItem: RowLayout {
+                QQC2.Label {
+                    Layout.leftMargin: Kirigami.Units.largeSpacing
+                    Layout.fillWidth: true
+                    text: i18n("Speed")
+                }
+                QQC2.SpinBox {
+                    Layout.rightMargin: Kirigami.Units.largeSpacing
+                    value: contextMenu.playbackRate
+                    from: 25
+                    to: 1000
+                    stepSize: 25
+                    onValueModified: {
+                        contextMenu.playbackRate = value
+                        const point = contextMenu.request.x + ', ' + contextMenu.request.y
+                        const js = 'document.elementFromPoint(' + point + ').playbackRate = ' + contextMenu.playbackRate / 100 + ';'
+                        webEngineView.runJavaScript(js)
+                    }
+                    textFromValue: function(value, locale) {
+                        return Number(value / 100).toLocaleString(locale, 'f', 2)
+                    }
+                }
+            }
+        }
+        QQC2.MenuItem {
+            visible: contextMenu.isAudio || contextMenu.isVideo
+            height: visible ? implicitHeight : 0
+            text: i18n("Loop")
+            checked: contextMenu.request && contextMenu.request.mediaFlags & ContextMenuRequest.MediaLoop
+            onTriggered: webEngineView.triggerWebAction(WebEngineView.ToggleMediaLoop)
+        }
+        QQC2.MenuItem {
+            visible: webEngineView.settings.javascriptEnabled && contextMenu.isVideo
+            height: visible ? implicitHeight : 0
+            text: webEngineView.isFullScreen ? i18n("Exit fullscreen") : i18n("Fullscreen")
+            onTriggered: {
+                const point = contextMenu.request.x + ', ' + contextMenu.request.y
+                const js = webEngineView.isFullScreen
+                    ? 'document.exitFullscreen()'
+                    : 'document.elementFromPoint(' + point + ').requestFullscreen()'
+                webEngineView.runJavaScript(js)
+            }
+        }
+        QQC2.MenuItem {
+            visible: webEngineView.settings.javascriptEnabled && (contextMenu.isAudio || contextMenu.isVideo)
+            height: visible ? implicitHeight : 0
+            text: contextMenu.request && contextMenu.request.mediaFlags & ContextMenuRequest.MediaControls
+            ? i18n("Hide controls")
+            : i18n("Show controls")
+            onTriggered: webEngineView.triggerWebAction(WebEngineView.ToggleMediaControls)
+        }
+        QQC2.MenuSeparator { visible: contextMenu.isAudio || contextMenu.isVideo }
+        QQC2.MenuItem {
+            visible: (contextMenu.isAudio || contextMenu.isVideo) && contextMenu.request.mediaUrl !== currentWebView.url
+            height: visible ? implicitHeight : 0
+            text: webEngineView.isAppView
+                ? contextMenu.isVideo ? i18n("Open video") : i18n("Open audio")
+                : contextMenu.isVideo ? i18n("Open video in new Tab") : i18n("Open audio in new Tab")
+            onTriggered: {
+                if (webEngineView.isAppView) {
+                    Qt.openUrlExternally(contextMenu.request.mediaUrl);
+                } else {
+                    tabsModel.newTab(contextMenu.request.mediaUrl)
+                }
+            }
+        }
+        QQC2.MenuItem {
+            visible: contextMenu.isVideo
+            height: visible ? implicitHeight : 0
+            text: i18n("Save video")
+            onTriggered: webEngineView.triggerWebAction(WebEngineView.DownloadMediaToDisk)
+        }
+        QQC2.MenuItem {
+            visible: contextMenu.isVideo
+            height: visible ? implicitHeight : 0
+            text: i18n("Copy video Link")
+            onTriggered: webEngineView.triggerWebAction(WebEngineView.CopyMediaUrlToClipboard)
+        }
+        QQC2.MenuItem {
+            visible: contextMenu.isImage && contextMenu.request.mediaUrl !== currentWebView.url
+            height: visible ? implicitHeight : 0
+            text: webEngineView.isAppView ? i18n("Open image") : i18n("Open image in new Tab")
+            onTriggered: {
+                if (webEngineView.isAppView) {
+                    Qt.openUrlExternally(contextMenu.request.mediaUrl);
+                } else {
+                    tabsModel.newTab(contextMenu.request.mediaUrl)
+                }
+            }
+        }
+        QQC2.MenuItem {
+            visible: contextMenu.isImage
+            height: visible ? implicitHeight : 0
+            text: i18n("Save image")
+            onTriggered: webEngineView.triggerWebAction(WebEngineView.DownloadImageToDisk)
+        }
+        QQC2.MenuItem {
+            visible: contextMenu.isImage
+            height: visible ? implicitHeight : 0
+            text: i18n("Copy image")
+            onTriggered: webEngineView.triggerWebAction(WebEngineView.CopyImageToClipboard)
+        }
+        QQC2.MenuItem {
+            visible: contextMenu.isImage
+            height: visible ? implicitHeight : 0
+            text: i18n("Copy image link")
+            onTriggered: webEngineView.triggerWebAction(WebEngineView.CopyImageUrlToClipboard)
+        }
+        QQC2.MenuItem {
+            visible: contextMenu.request && contextMenu.isValidUrl
+            height: visible ? implicitHeight : 0
+            text: webEngineView.isAppView ? i18n("Open link") : i18n("Open link in new Tab")
+            onTriggered: {
+                if (webEngineView.isAppView) {
+                    Qt.openUrlExternally(contextMenu.request.linkUrl);
+                } else {
+                    webEngineView.triggerWebAction(WebEngineView.OpenLinkInNewTab)
+                }
+            }
+        }
+        QQC2.MenuItem {
+            visible: contextMenu.request && contextMenu.isValidUrl
+            height: visible ? implicitHeight : 0
+            text: i18n("Bookmark link")
+            onTriggered: {
+                const bookmark = {
+                    url: contextMenu.request.linkUrl,
+                    title: contextMenu.request.linkText
+                }
+                BrowserManager.addBookmark(bookmark)
+            }
+        }
+        QQC2.MenuItem {
+            visible: contextMenu.request && contextMenu.isValidUrl
+            height: visible ? implicitHeight : 0
+            text: i18n("Save link")
+            onTriggered: webEngineView.triggerWebAction(WebEngineView.DownloadLinkToDisk)
+        }
+        QQC2.MenuItem {
+            visible: contextMenu.request && contextMenu.isValidUrl
+            height: visible ? implicitHeight : 0
+            text: i18n("Copy link")
+            onTriggered: webEngineView.triggerWebAction(WebEngineView.CopyLinkToClipboard)
+        }
+        QQC2.MenuSeparator { visible: contextMenu.request && contextMenu.isValidUrl }
+        QQC2.MenuItem {
+            visible: contextMenu.request && (contextMenu.request.editFlags & ContextMenuRequest.CanCopy) && contextMenu.request.mediaUrl == ""
+            height: visible ? implicitHeight : 0
+            text: i18n("Copy")
+            onTriggered: webEngineView.triggerWebAction(WebEngineView.Copy)
+        }
+        QQC2.MenuItem {
+            visible: contextMenu.request && (contextMenu.request.editFlags & ContextMenuRequest.CanCut)
+            height: visible ? implicitHeight : 0
+            text: i18n("Cut")
+            onTriggered: webEngineView.triggerWebAction(WebEngineView.Cut)
+        }
+        QQC2.MenuItem {
+            visible: contextMenu.request && (contextMenu.request.editFlags & ContextMenuRequest.CanPaste)
+            height: visible ? implicitHeight : 0
+            text: i18n("Paste")
+            onTriggered: webEngineView.triggerWebAction(WebEngineView.Paste)
+        }
+        QQC2.MenuItem {
+            property string fullText: contextMenu.request ? contextMenu.request.selectedText || contextMenu.request.linkText : ""
+            property string elidedText: fullText.length > 25 ? fullText.slice(0, 25) + "..." : fullText
+            visible: contextMenu.request && fullText
+            height: visible ? implicitHeight : 0
+            text: contextMenu.request && fullText ? i18n('Search for "%1"', elidedText) : ""
+            onTriggered: {
+                if (webEngineView.isAppView) {
+                    Qt.openUrlExternally(UrlUtils.urlFromUserInput(Settings.searchBaseUrl + fullText));
+                } else {
+                    tabsModel.newTab(UrlUtils.urlFromUserInput(Settings.searchBaseUrl + fullText));
+                }
+            }
+        }
+        QQC2.MenuSeparator { visible: !webEngineView.isAppView && contextMenu.request && contextMenu.request.mediaUrl != "" && !contextMenu.isValidUrl }
+        QQC2.MenuItem {
+            visible: !webEngineView.isAppView && contextMenu.request && contextMenu.request.selectedText === ""
+            height: visible ? implicitHeight : 0
+            text: i18n("Share page")
+            onTriggered: {
+                sheetLoader.setSource("ShareSheet.qml")
+                sheetLoader.item.url = currentWebView.url
+                sheetLoader.item.inputTitle = currentWebView.title
+                Qt.callLater(sheetLoader.item.open)
+            }
+        }
+        QQC2.MenuSeparator { visible: !webEngineView.isAppView }
+        QQC2.MenuItem {
+            visible: !webEngineView.isAppView
+            height: visible ? implicitHeight : 0
+            text: i18n("View page source")
+            onTriggered: tabsModel.newTab("view-source:" + webEngineView.url)
+        }
     }
 }

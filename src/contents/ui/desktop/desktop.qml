@@ -3,8 +3,8 @@
 
 import QtQuick 2.15
 import QtQuick.Controls 2.15 as QQC2
-import QtQuick.Window 2.15
 import QtQuick.Layouts 1.15
+import QtQuick.Window 2.15
 import org.kde.kirigami 2.19 as Kirigami
 
 import QtGraphicalEffects 1.0
@@ -38,10 +38,13 @@ Kirigami.ApplicationWindow {
     // them according to the current mode.
     property ListWebView tabs: rootPage.privateMode ? privateTabs : regularTabs
 
+    // Hides headers, toolbars and other controls when enabled
+    property bool fullscreenMode: false
+
     header: QQC2.ToolBar {
         id: toolbar
 
-        visible: webBrowser.visibility === Window.FullScreen ? false : true
+        visible: webBrowser.fullscreenMode || webBrowser.visibility === Window.FullScreen ? false : true
 
         RowLayout {
             anchors.fill: parent
@@ -279,11 +282,13 @@ Kirigami.ApplicationWindow {
                     icon.name: "view-fullscreen"
                     shortcut: "F11"
                     onTriggered: {
-                        if (webBrowser.visibility !== Window.FullScreen) {
-                            webBrowser.showFullScreen();
-                        } else {
+                        if (webBrowser.fullscreenMode) {
                             webBrowser.showNormal();
+                        } else {
+                            webBrowser.showFullScreen();
                         }
+
+                        webBrowser.fullscreenMode = !webBrowser.fullscreenMode
                     }
                 }
 
@@ -401,7 +406,7 @@ Kirigami.ApplicationWindow {
             id: tabsLoader
 
             visible: {
-                if (webBrowser.visibility === Window.FullScreen) {
+                if (webBrowser.fullscreenMode || webBrowser.visibility === Window.FullScreen) {
                     return false;
                 } else {
                     return true;
