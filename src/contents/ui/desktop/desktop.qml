@@ -1,5 +1,6 @@
-//SPDX-FileCopyrightText: 2021 Felipe Kinoshita <kinofhek@gmail.com>
-//SPDX-License-Identifier: LGPL-2.0-or-later
+// SPDX-FileCopyrightText: 2021 Felipe Kinoshita <kinofhek@gmail.com>
+//
+// SPDX-License-Identifier: LGPL-2.0-or-later
 
 import QtQuick 2.15
 import QtQuick.Controls 2.15 as QQC2
@@ -10,7 +11,7 @@ import org.kde.kirigami 2.19 as Kirigami
 import QtGraphicalEffects 1.0
 
 import org.kde.angelfish 1.0
-
+import org.kde.kirigamiaddons.labs.components 1.0 as Addons
 import "regex-weburl.js" as RegexWebUrl
 
 Kirigami.ApplicationWindow {
@@ -103,12 +104,17 @@ Kirigami.ApplicationWindow {
             Item {
                 Layout.fillWidth: true
             }
-
-            QQC2.TextField {
+            Addons.SearchPopupField {
                 id: urlBar
+                spaceAvailableLeft: true
+                spaceAvailableRight: true
                 Layout.fillWidth: true
-                Layout.maximumWidth: 1000
-                text: currentWebView.url
+                Layout.maximumWidth: 800
+                autoAccept: false
+                popup.width:width
+                searchField.text: currentWebView.url
+                searchField.placeholderText: i18n("Search or enter URL…")
+                searchField.color: searchField.activeFocus ? Kirigami.Theme.textColor : Kirigami.Theme.disabledTextColor
                 onAccepted: {
                     let url = text;
                     if (url.indexOf(":/") < 0) {
@@ -118,37 +124,32 @@ Kirigami.ApplicationWindow {
                     if (validURL(url)) {
                         currentWebView.url = url;
                     } else {
-                        currentWebView.url = UrlUtils.urlFromUserInput(Settings.searchBaseUrl + text);
+                        currentWebView.url = UrlUtils.urlFromUserInput(Settings.searchBaseUrl + searchField.text);
                     }
-
-                    navigationPopup.close();
-                    focus = false;
+                    urlBar.popup.close()
                 }
-                onDisplayTextChanged: {
-                    if (text === "" || text.length > 2) {
-                        historyList.model.filter = displayText;
+                onTextChanged: {
+                    if (searchField.text === "" || searchField.text.length > 2) {
+                        historyList.model.filter = searchField.displayText;
                     }
                 }
-                color: activeFocus ? Kirigami.Theme.textColor : Kirigami.Theme.disabledTextColor
-
-                onActiveFocusChanged: {
-                    if (activeFocus) {
-                        urlBar.selectAll();
-                        navigationPopup.open();
+                searchField.onActiveFocusChanged: {
+                    if (searchField.activeFocus) {
+                        searchField.selectAll()
                     }
                 }
 
                 function validURL(str) {
-                    return text.match(RegexWebUrl.re_weburl) || text.startsWith("chrome://")
+                    return searchField.text.match(RegexWebUrl.re_weburl) || searchField.text.startsWith("chrome://")
                 }
 
-                QQC2.ToolButton {
-                    id: bookmarkButton
-                    anchors.top: parent.top
-                    anchors.bottom: parent.bottom
-                    anchors.right: parent.right
+                searchField.focusSequence: "Ctrl+L"
 
-                    action: Kirigami.Action {
+                Item {
+                    Kirigami.Action {
+                        id: bookmarkButton
+
+                        visible: !urlBar.searchField.activeFocus
                         icon.name: checked ? "rating" : "rating-unrated"
                         checkable: true
                         checked: urlObserver.bookmarked
@@ -172,24 +173,9 @@ Kirigami.ApplicationWindow {
                     }
                 }
 
-                Shortcut {
-                    sequence: "Ctrl+L"
-                    onActivated: {
-                        urlBar.forceActiveFocus();
-                    }
+                Component.onCompleted: {
+                    searchField.rightActions[0] = bookmarkButton;
                 }
-            }
-
-            QQC2.Popup {
-                id: navigationPopup
-
-                x: urlBar.x
-                y: urlBar.y + urlBar.height
-                width: urlBar.width
-                height: Math.min(historyList.contentHeight, webBrowser.height * 0.7) + 1 // prevent weird line glitch
-                padding: 0
-                closePolicy: QQC2.Popup.CloseOnEscape | QQC2.Popup.CloseOnPressOutsideParent
-                clip: true
 
                 ColumnLayout {
                     anchors.fill: parent
@@ -216,14 +202,14 @@ Kirigami.ApplicationWindow {
                                 iconSize: Kirigami.Units.largeSpacing * 3
                                 onClicked: {
                                     currentWebView.url = model.url;
-                                    navigationPopup.close();
-                                    urlBar.focus = false;
+                                    urlBar.popup.close()
                                 }
                             }
                         }
                     }
                 }
             }
+
 
             Item {
                 Layout.fillWidth: true
