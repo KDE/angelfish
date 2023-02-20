@@ -351,11 +351,24 @@ Kirigami.ApplicationWindow {
                     }
                 }
             }
-
+            Item{
+                //spacer to make the UrlBar centered
+                Layout.fillHeight: true
+                width: menuButton.width
+            }
+            Item{
+                Layout.fillHeight: true
+                width: menuButton.width
+                Kirigami.Icon{
+                    anchors.centerIn:parent
+                    source: "view-private"
+                    visible: rootPage.privateMode
+                    implicitHeight: Kirigami.Units.gridUnit*1.2
+                }
+            }
             QQC2.ToolButton {
                 id: menuButton
                 Layout.alignment: Qt.AlignRight
-                text: rootPage.privateMode ? i18n("Private Mode") : ""
                 icon.name: "application-menu"
                 down: menu.visible
                 onPressed: menu.visible ? menu.close() : menu.popup(menuButton.x, menuButton.y + menuButton.height, webBrowser)
