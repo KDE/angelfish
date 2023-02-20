@@ -384,9 +384,6 @@ Kirigami.ApplicationWindow {
         property alias questionLoader: questionLoader
         property alias questions: questions
 
-        Kirigami.Theme.inherit: false
-        Kirigami.Theme.colorSet: Kirigami.Theme.Header
-
         header: Loader {
             id: tabsLoader
 
