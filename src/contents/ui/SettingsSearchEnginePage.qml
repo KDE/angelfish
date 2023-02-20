@@ -12,6 +12,7 @@ import org.kde.kirigamiaddons.labs.mobileform 0.1 as MobileForm
 import org.kde.angelfish 1.0
 
 Kirigami.ScrollablePage {
+    id: root
     title: i18n("Search Engine")
 
     leftPadding: 0
@@ -35,7 +36,9 @@ Kirigami.ScrollablePage {
 
             contentItem: ColumnLayout {
                 spacing: 0
-                
+                MobileForm.FormCardHeader{
+                    title:root.title
+                }
                 Repeater {
                     model: ListModel {
                         id: searchEngines

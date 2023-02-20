@@ -6,6 +6,7 @@ import QtQuick 2.7
 import QtQuick.Layouts 1.0
 import QtQuick.Controls 2.5 as Controls
 import org.kde.kirigami 2.12 as Kirigami
+import org.kde.kirigamiaddons.labs.mobileform 0.1 as MobileForm
 
 
 import org.kde.angelfish 1.0
@@ -85,43 +86,80 @@ Kirigami.ScrollablePage {
             }
         }
     }
+    ColumnLayout {
+        spacing: 0
 
-    ListView {
-        visible: AdblockUrlInterceptor.adblockSupported
-        model: AdblockFilterListsModel {
-            id: filterlistModel
-            onRefreshFinished: adblockSettings.refreshing = false
-        }
+        MobileForm.FormCard {
+            visible: AdblockUrlInterceptor.adblockSupported
+            id: card
+            Layout.fillWidth: true
 
-        delegate: Kirigami.SwipeListItem {
-            id: delegateRoot
-
-            required property string displayName
-            required property url url
-            required property int index
-
-            ColumnLayout {
-                Kirigami.Heading {
-                    Layout.fillWidth: true
-                    level: 3
-                    elide: Qt.ElideRight
-                    text: delegateRoot.displayName
+            contentItem: ColumnLayout {
+                spacing: 0
+                MobileForm.FormCardHeader{
+                    title:adblockSettings.title
                 }
-                Controls.Label {
-                    Layout.fillWidth: true
-                    elide: Qt.ElideRight
-                    text: delegateRoot.url
+                Repeater {
+                    id: listView
+                    model: AdblockFilterListsModel {
+                        id: filterlistModel
+                        onRefreshFinished: adblockSettings.refreshing = false
+                    }
+
+                    delegate: MobileForm.AbstractFormDelegate {
+
+                        required property string displayName
+                        required property url url
+                        required property int index
+
+
+                        implicitHeight: layout.implicitHeight
+                        implicitWidth: card.implicitWidth
+
+                        RowLayout {
+                            id: layout
+                            anchors.fill: parent
+                            spacing: Kirigami.Units.largeSpacing
+                            ColumnLayout{
+                                Layout.leftMargin: 20
+                                Layout.margins: 10
+                                Controls.Label {
+                                    Layout.fillWidth: true
+                                    text: displayName
+                                    elide: Text.ElideRight
+                                }
+                                Controls.Label {
+                                    Layout.fillWidth: true
+                                    text: url
+                                    elide: Text.ElideRight
+                                    color: Kirigami.Theme.disabledTextColor
+                                }
+                            }
+
+                            Controls.ToolButton {
+                                Layout.margins: 10
+                                icon.name: "list-remove"
+                                display: Controls.AbstractButton.IconOnly
+                                onClicked:  filterlistModel.removeFilterList(index)
+                                text: i18n("Remove this filter list")
+
+                            }
+                        }
+                    }
+                }
+                MobileForm.FormDelegateSeparator { above: addSource}
+
+                MobileForm.FormButtonDelegate {
+                    id: addSource
+                    text: i18n("add Filterlist")
+                    leading: Kirigami.Icon{
+                        source: "list-add"
+                        implicitHeight: Kirigami.Units.gridUnit
+                    }
+                    onClicked: addSheet.open()
+
                 }
             }
-
-            text: displayName
-            actions: [
-                Kirigami.Action {
-                    icon.name: "list-remove"
-                    text: i18n("Remove this filter list")
-                    onTriggered: filterlistModel.removeFilterList(delegateRoot.index)
-                }
-            ]
         }
     }
 }
