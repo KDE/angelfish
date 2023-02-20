@@ -331,47 +331,14 @@ RowLayout {
 
     QQC2.Menu {
         id: menu
-        width: Kirigami.Units.gridUnit * 16
-        height: Math.min(tabList.contentHeight, webBrowser.height)
-        contentItem: ListView {
-            id: tabList
+        Instantiator {
             model: tabs.model
-            currentIndex: tabs.currentIndex
-            boundsBehavior: Flickable.StopAtBounds
-
-            delegate: QQC2.ItemDelegate {
-                highlighted: ListView.isCurrentItem
-                width: menu.width
-                height: tabsComponent.height
-
-                contentItem: RowLayout {
-                    id: layout
-                    spacing: Kirigami.Units.smallSpacing
-
-                    Kirigami.Icon {
-                        id: tabIcon
-                        Layout.alignment: Qt.AlignLeft
-                        Layout.preferredWidth: Kirigami.Units.iconSizes.small
-                        Layout.preferredHeight: width
-                        source: menu.visible ? tabs.itemAt(model.index).icon : ""
-                    }
-
-                    QQC2.Label {
-                        id: titleLabel
-                        Layout.fillWidth: true
-                        Layout.alignment: Qt.AlignLeft
-                        Layout.leftMargin: Kirigami.Units.smallSpacing
-                        Layout.rightMargin: Kirigami.Units.smallSpacing
-                        text: menu.visible ? tabs.itemAt(model.index).readerMode ?
-                            i18n("Reader Mode: %1", tabs.itemAt(model.index).readerTitle)
-                            : tabs.itemAt(model.index).title
-                            : ""
-                        elide: Text.ElideRight
-                        horizontalAlignment: Text.AlignLeft
-                    }
-                }
-
-                onClicked: {
+            onObjectAdded: menu.insertItem(index, object)
+            onObjectRemoved: menu.removeItem(object)
+            delegate: QQC2.MenuItem {
+                icon.name: tabs.itemAt(model.index).icon
+                text: tabs.itemAt(model.index).title
+                onTriggered: {
                     tabs.currentIndex = model.index;
                     menu.close();
                 }
