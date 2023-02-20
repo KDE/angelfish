@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-19 01:00+0000\n"
+"POT-Creation-Date: 2023-02-20 01:00+0000\n"
 "PO-Revision-Date: 2023-02-09 01:34+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@linux.org.tw>\n"
@@ -27,49 +27,6 @@ msgstr "Yi-Jyun Pan, Kisaragi Hiu"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "pan93412@gmail.com, mail@kisaragi-hiu.com"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:31
-#: lib/contents/ui/WebView.qml:68
-#, kde-format
-msgid "Copy"
-msgstr "複製"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:36
-#: lib/contents/ui/WebView.qml:73
-#, kde-format
-msgid "Cut"
-msgstr "剪下"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:41
-#: lib/contents/ui/WebView.qml:78
-#, kde-format
-msgid "Paste"
-msgstr "貼上"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:46
-#: lib/contents/ui/WebView.qml:83
-#, kde-format
-msgid "Search online for '%1'"
-msgstr "線上搜尋「%1」"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:46
-#: lib/contents/ui/WebView.qml:83
-#, kde-format
-msgid "Search online"
-msgstr "線上搜尋"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:51
-#: lib/contents/ui/WebView.qml:88
-#, kde-format
-msgid "Copy Url"
-msgstr "複製網址"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:55
-#: lib/contents/ui/DownloadQuestion.qml:20 lib/contents/ui/WebView.qml:96
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:29
-#, kde-format
-msgid "Download"
-msgstr "下載"
 
 #: angelfish-webapp/main.cpp:77
 #, kde-format
@@ -120,6 +77,12 @@ msgstr "密碼"
 #, kde-format
 msgid "Do you want to download this file?"
 msgstr "是否下載此檔案？"
+
+#: lib/contents/ui/DownloadQuestion.qml:20
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:29
+#, kde-format
+msgid "Download"
+msgstr "下載"
 
 #: lib/contents/ui/DownloadQuestion.qml:28 src/contents/ui/Downloads.qml:41
 #, kde-format
@@ -231,20 +194,192 @@ msgstr "允許"
 msgid "Decline"
 msgstr "拒絕"
 
-#: lib/contents/ui/WebView.qml:92
-#, kde-format
-msgid "View source"
-msgstr "檢視原始碼"
-
-#: lib/contents/ui/WebView.qml:101
-#, kde-format
-msgid "Open in new Tab"
-msgstr "在新分頁開啟"
-
-#: lib/contents/ui/WebView.qml:269
+#: lib/contents/ui/WebView.qml:235
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr "已在新分頁中開啟網站"
+
+#: lib/contents/ui/WebView.qml:254
+#, fuzzy, kde-format
+#| msgid "Full Screen"
+msgid "Entered Full Screen Mode"
+msgstr "全螢幕"
+
+#: lib/contents/ui/WebView.qml:255
+#, fuzzy, kde-format
+#| msgid "Full Screen"
+msgid "Exit Full Screen (Esc)"
+msgstr "全螢幕"
+
+#: lib/contents/ui/WebView.qml:379
+#, kde-format
+msgid "Play"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:380 src/contents/ui/Downloads.qml:47
+#, kde-format
+msgid "Pause"
+msgstr "暫停"
+
+#: lib/contents/ui/WebView.qml:387
+#, kde-format
+msgid "Unmute"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:388
+#, kde-format
+msgid "Mute"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:398
+#, kde-format
+msgid "Speed"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:421
+#, kde-format
+msgid "Loop"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:428
+#, fuzzy, kde-format
+#| msgid "Full Screen"
+msgid "Exit fullscreen"
+msgstr "全螢幕"
+
+#: lib/contents/ui/WebView.qml:428
+#, fuzzy, kde-format
+#| msgid "Full Screen"
+msgid "Fullscreen"
+msgstr "全螢幕"
+
+#: lib/contents/ui/WebView.qml:441
+#, kde-format
+msgid "Hide controls"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:442
+#, fuzzy, kde-format
+#| msgid "Show developer tools"
+msgid "Show controls"
+msgstr "顯示開發者工具"
+
+#: lib/contents/ui/WebView.qml:450
+#, kde-format
+msgid "Open video"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:450
+#, kde-format
+msgid "Open audio"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:451
+#, fuzzy, kde-format
+#| msgid "Open in new Tab"
+msgid "Open video in new Tab"
+msgstr "在新分頁開啟"
+
+#: lib/contents/ui/WebView.qml:451
+#, fuzzy, kde-format
+#| msgid "Open in new Tab"
+msgid "Open audio in new Tab"
+msgstr "在新分頁開啟"
+
+#: lib/contents/ui/WebView.qml:463
+#, kde-format
+msgid "Save video"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:469
+#, kde-format
+msgid "Copy video Link"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:475
+#, fuzzy, kde-format
+#| msgid "Open in app"
+msgid "Open image"
+msgstr "在應用程式中開啟"
+
+#: lib/contents/ui/WebView.qml:475
+#, fuzzy, kde-format
+#| msgid "Open in new Tab"
+msgid "Open image in new Tab"
+msgstr "在新分頁開啟"
+
+#: lib/contents/ui/WebView.qml:487
+#, fuzzy, kde-format
+#| msgid "Leave page"
+msgid "Save image"
+msgstr "離開頁面"
+
+#: lib/contents/ui/WebView.qml:493
+#, fuzzy, kde-format
+#| msgid "Load images"
+msgid "Copy image"
+msgstr "載入圖片"
+
+#: lib/contents/ui/WebView.qml:499
+#, kde-format
+msgid "Copy image link"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:505
+#, fuzzy, kde-format
+#| msgid "Open in app"
+msgid "Open link"
+msgstr "在應用程式中開啟"
+
+#: lib/contents/ui/WebView.qml:505
+#, fuzzy, kde-format
+#| msgid "Open in new Tab"
+msgid "Open link in new Tab"
+msgstr "在新分頁開啟"
+
+#: lib/contents/ui/WebView.qml:517
+#, fuzzy, kde-format
+#| msgid "Bookmark"
+msgid "Bookmark link"
+msgstr "書籤"
+
+#: lib/contents/ui/WebView.qml:529
+#, kde-format
+msgid "Save link"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:535
+#, fuzzy, kde-format
+#| msgid "Copy Url"
+msgid "Copy link"
+msgstr "複製網址"
+
+#: lib/contents/ui/WebView.qml:542
+#, kde-format
+msgid "Copy"
+msgstr "複製"
+
+#: lib/contents/ui/WebView.qml:548
+#, kde-format
+msgid "Cut"
+msgstr "剪下"
+
+#: lib/contents/ui/WebView.qml:554
+#, kde-format
+msgid "Paste"
+msgstr "貼上"
+
+#: lib/contents/ui/WebView.qml:575 src/contents/ui/desktop/desktop.qml:310
+#: src/contents/ui/mobile.qml:280
+#, kde-format
+msgid "Share page"
+msgstr "分享頁面"
+
+#: lib/contents/ui/WebView.qml:587
+#, fuzzy, kde-format
+#| msgid "View source"
+msgid "View page source"
+msgstr "檢視原始碼"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
 #, kde-format
@@ -257,7 +392,7 @@ msgstr "廣告阻擋器缺少它的過濾列表，您要現在下載它們嗎？
 msgid "Downloading..."
 msgstr "正在下載…"
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:258
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:247
 #: src/contents/ui/mobile.qml:79
 #, kde-format
 msgid "Bookmarks"
@@ -273,76 +408,83 @@ msgstr "搜尋書籤…"
 msgid "No bookmarks yet"
 msgstr "還沒有書籤"
 
-#: src/contents/ui/desktop/desktop.qml:233 src/contents/ui/desktop/Tabs.qml:387
+#: src/contents/ui/desktop/desktop.qml:116
+#, fuzzy, kde-format
+#| msgid "Search history…"
+msgid "Search or enter URL…"
+msgstr "搜尋歷史…"
+
+#: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:387
 #: src/contents/ui/Tabs.qml:68
 #, kde-format
 msgid "New Tab"
 msgstr "新增分頁"
 
-#: src/contents/ui/desktop/desktop.qml:240 src/contents/ui/mobile.qml:71
+#: src/contents/ui/desktop/desktop.qml:229 src/contents/ui/mobile.qml:71
 #, kde-format
 msgid "Leave private mode"
 msgstr "離開隱私模式"
 
-#: src/contents/ui/desktop/desktop.qml:240 src/contents/ui/mobile.qml:71
+#: src/contents/ui/desktop/desktop.qml:229 src/contents/ui/mobile.qml:71
 #, kde-format
 msgid "Private mode"
 msgstr "隱私模式"
 
-#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/History.qml:12
+#: src/contents/ui/desktop/desktop.qml:238 src/contents/ui/History.qml:12
 #: src/contents/ui/mobile.qml:87
 #, kde-format
 msgid "History"
 msgstr "歷史記錄"
 
-#: src/contents/ui/desktop/desktop.qml:267 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/Downloads.qml:15
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
 msgstr "下載"
 
-#: src/contents/ui/desktop/desktop.qml:278
+#: src/contents/ui/desktop/desktop.qml:267
 #, kde-format
 msgid "Full Screen"
 msgstr "全螢幕"
 
-#: src/contents/ui/desktop/desktop.qml:292 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:284
+#, fuzzy, kde-format
+#| msgid "Show developer tools"
+msgid "Hide developer tools"
+msgstr "顯示開發者工具"
+
+#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Show developer tools"
 msgstr "顯示開發者工具"
 
-#: src/contents/ui/desktop/desktop.qml:304 src/contents/ui/mobile.qml:276
+#: src/contents/ui/desktop/desktop.qml:294 src/contents/ui/mobile.qml:276
 #, kde-format
 msgid "Find in page"
 msgstr "在頁面中尋找內容"
 
-#: src/contents/ui/desktop/desktop.qml:313
+#: src/contents/ui/desktop/desktop.qml:303
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "閱讀模式"
 
-#: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:280
-#, kde-format
-msgid "Share page"
-msgstr "分享頁面"
-
-#: src/contents/ui/desktop/desktop.qml:330
+#: src/contents/ui/desktop/desktop.qml:320
 #, kde-format
 msgid "Add to application launcher"
 msgstr "新增到應用程式啟動器"
 
-#: src/contents/ui/desktop/desktop.qml:349 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:339 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "設定"
 
-#: src/contents/ui/desktop/desktop.qml:356
+#: src/contents/ui/desktop/desktop.qml:346
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "設定 Angelfish"
 
-#: src/contents/ui/desktop/desktop.qml:368
+#: src/contents/ui/desktop/desktop.qml:358
 #, fuzzy, kde-format
 #| msgid "Private mode"
 msgid "Private Mode"
@@ -450,11 +592,6 @@ msgstr "關閉分頁"
 #, kde-format
 msgid "No running downloads"
 msgstr "沒有執行中的下載"
-
-#: src/contents/ui/Downloads.qml:47
-#, kde-format
-msgid "Pause"
-msgstr "暫停"
 
 #: src/contents/ui/Downloads.qml:53
 #, kde-format
@@ -758,6 +895,12 @@ msgstr "分享頁面"
 #, kde-format
 msgid "URL to open"
 msgstr "欲開啟網址"
+
+#~ msgid "Search online for '%1'"
+#~ msgstr "線上搜尋「%1」"
+
+#~ msgid "Search online"
+#~ msgstr "線上搜尋"
 
 #~ msgid "Confirm"
 #~ msgstr "確認"

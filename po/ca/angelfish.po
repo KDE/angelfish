@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-19 01:00+0000\n"
+"POT-Creation-Date: 2023-02-20 01:00+0000\n"
 "PO-Revision-Date: 2023-02-15 12:31+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -30,49 +30,6 @@ msgstr "Josep M. Ferrer"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "txemaq@gmail.com"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:31
-#: lib/contents/ui/WebView.qml:68
-#, kde-format
-msgid "Copy"
-msgstr "Copia"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:36
-#: lib/contents/ui/WebView.qml:73
-#, kde-format
-msgid "Cut"
-msgstr "Retalla"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:41
-#: lib/contents/ui/WebView.qml:78
-#, kde-format
-msgid "Paste"
-msgstr "Enganxa"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:46
-#: lib/contents/ui/WebView.qml:83
-#, kde-format
-msgid "Search online for '%1'"
-msgstr "Cerca en línia de «%1»"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:46
-#: lib/contents/ui/WebView.qml:83
-#, kde-format
-msgid "Search online"
-msgstr "Cerca en línia"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:51
-#: lib/contents/ui/WebView.qml:88
-#, kde-format
-msgid "Copy Url"
-msgstr "Copia l'URL"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:55
-#: lib/contents/ui/DownloadQuestion.qml:20 lib/contents/ui/WebView.qml:96
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:29
-#, kde-format
-msgid "Download"
-msgstr "Baixa"
 
 #: angelfish-webapp/main.cpp:77
 #, kde-format
@@ -123,6 +80,12 @@ msgstr "Contrasenya"
 #, kde-format
 msgid "Do you want to download this file?"
 msgstr "Voleu baixar aquest fitxer?"
+
+#: lib/contents/ui/DownloadQuestion.qml:20
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:29
+#, kde-format
+msgid "Download"
+msgstr "Baixa"
 
 #: lib/contents/ui/DownloadQuestion.qml:28 src/contents/ui/Downloads.qml:41
 #, kde-format
@@ -236,20 +199,192 @@ msgstr "Accepta"
 msgid "Decline"
 msgstr "Declina"
 
-#: lib/contents/ui/WebView.qml:92
-#, kde-format
-msgid "View source"
-msgstr "Mostra el codi font"
-
-#: lib/contents/ui/WebView.qml:101
-#, kde-format
-msgid "Open in new Tab"
-msgstr "Obre en una pestanya nova"
-
-#: lib/contents/ui/WebView.qml:269
+#: lib/contents/ui/WebView.qml:235
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr "El lloc web s'ha obert en una pestanya nova"
+
+#: lib/contents/ui/WebView.qml:254
+#, fuzzy, kde-format
+#| msgid "Full Screen"
+msgid "Entered Full Screen Mode"
+msgstr "Pantalla completa"
+
+#: lib/contents/ui/WebView.qml:255
+#, fuzzy, kde-format
+#| msgid "Full Screen"
+msgid "Exit Full Screen (Esc)"
+msgstr "Pantalla completa"
+
+#: lib/contents/ui/WebView.qml:379
+#, kde-format
+msgid "Play"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:380 src/contents/ui/Downloads.qml:47
+#, kde-format
+msgid "Pause"
+msgstr "Pausa"
+
+#: lib/contents/ui/WebView.qml:387
+#, kde-format
+msgid "Unmute"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:388
+#, kde-format
+msgid "Mute"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:398
+#, kde-format
+msgid "Speed"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:421
+#, kde-format
+msgid "Loop"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:428
+#, fuzzy, kde-format
+#| msgid "Full Screen"
+msgid "Exit fullscreen"
+msgstr "Pantalla completa"
+
+#: lib/contents/ui/WebView.qml:428
+#, fuzzy, kde-format
+#| msgid "Full Screen"
+msgid "Fullscreen"
+msgstr "Pantalla completa"
+
+#: lib/contents/ui/WebView.qml:441
+#, kde-format
+msgid "Hide controls"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:442
+#, fuzzy, kde-format
+#| msgid "Show developer tools"
+msgid "Show controls"
+msgstr "Mostra les eines del desenvolupador"
+
+#: lib/contents/ui/WebView.qml:450
+#, kde-format
+msgid "Open video"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:450
+#, kde-format
+msgid "Open audio"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:451
+#, fuzzy, kde-format
+#| msgid "Open in new Tab"
+msgid "Open video in new Tab"
+msgstr "Obre en una pestanya nova"
+
+#: lib/contents/ui/WebView.qml:451
+#, fuzzy, kde-format
+#| msgid "Open in new Tab"
+msgid "Open audio in new Tab"
+msgstr "Obre en una pestanya nova"
+
+#: lib/contents/ui/WebView.qml:463
+#, kde-format
+msgid "Save video"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:469
+#, kde-format
+msgid "Copy video Link"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:475
+#, fuzzy, kde-format
+#| msgid "Open in app"
+msgid "Open image"
+msgstr "Obre a l'aplicació"
+
+#: lib/contents/ui/WebView.qml:475
+#, fuzzy, kde-format
+#| msgid "Open in new Tab"
+msgid "Open image in new Tab"
+msgstr "Obre en una pestanya nova"
+
+#: lib/contents/ui/WebView.qml:487
+#, fuzzy, kde-format
+#| msgid "Leave page"
+msgid "Save image"
+msgstr "Surt de la pàgina"
+
+#: lib/contents/ui/WebView.qml:493
+#, fuzzy, kde-format
+#| msgid "Load images"
+msgid "Copy image"
+msgstr "Carrega les imatges"
+
+#: lib/contents/ui/WebView.qml:499
+#, kde-format
+msgid "Copy image link"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:505
+#, fuzzy, kde-format
+#| msgid "Open in app"
+msgid "Open link"
+msgstr "Obre a l'aplicació"
+
+#: lib/contents/ui/WebView.qml:505
+#, fuzzy, kde-format
+#| msgid "Open in new Tab"
+msgid "Open link in new Tab"
+msgstr "Obre en una pestanya nova"
+
+#: lib/contents/ui/WebView.qml:517
+#, fuzzy, kde-format
+#| msgid "Bookmark"
+msgid "Bookmark link"
+msgstr "Adreça d'interès"
+
+#: lib/contents/ui/WebView.qml:529
+#, kde-format
+msgid "Save link"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:535
+#, fuzzy, kde-format
+#| msgid "Copy Url"
+msgid "Copy link"
+msgstr "Copia l'URL"
+
+#: lib/contents/ui/WebView.qml:542
+#, kde-format
+msgid "Copy"
+msgstr "Copia"
+
+#: lib/contents/ui/WebView.qml:548
+#, kde-format
+msgid "Cut"
+msgstr "Retalla"
+
+#: lib/contents/ui/WebView.qml:554
+#, kde-format
+msgid "Paste"
+msgstr "Enganxa"
+
+#: lib/contents/ui/WebView.qml:575 src/contents/ui/desktop/desktop.qml:310
+#: src/contents/ui/mobile.qml:280
+#, kde-format
+msgid "Share page"
+msgstr "Comparteix la pàgina"
+
+#: lib/contents/ui/WebView.qml:587
+#, fuzzy, kde-format
+#| msgid "View source"
+msgid "View page source"
+msgstr "Mostra el codi font"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
 #, kde-format
@@ -264,7 +399,7 @@ msgstr ""
 msgid "Downloading..."
 msgstr "S'està baixant..."
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:258
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:247
 #: src/contents/ui/mobile.qml:79
 #, kde-format
 msgid "Bookmarks"
@@ -280,76 +415,83 @@ msgstr "Cerca les adreces d'interès…"
 msgid "No bookmarks yet"
 msgstr "Encara no hi ha cap adreça d'interès"
 
-#: src/contents/ui/desktop/desktop.qml:233 src/contents/ui/desktop/Tabs.qml:387
+#: src/contents/ui/desktop/desktop.qml:116
+#, fuzzy, kde-format
+#| msgid "Search history…"
+msgid "Search or enter URL…"
+msgstr "Cerca a l'historial…"
+
+#: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:387
 #: src/contents/ui/Tabs.qml:68
 #, kde-format
 msgid "New Tab"
 msgstr "Pestanya nova"
 
-#: src/contents/ui/desktop/desktop.qml:240 src/contents/ui/mobile.qml:71
+#: src/contents/ui/desktop/desktop.qml:229 src/contents/ui/mobile.qml:71
 #, kde-format
 msgid "Leave private mode"
 msgstr "Surt del mode privat"
 
-#: src/contents/ui/desktop/desktop.qml:240 src/contents/ui/mobile.qml:71
+#: src/contents/ui/desktop/desktop.qml:229 src/contents/ui/mobile.qml:71
 #, kde-format
 msgid "Private mode"
 msgstr "Mode privat"
 
-#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/History.qml:12
+#: src/contents/ui/desktop/desktop.qml:238 src/contents/ui/History.qml:12
 #: src/contents/ui/mobile.qml:87
 #, kde-format
 msgid "History"
 msgstr "Historial"
 
-#: src/contents/ui/desktop/desktop.qml:267 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/Downloads.qml:15
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
 msgstr "Baixades"
 
-#: src/contents/ui/desktop/desktop.qml:278
+#: src/contents/ui/desktop/desktop.qml:267
 #, kde-format
 msgid "Full Screen"
 msgstr "Pantalla completa"
 
-#: src/contents/ui/desktop/desktop.qml:292 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:284
+#, fuzzy, kde-format
+#| msgid "Show developer tools"
+msgid "Hide developer tools"
+msgstr "Mostra les eines del desenvolupador"
+
+#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Show developer tools"
 msgstr "Mostra les eines del desenvolupador"
 
-#: src/contents/ui/desktop/desktop.qml:304 src/contents/ui/mobile.qml:276
+#: src/contents/ui/desktop/desktop.qml:294 src/contents/ui/mobile.qml:276
 #, kde-format
 msgid "Find in page"
 msgstr "Cerca a la pàgina"
 
-#: src/contents/ui/desktop/desktop.qml:313
+#: src/contents/ui/desktop/desktop.qml:303
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Mode lector"
 
-#: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:280
-#, kde-format
-msgid "Share page"
-msgstr "Comparteix la pàgina"
-
-#: src/contents/ui/desktop/desktop.qml:330
+#: src/contents/ui/desktop/desktop.qml:320
 #, kde-format
 msgid "Add to application launcher"
 msgstr "Afegeix al llançador d'aplicacions"
 
-#: src/contents/ui/desktop/desktop.qml:349 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:339 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "Arranjament"
 
-#: src/contents/ui/desktop/desktop.qml:356
+#: src/contents/ui/desktop/desktop.qml:346
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "Configura l'Angelfish"
 
-#: src/contents/ui/desktop/desktop.qml:368
+#: src/contents/ui/desktop/desktop.qml:358
 #, kde-format
 msgid "Private Mode"
 msgstr "Mode privat"
@@ -452,11 +594,6 @@ msgstr "Tanca la pestanya"
 #, kde-format
 msgid "No running downloads"
 msgstr "No hi ha cap baixada en execució"
-
-#: src/contents/ui/Downloads.qml:47
-#, kde-format
-msgid "Pause"
-msgstr "Pausa"
 
 #: src/contents/ui/Downloads.qml:53
 #, kde-format
@@ -764,3 +901,9 @@ msgstr "Comparteix la pàgina a"
 #, kde-format
 msgid "URL to open"
 msgstr "URL a obrir"
+
+#~ msgid "Search online for '%1'"
+#~ msgstr "Cerca en línia de «%1»"
+
+#~ msgid "Search online"
+#~ msgstr "Cerca en línia"

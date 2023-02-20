@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-19 01:00+0000\n"
+"POT-Creation-Date: 2023-02-20 01:00+0000\n"
 "PO-Revision-Date: 2023-02-16 07:16+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -27,49 +27,6 @@ msgstr "Matjaž Jeran"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "matjaz.jeran@amis.net"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:31
-#: lib/contents/ui/WebView.qml:68
-#, kde-format
-msgid "Copy"
-msgstr "Kopiraj"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:36
-#: lib/contents/ui/WebView.qml:73
-#, kde-format
-msgid "Cut"
-msgstr "Izreži"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:41
-#: lib/contents/ui/WebView.qml:78
-#, kde-format
-msgid "Paste"
-msgstr "Prilepi"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:46
-#: lib/contents/ui/WebView.qml:83
-#, kde-format
-msgid "Search online for '%1'"
-msgstr "Sprotno iskanje za '%1'"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:46
-#: lib/contents/ui/WebView.qml:83
-#, kde-format
-msgid "Search online"
-msgstr "Sprotno iskanje"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:51
-#: lib/contents/ui/WebView.qml:88
-#, kde-format
-msgid "Copy Url"
-msgstr "Kopiraj spletni naslov"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:55
-#: lib/contents/ui/DownloadQuestion.qml:20 lib/contents/ui/WebView.qml:96
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:29
-#, kde-format
-msgid "Download"
-msgstr "Prenesi sem"
 
 #: angelfish-webapp/main.cpp:77
 #, kde-format
@@ -120,6 +77,12 @@ msgstr "Geslo"
 #, kde-format
 msgid "Do you want to download this file?"
 msgstr "Ali želite prenesti sem to datoteko?"
+
+#: lib/contents/ui/DownloadQuestion.qml:20
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:29
+#, kde-format
+msgid "Download"
+msgstr "Prenesi sem"
 
 #: lib/contents/ui/DownloadQuestion.qml:28 src/contents/ui/Downloads.qml:41
 #, kde-format
@@ -233,20 +196,192 @@ msgstr "Sprejmi"
 msgid "Decline"
 msgstr "Zavrni"
 
-#: lib/contents/ui/WebView.qml:92
-#, kde-format
-msgid "View source"
-msgstr "Poglej vir"
-
-#: lib/contents/ui/WebView.qml:101
-#, kde-format
-msgid "Open in new Tab"
-msgstr "Odpri v novem zavihku"
-
-#: lib/contents/ui/WebView.qml:269
+#: lib/contents/ui/WebView.qml:235
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr "Spletišče je bilo odprto v novem zavihku"
+
+#: lib/contents/ui/WebView.qml:254
+#, fuzzy, kde-format
+#| msgid "Full Screen"
+msgid "Entered Full Screen Mode"
+msgstr "Celotni zaslon"
+
+#: lib/contents/ui/WebView.qml:255
+#, fuzzy, kde-format
+#| msgid "Full Screen"
+msgid "Exit Full Screen (Esc)"
+msgstr "Celotni zaslon"
+
+#: lib/contents/ui/WebView.qml:379
+#, kde-format
+msgid "Play"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:380 src/contents/ui/Downloads.qml:47
+#, kde-format
+msgid "Pause"
+msgstr "Premor"
+
+#: lib/contents/ui/WebView.qml:387
+#, kde-format
+msgid "Unmute"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:388
+#, kde-format
+msgid "Mute"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:398
+#, kde-format
+msgid "Speed"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:421
+#, kde-format
+msgid "Loop"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:428
+#, fuzzy, kde-format
+#| msgid "Full Screen"
+msgid "Exit fullscreen"
+msgstr "Celotni zaslon"
+
+#: lib/contents/ui/WebView.qml:428
+#, fuzzy, kde-format
+#| msgid "Full Screen"
+msgid "Fullscreen"
+msgstr "Celotni zaslon"
+
+#: lib/contents/ui/WebView.qml:441
+#, kde-format
+msgid "Hide controls"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:442
+#, fuzzy, kde-format
+#| msgid "Show developer tools"
+msgid "Show controls"
+msgstr "Prikaži razvojna orodja"
+
+#: lib/contents/ui/WebView.qml:450
+#, kde-format
+msgid "Open video"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:450
+#, kde-format
+msgid "Open audio"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:451
+#, fuzzy, kde-format
+#| msgid "Open in new Tab"
+msgid "Open video in new Tab"
+msgstr "Odpri v novem zavihku"
+
+#: lib/contents/ui/WebView.qml:451
+#, fuzzy, kde-format
+#| msgid "Open in new Tab"
+msgid "Open audio in new Tab"
+msgstr "Odpri v novem zavihku"
+
+#: lib/contents/ui/WebView.qml:463
+#, kde-format
+msgid "Save video"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:469
+#, kde-format
+msgid "Copy video Link"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:475
+#, fuzzy, kde-format
+#| msgid "Open in app"
+msgid "Open image"
+msgstr "Odpri v aplikaciji"
+
+#: lib/contents/ui/WebView.qml:475
+#, fuzzy, kde-format
+#| msgid "Open in new Tab"
+msgid "Open image in new Tab"
+msgstr "Odpri v novem zavihku"
+
+#: lib/contents/ui/WebView.qml:487
+#, fuzzy, kde-format
+#| msgid "Leave page"
+msgid "Save image"
+msgstr "Zapusti stran"
+
+#: lib/contents/ui/WebView.qml:493
+#, fuzzy, kde-format
+#| msgid "Load images"
+msgid "Copy image"
+msgstr "Naloži slike"
+
+#: lib/contents/ui/WebView.qml:499
+#, kde-format
+msgid "Copy image link"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:505
+#, fuzzy, kde-format
+#| msgid "Open in app"
+msgid "Open link"
+msgstr "Odpri v aplikaciji"
+
+#: lib/contents/ui/WebView.qml:505
+#, fuzzy, kde-format
+#| msgid "Open in new Tab"
+msgid "Open link in new Tab"
+msgstr "Odpri v novem zavihku"
+
+#: lib/contents/ui/WebView.qml:517
+#, fuzzy, kde-format
+#| msgid "Bookmark"
+msgid "Bookmark link"
+msgstr "Zaznamek"
+
+#: lib/contents/ui/WebView.qml:529
+#, kde-format
+msgid "Save link"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:535
+#, fuzzy, kde-format
+#| msgid "Copy Url"
+msgid "Copy link"
+msgstr "Kopiraj spletni naslov"
+
+#: lib/contents/ui/WebView.qml:542
+#, kde-format
+msgid "Copy"
+msgstr "Kopiraj"
+
+#: lib/contents/ui/WebView.qml:548
+#, kde-format
+msgid "Cut"
+msgstr "Izreži"
+
+#: lib/contents/ui/WebView.qml:554
+#, kde-format
+msgid "Paste"
+msgstr "Prilepi"
+
+#: lib/contents/ui/WebView.qml:575 src/contents/ui/desktop/desktop.qml:310
+#: src/contents/ui/mobile.qml:280
+#, kde-format
+msgid "Share page"
+msgstr "Deli stran"
+
+#: lib/contents/ui/WebView.qml:587
+#, fuzzy, kde-format
+#| msgid "View source"
+msgid "View page source"
+msgstr "Poglej vir"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
 #, kde-format
@@ -261,7 +396,7 @@ msgstr ""
 msgid "Downloading..."
 msgstr "Prenašam..."
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:258
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:247
 #: src/contents/ui/mobile.qml:79
 #, kde-format
 msgid "Bookmarks"
@@ -277,76 +412,83 @@ msgstr "Išči zaznamke…"
 msgid "No bookmarks yet"
 msgstr "Še ni zaznamkov"
 
-#: src/contents/ui/desktop/desktop.qml:233 src/contents/ui/desktop/Tabs.qml:387
+#: src/contents/ui/desktop/desktop.qml:116
+#, fuzzy, kde-format
+#| msgid "Search history…"
+msgid "Search or enter URL…"
+msgstr "Preišči zgodovino…"
+
+#: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:387
 #: src/contents/ui/Tabs.qml:68
 #, kde-format
 msgid "New Tab"
 msgstr "Nov zavihek"
 
-#: src/contents/ui/desktop/desktop.qml:240 src/contents/ui/mobile.qml:71
+#: src/contents/ui/desktop/desktop.qml:229 src/contents/ui/mobile.qml:71
 #, kde-format
 msgid "Leave private mode"
 msgstr "Zapusti zasebni način"
 
-#: src/contents/ui/desktop/desktop.qml:240 src/contents/ui/mobile.qml:71
+#: src/contents/ui/desktop/desktop.qml:229 src/contents/ui/mobile.qml:71
 #, kde-format
 msgid "Private mode"
 msgstr "Zasebni način"
 
-#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/History.qml:12
+#: src/contents/ui/desktop/desktop.qml:238 src/contents/ui/History.qml:12
 #: src/contents/ui/mobile.qml:87
 #, kde-format
 msgid "History"
 msgstr "Zgodovina"
 
-#: src/contents/ui/desktop/desktop.qml:267 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/Downloads.qml:15
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
 msgstr "Prenosi"
 
-#: src/contents/ui/desktop/desktop.qml:278
+#: src/contents/ui/desktop/desktop.qml:267
 #, kde-format
 msgid "Full Screen"
 msgstr "Celotni zaslon"
 
-#: src/contents/ui/desktop/desktop.qml:292 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:284
+#, fuzzy, kde-format
+#| msgid "Show developer tools"
+msgid "Hide developer tools"
+msgstr "Prikaži razvojna orodja"
+
+#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Show developer tools"
 msgstr "Prikaži razvojna orodja"
 
-#: src/contents/ui/desktop/desktop.qml:304 src/contents/ui/mobile.qml:276
+#: src/contents/ui/desktop/desktop.qml:294 src/contents/ui/mobile.qml:276
 #, kde-format
 msgid "Find in page"
 msgstr "Išči po strani"
 
-#: src/contents/ui/desktop/desktop.qml:313
+#: src/contents/ui/desktop/desktop.qml:303
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Bralni način"
 
-#: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:280
-#, kde-format
-msgid "Share page"
-msgstr "Deli stran"
-
-#: src/contents/ui/desktop/desktop.qml:330
+#: src/contents/ui/desktop/desktop.qml:320
 #, kde-format
 msgid "Add to application launcher"
 msgstr "Dodaj v zaganjalnik programov"
 
-#: src/contents/ui/desktop/desktop.qml:349 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:339 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "Nastavitve"
 
-#: src/contents/ui/desktop/desktop.qml:356
+#: src/contents/ui/desktop/desktop.qml:346
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "Nastavi Angelfish"
 
-#: src/contents/ui/desktop/desktop.qml:368
+#: src/contents/ui/desktop/desktop.qml:358
 #, kde-format
 msgid "Private Mode"
 msgstr "Zasebni način"
@@ -449,11 +591,6 @@ msgstr "Zapri zavihek"
 #, kde-format
 msgid "No running downloads"
 msgstr "Ni tekočih prenosov"
-
-#: src/contents/ui/Downloads.qml:47
-#, kde-format
-msgid "Pause"
-msgstr "Premor"
 
 #: src/contents/ui/Downloads.qml:53
 #, kde-format
@@ -759,6 +896,12 @@ msgstr "Deli stran z"
 #, kde-format
 msgid "URL to open"
 msgstr "Spletni naslov za odpiranje"
+
+#~ msgid "Search online for '%1'"
+#~ msgstr "Sprotno iskanje za '%1'"
+
+#~ msgid "Search online"
+#~ msgstr "Sprotno iskanje"
 
 #~ msgid "Confirm"
 #~ msgstr "Potrdi"

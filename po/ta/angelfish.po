@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-19 01:00+0000\n"
+"POT-Creation-Date: 2023-02-20 01:00+0000\n"
 "PO-Revision-Date: 2023-02-14 21:48+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
@@ -26,49 +26,6 @@ msgstr "கோ. கிஷோர்"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "Kde-l10n-ta@kde.org"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:31
-#: lib/contents/ui/WebView.qml:68
-#, kde-format
-msgid "Copy"
-msgstr "நகலெடு"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:36
-#: lib/contents/ui/WebView.qml:73
-#, kde-format
-msgid "Cut"
-msgstr "வெட்டு"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:41
-#: lib/contents/ui/WebView.qml:78
-#, kde-format
-msgid "Paste"
-msgstr "ஒட்டு"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:46
-#: lib/contents/ui/WebView.qml:83
-#, kde-format
-msgid "Search online for '%1'"
-msgstr "'%1' என்பதை இணையத்தில் தேடு"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:46
-#: lib/contents/ui/WebView.qml:83
-#, kde-format
-msgid "Search online"
-msgstr "இணையத்தில் தேடு"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:51
-#: lib/contents/ui/WebView.qml:88
-#, kde-format
-msgid "Copy Url"
-msgstr "முகவரியை நகலெடு"
-
-#: angelfish-webapp/contents/ui/WebAppView.qml:55
-#: lib/contents/ui/DownloadQuestion.qml:20 lib/contents/ui/WebView.qml:96
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:29
-#, kde-format
-msgid "Download"
-msgstr "பதிவிறக்கு"
 
 #: angelfish-webapp/main.cpp:77
 #, kde-format
@@ -119,6 +76,12 @@ msgstr "கடவுச்சொல்"
 #, kde-format
 msgid "Do you want to download this file?"
 msgstr "இக்கோப்பை பதிவிறக்க வேண்டுமா?"
+
+#: lib/contents/ui/DownloadQuestion.qml:20
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:29
+#, kde-format
+msgid "Download"
+msgstr "பதிவிறக்கு"
 
 #: lib/contents/ui/DownloadQuestion.qml:28 src/contents/ui/Downloads.qml:41
 #, kde-format
@@ -226,20 +189,183 @@ msgstr "ஏற்றுக்கொள்"
 msgid "Decline"
 msgstr "நிராகரி"
 
-#: lib/contents/ui/WebView.qml:92
-#, kde-format
-msgid "View source"
-msgstr "மூலத்தைக் காட்டு"
-
-#: lib/contents/ui/WebView.qml:101
-#, kde-format
-msgid "Open in new Tab"
-msgstr "புதிய கீற்றில் திற"
-
-#: lib/contents/ui/WebView.qml:269
+#: lib/contents/ui/WebView.qml:235
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr ""
+
+#: lib/contents/ui/WebView.qml:254
+#, kde-format
+msgid "Entered Full Screen Mode"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:255
+#, kde-format
+msgid "Exit Full Screen (Esc)"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:379
+#, kde-format
+msgid "Play"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:380 src/contents/ui/Downloads.qml:47
+#, kde-format
+msgid "Pause"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:387
+#, kde-format
+msgid "Unmute"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:388
+#, kde-format
+msgid "Mute"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:398
+#, kde-format
+msgid "Speed"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:421
+#, kde-format
+msgid "Loop"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:428
+#, kde-format
+msgid "Exit fullscreen"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:428
+#, kde-format
+msgid "Fullscreen"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:441
+#, kde-format
+msgid "Hide controls"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:442
+#, kde-format
+msgid "Show controls"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:450
+#, kde-format
+msgid "Open video"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:450
+#, kde-format
+msgid "Open audio"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:451
+#, fuzzy, kde-format
+#| msgid "Open in new Tab"
+msgid "Open video in new Tab"
+msgstr "புதிய கீற்றில் திற"
+
+#: lib/contents/ui/WebView.qml:451
+#, fuzzy, kde-format
+#| msgid "Open in new Tab"
+msgid "Open audio in new Tab"
+msgstr "புதிய கீற்றில் திற"
+
+#: lib/contents/ui/WebView.qml:463
+#, kde-format
+msgid "Save video"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:469
+#, kde-format
+msgid "Copy video Link"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:475
+#, kde-format
+msgid "Open image"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:475
+#, fuzzy, kde-format
+#| msgid "Open in new Tab"
+msgid "Open image in new Tab"
+msgstr "புதிய கீற்றில் திற"
+
+#: lib/contents/ui/WebView.qml:487
+#, fuzzy, kde-format
+#| msgid "Leave page"
+msgid "Save image"
+msgstr "பக்கத்திலிருந்து வெளியேறு"
+
+#: lib/contents/ui/WebView.qml:493
+#, kde-format
+msgid "Copy image"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:499
+#, kde-format
+msgid "Copy image link"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:505
+#, kde-format
+msgid "Open link"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:505
+#, fuzzy, kde-format
+#| msgid "Open in new Tab"
+msgid "Open link in new Tab"
+msgstr "புதிய கீற்றில் திற"
+
+#: lib/contents/ui/WebView.qml:517
+#, kde-format
+msgid "Bookmark link"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:529
+#, kde-format
+msgid "Save link"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:535
+#, fuzzy, kde-format
+#| msgid "Copy Url"
+msgid "Copy link"
+msgstr "முகவரியை நகலெடு"
+
+#: lib/contents/ui/WebView.qml:542
+#, kde-format
+msgid "Copy"
+msgstr "நகலெடு"
+
+#: lib/contents/ui/WebView.qml:548
+#, kde-format
+msgid "Cut"
+msgstr "வெட்டு"
+
+#: lib/contents/ui/WebView.qml:554
+#, kde-format
+msgid "Paste"
+msgstr "ஒட்டு"
+
+#: lib/contents/ui/WebView.qml:575 src/contents/ui/desktop/desktop.qml:310
+#: src/contents/ui/mobile.qml:280
+#, kde-format
+msgid "Share page"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:587
+#, fuzzy, kde-format
+#| msgid "View source"
+msgid "View page source"
+msgstr "மூலத்தைக் காட்டு"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
 #, kde-format
@@ -252,7 +378,7 @@ msgstr ""
 msgid "Downloading..."
 msgstr ""
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:258
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:247
 #: src/contents/ui/mobile.qml:79
 #, kde-format
 msgid "Bookmarks"
@@ -268,76 +394,81 @@ msgstr ""
 msgid "No bookmarks yet"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:233 src/contents/ui/desktop/Tabs.qml:387
+#: src/contents/ui/desktop/desktop.qml:116
+#, kde-format
+msgid "Search or enter URL…"
+msgstr ""
+
+#: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:387
 #: src/contents/ui/Tabs.qml:68
 #, kde-format
 msgid "New Tab"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:240 src/contents/ui/mobile.qml:71
+#: src/contents/ui/desktop/desktop.qml:229 src/contents/ui/mobile.qml:71
 #, kde-format
 msgid "Leave private mode"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:240 src/contents/ui/mobile.qml:71
+#: src/contents/ui/desktop/desktop.qml:229 src/contents/ui/mobile.qml:71
 #, kde-format
 msgid "Private mode"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/History.qml:12
+#: src/contents/ui/desktop/desktop.qml:238 src/contents/ui/History.qml:12
 #: src/contents/ui/mobile.qml:87
 #, kde-format
 msgid "History"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:267 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/Downloads.qml:15
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:278
+#: src/contents/ui/desktop/desktop.qml:267
 #, kde-format
 msgid "Full Screen"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:292 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:284
+#, kde-format
+msgid "Hide developer tools"
+msgstr ""
+
+#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Show developer tools"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:304 src/contents/ui/mobile.qml:276
+#: src/contents/ui/desktop/desktop.qml:294 src/contents/ui/mobile.qml:276
 #, kde-format
 msgid "Find in page"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:313
+#: src/contents/ui/desktop/desktop.qml:303
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:280
-#, kde-format
-msgid "Share page"
-msgstr ""
-
-#: src/contents/ui/desktop/desktop.qml:330
+#: src/contents/ui/desktop/desktop.qml:320
 #, kde-format
 msgid "Add to application launcher"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:349 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:339 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:356
+#: src/contents/ui/desktop/desktop.qml:346
 #, kde-format
 msgid "Configure Angelfish"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:368
+#: src/contents/ui/desktop/desktop.qml:358
 #, kde-format
 msgid "Private Mode"
 msgstr ""
@@ -439,11 +570,6 @@ msgstr ""
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
 msgid "No running downloads"
-msgstr ""
-
-#: src/contents/ui/Downloads.qml:47
-#, kde-format
-msgid "Pause"
 msgstr ""
 
 #: src/contents/ui/Downloads.qml:53
@@ -741,3 +867,9 @@ msgstr ""
 #, kde-format
 msgid "URL to open"
 msgstr ""
+
+#~ msgid "Search online for '%1'"
+#~ msgstr "'%1' என்பதை இணையத்தில் தேடு"
+
+#~ msgid "Search online"
+#~ msgstr "இணையத்தில் தேடு"
