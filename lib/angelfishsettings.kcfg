@@ -45,6 +45,12 @@ SPDX-License-Identifier: LGPL-2.0-or-later
         <entry key="webJavaScriptEnabled" type="bool">
             <default>true</default>
         </entry>
+        <entry key="webSmoothScrollingEnabled" type="bool">
+            <default>false</default>
+        </entry>
+        <entry key="webDarkModeEnabled" type="bool">
+            <default>false</default>
+        </entry>
     </group>
     <group name="NavigationBar">
         <entry key="navBarMainMenu" type="bool">

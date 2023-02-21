@@ -73,6 +73,26 @@ Kirigami.ScrollablePage {
                     checked: Settings.switchToNewTab
                     onClicked: Settings.switchToNewTab = checked
                 }
+
+                MobileForm.FormDelegateSeparator { above: openLinkSwitch; below: enableSmoothScrolling }
+
+                MobileForm.FormSwitchDelegate {
+                    id: enableSmoothScrolling
+                    text: i18n("Use Smooth Scrolling")
+                    description: i18n("Scrolling is smoother and will not stop suddenly when you stop scrolling. Requires app restart to take effect.")
+                    checked: Settings.webSmoothScrollingEnabled
+                    onClicked: Settings.webSmoothScrollingEnabled = checked
+                }
+
+                MobileForm.FormDelegateSeparator { above: enableSmoothScrolling; below: enableDarkMode }
+
+                MobileForm.FormSwitchDelegate {
+                    id: enableDarkMode
+                    text: i18n("Use dark color scheme")
+                    description: i18n("Websites will have their color schemes set to dark. Requires app restart to take effect.")
+                    checked: Settings.webDarkModeEnabled
+                    onClicked: Settings.webDarkModeEnabled = checked
+                }
             }
         }
     }

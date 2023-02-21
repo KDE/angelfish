@@ -57,6 +57,14 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     // Setup QtWebEngine
     qputenv("QTWEBENGINE_DIALOG_SET", "QtQuickControls2");
+    QString chromiumFlags;
+    if (AngelfishSettings::self()->webSmoothScrollingEnabled()) {
+        chromiumFlags.append(QStringLiteral(" --enable-smooth-scrolling"));
+    }
+    if (AngelfishSettings::self()->webDarkModeEnabled()) {
+        chromiumFlags.append(QStringLiteral(" --blink-settings=forceDarkModeEnabled=true"));
+    }
+    qputenv("QTWEBENGINE_CHROMIUM_FLAGS", chromiumFlags.toUtf8());
 #if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
     QtWebEngine::initialize();
 #else
