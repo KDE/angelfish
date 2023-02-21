@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-20 01:00+0000\n"
+"POT-Creation-Date: 2023-02-21 01:01+0000\n"
 "PO-Revision-Date: 2022-08-19 20:36+0700\n"
 "Last-Translator: Wantoyèk <wantoyek@gmail.com>\n"
 "Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
@@ -419,7 +419,7 @@ msgstr "Belum ada markah"
 msgid "Search or enter URL…"
 msgstr "Cari histori..."
 
-#: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:387
+#: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:354
 #: src/contents/ui/Tabs.qml:68
 #, kde-format
 msgid "New Tab"
@@ -510,46 +510,43 @@ msgstr "Hapus semua histori"
 msgid "Not history yet"
 msgstr "Belum ada histori"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:12
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:14
 #: src/contents/ui/SettingsPage.qml:32
 #, kde-format
 msgid "Toolbars"
 msgstr "Bilah Alat"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:18
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:28
 #, kde-format
 msgid "Show home button:"
 msgstr "Tampilkan tombol beranda:"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:29
 #, kde-format
-msgid "Enabled"
-msgstr "Diaktifkan"
+msgid "The home button will be show next to the reload button in the toolbar."
+msgstr ""
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
-#, kde-format
-msgid "Disabled"
-msgstr "Dinonaktifkan"
-
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:26
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:39
 #, kde-format
 msgid "Homepage:"
 msgstr "Laman:"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:51
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:61
 #, kde-format
 msgid "New tabs:"
 msgstr "Tab baru:"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:76
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:83
 #, kde-format
-msgid "Always show the tab bar:"
+msgid "Always show the tab bar"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/desktop/Tabs.qml:366
-#: src/contents/ui/Tabs.qml:205
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:84
+#, kde-format
+msgid "The tab bar will be displayed even if there is only one tab open"
+msgstr ""
+
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:205
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr ""
@@ -571,24 +568,24 @@ msgstr "Buka di Tab baru"
 msgid "List all tabs"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:396
+#: src/contents/ui/desktop/Tabs.qml:363
 #, kde-format
 msgid "Reload Tab"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:404
+#: src/contents/ui/desktop/Tabs.qml:371
 #, fuzzy, kde-format
 #| msgid "Private Tabs"
 msgid "Duplicate Tab"
 msgstr "Tab Privasi"
 
-#: src/contents/ui/desktop/Tabs.qml:412
+#: src/contents/ui/desktop/Tabs.qml:379
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgid "Bookmark Tab"
 msgstr "Markah"
 
-#: src/contents/ui/desktop/Tabs.qml:428
+#: src/contents/ui/desktop/Tabs.qml:395
 #, fuzzy, kde-format
 #| msgid "Close"
 msgid "Close Tab"
@@ -722,93 +719,99 @@ msgstr ""
 msgid "Open"
 msgstr "Buka"
 
-#: src/contents/ui/SettingsAdblock.qml:17
+#: src/contents/ui/SettingsAdblock.qml:18
 #, kde-format
 msgid "Adblock settings"
 msgstr "Pengaturan addblock"
 
-#: src/contents/ui/SettingsAdblock.qml:27
+#: src/contents/ui/SettingsAdblock.qml:28
 #, kde-format
 msgid "Update lists"
 msgstr "Daftar pembaruan"
 
-#: src/contents/ui/SettingsAdblock.qml:48
+#: src/contents/ui/SettingsAdblock.qml:49
 #, kde-format
 msgid "The adblock functionality isn't included in this build."
 msgstr "Fungsionalitas addblock belum disertakan dalam build ini."
 
-#: src/contents/ui/SettingsAdblock.qml:54
+#: src/contents/ui/SettingsAdblock.qml:55
 #, kde-format
 msgid "Add filterlist"
 msgstr "Tambahkan daftar filter"
 
-#: src/contents/ui/SettingsAdblock.qml:59
+#: src/contents/ui/SettingsAdblock.qml:60
 #, kde-format
 msgid "Name"
 msgstr "Nama"
 
-#: src/contents/ui/SettingsAdblock.qml:68
+#: src/contents/ui/SettingsAdblock.qml:69
 #, kde-format
 msgid "Url"
 msgstr "Url"
 
-#: src/contents/ui/SettingsAdblock.qml:78
+#: src/contents/ui/SettingsAdblock.qml:79
 #, kde-format
 msgid "Add"
 msgstr "Tambah"
 
-#: src/contents/ui/SettingsAdblock.qml:121
+#: src/contents/ui/SettingsAdblock.qml:144
 #, kde-format
 msgid "Remove this filter list"
 msgstr "Hapus daftar filter ini"
 
-#: src/contents/ui/SettingsGeneral.qml:16 src/contents/ui/SettingsPage.qml:12
+#: src/contents/ui/SettingsAdblock.qml:154
+#, fuzzy, kde-format
+#| msgid "Add filterlist"
+msgid "add Filterlist"
+msgstr "Tambahkan daftar filter"
+
+#: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:12
 #, kde-format
 msgid "General"
 msgstr "Umum"
 
-#: src/contents/ui/SettingsGeneral.qml:37
+#: src/contents/ui/SettingsGeneral.qml:40
 #, kde-format
 msgid "Enable JavaScript"
 msgstr "Aktifkan JavaScript"
 
-#: src/contents/ui/SettingsGeneral.qml:38
+#: src/contents/ui/SettingsGeneral.qml:41
 #, kde-format
 msgid "This may be required on certain websites for them to work."
 msgstr ""
 
-#: src/contents/ui/SettingsGeneral.qml:47
+#: src/contents/ui/SettingsGeneral.qml:50
 #, kde-format
 msgid "Load images"
 msgstr "Muat gambar"
 
-#: src/contents/ui/SettingsGeneral.qml:48
+#: src/contents/ui/SettingsGeneral.qml:51
 #, kde-format
 msgid "Whether to load images on websites."
 msgstr ""
 
-#: src/contents/ui/SettingsGeneral.qml:57
+#: src/contents/ui/SettingsGeneral.qml:60
 #, kde-format
 msgid "Enable adblock"
 msgstr "Aktifkan addblock"
 
-#: src/contents/ui/SettingsGeneral.qml:58
+#: src/contents/ui/SettingsGeneral.qml:61
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
 msgstr ""
 
-#: src/contents/ui/SettingsGeneral.qml:58
+#: src/contents/ui/SettingsGeneral.qml:61
 #, fuzzy, kde-format
 #| msgid "The adblock functionality isn't included in this build."
 msgid "AdBlock functionality was not included in this build."
 msgstr "Fungsionalitas addblock belum disertakan dalam build ini."
 
-#: src/contents/ui/SettingsGeneral.qml:68
+#: src/contents/ui/SettingsGeneral.qml:71
 #, kde-format
 msgid "Switch to new tab immediately"
 msgstr ""
 
-#: src/contents/ui/SettingsGeneral.qml:69
+#: src/contents/ui/SettingsGeneral.qml:72
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately"
@@ -870,29 +873,29 @@ msgstr "Muat Ulang/Hentikan"
 msgid "Ad Block"
 msgstr "Blokir Iklan"
 
-#: src/contents/ui/SettingsPage.qml:22 src/contents/ui/SettingsWebApps.qml:13
+#: src/contents/ui/SettingsPage.qml:22 src/contents/ui/SettingsWebApps.qml:16
 #, kde-format
 msgid "Web Apps"
 msgstr "Apl Web"
 
 #: src/contents/ui/SettingsPage.qml:27
-#: src/contents/ui/SettingsSearchEnginePage.qml:15
-#: src/contents/ui/SettingsSearchEnginePage.qml:119
+#: src/contents/ui/SettingsSearchEnginePage.qml:16
+#: src/contents/ui/SettingsSearchEnginePage.qml:122
 #, kde-format
 msgid "Search Engine"
 msgstr "Mesin Pencari"
 
-#: src/contents/ui/SettingsSearchEnginePage.qml:31
+#: src/contents/ui/SettingsSearchEnginePage.qml:32
 #, kde-format
 msgid "Custom"
 msgstr "Kustom"
 
-#: src/contents/ui/SettingsSearchEnginePage.qml:120
+#: src/contents/ui/SettingsSearchEnginePage.qml:123
 #, kde-format
 msgid "Base URL of your preferred search engine"
 msgstr "URL dasar pada mesin pencari yang kamu sukai"
 
-#: src/contents/ui/SettingsWebApps.qml:44
+#: src/contents/ui/SettingsWebApps.qml:75
 #, kde-format
 msgid "Remove app"
 msgstr "Hapus apl"
@@ -907,6 +910,12 @@ msgstr "Bagikan halaman"
 #, kde-format
 msgid "URL to open"
 msgstr "URL untuk dibuka"
+
+#~ msgid "Enabled"
+#~ msgstr "Diaktifkan"
+
+#~ msgid "Disabled"
+#~ msgstr "Dinonaktifkan"
 
 #~ msgid "Search online for '%1'"
 #~ msgstr "Cari online '%1'"

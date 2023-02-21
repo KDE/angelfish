@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-20 01:00+0000\n"
-"PO-Revision-Date: 2023-02-15 11:03+0100\n"
+"POT-Creation-Date: 2023-02-21 01:01+0000\n"
+"PO-Revision-Date: 2023-02-20 10:56+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -201,21 +201,19 @@ msgid "Website was opened in a new tab"
 msgstr "Website is geopend in een nieuw tabblad"
 
 #: lib/contents/ui/WebView.qml:254
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Entered Full Screen Mode"
-msgstr "Volledig scherm"
+msgstr "Modus Volledig scherm geactiveerd"
 
 #: lib/contents/ui/WebView.qml:255
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Exit Full Screen (Esc)"
-msgstr "Volledig scherm"
+msgstr "Volledig scherm verlaten (Esc)"
 
 #: lib/contents/ui/WebView.qml:379
 #, kde-format
 msgid "Play"
-msgstr ""
+msgstr "Afspelen"
 
 #: lib/contents/ui/WebView.qml:380 src/contents/ui/Downloads.qml:47
 #, kde-format
@@ -225,135 +223,122 @@ msgstr "Pauzeren"
 #: lib/contents/ui/WebView.qml:387
 #, kde-format
 msgid "Unmute"
-msgstr ""
+msgstr "Dempen opheffen"
 
 #: lib/contents/ui/WebView.qml:388
 #, kde-format
 msgid "Mute"
-msgstr ""
+msgstr "Dempen"
 
 #: lib/contents/ui/WebView.qml:398
 #, kde-format
 msgid "Speed"
-msgstr ""
+msgstr "Snelheid"
 
 #: lib/contents/ui/WebView.qml:421
 #, kde-format
 msgid "Loop"
-msgstr ""
+msgstr "Lus"
 
 #: lib/contents/ui/WebView.qml:428
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Exit fullscreen"
-msgstr "Volledig scherm"
+msgstr "Volledig scherm verlaten"
 
 #: lib/contents/ui/WebView.qml:428
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Fullscreen"
 msgstr "Volledig scherm"
 
 #: lib/contents/ui/WebView.qml:441
 #, kde-format
 msgid "Hide controls"
-msgstr ""
+msgstr "Besturingen verbergen"
 
 #: lib/contents/ui/WebView.qml:442
-#, fuzzy, kde-format
-#| msgid "Show developer tools"
+#, kde-format
 msgid "Show controls"
-msgstr "Hulpmiddelen voor ontwikkelaars tonen"
+msgstr "Besturingen tonen"
 
 #: lib/contents/ui/WebView.qml:450
 #, kde-format
 msgid "Open video"
-msgstr ""
+msgstr "Video openen"
 
 #: lib/contents/ui/WebView.qml:450
 #, kde-format
 msgid "Open audio"
-msgstr ""
+msgstr "Audio openen"
 
 #: lib/contents/ui/WebView.qml:451
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open video in new Tab"
-msgstr "In nieuw tabblad openen"
+msgstr "Video openen in nieuw tabblad"
 
 #: lib/contents/ui/WebView.qml:451
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open audio in new Tab"
-msgstr "In nieuw tabblad openen"
+msgstr "Audio openen in nieuw tabblad"
 
 #: lib/contents/ui/WebView.qml:463
 #, kde-format
 msgid "Save video"
-msgstr ""
+msgstr "Video opslaan"
 
 #: lib/contents/ui/WebView.qml:469
 #, kde-format
 msgid "Copy video Link"
-msgstr ""
+msgstr "Videokoppeling kopiëren"
 
 #: lib/contents/ui/WebView.qml:475
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgid "Open image"
-msgstr "In toepassing openen"
+msgstr "Afbeelding openen"
 
 #: lib/contents/ui/WebView.qml:475
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open image in new Tab"
-msgstr "In nieuw tabblad openen"
+msgstr "Afbeelding openen in nieuw tabblad"
 
 #: lib/contents/ui/WebView.qml:487
-#, fuzzy, kde-format
-#| msgid "Leave page"
+#, kde-format
 msgid "Save image"
-msgstr "Pagina verlaten"
+msgstr "Afbeelding opslaan"
 
 #: lib/contents/ui/WebView.qml:493
-#, fuzzy, kde-format
-#| msgid "Load images"
+#, kde-format
 msgid "Copy image"
-msgstr "Images laden"
+msgstr "Afbeelding kopiëren"
 
 #: lib/contents/ui/WebView.qml:499
 #, kde-format
 msgid "Copy image link"
-msgstr ""
+msgstr "Koppeling van afbeelding kopiëren"
 
 #: lib/contents/ui/WebView.qml:505
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgid "Open link"
-msgstr "In toepassing openen"
+msgstr "Koppeling openen"
 
 #: lib/contents/ui/WebView.qml:505
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open link in new Tab"
-msgstr "In nieuw tabblad openen"
+msgstr "Koppeling openen in nieuw tabblad"
 
 #: lib/contents/ui/WebView.qml:517
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#, kde-format
 msgid "Bookmark link"
-msgstr "Bladwijzer"
+msgstr "Bladwijzer van koppeling maken"
 
 #: lib/contents/ui/WebView.qml:529
 #, kde-format
 msgid "Save link"
-msgstr ""
+msgstr "Koppeling opslaan"
 
 #: lib/contents/ui/WebView.qml:535
-#, fuzzy, kde-format
-#| msgid "Copy Url"
+#, kde-format
 msgid "Copy link"
-msgstr "URL-adres kopiëren"
+msgstr "Koppeling kopiëren"
 
 #: lib/contents/ui/WebView.qml:542
 #, kde-format
@@ -377,10 +362,9 @@ msgid "Share page"
 msgstr "Pagina delen"
 
 #: lib/contents/ui/WebView.qml:587
-#, fuzzy, kde-format
-#| msgid "View source"
+#, kde-format
 msgid "View page source"
-msgstr "Broncode tonen"
+msgstr "Paginabron weergeven"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
 #, kde-format
@@ -411,12 +395,11 @@ msgid "No bookmarks yet"
 msgstr "Nog geen bladwijzers"
 
 #: src/contents/ui/desktop/desktop.qml:116
-#, fuzzy, kde-format
-#| msgid "Search history…"
+#, kde-format
 msgid "Search or enter URL…"
-msgstr "Zoeken in geschiedenis…"
+msgstr "Zoek of voer een URL in…"
 
-#: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:387
+#: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:354
 #: src/contents/ui/Tabs.qml:68
 #, kde-format
 msgid "New Tab"
@@ -450,10 +433,9 @@ msgid "Full Screen"
 msgstr "Volledig scherm"
 
 #: src/contents/ui/desktop/desktop.qml:284
-#, fuzzy, kde-format
-#| msgid "Show developer tools"
+#, kde-format
 msgid "Hide developer tools"
-msgstr "Hulpmiddelen voor ontwikkelaars tonen"
+msgstr "Hulpmiddelen voor ontwikkelaar verbergen"
 
 #: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:376
 #, kde-format
@@ -506,46 +488,44 @@ msgstr "Alle geschiedenis wissen"
 msgid "Not history yet"
 msgstr "Nog geen geschiedenis"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:12
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:14
 #: src/contents/ui/SettingsPage.qml:32
 #, kde-format
 msgid "Toolbars"
 msgstr "Werkbalken"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:18
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:28
 #, kde-format
 msgid "Show home button:"
 msgstr "Home knop tonen:"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:29
 #, kde-format
-msgid "Enabled"
-msgstr "Ingeschakeld"
+msgid "The home button will be show next to the reload button in the toolbar."
+msgstr ""
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
-#, kde-format
-msgid "Disabled"
-msgstr "Uitgeschakeld"
-
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:26
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:39
 #, kde-format
 msgid "Homepage:"
 msgstr "Homepagina:"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:51
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:61
 #, kde-format
 msgid "New tabs:"
 msgstr "Nieuwe tabbladen:"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:76
-#, kde-format
-msgid "Always show the tab bar:"
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:83
+#, fuzzy, kde-format
+#| msgid "Always show the tab bar:"
+msgid "Always show the tab bar"
 msgstr "Altijd de tabbladbalk weergeven:"
 
-#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/desktop/Tabs.qml:366
-#: src/contents/ui/Tabs.qml:205
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:84
+#, kde-format
+msgid "The tab bar will be displayed even if there is only one tab open"
+msgstr ""
+
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:205
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Modus Lezer: %1"
@@ -565,22 +545,22 @@ msgstr "Een nieuw tabblad openen"
 msgid "List all tabs"
 msgstr "Alle tabbladen tonen"
 
-#: src/contents/ui/desktop/Tabs.qml:396
+#: src/contents/ui/desktop/Tabs.qml:363
 #, kde-format
 msgid "Reload Tab"
 msgstr "Tabblad herladen"
 
-#: src/contents/ui/desktop/Tabs.qml:404
+#: src/contents/ui/desktop/Tabs.qml:371
 #, kde-format
 msgid "Duplicate Tab"
 msgstr "Tabblad dupliceren"
 
-#: src/contents/ui/desktop/Tabs.qml:412
+#: src/contents/ui/desktop/Tabs.qml:379
 #, kde-format
 msgid "Bookmark Tab"
 msgstr "Bladwijzer maken van tabblad"
 
-#: src/contents/ui/desktop/Tabs.qml:428
+#: src/contents/ui/desktop/Tabs.qml:395
 #, kde-format
 msgid "Close Tab"
 msgstr "Tabblad sluiten"
@@ -713,92 +693,98 @@ msgstr ""
 msgid "Open"
 msgstr "Openen"
 
-#: src/contents/ui/SettingsAdblock.qml:17
+#: src/contents/ui/SettingsAdblock.qml:18
 #, kde-format
 msgid "Adblock settings"
 msgstr "Instellingen van ad-blocker"
 
-#: src/contents/ui/SettingsAdblock.qml:27
+#: src/contents/ui/SettingsAdblock.qml:28
 #, kde-format
 msgid "Update lists"
 msgstr "Lijst bijwerken"
 
-#: src/contents/ui/SettingsAdblock.qml:48
+#: src/contents/ui/SettingsAdblock.qml:49
 #, kde-format
 msgid "The adblock functionality isn't included in this build."
 msgstr "De functionaliteit van ad-blocker is niet ingevoegd in dit gebouwde."
 
-#: src/contents/ui/SettingsAdblock.qml:54
+#: src/contents/ui/SettingsAdblock.qml:55
 #, kde-format
 msgid "Add filterlist"
 msgstr "Filterlijst toevoegen"
 
-#: src/contents/ui/SettingsAdblock.qml:59
+#: src/contents/ui/SettingsAdblock.qml:60
 #, kde-format
 msgid "Name"
 msgstr "Naam"
 
-#: src/contents/ui/SettingsAdblock.qml:68
+#: src/contents/ui/SettingsAdblock.qml:69
 #, kde-format
 msgid "Url"
 msgstr "URL-adres"
 
-#: src/contents/ui/SettingsAdblock.qml:78
+#: src/contents/ui/SettingsAdblock.qml:79
 #, kde-format
 msgid "Add"
 msgstr "Toevoegen"
 
-#: src/contents/ui/SettingsAdblock.qml:121
+#: src/contents/ui/SettingsAdblock.qml:144
 #, kde-format
 msgid "Remove this filter list"
 msgstr "Deze filterlijst verwijderen"
 
-#: src/contents/ui/SettingsGeneral.qml:16 src/contents/ui/SettingsPage.qml:12
+#: src/contents/ui/SettingsAdblock.qml:154
+#, fuzzy, kde-format
+#| msgid "Add filterlist"
+msgid "add Filterlist"
+msgstr "Filterlijst toevoegen"
+
+#: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:12
 #, kde-format
 msgid "General"
 msgstr "Algemeen"
 
-#: src/contents/ui/SettingsGeneral.qml:37
+#: src/contents/ui/SettingsGeneral.qml:40
 #, kde-format
 msgid "Enable JavaScript"
 msgstr "JavaScript inschakelen"
 
-#: src/contents/ui/SettingsGeneral.qml:38
+#: src/contents/ui/SettingsGeneral.qml:41
 #, kde-format
 msgid "This may be required on certain websites for them to work."
 msgstr "Dit kan vereist worden om bepaalde websites te laten werken."
 
-#: src/contents/ui/SettingsGeneral.qml:47
+#: src/contents/ui/SettingsGeneral.qml:50
 #, kde-format
 msgid "Load images"
 msgstr "Images laden"
 
-#: src/contents/ui/SettingsGeneral.qml:48
+#: src/contents/ui/SettingsGeneral.qml:51
 #, kde-format
 msgid "Whether to load images on websites."
 msgstr "Of afbeeldingen te laten laden op websites."
 
-#: src/contents/ui/SettingsGeneral.qml:57
+#: src/contents/ui/SettingsGeneral.qml:60
 #, kde-format
 msgid "Enable adblock"
 msgstr "Ad-block inschakelen"
 
-#: src/contents/ui/SettingsGeneral.qml:58
+#: src/contents/ui/SettingsGeneral.qml:61
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
 msgstr "Pogingen om te voorkomen dat advertenties op websites verschijnen."
 
-#: src/contents/ui/SettingsGeneral.qml:58
+#: src/contents/ui/SettingsGeneral.qml:61
 #, kde-format
 msgid "AdBlock functionality was not included in this build."
 msgstr "De functionaliteit van ad-blocker is niet ingevoegd in dit gebouwde."
 
-#: src/contents/ui/SettingsGeneral.qml:68
+#: src/contents/ui/SettingsGeneral.qml:71
 #, kde-format
 msgid "Switch to new tab immediately"
 msgstr "Onmiddellijk omschakelen naar een nieuw tabblad"
 
-#: src/contents/ui/SettingsGeneral.qml:69
+#: src/contents/ui/SettingsGeneral.qml:72
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately"
@@ -860,29 +846,29 @@ msgstr "Herladen/stoppen"
 msgid "Ad Block"
 msgstr "Ad-block"
 
-#: src/contents/ui/SettingsPage.qml:22 src/contents/ui/SettingsWebApps.qml:13
+#: src/contents/ui/SettingsPage.qml:22 src/contents/ui/SettingsWebApps.qml:16
 #, kde-format
 msgid "Web Apps"
 msgstr "Web-toepassingen"
 
 #: src/contents/ui/SettingsPage.qml:27
-#: src/contents/ui/SettingsSearchEnginePage.qml:15
-#: src/contents/ui/SettingsSearchEnginePage.qml:119
+#: src/contents/ui/SettingsSearchEnginePage.qml:16
+#: src/contents/ui/SettingsSearchEnginePage.qml:122
 #, kde-format
 msgid "Search Engine"
 msgstr "Zoekmachine"
 
-#: src/contents/ui/SettingsSearchEnginePage.qml:31
+#: src/contents/ui/SettingsSearchEnginePage.qml:32
 #, kde-format
 msgid "Custom"
 msgstr "Aangepast"
 
-#: src/contents/ui/SettingsSearchEnginePage.qml:120
+#: src/contents/ui/SettingsSearchEnginePage.qml:123
 #, kde-format
 msgid "Base URL of your preferred search engine"
 msgstr "Basis URL van uw zoekengine met voorkeur"
 
-#: src/contents/ui/SettingsWebApps.qml:44
+#: src/contents/ui/SettingsWebApps.qml:75
 #, kde-format
 msgid "Remove app"
 msgstr "Toepassing verwijderen"
@@ -896,6 +882,12 @@ msgstr "Pagina delen met"
 #, kde-format
 msgid "URL to open"
 msgstr "URL-adres om te openen"
+
+#~ msgid "Enabled"
+#~ msgstr "Ingeschakeld"
+
+#~ msgid "Disabled"
+#~ msgstr "Uitgeschakeld"
 
 #~ msgid "Search online for '%1'"
 #~ msgstr "Online zoeken naar '%1'"

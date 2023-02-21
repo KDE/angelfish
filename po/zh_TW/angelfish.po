@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-20 01:00+0000\n"
+"POT-Creation-Date: 2023-02-21 01:01+0000\n"
 "PO-Revision-Date: 2023-02-09 01:34+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@linux.org.tw>\n"
@@ -414,7 +414,7 @@ msgstr "還沒有書籤"
 msgid "Search or enter URL…"
 msgstr "搜尋歷史…"
 
-#: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:387
+#: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:354
 #: src/contents/ui/Tabs.qml:68
 #, kde-format
 msgid "New Tab"
@@ -505,46 +505,44 @@ msgstr "清空歷史"
 msgid "Not history yet"
 msgstr "還沒有歷史"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:12
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:14
 #: src/contents/ui/SettingsPage.qml:32
 #, kde-format
 msgid "Toolbars"
 msgstr "工具列"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:18
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:28
 #, kde-format
 msgid "Show home button:"
 msgstr "顯示首頁按鈕："
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:29
 #, kde-format
-msgid "Enabled"
-msgstr "啟用"
+msgid "The home button will be show next to the reload button in the toolbar."
+msgstr ""
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
-#, kde-format
-msgid "Disabled"
-msgstr "停用"
-
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:26
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:39
 #, kde-format
 msgid "Homepage:"
 msgstr "首頁"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:51
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:61
 #, kde-format
 msgid "New tabs:"
 msgstr "新分頁："
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:76
-#, kde-format
-msgid "Always show the tab bar:"
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:83
+#, fuzzy, kde-format
+#| msgid "Always show the tab bar:"
+msgid "Always show the tab bar"
 msgstr "總是顯示分頁列："
 
-#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/desktop/Tabs.qml:366
-#: src/contents/ui/Tabs.qml:205
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:84
+#, kde-format
+msgid "The tab bar will be displayed even if there is only one tab open"
+msgstr ""
+
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:205
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "閱讀模式：%1"
@@ -565,24 +563,24 @@ msgstr "在新分頁開啟"
 msgid "List all tabs"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:396
+#: src/contents/ui/desktop/Tabs.qml:363
 #, kde-format
 msgid "Reload Tab"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:404
+#: src/contents/ui/desktop/Tabs.qml:371
 #, fuzzy, kde-format
 #| msgid "Private Tabs"
 msgid "Duplicate Tab"
 msgstr "隱私分頁"
 
-#: src/contents/ui/desktop/Tabs.qml:412
+#: src/contents/ui/desktop/Tabs.qml:379
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgid "Bookmark Tab"
 msgstr "書籤"
 
-#: src/contents/ui/desktop/Tabs.qml:428
+#: src/contents/ui/desktop/Tabs.qml:395
 #, fuzzy, kde-format
 #| msgid "Close tab"
 msgid "Close Tab"
@@ -716,92 +714,98 @@ msgstr ""
 msgid "Open"
 msgstr "開啟"
 
-#: src/contents/ui/SettingsAdblock.qml:17
+#: src/contents/ui/SettingsAdblock.qml:18
 #, kde-format
 msgid "Adblock settings"
 msgstr "廣告阻擋設定"
 
-#: src/contents/ui/SettingsAdblock.qml:27
+#: src/contents/ui/SettingsAdblock.qml:28
 #, kde-format
 msgid "Update lists"
 msgstr "更新列表"
 
-#: src/contents/ui/SettingsAdblock.qml:48
+#: src/contents/ui/SettingsAdblock.qml:49
 #, kde-format
 msgid "The adblock functionality isn't included in this build."
 msgstr "廣告阻擋功能沒有包含在這個建置版裡。"
 
-#: src/contents/ui/SettingsAdblock.qml:54
+#: src/contents/ui/SettingsAdblock.qml:55
 #, kde-format
 msgid "Add filterlist"
 msgstr "新增過濾列表"
 
-#: src/contents/ui/SettingsAdblock.qml:59
+#: src/contents/ui/SettingsAdblock.qml:60
 #, kde-format
 msgid "Name"
 msgstr "名稱"
 
-#: src/contents/ui/SettingsAdblock.qml:68
+#: src/contents/ui/SettingsAdblock.qml:69
 #, kde-format
 msgid "Url"
 msgstr "網址"
 
-#: src/contents/ui/SettingsAdblock.qml:78
+#: src/contents/ui/SettingsAdblock.qml:79
 #, kde-format
 msgid "Add"
 msgstr "新增"
 
-#: src/contents/ui/SettingsAdblock.qml:121
+#: src/contents/ui/SettingsAdblock.qml:144
 #, kde-format
 msgid "Remove this filter list"
 msgstr "移除這個過濾列表"
 
-#: src/contents/ui/SettingsGeneral.qml:16 src/contents/ui/SettingsPage.qml:12
+#: src/contents/ui/SettingsAdblock.qml:154
+#, fuzzy, kde-format
+#| msgid "Add filterlist"
+msgid "add Filterlist"
+msgstr "新增過濾列表"
+
+#: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:12
 #, kde-format
 msgid "General"
 msgstr "一般"
 
-#: src/contents/ui/SettingsGeneral.qml:37
+#: src/contents/ui/SettingsGeneral.qml:40
 #, kde-format
 msgid "Enable JavaScript"
 msgstr "啟用 JavaScript"
 
-#: src/contents/ui/SettingsGeneral.qml:38
+#: src/contents/ui/SettingsGeneral.qml:41
 #, kde-format
 msgid "This may be required on certain websites for them to work."
 msgstr "有些網站可能需要這個才能正常運作。"
 
-#: src/contents/ui/SettingsGeneral.qml:47
+#: src/contents/ui/SettingsGeneral.qml:50
 #, kde-format
 msgid "Load images"
 msgstr "載入圖片"
 
-#: src/contents/ui/SettingsGeneral.qml:48
+#: src/contents/ui/SettingsGeneral.qml:51
 #, kde-format
 msgid "Whether to load images on websites."
 msgstr "是否要在網站上載入圖片。"
 
-#: src/contents/ui/SettingsGeneral.qml:57
+#: src/contents/ui/SettingsGeneral.qml:60
 #, kde-format
 msgid "Enable adblock"
 msgstr "啟用廣告阻擋"
 
-#: src/contents/ui/SettingsGeneral.qml:58
+#: src/contents/ui/SettingsGeneral.qml:61
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
 msgstr "嘗試阻止網站上廣告的顯示。"
 
-#: src/contents/ui/SettingsGeneral.qml:58
+#: src/contents/ui/SettingsGeneral.qml:61
 #, kde-format
 msgid "AdBlock functionality was not included in this build."
 msgstr "廣告阻擋功能未被包含在這個建置版裡。"
 
-#: src/contents/ui/SettingsGeneral.qml:68
+#: src/contents/ui/SettingsGeneral.qml:71
 #, kde-format
 msgid "Switch to new tab immediately"
 msgstr "馬上切換到新分頁"
 
-#: src/contents/ui/SettingsGeneral.qml:69
+#: src/contents/ui/SettingsGeneral.qml:72
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately"
@@ -859,29 +863,29 @@ msgstr "重新載入/停止"
 msgid "Ad Block"
 msgstr "廣告阻擋"
 
-#: src/contents/ui/SettingsPage.qml:22 src/contents/ui/SettingsWebApps.qml:13
+#: src/contents/ui/SettingsPage.qml:22 src/contents/ui/SettingsWebApps.qml:16
 #, kde-format
 msgid "Web Apps"
 msgstr "網頁應用程式"
 
 #: src/contents/ui/SettingsPage.qml:27
-#: src/contents/ui/SettingsSearchEnginePage.qml:15
-#: src/contents/ui/SettingsSearchEnginePage.qml:119
+#: src/contents/ui/SettingsSearchEnginePage.qml:16
+#: src/contents/ui/SettingsSearchEnginePage.qml:122
 #, kde-format
 msgid "Search Engine"
 msgstr "搜尋引擎"
 
-#: src/contents/ui/SettingsSearchEnginePage.qml:31
+#: src/contents/ui/SettingsSearchEnginePage.qml:32
 #, kde-format
 msgid "Custom"
 msgstr "自訂"
 
-#: src/contents/ui/SettingsSearchEnginePage.qml:120
+#: src/contents/ui/SettingsSearchEnginePage.qml:123
 #, kde-format
 msgid "Base URL of your preferred search engine"
 msgstr "偏好搜尋引擎的基礎網址"
 
-#: src/contents/ui/SettingsWebApps.qml:44
+#: src/contents/ui/SettingsWebApps.qml:75
 #, kde-format
 msgid "Remove app"
 msgstr "移除應用程式"
@@ -895,6 +899,12 @@ msgstr "分享頁面"
 #, kde-format
 msgid "URL to open"
 msgstr "欲開啟網址"
+
+#~ msgid "Enabled"
+#~ msgstr "啟用"
+
+#~ msgid "Disabled"
+#~ msgstr "停用"
 
 #~ msgid "Search online for '%1'"
 #~ msgstr "線上搜尋「%1」"

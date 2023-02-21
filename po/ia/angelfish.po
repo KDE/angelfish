@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-20 01:00+0000\n"
+"POT-Creation-Date: 2023-02-21 01:01+0000\n"
 "PO-Revision-Date: 2023-02-08 12:11+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
@@ -417,7 +417,7 @@ msgstr "Ancora necun marcator de libro"
 msgid "Search or enter URL…"
 msgstr "Cerca chronologia..."
 
-#: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:387
+#: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:354
 #: src/contents/ui/Tabs.qml:68
 #, kde-format
 msgid "New Tab"
@@ -508,46 +508,44 @@ msgstr "Netta omne chronologia"
 msgid "Not history yet"
 msgstr "Ancora non chronologia"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:12
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:14
 #: src/contents/ui/SettingsPage.qml:32
 #, kde-format
 msgid "Toolbars"
 msgstr "Barras de instrumento"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:18
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:28
 #, kde-format
 msgid "Show home button:"
 msgstr "Monstra alcun button:"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:29
 #, kde-format
-msgid "Enabled"
-msgstr "Habilitate"
+msgid "The home button will be show next to the reload button in the toolbar."
+msgstr ""
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
-#, kde-format
-msgid "Disabled"
-msgstr "Dishabilitate"
-
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:26
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:39
 #, kde-format
 msgid "Homepage:"
 msgstr "Pagina Domo o Principal:"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:51
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:61
 #, kde-format
 msgid "New tabs:"
 msgstr "Nove schedas:"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:76
-#, kde-format
-msgid "Always show the tab bar:"
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:83
+#, fuzzy, kde-format
+#| msgid "Always show the tab bar:"
+msgid "Always show the tab bar"
 msgstr "Monstra sempre le barra de scheda:"
 
-#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/desktop/Tabs.qml:366
-#: src/contents/ui/Tabs.qml:205
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:84
+#, kde-format
+msgid "The tab bar will be displayed even if there is only one tab open"
+msgstr ""
+
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:205
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Modo de Lectura: %1"
@@ -568,24 +566,24 @@ msgstr "Aperi in nove scheda"
 msgid "List all tabs"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:396
+#: src/contents/ui/desktop/Tabs.qml:363
 #, kde-format
 msgid "Reload Tab"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:404
+#: src/contents/ui/desktop/Tabs.qml:371
 #, fuzzy, kde-format
 #| msgid "Private Tabs"
 msgid "Duplicate Tab"
 msgstr "Schedas private"
 
-#: src/contents/ui/desktop/Tabs.qml:412
+#: src/contents/ui/desktop/Tabs.qml:379
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgid "Bookmark Tab"
 msgstr "Marcator de libro"
 
-#: src/contents/ui/desktop/Tabs.qml:428
+#: src/contents/ui/desktop/Tabs.qml:395
 #, fuzzy, kde-format
 #| msgid "Close tab"
 msgid "Close Tab"
@@ -719,98 +717,104 @@ msgstr ""
 msgid "Open"
 msgstr "Aperi"
 
-#: src/contents/ui/SettingsAdblock.qml:17
+#: src/contents/ui/SettingsAdblock.qml:18
 #, kde-format
 msgid "Adblock settings"
 msgstr "Preferentias de adblock (bloco de annuncios)"
 
-#: src/contents/ui/SettingsAdblock.qml:27
+#: src/contents/ui/SettingsAdblock.qml:28
 #, kde-format
 msgid "Update lists"
 msgstr "Actualisa listas"
 
-#: src/contents/ui/SettingsAdblock.qml:48
+#: src/contents/ui/SettingsAdblock.qml:49
 #, kde-format
 msgid "The adblock functionality isn't included in this build."
 msgstr ""
 "Le functionalitate de adblock (bloco de annuncios) non es includite in iste "
 "construction."
 
-#: src/contents/ui/SettingsAdblock.qml:54
+#: src/contents/ui/SettingsAdblock.qml:55
 #, kde-format
 msgid "Add filterlist"
 msgstr "Adde lista de filtrar"
 
-#: src/contents/ui/SettingsAdblock.qml:59
+#: src/contents/ui/SettingsAdblock.qml:60
 #, kde-format
 msgid "Name"
 msgstr "Nomine"
 
-#: src/contents/ui/SettingsAdblock.qml:68
+#: src/contents/ui/SettingsAdblock.qml:69
 #, kde-format
 msgid "Url"
 msgstr "Url"
 
-#: src/contents/ui/SettingsAdblock.qml:78
+#: src/contents/ui/SettingsAdblock.qml:79
 #, kde-format
 msgid "Add"
 msgstr "Adde"
 
-#: src/contents/ui/SettingsAdblock.qml:121
+#: src/contents/ui/SettingsAdblock.qml:144
 #, kde-format
 msgid "Remove this filter list"
 msgstr "Remove iste lista de filtrar"
 
-#: src/contents/ui/SettingsGeneral.qml:16 src/contents/ui/SettingsPage.qml:12
+#: src/contents/ui/SettingsAdblock.qml:154
+#, fuzzy, kde-format
+#| msgid "Add filterlist"
+msgid "add Filterlist"
+msgstr "Adde lista de filtrar"
+
+#: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:12
 #, kde-format
 msgid "General"
 msgstr "General"
 
-#: src/contents/ui/SettingsGeneral.qml:37
+#: src/contents/ui/SettingsGeneral.qml:40
 #, kde-format
 msgid "Enable JavaScript"
 msgstr "Habilita JavaScript"
 
-#: src/contents/ui/SettingsGeneral.qml:38
+#: src/contents/ui/SettingsGeneral.qml:41
 #, kde-format
 msgid "This may be required on certain websites for them to work."
 msgstr ""
 "Isto pote esser requirite sur certe sitos web per facer que illos "
 "functionara."
 
-#: src/contents/ui/SettingsGeneral.qml:47
+#: src/contents/ui/SettingsGeneral.qml:50
 #, kde-format
 msgid "Load images"
 msgstr "Carga imagines"
 
-#: src/contents/ui/SettingsGeneral.qml:48
+#: src/contents/ui/SettingsGeneral.qml:51
 #, kde-format
 msgid "Whether to load images on websites."
 msgstr "Si cargar images sur sitios web"
 
-#: src/contents/ui/SettingsGeneral.qml:57
+#: src/contents/ui/SettingsGeneral.qml:60
 #, kde-format
 msgid "Enable adblock"
 msgstr "Activa AdBlock"
 
-#: src/contents/ui/SettingsGeneral.qml:58
+#: src/contents/ui/SettingsGeneral.qml:61
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
 msgstr "Tentativas de evitar anuncios de publicitate sur sitos web"
 
-#: src/contents/ui/SettingsGeneral.qml:58
+#: src/contents/ui/SettingsGeneral.qml:61
 #, kde-format
 msgid "AdBlock functionality was not included in this build."
 msgstr ""
 "Le functionalitate de adblock (bloco de annuncios) non es includite in iste "
 "construction."
 
-#: src/contents/ui/SettingsGeneral.qml:68
+#: src/contents/ui/SettingsGeneral.qml:71
 #, kde-format
 msgid "Switch to new tab immediately"
 msgstr "Commuta a nove scheda immediatemente"
 
-#: src/contents/ui/SettingsGeneral.qml:69
+#: src/contents/ui/SettingsGeneral.qml:72
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately"
@@ -872,29 +876,29 @@ msgstr "Recarga/Stoppa"
 msgid "Ad Block"
 msgstr "Ad Block"
 
-#: src/contents/ui/SettingsPage.qml:22 src/contents/ui/SettingsWebApps.qml:13
+#: src/contents/ui/SettingsPage.qml:22 src/contents/ui/SettingsWebApps.qml:16
 #, kde-format
 msgid "Web Apps"
 msgstr "Apps web"
 
 #: src/contents/ui/SettingsPage.qml:27
-#: src/contents/ui/SettingsSearchEnginePage.qml:15
-#: src/contents/ui/SettingsSearchEnginePage.qml:119
+#: src/contents/ui/SettingsSearchEnginePage.qml:16
+#: src/contents/ui/SettingsSearchEnginePage.qml:122
 #, kde-format
 msgid "Search Engine"
 msgstr "Motor de cerca"
 
-#: src/contents/ui/SettingsSearchEnginePage.qml:31
+#: src/contents/ui/SettingsSearchEnginePage.qml:32
 #, kde-format
 msgid "Custom"
 msgstr "Personalisate"
 
-#: src/contents/ui/SettingsSearchEnginePage.qml:120
+#: src/contents/ui/SettingsSearchEnginePage.qml:123
 #, kde-format
 msgid "Base URL of your preferred search engine"
 msgstr "URL de base de tu motor de cerca preferite"
 
-#: src/contents/ui/SettingsWebApps.qml:44
+#: src/contents/ui/SettingsWebApps.qml:75
 #, kde-format
 msgid "Remove app"
 msgstr "Remove app"
@@ -908,6 +912,12 @@ msgstr "Comparti pagina con"
 #, kde-format
 msgid "URL to open"
 msgstr "URL que debe aperir se"
+
+#~ msgid "Enabled"
+#~ msgstr "Habilitate"
+
+#~ msgid "Disabled"
+#~ msgstr "Dishabilitate"
 
 #~ msgid "Search online for '%1'"
 #~ msgstr "Cerca in linea '%1'"

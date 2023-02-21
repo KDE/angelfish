@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-20 01:00+0000\n"
-"PO-Revision-Date: 2023-02-16 05:36+0100\n"
+"POT-Creation-Date: 2023-02-21 01:01+0000\n"
+"PO-Revision-Date: 2023-02-20 06:39+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -203,21 +203,19 @@ msgid "Website was opened in a new tab"
 msgstr "საიტი ახალ ჩანართში გაიხსნა"
 
 #: lib/contents/ui/WebView.qml:254
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Entered Full Screen Mode"
-msgstr "სრულეკრანიანი რეჟიმი"
+msgstr "გადავიდა სრულეკრანიან რეჟიმში"
 
 #: lib/contents/ui/WebView.qml:255
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Exit Full Screen (Esc)"
-msgstr "სრულეკრანიანი რეჟიმი"
+msgstr "სრულეკრანიანი რეჟიმიდან გასვლა (Esc)"
 
 #: lib/contents/ui/WebView.qml:379
 #, kde-format
 msgid "Play"
-msgstr ""
+msgstr "დაკვრა"
 
 #: lib/contents/ui/WebView.qml:380 src/contents/ui/Downloads.qml:47
 #, kde-format
@@ -227,135 +225,122 @@ msgstr "შეჩერება"
 #: lib/contents/ui/WebView.qml:387
 #, kde-format
 msgid "Unmute"
-msgstr ""
+msgstr "დადუმების გამორთვა"
 
 #: lib/contents/ui/WebView.qml:388
 #, kde-format
 msgid "Mute"
-msgstr ""
+msgstr "დადუმება"
 
 #: lib/contents/ui/WebView.qml:398
 #, kde-format
 msgid "Speed"
-msgstr ""
+msgstr "სიჩქარე"
 
 #: lib/contents/ui/WebView.qml:421
 #, kde-format
 msgid "Loop"
-msgstr ""
+msgstr "მარყუჟი"
 
 #: lib/contents/ui/WebView.qml:428
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Exit fullscreen"
-msgstr "სრულეკრანიანი რეჟიმი"
+msgstr "სრული ეკრანიდან გასვლა"
 
 #: lib/contents/ui/WebView.qml:428
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Fullscreen"
-msgstr "სრულეკრანიანი რეჟიმი"
+msgstr "მთელ ეკრანზე"
 
 #: lib/contents/ui/WebView.qml:441
 #, kde-format
 msgid "Hide controls"
-msgstr ""
+msgstr "კონტროლების დამალვა"
 
 #: lib/contents/ui/WebView.qml:442
-#, fuzzy, kde-format
-#| msgid "Show developer tools"
+#, kde-format
 msgid "Show controls"
-msgstr "პროგრამირების ხელსაწყოების ჩვენება"
+msgstr "კონტროლების ჩვენება"
 
 #: lib/contents/ui/WebView.qml:450
 #, kde-format
 msgid "Open video"
-msgstr ""
+msgstr "ვიდეოს გახსნა"
 
 #: lib/contents/ui/WebView.qml:450
 #, kde-format
 msgid "Open audio"
-msgstr ""
+msgstr "აუდიოს გახსნა"
 
 #: lib/contents/ui/WebView.qml:451
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open video in new Tab"
-msgstr "ახალ ჩანართში გახსნა"
+msgstr "ვიდეოს ახალ ჩანართში გახსნა"
 
 #: lib/contents/ui/WebView.qml:451
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open audio in new Tab"
-msgstr "ახალ ჩანართში გახსნა"
+msgstr "ხმის ახალ ჩანართში გახსნა"
 
 #: lib/contents/ui/WebView.qml:463
 #, kde-format
 msgid "Save video"
-msgstr ""
+msgstr "ვიდეოს შენახვა"
 
 #: lib/contents/ui/WebView.qml:469
 #, kde-format
 msgid "Copy video Link"
-msgstr ""
+msgstr "ვიდეოს ბმულის კოპირება"
 
 #: lib/contents/ui/WebView.qml:475
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgid "Open image"
-msgstr "აპში გახსნა"
+msgstr "გამოსახულების გახსნა"
 
 #: lib/contents/ui/WebView.qml:475
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open image in new Tab"
-msgstr "ახალ ჩანართში გახსნა"
+msgstr "გამოსახულების ახალ ჩანართში გახსნა"
 
 #: lib/contents/ui/WebView.qml:487
-#, fuzzy, kde-format
-#| msgid "Leave page"
+#, kde-format
 msgid "Save image"
-msgstr "გასვლა"
+msgstr "გამოსახულების შენახვა"
 
 #: lib/contents/ui/WebView.qml:493
-#, fuzzy, kde-format
-#| msgid "Load images"
+#, kde-format
 msgid "Copy image"
-msgstr "გამოსახულებების ჩატვირთვა"
+msgstr "გამოსახულებების კოპირება"
 
 #: lib/contents/ui/WebView.qml:499
 #, kde-format
 msgid "Copy image link"
-msgstr ""
+msgstr "გამოსახულების ბმულის კოპირება"
 
 #: lib/contents/ui/WebView.qml:505
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgid "Open link"
-msgstr "აპში გახსნა"
+msgstr "ბმულის გახსნა"
 
 #: lib/contents/ui/WebView.qml:505
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open link in new Tab"
-msgstr "ახალ ჩანართში გახსნა"
+msgstr "ბმულის ახალ ჩანართში გახსნა"
 
 #: lib/contents/ui/WebView.qml:517
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#, kde-format
 msgid "Bookmark link"
-msgstr "სანიშნი"
+msgstr "სანიშნის ბმული"
 
 #: lib/contents/ui/WebView.qml:529
 #, kde-format
 msgid "Save link"
-msgstr ""
+msgstr "ბმულის შენახვა"
 
 #: lib/contents/ui/WebView.qml:535
-#, fuzzy, kde-format
-#| msgid "Copy Url"
+#, kde-format
 msgid "Copy link"
-msgstr "URL-ის კოპირება"
+msgstr "Ბმულის კოპირება"
 
 #: lib/contents/ui/WebView.qml:542
 #, kde-format
@@ -379,10 +364,9 @@ msgid "Share page"
 msgstr "გვერდის გაზიარება"
 
 #: lib/contents/ui/WebView.qml:587
-#, fuzzy, kde-format
-#| msgid "View source"
+#, kde-format
 msgid "View page source"
-msgstr "წყაროს ნახვა"
+msgstr "გვერდის წყაროს ნახვა"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
 #, kde-format
@@ -412,12 +396,11 @@ msgid "No bookmarks yet"
 msgstr "სანიშნები ჯერ არ დაგიმატებიათ"
 
 #: src/contents/ui/desktop/desktop.qml:116
-#, fuzzy, kde-format
-#| msgid "Search history…"
+#, kde-format
 msgid "Search or enter URL…"
-msgstr "ძებნის ისტორია…"
+msgstr "მოძებნეთ ან შეიყვანეთ URL…"
 
-#: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:387
+#: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:354
 #: src/contents/ui/Tabs.qml:68
 #, kde-format
 msgid "New Tab"
@@ -451,10 +434,9 @@ msgid "Full Screen"
 msgstr "სრულეკრანიანი რეჟიმი"
 
 #: src/contents/ui/desktop/desktop.qml:284
-#, fuzzy, kde-format
-#| msgid "Show developer tools"
+#, kde-format
 msgid "Hide developer tools"
-msgstr "პროგრამირების ხელსაწყოების ჩვენება"
+msgstr "პროგრამირების ხელსაწყოების დამალვა"
 
 #: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:376
 #, kde-format
@@ -507,46 +489,44 @@ msgstr "ისტორიის მთლიანად გაწმენდ�
 msgid "Not history yet"
 msgstr "ისტორიის გარეშე"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:12
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:14
 #: src/contents/ui/SettingsPage.qml:32
 #, kde-format
 msgid "Toolbars"
 msgstr "&ხელსაწყოთა ზოლები"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:18
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:28
 #, kde-format
 msgid "Show home button:"
 msgstr "საწყისზე დაბრუნების ღილაკი:"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:29
 #, kde-format
-msgid "Enabled"
-msgstr "ჩართულია"
+msgid "The home button will be show next to the reload button in the toolbar."
+msgstr ""
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:19
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:77
-#, kde-format
-msgid "Disabled"
-msgstr "გამოირთო"
-
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:26
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:39
 #, kde-format
 msgid "Homepage:"
 msgstr "საწყისი გვერდი:"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:51
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:61
 #, kde-format
 msgid "New tabs:"
 msgstr "ახალი ჩანართები:"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:76
-#, kde-format
-msgid "Always show the tab bar:"
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:83
+#, fuzzy, kde-format
+#| msgid "Always show the tab bar:"
+msgid "Always show the tab bar"
 msgstr "ჩანართების ზოლის ყოველთვის ჩვენება:"
 
-#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/desktop/Tabs.qml:366
-#: src/contents/ui/Tabs.qml:205
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:84
+#, kde-format
+msgid "The tab bar will be displayed even if there is only one tab open"
+msgstr ""
+
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:205
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "მკითხველის რეჟიმი: %1"
@@ -566,22 +546,22 @@ msgstr "ახალი ჩანართის გახსნა"
 msgid "List all tabs"
 msgstr "ყველა ჩანართის სია"
 
-#: src/contents/ui/desktop/Tabs.qml:396
+#: src/contents/ui/desktop/Tabs.qml:363
 #, kde-format
 msgid "Reload Tab"
 msgstr "ჩანართის თავიდან ჩატვირთვა"
 
-#: src/contents/ui/desktop/Tabs.qml:404
+#: src/contents/ui/desktop/Tabs.qml:371
 #, kde-format
 msgid "Duplicate Tab"
 msgstr "ჩანართის დუბლირება"
 
-#: src/contents/ui/desktop/Tabs.qml:412
+#: src/contents/ui/desktop/Tabs.qml:379
 #, kde-format
 msgid "Bookmark Tab"
 msgstr "&სანიშნების ჩანართი"
 
-#: src/contents/ui/desktop/Tabs.qml:428
+#: src/contents/ui/desktop/Tabs.qml:395
 #, kde-format
 msgid "Close Tab"
 msgstr "ჩანართის დახურვა"
@@ -714,93 +694,99 @@ msgstr ""
 msgid "Open"
 msgstr "გახსნა"
 
-#: src/contents/ui/SettingsAdblock.qml:17
+#: src/contents/ui/SettingsAdblock.qml:18
 #, kde-format
 msgid "Adblock settings"
 msgstr "AdBlock-ის პარამეტრები"
 
-#: src/contents/ui/SettingsAdblock.qml:27
+#: src/contents/ui/SettingsAdblock.qml:28
 #, kde-format
 msgid "Update lists"
 msgstr "სიების განახლება"
 
-#: src/contents/ui/SettingsAdblock.qml:48
+#: src/contents/ui/SettingsAdblock.qml:49
 #, kde-format
 msgid "The adblock functionality isn't included in this build."
 msgstr "ამ აგებაში Adblock-ი ჩართული არაა."
 
-#: src/contents/ui/SettingsAdblock.qml:54
+#: src/contents/ui/SettingsAdblock.qml:55
 #, kde-format
 msgid "Add filterlist"
 msgstr "ფილტრი სიის ჩასმა"
 
-#: src/contents/ui/SettingsAdblock.qml:59
+#: src/contents/ui/SettingsAdblock.qml:60
 #, kde-format
 msgid "Name"
 msgstr "სახელი"
 
-#: src/contents/ui/SettingsAdblock.qml:68
+#: src/contents/ui/SettingsAdblock.qml:69
 #, kde-format
 msgid "Url"
 msgstr "Url"
 
-#: src/contents/ui/SettingsAdblock.qml:78
+#: src/contents/ui/SettingsAdblock.qml:79
 #, kde-format
 msgid "Add"
 msgstr "დამატება"
 
-#: src/contents/ui/SettingsAdblock.qml:121
+#: src/contents/ui/SettingsAdblock.qml:144
 #, kde-format
 msgid "Remove this filter list"
 msgstr "ფილტრის სიის წაშლა"
 
-#: src/contents/ui/SettingsGeneral.qml:16 src/contents/ui/SettingsPage.qml:12
+#: src/contents/ui/SettingsAdblock.qml:154
+#, fuzzy, kde-format
+#| msgid "Add filterlist"
+msgid "add Filterlist"
+msgstr "ფილტრი სიის ჩასმა"
+
+#: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:12
 #, kde-format
 msgid "General"
 msgstr "ძირითადი"
 
-#: src/contents/ui/SettingsGeneral.qml:37
+#: src/contents/ui/SettingsGeneral.qml:40
 #, kde-format
 msgid "Enable JavaScript"
 msgstr "JavaScript-ის ჩართვა"
 
-#: src/contents/ui/SettingsGeneral.qml:38
+#: src/contents/ui/SettingsGeneral.qml:41
 #, kde-format
 msgid "This may be required on certain websites for them to work."
 msgstr ""
 "ეს შეიძლება ზოგიერთი ვებგვერდების სამუშაოდ აუცილებელ პირობას წარმოადგენდეს."
 
-#: src/contents/ui/SettingsGeneral.qml:47
+#: src/contents/ui/SettingsGeneral.qml:50
 #, kde-format
 msgid "Load images"
 msgstr "გამოსახულებების ჩატვირთვა"
 
-#: src/contents/ui/SettingsGeneral.qml:48
+#: src/contents/ui/SettingsGeneral.qml:51
 #, kde-format
 msgid "Whether to load images on websites."
 msgstr "ვებგვერდებზე გამოსახულებების ჩატვირთვა."
 
-#: src/contents/ui/SettingsGeneral.qml:57
+#: src/contents/ui/SettingsGeneral.qml:60
 #, kde-format
 msgid "Enable adblock"
 msgstr "AdBlock-ის ჩართვა"
 
-#: src/contents/ui/SettingsGeneral.qml:58
+#: src/contents/ui/SettingsGeneral.qml:61
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
 msgstr "ვებგვერდებზე რეკლამის ჩვენების აკრძალვის მცდელობა."
 
-#: src/contents/ui/SettingsGeneral.qml:58
+#: src/contents/ui/SettingsGeneral.qml:61
 #, kde-format
 msgid "AdBlock functionality was not included in this build."
 msgstr "ამ აგებაში Adblock-ი ჩართული არაა."
 
-#: src/contents/ui/SettingsGeneral.qml:68
+#: src/contents/ui/SettingsGeneral.qml:71
 #, kde-format
 msgid "Switch to new tab immediately"
 msgstr "ახალ ჩანართზე დაუყოვნებლივი გადართვა"
 
-#: src/contents/ui/SettingsGeneral.qml:69
+#: src/contents/ui/SettingsGeneral.qml:72
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately"
@@ -861,29 +847,29 @@ msgstr "თავიდან ჩატვირთვა/გაჩერებ�
 msgid "Ad Block"
 msgstr "Ad Block"
 
-#: src/contents/ui/SettingsPage.qml:22 src/contents/ui/SettingsWebApps.qml:13
+#: src/contents/ui/SettingsPage.qml:22 src/contents/ui/SettingsWebApps.qml:16
 #, kde-format
 msgid "Web Apps"
 msgstr "ვებ აპები"
 
 #: src/contents/ui/SettingsPage.qml:27
-#: src/contents/ui/SettingsSearchEnginePage.qml:15
-#: src/contents/ui/SettingsSearchEnginePage.qml:119
+#: src/contents/ui/SettingsSearchEnginePage.qml:16
+#: src/contents/ui/SettingsSearchEnginePage.qml:122
 #, kde-format
 msgid "Search Engine"
 msgstr "ძებნის ძრავი"
 
-#: src/contents/ui/SettingsSearchEnginePage.qml:31
+#: src/contents/ui/SettingsSearchEnginePage.qml:32
 #, kde-format
 msgid "Custom"
 msgstr "ხელით"
 
-#: src/contents/ui/SettingsSearchEnginePage.qml:120
+#: src/contents/ui/SettingsSearchEnginePage.qml:123
 #, kde-format
 msgid "Base URL of your preferred search engine"
 msgstr "თქვენი არჩეული ძებნის ძრავის საბაზისო URL"
 
-#: src/contents/ui/SettingsWebApps.qml:44
+#: src/contents/ui/SettingsWebApps.qml:75
 #, kde-format
 msgid "Remove app"
 msgstr "აპის წაშლა"
@@ -897,6 +883,12 @@ msgstr "გვერდის გაზიარება"
 #, kde-format
 msgid "URL to open"
 msgstr "URL-ის გახსნა"
+
+#~ msgid "Enabled"
+#~ msgstr "ჩართულია"
+
+#~ msgid "Disabled"
+#~ msgstr "გამოირთო"
 
 #~ msgid "Search online for '%1'"
 #~ msgstr "%1-ის ონლაინ ძებნა"
