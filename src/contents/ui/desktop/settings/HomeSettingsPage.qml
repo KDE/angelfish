@@ -26,7 +26,7 @@ Kirigami.ScrollablePage {
                 MobileForm.FormSwitchDelegate {
                     id: showHome
                     text: i18n("Show home button:")
-                    description: i18n("The home button will be show next to the reload button in the toolbar.")
+                    description: i18n("The home button will be shown next to the reload button in the toolbar.")
                     checked: Settings.showHomeButton
                     onClicked: Settings.showHomeButton = checked
                 }
