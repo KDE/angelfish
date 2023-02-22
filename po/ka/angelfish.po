@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-21 01:01+0000\n"
-"PO-Revision-Date: 2023-02-20 06:39+0100\n"
+"POT-Creation-Date: 2023-02-22 01:00+0000\n"
+"PO-Revision-Date: 2023-02-21 05:19+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -501,9 +501,13 @@ msgid "Show home button:"
 msgstr "საწყისზე დაბრუნების ღილაკი:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:29
-#, kde-format
-msgid "The home button will be show next to the reload button in the toolbar."
+#, fuzzy, kde-format
+#| msgid ""
+#| "The home button will be show next to the reload button in the toolbar."
+msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr ""
+"საწყისი მდებარეობის ღილაკი ხელსაწყოების ზოლში განახლების ღილაკის გვერდზე "
+"გამოჩნდება."
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:39
 #, kde-format
@@ -516,15 +520,15 @@ msgid "New tabs:"
 msgstr "ახალი ჩანართები:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:83
-#, fuzzy, kde-format
-#| msgid "Always show the tab bar:"
+#, kde-format
 msgid "Always show the tab bar"
-msgstr "ჩანართების ზოლის ყოველთვის ჩვენება:"
+msgstr "ჩანართების ზოლის ყოველთვის ჩვენება"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:84
 #, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open"
 msgstr ""
+"ჩანართების ზოლი ნაჩვენები იქნება მაშინაც კი, როცა მხოლოდ ერთი ჩანართია ღია"
 
 #: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:205
 #, kde-format
@@ -735,10 +739,9 @@ msgid "Remove this filter list"
 msgstr "ფილტრის სიის წაშლა"
 
 #: src/contents/ui/SettingsAdblock.qml:154
-#, fuzzy, kde-format
-#| msgid "Add filterlist"
+#, kde-format
 msgid "add Filterlist"
-msgstr "ფილტრი სიის ჩასმა"
+msgstr "ფილტრის სიის დამატება"
 
 #: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:12
 #, kde-format

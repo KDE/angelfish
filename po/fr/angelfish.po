@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-21 01:01+0000\n"
-"PO-Revision-Date: 2023-02-15 18:18+0100\n"
+"POT-Creation-Date: 2023-02-22 01:00+0000\n"
+"PO-Revision-Date: 2023-02-20 19:36+0100\n"
 "Last-Translator: Xavier BESNARD <xavier.besnard]neuf.fr>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -11432,21 +11432,19 @@ msgid "Website was opened in a new tab"
 msgstr "Le site web a ouvert un nouvel onglet"
 
 #: lib/contents/ui/WebView.qml:254
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Entered Full Screen Mode"
-msgstr "Plein écran"
+msgstr "Passage en mode « Plein écran » effectué"
 
 #: lib/contents/ui/WebView.qml:255
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Exit Full Screen (Esc)"
-msgstr "Plein écran"
+msgstr "Sortir du mode « Plein écran » (ESC)"
 
 #: lib/contents/ui/WebView.qml:379
 #, kde-format
 msgid "Play"
-msgstr ""
+msgstr "Lire"
 
 #: lib/contents/ui/WebView.qml:380 src/contents/ui/Downloads.qml:47
 #, kde-format
@@ -11456,135 +11454,122 @@ msgstr "Pause"
 #: lib/contents/ui/WebView.qml:387
 #, kde-format
 msgid "Unmute"
-msgstr ""
+msgstr "Remettre le son"
 
 #: lib/contents/ui/WebView.qml:388
 #, kde-format
 msgid "Mute"
-msgstr ""
+msgstr "Couper le son"
 
 #: lib/contents/ui/WebView.qml:398
 #, kde-format
 msgid "Speed"
-msgstr ""
+msgstr "Vitesse"
 
 #: lib/contents/ui/WebView.qml:421
 #, kde-format
 msgid "Loop"
-msgstr ""
+msgstr "En boucle"
 
 #: lib/contents/ui/WebView.qml:428
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Exit fullscreen"
-msgstr "Plein écran"
+msgstr "Quitter le mode « Plein écran »"
 
 #: lib/contents/ui/WebView.qml:428
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Fullscreen"
 msgstr "Plein écran"
 
 #: lib/contents/ui/WebView.qml:441
 #, kde-format
 msgid "Hide controls"
-msgstr ""
+msgstr "Masquer les contrôles"
 
 #: lib/contents/ui/WebView.qml:442
-#, fuzzy, kde-format
-#| msgid "Show developer tools"
+#, kde-format
 msgid "Show controls"
-msgstr "Afficher les outils de développement"
+msgstr "Afficher les contrôles"
 
 #: lib/contents/ui/WebView.qml:450
 #, kde-format
 msgid "Open video"
-msgstr ""
+msgstr "Ouvrir une vidéo"
 
 #: lib/contents/ui/WebView.qml:450
 #, kde-format
 msgid "Open audio"
-msgstr ""
+msgstr "Ouvrir un fichier audio"
 
 #: lib/contents/ui/WebView.qml:451
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open video in new Tab"
-msgstr "Ouvrir dans un nouvel onglet"
+msgstr "Ouvrir une vidéo dans un nouvel onglet"
 
 #: lib/contents/ui/WebView.qml:451
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open audio in new Tab"
-msgstr "Ouvrir dans un nouvel onglet"
+msgstr "Ouvrir un fichier audio dans un nouvel onglet"
 
 #: lib/contents/ui/WebView.qml:463
 #, kde-format
 msgid "Save video"
-msgstr ""
+msgstr "Enregistrer une vidéo"
 
 #: lib/contents/ui/WebView.qml:469
 #, kde-format
 msgid "Copy video Link"
-msgstr ""
+msgstr "Copier un lien vidéo"
 
 #: lib/contents/ui/WebView.qml:475
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgid "Open image"
-msgstr "Ouvrir dans une application"
+msgstr "Ouvrir une image"
 
 #: lib/contents/ui/WebView.qml:475
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open image in new Tab"
-msgstr "Ouvrir dans un nouvel onglet"
+msgstr "Ouvrir une image dans un nouvel onglet"
 
 #: lib/contents/ui/WebView.qml:487
-#, fuzzy, kde-format
-#| msgid "Leave page"
+#, kde-format
 msgid "Save image"
-msgstr "Quitter la page"
+msgstr "Enregistrer une image"
 
 #: lib/contents/ui/WebView.qml:493
-#, fuzzy, kde-format
-#| msgid "Load images"
+#, kde-format
 msgid "Copy image"
-msgstr "Charger les images"
+msgstr "Copier une image"
 
 #: lib/contents/ui/WebView.qml:499
 #, kde-format
 msgid "Copy image link"
-msgstr ""
+msgstr "Copier un lien vers une image"
 
 #: lib/contents/ui/WebView.qml:505
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgid "Open link"
-msgstr "Ouvrir dans une application"
+msgstr "Ouvrir un lien"
 
 #: lib/contents/ui/WebView.qml:505
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open link in new Tab"
-msgstr "Ouvrir dans un nouvel onglet"
+msgstr "Ouvrir un lien dans un nouvel onglet"
 
 #: lib/contents/ui/WebView.qml:517
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#, kde-format
 msgid "Bookmark link"
 msgstr "Signet"
 
 #: lib/contents/ui/WebView.qml:529
 #, kde-format
 msgid "Save link"
-msgstr ""
+msgstr "Enregistrer un lien"
 
 #: lib/contents/ui/WebView.qml:535
-#, fuzzy, kde-format
-#| msgid "Copy Url"
+#, kde-format
 msgid "Copy link"
-msgstr "Copier l'URL"
+msgstr "Copier un lien"
 
 #: lib/contents/ui/WebView.qml:542
 #, kde-format
@@ -11608,10 +11593,9 @@ msgid "Share page"
 msgstr "Partager la page"
 
 #: lib/contents/ui/WebView.qml:587
-#, fuzzy, kde-format
-#| msgid "View source"
+#, kde-format
 msgid "View page source"
-msgstr "Afficher la source"
+msgstr "Afficher le code source de la page"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
 #, kde-format
@@ -11643,10 +11627,9 @@ msgid "No bookmarks yet"
 msgstr "Aucun signet pour l'instant"
 
 #: src/contents/ui/desktop/desktop.qml:116
-#, fuzzy, kde-format
-#| msgid "Search history…"
+#, kde-format
 msgid "Search or enter URL…"
-msgstr "Rechercher l'historique…"
+msgstr "Rechercher ou saisir une URL…"
 
 #: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:354
 #: src/contents/ui/Tabs.qml:68
@@ -11682,10 +11665,9 @@ msgid "Full Screen"
 msgstr "Plein écran"
 
 #: src/contents/ui/desktop/desktop.qml:284
-#, fuzzy, kde-format
-#| msgid "Show developer tools"
+#, kde-format
 msgid "Hide developer tools"
-msgstr "Afficher les outils de développement"
+msgstr "Masquer les outils de développement"
 
 #: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:376
 #, kde-format
@@ -11751,7 +11733,7 @@ msgstr "Afficher le bouton de la page d'accueil :"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:29
 #, kde-format
-msgid "The home button will be show next to the reload button in the toolbar."
+msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr ""
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:39

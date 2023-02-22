@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-21 01:01+0000\n"
-"PO-Revision-Date: 2023-02-20 11:46+0100\n"
+"POT-Creation-Date: 2023-02-22 01:00+0000\n"
+"PO-Revision-Date: 2023-02-21 14:07+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -504,9 +504,13 @@ msgid "Show home button:"
 msgstr "Mostrar el botón de inicio:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:29
-#, kde-format
-msgid "The home button will be show next to the reload button in the toolbar."
+#, fuzzy, kde-format
+#| msgid ""
+#| "The home button will be show next to the reload button in the toolbar."
+msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr ""
+"El botón de inicio se mostrará junto al botón de recarga en la barra de "
+"herramientas."
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:39
 #, kde-format
@@ -519,15 +523,15 @@ msgid "New tabs:"
 msgstr "Nuevas pestañas:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:83
-#, fuzzy, kde-format
-#| msgid "Always show the tab bar:"
+#, kde-format
 msgid "Always show the tab bar"
-msgstr "Mostrar siempre la barra de pestañas:"
+msgstr "Mostrar siempre la barra de pestañas"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:84
 #, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open"
 msgstr ""
+"La barra de pestañas se mostrará incluso si solo hay una pestaña abierta"
 
 #: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:205
 #, kde-format
@@ -739,8 +743,7 @@ msgid "Remove this filter list"
 msgstr "Eliminar esta lista de filtrado"
 
 #: src/contents/ui/SettingsAdblock.qml:154
-#, fuzzy, kde-format
-#| msgid "Add filterlist"
+#, kde-format
 msgid "add Filterlist"
 msgstr "Añadir lista de filtrado"
 

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-21 01:01+0000\n"
+"POT-Creation-Date: 2023-02-22 01:00+0000\n"
 "PO-Revision-Date: 2022-06-17 18:43+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -519,7 +519,7 @@ msgstr "Näytä kotipainike:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:29
 #, kde-format
-msgid "The home button will be show next to the reload button in the toolbar."
+msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr ""
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:39
