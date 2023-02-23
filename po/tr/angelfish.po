@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-22 01:00+0000\n"
-"PO-Revision-Date: 2023-02-21 22:50+0300\n"
+"PO-Revision-Date: 2023-02-22 20:03+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -503,9 +503,7 @@ msgid "Show home button:"
 msgstr "Anasayfa düğmesini göster:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:29
-#, fuzzy, kde-format
-#| msgid ""
-#| "The home button will be show next to the reload button in the toolbar."
+#, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr ""
 "Ana sayfa düğmesi, araç çubuğunda yenile düğmesinin yanında gösterilecektir."

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-22 01:00+0000\n"
-"PO-Revision-Date: 2023-02-21 14:07+0100\n"
+"PO-Revision-Date: 2023-02-22 20:44+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -504,9 +504,7 @@ msgid "Show home button:"
 msgstr "Mostrar el botón de inicio:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:29
-#, fuzzy, kde-format
-#| msgid ""
-#| "The home button will be show next to the reload button in the toolbar."
+#, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr ""
 "El botón de inicio se mostrará junto al botón de recarga en la barra de "

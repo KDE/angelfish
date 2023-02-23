@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-22 01:00+0000\n"
-"PO-Revision-Date: 2023-02-21 15:55+0100\n"
+"PO-Revision-Date: 2023-02-22 14:17+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -500,9 +500,7 @@ msgid "Show home button:"
 msgstr "Home knop tonen:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:29
-#, fuzzy, kde-format
-#| msgid ""
-#| "The home button will be show next to the reload button in the toolbar."
+#, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr "De knop home zal getoond worden naast de knop herladen in de werkbalk"
 

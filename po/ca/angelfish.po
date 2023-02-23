@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-22 01:00+0000\n"
-"PO-Revision-Date: 2023-02-21 09:16+0100\n"
+"PO-Revision-Date: 2023-02-22 09:27+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -505,9 +505,7 @@ msgid "Show home button:"
 msgstr "Mostra el botó «Inici»:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:29
-#, fuzzy, kde-format
-#| msgid ""
-#| "The home button will be show next to the reload button in the toolbar."
+#, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr ""
 "El botó d'inici es mostrarà al costat del botó de recàrrega a la barra "
