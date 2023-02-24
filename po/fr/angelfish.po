@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-22 01:00+0000\n"
-"PO-Revision-Date: 2023-02-22 10:37+0100\n"
+"PO-Revision-Date: 2023-02-22 21:18+0100\n"
 "Last-Translator: Xavier BESNARD <xavier.besnard]neuf.fr>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -11735,6 +11735,8 @@ msgstr "Afficher le bouton de la page d'accueil :"
 #, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr ""
+"Le bouton d'accueil sera affiché à côté du bouton de rechargement dans la "
+"barre d'outils."
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:39
 #, kde-format
