@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-22 01:00+0000\n"
-"PO-Revision-Date: 2023-02-15 11:05\n"
+"PO-Revision-Date: 2023-02-24 12:44\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -201,16 +201,14 @@ msgid "Website was opened in a new tab"
 msgstr "网站已在新标签页中打开"
 
 #: lib/contents/ui/WebView.qml:254
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Entered Full Screen Mode"
-msgstr "全屏"
+msgstr ""
 
 #: lib/contents/ui/WebView.qml:255
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Exit Full Screen (Esc)"
-msgstr "全屏"
+msgstr ""
 
 #: lib/contents/ui/WebView.qml:379
 #, kde-format
@@ -243,16 +241,14 @@ msgid "Loop"
 msgstr ""
 
 #: lib/contents/ui/WebView.qml:428
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Exit fullscreen"
-msgstr "全屏"
+msgstr ""
 
 #: lib/contents/ui/WebView.qml:428
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Fullscreen"
-msgstr "全屏"
+msgstr ""
 
 #: lib/contents/ui/WebView.qml:441
 #, kde-format
@@ -260,10 +256,9 @@ msgid "Hide controls"
 msgstr ""
 
 #: lib/contents/ui/WebView.qml:442
-#, fuzzy, kde-format
-#| msgid "Show developer tools"
+#, kde-format
 msgid "Show controls"
-msgstr "显示开发者工具"
+msgstr ""
 
 #: lib/contents/ui/WebView.qml:450
 #, kde-format
@@ -276,16 +271,14 @@ msgid "Open audio"
 msgstr ""
 
 #: lib/contents/ui/WebView.qml:451
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open video in new Tab"
-msgstr "在新标签页中打开"
+msgstr ""
 
 #: lib/contents/ui/WebView.qml:451
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open audio in new Tab"
-msgstr "在新标签页中打开"
+msgstr ""
 
 #: lib/contents/ui/WebView.qml:463
 #, kde-format
@@ -298,28 +291,24 @@ msgid "Copy video Link"
 msgstr ""
 
 #: lib/contents/ui/WebView.qml:475
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgid "Open image"
-msgstr "使用应用程序打开"
+msgstr ""
 
 #: lib/contents/ui/WebView.qml:475
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open image in new Tab"
-msgstr "在新标签页中打开"
+msgstr ""
 
 #: lib/contents/ui/WebView.qml:487
-#, fuzzy, kde-format
-#| msgid "Leave page"
+#, kde-format
 msgid "Save image"
-msgstr "离开页面"
+msgstr ""
 
 #: lib/contents/ui/WebView.qml:493
-#, fuzzy, kde-format
-#| msgid "Load images"
+#, kde-format
 msgid "Copy image"
-msgstr "加载图像"
+msgstr ""
 
 #: lib/contents/ui/WebView.qml:499
 #, kde-format
@@ -327,22 +316,19 @@ msgid "Copy image link"
 msgstr ""
 
 #: lib/contents/ui/WebView.qml:505
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgid "Open link"
-msgstr "使用应用程序打开"
+msgstr ""
 
 #: lib/contents/ui/WebView.qml:505
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open link in new Tab"
-msgstr "在新标签页中打开"
+msgstr ""
 
 #: lib/contents/ui/WebView.qml:517
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#, kde-format
 msgid "Bookmark link"
-msgstr "书签"
+msgstr ""
 
 #: lib/contents/ui/WebView.qml:529
 #, kde-format
@@ -350,10 +336,9 @@ msgid "Save link"
 msgstr ""
 
 #: lib/contents/ui/WebView.qml:535
-#, fuzzy, kde-format
-#| msgid "Copy Url"
+#, kde-format
 msgid "Copy link"
-msgstr "复制 URL"
+msgstr ""
 
 #: lib/contents/ui/WebView.qml:542
 #, kde-format
@@ -377,10 +362,9 @@ msgid "Share page"
 msgstr "分享网页"
 
 #: lib/contents/ui/WebView.qml:587
-#, fuzzy, kde-format
-#| msgid "View source"
+#, kde-format
 msgid "View page source"
-msgstr "查看源代码"
+msgstr ""
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
 #, kde-format
@@ -410,10 +394,9 @@ msgid "No bookmarks yet"
 msgstr "没有书签"
 
 #: src/contents/ui/desktop/desktop.qml:116
-#, fuzzy, kde-format
-#| msgid "Search history…"
+#, kde-format
 msgid "Search or enter URL…"
-msgstr "搜索历史记录…"
+msgstr ""
 
 #: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:354
 #: src/contents/ui/Tabs.qml:68
@@ -449,10 +432,9 @@ msgid "Full Screen"
 msgstr "全屏"
 
 #: src/contents/ui/desktop/desktop.qml:284
-#, fuzzy, kde-format
-#| msgid "Show developer tools"
+#, kde-format
 msgid "Hide developer tools"
-msgstr "显示开发者工具"
+msgstr ""
 
 #: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:376
 #, kde-format
@@ -486,10 +468,9 @@ msgid "Configure Angelfish"
 msgstr "配置 Angelfish"
 
 #: src/contents/ui/desktop/desktop.qml:358
-#, fuzzy, kde-format
-#| msgid "Private mode"
+#, kde-format
 msgid "Private Mode"
-msgstr "隐私模式"
+msgstr ""
 
 #: src/contents/ui/desktop/HistoryPage.qml:28
 #, kde-format
@@ -751,10 +732,9 @@ msgid "Remove this filter list"
 msgstr "移除此过滤规则列表"
 
 #: src/contents/ui/SettingsAdblock.qml:154
-#, fuzzy, kde-format
-#| msgid "Add filterlist"
+#, kde-format
 msgid "add Filterlist"
-msgstr "添加过滤规则列表"
+msgstr ""
 
 #: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:12
 #, kde-format
@@ -894,15 +874,3 @@ msgstr ""
 #, kde-format
 msgid "URL to open"
 msgstr "要打开的 URL"
-
-#~ msgid "Enabled"
-#~ msgstr "已启用"
-
-#~ msgid "Disabled"
-#~ msgstr "已禁用"
-
-#~ msgid "Search online for '%1'"
-#~ msgstr "在线搜索“%1”"
-
-#~ msgid "Search online"
-#~ msgstr "在线搜索"
