@@ -226,22 +226,22 @@ msgstr "Pausa"
 #: lib/contents/ui/WebView.qml:387
 #, kde-format
 msgid "Unmute"
-msgstr ""
+msgstr "Activar o Som"
 
 #: lib/contents/ui/WebView.qml:388
 #, kde-format
 msgid "Mute"
-msgstr ""
+msgstr "Silenciar"
 
 #: lib/contents/ui/WebView.qml:398
 #, kde-format
 msgid "Speed"
-msgstr ""
+msgstr "Velocidade"
 
 #: lib/contents/ui/WebView.qml:421
 #, kde-format
 msgid "Loop"
-msgstr ""
+msgstr "Ciclo"
 
 #: lib/contents/ui/WebView.qml:428
 #, fuzzy, kde-format
@@ -250,8 +250,7 @@ msgid "Exit fullscreen"
 msgstr "Ecrã Completo"
 
 #: lib/contents/ui/WebView.qml:428
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Fullscreen"
 msgstr "Ecrã Completo"
 
@@ -311,10 +310,9 @@ msgid "Open image in new Tab"
 msgstr "Abrir numa Nova Página"
 
 #: lib/contents/ui/WebView.qml:487
-#, fuzzy, kde-format
-#| msgid "Leave page"
+#, kde-format
 msgid "Save image"
-msgstr "Sair da página"
+msgstr "Gravar a imagem"
 
 #: lib/contents/ui/WebView.qml:493
 #, fuzzy, kde-format
@@ -328,10 +326,9 @@ msgid "Copy image link"
 msgstr ""
 
 #: lib/contents/ui/WebView.qml:505
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgid "Open link"
-msgstr "Abrir na aplicação"
+msgstr "Abrir a ligação"
 
 #: lib/contents/ui/WebView.qml:505
 #, fuzzy, kde-format
@@ -351,10 +348,9 @@ msgid "Save link"
 msgstr ""
 
 #: lib/contents/ui/WebView.qml:535
-#, fuzzy, kde-format
-#| msgid "Copy Url"
+#, kde-format
 msgid "Copy link"
-msgstr "Copiar o URL"
+msgstr "Copiar a ligação"
 
 #: lib/contents/ui/WebView.qml:542
 #, kde-format
@@ -378,10 +374,9 @@ msgid "Share page"
 msgstr "Partilhar a página"
 
 #: lib/contents/ui/WebView.qml:587
-#, fuzzy, kde-format
-#| msgid "View source"
+#, kde-format
 msgid "View page source"
-msgstr "Ver o código"
+msgstr "Ver o código da página"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
 #, kde-format
@@ -535,10 +530,9 @@ msgid "New tabs:"
 msgstr "Novas páginas:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:83
-#, fuzzy, kde-format
-#| msgid "Always show the tab bar:"
+#, kde-format
 msgid "Always show the tab bar"
-msgstr "Mostrar sempre a barra de páginas:"
+msgstr "Mostrar sempre a barra de páginas"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:84
 #, kde-format
