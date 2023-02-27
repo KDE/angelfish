@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-22 01:00+0000\n"
+"POT-Creation-Date: 2023-02-27 01:03+0000\n"
 "PO-Revision-Date: 2022-12-20 10:45-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -29,22 +29,22 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "elchevive@opensuse.org, alvarenga@kde.org"
 
-#: angelfish-webapp/main.cpp:77
+#: angelfish-webapp/main.cpp:85
 #, kde-format
 msgid "desktop file to open"
 msgstr "Arquivo desktop a abrir"
 
-#: angelfish-webapp/main.cpp:104
+#: angelfish-webapp/main.cpp:112
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr "Execução de aplicativos web do Angelfish"
 
-#: angelfish-webapp/main.cpp:106
+#: angelfish-webapp/main.cpp:114
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "Copyright 2020 Desenvolvedores do Angelfish"
 
-#: angelfish-webapp/main.cpp:108
+#: angelfish-webapp/main.cpp:116
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
@@ -819,6 +819,30 @@ msgstr ""
 "Quando você abrir um link, imagem ou mídia em uma nova aba, alternar para "
 "ela imediatamente"
 
+#: src/contents/ui/SettingsGeneral.qml:81
+#, kde-format
+msgid "Use Smooth Scrolling"
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:82
+#, kde-format
+msgid ""
+"Scrolling is smoother and will not stop suddenly when you stop scrolling. "
+"Requires app restart to take effect."
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:91
+#, kde-format
+msgid "Use dark color scheme"
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:92
+#, kde-format
+msgid ""
+"Websites will have their color schemes set to dark. Requires app restart to "
+"take effect."
+msgstr ""
+
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format
 msgid "Navigation bar"
@@ -905,7 +929,7 @@ msgstr "Remover aplicativo"
 msgid "Share page to"
 msgstr "Compartilhar página para"
 
-#: src/main.cpp:85
+#: src/main.cpp:93
 #, kde-format
 msgid "URL to open"
 msgstr "URL a ser aberta"

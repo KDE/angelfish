@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-22 01:00+0000\n"
+"POT-Creation-Date: 2023-02-27 01:03+0000\n"
 "PO-Revision-Date: 2022-10-03 14:17+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-i18n-doc@kde.org>\n"
@@ -28,22 +28,22 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde@peremen.name"
 
-#: angelfish-webapp/main.cpp:77
+#: angelfish-webapp/main.cpp:85
 #, kde-format
 msgid "desktop file to open"
 msgstr "열 데스크톱 파일"
 
-#: angelfish-webapp/main.cpp:104
+#: angelfish-webapp/main.cpp:112
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr "Angelfish 웹 앱 런타임"
 
-#: angelfish-webapp/main.cpp:106
+#: angelfish-webapp/main.cpp:114
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "Copyright 2020 Angelfish developers"
 
-#: angelfish-webapp/main.cpp:108
+#: angelfish-webapp/main.cpp:116
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
@@ -815,6 +815,30 @@ msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately"
 msgstr "링크, 그림, 미디어를 새 탭으로 열 때 연 즉시 전환"
 
+#: src/contents/ui/SettingsGeneral.qml:81
+#, kde-format
+msgid "Use Smooth Scrolling"
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:82
+#, kde-format
+msgid ""
+"Scrolling is smoother and will not stop suddenly when you stop scrolling. "
+"Requires app restart to take effect."
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:91
+#, kde-format
+msgid "Use dark color scheme"
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:92
+#, kde-format
+msgid ""
+"Websites will have their color schemes set to dark. Requires app restart to "
+"take effect."
+msgstr ""
+
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format
 msgid "Navigation bar"
@@ -900,7 +924,7 @@ msgstr "앱 삭제"
 msgid "Share page to"
 msgstr "공유 페이지"
 
-#: src/main.cpp:85
+#: src/main.cpp:93
 #, kde-format
 msgid "URL to open"
 msgstr "열려는 URL"

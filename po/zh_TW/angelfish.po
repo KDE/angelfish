@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-22 01:00+0000\n"
+"POT-Creation-Date: 2023-02-27 01:03+0000\n"
 "PO-Revision-Date: 2023-02-09 01:34+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@linux.org.tw>\n"
@@ -28,22 +28,22 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "pan93412@gmail.com, mail@kisaragi-hiu.com"
 
-#: angelfish-webapp/main.cpp:77
+#: angelfish-webapp/main.cpp:85
 #, kde-format
 msgid "desktop file to open"
 msgstr "要開啟的 desktop 檔案"
 
-#: angelfish-webapp/main.cpp:104
+#: angelfish-webapp/main.cpp:112
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr "Angelfish 網頁 App 執行階段"
 
-#: angelfish-webapp/main.cpp:106
+#: angelfish-webapp/main.cpp:114
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "著作權所有 2020 Angelfish 開發群"
 
-#: angelfish-webapp/main.cpp:108
+#: angelfish-webapp/main.cpp:116
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
@@ -811,6 +811,30 @@ msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately"
 msgstr "當您在新分頁開啟連結、圖片或媒體時，馬上切換到新分頁"
 
+#: src/contents/ui/SettingsGeneral.qml:81
+#, kde-format
+msgid "Use Smooth Scrolling"
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:82
+#, kde-format
+msgid ""
+"Scrolling is smoother and will not stop suddenly when you stop scrolling. "
+"Requires app restart to take effect."
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:91
+#, kde-format
+msgid "Use dark color scheme"
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:92
+#, kde-format
+msgid ""
+"Websites will have their color schemes set to dark. Requires app restart to "
+"take effect."
+msgstr ""
+
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format
 msgid "Navigation bar"
@@ -895,7 +919,7 @@ msgstr "移除應用程式"
 msgid "Share page to"
 msgstr "分享頁面"
 
-#: src/main.cpp:85
+#: src/main.cpp:93
 #, kde-format
 msgid "URL to open"
 msgstr "欲開啟網址"

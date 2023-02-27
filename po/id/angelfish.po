@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-22 01:00+0000\n"
+"POT-Creation-Date: 2023-02-27 01:03+0000\n"
 "PO-Revision-Date: 2022-08-19 20:36+0700\n"
 "Last-Translator: Wantoyèk <wantoyek@gmail.com>\n"
 "Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
@@ -27,22 +27,22 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "wantoyek@gmail.com"
 
-#: angelfish-webapp/main.cpp:77
+#: angelfish-webapp/main.cpp:85
 #, kde-format
 msgid "desktop file to open"
 msgstr "file desktop untuk dibuka"
 
-#: angelfish-webapp/main.cpp:104
+#: angelfish-webapp/main.cpp:112
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr "Rntime Apl Web Angelfish"
 
-#: angelfish-webapp/main.cpp:106
+#: angelfish-webapp/main.cpp:114
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "Hak cipta 2010 para pengembang Angelfish"
 
-#: angelfish-webapp/main.cpp:108
+#: angelfish-webapp/main.cpp:116
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
@@ -819,6 +819,30 @@ msgstr ""
 "Saat Anda membuka tautan, gambar, atau media di tab baru, segera alihkan ke "
 "sana"
 
+#: src/contents/ui/SettingsGeneral.qml:81
+#, kde-format
+msgid "Use Smooth Scrolling"
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:82
+#, kde-format
+msgid ""
+"Scrolling is smoother and will not stop suddenly when you stop scrolling. "
+"Requires app restart to take effect."
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:91
+#, kde-format
+msgid "Use dark color scheme"
+msgstr ""
+
+#: src/contents/ui/SettingsGeneral.qml:92
+#, kde-format
+msgid ""
+"Websites will have their color schemes set to dark. Requires app restart to "
+"take effect."
+msgstr ""
+
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format
 msgid "Navigation bar"
@@ -906,7 +930,7 @@ msgstr "Hapus apl"
 msgid "Share page to"
 msgstr "Bagikan halaman"
 
-#: src/main.cpp:85
+#: src/main.cpp:93
 #, kde-format
 msgid "URL to open"
 msgstr "URL untuk dibuka"
