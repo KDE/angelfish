@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-27 01:03+0000\n"
-"PO-Revision-Date: 2023-02-22 20:44+0100\n"
+"PO-Revision-Date: 2023-02-27 05:21+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -802,7 +802,7 @@ msgstr ""
 #: src/contents/ui/SettingsGeneral.qml:81
 #, kde-format
 msgid "Use Smooth Scrolling"
-msgstr ""
+msgstr "Usar desplazamiento suave"
 
 #: src/contents/ui/SettingsGeneral.qml:82
 #, kde-format
@@ -810,11 +810,13 @@ msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
 "Requires app restart to take effect."
 msgstr ""
+"El desplazamiento es más suave y no se detendrá bruscamente cuando deje de "
+"desplazarse. Necesita reiniciar la aplicación para que tenga efecto."
 
 #: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
 msgid "Use dark color scheme"
-msgstr ""
+msgstr "Usar el esquema de color oscuro"
 
 #: src/contents/ui/SettingsGeneral.qml:92
 #, kde-format
@@ -822,6 +824,8 @@ msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
 "take effect."
 msgstr ""
+"Los sitios web tendrán un esquema de color oscuro. Necesita reiniciar la "
+"aplicación para que tenga efecto."
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format

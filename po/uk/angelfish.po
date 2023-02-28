@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-27 01:03+0000\n"
-"PO-Revision-Date: 2023-02-22 08:35+0200\n"
+"PO-Revision-Date: 2023-02-27 16:34+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -800,7 +800,7 @@ msgstr ""
 #: src/contents/ui/SettingsGeneral.qml:81
 #, kde-format
 msgid "Use Smooth Scrolling"
-msgstr ""
+msgstr "Використовувати плавне гортання"
 
 #: src/contents/ui/SettingsGeneral.qml:82
 #, kde-format
@@ -808,11 +808,13 @@ msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
 "Requires app restart to take effect."
 msgstr ""
+"Гортання буде плавнішим і не зупинятиметься одразу, коли ви припинятимете "
+"гортання. Потребує перезапуску програми для набуття чинності."
 
 #: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
 msgid "Use dark color scheme"
-msgstr ""
+msgstr "Використовувати темну схему кольорів"
 
 #: src/contents/ui/SettingsGeneral.qml:92
 #, kde-format
@@ -820,6 +822,8 @@ msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
 "take effect."
 msgstr ""
+"Для вебсайтів буде встановлено темні схеми кольорів. Потребує перезапуску "
+"програми для набуття чинності."
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format

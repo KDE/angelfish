@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-27 01:03+0000\n"
-"PO-Revision-Date: 2023-02-22 20:03+0300\n"
+"PO-Revision-Date: 2023-02-27 19:56+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -796,7 +796,7 @@ msgstr ""
 #: src/contents/ui/SettingsGeneral.qml:81
 #, kde-format
 msgid "Use Smooth Scrolling"
-msgstr ""
+msgstr "Pürüzsüz Sarmayı Kullan"
 
 #: src/contents/ui/SettingsGeneral.qml:82
 #, kde-format
@@ -804,11 +804,13 @@ msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
 "Requires app restart to take effect."
 msgstr ""
+"Sarma daha pürüzsüzdür ve siz sarmayı durdurduğunuzda anında kesilmez. "
+"Etkili olması için uygulamanın yeniden başlatılması gerekir."
 
 #: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
 msgid "Use dark color scheme"
-msgstr ""
+msgstr "Koyu renk şeması kullan"
 
 #: src/contents/ui/SettingsGeneral.qml:92
 #, kde-format
@@ -816,6 +818,8 @@ msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
 "take effect."
 msgstr ""
+"Web sayfalarının renk şeması koyu olarak ayarlanır. Etkili olması için "
+"uygulamanın yeniden başlatılması gerekir."
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format

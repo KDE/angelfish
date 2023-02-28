@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-27 01:03+0000\n"
-"PO-Revision-Date: 2023-02-23 07:04+0100\n"
+"PO-Revision-Date: 2023-02-27 06:50+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -798,7 +798,7 @@ msgstr ""
 #: src/contents/ui/SettingsGeneral.qml:81
 #, kde-format
 msgid "Use Smooth Scrolling"
-msgstr ""
+msgstr "გლუვი გადახვევის გამოყენება"
 
 #: src/contents/ui/SettingsGeneral.qml:82
 #, kde-format
@@ -806,11 +806,13 @@ msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
 "Requires app restart to take effect."
 msgstr ""
+"გადახვევა გლუვია და გაჩერებისას უცებ არ შეჩერდება. ძალაში შესასვლელად "
+"აპლიკაციის გადატვირთვა აუცილებელია."
 
 #: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
 msgid "Use dark color scheme"
-msgstr ""
+msgstr "მუქი ფერის სქემის გამოყენება"
 
 #: src/contents/ui/SettingsGeneral.qml:92
 #, kde-format
@@ -818,6 +820,8 @@ msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
 "take effect."
 msgstr ""
+"ვებსაიტების ფერს სქემები ბნელი იქნება. ძალაში შესასვლელად აპლიკაციის "
+"გადატვირთვა აუცილებელია."
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format

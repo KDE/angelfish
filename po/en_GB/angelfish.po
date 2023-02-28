@@ -1,15 +1,15 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the plasma-angelfish package.
 #
-# Steve Allewell <steve.allewell@gmail.com>, 2019, 2020, 2021, 2022.
+# Steve Allewell <steve.allewell@gmail.com>, 2019, 2020, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-27 01:03+0000\n"
-"PO-Revision-Date: 2022-12-31 15:42+0000\n"
+"PO-Revision-Date: 2023-02-27 20:55+0000\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
-"Language-Team: British English <kde-l10n-en_gb@kde.org>\n"
+"Language-Team: English <kde-l10n-en_gb@kde.org>\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -202,21 +202,19 @@ msgid "Website was opened in a new tab"
 msgstr "Website was opened in a new tab"
 
 #: lib/contents/ui/WebView.qml:254
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Entered Full Screen Mode"
-msgstr "Full Screen"
+msgstr "Entered Full Screen Mode"
 
 #: lib/contents/ui/WebView.qml:255
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Exit Full Screen (Esc)"
-msgstr "Full Screen"
+msgstr "Exit Full Screen (Esc)"
 
 #: lib/contents/ui/WebView.qml:379
 #, kde-format
 msgid "Play"
-msgstr ""
+msgstr "Play"
 
 #: lib/contents/ui/WebView.qml:380 src/contents/ui/Downloads.qml:47
 #, kde-format
@@ -226,135 +224,122 @@ msgstr "Pause"
 #: lib/contents/ui/WebView.qml:387
 #, kde-format
 msgid "Unmute"
-msgstr ""
+msgstr "Unmute"
 
 #: lib/contents/ui/WebView.qml:388
 #, kde-format
 msgid "Mute"
-msgstr ""
+msgstr "Mute"
 
 #: lib/contents/ui/WebView.qml:398
 #, kde-format
 msgid "Speed"
-msgstr ""
+msgstr "Speed"
 
 #: lib/contents/ui/WebView.qml:421
 #, kde-format
 msgid "Loop"
-msgstr ""
+msgstr "Loop"
 
 #: lib/contents/ui/WebView.qml:428
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Exit fullscreen"
-msgstr "Full Screen"
+msgstr "Exit full-screen"
 
 #: lib/contents/ui/WebView.qml:428
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Fullscreen"
-msgstr "Full Screen"
+msgstr "Full-screen"
 
 #: lib/contents/ui/WebView.qml:441
 #, kde-format
 msgid "Hide controls"
-msgstr ""
+msgstr "Hide controls"
 
 #: lib/contents/ui/WebView.qml:442
-#, fuzzy, kde-format
-#| msgid "Show developer tools"
+#, kde-format
 msgid "Show controls"
-msgstr "Show developer tools"
+msgstr "Show controls"
 
 #: lib/contents/ui/WebView.qml:450
 #, kde-format
 msgid "Open video"
-msgstr ""
+msgstr "Open video"
 
 #: lib/contents/ui/WebView.qml:450
 #, kde-format
 msgid "Open audio"
-msgstr ""
+msgstr "Open audio"
 
 #: lib/contents/ui/WebView.qml:451
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open video in new Tab"
-msgstr "Open in new Tab"
+msgstr "Open video in new Tab"
 
 #: lib/contents/ui/WebView.qml:451
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open audio in new Tab"
-msgstr "Open in new Tab"
+msgstr "Open audio in new Tab"
 
 #: lib/contents/ui/WebView.qml:463
 #, kde-format
 msgid "Save video"
-msgstr ""
+msgstr "Save video"
 
 #: lib/contents/ui/WebView.qml:469
 #, kde-format
 msgid "Copy video Link"
-msgstr ""
+msgstr "Copy video Link"
 
 #: lib/contents/ui/WebView.qml:475
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgid "Open image"
-msgstr "Open in app"
+msgstr "Open image"
 
 #: lib/contents/ui/WebView.qml:475
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open image in new Tab"
-msgstr "Open in new Tab"
+msgstr "Open image in new Tab"
 
 #: lib/contents/ui/WebView.qml:487
-#, fuzzy, kde-format
-#| msgid "Leave page"
+#, kde-format
 msgid "Save image"
-msgstr "Leave page"
+msgstr "Save image"
 
 #: lib/contents/ui/WebView.qml:493
-#, fuzzy, kde-format
-#| msgid "Load images"
+#, kde-format
 msgid "Copy image"
-msgstr "Load images"
+msgstr "Copy image"
 
 #: lib/contents/ui/WebView.qml:499
 #, kde-format
 msgid "Copy image link"
-msgstr ""
+msgstr "Copy image link"
 
 #: lib/contents/ui/WebView.qml:505
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgid "Open link"
-msgstr "Open in app"
+msgstr "Open link"
 
 #: lib/contents/ui/WebView.qml:505
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open link in new Tab"
-msgstr "Open in new Tab"
+msgstr "Open link in new Tab"
 
 #: lib/contents/ui/WebView.qml:517
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#, kde-format
 msgid "Bookmark link"
-msgstr "Bookmark"
+msgstr "Bookmark link"
 
 #: lib/contents/ui/WebView.qml:529
 #, kde-format
 msgid "Save link"
-msgstr ""
+msgstr "Save link"
 
 #: lib/contents/ui/WebView.qml:535
-#, fuzzy, kde-format
-#| msgid "Copy Url"
+#, kde-format
 msgid "Copy link"
-msgstr "Copy URL"
+msgstr "Copy link"
 
 #: lib/contents/ui/WebView.qml:542
 #, kde-format
@@ -378,10 +363,9 @@ msgid "Share page"
 msgstr "Share page"
 
 #: lib/contents/ui/WebView.qml:587
-#, fuzzy, kde-format
-#| msgid "View source"
+#, kde-format
 msgid "View page source"
-msgstr "View source"
+msgstr "View page source"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
 #, kde-format
@@ -412,10 +396,9 @@ msgid "No bookmarks yet"
 msgstr "No bookmarks yet"
 
 #: src/contents/ui/desktop/desktop.qml:116
-#, fuzzy, kde-format
-#| msgid "Search history…"
+#, kde-format
 msgid "Search or enter URL…"
-msgstr "Search history…"
+msgstr "Search or enter URL…"
 
 #: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:354
 #: src/contents/ui/Tabs.qml:68
@@ -451,10 +434,9 @@ msgid "Full Screen"
 msgstr "Full Screen"
 
 #: src/contents/ui/desktop/desktop.qml:284
-#, fuzzy, kde-format
-#| msgid "Show developer tools"
+#, kde-format
 msgid "Hide developer tools"
-msgstr "Show developer tools"
+msgstr "Hide developer tools"
 
 #: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:376
 #, kde-format
@@ -488,10 +470,9 @@ msgid "Configure Angelfish"
 msgstr "Configure Angelfish"
 
 #: src/contents/ui/desktop/desktop.qml:358
-#, fuzzy, kde-format
-#| msgid "Private mode"
+#, kde-format
 msgid "Private Mode"
-msgstr "Private mode"
+msgstr "Private Mode"
 
 #: src/contents/ui/desktop/HistoryPage.qml:28
 #, kde-format
@@ -523,6 +504,7 @@ msgstr "Show home button:"
 #, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr ""
+"The home button will be shown next to the reload button in the toolbar."
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:39
 #, kde-format
@@ -535,15 +517,14 @@ msgid "New tabs:"
 msgstr "New tabs:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:83
-#, fuzzy, kde-format
-#| msgid "Always show the tab bar:"
+#, kde-format
 msgid "Always show the tab bar"
-msgstr "Always show the tab bar:"
+msgstr "Always show the tab bar"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:84
 #, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open"
-msgstr ""
+msgstr "The tab bar will be displayed even if there is only one tab open"
 
 #: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:205
 #, kde-format
@@ -551,44 +532,39 @@ msgid "Reader Mode: %1"
 msgstr "Reader Mode: %1"
 
 #: src/contents/ui/desktop/Tabs.qml:250 src/contents/ui/Tabs.qml:236
-#, fuzzy, kde-format
-#| msgid "Close"
+#, kde-format
 msgid "Close tab"
-msgstr "Close"
+msgstr "Close tab"
 
 #: src/contents/ui/desktop/Tabs.qml:290
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open a new tab"
-msgstr "Open in new Tab"
+msgstr "Open a new tab"
 
 #: src/contents/ui/desktop/Tabs.qml:323
 #, kde-format
 msgid "List all tabs"
-msgstr ""
+msgstr "List all tabs"
 
 #: src/contents/ui/desktop/Tabs.qml:363
 #, kde-format
 msgid "Reload Tab"
-msgstr ""
+msgstr "Reload Tab"
 
 #: src/contents/ui/desktop/Tabs.qml:371
-#, fuzzy, kde-format
-#| msgid "Private Tabs"
+#, kde-format
 msgid "Duplicate Tab"
-msgstr "Private Tabs"
+msgstr "Duplicate Tab"
 
 #: src/contents/ui/desktop/Tabs.qml:379
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#, kde-format
 msgid "Bookmark Tab"
-msgstr "Bookmark"
+msgstr "Bookmark Tab"
 
 #: src/contents/ui/desktop/Tabs.qml:395
-#, fuzzy, kde-format
-#| msgid "Close"
+#, kde-format
 msgid "Close Tab"
-msgstr "Close"
+msgstr "Close Tab"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -759,8 +735,7 @@ msgid "Remove this filter list"
 msgstr "Remove this filter list"
 
 #: src/contents/ui/SettingsAdblock.qml:154
-#, fuzzy, kde-format
-#| msgid "Add filterlist"
+#, kde-format
 msgid "add Filterlist"
 msgstr "Add filter list"
 
@@ -819,7 +794,7 @@ msgstr ""
 #: src/contents/ui/SettingsGeneral.qml:81
 #, kde-format
 msgid "Use Smooth Scrolling"
-msgstr ""
+msgstr "Use Smooth Scrolling"
 
 #: src/contents/ui/SettingsGeneral.qml:82
 #, kde-format
@@ -827,11 +802,13 @@ msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
 "Requires app restart to take effect."
 msgstr ""
+"Scrolling is smoother and will not stop suddenly when you stop scrolling. "
+"Requires app restart to take effect."
 
 #: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
 msgid "Use dark color scheme"
-msgstr ""
+msgstr "Use dark colour scheme"
 
 #: src/contents/ui/SettingsGeneral.qml:92
 #, kde-format
@@ -839,6 +816,8 @@ msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
 "take effect."
 msgstr ""
+"Websites will have their colour schemes set to dark. Requires app restart to "
+"take effect."
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format

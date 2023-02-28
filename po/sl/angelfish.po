@@ -7,16 +7,16 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-27 01:03+0000\n"
-"PO-Revision-Date: 2023-02-22 09:04+0100\n"
+"PO-Revision-Date: 2023-02-27 08:04+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 22.12.2\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
+"X-Generator: Lokalize 22.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -795,7 +795,7 @@ msgstr ""
 #: src/contents/ui/SettingsGeneral.qml:81
 #, kde-format
 msgid "Use Smooth Scrolling"
-msgstr ""
+msgstr "Uporabi gladko drsenje"
 
 #: src/contents/ui/SettingsGeneral.qml:82
 #, kde-format
@@ -803,11 +803,13 @@ msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
 "Requires app restart to take effect."
 msgstr ""
+"Drsenje je bolj gladko in se nenadoma ne zaustavlja, ko prenehate z "
+"drsenjem. Zahtevan je ponovni zagon aplikacije, da ima učinek."
 
 #: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
 msgid "Use dark color scheme"
-msgstr ""
+msgstr "Uporabi shemo temne barve"
 
 #: src/contents/ui/SettingsGeneral.qml:92
 #, kde-format
@@ -815,6 +817,8 @@ msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
 "take effect."
 msgstr ""
+"Spletišča bodo imela nastavljene njihove temne barvne sheme. Zahteva ponovni "
+"zagon aplikacije, da ima učinek."
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format

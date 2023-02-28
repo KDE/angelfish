@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-27 01:03+0000\n"
-"PO-Revision-Date: 2023-02-22 14:17+0100\n"
+"PO-Revision-Date: 2023-02-27 10:34+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -794,7 +794,7 @@ msgstr ""
 #: src/contents/ui/SettingsGeneral.qml:81
 #, kde-format
 msgid "Use Smooth Scrolling"
-msgstr ""
+msgstr "Vloeiend schuiven gebruiken"
 
 #: src/contents/ui/SettingsGeneral.qml:82
 #, kde-format
@@ -802,11 +802,13 @@ msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
 "Requires app restart to take effect."
 msgstr ""
+"Schuiven is vloeiender en zal niet plotseling stoppen wanneer u stopt met "
+"schuiven. Vereist opnieuw starten van de toepassing om effect te hebben."
 
 #: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
 msgid "Use dark color scheme"
-msgstr ""
+msgstr "Donker kleurenschema gebruiken"
 
 #: src/contents/ui/SettingsGeneral.qml:92
 #, kde-format
@@ -814,6 +816,8 @@ msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
 "take effect."
 msgstr ""
+"Websites zullen hun kleurenschema's ingesteld hebben op donker. Vereist "
+"opnieuw starten van toepassing om effect te hebben."
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format

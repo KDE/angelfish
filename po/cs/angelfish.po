@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-27 01:03+0000\n"
-"PO-Revision-Date: 2023-02-22 16:59+0100\n"
+"PO-Revision-Date: 2023-02-27 14:50+0100\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -784,7 +784,7 @@ msgstr ""
 #: src/contents/ui/SettingsGeneral.qml:81
 #, kde-format
 msgid "Use Smooth Scrolling"
-msgstr ""
+msgstr "Použít jemné posouvání"
 
 #: src/contents/ui/SettingsGeneral.qml:82
 #, kde-format
@@ -796,7 +796,7 @@ msgstr ""
 #: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
 msgid "Use dark color scheme"
-msgstr ""
+msgstr "Použít tmavé barevné schéma"
 
 #: src/contents/ui/SettingsGeneral.qml:92
 #, kde-format
@@ -804,6 +804,8 @@ msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
 "take effect."
 msgstr ""
+"Stránky budou mít barevné schéma nastaveny na tmavé. Aby se projevila změna "
+"této volby, je potřeba restart aplikace."
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format

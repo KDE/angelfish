@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-02-27 01:03+0000\n"
-"PO-Revision-Date: 2023-02-22 09:27+0100\n"
+"PO-Revision-Date: 2023-02-27 09:09+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -801,7 +801,7 @@ msgstr ""
 #: src/contents/ui/SettingsGeneral.qml:81
 #, kde-format
 msgid "Use Smooth Scrolling"
-msgstr ""
+msgstr "Utilitza un desplaçament suau"
 
 #: src/contents/ui/SettingsGeneral.qml:82
 #, kde-format
@@ -809,11 +809,13 @@ msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
 "Requires app restart to take effect."
 msgstr ""
+"El desplaçament serà més suau i no es pararà de sobte quan pareu el "
+"desplaçament. Requerix reiniciar l'aplicació perquè tinga efecte."
 
 #: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
 msgid "Use dark color scheme"
-msgstr ""
+msgstr "Utilitza l'esquema de color fosc"
 
 #: src/contents/ui/SettingsGeneral.qml:92
 #, kde-format
@@ -821,6 +823,8 @@ msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
 "take effect."
 msgstr ""
+"Els llocs web tindran els seus esquemes de color establits a foscos. "
+"Requerix reiniciar l'aplicació perquè tinga efecte."
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format
