@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-27 01:03+0000\n"
+"POT-Creation-Date: 2023-03-02 00:56+0000\n"
 "PO-Revision-Date: 2023-02-27 19:56+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -471,11 +471,6 @@ msgstr "Ayarlar"
 msgid "Configure Angelfish"
 msgstr "Angelfish Uygulamasını Yapılandır"
 
-#: src/contents/ui/desktop/desktop.qml:358
-#, kde-format
-msgid "Private Mode"
-msgstr "Özel Kip"
-
 #: src/contents/ui/desktop/HistoryPage.qml:28
 #, kde-format
 msgid "Search history…"
@@ -911,6 +906,9 @@ msgstr "Sayfayı şuraya paylaş"
 #, kde-format
 msgid "URL to open"
 msgstr "Açılacak URL"
+
+#~ msgid "Private Mode"
+#~ msgstr "Özel Kip"
 
 #~ msgid "Enabled"
 #~ msgstr "Etkin"

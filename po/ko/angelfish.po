@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-27 01:03+0000\n"
+"POT-Creation-Date: 2023-03-02 00:56+0000\n"
 "PO-Revision-Date: 2022-10-03 14:17+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-i18n-doc@kde.org>\n"
@@ -486,12 +486,6 @@ msgstr "설정"
 msgid "Configure Angelfish"
 msgstr "Angelfish 설정"
 
-#: src/contents/ui/desktop/desktop.qml:358
-#, fuzzy, kde-format
-#| msgid "Private mode"
-msgid "Private Mode"
-msgstr "사생활 보호 모드"
-
 #: src/contents/ui/desktop/HistoryPage.qml:28
 #, kde-format
 msgid "Search history…"
@@ -928,6 +922,11 @@ msgstr "공유 페이지"
 #, kde-format
 msgid "URL to open"
 msgstr "열려는 URL"
+
+#, fuzzy
+#~| msgid "Private mode"
+#~ msgid "Private Mode"
+#~ msgstr "사생활 보호 모드"
 
 #~ msgid "Enabled"
 #~ msgstr "사용함"

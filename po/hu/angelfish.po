@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-27 01:03+0000\n"
+"POT-Creation-Date: 2023-03-02 00:56+0000\n"
 "PO-Revision-Date: 2022-01-14 10:51+0100\n"
 "Last-Translator: Kristóf Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -487,12 +487,6 @@ msgstr "Beállítások"
 msgid "Configure Angelfish"
 msgstr "Az Angelfish beállítása"
 
-#: src/contents/ui/desktop/desktop.qml:358
-#, fuzzy, kde-format
-#| msgid "Private mode"
-msgid "Private Mode"
-msgstr "Privát mód"
-
 #: src/contents/ui/desktop/HistoryPage.qml:28
 #, kde-format
 msgid "Search history…"
@@ -929,6 +923,11 @@ msgstr "Oldal megosztása"
 #, kde-format
 msgid "URL to open"
 msgstr "A megnyitandó URL"
+
+#, fuzzy
+#~| msgid "Private mode"
+#~ msgid "Private Mode"
+#~ msgstr "Privát mód"
 
 #~ msgid "Enabled"
 #~ msgstr "Bekapcsolva"

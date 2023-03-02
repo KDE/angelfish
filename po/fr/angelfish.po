@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-27 01:03+0000\n"
-"PO-Revision-Date: 2023-02-22 21:18+0100\n"
+"POT-Creation-Date: 2023-03-02 00:56+0000\n"
+"PO-Revision-Date: 2023-02-27 19:11+0100\n"
 "Last-Translator: Xavier BESNARD <xavier.besnard]neuf.fr>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -11700,11 +11700,6 @@ msgstr "Configuration"
 msgid "Configure Angelfish"
 msgstr "Configurer Angelfish"
 
-#: src/contents/ui/desktop/desktop.qml:358
-#, kde-format
-msgid "Private Mode"
-msgstr "Mode privé"
-
 #: src/contents/ui/desktop/HistoryPage.qml:28
 #, kde-format
 msgid "Search history…"
@@ -12033,7 +12028,7 @@ msgstr ""
 #: src/contents/ui/SettingsGeneral.qml:81
 #, kde-format
 msgid "Use Smooth Scrolling"
-msgstr ""
+msgstr "Utiliser un défilement doux"
 
 #: src/contents/ui/SettingsGeneral.qml:82
 #, kde-format
@@ -12041,11 +12036,14 @@ msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
 "Requires app restart to take effect."
 msgstr ""
+"Le défilement est plus doux. Il ne s'arrêtera pas brusquement lors de "
+"l'arrêt de votre défilement. Il nécessite un re-démarrage de l'application "
+"pour que les modifications soient prises en charge."
 
 #: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
 msgid "Use dark color scheme"
-msgstr ""
+msgstr "Utiliser un thème sombre de couleurs"
 
 #: src/contents/ui/SettingsGeneral.qml:92
 #, kde-format
@@ -12053,6 +12051,8 @@ msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
 "take effect."
 msgstr ""
+"Les sites Internet auront leurs thèmes sombres de couleurs. Ceci nécessite "
+"un redémarrage de l’application pour que les modifications prennent effet."
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format
@@ -12145,6 +12145,9 @@ msgstr "Partager la page avec"
 #, kde-format
 msgid "URL to open"
 msgstr "URL à ouvrir"
+
+#~ msgid "Private Mode"
+#~ msgstr "Mode privé"
 
 #~ msgid "Enabled"
 #~ msgstr "Activé"

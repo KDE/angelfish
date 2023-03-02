@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-27 01:03+0000\n"
+"POT-Creation-Date: 2023-03-02 00:56+0000\n"
 "PO-Revision-Date: 2023-02-27 16:34+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -473,11 +473,6 @@ msgstr "Параметри"
 msgid "Configure Angelfish"
 msgstr "Налаштувати Angelfish"
 
-#: src/contents/ui/desktop/desktop.qml:358
-#, kde-format
-msgid "Private Mode"
-msgstr "Конфіденційний режим"
-
 #: src/contents/ui/desktop/HistoryPage.qml:28
 #, kde-format
 msgid "Search history…"
@@ -915,6 +910,9 @@ msgstr "Оприлюднити сторінку на"
 #, kde-format
 msgid "URL to open"
 msgstr "Адреса, яку слід відкрити"
+
+#~ msgid "Private Mode"
+#~ msgstr "Конфіденційний режим"
 
 #~ msgid "Enabled"
 #~ msgstr "Увімкнено"

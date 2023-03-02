@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-27 01:03+0000\n"
+"POT-Creation-Date: 2023-03-02 00:56+0000\n"
 "PO-Revision-Date: 2023-02-27 08:04+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -470,11 +470,6 @@ msgstr "Nastavitve"
 msgid "Configure Angelfish"
 msgstr "Nastavi Angelfish"
 
-#: src/contents/ui/desktop/desktop.qml:358
-#, kde-format
-msgid "Private Mode"
-msgstr "Zasebni način"
-
 #: src/contents/ui/desktop/HistoryPage.qml:28
 #, kde-format
 msgid "Search history…"
@@ -909,6 +904,9 @@ msgstr "Deli stran z"
 #, kde-format
 msgid "URL to open"
 msgstr "Spletni naslov za odpiranje"
+
+#~ msgid "Private Mode"
+#~ msgstr "Zasebni način"
 
 #~ msgid "Enabled"
 #~ msgstr "Omogočeno"

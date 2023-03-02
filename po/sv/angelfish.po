@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-27 01:03+0000\n"
+"POT-Creation-Date: 2023-03-02 00:56+0000\n"
 "PO-Revision-Date: 2022-09-24 14:54+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -485,12 +485,6 @@ msgstr "Inställningar"
 msgid "Configure Angelfish"
 msgstr "Anpassa Angelfish"
 
-#: src/contents/ui/desktop/desktop.qml:358
-#, fuzzy, kde-format
-#| msgid "Private mode"
-msgid "Private Mode"
-msgstr "Privat läge"
-
 #: src/contents/ui/desktop/HistoryPage.qml:28
 #, kde-format
 msgid "Search history…"
@@ -930,6 +924,11 @@ msgstr "Dela sida"
 #, kde-format
 msgid "URL to open"
 msgstr "Webbadress att öppna"
+
+#, fuzzy
+#~| msgid "Private mode"
+#~ msgid "Private Mode"
+#~ msgstr "Privat läge"
 
 #~ msgid "Enabled"
 #~ msgstr "Aktiverad"

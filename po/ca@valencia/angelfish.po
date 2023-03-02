@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-02-27 01:03+0000\n"
+"POT-Creation-Date: 2023-03-02 00:56+0000\n"
 "PO-Revision-Date: 2023-02-27 09:09+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -473,11 +473,6 @@ msgstr "Configuració"
 msgid "Configure Angelfish"
 msgstr "Configura Angelfish"
 
-#: src/contents/ui/desktop/desktop.qml:358
-#, kde-format
-msgid "Private Mode"
-msgstr "Mode privat"
-
 #: src/contents/ui/desktop/HistoryPage.qml:28
 #, kde-format
 msgid "Search history…"
@@ -916,3 +911,6 @@ msgstr "Compartix la pàgina a"
 #, kde-format
 msgid "URL to open"
 msgstr "URL que s'ha d'obrir"
+
+#~ msgid "Private Mode"
+#~ msgstr "Mode privat"
