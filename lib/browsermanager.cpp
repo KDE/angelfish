@@ -6,6 +6,7 @@
 
 #include <QDebug>
 #include <QSettings>
+#include <QStandardPaths>
 #include <QUrl>
 
 #include "angelfishsettings.h"
@@ -66,6 +67,16 @@ void BrowserManager::updateIcon(const QString &url, const QString &iconSource)
 QUrl BrowserManager::initialUrl() const
 {
     return m_initialUrl;
+}
+
+QString BrowserManager::tempDirectory() const
+{
+    return QStandardPaths::writableLocation(QStandardPaths::TempLocation);
+}
+
+QString BrowserManager::downloadDirectory() const
+{
+    return QStandardPaths::writableLocation(QStandardPaths::DownloadLocation);
 }
 
 void BrowserManager::setInitialUrl(const QUrl &initialUrl)

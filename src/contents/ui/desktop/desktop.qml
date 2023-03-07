@@ -264,6 +264,13 @@ Kirigami.ApplicationWindow {
                 QQC2.MenuSeparator {}
 
                 Kirigami.Action {
+                    icon.name: "document-print"
+                    text: i18n("Print")
+                    shortcut: "Ctrl+P"
+                    onTriggered: currentWebView.printRequested()
+                }
+
+                Kirigami.Action {
                     text: i18n("Full Screen")
                     icon.name: "view-fullscreen"
                     shortcut: "F11"

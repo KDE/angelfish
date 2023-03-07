@@ -54,6 +54,9 @@ public Q_SLOTS:
     void updateLastVisited(const QString &url);
     void updateIcon(const QString &url, const QString &iconSource);
 
+    QString tempDirectory() const;
+    QString downloadDirectory() const;
+
 private:
     // BrowserManager should only be createdd by calling the instance() function
     BrowserManager(QObject *parent = nullptr);

@@ -70,6 +70,12 @@ WebEngineView {
     // string to keep last title to return from reader mode
     property string readerTitle
 
+    // Used for pdf generated to preview before print
+    property url printPreviewUrl: ""
+    property bool generatingPdf: false
+    property int printedPageOrientation: WebEngineView.Portrait
+    property int printedPageSizeId: WebEngineView.A4
+
     Shortcut {
         enabled: webEngineView.isFullScreen
         sequence: "Esc"
@@ -114,6 +120,8 @@ WebEngineView {
         screenCaptureEnabled: true
         // Enables a web page to request that one of its HTML elements be made to occupy the user's entire screen
         fullScreenSupportEnabled: true
+        // Turns on printing of CSS backgrounds when printing a web page
+        printElementBackgrounds: false
     }
 
     focus: true
@@ -334,6 +342,26 @@ classes
     function stopLoading() {
         loadingActive = false;
         stop();
+    }
+
+    onPrintRequested: {
+        printPreviewUrl = "";
+        generatingPdf = true;
+        const filePath = BrowserManager.tempDirectory() + "/print-preview.pdf";
+        printToPdf(filePath, printedPageSizeId, printedPageOrientation);
+
+        if (!printPreview.sheetOpen) {
+            printPreview.open();
+        }
+    }
+
+    onPdfPrintingFinished: {
+        generatingPdf = false;
+        printPreviewUrl = "file://" + filePath + "#toolbar=0&view=Fit";
+    }
+
+    PrintPreview {
+        id: printPreview
     }
 
     onLinkHovered: hoveredLink.text = hoveredUrl
