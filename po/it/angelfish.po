@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-02 00:56+0000\n"
-"PO-Revision-Date: 2023-02-25 14:21+0100\n"
+"POT-Creation-Date: 2023-03-08 00:46+0000\n"
+"PO-Revision-Date: 2023-03-05 16:32+0100\n"
 "Last-Translator: Paolo Zamponi <zapaolo@email.it>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -83,7 +83,8 @@ msgstr "Vuoi scaricare questo file?"
 msgid "Download"
 msgstr "Scarica"
 
-#: lib/contents/ui/DownloadQuestion.qml:28 src/contents/ui/Downloads.qml:41
+#: lib/contents/ui/DownloadQuestion.qml:28 lib/contents/ui/PrintPreview.qml:167
+#: src/contents/ui/Downloads.qml:41
 #, kde-format
 msgid "Cancel"
 msgstr "Annulla"
@@ -196,173 +197,214 @@ msgstr "Accetta"
 msgid "Decline"
 msgstr "Rifiuta"
 
-#: lib/contents/ui/WebView.qml:235
+#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:268
+#, kde-format
+msgid "Print"
+msgstr ""
+
+#: lib/contents/ui/PrintPreview.qml:67
+#, kde-format
+msgid "Destination"
+msgstr ""
+
+#: lib/contents/ui/PrintPreview.qml:71
+#, kde-format
+msgid "Save to PDF"
+msgstr ""
+
+#: lib/contents/ui/PrintPreview.qml:77
+#, kde-format
+msgid "Orientation"
+msgstr ""
+
+#: lib/contents/ui/PrintPreview.qml:102
+#, kde-format
+msgid "Paper size"
+msgstr ""
+
+#: lib/contents/ui/PrintPreview.qml:148
+#, kde-format
+msgid "Options"
+msgstr ""
+
+#: lib/contents/ui/PrintPreview.qml:152
+#, kde-format
+msgid "Print backgrounds"
+msgstr ""
+
+#: lib/contents/ui/PrintPreview.qml:172
+#, fuzzy, kde-format
+#| msgid "Save link"
+msgid "Save"
+msgstr "Salva collegamento"
+
+#: lib/contents/ui/WebView.qml:243
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr "Il sito web è stato aperto in una nuova scheda"
 
-#: lib/contents/ui/WebView.qml:254
+#: lib/contents/ui/WebView.qml:262
 #, kde-format
 msgid "Entered Full Screen Mode"
 msgstr "Entrato in modalità a schermo intero"
 
-#: lib/contents/ui/WebView.qml:255
+#: lib/contents/ui/WebView.qml:263
 #, kde-format
 msgid "Exit Full Screen (Esc)"
 msgstr "Esci da schermo intero (Esc)"
 
-#: lib/contents/ui/WebView.qml:379
+#: lib/contents/ui/WebView.qml:407
 #, kde-format
 msgid "Play"
 msgstr "Riproduci"
 
-#: lib/contents/ui/WebView.qml:380 src/contents/ui/Downloads.qml:47
+#: lib/contents/ui/WebView.qml:408 src/contents/ui/Downloads.qml:47
 #, kde-format
 msgid "Pause"
 msgstr "Pausa"
 
-#: lib/contents/ui/WebView.qml:387
+#: lib/contents/ui/WebView.qml:415
 #, kde-format
 msgid "Unmute"
 msgstr "Attiva l'audio"
 
-#: lib/contents/ui/WebView.qml:388
+#: lib/contents/ui/WebView.qml:416
 #, kde-format
 msgid "Mute"
 msgstr "Silenzia"
 
-#: lib/contents/ui/WebView.qml:398
+#: lib/contents/ui/WebView.qml:426
 #, kde-format
 msgid "Speed"
 msgstr "Velocità"
 
-#: lib/contents/ui/WebView.qml:421
+#: lib/contents/ui/WebView.qml:449
 #, kde-format
 msgid "Loop"
 msgstr "Ciclo"
 
-#: lib/contents/ui/WebView.qml:428
+#: lib/contents/ui/WebView.qml:456
 #, kde-format
 msgid "Exit fullscreen"
 msgstr "Esci da schermo intero"
 
-#: lib/contents/ui/WebView.qml:428
+#: lib/contents/ui/WebView.qml:456
 #, kde-format
 msgid "Fullscreen"
 msgstr "Schermo intero"
 
-#: lib/contents/ui/WebView.qml:441
+#: lib/contents/ui/WebView.qml:469
 #, kde-format
 msgid "Hide controls"
 msgstr "Nascondi controlli"
 
-#: lib/contents/ui/WebView.qml:442
+#: lib/contents/ui/WebView.qml:470
 #, kde-format
 msgid "Show controls"
 msgstr "Mostra controlli"
 
-#: lib/contents/ui/WebView.qml:450
+#: lib/contents/ui/WebView.qml:478
 #, kde-format
 msgid "Open video"
 msgstr "Apri video"
 
-#: lib/contents/ui/WebView.qml:450
+#: lib/contents/ui/WebView.qml:478
 #, kde-format
 msgid "Open audio"
 msgstr "Apri audio"
 
-#: lib/contents/ui/WebView.qml:451
+#: lib/contents/ui/WebView.qml:479
 #, kde-format
 msgid "Open video in new Tab"
 msgstr "Apri video in una nuova scheda"
 
-#: lib/contents/ui/WebView.qml:451
+#: lib/contents/ui/WebView.qml:479
 #, kde-format
 msgid "Open audio in new Tab"
 msgstr "Apri audio in una nuova scheda"
 
-#: lib/contents/ui/WebView.qml:463
+#: lib/contents/ui/WebView.qml:491
 #, kde-format
 msgid "Save video"
 msgstr "Salva video"
 
-#: lib/contents/ui/WebView.qml:469
+#: lib/contents/ui/WebView.qml:497
 #, kde-format
 msgid "Copy video Link"
 msgstr "Copia collegamento video"
 
-#: lib/contents/ui/WebView.qml:475
+#: lib/contents/ui/WebView.qml:503
 #, kde-format
 msgid "Open image"
 msgstr "Apri immagine"
 
-#: lib/contents/ui/WebView.qml:475
+#: lib/contents/ui/WebView.qml:503
 #, kde-format
 msgid "Open image in new Tab"
 msgstr "Apri immagine in una nuova scheda"
 
-#: lib/contents/ui/WebView.qml:487
+#: lib/contents/ui/WebView.qml:515
 #, kde-format
 msgid "Save image"
 msgstr "Salva immagine"
 
-#: lib/contents/ui/WebView.qml:493
+#: lib/contents/ui/WebView.qml:521
 #, kde-format
 msgid "Copy image"
 msgstr "Copia immagine"
 
-#: lib/contents/ui/WebView.qml:499
+#: lib/contents/ui/WebView.qml:527
 #, kde-format
 msgid "Copy image link"
 msgstr "Copia collegamento immagine"
 
-#: lib/contents/ui/WebView.qml:505
+#: lib/contents/ui/WebView.qml:533
 #, kde-format
 msgid "Open link"
 msgstr "Apri collegamento"
 
-#: lib/contents/ui/WebView.qml:505
+#: lib/contents/ui/WebView.qml:533
 #, kde-format
 msgid "Open link in new Tab"
 msgstr "Apri collegamento in una nuova scheda"
 
-#: lib/contents/ui/WebView.qml:517
+#: lib/contents/ui/WebView.qml:545
 #, kde-format
 msgid "Bookmark link"
 msgstr "Aggiungi il collegamento ai segnalibri"
 
-#: lib/contents/ui/WebView.qml:529
+#: lib/contents/ui/WebView.qml:557
 #, kde-format
 msgid "Save link"
 msgstr "Salva collegamento"
 
-#: lib/contents/ui/WebView.qml:535
+#: lib/contents/ui/WebView.qml:563
 #, kde-format
 msgid "Copy link"
 msgstr "Copia collegamento"
 
-#: lib/contents/ui/WebView.qml:542
+#: lib/contents/ui/WebView.qml:570
 #, kde-format
 msgid "Copy"
 msgstr "Copia"
 
-#: lib/contents/ui/WebView.qml:548
+#: lib/contents/ui/WebView.qml:576
 #, kde-format
 msgid "Cut"
 msgstr "Taglia"
 
-#: lib/contents/ui/WebView.qml:554
+#: lib/contents/ui/WebView.qml:582
 #, kde-format
 msgid "Paste"
 msgstr "Incolla"
 
-#: lib/contents/ui/WebView.qml:575 src/contents/ui/desktop/desktop.qml:310
+#: lib/contents/ui/WebView.qml:603 src/contents/ui/desktop/desktop.qml:317
 #: src/contents/ui/mobile.qml:280
 #, kde-format
 msgid "Share page"
 msgstr "Condividi pagina"
 
-#: lib/contents/ui/WebView.qml:587
+#: lib/contents/ui/WebView.qml:615
 #, kde-format
 msgid "View page source"
 msgstr "Visualizza sorgente della pagina"
@@ -429,43 +471,43 @@ msgstr "Cronologia"
 msgid "Downloads"
 msgstr "Scaricamenti"
 
-#: src/contents/ui/desktop/desktop.qml:267
+#: src/contents/ui/desktop/desktop.qml:274
 #, kde-format
 msgid "Full Screen"
 msgstr "Schermo intero"
 
-#: src/contents/ui/desktop/desktop.qml:284
+#: src/contents/ui/desktop/desktop.qml:291
 #, kde-format
 msgid "Hide developer tools"
 msgstr "Nascondi strumenti per sviluppatori"
 
-#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:292 src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Show developer tools"
 msgstr "Mostra gli strumenti per sviluppatori"
 
-#: src/contents/ui/desktop/desktop.qml:294 src/contents/ui/mobile.qml:276
+#: src/contents/ui/desktop/desktop.qml:301 src/contents/ui/mobile.qml:276
 #, kde-format
 msgid "Find in page"
 msgstr "Trova nella pagina"
 
-#: src/contents/ui/desktop/desktop.qml:303
+#: src/contents/ui/desktop/desktop.qml:310
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Modalità lettore"
 
-#: src/contents/ui/desktop/desktop.qml:320
+#: src/contents/ui/desktop/desktop.qml:327
 #, kde-format
 msgid "Add to application launcher"
 msgstr "Aggiungi al lanciatore di applicazioni"
 
-#: src/contents/ui/desktop/desktop.qml:339 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:346 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "Impostazioni"
 
-#: src/contents/ui/desktop/desktop.qml:346
+#: src/contents/ui/desktop/desktop.qml:353
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "Configura Angelfish"
@@ -792,7 +834,7 @@ msgstr ""
 #: src/contents/ui/SettingsGeneral.qml:81
 #, kde-format
 msgid "Use Smooth Scrolling"
-msgstr ""
+msgstr "Usa scorrimento fluido"
 
 #: src/contents/ui/SettingsGeneral.qml:82
 #, kde-format
@@ -800,11 +842,13 @@ msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
 "Requires app restart to take effect."
 msgstr ""
+"Lo scorrimento è più fluido, cioè non si interrompe immediatamente. Per "
+"avere effetto è richiesto il riavvio."
 
 #: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
 msgid "Use dark color scheme"
-msgstr ""
+msgstr "Usa schema di colori scuro"
 
 #: src/contents/ui/SettingsGeneral.qml:92
 #, kde-format
@@ -812,6 +856,8 @@ msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
 "take effect."
 msgstr ""
+"I siti web avranno i loro schemi di colori impostati a scuro. Per avere "
+"effetto è richiesto il riavvio."
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format

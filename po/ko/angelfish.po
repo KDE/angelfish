@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-02 00:56+0000\n"
+"POT-Creation-Date: 2023-03-08 00:46+0000\n"
 "PO-Revision-Date: 2022-10-03 14:17+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-i18n-doc@kde.org>\n"
@@ -84,7 +84,8 @@ msgstr "이 파일을 다운로드 하시겠습니까?"
 msgid "Download"
 msgstr "다운로드"
 
-#: lib/contents/ui/DownloadQuestion.qml:28 src/contents/ui/Downloads.qml:41
+#: lib/contents/ui/DownloadQuestion.qml:28 lib/contents/ui/PrintPreview.qml:167
+#: src/contents/ui/Downloads.qml:41
 #, kde-format
 msgid "Cancel"
 msgstr "취소"
@@ -196,188 +197,228 @@ msgstr "수락"
 msgid "Decline"
 msgstr "거절"
 
-#: lib/contents/ui/WebView.qml:235
+#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:268
+#, kde-format
+msgid "Print"
+msgstr ""
+
+#: lib/contents/ui/PrintPreview.qml:67
+#, kde-format
+msgid "Destination"
+msgstr ""
+
+#: lib/contents/ui/PrintPreview.qml:71
+#, kde-format
+msgid "Save to PDF"
+msgstr ""
+
+#: lib/contents/ui/PrintPreview.qml:77
+#, kde-format
+msgid "Orientation"
+msgstr ""
+
+#: lib/contents/ui/PrintPreview.qml:102
+#, kde-format
+msgid "Paper size"
+msgstr ""
+
+#: lib/contents/ui/PrintPreview.qml:148
+#, kde-format
+msgid "Options"
+msgstr ""
+
+#: lib/contents/ui/PrintPreview.qml:152
+#, kde-format
+msgid "Print backgrounds"
+msgstr ""
+
+#: lib/contents/ui/PrintPreview.qml:172
+#, kde-format
+msgid "Save"
+msgstr ""
+
+#: lib/contents/ui/WebView.qml:243
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr "웹사이트가 새 탭에서 열렸습니다."
 
-#: lib/contents/ui/WebView.qml:254
+#: lib/contents/ui/WebView.qml:262
 #, fuzzy, kde-format
 #| msgid "Full Screen"
 msgid "Entered Full Screen Mode"
 msgstr "전체 화면"
 
-#: lib/contents/ui/WebView.qml:255
+#: lib/contents/ui/WebView.qml:263
 #, fuzzy, kde-format
 #| msgid "Full Screen"
 msgid "Exit Full Screen (Esc)"
 msgstr "전체 화면"
 
-#: lib/contents/ui/WebView.qml:379
+#: lib/contents/ui/WebView.qml:407
 #, kde-format
 msgid "Play"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:380 src/contents/ui/Downloads.qml:47
+#: lib/contents/ui/WebView.qml:408 src/contents/ui/Downloads.qml:47
 #, kde-format
 msgid "Pause"
 msgstr "일시 정지"
 
-#: lib/contents/ui/WebView.qml:387
+#: lib/contents/ui/WebView.qml:415
 #, kde-format
 msgid "Unmute"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:388
+#: lib/contents/ui/WebView.qml:416
 #, kde-format
 msgid "Mute"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:398
+#: lib/contents/ui/WebView.qml:426
 #, kde-format
 msgid "Speed"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:421
+#: lib/contents/ui/WebView.qml:449
 #, kde-format
 msgid "Loop"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:428
+#: lib/contents/ui/WebView.qml:456
 #, fuzzy, kde-format
 #| msgid "Full Screen"
 msgid "Exit fullscreen"
 msgstr "전체 화면"
 
-#: lib/contents/ui/WebView.qml:428
+#: lib/contents/ui/WebView.qml:456
 #, fuzzy, kde-format
 #| msgid "Full Screen"
 msgid "Fullscreen"
 msgstr "전체 화면"
 
-#: lib/contents/ui/WebView.qml:441
+#: lib/contents/ui/WebView.qml:469
 #, kde-format
 msgid "Hide controls"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:442
+#: lib/contents/ui/WebView.qml:470
 #, fuzzy, kde-format
 #| msgid "Show developer tools"
 msgid "Show controls"
 msgstr "개발자 도구 표시"
 
-#: lib/contents/ui/WebView.qml:450
+#: lib/contents/ui/WebView.qml:478
 #, kde-format
 msgid "Open video"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:450
+#: lib/contents/ui/WebView.qml:478
 #, kde-format
 msgid "Open audio"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:451
+#: lib/contents/ui/WebView.qml:479
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgid "Open video in new Tab"
 msgstr "새 탭에서 열기"
 
-#: lib/contents/ui/WebView.qml:451
+#: lib/contents/ui/WebView.qml:479
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgid "Open audio in new Tab"
 msgstr "새 탭에서 열기"
 
-#: lib/contents/ui/WebView.qml:463
+#: lib/contents/ui/WebView.qml:491
 #, kde-format
 msgid "Save video"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:469
+#: lib/contents/ui/WebView.qml:497
 #, kde-format
 msgid "Copy video Link"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:475
+#: lib/contents/ui/WebView.qml:503
 #, fuzzy, kde-format
 #| msgid "Open in app"
 msgid "Open image"
 msgstr "앱에서 열기"
 
-#: lib/contents/ui/WebView.qml:475
+#: lib/contents/ui/WebView.qml:503
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgid "Open image in new Tab"
 msgstr "새 탭에서 열기"
 
-#: lib/contents/ui/WebView.qml:487
+#: lib/contents/ui/WebView.qml:515
 #, fuzzy, kde-format
 #| msgid "Leave page"
 msgid "Save image"
 msgstr "페이지 떠나기"
 
-#: lib/contents/ui/WebView.qml:493
+#: lib/contents/ui/WebView.qml:521
 #, fuzzy, kde-format
 #| msgid "Load images"
 msgid "Copy image"
 msgstr "이미지 불러오기"
 
-#: lib/contents/ui/WebView.qml:499
+#: lib/contents/ui/WebView.qml:527
 #, kde-format
 msgid "Copy image link"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:505
+#: lib/contents/ui/WebView.qml:533
 #, fuzzy, kde-format
 #| msgid "Open in app"
 msgid "Open link"
 msgstr "앱에서 열기"
 
-#: lib/contents/ui/WebView.qml:505
+#: lib/contents/ui/WebView.qml:533
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgid "Open link in new Tab"
 msgstr "새 탭에서 열기"
 
-#: lib/contents/ui/WebView.qml:517
+#: lib/contents/ui/WebView.qml:545
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgid "Bookmark link"
 msgstr "책갈피"
 
-#: lib/contents/ui/WebView.qml:529
+#: lib/contents/ui/WebView.qml:557
 #, kde-format
 msgid "Save link"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:535
+#: lib/contents/ui/WebView.qml:563
 #, fuzzy, kde-format
 #| msgid "Copy Url"
 msgid "Copy link"
 msgstr "URL 복사"
 
-#: lib/contents/ui/WebView.qml:542
+#: lib/contents/ui/WebView.qml:570
 #, kde-format
 msgid "Copy"
 msgstr "복사"
 
-#: lib/contents/ui/WebView.qml:548
+#: lib/contents/ui/WebView.qml:576
 #, kde-format
 msgid "Cut"
 msgstr "잘라내기"
 
-#: lib/contents/ui/WebView.qml:554
+#: lib/contents/ui/WebView.qml:582
 #, kde-format
 msgid "Paste"
 msgstr "붙여넣기"
 
-#: lib/contents/ui/WebView.qml:575 src/contents/ui/desktop/desktop.qml:310
+#: lib/contents/ui/WebView.qml:603 src/contents/ui/desktop/desktop.qml:317
 #: src/contents/ui/mobile.qml:280
 #, kde-format
 msgid "Share page"
 msgstr "공유 페이지"
 
-#: lib/contents/ui/WebView.qml:587
+#: lib/contents/ui/WebView.qml:615
 #, fuzzy, kde-format
 #| msgid "View source"
 msgid "View page source"
@@ -444,44 +485,44 @@ msgstr "과거 기록"
 msgid "Downloads"
 msgstr "다운로드"
 
-#: src/contents/ui/desktop/desktop.qml:267
+#: src/contents/ui/desktop/desktop.qml:274
 #, kde-format
 msgid "Full Screen"
 msgstr "전체 화면"
 
-#: src/contents/ui/desktop/desktop.qml:284
+#: src/contents/ui/desktop/desktop.qml:291
 #, fuzzy, kde-format
 #| msgid "Show developer tools"
 msgid "Hide developer tools"
 msgstr "개발자 도구 표시"
 
-#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:292 src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Show developer tools"
 msgstr "개발자 도구 표시"
 
-#: src/contents/ui/desktop/desktop.qml:294 src/contents/ui/mobile.qml:276
+#: src/contents/ui/desktop/desktop.qml:301 src/contents/ui/mobile.qml:276
 #, kde-format
 msgid "Find in page"
 msgstr "페이지에서 찾기"
 
-#: src/contents/ui/desktop/desktop.qml:303
+#: src/contents/ui/desktop/desktop.qml:310
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "읽기 모드"
 
-#: src/contents/ui/desktop/desktop.qml:320
+#: src/contents/ui/desktop/desktop.qml:327
 #, kde-format
 msgid "Add to application launcher"
 msgstr "프로그램 실행기에 추가"
 
-#: src/contents/ui/desktop/desktop.qml:339 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:346 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "설정"
 
-#: src/contents/ui/desktop/desktop.qml:346
+#: src/contents/ui/desktop/desktop.qml:353
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "Angelfish 설정"
