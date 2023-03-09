@@ -13,7 +13,7 @@ set(RELEASE_SERVICE_VERSION "${RELEASE_SERVICE_VERSION_MAJOR}.${RELEASE_SERVICE_
 
 project(angelfish VERSION ${RELEASE_SERVICE_VERSION})
 
-set(KF5_MIN_VERSION "5.95.0")
+set(KF_MIN_VERSION "5.95.0")
 set(QT_MIN_VERSION "5.15.0")
 
 
@@ -33,7 +33,7 @@ include(FeatureSummary)
 
 ################# set KDE specific information #################
 
-find_package(ECM ${KF5_MIN_VERSION} REQUIRED NO_MODULE)
+find_package(ECM ${KF_MIN_VERSION} REQUIRED NO_MODULE)
 
 # where to look first for cmake modules, before ${CMAKE_ROOT}/Modules/ is checked
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${ECM_MODULE_PATH})
@@ -56,9 +56,9 @@ ecm_setup_version(${PROJECT_VERSION}
 
 find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} REQUIRED NO_MODULE COMPONENTS Core Quick Test Gui Svg QuickControls2 Sql Widgets)
 find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} OPTIONAL_COMPONENTS Feedback)
-find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 Purpose I18n Config CoreAddons DBusAddons WindowSystem Notifications QQC2DesktopStyle)
-find_package(KF5KirigamiAddons 0.6 REQUIRED)
-set_package_properties(KF5QQC2DesktopStyle PROPERTIES TYPE RUNTIME)
+find_package(KF${QT_MAJOR_VERSION} ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 Purpose I18n Config CoreAddons DBusAddons WindowSystem Notifications QQC2DesktopStyle)
+find_package(KF${QT_MAJOR_VERSION}KirigamiAddons 0.6 REQUIRED)
+set_package_properties(KF${QT_MAJOR_VERSION}QQC2DesktopStyle PROPERTIES TYPE RUNTIME)
 
 # Necessary to support QtWebEngine installed in a different prefix than the rest of Qt (e.g flatpak)
 if(QT_MAJOR_VERSION STREQUAL "6")

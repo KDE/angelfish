@@ -22,10 +22,10 @@ target_compile_definitions(AngelfishCore PRIVATE -DQT_NO_CAST_FROM_ASCII)
 target_link_libraries(AngelfishCore PUBLIC
     Qt::Core
     Qt::Sql
-    KF5::ConfigCore
-    KF5::ConfigGui
-    KF5::I18n
-    KF5::Notifications
+    KF${QT_MAJOR_VERSION}::ConfigCore
+    KF${QT_MAJOR_VERSION}::ConfigGui
+    KF${QT_MAJOR_VERSION}::I18n
+    KF${QT_MAJOR_VERSION}::Notifications
 )
 
 if(QT_MAJOR_VERSION STREQUAL "6")

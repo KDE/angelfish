@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 Dependencies:
-- 'on': ['@all']
+- 'on': ['Linux/Qt5']
   'require':
     'frameworks/extra-cmake-modules': '@stable'
     'frameworks/kcoreaddons': '@stable'
@@ -15,6 +15,20 @@ Dependencies:
     'frameworks/purpose': '@stable'
     'frameworks/qqc2-desktop-style': '@stable'
     'libraries/kirigami-addons': '@latest'
+
+- 'on': ['Linux/Qt6']
+  'require':
+    'frameworks/extra-cmake-modules': '@latest-kf6'
+    'frameworks/kcoreaddons': '@latest-kf6'
+    'frameworks/kconfig': '@latest-kf6'
+    'frameworks/ki18n': '@latest-kf6'
+    'frameworks/kirigami': '@latest-kf6'
+    'frameworks/kdbusaddons': '@latest-kf6'
+    'frameworks/kwindowsystem': '@latest-kf6'
+    'frameworks/knotifications': '@latest-kf6'
+    'frameworks/purpose': '@latest-kf6'
+    'frameworks/qqc2-desktop-style': '@latest-kf6'
+    'libraries/kirigami-addons': '@latest-kf6'
 
 Options:
   require-passing-tests-on: [ 'Linux' ]
