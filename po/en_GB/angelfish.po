@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-08 00:46+0000\n"
-"PO-Revision-Date: 2023-02-27 20:55+0000\n"
+"PO-Revision-Date: 2023-03-10 17:27+0000\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
-"Language-Team: British English <kde-l10n-en_gb@kde.org>\n"
+"Language-Team: British English\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Lokalize 23.03.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -200,43 +200,42 @@ msgstr "Decline"
 #: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:268
 #, kde-format
 msgid "Print"
-msgstr ""
+msgstr "Print"
 
 #: lib/contents/ui/PrintPreview.qml:67
 #, kde-format
 msgid "Destination"
-msgstr ""
+msgstr "Destination"
 
 #: lib/contents/ui/PrintPreview.qml:71
 #, kde-format
 msgid "Save to PDF"
-msgstr ""
+msgstr "Save to PDF"
 
 #: lib/contents/ui/PrintPreview.qml:77
 #, kde-format
 msgid "Orientation"
-msgstr ""
+msgstr "Orientation"
 
 #: lib/contents/ui/PrintPreview.qml:102
 #, kde-format
 msgid "Paper size"
-msgstr ""
+msgstr "Paper size"
 
 #: lib/contents/ui/PrintPreview.qml:148
 #, kde-format
 msgid "Options"
-msgstr ""
+msgstr "Options"
 
 #: lib/contents/ui/PrintPreview.qml:152
 #, kde-format
 msgid "Print backgrounds"
-msgstr ""
+msgstr "Print backgrounds"
 
 #: lib/contents/ui/PrintPreview.qml:172
-#, fuzzy, kde-format
-#| msgid "Save link"
+#, kde-format
 msgid "Save"
-msgstr "Save link"
+msgstr "Save"
 
 #: lib/contents/ui/WebView.qml:243
 #, kde-format
