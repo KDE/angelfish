@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the plasma-angelfish package.
-# Tommi Nieminen <translator@legisign.org>, 2019, 2020, 2021, 2022.
+# Tommi Nieminen <translator@legisign.org>, 2019, 2020, 2021, 2022, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-08 00:46+0000\n"
-"PO-Revision-Date: 2022-06-17 18:43+0300\n"
+"PO-Revision-Date: 2023-03-07 21:25+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -129,7 +129,7 @@ msgstr "Ei"
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
 msgid "This page says"
-msgstr ""
+msgstr "Tämä sivu sanoo"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:64
 #, kde-format
@@ -242,21 +242,19 @@ msgid "Website was opened in a new tab"
 msgstr "Uuteen välilehteen avattava sivusto"
 
 #: lib/contents/ui/WebView.qml:262
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Entered Full Screen Mode"
-msgstr "Koko näyttö"
+msgstr "Siirryttiin koko näytön tilaan"
 
 #: lib/contents/ui/WebView.qml:263
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Exit Full Screen (Esc)"
-msgstr "Koko näyttö"
+msgstr "Poistu koko näytöltä (Esc)"
 
 #: lib/contents/ui/WebView.qml:407
 #, kde-format
 msgid "Play"
-msgstr ""
+msgstr "Toista"
 
 #: lib/contents/ui/WebView.qml:408 src/contents/ui/Downloads.qml:47
 #, kde-format
@@ -266,135 +264,122 @@ msgstr "Tauko"
 #: lib/contents/ui/WebView.qml:415
 #, kde-format
 msgid "Unmute"
-msgstr ""
+msgstr "Poista vaimennus"
 
 #: lib/contents/ui/WebView.qml:416
 #, kde-format
 msgid "Mute"
-msgstr ""
+msgstr "Vaimenna"
 
 #: lib/contents/ui/WebView.qml:426
 #, kde-format
 msgid "Speed"
-msgstr ""
+msgstr "Nopeus"
 
 #: lib/contents/ui/WebView.qml:449
 #, kde-format
 msgid "Loop"
-msgstr ""
+msgstr "Silmukka"
 
 #: lib/contents/ui/WebView.qml:456
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Exit fullscreen"
-msgstr "Koko näyttö"
+msgstr "Poistu koko näytöltä"
 
 #: lib/contents/ui/WebView.qml:456
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Fullscreen"
 msgstr "Koko näyttö"
 
 #: lib/contents/ui/WebView.qml:469
 #, kde-format
 msgid "Hide controls"
-msgstr ""
+msgstr "Piilota säätimet"
 
 #: lib/contents/ui/WebView.qml:470
-#, fuzzy, kde-format
-#| msgid "Show developer tools"
+#, kde-format
 msgid "Show controls"
-msgstr "Näytä kehitystyökalut"
+msgstr "Näytä säätimet"
 
 #: lib/contents/ui/WebView.qml:478
 #, kde-format
 msgid "Open video"
-msgstr ""
+msgstr "Avaa video"
 
 #: lib/contents/ui/WebView.qml:478
 #, kde-format
 msgid "Open audio"
-msgstr ""
+msgstr "Avaa ääni"
 
 #: lib/contents/ui/WebView.qml:479
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open video in new Tab"
-msgstr "Avaa uuteen välilehteen"
+msgstr "Avaa video uuteen välilehteen"
 
 #: lib/contents/ui/WebView.qml:479
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open audio in new Tab"
-msgstr "Avaa uuteen välilehteen"
+msgstr "Avaa ääni uuteen välilehteen"
 
 #: lib/contents/ui/WebView.qml:491
 #, kde-format
 msgid "Save video"
-msgstr ""
+msgstr "Tallenna video"
 
 #: lib/contents/ui/WebView.qml:497
 #, kde-format
 msgid "Copy video Link"
-msgstr ""
+msgstr "Kopioi videolinkki"
 
 #: lib/contents/ui/WebView.qml:503
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgid "Open image"
-msgstr "Avaa sovellukseen"
+msgstr "Avaa kuva"
 
 #: lib/contents/ui/WebView.qml:503
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open image in new Tab"
-msgstr "Avaa uuteen välilehteen"
+msgstr "Avaa kuva uuteen välilehteen"
 
 #: lib/contents/ui/WebView.qml:515
-#, fuzzy, kde-format
-#| msgid "Leave page"
+#, kde-format
 msgid "Save image"
-msgstr "Poistu sivulta"
+msgstr "Tallenna kuva"
 
 #: lib/contents/ui/WebView.qml:521
-#, fuzzy, kde-format
-#| msgid "Load images"
+#, kde-format
 msgid "Copy image"
-msgstr "Lataa kuvat"
+msgstr "Kopioi kuva"
 
 #: lib/contents/ui/WebView.qml:527
 #, kde-format
 msgid "Copy image link"
-msgstr ""
+msgstr "Kopioi kuvalinkki"
 
 #: lib/contents/ui/WebView.qml:533
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgid "Open link"
-msgstr "Avaa sovellukseen"
+msgstr "Avaa linkki"
 
 #: lib/contents/ui/WebView.qml:533
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open link in new Tab"
-msgstr "Avaa uuteen välilehteen"
+msgstr "Avaa linkki uuteen välilehteen"
 
 #: lib/contents/ui/WebView.qml:545
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#, kde-format
 msgid "Bookmark link"
-msgstr "Kirjanmerkki"
+msgstr "Tee linkistä kirjanmerkki"
 
 #: lib/contents/ui/WebView.qml:557
 #, kde-format
 msgid "Save link"
-msgstr ""
+msgstr "Tallenna linkki"
 
 #: lib/contents/ui/WebView.qml:563
-#, fuzzy, kde-format
-#| msgid "Copy Url"
+#, kde-format
 msgid "Copy link"
-msgstr "Kopioi verkko-osoite"
+msgstr "Kopioi linkki"
 
 #: lib/contents/ui/WebView.qml:570
 #, kde-format
@@ -418,10 +403,9 @@ msgid "Share page"
 msgstr "Jaa sivu"
 
 #: lib/contents/ui/WebView.qml:615
-#, fuzzy, kde-format
-#| msgid "View source"
+#, kde-format
 msgid "View page source"
-msgstr "Näytä lähdekoodi"
+msgstr "Näytä sivun lähdekoodi"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
 #, kde-format
@@ -451,10 +435,9 @@ msgid "No bookmarks yet"
 msgstr "Ei vielä kirjanmerkkejä"
 
 #: src/contents/ui/desktop/desktop.qml:116
-#, fuzzy, kde-format
-#| msgid "Search history…"
+#, kde-format
 msgid "Search or enter URL…"
-msgstr "Etsi historiasta…"
+msgstr "Kirjoita hakulause tai verkko-osoite…"
 
 #: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:354
 #: src/contents/ui/Tabs.qml:68
@@ -490,10 +473,9 @@ msgid "Full Screen"
 msgstr "Koko näyttö"
 
 #: src/contents/ui/desktop/desktop.qml:291
-#, fuzzy, kde-format
-#| msgid "Show developer tools"
+#, kde-format
 msgid "Hide developer tools"
-msgstr "Näytä kehitystyökalut"
+msgstr "Piilota kehitystyökalut"
 
 #: src/contents/ui/desktop/desktop.qml:292 src/contents/ui/mobile.qml:376
 #, kde-format
@@ -509,7 +491,7 @@ msgstr "Etsi sivulta"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
-msgstr ""
+msgstr "Lukutila"
 
 #: src/contents/ui/desktop/desktop.qml:327
 #, kde-format
@@ -555,7 +537,7 @@ msgstr "Näytä kotipainike:"
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:29
 #, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
-msgstr ""
+msgstr "Kotipainike näytetään työkalurivillä päivityspainikkeen vieressä."
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:39
 #, kde-format
@@ -568,60 +550,54 @@ msgid "New tabs:"
 msgstr "Uudet välilehdet:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:83
-#, fuzzy, kde-format
-#| msgid "Always show the tab bar:"
+#, kde-format
 msgid "Always show the tab bar"
-msgstr "Näytä välilehtipalkki aina:"
+msgstr "Näytä välilehtipalkki aina"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:84
 #, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open"
-msgstr ""
+msgstr "Välilehtipalkki näytetään, vaikka vain yksi välilehti olisi auki"
 
 #: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:205
 #, kde-format
 msgid "Reader Mode: %1"
-msgstr ""
+msgstr "Lukutila: %1"
 
 #: src/contents/ui/desktop/Tabs.qml:250 src/contents/ui/Tabs.qml:236
-#, fuzzy, kde-format
-#| msgid "Close"
+#, kde-format
 msgid "Close tab"
-msgstr "Sulje"
+msgstr "Sulje välilehti"
 
 #: src/contents/ui/desktop/Tabs.qml:290
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open a new tab"
-msgstr "Avaa uuteen välilehteen"
+msgstr "Avaa uusi välilehti"
 
 #: src/contents/ui/desktop/Tabs.qml:323
 #, kde-format
 msgid "List all tabs"
-msgstr ""
+msgstr "Luettele kaikki välilehdet"
 
 #: src/contents/ui/desktop/Tabs.qml:363
 #, kde-format
 msgid "Reload Tab"
-msgstr ""
+msgstr "Päivitä välilehti"
 
 #: src/contents/ui/desktop/Tabs.qml:371
-#, fuzzy, kde-format
-#| msgid "Private Tabs"
+#, kde-format
 msgid "Duplicate Tab"
-msgstr "Yksityisvälilehdet"
+msgstr "Monista välilehti"
 
 #: src/contents/ui/desktop/Tabs.qml:379
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#, kde-format
 msgid "Bookmark Tab"
-msgstr "Kirjanmerkki"
+msgstr "Tee välilehdestä kirjanmerkki"
 
 #: src/contents/ui/desktop/Tabs.qml:395
-#, fuzzy, kde-format
-#| msgid "Close"
+#, kde-format
 msgid "Close Tab"
-msgstr "Sulje"
+msgstr "Sulje välilehti"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -725,7 +701,7 @@ msgstr "Näytä työpöytäsivusto"
 #: src/contents/ui/mobile.qml:359
 #, kde-format
 msgid "Reader Mode"
-msgstr ""
+msgstr "Lukutila"
 
 #: src/contents/ui/mobile.qml:367
 #, kde-format
@@ -792,10 +768,9 @@ msgid "Remove this filter list"
 msgstr "Poista tämä suodatinluettelo"
 
 #: src/contents/ui/SettingsAdblock.qml:154
-#, fuzzy, kde-format
-#| msgid "Add filterlist"
+#, kde-format
 msgid "add Filterlist"
-msgstr "Lisää suodatinluettelo"
+msgstr "lisää suodatinluetteloon"
 
 #: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:12
 #, kde-format
@@ -810,7 +785,7 @@ msgstr "Käytä JavaScriptiä"
 #: src/contents/ui/SettingsGeneral.qml:41
 #, kde-format
 msgid "This may be required on certain websites for them to work."
-msgstr ""
+msgstr "Jotkin sivustot voivat vaatia tätä toimiakseen."
 
 #: src/contents/ui/SettingsGeneral.qml:50
 #, kde-format
@@ -820,7 +795,7 @@ msgstr "Lataa kuvat"
 #: src/contents/ui/SettingsGeneral.qml:51
 #, kde-format
 msgid "Whether to load images on websites."
-msgstr ""
+msgstr "Ladataanko sivuston kuvat."
 
 #: src/contents/ui/SettingsGeneral.qml:60
 #, kde-format
@@ -830,18 +805,17 @@ msgstr "Käytä mainosestoa"
 #: src/contents/ui/SettingsGeneral.qml:61
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
-msgstr ""
+msgstr "Yrittää estää sivustojen mainosten näyttämisen."
 
 #: src/contents/ui/SettingsGeneral.qml:61
-#, fuzzy, kde-format
-#| msgid "The adblock functionality isn't included in this build."
+#, kde-format
 msgid "AdBlock functionality was not included in this build."
 msgstr "Mainosestotoimintoa ei ole sisällytetty tähän koosteeseen."
 
 #: src/contents/ui/SettingsGeneral.qml:71
 #, kde-format
 msgid "Switch to new tab immediately"
-msgstr ""
+msgstr "Vaihda heti uuteen välilehteen"
 
 #: src/contents/ui/SettingsGeneral.qml:72
 #, kde-format
@@ -854,7 +828,7 @@ msgstr ""
 #: src/contents/ui/SettingsGeneral.qml:81
 #, kde-format
 msgid "Use Smooth Scrolling"
-msgstr ""
+msgstr "Käytä tasaista vieritystä"
 
 #: src/contents/ui/SettingsGeneral.qml:82
 #, kde-format
@@ -862,11 +836,13 @@ msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
 "Requires app restart to take effect."
 msgstr ""
+"Vieritys on tasaisempaa eikä pysähdy yhtäkkisesti lopetettaessa. Sovellus on "
+"käynnistettävä uudelleen, jotta asetus tulisi voimaan."
 
 #: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
 msgid "Use dark color scheme"
-msgstr ""
+msgstr "Käytä tummaa väriteemaa"
 
 #: src/contents/ui/SettingsGeneral.qml:92
 #, kde-format
@@ -874,6 +850,8 @@ msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
 "take effect."
 msgstr ""
+"Sivustojen väriteema asetetaan tummaksi. Sovellus on käynnistettävä "
+"uudelleen, jotta asetus tulisi voimaan."
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format
@@ -956,8 +934,7 @@ msgid "Remove app"
 msgstr "Poista sovellus"
 
 #: src/contents/ui/ShareSheet.qml:17
-#, fuzzy, kde-format
-#| msgid "Share page"
+#, kde-format
 msgid "Share page to"
 msgstr "Jaa sivu"
 
