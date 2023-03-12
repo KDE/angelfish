@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-08 00:46+0000\n"
-"PO-Revision-Date: 2023-02-14 21:48+0530\n"
+"PO-Revision-Date: 2023-03-12 16:45+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
 "Language: ta\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.12.2\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -40,7 +40,7 @@ msgstr ""
 #: angelfish-webapp/main.cpp:114
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
-msgstr ""
+msgstr "பதிப்புரிமை 2020 ஏஞ்சல்ஃபிஷ் நிரலாளர்கள்"
 
 #: angelfish-webapp/main.cpp:116
 #, kde-format
@@ -193,129 +193,127 @@ msgstr "நிராகரி"
 #: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:268
 #, kde-format
 msgid "Print"
-msgstr ""
+msgstr "அச்சிடு"
 
 #: lib/contents/ui/PrintPreview.qml:67
 #, kde-format
 msgid "Destination"
-msgstr ""
+msgstr "சேருமிடம்"
 
 #: lib/contents/ui/PrintPreview.qml:71
 #, kde-format
 msgid "Save to PDF"
-msgstr ""
+msgstr "PDF-ஆக சேமி"
 
 #: lib/contents/ui/PrintPreview.qml:77
 #, kde-format
 msgid "Orientation"
-msgstr ""
+msgstr "நோக்குநிலை"
 
 #: lib/contents/ui/PrintPreview.qml:102
 #, kde-format
 msgid "Paper size"
-msgstr ""
+msgstr "தாளின் அளவு"
 
 #: lib/contents/ui/PrintPreview.qml:148
 #, kde-format
 msgid "Options"
-msgstr ""
+msgstr "விருப்பங்கள்"
 
 #: lib/contents/ui/PrintPreview.qml:152
 #, kde-format
 msgid "Print backgrounds"
-msgstr ""
+msgstr "பின்புலத்தை அச்சிடு"
 
 #: lib/contents/ui/PrintPreview.qml:172
 #, kde-format
 msgid "Save"
-msgstr ""
+msgstr "சேமி"
 
 #: lib/contents/ui/WebView.qml:243
 #, kde-format
 msgid "Website was opened in a new tab"
-msgstr ""
+msgstr "இணையதளம் புதிய கீற்றில் திறக்கப்பட்டுள்ளது"
 
 #: lib/contents/ui/WebView.qml:262
 #, kde-format
 msgid "Entered Full Screen Mode"
-msgstr ""
+msgstr "முழுத்திரை பயன்முறையில் நுழைந்துள்ளீர்"
 
 #: lib/contents/ui/WebView.qml:263
 #, kde-format
 msgid "Exit Full Screen (Esc)"
-msgstr ""
+msgstr "முழுத்திரை பயன்முறையிலிருந்து வெளியேறு (Esc)"
 
 #: lib/contents/ui/WebView.qml:407
 #, kde-format
 msgid "Play"
-msgstr ""
+msgstr "இயக்கு"
 
 #: lib/contents/ui/WebView.qml:408 src/contents/ui/Downloads.qml:47
 #, kde-format
 msgid "Pause"
-msgstr ""
+msgstr "இடைநிறுத்து"
 
 #: lib/contents/ui/WebView.qml:415
 #, kde-format
 msgid "Unmute"
-msgstr ""
+msgstr "ஒலிமுடக்கத்தை நீக்கு"
 
 #: lib/contents/ui/WebView.qml:416
 #, kde-format
 msgid "Mute"
-msgstr ""
+msgstr "ஒலியை அடக்கு"
 
 #: lib/contents/ui/WebView.qml:426
 #, kde-format
 msgid "Speed"
-msgstr ""
+msgstr "வேகம்"
 
 #: lib/contents/ui/WebView.qml:449
 #, kde-format
 msgid "Loop"
-msgstr ""
+msgstr "சுழற்று"
 
 #: lib/contents/ui/WebView.qml:456
 #, kde-format
 msgid "Exit fullscreen"
-msgstr ""
+msgstr "முழுத்திரையிலிருந்து வெளியேறு"
 
 #: lib/contents/ui/WebView.qml:456
 #, kde-format
 msgid "Fullscreen"
-msgstr ""
+msgstr "முழுத்திரை"
 
 #: lib/contents/ui/WebView.qml:469
 #, kde-format
 msgid "Hide controls"
-msgstr ""
+msgstr "கட்டுப்படுத்திகளை மறை"
 
 #: lib/contents/ui/WebView.qml:470
 #, kde-format
 msgid "Show controls"
-msgstr ""
+msgstr "கட்டுப்படுத்திகளைக் காட்டு"
 
 #: lib/contents/ui/WebView.qml:478
 #, kde-format
 msgid "Open video"
-msgstr ""
+msgstr "நிகழ்படத்தைத் திற"
 
 #: lib/contents/ui/WebView.qml:478
 #, kde-format
 msgid "Open audio"
-msgstr ""
+msgstr "ஒலிக்கோப்பைத் திற"
 
 #: lib/contents/ui/WebView.qml:479
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open video in new Tab"
-msgstr "புதிய கீற்றில் திற"
+msgstr "நிகழ்படத்தை புதிய கீற்றில் திற"
 
 #: lib/contents/ui/WebView.qml:479
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open audio in new Tab"
-msgstr "புதிய கீற்றில் திற"
+msgstr "ஒலிக்கோப்பை புதிய கீற்றில் திற"
 
 #: lib/contents/ui/WebView.qml:491
 #, kde-format
