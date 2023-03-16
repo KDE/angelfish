@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-08 00:46+0000\n"
-"PO-Revision-Date: 2023-03-14 23:01+0100\n"
+"PO-Revision-Date: 2023-03-15 22:42+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -847,11 +847,13 @@ msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
 "Requires app restart to take effect."
 msgstr ""
+"Rolar es plus lisie e non stoppara subito quando tu stoppa rolar. Il require "
+"que app restarta pro haber effecto."
 
 #: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
 msgid "Use dark color scheme"
-msgstr ""
+msgstr "Usa schema de color obscur"
 
 #: src/contents/ui/SettingsGeneral.qml:92
 #, kde-format
@@ -859,6 +861,8 @@ msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
 "take effect."
 msgstr ""
+"Sitos web habera lor schemas de color fixate a obscur. Il require que le app "
+"restarta per haber effecto."
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format
