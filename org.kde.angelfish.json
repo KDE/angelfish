@@ -25,7 +25,7 @@
         "org.freedesktop.Platform.ffmpeg-full": {
             "directory": "lib/ffmpeg",
             "add-ld-path": ".",
-            "version": "21.08"
+            "version": "22.08"
         }
     },
     "cleanup-commands": [
