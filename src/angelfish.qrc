@@ -29,5 +29,6 @@
         <file alias="SettingsGeneral.qml">contents/ui/SettingsGeneral.qml</file>
         <file alias="HapticsEffectLoader.qml">contents/ui/HapticsEffectLoader.qml</file>
         <file alias="HapticsEffectWrapper.qml">contents/ui/HapticsEffectWrapper.qml</file>
+        <file alias="components/BottomDrawer.qml">contents/ui/components/BottomDrawer.qml</file>
     </qresource>
 </RCC>
