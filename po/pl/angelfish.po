@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-08 00:46+0000\n"
-"PO-Revision-Date: 2023-02-18 09:15+0100\n"
+"PO-Revision-Date: 2023-03-25 09:22+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 22.12.2\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -201,42 +201,42 @@ msgstr "Odrzuć"
 #: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:268
 #, kde-format
 msgid "Print"
-msgstr ""
+msgstr "Wydrukuj"
 
 #: lib/contents/ui/PrintPreview.qml:67
 #, kde-format
 msgid "Destination"
-msgstr ""
+msgstr "Cel"
 
 #: lib/contents/ui/PrintPreview.qml:71
 #, kde-format
 msgid "Save to PDF"
-msgstr ""
+msgstr "Zapisz do PDFa"
 
 #: lib/contents/ui/PrintPreview.qml:77
 #, kde-format
 msgid "Orientation"
-msgstr ""
+msgstr "Kierunek"
 
 #: lib/contents/ui/PrintPreview.qml:102
 #, kde-format
 msgid "Paper size"
-msgstr ""
+msgstr "Rozmiar papieru"
 
 #: lib/contents/ui/PrintPreview.qml:148
 #, kde-format
 msgid "Options"
-msgstr ""
+msgstr "Ustawienia"
 
 #: lib/contents/ui/PrintPreview.qml:152
 #, kde-format
 msgid "Print backgrounds"
-msgstr ""
+msgstr "Drukuj tła"
 
 #: lib/contents/ui/PrintPreview.qml:172
 #, kde-format
 msgid "Save"
-msgstr ""
+msgstr "Zapisz"
 
 #: lib/contents/ui/WebView.qml:243
 #, kde-format
@@ -244,21 +244,19 @@ msgid "Website was opened in a new tab"
 msgstr "Strona sieciowa otworzyła się w nowej karcie"
 
 #: lib/contents/ui/WebView.qml:262
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Entered Full Screen Mode"
-msgstr "Pełny ekran"
+msgstr "Włączono tryb pełnego ekranu"
 
 #: lib/contents/ui/WebView.qml:263
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Exit Full Screen (Esc)"
-msgstr "Pełny ekran"
+msgstr "Wyłącz tryb pełnego ekranu (Esc)"
 
 #: lib/contents/ui/WebView.qml:407
 #, kde-format
 msgid "Play"
-msgstr ""
+msgstr "Odtwórz"
 
 #: lib/contents/ui/WebView.qml:408 src/contents/ui/Downloads.qml:47
 #, kde-format
@@ -268,135 +266,122 @@ msgstr "Wstrzymaj"
 #: lib/contents/ui/WebView.qml:415
 #, kde-format
 msgid "Unmute"
-msgstr ""
+msgstr "Wyłącz wyciszenie"
 
 #: lib/contents/ui/WebView.qml:416
 #, kde-format
 msgid "Mute"
-msgstr ""
+msgstr "Wycisz"
 
 #: lib/contents/ui/WebView.qml:426
 #, kde-format
 msgid "Speed"
-msgstr ""
+msgstr "Szybkość"
 
 #: lib/contents/ui/WebView.qml:449
 #, kde-format
 msgid "Loop"
-msgstr ""
+msgstr "Zapętlij"
 
 #: lib/contents/ui/WebView.qml:456
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Exit fullscreen"
-msgstr "Pełny ekran"
+msgstr "Wyłącz tryb pełnoekranowy"
 
 #: lib/contents/ui/WebView.qml:456
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Fullscreen"
 msgstr "Pełny ekran"
 
 #: lib/contents/ui/WebView.qml:469
 #, kde-format
 msgid "Hide controls"
-msgstr ""
+msgstr "Ukryj sterowanie"
 
 #: lib/contents/ui/WebView.qml:470
-#, fuzzy, kde-format
-#| msgid "Show developer tools"
+#, kde-format
 msgid "Show controls"
-msgstr "Pokaż narzędzia programistyczne"
+msgstr "Pokaż sterowanie"
 
 #: lib/contents/ui/WebView.qml:478
 #, kde-format
 msgid "Open video"
-msgstr ""
+msgstr "Otwórz film"
 
 #: lib/contents/ui/WebView.qml:478
 #, kde-format
 msgid "Open audio"
-msgstr ""
+msgstr "Otwórz dźwięk"
 
 #: lib/contents/ui/WebView.qml:479
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open video in new Tab"
-msgstr "Otwórz w nowej karcie"
+msgstr "Otwórz film w nowej karcie"
 
 #: lib/contents/ui/WebView.qml:479
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open audio in new Tab"
-msgstr "Otwórz w nowej karcie"
+msgstr "Otwórz dźwięk w nowej karcie"
 
 #: lib/contents/ui/WebView.qml:491
 #, kde-format
 msgid "Save video"
-msgstr ""
+msgstr "Zapisz film"
 
 #: lib/contents/ui/WebView.qml:497
 #, kde-format
 msgid "Copy video Link"
-msgstr ""
+msgstr "Skopiuj odnośnik filmu"
 
 #: lib/contents/ui/WebView.qml:503
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgid "Open image"
-msgstr "Otwórz w programie"
+msgstr "Otwórz obraz"
 
 #: lib/contents/ui/WebView.qml:503
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open image in new Tab"
-msgstr "Otwórz w nowej karcie"
+msgstr "Otwórz obraz w nowej karcie"
 
 #: lib/contents/ui/WebView.qml:515
-#, fuzzy, kde-format
-#| msgid "Leave page"
+#, kde-format
 msgid "Save image"
-msgstr "Opuść stronę"
+msgstr "Zapisz obraz"
 
 #: lib/contents/ui/WebView.qml:521
-#, fuzzy, kde-format
-#| msgid "Load images"
+#, kde-format
 msgid "Copy image"
-msgstr "Wczytaj obrazy"
+msgstr "Skopiuj obraz"
 
 #: lib/contents/ui/WebView.qml:527
 #, kde-format
 msgid "Copy image link"
-msgstr ""
+msgstr "Skopiuj odnośnik obrazu"
 
 #: lib/contents/ui/WebView.qml:533
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgid "Open link"
-msgstr "Otwórz w programie"
+msgstr "Otwórz odnośnik"
 
 #: lib/contents/ui/WebView.qml:533
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open link in new Tab"
-msgstr "Otwórz w nowej karcie"
+msgstr "Otwórz odnośnik w nowej karcie"
 
 #: lib/contents/ui/WebView.qml:545
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#, kde-format
 msgid "Bookmark link"
-msgstr "Zakładka"
+msgstr "Dodaj odnośnik do zakładek"
 
 #: lib/contents/ui/WebView.qml:557
 #, kde-format
 msgid "Save link"
-msgstr ""
+msgstr "Zapisz odnośnik"
 
 #: lib/contents/ui/WebView.qml:563
-#, fuzzy, kde-format
-#| msgid "Copy Url"
+#, kde-format
 msgid "Copy link"
-msgstr "Skopiuj adres URL"
+msgstr "Skopiuj odnośnik"
 
 #: lib/contents/ui/WebView.qml:570
 #, kde-format
@@ -420,10 +405,9 @@ msgid "Share page"
 msgstr "Udostępnij stronę"
 
 #: lib/contents/ui/WebView.qml:615
-#, fuzzy, kde-format
-#| msgid "View source"
+#, kde-format
 msgid "View page source"
-msgstr "Pokaż źródło"
+msgstr "Pokaż źródło strony"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
 #, kde-format
@@ -453,10 +437,9 @@ msgid "No bookmarks yet"
 msgstr "Nie ma jeszcze żadnej zakładki"
 
 #: src/contents/ui/desktop/desktop.qml:116
-#, fuzzy, kde-format
-#| msgid "Search history…"
+#, kde-format
 msgid "Search or enter URL…"
-msgstr "Szukaj w historii..."
+msgstr "Poszukaj lub wpisz adres URL..."
 
 #: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:354
 #: src/contents/ui/Tabs.qml:68
@@ -492,10 +475,9 @@ msgid "Full Screen"
 msgstr "Pełny ekran"
 
 #: src/contents/ui/desktop/desktop.qml:291
-#, fuzzy, kde-format
-#| msgid "Show developer tools"
+#, kde-format
 msgid "Hide developer tools"
-msgstr "Pokaż narzędzia programistyczne"
+msgstr "Ukryj narzędzia programistyczne"
 
 #: src/contents/ui/desktop/desktop.qml:292 src/contents/ui/mobile.qml:376
 #, kde-format
@@ -558,6 +540,8 @@ msgstr "Pokaż przycisk domu:"
 #, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr ""
+"Przycisk strony domowej będzie pokazywany obok przycisku odświeżania na "
+"pasku narzędzi."
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:39
 #, kde-format
@@ -570,15 +554,14 @@ msgid "New tabs:"
 msgstr "Nowe karty:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:83
-#, fuzzy, kde-format
-#| msgid "Always show the tab bar:"
+#, kde-format
 msgid "Always show the tab bar"
-msgstr "Zawsze pokazuj pasek kart:"
+msgstr "Zawsze pokazuj pasek kart"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:84
 #, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open"
-msgstr ""
+msgstr "Pasek kart będzie wyświetlany nawet w przypadku jednej karty"
 
 #: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:205
 #, kde-format
@@ -591,38 +574,34 @@ msgid "Close tab"
 msgstr "Zamknij kartę"
 
 #: src/contents/ui/desktop/Tabs.qml:290
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open a new tab"
-msgstr "Otwórz w nowej karcie"
+msgstr "Otwórz nową kartę"
 
 #: src/contents/ui/desktop/Tabs.qml:323
 #, kde-format
 msgid "List all tabs"
-msgstr ""
+msgstr "Wymień wszystkie karty"
 
 #: src/contents/ui/desktop/Tabs.qml:363
 #, kde-format
 msgid "Reload Tab"
-msgstr ""
+msgstr "Odśwież kartę"
 
 #: src/contents/ui/desktop/Tabs.qml:371
-#, fuzzy, kde-format
-#| msgid "Private Tabs"
+#, kde-format
 msgid "Duplicate Tab"
-msgstr "Prywatne karty"
+msgstr "Powiel kartę"
 
 #: src/contents/ui/desktop/Tabs.qml:379
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#, kde-format
 msgid "Bookmark Tab"
-msgstr "Zakładka"
+msgstr "Dodaj kartę do zakładek"
 
 #: src/contents/ui/desktop/Tabs.qml:395
-#, fuzzy, kde-format
-#| msgid "Close"
+#, kde-format
 msgid "Close Tab"
-msgstr "Zamknij"
+msgstr "Zamknij kartę"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -793,10 +772,9 @@ msgid "Remove this filter list"
 msgstr "Usuń ten spis filtrów"
 
 #: src/contents/ui/SettingsAdblock.qml:154
-#, fuzzy, kde-format
-#| msgid "Add filterlist"
+#, kde-format
 msgid "add Filterlist"
-msgstr "Dodaj spis filtrów"
+msgstr "dodaj spis filtrów"
 
 #: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:12
 #, kde-format
@@ -854,7 +832,7 @@ msgstr ""
 #: src/contents/ui/SettingsGeneral.qml:81
 #, kde-format
 msgid "Use Smooth Scrolling"
-msgstr ""
+msgstr "Użyj płynnego przewijania"
 
 #: src/contents/ui/SettingsGeneral.qml:82
 #, kde-format
@@ -862,11 +840,14 @@ msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
 "Requires app restart to take effect."
 msgstr ""
+"Przewijanie stanie się płynniejsze i nie zatrzyma się nagle, gdy "
+"przestaniesz przewijać. Wymaga ponownego uruchomienia aplikacji, aby "
+"zadziałać."
 
 #: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
 msgid "Use dark color scheme"
-msgstr ""
+msgstr "Użyj ciemnego zestawu barw"
 
 #: src/contents/ui/SettingsGeneral.qml:92
 #, kde-format
@@ -874,6 +855,8 @@ msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
 "take effect."
 msgstr ""
+"Strony będą miały ustawiony zestaw barw na ciemny. Wymaga ponownego "
+"uruchomienia aplikacji, aby zadziałać."
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format
