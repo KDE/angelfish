@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-08 00:46+0000\n"
+"POT-Creation-Date: 2023-03-27 00:48+0000\n"
 "PO-Revision-Date: 2023-02-22 22:49+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -446,7 +446,7 @@ msgid "Search or enter URL…"
 msgstr "Bilatu edo sartu URLa..."
 
 #: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:354
-#: src/contents/ui/Tabs.qml:68
+#: src/contents/ui/Tabs.qml:49
 #, kde-format
 msgid "New Tab"
 msgstr "Fitxa berria"
@@ -566,12 +566,12 @@ msgstr "Erakutsi beti fitxa-barra"
 msgid "The tab bar will be displayed even if there is only one tab open"
 msgstr "Fitxa-barra, fitxa bakarra irekita dagoenean ere, erakutsiko du"
 
-#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:205
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:185
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Irakurle modua: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:250 src/contents/ui/Tabs.qml:236
+#: src/contents/ui/desktop/Tabs.qml:250 src/contents/ui/Tabs.qml:216
 #, kde-format
 msgid "Close tab"
 msgstr "Itxi fitxa"
@@ -654,7 +654,7 @@ msgstr "Bilatu..."
 msgid "Angelfish Web Browser"
 msgstr "Angelfish web arakatzailea"
 
-#: src/contents/ui/mobile.qml:64
+#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:42
 #, kde-format
 msgid "Tabs"
 msgstr "Fitxak"

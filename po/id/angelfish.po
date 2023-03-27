@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-08 00:46+0000\n"
+"POT-Creation-Date: 2023-03-27 00:48+0000\n"
 "PO-Revision-Date: 2022-08-19 20:36+0700\n"
 "Last-Translator: Wantoyèk <wantoyek@gmail.com>\n"
 "Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
@@ -461,7 +461,7 @@ msgid "Search or enter URL…"
 msgstr "Cari histori..."
 
 #: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:354
-#: src/contents/ui/Tabs.qml:68
+#: src/contents/ui/Tabs.qml:49
 #, kde-format
 msgid "New Tab"
 msgstr "Tab Baru"
@@ -581,12 +581,12 @@ msgstr ""
 msgid "The tab bar will be displayed even if there is only one tab open"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:205
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:185
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:250 src/contents/ui/Tabs.qml:236
+#: src/contents/ui/desktop/Tabs.qml:250 src/contents/ui/Tabs.qml:216
 #, fuzzy, kde-format
 #| msgid "Close"
 msgid "Close tab"
@@ -674,7 +674,7 @@ msgstr "Cari..."
 msgid "Angelfish Web Browser"
 msgstr "Browser Web Angelfish"
 
-#: src/contents/ui/mobile.qml:64
+#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:42
 #, kde-format
 msgid "Tabs"
 msgstr "Tab"

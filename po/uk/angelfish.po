@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-08 00:46+0000\n"
+"POT-Creation-Date: 2023-03-27 00:48+0000\n"
 "PO-Revision-Date: 2023-03-08 08:00+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -446,7 +446,7 @@ msgid "Search or enter URL…"
 msgstr "Пошук або введення адреси…"
 
 #: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:354
-#: src/contents/ui/Tabs.qml:68
+#: src/contents/ui/Tabs.qml:49
 #, kde-format
 msgid "New Tab"
 msgstr "Нова вкладка"
@@ -567,12 +567,12 @@ msgstr "Завжди показувати панель вкладок"
 msgid "The tab bar will be displayed even if there is only one tab open"
 msgstr "Панель вкладок буде показано, навіть якщо відкрито лише одну вкладку"
 
-#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:205
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:185
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Режим читання: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:250 src/contents/ui/Tabs.qml:236
+#: src/contents/ui/desktop/Tabs.qml:250 src/contents/ui/Tabs.qml:216
 #, kde-format
 msgid "Close tab"
 msgstr "Закрити вкладку"
@@ -655,7 +655,7 @@ msgstr "Шукати…"
 msgid "Angelfish Web Browser"
 msgstr "Веббраузер Angelfish"
 
-#: src/contents/ui/mobile.qml:64
+#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:42
 #, kde-format
 msgid "Tabs"
 msgstr "Вкладки"
