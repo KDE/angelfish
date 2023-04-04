@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-27 00:48+0000\n"
-"PO-Revision-Date: 2023-03-07 21:25+0200\n"
+"PO-Revision-Date: 2023-03-12 15:13+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -199,42 +199,42 @@ msgstr "Hylkää"
 #: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:268
 #, kde-format
 msgid "Print"
-msgstr ""
+msgstr "Tulosta"
 
 #: lib/contents/ui/PrintPreview.qml:67
 #, kde-format
 msgid "Destination"
-msgstr ""
+msgstr "Kohde"
 
 #: lib/contents/ui/PrintPreview.qml:71
 #, kde-format
 msgid "Save to PDF"
-msgstr ""
+msgstr "Tallenna PDF:ksi"
 
 #: lib/contents/ui/PrintPreview.qml:77
 #, kde-format
 msgid "Orientation"
-msgstr ""
+msgstr "Suunta"
 
 #: lib/contents/ui/PrintPreview.qml:102
 #, kde-format
 msgid "Paper size"
-msgstr ""
+msgstr "Paperikoko"
 
 #: lib/contents/ui/PrintPreview.qml:148
 #, kde-format
 msgid "Options"
-msgstr ""
+msgstr "Valinnat"
 
 #: lib/contents/ui/PrintPreview.qml:152
 #, kde-format
 msgid "Print backgrounds"
-msgstr ""
+msgstr "Tulosta taustat"
 
 #: lib/contents/ui/PrintPreview.qml:172
 #, kde-format
 msgid "Save"
-msgstr ""
+msgstr "Tallenna"
 
 #: lib/contents/ui/WebView.qml:243
 #, kde-format
