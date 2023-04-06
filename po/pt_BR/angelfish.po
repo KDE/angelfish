@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-27 00:48+0000\n"
-"PO-Revision-Date: 2023-03-22 17:46-0300\n"
+"PO-Revision-Date: 2023-04-05 10:47-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -231,7 +231,7 @@ msgstr "Opções"
 #: lib/contents/ui/PrintPreview.qml:152
 #, kde-format
 msgid "Print backgrounds"
-msgstr ""
+msgstr "Imprimir fundos"
 
 #: lib/contents/ui/PrintPreview.qml:172
 #, kde-format
@@ -244,21 +244,19 @@ msgid "Website was opened in a new tab"
 msgstr "O site foi aberto em uma nova aba"
 
 #: lib/contents/ui/WebView.qml:262
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Entered Full Screen Mode"
-msgstr "Modo de tela inteira"
+msgstr "Entrou no modo tela inteira"
 
 #: lib/contents/ui/WebView.qml:263
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Exit Full Screen (Esc)"
-msgstr "Modo de tela inteira"
+msgstr "Sair da tela inteira (Esc)"
 
 #: lib/contents/ui/WebView.qml:407
 #, kde-format
 msgid "Play"
-msgstr ""
+msgstr "Reproduzir"
 
 #: lib/contents/ui/WebView.qml:408 src/contents/ui/Downloads.qml:47
 #, kde-format
@@ -268,124 +266,112 @@ msgstr "Pausar"
 #: lib/contents/ui/WebView.qml:415
 #, kde-format
 msgid "Unmute"
-msgstr ""
+msgstr "Ativar o som"
 
 #: lib/contents/ui/WebView.qml:416
 #, kde-format
 msgid "Mute"
-msgstr ""
+msgstr "Mudo"
 
 #: lib/contents/ui/WebView.qml:426
 #, kde-format
 msgid "Speed"
-msgstr ""
+msgstr "Velocidade"
 
 #: lib/contents/ui/WebView.qml:449
 #, kde-format
 msgid "Loop"
-msgstr ""
+msgstr "Repetição"
 
 #: lib/contents/ui/WebView.qml:456
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Exit fullscreen"
-msgstr "Modo de tela inteira"
+msgstr "Sair da tela inteira"
 
 #: lib/contents/ui/WebView.qml:456
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Fullscreen"
-msgstr "Modo de tela inteira"
+msgstr "Tela inteira"
 
 #: lib/contents/ui/WebView.qml:469
 #, kde-format
 msgid "Hide controls"
-msgstr ""
+msgstr "Ocultar controles"
 
 #: lib/contents/ui/WebView.qml:470
-#, fuzzy, kde-format
-#| msgid "Show developer tools"
+#, kde-format
 msgid "Show controls"
-msgstr "Mostrar ferramentas de desenvolvimento"
+msgstr "Mostrar controles"
 
 #: lib/contents/ui/WebView.qml:478
 #, kde-format
 msgid "Open video"
-msgstr ""
+msgstr "Abrir vídeo"
 
 #: lib/contents/ui/WebView.qml:478
 #, kde-format
 msgid "Open audio"
-msgstr ""
+msgstr "Abrir áudio"
 
 #: lib/contents/ui/WebView.qml:479
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open video in new Tab"
-msgstr "Abrir em nova aba"
+msgstr "Abrir vídeo em nova aba"
 
 #: lib/contents/ui/WebView.qml:479
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open audio in new Tab"
-msgstr "Abrir em nova aba"
+msgstr "Abrir áudio em nova aba"
 
 #: lib/contents/ui/WebView.qml:491
 #, kde-format
 msgid "Save video"
-msgstr ""
+msgstr "Salvar vídeo"
 
 #: lib/contents/ui/WebView.qml:497
 #, kde-format
 msgid "Copy video Link"
-msgstr ""
+msgstr "Copiar link do vídeo"
 
 #: lib/contents/ui/WebView.qml:503
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgid "Open image"
-msgstr "Abrir no aplicativo"
+msgstr "Abrir imagem"
 
 #: lib/contents/ui/WebView.qml:503
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open image in new Tab"
-msgstr "Abrir em nova aba"
+msgstr "Abrir imagem em nova aba"
 
 #: lib/contents/ui/WebView.qml:515
-#, fuzzy, kde-format
-#| msgid "Leave page"
+#, kde-format
 msgid "Save image"
-msgstr "Sair da página"
+msgstr "Salvar imagem"
 
 #: lib/contents/ui/WebView.qml:521
-#, fuzzy, kde-format
-#| msgid "Load images"
+#, kde-format
 msgid "Copy image"
-msgstr "Carregar imagens"
+msgstr "Copiar imagem"
 
 #: lib/contents/ui/WebView.qml:527
 #, kde-format
 msgid "Copy image link"
-msgstr ""
+msgstr "Copiar link da imagem"
 
 #: lib/contents/ui/WebView.qml:533
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgid "Open link"
-msgstr "Abrir no aplicativo"
+msgstr "Abrir link"
 
 #: lib/contents/ui/WebView.qml:533
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open link in new Tab"
-msgstr "Abrir em nova aba"
+msgstr "Abrir link em nova aba"
 
 #: lib/contents/ui/WebView.qml:545
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#, kde-format
 msgid "Bookmark link"
-msgstr "Favorito"
+msgstr "Favoritar link"
 
 #: lib/contents/ui/WebView.qml:557
 #, kde-format
@@ -419,10 +405,9 @@ msgid "Share page"
 msgstr "Compartilhar página"
 
 #: lib/contents/ui/WebView.qml:615
-#, fuzzy, kde-format
-#| msgid "View source"
+#, kde-format
 msgid "View page source"
-msgstr "Exibir fonte"
+msgstr "Exibir fonte da página"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
 #, kde-format
@@ -454,10 +439,9 @@ msgid "No bookmarks yet"
 msgstr "Nenhum favorito ainda"
 
 #: src/contents/ui/desktop/desktop.qml:116
-#, fuzzy, kde-format
-#| msgid "Search history…"
+#, kde-format
 msgid "Search or enter URL…"
-msgstr "Pesquisar histórico…"
+msgstr "Pesquisar ou digitar URL..."
 
 #: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:354
 #: src/contents/ui/Tabs.qml:49
@@ -490,13 +474,12 @@ msgstr "Downloads"
 #: src/contents/ui/desktop/desktop.qml:274
 #, kde-format
 msgid "Full Screen"
-msgstr "Modo de tela inteira"
+msgstr "Tela inteira"
 
 #: src/contents/ui/desktop/desktop.qml:291
-#, fuzzy, kde-format
-#| msgid "Show developer tools"
+#, kde-format
 msgid "Hide developer tools"
-msgstr "Mostrar ferramentas de desenvolvimento"
+msgstr "Ocultar ferramentas de desenvolvimento"
 
 #: src/contents/ui/desktop/desktop.qml:292 src/contents/ui/mobile.qml:376
 #, kde-format
@@ -571,10 +554,9 @@ msgid "New tabs:"
 msgstr "Novas abas:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:83
-#, fuzzy, kde-format
-#| msgid "Always show the tab bar:"
+#, kde-format
 msgid "Always show the tab bar"
-msgstr "Sempre mostrar a aba de barras:"
+msgstr "Sempre mostrar a aba de barras"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:84
 #, kde-format
@@ -587,44 +569,39 @@ msgid "Reader Mode: %1"
 msgstr "Modo de leitura: %1"
 
 #: src/contents/ui/desktop/Tabs.qml:250 src/contents/ui/Tabs.qml:216
-#, fuzzy, kde-format
-#| msgid "Close"
+#, kde-format
 msgid "Close tab"
-msgstr "Fechar"
+msgstr "Fechar aba"
 
 #: src/contents/ui/desktop/Tabs.qml:290
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open a new tab"
-msgstr "Abrir em nova aba"
+msgstr "Abrir uma nova aba"
 
 #: src/contents/ui/desktop/Tabs.qml:323
 #, kde-format
 msgid "List all tabs"
-msgstr ""
+msgstr "Listar todas as abas"
 
 #: src/contents/ui/desktop/Tabs.qml:363
 #, kde-format
 msgid "Reload Tab"
-msgstr ""
+msgstr "Recarregar aba"
 
 #: src/contents/ui/desktop/Tabs.qml:371
-#, fuzzy, kde-format
-#| msgid "Private Tabs"
+#, kde-format
 msgid "Duplicate Tab"
-msgstr "Abas privativas"
+msgstr "Duplicar aba"
 
 #: src/contents/ui/desktop/Tabs.qml:379
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#, kde-format
 msgid "Bookmark Tab"
-msgstr "Favorito"
+msgstr "Favoritar aba"
 
 #: src/contents/ui/desktop/Tabs.qml:395
-#, fuzzy, kde-format
-#| msgid "Close"
+#, kde-format
 msgid "Close Tab"
-msgstr "Fechar"
+msgstr "Fechar aba"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -795,8 +772,7 @@ msgid "Remove this filter list"
 msgstr "Excluir esta lista de filtros"
 
 #: src/contents/ui/SettingsAdblock.qml:154
-#, fuzzy, kde-format
-#| msgid "Add filterlist"
+#, kde-format
 msgid "add Filterlist"
 msgstr "Adicionar lista de filtros"
 
@@ -856,7 +832,7 @@ msgstr ""
 #: src/contents/ui/SettingsGeneral.qml:81
 #, kde-format
 msgid "Use Smooth Scrolling"
-msgstr ""
+msgstr "Usar rolagem suave"
 
 #: src/contents/ui/SettingsGeneral.qml:82
 #, kde-format
@@ -868,7 +844,7 @@ msgstr ""
 #: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
 msgid "Use dark color scheme"
-msgstr ""
+msgstr "Usar esquema escuro"
 
 #: src/contents/ui/SettingsGeneral.qml:92
 #, kde-format
