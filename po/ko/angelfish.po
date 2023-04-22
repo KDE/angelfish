@@ -1,21 +1,21 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the plasma-angelfish package.
 # Jung Hee Lee <daemul72@gmail.com>, 2019.
-# Shinjo Park <kde@peremen.name>, 2019, 2020, 2021, 2022.
+# Shinjo Park <kde@peremen.name>, 2019, 2020, 2021, 2022, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-08 00:46+0000\n"
-"PO-Revision-Date: 2022-10-03 14:17+0200\n"
+"PO-Revision-Date: 2023-04-21 23:28+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
-"Language-Team: Korean <kde-i18n-doc@kde.org>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Lokalize 22.12.3\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
@@ -130,7 +130,7 @@ msgstr "아니요"
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
 msgid "This page says"
-msgstr ""
+msgstr "페이지 프롬프트"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:64
 #, kde-format
@@ -200,42 +200,42 @@ msgstr "거절"
 #: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:268
 #, kde-format
 msgid "Print"
-msgstr ""
+msgstr "인쇄"
 
 #: lib/contents/ui/PrintPreview.qml:67
 #, kde-format
 msgid "Destination"
-msgstr ""
+msgstr "대상"
 
 #: lib/contents/ui/PrintPreview.qml:71
 #, kde-format
 msgid "Save to PDF"
-msgstr ""
+msgstr "PDF로 저장"
 
 #: lib/contents/ui/PrintPreview.qml:77
 #, kde-format
 msgid "Orientation"
-msgstr ""
+msgstr "방향"
 
 #: lib/contents/ui/PrintPreview.qml:102
 #, kde-format
 msgid "Paper size"
-msgstr ""
+msgstr "용지 크기"
 
 #: lib/contents/ui/PrintPreview.qml:148
 #, kde-format
 msgid "Options"
-msgstr ""
+msgstr "옵션"
 
 #: lib/contents/ui/PrintPreview.qml:152
 #, kde-format
 msgid "Print backgrounds"
-msgstr ""
+msgstr "배경 인쇄"
 
 #: lib/contents/ui/PrintPreview.qml:172
 #, kde-format
 msgid "Save"
-msgstr ""
+msgstr "저장"
 
 #: lib/contents/ui/WebView.qml:243
 #, kde-format
@@ -243,21 +243,19 @@ msgid "Website was opened in a new tab"
 msgstr "웹사이트가 새 탭에서 열렸습니다."
 
 #: lib/contents/ui/WebView.qml:262
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Entered Full Screen Mode"
-msgstr "전체 화면"
+msgstr "전체 화면 모드에 진입함"
 
 #: lib/contents/ui/WebView.qml:263
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Exit Full Screen (Esc)"
-msgstr "전체 화면"
+msgstr "전체 화면 끝내기(Esc)"
 
 #: lib/contents/ui/WebView.qml:407
 #, kde-format
 msgid "Play"
-msgstr ""
+msgstr "재생"
 
 #: lib/contents/ui/WebView.qml:408 src/contents/ui/Downloads.qml:47
 #, kde-format
@@ -267,135 +265,122 @@ msgstr "일시 정지"
 #: lib/contents/ui/WebView.qml:415
 #, kde-format
 msgid "Unmute"
-msgstr ""
+msgstr "음소거 해제"
 
 #: lib/contents/ui/WebView.qml:416
 #, kde-format
 msgid "Mute"
-msgstr ""
+msgstr "음소거"
 
 #: lib/contents/ui/WebView.qml:426
 #, kde-format
 msgid "Speed"
-msgstr ""
+msgstr "속도"
 
 #: lib/contents/ui/WebView.qml:449
 #, kde-format
 msgid "Loop"
-msgstr ""
+msgstr "반복"
 
 #: lib/contents/ui/WebView.qml:456
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Exit fullscreen"
-msgstr "전체 화면"
+msgstr "전체 화면 모드 끝내기"
 
 #: lib/contents/ui/WebView.qml:456
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Fullscreen"
 msgstr "전체 화면"
 
 #: lib/contents/ui/WebView.qml:469
 #, kde-format
 msgid "Hide controls"
-msgstr ""
+msgstr "컨트롤 숨기기"
 
 #: lib/contents/ui/WebView.qml:470
-#, fuzzy, kde-format
-#| msgid "Show developer tools"
+#, kde-format
 msgid "Show controls"
-msgstr "개발자 도구 표시"
+msgstr "컨트롤 표시"
 
 #: lib/contents/ui/WebView.qml:478
 #, kde-format
 msgid "Open video"
-msgstr ""
+msgstr "비디오 열기"
 
 #: lib/contents/ui/WebView.qml:478
 #, kde-format
 msgid "Open audio"
-msgstr ""
+msgstr "오디오 열기"
 
 #: lib/contents/ui/WebView.qml:479
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open video in new Tab"
-msgstr "새 탭에서 열기"
+msgstr "새 탭에서 비디오 열기"
 
 #: lib/contents/ui/WebView.qml:479
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open audio in new Tab"
-msgstr "새 탭에서 열기"
+msgstr "새 탭에서 오디오 열기"
 
 #: lib/contents/ui/WebView.qml:491
 #, kde-format
 msgid "Save video"
-msgstr ""
+msgstr "비디오 저장"
 
 #: lib/contents/ui/WebView.qml:497
 #, kde-format
 msgid "Copy video Link"
-msgstr ""
+msgstr "비디오 링크 복사"
 
 #: lib/contents/ui/WebView.qml:503
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgid "Open image"
-msgstr "앱에서 열기"
+msgstr "그림 열기"
 
 #: lib/contents/ui/WebView.qml:503
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open image in new Tab"
-msgstr "새 탭에서 열기"
+msgstr "새 탭에서 그림 열기"
 
 #: lib/contents/ui/WebView.qml:515
-#, fuzzy, kde-format
-#| msgid "Leave page"
+#, kde-format
 msgid "Save image"
-msgstr "페이지 떠나기"
+msgstr "그림 저장"
 
 #: lib/contents/ui/WebView.qml:521
-#, fuzzy, kde-format
-#| msgid "Load images"
+#, kde-format
 msgid "Copy image"
-msgstr "이미지 불러오기"
+msgstr "그림 복사"
 
 #: lib/contents/ui/WebView.qml:527
 #, kde-format
 msgid "Copy image link"
-msgstr ""
+msgstr "그림 링크 복사"
 
 #: lib/contents/ui/WebView.qml:533
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgid "Open link"
-msgstr "앱에서 열기"
+msgstr "링크 열기"
 
 #: lib/contents/ui/WebView.qml:533
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open link in new Tab"
-msgstr "새 탭에서 열기"
+msgstr "새 탭으로 링크 열기"
 
 #: lib/contents/ui/WebView.qml:545
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#, kde-format
 msgid "Bookmark link"
-msgstr "책갈피"
+msgstr "링크를 책갈피에 추가"
 
 #: lib/contents/ui/WebView.qml:557
 #, kde-format
 msgid "Save link"
-msgstr ""
+msgstr "링크 저장"
 
 #: lib/contents/ui/WebView.qml:563
-#, fuzzy, kde-format
-#| msgid "Copy Url"
+#, kde-format
 msgid "Copy link"
-msgstr "URL 복사"
+msgstr "링크 복사"
 
 #: lib/contents/ui/WebView.qml:570
 #, kde-format
@@ -419,10 +404,9 @@ msgid "Share page"
 msgstr "공유 페이지"
 
 #: lib/contents/ui/WebView.qml:615
-#, fuzzy, kde-format
-#| msgid "View source"
+#, kde-format
 msgid "View page source"
-msgstr "소스 보기"
+msgstr "페이지 소스 보기"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
 #, kde-format
@@ -452,10 +436,9 @@ msgid "No bookmarks yet"
 msgstr "책갈피 없음"
 
 #: src/contents/ui/desktop/desktop.qml:116
-#, fuzzy, kde-format
-#| msgid "Search history…"
+#, kde-format
 msgid "Search or enter URL…"
-msgstr "과거 기록 검색…"
+msgstr "검색 또는 URL 입력…"
 
 #: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:354
 #: src/contents/ui/Tabs.qml:68
@@ -491,10 +474,9 @@ msgid "Full Screen"
 msgstr "전체 화면"
 
 #: src/contents/ui/desktop/desktop.qml:291
-#, fuzzy, kde-format
-#| msgid "Show developer tools"
+#, kde-format
 msgid "Hide developer tools"
-msgstr "개발자 도구 표시"
+msgstr "개발자 도구 숨기기"
 
 #: src/contents/ui/desktop/desktop.qml:292 src/contents/ui/mobile.qml:376
 #, kde-format
@@ -556,7 +538,7 @@ msgstr "홈 단추 표시:"
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:29
 #, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
-msgstr ""
+msgstr "도구 모음의 새로 고침 단추 옆에 홈 단추를 표시합니다."
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:39
 #, kde-format
@@ -569,15 +551,14 @@ msgid "New tabs:"
 msgstr "새 탭:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:83
-#, fuzzy, kde-format
-#| msgid "Always show the tab bar:"
+#, kde-format
 msgid "Always show the tab bar"
-msgstr "항상 탭 목록 표시:"
+msgstr "항상 탭 목록 표시"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:84
 #, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open"
-msgstr ""
+msgstr "탭이 하나만 열려 있어도 탭 표시줄이 표시됨"
 
 #: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:205
 #, kde-format
@@ -585,44 +566,39 @@ msgid "Reader Mode: %1"
 msgstr "읽기 모드: %1"
 
 #: src/contents/ui/desktop/Tabs.qml:250 src/contents/ui/Tabs.qml:236
-#, fuzzy, kde-format
-#| msgid "Close"
+#, kde-format
 msgid "Close tab"
-msgstr "닫기"
+msgstr "탭 닫기"
 
 #: src/contents/ui/desktop/Tabs.qml:290
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open a new tab"
-msgstr "새 탭에서 열기"
+msgstr "새 탭 열기"
 
 #: src/contents/ui/desktop/Tabs.qml:323
 #, kde-format
 msgid "List all tabs"
-msgstr ""
+msgstr "모든 탭 표시"
 
 #: src/contents/ui/desktop/Tabs.qml:363
 #, kde-format
 msgid "Reload Tab"
-msgstr ""
+msgstr "탭 새로 고침"
 
 #: src/contents/ui/desktop/Tabs.qml:371
-#, fuzzy, kde-format
-#| msgid "Private Tabs"
+#, kde-format
 msgid "Duplicate Tab"
-msgstr "사생활 보호 탭"
+msgstr "탭 복제"
 
 #: src/contents/ui/desktop/Tabs.qml:379
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#, kde-format
 msgid "Bookmark Tab"
-msgstr "책갈피"
+msgstr "책갈피에 탭 추가"
 
 #: src/contents/ui/desktop/Tabs.qml:395
-#, fuzzy, kde-format
-#| msgid "Close"
+#, kde-format
 msgid "Close Tab"
-msgstr "닫기"
+msgstr "탭 닫기"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -793,8 +769,7 @@ msgid "Remove this filter list"
 msgstr "이 필터 목록 삭제"
 
 #: src/contents/ui/SettingsAdblock.qml:154
-#, fuzzy, kde-format
-#| msgid "Add filterlist"
+#, kde-format
 msgid "add Filterlist"
 msgstr "필터 목록 추가"
 
@@ -811,17 +786,17 @@ msgstr "자바스크립트 사용"
 #: src/contents/ui/SettingsGeneral.qml:41
 #, kde-format
 msgid "This may be required on certain websites for them to work."
-msgstr ""
+msgstr "일부 웹사이트에서 필요할 수도 있습니다."
 
 #: src/contents/ui/SettingsGeneral.qml:50
 #, kde-format
 msgid "Load images"
-msgstr "이미지 불러오기"
+msgstr "그림 불러오기"
 
 #: src/contents/ui/SettingsGeneral.qml:51
 #, kde-format
 msgid "Whether to load images on websites."
-msgstr ""
+msgstr "웹사이트의 그림을 불러올지 여부입니다."
 
 #: src/contents/ui/SettingsGeneral.qml:60
 #, kde-format
@@ -831,18 +806,17 @@ msgstr "광고 차단 활성화"
 #: src/contents/ui/SettingsGeneral.qml:61
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
-msgstr ""
+msgstr "웹사이트에 표시되는 광고를 차단합니다."
 
 #: src/contents/ui/SettingsGeneral.qml:61
-#, fuzzy, kde-format
-#| msgid "The adblock functionality isn't included in this build."
+#, kde-format
 msgid "AdBlock functionality was not included in this build."
 msgstr "이 빌드에 광고 차단 기능이 제외되어 있습니다."
 
 #: src/contents/ui/SettingsGeneral.qml:71
 #, kde-format
 msgid "Switch to new tab immediately"
-msgstr ""
+msgstr "새 탭으로 바로 전환"
 
 #: src/contents/ui/SettingsGeneral.qml:72
 #, kde-format
@@ -853,7 +827,7 @@ msgstr "링크, 그림, 미디어를 새 탭으로 열 때 연 즉시 전환"
 #: src/contents/ui/SettingsGeneral.qml:81
 #, kde-format
 msgid "Use Smooth Scrolling"
-msgstr ""
+msgstr "부드러운 스크롤 사용"
 
 #: src/contents/ui/SettingsGeneral.qml:82
 #, kde-format
@@ -861,11 +835,13 @@ msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
 "Requires app restart to take effect."
 msgstr ""
+"스크롤이 더 부드럽게 진행되며 스크롤을 중단했을 때 갑자기 중단되지 않습니다."
+"이 옵션을 변경하려면 다시 시작해야 합니다."
 
 #: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
 msgid "Use dark color scheme"
-msgstr ""
+msgstr "어두운 색 배열 사용"
 
 #: src/contents/ui/SettingsGeneral.qml:92
 #, kde-format
@@ -873,6 +849,8 @@ msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
 "take effect."
 msgstr ""
+"웹사이트에서 어두운 색 배열을 사용하도록 설정합니다. 이 옵션을 변경하려면 다"
+"시 시작해야 합니다."
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format
@@ -954,10 +932,9 @@ msgid "Remove app"
 msgstr "앱 삭제"
 
 #: src/contents/ui/ShareSheet.qml:17
-#, fuzzy, kde-format
-#| msgid "Share page"
+#, kde-format
 msgid "Share page to"
-msgstr "공유 페이지"
+msgstr "다음으로 페이지 공유"
 
 #: src/main.cpp:93
 #, kde-format
