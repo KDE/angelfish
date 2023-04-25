@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-27 00:48+0000\n"
-"PO-Revision-Date: 2023-01-19 17:17+0300\n"
+"PO-Revision-Date: 2023-04-24 12:47+0300\n"
 "Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
 "Language-Team: Basealt Translation Team\n"
 "Language: ru\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 22.08.3\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -33,7 +33,7 @@ msgstr "mornie@basealt.ru, translation-team@basealt.ru"
 #: angelfish-webapp/main.cpp:85
 #, kde-format
 msgid "desktop file to open"
-msgstr "файл рабочего стола для открытия."
+msgstr "файл рабочего стола для открытия"
 
 #: angelfish-webapp/main.cpp:112
 #, kde-format
@@ -202,42 +202,42 @@ msgstr "Отклонить"
 #: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:268
 #, kde-format
 msgid "Print"
-msgstr ""
+msgstr "Печать"
 
 #: lib/contents/ui/PrintPreview.qml:67
 #, kde-format
 msgid "Destination"
-msgstr ""
+msgstr "Назначение"
 
 #: lib/contents/ui/PrintPreview.qml:71
 #, kde-format
 msgid "Save to PDF"
-msgstr ""
+msgstr "Сохранить в PDF"
 
 #: lib/contents/ui/PrintPreview.qml:77
 #, kde-format
 msgid "Orientation"
-msgstr ""
+msgstr "Ориентация"
 
 #: lib/contents/ui/PrintPreview.qml:102
 #, kde-format
 msgid "Paper size"
-msgstr ""
+msgstr "Размер бумаги"
 
 #: lib/contents/ui/PrintPreview.qml:148
 #, kde-format
 msgid "Options"
-msgstr ""
+msgstr "Параметры"
 
 #: lib/contents/ui/PrintPreview.qml:152
 #, kde-format
 msgid "Print backgrounds"
-msgstr ""
+msgstr "Печать фона"
 
 #: lib/contents/ui/PrintPreview.qml:172
 #, kde-format
 msgid "Save"
-msgstr ""
+msgstr "Сохранить"
 
 #: lib/contents/ui/WebView.qml:243
 #, kde-format
@@ -245,21 +245,19 @@ msgid "Website was opened in a new tab"
 msgstr "Страница открыта в новой вкладке"
 
 #: lib/contents/ui/WebView.qml:262
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Entered Full Screen Mode"
-msgstr "Во весь экран"
+msgstr "Выполнен переход в полноэкранный режим"
 
 #: lib/contents/ui/WebView.qml:263
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Exit Full Screen (Esc)"
-msgstr "Во весь экран"
+msgstr "Выйти из полноэкранного режима (Esc)"
 
 #: lib/contents/ui/WebView.qml:407
 #, kde-format
 msgid "Play"
-msgstr ""
+msgstr "Воспроизвести"
 
 #: lib/contents/ui/WebView.qml:408 src/contents/ui/Downloads.qml:47
 #, kde-format
@@ -269,135 +267,122 @@ msgstr "Приостановить"
 #: lib/contents/ui/WebView.qml:415
 #, kde-format
 msgid "Unmute"
-msgstr ""
+msgstr "Включить звук"
 
 #: lib/contents/ui/WebView.qml:416
 #, kde-format
 msgid "Mute"
-msgstr ""
+msgstr "Отключить звук"
 
 #: lib/contents/ui/WebView.qml:426
 #, kde-format
 msgid "Speed"
-msgstr ""
+msgstr "Скорость"
 
 #: lib/contents/ui/WebView.qml:449
 #, kde-format
 msgid "Loop"
-msgstr ""
+msgstr "Цикл"
 
 #: lib/contents/ui/WebView.qml:456
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Exit fullscreen"
-msgstr "Во весь экран"
+msgstr "Выйти из полноэкранного режима"
 
 #: lib/contents/ui/WebView.qml:456
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Fullscreen"
-msgstr "Во весь экран"
+msgstr "На весь экран"
 
 #: lib/contents/ui/WebView.qml:469
 #, kde-format
 msgid "Hide controls"
-msgstr ""
+msgstr "Скрыть элементы управления"
 
 #: lib/contents/ui/WebView.qml:470
-#, fuzzy, kde-format
-#| msgid "Show developer tools"
+#, kde-format
 msgid "Show controls"
-msgstr "Показать инструменты для разработки"
+msgstr "Показать элементы управления"
 
 #: lib/contents/ui/WebView.qml:478
 #, kde-format
 msgid "Open video"
-msgstr ""
+msgstr "Открыть видео"
 
 #: lib/contents/ui/WebView.qml:478
 #, kde-format
 msgid "Open audio"
-msgstr ""
+msgstr "Открыть аудио"
 
 #: lib/contents/ui/WebView.qml:479
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open video in new Tab"
-msgstr "Открыть в новой вкладке"
+msgstr "Открыть видео в новой вкладке"
 
 #: lib/contents/ui/WebView.qml:479
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open audio in new Tab"
-msgstr "Открыть в новой вкладке"
+msgstr "Открыть аудио в новой вкладке"
 
 #: lib/contents/ui/WebView.qml:491
 #, kde-format
 msgid "Save video"
-msgstr ""
+msgstr "Сохранить видео"
 
 #: lib/contents/ui/WebView.qml:497
 #, kde-format
 msgid "Copy video Link"
-msgstr ""
+msgstr "Копировать ссылку на видео"
 
 #: lib/contents/ui/WebView.qml:503
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgid "Open image"
-msgstr "Открыть в приложении"
+msgstr "Открыть изображение"
 
 #: lib/contents/ui/WebView.qml:503
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open image in new Tab"
-msgstr "Открыть в новой вкладке"
+msgstr "Открыть изображение в новой вкладке"
 
 #: lib/contents/ui/WebView.qml:515
-#, fuzzy, kde-format
-#| msgid "Leave page"
+#, kde-format
 msgid "Save image"
-msgstr "Покинуть страницу"
+msgstr "Сохранить изображение"
 
 #: lib/contents/ui/WebView.qml:521
-#, fuzzy, kde-format
-#| msgid "Load images"
+#, kde-format
 msgid "Copy image"
-msgstr "Загружать изображения"
+msgstr "Копировать изображение"
 
 #: lib/contents/ui/WebView.qml:527
 #, kde-format
 msgid "Copy image link"
-msgstr ""
+msgstr "Копировать ссылку на изображение"
 
 #: lib/contents/ui/WebView.qml:533
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgid "Open link"
-msgstr "Открыть в приложении"
+msgstr "Открыть ссылку"
 
 #: lib/contents/ui/WebView.qml:533
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open link in new Tab"
-msgstr "Открыть в новой вкладке"
+msgstr "Открыть ссылку в новой вкладке"
 
 #: lib/contents/ui/WebView.qml:545
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#, kde-format
 msgid "Bookmark link"
-msgstr "Добавить закладку"
+msgstr "Добавить ссылку в закладки"
 
 #: lib/contents/ui/WebView.qml:557
 #, kde-format
 msgid "Save link"
-msgstr ""
+msgstr "Сохранить ссылку"
 
 #: lib/contents/ui/WebView.qml:563
-#, fuzzy, kde-format
-#| msgid "Copy Url"
+#, kde-format
 msgid "Copy link"
-msgstr "Копировать URL-адрес"
+msgstr "Копировать ссылку"
 
 #: lib/contents/ui/WebView.qml:570
 #, kde-format
@@ -421,10 +406,9 @@ msgid "Share page"
 msgstr "Поделиться страницей"
 
 #: lib/contents/ui/WebView.qml:615
-#, fuzzy, kde-format
-#| msgid "View source"
+#, kde-format
 msgid "View page source"
-msgstr "Просмотреть исходный код"
+msgstr "Просмотреть исходный код страницы"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
 #, kde-format
@@ -454,10 +438,9 @@ msgid "No bookmarks yet"
 msgstr "Закладок ещё нет"
 
 #: src/contents/ui/desktop/desktop.qml:116
-#, fuzzy, kde-format
-#| msgid "Search history…"
+#, kde-format
 msgid "Search or enter URL…"
-msgstr "Поиск в журнале…"
+msgstr "Выполнить поиск или ввести URL-адрес…"
 
 #: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:354
 #: src/contents/ui/Tabs.qml:49
@@ -493,10 +476,9 @@ msgid "Full Screen"
 msgstr "Во весь экран"
 
 #: src/contents/ui/desktop/desktop.qml:291
-#, fuzzy, kde-format
-#| msgid "Show developer tools"
+#, kde-format
 msgid "Hide developer tools"
-msgstr "Показать инструменты для разработки"
+msgstr "Скрыть инструменты для разработки"
 
 #: src/contents/ui/desktop/desktop.qml:292 src/contents/ui/mobile.qml:376
 #, kde-format
@@ -559,6 +541,8 @@ msgstr "Показывать кнопку «Домой»:"
 #, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr ""
+"Кнопка «Домой» будет показана рядом с кнопкой обновления на панели "
+"инструментов"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:39
 #, kde-format
@@ -571,15 +555,15 @@ msgid "New tabs:"
 msgstr "Новые вкладки:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:83
-#, fuzzy, kde-format
-#| msgid "Always show the tab bar:"
+#, kde-format
 msgid "Always show the tab bar"
-msgstr "Всегда показывать панель вкладок:"
+msgstr "Всегда показывать панель вкладок"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:84
 #, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open"
 msgstr ""
+"Панель вкладок будет показана даже тогда, когда открыта всего одна вкладка."
 
 #: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:185
 #, kde-format
@@ -587,44 +571,39 @@ msgid "Reader Mode: %1"
 msgstr "Режим чтения: %1"
 
 #: src/contents/ui/desktop/Tabs.qml:250 src/contents/ui/Tabs.qml:216
-#, fuzzy, kde-format
-#| msgid "Close"
+#, kde-format
 msgid "Close tab"
-msgstr "Закрыть"
+msgstr "Закрыть вкладку"
 
 #: src/contents/ui/desktop/Tabs.qml:290
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open a new tab"
-msgstr "Открыть в новой вкладке"
+msgstr "Открыть новую вкладку"
 
 #: src/contents/ui/desktop/Tabs.qml:323
 #, kde-format
 msgid "List all tabs"
-msgstr ""
+msgstr "Показать все вкладки"
 
 #: src/contents/ui/desktop/Tabs.qml:363
 #, kde-format
 msgid "Reload Tab"
-msgstr ""
+msgstr "Обновить вкладку"
 
 #: src/contents/ui/desktop/Tabs.qml:371
-#, fuzzy, kde-format
-#| msgid "Private Tabs"
+#, kde-format
 msgid "Duplicate Tab"
-msgstr "Приватные вкладки"
+msgstr "Создать копию вкладки"
 
 #: src/contents/ui/desktop/Tabs.qml:379
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#, kde-format
 msgid "Bookmark Tab"
-msgstr "Добавить закладку"
+msgstr "Добавить вкладку в закладки"
 
 #: src/contents/ui/desktop/Tabs.qml:395
-#, fuzzy, kde-format
-#| msgid "Close"
+#, kde-format
 msgid "Close Tab"
-msgstr "Закрыть"
+msgstr "Закрыть вкладку"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -796,8 +775,7 @@ msgid "Remove this filter list"
 msgstr "Удалить этот список фильтров"
 
 #: src/contents/ui/SettingsAdblock.qml:154
-#, fuzzy, kde-format
-#| msgid "Add filterlist"
+#, kde-format
 msgid "add Filterlist"
 msgstr "Добавить список фильтров"
 
@@ -859,7 +837,7 @@ msgstr ""
 #: src/contents/ui/SettingsGeneral.qml:81
 #, kde-format
 msgid "Use Smooth Scrolling"
-msgstr ""
+msgstr "Использовать плавную прокрутку"
 
 #: src/contents/ui/SettingsGeneral.qml:82
 #, kde-format
@@ -867,11 +845,14 @@ msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
 "Requires app restart to take effect."
 msgstr ""
+"Прокрутка выполняется более плавно и не останавливается сразу же при "
+"прекращении соответствующего действия пользователем. Для применения "
+"необходимо перезапустить программу."
 
 #: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
 msgid "Use dark color scheme"
-msgstr ""
+msgstr "Использовать тёмную цветовую схему"
 
 #: src/contents/ui/SettingsGeneral.qml:92
 #, kde-format
@@ -879,6 +860,8 @@ msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
 "take effect."
 msgstr ""
+"Для веб-сайтов будут установлены тёмные цветовые схемы. Для применения "
+"необходимо перезапустить программу."
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format
@@ -972,7 +955,6 @@ msgid "URL to open"
 msgstr "Открываемый URL-адрес."
 
 #, fuzzy
-#~| msgid "Private mode"
 #~ msgid "Private Mode"
 #~ msgstr "Включить приватный режим"
 
@@ -995,7 +977,6 @@ msgstr "Открываемый URL-адрес."
 #~ msgstr "OK"
 
 #, fuzzy
-#~| msgid "Homepage"
 #~ msgid "Home"
 #~ msgstr "Домашняя страница"
 
