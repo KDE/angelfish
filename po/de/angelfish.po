@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-08 00:46+0000\n"
-"PO-Revision-Date: 2023-04-26 20:07+0200\n"
+"PO-Revision-Date: 2023-04-29 12:28+0200\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -597,10 +597,9 @@ msgid "Duplicate Tab"
 msgstr "Unterfenster duplizieren"
 
 #: src/contents/ui/desktop/Tabs.qml:379
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#, kde-format
 msgid "Bookmark Tab"
-msgstr "Lesezeichen"
+msgstr "Lesezeichen-Unterfenster"
 
 #: src/contents/ui/desktop/Tabs.qml:395
 #, kde-format
@@ -824,7 +823,7 @@ msgstr "Die Werbefilter-Funktionalität ist in diesem Build nicht enthalten"
 #: src/contents/ui/SettingsGeneral.qml:71
 #, kde-format
 msgid "Switch to new tab immediately"
-msgstr ""
+msgstr "Sofort zum neuen Unterfenster wechseln"
 
 #: src/contents/ui/SettingsGeneral.qml:72
 #, kde-format
