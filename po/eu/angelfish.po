@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-27 00:48+0000\n"
-"PO-Revision-Date: 2023-02-22 22:49+0100\n"
+"PO-Revision-Date: 2023-04-30 09:37+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.12.2\n"
+"X-Generator: Lokalize 23.04.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -202,43 +202,42 @@ msgstr "Uko egin"
 #: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:268
 #, kde-format
 msgid "Print"
-msgstr ""
+msgstr "Inprimatu"
 
 #: lib/contents/ui/PrintPreview.qml:67
 #, kde-format
 msgid "Destination"
-msgstr ""
+msgstr "Jomuga"
 
 #: lib/contents/ui/PrintPreview.qml:71
 #, kde-format
 msgid "Save to PDF"
-msgstr ""
+msgstr "Gorde PDF gisa"
 
 #: lib/contents/ui/PrintPreview.qml:77
 #, kde-format
 msgid "Orientation"
-msgstr ""
+msgstr "Orientazioa"
 
 #: lib/contents/ui/PrintPreview.qml:102
 #, kde-format
 msgid "Paper size"
-msgstr ""
+msgstr "Paperaren neurria"
 
 #: lib/contents/ui/PrintPreview.qml:148
 #, kde-format
 msgid "Options"
-msgstr ""
+msgstr "Aukerak"
 
 #: lib/contents/ui/PrintPreview.qml:152
 #, kde-format
 msgid "Print backgrounds"
-msgstr ""
+msgstr "Inprimatu atzeko planoak"
 
 #: lib/contents/ui/PrintPreview.qml:172
-#, fuzzy, kde-format
-#| msgid "Save link"
+#, kde-format
 msgid "Save"
-msgstr "Gorde esteka"
+msgstr "Gorde"
 
 #: lib/contents/ui/WebView.qml:243
 #, kde-format
@@ -837,7 +836,7 @@ msgstr ""
 #: src/contents/ui/SettingsGeneral.qml:81
 #, kde-format
 msgid "Use Smooth Scrolling"
-msgstr ""
+msgstr "Erabili kiribiltze leuna"
 
 #: src/contents/ui/SettingsGeneral.qml:82
 #, kde-format
@@ -845,11 +844,13 @@ msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
 "Requires app restart to take effect."
 msgstr ""
+"Kiribiltzea leunagoa da eta kiribiltzeari uzten diozunean ez da bat-batean "
+"geldituko. Indarrean sartzeko aplikazioa berrabiarazi beharra dago."
 
 #: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
 msgid "Use dark color scheme"
-msgstr ""
+msgstr "Erabili kolore-antolaera iluna"
 
 #: src/contents/ui/SettingsGeneral.qml:92
 #, kde-format
@@ -857,6 +858,8 @@ msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
 "take effect."
 msgstr ""
+"Webguneen kolore-antolaera iluna ezarriko da. Indarrean sartzeko aplikazioa "
+"berrabiarazi beharra dago."
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format
