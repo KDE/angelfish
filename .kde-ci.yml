@@ -15,6 +15,7 @@ Dependencies:
     'frameworks/purpose': '@stable'
     'frameworks/qqc2-desktop-style': '@stable'
     'libraries/kirigami-addons': '@latest'
+    'libraries/futuresql': '@latest'
 
 - 'on': ['Linux/Qt6']
   'require':
@@ -29,6 +30,7 @@ Dependencies:
     'frameworks/purpose': '@latest-kf6'
     'frameworks/qqc2-desktop-style': '@latest-kf6'
     'libraries/kirigami-addons': '@latest-kf6'
+    'libraries/futuresql': '@latest-kf6'
 
 Options:
   require-passing-tests-on: [ 'Linux' ]

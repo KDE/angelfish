@@ -12,5 +12,6 @@
         <file alias="select_overrides.js">contents/ui/select_overrides.js</file>
         <file alias="Questions.qml">contents/ui/Questions.qml</file>
         <file alias="PrintPreview.qml">contents/ui/PrintPreview.qml</file>
+        <file>contents/migrations/2022-08-14-223019_init/up.sql</file>
     </qresource>
 </RCC>

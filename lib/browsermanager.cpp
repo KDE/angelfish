@@ -8,6 +8,9 @@
 #include <QSettings>
 #include <QStandardPaths>
 #include <QUrl>
+#include <QQmlEngine>
+
+#include <QCoro/QCoroTask>
 
 #include "angelfishsettings.h"
 
@@ -30,11 +33,6 @@ void BrowserManager::addBookmark(const QVariantMap &bookmarkdata)
 void BrowserManager::removeBookmark(const QString &url)
 {
     m_dbmanager->removeBookmark(url);
-}
-
-bool BrowserManager::isBookmarked(const QString &url) const
-{
-    return m_dbmanager->isBookmarked(url);
 }
 
 void BrowserManager::addToHistory(const QVariantMap &pagedata)
@@ -61,7 +59,9 @@ void BrowserManager::updateLastVisited(const QString &url)
 
 void BrowserManager::updateIcon(const QString &url, const QString &iconSource)
 {
-    m_dbmanager->updateIcon(url, iconSource);
+    auto *engine = qmlEngine(this);
+    Q_ASSERT(engine);
+    m_dbmanager->updateIcon(engine, url, iconSource);
 }
 
 QUrl BrowserManager::initialUrl() const

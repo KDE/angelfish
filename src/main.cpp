@@ -136,7 +136,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
 
-    engine.addImageProvider(IconImageProvider::providerId(), new IconImageProvider(&engine));
+    engine.addImageProvider(IconImageProvider::providerId(), new IconImageProvider());
 
     // initial url command line parameter
     if (!parser.positionalArguments().isEmpty()) {

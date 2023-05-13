@@ -7,6 +7,8 @@
 
 #include <QObject>
 
+#include <QCoro/QCoroTask>
+
 class UrlObserver : public QObject
 {
     Q_PROPERTY(QString url READ url WRITE setUrl NOTIFY urlChanged)
@@ -27,7 +29,7 @@ Q_SIGNALS:
 
 private:
     void onDatabaseTableChanged(const QString &table);
-    void updateBookmarked();
+    QCoro::Task<> updateBookmarked();
 
 private:
     QString m_url;

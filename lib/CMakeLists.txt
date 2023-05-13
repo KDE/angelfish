@@ -3,7 +3,6 @@ add_library(AngelfishCore STATIC
     bookmarkshistorymodel.cpp
     dbmanager.cpp
     iconimageprovider.cpp
-    sqlquerymodel.cpp
     urlutils.cpp
     urlobserver.cpp
     useragent.cpp
@@ -26,6 +25,9 @@ target_link_libraries(AngelfishCore PUBLIC
     KF${QT_MAJOR_VERSION}::ConfigGui
     KF${QT_MAJOR_VERSION}::I18n
     KF${QT_MAJOR_VERSION}::Notifications
+    FutureSQL${QT_MAJOR_VERSION}::FutureSQL
+    QCoro${QT_MAJOR_VERSION}::Core
+    QCoro${QT_MAJOR_VERSION}::Quick
 )
 
 if(QT_MAJOR_VERSION STREQUAL "6")

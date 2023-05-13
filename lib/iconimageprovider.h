@@ -7,24 +7,23 @@
 #define ICONIMAGEPROVIDER_H
 
 #include <QQuickImageProvider>
+#include <QQuickAsyncImageProvider>
 
-class QQmlApplicationEngine;
+#include <QCoro/QCoroTask>
+#include <QCoro/QCoroImageProvider>
 
-class IconImageProvider : public QQuickImageProvider
+class IconImageProvider : public QCoro::ImageProvider
 {
 public:
-    IconImageProvider(QQmlApplicationEngine *engine);
+    IconImageProvider();
 
-    virtual QImage requestImage(const QString &id, QSize *size, const QSize &requestedSize) override;
-
-    // store image into the database if it is missing. Return new
-    // image:// uri that should be used to fetch the icon
-    static QString storeImage(const QString &iconSource);
+    QCoro::Task<QImage> asyncRequestImage(const QString &id, const QSize &) override;
 
     static QString providerId();
-
-private:
-    static QQmlApplicationEngine *s_engine;
 };
+
+// store image into the database if it is missing. Return new
+// image:// uri that should be used to fetch the icon
+QCoro::Task<QString> storeIcon(QQmlEngine *engine, const QString &iconSource);
 
 #endif // ICONIMAGEPROVIDER_H

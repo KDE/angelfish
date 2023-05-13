@@ -90,7 +90,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QQmlApplicationEngine engine;
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
 
-    engine.addImageProvider(IconImageProvider::providerId(), new IconImageProvider(&engine));
+    engine.addImageProvider(IconImageProvider::providerId(), new IconImageProvider());
 
     if (parser.positionalArguments().isEmpty()) {
         return 1;

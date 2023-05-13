@@ -193,6 +193,7 @@ Kirigami.ApplicationWindow {
                             model: BookmarksHistoryModel {
                                 history: true
                                 bookmarks: false
+                                active: navigationPopup.opened
                             }
                             delegate: Kirigami.BasicListItem {
                                 label: model.title

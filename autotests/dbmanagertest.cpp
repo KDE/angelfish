@@ -11,7 +11,6 @@
 #include <QSqlQuery>
 
 #include "dbmanager.h"
-#include "sqlquerymodel.h"
 
 class DbManagerTest : public QObject
 {
@@ -31,64 +30,56 @@ private Q_SLOTS:
     void testAddBookmark()
     {
         QSignalSpy spy(m_dbmanager, &DBManager::databaseTableChanged);
-        m_dbmanager->addBookmark({
+        auto future = m_dbmanager->addBookmark({
             {QStringLiteral("url"), QStringLiteral("https://kde.org")},
             {QStringLiteral("title"), QStringLiteral("KDE")},
             {QStringLiteral("icon"), QStringLiteral("TESTDATA")}
         });
 
+        QCoro::waitFor(future);
         QCOMPARE(spy.count(), 1);
     }
 
     void testAddToHistory()
     {
         QSignalSpy spy(m_dbmanager, &DBManager::databaseTableChanged);
-        m_dbmanager->addToHistory({
+        auto future = m_dbmanager->addToHistory({
             {QStringLiteral("url"), QStringLiteral("https://kde.org")},
             {QStringLiteral("title"), QStringLiteral("KDE")},
             {QStringLiteral("icon"), QStringLiteral("TESTDATA")}});
 
+        QCoro::waitFor(future);
         QCOMPARE(spy.count(), 1);
     }
 
     void testLastVisited()
     {
         QSignalSpy spy(m_dbmanager, &DBManager::databaseTableChanged);
-        m_dbmanager->updateLastVisited(QStringLiteral("https://kde.org"));
+        auto future = m_dbmanager->updateLastVisited(QStringLiteral("https://kde.org"));
 
         // Will be updated in both tables
+        QCoro::waitFor(future);
         QCOMPARE(spy.count(), 2);
     }
 
     void testRemoveBookmark()
     {
         QSignalSpy spy(m_dbmanager, &DBManager::databaseTableChanged);
-        m_dbmanager->removeBookmark(QStringLiteral("https://kde.org"));
+        auto future = m_dbmanager->removeBookmark(QStringLiteral("https://kde.org"));
 
+        QCoro::waitFor(future);
         QCOMPARE(spy.count(), 1);
     }
 
     void testRemoveFromHistory()
     {
         QSignalSpy spy(m_dbmanager, &DBManager::databaseTableChanged);
-        m_dbmanager->removeBookmark(QStringLiteral("https://kde.org"));
+        auto future = m_dbmanager->removeBookmark(QStringLiteral("https://kde.org"));
 
+        QCoro::waitFor(future);
         QCOMPARE(spy.count(), 1);
     }
 
-    void testSqlQueryModelRoleNames()
-    {
-        auto model = new SqlQueryModel();
-        model->setQuery(QSqlQuery(QStringLiteral("SELECT * FROM history")));
-
-        QHash<int, QByteArray> expectedRoleNames = {
-            { Qt::UserRole + 1, "url"},
-            { Qt::UserRole + 2, "title"},
-            { Qt::UserRole + 3, "icon"},
-            { Qt::UserRole + 4, "lastVisited"}
-        };
-        QCOMPARE(model->roleNames(), expectedRoleNames);
-    }
 private:
     DBManager *m_dbmanager;
 };

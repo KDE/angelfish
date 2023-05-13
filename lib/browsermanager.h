@@ -30,7 +30,7 @@ public:
     QUrl initialUrl() const;
     void setInitialUrl(const QUrl &initialUrl);
 
-    bool isBookmarked(const QString &url) const;
+    QCoro::Task<bool> isBookmarked(const QString &url) const;
 
     inline DBManager *databaseManager() {
         return m_dbmanager;

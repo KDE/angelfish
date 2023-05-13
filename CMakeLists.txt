@@ -15,6 +15,7 @@ project(angelfish VERSION ${RELEASE_SERVICE_VERSION})
 
 set(KF_MIN_VERSION "5.95.0")
 set(QT_MIN_VERSION "5.15.0")
+set(QCORO_MIN_VERSION "0.7.0")
 
 
 set(CMAKE_CXX_STANDARD 20)
@@ -68,6 +69,9 @@ else()
     find_package(Qt${QT_MAJOR_VERSION}WebEngine REQUIRED)
 endif()
 
+find_package(FutureSQL${QT_MAJOR_VERSION} REQUIRED)
+find_package(QCoro${QT_MAJOR_VERSION} ${QCORO_MIN_VERSION} REQUIRED COMPONENTS Core Quick)
+
 # For adblocker
 find_package(Corrosion)
 set_package_properties(Corrosion PROPERTIES
@@ -81,6 +85,7 @@ set_package_properties(Corrosion PROPERTIES
 
 add_definitions(-DQT_NO_FOREACH -DQT_NO_URL_CAST_FROM_STRING)
 kde_enable_exceptions()
+qcoro_enable_coroutines()
 
 if (NOT Qt${QT_MAJOR_VERSION}Feedback_FOUND)
     message(WARNING "Qt Feedback dependency is not found.\n"

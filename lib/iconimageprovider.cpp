@@ -7,25 +7,19 @@
 
 #include <QBuffer>
 #include <QByteArray>
-#include <QDebug>
 #include <QImage>
 #include <QPixmap>
 #include <QQmlApplicationEngine>
-#include <QSqlError>
-#include <QSqlQuery>
 #include <QString>
+
+#include <QCoro/QCoroFuture>
+#include <QCoro/QCoroTask>
 
 #include "browsermanager.h"
 
-// As there is only one instance of the IconImageProvider
-// and icons are added into the database using static methods,
-// engine has to be accessed via static property
-QQmlApplicationEngine *IconImageProvider::s_engine;
-
-IconImageProvider::IconImageProvider(QQmlApplicationEngine *engine)
-    : QQuickImageProvider(QQmlImageProviderBase::Image)
+IconImageProvider::IconImageProvider()
+    : QCoro::ImageProvider()
 {
-    s_engine = engine;
 }
 
 QString IconImageProvider::providerId()
@@ -33,45 +27,56 @@ QString IconImageProvider::providerId()
     return QStringLiteral("angelfish-favicon");
 }
 
-QString IconImageProvider::storeImage(const QString &iconSource)
+QCoro::Task<QImage> IconImageProvider::asyncRequestImage(const QString &id, const QSize & /*requestedSize*/)
+{
+    auto url = QStringLiteral("image://%1/%2%").arg(providerId(), id);
+    auto icon = co_await BrowserManager::instance()
+            ->databaseManager()
+            ->database()
+            ->getResult<SingleValue<QByteArray>>(QStringLiteral("SELECT icon FROM icons WHERE url LIKE ? LIMIT 1"), url);
+
+    if (icon) {
+        co_return QImage::fromData(icon->value);
+    }
+
+    qWarning() << "Failed to find icon for" << id;
+    co_return {};
+}
+
+QCoro::Task<QString> storeIcon(QQmlEngine *engine, const QString &iconSource)
 {
     if (iconSource.isEmpty()) {
-        return {};
+        co_return {};
     }
 
     const QLatin1String prefix_favicon = QLatin1String("image://favicon/");
     if (!iconSource.startsWith(prefix_favicon)) {
         // don't know what to do with it, return as it is
         qWarning() << Q_FUNC_INFO << "Don't know how to store image" << iconSource;
-        return iconSource;
+        co_return iconSource;
     }
 
     // new uri for image
-    QString url = QStringLiteral("image://%1/%2").arg(providerId(), iconSource.mid(prefix_favicon.size()));
+    QString url = QStringLiteral("image://%1/%2").arg(IconImageProvider::providerId(), iconSource.mid(prefix_favicon.size()));
 
     // check if we have that image already
-    QSqlQuery query_check(BrowserManager::instance()->databaseManager()->database());
-    query_check.prepare(QStringLiteral("SELECT 1 FROM icons WHERE url = :url LIMIT 1"));
-    query_check.bindValue(QStringLiteral(":url"), url);
-    if (!query_check.exec()) {
-        qWarning() << Q_FUNC_INFO << "Failed to execute SQL statement";
-        qWarning() << query_check.lastQuery();
-        qWarning() << query_check.lastError();
-        return iconSource; // as something is wrong
-    }
+    bool alreadyExists = (co_await BrowserManager::instance()
+            ->databaseManager()
+            ->database()
+            ->getResult<SingleValue<bool>>(
+                QStringLiteral("SELECT COUNT(url) > 0 FROM icons WHERE url = ? LIMIT 1"), url))
+            .value()
+            .value;
 
-    if (query_check.next()) {
-        // there is corresponding record in the database already
-        // no need to store it again
-        return url;
+    if (alreadyExists) {
+        co_return url;
     }
-    query_check.finish();
 
     // Store new icon
-    QQuickImageProvider *provider = dynamic_cast<QQuickImageProvider *>(s_engine->imageProvider(QStringLiteral("favicon")));
+    QQuickImageProvider *provider = dynamic_cast<QQuickImageProvider *>(engine->imageProvider(QStringLiteral("favicon")));
     if (!provider) {
         qWarning() << Q_FUNC_INFO << "Failed to load image provider" << url;
-        return iconSource; // as something is wrong
+        co_return iconSource; // as something is wrong
     }
 
     QByteArray data;
@@ -85,7 +90,7 @@ QString IconImageProvider::storeImage(const QString &iconSource)
         const QImage image = provider->requestImage(providerIconName, nullptr, szRequested);
         if (!image.save(&buffer, "PNG")) {
             qWarning() << Q_FUNC_INFO << "Failed to save image" << url;
-            return iconSource; // as something is wrong
+            co_return iconSource; // as something is wrong
         }
         break;
     }
@@ -93,50 +98,19 @@ QString IconImageProvider::storeImage(const QString &iconSource)
         const QPixmap image = provider->requestPixmap(providerIconName, nullptr, szRequested);
         if (!image.save(&buffer, "PNG")) {
             qWarning() << Q_FUNC_INFO << "Failed to save pixmap" << url;
-            return iconSource; // as something is wrong
+            co_return iconSource; // as something is wrong
         }
         break;
     }
     default:
         qWarning() << Q_FUNC_INFO << "Unsupported image provider" << provider->imageType();
-        return iconSource; // as something is wrong
+        co_return iconSource; // as something is wrong
     }
 
-    QSqlQuery query_write(BrowserManager::instance()->databaseManager()->database());
-    query_write.prepare(QStringLiteral("INSERT INTO icons(url, icon) VALUES (:url, :icon)"));
-    query_write.bindValue(QStringLiteral(":url"), url);
-    query_write.bindValue(QStringLiteral(":icon"), data);
-    if (!query_write.exec()) {
-        qWarning() << Q_FUNC_INFO << "Failed to execute SQL statement";
-        qWarning() << query_write.lastQuery();
-        qWarning() << query_write.lastError();
-        return iconSource; // as something is wrong
-    }
+    co_await BrowserManager::instance()
+            ->databaseManager()
+            ->database()
+            ->execute(QStringLiteral("INSERT INTO icons(url, icon) VALUES (?, ?)"), url, data);
 
-    return url;
-}
-
-QImage IconImageProvider::requestImage(const QString &id, QSize *size, const QSize & /*requestedSize*/)
-{
-    QSqlQuery query(BrowserManager::instance()->databaseManager()->database());
-    query.prepare(QStringLiteral("SELECT icon FROM icons WHERE url LIKE :url LIMIT 1"));
-    query.bindValue(QStringLiteral(":url"), QStringLiteral("image://%1/%2%").arg(providerId(), id));
-    if (!query.exec()) {
-        qWarning() << Q_FUNC_INFO << "Failed to execute SQL statement";
-        qWarning() << query.lastQuery();
-        qWarning() << query.lastError();
-        return {};
-    }
-
-    if (query.next()) {
-        const QImage image = QImage::fromData(query.value(0).toByteArray());
-        if (size) {
-            size->setHeight(image.height());
-            size->setWidth(image.width());
-        }
-        return image;
-    }
-
-    qWarning() << "Failed to find icon for" << id;
-    return {};
+    co_return url;
 }

@@ -127,7 +127,6 @@ Controls.Drawer {
             model: BookmarksHistoryModel {
                 id: urlFilter
                 active: openedState
-                bookmarks: true
                 history: true
             }
         }

@@ -36,9 +36,9 @@ void UrlObserver::onDatabaseTableChanged(const QString &table)
     updateBookmarked();
 }
 
-void UrlObserver::updateBookmarked()
+QCoro::Task<> UrlObserver::updateBookmarked()
 {
-    if (const bool isBookmarked = BrowserManager::instance()->isBookmarked(m_url); isBookmarked != m_bookmarked) {
+    if (const bool isBookmarked = co_await BrowserManager::instance()->databaseManager()->isBookmarked(m_url); isBookmarked != m_bookmarked) {
         m_bookmarked = isBookmarked;
         Q_EMIT bookmarkedChanged(m_bookmarked);
     }

@@ -6,13 +6,25 @@
 #ifndef BOOKMARKSHISTORYMODEL_H
 #define BOOKMARKSHISTORYMODEL_H
 
-#include "sqlquerymodel.h"
+#include <QAbstractListModel>
+
+struct BookmarksHistoryRecord {
+    using ColumnTypes = std::tuple<int, QString, QString, QString, int>;
+
+    bool operator==(const BookmarksHistoryRecord &other) const = default;
+
+    int id;
+    QString url;
+    QString title;
+    QString icon;
+    int lastVisitedDelta;
+};
 
 /**
  * @class BookmarksHistoryModel
  * @short Model for listing Bookmarks and History items.
  */
-class BookmarksHistoryModel : public SqlQueryModel
+class BookmarksHistoryModel : public QAbstractListModel
 {
     Q_OBJECT
 
@@ -27,8 +39,24 @@ class BookmarksHistoryModel : public SqlQueryModel
     // bookmarks are shown
     Q_PROPERTY(QString filter READ filter WRITE setFilter NOTIFY filterChanged)
 
+    enum Role {
+        Id = Qt::UserRole + 1,
+        Url,
+        Title,
+        Icon,
+        LastVisitedDelta
+    };
+
 public:
     BookmarksHistoryModel(QObject *parent = nullptr);
+
+    int rowCount(const QModelIndex &index) const override {
+        return index.isValid() ? 0 : m_entries.size();
+    }
+
+    QHash<int, QByteArray> roleNames() const override;
+
+    QVariant data(const QModelIndex &index, int role) const override;
 
     bool active() const
     {
@@ -63,13 +91,16 @@ Q_SIGNALS:
 private:
     void onDatabaseChanged(const QString &table);
 
-    void setQuery();
+    void fetchData();
+    void clear();
 
 private:
     bool m_active = true;
     bool m_bookmarks = false;
     bool m_history = false;
     QString m_filter;
+
+    std::vector<BookmarksHistoryRecord> m_entries;
 };
 
 #endif // BOOKMARKSHISTORYMODEL_H
