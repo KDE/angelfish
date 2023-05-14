@@ -4,3 +4,6 @@ updates:
     directory: /src/rs/adblock/
     schedule:
       interval: daily
+    pull-request-branch-name:
+      prefix: work/dependabot
+      separator: '/'
