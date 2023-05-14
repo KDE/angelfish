@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-03-27 00:48+0000\n"
+"POT-Creation-Date: 2023-05-14 00:47+0000\n"
 "PO-Revision-Date: 2023-03-08 15:41+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -200,7 +200,7 @@ msgstr "Accepta"
 msgid "Decline"
 msgstr "Declina"
 
-#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:268
+#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:269
 #, kde-format
 msgid "Print"
 msgstr "Imprimix"
@@ -400,7 +400,7 @@ msgstr "Retalla"
 msgid "Paste"
 msgstr "Apega"
 
-#: lib/contents/ui/WebView.qml:603 src/contents/ui/desktop/desktop.qml:317
+#: lib/contents/ui/WebView.qml:603 src/contents/ui/desktop/desktop.qml:318
 #: src/contents/ui/mobile.qml:280
 #, kde-format
 msgid "Share page"
@@ -424,7 +424,7 @@ msgstr ""
 msgid "Downloading..."
 msgstr "S'està baixant..."
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:247
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:248
 #: src/contents/ui/mobile.qml:79
 #, kde-format
 msgid "Bookmarks"
@@ -445,71 +445,71 @@ msgstr "Encara no hi ha cap adreça d'interés"
 msgid "Search or enter URL…"
 msgstr "Busca o introduïu un URL…"
 
-#: src/contents/ui/desktop/desktop.qml:222 src/contents/ui/desktop/Tabs.qml:354
+#: src/contents/ui/desktop/desktop.qml:223 src/contents/ui/desktop/Tabs.qml:354
 #: src/contents/ui/Tabs.qml:49
 #, kde-format
 msgid "New Tab"
 msgstr "Pestanya nova"
 
-#: src/contents/ui/desktop/desktop.qml:229 src/contents/ui/mobile.qml:71
+#: src/contents/ui/desktop/desktop.qml:230 src/contents/ui/mobile.qml:71
 #, kde-format
 msgid "Leave private mode"
 msgstr "Ix del mode privat"
 
-#: src/contents/ui/desktop/desktop.qml:229 src/contents/ui/mobile.qml:71
+#: src/contents/ui/desktop/desktop.qml:230 src/contents/ui/mobile.qml:71
 #, kde-format
 msgid "Private mode"
 msgstr "Mode privat"
 
-#: src/contents/ui/desktop/desktop.qml:238 src/contents/ui/History.qml:12
+#: src/contents/ui/desktop/desktop.qml:239 src/contents/ui/History.qml:12
 #: src/contents/ui/mobile.qml:87
 #, kde-format
 msgid "History"
 msgstr "Historial"
 
-#: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:257 src/contents/ui/Downloads.qml:15
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
 msgstr "Baixades"
 
-#: src/contents/ui/desktop/desktop.qml:274
+#: src/contents/ui/desktop/desktop.qml:275
 #, kde-format
 msgid "Full Screen"
 msgstr "Pantalla completa"
 
-#: src/contents/ui/desktop/desktop.qml:291
+#: src/contents/ui/desktop/desktop.qml:292
 #, kde-format
 msgid "Hide developer tools"
 msgstr "Oculta les eines de desenvolupament"
 
-#: src/contents/ui/desktop/desktop.qml:292 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:293 src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Show developer tools"
 msgstr "Mostra les eines del desenvolupador"
 
-#: src/contents/ui/desktop/desktop.qml:301 src/contents/ui/mobile.qml:276
+#: src/contents/ui/desktop/desktop.qml:302 src/contents/ui/mobile.qml:276
 #, kde-format
 msgid "Find in page"
 msgstr "Busca en la pàgina"
 
-#: src/contents/ui/desktop/desktop.qml:310
+#: src/contents/ui/desktop/desktop.qml:311
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Mode lector"
 
-#: src/contents/ui/desktop/desktop.qml:327
+#: src/contents/ui/desktop/desktop.qml:328
 #, kde-format
 msgid "Add to application launcher"
 msgstr "Afig a l'iniciador d'aplicacions"
 
-#: src/contents/ui/desktop/desktop.qml:346 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:347 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "Configuració"
 
-#: src/contents/ui/desktop/desktop.qml:353
+#: src/contents/ui/desktop/desktop.qml:354
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "Configura Angelfish"
