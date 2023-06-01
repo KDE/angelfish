@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-05-14 00:47+0000\n"
-"PO-Revision-Date: 2023-04-05 10:47-0300\n"
+"PO-Revision-Date: 2023-05-31 13:50-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -542,6 +542,8 @@ msgstr "Mostrar botão início:"
 #, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr ""
+"O botão início será mostrado próximo do botão de recarregar na barra de "
+"ferramentas."
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:39
 #, kde-format
@@ -561,7 +563,7 @@ msgstr "Sempre mostrar a aba de barras"
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:84
 #, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open"
-msgstr ""
+msgstr "A barra de abas será mostrada mesmo que exista apenas uma aba aberta"
 
 #: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:185
 #, kde-format
@@ -840,6 +842,8 @@ msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
 "Requires app restart to take effect."
 msgstr ""
+"A rolagem é mais suave e não para repentinamente quando você para de rolar. "
+"Requer a reinicialização do aplicativo para entrar em vigor."
 
 #: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
@@ -852,6 +856,8 @@ msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
 "take effect."
 msgstr ""
+"Os sites terão seus esquemas de cores definidos para escuro. Requer a "
+"reinicialização do aplicativo para entrar em vigor."
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format
