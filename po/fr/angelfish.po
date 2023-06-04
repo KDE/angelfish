@@ -7,7 +7,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-03-08 00:46+0000\n"
 "PO-Revision-Date: 2023-03-08 17:55+0100\n"
-"Last-Translator: Xavier BESNARD <xavier.besnard]neuf.fr>\n"
+"Last-Translator: Xavier BESNARD <xavier.besnard@neuf.fr>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -12023,7 +12023,7 @@ msgstr "Activer JavaScript"
 #, kde-format
 msgid "This may be required on certain websites for them to work."
 msgstr ""
-"Cela peut être nécessaire sur certains sites Internet pour qu’ils "
+"Cela peut être nécessaire sur certains sites Internet pour qu'ils "
 "fonctionnent."
 
 #: src/contents/ui/SettingsGeneral.qml:50
@@ -12044,7 +12044,7 @@ msgstr "Activer le bloqueur de publicités"
 #: src/contents/ui/SettingsGeneral.qml:61
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
-msgstr "Tente d’empêcher l'apparition de publicités sur les sites Internet."
+msgstr "Tente d'empêcher l'apparition de publicités sur les sites Internet."
 
 #: src/contents/ui/SettingsGeneral.qml:61
 #, kde-format
@@ -12093,7 +12093,7 @@ msgid ""
 "take effect."
 msgstr ""
 "Les sites Internet auront leurs thèmes sombres de couleurs. Ceci nécessite "
-"un redémarrage de l’application pour que les modifications prennent effet."
+"un redémarrage de l'application pour que les modifications prennent effet."
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format
