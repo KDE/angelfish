@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-05-14 00:47+0000\n"
-"PO-Revision-Date: 2023-05-27 23:19+0300\n"
+"PO-Revision-Date: 2023-06-11 21:35+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 23.07.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -36,12 +36,12 @@ msgstr "açılacak masaüstü dosyası"
 #: angelfish-webapp/main.cpp:112
 #, kde-format
 msgid "Angelfish Web App runtime"
-msgstr "Angelfish Web Uygulaması çalışma zamanı"
+msgstr "Melekbalığı Web Uygulaması çalışma zamanı"
 
 #: angelfish-webapp/main.cpp:114
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
-msgstr "Telif Hakkı 2020 Angelfish geliştiricileri"
+msgstr "Telif Hakkı 2020 Melekbalığı geliştiricileri"
 
 #: angelfish-webapp/main.cpp:116
 #, kde-format
@@ -510,7 +510,7 @@ msgstr "Ayarlar"
 #: src/contents/ui/desktop/desktop.qml:354
 #, kde-format
 msgid "Configure Angelfish"
-msgstr "Angelfish Uygulamasını Yapılandır"
+msgstr "Melekbalığı Uygulamasını Yapılandır"
 
 #: src/contents/ui/desktop/HistoryPage.qml:28
 #, kde-format
@@ -650,7 +650,7 @@ msgstr "Ara..."
 #: src/contents/ui/mobile.qml:18
 #, kde-format
 msgid "Angelfish Web Browser"
-msgstr "Angelfish Web Tarayıcı"
+msgstr "Melekbalığı Web Tarayıcısı"
 
 #: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:42
 #, kde-format
