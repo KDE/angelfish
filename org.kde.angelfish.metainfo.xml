@@ -13,6 +13,7 @@
   <name xml:lang="eu">Angelfish web-arakatzailea</name>
   <name xml:lang="fi">Angelfish-verkkoselain</name>
   <name xml:lang="fr">Navigateur Internet Angelfish</name>
+  <name xml:lang="gl">Navegador web Angelfish</name>
   <name xml:lang="hu">Angelfish webböngésző</name>
   <name xml:lang="ia">Angelfish Webbrowser (navigator web)</name>
   <name xml:lang="id">Browser Web Angelfish</name>
@@ -49,7 +50,7 @@
   <summary xml:lang="eu">Gailu mugikorretarako web-arakatzailea</summary>
   <summary xml:lang="fi">Verkkoselain mobiililaitteille</summary>
   <summary xml:lang="fr">Navigateur web pour les appareils mobiles</summary>
-  <summary xml:lang="gl">Navegador web para dispositivos móbiles</summary>
+  <summary xml:lang="gl">Navegador web para dispositivos móbiles.</summary>
   <summary xml:lang="hu">Webböngésző mobileszközökre</summary>
   <summary xml:lang="ia">Webbrowser (Navigator de web) per dispositivos mobile</summary>
   <summary xml:lang="id">Webbrowser untuk peranti ponsel</summary>
@@ -127,7 +128,7 @@
     <p xml:lang="eu">Angelfish web-arakatzaile mugikor moderno bat da</p>
     <p xml:lang="fi">Angelfish on nykyaikainen mobiiliverkkoselain</p>
     <p xml:lang="fr">Angelfish est un navigateur web mobile moderne</p>
-    <p xml:lang="gl">Angelfish é un navegador web móbil moderno</p>
+    <p xml:lang="gl">Angelfish é un navegador web móbil moderno.</p>
     <p xml:lang="hu">Az Angelfish egy modern mobilos webböngésző</p>
     <p xml:lang="ia">Angelfish es un moderne Webbrowser (navigator web) de mobile</p>
     <p xml:lang="id">Angelfish adalah sebuah webbrowser ponsel yang modern</p>
@@ -164,7 +165,7 @@
     <p xml:lang="eu">Arakatzaileen ohiko ezaugarriak ditu, besteak beste</p>
     <p xml:lang="fi">Tukee tavallisia selainominaisuuksia kuten</p>
     <p xml:lang="fr">Il prend en charge les fonctionnalités classiques des navigateurs :</p>
-    <p xml:lang="gl">Goza das funcionalidades habituais dos navegadores, como</p>
+    <p xml:lang="gl">Goza das funcionalidades habituais dos navegadores, como:</p>
     <p xml:lang="hu">Támogatja a megszokott szolgáltatásokat, úgy mint</p>
     <p xml:lang="ia">Il supporta typic characteristicas de navigator, tal como</p>
     <p xml:lang="id">Ini mendukung fitur-fitur browser biasanya, sepertihalnya</p>
@@ -317,7 +318,7 @@
       <caption xml:lang="eu">Orri nagusia</caption>
       <caption xml:lang="fi">Kotisivu</caption>
       <caption xml:lang="fr">Page d'accueil</caption>
-      <caption xml:lang="gl">Páxina inicial</caption>
+      <caption xml:lang="gl">Páxina inicial.</caption>
       <caption xml:lang="hu">Kezdőlap</caption>
       <caption xml:lang="ia">Pagina Domo o Principal</caption>
       <caption xml:lang="id">Laman</caption>
@@ -357,7 +358,7 @@
       <caption xml:lang="eu">Menu-ekintzak</caption>
       <caption xml:lang="fi">Valikkotoimenpiteet</caption>
       <caption xml:lang="fr">Actions de menu</caption>
-      <caption xml:lang="gl">Accións de menú</caption>
+      <caption xml:lang="gl">Accións de menú.</caption>
       <caption xml:lang="hu">Menüműveletek</caption>
       <caption xml:lang="ia">Actiones de menu</caption>
       <caption xml:lang="id">Aksi Menu</caption>
@@ -395,6 +396,7 @@
       <caption xml:lang="eu">Fitxa-ikuspegia</caption>
       <caption xml:lang="fi">Välilehtinäkymä</caption>
       <caption xml:lang="fr">Vue par onglets</caption>
+      <caption xml:lang="gl">Vista de separadores.</caption>
       <caption xml:lang="hu">Lapnézet</caption>
       <caption xml:lang="ia">Vista de Schedas</caption>
       <caption xml:lang="id">Tampilan Tab</caption>
@@ -431,6 +433,7 @@
       <caption xml:lang="eu">Mahaigaineko erabiltzailearen interfazea</caption>
       <caption xml:lang="fi">Työpöytäkäyttöliittymä</caption>
       <caption xml:lang="fr">Interface utilisateur de bureau</caption>
+      <caption xml:lang="gl">Interface de usuario de escritorio.</caption>
       <caption xml:lang="hu">Asztali felhasználói felület</caption>
       <caption xml:lang="ia">Interfacie de usator de scriptorio</caption>
       <caption xml:lang="id">Antarmuka Pengguna Desktop</caption>
