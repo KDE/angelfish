@@ -716,7 +716,7 @@ msgstr "Marcadores"
 #: src/contents/ui/mobile.qml:350
 #, kde-format
 msgid "Show desktop site"
-msgstr "Mostrar o sitio de escritorio"
+msgstr "Amosar o sitio de escritorio"
 
 #: src/contents/ui/mobile.qml:359
 #, kde-format
@@ -731,7 +731,7 @@ msgstr "Agochar a barra de navegación"
 #: src/contents/ui/mobile.qml:367
 #, kde-format
 msgid "Show navigation bar"
-msgstr "Mostrar a barra de navegación"
+msgstr "Amosar a barra de navegación"
 
 #: src/contents/ui/NewTabQuestion.qml:11
 #, kde-format
