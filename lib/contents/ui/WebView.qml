@@ -225,13 +225,6 @@ classes
         print("Settings: " + webEngineView.settings);
     }
 
-    userScripts: WebEngineScript { // selection dropdown script
-        runOnSubframes: true
-        sourceUrl: Qt.resolvedUrl("select_overrides.js")
-        injectionPoint: WebEngineScript.DocumentReady
-        worldId: WebEngineScript.MainWorld
-    }
-
     onIconChanged: {
         if (icon && !privateMode)
             BrowserManager.updateIcon(url, icon)
@@ -293,20 +286,9 @@ classes
 
     onJavaScriptDialogRequested: {
         request.accepted = true;
-        if (request.type === JavaScriptDialogRequest.DialogTypePrompt && request.message ==='XX-ANGELFISH-SELECT-OVERRIDE-XX') {
-            // dropdown dialog
-            sheetLoader.setSource("SelectDropdownOverrideDialog.qml");
-            sheetLoader.item.options = request.defaultText;
-            sheetLoader.item.acceptText.connect(request.dialogAccept);
-            sheetLoader.item.rejected.connect(request.dialogReject);
-            sheetLoader.item.open();
-            
-        } else {
-            // all other dialogs
-            sheetLoader.setSource("JavaScriptDialogSheet.qml");
-            sheetLoader.item.request = request;
-            sheetLoader.item.open();
-        }
+        sheetLoader.setSource("JavaScriptDialogSheet.qml");
+        sheetLoader.item.request = request;
+        sheetLoader.item.open();
     }
 
     onFindTextFinished: {
