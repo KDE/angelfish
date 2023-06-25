@@ -15,7 +15,7 @@ Kirigami.OverlaySheet {
     property int selectedIndex: -1
     property var selectOptions:  []
     property bool accepted: false
-
+    
     signal accept(string text)
     signal reject()
 
@@ -27,7 +27,7 @@ Kirigami.OverlaySheet {
         }
     }
 
-    contentItem: ListView {
+    ListView {
         model: selectOverlay.selectOptions
         currentIndex: selectedIndex
         Layout.preferredWidth: Kirigami.Units.gridUnit * 16
@@ -35,7 +35,7 @@ Kirigami.OverlaySheet {
         delegate: Controls.RadioDelegate {
             topPadding: Kirigami.Units.smallSpacing * 2
             bottomPadding: Kirigami.Units.smallSpacing * 2
-            width: parent.width
+            implicitWidth: Kirigami.Units.gridUnit * 16
 
             checked: index == selectedIndex
             text: modelData
