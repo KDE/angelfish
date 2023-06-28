@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-05-14 00:47+0000\n"
+"POT-Creation-Date: 2023-06-28 00:47+0000\n"
 "PO-Revision-Date: 2023-03-08 17:55+0100\n"
 "Last-Translator: Xavier BESNARD <xavier.besnard@neuf.fr>\n"
 "Language-Team: fr\n"
@@ -11467,173 +11467,173 @@ msgstr "Imprimer les arrière-plans"
 msgid "Save"
 msgstr "Enregistrer"
 
-#: lib/contents/ui/WebView.qml:243
+#: lib/contents/ui/WebView.qml:236
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr "Le site web a ouvert un nouvel onglet"
 
-#: lib/contents/ui/WebView.qml:262
+#: lib/contents/ui/WebView.qml:255
 #, kde-format
 msgid "Entered Full Screen Mode"
 msgstr "Passage en mode « Plein écran » effectué"
 
-#: lib/contents/ui/WebView.qml:263
+#: lib/contents/ui/WebView.qml:256
 #, kde-format
 msgid "Exit Full Screen (Esc)"
 msgstr "Sortir du mode « Plein écran » (ESC)"
 
-#: lib/contents/ui/WebView.qml:407
+#: lib/contents/ui/WebView.qml:389
 #, kde-format
 msgid "Play"
 msgstr "Lire"
 
-#: lib/contents/ui/WebView.qml:408 src/contents/ui/Downloads.qml:47
+#: lib/contents/ui/WebView.qml:390 src/contents/ui/Downloads.qml:47
 #, kde-format
 msgid "Pause"
 msgstr "Pause"
 
-#: lib/contents/ui/WebView.qml:415
+#: lib/contents/ui/WebView.qml:397
 #, kde-format
 msgid "Unmute"
 msgstr "Remettre le son"
 
-#: lib/contents/ui/WebView.qml:416
+#: lib/contents/ui/WebView.qml:398
 #, kde-format
 msgid "Mute"
 msgstr "Couper le son"
 
-#: lib/contents/ui/WebView.qml:426
+#: lib/contents/ui/WebView.qml:408
 #, kde-format
 msgid "Speed"
 msgstr "Vitesse"
 
-#: lib/contents/ui/WebView.qml:449
+#: lib/contents/ui/WebView.qml:431
 #, kde-format
 msgid "Loop"
 msgstr "En boucle"
 
-#: lib/contents/ui/WebView.qml:456
+#: lib/contents/ui/WebView.qml:438
 #, kde-format
 msgid "Exit fullscreen"
 msgstr "Quitter le mode « Plein écran »"
 
-#: lib/contents/ui/WebView.qml:456
+#: lib/contents/ui/WebView.qml:438
 #, kde-format
 msgid "Fullscreen"
 msgstr "Plein écran"
 
-#: lib/contents/ui/WebView.qml:469
+#: lib/contents/ui/WebView.qml:451
 #, kde-format
 msgid "Hide controls"
 msgstr "Masquer les contrôles"
 
-#: lib/contents/ui/WebView.qml:470
+#: lib/contents/ui/WebView.qml:452
 #, kde-format
 msgid "Show controls"
 msgstr "Afficher les contrôles"
 
-#: lib/contents/ui/WebView.qml:478
+#: lib/contents/ui/WebView.qml:460
 #, kde-format
 msgid "Open video"
 msgstr "Ouvrir une vidéo"
 
-#: lib/contents/ui/WebView.qml:478
+#: lib/contents/ui/WebView.qml:460
 #, kde-format
 msgid "Open audio"
 msgstr "Ouvrir un fichier audio"
 
-#: lib/contents/ui/WebView.qml:479
+#: lib/contents/ui/WebView.qml:461
 #, kde-format
 msgid "Open video in new Tab"
 msgstr "Ouvrir une vidéo dans un nouvel onglet"
 
-#: lib/contents/ui/WebView.qml:479
+#: lib/contents/ui/WebView.qml:461
 #, kde-format
 msgid "Open audio in new Tab"
 msgstr "Ouvrir un fichier audio dans un nouvel onglet"
 
-#: lib/contents/ui/WebView.qml:491
+#: lib/contents/ui/WebView.qml:473
 #, kde-format
 msgid "Save video"
 msgstr "Enregistrer une vidéo"
 
-#: lib/contents/ui/WebView.qml:497
+#: lib/contents/ui/WebView.qml:479
 #, kde-format
 msgid "Copy video Link"
 msgstr "Copier un lien vidéo"
 
-#: lib/contents/ui/WebView.qml:503
+#: lib/contents/ui/WebView.qml:485
 #, kde-format
 msgid "Open image"
 msgstr "Ouvrir une image"
 
-#: lib/contents/ui/WebView.qml:503
+#: lib/contents/ui/WebView.qml:485
 #, kde-format
 msgid "Open image in new Tab"
 msgstr "Ouvrir une image dans un nouvel onglet"
 
-#: lib/contents/ui/WebView.qml:515
+#: lib/contents/ui/WebView.qml:497
 #, kde-format
 msgid "Save image"
 msgstr "Enregistrer une image"
 
-#: lib/contents/ui/WebView.qml:521
+#: lib/contents/ui/WebView.qml:503
 #, kde-format
 msgid "Copy image"
 msgstr "Copier une image"
 
-#: lib/contents/ui/WebView.qml:527
+#: lib/contents/ui/WebView.qml:509
 #, kde-format
 msgid "Copy image link"
 msgstr "Copier un lien vers une image"
 
-#: lib/contents/ui/WebView.qml:533
+#: lib/contents/ui/WebView.qml:515
 #, kde-format
 msgid "Open link"
 msgstr "Ouvrir un lien"
 
-#: lib/contents/ui/WebView.qml:533
+#: lib/contents/ui/WebView.qml:515
 #, kde-format
 msgid "Open link in new Tab"
 msgstr "Ouvrir un lien dans un nouvel onglet"
 
-#: lib/contents/ui/WebView.qml:545
+#: lib/contents/ui/WebView.qml:527
 #, kde-format
 msgid "Bookmark link"
 msgstr "Signet"
 
-#: lib/contents/ui/WebView.qml:557
+#: lib/contents/ui/WebView.qml:539
 #, kde-format
 msgid "Save link"
 msgstr "Enregistrer un lien"
 
-#: lib/contents/ui/WebView.qml:563
+#: lib/contents/ui/WebView.qml:545
 #, kde-format
 msgid "Copy link"
 msgstr "Copier un lien"
 
-#: lib/contents/ui/WebView.qml:570
+#: lib/contents/ui/WebView.qml:552
 #, kde-format
 msgid "Copy"
 msgstr "Copier"
 
-#: lib/contents/ui/WebView.qml:576
+#: lib/contents/ui/WebView.qml:558
 #, kde-format
 msgid "Cut"
 msgstr "Couper"
 
-#: lib/contents/ui/WebView.qml:582
+#: lib/contents/ui/WebView.qml:564
 #, kde-format
 msgid "Paste"
 msgstr "Coller"
 
-#: lib/contents/ui/WebView.qml:603 src/contents/ui/desktop/desktop.qml:318
+#: lib/contents/ui/WebView.qml:585 src/contents/ui/desktop/desktop.qml:318
 #: src/contents/ui/mobile.qml:280
 #, kde-format
 msgid "Share page"
 msgstr "Partager la page"
 
-#: lib/contents/ui/WebView.qml:615
+#: lib/contents/ui/WebView.qml:597
 #, kde-format
 msgid "View page source"
 msgstr "Afficher le code source de la page"
