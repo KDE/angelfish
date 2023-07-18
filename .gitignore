@@ -1,4 +1,4 @@
 .clang-format
 CMakeLists.txt.user
-build
+build*
 _build
