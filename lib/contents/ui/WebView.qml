@@ -5,7 +5,7 @@
 import QtQuick 2.15
 import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
-import QtWebEngine 1.10
+import QtWebEngine @QTWEBENGINE_MODULE_VERSION@ 
 
 import org.kde.kirigami 2.19 as Kirigami
 
@@ -229,8 +229,7 @@ classes
         if (icon && !privateMode)
             BrowserManager.updateIcon(url, icon)
     }
-
-    onNewViewRequested: {
+    @QTWEBENGINE_NEW_WINDOWS_SIGNAL@: {
         if (request.userInitiated) {
             tabsModel.newTab(request.requestedUrl.toString())
             showPassiveNotification(i18n("Website was opened in a new tab"))
@@ -240,7 +239,6 @@ classes
             questionLoader.item.visible = true
         }
     }
-
     onUrlChanged: {
         if (requestedUrl !== url) {
             requestedUrl = url;

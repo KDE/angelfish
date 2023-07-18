@@ -3,6 +3,11 @@
 #
 # SPDX-License-Identifier: LGPL-2.0-or-later
 
+configure_file(contents/ui/desktop/desktop.qml ${CMAKE_CURRENT_BINARY_DIR}/contents/ui/desktop/desktop.qml)
+configure_file(contents/ui/mobile.qml ${CMAKE_CURRENT_BINARY_DIR}/contents/ui/mobile.qml)
+
+configure_file(angelfish.qrc ${CMAKE_CURRENT_SOURCE_DIR}/angelfish.generated.qrc)
+
 set(angelfish_SRCS
     main.cpp
     adblockfilterlistsmodel.cpp
@@ -13,7 +18,7 @@ set(angelfish_SRCS
     webappcreator.cpp
     webappmanager.cpp
     webappmanagermodel.cpp
-    angelfish.qrc
+    ${CMAKE_CURRENT_SOURCE_DIR}/angelfish.generated.qrc
 )
 
 add_executable(angelfish ${angelfish_SRCS})

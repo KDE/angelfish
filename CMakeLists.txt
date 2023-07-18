@@ -92,6 +92,16 @@ if (NOT Qt${QT_MAJOR_VERSION}Feedback_FOUND)
         "While it is optional since unmaintained, haptics feedback functionality is not supported without it.")
 endif()
 
+if(QT_MAJOR_VERSION STREQUAL "6")
+    set(QTGRAPHICALEFFECTS_MODULE "Qt5Compat.GraphicalEffects")
+    set(QTWEBENGINE_MODULE_VERSION "")
+    set(QTWEBENGINE_NEW_WINDOWS_SIGNAL "onNewWindowRequested")
+else()
+    set(QTGRAPHICALEFFECTS_MODULE "QtGraphicalEffects 1.0")
+    set(QTWEBENGINE_MODULE_VERSION "1.10")
+    set(QTWEBENGINE_NEW_WINDOWS_SIGNAL "onNewViewRequested")
+endif()
+
 ################# build and install #################
 add_subdirectory(lib)
 add_subdirectory(src)

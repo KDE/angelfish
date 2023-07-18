@@ -177,7 +177,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
         return BrowserManager::instance();
     });
 
-    Q_INIT_RESOURCE(resources);
+    Q_INIT_RESOURCE(resources_angelfish_generated);
 
     QObject::connect(QApplication::instance(), &QCoreApplication::aboutToQuit, QApplication::instance(), [] {
         AngelfishSettings::self()->save();

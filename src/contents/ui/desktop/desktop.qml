@@ -8,7 +8,7 @@ import QtQuick.Layouts 1.15
 import QtQuick.Window 2.15
 import org.kde.kirigami 2.19 as Kirigami
 
-import QtGraphicalEffects 1.0
+import @QTGRAPHICALEFFECTS_MODULE@
 
 import org.kde.angelfish 1.0
 import org.kde.kirigamiaddons.labs.components 1.0 as Addons

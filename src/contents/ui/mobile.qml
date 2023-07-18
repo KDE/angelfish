@@ -5,7 +5,7 @@
 import QtQuick 2.1
 import QtWebEngine 1.6
 import QtQuick.Window 2.3
-import QtGraphicalEffects 1.0
+import @QTGRAPHICALEFFECTS_MODULE@
 import QtQuick.Layouts 1.2
 import QtQuick.Controls 2.2 as Controls
 
