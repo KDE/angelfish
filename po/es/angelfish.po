@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-06-28 00:47+0000\n"
+"POT-Creation-Date: 2023-07-19 00:49+0000\n"
 "PO-Revision-Date: 2023-03-09 01:00+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -29,22 +29,22 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ecuadra@eloihr.net"
 
-#: angelfish-webapp/main.cpp:85
+#: angelfish-webapp/main.cpp:86
 #, kde-format
 msgid "desktop file to open"
 msgstr "archivo de escritorio a abrir"
 
-#: angelfish-webapp/main.cpp:112
+#: angelfish-webapp/main.cpp:113
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr "Entorno en tiempo de ejecución para la aplicación web Angelfish"
 
-#: angelfish-webapp/main.cpp:114
+#: angelfish-webapp/main.cpp:115
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "Copyright 2020 por los desarrolladores de Angelfish"
 
-#: angelfish-webapp/main.cpp:116
+#: angelfish-webapp/main.cpp:117
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
@@ -949,7 +949,7 @@ msgstr "Eliminar aplicación"
 msgid "Share page to"
 msgstr "Compartir página con"
 
-#: src/main.cpp:93
+#: src/main.cpp:95
 #, kde-format
 msgid "URL to open"
 msgstr "URL a abrir"

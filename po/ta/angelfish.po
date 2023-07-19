@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-06-28 00:47+0000\n"
+"POT-Creation-Date: 2023-07-19 00:49+0000\n"
 "PO-Revision-Date: 2023-03-12 16:45+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
@@ -27,22 +27,22 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "Kde-l10n-ta@kde.org"
 
-#: angelfish-webapp/main.cpp:85
+#: angelfish-webapp/main.cpp:86
 #, kde-format
 msgid "desktop file to open"
 msgstr "திறக்க வேண்டிய desktop கோப்பு"
 
-#: angelfish-webapp/main.cpp:112
+#: angelfish-webapp/main.cpp:113
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr ""
 
-#: angelfish-webapp/main.cpp:114
+#: angelfish-webapp/main.cpp:115
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "பதிப்புரிமை 2020 ஏஞ்சல்ஃபிஷ் நிரலாளர்கள்"
 
-#: angelfish-webapp/main.cpp:116
+#: angelfish-webapp/main.cpp:117
 #, kde-format
 msgid "Marco Martin"
 msgstr "மார்க்கோ மார்ட்டின்"
@@ -923,7 +923,7 @@ msgstr ""
 msgid "Share page to"
 msgstr ""
 
-#: src/main.cpp:93
+#: src/main.cpp:95
 #, kde-format
 msgid "URL to open"
 msgstr ""

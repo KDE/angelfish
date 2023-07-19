@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-06-28 00:47+0000\n"
-"PO-Revision-Date: 2023-07-03 11:39\n"
+"POT-Creation-Date: 2023-07-19 00:49+0000\n"
+"PO-Revision-Date: 2023-07-18 11:12\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -29,22 +29,22 @@ msgstr ""
 "kde-china@kde.org, ratizux@kde.org, tysontan@tysontan.com, "
 "zhouwenqing655@gmail.com"
 
-#: angelfish-webapp/main.cpp:85
+#: angelfish-webapp/main.cpp:86
 #, kde-format
 msgid "desktop file to open"
 msgstr "要打开的桌面文件"
 
-#: angelfish-webapp/main.cpp:112
+#: angelfish-webapp/main.cpp:113
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr "Angelfish 网页小程序运行时组件"
 
-#: angelfish-webapp/main.cpp:114
+#: angelfish-webapp/main.cpp:115
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "Copyright 2020 Angelfish developers"
 
-#: angelfish-webapp/main.cpp:116
+#: angelfish-webapp/main.cpp:117
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
@@ -199,7 +199,7 @@ msgstr "拒绝"
 #: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:269
 #, kde-format
 msgid "Print"
-msgstr ""
+msgstr "打印"
 
 #: lib/contents/ui/PrintPreview.qml:67
 #, kde-format
@@ -209,7 +209,7 @@ msgstr ""
 #: lib/contents/ui/PrintPreview.qml:71
 #, kde-format
 msgid "Save to PDF"
-msgstr ""
+msgstr "保存为 PDF"
 
 #: lib/contents/ui/PrintPreview.qml:77
 #, kde-format
@@ -219,22 +219,22 @@ msgstr ""
 #: lib/contents/ui/PrintPreview.qml:102
 #, kde-format
 msgid "Paper size"
-msgstr ""
+msgstr "纸张大小"
 
 #: lib/contents/ui/PrintPreview.qml:148
 #, kde-format
 msgid "Options"
-msgstr ""
+msgstr "选项"
 
 #: lib/contents/ui/PrintPreview.qml:152
 #, kde-format
 msgid "Print backgrounds"
-msgstr ""
+msgstr "打印背景"
 
 #: lib/contents/ui/PrintPreview.qml:172
 #, kde-format
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 #: lib/contents/ui/WebView.qml:236
 #, kde-format
@@ -244,17 +244,17 @@ msgstr "网站已在新标签页中打开"
 #: lib/contents/ui/WebView.qml:255
 #, kde-format
 msgid "Entered Full Screen Mode"
-msgstr ""
+msgstr "进入全屏模式"
 
 #: lib/contents/ui/WebView.qml:256
 #, kde-format
 msgid "Exit Full Screen (Esc)"
-msgstr ""
+msgstr "退出全屏 (Esc)"
 
 #: lib/contents/ui/WebView.qml:389
 #, kde-format
 msgid "Play"
-msgstr ""
+msgstr "播放"
 
 #: lib/contents/ui/WebView.qml:390 src/contents/ui/Downloads.qml:47
 #, kde-format
@@ -264,122 +264,122 @@ msgstr "暂停"
 #: lib/contents/ui/WebView.qml:397
 #, kde-format
 msgid "Unmute"
-msgstr ""
+msgstr "取消静音"
 
 #: lib/contents/ui/WebView.qml:398
 #, kde-format
 msgid "Mute"
-msgstr ""
+msgstr "静音"
 
 #: lib/contents/ui/WebView.qml:408
 #, kde-format
 msgid "Speed"
-msgstr ""
+msgstr "速度"
 
 #: lib/contents/ui/WebView.qml:431
 #, kde-format
 msgid "Loop"
-msgstr ""
+msgstr "循环播放"
 
 #: lib/contents/ui/WebView.qml:438
 #, kde-format
 msgid "Exit fullscreen"
-msgstr ""
+msgstr "退出全屏"
 
 #: lib/contents/ui/WebView.qml:438
 #, kde-format
 msgid "Fullscreen"
-msgstr ""
+msgstr "全屏"
 
 #: lib/contents/ui/WebView.qml:451
 #, kde-format
 msgid "Hide controls"
-msgstr ""
+msgstr "隐藏控件"
 
 #: lib/contents/ui/WebView.qml:452
 #, kde-format
 msgid "Show controls"
-msgstr ""
+msgstr "显示控件"
 
 #: lib/contents/ui/WebView.qml:460
 #, kde-format
 msgid "Open video"
-msgstr ""
+msgstr "打开视频"
 
 #: lib/contents/ui/WebView.qml:460
 #, kde-format
 msgid "Open audio"
-msgstr ""
+msgstr "打开音频"
 
 #: lib/contents/ui/WebView.qml:461
 #, kde-format
 msgid "Open video in new Tab"
-msgstr ""
+msgstr "新建标签页打开视频"
 
 #: lib/contents/ui/WebView.qml:461
 #, kde-format
 msgid "Open audio in new Tab"
-msgstr ""
+msgstr "新建标签页打开音频"
 
 #: lib/contents/ui/WebView.qml:473
 #, kde-format
 msgid "Save video"
-msgstr ""
+msgstr "保存视频"
 
 #: lib/contents/ui/WebView.qml:479
 #, kde-format
 msgid "Copy video Link"
-msgstr ""
+msgstr "复制视频链接"
 
 #: lib/contents/ui/WebView.qml:485
 #, kde-format
 msgid "Open image"
-msgstr ""
+msgstr "打开图片"
 
 #: lib/contents/ui/WebView.qml:485
 #, kde-format
 msgid "Open image in new Tab"
-msgstr ""
+msgstr "新建标签页打开图片"
 
 #: lib/contents/ui/WebView.qml:497
 #, kde-format
 msgid "Save image"
-msgstr ""
+msgstr "保存图片"
 
 #: lib/contents/ui/WebView.qml:503
 #, kde-format
 msgid "Copy image"
-msgstr ""
+msgstr "复制图片"
 
 #: lib/contents/ui/WebView.qml:509
 #, kde-format
 msgid "Copy image link"
-msgstr ""
+msgstr "复制图片链接"
 
 #: lib/contents/ui/WebView.qml:515
 #, kde-format
 msgid "Open link"
-msgstr ""
+msgstr "打开链接"
 
 #: lib/contents/ui/WebView.qml:515
 #, kde-format
 msgid "Open link in new Tab"
-msgstr ""
+msgstr "新建标签页打开链接"
 
 #: lib/contents/ui/WebView.qml:527
 #, kde-format
 msgid "Bookmark link"
-msgstr ""
+msgstr "书签链接"
 
 #: lib/contents/ui/WebView.qml:539
 #, kde-format
 msgid "Save link"
-msgstr ""
+msgstr "保存链接"
 
 #: lib/contents/ui/WebView.qml:545
 #, kde-format
 msgid "Copy link"
-msgstr ""
+msgstr "复制链接"
 
 #: lib/contents/ui/WebView.qml:552
 #, kde-format
@@ -405,7 +405,7 @@ msgstr "分享网页"
 #: lib/contents/ui/WebView.qml:597
 #, kde-format
 msgid "View page source"
-msgstr ""
+msgstr "查看页面源代码"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
 #, kde-format
@@ -437,7 +437,7 @@ msgstr "没有书签"
 #: src/contents/ui/desktop/desktop.qml:116
 #, kde-format
 msgid "Search or enter URL…"
-msgstr ""
+msgstr "搜索或输入 URL..."
 
 #: src/contents/ui/desktop/desktop.qml:223 src/contents/ui/desktop/Tabs.qml:354
 #: src/contents/ui/Tabs.qml:49
@@ -475,7 +475,7 @@ msgstr "全屏"
 #: src/contents/ui/desktop/desktop.qml:292
 #, kde-format
 msgid "Hide developer tools"
-msgstr ""
+msgstr "隐藏开发者工具"
 
 #: src/contents/ui/desktop/desktop.qml:293 src/contents/ui/mobile.qml:376
 #, kde-format
@@ -491,7 +491,7 @@ msgstr "查找页面中的内容"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
-msgstr ""
+msgstr "阅读模式"
 
 #: src/contents/ui/desktop/desktop.qml:328
 #, kde-format
@@ -552,7 +552,7 @@ msgstr "新标签页："
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:83
 #, kde-format
 msgid "Always show the tab bar"
-msgstr ""
+msgstr "总是显示标签栏"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:84
 #, kde-format
@@ -562,42 +562,42 @@ msgstr ""
 #: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:185
 #, kde-format
 msgid "Reader Mode: %1"
-msgstr ""
+msgstr "阅读模式：%1"
 
 #: src/contents/ui/desktop/Tabs.qml:250 src/contents/ui/Tabs.qml:216
 #, kde-format
 msgid "Close tab"
-msgstr ""
+msgstr "关闭标签页"
 
 #: src/contents/ui/desktop/Tabs.qml:290
 #, kde-format
 msgid "Open a new tab"
-msgstr ""
+msgstr "新建标签页"
 
 #: src/contents/ui/desktop/Tabs.qml:323
 #, kde-format
 msgid "List all tabs"
-msgstr ""
+msgstr "列出所有标签页"
 
 #: src/contents/ui/desktop/Tabs.qml:363
 #, kde-format
 msgid "Reload Tab"
-msgstr ""
+msgstr "刷新标签页"
 
 #: src/contents/ui/desktop/Tabs.qml:371
 #, kde-format
 msgid "Duplicate Tab"
-msgstr ""
+msgstr "复制标签页"
 
 #: src/contents/ui/desktop/Tabs.qml:379
 #, kde-format
 msgid "Bookmark Tab"
-msgstr ""
+msgstr "为标签页添加书签"
 
 #: src/contents/ui/desktop/Tabs.qml:395
 #, kde-format
 msgid "Close Tab"
-msgstr ""
+msgstr "关闭标签页"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -701,7 +701,7 @@ msgstr "显示桌面版网站"
 #: src/contents/ui/mobile.qml:359
 #, kde-format
 msgid "Reader Mode"
-msgstr ""
+msgstr "阅读模式"
 
 #: src/contents/ui/mobile.qml:367
 #, kde-format
@@ -770,7 +770,7 @@ msgstr "移除此过滤规则列表"
 #: src/contents/ui/SettingsAdblock.qml:154
 #, kde-format
 msgid "add Filterlist"
-msgstr ""
+msgstr "添加过滤规则列表"
 
 #: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:12
 #, kde-format
@@ -795,7 +795,7 @@ msgstr "加载图像"
 #: src/contents/ui/SettingsGeneral.qml:51
 #, kde-format
 msgid "Whether to load images on websites."
-msgstr ""
+msgstr "是否在网站上加载图像。"
 
 #: src/contents/ui/SettingsGeneral.qml:60
 #, kde-format
@@ -810,12 +810,12 @@ msgstr ""
 #: src/contents/ui/SettingsGeneral.qml:61
 #, kde-format
 msgid "AdBlock functionality was not included in this build."
-msgstr ""
+msgstr "此版软件不包含广告拦截器功能。"
 
 #: src/contents/ui/SettingsGeneral.qml:71
 #, kde-format
 msgid "Switch to new tab immediately"
-msgstr ""
+msgstr "立即切换到新标签页"
 
 #: src/contents/ui/SettingsGeneral.qml:72
 #, kde-format
@@ -826,7 +826,7 @@ msgstr "在新标签页中打开链接、图像或介质时，立即切换到该
 #: src/contents/ui/SettingsGeneral.qml:81
 #, kde-format
 msgid "Use Smooth Scrolling"
-msgstr ""
+msgstr "使用平滑滚动"
 
 #: src/contents/ui/SettingsGeneral.qml:82
 #, kde-format
@@ -838,14 +838,14 @@ msgstr ""
 #: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
 msgid "Use dark color scheme"
-msgstr ""
+msgstr "使用深色配色方案"
 
 #: src/contents/ui/SettingsGeneral.qml:92
 #, kde-format
 msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
 "take effect."
-msgstr ""
+msgstr "网站的配色方案将设为深色。需要重启应用才能生效。"
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format
@@ -928,9 +928,9 @@ msgstr "移除应用"
 #: src/contents/ui/ShareSheet.qml:17
 #, kde-format
 msgid "Share page to"
-msgstr ""
+msgstr "分享页面到"
 
-#: src/main.cpp:93
+#: src/main.cpp:95
 #, kde-format
 msgid "URL to open"
 msgstr "要打开的 URL"

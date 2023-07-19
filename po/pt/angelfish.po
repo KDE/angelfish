@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-06-28 00:47+0000\n"
+"POT-Creation-Date: 2023-07-19 00:49+0000\n"
 "PO-Revision-Date: 2023-05-22 22:20+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -28,22 +28,22 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "zepires@gmail.com"
 
-#: angelfish-webapp/main.cpp:85
+#: angelfish-webapp/main.cpp:86
 #, kde-format
 msgid "desktop file to open"
 msgstr "ficheiro 'desktop' a abrir"
 
-#: angelfish-webapp/main.cpp:112
+#: angelfish-webapp/main.cpp:113
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr "Ambiente de Aplicações Web do Angelfish"
 
-#: angelfish-webapp/main.cpp:114
+#: angelfish-webapp/main.cpp:115
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "Copyright 2020 dos programadores do Angelfish"
 
-#: angelfish-webapp/main.cpp:116
+#: angelfish-webapp/main.cpp:117
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
@@ -946,7 +946,7 @@ msgstr "Remover a aplicação"
 msgid "Share page to"
 msgstr "Partilhar a página com"
 
-#: src/main.cpp:93
+#: src/main.cpp:95
 #, kde-format
 msgid "URL to open"
 msgstr "URL a abrir"
