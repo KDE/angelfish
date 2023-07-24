@@ -497,7 +497,7 @@ msgstr "읽기 모드"
 #: src/contents/ui/desktop/desktop.qml:328
 #, kde-format
 msgid "Add to application launcher"
-msgstr "프로그램 실행기에 추가"
+msgstr "앱 실행기에 추가"
 
 #: src/contents/ui/desktop/desktop.qml:347 src/contents/ui/mobile.qml:99
 #, kde-format
