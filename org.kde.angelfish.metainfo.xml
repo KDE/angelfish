@@ -9,6 +9,7 @@
   <name xml:lang="de">Angelfish-Webbrowser</name>
   <name xml:lang="el">Angelfish περιηγητής ιστού</name>
   <name xml:lang="en-GB">Angelfish Web Browser</name>
+  <name xml:lang="eo">Angelfish Retumilo</name>
   <name xml:lang="es">Navegador web Angelfish</name>
   <name xml:lang="eu">Angelfish web-arakatzailea</name>
   <name xml:lang="fi">Angelfish-verkkoselain</name>
@@ -45,6 +46,7 @@
   <summary xml:lang="de">Webbrowser für mobile Geräte</summary>
   <summary xml:lang="el">Περιηγητής ιστού για κινητά</summary>
   <summary xml:lang="en-GB">Web browser for mobile devices</summary>
+  <summary xml:lang="eo">Retumilo por porteblaj aparatoj</summary>
   <summary xml:lang="es">Navegador web para dispositivos móviles</summary>
   <summary xml:lang="et">Mobiilseadmete veebilehitseja</summary>
   <summary xml:lang="eu">Gailu mugikorretarako web-arakatzailea</summary>
@@ -85,6 +87,7 @@
   <developer_name xml:lang="de">KDE-Gemeinschaft</developer_name>
   <developer_name xml:lang="el">Η Κοινότητα του KDE</developer_name>
   <developer_name xml:lang="en-GB">KDE Community</developer_name>
+  <developer_name xml:lang="eo">KDE-Komunumo</developer_name>
   <developer_name xml:lang="es">Comunidad KDE</developer_name>
   <developer_name xml:lang="et">KDE kogukond</developer_name>
   <developer_name xml:lang="eu">KDE komunitatea</developer_name>
@@ -123,6 +126,7 @@
     <p xml:lang="de">Angelfish ist ein moderner Webbrowser für mobile Geräte</p>
     <p xml:lang="el">Το Angelfish είναι ένας σύγχρονος περιηγητής ιστού για κινητά</p>
     <p xml:lang="en-GB">Angelfish is a modern mobile web browser</p>
+    <p xml:lang="eo">Angelfish estas moderna movebla retumilo</p>
     <p xml:lang="es">Angelfish es un moderno navegador web móvil</p>
     <p xml:lang="et">Angelfish on tänapäevane mobiilne veebilehitseja</p>
     <p xml:lang="eu">Angelfish web-arakatzaile mugikor moderno bat da</p>
@@ -160,6 +164,7 @@
     <p xml:lang="de">Er unterstützt die typischen Funktionen von Browsern wie</p>
     <p xml:lang="el">Υποστηρίζει τις τυπικές λειτουργίες ενός περιηγητή, όπως</p>
     <p xml:lang="en-GB">It supports typical browser features, such as</p>
+    <p xml:lang="eo">Ĝi subtenas tipajn retumilajn funkciojn, kiel ekzemple</p>
     <p xml:lang="es">Permite las funciones típicas de un navegador, como</p>
     <p xml:lang="et">See toetab tüüpilisi veebilehitseja võimalusi, nagu</p>
     <p xml:lang="eu">Arakatzaileen ohiko ezaugarriak ditu, besteak beste</p>
@@ -198,6 +203,7 @@
       <li xml:lang="de">Lesezeichen</li>
       <li xml:lang="el">σελιδοδείκτες</li>
       <li xml:lang="en-GB">bookmarks</li>
+      <li xml:lang="eo">legosignoj</li>
       <li xml:lang="es">marcadores</li>
       <li xml:lang="et">järjehoidjad</li>
       <li xml:lang="eu">laster-markak</li>
@@ -235,6 +241,7 @@
       <li xml:lang="de">Verlauf</li>
       <li xml:lang="el">ιστορικό</li>
       <li xml:lang="en-GB">history</li>
+      <li xml:lang="eo">historio</li>
       <li xml:lang="es">historial</li>
       <li xml:lang="et">ajalugu</li>
       <li xml:lang="eu">historiala</li>
@@ -272,6 +279,7 @@
       <li xml:lang="de">Unterfenster</li>
       <li xml:lang="el">καρτέλες</li>
       <li xml:lang="en-GB">tabs</li>
+      <li xml:lang="eo">langetoj</li>
       <li xml:lang="es">pestañas</li>
       <li xml:lang="et">kaardid</li>
       <li xml:lang="eu">fitxak</li>
@@ -313,6 +321,7 @@
       <caption xml:lang="de">Startseite</caption>
       <caption xml:lang="el">Προσωπική σελίδα</caption>
       <caption xml:lang="en-GB">Homepage</caption>
+      <caption xml:lang="eo">Hejmpaĝo</caption>
       <caption xml:lang="es">Página de inicio</caption>
       <caption xml:lang="et">Kodulehekülg</caption>
       <caption xml:lang="eu">Orri nagusia</caption>
@@ -353,6 +362,7 @@
       <caption xml:lang="de">Menüaktionen</caption>
       <caption xml:lang="el">Ενέργειες μενού</caption>
       <caption xml:lang="en-GB">Menu Actions</caption>
+      <caption xml:lang="eo">Menuaj Agoj</caption>
       <caption xml:lang="es">Acciones del menú</caption>
       <caption xml:lang="et">Menüütoimingud</caption>
       <caption xml:lang="eu">Menu-ekintzak</caption>
@@ -392,6 +402,7 @@
       <caption xml:lang="de">Unterfensteransicht</caption>
       <caption xml:lang="el">Προβολή καρτελών</caption>
       <caption xml:lang="en-GB">Tabs View</caption>
+      <caption xml:lang="eo">Tabs Vido</caption>
       <caption xml:lang="es">Vista de pestañas</caption>
       <caption xml:lang="eu">Fitxa-ikuspegia</caption>
       <caption xml:lang="fi">Välilehtinäkymä</caption>
@@ -429,6 +440,7 @@
       <caption xml:lang="de">Benutzeroberfläche für die Arbeitsfläche</caption>
       <caption xml:lang="el">Περιβάλλον χρήστη επιφάνειας εργασίας</caption>
       <caption xml:lang="en-GB">Desktop User Interface</caption>
+      <caption xml:lang="eo">Labortabla Uzantinterfaco</caption>
       <caption xml:lang="es">Interfaz de usuario del escritorio</caption>
       <caption xml:lang="eu">Mahaigaineko erabiltzailearen interfazea</caption>
       <caption xml:lang="fi">Työpöytäkäyttöliittymä</caption>
