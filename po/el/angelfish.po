@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-07-19 00:49+0000\n"
+"POT-Creation-Date: 2023-08-09 00:45+0000\n"
 "PO-Revision-Date: 2023-07-24 13:16+0300\n"
 "Last-Translator: George Stefanakis <george.stefanakis@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-doc@kde.org>\n"
@@ -240,173 +240,173 @@ msgstr "Εκτύπωση φόντων"
 msgid "Save"
 msgstr "Αποθήκευση"
 
-#: lib/contents/ui/WebView.qml:236
+#: lib/contents/ui/WebView.qml:235
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr "Ο ιστότοπος άνοιξε σε νέα καρτέλα"
 
-#: lib/contents/ui/WebView.qml:255
+#: lib/contents/ui/WebView.qml:253
 #, kde-format
 msgid "Entered Full Screen Mode"
 msgstr "Είσοδος σε λειτουργία Πλήρους Οθόνης"
 
-#: lib/contents/ui/WebView.qml:256
+#: lib/contents/ui/WebView.qml:254
 #, kde-format
 msgid "Exit Full Screen (Esc)"
 msgstr "Έξοδος από πλήρη οθόνη (Esc)"
 
-#: lib/contents/ui/WebView.qml:389
+#: lib/contents/ui/WebView.qml:387
 #, kde-format
 msgid "Play"
 msgstr "Αναπαραγωγή"
 
-#: lib/contents/ui/WebView.qml:390 src/contents/ui/Downloads.qml:47
+#: lib/contents/ui/WebView.qml:388 src/contents/ui/Downloads.qml:47
 #, kde-format
 msgid "Pause"
 msgstr "Παύση"
 
-#: lib/contents/ui/WebView.qml:397
+#: lib/contents/ui/WebView.qml:395
 #, kde-format
 msgid "Unmute"
 msgstr "Επαναφορά ήχου"
 
-#: lib/contents/ui/WebView.qml:398
+#: lib/contents/ui/WebView.qml:396
 #, kde-format
 msgid "Mute"
 msgstr "Σίγαση"
 
-#: lib/contents/ui/WebView.qml:408
+#: lib/contents/ui/WebView.qml:406
 #, kde-format
 msgid "Speed"
 msgstr "Ταχύτητα"
 
-#: lib/contents/ui/WebView.qml:431
+#: lib/contents/ui/WebView.qml:429
 #, kde-format
 msgid "Loop"
 msgstr "Επανάληψη"
 
-#: lib/contents/ui/WebView.qml:438
+#: lib/contents/ui/WebView.qml:436
 #, kde-format
 msgid "Exit fullscreen"
 msgstr "Έξοδος πλήρους οθόνης"
 
-#: lib/contents/ui/WebView.qml:438
+#: lib/contents/ui/WebView.qml:436
 #, kde-format
 msgid "Fullscreen"
 msgstr "Πλήρης οθόνη"
 
-#: lib/contents/ui/WebView.qml:451
+#: lib/contents/ui/WebView.qml:449
 #, kde-format
 msgid "Hide controls"
 msgstr "Απόκρυψη χειριστηριών"
 
-#: lib/contents/ui/WebView.qml:452
+#: lib/contents/ui/WebView.qml:450
 #, kde-format
 msgid "Show controls"
 msgstr "Εμφάνιση χειριστηριών"
 
-#: lib/contents/ui/WebView.qml:460
+#: lib/contents/ui/WebView.qml:458
 #, kde-format
 msgid "Open video"
 msgstr "Άνοιγμα βίντεο"
 
-#: lib/contents/ui/WebView.qml:460
+#: lib/contents/ui/WebView.qml:458
 #, kde-format
 msgid "Open audio"
 msgstr "Άνοιγμα ήχου"
 
-#: lib/contents/ui/WebView.qml:461
+#: lib/contents/ui/WebView.qml:459
 #, kde-format
 msgid "Open video in new Tab"
 msgstr "Άνοιγμα βίντεο σε νέα καρτέλα"
 
-#: lib/contents/ui/WebView.qml:461
+#: lib/contents/ui/WebView.qml:459
 #, kde-format
 msgid "Open audio in new Tab"
 msgstr "Άνοιγμα ήχου σε νέα καρτέλα"
 
-#: lib/contents/ui/WebView.qml:473
+#: lib/contents/ui/WebView.qml:471
 #, kde-format
 msgid "Save video"
 msgstr "Αποθήκευση βίντεο"
 
-#: lib/contents/ui/WebView.qml:479
+#: lib/contents/ui/WebView.qml:477
 #, kde-format
 msgid "Copy video Link"
 msgstr "Αντιγραφή συνδέσμου βίντεο"
 
-#: lib/contents/ui/WebView.qml:485
+#: lib/contents/ui/WebView.qml:483
 #, kde-format
 msgid "Open image"
 msgstr "Άνοιγμα εικόνας"
 
-#: lib/contents/ui/WebView.qml:485
+#: lib/contents/ui/WebView.qml:483
 #, kde-format
 msgid "Open image in new Tab"
 msgstr "Άνοιγμα εικόνας σε νέα καρτέλα"
 
-#: lib/contents/ui/WebView.qml:497
+#: lib/contents/ui/WebView.qml:495
 #, kde-format
 msgid "Save image"
 msgstr "Αποθήκευση εικόνας"
 
-#: lib/contents/ui/WebView.qml:503
+#: lib/contents/ui/WebView.qml:501
 #, kde-format
 msgid "Copy image"
 msgstr "Αντιγραφή εικόνας"
 
-#: lib/contents/ui/WebView.qml:509
+#: lib/contents/ui/WebView.qml:507
 #, kde-format
 msgid "Copy image link"
 msgstr "Αντιγραφή συνδέσμου εικόνας"
 
-#: lib/contents/ui/WebView.qml:515
+#: lib/contents/ui/WebView.qml:513
 #, kde-format
 msgid "Open link"
 msgstr "Άνοιγμα συνδέσμου"
 
-#: lib/contents/ui/WebView.qml:515
+#: lib/contents/ui/WebView.qml:513
 #, kde-format
 msgid "Open link in new Tab"
 msgstr "Άνοιγμα συνδέσμου σε νέα καρτέλα"
 
-#: lib/contents/ui/WebView.qml:527
+#: lib/contents/ui/WebView.qml:525
 #, kde-format
 msgid "Bookmark link"
 msgstr "Προσθήκη συνδέσμου στους Σελιδοδείκτες"
 
-#: lib/contents/ui/WebView.qml:539
+#: lib/contents/ui/WebView.qml:537
 #, kde-format
 msgid "Save link"
 msgstr "Αποθήκευση συνδέσμου"
 
-#: lib/contents/ui/WebView.qml:545
+#: lib/contents/ui/WebView.qml:543
 #, kde-format
 msgid "Copy link"
 msgstr "Αντιγραφή συνδέσμου"
 
-#: lib/contents/ui/WebView.qml:552
+#: lib/contents/ui/WebView.qml:550
 #, kde-format
 msgid "Copy"
 msgstr "Αντιγραφή"
 
-#: lib/contents/ui/WebView.qml:558
+#: lib/contents/ui/WebView.qml:556
 #, kde-format
 msgid "Cut"
 msgstr "Αποκοπή"
 
-#: lib/contents/ui/WebView.qml:564
+#: lib/contents/ui/WebView.qml:562
 #, kde-format
 msgid "Paste"
 msgstr "Επικόλληση"
 
-#: lib/contents/ui/WebView.qml:585 src/contents/ui/desktop/desktop.qml:318
+#: lib/contents/ui/WebView.qml:583 src/contents/ui/desktop/desktop.qml:318
 #: src/contents/ui/mobile.qml:280
 #, kde-format
 msgid "Share page"
 msgstr "Διαμοιρασμός σελίδας"
 
-#: lib/contents/ui/WebView.qml:597
+#: lib/contents/ui/WebView.qml:595
 #, kde-format
 msgid "View page source"
 msgstr "Προβολή κώδικα σελίδας"

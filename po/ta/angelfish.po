@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-07-19 00:49+0000\n"
+"POT-Creation-Date: 2023-08-09 00:45+0000\n"
 "PO-Revision-Date: 2023-03-12 16:45+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
@@ -230,177 +230,177 @@ msgstr "பின்புலத்தை அச்சிடு"
 msgid "Save"
 msgstr "சேமி"
 
-#: lib/contents/ui/WebView.qml:236
+#: lib/contents/ui/WebView.qml:235
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr "இணையதளம் புதிய கீற்றில் திறக்கப்பட்டுள்ளது"
 
-#: lib/contents/ui/WebView.qml:255
+#: lib/contents/ui/WebView.qml:253
 #, kde-format
 msgid "Entered Full Screen Mode"
 msgstr "முழுத்திரை பயன்முறையில் நுழைந்துள்ளீர்"
 
-#: lib/contents/ui/WebView.qml:256
+#: lib/contents/ui/WebView.qml:254
 #, kde-format
 msgid "Exit Full Screen (Esc)"
 msgstr "முழுத்திரை பயன்முறையிலிருந்து வெளியேறு (Esc)"
 
-#: lib/contents/ui/WebView.qml:389
+#: lib/contents/ui/WebView.qml:387
 #, kde-format
 msgid "Play"
 msgstr "இயக்கு"
 
-#: lib/contents/ui/WebView.qml:390 src/contents/ui/Downloads.qml:47
+#: lib/contents/ui/WebView.qml:388 src/contents/ui/Downloads.qml:47
 #, kde-format
 msgid "Pause"
 msgstr "இடைநிறுத்து"
 
-#: lib/contents/ui/WebView.qml:397
+#: lib/contents/ui/WebView.qml:395
 #, kde-format
 msgid "Unmute"
 msgstr "ஒலிமுடக்கத்தை நீக்கு"
 
-#: lib/contents/ui/WebView.qml:398
+#: lib/contents/ui/WebView.qml:396
 #, kde-format
 msgid "Mute"
 msgstr "ஒலியை அடக்கு"
 
-#: lib/contents/ui/WebView.qml:408
+#: lib/contents/ui/WebView.qml:406
 #, kde-format
 msgid "Speed"
 msgstr "வேகம்"
 
-#: lib/contents/ui/WebView.qml:431
+#: lib/contents/ui/WebView.qml:429
 #, kde-format
 msgid "Loop"
 msgstr "சுழற்று"
 
-#: lib/contents/ui/WebView.qml:438
+#: lib/contents/ui/WebView.qml:436
 #, kde-format
 msgid "Exit fullscreen"
 msgstr "முழுத்திரையிலிருந்து வெளியேறு"
 
-#: lib/contents/ui/WebView.qml:438
+#: lib/contents/ui/WebView.qml:436
 #, kde-format
 msgid "Fullscreen"
 msgstr "முழுத்திரை"
 
-#: lib/contents/ui/WebView.qml:451
+#: lib/contents/ui/WebView.qml:449
 #, kde-format
 msgid "Hide controls"
 msgstr "கட்டுப்படுத்திகளை மறை"
 
-#: lib/contents/ui/WebView.qml:452
+#: lib/contents/ui/WebView.qml:450
 #, kde-format
 msgid "Show controls"
 msgstr "கட்டுப்படுத்திகளைக் காட்டு"
 
-#: lib/contents/ui/WebView.qml:460
+#: lib/contents/ui/WebView.qml:458
 #, kde-format
 msgid "Open video"
 msgstr "நிகழ்படத்தைத் திற"
 
-#: lib/contents/ui/WebView.qml:460
+#: lib/contents/ui/WebView.qml:458
 #, kde-format
 msgid "Open audio"
 msgstr "ஒலிக்கோப்பைத் திற"
 
-#: lib/contents/ui/WebView.qml:461
+#: lib/contents/ui/WebView.qml:459
 #, kde-format
 msgid "Open video in new Tab"
 msgstr "நிகழ்படத்தை புதிய கீற்றில் திற"
 
-#: lib/contents/ui/WebView.qml:461
+#: lib/contents/ui/WebView.qml:459
 #, kde-format
 msgid "Open audio in new Tab"
 msgstr "ஒலிக்கோப்பை புதிய கீற்றில் திற"
 
-#: lib/contents/ui/WebView.qml:473
+#: lib/contents/ui/WebView.qml:471
 #, kde-format
 msgid "Save video"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:479
+#: lib/contents/ui/WebView.qml:477
 #, kde-format
 msgid "Copy video Link"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:485
+#: lib/contents/ui/WebView.qml:483
 #, kde-format
 msgid "Open image"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:485
+#: lib/contents/ui/WebView.qml:483
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgid "Open image in new Tab"
 msgstr "புதிய கீற்றில் திற"
 
-#: lib/contents/ui/WebView.qml:497
+#: lib/contents/ui/WebView.qml:495
 #, fuzzy, kde-format
 #| msgid "Leave page"
 msgid "Save image"
 msgstr "பக்கத்திலிருந்து வெளியேறு"
 
-#: lib/contents/ui/WebView.qml:503
+#: lib/contents/ui/WebView.qml:501
 #, kde-format
 msgid "Copy image"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:509
+#: lib/contents/ui/WebView.qml:507
 #, kde-format
 msgid "Copy image link"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:515
+#: lib/contents/ui/WebView.qml:513
 #, kde-format
 msgid "Open link"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:515
+#: lib/contents/ui/WebView.qml:513
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgid "Open link in new Tab"
 msgstr "புதிய கீற்றில் திற"
 
-#: lib/contents/ui/WebView.qml:527
+#: lib/contents/ui/WebView.qml:525
 #, kde-format
 msgid "Bookmark link"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:539
+#: lib/contents/ui/WebView.qml:537
 #, kde-format
 msgid "Save link"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:545
+#: lib/contents/ui/WebView.qml:543
 #, fuzzy, kde-format
 #| msgid "Copy Url"
 msgid "Copy link"
 msgstr "முகவரியை நகலெடு"
 
-#: lib/contents/ui/WebView.qml:552
+#: lib/contents/ui/WebView.qml:550
 #, kde-format
 msgid "Copy"
 msgstr "நகலெடு"
 
-#: lib/contents/ui/WebView.qml:558
+#: lib/contents/ui/WebView.qml:556
 #, kde-format
 msgid "Cut"
 msgstr "வெட்டு"
 
-#: lib/contents/ui/WebView.qml:564
+#: lib/contents/ui/WebView.qml:562
 #, kde-format
 msgid "Paste"
 msgstr "ஒட்டு"
 
-#: lib/contents/ui/WebView.qml:585 src/contents/ui/desktop/desktop.qml:318
+#: lib/contents/ui/WebView.qml:583 src/contents/ui/desktop/desktop.qml:318
 #: src/contents/ui/mobile.qml:280
 #, kde-format
 msgid "Share page"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:597
+#: lib/contents/ui/WebView.qml:595
 #, fuzzy, kde-format
 #| msgid "View source"
 msgid "View page source"
