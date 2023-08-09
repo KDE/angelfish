@@ -105,11 +105,18 @@ Repeater {
             QQC2.SplitView.preferredHeight: 200
             visible: tabDelegate.isDeveloperToolsOpen
 
+            // Prevent other tab content from showing through while loading
+            Rectangle { anchors.fill: parent; color: Kirigami.Theme.backgroundColor }
+
             Loader {
                 id: developerToolsLoader
                 anchors.fill: parent
+                active: showView || viewed
+
+                property bool viewed: false
 
                 onLoaded: {
+                    viewed = true
                     item.inspectedView = pageWebView;
                 }
 
