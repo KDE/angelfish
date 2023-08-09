@@ -30,7 +30,7 @@ Kirigami.ScrollablePage {
                     checked: Settings.showHomeButton
                     onClicked: Settings.showHomeButton = checked
                 }
-                MobileForm.FormDelegateSeparator { above: homepage; visible: homepage.visible }
+                MobileForm.FormDelegateSeparator { above: homepage; below: showHome; visible: homepage.visible }
 
 
                 MobileForm.FormTextFieldDelegate {

@@ -5,34 +5,35 @@ import QtQuick 2.15
 import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.19 as Kirigami
+import org.kde.kirigamiaddons.settings 1.0 as KirigamiSettings
 
-Kirigami.CategorizedSettings {
+KirigamiSettings.CategorizedSettings {
     actions: [
-        Kirigami.SettingAction {
+        KirigamiSettings.SettingAction {
             actionName: "general"
             text: i18n("General")
             icon.name: "org.kde.angelfish"
             page: Qt.resolvedUrl("SettingsGeneral.qml")
         },
-        Kirigami.SettingAction {
+        KirigamiSettings.SettingAction {
             actionName: "adblock"
             text: i18n("Ad Block")
             icon.name: "security-medium"
             page: Qt.resolvedUrl("SettingsAdblock.qml")
         },
-        Kirigami.SettingAction {
+        KirigamiSettings.SettingAction {
             actionName: "webapps"
             text: i18n("Web Apps")
             icon.name: "applications-all"
             page: Qt.resolvedUrl("SettingsWebApps.qml")
         },
-        Kirigami.SettingAction {
+        KirigamiSettings.SettingAction {
             actionName: "searchengine"
             text: i18n("Search Engine")
             icon.name: "preferences-desktop-search"
             page: Qt.resolvedUrl("SettingsSearchEnginePage.qml")
         },
-        Kirigami.SettingAction {
+        KirigamiSettings.SettingAction {
             actionName: "Toolbars"
             text: i18n("Toolbars")
             icon.name: "home"

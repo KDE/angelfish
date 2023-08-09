@@ -13,7 +13,6 @@ import org.kde.angelfish 1.0
 
 Kirigami.ScrollablePage {
     id: adblockSettings
-    enabled: AdblockUrlInterceptor.adblockSupported
 
     title: i18n("Adblock settings")
 
@@ -23,10 +22,12 @@ Kirigami.ScrollablePage {
         main: Kirigami.Action {
             icon.name: "list-add"
             onTriggered: addSheet.open()
+            enabled: AdblockUrlInterceptor.adblockSupported
         }
         right: Kirigami.Action {
             text: i18n("Update lists")
             icon.name: "view-refresh"
+            enabled: AdblockUrlInterceptor.adblockSupported
             onTriggered: {
                 adblockSettings.refreshing = true
                 filterlistModel.refreshLists()
