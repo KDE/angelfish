@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-09 00:45+0000\n"
+"POT-Creation-Date: 2023-08-10 00:45+0000\n"
 "PO-Revision-Date: 2023-08-02 12:41\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -524,7 +524,7 @@ msgid "Not history yet"
 msgstr "没有历史记录"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:14
-#: src/contents/ui/SettingsPage.qml:32
+#: src/contents/ui/SettingsPage.qml:38
 #, kde-format
 msgid "Toolbars"
 msgstr "工具栏"
@@ -727,7 +727,7 @@ msgstr ""
 msgid "Open"
 msgstr "打开"
 
-#: src/contents/ui/SettingsAdblock.qml:18
+#: src/contents/ui/SettingsAdblock.qml:17
 #, kde-format
 msgid "Adblock settings"
 msgstr "广告拦截器设置"
@@ -737,42 +737,42 @@ msgstr "广告拦截器设置"
 msgid "Update lists"
 msgstr "更新列表"
 
-#: src/contents/ui/SettingsAdblock.qml:49
+#: src/contents/ui/SettingsAdblock.qml:50
 #, kde-format
 msgid "The adblock functionality isn't included in this build."
 msgstr "此版软件并未包含广告拦截器功能。"
 
-#: src/contents/ui/SettingsAdblock.qml:55
+#: src/contents/ui/SettingsAdblock.qml:56
 #, kde-format
 msgid "Add filterlist"
 msgstr "添加过滤规则列表"
 
-#: src/contents/ui/SettingsAdblock.qml:60
+#: src/contents/ui/SettingsAdblock.qml:61
 #, kde-format
 msgid "Name"
 msgstr "名称"
 
-#: src/contents/ui/SettingsAdblock.qml:69
+#: src/contents/ui/SettingsAdblock.qml:70
 #, kde-format
 msgid "Url"
 msgstr "URL"
 
-#: src/contents/ui/SettingsAdblock.qml:79
+#: src/contents/ui/SettingsAdblock.qml:80
 #, kde-format
 msgid "Add"
 msgstr "添加"
 
-#: src/contents/ui/SettingsAdblock.qml:144
+#: src/contents/ui/SettingsAdblock.qml:145
 #, kde-format
 msgid "Remove this filter list"
 msgstr "移除此过滤规则列表"
 
-#: src/contents/ui/SettingsAdblock.qml:154
+#: src/contents/ui/SettingsAdblock.qml:155
 #, kde-format
 msgid "add Filterlist"
 msgstr "添加过滤规则列表"
 
-#: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:12
+#: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:14
 #, kde-format
 msgid "General"
 msgstr "常规"
@@ -893,17 +893,17 @@ msgstr "返回"
 msgid "Reload/Stop"
 msgstr "刷新/停止"
 
-#: src/contents/ui/SettingsPage.qml:17
+#: src/contents/ui/SettingsPage.qml:20
 #, kde-format
 msgid "Ad Block"
 msgstr "广告拦截器"
 
-#: src/contents/ui/SettingsPage.qml:22 src/contents/ui/SettingsWebApps.qml:16
+#: src/contents/ui/SettingsPage.qml:26 src/contents/ui/SettingsWebApps.qml:16
 #, kde-format
 msgid "Web Apps"
 msgstr "网页小程序"
 
-#: src/contents/ui/SettingsPage.qml:27
+#: src/contents/ui/SettingsPage.qml:32
 #: src/contents/ui/SettingsSearchEnginePage.qml:16
 #: src/contents/ui/SettingsSearchEnginePage.qml:122
 #, kde-format

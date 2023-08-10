@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-09 00:45+0000\n"
+"POT-Creation-Date: 2023-08-10 00:45+0000\n"
 "PO-Revision-Date: 2023-04-30 09:37+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -529,7 +529,7 @@ msgid "Not history yet"
 msgstr "Oraindik historialik ez"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:14
-#: src/contents/ui/SettingsPage.qml:32
+#: src/contents/ui/SettingsPage.qml:38
 #, kde-format
 msgid "Toolbars"
 msgstr "Tresna-barrak"
@@ -733,7 +733,7 @@ msgstr ""
 msgid "Open"
 msgstr "Ireki"
 
-#: src/contents/ui/SettingsAdblock.qml:18
+#: src/contents/ui/SettingsAdblock.qml:17
 #, kde-format
 msgid "Adblock settings"
 msgstr "Iragarkiak eragozteko ezarpenak"
@@ -743,43 +743,43 @@ msgstr "Iragarkiak eragozteko ezarpenak"
 msgid "Update lists"
 msgstr "Eguneratu zerrendak"
 
-#: src/contents/ui/SettingsAdblock.qml:49
+#: src/contents/ui/SettingsAdblock.qml:50
 #, kde-format
 msgid "The adblock functionality isn't included in this build."
 msgstr ""
 "Iragarkiak eragozteko funtzionalitatea ez dago eraikin honetan barneratuta."
 
-#: src/contents/ui/SettingsAdblock.qml:55
+#: src/contents/ui/SettingsAdblock.qml:56
 #, kde-format
 msgid "Add filterlist"
 msgstr "Gehitu iragazki-zerrenda"
 
-#: src/contents/ui/SettingsAdblock.qml:60
+#: src/contents/ui/SettingsAdblock.qml:61
 #, kde-format
 msgid "Name"
 msgstr "Izena"
 
-#: src/contents/ui/SettingsAdblock.qml:69
+#: src/contents/ui/SettingsAdblock.qml:70
 #, kde-format
 msgid "Url"
 msgstr "URLa"
 
-#: src/contents/ui/SettingsAdblock.qml:79
+#: src/contents/ui/SettingsAdblock.qml:80
 #, kde-format
 msgid "Add"
 msgstr "Gehitu"
 
-#: src/contents/ui/SettingsAdblock.qml:144
+#: src/contents/ui/SettingsAdblock.qml:145
 #, kde-format
 msgid "Remove this filter list"
 msgstr "Kendu iragazki-zerrenda hau"
 
-#: src/contents/ui/SettingsAdblock.qml:154
+#: src/contents/ui/SettingsAdblock.qml:155
 #, kde-format
 msgid "add Filterlist"
 msgstr "Gehitu iragazki-zerrenda"
 
-#: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:12
+#: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:14
 #, kde-format
 msgid "General"
 msgstr "Orokorra"
@@ -910,17 +910,17 @@ msgstr "Joan atzera"
 msgid "Reload/Stop"
 msgstr "Birzamatu/Gelditu"
 
-#: src/contents/ui/SettingsPage.qml:17
+#: src/contents/ui/SettingsPage.qml:20
 #, kde-format
 msgid "Ad Block"
 msgstr "Iragarkiak eragoztea"
 
-#: src/contents/ui/SettingsPage.qml:22 src/contents/ui/SettingsWebApps.qml:16
+#: src/contents/ui/SettingsPage.qml:26 src/contents/ui/SettingsWebApps.qml:16
 #, kde-format
 msgid "Web Apps"
 msgstr "Web aplikazioak"
 
-#: src/contents/ui/SettingsPage.qml:27
+#: src/contents/ui/SettingsPage.qml:32
 #: src/contents/ui/SettingsSearchEnginePage.qml:16
 #: src/contents/ui/SettingsSearchEnginePage.qml:122
 #, kde-format

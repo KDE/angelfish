@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-09 00:45+0000\n"
+"POT-Creation-Date: 2023-08-10 00:45+0000\n"
 "PO-Revision-Date: 2023-02-09 01:34+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@linux.org.tw>\n"
@@ -541,7 +541,7 @@ msgid "Not history yet"
 msgstr "還沒有歷史"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:14
-#: src/contents/ui/SettingsPage.qml:32
+#: src/contents/ui/SettingsPage.qml:38
 #, kde-format
 msgid "Toolbars"
 msgstr "工具列"
@@ -749,7 +749,7 @@ msgstr ""
 msgid "Open"
 msgstr "開啟"
 
-#: src/contents/ui/SettingsAdblock.qml:18
+#: src/contents/ui/SettingsAdblock.qml:17
 #, kde-format
 msgid "Adblock settings"
 msgstr "廣告阻擋設定"
@@ -759,43 +759,43 @@ msgstr "廣告阻擋設定"
 msgid "Update lists"
 msgstr "更新列表"
 
-#: src/contents/ui/SettingsAdblock.qml:49
+#: src/contents/ui/SettingsAdblock.qml:50
 #, kde-format
 msgid "The adblock functionality isn't included in this build."
 msgstr "廣告阻擋功能沒有包含在這個建置版裡。"
 
-#: src/contents/ui/SettingsAdblock.qml:55
+#: src/contents/ui/SettingsAdblock.qml:56
 #, kde-format
 msgid "Add filterlist"
 msgstr "新增過濾列表"
 
-#: src/contents/ui/SettingsAdblock.qml:60
+#: src/contents/ui/SettingsAdblock.qml:61
 #, kde-format
 msgid "Name"
 msgstr "名稱"
 
-#: src/contents/ui/SettingsAdblock.qml:69
+#: src/contents/ui/SettingsAdblock.qml:70
 #, kde-format
 msgid "Url"
 msgstr "網址"
 
-#: src/contents/ui/SettingsAdblock.qml:79
+#: src/contents/ui/SettingsAdblock.qml:80
 #, kde-format
 msgid "Add"
 msgstr "新增"
 
-#: src/contents/ui/SettingsAdblock.qml:144
+#: src/contents/ui/SettingsAdblock.qml:145
 #, kde-format
 msgid "Remove this filter list"
 msgstr "移除這個過濾列表"
 
-#: src/contents/ui/SettingsAdblock.qml:154
+#: src/contents/ui/SettingsAdblock.qml:155
 #, fuzzy, kde-format
 #| msgid "Add filterlist"
 msgid "add Filterlist"
 msgstr "新增過濾列表"
 
-#: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:12
+#: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:14
 #, kde-format
 msgid "General"
 msgstr "一般"
@@ -917,17 +917,17 @@ msgstr "返回"
 msgid "Reload/Stop"
 msgstr "重新載入/停止"
 
-#: src/contents/ui/SettingsPage.qml:17
+#: src/contents/ui/SettingsPage.qml:20
 #, kde-format
 msgid "Ad Block"
 msgstr "廣告阻擋"
 
-#: src/contents/ui/SettingsPage.qml:22 src/contents/ui/SettingsWebApps.qml:16
+#: src/contents/ui/SettingsPage.qml:26 src/contents/ui/SettingsWebApps.qml:16
 #, kde-format
 msgid "Web Apps"
 msgstr "網頁應用程式"
 
-#: src/contents/ui/SettingsPage.qml:27
+#: src/contents/ui/SettingsPage.qml:32
 #: src/contents/ui/SettingsSearchEnginePage.qml:16
 #: src/contents/ui/SettingsSearchEnginePage.qml:122
 #, kde-format

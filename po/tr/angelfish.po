@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-09 00:45+0000\n"
+"POT-Creation-Date: 2023-08-10 00:45+0000\n"
 "PO-Revision-Date: 2023-06-11 21:35+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -528,7 +528,7 @@ msgid "Not history yet"
 msgstr "Henüz geçmiş yok"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:14
-#: src/contents/ui/SettingsPage.qml:32
+#: src/contents/ui/SettingsPage.qml:38
 #, kde-format
 msgid "Toolbars"
 msgstr "Araç Çubukları"
@@ -732,7 +732,7 @@ msgstr ""
 msgid "Open"
 msgstr "Aç"
 
-#: src/contents/ui/SettingsAdblock.qml:18
+#: src/contents/ui/SettingsAdblock.qml:17
 #, kde-format
 msgid "Adblock settings"
 msgstr "Reklam engelleme ayarları"
@@ -742,42 +742,42 @@ msgstr "Reklam engelleme ayarları"
 msgid "Update lists"
 msgstr "Listeleri güncelle"
 
-#: src/contents/ui/SettingsAdblock.qml:49
+#: src/contents/ui/SettingsAdblock.qml:50
 #, kde-format
 msgid "The adblock functionality isn't included in this build."
 msgstr "Reklam engelleme işlevi bu yapıya dahil değildir."
 
-#: src/contents/ui/SettingsAdblock.qml:55
+#: src/contents/ui/SettingsAdblock.qml:56
 #, kde-format
 msgid "Add filterlist"
 msgstr "Süzgeç listesi ekle"
 
-#: src/contents/ui/SettingsAdblock.qml:60
+#: src/contents/ui/SettingsAdblock.qml:61
 #, kde-format
 msgid "Name"
 msgstr "Ad"
 
-#: src/contents/ui/SettingsAdblock.qml:69
+#: src/contents/ui/SettingsAdblock.qml:70
 #, kde-format
 msgid "Url"
 msgstr "Url"
 
-#: src/contents/ui/SettingsAdblock.qml:79
+#: src/contents/ui/SettingsAdblock.qml:80
 #, kde-format
 msgid "Add"
 msgstr "Ekle"
 
-#: src/contents/ui/SettingsAdblock.qml:144
+#: src/contents/ui/SettingsAdblock.qml:145
 #, kde-format
 msgid "Remove this filter list"
 msgstr "Bu süzgeç listesini kaldır"
 
-#: src/contents/ui/SettingsAdblock.qml:154
+#: src/contents/ui/SettingsAdblock.qml:155
 #, kde-format
 msgid "add Filterlist"
 msgstr "süzgeç listesi ekle"
 
-#: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:12
+#: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:14
 #, kde-format
 msgid "General"
 msgstr "Genel"
@@ -906,17 +906,17 @@ msgstr "Geri git"
 msgid "Reload/Stop"
 msgstr "Yeniden Yükle/Durdur"
 
-#: src/contents/ui/SettingsPage.qml:17
+#: src/contents/ui/SettingsPage.qml:20
 #, kde-format
 msgid "Ad Block"
 msgstr "Reklam Engelleme"
 
-#: src/contents/ui/SettingsPage.qml:22 src/contents/ui/SettingsWebApps.qml:16
+#: src/contents/ui/SettingsPage.qml:26 src/contents/ui/SettingsWebApps.qml:16
 #, kde-format
 msgid "Web Apps"
 msgstr "Web Uygulamaları"
 
-#: src/contents/ui/SettingsPage.qml:27
+#: src/contents/ui/SettingsPage.qml:32
 #: src/contents/ui/SettingsSearchEnginePage.qml:16
 #: src/contents/ui/SettingsSearchEnginePage.qml:122
 #, kde-format

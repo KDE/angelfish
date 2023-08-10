@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-09 00:45+0000\n"
+"POT-Creation-Date: 2023-08-10 00:45+0000\n"
 "PO-Revision-Date: 2023-04-24 12:47+0300\n"
 "Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
 "Language-Team: Basealt Translation Team\n"
@@ -527,7 +527,7 @@ msgid "Not history yet"
 msgstr "В журнале ещё нет записей"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:14
-#: src/contents/ui/SettingsPage.qml:32
+#: src/contents/ui/SettingsPage.qml:38
 #, kde-format
 msgid "Toolbars"
 msgstr "Панели инструментов"
@@ -733,7 +733,7 @@ msgstr ""
 msgid "Open"
 msgstr "Открыть"
 
-#: src/contents/ui/SettingsAdblock.qml:18
+#: src/contents/ui/SettingsAdblock.qml:17
 #, kde-format
 msgid "Adblock settings"
 msgstr "Параметры блокировки рекламы"
@@ -743,43 +743,43 @@ msgstr "Параметры блокировки рекламы"
 msgid "Update lists"
 msgstr "Обновить списки"
 
-#: src/contents/ui/SettingsAdblock.qml:49
+#: src/contents/ui/SettingsAdblock.qml:50
 #, kde-format
 msgid "The adblock functionality isn't included in this build."
 msgstr ""
 "В эту сборку не включена функциональная возможность блокировки рекламы."
 
-#: src/contents/ui/SettingsAdblock.qml:55
+#: src/contents/ui/SettingsAdblock.qml:56
 #, kde-format
 msgid "Add filterlist"
 msgstr "Добавить список фильтров"
 
-#: src/contents/ui/SettingsAdblock.qml:60
+#: src/contents/ui/SettingsAdblock.qml:61
 #, kde-format
 msgid "Name"
 msgstr "Название"
 
-#: src/contents/ui/SettingsAdblock.qml:69
+#: src/contents/ui/SettingsAdblock.qml:70
 #, kde-format
 msgid "Url"
 msgstr "URL"
 
-#: src/contents/ui/SettingsAdblock.qml:79
+#: src/contents/ui/SettingsAdblock.qml:80
 #, kde-format
 msgid "Add"
 msgstr "Добавить"
 
-#: src/contents/ui/SettingsAdblock.qml:144
+#: src/contents/ui/SettingsAdblock.qml:145
 #, kde-format
 msgid "Remove this filter list"
 msgstr "Удалить этот список фильтров"
 
-#: src/contents/ui/SettingsAdblock.qml:154
+#: src/contents/ui/SettingsAdblock.qml:155
 #, kde-format
 msgid "add Filterlist"
 msgstr "Добавить список фильтров"
 
-#: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:12
+#: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:14
 #, kde-format
 msgid "General"
 msgstr "Общие"
@@ -912,17 +912,17 @@ msgstr "На предыдущую страницу"
 msgid "Reload/Stop"
 msgstr "Обновить/Остановить"
 
-#: src/contents/ui/SettingsPage.qml:17
+#: src/contents/ui/SettingsPage.qml:20
 #, kde-format
 msgid "Ad Block"
 msgstr "Блокировка рекламы"
 
-#: src/contents/ui/SettingsPage.qml:22 src/contents/ui/SettingsWebApps.qml:16
+#: src/contents/ui/SettingsPage.qml:26 src/contents/ui/SettingsWebApps.qml:16
 #, kde-format
 msgid "Web Apps"
 msgstr "Веб-приложения"
 
-#: src/contents/ui/SettingsPage.qml:27
+#: src/contents/ui/SettingsPage.qml:32
 #: src/contents/ui/SettingsSearchEnginePage.qml:16
 #: src/contents/ui/SettingsSearchEnginePage.qml:122
 #, kde-format

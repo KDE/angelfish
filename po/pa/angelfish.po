@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-09 00:45+0000\n"
+"POT-Creation-Date: 2023-08-10 00:45+0000\n"
 "PO-Revision-Date: 2022-01-01 09:26-0800\n"
 "Last-Translator: A S Alam <aalam@satluj.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -543,7 +543,7 @@ msgid "Not history yet"
 msgstr "ਹਾਲੇ ਕੋਈ ਅਤੀਤੀ ਨਹੀਂ ਹੈ"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:14
-#: src/contents/ui/SettingsPage.qml:32
+#: src/contents/ui/SettingsPage.qml:38
 #, kde-format
 msgid "Toolbars"
 msgstr "ਟੂਲਬਾਰ"
@@ -752,7 +752,7 @@ msgstr ""
 msgid "Open"
 msgstr "ਖੋਲ੍ਹੋ"
 
-#: src/contents/ui/SettingsAdblock.qml:18
+#: src/contents/ui/SettingsAdblock.qml:17
 #, kde-format
 msgid "Adblock settings"
 msgstr "ਇਸ਼ਤਿਹਾਰ-ਰੋਕੂ ਸੈਟਿੰਗਾਂ"
@@ -762,43 +762,43 @@ msgstr "ਇਸ਼ਤਿਹਾਰ-ਰੋਕੂ ਸੈਟਿੰਗਾਂ"
 msgid "Update lists"
 msgstr "ਲਿਸਟਾਂ ਨੂੰ ਅੱਪਡੇਟ ਕਰੋ"
 
-#: src/contents/ui/SettingsAdblock.qml:49
+#: src/contents/ui/SettingsAdblock.qml:50
 #, kde-format
 msgid "The adblock functionality isn't included in this build."
 msgstr "ਇਸ਼ਤਿਹਾਰ-ਰੋਕੂ ਸਹੂਲਤਾਂ ਇਸ ਬਿਲਡ ਵਿੱਚ ਸ਼ਾਮਲ ਨਹੀਂ ਹਨ।"
 
-#: src/contents/ui/SettingsAdblock.qml:55
+#: src/contents/ui/SettingsAdblock.qml:56
 #, kde-format
 msgid "Add filterlist"
 msgstr "ਫਿਲਟਰ-ਸੂਚੀ ਜੋੜੋ"
 
-#: src/contents/ui/SettingsAdblock.qml:60
+#: src/contents/ui/SettingsAdblock.qml:61
 #, kde-format
 msgid "Name"
 msgstr "ਨਾਂ"
 
-#: src/contents/ui/SettingsAdblock.qml:69
+#: src/contents/ui/SettingsAdblock.qml:70
 #, kde-format
 msgid "Url"
 msgstr "URL"
 
-#: src/contents/ui/SettingsAdblock.qml:79
+#: src/contents/ui/SettingsAdblock.qml:80
 #, kde-format
 msgid "Add"
 msgstr "ਜੋੜੋ"
 
-#: src/contents/ui/SettingsAdblock.qml:144
+#: src/contents/ui/SettingsAdblock.qml:145
 #, kde-format
 msgid "Remove this filter list"
 msgstr "ਇਹ ਫਿਲਟਰ ਸੂਚੀ ਨੂੰ ਹਟਾਓ"
 
-#: src/contents/ui/SettingsAdblock.qml:154
+#: src/contents/ui/SettingsAdblock.qml:155
 #, fuzzy, kde-format
 #| msgid "Add filterlist"
 msgid "add Filterlist"
 msgstr "ਫਿਲਟਰ-ਸੂਚੀ ਜੋੜੋ"
 
-#: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:12
+#: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:14
 #, kde-format
 msgid "General"
 msgstr "ਆਮ"
@@ -917,17 +917,17 @@ msgstr "ਪਿੱਛੇ ਜਾਓ"
 msgid "Reload/Stop"
 msgstr "ਮੁੜ-ਲੋਡ ਕਰੋ/ਰੋਕੋ"
 
-#: src/contents/ui/SettingsPage.qml:17
+#: src/contents/ui/SettingsPage.qml:20
 #, kde-format
 msgid "Ad Block"
 msgstr "ਇਸ਼ਤਿਹਾਰ ਪਾਬੰਦੀ"
 
-#: src/contents/ui/SettingsPage.qml:22 src/contents/ui/SettingsWebApps.qml:16
+#: src/contents/ui/SettingsPage.qml:26 src/contents/ui/SettingsWebApps.qml:16
 #, kde-format
 msgid "Web Apps"
 msgstr "ਵੈੱਬ ਐਪਾਂ"
 
-#: src/contents/ui/SettingsPage.qml:27
+#: src/contents/ui/SettingsPage.qml:32
 #: src/contents/ui/SettingsSearchEnginePage.qml:16
 #: src/contents/ui/SettingsSearchEnginePage.qml:122
 #, kde-format
