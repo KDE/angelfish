@@ -27,7 +27,7 @@ Kirigami.ScrollablePage {
         }
         delegate: Kirigami.SwipeListItem {
             id: downloadDelegate
-            required property WebEngineDownloadItem download
+            required property @WEBENGINE_DOWNLOAD_CLASS@ download
             required property var mimeTypeIcon
             required property string fileName
             required property url url
@@ -39,17 +39,17 @@ Kirigami.ScrollablePage {
             actions: [
                 Kirigami.Action {
                     text: i18n("Cancel")
-                    icon.name: downloadDelegate.download.state === WebEngineDownloadItem.DownloadInProgress ? "dialog-cancel" : "list-remove"
+                    icon.name: downloadDelegate.download.state === @WEBENGINE_DOWNLOAD_CLASS@.DownloadInProgress ? "dialog-cancel" : "list-remove"
                     onTriggered: downloadsModel.removeDownload(index)
                 },
                 Kirigami.Action {
-                    visible: !downloadDelegate.download.isPaused && downloadDelegate.download.state === WebEngineDownloadItem.DownloadInProgress
+                    visible: !downloadDelegate.download.isPaused && downloadDelegate.download.state === @WEBENGINE_DOWNLOAD_CLASS@.DownloadInProgress
                     text: i18n("Pause")
                     icon.name: "media-playback-pause"
                     onTriggered: downloadDelegate.download.pause()
                 },
                 Kirigami.Action {
-                    visible: downloadDelegate.download.isPaused && downloadDelegate.download.state === WebEngineDownloadItem.DownloadInProgress
+                    visible: downloadDelegate.download.isPaused && downloadDelegate.download.state === @WEBENGINE_DOWNLOAD_CLASS@.DownloadInProgress
                     text: i18n("Continue")
                     icon.name: "media-playback-start"
                     onTriggered: downloadDelegate.download.resume();
@@ -78,24 +78,24 @@ Kirigami.ScrollablePage {
                     }
                     Controls.ProgressBar {
                         Layout.fillWidth: true
-                        visible: downloadDelegate.download.state === WebEngineDownloadItem.DownloadInProgress
+                        visible: downloadDelegate.download.state === @WEBENGINE_DOWNLOAD_CLASS@.DownloadInProgress
                         from: 0
                         value: downloadDelegate.download.receivedBytes
                         to: downloadDelegate.download.totalBytes
                     }
                     Controls.Label {
-                        visible: downloadDelegate.download.state !== WebEngineDownloadItem.DownloadInProgress
+                        visible: downloadDelegate.download.state !== @WEBENGINE_DOWNLOAD_CLASS@.DownloadInProgress
                         text: {
                             switch (downloadDelegate.download.state) {
-                            case WebEngineDownloadItem.DownloadRequested:
+                            case @WEBENGINE_DOWNLOAD_CLASS@.DownloadRequested:
                                 return i18nc("download state", "Starting…");
-                            case WebEngineDownloadItem.DownloadCompleted:
+                            case @WEBENGINE_DOWNLOAD_CLASS@.DownloadCompleted:
                                 return i18n("Completed");
-                            case WebEngineDownloadItem.DownloadCancelled:
+                            case @WEBENGINE_DOWNLOAD_CLASS@.DownloadCancelled:
                                 return i18n("Cancelled");
-                            case WebEngineDownloadItem.DownloadInterrupted:
+                            case @WEBENGINE_DOWNLOAD_CLASS@.DownloadInterrupted:
                                 return i18nc("download state", "Interrupted");
-                            case WebEngineDownloadItem.DownloadInProgress:
+                            case @WEBENGINE_DOWNLOAD_CLASS@.DownloadInProgress:
                                 return i18nc("download state", "In progress")
                             }
                         }

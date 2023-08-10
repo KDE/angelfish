@@ -19,7 +19,7 @@
         <file alias="InputSheet.qml">contents/ui/InputSheet.qml</file>
         <file alias="UrlDelegate.qml">contents/ui/UrlDelegate.qml</file>
         <file alias="Bookmarks.qml">contents/ui/Bookmarks.qml</file>
-        <file alias="Downloads.qml">contents/ui/Downloads.qml</file>
+        <file alias="Downloads.qml">@CMAKE_CURRENT_BINARY_DIR@/contents/ui/Downloads.qml</file>
         <file alias="SettingsWebApps.qml">contents/ui/SettingsWebApps.qml</file>
         <file alias="desktop.qml">@CMAKE_CURRENT_BINARY_DIR@/contents/ui/desktop/desktop.qml</file>
         <file alias="DesktopTabs.qml">contents/ui/desktop/Tabs.qml</file>
