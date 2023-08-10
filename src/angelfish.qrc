@@ -5,7 +5,7 @@
         <file alias="domdistiller.js">dom-distiller-dist/domdistiller.js</file>
         <file alias="ShareSheet.qml">contents/ui/ShareSheet.qml</file>
         <file alias="AdblockFilterDownloadQuestion.qml">contents/ui/AdblockFilterDownloadQuestion.qml</file>
-        <file alias="SettingsAdblock.qml">contents/ui/SettingsAdblock.qml</file>
+        <file alias="SettingsAdblock.qml">@CMAKE_CURRENT_BINARY_DIR@/contents/ui/SettingsAdblock.qml</file>
         <file alias="SettingsPage.qml">contents/ui/SettingsPage.qml</file>
         <file alias="SettingsNavigationBarPage.qml">contents/ui/SettingsNavigationBarPage.qml</file>
         <file alias="SettingsSearchEnginePage.qml">contents/ui/SettingsSearchEnginePage.qml</file>

@@ -18,7 +18,7 @@ Kirigami.ScrollablePage {
 
     Kirigami.Theme.colorSet: Kirigami.Settings.isMobile ? Kirigami.Theme.View : Kirigami.Theme.Window
 
-    actions: [
+    @KIRIGAMI_ACTIONS@: [
         Kirigami.Action {
             icon.name: "list-add"
             onTriggered: addSheet.open()

@@ -96,10 +96,12 @@ if(QT_MAJOR_VERSION STREQUAL "6")
     set(QTGRAPHICALEFFECTS_MODULE "Qt5Compat.GraphicalEffects")
     set(QTWEBENGINE_MODULE_VERSION "")
     set(QTWEBENGINE_NEW_WINDOWS_SIGNAL "onNewWindowRequested")
+    set(KIRIGAMI_ACTIONS "actions")
 else()
     set(QTGRAPHICALEFFECTS_MODULE "QtGraphicalEffects 1.0")
     set(QTWEBENGINE_MODULE_VERSION "1.10")
     set(QTWEBENGINE_NEW_WINDOWS_SIGNAL "onNewViewRequested")
+    set(KIRIGAMI_ACTIONS "actions.contextualActions")
 endif()
 
 ################# build and install #################
