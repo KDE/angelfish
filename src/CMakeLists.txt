@@ -6,6 +6,7 @@
 configure_file(contents/ui/desktop/desktop.qml ${CMAKE_CURRENT_BINARY_DIR}/contents/ui/desktop/desktop.qml)
 configure_file(contents/ui/mobile.qml ${CMAKE_CURRENT_BINARY_DIR}/contents/ui/mobile.qml)
 configure_file(contents/ui/SettingsAdblock.qml ${CMAKE_CURRENT_BINARY_DIR}/contents/ui/SettingsAdblock.qml)
+configure_file(contents/ui/Downloads.qml ${CMAKE_CURRENT_BINARY_DIR}/contents/ui/Downloads.qml)
 
 configure_file(angelfish.qrc ${CMAKE_CURRENT_SOURCE_DIR}/angelfish.generated.qrc)
 
