@@ -43,3 +43,5 @@ QCoro::Task<> UrlObserver::updateBookmarked()
         Q_EMIT bookmarkedChanged(m_bookmarked);
     }
 }
+
+#include "moc_urlobserver.cpp"

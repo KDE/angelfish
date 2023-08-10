@@ -64,3 +64,5 @@ QString UrlUtils::htmlFormattedUrl(const QString &url)
     const QString path = parsedUrl.path();
     return QStringView(uR"(%1<font size="2">%2</font>)").arg(parsedUrl.host(), path == QStringView(u"/") ? QString() : path);
 }
+
+#include "moc_urlutils.cpp"

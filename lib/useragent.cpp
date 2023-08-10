@@ -58,3 +58,5 @@ QStringView UserAgent::extractValueFromAgent(const QStringView key)
     }
     return QStringView(m_defaultUserAgent).mid(index, endIndex - index);
 }
+
+#include "moc_useragent.cpp"

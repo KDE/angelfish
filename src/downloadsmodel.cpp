@@ -70,3 +70,5 @@ void DownloadsModel::removeDownload(const int index)
     DownloadManager::instance().removeDownload(index);
     endRemoveRows();
 }
+
+#include "moc_downloadsmodel.cpp"

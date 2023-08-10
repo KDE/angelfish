@@ -152,3 +152,5 @@ QString WebAppManager::webAppCommand()
 
     return QStringLiteral("angelfish-webapp");
 }
+
+#include "moc_webappmanager.cpp"

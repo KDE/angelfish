@@ -155,3 +155,5 @@ void BookmarksHistoryModel::clear()
     m_entries.clear();
     endResetModel();
 }
+
+#include "moc_bookmarkshistorymodel.cpp"

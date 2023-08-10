@@ -73,3 +73,5 @@ QImage WebAppCreator::fetchIcon(const QString &url)
 
     return QImage();
 }
+
+#include "moc_webappcreator.cpp"

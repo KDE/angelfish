@@ -50,3 +50,5 @@ void WebAppManagerModel::removeApp(int index)
     m_webAppMngr.removeApp(m_webAppMngr.applications()[index].name);
     endRemoveRows();
 }
+
+#include "moc_webappmanagermodel.cpp"

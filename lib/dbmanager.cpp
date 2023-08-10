@@ -177,3 +177,5 @@ QCoro::Task<> DBManager::updateIcon(QQmlEngine *engine, const QString url, const
     co_await updateIconRecord(QStringLiteral("bookmarks"), url, updatedSource);
     co_await updateIconRecord(QStringLiteral("history"), url, updatedSource);
 }
+
+#include "moc_dbmanager.cpp"

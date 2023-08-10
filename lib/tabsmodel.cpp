@@ -448,3 +448,5 @@ QJsonObject TabState::toJson() const
         {QStringLiteral("isDeveloperToolsOpen"), m_isDeveloperToolsOpen},
     };
 }
+
+#include "moc_tabsmodel.cpp"

@@ -29,3 +29,5 @@ const QString &DomDistiller::applyScript() const
 {
     return m_applyScript;
 }
+
+#include "moc_domdistiller.cpp"

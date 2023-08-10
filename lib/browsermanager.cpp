@@ -92,3 +92,5 @@ BrowserManager *BrowserManager::instance()
 
     return s_instance;
 }
+
+#include "moc_browsermanager.cpp"

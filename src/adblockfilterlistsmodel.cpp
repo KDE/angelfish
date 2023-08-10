@@ -61,3 +61,5 @@ void AdblockFilterListsModel::resetAdblock()
 {
     AdblockUrlInterceptor::instance().resetAdblock();
 }
+
+#include "moc_adblockfilterlistsmodel.cpp"

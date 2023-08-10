@@ -229,3 +229,5 @@ void q_cdebug_adblock(const char *message)
 {
     qCDebug(AdblockCategory) << message;
 }
+
+#include "moc_adblockurlinterceptor.cpp"

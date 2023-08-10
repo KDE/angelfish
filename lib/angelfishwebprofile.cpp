@@ -100,3 +100,5 @@ void AngelfishWebProfile::setUrlInterceptor(QWebEngineUrlRequestInterceptor *url
     m_urlInterceptor = urlRequestInterceptor;
     Q_EMIT urlInterceptorChanged();
 }
+
+#include "moc_angelfishwebprofile.cpp"

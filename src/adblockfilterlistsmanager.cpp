@@ -144,3 +144,5 @@ void AdblockFilterListsManager::removeFilterList(const int index)
     m_filterLists.removeAt(index);
     writeToConfig(m_filterLists);
 }
+
+#include "moc_adblockfilterlistsmanager.cpp"
