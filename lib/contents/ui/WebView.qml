@@ -125,7 +125,7 @@ WebEngineView {
     }
 
     focus: true
-    onLoadingChanged: {
+    onLoadingChanged: loadRequest => {
         //print("Loading: " + loading);
         print("    url: " + loadRequest.url + " " + loadRequest.status)
         //print("   icon: " + webEngineView.icon)
