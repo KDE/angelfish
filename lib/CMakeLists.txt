@@ -1,4 +1,5 @@
 configure_file(contents/ui/WebView.qml ${CMAKE_CURRENT_BINARY_DIR}/contents/ui/WebView.qml @ONLY)
+configure_file(contents/ui/PrintPreview.qml ${CMAKE_CURRENT_BINARY_DIR}/contents/ui/PrintPreview.qml @ONLY)
 
 configure_file(resources.qrc ${CMAKE_CURRENT_SOURCE_DIR}/resources-angelfish.generated.qrc)
 

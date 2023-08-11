@@ -9,7 +9,7 @@
         <file alias="JavaScriptDialogSheet.qml">contents/ui/JavaScriptDialogSheet.qml</file>
         <file alias="WebDeveloperTools.qml">contents/ui/WebDeveloperTools.qml</file>
         <file alias="Questions.qml">contents/ui/Questions.qml</file>
-        <file alias="PrintPreview.qml">contents/ui/PrintPreview.qml</file>
+        <file alias="PrintPreview.qml">@CMAKE_CURRENT_BINARY_DIR@/contents/ui/PrintPreview.qml</file>
         <file>contents/migrations/2022-08-14-223019_init/up.sql</file>
     </qresource>
 </RCC>
