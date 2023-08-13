@@ -6,8 +6,9 @@ use std::fs;
 use std::io::Write;
 
 use adblock::{
-    engine::Engine,
     lists::{FilterSet, ParseOptions},
+    request::Request,
+    Engine,
 };
 
 use crate::adblock_debug;
@@ -83,16 +84,18 @@ impl Adblock {
     /// the request should be blocked or redirected.
     fn should_block(&self, url: &str, source_url: &str, request_type: &str) -> ffi::AdblockResult {
         if let Some(engine) = &self.blocker {
-            let blocker_result = engine.check_network_urls(url, source_url, request_type);
-            adblock_debug!("Blocker input: {}, {}, {}", url, source_url, request_type);
-            adblock_debug!("Blocker result: {:?}", blocker_result);
+            if let Ok(request) = Request::new(url, source_url, request_type) {
+                let blocker_result = engine.check_network_request(&request);
+                adblock_debug!("Blocker input: {}, {}, {}", url, source_url, request_type);
+                adblock_debug!("Blocker result: {:?}", blocker_result);
 
-            return ffi::AdblockResult {
-                matched: blocker_result.matched,
-                important: blocker_result.important,
-                redirect: blocker_result.redirect.unwrap_or_default(),
-                rewritten_url: blocker_result.rewritten_url.unwrap_or_default(),
-            };
+                return ffi::AdblockResult {
+                    matched: blocker_result.matched,
+                    important: blocker_result.important,
+                    redirect: blocker_result.redirect.unwrap_or_default(),
+                    rewritten_url: blocker_result.rewritten_url.unwrap_or_default(),
+                };
+            }
         } else {
             adblock_debug!("Adblock engine doesn't exist! Probably it failed to load or restore");
         }

@@ -16,5 +16,5 @@ crate-type = ["staticlib"]
 cxx-build = "1.0"
 
 [dependencies]
-adblock = {version = "0.7", default-features = false, features = [ "full-regex-handling", "object-pooling", "embedded-domain-resolver" ]}
+adblock = {version = "0.8", default-features = false, features = [ "full-regex-handling", "object-pooling", "embedded-domain-resolver" ]}
 cxx = "1.0"
