@@ -394,7 +394,6 @@ RowLayout {
         Kirigami.Action {
             text: i18n("Close Tab")
             icon.name: "tab-close"
-            shortcut: "Ctrl+W"
             onTriggered: tabs.tabsModel.closeTab(tabMenu.index)
         }
     }
