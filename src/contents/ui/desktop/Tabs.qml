@@ -333,8 +333,8 @@ RowLayout {
         id: menu
         Instantiator {
             model: tabs.model
-            onObjectAdded: menu.insertItem(index, object)
-            onObjectRemoved: menu.removeItem(object)
+            onObjectAdded: (index, object) => menu.insertItem(index, object)
+            onObjectRemoved: (index, object) => menu.removeItem(object)
             delegate: QQC2.MenuItem {
                 icon.name: tabs.itemAt(model.index).icon
                 text: tabs.itemAt(model.index).title

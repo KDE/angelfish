@@ -344,7 +344,7 @@ classes
         id: printPreview
     }
 
-    onLinkHovered: hoveredLink.text = hoveredUrl
+    onLinkHovered: hoveredUrl => hoveredLink.text = hoveredUrl
 
     QQC2.Label {
         id: hoveredLink
