@@ -80,7 +80,9 @@ void AngelfishWebProfile::showNotification(QWebEngineNotification *webNotificati
     notification->setPixmap(QPixmap::fromImage(webNotification->icon()));
 
     connect(notification, &KNotification::closed, webNotification, &QWebEngineNotification::close);
-    connect(notification, &KNotification::defaultActivated, webNotification, &QWebEngineNotification::click);
+
+    auto defaultAction = notification->addDefaultAction(i18n("Open"));
+    connect(defaultAction, &KNotificationAction::activated, webNotification, &QWebEngineNotification::click);
 
     notification->sendEvent();
 }
