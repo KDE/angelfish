@@ -2,6 +2,7 @@
 <component type="desktop-application">
   <id>org.kde.angelfish</id>
   <name>Angelfish Web Browser</name>
+  <name xml:lang="ar">متصفح وبّ انجيلفيش</name>
   <name xml:lang="az">Angelfish Veb Bələdçisi</name>
   <name xml:lang="ca">Navegador web Angelfish</name>
   <name xml:lang="ca-valencia">Navegador web Angelfish</name>
@@ -38,6 +39,7 @@
   <name xml:lang="zh-CN">Angelfish 网页浏览器</name>
   <name xml:lang="zh-TW">Angelfish 網頁瀏覽器</name>
   <summary>Webbrowser for mobile devices</summary>
+  <summary xml:lang="ar">متصفح وبّ للأجهزة المحمولة</summary>
   <summary xml:lang="az">Mobil qurğular üçün Veb_Bələdçi</summary>
   <summary xml:lang="ca">Navegador web per a dispositius mòbils</summary>
   <summary xml:lang="ca-valencia">Navegador web per a dispositius mòbils</summary>
@@ -79,6 +81,7 @@
   <project_license>GPL-2.0-or-later</project_license>
   <content_rating type="oars-1.1"/>
   <developer_name>KDE Community</developer_name>
+  <developer_name xml:lang="ar">مجتمع كيدي</developer_name>
   <developer_name xml:lang="az">KDE İcması</developer_name>
   <developer_name xml:lang="ca">La comunitat KDE</developer_name>
   <developer_name xml:lang="ca-valencia">La comunitat KDE</developer_name>
@@ -118,6 +121,7 @@
   <developer_name xml:lang="zh-TW">KDE 社群</developer_name>
   <description>
     <p>Angelfish is a modern mobile webbrowser</p>
+    <p xml:lang="ar">انجيلفيش هو متصفح وبّ حديث للأجهزة المحمولة</p>
     <p xml:lang="az">Angelfish müasir mobil veb_bələdçidir</p>
     <p xml:lang="ca">L'Angelfish és un navegador web modern per a mòbils</p>
     <p xml:lang="ca-valencia">Angelfish és un navegador web modern per a mòbils</p>
@@ -156,6 +160,7 @@
     <p xml:lang="zh-CN">Angelfish 是一款现代化的移动设备网络浏览器</p>
     <p xml:lang="zh-TW">Angelfish 是款現代化的行動網頁瀏覽器</p>
     <p>It supports typical browser features, such as</p>
+    <p xml:lang="ar">يدعم مزايا المتصفح التقليدي مثل</p>
     <p xml:lang="az">O, veb bələdçilərə xas aşağıda göstərilən bir çox xüsusiyyətləri dəstəkləyir</p>
     <p xml:lang="ca">Permet les funcionalitats típiques de navegació, com</p>
     <p xml:lang="ca-valencia">Permet les característiques típiques de navegació, com</p>
@@ -195,6 +200,7 @@
     <p xml:lang="zh-TW">此瀏覽器支援一般瀏覽器會有的功能，例如</p>
     <ul>
       <li>bookmarks</li>
+      <li xml:lang="ar">المفضلة</li>
       <li xml:lang="az">əlfəcinlər</li>
       <li xml:lang="ca">adreces d'interès</li>
       <li xml:lang="ca-valencia">adreces d'interés</li>
@@ -233,6 +239,7 @@
       <li xml:lang="zh-CN">书签</li>
       <li xml:lang="zh-TW">書籤</li>
       <li>history</li>
+      <li xml:lang="ar">السجل</li>
       <li xml:lang="az">tarixçə</li>
       <li xml:lang="ca">historial</li>
       <li xml:lang="ca-valencia">historial</li>
@@ -271,6 +278,7 @@
       <li xml:lang="zh-CN">历史记录</li>
       <li xml:lang="zh-TW">歷史記錄</li>
       <li>tabs</li>
+      <li xml:lang="ar">الألسنة</li>
       <li xml:lang="az">vərəqlər</li>
       <li xml:lang="ca">pestanyes</li>
       <li xml:lang="ca-valencia">pestanyes</li>
@@ -313,6 +321,7 @@
   <screenshots>
     <screenshot type="default">
       <caption>Homepage</caption>
+      <caption xml:lang="ar">الصفحة الرئيسة</caption>
       <caption xml:lang="az">Ev səhifəsi</caption>
       <caption xml:lang="ca">Pàgina inicial</caption>
       <caption xml:lang="ca-valencia">Pàgina inicial</caption>
@@ -354,6 +363,7 @@
     </screenshot>
     <screenshot>
       <caption>Menu Actions</caption>
+      <caption xml:lang="ar">إجراءات القائمة</caption>
       <caption xml:lang="az">Menyu fəaliyyətləri</caption>
       <caption xml:lang="ca">Accions de menú</caption>
       <caption xml:lang="ca-valencia">Accions de menú</caption>
@@ -395,6 +405,7 @@
     </screenshot>
     <screenshot>
       <caption>Tabs View</caption>
+      <caption xml:lang="ar">عرض اللسان</caption>
       <caption xml:lang="az">Vərəq görünüşü</caption>
       <caption xml:lang="ca">Vista en pestanyes</caption>
       <caption xml:lang="ca-valencia">Vista en pestanyes</caption>
@@ -433,6 +444,7 @@
     </screenshot>
     <screenshot>
       <caption>Desktop User Interface</caption>
+      <caption xml:lang="ar">واجهة سطح المكتب</caption>
       <caption xml:lang="az">İş masası İstifadəçi İnterfeysi</caption>
       <caption xml:lang="ca">Interfície d'usuari d'escriptori</caption>
       <caption xml:lang="ca-valencia">Interfície d'usuari d'escriptori</caption>
