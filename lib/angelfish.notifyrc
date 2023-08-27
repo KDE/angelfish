@@ -2,6 +2,7 @@
 IconName=org.kde.angelfish
 DesktopEntry=org.kde.angelfish
 Comment=Webbrowser
+Comment[ar]=متصفح وبّ
 Comment[az]=Veb Bələdçi
 Comment[ca]=Navegador web
 Comment[ca@valencia]=Navegador web
@@ -39,6 +40,7 @@ Comment[x-test]=xxWebbrowserxx
 Comment[zh_CN]=网页浏览器
 Comment[zh_TW]=網頁瀏覽器
 Name=Angelfish
+Name[ar]=انجلفيش
 Name[az]=Angelfish
 Name[ca]=Angelfish
 Name[ca@valencia]=Angelfish
@@ -80,6 +82,7 @@ Name[zh_TW]=Angelfish
 
 [Event/web-notification]
 Name=Website Notification
+Name[ar]=تنبيه الموقع
 Name[az]=Veb sayt bildirişləri
 Name[ca]=Notificació de lloc web
 Name[ca@valencia]=Notificació de lloc web
