@@ -27,7 +27,7 @@ Kirigami.ScrollablePage {
         }
         delegate: Kirigami.SwipeListItem {
             id: downloadDelegate
-            required property @WEBENGINE_DOWNLOAD_CLASS@ download
+            required property WebEngineDownloadRequest download
             required property var mimeTypeIcon
             required property string fileName
             required property url url
@@ -39,17 +39,17 @@ Kirigami.ScrollablePage {
             actions: [
                 Kirigami.Action {
                     text: i18n("Cancel")
-                    icon.name: downloadDelegate.download.state === @WEBENGINE_DOWNLOAD_CLASS@.DownloadInProgress ? "dialog-cancel" : "list-remove"
+                    icon.name: downloadDelegate.download.state === WebEngineDownloadRequest.DownloadInProgress ? "dialog-cancel" : "list-remove"
                     onTriggered: downloadsModel.removeDownload(index)
                 },
                 Kirigami.Action {
-                    visible: !downloadDelegate.download.isPaused && downloadDelegate.download.state === @WEBENGINE_DOWNLOAD_CLASS@.DownloadInProgress
+                    visible: !downloadDelegate.download.isPaused && downloadDelegate.download.state === WebEngineDownloadRequest.DownloadInProgress
                     text: i18n("Pause")
                     icon.name: "media-playback-pause"
                     onTriggered: downloadDelegate.download.pause()
                 },
                 Kirigami.Action {
-                    visible: downloadDelegate.download.isPaused && downloadDelegate.download.state === @WEBENGINE_DOWNLOAD_CLASS@.DownloadInProgress
+                    visible: downloadDelegate.download.isPaused && downloadDelegate.download.state === WebEngineDownloadRequest.DownloadInProgress
                     text: i18n("Continue")
                     icon.name: "media-playback-start"
                     onTriggered: downloadDelegate.download.resume();
@@ -78,24 +78,24 @@ Kirigami.ScrollablePage {
                     }
                     Controls.ProgressBar {
                         Layout.fillWidth: true
-                        visible: downloadDelegate.download.state === @WEBENGINE_DOWNLOAD_CLASS@.DownloadInProgress
+                        visible: downloadDelegate.download.state === WebEngineDownloadRequest.DownloadInProgress
                         from: 0
                         value: downloadDelegate.download.receivedBytes
                         to: downloadDelegate.download.totalBytes
                     }
                     Controls.Label {
-                        visible: downloadDelegate.download.state !== @WEBENGINE_DOWNLOAD_CLASS@.DownloadInProgress
+                        visible: downloadDelegate.download.state !== WebEngineDownloadRequest.DownloadInProgress
                         text: {
                             switch (downloadDelegate.download.state) {
-                            case @WEBENGINE_DOWNLOAD_CLASS@.DownloadRequested:
+                            case WebEngineDownloadRequest.DownloadRequested:
                                 return i18nc("download state", "Starting…");
-                            case @WEBENGINE_DOWNLOAD_CLASS@.DownloadCompleted:
+                            case WebEngineDownloadRequest.DownloadCompleted:
                                 return i18n("Completed");
-                            case @WEBENGINE_DOWNLOAD_CLASS@.DownloadCancelled:
+                            case WebEngineDownloadRequest.DownloadCancelled:
                                 return i18n("Cancelled");
-                            case @WEBENGINE_DOWNLOAD_CLASS@.DownloadInterrupted:
+                            case WebEngineDownloadRequest.DownloadInterrupted:
                                 return i18nc("download state", "Interrupted");
-                            case @WEBENGINE_DOWNLOAD_CLASS@.DownloadInProgress:
+                            case WebEngineDownloadRequest.DownloadInProgress:
                                 return i18nc("download state", "In progress")
                             }
                         }

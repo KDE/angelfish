@@ -3,13 +3,6 @@
 #
 # SPDX-License-Identifier: LGPL-2.0-or-later
 
-configure_file(contents/ui/desktop/desktop.qml ${CMAKE_CURRENT_BINARY_DIR}/contents/ui/desktop/desktop.qml)
-configure_file(contents/ui/mobile.qml ${CMAKE_CURRENT_BINARY_DIR}/contents/ui/mobile.qml)
-configure_file(contents/ui/SettingsAdblock.qml ${CMAKE_CURRENT_BINARY_DIR}/contents/ui/SettingsAdblock.qml)
-configure_file(contents/ui/Downloads.qml ${CMAKE_CURRENT_BINARY_DIR}/contents/ui/Downloads.qml)
-
-configure_file(angelfish.qrc ${CMAKE_CURRENT_SOURCE_DIR}/angelfish.generated.qrc)
-
 set(angelfish_SRCS
     main.cpp
     adblockfilterlistsmodel.cpp
@@ -20,7 +13,7 @@ set(angelfish_SRCS
     webappcreator.cpp
     webappmanager.cpp
     webappmanagermodel.cpp
-    ${CMAKE_CURRENT_SOURCE_DIR}/angelfish.generated.qrc
+    angelfish.qrc
 )
 
 add_executable(angelfish ${angelfish_SRCS})
@@ -53,19 +46,17 @@ target_link_libraries(angelfish PRIVATE
     Qt::Sql
     Qt::Svg
     Qt::Widgets
-    KF${QT_MAJOR_VERSION}::I18n
-    KF${QT_MAJOR_VERSION}::CoreAddons
-    KF${QT_MAJOR_VERSION}::ConfigCore
-    KF${QT_MAJOR_VERSION}::ConfigGui
-    KF${QT_MAJOR_VERSION}::DBusAddons
-    KF${QT_MAJOR_VERSION}::WindowSystem
+    Qt::CorePrivate
+    Qt::WebEngineCore
+    Qt::WebEngineQuick
+    Qt::WebEngineQuickPrivate
+    KF6::I18n
+    KF6::CoreAddons
+    KF6::ConfigCore
+    KF6::ConfigGui
+    KF6::DBusAddons
+    KF6::WindowSystem
     AngelfishCore
 )
-
-if(QT_MAJOR_VERSION STREQUAL "6")
-    target_link_libraries(angelfish PRIVATE Qt::CorePrivate Qt::WebEngineCore Qt::WebEngineQuick Qt::WebEngineQuickPrivate)
-else()
-    target_link_libraries(angelfish PRIVATE Qt::WebEngine)
-endif()
 
 install(TARGETS angelfish ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

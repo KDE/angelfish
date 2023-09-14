@@ -9,13 +9,8 @@
 #include <QQuickWebEngineProfile>
 #include <QWebEngineUrlRequestInterceptor>
 
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-class QQuickWebEngineDownloadItem;
-using DownloadItem = QQuickWebEngineDownloadItem;
-#else
 class QQuickWebEngineDownloadRequest;
 using DownloadItem = QQuickWebEngineDownloadRequest;
-#endif
 
 class QWebEngineNotification;
 class QQuickItem;

@@ -5,7 +5,7 @@
 
 include(ECMAddTests)
 
-find_package(Qt${QT_MAJOR_VERSION} ${REQUIRED_QT_VERSION} CONFIG REQUIRED Test Sql Gui Quick)
+find_package(Qt6 ${REQUIRED_QT_VERSION} CONFIG REQUIRED Test Sql Gui Quick)
 
 ecm_add_test(dbmanagertest.cpp
              TEST_NAME dbmanagertest

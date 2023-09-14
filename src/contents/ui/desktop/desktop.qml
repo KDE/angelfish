@@ -8,7 +8,7 @@ import QtQuick.Layouts 1.15
 import QtQuick.Window 2.15
 import org.kde.kirigami 2.19 as Kirigami
 
-import @QTGRAPHICALEFFECTS_MODULE@
+import Qt5Compat.GraphicalEffects
 
 import org.kde.angelfish 1.0
 import org.kde.kirigamiaddons.labs.components 1.0 as Addons
@@ -329,7 +329,7 @@ Kirigami.ApplicationWindow {
                     icon.name: "install"
                     enabled: !webAppCreator.exists
 
-                    WebAppCreator {
+                    property WebAppCreator webAppCreator: WebAppCreator {
                         id: webAppCreator
                         websiteName: currentWebView.title
                     }

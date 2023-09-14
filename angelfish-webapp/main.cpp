@@ -12,11 +12,7 @@
 #include <QQuickStyle>
 #include <QUrl>
 #include <QtQml>
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-#include <QtWebEngine>
-#else
 #include <QtWebEngineQuick>
-#endif
 
 #include <KAboutData>
 #include <KDesktopFile>
@@ -49,9 +45,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     if (qEnvironmentVariableIsEmpty("QT_QUICK_CONTROLS_STYLE") && QQuickStyle::name().isEmpty()) {
         QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
     }
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-    QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
-#endif
     QGuiApplication::setAttribute(Qt::AA_ShareOpenGLContexts);
 
     KLocalizedString::setApplicationDomain("angelfish");
@@ -66,20 +59,12 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
         chromiumFlags.append(QStringLiteral(" --blink-settings=forceDarkModeEnabled=true"));
     }
     qputenv("QTWEBENGINE_CHROMIUM_FLAGS", chromiumFlags.toUtf8());
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-    QtWebEngine::initialize();
-#else
     QtWebEngineQuick::initialize();
-#endif
 
     QApplication app(argc, argv);
     // QCoreApplication::setOrganizationName("KDE");
     // QCoreApplication::setOrganizationDomain("mobile.kde.org");
     // QCoreApplication::setApplicationName("angelfish");
-
-#if QT_VERSION <= QT_VERSION_CHECK(5, 14, 0)
-    QtWebEngine::initialize();
-#endif
 
     // Command line parser
     QCommandLineParser parser;

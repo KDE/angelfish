@@ -25,7 +25,7 @@ Kirigami.OverlaySheet {
     }
 
     contentItem: Loader {
-        active: printPreview.@KIRIGAMI_OVERLAYSHEET_SHEET_OPEN@
+        active: printPreview.opened
         sourceComponent: RowLayout {
             height: webEngineView.height - printPreview.header.height - Kirigami.Units.largeSpacing * 4
             spacing: 1
