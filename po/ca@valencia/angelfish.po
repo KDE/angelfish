@@ -253,7 +253,7 @@ msgstr "Ha entrat en el mode de pantalla completa"
 #: lib/contents/ui/WebView.qml:254
 #, kde-format
 msgid "Exit Full Screen (Esc)"
-msgstr "Ix de pantalla completa (Esc)"
+msgstr "Ix de pantalla completa («Esc»)"
 
 #: lib/contents/ui/WebView.qml:387
 #, kde-format
