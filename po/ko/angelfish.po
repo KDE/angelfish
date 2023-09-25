@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-10 00:45+0000\n"
+"POT-Creation-Date: 2023-09-25 01:40+0000\n"
 "PO-Revision-Date: 2023-04-21 23:28+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -28,32 +28,32 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde@peremen.name"
 
-#: angelfish-webapp/main.cpp:86
+#: angelfish-webapp/main.cpp:71
 #, kde-format
 msgid "desktop file to open"
 msgstr "열 데스크톱 파일"
 
-#: angelfish-webapp/main.cpp:113
+#: angelfish-webapp/main.cpp:98
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr "Angelfish 웹 앱 런타임"
 
-#: angelfish-webapp/main.cpp:115
+#: angelfish-webapp/main.cpp:100
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "Copyright 2020 Angelfish developers"
 
-#: angelfish-webapp/main.cpp:117
+#: angelfish-webapp/main.cpp:102
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
 
-#: lib/angelfishwebprofile.cpp:63
+#: lib/angelfishwebprofile.cpp:59
 #, kde-format
 msgid "Download finished"
 msgstr "다운로드 완료"
 
-#: lib/angelfishwebprofile.cpp:67
+#: lib/angelfishwebprofile.cpp:63
 #, kde-format
 msgid "Download failed"
 msgstr "다운로드 실패"
@@ -936,7 +936,7 @@ msgstr "앱 삭제"
 msgid "Share page to"
 msgstr "다음으로 페이지 공유"
 
-#: src/main.cpp:95
+#: src/main.cpp:81
 #, kde-format
 msgid "URL to open"
 msgstr "열려는 URL"

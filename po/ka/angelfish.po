@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-10 00:45+0000\n"
+"POT-Creation-Date: 2023-09-25 01:40+0000\n"
 "PO-Revision-Date: 2023-03-08 09:42+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -28,32 +28,32 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "Temuri.doghonadze@gmail.com"
 
-#: angelfish-webapp/main.cpp:86
+#: angelfish-webapp/main.cpp:71
 #, kde-format
 msgid "desktop file to open"
 msgstr "გასახსნელი desktop faili"
 
-#: angelfish-webapp/main.cpp:113
+#: angelfish-webapp/main.cpp:98
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr "Angelfish WebApp"
 
-#: angelfish-webapp/main.cpp:115
+#: angelfish-webapp/main.cpp:100
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "2020 Angelfish-ის პროგრამისტები, ყველა უფლება დაცულია"
 
-#: angelfish-webapp/main.cpp:117
+#: angelfish-webapp/main.cpp:102
 #, kde-format
 msgid "Marco Martin"
 msgstr "მაკრო მარტინი"
 
-#: lib/angelfishwebprofile.cpp:63
+#: lib/angelfishwebprofile.cpp:59
 #, kde-format
 msgid "Download finished"
 msgstr "გადმოწერა დასრულდა"
 
-#: lib/angelfishwebprofile.cpp:67
+#: lib/angelfishwebprofile.cpp:63
 #, kde-format
 msgid "Download failed"
 msgstr "გადმოწერის შეცდომა"
@@ -944,7 +944,7 @@ msgstr "აპის წაშლა"
 msgid "Share page to"
 msgstr "გვერდის გაზიარება"
 
-#: src/main.cpp:95
+#: src/main.cpp:81
 #, kde-format
 msgid "URL to open"
 msgstr "URL-ის გახსნა"

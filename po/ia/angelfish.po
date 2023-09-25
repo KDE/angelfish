@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-08-10 00:45+0000\n"
+"POT-Creation-Date: 2023-09-25 01:40+0000\n"
 "PO-Revision-Date: 2023-03-15 23:14+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
@@ -27,32 +27,32 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "g.sora@tiscali.it"
 
-#: angelfish-webapp/main.cpp:86
+#: angelfish-webapp/main.cpp:71
 #, kde-format
 msgid "desktop file to open"
 msgstr "file de scriptorio a aperir"
 
-#: angelfish-webapp/main.cpp:113
+#: angelfish-webapp/main.cpp:98
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr "Angelfish Web App runtime"
 
-#: angelfish-webapp/main.cpp:115
+#: angelfish-webapp/main.cpp:100
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "Copyright 2020, disveloppatores de Angelfish"
 
-#: angelfish-webapp/main.cpp:117
+#: angelfish-webapp/main.cpp:102
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
 
-#: lib/angelfishwebprofile.cpp:63
+#: lib/angelfishwebprofile.cpp:59
 #, kde-format
 msgid "Download finished"
 msgstr "Discargamento terminate"
 
-#: lib/angelfishwebprofile.cpp:67
+#: lib/angelfishwebprofile.cpp:63
 #, kde-format
 msgid "Download failed"
 msgstr "Discargamento fallite"
@@ -950,7 +950,7 @@ msgstr "Remove app"
 msgid "Share page to"
 msgstr "Comparti pagina con"
 
-#: src/main.cpp:95
+#: src/main.cpp:81
 #, kde-format
 msgid "URL to open"
 msgstr "URL que debe aperir se"
