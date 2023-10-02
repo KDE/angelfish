@@ -1,0 +1,947 @@
+# translation of angelfish.pot to esperanto
+# Copyright (C) 2022 Free Software Foundation, Inc.
+# This file is distributed under the same license as the angelfish package.
+# Oliver Kellogg <okellogg@users.sourceforge.net, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: angelfish\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-09-25 01:40+0000\n"
+"PO-Revision-Date: 2023-10-01 05:27+0100\n"
+"Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
+"Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: translate-po (https://github.com/zcribe/translate-po)\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Oliver Kellogg"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "okellogg@users.sourceforge.net"
+
+#: angelfish-webapp/main.cpp:71
+#, kde-format
+msgid "desktop file to open"
+msgstr "labortabla dosiero por malfermi"
+
+#: angelfish-webapp/main.cpp:98
+#, kde-format
+msgid "Angelfish Web App runtime"
+msgstr "Rultempo de Angelfish Web App"
+
+#: angelfish-webapp/main.cpp:100
+#, kde-format
+msgid "Copyright 2020 Angelfish developers"
+msgstr "Kopirajto 2020 Angelfish-programistoj"
+
+#: angelfish-webapp/main.cpp:102
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: lib/angelfishwebprofile.cpp:59
+#, kde-format
+msgid "Download finished"
+msgstr "Elŝuto finiĝis"
+
+#: lib/angelfishwebprofile.cpp:63
+#, kde-format
+msgid "Download failed"
+msgstr "Elŝuto malsukcesis"
+
+#: lib/contents/ui/AuthSheet.qml:17
+#, kde-format
+msgid "Authentication required"
+msgstr "Aŭtentigo bezonata"
+
+#: lib/contents/ui/AuthSheet.qml:30
+#, kde-format
+msgid "Username"
+msgstr "Uzantnomo"
+
+#: lib/contents/ui/AuthSheet.qml:37
+#, kde-format
+msgid "Password"
+msgstr "Pasvorto"
+
+#: lib/contents/ui/DownloadQuestion.qml:12
+#, kde-format
+msgid "Do you want to download this file?"
+msgstr "Ĉu vi volas elŝuti ĉi tiun dosieron?"
+
+#: lib/contents/ui/DownloadQuestion.qml:20
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:29
+#, kde-format
+msgid "Download"
+msgstr "Elŝuti"
+
+#: lib/contents/ui/DownloadQuestion.qml:28 lib/contents/ui/PrintPreview.qml:167
+#: src/contents/ui/Downloads.qml:41
+#, kde-format
+msgid "Cancel"
+msgstr "Nuligi"
+
+#: lib/contents/ui/ErrorHandler.qml:47
+#, kde-format
+msgid "Error loading the page"
+msgstr "Eraro ŝargante la paĝon"
+
+#: lib/contents/ui/ErrorHandler.qml:58
+#, kde-format
+msgid "Retry"
+msgstr "Reprovi"
+
+#: lib/contents/ui/ErrorHandler.qml:71
+#, kde-format
+msgid ""
+"Do you wish to continue?\n"
+"\n"
+" If you wish so, you may continue with an unverified certificate.\n"
+" Accepting an unverified certificate means\n"
+" you may not be connected with the host you tried to connect to.\n"
+" Do you wish to override the security check and continue?"
+msgstr ""
+"Ĉu vi volas daŭrigi?\n"
+"\n"
+" Se vi volas tion, vi povas daŭrigi kun nekontrolita atestilo.\n"
+" Akcepti nekontrolitan atestilon signifas ke\n"
+" vi eble ne estas konektita kun la gastiganto al kiu vi provis konektiĝi.\n"
+" Ĉu vi volas superregi la sekureckontrolon kaj daŭrigi?"
+
+#: lib/contents/ui/ErrorHandler.qml:79
+#, kde-format
+msgid "Yes"
+msgstr "Jes"
+
+#: lib/contents/ui/ErrorHandler.qml:88
+#, kde-format
+msgid "No"
+msgstr "Ne"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:49
+#, kde-format
+msgid "This page says"
+msgstr "Ĉi tiu paĝo diras"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:64
+#, kde-format
+msgid ""
+"The website asks for confirmation that you want to leave. Unsaved "
+"information might not be saved."
+msgstr ""
+"La retejo petas konfirmon, ke vi volas foriri. Nekonservitaj informoj eble "
+"ne estas konservitaj."
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:79
+#, kde-format
+msgid "Leave page"
+msgstr "Forlasi paĝon"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:87
+#, kde-format
+msgid "Submit"
+msgstr "Submeti"
+
+#: lib/contents/ui/PermissionQuestion.qml:16
+#, kde-format
+msgid "Do you want to allow the website to access the geo location?"
+msgstr "Ĉu vi volas permesi al la retejo aliri la geolokon?"
+
+#: lib/contents/ui/PermissionQuestion.qml:19
+#, kde-format
+msgid "Do you want to allow the website to access the microphone?"
+msgstr "Ĉu vi volas permesi al la retejo aliri la mikrofonon?"
+
+#: lib/contents/ui/PermissionQuestion.qml:22
+#, kde-format
+msgid "Do you want to allow the website to access the camera?"
+msgstr "Ĉu vi volas permesi al la retejo aliri la fotilon?"
+
+#: lib/contents/ui/PermissionQuestion.qml:25
+#, kde-format
+msgid ""
+"Do you want to allow the website to access the camera and the microphone?"
+msgstr "Ĉu vi volas permesi al la retejo aliri la fotilon kaj la mikrofonon?"
+
+#: lib/contents/ui/PermissionQuestion.qml:28
+#, kde-format
+msgid "Do you want to allow the website to share your screen?"
+msgstr "Ĉu vi volas permesi al la retejo dividi vian ekranon?"
+
+#: lib/contents/ui/PermissionQuestion.qml:31
+#, kde-format
+msgid "Do you want to allow the website to share the sound output?"
+msgstr "Ĉu vi volas permesi al la retejo dividi la sonproduktaĵon?"
+
+#: lib/contents/ui/PermissionQuestion.qml:34
+#, kde-format
+msgid "Do you want to allow the website to send you notifications?"
+msgstr "Ĉu vi volas permesi al la retejo sendi al vi sciigojn?"
+
+#: lib/contents/ui/PermissionQuestion.qml:43
+#, kde-format
+msgid "Accept"
+msgstr "Akcepti"
+
+#: lib/contents/ui/PermissionQuestion.qml:53
+#, kde-format
+msgid "Decline"
+msgstr "Malkresko"
+
+#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:269
+#, kde-format
+msgid "Print"
+msgstr "Presi"
+
+#: lib/contents/ui/PrintPreview.qml:67
+#, kde-format
+msgid "Destination"
+msgstr "Celo"
+
+#: lib/contents/ui/PrintPreview.qml:71
+#, kde-format
+msgid "Save to PDF"
+msgstr "Konservi al PDF"
+
+#: lib/contents/ui/PrintPreview.qml:77
+#, kde-format
+msgid "Orientation"
+msgstr "Orientiĝo"
+
+#: lib/contents/ui/PrintPreview.qml:102
+#, kde-format
+msgid "Paper size"
+msgstr "Papera grandeco"
+
+#: lib/contents/ui/PrintPreview.qml:148
+#, kde-format
+msgid "Options"
+msgstr "Opcioj"
+
+#: lib/contents/ui/PrintPreview.qml:152
+#, kde-format
+msgid "Print backgrounds"
+msgstr "Presi fonojn"
+
+#: lib/contents/ui/PrintPreview.qml:172
+#, kde-format
+msgid "Save"
+msgstr "Konservi"
+
+#: lib/contents/ui/WebView.qml:235
+#, kde-format
+msgid "Website was opened in a new tab"
+msgstr "Retejo estis malfermita en nova langeto"
+
+#: lib/contents/ui/WebView.qml:253
+#, kde-format
+msgid "Entered Full Screen Mode"
+msgstr "Eniris Plenekranan Reĝimon"
+
+#: lib/contents/ui/WebView.qml:254
+#, kde-format
+msgid "Exit Full Screen (Esc)"
+msgstr "Eliri Plenan Ekranon (Esc)"
+
+#: lib/contents/ui/WebView.qml:387
+#, kde-format
+msgid "Play"
+msgstr "Ludi"
+
+#: lib/contents/ui/WebView.qml:388 src/contents/ui/Downloads.qml:47
+#, kde-format
+msgid "Pause"
+msgstr "Paŭzi"
+
+#: lib/contents/ui/WebView.qml:395
+#, kde-format
+msgid "Unmute"
+msgstr "Malsilentigi"
+
+#: lib/contents/ui/WebView.qml:396
+#, kde-format
+msgid "Mute"
+msgstr "Silentigi"
+
+#: lib/contents/ui/WebView.qml:406
+#, kde-format
+msgid "Speed"
+msgstr "Rapido"
+
+#: lib/contents/ui/WebView.qml:429
+#, kde-format
+msgid "Loop"
+msgstr "Buklo"
+
+#: lib/contents/ui/WebView.qml:436
+#, kde-format
+msgid "Exit fullscreen"
+msgstr "Eliri plenekranan"
+
+#: lib/contents/ui/WebView.qml:436
+#, kde-format
+msgid "Fullscreen"
+msgstr "Plenekrana"
+
+#: lib/contents/ui/WebView.qml:449
+#, kde-format
+msgid "Hide controls"
+msgstr "Kaŝi regilojn"
+
+#: lib/contents/ui/WebView.qml:450
+#, kde-format
+msgid "Show controls"
+msgstr "Montri regilojn"
+
+#: lib/contents/ui/WebView.qml:458
+#, kde-format
+msgid "Open video"
+msgstr "Malfermi filmeton"
+
+#: lib/contents/ui/WebView.qml:458
+#, kde-format
+msgid "Open audio"
+msgstr "Malfermu aŭdaĵon"
+
+#: lib/contents/ui/WebView.qml:459
+#, kde-format
+msgid "Open video in new Tab"
+msgstr "Malfermi filmeton en nova langeto"
+
+#: lib/contents/ui/WebView.qml:459
+#, kde-format
+msgid "Open audio in new Tab"
+msgstr "Malfermi aŭdaĵon en nova langeto"
+
+#: lib/contents/ui/WebView.qml:471
+#, kde-format
+msgid "Save video"
+msgstr "Konservi videon"
+
+#: lib/contents/ui/WebView.qml:477
+#, kde-format
+msgid "Copy video Link"
+msgstr "Kopii ligilon al video"
+
+#: lib/contents/ui/WebView.qml:483
+#, kde-format
+msgid "Open image"
+msgstr "Malfermi bildon"
+
+#: lib/contents/ui/WebView.qml:483
+#, kde-format
+msgid "Open image in new Tab"
+msgstr "Malfermi bildon en nova langeto"
+
+#: lib/contents/ui/WebView.qml:495
+#, kde-format
+msgid "Save image"
+msgstr "Konservi bildon"
+
+#: lib/contents/ui/WebView.qml:501
+#, kde-format
+msgid "Copy image"
+msgstr "Kopii bildon"
+
+#: lib/contents/ui/WebView.qml:507
+#, kde-format
+msgid "Copy image link"
+msgstr "Kopii bildligilon"
+
+#: lib/contents/ui/WebView.qml:513
+#, kde-format
+msgid "Open link"
+msgstr "Malfermi ligilon"
+
+#: lib/contents/ui/WebView.qml:513
+#, kde-format
+msgid "Open link in new Tab"
+msgstr "Malfermi ligilon en nova langeto"
+
+#: lib/contents/ui/WebView.qml:525
+#, kde-format
+msgid "Bookmark link"
+msgstr "Legomarki ligilon"
+
+#: lib/contents/ui/WebView.qml:537
+#, kde-format
+msgid "Save link"
+msgstr "Konservi ligilon"
+
+#: lib/contents/ui/WebView.qml:543
+#, kde-format
+msgid "Copy link"
+msgstr "Kopii ligilon"
+
+#: lib/contents/ui/WebView.qml:550
+#, kde-format
+msgid "Copy"
+msgstr "Kopii"
+
+#: lib/contents/ui/WebView.qml:556
+#, kde-format
+msgid "Cut"
+msgstr "Tondi"
+
+#: lib/contents/ui/WebView.qml:562
+#, kde-format
+msgid "Paste"
+msgstr "Alglui"
+
+#: lib/contents/ui/WebView.qml:583 src/contents/ui/desktop/desktop.qml:318
+#: src/contents/ui/mobile.qml:280
+#, kde-format
+msgid "Share page"
+msgstr "Kunhavigi paĝon"
+
+#: lib/contents/ui/WebView.qml:595
+#, kde-format
+msgid "View page source"
+msgstr "Rigardi paĝfonton"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
+#, kde-format
+msgid ""
+"The ad blocker is missing its filter lists, do you want to download them now?"
+msgstr ""
+"Al la reklamblokilo mankas ĝiaj filtrilistoj, ĉu vi volas elŝuti ilin nun?"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:34
+#, kde-format
+msgid "Downloading..."
+msgstr "Elŝutante..."
+
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:248
+#: src/contents/ui/mobile.qml:79
+#, kde-format
+msgid "Bookmarks"
+msgstr "Legosignoj"
+
+#: src/contents/ui/desktop/BookmarksPage.qml:28
+#, kde-format
+msgid "Search bookmarks…"
+msgstr "Serĉi legosignojn…"
+
+#: src/contents/ui/desktop/BookmarksPage.qml:70
+#, kde-format
+msgid "No bookmarks yet"
+msgstr "Ankoraŭ neniuj legosignoj"
+
+#: src/contents/ui/desktop/desktop.qml:116
+#, kde-format
+msgid "Search or enter URL…"
+msgstr "Serĉu aŭ enigu URL…"
+
+#: src/contents/ui/desktop/desktop.qml:223 src/contents/ui/desktop/Tabs.qml:354
+#: src/contents/ui/Tabs.qml:49
+#, kde-format
+msgid "New Tab"
+msgstr "Nova langeto"
+
+#: src/contents/ui/desktop/desktop.qml:230 src/contents/ui/mobile.qml:71
+#, kde-format
+msgid "Leave private mode"
+msgstr "Forlasi privatan reĝimon"
+
+#: src/contents/ui/desktop/desktop.qml:230 src/contents/ui/mobile.qml:71
+#, kde-format
+msgid "Private mode"
+msgstr "Privata reĝimo"
+
+#: src/contents/ui/desktop/desktop.qml:239 src/contents/ui/History.qml:12
+#: src/contents/ui/mobile.qml:87
+#, kde-format
+msgid "History"
+msgstr "Historio"
+
+#: src/contents/ui/desktop/desktop.qml:257 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/mobile.qml:91
+#, kde-format
+msgid "Downloads"
+msgstr "Elŝutoj"
+
+#: src/contents/ui/desktop/desktop.qml:275
+#, kde-format
+msgid "Full Screen"
+msgstr "Plenekrane"
+
+#: src/contents/ui/desktop/desktop.qml:292
+#, kde-format
+msgid "Hide developer tools"
+msgstr "Kaŝi programistajn ilojn"
+
+#: src/contents/ui/desktop/desktop.qml:293 src/contents/ui/mobile.qml:376
+#, kde-format
+msgid "Show developer tools"
+msgstr "Montri programilojn"
+
+#: src/contents/ui/desktop/desktop.qml:302 src/contents/ui/mobile.qml:276
+#, kde-format
+msgid "Find in page"
+msgstr "Trovi en paĝo"
+
+#: src/contents/ui/desktop/desktop.qml:311
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reader Mode"
+msgstr "Leganto-Reĝimo"
+
+#: src/contents/ui/desktop/desktop.qml:328
+#, kde-format
+msgid "Add to application launcher"
+msgstr "Aldoni al aplikaĵlanĉilo"
+
+#: src/contents/ui/desktop/desktop.qml:347 src/contents/ui/mobile.qml:99
+#, kde-format
+msgid "Settings"
+msgstr "Agordoj"
+
+#: src/contents/ui/desktop/desktop.qml:354
+#, kde-format
+msgid "Configure Angelfish"
+msgstr "Agordi Anĝelfiŝon"
+
+#: src/contents/ui/desktop/HistoryPage.qml:28
+#, kde-format
+msgid "Search history…"
+msgstr "Serĉhistorio…"
+
+#: src/contents/ui/desktop/HistoryPage.qml:44
+#, kde-format
+msgid "Clear all history"
+msgstr "Forigi la tutan historion"
+
+#: src/contents/ui/desktop/HistoryPage.qml:80
+#, kde-format
+msgid "Not history yet"
+msgstr "Ankoraŭ ne historio"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:14
+#: src/contents/ui/SettingsPage.qml:38
+#, kde-format
+msgid "Toolbars"
+msgstr "Ilobretoj"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:28
+#, kde-format
+msgid "Show home button:"
+msgstr "Montri hejman butonon:"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:29
+#, kde-format
+msgid "The home button will be shown next to the reload button in the toolbar."
+msgstr "La hejma butono montriĝos apud la reŝargbutono en la ilobreto."
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:39
+#, kde-format
+msgid "Homepage:"
+msgstr "Hejmpaĝo:"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:61
+#, kde-format
+msgid "New tabs:"
+msgstr "Novaj langetoj:"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:83
+#, kde-format
+msgid "Always show the tab bar"
+msgstr "Ĉiam montri la langeton"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:84
+#, kde-format
+msgid "The tab bar will be displayed even if there is only one tab open"
+msgstr "La langeta breto estos montrata eĉ se estas nur unu langeto malfermita"
+
+#: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:185
+#, kde-format
+msgid "Reader Mode: %1"
+msgstr "Leganto-Reĝimo: %1"
+
+#: src/contents/ui/desktop/Tabs.qml:250 src/contents/ui/Tabs.qml:216
+#, kde-format
+msgid "Close tab"
+msgstr "Fermi langeton"
+
+#: src/contents/ui/desktop/Tabs.qml:290
+#, kde-format
+msgid "Open a new tab"
+msgstr "Malfermi novan langeton"
+
+#: src/contents/ui/desktop/Tabs.qml:323
+#, kde-format
+msgid "List all tabs"
+msgstr "Listigi ĉiujn langetojn"
+
+#: src/contents/ui/desktop/Tabs.qml:363
+#, kde-format
+msgid "Reload Tab"
+msgstr "Reŝargi Langeton"
+
+#: src/contents/ui/desktop/Tabs.qml:371
+#, kde-format
+msgid "Duplicate Tab"
+msgstr "Duobligi Langeton"
+
+#: src/contents/ui/desktop/Tabs.qml:379
+#, kde-format
+msgid "Bookmark Tab"
+msgstr "Legomarko Langeton"
+
+#: src/contents/ui/desktop/Tabs.qml:395
+#, kde-format
+msgid "Close Tab"
+msgstr "Fermi Langeton"
+
+#: src/contents/ui/Downloads.qml:26
+#, kde-format
+msgid "No running downloads"
+msgstr "Neniuj kurantaj elŝutoj"
+
+#: src/contents/ui/Downloads.qml:53
+#, kde-format
+msgid "Continue"
+msgstr "Daŭrigi"
+
+#: src/contents/ui/Downloads.qml:91
+#, kde-format
+msgctxt "download state"
+msgid "Starting…"
+msgstr "Komencante…"
+
+#: src/contents/ui/Downloads.qml:93
+#, kde-format
+msgid "Completed"
+msgstr "Plenumita"
+
+#: src/contents/ui/Downloads.qml:95
+#, kde-format
+msgid "Cancelled"
+msgstr "Nuligita"
+
+#: src/contents/ui/Downloads.qml:97
+#, kde-format
+msgctxt "download state"
+msgid "Interrupted"
+msgstr "Interrompita"
+
+#: src/contents/ui/Downloads.qml:99
+#, kde-format
+msgctxt "download state"
+msgid "In progress"
+msgstr "En progreso"
+
+#: src/contents/ui/FindInPageBar.qml:45
+#, kde-format
+msgid "Search..."
+msgstr "Serĉi..."
+
+#: src/contents/ui/mobile.qml:18
+#, kde-format
+msgid "Angelfish Web Browser"
+msgstr "Angelfish Retumilo"
+
+#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:42
+#, kde-format
+msgid "Tabs"
+msgstr "Langetoj"
+
+#: src/contents/ui/mobile.qml:291
+#, kde-format
+msgid "Add to homescreen"
+msgstr "Aldoni al hejmekrano"
+
+#: src/contents/ui/mobile.qml:301
+#, kde-format
+msgid "Open in app"
+msgstr "Malfermi en la programo"
+
+#: src/contents/ui/mobile.qml:309
+#, kde-format
+msgid "Go previous"
+msgstr "Iri al antaŭa"
+
+#: src/contents/ui/mobile.qml:317
+#: src/contents/ui/SettingsNavigationBarPage.qml:76
+#, kde-format
+msgid "Go forward"
+msgstr "Iri antaŭen"
+
+#: src/contents/ui/mobile.qml:324
+#, kde-format
+msgid "Stop loading"
+msgstr "Ĉesi ŝargi"
+
+#: src/contents/ui/mobile.qml:324
+#, kde-format
+msgid "Refresh"
+msgstr "Refreŝigi"
+
+#: src/contents/ui/mobile.qml:334
+#, kde-format
+msgid "Bookmarked"
+msgstr "Legosignita"
+
+#: src/contents/ui/mobile.qml:334
+#, kde-format
+msgid "Bookmark"
+msgstr "Legomarko"
+
+#: src/contents/ui/mobile.qml:350
+#, kde-format
+msgid "Show desktop site"
+msgstr "Montri labortablon"
+
+#: src/contents/ui/mobile.qml:359
+#, kde-format
+msgid "Reader Mode"
+msgstr "Leganto-Reĝimo"
+
+#: src/contents/ui/mobile.qml:367
+#, kde-format
+msgid "Hide navigation bar"
+msgstr "Kaŝi navigada stango"
+
+#: src/contents/ui/mobile.qml:367
+#, kde-format
+msgid "Show navigation bar"
+msgstr "Montri navigadan stangon"
+
+#: src/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgid ""
+"Site wants to open a new tab: \n"
+"%1"
+msgstr ""
+"Retejo volas malfermi novan langeton: \n"
+"%1"
+
+#: src/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgid "Open"
+msgstr "Malfermi"
+
+#: src/contents/ui/SettingsAdblock.qml:17
+#, kde-format
+msgid "Adblock settings"
+msgstr "Adblokaj agordoj"
+
+#: src/contents/ui/SettingsAdblock.qml:28
+#, kde-format
+msgid "Update lists"
+msgstr "Ĝisdatigi listojn"
+
+#: src/contents/ui/SettingsAdblock.qml:50
+#, kde-format
+msgid "The adblock functionality isn't included in this build."
+msgstr "La adblock-funkcio ne estas inkluzivita en ĉi tiu konstruo."
+
+#: src/contents/ui/SettingsAdblock.qml:56
+#, kde-format
+msgid "Add filterlist"
+msgstr "Aldoni filtrilliston"
+
+#: src/contents/ui/SettingsAdblock.qml:61
+#, kde-format
+msgid "Name"
+msgstr "Nomo"
+
+#: src/contents/ui/SettingsAdblock.qml:70
+#, kde-format
+msgid "Url"
+msgstr "Url"
+
+#: src/contents/ui/SettingsAdblock.qml:80
+#, kde-format
+msgid "Add"
+msgstr "Aldoni"
+
+#: src/contents/ui/SettingsAdblock.qml:145
+#, kde-format
+msgid "Remove this filter list"
+msgstr "Forigi ĉi tiun filtrilliston"
+
+#: src/contents/ui/SettingsAdblock.qml:155
+#, kde-format
+msgid "add Filterlist"
+msgstr "aldoni Filtrilliston"
+
+#: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:14
+#, kde-format
+msgid "General"
+msgstr "Ĝenerala"
+
+#: src/contents/ui/SettingsGeneral.qml:40
+#, kde-format
+msgid "Enable JavaScript"
+msgstr "Ebligi JavaScript"
+
+#: src/contents/ui/SettingsGeneral.qml:41
+#, kde-format
+msgid "This may be required on certain websites for them to work."
+msgstr "Ĉi tio povas esti postulata en iuj retejoj por ke ili funkciu."
+
+#: src/contents/ui/SettingsGeneral.qml:50
+#, kde-format
+msgid "Load images"
+msgstr "Ŝargi bildojn"
+
+#: src/contents/ui/SettingsGeneral.qml:51
+#, kde-format
+msgid "Whether to load images on websites."
+msgstr "Ĉu ŝargi bildojn en retejoj."
+
+#: src/contents/ui/SettingsGeneral.qml:60
+#, kde-format
+msgid "Enable adblock"
+msgstr "Ebligi reklamoblokadon"
+
+#: src/contents/ui/SettingsGeneral.qml:61
+#, kde-format
+msgid "Attempts to prevent advertisements on websites from showing."
+msgstr "Provoj malhelpi reklamojn en retejoj montriĝi."
+
+#: src/contents/ui/SettingsGeneral.qml:61
+#, kde-format
+msgid "AdBlock functionality was not included in this build."
+msgstr "AdBlock-funkcio ne estis inkluzivita en ĉi tiu konstruo."
+
+#: src/contents/ui/SettingsGeneral.qml:71
+#, kde-format
+msgid "Switch to new tab immediately"
+msgstr "Ŝanĝi al nova langeto tuj"
+
+#: src/contents/ui/SettingsGeneral.qml:72
+#, kde-format
+msgid ""
+"When you open a link, image or media in a new tab, switch to it immediately"
+msgstr ""
+"Kiam vi malfermas ligilon, bildon aŭ aŭdvidaĵon en nova langeto, ŝanĝi al ĝi "
+"tuj"
+
+#: src/contents/ui/SettingsGeneral.qml:81
+#, kde-format
+msgid "Use Smooth Scrolling"
+msgstr "Uzi Glatan Rulumadon"
+
+#: src/contents/ui/SettingsGeneral.qml:82
+#, kde-format
+msgid ""
+"Scrolling is smoother and will not stop suddenly when you stop scrolling. "
+"Requires app restart to take effect."
+msgstr ""
+"Rulumado estas pli glata kaj ne ĉesos subite kiam vi ĉesas rulumi. Postulas "
+"rekomencon de la aplikaĵo por efiki."
+
+#: src/contents/ui/SettingsGeneral.qml:91
+#, kde-format
+msgid "Use dark color scheme"
+msgstr "Uzi malhelan kolorskemon"
+
+#: src/contents/ui/SettingsGeneral.qml:92
+#, kde-format
+msgid ""
+"Websites will have their color schemes set to dark. Requires app restart to "
+"take effect."
+msgstr ""
+"Retejoj havos siajn kolorskemojn mallumitaj. Postulas rekomencon de la "
+"aplikaĵo por efiki."
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:16
+#, kde-format
+msgid "Navigation bar"
+msgstr "Navigada stango"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:36
+#, kde-format
+msgid ""
+"Choose the buttons enabled in navigation bar. Some of the buttons can be "
+"hidden only in portrait orientation of the browser and are always shown if  "
+"the browser is wider than its height.\n"
+"\n"
+" Note that if you disable the menu buttons, you will be able to access the "
+"menus either by swiping from the left or right side or to a side along the "
+"bottom of the window."
+msgstr ""
+"Elektu la butonojn ebligitajn en navigadbreto. Kelkaj el la butonoj povas "
+"esti kaŝitaj nur en portreta orientiĝo de la retumilo kaj ĉiam montriĝas se "
+"la retumilo estas pli larĝa ol ĝia alteco.\n"
+"\n"
+" Rimarku, ke se vi malŝaltas la menubutonojn, vi povos aliri la menuojn aŭ "
+"glitante de la maldekstra aŭ dekstra flanko aŭ al flanko laŭ la fundo de la "
+"fenestro."
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:52
+#, kde-format
+msgid "Main menu in portrait"
+msgstr "Ĉefa menuo en portreto"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:58
+#, kde-format
+msgid "Tabs in portrait"
+msgstr "Langetoj en portreto"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:64
+#, kde-format
+msgid "Context menu in portrait"
+msgstr "Kunteksta menuo en portreto"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:70
+#, kde-format
+msgid "Go back"
+msgstr "Reiri"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:82
+#, kde-format
+msgid "Reload/Stop"
+msgstr "Reŝargi/Halti"
+
+#: src/contents/ui/SettingsPage.qml:20
+#, kde-format
+msgid "Ad Block"
+msgstr "Reklambloko"
+
+#: src/contents/ui/SettingsPage.qml:26 src/contents/ui/SettingsWebApps.qml:16
+#, kde-format
+msgid "Web Apps"
+msgstr "Retaj Aplikoj"
+
+#: src/contents/ui/SettingsPage.qml:32
+#: src/contents/ui/SettingsSearchEnginePage.qml:16
+#: src/contents/ui/SettingsSearchEnginePage.qml:122
+#, kde-format
+msgid "Search Engine"
+msgstr "Serĉilo"
+
+#: src/contents/ui/SettingsSearchEnginePage.qml:32
+#, kde-format
+msgid "Custom"
+msgstr "Propra"
+
+#: src/contents/ui/SettingsSearchEnginePage.qml:123
+#, kde-format
+msgid "Base URL of your preferred search engine"
+msgstr "Baza URL de via preferata serĉilo"
+
+#: src/contents/ui/SettingsWebApps.qml:75
+#, kde-format
+msgid "Remove app"
+msgstr "Forigi apon"
+
+#: src/contents/ui/ShareSheet.qml:17
+#, kde-format
+msgid "Share page to"
+msgstr "Kunhavigi paĝon al"
+
+#: src/main.cpp:81
+#, kde-format
+msgid "URL to open"
+msgstr "URL por malfermi"
