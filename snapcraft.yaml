@@ -146,7 +146,7 @@ parts:
         - libkf5purpose-bin
         - libfuturesql
         - libqcoro5core0
-        - libqcoro6quick0
+        - libqcoro5quick0
         source: .
         source-type: local
         cmake-parameters:
