@@ -674,7 +674,7 @@ msgstr "Obri en l'aplicació"
 #: src/contents/ui/mobile.qml:309
 #, kde-format
 msgid "Go previous"
-msgstr "Ves a l'anterior"
+msgstr "Ves fins a l'anterior"
 
 #: src/contents/ui/mobile.qml:317
 #: src/contents/ui/SettingsNavigationBarPage.qml:76
