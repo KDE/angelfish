@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-import QtQuick 2.3
+import QtQuick
 import QtQuick.Layouts 1.0
 
 import org.kde.kirigami 2.8 as Kirigami
@@ -56,6 +56,7 @@ Kirigami.ScrollablePage {
 
         UrlDelegate {
             highlightText: list.model.filter
+            width: list.width
             onClicked: {
                 currentWebView.url = url;
                 pageStack.pop();
@@ -71,14 +72,12 @@ Kirigami.ScrollablePage {
         interactive: height < contentHeight
         clip: true
 
+        reuseItems: true
         model: BookmarksHistoryModel {
             history: true
         }
 
-        delegate: Kirigami.DelegateRecycler {
-            width: list.width
-            sourceComponent: delegateComponent
-        }
+        delegate: delegateComponent
     }
 
     Component.onCompleted: search.forceActiveFocus()
