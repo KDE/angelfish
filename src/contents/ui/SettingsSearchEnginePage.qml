@@ -7,7 +7,7 @@ import QtQuick.Controls 2.4 as Controls
 import QtQuick.Layouts 1.11
 
 import org.kde.kirigami 2.7 as Kirigami
-import org.kde.kirigamiaddons.labs.mobileform 0.1 as MobileForm
+import org.kde.kirigamiaddons.formcard 1.0 as FormCard
 
 import org.kde.angelfish 1.0
 
@@ -31,86 +31,84 @@ Kirigami.ScrollablePage {
 
         property string customName: i18n("Custom")
 
-        MobileForm.FormCard {
+        FormCard.FormHeader {
+            title: root.title
+        }
+
+        FormCard.FormCard {
             Layout.fillWidth: true
 
-            contentItem: ColumnLayout {
-                spacing: 0
-                MobileForm.FormCardHeader{
-                    title:root.title
-                }
-                Repeater {
-                    model: ListModel {
-                        id: searchEngines
+            Repeater {
+                model: ListModel {
+                    id: searchEngines
 
-                        ListElement {
-                            title: "Bing"
-                            url: "https://www.bing.com/search?q="
-                        }
-
-                        ListElement {
-                            title: "DuckDuckGo"
-                            url: "https://start.duckduckgo.com/?q="
-                        }
-
-                        ListElement {
-                            title: "Ecosia"
-                            url: "https://www.ecosia.org/search?q="
-                        }
-
-                        ListElement {
-                            title: "Google"
-                            url: "https://www.google.com/search?q="
-                        }
-
-                        ListElement {
-                            title: "Lilo"
-                            url: "https://search.lilo.org/searchweb.php?q="
-                        }
-
-                        ListElement {
-                            title: "Peekier"
-                            url: "https://peekier.com/#!"
-                        }
-
-                        ListElement {
-                            title: "Qwant"
-                            url: "https://www.qwant.com/?q="
-                        }
-
-                        ListElement {
-                            title: "Qwant Junior"
-                            url: "https://www.qwantjunior.com/?q="
-                        }
-
-                        ListElement {
-                            title: "StartPage"
-                            url: "https://www.startpage.com/do/dsearch?query="
-                        }
-
-                        ListElement {
-                            title: "Swisscows"
-                            url: "https://swisscows.com/web?query="
-                        }
-
-                        ListElement {
-                            title: "Wikipedia"
-                            url: "https://wikipedia.org/wiki/Special:Search?search="
-                        }
+                    ListElement {
+                        title: "Bing"
+                        url: "https://www.bing.com/search?q="
                     }
 
-                    delegate: MobileForm.FormRadioDelegate {
-                        checked: model.url === baseUrl
-                        text: model.title
-                        onClicked: {
-                            if (model.title !== list.customName)
-                                baseUrl = model.url;
-                            else {
-                                searchEnginePopup.open();
-                            }
-                            // restore property binding
-                            checked = Qt.binding(function() { return (model.url === baseUrl) });
+                    ListElement {
+                        title: "DuckDuckGo"
+                        url: "https://start.duckduckgo.com/?q="
+                    }
+
+                    ListElement {
+                        title: "Ecosia"
+                        url: "https://www.ecosia.org/search?q="
+                    }
+
+                    ListElement {
+                        title: "Google"
+                        url: "https://www.google.com/search?q="
+                    }
+
+                    ListElement {
+                        title: "Lilo"
+                        url: "https://search.lilo.org/searchweb.php?q="
+                    }
+
+                    ListElement {
+                        title: "Peekier"
+                        url: "https://peekier.com/#!"
+                    }
+
+                    ListElement {
+                        title: "Qwant"
+                        url: "https://www.qwant.com/?q="
+                    }
+
+                    ListElement {
+                        title: "Qwant Junior"
+                        url: "https://www.qwantjunior.com/?q="
+                    }
+
+                    ListElement {
+                        title: "StartPage"
+                        url: "https://www.startpage.com/do/dsearch?query="
+                    }
+
+                    ListElement {
+                        title: "Swisscows"
+                        url: "https://swisscows.com/web?query="
+                    }
+
+                    ListElement {
+                        title: "Wikipedia"
+                        url: "https://wikipedia.org/wiki/Special:Search?search="
+                    }
+                }
+
+                delegate: FormCard.FormRadioDelegate {
+                    checked: model.url === baseUrl
+                    text: model.title
+                    onClicked: {
+                        if (model.title !== list.customName)
+                            baseUrl = model.url;
+                        else {
+                            searchEnginePopup.open();
                         }
+                        // restore property binding
+                        checked = Qt.binding(function() { return (model.url === baseUrl) });
                     }
                 }
             }
