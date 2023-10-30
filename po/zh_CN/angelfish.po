@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-25 01:40+0000\n"
+"POT-Creation-Date: 2023-10-30 01:41+0000\n"
 "PO-Revision-Date: 2023-10-21 13:51\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -85,7 +85,7 @@ msgstr "您想要下载此文件吗？"
 msgid "Download"
 msgstr "下载"
 
-#: lib/contents/ui/DownloadQuestion.qml:28 lib/contents/ui/PrintPreview.qml:167
+#: lib/contents/ui/DownloadQuestion.qml:28 lib/contents/ui/PrintPreview.qml:163
 #: src/contents/ui/Downloads.qml:41
 #, kde-format
 msgid "Cancel"
@@ -201,37 +201,37 @@ msgstr "拒绝"
 msgid "Print"
 msgstr "打印"
 
-#: lib/contents/ui/PrintPreview.qml:67
+#: lib/contents/ui/PrintPreview.qml:64
 #, kde-format
 msgid "Destination"
 msgstr ""
 
-#: lib/contents/ui/PrintPreview.qml:71
+#: lib/contents/ui/PrintPreview.qml:68
 #, kde-format
 msgid "Save to PDF"
 msgstr "保存为 PDF"
 
-#: lib/contents/ui/PrintPreview.qml:77
+#: lib/contents/ui/PrintPreview.qml:74
 #, kde-format
 msgid "Orientation"
 msgstr ""
 
-#: lib/contents/ui/PrintPreview.qml:102
+#: lib/contents/ui/PrintPreview.qml:99
 #, kde-format
 msgid "Paper size"
 msgstr "纸张大小"
 
-#: lib/contents/ui/PrintPreview.qml:148
+#: lib/contents/ui/PrintPreview.qml:145
 #, kde-format
 msgid "Options"
 msgstr "选项"
 
-#: lib/contents/ui/PrintPreview.qml:152
+#: lib/contents/ui/PrintPreview.qml:149
 #, kde-format
 msgid "Print backgrounds"
 msgstr "打印背景"
 
-#: lib/contents/ui/PrintPreview.qml:172
+#: lib/contents/ui/PrintPreview.qml:168
 #, kde-format
 msgid "Save"
 msgstr "保存"
@@ -397,7 +397,7 @@ msgid "Paste"
 msgstr "粘贴"
 
 #: lib/contents/ui/WebView.qml:583 src/contents/ui/desktop/desktop.qml:318
-#: src/contents/ui/mobile.qml:280
+#: src/contents/ui/mobile.qml:282
 #, kde-format
 msgid "Share page"
 msgstr "分享网页"
@@ -477,12 +477,12 @@ msgstr "全屏"
 msgid "Hide developer tools"
 msgstr "隐藏开发者工具"
 
-#: src/contents/ui/desktop/desktop.qml:293 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:293 src/contents/ui/mobile.qml:378
 #, kde-format
 msgid "Show developer tools"
 msgstr "显示开发者工具"
 
-#: src/contents/ui/desktop/desktop.qml:302 src/contents/ui/mobile.qml:276
+#: src/contents/ui/desktop/desktop.qml:302 src/contents/ui/mobile.qml:278
 #, kde-format
 msgid "Find in page"
 msgstr "查找页面中的内容"
@@ -529,32 +529,32 @@ msgstr "没有历史记录"
 msgid "Toolbars"
 msgstr "工具栏"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:28
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:33
 #, kde-format
 msgid "Show home button:"
 msgstr "显示主页按钮："
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:29
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:34
 #, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr ""
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:39
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:44
 #, kde-format
 msgid "Homepage:"
 msgstr "主页："
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:61
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:67
 #, kde-format
 msgid "New tabs:"
 msgstr "新标签页："
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:83
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:90
 #, kde-format
 msgid "Always show the tab bar"
 msgstr "总是显示标签栏"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:84
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:91
 #, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open"
 msgstr ""
@@ -652,63 +652,63 @@ msgstr "Angelfish 网页浏览器"
 msgid "Tabs"
 msgstr "标签页"
 
-#: src/contents/ui/mobile.qml:291
+#: src/contents/ui/mobile.qml:293
 #, kde-format
 msgid "Add to homescreen"
 msgstr "添加到主屏幕"
 
-#: src/contents/ui/mobile.qml:301
+#: src/contents/ui/mobile.qml:303
 #, kde-format
 msgid "Open in app"
 msgstr "使用应用程序打开"
 
-#: src/contents/ui/mobile.qml:309
+#: src/contents/ui/mobile.qml:311
 #, kde-format
 msgid "Go previous"
 msgstr "后退"
 
-#: src/contents/ui/mobile.qml:317
-#: src/contents/ui/SettingsNavigationBarPage.qml:76
+#: src/contents/ui/mobile.qml:319
+#: src/contents/ui/SettingsNavigationBarPage.qml:73
 #, kde-format
 msgid "Go forward"
 msgstr "前进"
 
-#: src/contents/ui/mobile.qml:324
+#: src/contents/ui/mobile.qml:326
 #, kde-format
 msgid "Stop loading"
 msgstr "停止加载"
 
-#: src/contents/ui/mobile.qml:324
+#: src/contents/ui/mobile.qml:326
 #, kde-format
 msgid "Refresh"
 msgstr "刷新"
 
-#: src/contents/ui/mobile.qml:334
+#: src/contents/ui/mobile.qml:336
 #, kde-format
 msgid "Bookmarked"
 msgstr "已添加书签"
 
-#: src/contents/ui/mobile.qml:334
+#: src/contents/ui/mobile.qml:336
 #, kde-format
 msgid "Bookmark"
 msgstr "书签"
 
-#: src/contents/ui/mobile.qml:350
+#: src/contents/ui/mobile.qml:352
 #, kde-format
 msgid "Show desktop site"
 msgstr "显示桌面版网站"
 
-#: src/contents/ui/mobile.qml:359
+#: src/contents/ui/mobile.qml:361
 #, kde-format
 msgid "Reader Mode"
 msgstr "阅读模式"
 
-#: src/contents/ui/mobile.qml:367
+#: src/contents/ui/mobile.qml:369
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "隐藏导航栏"
 
-#: src/contents/ui/mobile.qml:367
+#: src/contents/ui/mobile.qml:369
 #, kde-format
 msgid "Show navigation bar"
 msgstr "显示导航栏"
@@ -727,47 +727,47 @@ msgstr ""
 msgid "Open"
 msgstr "打开"
 
-#: src/contents/ui/SettingsAdblock.qml:17
+#: src/contents/ui/SettingsAdblock.qml:21
 #, kde-format
 msgid "Adblock settings"
 msgstr "广告拦截器设置"
 
-#: src/contents/ui/SettingsAdblock.qml:28
+#: src/contents/ui/SettingsAdblock.qml:32
 #, kde-format
 msgid "Update lists"
 msgstr "更新列表"
 
-#: src/contents/ui/SettingsAdblock.qml:50
+#: src/contents/ui/SettingsAdblock.qml:54
 #, kde-format
 msgid "The adblock functionality isn't included in this build."
 msgstr "此版软件并未包含广告拦截器功能。"
 
-#: src/contents/ui/SettingsAdblock.qml:56
+#: src/contents/ui/SettingsAdblock.qml:60
 #, kde-format
 msgid "Add filterlist"
 msgstr "添加过滤规则列表"
 
-#: src/contents/ui/SettingsAdblock.qml:61
+#: src/contents/ui/SettingsAdblock.qml:65
 #, kde-format
 msgid "Name"
 msgstr "名称"
 
-#: src/contents/ui/SettingsAdblock.qml:70
+#: src/contents/ui/SettingsAdblock.qml:74
 #, kde-format
 msgid "Url"
 msgstr "URL"
 
-#: src/contents/ui/SettingsAdblock.qml:80
+#: src/contents/ui/SettingsAdblock.qml:84
 #, kde-format
 msgid "Add"
 msgstr "添加"
 
-#: src/contents/ui/SettingsAdblock.qml:145
+#: src/contents/ui/SettingsAdblock.qml:148
 #, kde-format
 msgid "Remove this filter list"
 msgstr "移除此过滤规则列表"
 
-#: src/contents/ui/SettingsAdblock.qml:155
+#: src/contents/ui/SettingsAdblock.qml:159
 #, kde-format
 msgid "add Filterlist"
 msgstr "添加过滤规则列表"
@@ -777,70 +777,70 @@ msgstr "添加过滤规则列表"
 msgid "General"
 msgstr "常规"
 
-#: src/contents/ui/SettingsGeneral.qml:40
+#: src/contents/ui/SettingsGeneral.qml:39
 #, kde-format
 msgid "Enable JavaScript"
 msgstr "启用 JavaScript"
 
-#: src/contents/ui/SettingsGeneral.qml:41
+#: src/contents/ui/SettingsGeneral.qml:40
 #, kde-format
 msgid "This may be required on certain websites for them to work."
 msgstr ""
 
-#: src/contents/ui/SettingsGeneral.qml:50
+#: src/contents/ui/SettingsGeneral.qml:49
 #, kde-format
 msgid "Load images"
 msgstr "加载图像"
 
-#: src/contents/ui/SettingsGeneral.qml:51
+#: src/contents/ui/SettingsGeneral.qml:50
 #, kde-format
 msgid "Whether to load images on websites."
 msgstr "是否在网站上加载图像。"
 
-#: src/contents/ui/SettingsGeneral.qml:60
+#: src/contents/ui/SettingsGeneral.qml:59
 #, kde-format
 msgid "Enable adblock"
 msgstr "启用广告拦截器"
 
-#: src/contents/ui/SettingsGeneral.qml:61
+#: src/contents/ui/SettingsGeneral.qml:60
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
 msgstr ""
 
-#: src/contents/ui/SettingsGeneral.qml:61
+#: src/contents/ui/SettingsGeneral.qml:60
 #, kde-format
 msgid "AdBlock functionality was not included in this build."
 msgstr "此版软件不包含广告拦截器功能。"
 
-#: src/contents/ui/SettingsGeneral.qml:71
+#: src/contents/ui/SettingsGeneral.qml:70
 #, kde-format
 msgid "Switch to new tab immediately"
 msgstr "立即切换到新标签页"
 
-#: src/contents/ui/SettingsGeneral.qml:72
+#: src/contents/ui/SettingsGeneral.qml:71
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately"
 msgstr "在新标签页中打开链接、图像或介质时，立即切换到该标签页"
 
-#: src/contents/ui/SettingsGeneral.qml:81
+#: src/contents/ui/SettingsGeneral.qml:80
 #, kde-format
 msgid "Use Smooth Scrolling"
 msgstr "使用平滑滚动"
 
-#: src/contents/ui/SettingsGeneral.qml:82
+#: src/contents/ui/SettingsGeneral.qml:81
 #, kde-format
 msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
 "Requires app restart to take effect."
 msgstr ""
 
-#: src/contents/ui/SettingsGeneral.qml:91
+#: src/contents/ui/SettingsGeneral.qml:90
 #, kde-format
 msgid "Use dark color scheme"
 msgstr "使用深色配色方案"
 
-#: src/contents/ui/SettingsGeneral.qml:92
+#: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
 msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
@@ -852,7 +852,7 @@ msgstr "网站的配色方案将设为深色。需要重启应用才能生效。
 msgid "Navigation bar"
 msgstr "导航栏"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:36
+#: src/contents/ui/SettingsNavigationBarPage.qml:33
 #, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
@@ -868,27 +868,27 @@ msgstr ""
 "\n"
 " 提示：如果您禁用了菜单按钮， 您依然可以在窗口底部左滑或右滑来访问菜单。"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:52
+#: src/contents/ui/SettingsNavigationBarPage.qml:49
 #, kde-format
 msgid "Main menu in portrait"
 msgstr "竖屏主菜单"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:58
+#: src/contents/ui/SettingsNavigationBarPage.qml:55
 #, kde-format
 msgid "Tabs in portrait"
 msgstr "竖屏标签页"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:64
+#: src/contents/ui/SettingsNavigationBarPage.qml:61
 #, kde-format
 msgid "Context menu in portrait"
 msgstr "竖屏上下文菜单"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:70
+#: src/contents/ui/SettingsNavigationBarPage.qml:67
 #, kde-format
 msgid "Go back"
 msgstr "返回"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:82
+#: src/contents/ui/SettingsNavigationBarPage.qml:79
 #, kde-format
 msgid "Reload/Stop"
 msgstr "刷新/停止"
@@ -898,14 +898,14 @@ msgstr "刷新/停止"
 msgid "Ad Block"
 msgstr "广告拦截器"
 
-#: src/contents/ui/SettingsPage.qml:26 src/contents/ui/SettingsWebApps.qml:16
+#: src/contents/ui/SettingsPage.qml:26 src/contents/ui/SettingsWebApps.qml:21
 #, kde-format
 msgid "Web Apps"
 msgstr "网页小程序"
 
 #: src/contents/ui/SettingsPage.qml:32
 #: src/contents/ui/SettingsSearchEnginePage.qml:16
-#: src/contents/ui/SettingsSearchEnginePage.qml:122
+#: src/contents/ui/SettingsSearchEnginePage.qml:120
 #, kde-format
 msgid "Search Engine"
 msgstr "搜索引擎"
@@ -915,12 +915,12 @@ msgstr "搜索引擎"
 msgid "Custom"
 msgstr "自定义"
 
-#: src/contents/ui/SettingsSearchEnginePage.qml:123
+#: src/contents/ui/SettingsSearchEnginePage.qml:121
 #, kde-format
 msgid "Base URL of your preferred search engine"
 msgstr "首选搜索引擎的基本 URL"
 
-#: src/contents/ui/SettingsWebApps.qml:75
+#: src/contents/ui/SettingsWebApps.qml:80
 #, kde-format
 msgid "Remove app"
 msgstr "移除应用"

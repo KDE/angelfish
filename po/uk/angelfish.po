@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-25 01:40+0000\n"
+"POT-Creation-Date: 2023-10-30 01:41+0000\n"
 "PO-Revision-Date: 2023-03-08 08:00+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -86,7 +86,7 @@ msgstr "Хочете отримати цей файл?"
 msgid "Download"
 msgstr "Отримати"
 
-#: lib/contents/ui/DownloadQuestion.qml:28 lib/contents/ui/PrintPreview.qml:167
+#: lib/contents/ui/DownloadQuestion.qml:28 lib/contents/ui/PrintPreview.qml:163
 #: src/contents/ui/Downloads.qml:41
 #, kde-format
 msgid "Cancel"
@@ -205,37 +205,37 @@ msgstr "Відхилити"
 msgid "Print"
 msgstr "Надрукувати"
 
-#: lib/contents/ui/PrintPreview.qml:67
+#: lib/contents/ui/PrintPreview.qml:64
 #, kde-format
 msgid "Destination"
 msgstr "Призначення"
 
-#: lib/contents/ui/PrintPreview.qml:71
+#: lib/contents/ui/PrintPreview.qml:68
 #, kde-format
 msgid "Save to PDF"
 msgstr "Зберегти до PDF"
 
-#: lib/contents/ui/PrintPreview.qml:77
+#: lib/contents/ui/PrintPreview.qml:74
 #, kde-format
 msgid "Orientation"
 msgstr "Орієнтація"
 
-#: lib/contents/ui/PrintPreview.qml:102
+#: lib/contents/ui/PrintPreview.qml:99
 #, kde-format
 msgid "Paper size"
 msgstr "Розмір паперу"
 
-#: lib/contents/ui/PrintPreview.qml:148
+#: lib/contents/ui/PrintPreview.qml:145
 #, kde-format
 msgid "Options"
 msgstr "Параметри"
 
-#: lib/contents/ui/PrintPreview.qml:152
+#: lib/contents/ui/PrintPreview.qml:149
 #, kde-format
 msgid "Print backgrounds"
 msgstr "Друкувати тло"
 
-#: lib/contents/ui/PrintPreview.qml:172
+#: lib/contents/ui/PrintPreview.qml:168
 #, kde-format
 msgid "Save"
 msgstr "Зберегти"
@@ -401,7 +401,7 @@ msgid "Paste"
 msgstr "Вставити"
 
 #: lib/contents/ui/WebView.qml:583 src/contents/ui/desktop/desktop.qml:318
-#: src/contents/ui/mobile.qml:280
+#: src/contents/ui/mobile.qml:282
 #, kde-format
 msgid "Share page"
 msgstr "Оприлюднити сторінку"
@@ -483,12 +483,12 @@ msgstr "На весь екран"
 msgid "Hide developer tools"
 msgstr "Приховати інструменти розробника"
 
-#: src/contents/ui/desktop/desktop.qml:293 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:293 src/contents/ui/mobile.qml:378
 #, kde-format
 msgid "Show developer tools"
 msgstr "Показати інструменти розробника"
 
-#: src/contents/ui/desktop/desktop.qml:302 src/contents/ui/mobile.qml:276
+#: src/contents/ui/desktop/desktop.qml:302 src/contents/ui/mobile.qml:278
 #, kde-format
 msgid "Find in page"
 msgstr "Знайти на сторінці"
@@ -535,34 +535,34 @@ msgstr "Записів журналу ще немає"
 msgid "Toolbars"
 msgstr "Панелі інструментів"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:28
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:33
 #, kde-format
 msgid "Show home button:"
 msgstr "Показ кнопки домівки:"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:29
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:34
 #, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr ""
 "Кнопку домівки буде показано поряд із кнопкою перезавантаження на панелі "
 "інструментів."
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:39
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:44
 #, kde-format
 msgid "Homepage:"
 msgstr "Домашня сторінка:"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:61
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:67
 #, kde-format
 msgid "New tabs:"
 msgstr "Нові вкладки:"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:83
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:90
 #, kde-format
 msgid "Always show the tab bar"
 msgstr "Завжди показувати панель вкладок"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:84
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:91
 #, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open"
 msgstr "Панель вкладок буде показано, навіть якщо відкрито лише одну вкладку"
@@ -660,63 +660,63 @@ msgstr "Веббраузер Angelfish"
 msgid "Tabs"
 msgstr "Вкладки"
 
-#: src/contents/ui/mobile.qml:291
+#: src/contents/ui/mobile.qml:293
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Додати на домашню сторінку"
 
-#: src/contents/ui/mobile.qml:301
+#: src/contents/ui/mobile.qml:303
 #, kde-format
 msgid "Open in app"
 msgstr "Відкрити у програмі"
 
-#: src/contents/ui/mobile.qml:309
+#: src/contents/ui/mobile.qml:311
 #, kde-format
 msgid "Go previous"
 msgstr "Перейти до попереднього"
 
-#: src/contents/ui/mobile.qml:317
-#: src/contents/ui/SettingsNavigationBarPage.qml:76
+#: src/contents/ui/mobile.qml:319
+#: src/contents/ui/SettingsNavigationBarPage.qml:73
 #, kde-format
 msgid "Go forward"
 msgstr "Перейти до наступного"
 
-#: src/contents/ui/mobile.qml:324
+#: src/contents/ui/mobile.qml:326
 #, kde-format
 msgid "Stop loading"
 msgstr "Припинити завантаження"
 
-#: src/contents/ui/mobile.qml:324
+#: src/contents/ui/mobile.qml:326
 #, kde-format
 msgid "Refresh"
 msgstr "Оновити"
 
-#: src/contents/ui/mobile.qml:334
+#: src/contents/ui/mobile.qml:336
 #, kde-format
 msgid "Bookmarked"
 msgstr "Додано до закладок"
 
-#: src/contents/ui/mobile.qml:334
+#: src/contents/ui/mobile.qml:336
 #, kde-format
 msgid "Bookmark"
 msgstr "Створити закладку"
 
-#: src/contents/ui/mobile.qml:350
+#: src/contents/ui/mobile.qml:352
 #, kde-format
 msgid "Show desktop site"
 msgstr "Показати місце стільниці"
 
-#: src/contents/ui/mobile.qml:359
+#: src/contents/ui/mobile.qml:361
 #, kde-format
 msgid "Reader Mode"
 msgstr "Режим читання"
 
-#: src/contents/ui/mobile.qml:367
+#: src/contents/ui/mobile.qml:369
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "Приховати панель навігації"
 
-#: src/contents/ui/mobile.qml:367
+#: src/contents/ui/mobile.qml:369
 #, kde-format
 msgid "Show navigation bar"
 msgstr "Показати панель навігації"
@@ -735,47 +735,47 @@ msgstr ""
 msgid "Open"
 msgstr "Відкрити"
 
-#: src/contents/ui/SettingsAdblock.qml:17
+#: src/contents/ui/SettingsAdblock.qml:21
 #, kde-format
 msgid "Adblock settings"
 msgstr "Параметри блокування реклами"
 
-#: src/contents/ui/SettingsAdblock.qml:28
+#: src/contents/ui/SettingsAdblock.qml:32
 #, kde-format
 msgid "Update lists"
 msgstr "Оновити списки"
 
-#: src/contents/ui/SettingsAdblock.qml:50
+#: src/contents/ui/SettingsAdblock.qml:54
 #, kde-format
 msgid "The adblock functionality isn't included in this build."
 msgstr "Можливості з блокування реклами не включено до цієї збірки."
 
-#: src/contents/ui/SettingsAdblock.qml:56
+#: src/contents/ui/SettingsAdblock.qml:60
 #, kde-format
 msgid "Add filterlist"
 msgstr "Додати список фільтрування"
 
-#: src/contents/ui/SettingsAdblock.qml:61
+#: src/contents/ui/SettingsAdblock.qml:65
 #, kde-format
 msgid "Name"
 msgstr "Назва"
 
-#: src/contents/ui/SettingsAdblock.qml:70
+#: src/contents/ui/SettingsAdblock.qml:74
 #, kde-format
 msgid "Url"
 msgstr "Адреса"
 
-#: src/contents/ui/SettingsAdblock.qml:80
+#: src/contents/ui/SettingsAdblock.qml:84
 #, kde-format
 msgid "Add"
 msgstr "Додати"
 
-#: src/contents/ui/SettingsAdblock.qml:145
+#: src/contents/ui/SettingsAdblock.qml:148
 #, kde-format
 msgid "Remove this filter list"
 msgstr "Вилучити цей список фільтрування"
 
-#: src/contents/ui/SettingsAdblock.qml:155
+#: src/contents/ui/SettingsAdblock.qml:159
 #, kde-format
 msgid "add Filterlist"
 msgstr "Додати список фільтрування"
@@ -785,47 +785,47 @@ msgstr "Додати список фільтрування"
 msgid "General"
 msgstr "Загальне"
 
-#: src/contents/ui/SettingsGeneral.qml:40
+#: src/contents/ui/SettingsGeneral.qml:39
 #, kde-format
 msgid "Enable JavaScript"
 msgstr "Увімкнути JavaScript"
 
-#: src/contents/ui/SettingsGeneral.qml:41
+#: src/contents/ui/SettingsGeneral.qml:40
 #, kde-format
 msgid "This may be required on certain websites for them to work."
 msgstr "Це може знадобитися для працездатності деяких сайтів."
 
-#: src/contents/ui/SettingsGeneral.qml:50
+#: src/contents/ui/SettingsGeneral.qml:49
 #, kde-format
 msgid "Load images"
 msgstr "Завантажити зображення"
 
-#: src/contents/ui/SettingsGeneral.qml:51
+#: src/contents/ui/SettingsGeneral.qml:50
 #, kde-format
 msgid "Whether to load images on websites."
 msgstr "Чи слід завантажувати зображення на сайтах."
 
-#: src/contents/ui/SettingsGeneral.qml:60
+#: src/contents/ui/SettingsGeneral.qml:59
 #, kde-format
 msgid "Enable adblock"
 msgstr "Увімкнути блокування реклами"
 
-#: src/contents/ui/SettingsGeneral.qml:61
+#: src/contents/ui/SettingsGeneral.qml:60
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
 msgstr "Спробувати запобігти показу реклами на сайтах."
 
-#: src/contents/ui/SettingsGeneral.qml:61
+#: src/contents/ui/SettingsGeneral.qml:60
 #, kde-format
 msgid "AdBlock functionality was not included in this build."
 msgstr "Функціональні можливості AdBlock не включено до цієї збірки."
 
-#: src/contents/ui/SettingsGeneral.qml:71
+#: src/contents/ui/SettingsGeneral.qml:70
 #, kde-format
 msgid "Switch to new tab immediately"
 msgstr "Перемкнутися на нову вкладку негайно"
 
-#: src/contents/ui/SettingsGeneral.qml:72
+#: src/contents/ui/SettingsGeneral.qml:71
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately"
@@ -833,12 +833,12 @@ msgstr ""
 "Коли ви відкриваєте посилання, зображення або мультимедійні дані у новій "
 "вкладці, перемикатися на неї негайно"
 
-#: src/contents/ui/SettingsGeneral.qml:81
+#: src/contents/ui/SettingsGeneral.qml:80
 #, kde-format
 msgid "Use Smooth Scrolling"
 msgstr "Використовувати плавне гортання"
 
-#: src/contents/ui/SettingsGeneral.qml:82
+#: src/contents/ui/SettingsGeneral.qml:81
 #, kde-format
 msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
@@ -847,12 +847,12 @@ msgstr ""
 "Гортання буде плавнішим і не зупинятиметься одразу, коли ви припинятимете "
 "гортання. Потребує перезапуску програми для набуття чинності."
 
-#: src/contents/ui/SettingsGeneral.qml:91
+#: src/contents/ui/SettingsGeneral.qml:90
 #, kde-format
 msgid "Use dark color scheme"
 msgstr "Використовувати темну схему кольорів"
 
-#: src/contents/ui/SettingsGeneral.qml:92
+#: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
 msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
@@ -866,7 +866,7 @@ msgstr ""
 msgid "Navigation bar"
 msgstr "Панель навігації"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:36
+#: src/contents/ui/SettingsNavigationBarPage.qml:33
 #, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
@@ -885,27 +885,27 @@ msgstr ""
 "меню або проведенням пальцем з лівого або правого краю екрана, або "
 "проведенням убік уздовж нижнього краю вікна."
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:52
+#: src/contents/ui/SettingsNavigationBarPage.qml:49
 #, kde-format
 msgid "Main menu in portrait"
 msgstr "Головне меню у книжковому режимі"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:58
+#: src/contents/ui/SettingsNavigationBarPage.qml:55
 #, kde-format
 msgid "Tabs in portrait"
 msgstr "Вкладки у книжковому режимі"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:64
+#: src/contents/ui/SettingsNavigationBarPage.qml:61
 #, kde-format
 msgid "Context menu in portrait"
 msgstr "Контекстне меню у книжковому режимі"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:70
+#: src/contents/ui/SettingsNavigationBarPage.qml:67
 #, kde-format
 msgid "Go back"
 msgstr "Назад"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:82
+#: src/contents/ui/SettingsNavigationBarPage.qml:79
 #, kde-format
 msgid "Reload/Stop"
 msgstr "Перезавантажити/Зупинити"
@@ -915,14 +915,14 @@ msgstr "Перезавантажити/Зупинити"
 msgid "Ad Block"
 msgstr "Блокування реклами"
 
-#: src/contents/ui/SettingsPage.qml:26 src/contents/ui/SettingsWebApps.qml:16
+#: src/contents/ui/SettingsPage.qml:26 src/contents/ui/SettingsWebApps.qml:21
 #, kde-format
 msgid "Web Apps"
 msgstr "Вебпрограми"
 
 #: src/contents/ui/SettingsPage.qml:32
 #: src/contents/ui/SettingsSearchEnginePage.qml:16
-#: src/contents/ui/SettingsSearchEnginePage.qml:122
+#: src/contents/ui/SettingsSearchEnginePage.qml:120
 #, kde-format
 msgid "Search Engine"
 msgstr "Рушій пошуку"
@@ -932,12 +932,12 @@ msgstr "Рушій пошуку"
 msgid "Custom"
 msgstr "Нетиповий"
 
-#: src/contents/ui/SettingsSearchEnginePage.qml:123
+#: src/contents/ui/SettingsSearchEnginePage.qml:121
 #, kde-format
 msgid "Base URL of your preferred search engine"
 msgstr "Базова адреса бажаного для вас рушія пошуку"
 
-#: src/contents/ui/SettingsWebApps.qml:75
+#: src/contents/ui/SettingsWebApps.qml:80
 #, kde-format
 msgid "Remove app"
 msgstr "Вилучити програму"

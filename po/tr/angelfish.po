@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-25 01:40+0000\n"
+"POT-Creation-Date: 2023-10-30 01:41+0000\n"
 "PO-Revision-Date: 2023-06-11 21:35+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -84,7 +84,7 @@ msgstr "Bu dosyayı indirmek istiyor musunuz?"
 msgid "Download"
 msgstr "İndir"
 
-#: lib/contents/ui/DownloadQuestion.qml:28 lib/contents/ui/PrintPreview.qml:167
+#: lib/contents/ui/DownloadQuestion.qml:28 lib/contents/ui/PrintPreview.qml:163
 #: src/contents/ui/Downloads.qml:41
 #, kde-format
 msgid "Cancel"
@@ -203,37 +203,37 @@ msgstr "Reddet"
 msgid "Print"
 msgstr "Yazdır"
 
-#: lib/contents/ui/PrintPreview.qml:67
+#: lib/contents/ui/PrintPreview.qml:64
 #, kde-format
 msgid "Destination"
 msgstr "Hedef"
 
-#: lib/contents/ui/PrintPreview.qml:71
+#: lib/contents/ui/PrintPreview.qml:68
 #, kde-format
 msgid "Save to PDF"
 msgstr "PDF Olarak Kaydet"
 
-#: lib/contents/ui/PrintPreview.qml:77
+#: lib/contents/ui/PrintPreview.qml:74
 #, kde-format
 msgid "Orientation"
 msgstr "Yönelim"
 
-#: lib/contents/ui/PrintPreview.qml:102
+#: lib/contents/ui/PrintPreview.qml:99
 #, kde-format
 msgid "Paper size"
 msgstr "Kağıt boyutu"
 
-#: lib/contents/ui/PrintPreview.qml:148
+#: lib/contents/ui/PrintPreview.qml:145
 #, kde-format
 msgid "Options"
 msgstr "Seçenekler"
 
-#: lib/contents/ui/PrintPreview.qml:152
+#: lib/contents/ui/PrintPreview.qml:149
 #, kde-format
 msgid "Print backgrounds"
 msgstr "Yazdırma arka planları"
 
-#: lib/contents/ui/PrintPreview.qml:172
+#: lib/contents/ui/PrintPreview.qml:168
 #, kde-format
 msgid "Save"
 msgstr "Kaydet"
@@ -399,7 +399,7 @@ msgid "Paste"
 msgstr "Yapıştır"
 
 #: lib/contents/ui/WebView.qml:583 src/contents/ui/desktop/desktop.qml:318
-#: src/contents/ui/mobile.qml:280
+#: src/contents/ui/mobile.qml:282
 #, kde-format
 msgid "Share page"
 msgstr "Sayfayı paylaş"
@@ -481,12 +481,12 @@ msgstr "Tam Ekran"
 msgid "Hide developer tools"
 msgstr "Geliştirici araçlarını gizle"
 
-#: src/contents/ui/desktop/desktop.qml:293 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:293 src/contents/ui/mobile.qml:378
 #, kde-format
 msgid "Show developer tools"
 msgstr "Geliştirici araçlarını göster"
 
-#: src/contents/ui/desktop/desktop.qml:302 src/contents/ui/mobile.qml:276
+#: src/contents/ui/desktop/desktop.qml:302 src/contents/ui/mobile.qml:278
 #, kde-format
 msgid "Find in page"
 msgstr "Sayfada bul"
@@ -533,33 +533,33 @@ msgstr "Henüz geçmiş yok"
 msgid "Toolbars"
 msgstr "Araç Çubukları"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:28
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:33
 #, kde-format
 msgid "Show home button:"
 msgstr "Anasayfa düğmesini göster:"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:29
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:34
 #, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr ""
 "Ana sayfa düğmesi, araç çubuğunda yenile düğmesinin yanında gösterilecektir."
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:39
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:44
 #, kde-format
 msgid "Homepage:"
 msgstr "Anasayfa:"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:61
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:67
 #, kde-format
 msgid "New tabs:"
 msgstr "Yeni sekmeler:"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:83
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:90
 #, kde-format
 msgid "Always show the tab bar"
 msgstr "Sekme çubuğunu her zaman göster:"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:84
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:91
 #, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open"
 msgstr "Bir tane sekme açık olsa dahi sekme çubuğu gösterilecektir"
@@ -657,63 +657,63 @@ msgstr "Melekbalığı Web Tarayıcısı"
 msgid "Tabs"
 msgstr "Sekmeler"
 
-#: src/contents/ui/mobile.qml:291
+#: src/contents/ui/mobile.qml:293
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Ana ekrana ekle"
 
-#: src/contents/ui/mobile.qml:301
+#: src/contents/ui/mobile.qml:303
 #, kde-format
 msgid "Open in app"
 msgstr "Uygulamada aç"
 
-#: src/contents/ui/mobile.qml:309
+#: src/contents/ui/mobile.qml:311
 #, kde-format
 msgid "Go previous"
 msgstr "Öncekine git"
 
-#: src/contents/ui/mobile.qml:317
-#: src/contents/ui/SettingsNavigationBarPage.qml:76
+#: src/contents/ui/mobile.qml:319
+#: src/contents/ui/SettingsNavigationBarPage.qml:73
 #, kde-format
 msgid "Go forward"
 msgstr "İleri git"
 
-#: src/contents/ui/mobile.qml:324
+#: src/contents/ui/mobile.qml:326
 #, kde-format
 msgid "Stop loading"
 msgstr "Yüklemeyi durdur"
 
-#: src/contents/ui/mobile.qml:324
+#: src/contents/ui/mobile.qml:326
 #, kde-format
 msgid "Refresh"
 msgstr "Yenile"
 
-#: src/contents/ui/mobile.qml:334
+#: src/contents/ui/mobile.qml:336
 #, kde-format
 msgid "Bookmarked"
 msgstr "Yer imi eklendi"
 
-#: src/contents/ui/mobile.qml:334
+#: src/contents/ui/mobile.qml:336
 #, kde-format
 msgid "Bookmark"
 msgstr "Yer imi"
 
-#: src/contents/ui/mobile.qml:350
+#: src/contents/ui/mobile.qml:352
 #, kde-format
 msgid "Show desktop site"
 msgstr "Masaüstü sitesini göster"
 
-#: src/contents/ui/mobile.qml:359
+#: src/contents/ui/mobile.qml:361
 #, kde-format
 msgid "Reader Mode"
 msgstr "Okuyucu Kipi"
 
-#: src/contents/ui/mobile.qml:367
+#: src/contents/ui/mobile.qml:369
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "Dolaşım çubuğunu gizle"
 
-#: src/contents/ui/mobile.qml:367
+#: src/contents/ui/mobile.qml:369
 #, kde-format
 msgid "Show navigation bar"
 msgstr "Dolaşım çubuğunu göster"
@@ -732,47 +732,47 @@ msgstr ""
 msgid "Open"
 msgstr "Aç"
 
-#: src/contents/ui/SettingsAdblock.qml:17
+#: src/contents/ui/SettingsAdblock.qml:21
 #, kde-format
 msgid "Adblock settings"
 msgstr "Reklam engelleme ayarları"
 
-#: src/contents/ui/SettingsAdblock.qml:28
+#: src/contents/ui/SettingsAdblock.qml:32
 #, kde-format
 msgid "Update lists"
 msgstr "Listeleri güncelle"
 
-#: src/contents/ui/SettingsAdblock.qml:50
+#: src/contents/ui/SettingsAdblock.qml:54
 #, kde-format
 msgid "The adblock functionality isn't included in this build."
 msgstr "Reklam engelleme işlevi bu yapıya dahil değildir."
 
-#: src/contents/ui/SettingsAdblock.qml:56
+#: src/contents/ui/SettingsAdblock.qml:60
 #, kde-format
 msgid "Add filterlist"
 msgstr "Süzgeç listesi ekle"
 
-#: src/contents/ui/SettingsAdblock.qml:61
+#: src/contents/ui/SettingsAdblock.qml:65
 #, kde-format
 msgid "Name"
 msgstr "Ad"
 
-#: src/contents/ui/SettingsAdblock.qml:70
+#: src/contents/ui/SettingsAdblock.qml:74
 #, kde-format
 msgid "Url"
 msgstr "Url"
 
-#: src/contents/ui/SettingsAdblock.qml:80
+#: src/contents/ui/SettingsAdblock.qml:84
 #, kde-format
 msgid "Add"
 msgstr "Ekle"
 
-#: src/contents/ui/SettingsAdblock.qml:145
+#: src/contents/ui/SettingsAdblock.qml:148
 #, kde-format
 msgid "Remove this filter list"
 msgstr "Bu süzgeç listesini kaldır"
 
-#: src/contents/ui/SettingsAdblock.qml:155
+#: src/contents/ui/SettingsAdblock.qml:159
 #, kde-format
 msgid "add Filterlist"
 msgstr "süzgeç listesi ekle"
@@ -782,59 +782,59 @@ msgstr "süzgeç listesi ekle"
 msgid "General"
 msgstr "Genel"
 
-#: src/contents/ui/SettingsGeneral.qml:40
+#: src/contents/ui/SettingsGeneral.qml:39
 #, kde-format
 msgid "Enable JavaScript"
 msgstr "JavaScript'i etkinleştir"
 
-#: src/contents/ui/SettingsGeneral.qml:41
+#: src/contents/ui/SettingsGeneral.qml:40
 #, kde-format
 msgid "This may be required on certain websites for them to work."
 msgstr "Bu, kimi web sitelerinin düzgün çalışması için gerekli olabilir."
 
-#: src/contents/ui/SettingsGeneral.qml:50
+#: src/contents/ui/SettingsGeneral.qml:49
 #, kde-format
 msgid "Load images"
 msgstr "Görselleri yükle"
 
-#: src/contents/ui/SettingsGeneral.qml:51
+#: src/contents/ui/SettingsGeneral.qml:50
 #, kde-format
 msgid "Whether to load images on websites."
 msgstr "Web sitelerindeki görseller yüklenip yüklenmemeli mi."
 
-#: src/contents/ui/SettingsGeneral.qml:60
+#: src/contents/ui/SettingsGeneral.qml:59
 #, kde-format
 msgid "Enable adblock"
 msgstr "Reklam engellemeyi etkinleştir"
 
-#: src/contents/ui/SettingsGeneral.qml:61
+#: src/contents/ui/SettingsGeneral.qml:60
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
 msgstr "Web sayfalarındaki reklamları göstermemeye çalışır."
 
-#: src/contents/ui/SettingsGeneral.qml:61
+#: src/contents/ui/SettingsGeneral.qml:60
 #, kde-format
 msgid "AdBlock functionality was not included in this build."
 msgstr "Reklam engelleme işlevi bu yapıda içerilmedi."
 
-#: src/contents/ui/SettingsGeneral.qml:71
+#: src/contents/ui/SettingsGeneral.qml:70
 #, kde-format
 msgid "Switch to new tab immediately"
 msgstr "Anında yeni sekmeye geç"
 
-#: src/contents/ui/SettingsGeneral.qml:72
+#: src/contents/ui/SettingsGeneral.qml:71
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately"
 msgstr ""
 "Bir bağlantıyı, görseli veya ortamı yeni sekmede açtığınızda, hemen ona geç"
 
-#: src/contents/ui/SettingsGeneral.qml:81
+#: src/contents/ui/SettingsGeneral.qml:80
 #, kde-format
 msgid "Use Smooth Scrolling"
 msgstr "Pürüzsüz Sarmayı Kullan"
 
-#: src/contents/ui/SettingsGeneral.qml:82
+#: src/contents/ui/SettingsGeneral.qml:81
 #, kde-format
 msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
@@ -843,12 +843,12 @@ msgstr ""
 "Sarma daha pürüzsüzdür ve siz sarmayı durdurduğunuzda anında kesilmez. "
 "Etkili olması için uygulamanın yeniden başlatılması gerekir."
 
-#: src/contents/ui/SettingsGeneral.qml:91
+#: src/contents/ui/SettingsGeneral.qml:90
 #, kde-format
 msgid "Use dark color scheme"
 msgstr "Koyu renk şeması kullan"
 
-#: src/contents/ui/SettingsGeneral.qml:92
+#: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
 msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
@@ -862,7 +862,7 @@ msgstr ""
 msgid "Navigation bar"
 msgstr "Dolaşım çubuğu"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:36
+#: src/contents/ui/SettingsNavigationBarPage.qml:33
 #, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
@@ -881,27 +881,27 @@ msgstr ""
 "pencerenin altından bir kenara doğru sürüklerseniz erişebileceğinizi not "
 "edin."
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:52
+#: src/contents/ui/SettingsNavigationBarPage.qml:49
 #, kde-format
 msgid "Main menu in portrait"
 msgstr "Dikey ana menü"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:58
+#: src/contents/ui/SettingsNavigationBarPage.qml:55
 #, kde-format
 msgid "Tabs in portrait"
 msgstr "Dikey sekmeler"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:64
+#: src/contents/ui/SettingsNavigationBarPage.qml:61
 #, kde-format
 msgid "Context menu in portrait"
 msgstr "Dikey bağlam menüsü"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:70
+#: src/contents/ui/SettingsNavigationBarPage.qml:67
 #, kde-format
 msgid "Go back"
 msgstr "Geri git"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:82
+#: src/contents/ui/SettingsNavigationBarPage.qml:79
 #, kde-format
 msgid "Reload/Stop"
 msgstr "Yeniden Yükle/Durdur"
@@ -911,14 +911,14 @@ msgstr "Yeniden Yükle/Durdur"
 msgid "Ad Block"
 msgstr "Reklam Engelleme"
 
-#: src/contents/ui/SettingsPage.qml:26 src/contents/ui/SettingsWebApps.qml:16
+#: src/contents/ui/SettingsPage.qml:26 src/contents/ui/SettingsWebApps.qml:21
 #, kde-format
 msgid "Web Apps"
 msgstr "Web Uygulamaları"
 
 #: src/contents/ui/SettingsPage.qml:32
 #: src/contents/ui/SettingsSearchEnginePage.qml:16
-#: src/contents/ui/SettingsSearchEnginePage.qml:122
+#: src/contents/ui/SettingsSearchEnginePage.qml:120
 #, kde-format
 msgid "Search Engine"
 msgstr "Arama Motoru"
@@ -928,12 +928,12 @@ msgstr "Arama Motoru"
 msgid "Custom"
 msgstr "Özel"
 
-#: src/contents/ui/SettingsSearchEnginePage.qml:123
+#: src/contents/ui/SettingsSearchEnginePage.qml:121
 #, kde-format
 msgid "Base URL of your preferred search engine"
 msgstr "Arama motoru için tercih ettiğiniz ana URL"
 
-#: src/contents/ui/SettingsWebApps.qml:75
+#: src/contents/ui/SettingsWebApps.qml:80
 #, kde-format
 msgid "Remove app"
 msgstr "Uygulamayı kaldır"

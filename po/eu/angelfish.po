@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-25 01:40+0000\n"
+"POT-Creation-Date: 2023-10-30 01:41+0000\n"
 "PO-Revision-Date: 2023-04-30 09:37+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -86,7 +86,7 @@ msgstr "Fitxategi hau zama-jaitsi nahi duzu?"
 msgid "Download"
 msgstr "Zama-jaitsi"
 
-#: lib/contents/ui/DownloadQuestion.qml:28 lib/contents/ui/PrintPreview.qml:167
+#: lib/contents/ui/DownloadQuestion.qml:28 lib/contents/ui/PrintPreview.qml:163
 #: src/contents/ui/Downloads.qml:41
 #, kde-format
 msgid "Cancel"
@@ -204,37 +204,37 @@ msgstr "Uko egin"
 msgid "Print"
 msgstr "Inprimatu"
 
-#: lib/contents/ui/PrintPreview.qml:67
+#: lib/contents/ui/PrintPreview.qml:64
 #, kde-format
 msgid "Destination"
 msgstr "Jomuga"
 
-#: lib/contents/ui/PrintPreview.qml:71
+#: lib/contents/ui/PrintPreview.qml:68
 #, kde-format
 msgid "Save to PDF"
 msgstr "Gorde PDF gisa"
 
-#: lib/contents/ui/PrintPreview.qml:77
+#: lib/contents/ui/PrintPreview.qml:74
 #, kde-format
 msgid "Orientation"
 msgstr "Orientazioa"
 
-#: lib/contents/ui/PrintPreview.qml:102
+#: lib/contents/ui/PrintPreview.qml:99
 #, kde-format
 msgid "Paper size"
 msgstr "Paperaren neurria"
 
-#: lib/contents/ui/PrintPreview.qml:148
+#: lib/contents/ui/PrintPreview.qml:145
 #, kde-format
 msgid "Options"
 msgstr "Aukerak"
 
-#: lib/contents/ui/PrintPreview.qml:152
+#: lib/contents/ui/PrintPreview.qml:149
 #, kde-format
 msgid "Print backgrounds"
 msgstr "Inprimatu atzeko planoak"
 
-#: lib/contents/ui/PrintPreview.qml:172
+#: lib/contents/ui/PrintPreview.qml:168
 #, kde-format
 msgid "Save"
 msgstr "Gorde"
@@ -400,7 +400,7 @@ msgid "Paste"
 msgstr "Itsatsi"
 
 #: lib/contents/ui/WebView.qml:583 src/contents/ui/desktop/desktop.qml:318
-#: src/contents/ui/mobile.qml:280
+#: src/contents/ui/mobile.qml:282
 #, kde-format
 msgid "Share page"
 msgstr "Partekatu orria"
@@ -482,12 +482,12 @@ msgstr "Pantaila-betea"
 msgid "Hide developer tools"
 msgstr "Ezkutatu garatzailearen tresnak"
 
-#: src/contents/ui/desktop/desktop.qml:293 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:293 src/contents/ui/mobile.qml:378
 #, kde-format
 msgid "Show developer tools"
 msgstr "Erakutsi garatzailearen tresnak"
 
-#: src/contents/ui/desktop/desktop.qml:302 src/contents/ui/mobile.qml:276
+#: src/contents/ui/desktop/desktop.qml:302 src/contents/ui/mobile.qml:278
 #, kde-format
 msgid "Find in page"
 msgstr "Aurkitu orrian"
@@ -534,33 +534,33 @@ msgstr "Oraindik historialik ez"
 msgid "Toolbars"
 msgstr "Tresna-barrak"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:28
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:33
 #, kde-format
 msgid "Show home button:"
 msgstr "Erakutsi etxeko botoia:"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:29
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:34
 #, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr ""
 "Etxeko botoia, tresna-barran, birzamatzeko botoiaren ondoan erakutsiko da."
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:39
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:44
 #, kde-format
 msgid "Homepage:"
 msgstr "Orri nagusia:"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:61
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:67
 #, kde-format
 msgid "New tabs:"
 msgstr "Fitxa berriak:"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:83
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:90
 #, kde-format
 msgid "Always show the tab bar"
 msgstr "Erakutsi beti fitxa-barra"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:84
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:91
 #, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open"
 msgstr "Fitxa-barra, fitxa bakarra irekita dagoenean ere, erakutsiko du"
@@ -658,63 +658,63 @@ msgstr "Angelfish web arakatzailea"
 msgid "Tabs"
 msgstr "Fitxak"
 
-#: src/contents/ui/mobile.qml:291
+#: src/contents/ui/mobile.qml:293
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Gehitu pantaila nagusira"
 
-#: src/contents/ui/mobile.qml:301
+#: src/contents/ui/mobile.qml:303
 #, kde-format
 msgid "Open in app"
 msgstr "Ireki aplikazioan"
 
-#: src/contents/ui/mobile.qml:309
+#: src/contents/ui/mobile.qml:311
 #, kde-format
 msgid "Go previous"
 msgstr "Joan aurrekora"
 
-#: src/contents/ui/mobile.qml:317
-#: src/contents/ui/SettingsNavigationBarPage.qml:76
+#: src/contents/ui/mobile.qml:319
+#: src/contents/ui/SettingsNavigationBarPage.qml:73
 #, kde-format
 msgid "Go forward"
 msgstr "Joan aurrera"
 
-#: src/contents/ui/mobile.qml:324
+#: src/contents/ui/mobile.qml:326
 #, kde-format
 msgid "Stop loading"
 msgstr "Gelditu zamatzea"
 
-#: src/contents/ui/mobile.qml:324
+#: src/contents/ui/mobile.qml:326
 #, kde-format
 msgid "Refresh"
 msgstr "Freskatu"
 
-#: src/contents/ui/mobile.qml:334
+#: src/contents/ui/mobile.qml:336
 #, kde-format
 msgid "Bookmarked"
 msgstr "Laster-marketan dago"
 
-#: src/contents/ui/mobile.qml:334
+#: src/contents/ui/mobile.qml:336
 #, kde-format
 msgid "Bookmark"
 msgstr "Laster-marka"
 
-#: src/contents/ui/mobile.qml:350
+#: src/contents/ui/mobile.qml:352
 #, kde-format
 msgid "Show desktop site"
 msgstr "Erakutsi mahaigaineko lekua"
 
-#: src/contents/ui/mobile.qml:359
+#: src/contents/ui/mobile.qml:361
 #, kde-format
 msgid "Reader Mode"
 msgstr "Irakurle modua"
 
-#: src/contents/ui/mobile.qml:367
+#: src/contents/ui/mobile.qml:369
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "Ezkutatu nabigatzeko barra"
 
-#: src/contents/ui/mobile.qml:367
+#: src/contents/ui/mobile.qml:369
 #, kde-format
 msgid "Show navigation bar"
 msgstr "Erakutsi nabigatzeko barra"
@@ -733,48 +733,48 @@ msgstr ""
 msgid "Open"
 msgstr "Ireki"
 
-#: src/contents/ui/SettingsAdblock.qml:17
+#: src/contents/ui/SettingsAdblock.qml:21
 #, kde-format
 msgid "Adblock settings"
 msgstr "Iragarkiak eragozteko ezarpenak"
 
-#: src/contents/ui/SettingsAdblock.qml:28
+#: src/contents/ui/SettingsAdblock.qml:32
 #, kde-format
 msgid "Update lists"
 msgstr "Eguneratu zerrendak"
 
-#: src/contents/ui/SettingsAdblock.qml:50
+#: src/contents/ui/SettingsAdblock.qml:54
 #, kde-format
 msgid "The adblock functionality isn't included in this build."
 msgstr ""
 "Iragarkiak eragozteko funtzionalitatea ez dago eraikin honetan barneratuta."
 
-#: src/contents/ui/SettingsAdblock.qml:56
+#: src/contents/ui/SettingsAdblock.qml:60
 #, kde-format
 msgid "Add filterlist"
 msgstr "Gehitu iragazki-zerrenda"
 
-#: src/contents/ui/SettingsAdblock.qml:61
+#: src/contents/ui/SettingsAdblock.qml:65
 #, kde-format
 msgid "Name"
 msgstr "Izena"
 
-#: src/contents/ui/SettingsAdblock.qml:70
+#: src/contents/ui/SettingsAdblock.qml:74
 #, kde-format
 msgid "Url"
 msgstr "URLa"
 
-#: src/contents/ui/SettingsAdblock.qml:80
+#: src/contents/ui/SettingsAdblock.qml:84
 #, kde-format
 msgid "Add"
 msgstr "Gehitu"
 
-#: src/contents/ui/SettingsAdblock.qml:145
+#: src/contents/ui/SettingsAdblock.qml:148
 #, kde-format
 msgid "Remove this filter list"
 msgstr "Kendu iragazki-zerrenda hau"
 
-#: src/contents/ui/SettingsAdblock.qml:155
+#: src/contents/ui/SettingsAdblock.qml:159
 #, kde-format
 msgid "add Filterlist"
 msgstr "Gehitu iragazki-zerrenda"
@@ -784,48 +784,48 @@ msgstr "Gehitu iragazki-zerrenda"
 msgid "General"
 msgstr "Orokorra"
 
-#: src/contents/ui/SettingsGeneral.qml:40
+#: src/contents/ui/SettingsGeneral.qml:39
 #, kde-format
 msgid "Enable JavaScript"
 msgstr "Gaitu JavaScript"
 
-#: src/contents/ui/SettingsGeneral.qml:41
+#: src/contents/ui/SettingsGeneral.qml:40
 #, kde-format
 msgid "This may be required on certain websites for them to work."
 msgstr ""
 "Webgune jakin batzuetan, haiek ibiltzeko, hau beharrezkoa izan daiteke."
 
-#: src/contents/ui/SettingsGeneral.qml:50
+#: src/contents/ui/SettingsGeneral.qml:49
 #, kde-format
 msgid "Load images"
 msgstr "Zamatu irudiak"
 
-#: src/contents/ui/SettingsGeneral.qml:51
+#: src/contents/ui/SettingsGeneral.qml:50
 #, kde-format
 msgid "Whether to load images on websites."
 msgstr "Webguneetan irudiak zamatu behar diren edo ez."
 
-#: src/contents/ui/SettingsGeneral.qml:60
+#: src/contents/ui/SettingsGeneral.qml:59
 #, kde-format
 msgid "Enable adblock"
 msgstr "Gaitu iragarkiak eragoztea"
 
-#: src/contents/ui/SettingsGeneral.qml:61
+#: src/contents/ui/SettingsGeneral.qml:60
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
 msgstr "Webguneetako iragarkiak erakustea eragozten saiatzen da."
 
-#: src/contents/ui/SettingsGeneral.qml:61
+#: src/contents/ui/SettingsGeneral.qml:60
 #, kde-format
 msgid "AdBlock functionality was not included in this build."
 msgstr "AdBlock funtzionalitatea ez dago barneratuta eraikin honetan."
 
-#: src/contents/ui/SettingsGeneral.qml:71
+#: src/contents/ui/SettingsGeneral.qml:70
 #, kde-format
 msgid "Switch to new tab immediately"
 msgstr "Aldatu fitxa berrira berehala"
 
-#: src/contents/ui/SettingsGeneral.qml:72
+#: src/contents/ui/SettingsGeneral.qml:71
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately"
@@ -833,12 +833,12 @@ msgstr ""
 "Esteka bat, irudi bat edo multimedia fitxa berri batean irekitzen duzunean, "
 "berehala hartara aldatu"
 
-#: src/contents/ui/SettingsGeneral.qml:81
+#: src/contents/ui/SettingsGeneral.qml:80
 #, kde-format
 msgid "Use Smooth Scrolling"
 msgstr "Erabili kiribiltze leuna"
 
-#: src/contents/ui/SettingsGeneral.qml:82
+#: src/contents/ui/SettingsGeneral.qml:81
 #, kde-format
 msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
@@ -847,12 +847,12 @@ msgstr ""
 "Kiribiltzea leunagoa da eta kiribiltzeari uzten diozunean ez da bat-batean "
 "geldituko. Indarrean sartzeko aplikazioa berrabiarazi beharra dago."
 
-#: src/contents/ui/SettingsGeneral.qml:91
+#: src/contents/ui/SettingsGeneral.qml:90
 #, kde-format
 msgid "Use dark color scheme"
 msgstr "Erabili kolore-antolaera iluna"
 
-#: src/contents/ui/SettingsGeneral.qml:92
+#: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
 msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
@@ -866,7 +866,7 @@ msgstr ""
 msgid "Navigation bar"
 msgstr "Nabigatzeko barra"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:36
+#: src/contents/ui/SettingsNavigationBarPage.qml:33
 #, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
@@ -885,27 +885,27 @@ msgstr ""
 "izango duzula ezker edo eskuin alboetan hatz-kolpe arin bat eginez edo leiho "
 "beheko aldetik albo batera irristatuz."
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:52
+#: src/contents/ui/SettingsNavigationBarPage.qml:49
 #, kde-format
 msgid "Main menu in portrait"
 msgstr "Menu nagusia erretratu itxuran"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:58
+#: src/contents/ui/SettingsNavigationBarPage.qml:55
 #, kde-format
 msgid "Tabs in portrait"
 msgstr "Fitxak erretratu itxuran"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:64
+#: src/contents/ui/SettingsNavigationBarPage.qml:61
 #, kde-format
 msgid "Context menu in portrait"
 msgstr "Testuinguru menua erretratu itxuran"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:70
+#: src/contents/ui/SettingsNavigationBarPage.qml:67
 #, kde-format
 msgid "Go back"
 msgstr "Joan atzera"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:82
+#: src/contents/ui/SettingsNavigationBarPage.qml:79
 #, kde-format
 msgid "Reload/Stop"
 msgstr "Birzamatu/Gelditu"
@@ -915,14 +915,14 @@ msgstr "Birzamatu/Gelditu"
 msgid "Ad Block"
 msgstr "Iragarkiak eragoztea"
 
-#: src/contents/ui/SettingsPage.qml:26 src/contents/ui/SettingsWebApps.qml:16
+#: src/contents/ui/SettingsPage.qml:26 src/contents/ui/SettingsWebApps.qml:21
 #, kde-format
 msgid "Web Apps"
 msgstr "Web aplikazioak"
 
 #: src/contents/ui/SettingsPage.qml:32
 #: src/contents/ui/SettingsSearchEnginePage.qml:16
-#: src/contents/ui/SettingsSearchEnginePage.qml:122
+#: src/contents/ui/SettingsSearchEnginePage.qml:120
 #, kde-format
 msgid "Search Engine"
 msgstr "Bilaketa motorra"
@@ -932,12 +932,12 @@ msgstr "Bilaketa motorra"
 msgid "Custom"
 msgstr "Norberak finkatua"
 
-#: src/contents/ui/SettingsSearchEnginePage.qml:123
+#: src/contents/ui/SettingsSearchEnginePage.qml:121
 #, kde-format
 msgid "Base URL of your preferred search engine"
 msgstr "Zure gogoko bilaketa motorraren oinarri URLa"
 
-#: src/contents/ui/SettingsWebApps.qml:75
+#: src/contents/ui/SettingsWebApps.qml:80
 #, kde-format
 msgid "Remove app"
 msgstr "Kendu aplikazioa"

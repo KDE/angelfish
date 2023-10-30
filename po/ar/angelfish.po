@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-25 01:40+0000\n"
+"POT-Creation-Date: 2023-10-30 01:41+0000\n"
 "PO-Revision-Date: 2023-08-26 15:50+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: \n"
@@ -84,7 +84,7 @@ msgstr "هل تريد تحميل هذا الملف؟"
 msgid "Download"
 msgstr "نزل"
 
-#: lib/contents/ui/DownloadQuestion.qml:28 lib/contents/ui/PrintPreview.qml:167
+#: lib/contents/ui/DownloadQuestion.qml:28 lib/contents/ui/PrintPreview.qml:163
 #: src/contents/ui/Downloads.qml:41
 #, kde-format
 msgid "Cancel"
@@ -201,37 +201,37 @@ msgstr "ارفض"
 msgid "Print"
 msgstr "اطبع"
 
-#: lib/contents/ui/PrintPreview.qml:67
+#: lib/contents/ui/PrintPreview.qml:64
 #, kde-format
 msgid "Destination"
 msgstr "الهدف"
 
-#: lib/contents/ui/PrintPreview.qml:71
+#: lib/contents/ui/PrintPreview.qml:68
 #, kde-format
 msgid "Save to PDF"
 msgstr "احفظ إلى PDF"
 
-#: lib/contents/ui/PrintPreview.qml:77
+#: lib/contents/ui/PrintPreview.qml:74
 #, kde-format
 msgid "Orientation"
 msgstr "التوجيه"
 
-#: lib/contents/ui/PrintPreview.qml:102
+#: lib/contents/ui/PrintPreview.qml:99
 #, kde-format
 msgid "Paper size"
 msgstr "حجم الصفحة"
 
-#: lib/contents/ui/PrintPreview.qml:148
+#: lib/contents/ui/PrintPreview.qml:145
 #, kde-format
 msgid "Options"
 msgstr "الخيارات"
 
-#: lib/contents/ui/PrintPreview.qml:152
+#: lib/contents/ui/PrintPreview.qml:149
 #, kde-format
 msgid "Print backgrounds"
 msgstr "اطبع الخلفيات"
 
-#: lib/contents/ui/PrintPreview.qml:172
+#: lib/contents/ui/PrintPreview.qml:168
 #, kde-format
 msgid "Save"
 msgstr "احفظ"
@@ -397,7 +397,7 @@ msgid "Paste"
 msgstr "الصق"
 
 #: lib/contents/ui/WebView.qml:583 src/contents/ui/desktop/desktop.qml:318
-#: src/contents/ui/mobile.qml:280
+#: src/contents/ui/mobile.qml:282
 #, kde-format
 msgid "Share page"
 msgstr "شارك الصفحة"
@@ -477,12 +477,12 @@ msgstr "ملئ الشاشة"
 msgid "Hide developer tools"
 msgstr "اخف أدوات المطورين"
 
-#: src/contents/ui/desktop/desktop.qml:293 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:293 src/contents/ui/mobile.qml:378
 #, kde-format
 msgid "Show developer tools"
 msgstr "اعرض أدوات المطورين"
 
-#: src/contents/ui/desktop/desktop.qml:302 src/contents/ui/mobile.qml:276
+#: src/contents/ui/desktop/desktop.qml:302 src/contents/ui/mobile.qml:278
 #, kde-format
 msgid "Find in page"
 msgstr "ابحث في الصفحة"
@@ -529,32 +529,32 @@ msgstr "لا يوجد سجل حتى الآن"
 msgid "Toolbars"
 msgstr "شريط الأدوات"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:28
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:33
 #, kde-format
 msgid "Show home button:"
 msgstr "اعرض زر المنزل:"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:29
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:34
 #, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr "سيتم عرض زر المنزل بجوار زر اعادة التحميل في شريط الأدوات."
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:39
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:44
 #, kde-format
 msgid "Homepage:"
 msgstr "الصفحة الرئيسية:"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:61
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:67
 #, kde-format
 msgid "New tabs:"
 msgstr "الألسنة الجديدة:"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:83
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:90
 #, kde-format
 msgid "Always show the tab bar"
 msgstr "اعرض شريط الألسنة دائما"
 
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:84
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:91
 #, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open"
 msgstr "شريط الألسنة سيظهر حتى لو كان هناك لسان واحد مفتوح"
@@ -652,63 +652,63 @@ msgstr "متصفح ويب انجيلفيش"
 msgid "Tabs"
 msgstr "الألسنة"
 
-#: src/contents/ui/mobile.qml:291
+#: src/contents/ui/mobile.qml:293
 #, kde-format
 msgid "Add to homescreen"
 msgstr "اضف إلى الشاشة الرئيسية"
 
-#: src/contents/ui/mobile.qml:301
+#: src/contents/ui/mobile.qml:303
 #, kde-format
 msgid "Open in app"
 msgstr "افتح في لسان"
 
-#: src/contents/ui/mobile.qml:309
+#: src/contents/ui/mobile.qml:311
 #, kde-format
 msgid "Go previous"
 msgstr "عد للسابق"
 
-#: src/contents/ui/mobile.qml:317
-#: src/contents/ui/SettingsNavigationBarPage.qml:76
+#: src/contents/ui/mobile.qml:319
+#: src/contents/ui/SettingsNavigationBarPage.qml:73
 #, kde-format
 msgid "Go forward"
 msgstr "اذهب للأمام"
 
-#: src/contents/ui/mobile.qml:324
+#: src/contents/ui/mobile.qml:326
 #, kde-format
 msgid "Stop loading"
 msgstr "أوقف التحميل"
 
-#: src/contents/ui/mobile.qml:324
+#: src/contents/ui/mobile.qml:326
 #, kde-format
 msgid "Refresh"
 msgstr "حدث"
 
-#: src/contents/ui/mobile.qml:334
+#: src/contents/ui/mobile.qml:336
 #, kde-format
 msgid "Bookmarked"
 msgstr "أضيف للمفضلة"
 
-#: src/contents/ui/mobile.qml:334
+#: src/contents/ui/mobile.qml:336
 #, kde-format
 msgid "Bookmark"
 msgstr "اضف للمفضلة"
 
-#: src/contents/ui/mobile.qml:350
+#: src/contents/ui/mobile.qml:352
 #, kde-format
 msgid "Show desktop site"
 msgstr "اعرض موقع سطح المكتب"
 
-#: src/contents/ui/mobile.qml:359
+#: src/contents/ui/mobile.qml:361
 #, kde-format
 msgid "Reader Mode"
 msgstr "وضع القارئ"
 
-#: src/contents/ui/mobile.qml:367
+#: src/contents/ui/mobile.qml:369
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "أخف شريط الملاحة"
 
-#: src/contents/ui/mobile.qml:367
+#: src/contents/ui/mobile.qml:369
 #, kde-format
 msgid "Show navigation bar"
 msgstr "أظهر شريط المالحة"
@@ -727,47 +727,47 @@ msgstr ""
 msgid "Open"
 msgstr "افتح"
 
-#: src/contents/ui/SettingsAdblock.qml:17
+#: src/contents/ui/SettingsAdblock.qml:21
 #, kde-format
 msgid "Adblock settings"
 msgstr "إعدادات حاجب الإعلانات"
 
-#: src/contents/ui/SettingsAdblock.qml:28
+#: src/contents/ui/SettingsAdblock.qml:32
 #, kde-format
 msgid "Update lists"
 msgstr "حدث القوائم"
 
-#: src/contents/ui/SettingsAdblock.qml:50
+#: src/contents/ui/SettingsAdblock.qml:54
 #, kde-format
 msgid "The adblock functionality isn't included in this build."
 msgstr "ميزة حجم الإعلانات غير متضمنة في هذا البناء."
 
-#: src/contents/ui/SettingsAdblock.qml:56
+#: src/contents/ui/SettingsAdblock.qml:60
 #, kde-format
 msgid "Add filterlist"
 msgstr "أضف قائمة ترشيح"
 
-#: src/contents/ui/SettingsAdblock.qml:61
+#: src/contents/ui/SettingsAdblock.qml:65
 #, kde-format
 msgid "Name"
 msgstr "الاسم"
 
-#: src/contents/ui/SettingsAdblock.qml:70
+#: src/contents/ui/SettingsAdblock.qml:74
 #, kde-format
 msgid "Url"
 msgstr "الرابط"
 
-#: src/contents/ui/SettingsAdblock.qml:80
+#: src/contents/ui/SettingsAdblock.qml:84
 #, kde-format
 msgid "Add"
 msgstr "أضف"
 
-#: src/contents/ui/SettingsAdblock.qml:145
+#: src/contents/ui/SettingsAdblock.qml:148
 #, kde-format
 msgid "Remove this filter list"
 msgstr "امسح قائمة الترشيح هذه"
 
-#: src/contents/ui/SettingsAdblock.qml:155
+#: src/contents/ui/SettingsAdblock.qml:159
 #, kde-format
 msgid "add Filterlist"
 msgstr "أضف قائمة ترشيح"
@@ -777,58 +777,58 @@ msgstr "أضف قائمة ترشيح"
 msgid "General"
 msgstr "عام"
 
-#: src/contents/ui/SettingsGeneral.qml:40
+#: src/contents/ui/SettingsGeneral.qml:39
 #, kde-format
 msgid "Enable JavaScript"
 msgstr "مكن جافاسكربت"
 
-#: src/contents/ui/SettingsGeneral.qml:41
+#: src/contents/ui/SettingsGeneral.qml:40
 #, kde-format
 msgid "This may be required on certain websites for them to work."
 msgstr "قد يكون هذا متطلب في بعض المواقع المحددة حتى تعمل."
 
-#: src/contents/ui/SettingsGeneral.qml:50
+#: src/contents/ui/SettingsGeneral.qml:49
 #, kde-format
 msgid "Load images"
 msgstr "تحميل الصور"
 
-#: src/contents/ui/SettingsGeneral.qml:51
+#: src/contents/ui/SettingsGeneral.qml:50
 #, kde-format
 msgid "Whether to load images on websites."
 msgstr "ما إذا كان سيتم تحميل الصور على المواقع."
 
-#: src/contents/ui/SettingsGeneral.qml:60
+#: src/contents/ui/SettingsGeneral.qml:59
 #, kde-format
 msgid "Enable adblock"
 msgstr "فعل حاجب الإعلانات"
 
-#: src/contents/ui/SettingsGeneral.qml:61
+#: src/contents/ui/SettingsGeneral.qml:60
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
 msgstr "يحاول منع عرض الإعلانات في الموقع."
 
-#: src/contents/ui/SettingsGeneral.qml:61
+#: src/contents/ui/SettingsGeneral.qml:60
 #, kde-format
 msgid "AdBlock functionality was not included in this build."
 msgstr "ميزة حجم الإعلانات غير متضمنة في هذا البناء."
 
-#: src/contents/ui/SettingsGeneral.qml:71
+#: src/contents/ui/SettingsGeneral.qml:70
 #, kde-format
 msgid "Switch to new tab immediately"
 msgstr "انتقل إلى اللسان الجديد فورا"
 
-#: src/contents/ui/SettingsGeneral.qml:72
+#: src/contents/ui/SettingsGeneral.qml:71
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately"
 msgstr "عندما تفتح رابط, صورة أو وسائط في لسان جديد سيتم التبديل له مباشر"
 
-#: src/contents/ui/SettingsGeneral.qml:81
+#: src/contents/ui/SettingsGeneral.qml:80
 #, kde-format
 msgid "Use Smooth Scrolling"
 msgstr "استخدم التمرير السلس"
 
-#: src/contents/ui/SettingsGeneral.qml:82
+#: src/contents/ui/SettingsGeneral.qml:81
 #, kde-format
 msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
@@ -836,12 +836,12 @@ msgid ""
 msgstr ""
 "التمرير سيكون سلسل ولن يتوقف فجأة عندما توقف التمرير. يحتاج إلى إعادة تشغيل."
 
-#: src/contents/ui/SettingsGeneral.qml:91
+#: src/contents/ui/SettingsGeneral.qml:90
 #, kde-format
 msgid "Use dark color scheme"
 msgstr "استخدم السمة الغامقة"
 
-#: src/contents/ui/SettingsGeneral.qml:92
+#: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
 msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
@@ -854,7 +854,7 @@ msgstr ""
 msgid "Navigation bar"
 msgstr "شريط الملاحة"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:36
+#: src/contents/ui/SettingsNavigationBarPage.qml:33
 #, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
@@ -871,27 +871,27 @@ msgstr ""
 "لاحظ إذا عطلت أزرار القائمة، ستستطيع الوصول لكل القوائم أما بالسحب من اليسار "
 "إلى اليمين أو الجنب بمحاذاة اسفل النافذة."
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:52
+#: src/contents/ui/SettingsNavigationBarPage.qml:49
 #, kde-format
 msgid "Main menu in portrait"
 msgstr "القائمة الرئيسية في الوضع الأفقي"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:58
+#: src/contents/ui/SettingsNavigationBarPage.qml:55
 #, kde-format
 msgid "Tabs in portrait"
 msgstr "الألسنة في الوضع الأفقي"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:64
+#: src/contents/ui/SettingsNavigationBarPage.qml:61
 #, kde-format
 msgid "Context menu in portrait"
 msgstr "قائمة السياق في الوضع الأفقي"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:70
+#: src/contents/ui/SettingsNavigationBarPage.qml:67
 #, kde-format
 msgid "Go back"
 msgstr "عُد"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:82
+#: src/contents/ui/SettingsNavigationBarPage.qml:79
 #, kde-format
 msgid "Reload/Stop"
 msgstr "اعد تحميل/أوقف"
@@ -901,14 +901,14 @@ msgstr "اعد تحميل/أوقف"
 msgid "Ad Block"
 msgstr "حاجب الإعلانات"
 
-#: src/contents/ui/SettingsPage.qml:26 src/contents/ui/SettingsWebApps.qml:16
+#: src/contents/ui/SettingsPage.qml:26 src/contents/ui/SettingsWebApps.qml:21
 #, kde-format
 msgid "Web Apps"
 msgstr "تطبيقات الويب"
 
 #: src/contents/ui/SettingsPage.qml:32
 #: src/contents/ui/SettingsSearchEnginePage.qml:16
-#: src/contents/ui/SettingsSearchEnginePage.qml:122
+#: src/contents/ui/SettingsSearchEnginePage.qml:120
 #, kde-format
 msgid "Search Engine"
 msgstr "محرك البحث"
@@ -918,12 +918,12 @@ msgstr "محرك البحث"
 msgid "Custom"
 msgstr "مخصص"
 
-#: src/contents/ui/SettingsSearchEnginePage.qml:123
+#: src/contents/ui/SettingsSearchEnginePage.qml:121
 #, kde-format
 msgid "Base URL of your preferred search engine"
 msgstr "الرابط الأساسي لمحرك البحث الذي تفضله"
 
-#: src/contents/ui/SettingsWebApps.qml:75
+#: src/contents/ui/SettingsWebApps.qml:80
 #, kde-format
 msgid "Remove app"
 msgstr "احذف التطبيق"
