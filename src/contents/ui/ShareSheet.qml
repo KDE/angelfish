@@ -1,13 +1,14 @@
 // SPDX-FileCopyrightText: 2019 Nicolas Fella <nicolas.fella@gmx.de>
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-import QtQuick.Controls 2.1 as Controls
-import QtQuick.Layouts 1.7
-import QtQuick 2.7
-import QtQuick.Window 2.15
+import QtQuick
+import QtQuick.Controls as Controls
+import QtQuick.Layouts
+import QtQuick.Window
 
-import org.kde.kirigami 2.20 as Kirigami
-import org.kde.purpose 1.0 as Purpose
+import org.kde.kirigami as Kirigami
+import org.kde.purpose as Purpose
+import org.kde.kirigamiaddons.delegates as Delegates
 
 Kirigami.Dialog {
     id: inputSheet
@@ -23,21 +24,29 @@ Kirigami.Dialog {
         pluginType: "ShareUrl"
         clip: true
 
-        delegate: Kirigami.BasicListItem {
+        delegate: Delegates.RoundedItemDelegate {
             id: shareDelegate
 
-            required property string display
             required property int index
+            required property var model
 
-            label: shareDelegate.display
-            onClicked: view.createJob (shareDelegate.index)
-            Keys.onReturnPressed: view.createJob (shareDelegate.index)
-            Keys.onEnterPressed: view.createJob (shareDelegate.index)
-            
-            trailing: Kirigami.Icon {
-                implicitWidth: Kirigami.Units.iconSizes.small
-                implicitHeight: Kirigami.Units.iconSizes.small
-                source: "arrow-right"
+            text: model.display
+            onClicked: view.createJob(shareDelegate.index)
+            Keys.onReturnPressed: view.createJob(shareDelegate.index)
+            Keys.onEnterPressed: view.createJob(shareDelegate.index)
+
+            contentItem: RowLayout {
+                spacing: Kirigami.Units.smallSpacing
+
+                Delegates.DefaultContentItem {
+                    itemDelegate: shareDelegate
+                }
+
+                Kirigami.Icon {
+                    implicitWidth: Kirigami.Units.iconSizes.small
+                    implicitHeight: Kirigami.Units.iconSizes.small
+                    source: "arrow-right"
+                }
             }
         }
 

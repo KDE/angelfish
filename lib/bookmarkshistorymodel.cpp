@@ -26,7 +26,7 @@ QHash<int, QByteArray> BookmarksHistoryModel::roleNames() const {
         {Id, "id"},
         {Url, "url"},
         {Title, "title"},
-        {Icon, "icon"},
+        {Icon, "iconName"},
         {LastVisitedDelta, "lastVisitedDelte"}
     };
 }

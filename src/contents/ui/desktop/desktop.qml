@@ -2,11 +2,13 @@
 //
 // SPDX-License-Identifier: LGPL-2.0-or-later
 
-import QtQuick 2.15
-import QtQuick.Controls 2.15 as QQC2
-import QtQuick.Layouts 1.15
-import QtQuick.Window 2.15
-import org.kde.kirigami 2.19 as Kirigami
+import QtQuick
+import QtQuick.Controls as QQC2
+import QtQuick.Layouts
+import QtQuick.Window
+
+import org.kde.kirigami as Kirigami
+import org.kde.kirigamiaddons.delegates as Delegates
 
 import Qt5Compat.GraphicalEffects
 
@@ -195,15 +197,32 @@ Kirigami.ApplicationWindow {
                                 bookmarks: false
                                 active: navigationPopup.opened
                             }
-                            delegate: Kirigami.BasicListItem {
-                                label: model.title
-                                labelItem.textFormat: Text.PlainText
-                                subtitle: model.url
-                                icon: model && model.icon ? model.icon : "internet-services"
-                                iconSize: Kirigami.Units.largeSpacing * 3
+
+                            delegate: Delegates.RoundedItemDelegate {
+                                id: bookmarkDelegate
+
+                                required property int index
+                                required property string title
+                                required property string url
+                                required property string iconName
+
+                                text: title
+
+                                icon {
+                                    name: iconName.length > 0 ? iconName : "internet-services"
+                                    width: Kirigami.Units.largeSpacing * 3
+                                    height: Kirigami.Units.largeSpacing * 3
+                                }
+
                                 onClicked: {
-                                    currentWebView.url = model.url;
+                                    currentWebView.url = bookmarkDelegate.url;
                                     urlBar.popup.close()
+                                }
+
+                                contentItem: Delegates.SubtitleContentItem {
+                                    itemDelegate: bookmarkDelegate
+                                    subtitle: bookmarkDelegate.url
+                                    labelItem.textFormat: Text.PlainText
                                 }
                             }
                         }

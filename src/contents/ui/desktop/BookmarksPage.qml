@@ -1,11 +1,13 @@
 //SPDX-FileCopyrightText: 2021 Felipe Kinoshita <kinofhek@gmail.com>
 //SPDX-License-Identifier: LGPL-2.0-or-later
 
-import QtQuick 2.15
-import QtQuick.Controls 2.15 as QQC2
-import QtQuick.Window 2.15
-import QtQuick.Layouts 1.15
-import org.kde.kirigami 2.19 as Kirigami
+import QtQuick
+import QtQuick.Controls as QQC2
+import QtQuick.Layouts
+import QtQuick.Window
+
+import org.kde.kirigami as Kirigami
+import org.kde.kirigamiaddons.delegates as Delegates
 
 import org.kde.angelfish 1.0
 
@@ -44,28 +46,51 @@ Kirigami.ScrollablePage {
 
     ListView {
         id: list
-        anchors.fill: parent
 
         currentIndex: -1
+
         model: BookmarksHistoryModel {
             history: false
             bookmarks: true
         }
-        delegate: Kirigami.BasicListItem {
-            label: model.title
-            subtitle: model.url
-            icon: model && model.icon ? model.icon : "internet-services"
-            iconSize: Kirigami.Units.largeSpacing * 3
-            onClicked: currentWebView.url = model.url
 
-            trailing: QQC2.ToolButton {
-                icon.name: "entry-delete"
-                onClicked: BrowserManager.removeBookmark(model.url);
+        delegate: Delegates.RoundedItemDelegate {
+            id: bookmarkDelegate
+
+            required property int index
+            required property string title
+            required property string url
+            required property string iconName
+
+            text: title
+
+            icon {
+                name: iconName.length > 0 ? iconName : "internet-services"
+                width: Kirigami.Units.largeSpacing * 3
+                height: Kirigami.Units.largeSpacing * 3
+            }
+
+            onClicked: currentWebView.url = bookmarkDelegate.url
+
+            contentItem: RowLayout {
+                spacing: Kirigami.Units.smallSpacing
+
+                Delegates.SubtitleContentItem {
+                    itemDelegate: bookmarkDelegate
+                    subtitle: bookmarkDelegate.url
+                }
+
+                QQC2.ToolButton {
+                    icon.name: "entry-delete"
+                    onClicked: BrowserManager.removeBookmark(bookmarkDelegate.url);
+                }
             }
         }
+
         Kirigami.PlaceholderMessage {
             visible: list.count === 0
             anchors.centerIn: parent
+            width: parent.width - Kirigami.Units.gridUnit * 4
 
             text: i18n("No bookmarks yet")
         }
