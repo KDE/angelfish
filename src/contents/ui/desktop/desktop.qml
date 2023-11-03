@@ -195,12 +195,17 @@ Kirigami.ApplicationWindow {
                                 bookmarks: false
                                 active: navigationPopup.opened
                             }
-                            delegate: Kirigami.BasicListItem {
-                                label: model.title
-                                labelItem.textFormat: Text.PlainText
-                                subtitle: model.url
-                                icon: model && model.icon ? model.icon : "internet-services"
-                                iconSize: Kirigami.Units.largeSpacing * 3
+
+                            delegate: QQC2.ItemDelegate {
+                                id: delegate
+                                text: model.title
+                                width: ListView.view.width
+
+                                contentItem: Kirigami.TitleSubtitle {
+                                    title: delegate.text
+                                    subtitle: model.url
+                                }
+
                                 onClicked: {
                                     currentWebView.url = model.url;
                                     urlBar.popup.close()

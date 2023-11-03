@@ -5,7 +5,7 @@ import QtQuick 2.15
 import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Window 2.15
 import QtQuick.Layouts 1.15
-import org.kde.kirigami 2.19 as Kirigami
+import org.kde.kirigami as Kirigami
 
 import org.kde.angelfish 1.0
 
@@ -60,17 +60,24 @@ Kirigami.ScrollablePage {
             history: true
             bookmarks: false
         }
-        delegate: Kirigami.BasicListItem {
-            label: model.title
-            labelItem.textFormat: Text.PlainText
-            subtitle: model.url
-            icon: model && model.icon ? model.icon : "internet-services"
-            iconSize: Kirigami.Units.largeSpacing * 3
+        delegate: QQC2.ItemDelegate {
+            id: delegate
+
+            text: model.title
+            width: ListView.view.width
             onClicked: currentWebView.url = model.url
 
-            trailing: QQC2.ToolButton {
-                icon.name: "entry-delete"
-                onClicked: BrowserManager.removeFromHistory(model.url)
+            contentItem: RowLayout {
+                Kirigami.TitleSubtitle {
+                    title: delegate.text
+                    subtitle: model.url
+
+                    Layout.fillWidth: true
+                }
+                QQC2.ToolButton {
+                    icon.name: "entry-delete"
+                    onClicked: BrowserManager.removeFromHistory(model.url)
+                }
             }
         }
         Kirigami.PlaceholderMessage {

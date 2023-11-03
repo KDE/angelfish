@@ -6,7 +6,7 @@ import QtQuick.Layouts 1.7
 import QtQuick 2.7
 import QtQuick.Window 2.15
 
-import org.kde.kirigami 2.20 as Kirigami
+import org.kde.kirigami as Kirigami
 import org.kde.purpose 1.0 as Purpose
 
 Kirigami.Dialog {
@@ -23,22 +23,16 @@ Kirigami.Dialog {
         pluginType: "ShareUrl"
         clip: true
 
-        delegate: Kirigami.BasicListItem {
+        delegate: Controls.ItemDelegate {
             id: shareDelegate
 
-            required property string display
-            required property int index
+            width: ListView.view.width
+            text: model.display
+            icon.name: model.iconName
 
-            label: shareDelegate.display
-            onClicked: view.createJob (shareDelegate.index)
-            Keys.onReturnPressed: view.createJob (shareDelegate.index)
-            Keys.onEnterPressed: view.createJob (shareDelegate.index)
-            
-            trailing: Kirigami.Icon {
-                implicitWidth: Kirigami.Units.iconSizes.small
-                implicitHeight: Kirigami.Units.iconSizes.small
-                source: "arrow-right"
-            }
+            onClicked: view.createJob (model.index)
+            Keys.onReturnPressed: view.createJob (model.index)
+            Keys.onEnterPressed: view.createJob (model.index)
         }
 
         onFinished: close()
