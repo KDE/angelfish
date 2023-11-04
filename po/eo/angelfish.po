@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-04 01:38+0000\n"
+"POT-Creation-Date: 2023-11-04 16:52+0000\n"
 "PO-Revision-Date: 2023-10-01 05:27+0100\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
@@ -57,6 +57,11 @@ msgstr "Elŝuto finiĝis"
 #, kde-format
 msgid "Download failed"
 msgstr "Elŝuto malsukcesis"
+
+#: lib/angelfishwebprofile.cpp:84 src/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgid "Open"
+msgstr "Malfermi"
 
 #: lib/contents/ui/AuthSheet.qml:17
 #, kde-format
@@ -723,11 +728,6 @@ msgid ""
 msgstr ""
 "Retejo volas malfermi novan langeton: \n"
 "%1"
-
-#: src/contents/ui/NewTabQuestion.qml:19
-#, kde-format
-msgid "Open"
-msgstr "Malfermi"
 
 #: src/contents/ui/SettingsAdblock.qml:21
 #, kde-format

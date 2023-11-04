@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-04 01:38+0000\n"
+"POT-Creation-Date: 2023-11-04 16:52+0000\n"
 "PO-Revision-Date: 2022-08-19 20:36+0700\n"
 "Last-Translator: Wantoyèk <wantoyek@gmail.com>\n"
 "Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
@@ -56,6 +56,11 @@ msgstr "Selesai mengunduh"
 #, kde-format
 msgid "Download failed"
 msgstr "Gagal mengunduh"
+
+#: lib/angelfishwebprofile.cpp:84 src/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgid "Open"
+msgstr "Buka"
 
 #: lib/contents/ui/AuthSheet.qml:17
 #, kde-format
@@ -748,11 +753,6 @@ msgid ""
 msgstr ""
 "Situs yang ingin dibuka dalam tab baru: \n"
 "%1"
-
-#: src/contents/ui/NewTabQuestion.qml:19
-#, kde-format
-msgid "Open"
-msgstr "Buka"
 
 #: src/contents/ui/SettingsAdblock.qml:21
 #, kde-format

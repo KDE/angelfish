@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-04 01:38+0000\n"
+"POT-Creation-Date: 2023-11-04 16:52+0000\n"
 "PO-Revision-Date: 2022-01-01 09:26-0800\n"
 "Last-Translator: A S Alam <aalam@satluj.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -56,6 +56,11 @@ msgstr "ਡਾਊਨਲੋਡ ਪੂਰਾ ਹੋਇਆ"
 #, kde-format
 msgid "Download failed"
 msgstr "ਡਾਊਨਲੋਡ ਫੇਲ੍ਹ ਹੈ"
+
+#: lib/angelfishwebprofile.cpp:84 src/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgid "Open"
+msgstr "ਖੋਲ੍ਹੋ"
 
 #: lib/contents/ui/AuthSheet.qml:17
 #, kde-format
@@ -746,11 +751,6 @@ msgid ""
 msgstr ""
 "ਸਾਈਟ ਨਵੀਂ ਟੈਬ ਖੋਲ੍ਹਣਾ ਚਾਹੁੰਦੀ ਹੈ:\n"
 "%1"
-
-#: src/contents/ui/NewTabQuestion.qml:19
-#, kde-format
-msgid "Open"
-msgstr "ਖੋਲ੍ਹੋ"
 
 #: src/contents/ui/SettingsAdblock.qml:21
 #, kde-format

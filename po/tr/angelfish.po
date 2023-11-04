@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-04 01:38+0000\n"
+"POT-Creation-Date: 2023-11-04 16:52+0000\n"
 "PO-Revision-Date: 2023-06-11 21:35+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -57,6 +57,11 @@ msgstr "Yükleme tamamlandı"
 #, kde-format
 msgid "Download failed"
 msgstr "Yükleme hatası"
+
+#: lib/angelfishwebprofile.cpp:84 src/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgid "Open"
+msgstr "Aç"
 
 #: lib/contents/ui/AuthSheet.qml:17
 #, kde-format
@@ -726,11 +731,6 @@ msgid ""
 msgstr ""
 "Site yeni bir sekme açmak istiyor: \n"
 "%1"
-
-#: src/contents/ui/NewTabQuestion.qml:19
-#, kde-format
-msgid "Open"
-msgstr "Aç"
 
 #: src/contents/ui/SettingsAdblock.qml:21
 #, kde-format

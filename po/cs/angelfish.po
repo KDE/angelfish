@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-04 01:38+0000\n"
+"POT-Creation-Date: 2023-11-04 16:52+0000\n"
 "PO-Revision-Date: 2023-03-08 14:58+0100\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -56,6 +56,11 @@ msgstr "Stahování dokončeno"
 #, kde-format
 msgid "Download failed"
 msgstr "Stažení bylo neúspěšné"
+
+#: lib/angelfishwebprofile.cpp:84 src/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgid "Open"
+msgstr "Otevřít"
 
 #: lib/contents/ui/AuthSheet.qml:17
 #, kde-format
@@ -714,11 +719,6 @@ msgid ""
 msgstr ""
 "Stránka se pokouší otevřít novou kartu: \n"
 "%1"
-
-#: src/contents/ui/NewTabQuestion.qml:19
-#, kde-format
-msgid "Open"
-msgstr "Otevřít"
 
 #: src/contents/ui/SettingsAdblock.qml:21
 #, kde-format

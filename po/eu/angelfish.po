@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-04 01:38+0000\n"
+"POT-Creation-Date: 2023-11-04 16:52+0000\n"
 "PO-Revision-Date: 2023-04-30 09:37+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -59,6 +59,11 @@ msgstr "Zama-jaistea amaitu da"
 #, kde-format
 msgid "Download failed"
 msgstr "Zama-jaistea huts egin du"
+
+#: lib/angelfishwebprofile.cpp:84 src/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgid "Open"
+msgstr "Ireki"
 
 #: lib/contents/ui/AuthSheet.qml:17
 #, kde-format
@@ -727,11 +732,6 @@ msgid ""
 msgstr ""
 "Lekuak fitxa berri bat ireki nahi du:\n"
 "%1"
-
-#: src/contents/ui/NewTabQuestion.qml:19
-#, kde-format
-msgid "Open"
-msgstr "Ireki"
 
 #: src/contents/ui/SettingsAdblock.qml:21
 #, kde-format

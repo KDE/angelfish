@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-04 01:38+0000\n"
+"POT-Creation-Date: 2023-11-04 16:52+0000\n"
 "PO-Revision-Date: 2022-04-07 17:59+0200\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -55,6 +55,11 @@ msgstr "Sťahovanie ukončené"
 #, kde-format
 msgid "Download failed"
 msgstr "Preberanie zlyhalo"
+
+#: lib/angelfishwebprofile.cpp:84 src/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgid "Open"
+msgstr "Otvoriť"
 
 #: lib/contents/ui/AuthSheet.qml:17
 #, kde-format
@@ -732,11 +737,6 @@ msgid ""
 "Site wants to open a new tab: \n"
 "%1"
 msgstr ""
-
-#: src/contents/ui/NewTabQuestion.qml:19
-#, kde-format
-msgid "Open"
-msgstr "Otvoriť"
 
 #: src/contents/ui/SettingsAdblock.qml:21
 #, kde-format

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-04 01:38+0000\n"
+"POT-Creation-Date: 2023-11-04 16:52+0000\n"
 "PO-Revision-Date: 2021-09-10 14:03+0300\n"
 "Last-Translator: Moo\n"
 "Language-Team: lt\n"
@@ -59,6 +59,11 @@ msgstr "Atsisiuntimas užbaigtas"
 #, kde-format
 msgid "Download failed"
 msgstr "Atsisiuntimas nepavyko"
+
+#: lib/angelfishwebprofile.cpp:84 src/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgid "Open"
+msgstr "Atverti"
 
 #: lib/contents/ui/AuthSheet.qml:17
 #, kde-format
@@ -748,11 +753,6 @@ msgid ""
 msgstr ""
 "Svetainė nori atverti naują kortelę: \n"
 "%1"
-
-#: src/contents/ui/NewTabQuestion.qml:19
-#, kde-format
-msgid "Open"
-msgstr "Atverti"
 
 #: src/contents/ui/SettingsAdblock.qml:21
 #, kde-format

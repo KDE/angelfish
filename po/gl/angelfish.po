@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-04 01:38+0000\n"
+"POT-Creation-Date: 2023-11-04 16:52+0000\n"
 "PO-Revision-Date: 2023-10-31 16:54+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
@@ -56,6 +56,11 @@ msgstr "Rematou a descarga"
 #, kde-format
 msgid "Download failed"
 msgstr "A descarga fallou"
+
+#: lib/angelfishwebprofile.cpp:84 src/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgid "Open"
+msgstr "Abrir"
 
 #: lib/contents/ui/AuthSheet.qml:17
 #, kde-format
@@ -725,11 +730,6 @@ msgid ""
 msgstr ""
 "O sitio quere abrir unha nova lapela: \n"
 "%1"
-
-#: src/contents/ui/NewTabQuestion.qml:19
-#, kde-format
-msgid "Open"
-msgstr "Abrir"
 
 #: src/contents/ui/SettingsAdblock.qml:21
 #, kde-format

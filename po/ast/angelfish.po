@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-04 01:38+0000\n"
+"POT-Creation-Date: 2023-11-04 16:52+0000\n"
 "PO-Revision-Date: 2023-10-25 13:01+0200\n"
 "Last-Translator: Enol P. <enolp@softastur.org>\n"
 "Language-Team: \n"
@@ -55,6 +55,11 @@ msgstr ""
 #: lib/angelfishwebprofile.cpp:63
 #, kde-format
 msgid "Download failed"
+msgstr ""
+
+#: lib/angelfishwebprofile.cpp:84 src/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgid "Open"
 msgstr ""
 
 #: lib/contents/ui/AuthSheet.qml:17
@@ -710,11 +715,6 @@ msgstr ""
 msgid ""
 "Site wants to open a new tab: \n"
 "%1"
-msgstr ""
-
-#: src/contents/ui/NewTabQuestion.qml:19
-#, kde-format
-msgid "Open"
 msgstr ""
 
 #: src/contents/ui/SettingsAdblock.qml:21

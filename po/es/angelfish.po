@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-04 01:38+0000\n"
+"POT-Creation-Date: 2023-11-04 16:52+0000\n"
 "PO-Revision-Date: 2023-03-09 01:00+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -58,6 +58,11 @@ msgstr "Descarga terminada"
 #, kde-format
 msgid "Download failed"
 msgstr "La descarga ha fallado"
+
+#: lib/angelfishwebprofile.cpp:84 src/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgid "Open"
+msgstr "Abrir"
 
 #: lib/contents/ui/AuthSheet.qml:17
 #, kde-format
@@ -729,11 +734,6 @@ msgid ""
 msgstr ""
 "El sitio quiere abrir una nueva pestaña: \n"
 "%1"
-
-#: src/contents/ui/NewTabQuestion.qml:19
-#, kde-format
-msgid "Open"
-msgstr "Abrir"
 
 #: src/contents/ui/SettingsAdblock.qml:21
 #, kde-format

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-04 01:38+0000\n"
+"POT-Creation-Date: 2023-11-04 16:52+0000\n"
 "PO-Revision-Date: 2020-06-03 20:47+0300\n"
 "Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
 "Language-Team: Estonian <kde-et@lists.linux.ee>\n"
@@ -56,6 +56,11 @@ msgstr "Allalaadimine lõpetatud"
 #, kde-format
 msgid "Download failed"
 msgstr "Allalaadimine nurjus"
+
+#: lib/angelfishwebprofile.cpp:84 src/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgid "Open"
+msgstr "Ava"
 
 #: lib/contents/ui/AuthSheet.qml:17
 #, kde-format
@@ -738,11 +743,6 @@ msgid ""
 msgstr ""
 "Sait tahab avada uut kaarti: \n"
 "%1"
-
-#: src/contents/ui/NewTabQuestion.qml:19
-#, kde-format
-msgid "Open"
-msgstr "Ava"
 
 #: src/contents/ui/SettingsAdblock.qml:21
 #, kde-format

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-04 01:38+0000\n"
+"POT-Creation-Date: 2023-11-04 16:52+0000\n"
 "PO-Revision-Date: 2021-03-21 17:55+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -58,6 +58,11 @@ msgstr "Nedlastinga er ferdig"
 #, kde-format
 msgid "Download failed"
 msgstr "Feil ved nedlasting"
+
+#: lib/angelfishwebprofile.cpp:84 src/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgid "Open"
+msgstr "Opna"
 
 #: lib/contents/ui/AuthSheet.qml:17
 #, kde-format
@@ -717,11 +722,6 @@ msgid ""
 msgstr ""
 "Nettstaden ønskjer å opna ny fane: \n"
 "%1"
-
-#: src/contents/ui/NewTabQuestion.qml:19
-#, kde-format
-msgid "Open"
-msgstr "Opna"
 
 #: src/contents/ui/SettingsAdblock.qml:21
 #, kde-format
