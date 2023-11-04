@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-30 01:41+0000\n"
+"POT-Creation-Date: 2023-11-04 01:38+0000\n"
 "PO-Revision-Date: 2023-10-20 02:03+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -195,7 +195,7 @@ msgstr "允許"
 msgid "Decline"
 msgstr "拒絕"
 
-#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:269
+#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:288
 #, kde-format
 msgid "Print"
 msgstr "列印"
@@ -395,7 +395,7 @@ msgstr "剪下"
 msgid "Paste"
 msgstr "貼上"
 
-#: lib/contents/ui/WebView.qml:583 src/contents/ui/desktop/desktop.qml:318
+#: lib/contents/ui/WebView.qml:583 src/contents/ui/desktop/desktop.qml:337
 #: src/contents/ui/mobile.qml:282
 #, kde-format
 msgid "Share page"
@@ -417,107 +417,107 @@ msgstr "廣告阻擋器缺少它的過濾列表，您要現在下載它們嗎？
 msgid "Downloading..."
 msgstr "正在下載…"
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:248
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:267
 #: src/contents/ui/mobile.qml:79
 #, kde-format
 msgid "Bookmarks"
 msgstr "書籤"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:28
+#: src/contents/ui/desktop/BookmarksPage.qml:30
 #, kde-format
 msgid "Search bookmarks…"
 msgstr "搜尋書籤…"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:70
+#: src/contents/ui/desktop/BookmarksPage.qml:95
 #, kde-format
 msgid "No bookmarks yet"
 msgstr "還沒有書籤"
 
-#: src/contents/ui/desktop/desktop.qml:116
+#: src/contents/ui/desktop/desktop.qml:118
 #, kde-format
 msgid "Search or enter URL…"
 msgstr "搜尋或輸入網址…"
 
-#: src/contents/ui/desktop/desktop.qml:223 src/contents/ui/desktop/Tabs.qml:354
+#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/desktop/Tabs.qml:354
 #: src/contents/ui/Tabs.qml:49
 #, kde-format
 msgid "New Tab"
 msgstr "新增分頁"
 
-#: src/contents/ui/desktop/desktop.qml:230 src/contents/ui/mobile.qml:71
+#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/mobile.qml:71
 #, kde-format
 msgid "Leave private mode"
 msgstr "離開隱私模式"
 
-#: src/contents/ui/desktop/desktop.qml:230 src/contents/ui/mobile.qml:71
+#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/mobile.qml:71
 #, kde-format
 msgid "Private mode"
 msgstr "隱私模式"
 
-#: src/contents/ui/desktop/desktop.qml:239 src/contents/ui/History.qml:12
+#: src/contents/ui/desktop/desktop.qml:258 src/contents/ui/History.qml:12
 #: src/contents/ui/mobile.qml:87
 #, kde-format
 msgid "History"
 msgstr "歷史記錄"
 
-#: src/contents/ui/desktop/desktop.qml:257 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:276 src/contents/ui/Downloads.qml:15
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
 msgstr "下載"
 
-#: src/contents/ui/desktop/desktop.qml:275
+#: src/contents/ui/desktop/desktop.qml:294
 #, kde-format
 msgid "Full Screen"
 msgstr "全螢幕"
 
-#: src/contents/ui/desktop/desktop.qml:292
+#: src/contents/ui/desktop/desktop.qml:311
 #, kde-format
 msgid "Hide developer tools"
 msgstr "隱藏開發者工具"
 
-#: src/contents/ui/desktop/desktop.qml:293 src/contents/ui/mobile.qml:378
+#: src/contents/ui/desktop/desktop.qml:312 src/contents/ui/mobile.qml:378
 #, kde-format
 msgid "Show developer tools"
 msgstr "顯示開發者工具"
 
-#: src/contents/ui/desktop/desktop.qml:302 src/contents/ui/mobile.qml:278
+#: src/contents/ui/desktop/desktop.qml:321 src/contents/ui/mobile.qml:278
 #, kde-format
 msgid "Find in page"
 msgstr "在頁面中尋找內容"
 
-#: src/contents/ui/desktop/desktop.qml:311
+#: src/contents/ui/desktop/desktop.qml:330
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "閱讀模式"
 
-#: src/contents/ui/desktop/desktop.qml:328
+#: src/contents/ui/desktop/desktop.qml:347
 #, kde-format
 msgid "Add to application launcher"
 msgstr "新增到應用程式啟動器"
 
-#: src/contents/ui/desktop/desktop.qml:347 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:366 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "設定"
 
-#: src/contents/ui/desktop/desktop.qml:354
+#: src/contents/ui/desktop/desktop.qml:373
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "設定 Angelfish"
 
-#: src/contents/ui/desktop/HistoryPage.qml:28
+#: src/contents/ui/desktop/HistoryPage.qml:30
 #, kde-format
 msgid "Search history…"
 msgstr "搜尋歷史…"
 
-#: src/contents/ui/desktop/HistoryPage.qml:44
+#: src/contents/ui/desktop/HistoryPage.qml:46
 #, kde-format
 msgid "Clear all history"
 msgstr "清空歷史"
 
-#: src/contents/ui/desktop/HistoryPage.qml:80
+#: src/contents/ui/desktop/HistoryPage.qml:101
 #, kde-format
 msgid "Not history yet"
 msgstr "還沒有歷史"
@@ -925,7 +925,7 @@ msgstr "偏好搜尋引擎的基礎網址"
 msgid "Remove app"
 msgstr "移除應用程式"
 
-#: src/contents/ui/ShareSheet.qml:17
+#: src/contents/ui/ShareSheet.qml:18
 #, kde-format
 msgid "Share page to"
 msgstr "分享頁面"

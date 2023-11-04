@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-30 01:41+0000\n"
+"POT-Creation-Date: 2023-11-04 01:38+0000\n"
 "PO-Revision-Date: 2021-03-21 17:55+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -192,7 +192,7 @@ msgstr "Godta"
 msgid "Decline"
 msgstr "Avslå"
 
-#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:269
+#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:288
 #, kde-format
 msgid "Print"
 msgstr ""
@@ -392,7 +392,7 @@ msgstr "Klipp ut"
 msgid "Paste"
 msgstr "Lim inn"
 
-#: lib/contents/ui/WebView.qml:583 src/contents/ui/desktop/desktop.qml:318
+#: lib/contents/ui/WebView.qml:583 src/contents/ui/desktop/desktop.qml:337
 #: src/contents/ui/mobile.qml:282
 #, kde-format
 msgid "Share page"
@@ -414,107 +414,107 @@ msgstr "Reklamefilteret manglar filterlister. Vil du lasta dei ned no?"
 msgid "Downloading..."
 msgstr "Lastar ned …"
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:248
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:267
 #: src/contents/ui/mobile.qml:79
 #, kde-format
 msgid "Bookmarks"
 msgstr "Bokmerke"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:28
+#: src/contents/ui/desktop/BookmarksPage.qml:30
 #, kde-format
 msgid "Search bookmarks…"
 msgstr ""
 
-#: src/contents/ui/desktop/BookmarksPage.qml:70
+#: src/contents/ui/desktop/BookmarksPage.qml:95
 #, kde-format
 msgid "No bookmarks yet"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:116
+#: src/contents/ui/desktop/desktop.qml:118
 #, kde-format
 msgid "Search or enter URL…"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:223 src/contents/ui/desktop/Tabs.qml:354
+#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/desktop/Tabs.qml:354
 #: src/contents/ui/Tabs.qml:49
 #, kde-format
 msgid "New Tab"
 msgstr "Ny fane"
 
-#: src/contents/ui/desktop/desktop.qml:230 src/contents/ui/mobile.qml:71
+#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/mobile.qml:71
 #, kde-format
 msgid "Leave private mode"
 msgstr "Forlat privatmodus"
 
-#: src/contents/ui/desktop/desktop.qml:230 src/contents/ui/mobile.qml:71
+#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/mobile.qml:71
 #, kde-format
 msgid "Private mode"
 msgstr "Privatmodus"
 
-#: src/contents/ui/desktop/desktop.qml:239 src/contents/ui/History.qml:12
+#: src/contents/ui/desktop/desktop.qml:258 src/contents/ui/History.qml:12
 #: src/contents/ui/mobile.qml:87
 #, kde-format
 msgid "History"
 msgstr "Logg"
 
-#: src/contents/ui/desktop/desktop.qml:257 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:276 src/contents/ui/Downloads.qml:15
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
 msgstr "Nedlastingar"
 
-#: src/contents/ui/desktop/desktop.qml:275
+#: src/contents/ui/desktop/desktop.qml:294
 #, kde-format
 msgid "Full Screen"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:292
+#: src/contents/ui/desktop/desktop.qml:311
 #, kde-format
 msgid "Hide developer tools"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:293 src/contents/ui/mobile.qml:378
+#: src/contents/ui/desktop/desktop.qml:312 src/contents/ui/mobile.qml:378
 #, kde-format
 msgid "Show developer tools"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:302 src/contents/ui/mobile.qml:278
+#: src/contents/ui/desktop/desktop.qml:321 src/contents/ui/mobile.qml:278
 #, kde-format
 msgid "Find in page"
 msgstr "Finn på sida"
 
-#: src/contents/ui/desktop/desktop.qml:311
+#: src/contents/ui/desktop/desktop.qml:330
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:328
+#: src/contents/ui/desktop/desktop.qml:347
 #, kde-format
 msgid "Add to application launcher"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:347 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:366 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "Innstillingar"
 
-#: src/contents/ui/desktop/desktop.qml:354
+#: src/contents/ui/desktop/desktop.qml:373
 #, kde-format
 msgid "Configure Angelfish"
 msgstr ""
 
-#: src/contents/ui/desktop/HistoryPage.qml:28
+#: src/contents/ui/desktop/HistoryPage.qml:30
 #, kde-format
 msgid "Search history…"
 msgstr ""
 
-#: src/contents/ui/desktop/HistoryPage.qml:44
+#: src/contents/ui/desktop/HistoryPage.qml:46
 #, kde-format
 msgid "Clear all history"
 msgstr ""
 
-#: src/contents/ui/desktop/HistoryPage.qml:80
+#: src/contents/ui/desktop/HistoryPage.qml:101
 #, kde-format
 msgid "Not history yet"
 msgstr ""
@@ -925,7 +925,7 @@ msgstr "Adressa til føretrekt søkjemotor"
 msgid "Remove app"
 msgstr ""
 
-#: src/contents/ui/ShareSheet.qml:17
+#: src/contents/ui/ShareSheet.qml:18
 #, kde-format
 msgid "Share page to"
 msgstr ""

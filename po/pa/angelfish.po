@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-30 01:41+0000\n"
+"POT-Creation-Date: 2023-11-04 01:38+0000\n"
 "PO-Revision-Date: 2022-01-01 09:26-0800\n"
 "Last-Translator: A S Alam <aalam@satluj.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -196,7 +196,7 @@ msgstr "ਮਨਜ਼ੂਰ ਕਰੋ"
 msgid "Decline"
 msgstr "ਇਨਕਾਰ"
 
-#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:269
+#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:288
 #, kde-format
 msgid "Print"
 msgstr ""
@@ -411,7 +411,7 @@ msgstr "ਕੱਟੋ"
 msgid "Paste"
 msgstr "ਚੇਪੋ"
 
-#: lib/contents/ui/WebView.qml:583 src/contents/ui/desktop/desktop.qml:318
+#: lib/contents/ui/WebView.qml:583 src/contents/ui/desktop/desktop.qml:337
 #: src/contents/ui/mobile.qml:282
 #, kde-format
 msgid "Share page"
@@ -434,110 +434,110 @@ msgstr ""
 msgid "Downloading..."
 msgstr "ਡਾਊਨਲੋਡ ਜਾਰੀ ਹੈ…"
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:248
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:267
 #: src/contents/ui/mobile.qml:79
 #, kde-format
 msgid "Bookmarks"
 msgstr "ਬੁੱਕਮਾਰਕ"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:28
+#: src/contents/ui/desktop/BookmarksPage.qml:30
 #, kde-format
 msgid "Search bookmarks…"
 msgstr "…ਬੁੱਕਮਾਰਕ ਲੱਭੋ"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:70
+#: src/contents/ui/desktop/BookmarksPage.qml:95
 #, fuzzy, kde-format
 #| msgid "Bookmarks"
 msgid "No bookmarks yet"
 msgstr "ਬੁੱਕਮਾਰਕ"
 
-#: src/contents/ui/desktop/desktop.qml:116
+#: src/contents/ui/desktop/desktop.qml:118
 #, fuzzy, kde-format
 #| msgid "Search history…"
 msgid "Search or enter URL…"
 msgstr "…ਅਤੀਤ ਵਿੱਚ ਖੋਜੋ"
 
-#: src/contents/ui/desktop/desktop.qml:223 src/contents/ui/desktop/Tabs.qml:354
+#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/desktop/Tabs.qml:354
 #: src/contents/ui/Tabs.qml:49
 #, kde-format
 msgid "New Tab"
 msgstr "ਨਵੀਂ ਟੈਬ"
 
-#: src/contents/ui/desktop/desktop.qml:230 src/contents/ui/mobile.qml:71
+#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/mobile.qml:71
 #, kde-format
 msgid "Leave private mode"
 msgstr "ਪ੍ਰਾਈਵੇਟ ਢੰਗ ਛੱਡੋ"
 
-#: src/contents/ui/desktop/desktop.qml:230 src/contents/ui/mobile.qml:71
+#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/mobile.qml:71
 #, kde-format
 msgid "Private mode"
 msgstr "ਪ੍ਰਾਈਵੇਟ ਢੰਗ"
 
-#: src/contents/ui/desktop/desktop.qml:239 src/contents/ui/History.qml:12
+#: src/contents/ui/desktop/desktop.qml:258 src/contents/ui/History.qml:12
 #: src/contents/ui/mobile.qml:87
 #, kde-format
 msgid "History"
 msgstr "ਅਤੀਤ"
 
-#: src/contents/ui/desktop/desktop.qml:257 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:276 src/contents/ui/Downloads.qml:15
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
 msgstr "ਡਾਊਨਲੋਡ"
 
-#: src/contents/ui/desktop/desktop.qml:275
+#: src/contents/ui/desktop/desktop.qml:294
 #, kde-format
 msgid "Full Screen"
 msgstr "ਪੂਰੀ ਸਕਰੀਨ"
 
-#: src/contents/ui/desktop/desktop.qml:292
+#: src/contents/ui/desktop/desktop.qml:311
 #, fuzzy, kde-format
 #| msgid "Show developer tools"
 msgid "Hide developer tools"
 msgstr "ਡਿਵੈਲਪਰ ਟੂਲ ਵੇਖਾਓ"
 
-#: src/contents/ui/desktop/desktop.qml:293 src/contents/ui/mobile.qml:378
+#: src/contents/ui/desktop/desktop.qml:312 src/contents/ui/mobile.qml:378
 #, kde-format
 msgid "Show developer tools"
 msgstr "ਡਿਵੈਲਪਰ ਟੂਲ ਵੇਖਾਓ"
 
-#: src/contents/ui/desktop/desktop.qml:302 src/contents/ui/mobile.qml:278
+#: src/contents/ui/desktop/desktop.qml:321 src/contents/ui/mobile.qml:278
 #, kde-format
 msgid "Find in page"
 msgstr "ਸਫ਼ੇ ਵਿੱਚ ਲੱਭੋ"
 
-#: src/contents/ui/desktop/desktop.qml:311
+#: src/contents/ui/desktop/desktop.qml:330
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:328
+#: src/contents/ui/desktop/desktop.qml:347
 #, kde-format
 msgid "Add to application launcher"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:347 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:366 src/contents/ui/mobile.qml:99
 #, kde-format
 msgid "Settings"
 msgstr "ਸੈਟਿੰਗਾਂ"
 
-#: src/contents/ui/desktop/desktop.qml:354
+#: src/contents/ui/desktop/desktop.qml:373
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "ਐਂਗਲਫਿਸ਼ ਦੀ ਸੰਰਚਨਾ"
 
-#: src/contents/ui/desktop/HistoryPage.qml:28
+#: src/contents/ui/desktop/HistoryPage.qml:30
 #, kde-format
 msgid "Search history…"
 msgstr "…ਅਤੀਤ ਵਿੱਚ ਖੋਜੋ"
 
-#: src/contents/ui/desktop/HistoryPage.qml:44
+#: src/contents/ui/desktop/HistoryPage.qml:46
 #, kde-format
 msgid "Clear all history"
 msgstr "ਸਾਰੇ ਅਤੀਤ ਨੂੰ ਮਿਟਾਓ"
 
-#: src/contents/ui/desktop/HistoryPage.qml:80
+#: src/contents/ui/desktop/HistoryPage.qml:101
 #, kde-format
 msgid "Not history yet"
 msgstr "ਹਾਲੇ ਕੋਈ ਅਤੀਤੀ ਨਹੀਂ ਹੈ"
@@ -949,7 +949,7 @@ msgstr "ਤੁਹਾਡੇ ਤਰਜੀਹੀ ਖੋਜ ਇੰਜਣ ਲਈ ਮ�
 msgid "Remove app"
 msgstr "ਐਪ ਹਟਾਓ"
 
-#: src/contents/ui/ShareSheet.qml:17
+#: src/contents/ui/ShareSheet.qml:18
 #, fuzzy, kde-format
 #| msgid "Share page"
 msgid "Share page to"
