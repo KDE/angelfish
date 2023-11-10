@@ -264,8 +264,8 @@ classes
     onContextMenuRequested: request => {
         request.accepted = true // Make sure QtWebEngine doesn't show its own context menu.
         contextMenu.request = request
-        contextMenu.x = request.x
-        contextMenu.y = request.y
+        contextMenu.x = request.position.x
+        contextMenu.y = request.position.y
         contextMenu.open()
     }
 
