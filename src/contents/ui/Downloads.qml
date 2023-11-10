@@ -54,9 +54,9 @@ Kirigami.ScrollablePage {
                     icon.name: "media-playback-start"
                     onTriggered: downloadDelegate.download.resume();
                 }
-
             ]
-            RowLayout {
+
+            contentItem: RowLayout {
                 Kirigami.Icon {
                     source: downloadDelegate.mimeTypeIcon
                     height: Kirigami.Units.iconSizes.medium

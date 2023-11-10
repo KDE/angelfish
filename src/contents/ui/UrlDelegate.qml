@@ -27,7 +27,7 @@ Kirigami.SwipeListItem {
 
     signal removed
 
-    RowLayout {
+    contentItem: RowLayout {
         Kirigami.Theme.inherit: true
 
         Item {
