@@ -226,10 +226,11 @@ classes
     }
 
     onIconChanged: {
-        if (icon && !privateMode)
+        if (icon && !privateMode) {
             BrowserManager.updateIcon(url, icon)
+        }
     }
-    onNewWindowRequested: {
+    onNewWindowRequested: request => {
         if (request.userInitiated) {
             tabsModel.newTab(request.requestedUrl.toString())
             showPassiveNotification(i18n("Website was opened in a new tab"))
@@ -247,7 +248,7 @@ classes
         }
     }
 
-    onFullScreenRequested: {
+    onFullScreenRequested: request => {
         if (request.toggleOn) {
             webBrowser.showFullScreen()
             const message = i18n("Entered Full Screen Mode")
@@ -260,7 +261,7 @@ classes
         request.accept()
     }
 
-    onContextMenuRequested: {
+    onContextMenuRequested: request => {
         request.accepted = true // Make sure QtWebEngine doesn't show its own context menu.
         contextMenu.request = request
         contextMenu.x = request.x
@@ -268,7 +269,7 @@ classes
         contextMenu.open()
     }
 
-    onAuthenticationDialogRequested: {
+    onAuthenticationDialogRequested: request => {
         request.accepted = true
         sheetLoader.setSource("AuthSheet.qml")
         sheetLoader.item.request = request
@@ -282,14 +283,14 @@ classes
         newQuestion.visible = true
     }
 
-    onJavaScriptDialogRequested: {
+    onJavaScriptDialogRequested: request => {
         request.accepted = true;
         sheetLoader.setSource("JavaScriptDialogSheet.qml");
         sheetLoader.item.request = request;
         sheetLoader.item.open();
     }
 
-    onFindTextFinished: {
+    onFindTextFinished: result => {
         findInPageResultIndex = result.activeMatch;
         findInPageResultCount = result.numberOfMatches;
     }
@@ -310,7 +311,7 @@ classes
         }
     }
 
-    onCertificateError: (error) => {
+    onCertificateError: error => {
         error.defer();
         errorHandler.enqueue(error);
     }
@@ -335,7 +336,7 @@ classes
         }
     }
 
-    onPdfPrintingFinished: {
+    onPdfPrintingFinished: (filePath, success) => {
         generatingPdf = false;
         printPreviewUrl = "file://" + filePath + "#toolbar=0&view=Fit";
     }
