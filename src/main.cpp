@@ -69,6 +69,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QtWebEngineQuick::initialize();
 
     QApplication app(argc, argv);
+    app.setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.angelfish"), app.windowIcon()));
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
     QCoreApplication::setOrganizationDomain(QStringLiteral("kde.org"));
     QCoreApplication::setApplicationName(QStringLiteral("angelfish"));
