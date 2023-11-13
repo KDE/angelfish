@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-04 16:52+0000\n"
+"POT-Creation-Date: 2023-11-13 01:38+0000\n"
 "PO-Revision-Date: 2023-11-11 07:20\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -241,173 +241,173 @@ msgstr "打印背景"
 msgid "Save"
 msgstr "保存"
 
-#: lib/contents/ui/WebView.qml:235
+#: lib/contents/ui/WebView.qml:236
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr "网站已在新标签页中打开"
 
-#: lib/contents/ui/WebView.qml:253
+#: lib/contents/ui/WebView.qml:254
 #, kde-format
 msgid "Entered Full Screen Mode"
 msgstr "进入全屏模式"
 
-#: lib/contents/ui/WebView.qml:254
+#: lib/contents/ui/WebView.qml:255
 #, kde-format
 msgid "Exit Full Screen (Esc)"
 msgstr "退出全屏 (Esc)"
 
-#: lib/contents/ui/WebView.qml:387
+#: lib/contents/ui/WebView.qml:388
 #, kde-format
 msgid "Play"
 msgstr "播放"
 
-#: lib/contents/ui/WebView.qml:388 src/contents/ui/Downloads.qml:47
+#: lib/contents/ui/WebView.qml:389 src/contents/ui/Downloads.qml:47
 #, kde-format
 msgid "Pause"
 msgstr "暂停"
 
-#: lib/contents/ui/WebView.qml:395
+#: lib/contents/ui/WebView.qml:396
 #, kde-format
 msgid "Unmute"
 msgstr "取消静音"
 
-#: lib/contents/ui/WebView.qml:396
+#: lib/contents/ui/WebView.qml:397
 #, kde-format
 msgid "Mute"
 msgstr "静音"
 
-#: lib/contents/ui/WebView.qml:406
+#: lib/contents/ui/WebView.qml:407
 #, kde-format
 msgid "Speed"
 msgstr "速度"
 
-#: lib/contents/ui/WebView.qml:429
+#: lib/contents/ui/WebView.qml:430
 #, kde-format
 msgid "Loop"
 msgstr "循环播放"
 
-#: lib/contents/ui/WebView.qml:436
+#: lib/contents/ui/WebView.qml:437
 #, kde-format
 msgid "Exit fullscreen"
 msgstr "退出全屏"
 
-#: lib/contents/ui/WebView.qml:436
+#: lib/contents/ui/WebView.qml:437
 #, kde-format
 msgid "Fullscreen"
 msgstr "全屏"
 
-#: lib/contents/ui/WebView.qml:449
+#: lib/contents/ui/WebView.qml:450
 #, kde-format
 msgid "Hide controls"
 msgstr "隐藏控件"
 
-#: lib/contents/ui/WebView.qml:450
+#: lib/contents/ui/WebView.qml:451
 #, kde-format
 msgid "Show controls"
 msgstr "显示控件"
 
-#: lib/contents/ui/WebView.qml:458
+#: lib/contents/ui/WebView.qml:459
 #, kde-format
 msgid "Open video"
 msgstr "打开视频"
 
-#: lib/contents/ui/WebView.qml:458
+#: lib/contents/ui/WebView.qml:459
 #, kde-format
 msgid "Open audio"
 msgstr "打开音频"
 
-#: lib/contents/ui/WebView.qml:459
+#: lib/contents/ui/WebView.qml:460
 #, kde-format
 msgid "Open video in new Tab"
 msgstr "新建标签页打开视频"
 
-#: lib/contents/ui/WebView.qml:459
+#: lib/contents/ui/WebView.qml:460
 #, kde-format
 msgid "Open audio in new Tab"
 msgstr "新建标签页打开音频"
 
-#: lib/contents/ui/WebView.qml:471
+#: lib/contents/ui/WebView.qml:472
 #, kde-format
 msgid "Save video"
 msgstr "保存视频"
 
-#: lib/contents/ui/WebView.qml:477
+#: lib/contents/ui/WebView.qml:478
 #, kde-format
 msgid "Copy video Link"
 msgstr "复制视频链接"
 
-#: lib/contents/ui/WebView.qml:483
+#: lib/contents/ui/WebView.qml:484
 #, kde-format
 msgid "Open image"
 msgstr "打开图片"
 
-#: lib/contents/ui/WebView.qml:483
+#: lib/contents/ui/WebView.qml:484
 #, kde-format
 msgid "Open image in new Tab"
 msgstr "新建标签页打开图片"
 
-#: lib/contents/ui/WebView.qml:495
+#: lib/contents/ui/WebView.qml:496
 #, kde-format
 msgid "Save image"
 msgstr "保存图片"
 
-#: lib/contents/ui/WebView.qml:501
+#: lib/contents/ui/WebView.qml:502
 #, kde-format
 msgid "Copy image"
 msgstr "复制图片"
 
-#: lib/contents/ui/WebView.qml:507
+#: lib/contents/ui/WebView.qml:508
 #, kde-format
 msgid "Copy image link"
 msgstr "复制图片链接"
 
-#: lib/contents/ui/WebView.qml:513
+#: lib/contents/ui/WebView.qml:514
 #, kde-format
 msgid "Open link"
 msgstr "打开链接"
 
-#: lib/contents/ui/WebView.qml:513
+#: lib/contents/ui/WebView.qml:514
 #, kde-format
 msgid "Open link in new Tab"
 msgstr "新建标签页打开链接"
 
-#: lib/contents/ui/WebView.qml:525
+#: lib/contents/ui/WebView.qml:526
 #, kde-format
 msgid "Bookmark link"
 msgstr "书签链接"
 
-#: lib/contents/ui/WebView.qml:537
+#: lib/contents/ui/WebView.qml:538
 #, kde-format
 msgid "Save link"
 msgstr "保存链接"
 
-#: lib/contents/ui/WebView.qml:543
+#: lib/contents/ui/WebView.qml:544
 #, kde-format
 msgid "Copy link"
 msgstr "复制链接"
 
-#: lib/contents/ui/WebView.qml:550
+#: lib/contents/ui/WebView.qml:551
 #, kde-format
 msgid "Copy"
 msgstr "复制"
 
-#: lib/contents/ui/WebView.qml:556
+#: lib/contents/ui/WebView.qml:557
 #, kde-format
 msgid "Cut"
 msgstr "剪切"
 
-#: lib/contents/ui/WebView.qml:562
+#: lib/contents/ui/WebView.qml:563
 #, kde-format
 msgid "Paste"
 msgstr "粘贴"
 
-#: lib/contents/ui/WebView.qml:583 src/contents/ui/desktop/desktop.qml:337
+#: lib/contents/ui/WebView.qml:584 src/contents/ui/desktop/desktop.qml:337
 #: src/contents/ui/mobile.qml:282
 #, kde-format
 msgid "Share page"
 msgstr "分享网页"
 
-#: lib/contents/ui/WebView.qml:595
+#: lib/contents/ui/WebView.qml:596
 #, kde-format
 msgid "View page source"
 msgstr "查看页面源代码"
@@ -930,7 +930,7 @@ msgstr "移除应用"
 msgid "Share page to"
 msgstr "分享页面到"
 
-#: src/main.cpp:81
+#: src/main.cpp:82
 #, kde-format
 msgid "URL to open"
 msgstr "要打开的 URL"
