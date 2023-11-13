@@ -144,8 +144,6 @@ parts:
         - libfuturesql
         - libqcoro5core0
         - libqcoro5quick0
-        stage-snps:
-        - khelpcenter
         source: .
         source-type: local
         cmake-parameters:
