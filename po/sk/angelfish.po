@@ -1,14 +1,15 @@
 # translation of angelfish.po to Slovak
 # Roman Paholik <wizzardsk@gmail.com>, 2019, 2022.
 # Matej Mrenica <matejm98mthw@gmail.com>, 2021.
+# Ferdinand Galko <galko.ferdinand@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-13 01:38+0000\n"
-"PO-Revision-Date: 2022-04-07 17:59+0200\n"
-"Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
-"Language-Team: Slovak <kde-sk@linux.sk>\n"
+"PO-Revision-Date: 2023-11-13 18:52+0100\n"
+"Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
+"Language-Team: Slovak <opensuse-translation@opensuse.org>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,27 +20,27 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Roman Paholík"
+msgstr "Roman Paholík,Ferdinand Galko"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "wizzardsk@gmail.com"
+msgstr "wizzardsk@gmail.com,galko.ferdinand@gmail.com"
 
 #: angelfish-webapp/main.cpp:71
 #, kde-format
 msgid "desktop file to open"
-msgstr ""
+msgstr "súbor desktopu, ktorý sa má otvoriť"
 
 #: angelfish-webapp/main.cpp:98
 #, kde-format
 msgid "Angelfish Web App runtime"
-msgstr ""
+msgstr "Behové prostredie webovej aplikácie Angelfish"
 
 #: angelfish-webapp/main.cpp:100
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
-msgstr ""
+msgstr "Copyright 2020 Vývojári Angelfish"
 
 #: angelfish-webapp/main.cpp:102
 #, kde-format
@@ -54,7 +55,7 @@ msgstr "Sťahovanie ukončené"
 #: lib/angelfishwebprofile.cpp:63
 #, kde-format
 msgid "Download failed"
-msgstr "Preberanie zlyhalo"
+msgstr "Sťahovanie zlyhalo"
 
 #: lib/angelfishwebprofile.cpp:84 src/contents/ui/NewTabQuestion.qml:19
 #, kde-format
@@ -113,6 +114,13 @@ msgid ""
 " you may not be connected with the host you tried to connect to.\n"
 " Do you wish to override the security check and continue?"
 msgstr ""
+"Chcete pokračovať?\n"
+"\n"
+" Ak si to želáte, môžete pokračovať s neovereným certifikátom.\n"
+" Akceptovanie neovereného certifikátu znamená,\n"
+" že nemusíte byť pripojení k hostiteľovi, ku ktorému ste sa pokúšali "
+"pripojiť.\n"
+" Chcete potlačiť bezpečnostnú kontrolu a pokračovať?"
 
 #: lib/contents/ui/ErrorHandler.qml:79
 #, kde-format
@@ -127,7 +135,7 @@ msgstr "Nie"
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
 msgid "This page says"
-msgstr ""
+msgstr "Na tejto stránke je uvedené"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:64
 #, kde-format
@@ -135,6 +143,8 @@ msgid ""
 "The website asks for confirmation that you want to leave. Unsaved "
 "information might not be saved."
 msgstr ""
+"Webová stránka požaduje potvrdenie, že chcete odísť. Neuložené informácie sa "
+"nemusia uložiť."
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:79
 #, kde-format
@@ -149,38 +159,38 @@ msgstr "Odoslať"
 #: lib/contents/ui/PermissionQuestion.qml:16
 #, kde-format
 msgid "Do you want to allow the website to access the geo location?"
-msgstr ""
+msgstr "Chcete webovej stránke umožniť prístup ku geografickej polohe?"
 
 #: lib/contents/ui/PermissionQuestion.qml:19
 #, kde-format
 msgid "Do you want to allow the website to access the microphone?"
-msgstr ""
+msgstr "Chcete webovej stránke umožniť prístup k mikrofónu?"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format
 msgid "Do you want to allow the website to access the camera?"
-msgstr ""
+msgstr "Chcete webovej stránke umožniť prístup ku kamere?"
 
 #: lib/contents/ui/PermissionQuestion.qml:25
 #, kde-format
 msgid ""
 "Do you want to allow the website to access the camera and the microphone?"
-msgstr ""
+msgstr "Chcete webovej stránke umožniť prístup ku kamere a mikrofónu?"
 
 #: lib/contents/ui/PermissionQuestion.qml:28
 #, kde-format
 msgid "Do you want to allow the website to share your screen?"
-msgstr ""
+msgstr "Chcete webovej stránke umožniť zdieľanie obrazovky?"
 
 #: lib/contents/ui/PermissionQuestion.qml:31
 #, kde-format
 msgid "Do you want to allow the website to share the sound output?"
-msgstr ""
+msgstr "Chcete webovej stránke umožniť zdieľanie zvukového výstupu?"
 
 #: lib/contents/ui/PermissionQuestion.qml:34
 #, kde-format
 msgid "Do you want to allow the website to send you notifications?"
-msgstr ""
+msgstr "Chcete webovej stránke umožniť, aby vám posielala upozornenia?"
 
 #: lib/contents/ui/PermissionQuestion.qml:43
 #, kde-format
@@ -195,64 +205,62 @@ msgstr "Odmietnuť"
 #: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:288
 #, kde-format
 msgid "Print"
-msgstr ""
+msgstr "Tlačiť"
 
 #: lib/contents/ui/PrintPreview.qml:64
 #, kde-format
 msgid "Destination"
-msgstr ""
+msgstr "Cieľ"
 
 #: lib/contents/ui/PrintPreview.qml:68
 #, kde-format
 msgid "Save to PDF"
-msgstr ""
+msgstr "Uložiť do PDF"
 
 #: lib/contents/ui/PrintPreview.qml:74
 #, kde-format
 msgid "Orientation"
-msgstr ""
+msgstr "Orientácia"
 
 #: lib/contents/ui/PrintPreview.qml:99
 #, kde-format
 msgid "Paper size"
-msgstr ""
+msgstr "Veľkosť papiera"
 
 #: lib/contents/ui/PrintPreview.qml:145
 #, kde-format
 msgid "Options"
-msgstr ""
+msgstr "Možnosti"
 
 #: lib/contents/ui/PrintPreview.qml:149
 #, kde-format
 msgid "Print backgrounds"
-msgstr ""
+msgstr "Vytlačiť pozadia"
 
 #: lib/contents/ui/PrintPreview.qml:168
 #, kde-format
 msgid "Save"
-msgstr ""
+msgstr "Uložiť"
 
 #: lib/contents/ui/WebView.qml:236
 #, kde-format
 msgid "Website was opened in a new tab"
-msgstr ""
+msgstr "Webová stránka bola otvorená na novej karte"
 
 #: lib/contents/ui/WebView.qml:254
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Entered Full Screen Mode"
-msgstr "Celá obrazovka"
+msgstr "Prechod do režimu celej obrazovky"
 
 #: lib/contents/ui/WebView.qml:255
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Exit Full Screen (Esc)"
-msgstr "Celá obrazovka"
+msgstr "Ukončiť režim celej obrazovky (Esc)"
 
 #: lib/contents/ui/WebView.qml:388
 #, kde-format
 msgid "Play"
-msgstr ""
+msgstr "Prehrať"
 
 #: lib/contents/ui/WebView.qml:389 src/contents/ui/Downloads.qml:47
 #, kde-format
@@ -262,134 +270,122 @@ msgstr "Pozastaviť"
 #: lib/contents/ui/WebView.qml:396
 #, kde-format
 msgid "Unmute"
-msgstr ""
+msgstr "Zrušiť stlmenie"
 
 #: lib/contents/ui/WebView.qml:397
 #, kde-format
 msgid "Mute"
-msgstr ""
+msgstr "Stlmiť"
 
 #: lib/contents/ui/WebView.qml:407
 #, kde-format
 msgid "Speed"
-msgstr ""
+msgstr "Rýchlosť"
 
 #: lib/contents/ui/WebView.qml:430
 #, kde-format
 msgid "Loop"
-msgstr ""
+msgstr "Slučka"
 
 #: lib/contents/ui/WebView.qml:437
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Exit fullscreen"
-msgstr "Celá obrazovka"
+msgstr "Ukončiť režim celej obrazovky"
 
 #: lib/contents/ui/WebView.qml:437
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Fullscreen"
 msgstr "Celá obrazovka"
 
 #: lib/contents/ui/WebView.qml:450
 #, kde-format
 msgid "Hide controls"
-msgstr ""
+msgstr "Skryť ovládanie"
 
 #: lib/contents/ui/WebView.qml:451
 #, kde-format
 msgid "Show controls"
-msgstr ""
+msgstr "Zobraziť ovládanie"
 
 #: lib/contents/ui/WebView.qml:459
 #, kde-format
 msgid "Open video"
-msgstr ""
+msgstr "Otvoriť video"
 
 #: lib/contents/ui/WebView.qml:459
 #, kde-format
 msgid "Open audio"
-msgstr ""
+msgstr "Otvoriť zvuk"
 
 #: lib/contents/ui/WebView.qml:460
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open video in new Tab"
-msgstr "Otvoriť na novej karte"
+msgstr "Otvoriť video na novej karte"
 
 #: lib/contents/ui/WebView.qml:460
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open audio in new Tab"
-msgstr "Otvoriť na novej karte"
+msgstr "Otvoriť zvuk na novej karte"
 
 #: lib/contents/ui/WebView.qml:472
 #, kde-format
 msgid "Save video"
-msgstr ""
+msgstr "Uložiť video"
 
 #: lib/contents/ui/WebView.qml:478
 #, kde-format
 msgid "Copy video Link"
-msgstr ""
+msgstr "Kopírovať odkaz na video"
 
 #: lib/contents/ui/WebView.qml:484
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgid "Open image"
-msgstr "Otvoriť v aplikácií"
+msgstr "Otvoriť obrázok"
 
 #: lib/contents/ui/WebView.qml:484
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open image in new Tab"
-msgstr "Otvoriť na novej karte"
+msgstr "Otvoriť obrázok na novej karte"
 
 #: lib/contents/ui/WebView.qml:496
-#, fuzzy, kde-format
-#| msgid "Leave page"
+#, kde-format
 msgid "Save image"
-msgstr "Odísť zo stránky"
+msgstr "Uložiť obrázok"
 
 #: lib/contents/ui/WebView.qml:502
-#, fuzzy, kde-format
-#| msgid "Load images"
+#, kde-format
 msgid "Copy image"
-msgstr "Načítať obrázky"
+msgstr "Kopírovať obrázok"
 
 #: lib/contents/ui/WebView.qml:508
 #, kde-format
 msgid "Copy image link"
-msgstr ""
+msgstr "Kopírovať odkaz na obrázok"
 
 #: lib/contents/ui/WebView.qml:514
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgid "Open link"
-msgstr "Otvoriť v aplikácií"
+msgstr "Otvoriť odkaz"
 
 #: lib/contents/ui/WebView.qml:514
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open link in new Tab"
-msgstr "Otvoriť na novej karte"
+msgstr "Otvoriť odkaz na novej karte"
 
 #: lib/contents/ui/WebView.qml:526
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#, kde-format
 msgid "Bookmark link"
-msgstr "Záložka"
+msgstr "Pridať odkaz do záložiek"
 
 #: lib/contents/ui/WebView.qml:538
 #, kde-format
 msgid "Save link"
-msgstr ""
+msgstr "Uložiť odkaz"
 
 #: lib/contents/ui/WebView.qml:544
-#, fuzzy, kde-format
-#| msgid "Copy Url"
+#, kde-format
 msgid "Copy link"
-msgstr "Kopírovať URL"
+msgstr "Kopírovať odkaz"
 
 #: lib/contents/ui/WebView.qml:551
 #, kde-format
@@ -413,21 +409,21 @@ msgid "Share page"
 msgstr "Zdielať stránku"
 
 #: lib/contents/ui/WebView.qml:596
-#, fuzzy, kde-format
-#| msgid "View source"
+#, kde-format
 msgid "View page source"
-msgstr "Zobraziť zdroj"
+msgstr "Zobraziť zdroj stránky"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
 #, kde-format
 msgid ""
 "The ad blocker is missing its filter lists, do you want to download them now?"
 msgstr ""
+"Blokovaniu reklám chýbajú zoznamy filtrov, chcete si ich teraz stiahnuť?"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:34
 #, kde-format
 msgid "Downloading..."
-msgstr "Preberanie..."
+msgstr "Sťahuje sa..."
 
 #: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:267
 #: src/contents/ui/mobile.qml:79
@@ -438,18 +434,17 @@ msgstr "Záložky"
 #: src/contents/ui/desktop/BookmarksPage.qml:30
 #, kde-format
 msgid "Search bookmarks…"
-msgstr ""
+msgstr "Hľadať v záložkách…"
 
 #: src/contents/ui/desktop/BookmarksPage.qml:95
-#, fuzzy, kde-format
-#| msgid "Bookmarks"
+#, kde-format
 msgid "No bookmarks yet"
-msgstr "Záložky"
+msgstr "Zatiaľ žiadne záložky"
 
 #: src/contents/ui/desktop/desktop.qml:118
 #, kde-format
 msgid "Search or enter URL…"
-msgstr ""
+msgstr "Vyhľadať alebo zadať URL..."
 
 #: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/desktop/Tabs.qml:354
 #: src/contents/ui/Tabs.qml:49
@@ -477,7 +472,7 @@ msgstr "História"
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
-msgstr "Preberania"
+msgstr "Sťahovania"
 
 #: src/contents/ui/desktop/desktop.qml:294
 #, kde-format
@@ -487,12 +482,12 @@ msgstr "Celá obrazovka"
 #: src/contents/ui/desktop/desktop.qml:311
 #, kde-format
 msgid "Hide developer tools"
-msgstr ""
+msgstr "Skryť nástroje pre vývojárov"
 
 #: src/contents/ui/desktop/desktop.qml:312 src/contents/ui/mobile.qml:378
 #, kde-format
 msgid "Show developer tools"
-msgstr ""
+msgstr "Zobraziť nástroje pre vývojárov"
 
 #: src/contents/ui/desktop/desktop.qml:321 src/contents/ui/mobile.qml:278
 #, kde-format
@@ -503,12 +498,12 @@ msgstr "Nájsť na stránke"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
-msgstr ""
+msgstr "Režim čítania"
 
 #: src/contents/ui/desktop/desktop.qml:347
 #, kde-format
 msgid "Add to application launcher"
-msgstr ""
+msgstr "Pridať do spúšťača aplikácií"
 
 #: src/contents/ui/desktop/desktop.qml:366 src/contents/ui/mobile.qml:99
 #, kde-format
@@ -518,12 +513,12 @@ msgstr "Nastavenia"
 #: src/contents/ui/desktop/desktop.qml:373
 #, kde-format
 msgid "Configure Angelfish"
-msgstr ""
+msgstr "Nastaviť Angelfish"
 
 #: src/contents/ui/desktop/HistoryPage.qml:30
 #, kde-format
 msgid "Search history…"
-msgstr ""
+msgstr "Hľadať v histórii..."
 
 #: src/contents/ui/desktop/HistoryPage.qml:46
 #, kde-format
@@ -533,7 +528,7 @@ msgstr "Vymazať celú históriu"
 #: src/contents/ui/desktop/HistoryPage.qml:101
 #, kde-format
 msgid "Not history yet"
-msgstr ""
+msgstr "Zatiaľ nie je história"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:14
 #: src/contents/ui/SettingsPage.qml:38
@@ -544,83 +539,79 @@ msgstr "Panely nástrojov"
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:33
 #, kde-format
 msgid "Show home button:"
-msgstr ""
+msgstr "Zobraziť tlačidlo Domov:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:34
 #, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr ""
+"Tlačidlo Domov sa zobrazí vedľa tlačidla opätovného načítania na paneli "
+"nástrojov."
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:44
-#, fuzzy, kde-format
-#| msgid "Homepage"
+#, kde-format
 msgid "Homepage:"
 msgstr "Domovská stránka:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:67
 #, kde-format
 msgid "New tabs:"
-msgstr ""
+msgstr "Nové karty:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:90
 #, kde-format
 msgid "Always show the tab bar"
-msgstr ""
+msgstr "Vždy zobrazovať panel kariet"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:91
 #, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open"
-msgstr ""
+msgstr "Panel kariet sa zobrazí, aj keď je otvorená len jedna karta"
 
 #: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:185
 #, kde-format
 msgid "Reader Mode: %1"
-msgstr ""
+msgstr "Režim čítania: %1"
 
 #: src/contents/ui/desktop/Tabs.qml:250 src/contents/ui/Tabs.qml:216
-#, fuzzy, kde-format
-#| msgid "Close"
+#, kde-format
 msgid "Close tab"
-msgstr "Zatvoriť"
+msgstr "Zavrieť kartu"
 
 #: src/contents/ui/desktop/Tabs.qml:290
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open a new tab"
-msgstr "Otvoriť na novej karte"
+msgstr "Otvoriť novú kartu"
 
 #: src/contents/ui/desktop/Tabs.qml:323
 #, kde-format
 msgid "List all tabs"
-msgstr ""
+msgstr "Zobraziť zoznam všetkých kariet"
 
 #: src/contents/ui/desktop/Tabs.qml:363
 #, kde-format
 msgid "Reload Tab"
-msgstr ""
+msgstr "Opätovne načítať kartu"
 
 #: src/contents/ui/desktop/Tabs.qml:371
-#, fuzzy, kde-format
-#| msgid "Private Tabs"
+#, kde-format
 msgid "Duplicate Tab"
-msgstr "Súkromné karty"
+msgstr "Duplikovať kartu"
 
 #: src/contents/ui/desktop/Tabs.qml:379
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#, kde-format
 msgid "Bookmark Tab"
-msgstr "Záložka"
+msgstr "Pridať kartu do záložiek"
 
 #: src/contents/ui/desktop/Tabs.qml:395
-#, fuzzy, kde-format
-#| msgid "Close"
+#, kde-format
 msgid "Close Tab"
-msgstr "Zatvoriť"
+msgstr "Zatvoriť kartu"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
 msgid "No running downloads"
-msgstr ""
+msgstr "Žiadne prebiehajúce sťahovania"
 
 #: src/contents/ui/Downloads.qml:53
 #, kde-format
@@ -683,7 +674,7 @@ msgstr "Otvoriť v aplikácií"
 #: src/contents/ui/mobile.qml:311
 #, kde-format
 msgid "Go previous"
-msgstr ""
+msgstr "Prejsť na predchádzajúce"
 
 #: src/contents/ui/mobile.qml:319
 #: src/contents/ui/SettingsNavigationBarPage.qml:73
@@ -714,22 +705,22 @@ msgstr "Záložka"
 #: src/contents/ui/mobile.qml:352
 #, kde-format
 msgid "Show desktop site"
-msgstr ""
+msgstr "Zobraziť stránku plochy"
 
 #: src/contents/ui/mobile.qml:361
 #, kde-format
 msgid "Reader Mode"
-msgstr ""
+msgstr "Režim čítania"
 
 #: src/contents/ui/mobile.qml:369
 #, kde-format
 msgid "Hide navigation bar"
-msgstr ""
+msgstr "Skryť navigačný panel"
 
 #: src/contents/ui/mobile.qml:369
 #, kde-format
 msgid "Show navigation bar"
-msgstr ""
+msgstr "Zobraziť navigačný panel"
 
 #: src/contents/ui/NewTabQuestion.qml:11
 #, kde-format
@@ -737,6 +728,8 @@ msgid ""
 "Site wants to open a new tab: \n"
 "%1"
 msgstr ""
+"Stránka chce otvoriť novú kartu: \n"
+"%1"
 
 #: src/contents/ui/SettingsAdblock.qml:21
 #, kde-format
@@ -746,17 +739,17 @@ msgstr "Nastavenia Adblocku"
 #: src/contents/ui/SettingsAdblock.qml:32
 #, kde-format
 msgid "Update lists"
-msgstr ""
+msgstr "Aktualizovať zoznamy"
 
 #: src/contents/ui/SettingsAdblock.qml:54
 #, kde-format
 msgid "The adblock functionality isn't included in this build."
-msgstr ""
+msgstr "Funkcia blokovania reklám nie je súčasťou tohto zostavenia."
 
 #: src/contents/ui/SettingsAdblock.qml:60
 #, kde-format
 msgid "Add filterlist"
-msgstr ""
+msgstr "Pridať zoznam filtrov"
 
 #: src/contents/ui/SettingsAdblock.qml:65
 #, kde-format
@@ -776,12 +769,12 @@ msgstr "Pridať"
 #: src/contents/ui/SettingsAdblock.qml:148
 #, kde-format
 msgid "Remove this filter list"
-msgstr ""
+msgstr "Odstrániť tento zoznam filtrov"
 
 #: src/contents/ui/SettingsAdblock.qml:159
 #, kde-format
 msgid "add Filterlist"
-msgstr ""
+msgstr "pridať zoznam filtrov"
 
 #: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:14
 #, kde-format
@@ -796,7 +789,7 @@ msgstr "Povoliť Javascript"
 #: src/contents/ui/SettingsGeneral.qml:40
 #, kde-format
 msgid "This may be required on certain websites for them to work."
-msgstr ""
+msgstr "Na niektorých webových stránkach sa to môže vyžadovať, aby fungovali."
 
 #: src/contents/ui/SettingsGeneral.qml:49
 #, kde-format
@@ -806,38 +799,40 @@ msgstr "Načítať obrázky"
 #: src/contents/ui/SettingsGeneral.qml:50
 #, kde-format
 msgid "Whether to load images on websites."
-msgstr ""
+msgstr "Či načítať obrázky na webových stránkach."
 
 #: src/contents/ui/SettingsGeneral.qml:59
 #, kde-format
 msgid "Enable adblock"
-msgstr "Povoliť AdBlock"
+msgstr "Povoliť blokovanie reklám"
 
 #: src/contents/ui/SettingsGeneral.qml:60
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
-msgstr ""
+msgstr "Pokúsi sa zabrániť zobrazovaniu reklám na webových stránkach."
 
 #: src/contents/ui/SettingsGeneral.qml:60
 #, kde-format
 msgid "AdBlock functionality was not included in this build."
-msgstr ""
+msgstr "Funkcia blokovania reklám nebola súčasťou tohto zostavenia."
 
 #: src/contents/ui/SettingsGeneral.qml:70
 #, kde-format
 msgid "Switch to new tab immediately"
-msgstr ""
+msgstr "Okamžite prepnúť na novú kartu"
 
 #: src/contents/ui/SettingsGeneral.qml:71
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately"
 msgstr ""
+"Keď otvoríte odkaz, obrázok alebo médium na novej karte, okamžite na ňu "
+"prejdite."
 
 #: src/contents/ui/SettingsGeneral.qml:80
 #, kde-format
 msgid "Use Smooth Scrolling"
-msgstr ""
+msgstr "Používať plynulé posúvanie"
 
 #: src/contents/ui/SettingsGeneral.qml:81
 #, kde-format
@@ -845,11 +840,13 @@ msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
 "Requires app restart to take effect."
 msgstr ""
+"Posúvanie je plynulejšie a nezastaví sa náhle, keď prestanete posúvať. "
+"Vyžaduje reštart aplikácie, aby sa to prejavilo."
 
 #: src/contents/ui/SettingsGeneral.qml:90
 #, kde-format
 msgid "Use dark color scheme"
-msgstr ""
+msgstr "Použiť tmavú farebnú schému"
 
 #: src/contents/ui/SettingsGeneral.qml:91
 #, kde-format
@@ -857,11 +854,13 @@ msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
 "take effect."
 msgstr ""
+"Webové stránky budú mať nastavené tmavé farebné schémy. Vyžaduje reštart "
+"aplikácie, aby sa to prejavilo."
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:16
 #, kde-format
 msgid "Navigation bar"
-msgstr ""
+msgstr "Navigačný panel"
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:33
 #, kde-format
@@ -874,21 +873,28 @@ msgid ""
 "menus either by swiping from the left or right side or to a side along the "
 "bottom of the window."
 msgstr ""
+"Vyberte tlačidlá povolené v navigačnom paneli. Niektoré tlačidlá môžu byť "
+"skryté len pri orientácii prehliadača na výšku a sú vždy zobrazené, ak je "
+"prehliadač širší ako jeho výška.\n"
+"\n"
+" Treba poznamenať, že ak zakážete tlačidlá ponuky, budete mať prístup k menu "
+"buď potiahnutím z ľavej alebo pravej strany, alebo do strany pozdĺž spodnej "
+"časti okna."
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:49
 #, kde-format
 msgid "Main menu in portrait"
-msgstr ""
+msgstr "Hlavné menu na výšku"
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:55
 #, kde-format
 msgid "Tabs in portrait"
-msgstr ""
+msgstr "Karty na výšku"
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:61
 #, kde-format
 msgid "Context menu in portrait"
-msgstr ""
+msgstr "Kontextové menu na výšku"
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:67
 #, kde-format
@@ -903,19 +909,19 @@ msgstr "Obnoviť/Zastaviť"
 #: src/contents/ui/SettingsPage.qml:20
 #, kde-format
 msgid "Ad Block"
-msgstr ""
+msgstr "Blokovanie reklám"
 
 #: src/contents/ui/SettingsPage.qml:26 src/contents/ui/SettingsWebApps.qml:21
 #, kde-format
 msgid "Web Apps"
-msgstr ""
+msgstr "Webové aplikácie"
 
 #: src/contents/ui/SettingsPage.qml:32
 #: src/contents/ui/SettingsSearchEnginePage.qml:16
 #: src/contents/ui/SettingsSearchEnginePage.qml:120
 #, kde-format
 msgid "Search Engine"
-msgstr "Vyhľadávací stroj"
+msgstr "Vyhľadávací nástroj"
 
 #: src/contents/ui/SettingsSearchEnginePage.qml:32
 #, kde-format
@@ -925,18 +931,17 @@ msgstr "Vlastné"
 #: src/contents/ui/SettingsSearchEnginePage.qml:121
 #, kde-format
 msgid "Base URL of your preferred search engine"
-msgstr ""
+msgstr "Základná adresa URL preferovaného vyhľadávača"
 
 #: src/contents/ui/SettingsWebApps.qml:80
 #, kde-format
 msgid "Remove app"
-msgstr ""
+msgstr "Odstrániť aplikáciu"
 
 #: src/contents/ui/ShareSheet.qml:18
-#, fuzzy, kde-format
-#| msgid "Share page"
+#, kde-format
 msgid "Share page to"
-msgstr "Zdielať stránku"
+msgstr "Zdielať stránku na"
 
 #: src/main.cpp:82
 #, kde-format
