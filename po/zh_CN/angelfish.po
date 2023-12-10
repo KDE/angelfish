@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-13 01:38+0000\n"
-"PO-Revision-Date: 2023-11-25 02:26\n"
+"PO-Revision-Date: 2023-12-09 09:25\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -318,12 +318,12 @@ msgstr "打开音频"
 #: lib/contents/ui/WebView.qml:460
 #, kde-format
 msgid "Open video in new Tab"
-msgstr "新建标签页打开视频"
+msgstr "在新标签页中打开视频"
 
 #: lib/contents/ui/WebView.qml:460
 #, kde-format
 msgid "Open audio in new Tab"
-msgstr "新建标签页打开音频"
+msgstr "在新标签页中打开音频"
 
 #: lib/contents/ui/WebView.qml:472
 #, kde-format
@@ -343,7 +343,7 @@ msgstr "打开图片"
 #: lib/contents/ui/WebView.qml:484
 #, kde-format
 msgid "Open image in new Tab"
-msgstr "新建标签页打开图片"
+msgstr "在新标签页中打开图像"
 
 #: lib/contents/ui/WebView.qml:496
 #, kde-format
@@ -368,7 +368,7 @@ msgstr "打开链接"
 #: lib/contents/ui/WebView.qml:514
 #, kde-format
 msgid "Open link in new Tab"
-msgstr "新建标签页打开链接"
+msgstr "在新标签页中打开链接"
 
 #: lib/contents/ui/WebView.qml:526
 #, kde-format
@@ -556,7 +556,7 @@ msgstr "新标签页："
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:90
 #, kde-format
 msgid "Always show the tab bar"
-msgstr "总是显示标签栏"
+msgstr "总是显示标签页栏"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:91
 #, kde-format
@@ -576,7 +576,7 @@ msgstr "关闭标签页"
 #: src/contents/ui/desktop/Tabs.qml:290
 #, kde-format
 msgid "Open a new tab"
-msgstr "新建标签页"
+msgstr "打开新标签页"
 
 #: src/contents/ui/desktop/Tabs.qml:323
 #, kde-format
