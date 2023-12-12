@@ -333,7 +333,7 @@ msgstr "Obri l'àudio en una pestanya nova"
 #: lib/contents/ui/WebView.qml:472
 #, kde-format
 msgid "Save video"
-msgstr "Guarda el vídeo"
+msgstr "Guardeu el vídeo"
 
 #: lib/contents/ui/WebView.qml:478
 #, kde-format
