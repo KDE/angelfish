@@ -482,8 +482,9 @@
       <image type="source">https://cdn.kde.org/screenshots/plasma-angelfish/desktop.png</image>
     </screenshot>
   </screenshots>
-  <url type="homepage">https://invent.kde.org/plasma-mobile/angelfish</url>
-  <url type="bugtracker">https://bugs.kde.org/describecomponents.cgi?product=angelfish</url>
+  <url type="homepage">https://apps.kde.org/angelfish</url>
+  <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?product=angelfish</url>
+  <url type="donation">https://www.kde.org/community/donations/?app=angelfish&amp;source=appdata</url>
   <provides>
     <binary>angelfish</binary>
   </provides>
