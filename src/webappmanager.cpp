@@ -27,7 +27,7 @@ WebAppManager::WebAppManager(QObject *parent)
             KDesktopFile desktopFile(file.filePath());
 
             // Only handle desktop files referencing angelfish-webapp
-            if (desktopFile.group("Desktop Entry").readEntry("Exec").contains(QStringView(u"angelfish-webapp"))) {
+            if (desktopFile.group(QStringLiteral("Desktop Entry")).readEntry("Exec").contains(QStringView(u"angelfish-webapp"))) {
                 WebApp app{desktopFile.readName(), desktopFile.readIcon(), desktopFile.readUrl()};
 
                 m_webApps.push_back(std::move(app));
@@ -77,7 +77,7 @@ void WebAppManager::addApp(const QString &name, const QString &url, const QImage
     icon.save(iconDirectory() % QDir::separator() % filename % u".png", "PNG");
     KConfig desktopFile(desktopFileDirectory() % QDir::separator() % desktopFileName, KConfig::SimpleConfig);
 
-    auto desktopEntry = desktopFile.group("Desktop Entry");
+    auto desktopEntry = desktopFile.group(QStringLiteral("Desktop Entry"));
     desktopEntry.writeEntry(QStringLiteral("Type"), QStringLiteral("Application"));
     desktopEntry.writeEntry(QStringLiteral("URL"), url);
     desktopEntry.writeEntry(QStringLiteral("Name"), name);
