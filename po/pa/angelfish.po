@@ -1,31 +1,31 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the plasma-angelfish package.
 #
-# A S Alam <aalam.yellow@gmail.com>, 2021, 2022.
+# SPDX-FileCopyrightText: 2021, 2022, 2023 A S Alam <aalam.yellow@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-13 01:38+0000\n"
-"PO-Revision-Date: 2022-01-01 09:26-0800\n"
-"Last-Translator: A S Alam <aalam@satluj.org>\n"
-"Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
+"PO-Revision-Date: 2023-12-31 09:21-0600\n"
+"Last-Translator: A S Alam <aalam@punlinux.org>\n"
+"Language-Team: Punjabi <kde-i18n-doc@kde.org>\n"
 "Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.04.3\n"
+"X-Generator: Lokalize 23.08.4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "ਅ.ਸ.ਆਲਮ. ੨੦੦੯-੨੦੨੧"
+msgstr "ਅ.ਸ.ਆਲਮ. ੨੦੦੯-੨੦੨੩"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "alam.yellow@gmail.com"
+msgstr "aalam@punlinux.org"
 
 #: angelfish-webapp/main.cpp:71
 #, kde-format
@@ -134,7 +134,7 @@ msgstr "ਨਹੀਂ"
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
 msgid "This page says"
-msgstr ""
+msgstr "ਇਹ ਸਫ਼ਾ ਦਰਸਾਉਂਦਾ ਹੈ"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:64
 #, kde-format
@@ -204,42 +204,42 @@ msgstr "ਇਨਕਾਰ"
 #: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:288
 #, kde-format
 msgid "Print"
-msgstr ""
+msgstr "ਪਰਿੰਟ ਕਰੋ"
 
 #: lib/contents/ui/PrintPreview.qml:64
 #, kde-format
 msgid "Destination"
-msgstr ""
+msgstr "ਟਿਕਾਣਾ"
 
 #: lib/contents/ui/PrintPreview.qml:68
 #, kde-format
 msgid "Save to PDF"
-msgstr ""
+msgstr "PDF ਵਿੱਚ ਸੰਭਾਲੋ"
 
 #: lib/contents/ui/PrintPreview.qml:74
 #, kde-format
 msgid "Orientation"
-msgstr ""
+msgstr "ਸਥਿਤੀ"
 
 #: lib/contents/ui/PrintPreview.qml:99
 #, kde-format
 msgid "Paper size"
-msgstr ""
+msgstr "ਪੇਪਰ ਦਾ ਆਕਾਰ"
 
 #: lib/contents/ui/PrintPreview.qml:145
 #, kde-format
 msgid "Options"
-msgstr ""
+msgstr "ਚੋਣਾਂ"
 
 #: lib/contents/ui/PrintPreview.qml:149
 #, kde-format
 msgid "Print backgrounds"
-msgstr ""
+msgstr "ਬੈਕਗਰਾਊਂਡ ਨੂੰ ਪਰਿੰਟ ਕਰੋ"
 
 #: lib/contents/ui/PrintPreview.qml:168
 #, kde-format
 msgid "Save"
-msgstr ""
+msgstr "ਸੰਭਾਲੋ"
 
 #: lib/contents/ui/WebView.qml:236
 #, kde-format
@@ -247,21 +247,19 @@ msgid "Website was opened in a new tab"
 msgstr "ਵੈੱਬਸਾਈਟ ਨੂੰ ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹਿਆ ਗਿਆ ਸੀ"
 
 #: lib/contents/ui/WebView.qml:254
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Entered Full Screen Mode"
-msgstr "ਪੂਰੀ ਸਕਰੀਨ"
+msgstr "ਪੂਰੀ ਸਕਰੀਨ ਮੋਡ ਵਿੱਚ ਗਏ"
 
 #: lib/contents/ui/WebView.qml:255
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Exit Full Screen (Esc)"
-msgstr "ਪੂਰੀ ਸਕਰੀਨ"
+msgstr "ਪੂਰੀ ਸਕਰੀਨ ਛੱਡੋ (Esc)"
 
 #: lib/contents/ui/WebView.qml:388
 #, kde-format
 msgid "Play"
-msgstr ""
+msgstr "ਚਲਾਓ"
 
 #: lib/contents/ui/WebView.qml:389 src/contents/ui/Downloads.qml:47
 #, kde-format
@@ -271,135 +269,122 @@ msgstr "ਵਿਰਾਮ"
 #: lib/contents/ui/WebView.qml:396
 #, kde-format
 msgid "Unmute"
-msgstr ""
+msgstr "ਨਾ-ਚੁੱਪ"
 
 #: lib/contents/ui/WebView.qml:397
 #, kde-format
 msgid "Mute"
-msgstr ""
+msgstr "ਚੁੱਪ"
 
 #: lib/contents/ui/WebView.qml:407
 #, kde-format
 msgid "Speed"
-msgstr ""
+msgstr "ਗਤੀ"
 
 #: lib/contents/ui/WebView.qml:430
 #, kde-format
 msgid "Loop"
-msgstr ""
+msgstr "ਲੂਪ"
 
 #: lib/contents/ui/WebView.qml:437
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Exit fullscreen"
-msgstr "ਪੂਰੀ ਸਕਰੀਨ"
+msgstr "ਪੂਰੀ ਸਕਰੀਨ ਤੋਂ ਬਾਹਰ"
 
 #: lib/contents/ui/WebView.qml:437
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgid "Fullscreen"
 msgstr "ਪੂਰੀ ਸਕਰੀਨ"
 
 #: lib/contents/ui/WebView.qml:450
 #, kde-format
 msgid "Hide controls"
-msgstr ""
+msgstr "ਕੰਟਰੋਲ ਓਹਲੇ"
 
 #: lib/contents/ui/WebView.qml:451
-#, fuzzy, kde-format
-#| msgid "Show developer tools"
+#, kde-format
 msgid "Show controls"
-msgstr "ਡਿਵੈਲਪਰ ਟੂਲ ਵੇਖਾਓ"
+msgstr "ਕੰਟਰੋਲ ਵੇਖੋ"
 
 #: lib/contents/ui/WebView.qml:459
 #, kde-format
 msgid "Open video"
-msgstr ""
+msgstr "ਵੀਡੀਓ ਨੂੰ ਖੋਲ੍ਹੋ"
 
 #: lib/contents/ui/WebView.qml:459
 #, kde-format
 msgid "Open audio"
-msgstr ""
+msgstr "ਆਡੀਓ ਨੂੰ ਖੋਲ੍ਹੋ"
 
 #: lib/contents/ui/WebView.qml:460
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open video in new Tab"
-msgstr "ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹੋ"
+msgstr "ਵੀਡੀਓ ਨੂੰ ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹੋ"
 
 #: lib/contents/ui/WebView.qml:460
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open audio in new Tab"
-msgstr "ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹੋ"
+msgstr "ਆਡੀਓ ਨੂੰ ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹੋ"
 
 #: lib/contents/ui/WebView.qml:472
 #, kde-format
 msgid "Save video"
-msgstr ""
+msgstr "ਵੀਡੀਓ ਨੂੰ ਸੰਭਾਲੋ"
 
 #: lib/contents/ui/WebView.qml:478
 #, kde-format
 msgid "Copy video Link"
-msgstr ""
+msgstr "ਵੀਡੀਓ ਲਿੰਕ ਨੂੰ ਕਾਪੀ ਕਰੋ"
 
 #: lib/contents/ui/WebView.qml:484
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgid "Open image"
-msgstr "ਐਪ ਵਿੱਚ ਖੋਲ੍ਹੋ"
+msgstr "ਚਿੱਤਰ ਨੂੰ ਖੋਲ੍ਹੋ"
 
 #: lib/contents/ui/WebView.qml:484
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open image in new Tab"
-msgstr "ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹੋ"
+msgstr "ਚਿੱਤਰ ਨੂੰ ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹੋ"
 
 #: lib/contents/ui/WebView.qml:496
-#, fuzzy, kde-format
-#| msgid "Leave page"
+#, kde-format
 msgid "Save image"
-msgstr "ਸਫ਼ੇ ਨੂੰ ਛੱਡੋ"
+msgstr "ਚਿੱਤਰ ਨੂੰ ਸੰਭਾਲੋ"
 
 #: lib/contents/ui/WebView.qml:502
-#, fuzzy, kde-format
-#| msgid "Load images"
+#, kde-format
 msgid "Copy image"
-msgstr "ਚਿੱਤਰ ਲੋਡ ਕਰੋ"
+msgstr "ਚਿੱਤਰ ਨੂੰ ਕਾਪੀ ਕਰੋ"
 
 #: lib/contents/ui/WebView.qml:508
 #, kde-format
 msgid "Copy image link"
-msgstr ""
+msgstr "ਚਿੱਤਰ ਦੇ ਲਿੰਕ ਨੂੰ ਕਾਪੀ ਕਰੋ"
 
 #: lib/contents/ui/WebView.qml:514
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgid "Open link"
-msgstr "ਐਪ ਵਿੱਚ ਖੋਲ੍ਹੋ"
+msgstr "ਲਿੰਕ ਨੂੰ ਖੋਲ੍ਹੋ"
 
 #: lib/contents/ui/WebView.qml:514
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open link in new Tab"
-msgstr "ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹੋ"
+msgstr "ਲਿੰਕ ਨੂੰ ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹੋ"
 
 #: lib/contents/ui/WebView.qml:526
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#, kde-format
 msgid "Bookmark link"
-msgstr "ਬੁੱਕਮਾਰਕ ਕਰੋ"
+msgstr "ਲਿੰਕ ਨੂੰ ਬੁੱਕਮਾਰਕ ਕਰੋ"
 
 #: lib/contents/ui/WebView.qml:538
 #, kde-format
 msgid "Save link"
-msgstr ""
+msgstr "ਲਿੰਕ ਨੂੰ ਸੰਭਾਲੋ"
 
 #: lib/contents/ui/WebView.qml:544
-#, fuzzy, kde-format
-#| msgid "Copy Url"
+#, kde-format
 msgid "Copy link"
-msgstr "URL ਕਾਪੀ ਕਰੋ"
+msgstr "ਲਿੰਕ ਨੂੰ ਕਾਪੀ ਕਰੋ"
 
 #: lib/contents/ui/WebView.qml:551
 #, kde-format
@@ -420,19 +405,19 @@ msgstr "ਚੇਪੋ"
 #: src/contents/ui/mobile.qml:282
 #, kde-format
 msgid "Share page"
-msgstr "ਸਫ਼ਾ ਸਾਂਝਾ ਕਰੋ"
+msgstr "ਸਫ਼ੇ ਨੂੰ ਸਾਂਝਾ ਕਰੋ"
 
 #: lib/contents/ui/WebView.qml:596
-#, fuzzy, kde-format
-#| msgid "View source"
+#, kde-format
 msgid "View page source"
-msgstr "ਸਰੋਤ ਵੇਖੋ"
+msgstr "ਸਫ਼ੇ ਦੇ ਸਰੋਤ ਨੂੰ ਵੇਖੋ"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
 #, kde-format
 msgid ""
 "The ad blocker is missing its filter lists, do you want to download them now?"
 msgstr ""
+"ਇਸ਼ਤਿਹਾਰ ਰੋਕੂ ਕੋਲ ਇਸ ਦੀ ਫਿਲਟਰ ਸੂਚੀਆਂ ਨਹੀਂ ਹਨ, ਕੀ ਤੁਸੀਂ ਉਹਨਾਂ ਨੂੰ ਹੁਣੇ ਡਾਊਨਲੋਡ ਕਰਨਾ ਚਾਹੋਗੇ?"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:34
 #, kde-format
@@ -451,16 +436,14 @@ msgid "Search bookmarks…"
 msgstr "…ਬੁੱਕਮਾਰਕ ਲੱਭੋ"
 
 #: src/contents/ui/desktop/BookmarksPage.qml:95
-#, fuzzy, kde-format
-#| msgid "Bookmarks"
+#, kde-format
 msgid "No bookmarks yet"
-msgstr "ਬੁੱਕਮਾਰਕ"
+msgstr "ਹਾਲੇ ਕੋਈ ਬੁੱਕਮਾਰਕ ਨਹੀਂ ਹਨ"
 
 #: src/contents/ui/desktop/desktop.qml:118
-#, fuzzy, kde-format
-#| msgid "Search history…"
+#, kde-format
 msgid "Search or enter URL…"
-msgstr "…ਅਤੀਤ ਵਿੱਚ ਖੋਜੋ"
+msgstr "ਖੋਜੋ ਜਾਂ URL ਦਿਓ…"
 
 #: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/desktop/Tabs.qml:354
 #: src/contents/ui/Tabs.qml:49
@@ -496,10 +479,9 @@ msgid "Full Screen"
 msgstr "ਪੂਰੀ ਸਕਰੀਨ"
 
 #: src/contents/ui/desktop/desktop.qml:311
-#, fuzzy, kde-format
-#| msgid "Show developer tools"
+#, kde-format
 msgid "Hide developer tools"
-msgstr "ਡਿਵੈਲਪਰ ਟੂਲ ਵੇਖਾਓ"
+msgstr "ਡਿਵੈਲਪਰ ਟੂਲ ਓਹਲੇ"
 
 #: src/contents/ui/desktop/desktop.qml:312 src/contents/ui/mobile.qml:378
 #, kde-format
@@ -515,12 +497,12 @@ msgstr "ਸਫ਼ੇ ਵਿੱਚ ਲੱਭੋ"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
-msgstr ""
+msgstr "ਰੀਡਰ ਮੋਡ"
 
 #: src/contents/ui/desktop/desktop.qml:347
 #, kde-format
 msgid "Add to application launcher"
-msgstr ""
+msgstr "ਐਪਲੀਕੇਸ਼ਨ ਲਾਂਚਰ ਵਿੱਚ ਜੋੜੋ"
 
 #: src/contents/ui/desktop/desktop.qml:366 src/contents/ui/mobile.qml:99
 #, kde-format
@@ -569,65 +551,59 @@ msgid "Homepage:"
 msgstr "ਮੁੱਖ ਸਫ਼ਾ:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:67
-#, fuzzy, kde-format
-#| msgid "New Tab"
+#, kde-format
 msgid "New tabs:"
-msgstr "ਨਵੀਂ ਟੈਬ"
+msgstr "ਨਵੀਆਂ ਟੈਬਾਂ:"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:90
 #, kde-format
 msgid "Always show the tab bar"
-msgstr ""
+msgstr "ਟੈਬ ਪੱਟੀ ਹਮੇਸ਼ਾਂ ਵੇਖਾਓ"
 
 #: src/contents/ui/desktop/settings/HomeSettingsPage.qml:91
 #, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open"
-msgstr ""
+msgstr "ਟੈਬ ਪੱਟੀ ਇੱਕ ਟੈਬ ਖੁੱਲ੍ਹੀ ਹੋਣ ਦੇ ਬਾਵਜੂਦ ਵੀ ਵਿਖਾਈ ਜਾਵੇਗੀ"
 
 #: src/contents/ui/desktop/Tabs.qml:219 src/contents/ui/Tabs.qml:185
 #, kde-format
 msgid "Reader Mode: %1"
-msgstr ""
+msgstr "ਰੀਡਰ ਮੋਡ: %1"
 
 #: src/contents/ui/desktop/Tabs.qml:250 src/contents/ui/Tabs.qml:216
-#, fuzzy, kde-format
-#| msgid "Close"
+#, kde-format
 msgid "Close tab"
-msgstr "ਬੰਦ ਕਰੋ"
+msgstr "ਟੈਬ ਨੂੰ ਬੰਦ ਕਰੋ"
 
 #: src/contents/ui/desktop/Tabs.qml:290
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgid "Open a new tab"
-msgstr "ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹੋ"
+msgstr "ਨਵੀਂ ਟੈਬ ਖੋਲ੍ਹੋ"
 
 #: src/contents/ui/desktop/Tabs.qml:323
 #, kde-format
 msgid "List all tabs"
-msgstr ""
+msgstr "ਸਭ ਟੈਬਾਂ ਦੀ ਸੂਚੀ"
 
 #: src/contents/ui/desktop/Tabs.qml:363
 #, kde-format
 msgid "Reload Tab"
-msgstr ""
+msgstr "ਟੈਬ ਨੂੰ ਮੁੜ-ਲੋਡ ਕਰੋ"
 
 #: src/contents/ui/desktop/Tabs.qml:371
-#, fuzzy, kde-format
-#| msgid "Private Tabs"
+#, kde-format
 msgid "Duplicate Tab"
-msgstr "ਪ੍ਰਾਈਵੇਟ ਟੈਬਾਂ"
+msgstr "ਟੈਬ ਨੂੰ ਡੁਪਲੀਕੇਟ ਕਰੋ"
 
 #: src/contents/ui/desktop/Tabs.qml:379
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#, kde-format
 msgid "Bookmark Tab"
-msgstr "ਬੁੱਕਮਾਰਕ ਕਰੋ"
+msgstr "ਟੈਬ ਨੂੰ ਬੁੱਕਮਾਰਕ ਕਰੋ"
 
 #: src/contents/ui/desktop/Tabs.qml:395
-#, fuzzy, kde-format
-#| msgid "Close"
+#, kde-format
 msgid "Close Tab"
-msgstr "ਬੰਦ ਕਰੋ"
+msgstr "ਟੈਬ ਨੂੰ ਬੰਦ ਕਰੋ"
 
 #: src/contents/ui/Downloads.qml:26
 #, kde-format
@@ -731,7 +707,7 @@ msgstr "ਡੈਸਕਟਾਪ ਸਾਈਟ ਵੇਖਾਓ"
 #: src/contents/ui/mobile.qml:361
 #, kde-format
 msgid "Reader Mode"
-msgstr ""
+msgstr "ਰੀਡਰ ਮੋਡ"
 
 #: src/contents/ui/mobile.qml:369
 #, kde-format
@@ -793,8 +769,7 @@ msgid "Remove this filter list"
 msgstr "ਇਹ ਫਿਲਟਰ ਸੂਚੀ ਨੂੰ ਹਟਾਓ"
 
 #: src/contents/ui/SettingsAdblock.qml:159
-#, fuzzy, kde-format
-#| msgid "Add filterlist"
+#, kde-format
 msgid "add Filterlist"
 msgstr "ਫਿਲਟਰ-ਸੂਚੀ ਜੋੜੋ"
 
@@ -821,11 +796,10 @@ msgstr "ਚਿੱਤਰ ਲੋਡ ਕਰੋ"
 #: src/contents/ui/SettingsGeneral.qml:50
 #, kde-format
 msgid "Whether to load images on websites."
-msgstr ""
+msgstr "ਕੀ ਵੈੱਬਸਾਈਟਾਂ ਉੱਤੇ ਚਿੱਤਰ ਲੋਡ ਕਰਨੇ ਹਨ।"
 
 #: src/contents/ui/SettingsGeneral.qml:59
-#, fuzzy, kde-format
-#| msgid "Enable Adblock"
+#, kde-format
 msgid "Enable adblock"
 msgstr "ਇਸ਼ਤਿਹਾਰ-ਰੋਕੂ ਸਮਰੱਥ ਕਰੋ"
 
@@ -835,15 +809,14 @@ msgid "Attempts to prevent advertisements on websites from showing."
 msgstr ""
 
 #: src/contents/ui/SettingsGeneral.qml:60
-#, fuzzy, kde-format
-#| msgid "The adblock functionality isn't included in this build."
+#, kde-format
 msgid "AdBlock functionality was not included in this build."
-msgstr "ਇਸ਼ਤਿਹਾਰ-ਰੋਕੂ ਸਹੂਲਤਾਂ ਇਸ ਬਿਲਡ ਵਿੱਚ ਸ਼ਾਮਲ ਨਹੀਂ ਹਨ।"
+msgstr "ਇਸ਼ਤਿਹਾਰ-ਰੋਕੂ ਸਹੂਲਤਾਂ ਇਸ ਬਿਲਡ ਵਿੱਚ ਸ਼ਾਮਲ ਨਹੀਂ ਸਨ।"
 
 #: src/contents/ui/SettingsGeneral.qml:70
 #, kde-format
 msgid "Switch to new tab immediately"
-msgstr ""
+msgstr "ਨਵੀਂ ਟੈਬ ਉੱਤੇ ਫ਼ੌਰਨ ਜਾਓ"
 
 #: src/contents/ui/SettingsGeneral.qml:71
 #, kde-format
@@ -950,10 +923,9 @@ msgid "Remove app"
 msgstr "ਐਪ ਹਟਾਓ"
 
 #: src/contents/ui/ShareSheet.qml:18
-#, fuzzy, kde-format
-#| msgid "Share page"
+#, kde-format
 msgid "Share page to"
-msgstr "ਸਫ਼ਾ ਸਾਂਝਾ ਕਰੋ"
+msgstr "ਸਫ਼ਾ ਇਸ ਨਾਲ ਸਾਂਝਾ ਕਰੋ"
 
 #: src/main.cpp:82
 #, kde-format
