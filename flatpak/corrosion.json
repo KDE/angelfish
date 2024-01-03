@@ -16,8 +16,8 @@
    "name" : "corrosion",
    "sources" : [
       {
-         "tag" : "v0.3.5",
-         "commit": "9ea63152f225548dec50be818b5afcb18a0508b1",
+         "tag" : "v0.4.5",
+         "commit": "be76480232216a64f65e3b1d9794d68cbac6c690",
          "type" : "git",
          "url" : "https://github.com/AndrewGaspar/corrosion"
       }
