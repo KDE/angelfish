@@ -5,7 +5,7 @@
 import QtQuick 2.1
 import QtWebEngine 1.6
 import QtQuick.Window 2.3
-import QtGraphicalEffects 1.0
+import Qt5Compat.GraphicalEffects
 import Qt.labs.settings 1.0 as QtSettings
 
 import org.kde.kirigami 2.7 as Kirigami
@@ -20,7 +20,7 @@ Kirigami.ApplicationWindow {
     minimumWidth: Kirigami.Units.gridUnit * 15
     minimumHeight: Kirigami.Units.gridUnit * 15
 
-    pageStack.globalToolBar.showNavigationButtons: false
+    pageStack.globalToolBar.showNavigationButtons: Kirigami.ApplicationHeaderStyle.NoNavigationButtons
 
     // Main Page
     pageStack.initialPage: Kirigami.Page {
