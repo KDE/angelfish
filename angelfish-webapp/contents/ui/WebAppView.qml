@@ -22,7 +22,7 @@ WebView {
 
     isAppView: true
 
-    onNewViewRequested: {
+    onNewWindowRequested: {
         if (UrlUtils.urlHost(request.requestedUrl) === UrlUtils.urlHost( BrowserManager.initialUrl)) {
             url = request.requestedUrl;
         } else {
