@@ -2,6 +2,18 @@
 <component type="desktop-application">
   <id>org.kde.angelfish</id>
   <name>Angelfish</name>
+  <name xml:lang="ca">Angelfish</name>
+  <name xml:lang="eo">Angelfish</name>
+  <name xml:lang="eu">Angelfish</name>
+  <name xml:lang="ka">Angelfish</name>
+  <name xml:lang="nl">Angelfish</name>
+  <name xml:lang="pl">Angelfish</name>
+  <name xml:lang="ru">Angelfish</name>
+  <name xml:lang="sl">Angelfish</name>
+  <name xml:lang="tr">Melekbalığı</name>
+  <name xml:lang="uk">Angelfish</name>
+  <name xml:lang="x-test">xxAngelfishxx</name>
+  <name xml:lang="zh-TW">Angelfish</name>
   <summary>Webbrowser for mobile devices</summary>
   <summary xml:lang="ar">متصفح وبّ للأجهزة المحمولة</summary>
   <summary xml:lang="az">Mobil qurğular üçün Veb_Bələdçi</summary>
