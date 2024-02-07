@@ -152,10 +152,16 @@ RowLayout {
         delegate: QQC2.ItemDelegate {
             id: control
 
+            required property int index
+
             highlighted: ListView.isCurrentItem
 
             width: listview.tabWidth
             height: tabsComponent.height
+
+            onClicked: {
+                tabs.currentIndex = control.index;
+            }
 
             background: Rectangle {
                 implicitHeight: Kirigami.Units.gridUnit * 3 + Kirigami.Units.smallSpacing * 2
@@ -184,14 +190,16 @@ RowLayout {
 
                     acceptedButtons: Qt.AllButtons
 
-                    onClicked: {
-                        if (mouse.button === Qt.LeftButton) {
-                            tabs.currentIndex = model.index;
-                        } else if (mouse.button === Qt.MiddleButton) {
-                            tabs.tabsModel.closeTab(model.index);
+                    onClicked: (mouse) => {
+                        if (mouse.button === Qt.MiddleButton) {
+                            tabs.tabsModel.closeTab(control.index);
                         } else if (mouse.button === Qt.RightButton) {
-                            tabMenu.index = model.index
-                            tabMenu.visible ? tabMenu.close() : tabMenu.popup(control)
+                            tabMenu.index = control.index
+                            if (tabMenu.visible) {
+                                tabMenu.close()
+                            } else {
+                                tabMenu.popup(control)
+                            }
                         }
                     }
                 }
@@ -206,7 +214,7 @@ RowLayout {
                     Layout.alignment: Qt.AlignLeft
                     Layout.preferredWidth: Kirigami.Units.iconSizes.small
                     Layout.preferredHeight: width
-                    source: tabs.itemAt(model.index).icon
+                    source: tabs.itemAt(control.index).icon
                 }
 
                 QQC2.Label {
@@ -215,9 +223,9 @@ RowLayout {
                     Layout.alignment: Qt.AlignLeft
                     Layout.leftMargin: Kirigami.Units.smallSpacing
                     Layout.rightMargin: Kirigami.Units.smallSpacing
-                    text: tabs.itemAt(model.index).readerMode ?
+                    text: tabs.itemAt(control.index).readerMode ?
                         i18n("Reader Mode: %1", tabs.itemAt(model.index).readerTitle)
-                        : tabs.itemAt(model.index).title
+                        : tabs.itemAt(control.index).title
                     elide: Text.ElideRight
                     horizontalAlignment: Text.AlignLeft
                 }
