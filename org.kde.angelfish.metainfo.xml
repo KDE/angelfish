@@ -2,6 +2,7 @@
 <component type="desktop-application">
   <id>org.kde.angelfish</id>
   <name>Angelfish</name>
+  <name xml:lang="ar">انجيلفيش</name>
   <name xml:lang="ca">Angelfish</name>
   <name xml:lang="ca-valencia">Angelfish</name>
   <name xml:lang="eo">Angelfish</name>
