@@ -1,13 +1,13 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the plasma-angelfish package.
 #
-# SPDX-FileCopyrightText: 2021, 2022, 2023 A S Alam <aalam.yellow@gmail.com>
+# SPDX-FileCopyrightText: 2021, 2022, 2023, 2024 A S Alam <aalam.yellow@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-08 00:37+0000\n"
-"PO-Revision-Date: 2023-12-31 09:21-0600\n"
+"PO-Revision-Date: 2024-02-11 11:49-0600\n"
 "Last-Translator: A S Alam <aalam@punlinux.org>\n"
 "Language-Team: Punjabi <kde-i18n-doc@kde.org>\n"
 "Language: pa\n"
@@ -35,12 +35,12 @@ msgstr "ਖੋਲ੍ਹਣ ਲਈ ਡੈਸਕਟਾਪ ਫਾਇਲ"
 #: angelfish-webapp/main.cpp:98
 #, kde-format
 msgid "Angelfish Web App runtime"
-msgstr "ਐਂਗਲਫਿਸ਼ ਵੈੱਬ ਐਪ ਰਨਟਾਈਮ"
+msgstr "ਐਂਜਲਫਿਸ਼ ਵੈੱਬ ਐਪ ਰਨਟਾਈਮ"
 
 #: angelfish-webapp/main.cpp:100
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
-msgstr "Copyright 2020 Angelfish developers"
+msgstr "ਕਾਪੀਰਾਈਟ 2020 ਐਂਜਲਫਿਸ਼ ਡਿਵੈਲਪਰ"
 
 #: angelfish-webapp/main.cpp:102
 #, kde-format
@@ -512,7 +512,7 @@ msgstr "ਸੈਟਿੰਗਾਂ"
 #: src/contents/ui/desktop/desktop.qml:373
 #, kde-format
 msgid "Configure Angelfish"
-msgstr "ਐਂਗਲਫਿਸ਼ ਦੀ ਸੰਰਚਨਾ"
+msgstr "ਐਂਜਲਫਿਸ਼ ਦੀ ਸੰਰਚਨਾ"
 
 #: src/contents/ui/desktop/HistoryPage.qml:30
 #, kde-format
@@ -651,7 +651,7 @@ msgstr "...ਖੋਜੋ"
 #: src/contents/ui/mobile.qml:18
 #, kde-format
 msgid "Angelfish Web Browser"
-msgstr "ਐਂਗਲਫਿਸ਼ ਵੈੱਬ ਬਰਾਊਜ਼ਰ"
+msgstr "ਐਂਜਲਫਿਸ਼ ਵੈੱਬ ਬਰਾਊਜ਼ਰ"
 
 #: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:42
 #, kde-format
