@@ -887,7 +887,7 @@ msgstr "세로로 탭 표시"
 #: src/contents/ui/SettingsNavigationBarPage.qml:61
 #, kde-format
 msgid "Context menu in portrait"
-msgstr "세로로 콘텍스트 메뉴 표시"
+msgstr "세로로 상황에 맞는 메뉴 표시"
 
 #: src/contents/ui/SettingsNavigationBarPage.qml:67
 #, kde-format
