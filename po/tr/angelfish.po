@@ -1,14 +1,14 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-angelfish package.
 #
 # Volkan Gezer <volkangezer@gmail.com>, 2020, 2021.
-# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
+# SPDX-FileCopyrightText: 2022, 2023, 2024 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-08 02:28+0000\n"
-"PO-Revision-Date: 2023-06-11 21:35+0300\n"
+"PO-Revision-Date: 2024-03-01 15:01+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.07.70\n"
+"X-Generator: Lokalize 24.02.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -572,7 +572,7 @@ msgstr "Bir tane sekme açık olsa dahi sekme çubuğu gösterilecektir"
 #: src/contents/ui/desktop/Tabs.qml:227 src/contents/ui/Tabs.qml:185
 #, kde-format
 msgid "Reader Mode: %1"
-msgstr "Okuyucu Kipi: %1"
+msgstr "Okuyucu kipi: %1"
 
 #: src/contents/ui/desktop/Tabs.qml:258 src/contents/ui/Tabs.qml:216
 #, kde-format
@@ -633,13 +633,13 @@ msgstr "Tamamlandı"
 #: src/contents/ui/Downloads.qml:95
 #, kde-format
 msgid "Cancelled"
-msgstr "İptal Edildi"
+msgstr "İptal edildi"
 
 #: src/contents/ui/Downloads.qml:97
 #, kde-format
 msgctxt "download state"
 msgid "Interrupted"
-msgstr "Durduruldu"
+msgstr "Yarıda kesildi"
 
 #: src/contents/ui/Downloads.qml:99
 #, kde-format
