@@ -1,0 +1,946 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the angelfish package.
+#
+# SPDX-FileCopyrightText: 2024 Toms Trasūns <toms.trasuns@posteo.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: angelfish\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-02-08 00:37+0000\n"
+"PO-Revision-Date: 2024-02-29 09:14+0200\n"
+"Last-Translator: Toms Trasūns <toms.trasuns@posteo.net>\n"
+"Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Toms Trasūns"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "toms.trasuns@posteo.net"
+
+#: angelfish-webapp/main.cpp:71
+#, kde-format
+msgid "desktop file to open"
+msgstr "atveramā darbvirsmas datne"
+
+#: angelfish-webapp/main.cpp:98
+#, kde-format
+msgid "Angelfish Web App runtime"
+msgstr "„Angelfish“ tīmekļa lietotnes izpildlaiks"
+
+#: angelfish-webapp/main.cpp:100
+#, kde-format
+msgid "Copyright 2020 Angelfish developers"
+msgstr "Autortiesības 2020 „Angelfish“ izstrādātāji"
+
+#: angelfish-webapp/main.cpp:102
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: lib/angelfishwebprofile.cpp:59
+#, kde-format
+msgid "Download finished"
+msgstr "Lejupielāde ir pabeigta"
+
+#: lib/angelfishwebprofile.cpp:63
+#, kde-format
+msgid "Download failed"
+msgstr "Lejupielāde nav izdevusies"
+
+#: lib/angelfishwebprofile.cpp:84 src/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgid "Open"
+msgstr "Atvērt"
+
+#: lib/contents/ui/AuthSheet.qml:17
+#, kde-format
+msgid "Authentication required"
+msgstr "Nepieciešama autentifikācija"
+
+#: lib/contents/ui/AuthSheet.qml:30
+#, kde-format
+msgid "Username"
+msgstr "Lietotājvārds"
+
+#: lib/contents/ui/AuthSheet.qml:37
+#, kde-format
+msgid "Password"
+msgstr "Parole"
+
+#: lib/contents/ui/DownloadQuestion.qml:12
+#, kde-format
+msgid "Do you want to download this file?"
+msgstr "Vai vēlaties lejupielādēt šo datni/"
+
+#: lib/contents/ui/DownloadQuestion.qml:20
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:29
+#, kde-format
+msgid "Download"
+msgstr "Lejupielādēt"
+
+#: lib/contents/ui/DownloadQuestion.qml:28 lib/contents/ui/PrintPreview.qml:163
+#: src/contents/ui/Downloads.qml:41
+#, kde-format
+msgid "Cancel"
+msgstr "Atcelt"
+
+#: lib/contents/ui/ErrorHandler.qml:47
+#, kde-format
+msgid "Error loading the page"
+msgstr "Kļūda, ielādējot lapu"
+
+#: lib/contents/ui/ErrorHandler.qml:58
+#, kde-format
+msgid "Retry"
+msgstr "Atkārtot"
+
+#: lib/contents/ui/ErrorHandler.qml:71
+#, kde-format
+msgid ""
+"Do you wish to continue?\n"
+"\n"
+" If you wish so, you may continue with an unverified certificate.\n"
+" Accepting an unverified certificate means\n"
+" you may not be connected with the host you tried to connect to.\n"
+" Do you wish to override the security check and continue?"
+msgstr ""
+"Vai vēlaties turpināt?\n"
+"\n"
+" Ja vēlaties, varat turpināt ar nepārbaudītu sertifikātu.\n"
+" Piekrišana nepārbaudītam sertifikātam nozīmē,\n"
+" ka, iespējams, nesavienosities ar to serveri, ar kuru domājat, ka "
+"savienojaties.\n"
+" Vai vēlaties pārrakstīt drošības pārbaudi un turpināt?"
+
+#: lib/contents/ui/ErrorHandler.qml:79
+#, kde-format
+msgid "Yes"
+msgstr "Jā"
+
+#: lib/contents/ui/ErrorHandler.qml:88
+#, kde-format
+msgid "No"
+msgstr "Nē"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:49
+#, kde-format
+msgid "This page says"
+msgstr "Lapa saka"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:64
+#, kde-format
+msgid ""
+"The website asks for confirmation that you want to leave. Unsaved "
+"information might not be saved."
+msgstr ""
+"Lapa jautā apstiprinājumu, ka vēlaties to pamest. Nesaglabātā informācija "
+"netiks saglabāta."
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:79
+#, kde-format
+msgid "Leave page"
+msgstr "Pamest lapu"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:87
+#, kde-format
+msgid "Submit"
+msgstr "Iesniegt"
+
+#: lib/contents/ui/PermissionQuestion.qml:16
+#, kde-format
+msgid "Do you want to allow the website to access the geo location?"
+msgstr "Vai vēlaties ļaut tīmekļa lapai piekļūt jūsu atrašanās vietai?"
+
+#: lib/contents/ui/PermissionQuestion.qml:19
+#, kde-format
+msgid "Do you want to allow the website to access the microphone?"
+msgstr "Vai vēlaties ļaut tīmekļa lapai piekļūt ierīces mikrofonam?"
+
+#: lib/contents/ui/PermissionQuestion.qml:22
+#, kde-format
+msgid "Do you want to allow the website to access the camera?"
+msgstr "Vai vēlaties ļaut tīmekļa lapai piekļūt ierīces kamerai?"
+
+#: lib/contents/ui/PermissionQuestion.qml:25
+#, kde-format
+msgid ""
+"Do you want to allow the website to access the camera and the microphone?"
+msgstr "Vai vēlaties ļaut tīmekļa lapai piekļūt ierīces kamerai un mikrofonam?"
+
+#: lib/contents/ui/PermissionQuestion.qml:28
+#, kde-format
+msgid "Do you want to allow the website to share your screen?"
+msgstr "Vai vēlaties ļaut ar tīmekļa lapu kopīgot jūsu ekrānu?"
+
+#: lib/contents/ui/PermissionQuestion.qml:31
+#, kde-format
+msgid "Do you want to allow the website to share the sound output?"
+msgstr "Vai vēlaties ļaut ar tīmekļa lapu kopīgot skaņas izvadi?"
+
+#: lib/contents/ui/PermissionQuestion.qml:34
+#, kde-format
+msgid "Do you want to allow the website to send you notifications?"
+msgstr "Vai vēlaties ļaut tīmekļa lapai nosūtīt paziņojumus?"
+
+#: lib/contents/ui/PermissionQuestion.qml:43
+#, kde-format
+msgid "Accept"
+msgstr "Piekrist"
+
+#: lib/contents/ui/PermissionQuestion.qml:53
+#, kde-format
+msgid "Decline"
+msgstr "Noraidīt"
+
+#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:288
+#, kde-format
+msgid "Print"
+msgstr "Drukāt"
+
+#: lib/contents/ui/PrintPreview.qml:64
+#, kde-format
+msgid "Destination"
+msgstr "Galamērķis"
+
+#: lib/contents/ui/PrintPreview.qml:68
+#, kde-format
+msgid "Save to PDF"
+msgstr "Saglabāt kā PDF"
+
+#: lib/contents/ui/PrintPreview.qml:74
+#, kde-format
+msgid "Orientation"
+msgstr "Orientācija"
+
+#: lib/contents/ui/PrintPreview.qml:99
+#, kde-format
+msgid "Paper size"
+msgstr "Lapas izmērs"
+
+#: lib/contents/ui/PrintPreview.qml:145
+#, kde-format
+msgid "Options"
+msgstr "Opcijas"
+
+#: lib/contents/ui/PrintPreview.qml:149
+#, kde-format
+msgid "Print backgrounds"
+msgstr "Drukāt fonus"
+
+#: lib/contents/ui/PrintPreview.qml:168
+#, kde-format
+msgid "Save"
+msgstr "Saglabāt"
+
+#: lib/contents/ui/WebView.qml:236
+#, kde-format
+msgid "Website was opened in a new tab"
+msgstr "Tīmekļa vietne ir atvērta jaunā cilnē"
+
+#: lib/contents/ui/WebView.qml:254
+#, kde-format
+msgid "Entered Full Screen Mode"
+msgstr "Ieiet pilnekrāna režīmā"
+
+#: lib/contents/ui/WebView.qml:255
+#, kde-format
+msgid "Exit Full Screen (Esc)"
+msgstr "Iziet no pilnekrāna režīma („Esc“)"
+
+#: lib/contents/ui/WebView.qml:388
+#, kde-format
+msgid "Play"
+msgstr "Atskaņot"
+
+#: lib/contents/ui/WebView.qml:389 src/contents/ui/Downloads.qml:47
+#, kde-format
+msgid "Pause"
+msgstr "Pauzēt"
+
+#: lib/contents/ui/WebView.qml:396
+#, kde-format
+msgid "Unmute"
+msgstr "Noņemt klusumu"
+
+#: lib/contents/ui/WebView.qml:397
+#, kde-format
+msgid "Mute"
+msgstr "Apklusināt"
+
+#: lib/contents/ui/WebView.qml:407
+#, kde-format
+msgid "Speed"
+msgstr "Ātrums"
+
+#: lib/contents/ui/WebView.qml:430
+#, kde-format
+msgid "Loop"
+msgstr "Atkārtot"
+
+#: lib/contents/ui/WebView.qml:437
+#, kde-format
+msgid "Exit fullscreen"
+msgstr "Iziet no pilnekrāna režīma"
+
+#: lib/contents/ui/WebView.qml:437
+#, kde-format
+msgid "Fullscreen"
+msgstr "Pilnekrāna režīms"
+
+#: lib/contents/ui/WebView.qml:450
+#, kde-format
+msgid "Hide controls"
+msgstr "Slēpt vadīklas"
+
+#: lib/contents/ui/WebView.qml:451
+#, kde-format
+msgid "Show controls"
+msgstr "Rādīt vadīklas"
+
+#: lib/contents/ui/WebView.qml:459
+#, kde-format
+msgid "Open video"
+msgstr "Atvērt video"
+
+#: lib/contents/ui/WebView.qml:459
+#, kde-format
+msgid "Open audio"
+msgstr "Atvērt audio"
+
+#: lib/contents/ui/WebView.qml:460
+#, kde-format
+msgid "Open video in new Tab"
+msgstr "Atvērt video jaunā cilnē"
+
+#: lib/contents/ui/WebView.qml:460
+#, kde-format
+msgid "Open audio in new Tab"
+msgstr "Atvērt audio jaunā cilnē"
+
+#: lib/contents/ui/WebView.qml:472
+#, kde-format
+msgid "Save video"
+msgstr "Saglabāt video"
+
+#: lib/contents/ui/WebView.qml:478
+#, kde-format
+msgid "Copy video Link"
+msgstr "Kopēt video saiti"
+
+#: lib/contents/ui/WebView.qml:484
+#, kde-format
+msgid "Open image"
+msgstr "Atvērt attēlu"
+
+#: lib/contents/ui/WebView.qml:484
+#, kde-format
+msgid "Open image in new Tab"
+msgstr "Atvērt attēlu jaunā cilnē"
+
+#: lib/contents/ui/WebView.qml:496
+#, kde-format
+msgid "Save image"
+msgstr "Saglabāt attēlu"
+
+#: lib/contents/ui/WebView.qml:502
+#, kde-format
+msgid "Copy image"
+msgstr "Kopēt attēlu"
+
+#: lib/contents/ui/WebView.qml:508
+#, kde-format
+msgid "Copy image link"
+msgstr "Kopēt attēla saiti"
+
+#: lib/contents/ui/WebView.qml:514
+#, kde-format
+msgid "Open link"
+msgstr "Atvērt saiti"
+
+#: lib/contents/ui/WebView.qml:514
+#, kde-format
+msgid "Open link in new Tab"
+msgstr "Atvērt saiti jaunā cilnē"
+
+#: lib/contents/ui/WebView.qml:526
+#, kde-format
+msgid "Bookmark link"
+msgstr "Pievienot saiti grāmatzīmēm"
+
+#: lib/contents/ui/WebView.qml:538
+#, kde-format
+msgid "Save link"
+msgstr "Saglabāt saiti"
+
+#: lib/contents/ui/WebView.qml:544
+#, kde-format
+msgid "Copy link"
+msgstr "Kopēt saiti"
+
+#: lib/contents/ui/WebView.qml:551
+#, kde-format
+msgid "Copy"
+msgstr "Kopēt"
+
+#: lib/contents/ui/WebView.qml:557
+#, kde-format
+msgid "Cut"
+msgstr "Griezt"
+
+#: lib/contents/ui/WebView.qml:563
+#, kde-format
+msgid "Paste"
+msgstr "Ielīmēt"
+
+#: lib/contents/ui/WebView.qml:584 src/contents/ui/desktop/desktop.qml:337
+#: src/contents/ui/mobile.qml:282
+#, kde-format
+msgid "Share page"
+msgstr "Kopīgot lapu"
+
+#: lib/contents/ui/WebView.qml:596
+#, kde-format
+msgid "View page source"
+msgstr "Skatīt lapas avotu"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
+#, kde-format
+msgid ""
+"The ad blocker is missing its filter lists, do you want to download them now?"
+msgstr ""
+"Reklāmas bloķētājam trūkst filtru saraksta, vai vēlaties to lejupielādēt?"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:34
+#, kde-format
+msgid "Downloading..."
+msgstr "Lejupielādē..."
+
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:267
+#: src/contents/ui/mobile.qml:79
+#, kde-format
+msgid "Bookmarks"
+msgstr "Grāmatzīmes"
+
+#: src/contents/ui/desktop/BookmarksPage.qml:30
+#, kde-format
+msgid "Search bookmarks…"
+msgstr "Meklēt grāmatzīmēs..."
+
+#: src/contents/ui/desktop/BookmarksPage.qml:95
+#, kde-format
+msgid "No bookmarks yet"
+msgstr "Vēl nav grāmatzīmju"
+
+#: src/contents/ui/desktop/desktop.qml:118
+#, kde-format
+msgid "Search or enter URL…"
+msgstr "Meklēt vai ievadīt URL..."
+
+#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/desktop/Tabs.qml:362
+#: src/contents/ui/Tabs.qml:49
+#, kde-format
+msgid "New Tab"
+msgstr "Jauna cilne"
+
+#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/mobile.qml:71
+#, kde-format
+msgid "Leave private mode"
+msgstr "Iziet no privātā režīma"
+
+#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/mobile.qml:71
+#, kde-format
+msgid "Private mode"
+msgstr "Privātais režīms"
+
+#: src/contents/ui/desktop/desktop.qml:258 src/contents/ui/History.qml:12
+#: src/contents/ui/mobile.qml:87
+#, kde-format
+msgid "History"
+msgstr "Vēsture"
+
+#: src/contents/ui/desktop/desktop.qml:276 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/mobile.qml:91
+#, kde-format
+msgid "Downloads"
+msgstr "Lejupielādes"
+
+#: src/contents/ui/desktop/desktop.qml:294
+#, kde-format
+msgid "Full Screen"
+msgstr "Pilnekrāns"
+
+#: src/contents/ui/desktop/desktop.qml:311
+#, kde-format
+msgid "Hide developer tools"
+msgstr "Slēpt rīkus izstrādātājiem"
+
+#: src/contents/ui/desktop/desktop.qml:312 src/contents/ui/mobile.qml:378
+#, kde-format
+msgid "Show developer tools"
+msgstr "Rādīt rīkus izstrādātājiem"
+
+#: src/contents/ui/desktop/desktop.qml:321 src/contents/ui/mobile.qml:278
+#, kde-format
+msgid "Find in page"
+msgstr "Atrast lapā"
+
+#: src/contents/ui/desktop/desktop.qml:330
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reader Mode"
+msgstr "Lasīšanas režīms"
+
+#: src/contents/ui/desktop/desktop.qml:347
+#, kde-format
+msgid "Add to application launcher"
+msgstr "Pievienot programmu palaidējam"
+
+#: src/contents/ui/desktop/desktop.qml:366 src/contents/ui/mobile.qml:99
+#, kde-format
+msgid "Settings"
+msgstr "Iestatījumi"
+
+#: src/contents/ui/desktop/desktop.qml:373
+#, kde-format
+msgid "Configure Angelfish"
+msgstr "Konfigurēt „Angelfish“"
+
+#: src/contents/ui/desktop/HistoryPage.qml:30
+#, kde-format
+msgid "Search history…"
+msgstr "Meklēt vēsturē..."
+
+#: src/contents/ui/desktop/HistoryPage.qml:46
+#, kde-format
+msgid "Clear all history"
+msgstr "Notīrīt visu vēsturi"
+
+#: src/contents/ui/desktop/HistoryPage.qml:101
+#, kde-format
+msgid "Not history yet"
+msgstr "Vēl nav vēstures"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:14
+#: src/contents/ui/SettingsPage.qml:38
+#, kde-format
+msgid "Toolbars"
+msgstr "Rīkjoslas"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:33
+#, kde-format
+msgid "Show home button:"
+msgstr "Rādīt mājas pogu:"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:34
+#, kde-format
+msgid "The home button will be shown next to the reload button in the toolbar."
+msgstr "Mājas poga būs redzama rīkjoslā blakus pārlādēšanas pogai."
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:44
+#, kde-format
+msgid "Homepage:"
+msgstr "Mājaslapa:"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:67
+#, kde-format
+msgid "New tabs:"
+msgstr "Jaunas cilnes:"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:90
+#, kde-format
+msgid "Always show the tab bar"
+msgstr "Vienmēr rādīt ciļņu joslu"
+
+#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:91
+#, kde-format
+msgid "The tab bar will be displayed even if there is only one tab open"
+msgstr "Ciļņu josla būs redzama arī tad, ja būs atvērta tikai viena cilne"
+
+#: src/contents/ui/desktop/Tabs.qml:227 src/contents/ui/Tabs.qml:185
+#, kde-format
+msgid "Reader Mode: %1"
+msgstr "Lasīšanas režīms: %1"
+
+#: src/contents/ui/desktop/Tabs.qml:258 src/contents/ui/Tabs.qml:216
+#, kde-format
+msgid "Close tab"
+msgstr "Aizvērt cilni"
+
+#: src/contents/ui/desktop/Tabs.qml:298
+#, kde-format
+msgid "Open a new tab"
+msgstr "Atvērt jaunu cilni"
+
+#: src/contents/ui/desktop/Tabs.qml:331
+#, kde-format
+msgid "List all tabs"
+msgstr "Parādīt visas cilnes"
+
+#: src/contents/ui/desktop/Tabs.qml:371
+#, kde-format
+msgid "Reload Tab"
+msgstr "Pārlādēt cilni"
+
+#: src/contents/ui/desktop/Tabs.qml:379
+#, kde-format
+msgid "Duplicate Tab"
+msgstr "Dublēt cilni"
+
+#: src/contents/ui/desktop/Tabs.qml:387
+#, kde-format
+msgid "Bookmark Tab"
+msgstr "Pievienot cilni grāmatzīmēm"
+
+#: src/contents/ui/desktop/Tabs.qml:403
+#, kde-format
+msgid "Close Tab"
+msgstr "Aizvērt cilni"
+
+#: src/contents/ui/Downloads.qml:26
+#, kde-format
+msgid "No running downloads"
+msgstr "Nav aktīvu lejupielāžu"
+
+#: src/contents/ui/Downloads.qml:53
+#, kde-format
+msgid "Continue"
+msgstr "Turpināt"
+
+#: src/contents/ui/Downloads.qml:91
+#, kde-format
+msgctxt "download state"
+msgid "Starting…"
+msgstr "Ieslēdzas..."
+
+#: src/contents/ui/Downloads.qml:93
+#, kde-format
+msgid "Completed"
+msgstr "Pabeigts"
+
+#: src/contents/ui/Downloads.qml:95
+#, kde-format
+msgid "Cancelled"
+msgstr "Atcelts"
+
+#: src/contents/ui/Downloads.qml:97
+#, kde-format
+msgctxt "download state"
+msgid "Interrupted"
+msgstr "Pārtraukts"
+
+#: src/contents/ui/Downloads.qml:99
+#, kde-format
+msgctxt "download state"
+msgid "In progress"
+msgstr "Notiek"
+
+#: src/contents/ui/FindInPageBar.qml:45
+#, kde-format
+msgid "Search..."
+msgstr "Meklēt..."
+
+#: src/contents/ui/mobile.qml:18
+#, kde-format
+msgid "Angelfish Web Browser"
+msgstr "„Angelfish“ tīmekļa pārlūks"
+
+#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:42
+#, kde-format
+msgid "Tabs"
+msgstr "Cilnes"
+
+#: src/contents/ui/mobile.qml:293
+#, kde-format
+msgid "Add to homescreen"
+msgstr "Pievienot mājas ekrānam"
+
+#: src/contents/ui/mobile.qml:303
+#, kde-format
+msgid "Open in app"
+msgstr "Atvērt lietotnē"
+
+#: src/contents/ui/mobile.qml:311
+#, kde-format
+msgid "Go previous"
+msgstr "Iet atpakaļ"
+
+#: src/contents/ui/mobile.qml:319
+#: src/contents/ui/SettingsNavigationBarPage.qml:73
+#, kde-format
+msgid "Go forward"
+msgstr "Iet uz priekšu"
+
+#: src/contents/ui/mobile.qml:326
+#, kde-format
+msgid "Stop loading"
+msgstr "Apturēt ielādi"
+
+#: src/contents/ui/mobile.qml:326
+#, kde-format
+msgid "Refresh"
+msgstr "Pārlādēt"
+
+#: src/contents/ui/mobile.qml:336
+#, kde-format
+msgid "Bookmarked"
+msgstr "Pievienots grāmatzīmēm"
+
+#: src/contents/ui/mobile.qml:336
+#, kde-format
+msgid "Bookmark"
+msgstr "Grāmatzīme"
+
+#: src/contents/ui/mobile.qml:352
+#, kde-format
+msgid "Show desktop site"
+msgstr "Parādīt darbvirsmas vietu"
+
+#: src/contents/ui/mobile.qml:361
+#, kde-format
+msgid "Reader Mode"
+msgstr "Lasīšanas režīms"
+
+#: src/contents/ui/mobile.qml:369
+#, kde-format
+msgid "Hide navigation bar"
+msgstr "Slēpt navigācijas joslu"
+
+#: src/contents/ui/mobile.qml:369
+#, kde-format
+msgid "Show navigation bar"
+msgstr "Rādīt navigācijas joslu"
+
+#: src/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgid ""
+"Site wants to open a new tab: \n"
+"%1"
+msgstr ""
+"Lapa vēlas atvērt jaunu cilni: \n"
+"%1"
+
+#: src/contents/ui/SettingsAdblock.qml:21
+#, kde-format
+msgid "Adblock settings"
+msgstr "Reklāmu bloķētāja iestatījumi"
+
+#: src/contents/ui/SettingsAdblock.qml:32
+#, kde-format
+msgid "Update lists"
+msgstr "Atjaunināt sarakstus"
+
+#: src/contents/ui/SettingsAdblock.qml:54
+#, kde-format
+msgid "The adblock functionality isn't included in this build."
+msgstr "Šajā būvējumā nav iekļauts reklāmu bloķētājs"
+
+#: src/contents/ui/SettingsAdblock.qml:60
+#, kde-format
+msgid "Add filterlist"
+msgstr "Pievienot filtru sarakstu"
+
+#: src/contents/ui/SettingsAdblock.qml:65
+#, kde-format
+msgid "Name"
+msgstr "Nosaukums"
+
+#: src/contents/ui/SettingsAdblock.qml:74
+#, kde-format
+msgid "Url"
+msgstr "Adrese"
+
+#: src/contents/ui/SettingsAdblock.qml:84
+#, kde-format
+msgid "Add"
+msgstr "Pievienot"
+
+#: src/contents/ui/SettingsAdblock.qml:148
+#, kde-format
+msgid "Remove this filter list"
+msgstr "Noņemt šo filtru sarakstu"
+
+#: src/contents/ui/SettingsAdblock.qml:159
+#, kde-format
+msgid "add Filterlist"
+msgstr "pievienot filtru sarakstu"
+
+#: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:14
+#, kde-format
+msgid "General"
+msgstr "Pamata"
+
+#: src/contents/ui/SettingsGeneral.qml:39
+#, kde-format
+msgid "Enable JavaScript"
+msgstr "Ieslēgt „JavaScript“"
+
+#: src/contents/ui/SettingsGeneral.qml:40
+#, kde-format
+msgid "This may be required on certain websites for them to work."
+msgstr "Var būt nepieciešams atsevišķu vietņu darbībai."
+
+#: src/contents/ui/SettingsGeneral.qml:49
+#, kde-format
+msgid "Load images"
+msgstr "Ielādēt attēlus"
+
+#: src/contents/ui/SettingsGeneral.qml:50
+#, kde-format
+msgid "Whether to load images on websites."
+msgstr "Vai ielādēt tīmekļa vietņu attēlus."
+
+#: src/contents/ui/SettingsGeneral.qml:59
+#, kde-format
+msgid "Enable adblock"
+msgstr "Ieslēgt reklāmu bloķēšanu"
+
+#: src/contents/ui/SettingsGeneral.qml:60
+#, kde-format
+msgid "Attempts to prevent advertisements on websites from showing."
+msgstr "Mēģina novērst reklāmu rādīšanu tīmekļa lapās."
+
+#: src/contents/ui/SettingsGeneral.qml:60
+#, kde-format
+msgid "AdBlock functionality was not included in this build."
+msgstr "Reklāmu bloķēšanas funkcionalitāte šajā būvējumā nav iekļauta."
+
+#: src/contents/ui/SettingsGeneral.qml:70
+#, kde-format
+msgid "Switch to new tab immediately"
+msgstr "Pēc atvēršanas pārslēgties uz jauno cilni"
+
+#: src/contents/ui/SettingsGeneral.qml:71
+#, kde-format
+msgid ""
+"When you open a link, image or media in a new tab, switch to it immediately"
+msgstr ""
+"Atverot saiti, attēlu vai multividi jaunā cilnē, uzreiz pārslēgties uz to"
+
+#: src/contents/ui/SettingsGeneral.qml:80
+#, kde-format
+msgid "Use Smooth Scrolling"
+msgstr "Izmantot plūdeno ritināšanu"
+
+#: src/contents/ui/SettingsGeneral.qml:81
+#, kde-format
+msgid ""
+"Scrolling is smoother and will not stop suddenly when you stop scrolling. "
+"Requires app restart to take effect."
+msgstr ""
+"Ritināšana kļūst plūdenāka un strauji neapstājas, kad beidzas ritināt. Lai "
+"stātos spēkā, programma ir jāpārstartē."
+
+#: src/contents/ui/SettingsGeneral.qml:90
+#, kde-format
+msgid "Use dark color scheme"
+msgstr "Izmantot tumšo krāsu shēmu"
+
+#: src/contents/ui/SettingsGeneral.qml:91
+#, kde-format
+msgid ""
+"Websites will have their color schemes set to dark. Requires app restart to "
+"take effect."
+msgstr ""
+"Tīmekļa vietnes savas krāsas iestatīs uz tumšo motīvu. Lai stātos spēkā, "
+"programma ir jāpārstartē."
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:16
+#, kde-format
+msgid "Navigation bar"
+msgstr "Navigācijas josla"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:33
+#, kde-format
+msgid ""
+"Choose the buttons enabled in navigation bar. Some of the buttons can be "
+"hidden only in portrait orientation of the browser and are always shown if  "
+"the browser is wider than its height.\n"
+"\n"
+" Note that if you disable the menu buttons, you will be able to access the "
+"menus either by swiping from the left or right side or to a side along the "
+"bottom of the window."
+msgstr ""
+"Izvēlieties navigācijas joslā redzamās pogas. Dažas no pogām var būt "
+"redzamas tika tad, ja pārlūks ir ainavas režīmā un tā platums ir lielāks par "
+"augstumu.\n"
+"\n"
+" Ievērojiet, ka, izslēdzot izvēļņu pogas, izvēlnēm varēsiet piekļūt, "
+"pavelkot no kreisās vai labās malas vai  gar loga apakšu."
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:49
+#, kde-format
+msgid "Main menu in portrait"
+msgstr "Galvenā izvēlne portreta orientācijā"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:55
+#, kde-format
+msgid "Tabs in portrait"
+msgstr "Cilnes portreta orientācijā"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:61
+#, kde-format
+msgid "Context menu in portrait"
+msgstr "Konteksta izvēlne portreta orientācijā"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:67
+#, kde-format
+msgid "Go back"
+msgstr "Atgriezties"
+
+#: src/contents/ui/SettingsNavigationBarPage.qml:79
+#, kde-format
+msgid "Reload/Stop"
+msgstr "Pārlādēt/apturēt"
+
+#: src/contents/ui/SettingsPage.qml:20
+#, kde-format
+msgid "Ad Block"
+msgstr "Reklāmu bloķētājs"
+
+#: src/contents/ui/SettingsPage.qml:26 src/contents/ui/SettingsWebApps.qml:21
+#, kde-format
+msgid "Web Apps"
+msgstr "Tīmekļa lietotnes"
+
+#: src/contents/ui/SettingsPage.qml:32
+#: src/contents/ui/SettingsSearchEnginePage.qml:16
+#: src/contents/ui/SettingsSearchEnginePage.qml:120
+#, kde-format
+msgid "Search Engine"
+msgstr "Meklētājs"
+
+#: src/contents/ui/SettingsSearchEnginePage.qml:32
+#, kde-format
+msgid "Custom"
+msgstr "Pielāgots"
+
+#: src/contents/ui/SettingsSearchEnginePage.qml:121
+#, kde-format
+msgid "Base URL of your preferred search engine"
+msgstr "Jūsu vēlamā meklēšanas dziņa pamata adrese"
+
+#: src/contents/ui/SettingsWebApps.qml:80
+#, kde-format
+msgid "Remove app"
+msgstr "Noņemt lietotni"
+
+#: src/contents/ui/ShareSheet.qml:18
+#, kde-format
+msgid "Share page to"
+msgstr "Kopīgošanas veids"
+
+#: src/main.cpp:82
+#, kde-format
+msgid "URL to open"
+msgstr "Atveramā adrese"
