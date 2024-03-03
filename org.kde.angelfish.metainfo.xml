@@ -15,6 +15,7 @@
   <name xml:lang="it">Angelfish</name>
   <name xml:lang="ka">Angelfish</name>
   <name xml:lang="ko">Angelfish</name>
+  <name xml:lang="lv">Angelfish</name>
   <name xml:lang="nl">Angelfish</name>
   <name xml:lang="pa">ਐਂਜਲਫਿਸ਼</name>
   <name xml:lang="pl">Angelfish</name>
@@ -48,6 +49,7 @@
   <summary xml:lang="ka">ბრაუზერი მობილური მოწყობილობებისთვის</summary>
   <summary xml:lang="ko">모바일 장치용 웹 브라우저</summary>
   <summary xml:lang="lt">Saityno naršyklė mobiliesiems įrenginiams</summary>
+  <summary xml:lang="lv">Tīmekļa pārlūks mobilajā ierīcēm</summary>
   <summary xml:lang="nl">Webbrowser voor mobiele apparaten</summary>
   <summary xml:lang="nn">Nettlesar for mobile einingar</summary>
   <summary xml:lang="pa">ਮੋਬਾਈਲ ਡਿਵਾਈਸਾਂ ਲਈ ਵੈੱਬ-ਬਰਾਊਜ਼ਰ</summary>
@@ -91,6 +93,7 @@
   <developer_name xml:lang="ka">KDE-ის საზოგადოება</developer_name>
   <developer_name xml:lang="ko">KDE 커뮤니티</developer_name>
   <developer_name xml:lang="lt">KDE bendruomenė</developer_name>
+  <developer_name xml:lang="lv">KDE kopiena</developer_name>
   <developer_name xml:lang="nl">KDE-gemeenschap</developer_name>
   <developer_name xml:lang="nn">KDE-fellesskapet</developer_name>
   <developer_name xml:lang="pa">ਕੇਡੀਈ ਕਮਿਊਨਟੀ</developer_name>
@@ -131,6 +134,7 @@
     <p xml:lang="ka">Angelfish თანამედროვე ბრაუზერია მობილური მოწყობილობებისთვის</p>
     <p xml:lang="ko">Angelfish는 현대적인 모바일 웹 브라우저입니다</p>
     <p xml:lang="lt">Angelfish yra šiuolaikinė mobilioji saityno naršyklė</p>
+    <p xml:lang="lv">„Angelfish“ ir moderna tīmekļa pārlūkprogramma</p>
     <p xml:lang="nl">Angelfish is een moderne mobiele webbrowser</p>
     <p xml:lang="nn">Angelfish er ein moderne nettlesar for mobiltelefonar.</p>
     <p xml:lang="pa">ਐਂਜਲਫਿਸ਼ ਨਵੇਂ ਜ਼ਮਾਨੇ ਦਾ ਮੋਬਾਈਲ ਵੈੱਬ-ਬਰਾਊਜ਼ਰ ਹੈ</p>
@@ -170,6 +174,7 @@
     <p xml:lang="ka">მას აქვს ისეთი ფუნქციების ტიპიური ნაკრები, როგორიცაა</p>
     <p xml:lang="ko">다음과 같은 웹 브라우저 기능을 제공합니다</p>
     <p xml:lang="lt">Ji palaiko tipines naršyklės ypatybes, tokias kaip</p>
+    <p xml:lang="lv">Tā atbalsta ierastās pārlūku iespējas, tai skaitā:</p>
     <p xml:lang="nl">Het ondersteunt typische browserfuncties, zoals</p>
     <p xml:lang="nn">Han støttar vanlege nettlesarfunksjonar:</p>
     <p xml:lang="pa">ਇਹ ਸਧਾਰਨ ਬਰਾਊਜ਼ਰ ਫੀਚਰਾਂ ਲਈ ਸਹਾਇਕ ਹੈ ਜਿਵੇਂ ਕਿ</p>
@@ -210,6 +215,7 @@
       <li xml:lang="ka">სანიშნები</li>
       <li xml:lang="ko">책갈피</li>
       <li xml:lang="lt">žymeles</li>
+      <li xml:lang="lv">grāmatzīmess</li>
       <li xml:lang="nl">bladwijzers</li>
       <li xml:lang="nn">bokmerke</li>
       <li xml:lang="pa">ਬੁੱਕਮਾਰਕ</li>
@@ -249,6 +255,7 @@
       <li xml:lang="ka">ისტორია</li>
       <li xml:lang="ko">과거 기록</li>
       <li xml:lang="lt">istoriją</li>
+      <li xml:lang="lv">vēsturi</li>
       <li xml:lang="nl">geschiedenis</li>
       <li xml:lang="nn">besøkslogg</li>
       <li xml:lang="pa">ਅਤੀਤ</li>
@@ -288,6 +295,7 @@
       <li xml:lang="ka">ჩანართები</li>
       <li xml:lang="ko">탭</li>
       <li xml:lang="lt">korteles</li>
+      <li xml:lang="lv">cilnes</li>
       <li xml:lang="nl">tabs</li>
       <li xml:lang="nn">faner</li>
       <li xml:lang="pa">ਟੈਬਾਂ</li>
@@ -331,6 +339,7 @@
       <caption xml:lang="ka">საწყისი გვერდი</caption>
       <caption xml:lang="ko">홈페이지</caption>
       <caption xml:lang="lt">Pagrindinis puslapis</caption>
+      <caption xml:lang="lv">Mājaslapa</caption>
       <caption xml:lang="nl">Homepagina</caption>
       <caption xml:lang="nn">Heimeside</caption>
       <caption xml:lang="pa">ਮੁੱਖ ਸਫ਼ਾ</caption>
@@ -373,6 +382,7 @@
       <caption xml:lang="ka">მენიუს ქმედებები</caption>
       <caption xml:lang="ko">메뉴 동작</caption>
       <caption xml:lang="lt">Meniu veiksmai</caption>
+      <caption xml:lang="lv">Izvēļņu darbības</caption>
       <caption xml:lang="nl">Menuopties</caption>
       <caption xml:lang="nn">Menyhandlingar</caption>
       <caption xml:lang="pa">ਮੇਨੂ ਕਾਰਵਾਈਆਂ</caption>
@@ -413,6 +423,7 @@
       <caption xml:lang="ka">ჩანართების ხედები</caption>
       <caption xml:lang="ko">탭 보기</caption>
       <caption xml:lang="lt">Kortelių rodinys</caption>
+      <caption xml:lang="lv">Ciļņu skats</caption>
       <caption xml:lang="nl">Tabbladenweergave</caption>
       <caption xml:lang="pa">ਟੈਬ ਝਲਕ</caption>
       <caption xml:lang="pl">Widok kart</caption>
@@ -451,6 +462,7 @@
       <caption xml:lang="it">Interfaccia utente desktop</caption>
       <caption xml:lang="ka">სამუშაო მაგიდის მომხმარებლის ინტერფეისი</caption>
       <caption xml:lang="ko">데스크톱 사용자 인터페이스</caption>
+      <caption xml:lang="lv">Darbvirsmas lietotāja saskarne</caption>
       <caption xml:lang="nl">Gebruikersinterface op bureaublad</caption>
       <caption xml:lang="pa">ਡੈਸਕਟਾਪ ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ</caption>
       <caption xml:lang="pl">Interfejs użytkownika na komputerze</caption>
