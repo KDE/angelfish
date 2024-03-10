@@ -2,21 +2,21 @@
 //
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-import QtQuick 2.0
-import org.kde.kirigami 2.4 as Kirigami
+import QtQuick
+import org.kde.kirigami as Kirigami
 
-import QtWebEngine 1.1
+import QtWebEngine
 
 Kirigami.InlineMessage {
     id: downloadQuestion
     text: i18n("Do you want to download this file?")
     showCloseButton: false
 
-    property WebEngineDownloadItem download
+    property WebEngineDownloadRequest download
 
     actions: [
         Kirigami.Action {
-            iconName: "download"
+            icon.name: "download"
             text: i18n("Download")
             onTriggered: {
                 downloadQuestion.download.resume()
