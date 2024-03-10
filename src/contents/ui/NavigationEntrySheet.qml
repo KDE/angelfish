@@ -115,13 +115,23 @@ Controls.Drawer {
             clip: true
 
             delegate: UrlDelegate {
+                highlightText: urlFilter.filter
+                
+                title: model.title
+                subtitle: model.url
+                
                 showRemove: false
+
+                icon {
+                    name: model.iconName.length > 0 ? model.iconName : "internet-services"
+                    width: Kirigami.Units.largeSpacing * 3
+                    height: Kirigami.Units.largeSpacing * 3
+                }
+
                 onClicked: {
-                    currentWebView.url = url;
+                    currentWebView.url = model.url;
                     overlay.close();
                 }
-                highlightText: urlFilter.filter
-                width: parent && parent.width
             }
 
             model: BookmarksHistoryModel {

@@ -54,37 +54,19 @@ Kirigami.ScrollablePage {
             bookmarks: true
         }
 
-        delegate: Delegates.RoundedItemDelegate {
+        delegate: UrlDelegate {
             id: bookmarkDelegate
-
-            required property int index
-            required property string title
-            required property string url
-            required property string iconName
-
-            text: title
+            title: model.title
+            subtitle: model.url
 
             icon {
-                name: iconName.length > 0 ? iconName : "internet-services"
+                name: model.iconName.length > 0 ? model.iconName : "internet-services"
                 width: Kirigami.Units.largeSpacing * 3
                 height: Kirigami.Units.largeSpacing * 3
             }
 
-            onClicked: currentWebView.url = bookmarkDelegate.url
-
-            contentItem: RowLayout {
-                spacing: Kirigami.Units.smallSpacing
-
-                Delegates.SubtitleContentItem {
-                    itemDelegate: bookmarkDelegate
-                    subtitle: bookmarkDelegate.url
-                }
-
-                QQC2.ToolButton {
-                    icon.name: "entry-delete"
-                    onClicked: BrowserManager.removeBookmark(bookmarkDelegate.url);
-                }
-            }
+            onClicked: currentWebView.url = model.url
+            onRemoved: BrowserManager.removeBookmark(model.url)
         }
 
         Kirigami.PlaceholderMessage {
