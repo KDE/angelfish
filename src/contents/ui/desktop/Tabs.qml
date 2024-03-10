@@ -152,15 +152,14 @@ RowLayout {
         delegate: QQC2.ItemDelegate {
             id: control
 
-            required property int index
-
+            hoverEnabled: true
             highlighted: ListView.isCurrentItem
 
             width: listview.tabWidth
             height: tabsComponent.height
 
             onClicked: {
-                tabs.currentIndex = control.index;
+                tabs.currentIndex = model.index;
             }
 
             background: Rectangle {
@@ -192,9 +191,9 @@ RowLayout {
 
                     onClicked: (mouse) => {
                         if (mouse.button === Qt.MiddleButton) {
-                            tabs.tabsModel.closeTab(control.index);
+                            tabs.tabsModel.closeTab(model.index);
                         } else if (mouse.button === Qt.RightButton) {
-                            tabMenu.index = control.index
+                            tabMenu.index = model.index
                             if (tabMenu.visible) {
                                 tabMenu.close()
                             } else {
@@ -214,7 +213,7 @@ RowLayout {
                     Layout.alignment: Qt.AlignLeft
                     Layout.preferredWidth: Kirigami.Units.iconSizes.small
                     Layout.preferredHeight: width
-                    source: tabs.itemAt(control.index).icon
+                    source: tabs.itemAt(model.index).icon
                 }
 
                 QQC2.Label {
@@ -223,54 +222,42 @@ RowLayout {
                     Layout.alignment: Qt.AlignLeft
                     Layout.leftMargin: Kirigami.Units.smallSpacing
                     Layout.rightMargin: Kirigami.Units.smallSpacing
-                    text: tabs.itemAt(control.index).readerMode ?
+                    text: tabs.itemAt(model.index).readerMode ?
                         i18n("Reader Mode: %1", tabs.itemAt(model.index).readerTitle)
-                        : tabs.itemAt(control.index).title
+                        : tabs.itemAt(model.index).title
                     elide: Text.ElideRight
                     horizontalAlignment: Text.AlignLeft
                 }
 
                 QQC2.AbstractButton {
+                    id: closeButton
+                    
+                    hoverEnabled: true
                     visible: control.highlighted || control.width > Kirigami.Units.gridUnit * 8
                     Layout.alignment: Qt.AlignRight
                     Layout.preferredWidth: Kirigami.Units.iconSizes.smallMedium
-                    Layout.preferredHeight: width
+                    Layout.fillHeight: true
                     onClicked: tabs.tabsModel.closeTab(model.index)
 
-                    background: Rectangle {
-                        anchors.fill: parent
-                        radius: height / 2
-                        color: hoverHandler.hovered ? control.background.color : Kirigami.Theme.disabledTextColor
-                        border.width: 4
-                        border.color: control.background.color
-                    }
+                    background: Item {}
 
                     contentItem: Kirigami.Icon {
-                        source: "tab-close-symbolic"
-                        color: hoverHandler.hovered ? Kirigami.Theme.negativeTextColor : control.background.color
+                        source: 'tab-close-symbolic'
+                        isMask: closeButton.hovered
+                        color: Kirigami.Theme.textColor
                         anchors.centerIn: parent
-                        implicitWidth: parent.width
-                        implicitHeight: width
+                        implicitWidth: Kirigami.Units.iconSizes.smallMedium
+                        implicitHeight: Kirigami.Units.iconSizes.smallMedium
                     }
 
-                    QQC2.ToolTip.visible: hoverHandler.hovered
+                    QQC2.ToolTip.visible: closeButton.hovered
                     QQC2.ToolTip.delay: Qt.styleHints.mousePressAndHoldInterval
                     QQC2.ToolTip.text: i18n("Close tab")
-
-                    HoverHandler {
-                        id: hoverHandler
-                        acceptedDevices: PointerDevice.Mouse | PointerDevice.Stylus
-                    }
                 }
 
-                QQC2.ToolTip.visible: hoverHandlerTab.hovered
+                QQC2.ToolTip.visible: control.hovered
                 QQC2.ToolTip.delay: Qt.styleHints.mousePressAndHoldInterval
                 QQC2.ToolTip.text: titleLabel.text
-
-                HoverHandler {
-                    id: hoverHandlerTab
-                    acceptedDevices: PointerDevice.Mouse | PointerDevice.Stylus
-                }
             }
         }
         footerPositioning: listview.tabScroll ? ListView.OverlayFooter : ListView.InlineFooter
