@@ -98,7 +98,7 @@ QCoro::Task<> DBManager::removeRecord(const QString table, const QString url)
 
 QCoro::Task<> DBManager::removeAllRecords(const QString table)
 {
-    co_await m_database->execute(QStringLiteral("DELETE FROM ?"), table);
+    co_await m_database->execute(QStringLiteral("DELETE FROM %1").arg(table));
     Q_EMIT databaseTableChanged(table);
 }
 
