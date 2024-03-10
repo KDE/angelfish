@@ -36,7 +36,7 @@ Delegates.RoundedItemDelegate {
         QQC2.ToolButton {
             visible: root.showRemove
             icon.name: "entry-delete"
-            onClicked: root.removed
+            onClicked: root.removed()
         }
     }
 }
