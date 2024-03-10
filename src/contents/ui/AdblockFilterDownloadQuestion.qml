@@ -25,7 +25,7 @@ Kirigami.InlineMessage {
     actions: [
         Kirigami.Action {
             id: downloadAction
-            iconName: "download"
+            icon.name: "download"
             text: i18n("Download")
 
             onTriggered: {
