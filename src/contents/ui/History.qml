@@ -12,12 +12,14 @@ Kirigami.ScrollablePage {
     title: i18n("History")
     Kirigami.ColumnView.fillWidth: false
 
-    actions.main: Kirigami.Action {
-        text: "Clear"
-        iconName: "edit-clear-all"
+    actions: [
+        Kirigami.Action {
+            text: "Clear"
+            icon.name: "edit-clear-all"
 
-        onTriggered: BrowserManager.clearHistory()
-    }
+            onTriggered: BrowserManager.clearHistory()
+        }
+    ]
 
     header: Item {
         anchors.horizontalCenter: parent.horizontalCenter
@@ -56,12 +58,21 @@ Kirigami.ScrollablePage {
 
         UrlDelegate {
             highlightText: list.model.filter
-            width: list.width
+            title: model.title
+            subtitle: model.url
+            
+            // width: list.width
+            icon {
+                name: model.iconName.length > 0 ? modeliconName : "internet-services"
+                width: Kirigami.Units.largeSpacing * 3
+                height: Kirigami.Units.largeSpacing * 3
+            }
+
             onClicked: {
-                currentWebView.url = url;
+                currentWebView.url = model.url;
                 pageStack.pop();
             }
-            onRemoved: BrowserManager.removeFromHistory(url);
+            onRemoved: BrowserManager.removeFromHistory(model.url);
         }
     }
 

@@ -34,6 +34,15 @@ Controls.Drawer {
         clip: true
 
         delegate: UrlDelegate {
+            title: model.title
+            subtitle: model.url
+
+            icon {
+                name: model.icon.name > 0 ? model.icon.name : "internet-services"
+                width: Kirigami.Units.largeSpacing * 3
+                height: Kirigami.Units.largeSpacing * 3
+            }
+
             showRemove: false
             onClicked: {
                 currentWebView.goBackOrForward(model.offset);
@@ -41,8 +50,8 @@ Controls.Drawer {
             }
         }
 
-        model: overlay.backHistory ? currentWebView.navigationHistory.backItems :
-                                     currentWebView.navigationHistory.forwardItems
+        model: overlay.backHistory ? currentWebView.history.backItems :
+                                     currentWebView.history.forwardItems
     }
 
     onClosed: {

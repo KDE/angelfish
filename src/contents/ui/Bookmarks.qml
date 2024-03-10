@@ -48,12 +48,21 @@ Kirigami.ScrollablePage {
         id: delegateComponent
 
         UrlDelegate {
+            title: model.title
+            subtitle: model.url
+
+            icon {
+                name: model.iconName.length > 0 ? model.iconName : "internet-services"
+                width: Kirigami.Units.largeSpacing * 3
+                height: Kirigami.Units.largeSpacing * 3
+            }
+
             highlightText: list.model.filter
             onClicked: {
-                currentWebView.url = url;
+                currentWebView.url = model.url;
                 pageStack.pop();
             }
-            onRemoved: BrowserManager.removeBookmark(url);
+            onRemoved: BrowserManager.removeBookmark(model.url);
         }
     }
 

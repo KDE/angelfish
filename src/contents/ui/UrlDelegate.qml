@@ -1,74 +1,42 @@
 // SPDX-FileCopyrightText: 2014-2015 Sebastian Kügler <sebas@kde.org>
+// SPDX-FileCopyrightText: 2021 Felipe Kinoshita <kinofhek@gmail.com>
+// SPDX-FileCopyrightText: 2024 Devin Lin <devin@kde.org>
 //
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-import QtQuick 2.3
-import QtQuick.Controls 2.0 as Controls
-import QtQuick.Layouts 1.3
+import QtQuick
+import QtQuick.Controls as QQC2
+import QtQuick.Layouts
 
-import org.kde.kirigami 2.5 as Kirigami
+import org.kde.kirigami as Kirigami
+import org.kde.kirigamiaddons.delegates as Delegates
 
-Kirigami.SwipeListItem {
-    id: urlDelegate
-
+Delegates.RoundedItemDelegate {
+    id: root
     property bool showRemove: true
 
     property string highlightText
-    property var regex: new RegExp(highlightText, 'i')
-    property string highlightedText: "<b><font color=\"" + Kirigami.Theme.selectionTextColor + "\">$&</font></b>"
+    readonly property var regex: new RegExp(highlightText, 'i')
+    readonly property string highlightedText: "<b><font color=\"" + Kirigami.Theme.selectionTextColor + "\">$&</font></b>"
 
-    height: Kirigami.Units.gridUnit * 3
-
-    Kirigami.Theme.colorSet: Kirigami.Theme.View
-
-    onClicked: {
-        currentWebView.url = url;
-    }
-
+    property string title
+    property string subtitle
     signal removed
 
+    text: title ? (highlightText ? title.replace(regex, highlightedText) : title) : ""
+
     contentItem: RowLayout {
-        Kirigami.Theme.inherit: true
+        spacing: Kirigami.Units.smallSpacing
 
-        Item {
-            Layout.preferredHeight: parent.height
-            Layout.preferredWidth: parent.height
-
-            Image {
-                anchors.fill: parent
-                fillMode: Image.PreserveAspectFit
-
-                source: model && model.icon ? model.icon : ""
-            }
+        Delegates.SubtitleContentItem {
+            itemDelegate: root
+            subtitle: root.subtitle ? (highlightText ? root.subtitle.replace(regex, highlightedText) : root.subtitle) : ""
         }
 
-        ColumnLayout {
-            Layout.fillWidth: true
-
-            // title
-            Controls.Label {
-                text: title ? (highlightText ? title.replace(regex, highlightedText) : title) : ""
-                elide: Qt.ElideRight
-                maximumLineCount: 1
-                Layout.fillWidth: true
-            }
-
-            // url
-            Controls.Label {
-                text: url ? (highlightText ? url.replace(regex, highlightedText) : url) : ""
-                opacity: 0.6
-                elide: Qt.ElideRight
-                maximumLineCount: 1
-                Layout.fillWidth: true
-            }
+        QQC2.ToolButton {
+            visible: false
+            icon.name: "entry-delete"
+            onClicked: root.removed
         }
     }
-
-    actions: [
-        Kirigami.Action {
-            icon.name: "list-remove"
-            visible: urlDelegate.showRemove
-            onTriggered: urlDelegate.removed();
-        }
-    ]
 }
