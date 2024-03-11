@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-08 00:37+0000\n"
+"POT-Creation-Date: 2024-03-11 00:37+0000\n"
 "PO-Revision-Date: 2023-10-11 17:13+0200\n"
 "Last-Translator: Xavier BESNARD <xavier.besnard@kde.org>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -91,7 +91,7 @@ msgid "Download"
 msgstr "Télécharger"
 
 #: lib/contents/ui/DownloadQuestion.qml:28 lib/contents/ui/PrintPreview.qml:163
-#: src/contents/ui/Downloads.qml:41
+#: src/contents/ui/Downloads.qml:92
 #, kde-format
 msgid "Cancel"
 msgstr "Annuler"
@@ -272,7 +272,7 @@ msgstr "Sortir du mode « Plein écran » (ESC)"
 msgid "Play"
 msgstr "Lire"
 
-#: lib/contents/ui/WebView.qml:389 src/contents/ui/Downloads.qml:47
+#: lib/contents/ui/WebView.qml:389 src/contents/ui/Downloads.qml:105
 #, kde-format
 msgid "Pause"
 msgstr "Pause"
@@ -447,7 +447,7 @@ msgstr "Signets"
 msgid "Search bookmarks…"
 msgstr "Recherche des signets"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:95
+#: src/contents/ui/desktop/BookmarksPage.qml:77
 #, kde-format
 msgid "No bookmarks yet"
 msgstr "Aucun signet pour l'instant"
@@ -457,7 +457,7 @@ msgstr "Aucun signet pour l'instant"
 msgid "Search or enter URL…"
 msgstr "Rechercher ou saisir une URL…"
 
-#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/desktop/Tabs.qml:362
+#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/desktop/Tabs.qml:349
 #: src/contents/ui/Tabs.qml:49
 #, kde-format
 msgid "New Tab"
@@ -479,7 +479,7 @@ msgstr "Mode navigation privée"
 msgid "History"
 msgstr "Historique"
 
-#: src/contents/ui/desktop/desktop.qml:276 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:276 src/contents/ui/Downloads.qml:16
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
@@ -536,7 +536,7 @@ msgstr "Rechercher l'historique…"
 msgid "Clear all history"
 msgstr "Supprimer tout l'historique"
 
-#: src/contents/ui/desktop/HistoryPage.qml:101
+#: src/contents/ui/desktop/HistoryPage.qml:83
 #, kde-format
 msgid "Not history yet"
 msgstr "Pas encore d'historique"
@@ -579,83 +579,83 @@ msgstr "Toujours afficher la barre d'onglets"
 msgid "The tab bar will be displayed even if there is only one tab open"
 msgstr "La barre d'onglets sera affichée même si il n'y a aucun onglet ouvert."
 
-#: src/contents/ui/desktop/Tabs.qml:227 src/contents/ui/Tabs.qml:185
+#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:185
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Mode lecteur : %1"
 
-#: src/contents/ui/desktop/Tabs.qml:258 src/contents/ui/Tabs.qml:216
+#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:216
 #, kde-format
 msgid "Close tab"
 msgstr "Fermer un onglet"
 
-#: src/contents/ui/desktop/Tabs.qml:298
+#: src/contents/ui/desktop/Tabs.qml:285
 #, kde-format
 msgid "Open a new tab"
 msgstr "Ouvrir un nouvel onglet"
 
-#: src/contents/ui/desktop/Tabs.qml:331
+#: src/contents/ui/desktop/Tabs.qml:318
 #, kde-format
 msgid "List all tabs"
 msgstr "Lister tous les onglets"
 
-#: src/contents/ui/desktop/Tabs.qml:371
+#: src/contents/ui/desktop/Tabs.qml:358
 #, kde-format
 msgid "Reload Tab"
 msgstr "Recharger un onglet"
 
-#: src/contents/ui/desktop/Tabs.qml:379
+#: src/contents/ui/desktop/Tabs.qml:366
 #, kde-format
 msgid "Duplicate Tab"
 msgstr "Dupliquer un onglet"
 
-#: src/contents/ui/desktop/Tabs.qml:387
+#: src/contents/ui/desktop/Tabs.qml:374
 #, kde-format
 msgid "Bookmark Tab"
 msgstr "Mettre un signet sur un onglet"
 
-#: src/contents/ui/desktop/Tabs.qml:403
+#: src/contents/ui/desktop/Tabs.qml:390
 #, kde-format
 msgid "Close Tab"
 msgstr "Fermer un onglet"
 
-#: src/contents/ui/Downloads.qml:26
+#: src/contents/ui/Downloads.qml:28
 #, kde-format
 msgid "No running downloads"
 msgstr "Aucun téléchargement en cours"
 
-#: src/contents/ui/Downloads.qml:53
-#, kde-format
-msgid "Continue"
-msgstr "Continuer"
-
-#: src/contents/ui/Downloads.qml:91
+#: src/contents/ui/Downloads.qml:77
 #, kde-format
 msgctxt "download state"
 msgid "Starting…"
 msgstr "En cours de démarrage…"
 
-#: src/contents/ui/Downloads.qml:93
+#: src/contents/ui/Downloads.qml:79
 #, kde-format
 msgid "Completed"
 msgstr "Terminé"
 
-#: src/contents/ui/Downloads.qml:95
+#: src/contents/ui/Downloads.qml:81
 #, kde-format
 msgid "Cancelled"
 msgstr "Annulé"
 
-#: src/contents/ui/Downloads.qml:97
+#: src/contents/ui/Downloads.qml:83
 #, kde-format
 msgctxt "download state"
 msgid "Interrupted"
 msgstr "Interrompu"
 
-#: src/contents/ui/Downloads.qml:99
+#: src/contents/ui/Downloads.qml:85
 #, kde-format
 msgctxt "download state"
 msgid "In progress"
 msgstr "En cours"
+
+#: src/contents/ui/Downloads.qml:117
+#, kde-format
+msgid "Continue"
+msgstr "Continuer"
 
 #: src/contents/ui/FindInPageBar.qml:45
 #, kde-format

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-08 00:37+0000\n"
+"POT-Creation-Date: 2024-03-11 00:37+0000\n"
 "PO-Revision-Date: 2023-03-08 09:49+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -89,7 +89,7 @@ msgid "Download"
 msgstr "Downloaden"
 
 #: lib/contents/ui/DownloadQuestion.qml:28 lib/contents/ui/PrintPreview.qml:163
-#: src/contents/ui/Downloads.qml:41
+#: src/contents/ui/Downloads.qml:92
 #, kde-format
 msgid "Cancel"
 msgstr "Annuleren"
@@ -261,7 +261,7 @@ msgstr "Volledig scherm verlaten (Esc)"
 msgid "Play"
 msgstr "Afspelen"
 
-#: lib/contents/ui/WebView.qml:389 src/contents/ui/Downloads.qml:47
+#: lib/contents/ui/WebView.qml:389 src/contents/ui/Downloads.qml:105
 #, kde-format
 msgid "Pause"
 msgstr "Pauzeren"
@@ -435,7 +435,7 @@ msgstr "Bladwijzers"
 msgid "Search bookmarks…"
 msgstr "Bladwijzers zoeken…"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:95
+#: src/contents/ui/desktop/BookmarksPage.qml:77
 #, kde-format
 msgid "No bookmarks yet"
 msgstr "Nog geen bladwijzers"
@@ -445,7 +445,7 @@ msgstr "Nog geen bladwijzers"
 msgid "Search or enter URL…"
 msgstr "Zoek of voer een URL in…"
 
-#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/desktop/Tabs.qml:362
+#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/desktop/Tabs.qml:349
 #: src/contents/ui/Tabs.qml:49
 #, kde-format
 msgid "New Tab"
@@ -467,7 +467,7 @@ msgstr "Modus privé"
 msgid "History"
 msgstr "Geschiedenis"
 
-#: src/contents/ui/desktop/desktop.qml:276 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:276 src/contents/ui/Downloads.qml:16
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
@@ -524,7 +524,7 @@ msgstr "Zoeken in geschiedenis…"
 msgid "Clear all history"
 msgstr "Alle geschiedenis wissen"
 
-#: src/contents/ui/desktop/HistoryPage.qml:101
+#: src/contents/ui/desktop/HistoryPage.qml:83
 #, kde-format
 msgid "Not history yet"
 msgstr "Nog geen geschiedenis"
@@ -566,83 +566,83 @@ msgid "The tab bar will be displayed even if there is only one tab open"
 msgstr ""
 "De tabbladbalk zal getoond worden zelfs als er maar één tabblad open is"
 
-#: src/contents/ui/desktop/Tabs.qml:227 src/contents/ui/Tabs.qml:185
+#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:185
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Modus Lezer: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:258 src/contents/ui/Tabs.qml:216
+#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:216
 #, kde-format
 msgid "Close tab"
 msgstr "Tabblad sluiten"
 
-#: src/contents/ui/desktop/Tabs.qml:298
+#: src/contents/ui/desktop/Tabs.qml:285
 #, kde-format
 msgid "Open a new tab"
 msgstr "Een nieuw tabblad openen"
 
-#: src/contents/ui/desktop/Tabs.qml:331
+#: src/contents/ui/desktop/Tabs.qml:318
 #, kde-format
 msgid "List all tabs"
 msgstr "Alle tabbladen tonen"
 
-#: src/contents/ui/desktop/Tabs.qml:371
+#: src/contents/ui/desktop/Tabs.qml:358
 #, kde-format
 msgid "Reload Tab"
 msgstr "Tabblad herladen"
 
-#: src/contents/ui/desktop/Tabs.qml:379
+#: src/contents/ui/desktop/Tabs.qml:366
 #, kde-format
 msgid "Duplicate Tab"
 msgstr "Tabblad dupliceren"
 
-#: src/contents/ui/desktop/Tabs.qml:387
+#: src/contents/ui/desktop/Tabs.qml:374
 #, kde-format
 msgid "Bookmark Tab"
 msgstr "Bladwijzer maken van tabblad"
 
-#: src/contents/ui/desktop/Tabs.qml:403
+#: src/contents/ui/desktop/Tabs.qml:390
 #, kde-format
 msgid "Close Tab"
 msgstr "Tabblad sluiten"
 
-#: src/contents/ui/Downloads.qml:26
+#: src/contents/ui/Downloads.qml:28
 #, kde-format
 msgid "No running downloads"
 msgstr "Geen actieve downloads"
 
-#: src/contents/ui/Downloads.qml:53
-#, kde-format
-msgid "Continue"
-msgstr "Doorgaan"
-
-#: src/contents/ui/Downloads.qml:91
+#: src/contents/ui/Downloads.qml:77
 #, kde-format
 msgctxt "download state"
 msgid "Starting…"
 msgstr "Bezig met starten..."
 
-#: src/contents/ui/Downloads.qml:93
+#: src/contents/ui/Downloads.qml:79
 #, kde-format
 msgid "Completed"
 msgstr "Voltooid"
 
-#: src/contents/ui/Downloads.qml:95
+#: src/contents/ui/Downloads.qml:81
 #, kde-format
 msgid "Cancelled"
 msgstr "Geannuleerd"
 
-#: src/contents/ui/Downloads.qml:97
+#: src/contents/ui/Downloads.qml:83
 #, kde-format
 msgctxt "download state"
 msgid "Interrupted"
 msgstr "Onderbroken"
 
-#: src/contents/ui/Downloads.qml:99
+#: src/contents/ui/Downloads.qml:85
 #, kde-format
 msgctxt "download state"
 msgid "In progress"
 msgstr "Nog bezig"
+
+#: src/contents/ui/Downloads.qml:117
+#, kde-format
+msgid "Continue"
+msgstr "Doorgaan"
 
 #: src/contents/ui/FindInPageBar.qml:45
 #, kde-format

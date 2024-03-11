@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-08 00:37+0000\n"
+"POT-Creation-Date: 2024-03-11 00:37+0000\n"
 "PO-Revision-Date: 2023-03-09 01:00+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -91,7 +91,7 @@ msgid "Download"
 msgstr "Descargar"
 
 #: lib/contents/ui/DownloadQuestion.qml:28 lib/contents/ui/PrintPreview.qml:163
-#: src/contents/ui/Downloads.qml:41
+#: src/contents/ui/Downloads.qml:92
 #, kde-format
 msgid "Cancel"
 msgstr "Cancelar"
@@ -264,7 +264,7 @@ msgstr "Salir de pantalla completa (Esc)"
 msgid "Play"
 msgstr "Reproducir"
 
-#: lib/contents/ui/WebView.qml:389 src/contents/ui/Downloads.qml:47
+#: lib/contents/ui/WebView.qml:389 src/contents/ui/Downloads.qml:105
 #, kde-format
 msgid "Pause"
 msgstr "Pausar"
@@ -439,7 +439,7 @@ msgstr "Marcadores"
 msgid "Search bookmarks…"
 msgstr "Buscar en los marcadores..."
 
-#: src/contents/ui/desktop/BookmarksPage.qml:95
+#: src/contents/ui/desktop/BookmarksPage.qml:77
 #, kde-format
 msgid "No bookmarks yet"
 msgstr "Aún no hay marcadores"
@@ -449,7 +449,7 @@ msgstr "Aún no hay marcadores"
 msgid "Search or enter URL…"
 msgstr "Buscar o introducir URL..."
 
-#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/desktop/Tabs.qml:362
+#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/desktop/Tabs.qml:349
 #: src/contents/ui/Tabs.qml:49
 #, kde-format
 msgid "New Tab"
@@ -471,7 +471,7 @@ msgstr "Modo privado"
 msgid "History"
 msgstr "Historial"
 
-#: src/contents/ui/desktop/desktop.qml:276 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:276 src/contents/ui/Downloads.qml:16
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
@@ -528,7 +528,7 @@ msgstr "Buscar en el historial..."
 msgid "Clear all history"
 msgstr "Borrar el historial"
 
-#: src/contents/ui/desktop/HistoryPage.qml:101
+#: src/contents/ui/desktop/HistoryPage.qml:83
 #, kde-format
 msgid "Not history yet"
 msgstr "Aún no hay historial"
@@ -572,83 +572,83 @@ msgid "The tab bar will be displayed even if there is only one tab open"
 msgstr ""
 "La barra de pestañas se mostrará incluso si solo hay una pestaña abierta"
 
-#: src/contents/ui/desktop/Tabs.qml:227 src/contents/ui/Tabs.qml:185
+#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:185
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Modo lector: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:258 src/contents/ui/Tabs.qml:216
+#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:216
 #, kde-format
 msgid "Close tab"
 msgstr "Cerrar la pestaña"
 
-#: src/contents/ui/desktop/Tabs.qml:298
+#: src/contents/ui/desktop/Tabs.qml:285
 #, kde-format
 msgid "Open a new tab"
 msgstr "Abrir una nueva pestaña"
 
-#: src/contents/ui/desktop/Tabs.qml:331
+#: src/contents/ui/desktop/Tabs.qml:318
 #, kde-format
 msgid "List all tabs"
 msgstr "Listar todas las pestañas"
 
-#: src/contents/ui/desktop/Tabs.qml:371
+#: src/contents/ui/desktop/Tabs.qml:358
 #, kde-format
 msgid "Reload Tab"
 msgstr "Volver a cargar la pestaña"
 
-#: src/contents/ui/desktop/Tabs.qml:379
+#: src/contents/ui/desktop/Tabs.qml:366
 #, kde-format
 msgid "Duplicate Tab"
 msgstr "Duplicar la pestaña"
 
-#: src/contents/ui/desktop/Tabs.qml:387
+#: src/contents/ui/desktop/Tabs.qml:374
 #, kde-format
 msgid "Bookmark Tab"
 msgstr "Marcar la pestaña"
 
-#: src/contents/ui/desktop/Tabs.qml:403
+#: src/contents/ui/desktop/Tabs.qml:390
 #, kde-format
 msgid "Close Tab"
 msgstr "Cerrar la pestaña"
 
-#: src/contents/ui/Downloads.qml:26
+#: src/contents/ui/Downloads.qml:28
 #, kde-format
 msgid "No running downloads"
 msgstr "No se está descargando nada"
 
-#: src/contents/ui/Downloads.qml:53
-#, kde-format
-msgid "Continue"
-msgstr "Continuar"
-
-#: src/contents/ui/Downloads.qml:91
+#: src/contents/ui/Downloads.qml:77
 #, kde-format
 msgctxt "download state"
 msgid "Starting…"
 msgstr "Iniciando…"
 
-#: src/contents/ui/Downloads.qml:93
+#: src/contents/ui/Downloads.qml:79
 #, kde-format
 msgid "Completed"
 msgstr "Completa"
 
-#: src/contents/ui/Downloads.qml:95
+#: src/contents/ui/Downloads.qml:81
 #, kde-format
 msgid "Cancelled"
 msgstr "Cancelada"
 
-#: src/contents/ui/Downloads.qml:97
+#: src/contents/ui/Downloads.qml:83
 #, kde-format
 msgctxt "download state"
 msgid "Interrupted"
 msgstr "Interrumpida"
 
-#: src/contents/ui/Downloads.qml:99
+#: src/contents/ui/Downloads.qml:85
 #, kde-format
 msgctxt "download state"
 msgid "In progress"
 msgstr "En proceso"
+
+#: src/contents/ui/Downloads.qml:117
+#, kde-format
+msgid "Continue"
+msgstr "Continuar"
 
 #: src/contents/ui/FindInPageBar.qml:45
 #, kde-format

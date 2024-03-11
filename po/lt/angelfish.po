@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-08 00:37+0000\n"
+"POT-Creation-Date: 2024-03-11 00:37+0000\n"
 "PO-Revision-Date: 2021-09-10 14:03+0300\n"
 "Last-Translator: Moo\n"
 "Language-Team: lt\n"
@@ -92,7 +92,7 @@ msgid "Download"
 msgstr "Atsisiųsti"
 
 #: lib/contents/ui/DownloadQuestion.qml:28 lib/contents/ui/PrintPreview.qml:163
-#: src/contents/ui/Downloads.qml:41
+#: src/contents/ui/Downloads.qml:92
 #, kde-format
 msgid "Cancel"
 msgstr "Atsisakyti"
@@ -269,7 +269,7 @@ msgstr ""
 msgid "Play"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:389 src/contents/ui/Downloads.qml:47
+#: lib/contents/ui/WebView.qml:389 src/contents/ui/Downloads.qml:105
 #, kde-format
 msgid "Pause"
 msgstr "Pristabdyti"
@@ -453,7 +453,7 @@ msgstr "Žymelės"
 msgid "Search bookmarks…"
 msgstr ""
 
-#: src/contents/ui/desktop/BookmarksPage.qml:95
+#: src/contents/ui/desktop/BookmarksPage.qml:77
 #, fuzzy, kde-format
 #| msgid "Add bookmark"
 msgid "No bookmarks yet"
@@ -464,7 +464,7 @@ msgstr "Pridėti žymelę"
 msgid "Search or enter URL…"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/desktop/Tabs.qml:362
+#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/desktop/Tabs.qml:349
 #: src/contents/ui/Tabs.qml:49
 #, kde-format
 msgid "New Tab"
@@ -486,7 +486,7 @@ msgstr "Privati veiksena"
 msgid "History"
 msgstr "Istorija"
 
-#: src/contents/ui/desktop/desktop.qml:276 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:276 src/contents/ui/Downloads.qml:16
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
@@ -543,7 +543,7 @@ msgstr ""
 msgid "Clear all history"
 msgstr ""
 
-#: src/contents/ui/desktop/HistoryPage.qml:101
+#: src/contents/ui/desktop/HistoryPage.qml:83
 #, kde-format
 msgid "Not history yet"
 msgstr ""
@@ -586,88 +586,88 @@ msgstr ""
 msgid "The tab bar will be displayed even if there is only one tab open"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:227 src/contents/ui/Tabs.qml:185
+#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:185
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:258 src/contents/ui/Tabs.qml:216
+#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:216
 #, fuzzy, kde-format
 #| msgid "Close"
 msgid "Close tab"
 msgstr "Užverti"
 
-#: src/contents/ui/desktop/Tabs.qml:298
+#: src/contents/ui/desktop/Tabs.qml:285
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgid "Open a new tab"
 msgstr "Atverti naujoje kortelėje"
 
-#: src/contents/ui/desktop/Tabs.qml:331
+#: src/contents/ui/desktop/Tabs.qml:318
 #, kde-format
 msgid "List all tabs"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:371
+#: src/contents/ui/desktop/Tabs.qml:358
 #, kde-format
 msgid "Reload Tab"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:379
+#: src/contents/ui/desktop/Tabs.qml:366
 #, fuzzy, kde-format
 #| msgid "Private Tabs"
 msgid "Duplicate Tab"
 msgstr "Privačios kortelės"
 
-#: src/contents/ui/desktop/Tabs.qml:387
+#: src/contents/ui/desktop/Tabs.qml:374
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgid "Bookmark Tab"
 msgstr "Įrašyti į žymeles"
 
-#: src/contents/ui/desktop/Tabs.qml:403
+#: src/contents/ui/desktop/Tabs.qml:390
 #, fuzzy, kde-format
 #| msgid "Close"
 msgid "Close Tab"
 msgstr "Užverti"
 
-#: src/contents/ui/Downloads.qml:26
+#: src/contents/ui/Downloads.qml:28
 #, kde-format
 msgid "No running downloads"
 msgstr "Nėra vykdomų atsiuntimų"
 
-#: src/contents/ui/Downloads.qml:53
-#, kde-format
-msgid "Continue"
-msgstr "Tęsti"
-
-#: src/contents/ui/Downloads.qml:91
+#: src/contents/ui/Downloads.qml:77
 #, kde-format
 msgctxt "download state"
 msgid "Starting…"
 msgstr "Pradedama…"
 
-#: src/contents/ui/Downloads.qml:93
+#: src/contents/ui/Downloads.qml:79
 #, kde-format
 msgid "Completed"
 msgstr "Užbaigtas"
 
-#: src/contents/ui/Downloads.qml:95
+#: src/contents/ui/Downloads.qml:81
 #, kde-format
 msgid "Cancelled"
 msgstr "Atsisakytas"
 
-#: src/contents/ui/Downloads.qml:97
+#: src/contents/ui/Downloads.qml:83
 #, kde-format
 msgctxt "download state"
 msgid "Interrupted"
 msgstr "Pertrauktas"
 
-#: src/contents/ui/Downloads.qml:99
+#: src/contents/ui/Downloads.qml:85
 #, kde-format
 msgctxt "download state"
 msgid "In progress"
 msgstr ""
+
+#: src/contents/ui/Downloads.qml:117
+#, kde-format
+msgid "Continue"
+msgstr "Tęsti"
 
 #: src/contents/ui/FindInPageBar.qml:45
 #, kde-format

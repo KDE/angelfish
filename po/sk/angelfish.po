@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-08 00:37+0000\n"
+"POT-Creation-Date: 2024-03-11 00:37+0000\n"
 "PO-Revision-Date: 2023-11-13 18:52+0100\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <opensuse-translation@opensuse.org>\n"
@@ -89,7 +89,7 @@ msgid "Download"
 msgstr "Stiahnuť"
 
 #: lib/contents/ui/DownloadQuestion.qml:28 lib/contents/ui/PrintPreview.qml:163
-#: src/contents/ui/Downloads.qml:41
+#: src/contents/ui/Downloads.qml:92
 #, kde-format
 msgid "Cancel"
 msgstr "Zrušiť"
@@ -262,7 +262,7 @@ msgstr "Ukončiť režim celej obrazovky (Esc)"
 msgid "Play"
 msgstr "Prehrať"
 
-#: lib/contents/ui/WebView.qml:389 src/contents/ui/Downloads.qml:47
+#: lib/contents/ui/WebView.qml:389 src/contents/ui/Downloads.qml:105
 #, kde-format
 msgid "Pause"
 msgstr "Pozastaviť"
@@ -436,7 +436,7 @@ msgstr "Záložky"
 msgid "Search bookmarks…"
 msgstr "Hľadať v záložkách…"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:95
+#: src/contents/ui/desktop/BookmarksPage.qml:77
 #, kde-format
 msgid "No bookmarks yet"
 msgstr "Zatiaľ žiadne záložky"
@@ -446,7 +446,7 @@ msgstr "Zatiaľ žiadne záložky"
 msgid "Search or enter URL…"
 msgstr "Vyhľadať alebo zadať URL..."
 
-#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/desktop/Tabs.qml:362
+#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/desktop/Tabs.qml:349
 #: src/contents/ui/Tabs.qml:49
 #, kde-format
 msgid "New Tab"
@@ -468,7 +468,7 @@ msgstr "Súkromný režim"
 msgid "History"
 msgstr "História"
 
-#: src/contents/ui/desktop/desktop.qml:276 src/contents/ui/Downloads.qml:15
+#: src/contents/ui/desktop/desktop.qml:276 src/contents/ui/Downloads.qml:16
 #: src/contents/ui/mobile.qml:91
 #, kde-format
 msgid "Downloads"
@@ -525,7 +525,7 @@ msgstr "Hľadať v histórii..."
 msgid "Clear all history"
 msgstr "Vymazať celú históriu"
 
-#: src/contents/ui/desktop/HistoryPage.qml:101
+#: src/contents/ui/desktop/HistoryPage.qml:83
 #, kde-format
 msgid "Not history yet"
 msgstr "Zatiaľ nie je história"
@@ -568,83 +568,83 @@ msgstr "Vždy zobrazovať panel kariet"
 msgid "The tab bar will be displayed even if there is only one tab open"
 msgstr "Panel kariet sa zobrazí, aj keď je otvorená len jedna karta"
 
-#: src/contents/ui/desktop/Tabs.qml:227 src/contents/ui/Tabs.qml:185
+#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:185
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Režim čítania: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:258 src/contents/ui/Tabs.qml:216
+#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:216
 #, kde-format
 msgid "Close tab"
 msgstr "Zavrieť kartu"
 
-#: src/contents/ui/desktop/Tabs.qml:298
+#: src/contents/ui/desktop/Tabs.qml:285
 #, kde-format
 msgid "Open a new tab"
 msgstr "Otvoriť novú kartu"
 
-#: src/contents/ui/desktop/Tabs.qml:331
+#: src/contents/ui/desktop/Tabs.qml:318
 #, kde-format
 msgid "List all tabs"
 msgstr "Zobraziť zoznam všetkých kariet"
 
-#: src/contents/ui/desktop/Tabs.qml:371
+#: src/contents/ui/desktop/Tabs.qml:358
 #, kde-format
 msgid "Reload Tab"
 msgstr "Opätovne načítať kartu"
 
-#: src/contents/ui/desktop/Tabs.qml:379
+#: src/contents/ui/desktop/Tabs.qml:366
 #, kde-format
 msgid "Duplicate Tab"
 msgstr "Duplikovať kartu"
 
-#: src/contents/ui/desktop/Tabs.qml:387
+#: src/contents/ui/desktop/Tabs.qml:374
 #, kde-format
 msgid "Bookmark Tab"
 msgstr "Pridať kartu do záložiek"
 
-#: src/contents/ui/desktop/Tabs.qml:403
+#: src/contents/ui/desktop/Tabs.qml:390
 #, kde-format
 msgid "Close Tab"
 msgstr "Zatvoriť kartu"
 
-#: src/contents/ui/Downloads.qml:26
+#: src/contents/ui/Downloads.qml:28
 #, kde-format
 msgid "No running downloads"
 msgstr "Žiadne prebiehajúce sťahovania"
 
-#: src/contents/ui/Downloads.qml:53
-#, kde-format
-msgid "Continue"
-msgstr "Pokračovať"
-
-#: src/contents/ui/Downloads.qml:91
+#: src/contents/ui/Downloads.qml:77
 #, kde-format
 msgctxt "download state"
 msgid "Starting…"
 msgstr "Spúšťa sa..."
 
-#: src/contents/ui/Downloads.qml:93
+#: src/contents/ui/Downloads.qml:79
 #, kde-format
 msgid "Completed"
 msgstr "Dokončené"
 
-#: src/contents/ui/Downloads.qml:95
+#: src/contents/ui/Downloads.qml:81
 #, kde-format
 msgid "Cancelled"
 msgstr "Zrušené"
 
-#: src/contents/ui/Downloads.qml:97
+#: src/contents/ui/Downloads.qml:83
 #, kde-format
 msgctxt "download state"
 msgid "Interrupted"
 msgstr "Prerušené"
 
-#: src/contents/ui/Downloads.qml:99
+#: src/contents/ui/Downloads.qml:85
 #, kde-format
 msgctxt "download state"
 msgid "In progress"
 msgstr "Prebieha"
+
+#: src/contents/ui/Downloads.qml:117
+#, kde-format
+msgid "Continue"
+msgstr "Pokračovať"
 
 #: src/contents/ui/FindInPageBar.qml:45
 #, kde-format
