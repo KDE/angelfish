@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-03-11 00:37+0000\n"
-"PO-Revision-Date: 2024-03-13 16:07+0200\n"
+"PO-Revision-Date: 2024-03-14 05:58+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -114,6 +114,12 @@ msgid ""
 " you may not be connected with the host you tried to connect to.\n"
 " Do you wish to override the security check and continue?"
 msgstr ""
+"להמשיך?\n"
+"\n"
+" האישור אינו מאומת.\n"
+" קבלת אישור לא מאומת משמעותה\n"
+" שאולי לא התחברת למארח אליו ניסית להתחבר.\n"
+" לעקוף את בדיקות האבטחה ולהמשיך?"
 
 #: lib/contents/ui/ErrorHandler.qml:79
 #, kde-format
@@ -135,7 +141,7 @@ msgstr "העמוד הזה אומר"
 msgid ""
 "The website asks for confirmation that you want to leave. Unsaved "
 "information might not be saved."
-msgstr ""
+msgstr "האתר מבקש לאשר את עזיבתך. מידע שלא נשמר ילך לאיבוד."
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:79
 #, kde-format
