@@ -16,6 +16,7 @@
   <name xml:lang="it">Angelfish</name>
   <name xml:lang="ka">Angelfish</name>
   <name xml:lang="ko">Angelfish</name>
+  <name xml:lang="lt">Angelfish</name>
   <name xml:lang="lv">Angelfish</name>
   <name xml:lang="nl">Angelfish</name>
   <name xml:lang="pa">ਐਂਜਲਫਿਸ਼</name>
@@ -435,6 +436,7 @@
       <caption xml:lang="it">Interfaccia utente desktop</caption>
       <caption xml:lang="ka">სამუშაო მაგიდის მომხმარებლის ინტერფეისი</caption>
       <caption xml:lang="ko">데스크톱 사용자 인터페이스</caption>
+      <caption xml:lang="lt">Darbalaukio naudotojo sąsaja</caption>
       <caption xml:lang="lv">Darbvirsmas lietotāja saskarne</caption>
       <caption xml:lang="nl">Gebruikersinterface op bureaublad</caption>
       <caption xml:lang="pa">ਡੈਸਕਟਾਪ ਵਰਤੋਂਕਾਰ ਇੰਟਰਫੇਸ</caption>
