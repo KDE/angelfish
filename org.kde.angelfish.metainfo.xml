@@ -455,9 +455,19 @@
       <image type="source">https://cdn.kde.org/screenshots/plasma-angelfish/desktop.png</image>
     </screenshot>
   </screenshots>
+  <recommends>
+    <control>touch</control>
+  </recommends>
   <url type="homepage">https://apps.kde.org/angelfish</url>
   <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?product=angelfish</url>
   <url type="donation">https://www.kde.org/community/donations/?app=angelfish&amp;source=appdata</url>
+  <url type="vcs-browser">https://invent.kde.org/network/angelfish</url>
+  <categories>
+    <category>Network</category>
+    <category>KDE</category>
+    <category>Qt</category>
+    <category>WebBrowser</category>
+  </categories>
   <provides>
     <binary>angelfish</binary>
   </provides>
