@@ -9,10 +9,13 @@ import QtWebEngine
 
 Kirigami.InlineMessage {
     id: downloadQuestion
+
+    property WebEngineDownloadRequest download
+
     text: i18n("Do you want to download this file?")
     showCloseButton: false
 
-    property WebEngineDownloadRequest download
+    position: Kirigami.Settings.isMobile ? Kirigami.InlineMessage.Footer : Kirigami.InlineMessage.Header
 
     actions: [
         Kirigami.Action {

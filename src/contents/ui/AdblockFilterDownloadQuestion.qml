@@ -12,6 +12,7 @@ Kirigami.InlineMessage {
     visible: AdblockUrlInterceptor.adblockSupported
 
     text: i18n("The ad blocker is missing its filter lists, do you want to download them now?")
+    position: Kirigami.Settings.isMobile ? Kirigami.InlineMessage.Footer : Kirigami.InlineMessage.Header
 
     AdblockFilterListsModel {
         id: filterListsModel

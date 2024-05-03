@@ -6,10 +6,13 @@ import org.kde.kirigami 2.4 as Kirigami
 import QtWebEngine 1.9
 
 Kirigami.InlineMessage {
+    id: permissionQuestion
+
     property int permission
     property string origin
 
-    id: permissionQuestion
+    position: Kirigami.Settings.isMobile ? Kirigami.InlineMessage.Footer : Kirigami.InlineMessage.Header
+
     text: {
         switch(permission) {
         case WebEngineView.Geolocation:
