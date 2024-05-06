@@ -6,6 +6,7 @@
 
 #include <QtTest/QTest>
 
+#include "angelfishsettings.h"
 #include "tabsmodel.h"
 
 class TabsModelTest : public QObject
@@ -16,6 +17,7 @@ private Q_SLOTS:
     void initTestCase()
     {
         m_tabsModel = new TabsModel();
+        AngelfishSettings::self()->setSwitchToNewTab(true);
     }
 
     void testInitialTabExists()
