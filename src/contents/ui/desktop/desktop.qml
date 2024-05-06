@@ -497,8 +497,8 @@ Kirigami.ApplicationWindow {
         // Unload the ShareSheet again after it closed
         Connections {
             target: sheetLoader.item
-            function onSheetOpenChanged() {
-                if (!sheetLoader.item.sheetOpen) {
+            function onOpened() {
+                if (!sheetLoader.item.opened) {
                     sheetLoader.source = ""
                 }
             }
