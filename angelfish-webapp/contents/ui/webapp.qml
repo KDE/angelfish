@@ -3,15 +3,14 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 import QtQuick 2.1
-import QtWebEngine 1.6
 import QtQuick.Window 2.3
+import QtQuick.Layouts 1.2
 import Qt5Compat.GraphicalEffects
 import Qt.labs.settings 1.0 as QtSettings
+import QtWebEngine
 
 import org.kde.kirigami 2.7 as Kirigami
 import org.kde.angelfish 1.0
-
-import QtQuick.Layouts 1.2
 
 Kirigami.ApplicationWindow {
     id: webBrowser
@@ -49,7 +48,8 @@ Kirigami.ApplicationWindow {
             errorCode: currentWebView.errorCode
 
             anchors.fill: parent
-            visible: currentWebView.errorCode !== ""
+            visible: currentWebView.errorDomain !== null
+                     && currentWebView.errorDomain !== WebEngineLoadingInfo.HttpStatusCodeDomain
             onRefreshRequested: currentWebView.reload()
         }
 

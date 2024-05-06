@@ -6,6 +6,7 @@ import QtQuick
 import QtQuick.Controls as QQC2
 import QtQuick.Layouts
 import QtQuick.Window
+import QtWebEngine
 
 import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.delegates as Delegates
@@ -471,7 +472,8 @@ Kirigami.ApplicationWindow {
                 right: parent.right
                 bottom: parent.bottom
             }
-            visible: currentWebView.errorCode !== ""
+            visible: currentWebView.errorDomain !== null
+                     && currentWebView.errorDomain !== WebEngineLoadingInfo.HttpStatusCodeDomain
 
             onRefreshRequested: currentWebView.reload()
             onCertificateIgnored: {

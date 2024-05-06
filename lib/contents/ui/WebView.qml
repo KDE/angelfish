@@ -14,7 +14,9 @@ import org.kde.angelfish 1.0
 WebEngineView {
     id: webEngineView
 
-    property string errorCode: ""
+    // int, but we want nullability
+    property var errorCode: null
+    property var errorDomain: null
     property string errorString: ""
 
     property bool privateMode: false
@@ -137,8 +139,9 @@ WebEngineView {
         *  - WebEngineView::LoadSucceededStatus and
         *  - WebEngineView::LoadFailedStatus
         */
-        var ec = "";
+        var ec = null;
         var es = "";
+        var ed = null;
         if (loadRequest.status === WebEngineView.LoadStartedStatus) {
             if (profile.httpUserAgent !== userAgent.userAgent) {
                 //print("Mismatch of user agents, will load later " + loadRequest.url);
@@ -160,16 +163,8 @@ WebEngineView {
                 BrowserManager.updateLastVisited(currentWebView.url);
             }
 
-            if (typeof AdblockUrlInterceptor === "undefined" || !AdblockUrlInterceptor.adblockSupported) {
-                return;
-            }
-
-            let script = AdblockUrlInterceptor.getInjectedScript(webEngineView.url)
-            if (script !== "") {
-                webEngineView.runJavaScript(script)
-            }
-
-            webEngineView.runJavaScript(
+            if (typeof AdblockUrlInterceptor !== "undefined" && AdblockUrlInterceptor.adblockSupported) {
+                webEngineView.runJavaScript(
 `var elements = document.querySelectorAll("*[id]");
 var ids = [];
 for (var i in elements) {
@@ -179,7 +174,7 @@ for (var i in elements) {
 }
 ids
 `, (ids) => {
-                webEngineView.runJavaScript(
+                    webEngineView.runJavaScript(
 `var elements = document.querySelectorAll("*[class]");
 var classes = [];
 for (var i in elements) {
@@ -189,19 +184,29 @@ for (var i in elements) {
 }
 classes
 `, (classes) => {
-                    let selectors = AdblockUrlInterceptor.getCosmeticFilters(webEngineView.url, classes, ids)
+                        let selectors = AdblockUrlInterceptor.getCosmeticFilters(webEngineView.url, classes, ids)
 
-                    for (var i = 0; i < selectors.length; i++) {
-                        webEngineView.runJavaScript(
+                        for (var i = 0; i < selectors.length; i++) {
+                            webEngineView.runJavaScript(
 `{
     let adblockStyleElement = document.createElement("style")
     adblockStyleElement.type = "text/css"
     adblockStyleElement.textContent = '${selectors[i]} { display: none !important; }'
     document.head.appendChild(adblockStyleElement);
 }`)
-                    }
+                        }
+                    })
                 })
-            })
+            }
+
+            let script = AdblockUrlInterceptor.getInjectedScript(webEngineView.url)
+            if (script !== "") {
+                webEngineView.runJavaScript(script)
+            }
+
+            ec = null;
+            es = "";
+            ed = null;
             loadingActive = false;
         }
         if (loadRequest.status === WebEngineView.LoadFailedStatus) {
@@ -209,6 +214,7 @@ classes
             print("Load failed url: " + loadRequest.url + " " + url);
             ec = loadRequest.errorCode;
             es = loadRequest.errorString;
+            ed = loadRequest.errorDomain
             loadingActive = false;
 
             // update requested URL only after its clear that it fails.
@@ -217,6 +223,7 @@ classes
                 requestedUrl = loadRequest.url;
         }
         errorCode = ec;
+        errorDomain = ed;
         errorString = es;
     }
 

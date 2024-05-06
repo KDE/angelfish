@@ -16,7 +16,7 @@ Item {
     signal refreshRequested
     signal certificateIgnored
 
-    property string errorCode: ""
+    property var errorCode
     property alias errorString: errorDescription.text
     property var certErrors: []
 
