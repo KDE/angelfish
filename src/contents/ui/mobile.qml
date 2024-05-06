@@ -99,7 +99,7 @@ Kirigami.ApplicationWindow {
                 text: i18n("Settings")
                 onTriggered: {
                     popSubPages();
-                    pageStack.push("qrc:/SettingsPage.qml");
+                    pageStack.pushDialogLayer("qrc:/SettingsPage.qml");
                 }
             }
         ]
