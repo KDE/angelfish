@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-11 00:37+0000\n"
+"POT-Creation-Date: 2024-05-07 00:38+0000\n"
 "PO-Revision-Date: 2023-04-29 12:28+0200\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -206,7 +206,7 @@ msgstr "Annehmen"
 msgid "Decline"
 msgstr "Ablehnen"
 
-#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:288
+#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:289
 #, kde-format
 msgid "Print"
 msgstr "Drucken"
@@ -246,173 +246,173 @@ msgstr "Druckhintergründe"
 msgid "Save"
 msgstr "Speichern"
 
-#: lib/contents/ui/WebView.qml:236
+#: lib/contents/ui/WebView.qml:243
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr "Webseite wurde in neuem Unterfenster geöffnet"
 
-#: lib/contents/ui/WebView.qml:254
+#: lib/contents/ui/WebView.qml:261
 #, kde-format
 msgid "Entered Full Screen Mode"
 msgstr "Vollbildmodus starten"
 
-#: lib/contents/ui/WebView.qml:255
+#: lib/contents/ui/WebView.qml:262
 #, kde-format
 msgid "Exit Full Screen (Esc)"
 msgstr "Vollbildmodus beenden (Esc)"
 
-#: lib/contents/ui/WebView.qml:388
+#: lib/contents/ui/WebView.qml:395
 #, kde-format
 msgid "Play"
 msgstr "Wiedergabe"
 
-#: lib/contents/ui/WebView.qml:389 src/contents/ui/Downloads.qml:105
+#: lib/contents/ui/WebView.qml:396 src/contents/ui/Downloads.qml:105
 #, kde-format
 msgid "Pause"
 msgstr "Pausieren"
 
-#: lib/contents/ui/WebView.qml:396
+#: lib/contents/ui/WebView.qml:403
 #, kde-format
 msgid "Unmute"
 msgstr "Stummschaltung aufheben"
 
-#: lib/contents/ui/WebView.qml:397
+#: lib/contents/ui/WebView.qml:404
 #, kde-format
 msgid "Mute"
 msgstr "Stummschalten"
 
-#: lib/contents/ui/WebView.qml:407
+#: lib/contents/ui/WebView.qml:414
 #, kde-format
 msgid "Speed"
 msgstr "Geschwindigkeit"
 
-#: lib/contents/ui/WebView.qml:430
+#: lib/contents/ui/WebView.qml:437
 #, kde-format
 msgid "Loop"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:437
+#: lib/contents/ui/WebView.qml:444
 #, kde-format
 msgid "Exit fullscreen"
 msgstr "Vollbildmodus beenden"
 
-#: lib/contents/ui/WebView.qml:437
+#: lib/contents/ui/WebView.qml:444
 #, kde-format
 msgid "Fullscreen"
 msgstr "Vollbild"
 
-#: lib/contents/ui/WebView.qml:450
+#: lib/contents/ui/WebView.qml:457
 #, kde-format
 msgid "Hide controls"
 msgstr "Bedienelemente ausblenden"
 
-#: lib/contents/ui/WebView.qml:451
+#: lib/contents/ui/WebView.qml:458
 #, kde-format
 msgid "Show controls"
 msgstr "Bedienelemente anzeigen"
 
-#: lib/contents/ui/WebView.qml:459
+#: lib/contents/ui/WebView.qml:466
 #, kde-format
 msgid "Open video"
 msgstr "Video öffnen"
 
-#: lib/contents/ui/WebView.qml:459
+#: lib/contents/ui/WebView.qml:466
 #, kde-format
 msgid "Open audio"
 msgstr "Audio öffnen"
 
-#: lib/contents/ui/WebView.qml:460
+#: lib/contents/ui/WebView.qml:467
 #, kde-format
 msgid "Open video in new Tab"
 msgstr "Video in neuem Unterfenster öffnen"
 
-#: lib/contents/ui/WebView.qml:460
+#: lib/contents/ui/WebView.qml:467
 #, kde-format
 msgid "Open audio in new Tab"
 msgstr "Audio in neuem Unterfenster öffnen"
 
-#: lib/contents/ui/WebView.qml:472
+#: lib/contents/ui/WebView.qml:479
 #, kde-format
 msgid "Save video"
 msgstr "Video speichern"
 
-#: lib/contents/ui/WebView.qml:478
+#: lib/contents/ui/WebView.qml:485
 #, kde-format
 msgid "Copy video Link"
 msgstr "Videoadresse kopieren"
 
-#: lib/contents/ui/WebView.qml:484
+#: lib/contents/ui/WebView.qml:491
 #, kde-format
 msgid "Open image"
 msgstr "Bild öffnen"
 
-#: lib/contents/ui/WebView.qml:484
+#: lib/contents/ui/WebView.qml:491
 #, kde-format
 msgid "Open image in new Tab"
 msgstr "Bild in neuem Unterfenster öffnen"
 
-#: lib/contents/ui/WebView.qml:496
+#: lib/contents/ui/WebView.qml:503
 #, kde-format
 msgid "Save image"
 msgstr "Bild speichern"
 
-#: lib/contents/ui/WebView.qml:502
+#: lib/contents/ui/WebView.qml:509
 #, kde-format
 msgid "Copy image"
 msgstr "Bild kopieren"
 
-#: lib/contents/ui/WebView.qml:508
+#: lib/contents/ui/WebView.qml:515
 #, kde-format
 msgid "Copy image link"
 msgstr "Bildadresse kopieren"
 
-#: lib/contents/ui/WebView.qml:514
+#: lib/contents/ui/WebView.qml:521
 #, kde-format
 msgid "Open link"
 msgstr "Verknüpfung öffnen"
 
-#: lib/contents/ui/WebView.qml:514
+#: lib/contents/ui/WebView.qml:521
 #, kde-format
 msgid "Open link in new Tab"
 msgstr "Verknüpfung in neuem Unterfenster öffnen"
 
-#: lib/contents/ui/WebView.qml:526
+#: lib/contents/ui/WebView.qml:533
 #, kde-format
 msgid "Bookmark link"
 msgstr "Lesezeichen für Verknüpfung"
 
-#: lib/contents/ui/WebView.qml:538
+#: lib/contents/ui/WebView.qml:545
 #, kde-format
 msgid "Save link"
 msgstr "Verknüpfung speichern"
 
-#: lib/contents/ui/WebView.qml:544
+#: lib/contents/ui/WebView.qml:551
 #, kde-format
 msgid "Copy link"
 msgstr "Verknüpfung kopieren"
 
-#: lib/contents/ui/WebView.qml:551
+#: lib/contents/ui/WebView.qml:558
 #, kde-format
 msgid "Copy"
 msgstr "Kopieren"
 
-#: lib/contents/ui/WebView.qml:557
+#: lib/contents/ui/WebView.qml:564
 #, kde-format
 msgid "Cut"
 msgstr "Ausschneiden"
 
-#: lib/contents/ui/WebView.qml:563
+#: lib/contents/ui/WebView.qml:570
 #, kde-format
 msgid "Paste"
 msgstr "Einfügen"
 
-#: lib/contents/ui/WebView.qml:584 src/contents/ui/desktop/desktop.qml:337
-#: src/contents/ui/mobile.qml:282
+#: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:338
+#: src/contents/ui/mobile.qml:284
 #, kde-format
 msgid "Share page"
 msgstr "Seite teilen"
 
-#: lib/contents/ui/WebView.qml:596
+#: lib/contents/ui/WebView.qml:603
 #, kde-format
 msgid "View page source"
 msgstr "Seitenquelltext anzeigen"
@@ -430,8 +430,8 @@ msgstr ""
 msgid "Downloading..."
 msgstr "Wird heruntergeladen ..."
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:267
-#: src/contents/ui/mobile.qml:79
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:268
+#: src/contents/ui/mobile.qml:80
 #, kde-format
 msgid "Bookmarks"
 msgstr "Lesezeichen"
@@ -446,76 +446,76 @@ msgstr "In Lesezeichen suchen ..."
 msgid "No bookmarks yet"
 msgstr "Keine Lesezeichen vorhanden"
 
-#: src/contents/ui/desktop/desktop.qml:118
+#: src/contents/ui/desktop/desktop.qml:119
 #, kde-format
 msgid "Search or enter URL…"
 msgstr "Suchen oder eine Adresse eingeben ..."
 
-#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/desktop/Tabs.qml:349
+#: src/contents/ui/desktop/desktop.qml:243 src/contents/ui/desktop/Tabs.qml:349
 #: src/contents/ui/Tabs.qml:49
 #, kde-format
 msgid "New Tab"
 msgstr "Neues Unterfenster"
 
-#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/mobile.qml:71
+#: src/contents/ui/desktop/desktop.qml:250 src/contents/ui/mobile.qml:72
 #, kde-format
 msgid "Leave private mode"
 msgstr "Privaten Modus verlassen"
 
-#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/mobile.qml:71
+#: src/contents/ui/desktop/desktop.qml:250 src/contents/ui/mobile.qml:72
 #, kde-format
 msgid "Private mode"
 msgstr "Privater Modus"
 
-#: src/contents/ui/desktop/desktop.qml:258 src/contents/ui/History.qml:12
-#: src/contents/ui/mobile.qml:87
+#: src/contents/ui/desktop/desktop.qml:259 src/contents/ui/History.qml:12
+#: src/contents/ui/mobile.qml:88
 #, kde-format
 msgid "History"
 msgstr "Verlauf"
 
-#: src/contents/ui/desktop/desktop.qml:276 src/contents/ui/Downloads.qml:16
-#: src/contents/ui/mobile.qml:91
+#: src/contents/ui/desktop/desktop.qml:277 src/contents/ui/Downloads.qml:16
+#: src/contents/ui/mobile.qml:92
 #, kde-format
 msgid "Downloads"
 msgstr "Downloads"
 
-#: src/contents/ui/desktop/desktop.qml:294
+#: src/contents/ui/desktop/desktop.qml:295
 #, kde-format
 msgid "Full Screen"
 msgstr "Vollbild"
 
-#: src/contents/ui/desktop/desktop.qml:311
+#: src/contents/ui/desktop/desktop.qml:312
 #, kde-format
 msgid "Hide developer tools"
 msgstr "Entwicklungswerkzeuge ausblenden"
 
-#: src/contents/ui/desktop/desktop.qml:312 src/contents/ui/mobile.qml:378
+#: src/contents/ui/desktop/desktop.qml:313 src/contents/ui/mobile.qml:380
 #, kde-format
 msgid "Show developer tools"
 msgstr "Entwicklungswerkzeuge anzeigen"
 
-#: src/contents/ui/desktop/desktop.qml:321 src/contents/ui/mobile.qml:278
+#: src/contents/ui/desktop/desktop.qml:322 src/contents/ui/mobile.qml:280
 #, kde-format
 msgid "Find in page"
 msgstr "In Seite suchen"
 
-#: src/contents/ui/desktop/desktop.qml:330
+#: src/contents/ui/desktop/desktop.qml:331
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "LesemodusLesemodus"
 
-#: src/contents/ui/desktop/desktop.qml:347
+#: src/contents/ui/desktop/desktop.qml:348
 #, kde-format
 msgid "Add to application launcher"
 msgstr "Zu Anwendungsstarter hinzufügen"
 
-#: src/contents/ui/desktop/desktop.qml:366 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:367 src/contents/ui/mobile.qml:100
 #, kde-format
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: src/contents/ui/desktop/desktop.qml:373
+#: src/contents/ui/desktop/desktop.qml:374
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "Angelfish einrichten"
@@ -654,73 +654,73 @@ msgstr "Fortsetzen"
 msgid "Search..."
 msgstr "Suchen ..."
 
-#: src/contents/ui/mobile.qml:18
+#: src/contents/ui/mobile.qml:19
 #, kde-format
 msgid "Angelfish Web Browser"
 msgstr "Angelfish-Webbrowser"
 
-#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:42
+#: src/contents/ui/mobile.qml:65 src/contents/ui/Tabs.qml:42
 #, kde-format
 msgid "Tabs"
 msgstr "Unterfenster"
 
-#: src/contents/ui/mobile.qml:293
+#: src/contents/ui/mobile.qml:295
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Zu Startbildschirm hinzufügen"
 
-#: src/contents/ui/mobile.qml:303
+#: src/contents/ui/mobile.qml:305
 #, kde-format
 msgid "Open in app"
 msgstr "In Anwendung öffnen"
 
-#: src/contents/ui/mobile.qml:311
+#: src/contents/ui/mobile.qml:313
 #, kde-format
 msgid "Go previous"
 msgstr "Zurück"
 
-#: src/contents/ui/mobile.qml:319
+#: src/contents/ui/mobile.qml:321
 #: src/contents/ui/SettingsNavigationBarPage.qml:73
 #, kde-format
 msgid "Go forward"
 msgstr "Vorwärts"
 
-#: src/contents/ui/mobile.qml:326
+#: src/contents/ui/mobile.qml:328
 #, kde-format
 msgid "Stop loading"
 msgstr "Ladevorgang abbrechen"
 
-#: src/contents/ui/mobile.qml:326
+#: src/contents/ui/mobile.qml:328
 #, kde-format
 msgid "Refresh"
 msgstr "Aktualisieren"
 
-#: src/contents/ui/mobile.qml:336
+#: src/contents/ui/mobile.qml:338
 #, kde-format
 msgid "Bookmarked"
 msgstr "Lesezeichen angelegt"
 
-#: src/contents/ui/mobile.qml:336
+#: src/contents/ui/mobile.qml:338
 #, kde-format
 msgid "Bookmark"
 msgstr "Lesezeichen"
 
-#: src/contents/ui/mobile.qml:352
+#: src/contents/ui/mobile.qml:354
 #, kde-format
 msgid "Show desktop site"
 msgstr "Desktop-Seite anzeigen"
 
-#: src/contents/ui/mobile.qml:361
+#: src/contents/ui/mobile.qml:363
 #, kde-format
 msgid "Reader Mode"
 msgstr "LesemodusLesemodus"
 
-#: src/contents/ui/mobile.qml:369
+#: src/contents/ui/mobile.qml:371
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "Navigationsleiste ausblenden"
 
-#: src/contents/ui/mobile.qml:369
+#: src/contents/ui/mobile.qml:371
 #, kde-format
 msgid "Show navigation bar"
 msgstr "Navigationsleiste anzeigen"

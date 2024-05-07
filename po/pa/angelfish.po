@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-11 00:37+0000\n"
+"POT-Creation-Date: 2024-05-07 00:38+0000\n"
 "PO-Revision-Date: 2024-02-11 11:49-0600\n"
 "Last-Translator: A S Alam <aalam@punlinux.org>\n"
 "Language-Team: Punjabi <kde-i18n-doc@kde.org>\n"
@@ -201,7 +201,7 @@ msgstr "ਮਨਜ਼ੂਰ ਕਰੋ"
 msgid "Decline"
 msgstr "ਇਨਕਾਰ"
 
-#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:288
+#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:289
 #, kde-format
 msgid "Print"
 msgstr "ਪਰਿੰਟ ਕਰੋ"
@@ -241,173 +241,173 @@ msgstr "ਬੈਕਗਰਾਊਂਡ ਨੂੰ ਪਰਿੰਟ ਕਰੋ"
 msgid "Save"
 msgstr "ਸੰਭਾਲੋ"
 
-#: lib/contents/ui/WebView.qml:236
+#: lib/contents/ui/WebView.qml:243
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr "ਵੈੱਬਸਾਈਟ ਨੂੰ ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹਿਆ ਗਿਆ ਸੀ"
 
-#: lib/contents/ui/WebView.qml:254
+#: lib/contents/ui/WebView.qml:261
 #, kde-format
 msgid "Entered Full Screen Mode"
 msgstr "ਪੂਰੀ ਸਕਰੀਨ ਮੋਡ ਵਿੱਚ ਗਏ"
 
-#: lib/contents/ui/WebView.qml:255
+#: lib/contents/ui/WebView.qml:262
 #, kde-format
 msgid "Exit Full Screen (Esc)"
 msgstr "ਪੂਰੀ ਸਕਰੀਨ ਛੱਡੋ (Esc)"
 
-#: lib/contents/ui/WebView.qml:388
+#: lib/contents/ui/WebView.qml:395
 #, kde-format
 msgid "Play"
 msgstr "ਚਲਾਓ"
 
-#: lib/contents/ui/WebView.qml:389 src/contents/ui/Downloads.qml:105
+#: lib/contents/ui/WebView.qml:396 src/contents/ui/Downloads.qml:105
 #, kde-format
 msgid "Pause"
 msgstr "ਵਿਰਾਮ"
 
-#: lib/contents/ui/WebView.qml:396
+#: lib/contents/ui/WebView.qml:403
 #, kde-format
 msgid "Unmute"
 msgstr "ਨਾ-ਚੁੱਪ"
 
-#: lib/contents/ui/WebView.qml:397
+#: lib/contents/ui/WebView.qml:404
 #, kde-format
 msgid "Mute"
 msgstr "ਚੁੱਪ"
 
-#: lib/contents/ui/WebView.qml:407
+#: lib/contents/ui/WebView.qml:414
 #, kde-format
 msgid "Speed"
 msgstr "ਗਤੀ"
 
-#: lib/contents/ui/WebView.qml:430
+#: lib/contents/ui/WebView.qml:437
 #, kde-format
 msgid "Loop"
 msgstr "ਲੂਪ"
 
-#: lib/contents/ui/WebView.qml:437
+#: lib/contents/ui/WebView.qml:444
 #, kde-format
 msgid "Exit fullscreen"
 msgstr "ਪੂਰੀ ਸਕਰੀਨ ਤੋਂ ਬਾਹਰ"
 
-#: lib/contents/ui/WebView.qml:437
+#: lib/contents/ui/WebView.qml:444
 #, kde-format
 msgid "Fullscreen"
 msgstr "ਪੂਰੀ ਸਕਰੀਨ"
 
-#: lib/contents/ui/WebView.qml:450
+#: lib/contents/ui/WebView.qml:457
 #, kde-format
 msgid "Hide controls"
 msgstr "ਕੰਟਰੋਲ ਓਹਲੇ"
 
-#: lib/contents/ui/WebView.qml:451
+#: lib/contents/ui/WebView.qml:458
 #, kde-format
 msgid "Show controls"
 msgstr "ਕੰਟਰੋਲ ਵੇਖੋ"
 
-#: lib/contents/ui/WebView.qml:459
+#: lib/contents/ui/WebView.qml:466
 #, kde-format
 msgid "Open video"
 msgstr "ਵੀਡੀਓ ਨੂੰ ਖੋਲ੍ਹੋ"
 
-#: lib/contents/ui/WebView.qml:459
+#: lib/contents/ui/WebView.qml:466
 #, kde-format
 msgid "Open audio"
 msgstr "ਆਡੀਓ ਨੂੰ ਖੋਲ੍ਹੋ"
 
-#: lib/contents/ui/WebView.qml:460
+#: lib/contents/ui/WebView.qml:467
 #, kde-format
 msgid "Open video in new Tab"
 msgstr "ਵੀਡੀਓ ਨੂੰ ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹੋ"
 
-#: lib/contents/ui/WebView.qml:460
+#: lib/contents/ui/WebView.qml:467
 #, kde-format
 msgid "Open audio in new Tab"
 msgstr "ਆਡੀਓ ਨੂੰ ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹੋ"
 
-#: lib/contents/ui/WebView.qml:472
+#: lib/contents/ui/WebView.qml:479
 #, kde-format
 msgid "Save video"
 msgstr "ਵੀਡੀਓ ਨੂੰ ਸੰਭਾਲੋ"
 
-#: lib/contents/ui/WebView.qml:478
+#: lib/contents/ui/WebView.qml:485
 #, kde-format
 msgid "Copy video Link"
 msgstr "ਵੀਡੀਓ ਲਿੰਕ ਨੂੰ ਕਾਪੀ ਕਰੋ"
 
-#: lib/contents/ui/WebView.qml:484
+#: lib/contents/ui/WebView.qml:491
 #, kde-format
 msgid "Open image"
 msgstr "ਚਿੱਤਰ ਨੂੰ ਖੋਲ੍ਹੋ"
 
-#: lib/contents/ui/WebView.qml:484
+#: lib/contents/ui/WebView.qml:491
 #, kde-format
 msgid "Open image in new Tab"
 msgstr "ਚਿੱਤਰ ਨੂੰ ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹੋ"
 
-#: lib/contents/ui/WebView.qml:496
+#: lib/contents/ui/WebView.qml:503
 #, kde-format
 msgid "Save image"
 msgstr "ਚਿੱਤਰ ਨੂੰ ਸੰਭਾਲੋ"
 
-#: lib/contents/ui/WebView.qml:502
+#: lib/contents/ui/WebView.qml:509
 #, kde-format
 msgid "Copy image"
 msgstr "ਚਿੱਤਰ ਨੂੰ ਕਾਪੀ ਕਰੋ"
 
-#: lib/contents/ui/WebView.qml:508
+#: lib/contents/ui/WebView.qml:515
 #, kde-format
 msgid "Copy image link"
 msgstr "ਚਿੱਤਰ ਦੇ ਲਿੰਕ ਨੂੰ ਕਾਪੀ ਕਰੋ"
 
-#: lib/contents/ui/WebView.qml:514
+#: lib/contents/ui/WebView.qml:521
 #, kde-format
 msgid "Open link"
 msgstr "ਲਿੰਕ ਨੂੰ ਖੋਲ੍ਹੋ"
 
-#: lib/contents/ui/WebView.qml:514
+#: lib/contents/ui/WebView.qml:521
 #, kde-format
 msgid "Open link in new Tab"
 msgstr "ਲਿੰਕ ਨੂੰ ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹੋ"
 
-#: lib/contents/ui/WebView.qml:526
+#: lib/contents/ui/WebView.qml:533
 #, kde-format
 msgid "Bookmark link"
 msgstr "ਲਿੰਕ ਨੂੰ ਬੁੱਕਮਾਰਕ ਕਰੋ"
 
-#: lib/contents/ui/WebView.qml:538
+#: lib/contents/ui/WebView.qml:545
 #, kde-format
 msgid "Save link"
 msgstr "ਲਿੰਕ ਨੂੰ ਸੰਭਾਲੋ"
 
-#: lib/contents/ui/WebView.qml:544
+#: lib/contents/ui/WebView.qml:551
 #, kde-format
 msgid "Copy link"
 msgstr "ਲਿੰਕ ਨੂੰ ਕਾਪੀ ਕਰੋ"
 
-#: lib/contents/ui/WebView.qml:551
+#: lib/contents/ui/WebView.qml:558
 #, kde-format
 msgid "Copy"
 msgstr "ਕਾਪੀ ਕਰੋ"
 
-#: lib/contents/ui/WebView.qml:557
+#: lib/contents/ui/WebView.qml:564
 #, kde-format
 msgid "Cut"
 msgstr "ਕੱਟੋ"
 
-#: lib/contents/ui/WebView.qml:563
+#: lib/contents/ui/WebView.qml:570
 #, kde-format
 msgid "Paste"
 msgstr "ਚੇਪੋ"
 
-#: lib/contents/ui/WebView.qml:584 src/contents/ui/desktop/desktop.qml:337
-#: src/contents/ui/mobile.qml:282
+#: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:338
+#: src/contents/ui/mobile.qml:284
 #, kde-format
 msgid "Share page"
 msgstr "ਸਫ਼ੇ ਨੂੰ ਸਾਂਝਾ ਕਰੋ"
 
-#: lib/contents/ui/WebView.qml:596
+#: lib/contents/ui/WebView.qml:603
 #, kde-format
 msgid "View page source"
 msgstr "ਸਫ਼ੇ ਦੇ ਸਰੋਤ ਨੂੰ ਵੇਖੋ"
@@ -424,8 +424,8 @@ msgstr ""
 msgid "Downloading..."
 msgstr "ਡਾਊਨਲੋਡ ਜਾਰੀ ਹੈ…"
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:267
-#: src/contents/ui/mobile.qml:79
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:268
+#: src/contents/ui/mobile.qml:80
 #, kde-format
 msgid "Bookmarks"
 msgstr "ਬੁੱਕਮਾਰਕ"
@@ -440,76 +440,76 @@ msgstr "…ਬੁੱਕਮਾਰਕ ਲੱਭੋ"
 msgid "No bookmarks yet"
 msgstr "ਹਾਲੇ ਕੋਈ ਬੁੱਕਮਾਰਕ ਨਹੀਂ ਹਨ"
 
-#: src/contents/ui/desktop/desktop.qml:118
+#: src/contents/ui/desktop/desktop.qml:119
 #, kde-format
 msgid "Search or enter URL…"
 msgstr "ਖੋਜੋ ਜਾਂ URL ਦਿਓ…"
 
-#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/desktop/Tabs.qml:349
+#: src/contents/ui/desktop/desktop.qml:243 src/contents/ui/desktop/Tabs.qml:349
 #: src/contents/ui/Tabs.qml:49
 #, kde-format
 msgid "New Tab"
 msgstr "ਨਵੀਂ ਟੈਬ"
 
-#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/mobile.qml:71
+#: src/contents/ui/desktop/desktop.qml:250 src/contents/ui/mobile.qml:72
 #, kde-format
 msgid "Leave private mode"
 msgstr "ਪ੍ਰਾਈਵੇਟ ਢੰਗ ਛੱਡੋ"
 
-#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/mobile.qml:71
+#: src/contents/ui/desktop/desktop.qml:250 src/contents/ui/mobile.qml:72
 #, kde-format
 msgid "Private mode"
 msgstr "ਪ੍ਰਾਈਵੇਟ ਢੰਗ"
 
-#: src/contents/ui/desktop/desktop.qml:258 src/contents/ui/History.qml:12
-#: src/contents/ui/mobile.qml:87
+#: src/contents/ui/desktop/desktop.qml:259 src/contents/ui/History.qml:12
+#: src/contents/ui/mobile.qml:88
 #, kde-format
 msgid "History"
 msgstr "ਅਤੀਤ"
 
-#: src/contents/ui/desktop/desktop.qml:276 src/contents/ui/Downloads.qml:16
-#: src/contents/ui/mobile.qml:91
+#: src/contents/ui/desktop/desktop.qml:277 src/contents/ui/Downloads.qml:16
+#: src/contents/ui/mobile.qml:92
 #, kde-format
 msgid "Downloads"
 msgstr "ਡਾਊਨਲੋਡ"
 
-#: src/contents/ui/desktop/desktop.qml:294
+#: src/contents/ui/desktop/desktop.qml:295
 #, kde-format
 msgid "Full Screen"
 msgstr "ਪੂਰੀ ਸਕਰੀਨ"
 
-#: src/contents/ui/desktop/desktop.qml:311
+#: src/contents/ui/desktop/desktop.qml:312
 #, kde-format
 msgid "Hide developer tools"
 msgstr "ਡਿਵੈਲਪਰ ਟੂਲ ਓਹਲੇ"
 
-#: src/contents/ui/desktop/desktop.qml:312 src/contents/ui/mobile.qml:378
+#: src/contents/ui/desktop/desktop.qml:313 src/contents/ui/mobile.qml:380
 #, kde-format
 msgid "Show developer tools"
 msgstr "ਡਿਵੈਲਪਰ ਟੂਲ ਵੇਖਾਓ"
 
-#: src/contents/ui/desktop/desktop.qml:321 src/contents/ui/mobile.qml:278
+#: src/contents/ui/desktop/desktop.qml:322 src/contents/ui/mobile.qml:280
 #, kde-format
 msgid "Find in page"
 msgstr "ਸਫ਼ੇ ਵਿੱਚ ਲੱਭੋ"
 
-#: src/contents/ui/desktop/desktop.qml:330
+#: src/contents/ui/desktop/desktop.qml:331
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "ਰੀਡਰ ਮੋਡ"
 
-#: src/contents/ui/desktop/desktop.qml:347
+#: src/contents/ui/desktop/desktop.qml:348
 #, kde-format
 msgid "Add to application launcher"
 msgstr "ਐਪਲੀਕੇਸ਼ਨ ਲਾਂਚਰ ਵਿੱਚ ਜੋੜੋ"
 
-#: src/contents/ui/desktop/desktop.qml:366 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:367 src/contents/ui/mobile.qml:100
 #, kde-format
 msgid "Settings"
 msgstr "ਸੈਟਿੰਗਾਂ"
 
-#: src/contents/ui/desktop/desktop.qml:373
+#: src/contents/ui/desktop/desktop.qml:374
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "ਐਂਜਲਫਿਸ਼ ਦੀ ਸੰਰਚਨਾ"
@@ -648,73 +648,73 @@ msgstr "ਜਾਰੀ ਰੱਖੋ"
 msgid "Search..."
 msgstr "...ਖੋਜੋ"
 
-#: src/contents/ui/mobile.qml:18
+#: src/contents/ui/mobile.qml:19
 #, kde-format
 msgid "Angelfish Web Browser"
 msgstr "ਐਂਜਲਫਿਸ਼ ਵੈੱਬ ਬਰਾਊਜ਼ਰ"
 
-#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:42
+#: src/contents/ui/mobile.qml:65 src/contents/ui/Tabs.qml:42
 #, kde-format
 msgid "Tabs"
 msgstr "ਟੈਬਾਂ"
 
-#: src/contents/ui/mobile.qml:293
+#: src/contents/ui/mobile.qml:295
 #, kde-format
 msgid "Add to homescreen"
 msgstr "ਮੁੱਖ-ਸਕਰੀਨ ਉੱਤੇ ਜੋੜੋ"
 
-#: src/contents/ui/mobile.qml:303
+#: src/contents/ui/mobile.qml:305
 #, kde-format
 msgid "Open in app"
 msgstr "ਐਪ ਵਿੱਚ ਖੋਲ੍ਹੋ"
 
-#: src/contents/ui/mobile.qml:311
+#: src/contents/ui/mobile.qml:313
 #, kde-format
 msgid "Go previous"
 msgstr "ਪਿੱਛੇ ਜਾਓ"
 
-#: src/contents/ui/mobile.qml:319
+#: src/contents/ui/mobile.qml:321
 #: src/contents/ui/SettingsNavigationBarPage.qml:73
 #, kde-format
 msgid "Go forward"
 msgstr "ਅੱਗੇ ਜਾਓ"
 
-#: src/contents/ui/mobile.qml:326
+#: src/contents/ui/mobile.qml:328
 #, kde-format
 msgid "Stop loading"
 msgstr "ਲੋਡ ਕਰਨਾ ਰੋਕੋ"
 
-#: src/contents/ui/mobile.qml:326
+#: src/contents/ui/mobile.qml:328
 #, kde-format
 msgid "Refresh"
 msgstr "ਤਾਜ਼ਾ ਕਰੋ"
 
-#: src/contents/ui/mobile.qml:336
+#: src/contents/ui/mobile.qml:338
 #, kde-format
 msgid "Bookmarked"
 msgstr "ਬੁੱਕਮਾਰਕ ਕੀਤਾ"
 
-#: src/contents/ui/mobile.qml:336
+#: src/contents/ui/mobile.qml:338
 #, kde-format
 msgid "Bookmark"
 msgstr "ਬੁੱਕਮਾਰਕ ਕਰੋ"
 
-#: src/contents/ui/mobile.qml:352
+#: src/contents/ui/mobile.qml:354
 #, kde-format
 msgid "Show desktop site"
 msgstr "ਡੈਸਕਟਾਪ ਸਾਈਟ ਵੇਖਾਓ"
 
-#: src/contents/ui/mobile.qml:361
+#: src/contents/ui/mobile.qml:363
 #, kde-format
 msgid "Reader Mode"
 msgstr "ਰੀਡਰ ਮੋਡ"
 
-#: src/contents/ui/mobile.qml:369
+#: src/contents/ui/mobile.qml:371
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "ਨੇਵੀਗੇਸ਼ਨ ਪੱਟੀ ਲੁਕਾਓ"
 
-#: src/contents/ui/mobile.qml:369
+#: src/contents/ui/mobile.qml:371
 #, kde-format
 msgid "Show navigation bar"
 msgstr "ਨੇਵੀਗੇਸ਼ਨ ਪੱਟੀ ਵੇਖਾਓ"

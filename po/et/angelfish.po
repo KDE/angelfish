@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-11 00:37+0000\n"
+"POT-Creation-Date: 2024-05-07 00:38+0000\n"
 "PO-Revision-Date: 2020-06-03 20:47+0300\n"
 "Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
 "Language-Team: Estonian <kde-et@lists.linux.ee>\n"
@@ -195,7 +195,7 @@ msgstr "Nõustu"
 msgid "Decline"
 msgstr "Keeldu"
 
-#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:288
+#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:289
 #, kde-format
 msgid "Print"
 msgstr ""
@@ -235,183 +235,183 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:236
+#: lib/contents/ui/WebView.qml:243
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr "Veebilehekülg avati uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:254
+#: lib/contents/ui/WebView.qml:261
 #, kde-format
 msgid "Entered Full Screen Mode"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:255
+#: lib/contents/ui/WebView.qml:262
 #, kde-format
 msgid "Exit Full Screen (Esc)"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:388
+#: lib/contents/ui/WebView.qml:395
 #, kde-format
 msgid "Play"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:389 src/contents/ui/Downloads.qml:105
+#: lib/contents/ui/WebView.qml:396 src/contents/ui/Downloads.qml:105
 #, kde-format
 msgid "Pause"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:396
+#: lib/contents/ui/WebView.qml:403
 #, kde-format
 msgid "Unmute"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:397
+#: lib/contents/ui/WebView.qml:404
 #, kde-format
 msgid "Mute"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:407
+#: lib/contents/ui/WebView.qml:414
 #, kde-format
 msgid "Speed"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:430
+#: lib/contents/ui/WebView.qml:437
 #, kde-format
 msgid "Loop"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:437
+#: lib/contents/ui/WebView.qml:444
 #, kde-format
 msgid "Exit fullscreen"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:437
+#: lib/contents/ui/WebView.qml:444
 #, kde-format
 msgid "Fullscreen"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:450
+#: lib/contents/ui/WebView.qml:457
 #, kde-format
 msgid "Hide controls"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:451
+#: lib/contents/ui/WebView.qml:458
 #, kde-format
 msgid "Show controls"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:459
+#: lib/contents/ui/WebView.qml:466
 #, kde-format
 msgid "Open video"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:459
+#: lib/contents/ui/WebView.qml:466
 #, kde-format
 msgid "Open audio"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:460
+#: lib/contents/ui/WebView.qml:467
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgid "Open video in new Tab"
 msgstr "Ava uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:460
+#: lib/contents/ui/WebView.qml:467
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgid "Open audio in new Tab"
 msgstr "Ava uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:472
+#: lib/contents/ui/WebView.qml:479
 #, kde-format
 msgid "Save video"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:478
+#: lib/contents/ui/WebView.qml:485
 #, kde-format
 msgid "Copy video Link"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:484
+#: lib/contents/ui/WebView.qml:491
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgid "Open image"
 msgstr "Ava uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:484
+#: lib/contents/ui/WebView.qml:491
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgid "Open image in new Tab"
 msgstr "Ava uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:496
+#: lib/contents/ui/WebView.qml:503
 #, fuzzy, kde-format
 #| msgid "Leave page"
 msgid "Save image"
 msgstr "Lahku leheküljelt"
 
-#: lib/contents/ui/WebView.qml:502
+#: lib/contents/ui/WebView.qml:509
 #, fuzzy, kde-format
 #| msgid "Load images"
 msgid "Copy image"
 msgstr "Piltide laadimine"
 
-#: lib/contents/ui/WebView.qml:508
+#: lib/contents/ui/WebView.qml:515
 #, kde-format
 msgid "Copy image link"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:514
+#: lib/contents/ui/WebView.qml:521
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgid "Open link"
 msgstr "Ava uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:514
+#: lib/contents/ui/WebView.qml:521
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgid "Open link in new Tab"
 msgstr "Ava uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:526
+#: lib/contents/ui/WebView.qml:533
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgid "Bookmark link"
 msgstr "Järjehoidjatesse"
 
-#: lib/contents/ui/WebView.qml:538
+#: lib/contents/ui/WebView.qml:545
 #, kde-format
 msgid "Save link"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:544
+#: lib/contents/ui/WebView.qml:551
 #, fuzzy, kde-format
 #| msgid "Copy Url"
 msgid "Copy link"
 msgstr "Kopeeri URL"
 
-#: lib/contents/ui/WebView.qml:551
+#: lib/contents/ui/WebView.qml:558
 #, kde-format
 msgid "Copy"
 msgstr "Kopeeri"
 
-#: lib/contents/ui/WebView.qml:557
+#: lib/contents/ui/WebView.qml:564
 #, kde-format
 msgid "Cut"
 msgstr "Lõika"
 
-#: lib/contents/ui/WebView.qml:563
+#: lib/contents/ui/WebView.qml:570
 #, kde-format
 msgid "Paste"
 msgstr "Aseta"
 
-#: lib/contents/ui/WebView.qml:584 src/contents/ui/desktop/desktop.qml:337
-#: src/contents/ui/mobile.qml:282
+#: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:338
+#: src/contents/ui/mobile.qml:284
 #, kde-format
 msgid "Share page"
 msgstr "Jaga lehekülge"
 
-#: lib/contents/ui/WebView.qml:596
+#: lib/contents/ui/WebView.qml:603
 #, fuzzy, kde-format
 #| msgid "View source"
 msgid "View page source"
@@ -429,8 +429,8 @@ msgstr ""
 msgid "Downloading..."
 msgstr "Laadi alla"
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:267
-#: src/contents/ui/mobile.qml:79
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:268
+#: src/contents/ui/mobile.qml:80
 #, kde-format
 msgid "Bookmarks"
 msgstr "Järjehoidjad"
@@ -446,77 +446,77 @@ msgstr ""
 msgid "No bookmarks yet"
 msgstr "Lisa järjehoidja"
 
-#: src/contents/ui/desktop/desktop.qml:118
+#: src/contents/ui/desktop/desktop.qml:119
 #, kde-format
 msgid "Search or enter URL…"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/desktop/Tabs.qml:349
+#: src/contents/ui/desktop/desktop.qml:243 src/contents/ui/desktop/Tabs.qml:349
 #: src/contents/ui/Tabs.qml:49
 #, kde-format
 msgid "New Tab"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/mobile.qml:71
+#: src/contents/ui/desktop/desktop.qml:250 src/contents/ui/mobile.qml:72
 #, kde-format
 msgid "Leave private mode"
 msgstr "Välju privaatrežiimist"
 
-#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/mobile.qml:71
+#: src/contents/ui/desktop/desktop.qml:250 src/contents/ui/mobile.qml:72
 #, kde-format
 msgid "Private mode"
 msgstr "Privaatrežiim"
 
-#: src/contents/ui/desktop/desktop.qml:258 src/contents/ui/History.qml:12
-#: src/contents/ui/mobile.qml:87
+#: src/contents/ui/desktop/desktop.qml:259 src/contents/ui/History.qml:12
+#: src/contents/ui/mobile.qml:88
 #, kde-format
 msgid "History"
 msgstr "Ajalugu"
 
-#: src/contents/ui/desktop/desktop.qml:276 src/contents/ui/Downloads.qml:16
-#: src/contents/ui/mobile.qml:91
+#: src/contents/ui/desktop/desktop.qml:277 src/contents/ui/Downloads.qml:16
+#: src/contents/ui/mobile.qml:92
 #, fuzzy, kde-format
 #| msgid "Download"
 msgid "Downloads"
 msgstr "Laadi alla"
 
-#: src/contents/ui/desktop/desktop.qml:294
+#: src/contents/ui/desktop/desktop.qml:295
 #, kde-format
 msgid "Full Screen"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:311
+#: src/contents/ui/desktop/desktop.qml:312
 #, kde-format
 msgid "Hide developer tools"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:312 src/contents/ui/mobile.qml:378
+#: src/contents/ui/desktop/desktop.qml:313 src/contents/ui/mobile.qml:380
 #, kde-format
 msgid "Show developer tools"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:321 src/contents/ui/mobile.qml:278
+#: src/contents/ui/desktop/desktop.qml:322 src/contents/ui/mobile.qml:280
 #, kde-format
 msgid "Find in page"
 msgstr "Otsi leheküljelt"
 
-#: src/contents/ui/desktop/desktop.qml:330
+#: src/contents/ui/desktop/desktop.qml:331
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:347
+#: src/contents/ui/desktop/desktop.qml:348
 #, kde-format
 msgid "Add to application launcher"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:366 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:367 src/contents/ui/mobile.qml:100
 #, kde-format
 msgid "Settings"
 msgstr "Seadistused"
 
-#: src/contents/ui/desktop/desktop.qml:373
+#: src/contents/ui/desktop/desktop.qml:374
 #, kde-format
 msgid "Configure Angelfish"
 msgstr ""
@@ -663,74 +663,74 @@ msgstr ""
 msgid "Search..."
 msgstr "Otsi ..."
 
-#: src/contents/ui/mobile.qml:18
+#: src/contents/ui/mobile.qml:19
 #, kde-format
 msgid "Angelfish Web Browser"
 msgstr "Angelfishi veebilehitseja"
 
-#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:42
+#: src/contents/ui/mobile.qml:65 src/contents/ui/Tabs.qml:42
 #, kde-format
 msgid "Tabs"
 msgstr "Kaardid"
 
-#: src/contents/ui/mobile.qml:293
+#: src/contents/ui/mobile.qml:295
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Lisa avaekraanile"
 
-#: src/contents/ui/mobile.qml:303
+#: src/contents/ui/mobile.qml:305
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgid "Open in app"
 msgstr "Ava uuel kaardil"
 
-#: src/contents/ui/mobile.qml:311
+#: src/contents/ui/mobile.qml:313
 #, kde-format
 msgid "Go previous"
 msgstr "Liigu tagasi"
 
-#: src/contents/ui/mobile.qml:319
+#: src/contents/ui/mobile.qml:321
 #: src/contents/ui/SettingsNavigationBarPage.qml:73
 #, kde-format
 msgid "Go forward"
 msgstr "Liigu edasi"
 
-#: src/contents/ui/mobile.qml:326
+#: src/contents/ui/mobile.qml:328
 #, kde-format
 msgid "Stop loading"
 msgstr "Peata laadimine"
 
-#: src/contents/ui/mobile.qml:326
+#: src/contents/ui/mobile.qml:328
 #, kde-format
 msgid "Refresh"
 msgstr "Värskenda"
 
-#: src/contents/ui/mobile.qml:336
+#: src/contents/ui/mobile.qml:338
 #, kde-format
 msgid "Bookmarked"
 msgstr "järjehoidjates"
 
-#: src/contents/ui/mobile.qml:336
+#: src/contents/ui/mobile.qml:338
 #, kde-format
 msgid "Bookmark"
 msgstr "Järjehoidjatesse"
 
-#: src/contents/ui/mobile.qml:352
+#: src/contents/ui/mobile.qml:354
 #, kde-format
 msgid "Show desktop site"
 msgstr "Näita töölaua saiti"
 
-#: src/contents/ui/mobile.qml:361
+#: src/contents/ui/mobile.qml:363
 #, kde-format
 msgid "Reader Mode"
 msgstr ""
 
-#: src/contents/ui/mobile.qml:369
+#: src/contents/ui/mobile.qml:371
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "Peida liikumisriba"
 
-#: src/contents/ui/mobile.qml:369
+#: src/contents/ui/mobile.qml:371
 #, kde-format
 msgid "Show navigation bar"
 msgstr "Näita liikumisriba"

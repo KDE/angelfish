@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-11 00:37+0000\n"
+"POT-Creation-Date: 2024-05-07 00:38+0000\n"
 "PO-Revision-Date: 2023-03-08 14:58+0100\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -194,7 +194,7 @@ msgstr "Přijmout"
 msgid "Decline"
 msgstr "Odmítnout"
 
-#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:288
+#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:289
 #, kde-format
 msgid "Print"
 msgstr "Tisk"
@@ -234,173 +234,173 @@ msgstr "Vytisknout pozadí"
 msgid "Save"
 msgstr "Uložit"
 
-#: lib/contents/ui/WebView.qml:236
+#: lib/contents/ui/WebView.qml:243
 #, kde-format
 msgid "Website was opened in a new tab"
 msgstr "Stránka byla otevřena v nové kartě"
 
-#: lib/contents/ui/WebView.qml:254
+#: lib/contents/ui/WebView.qml:261
 #, kde-format
 msgid "Entered Full Screen Mode"
 msgstr "Zahájen celoobrazovkový režim"
 
-#: lib/contents/ui/WebView.qml:255
+#: lib/contents/ui/WebView.qml:262
 #, kde-format
 msgid "Exit Full Screen (Esc)"
 msgstr "Ukončit celoobrazovkový režim (Esc)"
 
-#: lib/contents/ui/WebView.qml:388
+#: lib/contents/ui/WebView.qml:395
 #, kde-format
 msgid "Play"
 msgstr "Přehrát"
 
-#: lib/contents/ui/WebView.qml:389 src/contents/ui/Downloads.qml:105
+#: lib/contents/ui/WebView.qml:396 src/contents/ui/Downloads.qml:105
 #, kde-format
 msgid "Pause"
 msgstr "Pozastavit"
 
-#: lib/contents/ui/WebView.qml:396
+#: lib/contents/ui/WebView.qml:403
 #, kde-format
 msgid "Unmute"
 msgstr "Povolit zvuk"
 
-#: lib/contents/ui/WebView.qml:397
+#: lib/contents/ui/WebView.qml:404
 #, kde-format
 msgid "Mute"
 msgstr "Ztlumit"
 
-#: lib/contents/ui/WebView.qml:407
+#: lib/contents/ui/WebView.qml:414
 #, kde-format
 msgid "Speed"
 msgstr "Rychlost"
 
-#: lib/contents/ui/WebView.qml:430
+#: lib/contents/ui/WebView.qml:437
 #, kde-format
 msgid "Loop"
 msgstr "Smyčka"
 
-#: lib/contents/ui/WebView.qml:437
+#: lib/contents/ui/WebView.qml:444
 #, kde-format
 msgid "Exit fullscreen"
 msgstr "Ukončit režim celé obrazovky"
 
-#: lib/contents/ui/WebView.qml:437
+#: lib/contents/ui/WebView.qml:444
 #, kde-format
 msgid "Fullscreen"
 msgstr "Celá obrazovka"
 
-#: lib/contents/ui/WebView.qml:450
+#: lib/contents/ui/WebView.qml:457
 #, kde-format
 msgid "Hide controls"
 msgstr "Skrýt ovládání"
 
-#: lib/contents/ui/WebView.qml:451
+#: lib/contents/ui/WebView.qml:458
 #, kde-format
 msgid "Show controls"
 msgstr "Ukázat ovládací prvky"
 
-#: lib/contents/ui/WebView.qml:459
+#: lib/contents/ui/WebView.qml:466
 #, kde-format
 msgid "Open video"
 msgstr "Otevřít video"
 
-#: lib/contents/ui/WebView.qml:459
+#: lib/contents/ui/WebView.qml:466
 #, kde-format
 msgid "Open audio"
 msgstr "Otevřít audio"
 
-#: lib/contents/ui/WebView.qml:460
+#: lib/contents/ui/WebView.qml:467
 #, kde-format
 msgid "Open video in new Tab"
 msgstr "Otevřít video v nové kartě"
 
-#: lib/contents/ui/WebView.qml:460
+#: lib/contents/ui/WebView.qml:467
 #, kde-format
 msgid "Open audio in new Tab"
 msgstr "Otevřít audio v nové kartě"
 
-#: lib/contents/ui/WebView.qml:472
+#: lib/contents/ui/WebView.qml:479
 #, kde-format
 msgid "Save video"
 msgstr "Uložit video"
 
-#: lib/contents/ui/WebView.qml:478
+#: lib/contents/ui/WebView.qml:485
 #, kde-format
 msgid "Copy video Link"
 msgstr "Kopírovat odkaz na video"
 
-#: lib/contents/ui/WebView.qml:484
+#: lib/contents/ui/WebView.qml:491
 #, kde-format
 msgid "Open image"
 msgstr "Otevřít obrázek"
 
-#: lib/contents/ui/WebView.qml:484
+#: lib/contents/ui/WebView.qml:491
 #, kde-format
 msgid "Open image in new Tab"
 msgstr "Otevřít obrázek v nové kartě"
 
-#: lib/contents/ui/WebView.qml:496
+#: lib/contents/ui/WebView.qml:503
 #, kde-format
 msgid "Save image"
 msgstr "Uložit obrázek"
 
-#: lib/contents/ui/WebView.qml:502
+#: lib/contents/ui/WebView.qml:509
 #, kde-format
 msgid "Copy image"
 msgstr "Kopírovat obrázek"
 
-#: lib/contents/ui/WebView.qml:508
+#: lib/contents/ui/WebView.qml:515
 #, kde-format
 msgid "Copy image link"
 msgstr "Kopírovat odkaz na obrázek"
 
-#: lib/contents/ui/WebView.qml:514
+#: lib/contents/ui/WebView.qml:521
 #, kde-format
 msgid "Open link"
 msgstr "Otevřít odkaz"
 
-#: lib/contents/ui/WebView.qml:514
+#: lib/contents/ui/WebView.qml:521
 #, kde-format
 msgid "Open link in new Tab"
 msgstr "Otevřít odkaz v nové kartě"
 
-#: lib/contents/ui/WebView.qml:526
+#: lib/contents/ui/WebView.qml:533
 #, kde-format
 msgid "Bookmark link"
 msgstr "Přidat odkaz do záložek"
 
-#: lib/contents/ui/WebView.qml:538
+#: lib/contents/ui/WebView.qml:545
 #, kde-format
 msgid "Save link"
 msgstr "Uložit odkaz"
 
-#: lib/contents/ui/WebView.qml:544
+#: lib/contents/ui/WebView.qml:551
 #, kde-format
 msgid "Copy link"
 msgstr "Kopírovat odkaz"
 
-#: lib/contents/ui/WebView.qml:551
+#: lib/contents/ui/WebView.qml:558
 #, kde-format
 msgid "Copy"
 msgstr "Kopírovat"
 
-#: lib/contents/ui/WebView.qml:557
+#: lib/contents/ui/WebView.qml:564
 #, kde-format
 msgid "Cut"
 msgstr "Vyjmout"
 
-#: lib/contents/ui/WebView.qml:563
+#: lib/contents/ui/WebView.qml:570
 #, kde-format
 msgid "Paste"
 msgstr "Vložit"
 
-#: lib/contents/ui/WebView.qml:584 src/contents/ui/desktop/desktop.qml:337
-#: src/contents/ui/mobile.qml:282
+#: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:338
+#: src/contents/ui/mobile.qml:284
 #, kde-format
 msgid "Share page"
 msgstr "Sdílet stránku"
 
-#: lib/contents/ui/WebView.qml:596
+#: lib/contents/ui/WebView.qml:603
 #, kde-format
 msgid "View page source"
 msgstr "Zobrazit zdrojový kód stránky"
@@ -416,8 +416,8 @@ msgstr ""
 msgid "Downloading..."
 msgstr "Stahuji..."
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:267
-#: src/contents/ui/mobile.qml:79
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:268
+#: src/contents/ui/mobile.qml:80
 #, kde-format
 msgid "Bookmarks"
 msgstr "Záložky"
@@ -432,76 +432,76 @@ msgstr "Hledat záložky..."
 msgid "No bookmarks yet"
 msgstr "Zatím žádné záložky"
 
-#: src/contents/ui/desktop/desktop.qml:118
+#: src/contents/ui/desktop/desktop.qml:119
 #, kde-format
 msgid "Search or enter URL…"
 msgstr "Hledat nebo zadat URL..."
 
-#: src/contents/ui/desktop/desktop.qml:242 src/contents/ui/desktop/Tabs.qml:349
+#: src/contents/ui/desktop/desktop.qml:243 src/contents/ui/desktop/Tabs.qml:349
 #: src/contents/ui/Tabs.qml:49
 #, kde-format
 msgid "New Tab"
 msgstr "Nová karta"
 
-#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/mobile.qml:71
+#: src/contents/ui/desktop/desktop.qml:250 src/contents/ui/mobile.qml:72
 #, kde-format
 msgid "Leave private mode"
 msgstr "Opustit soukromý režim"
 
-#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/mobile.qml:71
+#: src/contents/ui/desktop/desktop.qml:250 src/contents/ui/mobile.qml:72
 #, kde-format
 msgid "Private mode"
 msgstr "Soukromý režim"
 
-#: src/contents/ui/desktop/desktop.qml:258 src/contents/ui/History.qml:12
-#: src/contents/ui/mobile.qml:87
+#: src/contents/ui/desktop/desktop.qml:259 src/contents/ui/History.qml:12
+#: src/contents/ui/mobile.qml:88
 #, kde-format
 msgid "History"
 msgstr "Historie"
 
-#: src/contents/ui/desktop/desktop.qml:276 src/contents/ui/Downloads.qml:16
-#: src/contents/ui/mobile.qml:91
+#: src/contents/ui/desktop/desktop.qml:277 src/contents/ui/Downloads.qml:16
+#: src/contents/ui/mobile.qml:92
 #, kde-format
 msgid "Downloads"
 msgstr "Stahování"
 
-#: src/contents/ui/desktop/desktop.qml:294
+#: src/contents/ui/desktop/desktop.qml:295
 #, kde-format
 msgid "Full Screen"
 msgstr "Celá obrazovka"
 
-#: src/contents/ui/desktop/desktop.qml:311
+#: src/contents/ui/desktop/desktop.qml:312
 #, kde-format
 msgid "Hide developer tools"
 msgstr "Skrýt nástroje pro vývojáře"
 
-#: src/contents/ui/desktop/desktop.qml:312 src/contents/ui/mobile.qml:378
+#: src/contents/ui/desktop/desktop.qml:313 src/contents/ui/mobile.qml:380
 #, kde-format
 msgid "Show developer tools"
 msgstr "Zobrazit nástroje pro vývojáře"
 
-#: src/contents/ui/desktop/desktop.qml:321 src/contents/ui/mobile.qml:278
+#: src/contents/ui/desktop/desktop.qml:322 src/contents/ui/mobile.qml:280
 #, kde-format
 msgid "Find in page"
 msgstr "Najít na stránce"
 
-#: src/contents/ui/desktop/desktop.qml:330
+#: src/contents/ui/desktop/desktop.qml:331
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Režim čtení"
 
-#: src/contents/ui/desktop/desktop.qml:347
+#: src/contents/ui/desktop/desktop.qml:348
 #, kde-format
 msgid "Add to application launcher"
 msgstr "Přidat do spouštěče aplikací"
 
-#: src/contents/ui/desktop/desktop.qml:366 src/contents/ui/mobile.qml:99
+#: src/contents/ui/desktop/desktop.qml:367 src/contents/ui/mobile.qml:100
 #, kde-format
 msgid "Settings"
 msgstr "Nastavení"
 
-#: src/contents/ui/desktop/desktop.qml:373
+#: src/contents/ui/desktop/desktop.qml:374
 #, kde-format
 msgid "Configure Angelfish"
 msgstr "Nastavit aplikaci Angelfish"
@@ -640,73 +640,73 @@ msgstr "Pokračovat"
 msgid "Search..."
 msgstr "Hledat..."
 
-#: src/contents/ui/mobile.qml:18
+#: src/contents/ui/mobile.qml:19
 #, kde-format
 msgid "Angelfish Web Browser"
 msgstr "Webový prohlížeč Angelfish"
 
-#: src/contents/ui/mobile.qml:64 src/contents/ui/Tabs.qml:42
+#: src/contents/ui/mobile.qml:65 src/contents/ui/Tabs.qml:42
 #, kde-format
 msgid "Tabs"
 msgstr "Karty"
 
-#: src/contents/ui/mobile.qml:293
+#: src/contents/ui/mobile.qml:295
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Přidat na domovskou obrazovku"
 
-#: src/contents/ui/mobile.qml:303
+#: src/contents/ui/mobile.qml:305
 #, kde-format
 msgid "Open in app"
 msgstr "Otevřít v aplikaci"
 
-#: src/contents/ui/mobile.qml:311
+#: src/contents/ui/mobile.qml:313
 #, kde-format
 msgid "Go previous"
 msgstr "Přejít na předchozí"
 
-#: src/contents/ui/mobile.qml:319
+#: src/contents/ui/mobile.qml:321
 #: src/contents/ui/SettingsNavigationBarPage.qml:73
 #, kde-format
 msgid "Go forward"
 msgstr "Přejít vpřed"
 
-#: src/contents/ui/mobile.qml:326
+#: src/contents/ui/mobile.qml:328
 #, kde-format
 msgid "Stop loading"
 msgstr "Zastavit načítání"
 
-#: src/contents/ui/mobile.qml:326
+#: src/contents/ui/mobile.qml:328
 #, kde-format
 msgid "Refresh"
 msgstr "Obnovit"
 
-#: src/contents/ui/mobile.qml:336
+#: src/contents/ui/mobile.qml:338
 #, kde-format
 msgid "Bookmarked"
 msgstr "V záložkách"
 
-#: src/contents/ui/mobile.qml:336
+#: src/contents/ui/mobile.qml:338
 #, kde-format
 msgid "Bookmark"
 msgstr "Záložka"
 
-#: src/contents/ui/mobile.qml:352
+#: src/contents/ui/mobile.qml:354
 #, kde-format
 msgid "Show desktop site"
 msgstr ""
 
-#: src/contents/ui/mobile.qml:361
+#: src/contents/ui/mobile.qml:363
 #, kde-format
 msgid "Reader Mode"
 msgstr "Režim čtení"
 
-#: src/contents/ui/mobile.qml:369
+#: src/contents/ui/mobile.qml:371
 #, kde-format
 msgid "Hide navigation bar"
 msgstr ""
 
-#: src/contents/ui/mobile.qml:369
+#: src/contents/ui/mobile.qml:371
 #, kde-format
 msgid "Show navigation bar"
 msgstr ""
