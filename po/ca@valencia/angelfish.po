@@ -427,7 +427,7 @@ msgstr ""
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:34
 #, kde-format
 msgid "Downloading..."
-msgstr "S'està baixant..."
+msgstr "S'està baixant…"
 
 #: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:267
 #: src/contents/ui/mobile.qml:79
@@ -654,7 +654,7 @@ msgstr "Continua"
 #: src/contents/ui/FindInPageBar.qml:45
 #, kde-format
 msgid "Search..."
-msgstr "Busca..."
+msgstr "Busca…"
 
 #: src/contents/ui/mobile.qml:18
 #, kde-format
