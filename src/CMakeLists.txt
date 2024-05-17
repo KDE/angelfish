@@ -29,7 +29,11 @@ if (Corrosion_FOUND)
         rs/adblock/src/logging.rs)
 
     corrosion_import_crate(MANIFEST_PATH ${CMAKE_CURRENT_SOURCE_DIR}/rs/adblock/Cargo.toml)
-    target_link_libraries(angelfish PRIVATE angelfish-adblock)
+    if (Corrosion_VERSION VERSION_LESS 0.5.0)
+        target_link_libraries(angelfish PRIVATE angelfish-adblock)
+    else()
+        target_link_libraries(angelfish PRIVATE angelfish_adblock)
+    endif()
     target_compile_definitions(angelfish PRIVATE -DBUILD_ADBLOCK)
 
     target_include_directories(angelfish PRIVATE
