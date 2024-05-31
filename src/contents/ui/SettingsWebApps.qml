@@ -2,93 +2,87 @@
 //
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-import QtQuick 2.3
-import QtQuick.Controls 2.4 as Controls
-import QtQuick.Layouts 1.11
+import QtQuick
+import QtQuick.Controls as Controls
+import QtQuick.Layouts
 
 import org.kde.kirigami as Kirigami
-import org.kde.angelfish 1.0
+import org.kde.angelfish
+import org.kde.kirigamiaddons.formcard as FormCard
 
-import org.kde.kirigamiaddons.formcard 1.0 as FormCard
-
-Kirigami.ScrollablePage {
+FormCard.FormCardPage {
     id: root
-    leftPadding: 0
-    rightPadding: 0
-    topPadding: Kirigami.Units.gridUnit
-    bottomPadding: Kirigami.Units.gridUnit
 
     title: i18n("Web Apps")
 
-    Kirigami.Theme.colorSet: Kirigami.Settings.isMobile ? Kirigami.Theme.View : Kirigami.Theme.Window
+    FormCard.FormHeader {
+        title: root.title
+    }
 
-    ColumnLayout {
-        spacing: 0
+    FormCard.FormCard {
+        id: card
 
-        FormCard.FormHeader {
-            title: root.title
-        }
+        Repeater {
+            id: listView
+            model: WebAppManagerModel {
+                id: webAppModel
+            }
 
-        FormCard.FormCard {
-            id: card
-            Layout.fillWidth: true
+            delegate: FormCard.AbstractFormDelegate {
+                id: delegate
 
-            Repeater {
-                id: listView
-                model: WebAppManagerModel {
-                    id: webAppModel
-                }
+                required property int index;
+                required property string desktopIcon;
+                required property string name;
+                required property string url;
 
-                delegate: FormCard.AbstractFormDelegate {
-                    required property int index;
-                    required property string desktopIcon;
-                    required property string name;
-                    required property string url;
+                background: null
+                contentItem: RowLayout {
+                    id: layout
 
-                    implicitHeight: layout.implicitHeight
-                    implicitWidth: card.implicitWidth
+                    spacing: Kirigami.Units.largeSpacing
 
-                    RowLayout {
-                        id: layout
-                        anchors.fill: parent
-                        spacing: Kirigami.Units.largeSpacing
-                        Kirigami.Icon {
-                            Layout.leftMargin: 20
-                            Layout.margins: 10
-                            source: desktopIcon
-                        }
-                        ColumnLayout{
-                            Layout.margins: 10
-                            Controls.Label {
-                                Layout.fillWidth: true
-                                text: name
-                                elide: Text.ElideRight
-                            }
-                            Controls.Label {
-                                Layout.fillWidth: true
-                                text: url
-                                elide: Text.ElideRight
-                                color: Kirigami.Theme.disabledTextColor
-                            }
+                    Kirigami.Icon {
+                        Layout.rightMargin: Kirigami.Units.largeSpacing + Kirigami.Units.smallSpacing
+                        source: delegate.desktopIcon
+                        implicitWidth: Kirigami.Units.iconSizes.small
+                        implicitHeight: Kirigami.Units.iconSizes.small
+                    }
+
+                    ColumnLayout{
+                        spacing: Kirigami.Units.smallSpacing
+
+                        Controls.Label {
+                            Layout.fillWidth: true
+                            text: delegate.name
+                            elide: Text.ElideRight
                         }
 
-                        Controls.ToolButton {
-                            Layout.margins: 10
-                            icon.name: "delete"
-                            display: Controls.AbstractButton.IconOnly
-                            onClicked: webAppModel.removeApp(index)
-                            text: i18n("Remove app")
+                        Controls.Label {
+                            Layout.fillWidth: true
+                            text: delegate.url
+                            elide: Text.ElideRight
+                            color: Kirigami.Theme.disabledTextColor
                         }
+                    }
+
+                    Controls.ToolButton {
+                        icon.name: "delete"
+                        display: Controls.AbstractButton.IconOnly
+                        onClicked: webAppModel.removeApp(delegate.index)
+                        text: i18n("Remove app")
+
+                        Layout.leftMargin: Kirigami.Units.smallSpacing
                     }
                 }
             }
+        }
 
-            FormCard.AbstractFormDelegate {
-                visible: listView.count === 0
-                background: null
-                contentItem: Kirigami.PlaceholderMessage {
-                    text: i18nc("placeholder message", "No Web Apps installed")
-                }
+        FormCard.AbstractFormDelegate {
+            visible: listView.count === 0
+            background: null
+            contentItem: Kirigami.PlaceholderMessage {
+                text: i18nc("placeholder message", "No Web Apps installed")
             }
         }
     }
