@@ -45,6 +45,11 @@ Kirigami.ApplicationWindow {
     // Hides headers, toolbars and other controls when enabled
     property bool fullscreenMode: false
 
+    ConfigurationsView {
+        id: configurationsView
+        window: webBrowser
+    }
+
     header: QQC2.ToolBar {
         id: toolbar
 
@@ -368,14 +373,7 @@ Kirigami.ApplicationWindow {
                     icon.name: "settings-configure"
                     shortcut: "Ctrl+Shift+,"
                     onTriggered: {
-                        const openDialogWindow = pageStack.pushDialogLayer("qrc:/SettingsPage.qml", {
-                            width: webBrowser.width
-                        }, {
-                            title: i18n("Configure Angelfish"),
-                            width: Kirigami.Units.gridUnit * 45,
-                            height: Kirigami.Units.gridUnit * 35
-                        });
-                        openDialogWindow.Keys.escapePressed.connect(function() { openDialogWindow.closeDialog() });
+                        configurationsView.open();
                     }
                 }
             }

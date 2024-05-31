@@ -100,10 +100,15 @@ Kirigami.ApplicationWindow {
                 text: i18n("Settings")
                 onTriggered: {
                     popSubPages();
-                    pageStack.pushDialogLayer("qrc:/SettingsPage.qml");
+                    configurationsView.open();
                 }
             }
         ]
+    }
+
+    ConfigurationsView {
+        id: configurationsView
+        window: webBrowser
     }
 
     contextDrawer: Kirigami.ContextDrawer {
@@ -122,7 +127,7 @@ Kirigami.ApplicationWindow {
         rightPadding: 0
         topPadding: 0
         bottomPadding: 0
-        globalToolBarStyle: Kirigami.ApplicationHeaderStyle.None
+        globalToolBarStyle: pageStack.layers.depth === 1 ? Kirigami.ApplicationHeaderStyle.None : Kirigami.ApplicationHeaderStyle.ToolBar
         Kirigami.ColumnView.fillWidth: true
         Kirigami.ColumnView.pinned: true
         Kirigami.ColumnView.preventStealing: true

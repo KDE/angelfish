@@ -6,7 +6,7 @@
         <file alias="ShareSheet.qml">contents/ui/ShareSheet.qml</file>
         <file alias="AdblockFilterDownloadQuestion.qml">contents/ui/AdblockFilterDownloadQuestion.qml</file>
         <file alias="SettingsAdblock.qml">contents/ui/SettingsAdblock.qml</file>
-        <file alias="SettingsPage.qml">contents/ui/SettingsPage.qml</file>
+        <file alias="ConfigurationsView.qml">contents/ui/ConfigurationsView.qml</file>
         <file alias="SettingsNavigationBarPage.qml">contents/ui/SettingsNavigationBarPage.qml</file>
         <file alias="SettingsSearchEnginePage.qml">contents/ui/SettingsSearchEnginePage.qml</file>
         <file alias="Navigation.qml">contents/ui/Navigation.qml</file>
