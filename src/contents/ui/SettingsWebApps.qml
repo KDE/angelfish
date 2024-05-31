@@ -6,7 +6,7 @@ import QtQuick 2.3
 import QtQuick.Controls 2.4 as Controls
 import QtQuick.Layouts 1.11
 
-import org.kde.kirigami 2.7 as Kirigami
+import org.kde.kirigami as Kirigami
 import org.kde.angelfish 1.0
 
 import org.kde.kirigamiaddons.formcard 1.0 as FormCard
@@ -80,6 +80,14 @@ Kirigami.ScrollablePage {
                             text: i18n("Remove app")
                         }
                     }
+                }
+            }
+
+            FormCard.AbstractFormDelegate {
+                visible: listView.count === 0
+                background: null
+                contentItem: Kirigami.PlaceholderMessage {
+                    text: i18nc("placeholder message", "No Web Apps installed")
                 }
             }
         }
