@@ -13,6 +13,7 @@ import QtWebEngine
 import org.kde.kirigami 2.7 as Kirigami
 
 import org.kde.angelfish 1.0
+import org.kde.angelfish.settings
 
 Kirigami.ApplicationWindow {
     id: webBrowser
@@ -100,14 +101,14 @@ Kirigami.ApplicationWindow {
                 text: i18n("Settings")
                 onTriggered: {
                     popSubPages();
-                    configurationsView.open();
+                    configurationView.open();
                 }
             }
         ]
     }
 
-    ConfigurationsView {
-        id: configurationsView
+    AngelfishConfigurationView {
+        id: configurationView
         window: webBrowser
     }
 

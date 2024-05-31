@@ -46,6 +46,7 @@ include(KDECMakeSettings)
 include(KDEClangFormat)
 include(ECMPoQmTools)
 include(ECMFindQmlModule)
+include(ECMQmlModule)
 include(KDECompilerSettings NO_POLICY_SCOPE)
 
 ecm_setup_version(${PROJECT_VERSION}

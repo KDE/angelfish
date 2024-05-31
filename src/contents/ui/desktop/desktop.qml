@@ -14,6 +14,7 @@ import org.kde.kirigamiaddons.delegates as Delegates
 import Qt5Compat.GraphicalEffects
 
 import org.kde.angelfish 1.0
+import org.kde.angelfish.settings as AngelfishSettings
 import org.kde.kirigamiaddons.labs.components 1.0 as Addons
 import "regex-weburl.js" as RegexWebUrl
 
@@ -45,8 +46,8 @@ Kirigami.ApplicationWindow {
     // Hides headers, toolbars and other controls when enabled
     property bool fullscreenMode: false
 
-    ConfigurationsView {
-        id: configurationsView
+    AngelfishSettings.AngelfishConfigurationView {
+        id: configurationView
         window: webBrowser
     }
 
@@ -373,7 +374,7 @@ Kirigami.ApplicationWindow {
                     icon.name: "settings-configure"
                     shortcut: "Ctrl+Shift+,"
                     onTriggered: {
-                        configurationsView.open();
+                        configurationView.open();
                     }
                 }
             }

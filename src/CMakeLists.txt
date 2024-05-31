@@ -3,6 +3,8 @@
 #
 # SPDX-License-Identifier: LGPL-2.0-or-later
 
+add_subdirectory(settings)
+
 set(angelfish_SRCS
     main.cpp
     adblockfilterlistsmodel.cpp
@@ -62,6 +64,7 @@ target_link_libraries(angelfish PRIVATE
     KF6::WindowSystem
     QCoro6::Qml
     AngelfishCore
+    angelfish_settingsplugin
 )
 
 install(TARGETS angelfish ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
