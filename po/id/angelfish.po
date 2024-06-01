@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-07 00:38+0000\n"
+"POT-Creation-Date: 2024-06-01 00:38+0000\n"
 "PO-Revision-Date: 2022-08-19 20:36+0700\n"
 "Last-Translator: Wantoyèk <wantoyek@gmail.com>\n"
 "Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
@@ -77,18 +77,18 @@ msgstr "Nama pengguna"
 msgid "Password"
 msgstr "Sandi"
 
-#: lib/contents/ui/DownloadQuestion.qml:12
+#: lib/contents/ui/DownloadQuestion.qml:15
 #, kde-format
 msgid "Do you want to download this file?"
 msgstr "Apakah Anda ingin mengunduh file ini?"
 
-#: lib/contents/ui/DownloadQuestion.qml:20
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:29
+#: lib/contents/ui/DownloadQuestion.qml:23
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
 #, kde-format
 msgid "Download"
 msgstr "Unduh"
 
-#: lib/contents/ui/DownloadQuestion.qml:28 lib/contents/ui/PrintPreview.qml:163
+#: lib/contents/ui/DownloadQuestion.qml:31 lib/contents/ui/PrintPreview.qml:163
 #: src/contents/ui/Downloads.qml:92
 #, kde-format
 msgid "Cancel"
@@ -156,49 +156,49 @@ msgstr "Tinggalkan halaman"
 msgid "Submit"
 msgstr "Serahkan"
 
-#: lib/contents/ui/PermissionQuestion.qml:16
+#: lib/contents/ui/PermissionQuestion.qml:19
 #, kde-format
 msgid "Do you want to allow the website to access the geo location?"
 msgstr "Apakah Anda mau mengizinkan situs web untuk mengakses geo lokasi?"
 
-#: lib/contents/ui/PermissionQuestion.qml:19
+#: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format
 msgid "Do you want to allow the website to access the microphone?"
 msgstr "Apakah Anda mau mengizinkan situs web untuk mengakses mikrofon?"
 
-#: lib/contents/ui/PermissionQuestion.qml:22
+#: lib/contents/ui/PermissionQuestion.qml:25
 #, kde-format
 msgid "Do you want to allow the website to access the camera?"
 msgstr "Apakah Anda mau mengizinkan situs web untuk mengakses kamera?"
 
-#: lib/contents/ui/PermissionQuestion.qml:25
+#: lib/contents/ui/PermissionQuestion.qml:28
 #, kde-format
 msgid ""
 "Do you want to allow the website to access the camera and the microphone?"
 msgstr ""
 "Apakah Anda mau mengizinkan situs web untuk mengakses kamera dan mikrofon?"
 
-#: lib/contents/ui/PermissionQuestion.qml:28
+#: lib/contents/ui/PermissionQuestion.qml:31
 #, kde-format
 msgid "Do you want to allow the website to share your screen?"
 msgstr "Apakah Anda mau mengizinkan situs web untuk membagikan layar Anda?"
 
-#: lib/contents/ui/PermissionQuestion.qml:31
+#: lib/contents/ui/PermissionQuestion.qml:34
 #, kde-format
 msgid "Do you want to allow the website to share the sound output?"
 msgstr "Apakah Anda mau mengizinkan situs web untuk membagikan output suara?"
 
-#: lib/contents/ui/PermissionQuestion.qml:34
+#: lib/contents/ui/PermissionQuestion.qml:37
 #, kde-format
 msgid "Do you want to allow the website to send you notifications?"
 msgstr "Apakah Anda mau mengizinkan situs web untuk mengirimkan notifikisasi?"
 
-#: lib/contents/ui/PermissionQuestion.qml:43
+#: lib/contents/ui/PermissionQuestion.qml:46
 #, kde-format
 msgid "Accept"
 msgstr "Setujui"
 
-#: lib/contents/ui/PermissionQuestion.qml:53
+#: lib/contents/ui/PermissionQuestion.qml:56
 #, kde-format
 msgid "Decline"
 msgstr "Tolak"
@@ -438,7 +438,7 @@ msgstr ""
 "Pemblokir iklan kehilangan daftar filternya, apakah Anda ingin mengunduhnya "
 "sekarang?"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:34
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:35
 #, kde-format
 msgid "Downloading..."
 msgstr "Mengunduh..."

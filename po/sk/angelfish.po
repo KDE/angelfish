@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-07 00:38+0000\n"
+"POT-Creation-Date: 2024-06-01 00:38+0000\n"
 "PO-Revision-Date: 2023-11-13 18:52+0100\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <opensuse-translation@opensuse.org>\n"
@@ -77,18 +77,18 @@ msgstr "Užívateľské meno"
 msgid "Password"
 msgstr "Heslo"
 
-#: lib/contents/ui/DownloadQuestion.qml:12
+#: lib/contents/ui/DownloadQuestion.qml:15
 #, kde-format
 msgid "Do you want to download this file?"
 msgstr "Chcete stiahnuť tento súbor?"
 
-#: lib/contents/ui/DownloadQuestion.qml:20
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:29
+#: lib/contents/ui/DownloadQuestion.qml:23
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
 #, kde-format
 msgid "Download"
 msgstr "Stiahnuť"
 
-#: lib/contents/ui/DownloadQuestion.qml:28 lib/contents/ui/PrintPreview.qml:163
+#: lib/contents/ui/DownloadQuestion.qml:31 lib/contents/ui/PrintPreview.qml:163
 #: src/contents/ui/Downloads.qml:92
 #, kde-format
 msgid "Cancel"
@@ -156,48 +156,48 @@ msgstr "Odísť zo stránky"
 msgid "Submit"
 msgstr "Odoslať"
 
-#: lib/contents/ui/PermissionQuestion.qml:16
+#: lib/contents/ui/PermissionQuestion.qml:19
 #, kde-format
 msgid "Do you want to allow the website to access the geo location?"
 msgstr "Chcete webovej stránke umožniť prístup ku geografickej polohe?"
 
-#: lib/contents/ui/PermissionQuestion.qml:19
+#: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format
 msgid "Do you want to allow the website to access the microphone?"
 msgstr "Chcete webovej stránke umožniť prístup k mikrofónu?"
 
-#: lib/contents/ui/PermissionQuestion.qml:22
+#: lib/contents/ui/PermissionQuestion.qml:25
 #, kde-format
 msgid "Do you want to allow the website to access the camera?"
 msgstr "Chcete webovej stránke umožniť prístup ku kamere?"
 
-#: lib/contents/ui/PermissionQuestion.qml:25
+#: lib/contents/ui/PermissionQuestion.qml:28
 #, kde-format
 msgid ""
 "Do you want to allow the website to access the camera and the microphone?"
 msgstr "Chcete webovej stránke umožniť prístup ku kamere a mikrofónu?"
 
-#: lib/contents/ui/PermissionQuestion.qml:28
+#: lib/contents/ui/PermissionQuestion.qml:31
 #, kde-format
 msgid "Do you want to allow the website to share your screen?"
 msgstr "Chcete webovej stránke umožniť zdieľanie obrazovky?"
 
-#: lib/contents/ui/PermissionQuestion.qml:31
+#: lib/contents/ui/PermissionQuestion.qml:34
 #, kde-format
 msgid "Do you want to allow the website to share the sound output?"
 msgstr "Chcete webovej stránke umožniť zdieľanie zvukového výstupu?"
 
-#: lib/contents/ui/PermissionQuestion.qml:34
+#: lib/contents/ui/PermissionQuestion.qml:37
 #, kde-format
 msgid "Do you want to allow the website to send you notifications?"
 msgstr "Chcete webovej stránke umožniť, aby vám posielala upozornenia?"
 
-#: lib/contents/ui/PermissionQuestion.qml:43
+#: lib/contents/ui/PermissionQuestion.qml:46
 #, kde-format
 msgid "Accept"
 msgstr "Prijať"
 
-#: lib/contents/ui/PermissionQuestion.qml:53
+#: lib/contents/ui/PermissionQuestion.qml:56
 #, kde-format
 msgid "Decline"
 msgstr "Odmietnuť"
@@ -420,7 +420,7 @@ msgid ""
 msgstr ""
 "Blokovaniu reklám chýbajú zoznamy filtrov, chcete si ich teraz stiahnuť?"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:34
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:35
 #, kde-format
 msgid "Downloading..."
 msgstr "Sťahuje sa..."

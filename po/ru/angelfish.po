@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-07 00:38+0000\n"
+"POT-Creation-Date: 2024-06-01 00:38+0000\n"
 "PO-Revision-Date: 2023-04-24 12:47+0300\n"
 "Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
 "Language-Team: Basealt Translation Team\n"
@@ -80,18 +80,18 @@ msgstr "Имя пользователя"
 msgid "Password"
 msgstr "Пароль"
 
-#: lib/contents/ui/DownloadQuestion.qml:12
+#: lib/contents/ui/DownloadQuestion.qml:15
 #, kde-format
 msgid "Do you want to download this file?"
 msgstr "Загрузить этот файл?"
 
-#: lib/contents/ui/DownloadQuestion.qml:20
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:29
+#: lib/contents/ui/DownloadQuestion.qml:23
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
 #, kde-format
 msgid "Download"
 msgstr "Загрузить"
 
-#: lib/contents/ui/DownloadQuestion.qml:28 lib/contents/ui/PrintPreview.qml:163
+#: lib/contents/ui/DownloadQuestion.qml:31 lib/contents/ui/PrintPreview.qml:163
 #: src/contents/ui/Downloads.qml:92
 #, kde-format
 msgid "Cancel"
@@ -158,48 +158,48 @@ msgstr "Покинуть страницу"
 msgid "Submit"
 msgstr "Отправить"
 
-#: lib/contents/ui/PermissionQuestion.qml:16
+#: lib/contents/ui/PermissionQuestion.qml:19
 #, kde-format
 msgid "Do you want to allow the website to access the geo location?"
 msgstr "Разрешить сайту доступ к местоположению?"
 
-#: lib/contents/ui/PermissionQuestion.qml:19
+#: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format
 msgid "Do you want to allow the website to access the microphone?"
 msgstr "Разрешить сайту доступ к микрофону?"
 
-#: lib/contents/ui/PermissionQuestion.qml:22
+#: lib/contents/ui/PermissionQuestion.qml:25
 #, kde-format
 msgid "Do you want to allow the website to access the camera?"
 msgstr "Разрешить сайту доступ к камере?"
 
-#: lib/contents/ui/PermissionQuestion.qml:25
+#: lib/contents/ui/PermissionQuestion.qml:28
 #, kde-format
 msgid ""
 "Do you want to allow the website to access the camera and the microphone?"
 msgstr "Разрешить сайту доступ к камере и микрофону?"
 
-#: lib/contents/ui/PermissionQuestion.qml:28
+#: lib/contents/ui/PermissionQuestion.qml:31
 #, kde-format
 msgid "Do you want to allow the website to share your screen?"
 msgstr "Разрешить трансляцию экрана через этот сайт?"
 
-#: lib/contents/ui/PermissionQuestion.qml:31
+#: lib/contents/ui/PermissionQuestion.qml:34
 #, kde-format
 msgid "Do you want to allow the website to share the sound output?"
 msgstr "Разрешить трансляцию звука через этот сайт?"
 
-#: lib/contents/ui/PermissionQuestion.qml:34
+#: lib/contents/ui/PermissionQuestion.qml:37
 #, kde-format
 msgid "Do you want to allow the website to send you notifications?"
 msgstr "Разрешить получение уведомлений с этого сайта?"
 
-#: lib/contents/ui/PermissionQuestion.qml:43
+#: lib/contents/ui/PermissionQuestion.qml:46
 #, kde-format
 msgid "Accept"
 msgstr "Принять"
 
-#: lib/contents/ui/PermissionQuestion.qml:53
+#: lib/contents/ui/PermissionQuestion.qml:56
 #, kde-format
 msgid "Decline"
 msgstr "Отклонить"
@@ -421,7 +421,7 @@ msgid ""
 "The ad blocker is missing its filter lists, do you want to download them now?"
 msgstr "Блокировщику рекламы не хватает списков фильтров, загрузить их сейчас?"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:34
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:35
 #, kde-format
 msgid "Downloading..."
 msgstr "Загрузка…"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-07 00:38+0000\n"
+"POT-Creation-Date: 2024-06-01 00:38+0000\n"
 "PO-Revision-Date: 2023-04-29 12:28+0200\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -80,18 +80,18 @@ msgstr "Benutzername"
 msgid "Password"
 msgstr "Passwort"
 
-#: lib/contents/ui/DownloadQuestion.qml:12
+#: lib/contents/ui/DownloadQuestion.qml:15
 #, kde-format
 msgid "Do you want to download this file?"
 msgstr "Möchten Sie diese Datei herunterladen?"
 
-#: lib/contents/ui/DownloadQuestion.qml:20
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:29
+#: lib/contents/ui/DownloadQuestion.qml:23
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
 #, kde-format
 msgid "Download"
 msgstr "Herunterladen"
 
-#: lib/contents/ui/DownloadQuestion.qml:28 lib/contents/ui/PrintPreview.qml:163
+#: lib/contents/ui/DownloadQuestion.qml:31 lib/contents/ui/PrintPreview.qml:163
 #: src/contents/ui/Downloads.qml:92
 #, kde-format
 msgid "Cancel"
@@ -158,22 +158,22 @@ msgstr "Seite verlassen"
 msgid "Submit"
 msgstr "Absenden"
 
-#: lib/contents/ui/PermissionQuestion.qml:16
+#: lib/contents/ui/PermissionQuestion.qml:19
 #, kde-format
 msgid "Do you want to allow the website to access the geo location?"
 msgstr "Möchten Sie der Webseite den Zugriff auf den Standort erlauben?"
 
-#: lib/contents/ui/PermissionQuestion.qml:19
+#: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format
 msgid "Do you want to allow the website to access the microphone?"
 msgstr "Möchten Sie der Webseite den Zugriff auf das Mikrofon erlauben?"
 
-#: lib/contents/ui/PermissionQuestion.qml:22
+#: lib/contents/ui/PermissionQuestion.qml:25
 #, kde-format
 msgid "Do you want to allow the website to access the camera?"
 msgstr "Möchten Sie der Webseite den Zugriff auf die Kamera erlauben?"
 
-#: lib/contents/ui/PermissionQuestion.qml:25
+#: lib/contents/ui/PermissionQuestion.qml:28
 #, kde-format
 msgid ""
 "Do you want to allow the website to access the camera and the microphone?"
@@ -181,27 +181,27 @@ msgstr ""
 "Möchten Sie der Webseite den Zugriff auf die Kamera und das Mikrofon "
 "erlauben?"
 
-#: lib/contents/ui/PermissionQuestion.qml:28
+#: lib/contents/ui/PermissionQuestion.qml:31
 #, kde-format
 msgid "Do you want to allow the website to share your screen?"
 msgstr "Möchten Sie der Webseite das Teilen des Bildschirms erlauben?"
 
-#: lib/contents/ui/PermissionQuestion.qml:31
+#: lib/contents/ui/PermissionQuestion.qml:34
 #, kde-format
 msgid "Do you want to allow the website to share the sound output?"
 msgstr "Möchten Sie der Webseite das Teilen der Tonausgabe erlauben?"
 
-#: lib/contents/ui/PermissionQuestion.qml:34
+#: lib/contents/ui/PermissionQuestion.qml:37
 #, kde-format
 msgid "Do you want to allow the website to send you notifications?"
 msgstr "Möchten Sie der Webseite das Senden von Benachrichtigungen erlauben?"
 
-#: lib/contents/ui/PermissionQuestion.qml:43
+#: lib/contents/ui/PermissionQuestion.qml:46
 #, kde-format
 msgid "Accept"
 msgstr "Annehmen"
 
-#: lib/contents/ui/PermissionQuestion.qml:53
+#: lib/contents/ui/PermissionQuestion.qml:56
 #, kde-format
 msgid "Decline"
 msgstr "Ablehnen"
@@ -425,7 +425,7 @@ msgstr ""
 "Die Filterlisten des Werbefilters fehlen. Möchten Sie sie jetzt "
 "herunterladen?"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:34
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:35
 #, kde-format
 msgid "Downloading..."
 msgstr "Wird heruntergeladen ..."

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-07 00:38+0000\n"
+"POT-Creation-Date: 2024-06-01 00:38+0000\n"
 "PO-Revision-Date: 2024-02-11 11:49-0600\n"
 "Last-Translator: A S Alam <aalam@punlinux.org>\n"
 "Language-Team: Punjabi <kde-i18n-doc@kde.org>\n"
@@ -77,18 +77,18 @@ msgstr "ਵਰਤੋਂਕਾਰ-ਨਾਂ"
 msgid "Password"
 msgstr "ਪਾਸਵਰਡ"
 
-#: lib/contents/ui/DownloadQuestion.qml:12
+#: lib/contents/ui/DownloadQuestion.qml:15
 #, kde-format
 msgid "Do you want to download this file?"
 msgstr "ਕੀ ਤੁਸੀਂ ਇਹ ਫ਼ਾਇਲ ਡਾਊਨਲੋਡ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: lib/contents/ui/DownloadQuestion.qml:20
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:29
+#: lib/contents/ui/DownloadQuestion.qml:23
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
 #, kde-format
 msgid "Download"
 msgstr "ਡਾਊਨਲੋਡ"
 
-#: lib/contents/ui/DownloadQuestion.qml:28 lib/contents/ui/PrintPreview.qml:163
+#: lib/contents/ui/DownloadQuestion.qml:31 lib/contents/ui/PrintPreview.qml:163
 #: src/contents/ui/Downloads.qml:92
 #, kde-format
 msgid "Cancel"
@@ -155,48 +155,48 @@ msgstr "ਸਫ਼ੇ ਨੂੰ ਛੱਡੋ"
 msgid "Submit"
 msgstr "ਭੇਜੋ"
 
-#: lib/contents/ui/PermissionQuestion.qml:16
+#: lib/contents/ui/PermissionQuestion.qml:19
 #, kde-format
 msgid "Do you want to allow the website to access the geo location?"
 msgstr "ਕੀ ਤੁਸੀਂ ਵੈੱਬਸਾਈਟ ਨੂੰ ਭੂਗੋਲਿਕ ਟਿਕਾਣੇ ਲਈ ਪਹੁੰਚ ਦੀ ਮਨਜ਼ੂਰੀ ਦੇਣੀ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: lib/contents/ui/PermissionQuestion.qml:19
+#: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format
 msgid "Do you want to allow the website to access the microphone?"
 msgstr "ਕੀ ਤੁਸੀਂ ਵੈੱਬਸਾਈਟ ਨੂੰ ਮਾਈਕਰੋਫ਼ੋਨ ਲਈ ਪਹੁੰਚ ਦੀ ਮਨਜ਼ੂਰੀ ਦੇਣੀ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: lib/contents/ui/PermissionQuestion.qml:22
+#: lib/contents/ui/PermissionQuestion.qml:25
 #, kde-format
 msgid "Do you want to allow the website to access the camera?"
 msgstr "ਕੀ ਤੁਸੀਂ ਵੈੱਬਸਾਈਟ ਨੂੰ ਕੈਮਰੇ ਲਈ ਪਹੁੰਚ ਦੀ ਮਨਜ਼ੂਰੀ ਦੇਣੀ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: lib/contents/ui/PermissionQuestion.qml:25
+#: lib/contents/ui/PermissionQuestion.qml:28
 #, kde-format
 msgid ""
 "Do you want to allow the website to access the camera and the microphone?"
 msgstr "ਕੀ ਤੁਸੀਂ ਵੈੱਬਸਾਈਟ ਨੂੰ ਕੈਮਰੇ ਅਤੇ ਮਾਈਕਰੋਫ਼ੋਨ ਲਈ ਪਹੁੰਚ ਦੀ ਮਨਜ਼ੂਰੀ ਦੇਣੀ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: lib/contents/ui/PermissionQuestion.qml:28
+#: lib/contents/ui/PermissionQuestion.qml:31
 #, kde-format
 msgid "Do you want to allow the website to share your screen?"
 msgstr "ਕੀ ਤੁਸੀਂ ਵੈੱਬਸਾਈਟ ਨੂੰ ਤੁਹਾਡੀ ਸਕਰੀਨ ਸਾਂਝੀ ਕਰਨ ਲਈ ਮਨਜ਼ੂਰੀ ਦੇਣੀ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: lib/contents/ui/PermissionQuestion.qml:31
+#: lib/contents/ui/PermissionQuestion.qml:34
 #, kde-format
 msgid "Do you want to allow the website to share the sound output?"
 msgstr "ਕੀ ਤੁਸੀਂ ਵੈੱਬਸਾਈਟ ਨੂੰ ਸਾਊਂਡ ਆਉਟਪੁੱਟ ਸਾਂਝੀ ਕਰਨ ਲਈ ਮਨਜ਼ੂਰੀ ਦੇਣੀ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: lib/contents/ui/PermissionQuestion.qml:34
+#: lib/contents/ui/PermissionQuestion.qml:37
 #, kde-format
 msgid "Do you want to allow the website to send you notifications?"
 msgstr "ਕੀ ਤੁਸੀਂ ਵੈੱਬਸਾਈਟ ਨੂੰ ਤੁਹਾਨੂੰ ਨੋਟੀਫਿਕੇਸ਼ਨ ਲਈ ਪਹੁੰਚ ਦੀ ਮਨਜ਼ੂਰੀ ਦੇਣੀ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: lib/contents/ui/PermissionQuestion.qml:43
+#: lib/contents/ui/PermissionQuestion.qml:46
 #, kde-format
 msgid "Accept"
 msgstr "ਮਨਜ਼ੂਰ ਕਰੋ"
 
-#: lib/contents/ui/PermissionQuestion.qml:53
+#: lib/contents/ui/PermissionQuestion.qml:56
 #, kde-format
 msgid "Decline"
 msgstr "ਇਨਕਾਰ"
@@ -419,7 +419,7 @@ msgid ""
 msgstr ""
 "ਇਸ਼ਤਿਹਾਰ ਰੋਕੂ ਕੋਲ ਇਸ ਦੀ ਫਿਲਟਰ ਸੂਚੀਆਂ ਨਹੀਂ ਹਨ, ਕੀ ਤੁਸੀਂ ਉਹਨਾਂ ਨੂੰ ਹੁਣੇ ਡਾਊਨਲੋਡ ਕਰਨਾ ਚਾਹੋਗੇ?"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:34
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:35
 #, kde-format
 msgid "Downloading..."
 msgstr "ਡਾਊਨਲੋਡ ਜਾਰੀ ਹੈ…"
