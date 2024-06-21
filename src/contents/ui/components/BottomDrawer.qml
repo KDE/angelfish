@@ -14,11 +14,9 @@ Controls.Drawer {
     property alias drawerContentItem: control.contentItem
     property alias headerContentItem: headerContent.contentItem
 
-
     edge: Qt.BottomEdge
     height:contents.implicitHeight+20
     width: applicationWindow().width
-    interactive: false
     background: Kirigami.ShadowedRectangle{
         corners.topRightRadius: 10
         corners.topLeftRadius: 10
@@ -27,8 +25,7 @@ Controls.Drawer {
         color: Kirigami.Theme.backgroundColor
 
     }
-    onAboutToShow: root.interactive = true
-    onClosed: root.interactive = false
+    interactive: false
     ColumnLayout {
         spacing: 0
         id: contents
@@ -36,10 +33,8 @@ Controls.Drawer {
         Kirigami.ShadowedRectangle{
                 visible: headerContentItem
                 height:header.implicitHeight/* +20*/
-                Layout.topMargin: 0
-                corners.topRightRadius: 10
-                corners.topLeftRadius: 10
-                Layout.bottomMargin: 0
+                Layout.topMargin: -1
+                Layout.bottomMargin: -1
                 Layout.fillWidth: true
                 Kirigami.Theme.colorSet: Kirigami.Theme.Header
                 color: Kirigami.Theme.backgroundColor
@@ -48,19 +43,9 @@ Controls.Drawer {
                     anchors.fill: parent
                     id:header
                     clip: true
-                    Rectangle {
-                        Layout.margins: 5
-                        radius:50
-                        Layout.alignment: Qt.AlignHCenter
-                        color: Kirigami.Theme.textColor
-                        opacity: 0.5
-                        width: 40
-                        height: 4
-                        Layout.bottomMargin: 0
 
-                    }
                     Controls.Control {
-                        topPadding: 0
+                        topPadding: 4
                         leftPadding: 9
                         rightPadding: 9
                         bottomPadding: 9

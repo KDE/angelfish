@@ -14,22 +14,23 @@ import org.kde.angelfish 1.0
 import "components"
 BottomDrawer {
     id: tabsRoot
-    
-    height: contents.implicitHeight + Kirigami.Units.largeSpacing
-    width: applicationWindow().width
-    edge: Qt.BottomEdge
-    
+
     property int columns: width > 800 ? 4 : width > 600 ? 3 : 2
     property real ratio: webBrowser.height / webBrowser.width
     readonly property int itemWidth: webBrowser.width / columns - Kirigami.Units.smallSpacing * 2
     readonly property int itemHeight: (itemWidth * ratio + Kirigami.Units.gridUnit) * columns / 4
+    property bool firstItemDrag: true // prevents a gridview layout issue
+
+    height: applicationWindow().height
+    width: applicationWindow().width
+    edge: Qt.BottomEdge
 
     Component.onCompleted: grid.currentIndex = tabs.currentIndex
 
     onOpened: grid.width = width // prevents gridview layout issues
     onClosed: {
         tabsSheetLoader.active = false // unload tabs when the sheet is closed
-        interactive = false
+        firstItemDrag = true
     }
 
     headerContentItem: RowLayout {
@@ -49,21 +50,25 @@ BottomDrawer {
             text: i18n("New Tab")
             onClicked: {
                 tabs.tabsModel.newTab("about:blank")
+                tabs.tabsModel.setLatestTab()
                 urlEntry.open();
                 tabsRoot.close();
             }
         }
     }
-    drawerContentItem: QQC2.ScrollView {
-        id: scrollView
-        Layout.fillWidth: true
-        Layout.minimumHeight: Kirigami.Units.gridUnit * 12
-        Layout.preferredHeight: applicationWindow().height * 0.6
-        Layout.bottomMargin: Kirigami.Units.smallSpacing
-        Layout.topMargin: Kirigami.Units.largeSpacing
-        QQC2.ScrollBar.horizontal.policy: QQC2.ScrollBar.AlwaysOff
+
+    drawerContentItem: Flickable {
+        id: flickable
+        clip: true
+        anchors.fill: parent
+
+
+        boundsMovement: Flickable.StopAtBounds
+        boundsBehavior: Flickable.DragOverBounds
+        flickDeceleration: 8000
 
         GridView {
+            anchors.fill: parent
             id: grid
             model: tabs.model
             cellWidth: itemWidth + Kirigami.Units.largeSpacing
@@ -76,7 +81,7 @@ BottomDrawer {
                 NumberAnimation { property: "opacity"; from: 0; to: 1.0; duration: Kirigami.Units.shortDuration }
             }
             displaced: Transition {
-                NumberAnimation { properties: "x,y"; duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad}
+                NumberAnimation { properties: "x"; duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad}
             }
 
             delegate: QQC2.ItemDelegate {
@@ -108,11 +113,12 @@ BottomDrawer {
                             xAnimator.to = gridItem.sourceX;
                         }
                         xAnimator.start();
+                        firstItemDrag = false
                     }
                 }
                 NumberAnimation on x {
                     id: xAnimator
-                    running: !dragHandler.active
+                    running: !dragHandler.active && !firstItemDrag
                     duration: Kirigami.Units.longDuration
                     easing.type: Easing.InOutQuad
                     to: gridItem.sourceX

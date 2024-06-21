@@ -66,6 +66,7 @@ public:
 
     Q_INVOKABLE void newTab(const QUrl &url);
     Q_INVOKABLE void createEmptyTab();
+    Q_INVOKABLE void setLatestTab();
     Q_INVOKABLE void closeTab(int index);
 
     Q_INVOKABLE void setUrl(int index, const QUrl &url);

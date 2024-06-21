@@ -142,6 +142,13 @@ void TabsModel::setCurrentTab(int index)
     saveTabs();
 }
 
+void TabsModel::setLatestTab()
+{
+    m_currentTab = m_tabs.size() - 1;
+    Q_EMIT currentTabChanged();
+    saveTabs();
+}
+
 const std::vector<TabState> &TabsModel::tabs() const
 {
     return m_tabs;
