@@ -62,7 +62,6 @@ BottomDrawer {
         clip: true
         anchors.fill: parent
 
-
         boundsMovement: Flickable.StopAtBounds
         boundsBehavior: Flickable.DragOverBounds
         flickDeceleration: 8000
@@ -98,6 +97,7 @@ BottomDrawer {
                 DragHandler {
                     id: dragHandler
                     target: parent
+                    grabPermissions: PointerHandler.ApprovesTakeOverByAnything
                     yAxis.enabled: false
                     xAxis.enabled: true
                     onActiveChanged: {
