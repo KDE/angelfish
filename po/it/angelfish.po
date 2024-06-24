@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-01 00:38+0000\n"
+"POT-Creation-Date: 2024-06-24 00:38+0000\n"
 "PO-Revision-Date: 2023-03-12 16:14+0100\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -448,7 +448,7 @@ msgid "Search or enter URL…"
 msgstr "Cerca o inserisci URL…"
 
 #: src/contents/ui/desktop/desktop.qml:243 src/contents/ui/desktop/Tabs.qml:349
-#: src/contents/ui/Tabs.qml:49
+#: src/contents/ui/Tabs.qml:50
 #, kde-format
 msgid "New Tab"
 msgstr "Nuova scheda"
@@ -569,12 +569,12 @@ msgstr "Mostra sempre la barra delle schede"
 msgid "The tab bar will be displayed even if there is only one tab open"
 msgstr "La barra delle schede verrà mostrata anche se ce n'è aperta una sola"
 
-#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:185
+#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:191
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Modalità lettore: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:216
+#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:222
 #, kde-format
 msgid "Close tab"
 msgstr "Chiudi scheda"
@@ -657,7 +657,7 @@ msgstr "Cerca..."
 msgid "Angelfish Web Browser"
 msgstr "Browser web Angelfish"
 
-#: src/contents/ui/mobile.qml:65 src/contents/ui/Tabs.qml:42
+#: src/contents/ui/mobile.qml:65 src/contents/ui/Tabs.qml:43
 #, kde-format
 msgid "Tabs"
 msgstr "Schede"
