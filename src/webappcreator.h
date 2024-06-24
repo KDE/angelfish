@@ -4,6 +4,8 @@
 
 #pragma once
 
+#include <QCoroQml>
+#include <QCoroTask>
 #include <QObject>
 
 class QQmlEngine;
@@ -26,10 +28,11 @@ public:
     bool exists() const;
     Q_SIGNAL void existsChanged();
 
-    Q_INVOKABLE void createDesktopFile(const QString &name, const QString &url, const QString &icon);
+    Q_INVOKABLE QCoro::Task<> addEntry(const QString name, const QString url, const QString icon);
+    Q_INVOKABLE QCoro::QmlTask createDesktopFile(const QString name, QString url, QString icon);
 
 private:
     QString m_websiteName;
-    QImage fetchIcon(const QString &url);
+    QCoro::Task<QImage> fetchIcon(const QString &url);
     WebAppManager &m_webAppMngr;
 };

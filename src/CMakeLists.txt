@@ -60,6 +60,7 @@ target_link_libraries(angelfish PRIVATE
     KF6::ConfigGui
     KF6::DBusAddons
     KF6::WindowSystem
+    QCoro6::Qml
     AngelfishCore
 )
 

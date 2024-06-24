@@ -15,6 +15,9 @@
 #include <KConfigGroup>
 #include <KDesktopFile>
 
+#include <QCoroSignal>
+#include <QCoroTask>
+
 #include "webappmanager.h"
 
 WebAppCreator::WebAppCreator(QObject *parent)
@@ -41,19 +44,30 @@ void WebAppCreator::setWebsiteName(const QString &websiteName)
     Q_EMIT websiteNameChanged();
 }
 
-void WebAppCreator::createDesktopFile(const QString &name, const QString &url, const QString &iconUrl)
+QCoro::Task<> WebAppCreator::addEntry(const QString name, const QString url, const QString iconUrl)
 {
-    m_webAppMngr.addApp(name, url, fetchIcon(iconUrl));
+    QPointer self = this;
+    auto image = co_await fetchIcon(iconUrl);
+    if (!self) {
+        co_return;
+    }
+
+    m_webAppMngr.addApp(name, url, image);
 
     // Refresh homescreen entries on Plasma Mobile
     QProcess buildsycoca;
-    buildsycoca.setProgram(QStringLiteral("kbuildsycoca5"));
+    buildsycoca.setProgram(QStringLiteral("kbuildsycoca6"));
     buildsycoca.startDetached();
 }
 
-QImage WebAppCreator::fetchIcon(const QString &url)
+QCoro::QmlTask WebAppCreator::createDesktopFile(const QString name, QString url, QString icon)
 {
-    auto *provider = static_cast<QQuickImageProvider *>(qmlEngine(this)->imageProvider(QStringLiteral("favicon")));
+    return addEntry(name, url, icon);
+}
+
+QCoro::Task<QImage> WebAppCreator::fetchIcon(const QString &url)
+{
+    auto *provider = static_cast<QQuickAsyncImageProvider *>(qmlEngine(this)->imageProvider(QStringLiteral("favicon")));
 
     const QStringView prefixFavicon = QStringView(u"image://favicon/");
     const QString providerIconName = url.mid(prefixFavicon.size());
@@ -62,16 +76,22 @@ QImage WebAppCreator::fetchIcon(const QString &url)
 
     switch (provider->imageType()) {
     case QQmlImageProviderBase::Image: {
-        return provider->requestImage(providerIconName, nullptr, szRequested);
+        co_return provider->requestImage(providerIconName, nullptr, szRequested);
     }
     case QQmlImageProviderBase::Pixmap: {
-        return provider->requestPixmap(providerIconName, nullptr, szRequested).toImage();
+        co_return provider->requestPixmap(providerIconName, nullptr, szRequested).toImage();
+    }
+    case QQmlImageProviderBase::Texture: {
+        co_return provider->requestTexture(providerIconName, nullptr, szRequested)->image();
+    }
+    case QQmlImageProviderBase::ImageResponse: {
+        auto response = provider->requestImageResponse(providerIconName, szRequested);
+        co_await qCoro(response, &QQuickImageResponse::finished);
+        co_return response->textureFactory()->image();
     }
     default:
         qDebug() << "Failed to save unhandled image type";
     }
 
-    return QImage();
+    co_return QImage();
 }
-
-#include "moc_webappcreator.cpp"

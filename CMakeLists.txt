@@ -66,7 +66,7 @@ find_package(Qt6WebEngineCore REQUIRED)
 find_package(Qt6WebEngineQuick REQUIRED)
 
 find_package(FutureSQL6 REQUIRED)
-find_package(QCoro6 ${QCORO_MIN_VERSION} REQUIRED COMPONENTS Core Quick)
+find_package(QCoro6 ${QCORO_MIN_VERSION} REQUIRED COMPONENTS Core Quick Qml)
 
 # For adblocker
 find_package(Corrosion)
