@@ -17,7 +17,7 @@ FormCard.FormCardPage {
 
     title: i18n("Navigation bar")
 
-    FormCard.FomrHeader {
+    FormCard.FormHeader {
         title: root.title
     }
 
