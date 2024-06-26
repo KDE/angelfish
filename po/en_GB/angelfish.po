@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-24 00:38+0000\n"
+"POT-Creation-Date: 2024-06-26 00:38+0000\n"
 "PO-Revision-Date: 2023-03-10 17:27+0000\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English\n"
@@ -202,7 +202,7 @@ msgstr "Accept"
 msgid "Decline"
 msgstr "Decline"
 
-#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:289
+#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:295
 #, kde-format
 msgid "Print"
 msgstr "Print"
@@ -402,8 +402,8 @@ msgstr "Cut"
 msgid "Paste"
 msgstr "Paste"
 
-#: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:338
-#: src/contents/ui/mobile.qml:284
+#: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:344
+#: src/contents/ui/mobile.qml:290
 #, kde-format
 msgid "Share page"
 msgstr "Share page"
@@ -425,8 +425,8 @@ msgstr ""
 msgid "Downloading..."
 msgstr "Downloading..."
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:268
-#: src/contents/ui/mobile.qml:80
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:274
+#: src/contents/ui/mobile.qml:81
 #, kde-format
 msgid "Bookmarks"
 msgstr "Bookmarks"
@@ -441,79 +441,74 @@ msgstr "Search bookmarks…"
 msgid "No bookmarks yet"
 msgstr "No bookmarks yet"
 
-#: src/contents/ui/desktop/desktop.qml:119
+#: src/contents/ui/desktop/desktop.qml:125
 #, kde-format
 msgid "Search or enter URL…"
 msgstr "Search or enter URL…"
 
-#: src/contents/ui/desktop/desktop.qml:243 src/contents/ui/desktop/Tabs.qml:349
+#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:349
 #: src/contents/ui/Tabs.qml:50
 #, kde-format
 msgid "New Tab"
 msgstr "New Tab"
 
-#: src/contents/ui/desktop/desktop.qml:250 src/contents/ui/mobile.qml:72
+#: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/mobile.qml:73
 #, kde-format
 msgid "Leave private mode"
 msgstr "Leave private mode"
 
-#: src/contents/ui/desktop/desktop.qml:250 src/contents/ui/mobile.qml:72
+#: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/mobile.qml:73
 #, kde-format
 msgid "Private mode"
 msgstr "Private mode"
 
-#: src/contents/ui/desktop/desktop.qml:259 src/contents/ui/History.qml:12
-#: src/contents/ui/mobile.qml:88
+#: src/contents/ui/desktop/desktop.qml:265 src/contents/ui/History.qml:12
+#: src/contents/ui/mobile.qml:89
 #, kde-format
 msgid "History"
 msgstr "History"
 
-#: src/contents/ui/desktop/desktop.qml:277 src/contents/ui/Downloads.qml:16
-#: src/contents/ui/mobile.qml:92
+#: src/contents/ui/desktop/desktop.qml:283 src/contents/ui/Downloads.qml:16
+#: src/contents/ui/mobile.qml:93
 #, kde-format
 msgid "Downloads"
 msgstr "Downloads"
 
-#: src/contents/ui/desktop/desktop.qml:295
+#: src/contents/ui/desktop/desktop.qml:301
 #, kde-format
 msgid "Full Screen"
 msgstr "Full Screen"
 
-#: src/contents/ui/desktop/desktop.qml:312
+#: src/contents/ui/desktop/desktop.qml:318
 #, kde-format
 msgid "Hide developer tools"
 msgstr "Hide developer tools"
 
-#: src/contents/ui/desktop/desktop.qml:313 src/contents/ui/mobile.qml:380
+#: src/contents/ui/desktop/desktop.qml:319 src/contents/ui/mobile.qml:386
 #, kde-format
 msgid "Show developer tools"
 msgstr "Show developer tools"
 
-#: src/contents/ui/desktop/desktop.qml:322 src/contents/ui/mobile.qml:280
+#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:286
 #, kde-format
 msgid "Find in page"
 msgstr "Find in page"
 
-#: src/contents/ui/desktop/desktop.qml:331
+#: src/contents/ui/desktop/desktop.qml:337
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Reader Mode"
 
-#: src/contents/ui/desktop/desktop.qml:348
+#: src/contents/ui/desktop/desktop.qml:354
 #, kde-format
 msgid "Add to application launcher"
 msgstr "Add to application launcher"
 
-#: src/contents/ui/desktop/desktop.qml:367 src/contents/ui/mobile.qml:100
+#: src/contents/ui/desktop/desktop.qml:373 src/contents/ui/mobile.qml:101
 #, kde-format
 msgid "Settings"
 msgstr "Settings"
-
-#: src/contents/ui/desktop/desktop.qml:374
-#, kde-format
-msgid "Configure Angelfish"
-msgstr "Configure Angelfish"
 
 #: src/contents/ui/desktop/HistoryPage.qml:30
 #, kde-format
@@ -529,43 +524,6 @@ msgstr "Clear all history"
 #, kde-format
 msgid "Not history yet"
 msgstr "Not history yet"
-
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:14
-#: src/contents/ui/SettingsPage.qml:38
-#, kde-format
-msgid "Toolbars"
-msgstr "Toolbars"
-
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:33
-#, kde-format
-msgid "Show home button:"
-msgstr "Show home button:"
-
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:34
-#, kde-format
-msgid "The home button will be shown next to the reload button in the toolbar."
-msgstr ""
-"The home button will be shown next to the reload button in the toolbar."
-
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:44
-#, kde-format
-msgid "Homepage:"
-msgstr "Homepage:"
-
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:67
-#, kde-format
-msgid "New tabs:"
-msgstr "New tabs:"
-
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:90
-#, kde-format
-msgid "Always show the tab bar"
-msgstr "Always show the tab bar"
-
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:91
-#, kde-format
-msgid "The tab bar will be displayed even if there is only one tab open"
-msgstr "The tab bar will be displayed even if there is only one tab open"
 
 #: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:191
 #, kde-format
@@ -650,73 +608,72 @@ msgstr "Continue"
 msgid "Search..."
 msgstr "Search..."
 
-#: src/contents/ui/mobile.qml:19
+#: src/contents/ui/mobile.qml:20
 #, kde-format
 msgid "Angelfish Web Browser"
 msgstr "Angelfish Web Browser"
 
-#: src/contents/ui/mobile.qml:65 src/contents/ui/Tabs.qml:43
+#: src/contents/ui/mobile.qml:66 src/contents/ui/Tabs.qml:43
 #, kde-format
 msgid "Tabs"
 msgstr "Tabs"
 
-#: src/contents/ui/mobile.qml:295
+#: src/contents/ui/mobile.qml:301
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Add to homescreen"
 
-#: src/contents/ui/mobile.qml:305
+#: src/contents/ui/mobile.qml:311
 #, kde-format
 msgid "Open in app"
 msgstr "Open in app"
 
-#: src/contents/ui/mobile.qml:313
+#: src/contents/ui/mobile.qml:319
 #, kde-format
 msgid "Go previous"
 msgstr "Go previous"
 
-#: src/contents/ui/mobile.qml:321
-#: src/contents/ui/SettingsNavigationBarPage.qml:73
+#: src/contents/ui/mobile.qml:327 src/settings/SettingsNavigationBarPage.qml:59
 #, kde-format
 msgid "Go forward"
 msgstr "Go forwards"
 
-#: src/contents/ui/mobile.qml:328
+#: src/contents/ui/mobile.qml:334
 #, kde-format
 msgid "Stop loading"
 msgstr "Stop loading"
 
-#: src/contents/ui/mobile.qml:328
+#: src/contents/ui/mobile.qml:334
 #, kde-format
 msgid "Refresh"
 msgstr "Refresh"
 
-#: src/contents/ui/mobile.qml:338
+#: src/contents/ui/mobile.qml:344
 #, kde-format
 msgid "Bookmarked"
 msgstr "Bookmarked"
 
-#: src/contents/ui/mobile.qml:338
+#: src/contents/ui/mobile.qml:344
 #, kde-format
 msgid "Bookmark"
 msgstr "Bookmark"
 
-#: src/contents/ui/mobile.qml:354
+#: src/contents/ui/mobile.qml:360
 #, kde-format
 msgid "Show desktop site"
 msgstr "Show desktop site"
 
-#: src/contents/ui/mobile.qml:363
+#: src/contents/ui/mobile.qml:369
 #, kde-format
 msgid "Reader Mode"
 msgstr "Reader Mode"
 
-#: src/contents/ui/mobile.qml:371
+#: src/contents/ui/mobile.qml:377
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "Hide navigation bar"
 
-#: src/contents/ui/mobile.qml:371
+#: src/contents/ui/mobile.qml:377
 #, kde-format
 msgid "Show navigation bar"
 msgstr "Show navigation bar"
@@ -730,212 +687,6 @@ msgstr ""
 "Site wants to open a new tab: \n"
 "%1"
 
-#: src/contents/ui/SettingsAdblock.qml:21
-#, kde-format
-msgid "Adblock settings"
-msgstr "Adblock settings"
-
-#: src/contents/ui/SettingsAdblock.qml:32
-#, kde-format
-msgid "Update lists"
-msgstr "Update lists"
-
-#: src/contents/ui/SettingsAdblock.qml:54
-#, kde-format
-msgid "The adblock functionality isn't included in this build."
-msgstr "The adblock functionality isn't included in this build."
-
-#: src/contents/ui/SettingsAdblock.qml:60
-#, kde-format
-msgid "Add filterlist"
-msgstr "Add filter list"
-
-#: src/contents/ui/SettingsAdblock.qml:65
-#, kde-format
-msgid "Name"
-msgstr "Name"
-
-#: src/contents/ui/SettingsAdblock.qml:74
-#, kde-format
-msgid "Url"
-msgstr "URL"
-
-#: src/contents/ui/SettingsAdblock.qml:84
-#, kde-format
-msgid "Add"
-msgstr "Add"
-
-#: src/contents/ui/SettingsAdblock.qml:148
-#, kde-format
-msgid "Remove this filter list"
-msgstr "Remove this filter list"
-
-#: src/contents/ui/SettingsAdblock.qml:159
-#, kde-format
-msgid "add Filterlist"
-msgstr "Add filter list"
-
-#: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:14
-#, kde-format
-msgid "General"
-msgstr "General"
-
-#: src/contents/ui/SettingsGeneral.qml:39
-#, kde-format
-msgid "Enable JavaScript"
-msgstr "Enable JavaScript"
-
-#: src/contents/ui/SettingsGeneral.qml:40
-#, kde-format
-msgid "This may be required on certain websites for them to work."
-msgstr "This may be required on certain websites for them to work."
-
-#: src/contents/ui/SettingsGeneral.qml:49
-#, kde-format
-msgid "Load images"
-msgstr "Load images"
-
-#: src/contents/ui/SettingsGeneral.qml:50
-#, kde-format
-msgid "Whether to load images on websites."
-msgstr "Whether to load images on websites."
-
-#: src/contents/ui/SettingsGeneral.qml:59
-#, kde-format
-msgid "Enable adblock"
-msgstr "Enable adblock"
-
-#: src/contents/ui/SettingsGeneral.qml:60
-#, kde-format
-msgid "Attempts to prevent advertisements on websites from showing."
-msgstr "Attempts to prevent advertisements on websites from showing."
-
-#: src/contents/ui/SettingsGeneral.qml:60
-#, kde-format
-msgid "AdBlock functionality was not included in this build."
-msgstr "AdBlock functionality was not included in this build."
-
-#: src/contents/ui/SettingsGeneral.qml:70
-#, kde-format
-msgid "Switch to new tab immediately"
-msgstr "Switch to new tab immediately"
-
-#: src/contents/ui/SettingsGeneral.qml:71
-#, kde-format
-msgid ""
-"When you open a link, image or media in a new tab, switch to it immediately"
-msgstr ""
-"When you open a link, image or media in a new tab, switch to it immediately"
-
-#: src/contents/ui/SettingsGeneral.qml:80
-#, kde-format
-msgid "Use Smooth Scrolling"
-msgstr "Use Smooth Scrolling"
-
-#: src/contents/ui/SettingsGeneral.qml:81
-#, kde-format
-msgid ""
-"Scrolling is smoother and will not stop suddenly when you stop scrolling. "
-"Requires app restart to take effect."
-msgstr ""
-"Scrolling is smoother and will not stop suddenly when you stop scrolling. "
-"Requires app restart to take effect."
-
-#: src/contents/ui/SettingsGeneral.qml:90
-#, kde-format
-msgid "Use dark color scheme"
-msgstr "Use dark colour scheme"
-
-#: src/contents/ui/SettingsGeneral.qml:91
-#, kde-format
-msgid ""
-"Websites will have their color schemes set to dark. Requires app restart to "
-"take effect."
-msgstr ""
-"Websites will have their colour schemes set to dark. Requires app restart to "
-"take effect."
-
-#: src/contents/ui/SettingsNavigationBarPage.qml:16
-#, kde-format
-msgid "Navigation bar"
-msgstr "Navigation bar"
-
-#: src/contents/ui/SettingsNavigationBarPage.qml:33
-#, kde-format
-msgid ""
-"Choose the buttons enabled in navigation bar. Some of the buttons can be "
-"hidden only in portrait orientation of the browser and are always shown if  "
-"the browser is wider than its height.\n"
-"\n"
-" Note that if you disable the menu buttons, you will be able to access the "
-"menus either by swiping from the left or right side or to a side along the "
-"bottom of the window."
-msgstr ""
-"Choose the buttons enabled in navigation bar. Some of the buttons can be "
-"hidden only in portrait orientation of the browser and are always shown if  "
-"the browser is wider than its height.\n"
-"\n"
-" Note that if you disable the menu buttons, you will be able to access the "
-"menus either by swiping from the left or right side or to a side along the "
-"bottom of the window."
-
-#: src/contents/ui/SettingsNavigationBarPage.qml:49
-#, kde-format
-msgid "Main menu in portrait"
-msgstr "Main menu in portrait"
-
-#: src/contents/ui/SettingsNavigationBarPage.qml:55
-#, kde-format
-msgid "Tabs in portrait"
-msgstr "Tabs in portrait"
-
-#: src/contents/ui/SettingsNavigationBarPage.qml:61
-#, kde-format
-msgid "Context menu in portrait"
-msgstr "Context menu in portrait"
-
-#: src/contents/ui/SettingsNavigationBarPage.qml:67
-#, kde-format
-msgid "Go back"
-msgstr "Go back"
-
-#: src/contents/ui/SettingsNavigationBarPage.qml:79
-#, kde-format
-msgid "Reload/Stop"
-msgstr "Reload/Stop"
-
-#: src/contents/ui/SettingsPage.qml:20
-#, kde-format
-msgid "Ad Block"
-msgstr "Ad Block"
-
-#: src/contents/ui/SettingsPage.qml:26 src/contents/ui/SettingsWebApps.qml:21
-#, kde-format
-msgid "Web Apps"
-msgstr "Web Apps"
-
-#: src/contents/ui/SettingsPage.qml:32
-#: src/contents/ui/SettingsSearchEnginePage.qml:16
-#: src/contents/ui/SettingsSearchEnginePage.qml:120
-#, kde-format
-msgid "Search Engine"
-msgstr "Search Engine"
-
-#: src/contents/ui/SettingsSearchEnginePage.qml:32
-#, kde-format
-msgid "Custom"
-msgstr "Custom"
-
-#: src/contents/ui/SettingsSearchEnginePage.qml:121
-#, kde-format
-msgid "Base URL of your preferred search engine"
-msgstr "Base URL of your preferred search engine"
-
-#: src/contents/ui/SettingsWebApps.qml:80
-#, kde-format
-msgid "Remove app"
-msgstr "Remove app"
-
 #: src/contents/ui/ShareSheet.qml:18
 #, kde-format
 msgid "Share page to"
@@ -945,6 +696,274 @@ msgstr "Share page to"
 #, kde-format
 msgid "URL to open"
 msgstr "URL to open"
+
+#: src/settings/AngelfishConfigurationView.qml:14
+#: src/settings/SettingsGeneral.qml:18
+#, kde-format
+msgid "General"
+msgstr "General"
+
+#: src/settings/AngelfishConfigurationView.qml:20
+#, kde-format
+msgid "Ad Block"
+msgstr "Ad Block"
+
+#: src/settings/AngelfishConfigurationView.qml:26
+#: src/settings/SettingsWebApps.qml:16
+#, kde-format
+msgid "Web Apps"
+msgstr "Web Apps"
+
+#: src/settings/AngelfishConfigurationView.qml:32
+#: src/settings/SettingsSearchEnginePage.qml:17
+#: src/settings/SettingsSearchEnginePage.qml:112
+#, kde-format
+msgid "Search Engine"
+msgstr "Search Engine"
+
+#: src/settings/AngelfishConfigurationView.qml:38
+#: src/settings/DesktopHomeSettingsPage.qml:15
+#, kde-format
+msgid "Toolbars"
+msgstr "Toolbars"
+
+#: src/settings/DesktopHomeSettingsPage.qml:24
+#, kde-format
+msgid "Show home button:"
+msgstr "Show home button:"
+
+#: src/settings/DesktopHomeSettingsPage.qml:25
+#, kde-format
+msgid "The home button will be shown next to the reload button in the toolbar."
+msgstr ""
+"The home button will be shown next to the reload button in the toolbar."
+
+#: src/settings/DesktopHomeSettingsPage.qml:35
+#, kde-format
+msgid "Homepage:"
+msgstr "Homepage:"
+
+#: src/settings/DesktopHomeSettingsPage.qml:58
+#, kde-format
+msgid "New tabs:"
+msgstr "New tabs:"
+
+#: src/settings/DesktopHomeSettingsPage.qml:81
+#, kde-format
+msgid "Always show the tab bar"
+msgstr "Always show the tab bar"
+
+#: src/settings/DesktopHomeSettingsPage.qml:82
+#, kde-format
+msgid "The tab bar will be displayed even if there is only one tab open"
+msgstr "The tab bar will be displayed even if there is only one tab open"
+
+#: src/settings/SettingsAdblock.qml:16
+#, kde-format
+msgid "Adblock settings"
+msgstr "Adblock settings"
+
+#: src/settings/SettingsAdblock.qml:23
+#, fuzzy, kde-format
+#| msgid "add Filterlist"
+msgctxt "@action:intoolbar"
+msgid "Add Filterlist"
+msgstr "Add filter list"
+
+#: src/settings/SettingsAdblock.qml:27
+#, kde-format
+msgid "Update lists"
+msgstr "Update lists"
+
+#: src/settings/SettingsAdblock.qml:49
+#, kde-format
+msgid "The adblock functionality isn't included in this build."
+msgstr "The adblock functionality isn't included in this build."
+
+#: src/settings/SettingsAdblock.qml:100
+#, kde-format
+msgid "Remove this filter list"
+msgstr "Remove this filter list"
+
+#: src/settings/SettingsAdblock.qml:112
+#, fuzzy, kde-format
+#| msgid "add Filterlist"
+msgid "Add Filterlist"
+msgstr "Add filter list"
+
+#: src/settings/SettingsAdblock.qml:124
+#, kde-format
+msgid "Add filterlist"
+msgstr "Add filter list"
+
+#: src/settings/SettingsAdblock.qml:129
+#, kde-format
+msgid "Name"
+msgstr "Name"
+
+#: src/settings/SettingsAdblock.qml:138
+#, kde-format
+msgid "Url"
+msgstr "URL"
+
+#: src/settings/SettingsGeneral.qml:27
+#, kde-format
+msgid "Enable JavaScript"
+msgstr "Enable JavaScript"
+
+#: src/settings/SettingsGeneral.qml:28
+#, kde-format
+msgid "This may be required on certain websites for them to work."
+msgstr "This may be required on certain websites for them to work."
+
+#: src/settings/SettingsGeneral.qml:37
+#, kde-format
+msgid "Load images"
+msgstr "Load images"
+
+#: src/settings/SettingsGeneral.qml:38
+#, kde-format
+msgid "Whether to load images on websites."
+msgstr "Whether to load images on websites."
+
+#: src/settings/SettingsGeneral.qml:47
+#, kde-format
+msgid "Enable adblock"
+msgstr "Enable adblock"
+
+#: src/settings/SettingsGeneral.qml:48
+#, kde-format
+msgid "Attempts to prevent advertisements on websites from showing."
+msgstr "Attempts to prevent advertisements on websites from showing."
+
+#: src/settings/SettingsGeneral.qml:48
+#, kde-format
+msgid "AdBlock functionality was not included in this build."
+msgstr "AdBlock functionality was not included in this build."
+
+#: src/settings/SettingsGeneral.qml:58
+#, kde-format
+msgid "Switch to new tab immediately"
+msgstr "Switch to new tab immediately"
+
+#: src/settings/SettingsGeneral.qml:59
+#, kde-format
+msgid ""
+"When you open a link, image or media in a new tab, switch to it immediately"
+msgstr ""
+"When you open a link, image or media in a new tab, switch to it immediately"
+
+#: src/settings/SettingsGeneral.qml:68
+#, kde-format
+msgid "Use Smooth Scrolling"
+msgstr "Use Smooth Scrolling"
+
+#: src/settings/SettingsGeneral.qml:69
+#, kde-format
+msgid ""
+"Scrolling is smoother and will not stop suddenly when you stop scrolling. "
+"Requires app restart to take effect."
+msgstr ""
+"Scrolling is smoother and will not stop suddenly when you stop scrolling. "
+"Requires app restart to take effect."
+
+#: src/settings/SettingsGeneral.qml:78
+#, kde-format
+msgid "Use dark color scheme"
+msgstr "Use dark colour scheme"
+
+#: src/settings/SettingsGeneral.qml:79
+#, kde-format
+msgid ""
+"Websites will have their color schemes set to dark. Requires app restart to "
+"take effect."
+msgstr ""
+"Websites will have their colour schemes set to dark. Requires app restart to "
+"take effect."
+
+#: src/settings/SettingsNavigationBarPage.qml:18
+#, kde-format
+msgid "Navigation bar"
+msgstr "Navigation bar"
+
+#: src/settings/SettingsNavigationBarPage.qml:26
+#, fuzzy, kde-format
+#| msgid ""
+#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
+#| "hidden only in portrait orientation of the browser and are always shown "
+#| "if  the browser is wider than its height.\n"
+#| "\n"
+#| " Note that if you disable the menu buttons, you will be able to access "
+#| "the menus either by swiping from the left or right side or to a side "
+#| "along the bottom of the window."
+msgid ""
+"Choose the buttons enabled in navigation bar. Some of the buttons can be "
+"hidden only in portrait orientation of the browser and are always shown if "
+"the browser is wider than its height.\n"
+"\n"
+" Note that if you disable the menu buttons, you will be able to access the "
+"menus either by swiping from the left or right side or to a side along the "
+"bottom of the window."
+msgstr ""
+"Choose the buttons enabled in navigation bar. Some of the buttons can be "
+"hidden only in portrait orientation of the browser and are always shown if  "
+"the browser is wider than its height.\n"
+"\n"
+" Note that if you disable the menu buttons, you will be able to access the "
+"menus either by swiping from the left or right side or to a side along the "
+"bottom of the window."
+
+#: src/settings/SettingsNavigationBarPage.qml:35
+#, kde-format
+msgid "Main menu in portrait"
+msgstr "Main menu in portrait"
+
+#: src/settings/SettingsNavigationBarPage.qml:41
+#, kde-format
+msgid "Tabs in portrait"
+msgstr "Tabs in portrait"
+
+#: src/settings/SettingsNavigationBarPage.qml:47
+#, kde-format
+msgid "Context menu in portrait"
+msgstr "Context menu in portrait"
+
+#: src/settings/SettingsNavigationBarPage.qml:53
+#, kde-format
+msgid "Go back"
+msgstr "Go back"
+
+#: src/settings/SettingsNavigationBarPage.qml:65
+#, kde-format
+msgid "Reload/Stop"
+msgstr "Reload/Stop"
+
+#: src/settings/SettingsSearchEnginePage.qml:20
+#, kde-format
+msgid "Custom"
+msgstr "Custom"
+
+#: src/settings/SettingsSearchEnginePage.qml:117
+#, kde-format
+msgid "Base URL of your preferred search engine"
+msgstr "Base URL of your preferred search engine"
+
+#: src/settings/SettingsWebApps.qml:73
+#, kde-format
+msgid "Remove app"
+msgstr "Remove app"
+
+#: src/settings/SettingsWebApps.qml:85
+#, kde-format
+msgctxt "placeholder message"
+msgid "No Web Apps installed"
+msgstr ""
+
+#~ msgid "Configure Angelfish"
+#~ msgstr "Configure Angelfish"
+
+#~ msgid "Add"
+#~ msgstr "Add"
 
 #~ msgid "Private Mode"
 #~ msgstr "Private Mode"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-24 00:38+0000\n"
+"POT-Creation-Date: 2024-06-26 00:38+0000\n"
 "PO-Revision-Date: 2024-04-09 00:28+0300\n"
 "Last-Translator: Moo\n"
 "Language-Team: lt\n"
@@ -208,7 +208,7 @@ msgstr "Priimti"
 msgid "Decline"
 msgstr "Atmesti"
 
-#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:289
+#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:295
 #, kde-format
 msgid "Print"
 msgstr "Spausdinti"
@@ -408,8 +408,8 @@ msgstr "Iškirpti"
 msgid "Paste"
 msgstr "Įdėti"
 
-#: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:338
-#: src/contents/ui/mobile.qml:284
+#: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:344
+#: src/contents/ui/mobile.qml:290
 #, kde-format
 msgid "Share page"
 msgstr "Bendrinti puslapį"
@@ -432,8 +432,8 @@ msgstr ""
 msgid "Downloading..."
 msgstr "Atsisiunčiama..."
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:268
-#: src/contents/ui/mobile.qml:80
+#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:274
+#: src/contents/ui/mobile.qml:81
 #, kde-format
 msgid "Bookmarks"
 msgstr "Žymelės"
@@ -448,79 +448,74 @@ msgstr "Ieškoti žymelių…"
 msgid "No bookmarks yet"
 msgstr "Kol kas žymelių nėra"
 
-#: src/contents/ui/desktop/desktop.qml:119
+#: src/contents/ui/desktop/desktop.qml:125
 #, kde-format
 msgid "Search or enter URL…"
 msgstr "Atlikite paiešką arba įveskite URL adresą…"
 
-#: src/contents/ui/desktop/desktop.qml:243 src/contents/ui/desktop/Tabs.qml:349
+#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:349
 #: src/contents/ui/Tabs.qml:50
 #, kde-format
 msgid "New Tab"
 msgstr "Nauja kortelė"
 
-#: src/contents/ui/desktop/desktop.qml:250 src/contents/ui/mobile.qml:72
+#: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/mobile.qml:73
 #, kde-format
 msgid "Leave private mode"
 msgstr "Išeiti iš privačios veiksenos"
 
-#: src/contents/ui/desktop/desktop.qml:250 src/contents/ui/mobile.qml:72
+#: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/mobile.qml:73
 #, kde-format
 msgid "Private mode"
 msgstr "Privati veiksena"
 
-#: src/contents/ui/desktop/desktop.qml:259 src/contents/ui/History.qml:12
-#: src/contents/ui/mobile.qml:88
+#: src/contents/ui/desktop/desktop.qml:265 src/contents/ui/History.qml:12
+#: src/contents/ui/mobile.qml:89
 #, kde-format
 msgid "History"
 msgstr "Istorija"
 
-#: src/contents/ui/desktop/desktop.qml:277 src/contents/ui/Downloads.qml:16
-#: src/contents/ui/mobile.qml:92
+#: src/contents/ui/desktop/desktop.qml:283 src/contents/ui/Downloads.qml:16
+#: src/contents/ui/mobile.qml:93
 #, kde-format
 msgid "Downloads"
 msgstr "Atsiuntimai"
 
-#: src/contents/ui/desktop/desktop.qml:295
+#: src/contents/ui/desktop/desktop.qml:301
 #, kde-format
 msgid "Full Screen"
 msgstr "Visas ekranas"
 
-#: src/contents/ui/desktop/desktop.qml:312
+#: src/contents/ui/desktop/desktop.qml:318
 #, kde-format
 msgid "Hide developer tools"
 msgstr "Slėpti plėtotojo įrankius"
 
-#: src/contents/ui/desktop/desktop.qml:313 src/contents/ui/mobile.qml:380
+#: src/contents/ui/desktop/desktop.qml:319 src/contents/ui/mobile.qml:386
 #, kde-format
 msgid "Show developer tools"
 msgstr "Rodyti plėtotojo įrankius"
 
-#: src/contents/ui/desktop/desktop.qml:322 src/contents/ui/mobile.qml:280
+#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:286
 #, kde-format
 msgid "Find in page"
 msgstr "Rasti puslapyje"
 
-#: src/contents/ui/desktop/desktop.qml:331
+#: src/contents/ui/desktop/desktop.qml:337
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Skaitytojo veiksena"
 
-#: src/contents/ui/desktop/desktop.qml:348
+#: src/contents/ui/desktop/desktop.qml:354
 #, kde-format
 msgid "Add to application launcher"
 msgstr "Pridėti į programų paleidyklę"
 
-#: src/contents/ui/desktop/desktop.qml:367 src/contents/ui/mobile.qml:100
+#: src/contents/ui/desktop/desktop.qml:373 src/contents/ui/mobile.qml:101
 #, kde-format
 msgid "Settings"
 msgstr "Nuostatos"
-
-#: src/contents/ui/desktop/desktop.qml:374
-#, kde-format
-msgid "Configure Angelfish"
-msgstr "Konfigūruoti Angelfish"
 
 #: src/contents/ui/desktop/HistoryPage.qml:30
 #, kde-format
@@ -536,44 +531,6 @@ msgstr "Išvalyti visą istoriją"
 #, kde-format
 msgid "Not history yet"
 msgstr "Kol kas istorijos nėra"
-
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:14
-#: src/contents/ui/SettingsPage.qml:38
-#, kde-format
-msgid "Toolbars"
-msgstr "Įrankių juostos"
-
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:33
-#, kde-format
-msgid "Show home button:"
-msgstr "Rodyti pradžios mygtuką:"
-
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:34
-#, kde-format
-msgid "The home button will be shown next to the reload button in the toolbar."
-msgstr ""
-"Pradžios mygtukas bus rodomas įrankių juostoje šalia įkėlimo iš naujo "
-"mygtuko."
-
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:44
-#, kde-format
-msgid "Homepage:"
-msgstr "Pagrindinis puslapis:"
-
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:67
-#, kde-format
-msgid "New tabs:"
-msgstr "Naujos kortelės:"
-
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:90
-#, kde-format
-msgid "Always show the tab bar"
-msgstr "Visada rodyti kortelių juostą"
-
-#: src/contents/ui/desktop/settings/HomeSettingsPage.qml:91
-#, kde-format
-msgid "The tab bar will be displayed even if there is only one tab open"
-msgstr "Kortelių juosta bus rodoma net tuomet, kai yra tik viena kortelė"
 
 #: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:191
 #, kde-format
@@ -658,73 +615,72 @@ msgstr "Tęsti"
 msgid "Search..."
 msgstr "Ieškoti..."
 
-#: src/contents/ui/mobile.qml:19
+#: src/contents/ui/mobile.qml:20
 #, kde-format
 msgid "Angelfish Web Browser"
 msgstr "Angelfish saityno naršyklė"
 
-#: src/contents/ui/mobile.qml:65 src/contents/ui/Tabs.qml:43
+#: src/contents/ui/mobile.qml:66 src/contents/ui/Tabs.qml:43
 #, kde-format
 msgid "Tabs"
 msgstr "Kortelės"
 
-#: src/contents/ui/mobile.qml:295
+#: src/contents/ui/mobile.qml:301
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Pridėti į pradžios ekraną"
 
-#: src/contents/ui/mobile.qml:305
+#: src/contents/ui/mobile.qml:311
 #, kde-format
 msgid "Open in app"
 msgstr "Atverti programėlėje"
 
-#: src/contents/ui/mobile.qml:313
+#: src/contents/ui/mobile.qml:319
 #, kde-format
 msgid "Go previous"
 msgstr "Eiti į ankstesnį"
 
-#: src/contents/ui/mobile.qml:321
-#: src/contents/ui/SettingsNavigationBarPage.qml:73
+#: src/contents/ui/mobile.qml:327 src/settings/SettingsNavigationBarPage.qml:59
 #, kde-format
 msgid "Go forward"
 msgstr "Eiti į tolimesnį"
 
-#: src/contents/ui/mobile.qml:328
+#: src/contents/ui/mobile.qml:334
 #, kde-format
 msgid "Stop loading"
 msgstr "Stabdyti įkėlimą"
 
-#: src/contents/ui/mobile.qml:328
+#: src/contents/ui/mobile.qml:334
 #, kde-format
 msgid "Refresh"
 msgstr "Įkelti iš naujo"
 
-#: src/contents/ui/mobile.qml:338
+#: src/contents/ui/mobile.qml:344
 #, kde-format
 msgid "Bookmarked"
 msgstr "Įrašyta į žymeles"
 
-#: src/contents/ui/mobile.qml:338
+#: src/contents/ui/mobile.qml:344
 #, kde-format
 msgid "Bookmark"
 msgstr "Įrašyti į žymeles"
 
-#: src/contents/ui/mobile.qml:354
+#: src/contents/ui/mobile.qml:360
 #, kde-format
 msgid "Show desktop site"
 msgstr "Rodyti darbalaukiui skirtą svetainės versiją"
 
-#: src/contents/ui/mobile.qml:363
+#: src/contents/ui/mobile.qml:369
 #, kde-format
 msgid "Reader Mode"
 msgstr "Skaitytojo veiksena"
 
-#: src/contents/ui/mobile.qml:371
+#: src/contents/ui/mobile.qml:377
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "Slėpti naršymo juostą"
 
-#: src/contents/ui/mobile.qml:371
+#: src/contents/ui/mobile.qml:377
 #, kde-format
 msgid "Show navigation bar"
 msgstr "Rodyti naršymo juostą"
@@ -738,98 +694,168 @@ msgstr ""
 "Svetainė nori atverti naują kortelę: \n"
 "%1"
 
-#: src/contents/ui/SettingsAdblock.qml:21
+#: src/contents/ui/ShareSheet.qml:18
 #, kde-format
-msgid "Adblock settings"
-msgstr "Reklamos blokavimo nuostatos"
+msgid "Share page to"
+msgstr "Bendrinti puslapį į"
 
-#: src/contents/ui/SettingsAdblock.qml:32
+#: src/main.cpp:82
 #, kde-format
-msgid "Update lists"
-msgstr "Atnaujinti sąrašus"
+msgid "URL to open"
+msgstr "URL, kurį atverti"
 
-#: src/contents/ui/SettingsAdblock.qml:54
-#, kde-format
-msgid "The adblock functionality isn't included in this build."
-msgstr "Reklamos blokavimo funkcionalumas nėra įtrauktas į šį darinį."
-
-#: src/contents/ui/SettingsAdblock.qml:60
-#, kde-format
-msgid "Add filterlist"
-msgstr "Pridėti filtrų sąrašą"
-
-#: src/contents/ui/SettingsAdblock.qml:65
-#, kde-format
-msgid "Name"
-msgstr "Pavadinimas"
-
-#: src/contents/ui/SettingsAdblock.qml:74
-#, kde-format
-msgid "Url"
-msgstr "Url"
-
-#: src/contents/ui/SettingsAdblock.qml:84
-#, kde-format
-msgid "Add"
-msgstr "Pridėti"
-
-#: src/contents/ui/SettingsAdblock.qml:148
-#, kde-format
-msgid "Remove this filter list"
-msgstr "Šalinti šį filtrų sąrašą"
-
-#: src/contents/ui/SettingsAdblock.qml:159
-#, kde-format
-msgid "add Filterlist"
-msgstr "Pridėti filtrų sąrašą"
-
-#: src/contents/ui/SettingsGeneral.qml:17 src/contents/ui/SettingsPage.qml:14
+#: src/settings/AngelfishConfigurationView.qml:14
+#: src/settings/SettingsGeneral.qml:18
 #, kde-format
 msgid "General"
 msgstr "Bendra"
 
-#: src/contents/ui/SettingsGeneral.qml:39
+#: src/settings/AngelfishConfigurationView.qml:20
+#, kde-format
+msgid "Ad Block"
+msgstr "Reklamos blokavimas"
+
+#: src/settings/AngelfishConfigurationView.qml:26
+#: src/settings/SettingsWebApps.qml:16
+#, kde-format
+msgid "Web Apps"
+msgstr "Saityno programėlės"
+
+#: src/settings/AngelfishConfigurationView.qml:32
+#: src/settings/SettingsSearchEnginePage.qml:17
+#: src/settings/SettingsSearchEnginePage.qml:112
+#, kde-format
+msgid "Search Engine"
+msgstr "Paieškos sistema"
+
+#: src/settings/AngelfishConfigurationView.qml:38
+#: src/settings/DesktopHomeSettingsPage.qml:15
+#, kde-format
+msgid "Toolbars"
+msgstr "Įrankių juostos"
+
+#: src/settings/DesktopHomeSettingsPage.qml:24
+#, kde-format
+msgid "Show home button:"
+msgstr "Rodyti pradžios mygtuką:"
+
+#: src/settings/DesktopHomeSettingsPage.qml:25
+#, kde-format
+msgid "The home button will be shown next to the reload button in the toolbar."
+msgstr ""
+"Pradžios mygtukas bus rodomas įrankių juostoje šalia įkėlimo iš naujo "
+"mygtuko."
+
+#: src/settings/DesktopHomeSettingsPage.qml:35
+#, kde-format
+msgid "Homepage:"
+msgstr "Pagrindinis puslapis:"
+
+#: src/settings/DesktopHomeSettingsPage.qml:58
+#, kde-format
+msgid "New tabs:"
+msgstr "Naujos kortelės:"
+
+#: src/settings/DesktopHomeSettingsPage.qml:81
+#, kde-format
+msgid "Always show the tab bar"
+msgstr "Visada rodyti kortelių juostą"
+
+#: src/settings/DesktopHomeSettingsPage.qml:82
+#, kde-format
+msgid "The tab bar will be displayed even if there is only one tab open"
+msgstr "Kortelių juosta bus rodoma net tuomet, kai yra tik viena kortelė"
+
+#: src/settings/SettingsAdblock.qml:16
+#, kde-format
+msgid "Adblock settings"
+msgstr "Reklamos blokavimo nuostatos"
+
+#: src/settings/SettingsAdblock.qml:23
+#, fuzzy, kde-format
+#| msgid "add Filterlist"
+msgctxt "@action:intoolbar"
+msgid "Add Filterlist"
+msgstr "Pridėti filtrų sąrašą"
+
+#: src/settings/SettingsAdblock.qml:27
+#, kde-format
+msgid "Update lists"
+msgstr "Atnaujinti sąrašus"
+
+#: src/settings/SettingsAdblock.qml:49
+#, kde-format
+msgid "The adblock functionality isn't included in this build."
+msgstr "Reklamos blokavimo funkcionalumas nėra įtrauktas į šį darinį."
+
+#: src/settings/SettingsAdblock.qml:100
+#, kde-format
+msgid "Remove this filter list"
+msgstr "Šalinti šį filtrų sąrašą"
+
+#: src/settings/SettingsAdblock.qml:112
+#, fuzzy, kde-format
+#| msgid "add Filterlist"
+msgid "Add Filterlist"
+msgstr "Pridėti filtrų sąrašą"
+
+#: src/settings/SettingsAdblock.qml:124
+#, kde-format
+msgid "Add filterlist"
+msgstr "Pridėti filtrų sąrašą"
+
+#: src/settings/SettingsAdblock.qml:129
+#, kde-format
+msgid "Name"
+msgstr "Pavadinimas"
+
+#: src/settings/SettingsAdblock.qml:138
+#, kde-format
+msgid "Url"
+msgstr "Url"
+
+#: src/settings/SettingsGeneral.qml:27
 #, kde-format
 msgid "Enable JavaScript"
 msgstr "Įjungti JavaScript"
 
-#: src/contents/ui/SettingsGeneral.qml:40
+#: src/settings/SettingsGeneral.qml:28
 #, kde-format
 msgid "This may be required on certain websites for them to work."
 msgstr ""
 "To gali prireikti tam tikrose internetinėse svetainėse, kad jos veiktų."
 
-#: src/contents/ui/SettingsGeneral.qml:49
+#: src/settings/SettingsGeneral.qml:37
 #, kde-format
 msgid "Load images"
 msgstr "Įkelti paveikslus"
 
-#: src/contents/ui/SettingsGeneral.qml:50
+#: src/settings/SettingsGeneral.qml:38
 #, kde-format
 msgid "Whether to load images on websites."
 msgstr "Ar įkelti internetinėse svetainėse paveikslus."
 
-#: src/contents/ui/SettingsGeneral.qml:59
+#: src/settings/SettingsGeneral.qml:47
 #, kde-format
 msgid "Enable adblock"
 msgstr "Įjungti reklamos blokavimą"
 
-#: src/contents/ui/SettingsGeneral.qml:60
+#: src/settings/SettingsGeneral.qml:48
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
 msgstr "Stengiasi neleisti internetinėse svetainėse rodyti reklamų."
 
-#: src/contents/ui/SettingsGeneral.qml:60
+#: src/settings/SettingsGeneral.qml:48
 #, kde-format
 msgid "AdBlock functionality was not included in this build."
 msgstr "Reklamos blokavimo funkcionalumas nebuvo įtrauktas į šį darinį."
 
-#: src/contents/ui/SettingsGeneral.qml:70
+#: src/settings/SettingsGeneral.qml:58
 #, kde-format
 msgid "Switch to new tab immediately"
 msgstr "Nedelsiant perjungti į naują kortelę"
 
-#: src/contents/ui/SettingsGeneral.qml:71
+#: src/settings/SettingsGeneral.qml:59
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately"
@@ -837,12 +863,12 @@ msgstr ""
 "Kai naujoje kortelėje atveriate nuorodą, paveikslą ar mediją, nedelsiant į "
 "ją perjungti"
 
-#: src/contents/ui/SettingsGeneral.qml:80
+#: src/settings/SettingsGeneral.qml:68
 #, kde-format
 msgid "Use Smooth Scrolling"
 msgstr "Naudoti glotnų slinkimą"
 
-#: src/contents/ui/SettingsGeneral.qml:81
+#: src/settings/SettingsGeneral.qml:69
 #, kde-format
 msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
@@ -851,12 +877,12 @@ msgstr ""
 "Slinkimas bus glotnesnis ir, jums nustojus slinkti, staigiai nesustos. Tam, "
 "kad įsigaliotų, reikia paleisti programą iš naujo."
 
-#: src/contents/ui/SettingsGeneral.qml:90
+#: src/settings/SettingsGeneral.qml:78
 #, kde-format
 msgid "Use dark color scheme"
 msgstr "Naudoti tamsų spalvų rinkinį"
 
-#: src/contents/ui/SettingsGeneral.qml:91
+#: src/settings/SettingsGeneral.qml:79
 #, kde-format
 msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
@@ -865,16 +891,24 @@ msgstr ""
 "Internetinės svetainės turės nustatytą tamsų spalvų rinkinį. Tam, kad "
 "įsigaliotų, reikia paleisti programą iš naujo."
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:16
+#: src/settings/SettingsNavigationBarPage.qml:18
 #, kde-format
 msgid "Navigation bar"
 msgstr "Naršymo juostą"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:33
-#, kde-format
+#: src/settings/SettingsNavigationBarPage.qml:26
+#, fuzzy, kde-format
+#| msgid ""
+#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
+#| "hidden only in portrait orientation of the browser and are always shown "
+#| "if  the browser is wider than its height.\n"
+#| "\n"
+#| " Note that if you disable the menu buttons, you will be able to access "
+#| "the menus either by swiping from the left or right side or to a side "
+#| "along the bottom of the window."
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-"hidden only in portrait orientation of the browser and are always shown if  "
+"hidden only in portrait orientation of the browser and are always shown if "
 "the browser is wider than its height.\n"
 "\n"
 " Note that if you disable the menu buttons, you will be able to access the "
@@ -888,72 +922,57 @@ msgstr ""
 " Turėkite omenyje, jog jeigu išjungsite meniu mygtukus, meniu galėsite "
 "pasiekti braukdami iš kairės ar dešinės pusės arba į šoną palei lango apačią."
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:49
+#: src/settings/SettingsNavigationBarPage.qml:35
 #, kde-format
 msgid "Main menu in portrait"
 msgstr "Pagrindinis meniu stačiai"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:55
+#: src/settings/SettingsNavigationBarPage.qml:41
 #, kde-format
 msgid "Tabs in portrait"
 msgstr "Kortelės stačiai"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:61
+#: src/settings/SettingsNavigationBarPage.qml:47
 #, kde-format
 msgid "Context menu in portrait"
 msgstr "Kontekstinis meniu stačiai"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:67
+#: src/settings/SettingsNavigationBarPage.qml:53
 #, kde-format
 msgid "Go back"
 msgstr "Grįžti"
 
-#: src/contents/ui/SettingsNavigationBarPage.qml:79
+#: src/settings/SettingsNavigationBarPage.qml:65
 #, kde-format
 msgid "Reload/Stop"
 msgstr "Įkelti iš naujo/Stabdyti"
 
-#: src/contents/ui/SettingsPage.qml:20
-#, kde-format
-msgid "Ad Block"
-msgstr "Reklamos blokavimas"
-
-#: src/contents/ui/SettingsPage.qml:26 src/contents/ui/SettingsWebApps.qml:21
-#, kde-format
-msgid "Web Apps"
-msgstr "Saityno programėlės"
-
-#: src/contents/ui/SettingsPage.qml:32
-#: src/contents/ui/SettingsSearchEnginePage.qml:16
-#: src/contents/ui/SettingsSearchEnginePage.qml:120
-#, kde-format
-msgid "Search Engine"
-msgstr "Paieškos sistema"
-
-#: src/contents/ui/SettingsSearchEnginePage.qml:32
+#: src/settings/SettingsSearchEnginePage.qml:20
 #, kde-format
 msgid "Custom"
 msgstr "Tinkinta"
 
-#: src/contents/ui/SettingsSearchEnginePage.qml:121
+#: src/settings/SettingsSearchEnginePage.qml:117
 #, kde-format
 msgid "Base URL of your preferred search engine"
 msgstr "Pagrindinis, jūsų pageidaujamos paieškos sistemos, URL"
 
-#: src/contents/ui/SettingsWebApps.qml:80
+#: src/settings/SettingsWebApps.qml:73
 #, kde-format
 msgid "Remove app"
 msgstr "Šalinti programėlę"
 
-#: src/contents/ui/ShareSheet.qml:18
+#: src/settings/SettingsWebApps.qml:85
 #, kde-format
-msgid "Share page to"
-msgstr "Bendrinti puslapį į"
+msgctxt "placeholder message"
+msgid "No Web Apps installed"
+msgstr ""
 
-#: src/main.cpp:82
-#, kde-format
-msgid "URL to open"
-msgstr "URL, kurį atverti"
+#~ msgid "Configure Angelfish"
+#~ msgstr "Konfigūruoti Angelfish"
+
+#~ msgid "Add"
+#~ msgstr "Pridėti"
 
 #, fuzzy
 #~| msgid "Private mode"
