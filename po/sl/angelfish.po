@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-26 00:38+0000\n"
-"PO-Revision-Date: 2023-11-04 14:26+0100\n"
+"PO-Revision-Date: 2024-06-26 11:47+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
-"X-Generator: Lokalize 23.08.1\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -765,11 +765,10 @@ msgid "Adblock settings"
 msgstr "Nastavitve blokatorja oglasov"
 
 #: src/settings/SettingsAdblock.qml:23
-#, fuzzy, kde-format
-#| msgid "add Filterlist"
+#, kde-format
 msgctxt "@action:intoolbar"
 msgid "Add Filterlist"
-msgstr "dodaj filtrirni seznam"
+msgstr "Dodaj filtrirni seznam"
 
 #: src/settings/SettingsAdblock.qml:27
 #, kde-format
@@ -787,10 +786,9 @@ msgid "Remove this filter list"
 msgstr "Odstrani ta filtrirni seznam"
 
 #: src/settings/SettingsAdblock.qml:112
-#, fuzzy, kde-format
-#| msgid "add Filterlist"
+#, kde-format
 msgid "Add Filterlist"
-msgstr "dodaj filtrirni seznam"
+msgstr "Dodaj filtrirni seznam"
 
 #: src/settings/SettingsAdblock.qml:124
 #, kde-format
@@ -888,15 +886,7 @@ msgid "Navigation bar"
 msgstr "Navigacijska letvica"
 
 #: src/settings/SettingsNavigationBarPage.qml:26
-#, fuzzy, kde-format
-#| msgid ""
-#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-#| "hidden only in portrait orientation of the browser and are always shown "
-#| "if  the browser is wider than its height.\n"
-#| "\n"
-#| " Note that if you disable the menu buttons, you will be able to access "
-#| "the menus either by swiping from the left or right side or to a side "
-#| "along the bottom of the window."
+#, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
@@ -906,12 +896,13 @@ msgid ""
 "menus either by swiping from the left or right side or to a side along the "
 "bottom of the window."
 msgstr ""
-"Izberite gumbe omogočene v navigacijski vrstici. Nekateri gumbi so "
-"lahkoskriti samo v pokončni usmerjenosti brskalnika in so vedno prikazani, "
-"če je brskalnik širši od njegove višine.\n"
+"Izberite gumbe omogočene v navigacijski vrstici. Nekateri gumbi so lahko "
+"skriti samo v pokončni usmerjenosti brskalnika in so vedno prikazani, če je "
+"brskalnik širši od njegove višine.\n"
 "\n"
-" Če onemogočite gumbe menija, boste lahko dostopali do menijev, tako da "
-"povlečete z leve ali desne strani ali na stran ob dnu okna."
+" Upoštevajte, da če onemogočite menijske gumbe, boste do menijev lahko "
+"dostopali tako, da povlečete z leve ali desne strani ali na stran vzdolž dna "
+"okna."
 
 #: src/settings/SettingsNavigationBarPage.qml:35
 #, kde-format
@@ -957,7 +948,7 @@ msgstr "Odstrani aplikacijo"
 #, kde-format
 msgctxt "placeholder message"
 msgid "No Web Apps installed"
-msgstr ""
+msgstr "Ni nameščenih spletnih aplikacij"
 
 #~ msgid "Configure Angelfish"
 #~ msgstr "Nastavi Angelfish"

@@ -760,11 +760,10 @@ msgid "Adblock settings"
 msgstr "广告拦截器设置"
 
 #: src/settings/SettingsAdblock.qml:23
-#, fuzzy, kde-format
-#| msgid "add Filterlist"
+#, kde-format
 msgctxt "@action:intoolbar"
 msgid "Add Filterlist"
-msgstr "添加过滤规则列表"
+msgstr ""
 
 #: src/settings/SettingsAdblock.qml:27
 #, kde-format
@@ -782,10 +781,9 @@ msgid "Remove this filter list"
 msgstr "移除此过滤规则列表"
 
 #: src/settings/SettingsAdblock.qml:112
-#, fuzzy, kde-format
-#| msgid "add Filterlist"
+#, kde-format
 msgid "Add Filterlist"
-msgstr "添加过滤规则列表"
+msgstr ""
 
 #: src/settings/SettingsAdblock.qml:124
 #, kde-format
@@ -878,15 +876,7 @@ msgid "Navigation bar"
 msgstr "导航栏"
 
 #: src/settings/SettingsNavigationBarPage.qml:26
-#, fuzzy, kde-format
-#| msgid ""
-#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-#| "hidden only in portrait orientation of the browser and are always shown "
-#| "if  the browser is wider than its height.\n"
-#| "\n"
-#| " Note that if you disable the menu buttons, you will be able to access "
-#| "the menus either by swiping from the left or right side or to a side "
-#| "along the bottom of the window."
+#, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
@@ -896,10 +886,6 @@ msgid ""
 "menus either by swiping from the left or right side or to a side along the "
 "bottom of the window."
 msgstr ""
-"选择导航栏中启用的按钮。 某些按钮只能在竖屏模式下隐藏，并且在浏览器窗口的宽度"
-"大于其高度时总是显示。\n"
-"\n"
-" 提示：如果您禁用了菜单按钮， 您依然可以在窗口底部左滑或右滑来访问菜单。"
 
 #: src/settings/SettingsNavigationBarPage.qml:35
 #, kde-format
@@ -946,9 +932,3 @@ msgstr "移除应用"
 msgctxt "placeholder message"
 msgid "No Web Apps installed"
 msgstr ""
-
-#~ msgid "Configure Angelfish"
-#~ msgstr "配置 Angelfish"
-
-#~ msgid "Add"
-#~ msgstr "添加"

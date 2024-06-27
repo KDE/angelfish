@@ -947,6 +947,3 @@ msgstr ""
 msgctxt "placeholder message"
 msgid "No Web Apps installed"
 msgstr ""
-
-#~ msgid "Add"
-#~ msgstr "Legg til"
