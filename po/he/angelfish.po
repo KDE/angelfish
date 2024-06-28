@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-26 00:38+0000\n"
-"PO-Revision-Date: 2024-03-14 05:58+0200\n"
+"PO-Revision-Date: 2024-06-26 15:16+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Lokalize 24.05.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -760,8 +760,7 @@ msgid "Adblock settings"
 msgstr "הגדרות Adblock"
 
 #: src/settings/SettingsAdblock.qml:23
-#, fuzzy, kde-format
-#| msgid "add Filterlist"
+#, kde-format
 msgctxt "@action:intoolbar"
 msgid "Add Filterlist"
 msgstr "הוספת רשימת מסננים"
@@ -782,8 +781,7 @@ msgid "Remove this filter list"
 msgstr "הסרת רשימת המסננים הזאת"
 
 #: src/settings/SettingsAdblock.qml:112
-#, fuzzy, kde-format
-#| msgid "add Filterlist"
+#, kde-format
 msgid "Add Filterlist"
 msgstr "הוספת רשימת מסננים"
 
@@ -881,15 +879,7 @@ msgid "Navigation bar"
 msgstr "סרגל ניווט"
 
 #: src/settings/SettingsNavigationBarPage.qml:26
-#, fuzzy, kde-format
-#| msgid ""
-#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-#| "hidden only in portrait orientation of the browser and are always shown "
-#| "if  the browser is wider than its height.\n"
-#| "\n"
-#| " Note that if you disable the menu buttons, you will be able to access "
-#| "the menus either by swiping from the left or right side or to a side "
-#| "along the bottom of the window."
+#, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
@@ -949,7 +939,7 @@ msgstr "הסרת יישומון"
 #, kde-format
 msgctxt "placeholder message"
 msgid "No Web Apps installed"
-msgstr ""
+msgstr "לא מותקנים יישומי דפדפן"
 
 #~ msgid "Configure Angelfish"
 #~ msgstr "הגדרת Angelfish"
