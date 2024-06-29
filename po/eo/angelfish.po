@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-26 00:38+0000\n"
-"PO-Revision-Date: 2023-10-01 05:27+0100\n"
+"PO-Revision-Date: 2024-06-28 16:51+0200\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
 "Language: eo\n"
@@ -763,11 +763,10 @@ msgid "Adblock settings"
 msgstr "Adblokaj agordoj"
 
 #: src/settings/SettingsAdblock.qml:23
-#, fuzzy, kde-format
-#| msgid "add Filterlist"
+#, kde-format
 msgctxt "@action:intoolbar"
 msgid "Add Filterlist"
-msgstr "aldoni Filtrilliston"
+msgstr "Aldoni Filtrilliston"
 
 #: src/settings/SettingsAdblock.qml:27
 #, kde-format
@@ -785,10 +784,9 @@ msgid "Remove this filter list"
 msgstr "Forigi ĉi tiun filtrilliston"
 
 #: src/settings/SettingsAdblock.qml:112
-#, fuzzy, kde-format
-#| msgid "add Filterlist"
+#, kde-format
 msgid "Add Filterlist"
-msgstr "aldoni Filtrilliston"
+msgstr "Aldoni Filtrilliston"
 
 #: src/settings/SettingsAdblock.qml:124
 #, kde-format
@@ -887,15 +885,7 @@ msgid "Navigation bar"
 msgstr "Navigada stango"
 
 #: src/settings/SettingsNavigationBarPage.qml:26
-#, fuzzy, kde-format
-#| msgid ""
-#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-#| "hidden only in portrait orientation of the browser and are always shown "
-#| "if  the browser is wider than its height.\n"
-#| "\n"
-#| " Note that if you disable the menu buttons, you will be able to access "
-#| "the menus either by swiping from the left or right side or to a side "
-#| "along the bottom of the window."
+#, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
@@ -910,7 +900,7 @@ msgstr ""
 "la retumilo estas pli larĝa ol ĝia alteco.\n"
 "\n"
 " Rimarku, ke se vi malŝaltas la menubutonojn, vi povos aliri la menuojn aŭ "
-"glitante de la maldekstra aŭ dekstra flanko aŭ al flanko laŭ la fundo de la "
+"ŝovumante de la maldekstra aŭ dekstra flanko aŭ al flanko laŭ la fundo de la "
 "fenestro."
 
 #: src/settings/SettingsNavigationBarPage.qml:35
@@ -957,10 +947,4 @@ msgstr "Forigi apon"
 #, kde-format
 msgctxt "placeholder message"
 msgid "No Web Apps installed"
-msgstr ""
-
-#~ msgid "Configure Angelfish"
-#~ msgstr "Agordi Anĝelfiŝon"
-
-#~ msgid "Add"
-#~ msgstr "Aldoni"
+msgstr "Neniuj TTT-Apoj instalitaj"

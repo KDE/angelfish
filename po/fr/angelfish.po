@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2020, 2021, 2022, 2023 Xavier Besnard <xavier.besnard@kde.org>
+# SPDX-FileCopyrightText: 2020, 2021, 2022, 2023, 2024 Xavier Besnard <xavier.besnard@kde.org>
 # Simon Depiets <sdepiets@gmail.com>, 2019, 2020.
 # Xavier Besnard <xavier.besnard@kde.org>, 2023.
 msgid ""
@@ -6,17 +6,17 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-26 00:38+0000\n"
-"PO-Revision-Date: 2023-10-11 17:13+0200\n"
-"Last-Translator: Xavier BESNARD <xavier.besnard@kde.org>\n"
-"Language-Team: French <kde-francophone@kde.org>\n"
+"PO-Revision-Date: 2024-06-27 14:41+0200\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.08.1\n"
-"X-Environment: kde\n"
 "X-Accelerator-Marker: \n"
+"X-Environment: kde\n"
+"X-Generator: Lokalize 23.08.5\n"
 "X-Text-Markup: \n"
 
 #, kde-format
@@ -776,8 +776,7 @@ msgid "Adblock settings"
 msgstr "Configuration du bloqueur de publicités"
 
 #: src/settings/SettingsAdblock.qml:23
-#, fuzzy, kde-format
-#| msgid "add Filterlist"
+#, kde-format
 msgctxt "@action:intoolbar"
 msgid "Add Filterlist"
 msgstr "Ajouter une liste de filtrage"
@@ -800,8 +799,7 @@ msgid "Remove this filter list"
 msgstr "Supprimer cette liste de filtrage"
 
 #: src/settings/SettingsAdblock.qml:112
-#, fuzzy, kde-format
-#| msgid "add Filterlist"
+#, kde-format
 msgid "Add Filterlist"
 msgstr "Ajouter une liste de filtrage"
 
@@ -907,15 +905,7 @@ msgid "Navigation bar"
 msgstr "Barre de navigation"
 
 #: src/settings/SettingsNavigationBarPage.qml:26
-#, fuzzy, kde-format
-#| msgid ""
-#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-#| "hidden only in portrait orientation of the browser and are always shown "
-#| "if  the browser is wider than its height.\n"
-#| "\n"
-#| " Note that if you disable the menu buttons, you will be able to access "
-#| "the menus either by swiping from the left or right side or to a side "
-#| "along the bottom of the window."
+#, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
@@ -925,14 +915,14 @@ msgid ""
 "menus either by swiping from the left or right side or to a side along the "
 "bottom of the window."
 msgstr ""
-"Sélectionner les boutons à activer dans la barre de navigation. Certains de "
+"Sélectionner les boutons activés dans la barre de navigation. Certains de "
 "ces boutons peuvent être masqués, uniquement dans la configuration en mode "
 "« Portrait » du navigateur. Ils sont toujours affichés si la taille de la "
 "fenêtre du navigateur est plus large que haute.\n"
 "\n"
-"Remarque : si vous désactivez les boutons de menus, vous serez capable "
-"d'accéder aux menus, par un balayage, soit à partir des côtés droit ou "
-"gauche ou soit à partir du bord inférieur de la fenêtre."
+"Veuillez noter que si vous désactivez les boutons de menus, vous serez "
+"capable d'accéder aux menus, par un balayage, soit à partir des côtés droit "
+"ou gauche ou soit à partir du bord inférieur de la fenêtre."
 
 #: src/settings/SettingsNavigationBarPage.qml:35
 #, kde-format
@@ -978,7 +968,7 @@ msgstr "Supprimer une application"
 #, kde-format
 msgctxt "placeholder message"
 msgid "No Web Apps installed"
-msgstr ""
+msgstr "Aucune application Internet installée"
 
 #~ msgid "Configure Angelfish"
 #~ msgstr "Configurer Angelfish"
