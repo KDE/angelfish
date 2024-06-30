@@ -185,7 +185,7 @@ Kirigami.ApplicationWindow {
                 right: parent.right
                 bottom: navigation.top
             }
-            visible: currentWebView.errorDomain !== null
+            visible: currentWebView && currentWebView.errorDomain !== null
                      && currentWebView.errorDomain !== WebEngineLoadingInfo.HttpStatusCodeDomain
 
             onRefreshRequested: currentWebView.reload()
@@ -433,7 +433,7 @@ Kirigami.ApplicationWindow {
             visible: webBrowser.visibility !== Window.FullScreen && !findInPage.active
 
             tabsSheet: tabsSheetLoader
-            
+
             Kirigami.Theme.colorSet: rootPage.privateMode ? Kirigami.Theme.Complementary : Kirigami.Theme.Window
 
             layer.enabled: navigation.navigationShown

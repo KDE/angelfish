@@ -52,14 +52,15 @@ Repeater {
         property bool readyForSnapshot: false
         property bool showView: index === tabs.currentIndex
         property bool isVisible: (showView || readyForSnapshot || pageWebView.loadingActive) && tabs.activeTabs
-        property alias title: pageWebView.title
-        property alias icon: pageWebView.icon
-        property alias readerMode: pageWebView.readerMode
-        property alias readerTitle: pageWebView.readerTitle
+        property alias pageWebView: pageWebViewLoader.item
+        property string title: pageWebView.title
+        property var icon: pageWebView.icon
+        property bool readerMode: pageWebView.readerMode
+        property string readerTitle: pageWebView.readerTitle
 
         onShowViewChanged: {
             if (showView) {
-                tabs.currentItem = pageWebView
+                tabs.currentItem = Qt.binding(() => pageWebViewLoader.item)
             }
         }
         x: showView && tabs.activeTabs ? 0 : -width
@@ -72,28 +73,47 @@ Repeater {
             QQC2.SplitView.fillWidth: true
             QQC2.SplitView.fillHeight: true
 
-            WebView {
-                id: pageWebView
+            Loader {
+                id: pageWebViewLoader
                 anchors.fill: parent
-                visible: isVisible
-                
-                privateMode: tabs.privateTabsMode
-                userAgent.isMobile: tabDelegate.isMobile
-                width: tabs.width
 
-                profile: tabs.profile
+                active: true
+                asynchronous: true
 
-                Component.onCompleted: {
-                    url = tabDelegate.pageurl
-                }
+                sourceComponent: WebView {
+                    anchors.fill: parent
+                    visible: isVisible
 
-                onRequestedUrlChanged: tabsModel.setUrl(index, requestedUrl)
+                    privateMode: tabs.privateTabsMode
+                    userAgent.isMobile: tabDelegate.isMobile
+                    width: tabs.width
 
-                Connections {
-                    target: pageWebView.userAgent
-                    function onUserAgentChanged() {
-                        tabsModel.setIsMobile(index, pageWebView.userAgent.isMobile);
+                    profile: tabs.profile
+
+                    Component.onCompleted: {
+                        url = tabDelegate.pageurl
                     }
+
+                    onRequestedUrlChanged: tabsModel.setUrl(index, requestedUrl)
+
+                    Connections {
+                        target: pageWebView.userAgent
+                        function onUserAgentChanged() {
+                            tabsModel.setIsMobile(index, pageWebView.userAgent.isMobile);
+                        }
+                    }
+                }
+            }
+
+            Rectangle {
+                color: Kirigami.Theme.backgroundColor
+                anchors.fill: parent
+
+                visible: pageWebViewLoader.status !== Loader.Ready
+
+                QQC2.BusyIndicator {
+                    anchors.centerIn: parent
+                    running: pageWebViewLoader.status === Loader.Loading
                 }
             }
         }
