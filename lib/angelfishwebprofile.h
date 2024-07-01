@@ -7,10 +7,10 @@
 #include <QObject>
 #include <QQuickItem>
 #include <QQuickWebEngineProfile>
+#include <QWebEngineDownloadRequest>
 #include <QWebEngineUrlRequestInterceptor>
 
-class QQuickWebEngineDownloadRequest;
-using DownloadItem = QQuickWebEngineDownloadRequest;
+using DownloadItem = QWebEngineDownloadRequest;
 
 class QWebEngineNotification;
 class QQuickItem;
@@ -33,7 +33,7 @@ public:
     void setUrlInterceptor(QWebEngineUrlRequestInterceptor *urlRequestInterceptor);
 
 private:
-    void handleDownload(DownloadItem *downloadItem);
+    void handleDownload(QQuickWebEngineDownloadRequest *downloadItem);
     void handleDownloadFinished(DownloadItem *downloadItem);
     void showNotification(QWebEngineNotification *webNotification);
 

@@ -13,8 +13,6 @@
 #include <QStandardPaths>
 #include <QVariant>
 
-#include <exception>
-
 #include <QCoroFuture>
 
 constexpr int MAX_BROWSER_HISTORY_SIZE = 3000;
@@ -155,7 +153,7 @@ QCoro::Task<> DBManager::addToHistory(const QVariantMap pagedata)
     co_await addRecord(QStringLiteral("history"), pagedata);
 }
 
- QCoro::Task<> DBManager::removeFromHistory(const QString url)
+QCoro::Task<> DBManager::removeFromHistory(const QString url)
 {
     co_await removeRecord(QStringLiteral("history"), url);
 }

@@ -4,13 +4,12 @@
 
 #pragma once
 
-#include <QObject>
+#include <QWebEngineDownloadRequest>
 
 #include <memory>
 #include <vector>
 
-class QQuickWebEngineDownloadRequest;
-using DownloadItem = QQuickWebEngineDownloadRequest;
+using DownloadItem = QWebEngineDownloadRequest;
 
 class DownloadManager
 {

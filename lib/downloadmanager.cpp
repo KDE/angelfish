@@ -6,8 +6,6 @@
 
 #include <QUrl>
 
-#include <private/qquickwebenginedownloadrequest_p.h>
-
 DownloadManager::DownloadManager() = default;
 
 DownloadManager &DownloadManager::instance()

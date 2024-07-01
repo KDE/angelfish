@@ -11,9 +11,6 @@
 
 #include "downloadmanager.h"
 
-#include <private/qquickwebenginedownloadrequest_p.h>
-using DownloadItem = QQuickWebEngineDownloadRequest;
-
 DownloadsModel::DownloadsModel(QObject *parent)
     : QAbstractListModel(parent)
 {
