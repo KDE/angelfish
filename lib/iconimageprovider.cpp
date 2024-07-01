@@ -12,8 +12,9 @@
 #include <QQmlApplicationEngine>
 #include <QString>
 
-#include <QCoro/QCoroFuture>
-#include <QCoro/QCoroTask>
+#include <QCoroFuture>
+#include <QCoroSignal>
+#include <QCoroTask>
 
 #include "browsermanager.h"
 
@@ -73,7 +74,7 @@ QCoro::Task<QString> storeIcon(QQmlEngine *engine, const QString &iconSource)
     }
 
     // Store new icon
-    QQuickImageProvider *provider = dynamic_cast<QQuickImageProvider *>(engine->imageProvider(QStringLiteral("favicon")));
+    QQuickAsyncImageProvider *provider = dynamic_cast<QQuickAsyncImageProvider *>(engine->imageProvider(QStringLiteral("favicon")));
     if (!provider) {
         qWarning() << Q_FUNC_INFO << "Failed to load image provider" << url;
         co_return iconSource; // as something is wrong
@@ -85,25 +86,32 @@ QCoro::Task<QString> storeIcon(QQmlEngine *engine, const QString &iconSource)
 
     const QSize szRequested;
     const QString providerIconName = iconSource.mid(prefix_favicon.size());
-    switch (provider->imageType()) {
-    case QQmlImageProviderBase::Image: {
-        const QImage image = provider->requestImage(providerIconName, nullptr, szRequested);
-        if (!image.save(&buffer, "PNG")) {
-            qWarning() << Q_FUNC_INFO << "Failed to save image" << url;
-            co_return iconSource; // as something is wrong
+
+    const QImage imageToSave = co_await [=]() -> QCoro::Task<QImage> {
+        switch (provider->imageType()) {
+        case QQmlImageProviderBase::Image: {
+            co_return provider->requestImage(providerIconName, nullptr, szRequested);
         }
-        break;
-    }
-    case QQmlImageProviderBase::Pixmap: {
-        const QPixmap image = provider->requestPixmap(providerIconName, nullptr, szRequested);
-        if (!image.save(&buffer, "PNG")) {
-            qWarning() << Q_FUNC_INFO << "Failed to save pixmap" << url;
-            co_return iconSource; // as something is wrong
+        case QQmlImageProviderBase::Pixmap: {
+            const QPixmap image = provider->requestPixmap(providerIconName, nullptr, szRequested);
+            co_return image.toImage();
         }
-        break;
-    }
-    default:
-        qWarning() << Q_FUNC_INFO << "Unsupported image provider" << provider->imageType();
+        case QQmlImageProviderBase::Texture: {
+            co_return provider->requestTexture(providerIconName, nullptr, szRequested)->image();
+        }
+        case QQmlImageProviderBase::ImageResponse: {
+            auto response = provider->requestImageResponse(providerIconName, szRequested);
+            co_await qCoro(response, &QQuickImageResponse::finished);
+            co_return response->textureFactory()->image();
+        }
+        default:
+            qWarning() << Q_FUNC_INFO << "Unsupported image provider" << provider->imageType();
+            co_return {}; // as something is wrong
+        }
+    }();
+
+    if (!imageToSave.save(&buffer, "PNG")) {
+        qWarning() << Q_FUNC_INFO << "Failed to save image" << url;
         co_return iconSource; // as something is wrong
     }
 
