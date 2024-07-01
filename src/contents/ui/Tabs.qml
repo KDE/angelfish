@@ -65,6 +65,7 @@ BottomDrawer {
         boundsMovement: Flickable.StopAtBounds
         boundsBehavior: Flickable.DragOverBounds
         flickDeceleration: 8000
+        flickableDirection: Flickable.VerticalFlick
 
         GridView {
             anchors.fill: parent
@@ -94,17 +95,16 @@ BottomDrawer {
                 property int sourceX: (index % (grid.width / grid.cellWidth)) * grid.cellWidth
                 property int borderWidth: 2
 
-                DragHandler {
-                    id: dragHandler
-                    target: parent
-                    grabPermissions: PointerHandler.ApprovesTakeOverByAnything
-                    yAxis.enabled: false
-                    xAxis.enabled: true
-                    onActiveChanged: {
+                MouseArea {
+                    id: mouseArea
+                    anchors.fill: parent
+                    drag.target: gridItem
+                    drag.axis: "XAxis"
+                    drag.onActiveChanged: {
                         xAnimator.stop();
 
-                        let rightThreshold = Math.min(gridItem.sourceX + grid.width * 0.5, grid.width + Kirigami.Units.gridUnit * 2);
-                        let leftThreshold = Math.max(gridItem.sourceX - grid.width * 0.5, - Kirigami.Units.gridUnit * 2);
+                        let rightThreshold = Math.min(gridItem.sourceX + grid.width * 0.45, grid.width + Kirigami.Units.gridUnit * 2);
+                        let leftThreshold = Math.max(gridItem.sourceX - grid.width * 0.45, - Kirigami.Units.gridUnit * 2);
                         if (parent.x > rightThreshold) {
                             xAnimator.to = grid.width;
                         } else if (parent.x < leftThreshold) {
@@ -115,10 +115,16 @@ BottomDrawer {
                         xAnimator.start();
                         firstItemDrag = false
                     }
+
+                    onClicked: {
+                        tabs.currentIndex = index;
+                        tabsRoot.close();
+                    }
                 }
+
                 NumberAnimation on x {
                     id: xAnimator
-                    running: !dragHandler.active && !firstItemDrag
+                    running: !mouseArea.drag.active && !firstItemDrag
                     duration: Kirigami.Units.longDuration
                     easing.type: Easing.InOutQuad
                     to: gridItem.sourceX
@@ -127,11 +133,6 @@ BottomDrawer {
                             tabs.tabsModel.closeTab(index);
                         }
                     }
-                }
-
-                onClicked: {
-                    tabs.currentIndex = index;
-                    tabsRoot.close();
                 }
 
                 background: Item {
