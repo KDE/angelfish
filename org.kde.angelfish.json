@@ -19,7 +19,8 @@
         "--filesystem=xdg-data",
         "--filesystem=xdg-download",
         "--talk-name=org.freedesktop.Notifications",
-        "--own-name=org.kde.angelfish"
+        "--own-name=org.kde.angelfish",
+        "--env=QML2_IMPORT_PATH=/app/qml/:/app/lib64/qml:/app/lib/qml"
     ],
     "separate-locales": false,
     "add-extensions": {
