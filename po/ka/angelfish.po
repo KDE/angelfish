@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-26 00:38+0000\n"
+"POT-Creation-Date: 2024-07-02 00:38+0000\n"
 "PO-Revision-Date: 2024-06-26 05:35+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -48,17 +48,17 @@ msgstr "2020 Angelfish-ის პროგრამისტები, ყვე
 msgid "Marco Martin"
 msgstr "მაკრო მარტინი"
 
-#: lib/angelfishwebprofile.cpp:59
+#: lib/angelfishwebprofile.cpp:63
 #, kde-format
 msgid "Download finished"
 msgstr "გადმოწერა დასრულდა"
 
-#: lib/angelfishwebprofile.cpp:63
+#: lib/angelfishwebprofile.cpp:67
 #, kde-format
 msgid "Download failed"
 msgstr "გადმოწერის შეცდომა"
 
-#: lib/angelfishwebprofile.cpp:84 src/contents/ui/NewTabQuestion.qml:19
+#: lib/angelfishwebprofile.cpp:88 src/contents/ui/NewTabQuestion.qml:19
 #, kde-format
 msgid "Open"
 msgstr "გახსნა"

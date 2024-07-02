@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-26 00:38+0000\n"
+"POT-Creation-Date: 2024-07-02 00:38+0000\n"
 "PO-Revision-Date: 2024-06-26 18:30+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -48,17 +48,17 @@ msgstr "جميع الحقوق محفوظة 2020 لمطوري انجيلقيش"
 msgid "Marco Martin"
 msgstr "ماركو مارتن"
 
-#: lib/angelfishwebprofile.cpp:59
+#: lib/angelfishwebprofile.cpp:63
 #, kde-format
 msgid "Download finished"
 msgstr "انتهى التنزيل"
 
-#: lib/angelfishwebprofile.cpp:63
+#: lib/angelfishwebprofile.cpp:67
 #, kde-format
 msgid "Download failed"
 msgstr "فشل التنزيل"
 
-#: lib/angelfishwebprofile.cpp:84 src/contents/ui/NewTabQuestion.qml:19
+#: lib/angelfishwebprofile.cpp:88 src/contents/ui/NewTabQuestion.qml:19
 #, kde-format
 msgid "Open"
 msgstr "افتح"
