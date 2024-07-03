@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-angelfish package.
 #
-# Stefan Asserhäll <stefan.asserhall@gmail.com>, 2019, 2020, 2021, 2022, 2023.
+# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2023, 2024 Stefan Asserhäll <stefan.asserhall@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-02 00:38+0000\n"
-"PO-Revision-Date: 2023-07-26 20:06+0200\n"
+"POT-Creation-Date: 2024-07-03 00:38+0000\n"
+"PO-Revision-Date: 2024-07-02 21:13+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 20.08.1\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -523,12 +523,12 @@ msgstr "Rensa all historik"
 msgid "Not history yet"
 msgstr "Ingen historik ännu"
 
-#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:191
+#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:192
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Läsläge: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:222
+#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:223
 #, kde-format
 msgid "Close tab"
 msgstr "Stäng flik"
@@ -761,11 +761,10 @@ msgid "Adblock settings"
 msgstr "Inställningar av reklamblockering"
 
 #: src/settings/SettingsAdblock.qml:23
-#, fuzzy, kde-format
-#| msgid "add Filterlist"
+#, kde-format
 msgctxt "@action:intoolbar"
 msgid "Add Filterlist"
-msgstr "lägg till filterlista"
+msgstr "Lägg till filterlista"
 
 #: src/settings/SettingsAdblock.qml:27
 #, kde-format
@@ -783,10 +782,9 @@ msgid "Remove this filter list"
 msgstr "Ta bort filterlistan"
 
 #: src/settings/SettingsAdblock.qml:112
-#, fuzzy, kde-format
-#| msgid "add Filterlist"
+#, kde-format
 msgid "Add Filterlist"
-msgstr "lägg till filterlista"
+msgstr "Lägg till filterlista"
 
 #: src/settings/SettingsAdblock.qml:124
 #, kde-format
@@ -884,15 +882,7 @@ msgid "Navigation bar"
 msgstr "Navigeringsrad"
 
 #: src/settings/SettingsNavigationBarPage.qml:26
-#, fuzzy, kde-format
-#| msgid ""
-#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-#| "hidden only in portrait orientation of the browser and are always shown "
-#| "if  the browser is wider than its height.\n"
-#| "\n"
-#| " Note that if you disable the menu buttons, you will be able to access "
-#| "the menus either by swiping from the left or right side or to a side "
-#| "along the bottom of the window."
+#, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
@@ -906,7 +896,7 @@ msgstr ""
 "döljas i webbläsarens stående orientering, och visas alltid om webbläsaren "
 "är bredare än sin höjd.\n"
 "\n"
-"Observera att om menyknapparna inaktiveras, går det att komma åt menyerna "
+" Observera att om menyknapparna inaktiveras, går det att komma åt menyerna "
 "genom att antingen svepa från vänster till höger sida eller mot en sida "
 "längs fönstrets nederkant."
 
@@ -954,7 +944,7 @@ msgstr "Ta bort program"
 #, kde-format
 msgctxt "placeholder message"
 msgid "No Web Apps installed"
-msgstr ""
+msgstr "Inga webbapplikationer installerade"
 
 #~ msgid "Configure Angelfish"
 #~ msgstr "Anpassa Angelfish"

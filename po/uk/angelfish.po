@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-02 00:38+0000\n"
+"POT-Creation-Date: 2024-07-03 00:38+0000\n"
 "PO-Revision-Date: 2024-06-26 12:52+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian\n"
@@ -529,12 +529,12 @@ msgstr "Спорожнити увесь журнал"
 msgid "Not history yet"
 msgstr "Записів журналу ще немає"
 
-#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:191
+#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:192
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Режим читання: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:222
+#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:223
 #, kde-format
 msgid "Close tab"
 msgstr "Закрити вкладку"

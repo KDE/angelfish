@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-02 00:38+0000\n"
+"POT-Creation-Date: 2024-07-03 00:38+0000\n"
 "PO-Revision-Date: 2024-06-27 02:45+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -528,12 +528,12 @@ msgstr "Borrar el historial"
 msgid "Not history yet"
 msgstr "Aún no hay historial"
 
-#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:191
+#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:192
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Modo lector: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:222
+#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:223
 #, kde-format
 msgid "Close tab"
 msgstr "Cerrar la pestaña"
