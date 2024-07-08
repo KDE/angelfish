@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-07-03 00:38+0000\n"
-"PO-Revision-Date: 2024-01-09 10:31+0100\n"
+"PO-Revision-Date: 2024-07-07 14:29+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Lokalize 24.05.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -763,11 +763,10 @@ msgid "Adblock settings"
 msgstr "Adblock beállítások"
 
 #: src/settings/SettingsAdblock.qml:23
-#, fuzzy, kde-format
-#| msgid "add Filterlist"
+#, kde-format
 msgctxt "@action:intoolbar"
 msgid "Add Filterlist"
-msgstr "szűrőlista hozzáadása"
+msgstr "Szűrőlista hozzáadása"
 
 #: src/settings/SettingsAdblock.qml:27
 #, kde-format
@@ -785,10 +784,9 @@ msgid "Remove this filter list"
 msgstr "Szűrőlista törlése"
 
 #: src/settings/SettingsAdblock.qml:112
-#, fuzzy, kde-format
-#| msgid "add Filterlist"
+#, kde-format
 msgid "Add Filterlist"
-msgstr "szűrőlista hozzáadása"
+msgstr "Szűrőlista hozzáadása"
 
 #: src/settings/SettingsAdblock.qml:124
 #, kde-format
@@ -886,15 +884,7 @@ msgid "Navigation bar"
 msgstr "Navigációs sáv"
 
 #: src/settings/SettingsNavigationBarPage.qml:26
-#, fuzzy, kde-format
-#| msgid ""
-#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-#| "hidden only in portrait orientation of the browser and are always shown "
-#| "if  the browser is wider than its height.\n"
-#| "\n"
-#| " Note that if you disable the menu buttons, you will be able to access "
-#| "the menus either by swiping from the left or right side or to a side "
-#| "along the bottom of the window."
+#, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
@@ -955,7 +945,7 @@ msgstr "Alkalmazás eltávolítása"
 #, kde-format
 msgctxt "placeholder message"
 msgid "No Web Apps installed"
-msgstr ""
+msgstr "Nincs telepítve webalkalmazás"
 
 #~ msgid "Configure Angelfish"
 #~ msgstr "Az Angelfish beállítása"
