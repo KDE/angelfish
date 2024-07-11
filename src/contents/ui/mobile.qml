@@ -61,7 +61,7 @@ Kirigami.ApplicationWindow {
                 icon.name: "tab-duplicate"
                 onTriggered: {
                     popSubPages();
-                    tabsSheetLoader.open();
+                    tabsSheetLoader.toggle();
                 }
                 text: i18n("Tabs")
             },
@@ -114,6 +114,7 @@ Kirigami.ApplicationWindow {
 
     contextDrawer: Kirigami.ContextDrawer {
         id: contextDrawer
+
         actions: pageStack.currentItem?.actions ?? []
         enabled: true
 
@@ -128,6 +129,7 @@ Kirigami.ApplicationWindow {
         rightPadding: 0
         topPadding: 0
         bottomPadding: 0
+
         globalToolBarStyle: pageStack.layers.depth === 1 ? Kirigami.ApplicationHeaderStyle.None : Kirigami.ApplicationHeaderStyle.ToolBar
         Kirigami.ColumnView.fillWidth: true
         Kirigami.ColumnView.pinned: true
@@ -396,11 +398,24 @@ Kirigami.ApplicationWindow {
         Loader {
             id: tabsSheetLoader
             active: false
-            function open() {
-                active = true;
-                item.open();
+            property bool showTabs: false
+            function toggle() {
+                if (active == false) {
+                    active = true;
+                    showTabs = true;
+                } else if (showTabs == true) {
+                    item.openTab()
+                    showTabs = false;
+                }
             }
-            sourceComponent: Tabs {}
+            function close() {
+                active = false;
+                showTabs = false;
+            }
+            sourceComponent: Tabs {
+                 tabsSheet: tabsSheetLoader
+                 sheet: sheetLoader
+            }
         }
 
         // Find bar

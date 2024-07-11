@@ -12,64 +12,101 @@ import org.kde.kirigami 2.19 as Kirigami
 import org.kde.angelfish 1.0
 
 import "components"
-BottomDrawer {
+Kirigami.Page {
     id: tabsRoot
 
     property int columns: width > 800 ? 4 : width > 600 ? 3 : 2
-    property real ratio: webBrowser.height / webBrowser.width
-    readonly property int itemWidth: webBrowser.width / columns - Kirigami.Units.smallSpacing * 2
-    readonly property int itemHeight: (itemWidth * ratio + Kirigami.Units.gridUnit) * columns / 4
-    property bool firstItemDrag: true // prevents a gridview layout issue
+    property real ratio: applicationWindow().height / applicationWindow().width
+    readonly property double itemWidth: applicationWindow().width / columns - Kirigami.Units.smallSpacing * 2
+    readonly property double itemHeight: (itemWidth * ratio + Kirigami.Units.gridUnit) * columns / 4.0
+    property int borderWidth: 2
+    readonly property double fullZoomScale: (itemWidth - (borderWidth * 2)) / applicationWindow().width
+    property double zoomValue: 1
+    property double zoomScale: fullZoomScale + (zoomValue * (1 - fullZoomScale))
+    readonly property int zoomSourceX: {
+        let zoomGridX = tabs.currentIndex % (((applicationWindow().width - (Kirigami.Units.largeSpacing * 2)) / ((applicationWindow().width - (Kirigami.Units.largeSpacing * 2)) / (columns))));
+        let oneMinusFullZoom = (1 - fullZoomScale);
+        return (zoomGridX * ((itemWidth + Kirigami.Units.largeSpacing) / oneMinusFullZoom)) + (((Kirigami.Units.smallSpacing + borderWidth)) / oneMinusFullZoom);
+    }
+    readonly property int zoomSourceY: {
+        let zoomGridY = Math.floor(tabs.currentIndex / (((applicationWindow().width - (Kirigami.Units.largeSpacing * 2)) / ((applicationWindow().width - (Kirigami.Units.largeSpacing * 2)) / (columns)))));
+        let oneMinusFullZoom = (1 - fullZoomScale);
+        return (zoomGridY * ((itemHeight + Kirigami.Units.largeSpacing) / oneMinusFullZoom)) + (((Kirigami.Units.gridUnit * 1.5) + (Kirigami.Units.smallSpacing + borderWidth) - grid.contentY) / oneMinusFullZoom);
+    }
+    readonly property int zoomTabHeight: applicationWindow().height * ((zoomScale - fullZoomScale) * (1 / (1 - fullZoomScale))) + (applicationWindow().width * ((itemHeight - Kirigami.Units.gridUnit * 1.5) / itemWidth)) * (1 - ((zoomScale - fullZoomScale) * (1 / (1 - fullZoomScale))))
+    readonly property int zoomY: ((applicationWindow().height - (applicationWindow().height - zoomSourceY)) / applicationWindow().height) * (((applicationWindow().height - zoomTabHeight) / 2))
+
+    property var tabsSheet
+    property var sheet
 
     height: applicationWindow().height
     width: applicationWindow().width
-    edge: Qt.BottomEdge
+    padding: 0
 
-    Component.onCompleted: grid.currentIndex = tabs.currentIndex
-
-    onOpened: grid.width = width // prevents gridview layout issues
-    onClosed: {
-        tabsSheetLoader.active = false // unload tabs when the sheet is closed
-        firstItemDrag = true
+    Component.onCompleted: {
+        tabs.itemAt(tabs.currentIndex).grabToImage(function(result) {convertedImage.source = result.url}, Qt.size(applicationWindow().width, applicationWindow().height))
     }
 
-    headerContentItem: RowLayout {
-        Layout.maximumWidth: tabsRoot.width - Kirigami.Units.smallSpacing * 2
-        Layout.leftMargin: Kirigami.Units.smallSpacing
-        Layout.rightMargin: Kirigami.Units.smallSpacing
-        Layout.bottomMargin: Kirigami.Units.smallSpacing
-        z: 1
-        Kirigami.Heading {
-            text: i18n("Tabs")
+    Item {
+        id: zoomTabImage
+        width: applicationWindow().width
+        height: zoomTabHeight
 
+        y: zoomY
+
+        transform: Scale { origin.x: zoomSourceX; origin.y: zoomSourceY - zoomY / (1 - fullZoomScale); xScale: zoomScale; yScale: zoomScale }
+        z: 3
+        visible: zoomAnimator.running ? true : false
+
+        ShaderEffectSource {
+            id: shaderTab
+            live: false
+            anchors.fill: parent
+            sourceItem: tabs.itemAt(tabs.currentIndex)
         }
-        Item { Layout.fillWidth: true }
 
-        QQC2.ToolButton {
-            icon.name: "list-add"
-            text: i18n("New Tab")
-            onClicked: {
-                tabs.tabsModel.newTab("about:blank")
-                tabs.tabsModel.setLatestTab()
-                urlEntry.open();
-                tabsRoot.close();
-            }
+        Image {
+            id: convertedImage
+            anchors.fill: parent
+            fillMode: Image.PreserveAspectCrop
+            verticalAlignment: Image.AlignTop
         }
     }
 
-    drawerContentItem: Flickable {
+    NumberAnimation on zoomValue {
+        id: zoomAnimator
+        running: true
+        duration: Kirigami.Units.longDuration
+        easing.type: Easing.OutCirc
+        to: 0
+        onFinished: {
+            if (to == 1) {tabsSheet.close()}
+        }
+    }
+
+    function openTab() {
+        zoomAnimator.stop()
+        shaderTab.visible = false;
+        zoomAnimator.to = 1;
+        zoomAnimator.start()
+    }
+
+
+    Flickable {
         id: flickable
-        clip: true
-        anchors.fill: parent
+        height: applicationWindow().height - (Kirigami.Units.largeSpacing * 7)
+        width: applicationWindow().width
+        scale: 1 - (zoomValue * 0.15)
 
         boundsMovement: Flickable.StopAtBounds
         boundsBehavior: Flickable.DragOverBounds
         flickDeceleration: 8000
-        flickableDirection: Flickable.VerticalFlick
+        clip: true
 
         GridView {
             anchors.fill: parent
             id: grid
+            currentIndex: tabs.currentIndex
             model: tabs.model
             cellWidth: itemWidth + Kirigami.Units.largeSpacing
             cellHeight: itemHeight + Kirigami.Units.largeSpacing
@@ -92,17 +129,18 @@ BottomDrawer {
                 padding: Kirigami.Units.smallSpacing + borderWidth
                 clip: true
 
-                property int sourceX: (index % (grid.width / grid.cellWidth)) * grid.cellWidth
-                property int borderWidth: 2
+                z: mouseArea.pressed || scaleAnimator.running ? 1 : 0
+
+                property double sourceX: (index % (applicationWindow().width / grid.cellWidth)) * grid.cellWidth
 
                 MouseArea {
                     id: mouseArea
                     anchors.fill: parent
                     drag.target: gridItem
                     drag.axis: "XAxis"
+                    z: 0
                     drag.onActiveChanged: {
                         xAnimator.stop();
-
                         let rightThreshold = Math.min(gridItem.sourceX + grid.width * 0.45, grid.width + Kirigami.Units.gridUnit * 2);
                         let leftThreshold = Math.max(gridItem.sourceX - grid.width * 0.45, - Kirigami.Units.gridUnit * 2);
                         if (parent.x > rightThreshold) {
@@ -113,20 +151,46 @@ BottomDrawer {
                             xAnimator.to = gridItem.sourceX;
                         }
                         xAnimator.start();
-                        firstItemDrag = false
                     }
-
+                    onPressed: {
+                        scaleAnimator.stop()
+                        scaleAnimator.to = 1.15;
+                        scaleAnimator.start()
+                    }
+                    onReleased: {
+                        scaleAnimator.stop()
+                        scaleAnimator.to = 1.0;
+                        scaleAnimator.start()
+                    }
+                    onCanceled: {
+                        scaleAnimator.stop()
+                        scaleAnimator.to = 1.0;
+                        scaleAnimator.start()
+                    }
+                    onPressAndHold: {
+                        sheet.setSource("ShareSheet.qml")
+                        sheet.item.url = currentWebView.url
+                        sheet.item.inputTitle = currentWebView.title
+                        sheet.item.open()
+                        scaleAnimator.stop()
+                        scaleAnimator.to = 1.0;
+                        scaleAnimator.start()
+                    }
                     onClicked: {
-                        tabs.currentIndex = index;
-                        tabsRoot.close();
+                        if (zoomAnimator.to != 1) {
+                            tabs.currentIndex = index;
+                            convertedImage.visible = false
+                            shaderItem.grabToImage(function(result) {convertedImage.source = result.url; convertedImage.visible = true;}, Qt.size(applicationWindow().width, applicationWindow().height))
+                            tabsSheet.toggle();
+                        }
                     }
                 }
 
                 NumberAnimation on x {
                     id: xAnimator
-                    running: !mouseArea.drag.active && !firstItemDrag
+                    running: !mouseArea.drag.active && !zoomAnimator.running
                     duration: Kirigami.Units.longDuration
-                    easing.type: Easing.InOutQuad
+                    easing.type: Easing.OutQuad
                     to: gridItem.sourceX
                     onFinished: {
                         if (to != gridItem.sourceX) { // close tab
@@ -134,6 +198,16 @@ BottomDrawer {
                         }
                     }
                 }
+
+                ScaleAnimator {
+                    id: scaleAnimator
+                    target: gridItem;
+                    running: true
+                    duration: Kirigami.Units.longDuration
+                    easing.type: Easing.OutQuad
+                    to: 1.0
+                }
+
 
                 background: Item {
                     anchors.centerIn: parent
@@ -162,6 +236,8 @@ BottomDrawer {
 
                     Kirigami.Theme.inherit: false
                     Kirigami.Theme.colorSet: Kirigami.Theme.Header
+
+                    z: 2
 
                     Rectangle {
                         anchors.horizontalCenter: parent.horizontalCenter
@@ -235,6 +311,7 @@ BottomDrawer {
                         anchors.horizontalCenter: parent.horizontalCenter
                         width: itemWidth - Kirigami.Units.smallSpacing
                         height: itemHeight - Kirigami.Units.gridUnit * 1.5 - Kirigami.Units.smallSpacing
+                        clip: true
 
                         // ShaderEffectSource requires that corresponding WebEngineView is
                         // visible. Here, visibility is enabled while snapshot is taken and
@@ -244,14 +321,19 @@ BottomDrawer {
 
                             live: false
                             anchors.fill: parent
-                            sourceRect: Qt.rect(0, 0, sourceItem.width, height/width * sourceItem.width)
+                            sourceRect: Qt.rect(0, 0, applicationWindow().width, applicationWindow().height) //height/width
+
+                            transform: Scale {yScale: applicationWindow().height / (applicationWindow().width * ((itemHeight - Kirigami.Units.gridUnit * 1.5) / itemWidth))}
+
                             sourceItem: tabs.itemAt(index)
 
                             Component.onCompleted: {
                                 sourceItem.readyForSnapshot = true;
                                 scheduleUpdate();
                             }
-                            onScheduledUpdateCompleted: sourceItem.readyForSnapshot = false
+                            onScheduledUpdateCompleted: {
+                                sourceItem.readyForSnapshot = false
+                            }
                         }
                     }
                 }

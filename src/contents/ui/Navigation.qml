@@ -14,13 +14,19 @@ import org.kde.angelfish 1.0
 Item {
     id: navigation
 
-    height: expandedHeight
+    property int addedHeight: 0
+
+    height: {
+        let progress = Math.max(-tabDragHandler.yAxis.activeValue, 0) / expandedHeight;
+        let effectProgress = Math.atan(Math.max(0, progress));
+        return (expandedHeight + effectProgress * expandedHeight)
+    }
 
     property bool navigationShown: true
 
     property int expandedHeight: Kirigami.Units.gridUnit * 3
     property int buttonSize: Kirigami.Units.gridUnit * 2
-    property int gestureThreshold: height * 2
+    property int gestureThreshold: expandedHeight * 2
     
     property var tabsSheet
     
@@ -46,6 +52,8 @@ Item {
             yScale: Math.max(0, navContainer.x / gestureThreshold)
         }
     }
+
+
     Kirigami.Icon {
         id: rightGestureIcon
         anchors.margins: Kirigami.Units.gridUnit
@@ -63,29 +71,52 @@ Item {
             yScale: Math.max(0, -navContainer.x / gestureThreshold)
         }
     }
+
+    DragHandler {
+        id: tabDragHandler
+        target: null
+        yAxis.enabled: true
+        xAxis.enabled: false
+        onActiveChanged: {
+            yAnimator.restart(); // go back to center
+
+            if (navigation.height >= gestureThreshold) {
+                tabsSheet.toggle()
+            }
+        }
+    }
+
+    NumberAnimation on height {
+        id: yAnimator
+        running: !tabDragHandler.active
+        duration: Kirigami.Units.longDuration
+        easing.type: Easing.InOutQuad
+        to: expandedHeight
+    }
     
     Item {
         id: navContainer
         width: navigation.width
         height: navigation.height
-        anchors.bottom: parent.bottom
+        y: Math.round(addedHeight / 10)
         
         opacity: 1 - (Math.abs(navContainer.x) / (gestureThreshold * 2))
-        
+
         // left/right gestures
         HapticsEffectLoader {
             id: vibrate
         }
+
         DragHandler {
             id: dragHandler
             target: parent
             yAxis.enabled: false
-            xAxis.enabled: true
+            xAxis.enabled: !tabsSheet.showTabs
             xAxis.minimum: currentWebView.canGoForward ? -gestureThreshold : 0
             xAxis.maximum: currentWebView.canGoBack ? gestureThreshold : 0
             onActiveChanged: {
                 xAnimator.restart(); // go back to center
-                
+
                 if (parent.x >= gestureThreshold && currentWebView.canGoBack) {
                     currentWebView.goBack()
                 } else if (parent.x <= -gestureThreshold && currentWebView.canGoForward) {
@@ -111,6 +142,8 @@ Item {
             anchors.fill: parent
             anchors.leftMargin: Kirigami.Units.gridUnit / 2
             anchors.rightMargin: Kirigami.Units.gridUnit / 2
+
+            visible: !tabsSheet.showTabs
 
             spacing: Kirigami.Units.smallSpacing
             Kirigami.Theme.inherit: true
@@ -160,7 +193,7 @@ Item {
                     }
                 }
 
-                onClicked: tabsSheet.open()
+                onClicked: tabsSheet.toggle()
             }
 
             Controls.ToolButton {
@@ -177,6 +210,7 @@ Item {
                 onClicked: currentWebView.goBack()
                 onPressAndHold: {
                     historySheet.backHistory = true;
+
                     historySheet.open();
                 }
             }
@@ -280,12 +314,76 @@ Item {
                 onClicked: contextDrawer.open()
             }
         }
+
+        RowLayout {
+            id: tabLayout
+            anchors.fill: parent
+            anchors.leftMargin: Kirigami.Units.gridUnit / 2
+            anchors.rightMargin: Kirigami.Units.gridUnit / 2
+
+            visible: tabsSheet.showTabs
+
+            spacing: Kirigami.Units.smallSpacing
+            Kirigami.Theme.inherit: true
+
+            Controls.ToolButton {
+                Layout.preferredWidth: buttonSize * 3
+                Layout.preferredHeight: buttonSize
+
+                Controls.Label {
+                    anchors.centerIn: parent
+                    height: Kirigami.Units.gridUnit
+                    width: Kirigami.Units.gridUnit * 3
+                    fontSizeMode: Text.Fit
+                    minimumPixelSize: 0
+                    minimumPointSize: 0
+                    clip: true
+                    text: i18n("Done")
+                    horizontalAlignment: Text.AlignHCenter
+                    verticalAlignment: Text.AlignVCenter
+                    Kirigami.Theme.inherit: true
+                }
+
+                onClicked: tabsSheet.toggle()
+            }
+
+            Controls.Label {
+                Layout.fillWidth: true
+                minimumPixelSize: 0
+                minimumPointSize: 0
+                text: "%1 Tabs".arg(tabs.count)
+                horizontalAlignment: Text.AlignHCenter
+                verticalAlignment: Text.AlignVCenter
+                Kirigami.Theme.inherit: true
+            }
+
+            Controls.ToolButton {
+                id: newTab
+
+                Layout.fillWidth: false
+                Layout.preferredWidth: buttonSize * 3
+                Layout.preferredHeight:  buttonSize
+
+                icon.name: "list-add"
+                text: i18n("New Tab")
+
+                Kirigami.Theme.inherit: true
+
+                onClicked: {
+                    tabs.tabsModel.newTab("about:blank")
+                    tabs.tabsModel.setLatestTab()
+                    urlEntry.open();
+                    tabsSheet.toggle()
+                }
+            }
+        }
     }
+
 
     states: [
         State {
             name: "shown"
-            when: navigationShown
+            when: navigationShown || tabLayout.visible
             AnchorChanges {
                 target: navigation
                 anchors.bottom: navigation.parent.bottom
@@ -294,7 +392,7 @@ Item {
         },
         State {
             name: "hidden"
-            when: !navigationShown
+            when: !navigationShown && !tabLayout.visible
             AnchorChanges {
                 target: navigation
                 anchors.bottom: undefined
