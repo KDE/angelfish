@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-03 00:38+0000\n"
+"POT-Creation-Date: 2024-07-12 00:38+0000\n"
 "PO-Revision-Date: 2024-04-09 00:28+0300\n"
 "Last-Translator: Moo\n"
 "Language-Team: lt\n"
@@ -409,7 +409,7 @@ msgid "Paste"
 msgstr "Įdėti"
 
 #: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:344
-#: src/contents/ui/mobile.qml:290
+#: src/contents/ui/mobile.qml:292
 #, kde-format
 msgid "Share page"
 msgstr "Bendrinti puslapį"
@@ -454,7 +454,7 @@ msgid "Search or enter URL…"
 msgstr "Atlikite paiešką arba įveskite URL adresą…"
 
 #: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:349
-#: src/contents/ui/Tabs.qml:50
+#: src/contents/ui/Navigation.qml:368
 #, kde-format
 msgid "New Tab"
 msgstr "Nauja kortelė"
@@ -491,12 +491,12 @@ msgstr "Visas ekranas"
 msgid "Hide developer tools"
 msgstr "Slėpti plėtotojo įrankius"
 
-#: src/contents/ui/desktop/desktop.qml:319 src/contents/ui/mobile.qml:386
+#: src/contents/ui/desktop/desktop.qml:319 src/contents/ui/mobile.qml:388
 #, kde-format
 msgid "Show developer tools"
 msgstr "Rodyti plėtotojo įrankius"
 
-#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:286
+#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:288
 #, kde-format
 msgid "Find in page"
 msgstr "Rasti puslapyje"
@@ -532,12 +532,12 @@ msgstr "Išvalyti visą istoriją"
 msgid "Not history yet"
 msgstr "Kol kas istorijos nėra"
 
-#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:192
+#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:268
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Skaitytojo veiksena: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:223
+#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:299
 #, kde-format
 msgid "Close tab"
 msgstr "Užverti kortelę"
@@ -620,70 +620,75 @@ msgstr "Ieškoti..."
 msgid "Angelfish Web Browser"
 msgstr "Angelfish saityno naršyklė"
 
-#: src/contents/ui/mobile.qml:66 src/contents/ui/Tabs.qml:43
+#: src/contents/ui/mobile.qml:66
 #, kde-format
 msgid "Tabs"
 msgstr "Kortelės"
 
-#: src/contents/ui/mobile.qml:301
+#: src/contents/ui/mobile.qml:303
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Pridėti į pradžios ekraną"
 
-#: src/contents/ui/mobile.qml:311
+#: src/contents/ui/mobile.qml:313
 #, kde-format
 msgid "Open in app"
 msgstr "Atverti programėlėje"
 
-#: src/contents/ui/mobile.qml:319
+#: src/contents/ui/mobile.qml:321
 #, kde-format
 msgid "Go previous"
 msgstr "Eiti į ankstesnį"
 
-#: src/contents/ui/mobile.qml:327 src/settings/SettingsNavigationBarPage.qml:59
+#: src/contents/ui/mobile.qml:329 src/settings/SettingsNavigationBarPage.qml:59
 #, kde-format
 msgid "Go forward"
 msgstr "Eiti į tolimesnį"
 
-#: src/contents/ui/mobile.qml:334
+#: src/contents/ui/mobile.qml:336
 #, kde-format
 msgid "Stop loading"
 msgstr "Stabdyti įkėlimą"
 
-#: src/contents/ui/mobile.qml:334
+#: src/contents/ui/mobile.qml:336
 #, kde-format
 msgid "Refresh"
 msgstr "Įkelti iš naujo"
 
-#: src/contents/ui/mobile.qml:344
+#: src/contents/ui/mobile.qml:346
 #, kde-format
 msgid "Bookmarked"
 msgstr "Įrašyta į žymeles"
 
-#: src/contents/ui/mobile.qml:344
+#: src/contents/ui/mobile.qml:346
 #, kde-format
 msgid "Bookmark"
 msgstr "Įrašyti į žymeles"
 
-#: src/contents/ui/mobile.qml:360
+#: src/contents/ui/mobile.qml:362
 #, kde-format
 msgid "Show desktop site"
 msgstr "Rodyti darbalaukiui skirtą svetainės versiją"
 
-#: src/contents/ui/mobile.qml:369
+#: src/contents/ui/mobile.qml:371
 #, kde-format
 msgid "Reader Mode"
 msgstr "Skaitytojo veiksena"
 
-#: src/contents/ui/mobile.qml:377
+#: src/contents/ui/mobile.qml:379
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "Slėpti naršymo juostą"
 
-#: src/contents/ui/mobile.qml:377
+#: src/contents/ui/mobile.qml:379
 #, kde-format
 msgid "Show navigation bar"
 msgstr "Rodyti naršymo juostą"
+
+#: src/contents/ui/Navigation.qml:341
+#, kde-format
+msgid "Done"
+msgstr ""
 
 #: src/contents/ui/NewTabQuestion.qml:11
 #, kde-format

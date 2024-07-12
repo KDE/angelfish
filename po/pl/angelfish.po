@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-03 00:38+0000\n"
+"POT-Creation-Date: 2024-07-12 00:38+0000\n"
 "PO-Revision-Date: 2023-03-25 09:22+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -403,7 +403,7 @@ msgid "Paste"
 msgstr "Wklej"
 
 #: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:344
-#: src/contents/ui/mobile.qml:290
+#: src/contents/ui/mobile.qml:292
 #, kde-format
 msgid "Share page"
 msgstr "Udostępnij stronę"
@@ -446,7 +446,7 @@ msgid "Search or enter URL…"
 msgstr "Poszukaj lub wpisz adres URL..."
 
 #: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:349
-#: src/contents/ui/Tabs.qml:50
+#: src/contents/ui/Navigation.qml:368
 #, kde-format
 msgid "New Tab"
 msgstr "Nowa karta"
@@ -483,12 +483,12 @@ msgstr "Pełny ekran"
 msgid "Hide developer tools"
 msgstr "Ukryj narzędzia programistyczne"
 
-#: src/contents/ui/desktop/desktop.qml:319 src/contents/ui/mobile.qml:386
+#: src/contents/ui/desktop/desktop.qml:319 src/contents/ui/mobile.qml:388
 #, kde-format
 msgid "Show developer tools"
 msgstr "Pokaż narzędzia programistyczne"
 
-#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:286
+#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:288
 #, kde-format
 msgid "Find in page"
 msgstr "Znajdź na stronie"
@@ -524,12 +524,12 @@ msgstr "Wyczyść całą historię"
 msgid "Not history yet"
 msgstr "Nie ma jeszcze historii"
 
-#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:192
+#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:268
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Tryb czytania: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:223
+#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:299
 #, kde-format
 msgid "Close tab"
 msgstr "Zamknij kartę"
@@ -612,70 +612,75 @@ msgstr "Szukaj..."
 msgid "Angelfish Web Browser"
 msgstr "Przeglądarka sieciowa Angelfish"
 
-#: src/contents/ui/mobile.qml:66 src/contents/ui/Tabs.qml:43
+#: src/contents/ui/mobile.qml:66
 #, kde-format
 msgid "Tabs"
 msgstr "Karty"
 
-#: src/contents/ui/mobile.qml:301
+#: src/contents/ui/mobile.qml:303
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Dodaj do strony domowej"
 
-#: src/contents/ui/mobile.qml:311
+#: src/contents/ui/mobile.qml:313
 #, kde-format
 msgid "Open in app"
 msgstr "Otwórz w programie"
 
-#: src/contents/ui/mobile.qml:319
+#: src/contents/ui/mobile.qml:321
 #, kde-format
 msgid "Go previous"
 msgstr "Przejdź wstecz"
 
-#: src/contents/ui/mobile.qml:327 src/settings/SettingsNavigationBarPage.qml:59
+#: src/contents/ui/mobile.qml:329 src/settings/SettingsNavigationBarPage.qml:59
 #, kde-format
 msgid "Go forward"
 msgstr "Przejdź naprzód"
 
-#: src/contents/ui/mobile.qml:334
+#: src/contents/ui/mobile.qml:336
 #, kde-format
 msgid "Stop loading"
 msgstr "Zatrzymaj wczytywanie"
 
-#: src/contents/ui/mobile.qml:334
+#: src/contents/ui/mobile.qml:336
 #, kde-format
 msgid "Refresh"
 msgstr "Odśwież"
 
-#: src/contents/ui/mobile.qml:344
+#: src/contents/ui/mobile.qml:346
 #, kde-format
 msgid "Bookmarked"
 msgstr "W zakładkach"
 
-#: src/contents/ui/mobile.qml:344
+#: src/contents/ui/mobile.qml:346
 #, kde-format
 msgid "Bookmark"
 msgstr "Zakładka"
 
-#: src/contents/ui/mobile.qml:360
+#: src/contents/ui/mobile.qml:362
 #, kde-format
 msgid "Show desktop site"
 msgstr "Pokaż stronę pulpitu"
 
-#: src/contents/ui/mobile.qml:369
+#: src/contents/ui/mobile.qml:371
 #, kde-format
 msgid "Reader Mode"
 msgstr "Tryb czytania"
 
-#: src/contents/ui/mobile.qml:377
+#: src/contents/ui/mobile.qml:379
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "Ukryj pasek poruszania się"
 
-#: src/contents/ui/mobile.qml:377
+#: src/contents/ui/mobile.qml:379
 #, kde-format
 msgid "Show navigation bar"
 msgstr "Pokaż pasek poruszania się"
+
+#: src/contents/ui/Navigation.qml:341
+#, kde-format
+msgid "Done"
+msgstr ""
 
 #: src/contents/ui/NewTabQuestion.qml:11
 #, kde-format

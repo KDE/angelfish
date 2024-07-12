@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-03 00:38+0000\n"
+"POT-Creation-Date: 2024-07-12 00:38+0000\n"
 "PO-Revision-Date: 2024-06-26 10:20+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -402,7 +402,7 @@ msgid "Paste"
 msgstr "Plakken"
 
 #: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:344
-#: src/contents/ui/mobile.qml:290
+#: src/contents/ui/mobile.qml:292
 #, kde-format
 msgid "Share page"
 msgstr "Pagina delen"
@@ -446,7 +446,7 @@ msgid "Search or enter URL…"
 msgstr "Zoek of voer een URL in…"
 
 #: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:349
-#: src/contents/ui/Tabs.qml:50
+#: src/contents/ui/Navigation.qml:368
 #, kde-format
 msgid "New Tab"
 msgstr "Nieuw tabblad"
@@ -483,12 +483,12 @@ msgstr "Volledig scherm"
 msgid "Hide developer tools"
 msgstr "Hulpmiddelen voor ontwikkelaar verbergen"
 
-#: src/contents/ui/desktop/desktop.qml:319 src/contents/ui/mobile.qml:386
+#: src/contents/ui/desktop/desktop.qml:319 src/contents/ui/mobile.qml:388
 #, kde-format
 msgid "Show developer tools"
 msgstr "Hulpmiddelen voor ontwikkelaars tonen"
 
-#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:286
+#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:288
 #, kde-format
 msgid "Find in page"
 msgstr "In pagina zoeken"
@@ -524,12 +524,12 @@ msgstr "Alle geschiedenis wissen"
 msgid "Not history yet"
 msgstr "Nog geen geschiedenis"
 
-#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:192
+#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:268
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Modus Lezer: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:223
+#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:299
 #, kde-format
 msgid "Close tab"
 msgstr "Tabblad sluiten"
@@ -612,70 +612,75 @@ msgstr "Zoeken..."
 msgid "Angelfish Web Browser"
 msgstr "Webbrowser Angelfish"
 
-#: src/contents/ui/mobile.qml:66 src/contents/ui/Tabs.qml:43
+#: src/contents/ui/mobile.qml:66
 #, kde-format
 msgid "Tabs"
 msgstr "Tabbladen"
 
-#: src/contents/ui/mobile.qml:301
+#: src/contents/ui/mobile.qml:303
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Aan thuisscherm toevoegen"
 
-#: src/contents/ui/mobile.qml:311
+#: src/contents/ui/mobile.qml:313
 #, kde-format
 msgid "Open in app"
 msgstr "In toepassing openen"
 
-#: src/contents/ui/mobile.qml:319
+#: src/contents/ui/mobile.qml:321
 #, kde-format
 msgid "Go previous"
 msgstr "Ga naar vorige"
 
-#: src/contents/ui/mobile.qml:327 src/settings/SettingsNavigationBarPage.qml:59
+#: src/contents/ui/mobile.qml:329 src/settings/SettingsNavigationBarPage.qml:59
 #, kde-format
 msgid "Go forward"
 msgstr "Ga verder"
 
-#: src/contents/ui/mobile.qml:334
+#: src/contents/ui/mobile.qml:336
 #, kde-format
 msgid "Stop loading"
 msgstr "Laden stoppen"
 
-#: src/contents/ui/mobile.qml:334
+#: src/contents/ui/mobile.qml:336
 #, kde-format
 msgid "Refresh"
 msgstr "Vernieuwen"
 
-#: src/contents/ui/mobile.qml:344
+#: src/contents/ui/mobile.qml:346
 #, kde-format
 msgid "Bookmarked"
 msgstr "Met bladwijzer"
 
-#: src/contents/ui/mobile.qml:344
+#: src/contents/ui/mobile.qml:346
 #, kde-format
 msgid "Bookmark"
 msgstr "Bladwijzer"
 
-#: src/contents/ui/mobile.qml:360
+#: src/contents/ui/mobile.qml:362
 #, kde-format
 msgid "Show desktop site"
 msgstr "Bureaubladsite tonen"
 
-#: src/contents/ui/mobile.qml:369
+#: src/contents/ui/mobile.qml:371
 #, kde-format
 msgid "Reader Mode"
 msgstr "Modus Lezer"
 
-#: src/contents/ui/mobile.qml:377
+#: src/contents/ui/mobile.qml:379
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "Navigatiebalk verbergen"
 
-#: src/contents/ui/mobile.qml:377
+#: src/contents/ui/mobile.qml:379
 #, kde-format
 msgid "Show navigation bar"
 msgstr "Navigatiebalk tonen"
+
+#: src/contents/ui/Navigation.qml:341
+#, kde-format
+msgid "Done"
+msgstr ""
 
 #: src/contents/ui/NewTabQuestion.qml:11
 #, kde-format

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-03 00:38+0000\n"
+"POT-Creation-Date: 2024-07-12 00:38+0000\n"
 "PO-Revision-Date: 2023-05-29 19:05+0400\n"
 "Last-Translator: Kheyyam <xxmn77@gmail.com>\n"
 "Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
@@ -418,7 +418,7 @@ msgid "Paste"
 msgstr "Yerləşdirmək"
 
 #: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:344
-#: src/contents/ui/mobile.qml:290
+#: src/contents/ui/mobile.qml:292
 #, kde-format
 msgid "Share page"
 msgstr "Səhifəni paylaşmaq"
@@ -463,7 +463,7 @@ msgid "Search or enter URL…"
 msgstr "Tarixçəni axtarın..."
 
 #: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:349
-#: src/contents/ui/Tabs.qml:50
+#: src/contents/ui/Navigation.qml:368
 #, kde-format
 msgid "New Tab"
 msgstr "Yeni Vərəq"
@@ -501,12 +501,12 @@ msgstr "Tam ekran-"
 msgid "Hide developer tools"
 msgstr "Tərtibatçı alətlərini göstərmək"
 
-#: src/contents/ui/desktop/desktop.qml:319 src/contents/ui/mobile.qml:386
+#: src/contents/ui/desktop/desktop.qml:319 src/contents/ui/mobile.qml:388
 #, kde-format
 msgid "Show developer tools"
 msgstr "Tərtibatçı alətlərini göstərmək"
 
-#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:286
+#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:288
 #, kde-format
 msgid "Find in page"
 msgstr "Səhifədə tapmaq"
@@ -542,12 +542,12 @@ msgstr "Bütün tarixçəni təmizləyin"
 msgid "Not history yet"
 msgstr "Hələlik heç bir tarixçə yoxdur"
 
-#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:192
+#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:268
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Oxu rejimi: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:223
+#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:299
 #, fuzzy, kde-format
 #| msgid "Close"
 msgid "Close tab"
@@ -635,70 +635,75 @@ msgstr "Axtar..."
 msgid "Angelfish Web Browser"
 msgstr "Angelfish Veb Bələdçisi"
 
-#: src/contents/ui/mobile.qml:66 src/contents/ui/Tabs.qml:43
+#: src/contents/ui/mobile.qml:66
 #, kde-format
 msgid "Tabs"
 msgstr "Vərəqlər"
 
-#: src/contents/ui/mobile.qml:301
+#: src/contents/ui/mobile.qml:303
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Əsas ekrana əlavə etmək"
 
-#: src/contents/ui/mobile.qml:311
+#: src/contents/ui/mobile.qml:313
 #, kde-format
 msgid "Open in app"
 msgstr "Tətbiqdə açamaq"
 
-#: src/contents/ui/mobile.qml:319
+#: src/contents/ui/mobile.qml:321
 #, kde-format
 msgid "Go previous"
 msgstr "Əvvəlkinə qayıtmaq"
 
-#: src/contents/ui/mobile.qml:327 src/settings/SettingsNavigationBarPage.qml:59
+#: src/contents/ui/mobile.qml:329 src/settings/SettingsNavigationBarPage.qml:59
 #, kde-format
 msgid "Go forward"
 msgstr "İrəli"
 
-#: src/contents/ui/mobile.qml:334
+#: src/contents/ui/mobile.qml:336
 #, kde-format
 msgid "Stop loading"
 msgstr "Yükləməni dayandırmaq"
 
-#: src/contents/ui/mobile.qml:334
+#: src/contents/ui/mobile.qml:336
 #, kde-format
 msgid "Refresh"
 msgstr "Yeniləmək"
 
-#: src/contents/ui/mobile.qml:344
+#: src/contents/ui/mobile.qml:346
 #, kde-format
 msgid "Bookmarked"
 msgstr "Əlfəcinlərdədir"
 
-#: src/contents/ui/mobile.qml:344
+#: src/contents/ui/mobile.qml:346
 #, kde-format
 msgid "Bookmark"
 msgstr "Əlfəcin"
 
-#: src/contents/ui/mobile.qml:360
+#: src/contents/ui/mobile.qml:362
 #, kde-format
 msgid "Show desktop site"
 msgstr "Masaüstü görünüşü"
 
-#: src/contents/ui/mobile.qml:369
+#: src/contents/ui/mobile.qml:371
 #, kde-format
 msgid "Reader Mode"
 msgstr "Oxu rejimi"
 
-#: src/contents/ui/mobile.qml:377
+#: src/contents/ui/mobile.qml:379
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "Naviqasiya panelini gizlətmək"
 
-#: src/contents/ui/mobile.qml:377
+#: src/contents/ui/mobile.qml:379
 #, kde-format
 msgid "Show navigation bar"
 msgstr "Naviqasiya panelini göstərmək"
+
+#: src/contents/ui/Navigation.qml:341
+#, kde-format
+msgid "Done"
+msgstr ""
 
 #: src/contents/ui/NewTabQuestion.qml:11
 #, kde-format
