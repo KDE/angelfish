@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-03 00:38+0000\n"
+"POT-Creation-Date: 2024-07-12 00:38+0000\n"
 "PO-Revision-Date: 2023-04-21 23:28+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -403,7 +403,7 @@ msgid "Paste"
 msgstr "붙여넣기"
 
 #: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:344
-#: src/contents/ui/mobile.qml:290
+#: src/contents/ui/mobile.qml:292
 #, kde-format
 msgid "Share page"
 msgstr "공유 페이지"
@@ -446,7 +446,7 @@ msgid "Search or enter URL…"
 msgstr "검색 또는 URL 입력…"
 
 #: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:349
-#: src/contents/ui/Tabs.qml:50
+#: src/contents/ui/Navigation.qml:368
 #, kde-format
 msgid "New Tab"
 msgstr "새 탭"
@@ -483,12 +483,12 @@ msgstr "전체 화면"
 msgid "Hide developer tools"
 msgstr "개발자 도구 숨기기"
 
-#: src/contents/ui/desktop/desktop.qml:319 src/contents/ui/mobile.qml:386
+#: src/contents/ui/desktop/desktop.qml:319 src/contents/ui/mobile.qml:388
 #, kde-format
 msgid "Show developer tools"
 msgstr "개발자 도구 표시"
 
-#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:286
+#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:288
 #, kde-format
 msgid "Find in page"
 msgstr "페이지에서 찾기"
@@ -524,12 +524,12 @@ msgstr "모든 기록 삭제"
 msgid "Not history yet"
 msgstr "과거 기록이 비어 있음"
 
-#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:192
+#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:268
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "읽기 모드: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:223
+#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:299
 #, kde-format
 msgid "Close tab"
 msgstr "탭 닫기"
@@ -612,70 +612,75 @@ msgstr "검색..."
 msgid "Angelfish Web Browser"
 msgstr "Angelfish 웹 브라우저"
 
-#: src/contents/ui/mobile.qml:66 src/contents/ui/Tabs.qml:43
+#: src/contents/ui/mobile.qml:66
 #, kde-format
 msgid "Tabs"
 msgstr "탭"
 
-#: src/contents/ui/mobile.qml:301
+#: src/contents/ui/mobile.qml:303
 #, kde-format
 msgid "Add to homescreen"
 msgstr "홈 화면에 추가"
 
-#: src/contents/ui/mobile.qml:311
+#: src/contents/ui/mobile.qml:313
 #, kde-format
 msgid "Open in app"
 msgstr "앱에서 열기"
 
-#: src/contents/ui/mobile.qml:319
+#: src/contents/ui/mobile.qml:321
 #, kde-format
 msgid "Go previous"
 msgstr "뒤로 이동"
 
-#: src/contents/ui/mobile.qml:327 src/settings/SettingsNavigationBarPage.qml:59
+#: src/contents/ui/mobile.qml:329 src/settings/SettingsNavigationBarPage.qml:59
 #, kde-format
 msgid "Go forward"
 msgstr "앞으로 이동"
 
-#: src/contents/ui/mobile.qml:334
+#: src/contents/ui/mobile.qml:336
 #, kde-format
 msgid "Stop loading"
 msgstr "불러오기 멈추기"
 
-#: src/contents/ui/mobile.qml:334
+#: src/contents/ui/mobile.qml:336
 #, kde-format
 msgid "Refresh"
 msgstr "새로 고침"
 
-#: src/contents/ui/mobile.qml:344
+#: src/contents/ui/mobile.qml:346
 #, kde-format
 msgid "Bookmarked"
 msgstr "책갈피에 추가됨"
 
-#: src/contents/ui/mobile.qml:344
+#: src/contents/ui/mobile.qml:346
 #, kde-format
 msgid "Bookmark"
 msgstr "책갈피"
 
-#: src/contents/ui/mobile.qml:360
+#: src/contents/ui/mobile.qml:362
 #, kde-format
 msgid "Show desktop site"
 msgstr "데스크톱 사이트 표시"
 
-#: src/contents/ui/mobile.qml:369
+#: src/contents/ui/mobile.qml:371
 #, kde-format
 msgid "Reader Mode"
 msgstr "읽기 모드"
 
-#: src/contents/ui/mobile.qml:377
+#: src/contents/ui/mobile.qml:379
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "탐색 표시줄 숨기기"
 
-#: src/contents/ui/mobile.qml:377
+#: src/contents/ui/mobile.qml:379
 #, kde-format
 msgid "Show navigation bar"
 msgstr "탐색 표시줄 표시"
+
+#: src/contents/ui/Navigation.qml:341
+#, kde-format
+msgid "Done"
+msgstr ""
 
 #: src/contents/ui/NewTabQuestion.qml:11
 #, kde-format
