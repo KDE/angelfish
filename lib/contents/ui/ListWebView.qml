@@ -22,6 +22,8 @@ Repeater {
 
     property alias tabsModel: tabsModel
 
+    property int bottomOffset: 0
+
     property WebEngineProfile profile: AngelfishWebProfile {
         httpUserAgent: tabs.currentItem.userAgent.userAgent
         offTheRecord: tabs.privateTabsMode
@@ -46,7 +48,8 @@ Repeater {
 
         required property int index
 
-        anchors.fill: parent
+        width: parent.width
+        height: parent.height - bottomOffset
         orientation: width < height ? Qt.Vertical : Qt.Horizontal
 
         property bool readyForSnapshot: false

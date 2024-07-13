@@ -14,12 +14,15 @@ import org.kde.angelfish 1.0
 Item {
     id: navigation
 
-    property int addedHeight: 0
+    property double dismissValue: 0 // Value between 1 and 0 animating the dismiss state of the navbar. 0 is full, 1 is dismissed.
+    property double dismissOpacity: Math.max(1 - (dismissValue * 2), 0)
+    // The web view lags a bit when resizing, so this rounds the value.
+    property int dismissHeight: expandedHeight * (1 - Math.round(dismissValue) * 0.6)
 
     height: {
         let progress = Math.max(-tabDragHandler.yAxis.activeValue, 0) / expandedHeight;
-        let effectProgress = Math.atan(Math.max(0, progress));
-        return (expandedHeight + effectProgress * expandedHeight)
+        let effectProgress = Math.atan(progress);
+        return (expandedHeight + effectProgress * expandedHeight) * (1 - dismissValue * 0.6)
     }
 
     property bool navigationShown: true
@@ -77,6 +80,7 @@ Item {
         target: null
         yAxis.enabled: true
         xAxis.enabled: false
+        enabled: dismissValue == 0
         onActiveChanged: {
             yAnimator.restart(); // go back to center
 
@@ -88,7 +92,7 @@ Item {
 
     NumberAnimation on height {
         id: yAnimator
-        running: !tabDragHandler.active
+        running: !tabDragHandler.active && dismissValue == 0
         duration: Kirigami.Units.longDuration
         easing.type: Easing.InOutQuad
         to: expandedHeight
@@ -98,7 +102,7 @@ Item {
         id: navContainer
         width: navigation.width
         height: navigation.height
-        y: Math.round(addedHeight / 10)
+        y: Math.max(Math.round((navigation.height - expandedHeight) / 10), 0)
         
         opacity: 1 - (Math.abs(navContainer.x) / (gestureThreshold * 2))
 
@@ -107,11 +111,21 @@ Item {
             id: vibrate
         }
 
+        MouseArea {
+            anchors.fill: parent
+            enabled: dismissValue != 0
+            onClicked: {
+                rootPage.navigationAutoShow = true;
+                rootPage.navigationAutoShowLock = false;
+            }
+        }
+
         DragHandler {
             id: dragHandler
             target: parent
             yAxis.enabled: false
-            xAxis.enabled: !tabsSheet.showTabs
+            xAxis.enabled: true
+            enabled: !tabsSheet.showTabs && dismissValue == 0
             xAxis.minimum: currentWebView.canGoForward ? -gestureThreshold : 0
             xAxis.maximum: currentWebView.canGoBack ? gestureThreshold : 0
             onActiveChanged: {
@@ -126,7 +140,7 @@ Item {
         }
         NumberAnimation on x {
             id: xAnimator
-            running: !dragHandler.active
+            running: !dragHandler.active && dismissValue == 0
             duration: Kirigami.Units.longDuration
             easing.type: Easing.InOutQuad
             to: 0
@@ -136,12 +150,31 @@ Item {
                 vibrate.start();
             }
         }
-        
+
+        // This lets us find the width of the url text label.
+        // Needed for centering the url within the small navbar.
+        Controls.Label {
+            id: labelTextWidth
+            text:  {
+                if (labelItem.scheme === "http" || labelItem.scheme === "https") {
+                    return UrlUtils.htmlFormattedUrl(currentWebView.requestedUrl)
+                }
+                return currentWebView.requestedUrl;
+            }
+            textFormat: Text.StyledText
+            Kirigami.Theme.inherit: true
+            visible: false
+        }
+
+
         RowLayout {
             id: layout
-            anchors.fill: parent
             anchors.leftMargin: Kirigami.Units.gridUnit / 2
             anchors.rightMargin: Kirigami.Units.gridUnit / 2
+            anchors.verticalCenter: parent.verticalCenter
+            anchors.left: parent.left
+            anchors.right: parent.right
+
 
             visible: !tabsSheet.showTabs
 
@@ -152,17 +185,21 @@ Item {
                 id: mainMenuButton
                 icon.name: rootPage.privateMode ? "view-private" : "application-menu"
                 visible: webBrowser.landscape || Settings.navBarMainMenu
+                opacity: dismissOpacity
 
                 Layout.preferredWidth: buttonSize
                 Layout.preferredHeight: buttonSize
 
                 Kirigami.Theme.inherit: true
 
+                enabled: dismissValue == 0
                 onClicked: globalDrawer.open()
             }
 
             Controls.ToolButton {
+                id: tabButton
                 visible: webBrowser.landscape || Settings.navBarTabs
+                opacity: dismissOpacity
                 Layout.preferredWidth: buttonSize
                 Layout.preferredHeight: buttonSize
 
@@ -193,6 +230,7 @@ Item {
                     }
                 }
 
+                enabled: dismissValue == 0
                 onClicked: tabsSheet.toggle()
             }
 
@@ -203,10 +241,12 @@ Item {
                 Layout.preferredHeight: buttonSize
 
                 visible: currentWebView.canGoBack && Settings.navBarBack
+                opacity: dismissOpacity
                 icon.name: "go-previous"
 
                 Kirigami.Theme.inherit: true
 
+                enabled: dismissValue == 0
                 onClicked: currentWebView.goBack()
                 onPressAndHold: {
                     historySheet.backHistory = true;
@@ -222,10 +262,12 @@ Item {
                 Layout.preferredHeight: buttonSize
 
                 visible: currentWebView.canGoForward && Settings.navBarForward
+                opacity: dismissOpacity
                 icon.name: "go-next"
 
                 Kirigami.Theme.inherit: true
 
+                enabled: dismissValue == 0
                 onClicked: currentWebView.goForward()
                 onPressAndHold: {
                     historySheet.backHistory = false;
@@ -238,47 +280,70 @@ Item {
                 Layout.fillWidth: true
                 Layout.preferredHeight: buttonSize
 
+                Layout.leftMargin: {
+                    let leftCenterMargin = ((mainMenuButton.visible + buttonSize) + (tabButton.visible * buttonSize) + (backButton.visible * buttonSize) + (forwardButton.visible * buttonSize) - buttonSize / 2) // Value need to center the url on the left
+                    return Math.round(-leftCenterMargin * dismissValue)
+                }
+                Layout.rightMargin: {
+                    let rightCenterMargin = ((reloadButton.visible * buttonSize) + (optionsButton.visible * buttonSize) - buttonSize / 2) // Value need to center the url on the right
+                    return Math.round(-rightCenterMargin * dismissValue)
+                }
+
                 property string scheme: UrlUtils.urlScheme(currentWebView.requestedUrl)
 
-                Controls.ToolButton {
-                    id: schemeIcon
-                    anchors.left: parent.left
-                    anchors.verticalCenter: parent.verticalCenter
-                    icon.name: {
-                        if (labelItem.scheme === "https") return "lock";
-                        if (labelItem.scheme === "http") return "unlock";
-                        return "";
+                Row {
+                    id: urlBar
+                    anchors {
+                        horizontalCenter: labelItem.horizontalCenter
+                        verticalCenter: labelItem.verticalCenter
                     }
-                    visible: icon.name
-                    height: buttonSize * 0.75
-                    width: visible ? buttonSize * 0.75 : 0
-                    Kirigami.Theme.inherit: true
-                    background: Rectangle {
-                        implicitWidth: schemeIcon.width
-                        implicitHeight: schemeIcon.height
-                        color: "transparent"
-                    }
-                    onClicked: activateUrlEntry()
-                }
+                    height: labelItem.height
+                    width: Math.round(childrenRect.width)
 
-                Controls.Label {
-                    anchors.left: schemeIcon.right
-                    anchors.right: parent.right
-                    anchors.top: parent.top
-                    height: parent.height
-
-                    text: {
-                        if (labelItem.scheme === "http" || labelItem.scheme === "https") {
-                            return UrlUtils.htmlFormattedUrl(currentWebView.requestedUrl)
+                    Controls.ToolButton {
+                        id: schemeIcon
+                        icon.name: {
+                            if (labelItem.scheme === "https") return "lock";
+                            if (labelItem.scheme === "http") return "unlock";
+                            return "";
                         }
-                        return currentWebView.requestedUrl;
+                        visible: icon.name
+                        height: parent.height
+                        width: visible ? Math.round(buttonSize * 0.5) : 0
+                        icon.height: 16
+                        icon.width: 16
+                        Kirigami.Theme.inherit: true
+                        enabled: dismissValue == 0
+                        onClicked: activateUrlEntry()
                     }
-                    textFormat: Text.StyledText
-                    elide: Text.ElideRight
-                    verticalAlignment: Text.AlignVCenter
-                    Kirigami.Theme.inherit: true
+
+
+                    Controls.Label {
+                        id: labelText
+                        width: {
+                            let widthDiff = (labelItem.width - schemeIcon.width)
+                            let widthFull = Math.round(labelTextWidth.contentWidth + schemeIcon.width / 2) // Full width of the url label
+                            let widthFullAn = (1 - ((1 - (Math.min(widthDiff, widthFull) / widthDiff)) * dismissValue))
+                            return Math.round(widthDiff * widthFullAn) // Multiply widthDiff by widthFullAn to fill the width of the navbar when dismissed.
+                        }
+                        height: parent.height
+
+                        text:  {
+                            if (labelItem.scheme === "http" || labelItem.scheme === "https") {
+                                return UrlUtils.htmlFormattedUrl(currentWebView.requestedUrl)
+                            }
+                            return currentWebView.requestedUrl;
+                        }
+
+                        textFormat: Text.StyledText
+                        verticalAlignment: Text.AlignVCenter
+                        elide: Text.ElideRight
+                        Kirigami.Theme.inherit: true
+                    }
                 }
 
+
+                enabled: dismissValue == 0
                 onClicked: activateUrlEntry()
             }
 
@@ -289,10 +354,12 @@ Item {
                 Layout.preferredHeight: buttonSize
 
                 visible: Settings.navBarReload
+                opacity: dismissOpacity
                 icon.name: currentWebView.loading ? "process-stop" : "view-refresh"
 
                 Kirigami.Theme.inherit: true
 
+                enabled: dismissValue == 0
                 onClicked: currentWebView.loading ? currentWebView.stopLoading() : currentWebView.reload()
 
             }
@@ -307,10 +374,12 @@ Item {
                 Layout.preferredHeight: buttonSize
 
                 visible: webBrowser.landscape || Settings.navBarContextMenu
+                opacity: dismissOpacity
                 icon.name: "overflow-menu"
 
                 Kirigami.Theme.inherit: true
 
+                enabled: dismissValue == 0
                 onClicked: contextDrawer.open()
             }
         }
@@ -384,25 +453,23 @@ Item {
         State {
             name: "shown"
             when: navigationShown || tabLayout.visible
-            AnchorChanges {
+            PropertyChanges {
                 target: navigation
-                anchors.bottom: navigation.parent.bottom
-                anchors.top: undefined
+                dismissValue: 0;
             }
         },
         State {
             name: "hidden"
             when: !navigationShown && !tabLayout.visible
-            AnchorChanges {
+            PropertyChanges {
                 target: navigation
-                anchors.bottom: undefined
-                anchors.top: navigation.parent.bottom
+                dismissValue: 1;
             }
         }
     ]
     transitions: Transition {
-        AnchorAnimation {
-            duration: navigation.visible ? Kirigami.Units.longDuration : 0
+        PropertyAnimation {
+            properties: "dismissValue"; easing.type: Easing.OutCirc; duration: navigation.visible ? Kirigami.Units.longDuration : 0
         }
     }
 }
