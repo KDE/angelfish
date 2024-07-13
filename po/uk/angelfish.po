@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-07-12 00:38+0000\n"
-"PO-Revision-Date: 2024-06-26 12:52+0300\n"
+"PO-Revision-Date: 2024-07-12 08:34+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian\n"
 "Language: uk\n"
@@ -685,7 +685,7 @@ msgstr "Показати панель навігації"
 #: src/contents/ui/Navigation.qml:341
 #, kde-format
 msgid "Done"
-msgstr ""
+msgstr "Виконано"
 
 #: src/contents/ui/NewTabQuestion.qml:11
 #, kde-format

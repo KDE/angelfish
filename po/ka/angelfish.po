@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-07-12 00:38+0000\n"
-"PO-Revision-Date: 2024-06-26 05:35+0200\n"
+"PO-Revision-Date: 2024-07-12 04:46+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -681,7 +681,7 @@ msgstr "ნავიგაციის პანელის ჩვენებ�
 #: src/contents/ui/Navigation.qml:341
 #, kde-format
 msgid "Done"
-msgstr ""
+msgstr "დასრულდა"
 
 #: src/contents/ui/NewTabQuestion.qml:11
 #, kde-format

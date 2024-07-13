@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-07-12 00:38+0000\n"
-"PO-Revision-Date: 2024-06-26 13:10+0300\n"
+"PO-Revision-Date: 2024-07-12 13:05+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -683,7 +683,7 @@ msgstr "Dolaşım çubuğunu göster"
 #: src/contents/ui/Navigation.qml:341
 #, kde-format
 msgid "Done"
-msgstr ""
+msgstr "Bitti"
 
 #: src/contents/ui/NewTabQuestion.qml:11
 #, kde-format

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-07-12 00:38+0000\n"
-"PO-Revision-Date: 2024-07-02 21:13+0200\n"
+"PO-Revision-Date: 2024-07-12 20:46+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -679,7 +679,7 @@ msgstr "Visa navigeringsrad"
 #: src/contents/ui/Navigation.qml:341
 #, kde-format
 msgid "Done"
-msgstr ""
+msgstr "Klar"
 
 #: src/contents/ui/NewTabQuestion.qml:11
 #, kde-format

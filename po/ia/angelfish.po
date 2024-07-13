@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-07-12 00:38+0000\n"
-"PO-Revision-Date: 2024-06-26 10:34+0200\n"
+"PO-Revision-Date: 2024-07-12 09:24+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -681,7 +681,7 @@ msgstr "Monstra barra de navigation"
 #: src/contents/ui/Navigation.qml:341
 #, kde-format
 msgid "Done"
-msgstr ""
+msgstr "Facite"
 
 #: src/contents/ui/NewTabQuestion.qml:11
 #, kde-format
