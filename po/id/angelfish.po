@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-12 00:38+0000\n"
+"POT-Creation-Date: 2024-07-14 00:38+0000\n"
 "PO-Revision-Date: 2022-08-19 20:36+0700\n"
 "Last-Translator: Wantoyèk <wantoyek@gmail.com>\n"
 "Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
@@ -419,7 +419,7 @@ msgid "Paste"
 msgstr "Tempel"
 
 #: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:344
-#: src/contents/ui/mobile.qml:292
+#: src/contents/ui/mobile.qml:297
 #, kde-format
 msgid "Share page"
 msgstr "Bagikan halaman"
@@ -466,7 +466,7 @@ msgid "Search or enter URL…"
 msgstr "Cari histori..."
 
 #: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:349
-#: src/contents/ui/Navigation.qml:368
+#: src/contents/ui/Navigation.qml:437
 #, kde-format
 msgid "New Tab"
 msgstr "Tab Baru"
@@ -504,12 +504,12 @@ msgstr "Layar Penuh"
 msgid "Hide developer tools"
 msgstr "Tampilkan peralatan pengembang"
 
-#: src/contents/ui/desktop/desktop.qml:319 src/contents/ui/mobile.qml:388
+#: src/contents/ui/desktop/desktop.qml:319 src/contents/ui/mobile.qml:393
 #, kde-format
 msgid "Show developer tools"
 msgstr "Tampilkan peralatan pengembang"
 
-#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:288
+#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:293
 #, kde-format
 msgid "Find in page"
 msgstr "Temukan halaman"
@@ -545,12 +545,12 @@ msgstr "Hapus semua histori"
 msgid "Not history yet"
 msgstr "Belum ada histori"
 
-#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:268
+#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:275
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:299
+#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:306
 #, fuzzy, kde-format
 #| msgid "Close"
 msgid "Close tab"
@@ -643,67 +643,62 @@ msgstr "Browser Web Angelfish"
 msgid "Tabs"
 msgstr "Tab"
 
-#: src/contents/ui/mobile.qml:303
+#: src/contents/ui/mobile.qml:308
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Tambahkan ke layar beranda"
 
-#: src/contents/ui/mobile.qml:313
+#: src/contents/ui/mobile.qml:318
 #, kde-format
 msgid "Open in app"
 msgstr "Buka di aplikasi"
 
-#: src/contents/ui/mobile.qml:321
+#: src/contents/ui/mobile.qml:326
 #, kde-format
 msgid "Go previous"
 msgstr "Mundur"
 
-#: src/contents/ui/mobile.qml:329 src/settings/SettingsNavigationBarPage.qml:59
+#: src/contents/ui/mobile.qml:334 src/settings/SettingsNavigationBarPage.qml:59
 #, kde-format
 msgid "Go forward"
 msgstr "Maju"
 
-#: src/contents/ui/mobile.qml:336
+#: src/contents/ui/mobile.qml:341
 #, kde-format
 msgid "Stop loading"
 msgstr "Hentikan pemuatan"
 
-#: src/contents/ui/mobile.qml:336
+#: src/contents/ui/mobile.qml:341
 #, kde-format
 msgid "Refresh"
 msgstr "Segarkan"
 
-#: src/contents/ui/mobile.qml:346
+#: src/contents/ui/mobile.qml:351
 #, kde-format
 msgid "Bookmarked"
 msgstr "Dimarkah"
 
-#: src/contents/ui/mobile.qml:346
+#: src/contents/ui/mobile.qml:351
 #, kde-format
 msgid "Bookmark"
 msgstr "Markah"
 
-#: src/contents/ui/mobile.qml:362
+#: src/contents/ui/mobile.qml:367
 #, kde-format
 msgid "Show desktop site"
 msgstr "Tampilkan situs desktop"
 
-#: src/contents/ui/mobile.qml:371
+#: src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Reader Mode"
 msgstr ""
 
-#: src/contents/ui/mobile.qml:379
+#: src/contents/ui/mobile.qml:384
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "Sembunyikan bilah navigasi"
 
-#: src/contents/ui/mobile.qml:379
-#, kde-format
-msgid "Show navigation bar"
-msgstr "Tampilkan bilah navigasi"
-
-#: src/contents/ui/Navigation.qml:341
+#: src/contents/ui/Navigation.qml:410
 #, kde-format
 msgid "Done"
 msgstr ""
@@ -986,6 +981,9 @@ msgstr "Hapus apl"
 msgctxt "placeholder message"
 msgid "No Web Apps installed"
 msgstr ""
+
+#~ msgid "Show navigation bar"
+#~ msgstr "Tampilkan bilah navigasi"
 
 #~ msgid "Configure Angelfish"
 #~ msgstr "Pengaturan Angelfish"

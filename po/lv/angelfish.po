@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-12 00:38+0000\n"
+"POT-Creation-Date: 2024-07-14 00:38+0000\n"
 "PO-Revision-Date: 2024-02-29 09:14+0200\n"
 "Last-Translator: Toms Trasūns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
@@ -404,7 +404,7 @@ msgid "Paste"
 msgstr "Ielīmēt"
 
 #: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:344
-#: src/contents/ui/mobile.qml:292
+#: src/contents/ui/mobile.qml:297
 #, kde-format
 msgid "Share page"
 msgstr "Kopīgot lapu"
@@ -448,7 +448,7 @@ msgid "Search or enter URL…"
 msgstr "Meklēt vai ievadīt URL..."
 
 #: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:349
-#: src/contents/ui/Navigation.qml:368
+#: src/contents/ui/Navigation.qml:437
 #, kde-format
 msgid "New Tab"
 msgstr "Jauna cilne"
@@ -485,12 +485,12 @@ msgstr "Pilnekrāns"
 msgid "Hide developer tools"
 msgstr "Slēpt rīkus izstrādātājiem"
 
-#: src/contents/ui/desktop/desktop.qml:319 src/contents/ui/mobile.qml:388
+#: src/contents/ui/desktop/desktop.qml:319 src/contents/ui/mobile.qml:393
 #, kde-format
 msgid "Show developer tools"
 msgstr "Rādīt rīkus izstrādātājiem"
 
-#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:288
+#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:293
 #, kde-format
 msgid "Find in page"
 msgstr "Atrast lapā"
@@ -526,12 +526,12 @@ msgstr "Notīrīt visu vēsturi"
 msgid "Not history yet"
 msgstr "Vēl nav vēstures"
 
-#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:268
+#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:275
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Lasīšanas režīms: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:299
+#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:306
 #, kde-format
 msgid "Close tab"
 msgstr "Aizvērt cilni"
@@ -619,67 +619,62 @@ msgstr "„Angelfish“ tīmekļa pārlūks"
 msgid "Tabs"
 msgstr "Cilnes"
 
-#: src/contents/ui/mobile.qml:303
+#: src/contents/ui/mobile.qml:308
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Pievienot mājas ekrānam"
 
-#: src/contents/ui/mobile.qml:313
+#: src/contents/ui/mobile.qml:318
 #, kde-format
 msgid "Open in app"
 msgstr "Atvērt lietotnē"
 
-#: src/contents/ui/mobile.qml:321
+#: src/contents/ui/mobile.qml:326
 #, kde-format
 msgid "Go previous"
 msgstr "Iet atpakaļ"
 
-#: src/contents/ui/mobile.qml:329 src/settings/SettingsNavigationBarPage.qml:59
+#: src/contents/ui/mobile.qml:334 src/settings/SettingsNavigationBarPage.qml:59
 #, kde-format
 msgid "Go forward"
 msgstr "Iet uz priekšu"
 
-#: src/contents/ui/mobile.qml:336
+#: src/contents/ui/mobile.qml:341
 #, kde-format
 msgid "Stop loading"
 msgstr "Apturēt ielādi"
 
-#: src/contents/ui/mobile.qml:336
+#: src/contents/ui/mobile.qml:341
 #, kde-format
 msgid "Refresh"
 msgstr "Pārlādēt"
 
-#: src/contents/ui/mobile.qml:346
+#: src/contents/ui/mobile.qml:351
 #, kde-format
 msgid "Bookmarked"
 msgstr "Pievienots grāmatzīmēm"
 
-#: src/contents/ui/mobile.qml:346
+#: src/contents/ui/mobile.qml:351
 #, kde-format
 msgid "Bookmark"
 msgstr "Grāmatzīme"
 
-#: src/contents/ui/mobile.qml:362
+#: src/contents/ui/mobile.qml:367
 #, kde-format
 msgid "Show desktop site"
 msgstr "Parādīt darbvirsmas vietu"
 
-#: src/contents/ui/mobile.qml:371
+#: src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Reader Mode"
 msgstr "Lasīšanas režīms"
 
-#: src/contents/ui/mobile.qml:379
+#: src/contents/ui/mobile.qml:384
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "Slēpt navigācijas joslu"
 
-#: src/contents/ui/mobile.qml:379
-#, kde-format
-msgid "Show navigation bar"
-msgstr "Rādīt navigācijas joslu"
-
-#: src/contents/ui/Navigation.qml:341
+#: src/contents/ui/Navigation.qml:410
 #, kde-format
 msgid "Done"
 msgstr ""
@@ -962,6 +957,9 @@ msgstr "Noņemt lietotni"
 msgctxt "placeholder message"
 msgid "No Web Apps installed"
 msgstr ""
+
+#~ msgid "Show navigation bar"
+#~ msgstr "Rādīt navigācijas joslu"
 
 #~ msgid "Configure Angelfish"
 #~ msgstr "Konfigurēt „Angelfish“"

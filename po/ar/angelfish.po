@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-12 00:38+0000\n"
+"POT-Creation-Date: 2024-07-14 00:38+0000\n"
 "PO-Revision-Date: 2024-06-26 18:30+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -402,7 +402,7 @@ msgid "Paste"
 msgstr "الصق"
 
 #: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:344
-#: src/contents/ui/mobile.qml:292
+#: src/contents/ui/mobile.qml:297
 #, kde-format
 msgid "Share page"
 msgstr "شارك الصفحة"
@@ -445,7 +445,7 @@ msgid "Search or enter URL…"
 msgstr "ابحث او ادخل العنوان…"
 
 #: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:349
-#: src/contents/ui/Navigation.qml:368
+#: src/contents/ui/Navigation.qml:437
 #, kde-format
 msgid "New Tab"
 msgstr "لسان جديد"
@@ -482,12 +482,12 @@ msgstr "ملئ الشاشة"
 msgid "Hide developer tools"
 msgstr "اخف أدوات المطورين"
 
-#: src/contents/ui/desktop/desktop.qml:319 src/contents/ui/mobile.qml:388
+#: src/contents/ui/desktop/desktop.qml:319 src/contents/ui/mobile.qml:393
 #, kde-format
 msgid "Show developer tools"
 msgstr "اعرض أدوات المطورين"
 
-#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:288
+#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:293
 #, kde-format
 msgid "Find in page"
 msgstr "ابحث في الصفحة"
@@ -523,12 +523,12 @@ msgstr "امسح كل السجل"
 msgid "Not history yet"
 msgstr "لا يوجد سجل حتى الآن"
 
-#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:268
+#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:275
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "وضع القارئ: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:299
+#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:306
 #, kde-format
 msgid "Close tab"
 msgstr "أغلق اللسان"
@@ -616,67 +616,62 @@ msgstr "متصفح ويب انجيلفيش"
 msgid "Tabs"
 msgstr "الألسنة"
 
-#: src/contents/ui/mobile.qml:303
+#: src/contents/ui/mobile.qml:308
 #, kde-format
 msgid "Add to homescreen"
 msgstr "اضف إلى الشاشة الرئيسية"
 
-#: src/contents/ui/mobile.qml:313
+#: src/contents/ui/mobile.qml:318
 #, kde-format
 msgid "Open in app"
 msgstr "افتح في لسان"
 
-#: src/contents/ui/mobile.qml:321
+#: src/contents/ui/mobile.qml:326
 #, kde-format
 msgid "Go previous"
 msgstr "عد للسابق"
 
-#: src/contents/ui/mobile.qml:329 src/settings/SettingsNavigationBarPage.qml:59
+#: src/contents/ui/mobile.qml:334 src/settings/SettingsNavigationBarPage.qml:59
 #, kde-format
 msgid "Go forward"
 msgstr "اذهب للأمام"
 
-#: src/contents/ui/mobile.qml:336
+#: src/contents/ui/mobile.qml:341
 #, kde-format
 msgid "Stop loading"
 msgstr "أوقف التحميل"
 
-#: src/contents/ui/mobile.qml:336
+#: src/contents/ui/mobile.qml:341
 #, kde-format
 msgid "Refresh"
 msgstr "حدث"
 
-#: src/contents/ui/mobile.qml:346
+#: src/contents/ui/mobile.qml:351
 #, kde-format
 msgid "Bookmarked"
 msgstr "أضيف للمفضلة"
 
-#: src/contents/ui/mobile.qml:346
+#: src/contents/ui/mobile.qml:351
 #, kde-format
 msgid "Bookmark"
 msgstr "اضف للمفضلة"
 
-#: src/contents/ui/mobile.qml:362
+#: src/contents/ui/mobile.qml:367
 #, kde-format
 msgid "Show desktop site"
 msgstr "اعرض موقع سطح المكتب"
 
-#: src/contents/ui/mobile.qml:371
+#: src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Reader Mode"
 msgstr "وضع القارئ"
 
-#: src/contents/ui/mobile.qml:379
+#: src/contents/ui/mobile.qml:384
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "أخف شريط الملاحة"
 
-#: src/contents/ui/mobile.qml:379
-#, kde-format
-msgid "Show navigation bar"
-msgstr "أظهر شريط المالحة"
-
-#: src/contents/ui/Navigation.qml:341
+#: src/contents/ui/Navigation.qml:410
 #, kde-format
 msgid "Done"
 msgstr ""
@@ -945,6 +940,9 @@ msgstr "احذف التطبيق"
 msgctxt "placeholder message"
 msgid "No Web Apps installed"
 msgstr "لا يوجد تطبيقات ويب مثبته"
+
+#~ msgid "Show navigation bar"
+#~ msgstr "أظهر شريط المالحة"
 
 #~ msgid "Configure Angelfish"
 #~ msgstr "اضبط انجيلفيش"
