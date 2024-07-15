@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-14 00:38+0000\n"
+"POT-Creation-Date: 2024-07-15 00:38+0000\n"
 "PO-Revision-Date: 2023-05-29 19:05+0400\n"
 "Last-Translator: Kheyyam <xxmn77@gmail.com>\n"
 "Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
@@ -202,7 +202,7 @@ msgstr "Qəbul etmək"
 msgid "Decline"
 msgstr "Qəbul etməmək"
 
-#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:295
+#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:296
 #, kde-format
 msgid "Print"
 msgstr ""
@@ -417,7 +417,7 @@ msgstr "Kəsmək"
 msgid "Paste"
 msgstr "Yerləşdirmək"
 
-#: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:344
+#: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:345
 #: src/contents/ui/mobile.qml:297
 #, kde-format
 msgid "Share page"
@@ -490,39 +490,39 @@ msgstr "Tarixçə"
 msgid "Downloads"
 msgstr "Yükləmələr"
 
-#: src/contents/ui/desktop/desktop.qml:301
+#: src/contents/ui/desktop/desktop.qml:302
 #, kde-format
 msgid "Full Screen"
 msgstr "Tam ekran-"
 
-#: src/contents/ui/desktop/desktop.qml:318
+#: src/contents/ui/desktop/desktop.qml:319
 #, fuzzy, kde-format
 #| msgid "Show developer tools"
 msgid "Hide developer tools"
 msgstr "Tərtibatçı alətlərini göstərmək"
 
-#: src/contents/ui/desktop/desktop.qml:319 src/contents/ui/mobile.qml:393
+#: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:393
 #, kde-format
 msgid "Show developer tools"
 msgstr "Tərtibatçı alətlərini göstərmək"
 
-#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:293
+#: src/contents/ui/desktop/desktop.qml:329 src/contents/ui/mobile.qml:293
 #, kde-format
 msgid "Find in page"
 msgstr "Səhifədə tapmaq"
 
-#: src/contents/ui/desktop/desktop.qml:337
+#: src/contents/ui/desktop/desktop.qml:338
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Oxu rejimi"
 
-#: src/contents/ui/desktop/desktop.qml:354
+#: src/contents/ui/desktop/desktop.qml:355
 #, kde-format
 msgid "Add to application launcher"
 msgstr "Tətbiq başladıcıya əlavə edin"
 
-#: src/contents/ui/desktop/desktop.qml:373 src/contents/ui/mobile.qml:101
+#: src/contents/ui/desktop/desktop.qml:374 src/contents/ui/mobile.qml:101
 #, kde-format
 msgid "Settings"
 msgstr "Ayarlar"

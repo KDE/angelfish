@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-14 00:38+0000\n"
+"POT-Creation-Date: 2024-07-15 00:38+0000\n"
 "PO-Revision-Date: 2023-05-31 13:50-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -203,7 +203,7 @@ msgstr "Aceitar"
 msgid "Decline"
 msgstr "Recusar"
 
-#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:295
+#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:296
 #, kde-format
 msgid "Print"
 msgstr "Imprimir"
@@ -403,7 +403,7 @@ msgstr "Recortar"
 msgid "Paste"
 msgstr "Colar"
 
-#: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:344
+#: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:345
 #: src/contents/ui/mobile.qml:297
 #, kde-format
 msgid "Share page"
@@ -476,38 +476,38 @@ msgstr "Histórico"
 msgid "Downloads"
 msgstr "Downloads"
 
-#: src/contents/ui/desktop/desktop.qml:301
+#: src/contents/ui/desktop/desktop.qml:302
 #, kde-format
 msgid "Full Screen"
 msgstr "Tela inteira"
 
-#: src/contents/ui/desktop/desktop.qml:318
+#: src/contents/ui/desktop/desktop.qml:319
 #, kde-format
 msgid "Hide developer tools"
 msgstr "Ocultar ferramentas de desenvolvimento"
 
-#: src/contents/ui/desktop/desktop.qml:319 src/contents/ui/mobile.qml:393
+#: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:393
 #, kde-format
 msgid "Show developer tools"
 msgstr "Mostrar ferramentas de desenvolvimento"
 
-#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:293
+#: src/contents/ui/desktop/desktop.qml:329 src/contents/ui/mobile.qml:293
 #, kde-format
 msgid "Find in page"
 msgstr "Localizar na página"
 
-#: src/contents/ui/desktop/desktop.qml:337
+#: src/contents/ui/desktop/desktop.qml:338
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Modo de leitura"
 
-#: src/contents/ui/desktop/desktop.qml:354
+#: src/contents/ui/desktop/desktop.qml:355
 #, kde-format
 msgid "Add to application launcher"
 msgstr "Adicionar ou lançador de aplicativos"
 
-#: src/contents/ui/desktop/desktop.qml:373 src/contents/ui/mobile.qml:101
+#: src/contents/ui/desktop/desktop.qml:374 src/contents/ui/mobile.qml:101
 #, kde-format
 msgid "Settings"
 msgstr "Configurações"

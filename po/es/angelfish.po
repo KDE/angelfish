@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-14 00:38+0000\n"
+"POT-Creation-Date: 2024-07-15 00:38+0000\n"
 "PO-Revision-Date: 2024-07-13 04:06+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -204,7 +204,7 @@ msgstr "Aceptar"
 msgid "Decline"
 msgstr "Declinar"
 
-#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:295
+#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:296
 #, kde-format
 msgid "Print"
 msgstr "Imprimir"
@@ -404,7 +404,7 @@ msgstr "Cortar"
 msgid "Paste"
 msgstr "Pegar"
 
-#: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:344
+#: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:345
 #: src/contents/ui/mobile.qml:297
 #, kde-format
 msgid "Share page"
@@ -477,38 +477,38 @@ msgstr "Historial"
 msgid "Downloads"
 msgstr "Descargas"
 
-#: src/contents/ui/desktop/desktop.qml:301
+#: src/contents/ui/desktop/desktop.qml:302
 #, kde-format
 msgid "Full Screen"
 msgstr "Pantalla completa"
 
-#: src/contents/ui/desktop/desktop.qml:318
+#: src/contents/ui/desktop/desktop.qml:319
 #, kde-format
 msgid "Hide developer tools"
 msgstr "Ocultar herramientas de desarrollador"
 
-#: src/contents/ui/desktop/desktop.qml:319 src/contents/ui/mobile.qml:393
+#: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:393
 #, kde-format
 msgid "Show developer tools"
 msgstr "Mostrar herramientas de desarrollador"
 
-#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:293
+#: src/contents/ui/desktop/desktop.qml:329 src/contents/ui/mobile.qml:293
 #, kde-format
 msgid "Find in page"
 msgstr "Buscar en la página"
 
-#: src/contents/ui/desktop/desktop.qml:337
+#: src/contents/ui/desktop/desktop.qml:338
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Modo lector"
 
-#: src/contents/ui/desktop/desktop.qml:354
+#: src/contents/ui/desktop/desktop.qml:355
 #, kde-format
 msgid "Add to application launcher"
 msgstr "Añadir al lanzador de aplicaciones"
 
-#: src/contents/ui/desktop/desktop.qml:373 src/contents/ui/mobile.qml:101
+#: src/contents/ui/desktop/desktop.qml:374 src/contents/ui/mobile.qml:101
 #, kde-format
 msgid "Settings"
 msgstr "Preferencias"
