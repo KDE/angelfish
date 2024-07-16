@@ -932,6 +932,3 @@ msgstr "移除应用"
 msgctxt "placeholder message"
 msgid "No Web Apps installed"
 msgstr ""
-
-#~ msgid "Show navigation bar"
-#~ msgstr "显示导航栏"
