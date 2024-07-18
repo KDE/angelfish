@@ -36,7 +36,7 @@ package-repositories:
 parts:
     angelfish:
         parse-info:
-        - usr/share/metainfo/org.kde.angelfish.appdata.xml
+        - usr/share/metainfo/org.kde.angelfish.metainfo.xml
         plugin: cmake
         build-packages:
         - libfuturesql6-dev
