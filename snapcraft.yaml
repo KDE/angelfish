@@ -39,7 +39,7 @@ parts:
         - usr/share/metainfo/org.kde.angelfish.appdata.xml
         plugin: cmake
         build-packages:
-        - libfuturesql-dev
+        - libfuturesql6-dev
         source: .
         source-type: local
         cmake-parameters:
