@@ -3,14 +3,14 @@
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# Josep M. Ferrer <txemaq@gmail.com>, 2019, 2020, 2021, 2022, 2023, 2024.
+# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2023, 2024 Josep M. Ferrer <txemaq@gmail.com>
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2019, 2020, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-12 00:38+0000\n"
-"PO-Revision-Date: 2024-06-26 10:17+0200\n"
+"POT-Creation-Date: 2024-07-15 00:38+0000\n"
+"PO-Revision-Date: 2024-07-12 09:01+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 24.05.2\n"
 "X-Accelerator-Marker: &\n"
 
 #, kde-format
@@ -205,7 +205,7 @@ msgstr "Accepta"
 msgid "Decline"
 msgstr "Declina"
 
-#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:295
+#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:296
 #, kde-format
 msgid "Print"
 msgstr "Imprimix"
@@ -405,8 +405,8 @@ msgstr "Retalla"
 msgid "Paste"
 msgstr "Apega"
 
-#: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:344
-#: src/contents/ui/mobile.qml:292
+#: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:345
+#: src/contents/ui/mobile.qml:297
 #, kde-format
 msgid "Share page"
 msgstr "Compartix la pàgina"
@@ -451,7 +451,7 @@ msgid "Search or enter URL…"
 msgstr "Busca o introduïu un URL…"
 
 #: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:349
-#: src/contents/ui/Navigation.qml:368
+#: src/contents/ui/Navigation.qml:437
 #, kde-format
 msgid "New Tab"
 msgstr "Pestanya nova"
@@ -478,38 +478,38 @@ msgstr "Historial"
 msgid "Downloads"
 msgstr "Baixades"
 
-#: src/contents/ui/desktop/desktop.qml:301
+#: src/contents/ui/desktop/desktop.qml:302
 #, kde-format
 msgid "Full Screen"
 msgstr "Pantalla completa"
 
-#: src/contents/ui/desktop/desktop.qml:318
+#: src/contents/ui/desktop/desktop.qml:319
 #, kde-format
 msgid "Hide developer tools"
 msgstr "Oculta les eines de desenvolupament"
 
-#: src/contents/ui/desktop/desktop.qml:319 src/contents/ui/mobile.qml:388
+#: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:393
 #, kde-format
 msgid "Show developer tools"
 msgstr "Mostra les eines del desenvolupador"
 
-#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:288
+#: src/contents/ui/desktop/desktop.qml:329 src/contents/ui/mobile.qml:293
 #, kde-format
 msgid "Find in page"
 msgstr "Busca en la pàgina"
 
-#: src/contents/ui/desktop/desktop.qml:337
+#: src/contents/ui/desktop/desktop.qml:338
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Mode lector"
 
-#: src/contents/ui/desktop/desktop.qml:354
+#: src/contents/ui/desktop/desktop.qml:355
 #, kde-format
 msgid "Add to application launcher"
 msgstr "Afig a l'iniciador d'aplicacions"
 
-#: src/contents/ui/desktop/desktop.qml:373 src/contents/ui/mobile.qml:101
+#: src/contents/ui/desktop/desktop.qml:374 src/contents/ui/mobile.qml:101
 #, kde-format
 msgid "Settings"
 msgstr "Configuració"
@@ -529,12 +529,12 @@ msgstr "Neteja tot l'historial"
 msgid "Not history yet"
 msgstr "Encara no hi ha historial"
 
-#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:268
+#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:275
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Mode lector: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:299
+#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:306
 #, kde-format
 msgid "Close tab"
 msgstr "Tanca la pestanya"
@@ -622,70 +622,65 @@ msgstr "Navegador web Angelfish"
 msgid "Tabs"
 msgstr "Pestanyes"
 
-#: src/contents/ui/mobile.qml:303
+#: src/contents/ui/mobile.qml:308
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Afig a la pantalla principal"
 
-#: src/contents/ui/mobile.qml:313
+#: src/contents/ui/mobile.qml:318
 #, kde-format
 msgid "Open in app"
 msgstr "Obri en l'aplicació"
 
-#: src/contents/ui/mobile.qml:321
+#: src/contents/ui/mobile.qml:326
 #, kde-format
 msgid "Go previous"
 msgstr "Ves fins a l'anterior"
 
-#: src/contents/ui/mobile.qml:329 src/settings/SettingsNavigationBarPage.qml:59
+#: src/contents/ui/mobile.qml:334 src/settings/SettingsNavigationBarPage.qml:59
 #, kde-format
 msgid "Go forward"
 msgstr "Ves avant"
 
-#: src/contents/ui/mobile.qml:336
+#: src/contents/ui/mobile.qml:341
 #, kde-format
 msgid "Stop loading"
 msgstr "Para la càrrega"
 
-#: src/contents/ui/mobile.qml:336
+#: src/contents/ui/mobile.qml:341
 #, kde-format
 msgid "Refresh"
 msgstr "Actualitza"
 
-#: src/contents/ui/mobile.qml:346
+#: src/contents/ui/mobile.qml:351
 #, kde-format
 msgid "Bookmarked"
 msgstr "Afegida a les adreces d'interés"
 
-#: src/contents/ui/mobile.qml:346
+#: src/contents/ui/mobile.qml:351
 #, kde-format
 msgid "Bookmark"
 msgstr "Adreça d'interés"
 
-#: src/contents/ui/mobile.qml:362
+#: src/contents/ui/mobile.qml:367
 #, kde-format
 msgid "Show desktop site"
 msgstr "Mostra una pàgina de l'escriptori"
 
-#: src/contents/ui/mobile.qml:371
+#: src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Reader Mode"
 msgstr "Mode lector"
 
-#: src/contents/ui/mobile.qml:379
+#: src/contents/ui/mobile.qml:384
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "Oculta la barra de navegació"
 
-#: src/contents/ui/mobile.qml:379
-#, kde-format
-msgid "Show navigation bar"
-msgstr "Mostra la barra de navegació"
-
-#: src/contents/ui/Navigation.qml:341
+#: src/contents/ui/Navigation.qml:410
 #, kde-format
 msgid "Done"
-msgstr ""
+msgstr "Fet"
 
 #: src/contents/ui/NewTabQuestion.qml:11
 #, kde-format

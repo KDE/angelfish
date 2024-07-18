@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-12 00:38+0000\n"
-"PO-Revision-Date: 2024-06-26 15:16+0300\n"
+"POT-Creation-Date: 2024-07-15 00:38+0000\n"
+"PO-Revision-Date: 2024-07-12 08:46+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Lokalize 24.05.0\n"
+"X-Generator: Lokalize 24.05.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -200,7 +200,7 @@ msgstr "לאפשר"
 msgid "Decline"
 msgstr "לדחות"
 
-#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:295
+#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:296
 #, kde-format
 msgid "Print"
 msgstr "הדפסה"
@@ -400,8 +400,8 @@ msgstr "גזירה"
 msgid "Paste"
 msgstr "הדבקה"
 
-#: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:344
-#: src/contents/ui/mobile.qml:292
+#: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:345
+#: src/contents/ui/mobile.qml:297
 #, kde-format
 msgid "Share page"
 msgstr "שיתוף העמוד"
@@ -444,7 +444,7 @@ msgid "Search or enter URL…"
 msgstr "חיפוש או מילוי כתובת…"
 
 #: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:349
-#: src/contents/ui/Navigation.qml:368
+#: src/contents/ui/Navigation.qml:437
 #, kde-format
 msgid "New Tab"
 msgstr "לשונית חדשה"
@@ -471,38 +471,38 @@ msgstr "היסטוריה"
 msgid "Downloads"
 msgstr "הורדות"
 
-#: src/contents/ui/desktop/desktop.qml:301
+#: src/contents/ui/desktop/desktop.qml:302
 #, kde-format
 msgid "Full Screen"
 msgstr "מסך מלא"
 
-#: src/contents/ui/desktop/desktop.qml:318
+#: src/contents/ui/desktop/desktop.qml:319
 #, kde-format
 msgid "Hide developer tools"
 msgstr "הסתרת כלי מפתחים"
 
-#: src/contents/ui/desktop/desktop.qml:319 src/contents/ui/mobile.qml:388
+#: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:393
 #, kde-format
 msgid "Show developer tools"
 msgstr "הצגת כלי מפתחים"
 
-#: src/contents/ui/desktop/desktop.qml:328 src/contents/ui/mobile.qml:288
+#: src/contents/ui/desktop/desktop.qml:329 src/contents/ui/mobile.qml:293
 #, kde-format
 msgid "Find in page"
 msgstr "איתור בעמוד"
 
-#: src/contents/ui/desktop/desktop.qml:337
+#: src/contents/ui/desktop/desktop.qml:338
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "מצב קריאה"
 
-#: src/contents/ui/desktop/desktop.qml:354
+#: src/contents/ui/desktop/desktop.qml:355
 #, kde-format
 msgid "Add to application launcher"
 msgstr "הוספת למשגר היישומים"
 
-#: src/contents/ui/desktop/desktop.qml:373 src/contents/ui/mobile.qml:101
+#: src/contents/ui/desktop/desktop.qml:374 src/contents/ui/mobile.qml:101
 #, kde-format
 msgid "Settings"
 msgstr "הגדרות"
@@ -522,12 +522,12 @@ msgstr "פינוי כל ההיסטוריה"
 msgid "Not history yet"
 msgstr "אין היסטוריה עדיין"
 
-#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:268
+#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:275
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "מצב קריאה: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:299
+#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:306
 #, kde-format
 msgid "Close tab"
 msgstr "סגירת לשונית"
@@ -615,70 +615,65 @@ msgstr "דפדפן האינטרנט Angelfish"
 msgid "Tabs"
 msgstr "לשוניות"
 
-#: src/contents/ui/mobile.qml:303
+#: src/contents/ui/mobile.qml:308
 #, kde-format
 msgid "Add to homescreen"
 msgstr "הוספה למסך הבית"
 
-#: src/contents/ui/mobile.qml:313
+#: src/contents/ui/mobile.qml:318
 #, kde-format
 msgid "Open in app"
 msgstr "פתיחה ביישומון"
 
-#: src/contents/ui/mobile.qml:321
+#: src/contents/ui/mobile.qml:326
 #, kde-format
 msgid "Go previous"
 msgstr "חזרה לקודם"
 
-#: src/contents/ui/mobile.qml:329 src/settings/SettingsNavigationBarPage.qml:59
+#: src/contents/ui/mobile.qml:334 src/settings/SettingsNavigationBarPage.qml:59
 #, kde-format
 msgid "Go forward"
 msgstr "התקדמות לבא"
 
-#: src/contents/ui/mobile.qml:336
+#: src/contents/ui/mobile.qml:341
 #, kde-format
 msgid "Stop loading"
 msgstr "עצירת הטעינה"
 
-#: src/contents/ui/mobile.qml:336
+#: src/contents/ui/mobile.qml:341
 #, kde-format
 msgid "Refresh"
 msgstr "רענון"
 
-#: src/contents/ui/mobile.qml:346
+#: src/contents/ui/mobile.qml:351
 #, kde-format
 msgid "Bookmarked"
 msgstr "נוסף לסימניות"
 
-#: src/contents/ui/mobile.qml:346
+#: src/contents/ui/mobile.qml:351
 #, kde-format
 msgid "Bookmark"
 msgstr "הוספה לסימניות"
 
-#: src/contents/ui/mobile.qml:362
+#: src/contents/ui/mobile.qml:367
 #, kde-format
 msgid "Show desktop site"
 msgstr "הצגת אתר לשולחן העבודה"
 
-#: src/contents/ui/mobile.qml:371
+#: src/contents/ui/mobile.qml:376
 #, kde-format
 msgid "Reader Mode"
 msgstr "מצב קריאה"
 
-#: src/contents/ui/mobile.qml:379
+#: src/contents/ui/mobile.qml:384
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "הסתרת סרגל ניווט"
 
-#: src/contents/ui/mobile.qml:379
-#, kde-format
-msgid "Show navigation bar"
-msgstr "הצגת סרגל ניווט"
-
-#: src/contents/ui/Navigation.qml:341
+#: src/contents/ui/Navigation.qml:410
 #, kde-format
 msgid "Done"
-msgstr ""
+msgstr "בוצע"
 
 #: src/contents/ui/NewTabQuestion.qml:11
 #, kde-format
@@ -945,6 +940,9 @@ msgstr "הסרת יישומון"
 msgctxt "placeholder message"
 msgid "No Web Apps installed"
 msgstr "לא מותקנים יישומי דפדפן"
+
+#~ msgid "Show navigation bar"
+#~ msgstr "הצגת סרגל ניווט"
 
 #~ msgid "Configure Angelfish"
 #~ msgstr "הגדרת Angelfish"

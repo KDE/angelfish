@@ -142,10 +142,13 @@ Kirigami.ApplicationWindow {
 
         property bool privateMode: false
 
+        property int navHeight: navigation.expandedHeight
+
         // Used for automatically show or hid navigation
         // bar. Set separately to combine with other options
         // for navigation bar management (webapp and others)
         property bool navigationAutoShow: true
+        property bool navigationAutoShowLock: false
 
         property alias questionLoader: questionLoader
         property alias questions: questions
@@ -155,6 +158,7 @@ Kirigami.ApplicationWindow {
             objectName: "regularTabsObject"
             anchors.fill: parent
             activeTabs: rootPage.initialized && !rootPage.privateMode
+            bottomOffset: navigation.visible ? navigation.dismissHeight : 0
         }
 
         ListWebView {
@@ -162,6 +166,7 @@ Kirigami.ApplicationWindow {
             anchors.fill: parent
             activeTabs: rootPage.initialized && rootPage.privateMode
             privateTabsMode: true
+            bottomOffset: navigation.visible ? navigation.dismissHeight : 0
         }
 
         Controls.ScrollBar {
@@ -376,11 +381,11 @@ Kirigami.ApplicationWindow {
             },
             Kirigami.Action {
                 icon.name: "edit-select-text"
-                text: rootPage.navigationAutoShow ? i18n("Hide navigation bar") : i18n("Show navigation bar")
+                text: i18n("Hide navigation bar")
                 visible: navigation.visible
                 onTriggered: {
                     if (!navigation.visible) return;
-                    rootPage.navigationAutoShow = !rootPage.navigationAutoShow;
+                    rootPage.navigationAutoShowLock = true
                 }
             },
             Kirigami.Action {
@@ -444,7 +449,7 @@ Kirigami.ApplicationWindow {
                 right: parent.right
             }
 
-            navigationShown: visible && rootPage.navigationAutoShow
+            navigationShown: visible && rootPage.navigationAutoShow && !rootPage.navigationAutoShowLock
             visible: webBrowser.visibility !== Window.FullScreen && !findInPage.active
 
             tabsSheet: tabsSheetLoader

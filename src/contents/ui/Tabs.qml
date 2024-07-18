@@ -33,8 +33,15 @@ Kirigami.Page {
         let oneMinusFullZoom = (1 - fullZoomScale);
         return (zoomGridY * ((itemHeight + Kirigami.Units.largeSpacing) / oneMinusFullZoom)) + (((Kirigami.Units.gridUnit * 1.5) + (Kirigami.Units.smallSpacing + borderWidth) - grid.contentY) / oneMinusFullZoom);
     }
-    readonly property int zoomTabHeight: applicationWindow().height * ((zoomScale - fullZoomScale) * (1 / (1 - fullZoomScale))) + (applicationWindow().width * ((itemHeight - Kirigami.Units.gridUnit * 1.5) / itemWidth)) * (1 - ((zoomScale - fullZoomScale) * (1 / (1 - fullZoomScale))))
-    readonly property int zoomY: ((applicationWindow().height - (applicationWindow().height - zoomSourceY)) / applicationWindow().height) * (((applicationWindow().height - zoomTabHeight) / 2))
+    readonly property int webHeight: (applicationWindow().height - rootPage.navHeight)
+    readonly property int zoomTabHeight: {
+        let fullItemHeight = (itemHeight - Kirigami.Units.gridUnit * 1.5)
+        let zoomFromZero = (zoomScale - fullZoomScale)
+        let zoomFactor = (zoomFromZero * (1 / (1 - fullZoomScale)))
+        return webHeight * zoomFactor + (applicationWindow().width * (fullItemHeight / itemWidth)) * (1 - zoomFactor)
+
+    }
+    readonly property int zoomY: ((webHeight - (webHeight - zoomSourceY)) / webHeight) * (((webHeight - zoomTabHeight) / 2))
 
     property var tabsSheet
     property var sheet
@@ -44,7 +51,7 @@ Kirigami.Page {
     padding: 0
 
     Component.onCompleted: {
-        tabs.itemAt(tabs.currentIndex).grabToImage(function(result) {convertedImage.source = result.url}, Qt.size(applicationWindow().width, applicationWindow().height))
+        tabs.itemAt(tabs.currentIndex).grabToImage(function(result) {convertedImage.source = result.url}, Qt.size(applicationWindow().width, webHeight))
     }
 
     Item {
@@ -180,7 +187,7 @@ Kirigami.Page {
                         if (zoomAnimator.to != 1) {
                             tabs.currentIndex = index;
                             convertedImage.visible = false
-                            shaderItem.grabToImage(function(result) {convertedImage.source = result.url; convertedImage.visible = true;}, Qt.size(applicationWindow().width, applicationWindow().height))
+                            shaderItem.grabToImage(function(result) {convertedImage.source = result.url; convertedImage.visible = true;}, Qt.size(applicationWindow().width, webHeight))
                             tabsSheet.toggle();
                         }
                     }
@@ -321,9 +328,9 @@ Kirigami.Page {
 
                             live: false
                             anchors.fill: parent
-                            sourceRect: Qt.rect(0, 0, applicationWindow().width, applicationWindow().height) //height/width
+                            sourceRect: Qt.rect(0, 0, applicationWindow().width, webHeight) //height/width
 
-                            transform: Scale {yScale: applicationWindow().height / (applicationWindow().width * ((itemHeight - Kirigami.Units.gridUnit * 1.5) / itemWidth))}
+                            transform: Scale {yScale: webHeight / (applicationWindow().width * ((itemHeight - Kirigami.Units.gridUnit * 1.5) / itemWidth))}
 
                             sourceItem: tabs.itemAt(index)
 

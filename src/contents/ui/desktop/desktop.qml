@@ -282,6 +282,7 @@ Kirigami.ApplicationWindow {
                 Kirigami.Action {
                     text: i18n("Downloads")
                     icon.name: "download"
+                    shortcut: "Ctrl+J"
                     onTriggered: {
                         popSubPages();
                         webBrowser.pageStack.push(Qt.resolvedUrl("Downloads.qml"))
