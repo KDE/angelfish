@@ -152,6 +152,12 @@ RowLayout {
         delegate: QQC2.ItemDelegate {
             id: control
 
+            leftInset: 0
+            rightInset: 0
+            topInset: 0
+            bottomInset: 0
+            padding: 0
+
             hoverEnabled: true
             highlighted: ListView.isCurrentItem
 
