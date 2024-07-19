@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-15 00:38+0000\n"
+"POT-Creation-Date: 2024-07-19 00:39+0000\n"
 "PO-Revision-Date: 2023-11-13 18:52+0100\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <opensuse-translation@opensuse.org>\n"
@@ -446,7 +446,7 @@ msgstr "Zatiaľ žiadne záložky"
 msgid "Search or enter URL…"
 msgstr "Vyhľadať alebo zadať URL..."
 
-#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:349
+#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:355
 #: src/contents/ui/Navigation.qml:437
 #, kde-format
 msgid "New Tab"
@@ -525,42 +525,42 @@ msgstr "Vymazať celú históriu"
 msgid "Not history yet"
 msgstr "Zatiaľ nie je história"
 
-#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:275
+#: src/contents/ui/desktop/Tabs.qml:232 src/contents/ui/Tabs.qml:275
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Režim čítania: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:306
+#: src/contents/ui/desktop/Tabs.qml:261 src/contents/ui/Tabs.qml:306
 #, kde-format
 msgid "Close tab"
 msgstr "Zavrieť kartu"
 
-#: src/contents/ui/desktop/Tabs.qml:285
+#: src/contents/ui/desktop/Tabs.qml:291
 #, kde-format
 msgid "Open a new tab"
 msgstr "Otvoriť novú kartu"
 
-#: src/contents/ui/desktop/Tabs.qml:318
+#: src/contents/ui/desktop/Tabs.qml:324
 #, kde-format
 msgid "List all tabs"
 msgstr "Zobraziť zoznam všetkých kariet"
 
-#: src/contents/ui/desktop/Tabs.qml:358
+#: src/contents/ui/desktop/Tabs.qml:364
 #, kde-format
 msgid "Reload Tab"
 msgstr "Opätovne načítať kartu"
 
-#: src/contents/ui/desktop/Tabs.qml:366
+#: src/contents/ui/desktop/Tabs.qml:372
 #, kde-format
 msgid "Duplicate Tab"
 msgstr "Duplikovať kartu"
 
-#: src/contents/ui/desktop/Tabs.qml:374
+#: src/contents/ui/desktop/Tabs.qml:380
 #, kde-format
 msgid "Bookmark Tab"
 msgstr "Pridať kartu do záložiek"
 
-#: src/contents/ui/desktop/Tabs.qml:390
+#: src/contents/ui/desktop/Tabs.qml:396
 #, kde-format
 msgid "Close Tab"
 msgstr "Zatvoriť kartu"

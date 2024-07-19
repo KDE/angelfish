@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-15 00:38+0000\n"
+"POT-Creation-Date: 2024-07-19 00:39+0000\n"
 "PO-Revision-Date: 2024-07-12 04:46+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -446,7 +446,7 @@ msgstr "სანიშნები ჯერ არ დაგიმატებ
 msgid "Search or enter URL…"
 msgstr "მოძებნეთ ან შეიყვანეთ URL…"
 
-#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:349
+#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:355
 #: src/contents/ui/Navigation.qml:437
 #, kde-format
 msgid "New Tab"
@@ -525,42 +525,42 @@ msgstr "ისტორიის მთლიანად გაწმენდ�
 msgid "Not history yet"
 msgstr "ისტორიის გარეშე"
 
-#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:275
+#: src/contents/ui/desktop/Tabs.qml:232 src/contents/ui/Tabs.qml:275
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "მკითხველის რეჟიმი: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:306
+#: src/contents/ui/desktop/Tabs.qml:261 src/contents/ui/Tabs.qml:306
 #, kde-format
 msgid "Close tab"
 msgstr "ჩანართის დახურვა"
 
-#: src/contents/ui/desktop/Tabs.qml:285
+#: src/contents/ui/desktop/Tabs.qml:291
 #, kde-format
 msgid "Open a new tab"
 msgstr "ახალი ჩანართის გახსნა"
 
-#: src/contents/ui/desktop/Tabs.qml:318
+#: src/contents/ui/desktop/Tabs.qml:324
 #, kde-format
 msgid "List all tabs"
 msgstr "ყველა ჩანართის სია"
 
-#: src/contents/ui/desktop/Tabs.qml:358
+#: src/contents/ui/desktop/Tabs.qml:364
 #, kde-format
 msgid "Reload Tab"
 msgstr "ჩანართის თავიდან ჩატვირთვა"
 
-#: src/contents/ui/desktop/Tabs.qml:366
+#: src/contents/ui/desktop/Tabs.qml:372
 #, kde-format
 msgid "Duplicate Tab"
 msgstr "ჩანართის დუბლირება"
 
-#: src/contents/ui/desktop/Tabs.qml:374
+#: src/contents/ui/desktop/Tabs.qml:380
 #, kde-format
 msgid "Bookmark Tab"
 msgstr "&სანიშნების ჩანართი"
 
-#: src/contents/ui/desktop/Tabs.qml:390
+#: src/contents/ui/desktop/Tabs.qml:396
 #, kde-format
 msgid "Close Tab"
 msgstr "ჩანართის დახურვა"

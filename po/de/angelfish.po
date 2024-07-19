@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-15 00:38+0000\n"
+"POT-Creation-Date: 2024-07-19 00:39+0000\n"
 "PO-Revision-Date: 2024-06-12 22:29+0200\n"
 "Last-Translator: Alois Spitzbart <spitz234@hotmail.com>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -451,7 +451,7 @@ msgstr "Keine Lesezeichen vorhanden"
 msgid "Search or enter URL…"
 msgstr "Suchen oder eine Adresse eingeben ..."
 
-#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:349
+#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:355
 #: src/contents/ui/Navigation.qml:437
 #, kde-format
 msgid "New Tab"
@@ -530,42 +530,42 @@ msgstr "Gesamten Verlauf leeren"
 msgid "Not history yet"
 msgstr "Kein Verlauf vorhanden"
 
-#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:275
+#: src/contents/ui/desktop/Tabs.qml:232 src/contents/ui/Tabs.qml:275
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Lesemodus: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:306
+#: src/contents/ui/desktop/Tabs.qml:261 src/contents/ui/Tabs.qml:306
 #, kde-format
 msgid "Close tab"
 msgstr "Unterfenster schließen"
 
-#: src/contents/ui/desktop/Tabs.qml:285
+#: src/contents/ui/desktop/Tabs.qml:291
 #, kde-format
 msgid "Open a new tab"
 msgstr "Neues Unterfenster öffnen"
 
-#: src/contents/ui/desktop/Tabs.qml:318
+#: src/contents/ui/desktop/Tabs.qml:324
 #, kde-format
 msgid "List all tabs"
 msgstr "Alle Unterfenster auflisten"
 
-#: src/contents/ui/desktop/Tabs.qml:358
+#: src/contents/ui/desktop/Tabs.qml:364
 #, kde-format
 msgid "Reload Tab"
 msgstr "Unterfenster neu laden"
 
-#: src/contents/ui/desktop/Tabs.qml:366
+#: src/contents/ui/desktop/Tabs.qml:372
 #, kde-format
 msgid "Duplicate Tab"
 msgstr "Unterfenster duplizieren"
 
-#: src/contents/ui/desktop/Tabs.qml:374
+#: src/contents/ui/desktop/Tabs.qml:380
 #, kde-format
 msgid "Bookmark Tab"
 msgstr "Lesezeichen-Unterfenster"
 
-#: src/contents/ui/desktop/Tabs.qml:390
+#: src/contents/ui/desktop/Tabs.qml:396
 #, kde-format
 msgid "Close Tab"
 msgstr "Unterfenster schließen"

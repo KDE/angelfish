@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-15 00:38+0000\n"
+"POT-Creation-Date: 2024-07-19 00:39+0000\n"
 "PO-Revision-Date: 2024-02-29 09:14+0200\n"
 "Last-Translator: Toms Trasūns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
@@ -447,7 +447,7 @@ msgstr "Vēl nav grāmatzīmju"
 msgid "Search or enter URL…"
 msgstr "Meklēt vai ievadīt URL..."
 
-#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:349
+#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:355
 #: src/contents/ui/Navigation.qml:437
 #, kde-format
 msgid "New Tab"
@@ -526,42 +526,42 @@ msgstr "Notīrīt visu vēsturi"
 msgid "Not history yet"
 msgstr "Vēl nav vēstures"
 
-#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:275
+#: src/contents/ui/desktop/Tabs.qml:232 src/contents/ui/Tabs.qml:275
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr "Lasīšanas režīms: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:306
+#: src/contents/ui/desktop/Tabs.qml:261 src/contents/ui/Tabs.qml:306
 #, kde-format
 msgid "Close tab"
 msgstr "Aizvērt cilni"
 
-#: src/contents/ui/desktop/Tabs.qml:285
+#: src/contents/ui/desktop/Tabs.qml:291
 #, kde-format
 msgid "Open a new tab"
 msgstr "Atvērt jaunu cilni"
 
-#: src/contents/ui/desktop/Tabs.qml:318
+#: src/contents/ui/desktop/Tabs.qml:324
 #, kde-format
 msgid "List all tabs"
 msgstr "Parādīt visas cilnes"
 
-#: src/contents/ui/desktop/Tabs.qml:358
+#: src/contents/ui/desktop/Tabs.qml:364
 #, kde-format
 msgid "Reload Tab"
 msgstr "Pārlādēt cilni"
 
-#: src/contents/ui/desktop/Tabs.qml:366
+#: src/contents/ui/desktop/Tabs.qml:372
 #, kde-format
 msgid "Duplicate Tab"
 msgstr "Dublēt cilni"
 
-#: src/contents/ui/desktop/Tabs.qml:374
+#: src/contents/ui/desktop/Tabs.qml:380
 #, kde-format
 msgid "Bookmark Tab"
 msgstr "Pievienot cilni grāmatzīmēm"
 
-#: src/contents/ui/desktop/Tabs.qml:390
+#: src/contents/ui/desktop/Tabs.qml:396
 #, kde-format
 msgid "Close Tab"
 msgstr "Aizvērt cilni"

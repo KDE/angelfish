@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-15 00:38+0000\n"
+"POT-Creation-Date: 2024-07-19 00:39+0000\n"
 "PO-Revision-Date: 2020-08-12 20:25+0200\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -451,7 +451,7 @@ msgstr "Bogmærker"
 msgid "Search or enter URL…"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:349
+#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:355
 #: src/contents/ui/Navigation.qml:437
 #, kde-format
 msgid "New Tab"
@@ -531,46 +531,46 @@ msgstr ""
 msgid "Not history yet"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:226 src/contents/ui/Tabs.qml:275
+#: src/contents/ui/desktop/Tabs.qml:232 src/contents/ui/Tabs.qml:275
 #, kde-format
 msgid "Reader Mode: %1"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:255 src/contents/ui/Tabs.qml:306
+#: src/contents/ui/desktop/Tabs.qml:261 src/contents/ui/Tabs.qml:306
 #, fuzzy, kde-format
 #| msgid "Close"
 msgid "Close tab"
 msgstr "Luk"
 
-#: src/contents/ui/desktop/Tabs.qml:285
+#: src/contents/ui/desktop/Tabs.qml:291
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgid "Open a new tab"
 msgstr "Åbn i nyt faneblad"
 
-#: src/contents/ui/desktop/Tabs.qml:318
+#: src/contents/ui/desktop/Tabs.qml:324
 #, kde-format
 msgid "List all tabs"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:358
+#: src/contents/ui/desktop/Tabs.qml:364
 #, kde-format
 msgid "Reload Tab"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:366
+#: src/contents/ui/desktop/Tabs.qml:372
 #, fuzzy, kde-format
 #| msgid "Private Tabs"
 msgid "Duplicate Tab"
 msgstr "Private faneblade"
 
-#: src/contents/ui/desktop/Tabs.qml:374
+#: src/contents/ui/desktop/Tabs.qml:380
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgid "Bookmark Tab"
 msgstr "Bogmærke"
 
-#: src/contents/ui/desktop/Tabs.qml:390
+#: src/contents/ui/desktop/Tabs.qml:396
 #, fuzzy, kde-format
 #| msgid "Close"
 msgid "Close Tab"
