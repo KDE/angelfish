@@ -40,6 +40,8 @@ parts:
         plugin: cmake
         build-packages:
         - libfuturesql6-dev
+        stage-packages:
+        - libfuturesql6
         source: .
         source-type: local
         cmake-parameters:
