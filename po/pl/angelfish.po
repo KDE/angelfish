@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-angelfish package.
+# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2023, 2024 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
 #
-# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2019, 2020, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-07-19 00:39+0000\n"
-"PO-Revision-Date: 2023-03-25 09:22+0100\n"
+"PO-Revision-Date: 2024-07-20 10:30+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -675,7 +676,7 @@ msgstr "Ukryj pasek poruszania się"
 #: src/contents/ui/Navigation.qml:410
 #, kde-format
 msgid "Done"
-msgstr ""
+msgstr "Gotowe"
 
 #: src/contents/ui/NewTabQuestion.qml:11
 #, kde-format
@@ -764,11 +765,10 @@ msgid "Adblock settings"
 msgstr "Ustawienia Adblock"
 
 #: src/settings/SettingsAdblock.qml:23
-#, fuzzy, kde-format
-#| msgid "add Filterlist"
+#, kde-format
 msgctxt "@action:intoolbar"
 msgid "Add Filterlist"
-msgstr "dodaj spis filtrów"
+msgstr "Dodaj spis filtrów"
 
 #: src/settings/SettingsAdblock.qml:27
 #, kde-format
@@ -786,10 +786,9 @@ msgid "Remove this filter list"
 msgstr "Usuń ten spis filtrów"
 
 #: src/settings/SettingsAdblock.qml:112
-#, fuzzy, kde-format
-#| msgid "add Filterlist"
+#, kde-format
 msgid "Add Filterlist"
-msgstr "dodaj spis filtrów"
+msgstr "Dodaj spis filtrów"
 
 #: src/settings/SettingsAdblock.qml:124
 #, kde-format
@@ -889,15 +888,7 @@ msgid "Navigation bar"
 msgstr "Pasek poruszania się"
 
 #: src/settings/SettingsNavigationBarPage.qml:26
-#, fuzzy, kde-format
-#| msgid ""
-#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-#| "hidden only in portrait orientation of the browser and are always shown "
-#| "if  the browser is wider than its height.\n"
-#| "\n"
-#| " Note that if you disable the menu buttons, you will be able to access "
-#| "the menus either by swiping from the left or right side or to a side "
-#| "along the bottom of the window."
+#, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
@@ -959,7 +950,7 @@ msgstr "Usuń program"
 #, kde-format
 msgctxt "placeholder message"
 msgid "No Web Apps installed"
-msgstr ""
+msgstr "Nie wgrano żadnej aplikacji sieciowej"
 
 #~ msgid "Show navigation bar"
 #~ msgstr "Pokaż pasek poruszania się"
