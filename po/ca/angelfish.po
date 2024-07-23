@@ -955,12 +955,3 @@ msgstr "Elimina l'aplicació"
 msgctxt "placeholder message"
 msgid "No Web Apps installed"
 msgstr "No hi ha instal·lada cap aplicació web"
-
-#~ msgid "Show navigation bar"
-#~ msgstr "Mostra la barra de navegació"
-
-#~ msgid "Configure Angelfish"
-#~ msgstr "Configura l'Angelfish"
-
-#~ msgid "Add"
-#~ msgstr "Afegeix"
