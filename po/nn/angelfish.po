@@ -757,7 +757,6 @@ msgstr "Innstillingar for reklamefilter"
 
 #: src/settings/SettingsAdblock.qml:23
 #, fuzzy, kde-format
-#| msgid "Add filterlist"
 msgctxt "@action:intoolbar"
 msgid "Add Filterlist"
 msgstr "Legg til filterliste"
@@ -780,7 +779,6 @@ msgstr "Fjern filterlista"
 
 #: src/settings/SettingsAdblock.qml:112
 #, fuzzy, kde-format
-#| msgid "Add filterlist"
 msgid "Add Filterlist"
 msgstr "Legg til filterliste"
 
@@ -876,14 +874,6 @@ msgstr "Navigasjonslinje"
 
 #: src/settings/SettingsNavigationBarPage.qml:26
 #, fuzzy, kde-format
-#| msgid ""
-#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-#| "hidden only in portrait orientation of the browser and are always shown "
-#| "if  the browser is wider than its height.\n"
-#| "\n"
-#| " Note that if you disable the menu buttons, you will be able to access "
-#| "the menus either by swiping from the left or right side or to a side "
-#| "along the bottom of the window."
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
