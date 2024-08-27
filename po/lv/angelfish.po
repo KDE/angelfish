@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-07-19 00:39+0000\n"
-"PO-Revision-Date: 2024-02-29 09:14+0200\n"
-"Last-Translator: Toms Trasūns <toms.trasuns@posteo.net>\n"
+"PO-Revision-Date: 2024-08-20 18:40+0300\n"
+"Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 24.05.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -677,7 +677,7 @@ msgstr "Slēpt navigācijas joslu"
 #: src/contents/ui/Navigation.qml:410
 #, kde-format
 msgid "Done"
-msgstr ""
+msgstr "Pabeigts"
 
 #: src/contents/ui/NewTabQuestion.qml:11
 #, kde-format
@@ -764,11 +764,10 @@ msgid "Adblock settings"
 msgstr "Reklāmu bloķētāja iestatījumi"
 
 #: src/settings/SettingsAdblock.qml:23
-#, fuzzy, kde-format
-#| msgid "add Filterlist"
+#, kde-format
 msgctxt "@action:intoolbar"
 msgid "Add Filterlist"
-msgstr "pievienot filtru sarakstu"
+msgstr "Pievienot filtru sarakstu"
 
 #: src/settings/SettingsAdblock.qml:27
 #, kde-format
@@ -786,10 +785,9 @@ msgid "Remove this filter list"
 msgstr "Noņemt šo filtru sarakstu"
 
 #: src/settings/SettingsAdblock.qml:112
-#, fuzzy, kde-format
-#| msgid "add Filterlist"
+#, kde-format
 msgid "Add Filterlist"
-msgstr "pievienot filtru sarakstu"
+msgstr "Pievienot filtru sarakstu"
 
 #: src/settings/SettingsAdblock.qml:124
 #, kde-format
@@ -887,15 +885,7 @@ msgid "Navigation bar"
 msgstr "Navigācijas josla"
 
 #: src/settings/SettingsNavigationBarPage.qml:26
-#, fuzzy, kde-format
-#| msgid ""
-#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-#| "hidden only in portrait orientation of the browser and are always shown "
-#| "if  the browser is wider than its height.\n"
-#| "\n"
-#| " Note that if you disable the menu buttons, you will be able to access "
-#| "the menus either by swiping from the left or right side or to a side "
-#| "along the bottom of the window."
+#, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
@@ -905,12 +895,12 @@ msgid ""
 "menus either by swiping from the left or right side or to a side along the "
 "bottom of the window."
 msgstr ""
-"Izvēlieties navigācijas joslā redzamās pogas. Dažas no pogām var būt "
-"redzamas tika tad, ja pārlūks ir ainavas režīmā un tā platums ir lielāks par "
-"augstumu.\n"
+"Izvēlieties pogas, kuras vēlaties redzēt navigācijas joslā. Dažas no pogām "
+"var būt redzamas tika tad, ja pārlūks ir ainavas režīmā un tā platums ir "
+"lielāks par augstumu.\n"
 "\n"
 " Ievērojiet, ka, izslēdzot izvēļņu pogas, izvēlnēm varēsiet piekļūt, "
-"pavelkot no kreisās vai labās malas vai  gar loga apakšu."
+"pavelkot no kreisās vai labās malas vai gar loga apakšu."
 
 #: src/settings/SettingsNavigationBarPage.qml:35
 #, kde-format
@@ -956,7 +946,7 @@ msgstr "Noņemt lietotni"
 #, kde-format
 msgctxt "placeholder message"
 msgid "No Web Apps installed"
-msgstr ""
+msgstr "Tīmekļa lietotnes nav ieinstalētas"
 
 #~ msgid "Show navigation bar"
 #~ msgstr "Rādīt navigācijas joslu"
