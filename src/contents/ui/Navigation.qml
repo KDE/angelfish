@@ -14,6 +14,8 @@ import org.kde.angelfish 1.0
 Item {
     id: navigation
 
+    required property Controls.Menu pageMenu
+
     property double dismissValue: 0 // Value between 1 and 0 animating the dismiss state of the navbar. 0 is full, 1 is dismissed.
     property double dismissOpacity: Math.max(1 - (dismissValue * 2), 0)
     // The web view lags a bit when resizing, so this rounds the value.
@@ -380,7 +382,7 @@ Item {
                 Kirigami.Theme.inherit: true
 
                 enabled: dismissValue == 0
-                onClicked: contextDrawer.open()
+                onClicked: navigation.pageMenu.popup()
             }
         }
 

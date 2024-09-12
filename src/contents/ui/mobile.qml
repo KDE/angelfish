@@ -284,14 +284,17 @@ Kirigami.ApplicationWindow {
             websiteName: currentWebView.title
         }
 
+
         // The menu at the bottom right
-        actions: [
+        Controls.Menu {
+            id: pageMenu
+
             Kirigami.Action {
                 icon.name: "edit-find"
                 shortcut: "Ctrl+F"
                 onTriggered: findInPage.activate()
                 text: i18n("Find in page")
-            },
+            }
             Kirigami.Action {
                 icon.name: "document-share"
                 text: i18n("Share page")
@@ -301,7 +304,7 @@ Kirigami.ApplicationWindow {
                     sheetLoader.item.inputTitle = currentWebView.title
                     sheetLoader.item.open()
                 }
-            },
+            }
             Kirigami.Action {
                 id: addHomeScreenAction
                 icon.name: "list-add"
@@ -312,14 +315,14 @@ Kirigami.ApplicationWindow {
                                                            currentWebView.url,
                                                            currentWebView.icon)
                 }
-            },
+            }
             Kirigami.Action {
                 icon.name: "application-x-object"
                 text: i18n("Open in app")
                 onTriggered: {
                     Qt.openUrlExternally(currentWebView.url)
                 }
-            },
+            }
             Kirigami.Action {
                 enabled: currentWebView.canGoBack
                 icon.name: "go-previous"
@@ -327,7 +330,7 @@ Kirigami.ApplicationWindow {
                 onTriggered: {
                     currentWebView.goBack()
                 }
-            },
+            }
             Kirigami.Action {
                 enabled: currentWebView.canGoForward
                 icon.name: "go-next"
@@ -335,14 +338,14 @@ Kirigami.ApplicationWindow {
                 onTriggered: {
                     currentWebView.goForward()
                 }
-            },
+            }
             Kirigami.Action {
                 icon.name: currentWebView.loading ? "process-stop" : "view-refresh"
                 text: currentWebView.loading ? i18n("Stop loading") : i18n("Refresh")
                 onTriggered: {
                     currentWebView.loading ? currentWebView.stopLoading() : currentWebView.reload()
                 }
-            },
+            }
             Kirigami.Action {
                 id: bookmarkAction
                 checkable: true
@@ -361,7 +364,7 @@ Kirigami.ApplicationWindow {
                         BrowserManager.removeBookmark(currentWebView.url);
                     }
                 }
-            },
+            }
             Kirigami.Action {
                 icon.name: "computer"
                 text: i18n("Show desktop site")
@@ -370,7 +373,7 @@ Kirigami.ApplicationWindow {
                 onTriggered: {
                     currentWebView.userAgent.isMobile = !currentWebView.userAgent.isMobile;
                 }
-            },
+            }
             Kirigami.Action {
                 icon.name: currentWebView.readerMode ? "view-readermode-active" : "view-readermode"
                 text: i18n("Reader Mode")
@@ -378,7 +381,7 @@ Kirigami.ApplicationWindow {
                 checked: currentWebView.readerMode
                 onTriggered: currentWebView.readerModeSwitch()
 
-            },
+            }
             Kirigami.Action {
                 icon.name: "edit-select-text"
                 text: i18n("Hide navigation bar")
@@ -387,7 +390,7 @@ Kirigami.ApplicationWindow {
                     if (!navigation.visible) return;
                     rootPage.navigationAutoShowLock = true
                 }
-            },
+            }
             Kirigami.Action {
                 icon.name: "dialog-scripts"
                 text: i18n("Show developer tools")
@@ -397,7 +400,7 @@ Kirigami.ApplicationWindow {
                     tabs.tabsModel.toggleDeveloperTools(tabs.currentIndex)
                 }
             }
-        ]
+        }
 
         // Tabs sheet
         Loader {
@@ -451,6 +454,7 @@ Kirigami.ApplicationWindow {
 
             navigationShown: visible && rootPage.navigationAutoShow && !rootPage.navigationAutoShowLock
             visible: webBrowser.visibility !== Window.FullScreen && !findInPage.active
+            pageMenu: pageMenu
 
             tabsSheet: tabsSheetLoader
 
