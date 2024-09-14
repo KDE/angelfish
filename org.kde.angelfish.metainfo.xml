@@ -6,6 +6,7 @@
   <name xml:lang="ca">Angelfish</name>
   <name xml:lang="ca-valencia">Angelfish</name>
   <name xml:lang="cs">Angelfish</name>
+  <name xml:lang="el">Angelfish</name>
   <name xml:lang="en-GB">Angelfish</name>
   <name xml:lang="eo">Angelfish</name>
   <name xml:lang="es">Angelfish</name>
@@ -425,7 +426,7 @@
       <caption xml:lang="ca-valencia">Interfície d'usuari d'escriptori</caption>
       <caption xml:lang="cs">Uživatelské rozhraní pracovní plochy</caption>
       <caption xml:lang="de">Benutzeroberfläche für die Arbeitsfläche</caption>
-      <caption xml:lang="el">Περιβάλλον χρήστη επιφάνειας εργασίας</caption>
+      <caption xml:lang="el">Διεπαφή χρήστη της επιφάνειας εργασίας</caption>
       <caption xml:lang="en-GB">Desktop User Interface</caption>
       <caption xml:lang="eo">Labortabla Uzantinterfaco</caption>
       <caption xml:lang="es">Interfaz de usuario del escritorio</caption>
