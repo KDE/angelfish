@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-07-19 00:39+0000\n"
-"PO-Revision-Date: 2024-07-12 17:53+0200\n"
+"PO-Revision-Date: 2024-09-22 12:52+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -70,7 +70,7 @@ msgstr "Debe autenticarse"
 #: lib/contents/ui/AuthSheet.qml:30
 #, kde-format
 msgid "Username"
-msgstr "Nome de usuaria"
+msgstr "Nome de persoa usuaria"
 
 #: lib/contents/ui/AuthSheet.qml:37
 #, kde-format
@@ -764,6 +764,7 @@ msgstr "A barra de lapelas amosarase aínda que só haxa unha lapela aberta."
 msgid "Adblock settings"
 msgstr "Configuración do bloqueador de publicidade"
 
+# skip-rule: trasno-list_reverse
 #: src/settings/SettingsAdblock.qml:23
 #, kde-format
 msgctxt "@action:intoolbar"
@@ -779,18 +780,21 @@ msgstr "Actualizar as listas"
 #, kde-format
 msgid "The adblock functionality isn't included in this build."
 msgstr ""
-"A funcionalidade de bloqueo de publicidade non está incluída nesta edición."
+"A funcionalidade de bloqueo de publicidade non está incluída nesta "
+"construción."
 
 #: src/settings/SettingsAdblock.qml:100
 #, kde-format
 msgid "Remove this filter list"
 msgstr "Retirar esta lista de filtros"
 
+# skip-rule: trasno-list_reverse
 #: src/settings/SettingsAdblock.qml:112
 #, kde-format
 msgid "Add Filterlist"
 msgstr "Engadir unha lista de filtros"
 
+# skip-rule: trasno-list_reverse
 #: src/settings/SettingsAdblock.qml:124
 #, kde-format
 msgid "Add filterlist"
@@ -840,7 +844,8 @@ msgstr "Intenta evitar que se amose publicidade nos sitios web."
 #, kde-format
 msgid "AdBlock functionality was not included in this build."
 msgstr ""
-"A funcionalidade de bloqueo de publicidade non estaba incluída nesta edición."
+"A funcionalidade de bloqueo de publicidade non estaba incluída nesta "
+"construción."
 
 #: src/settings/SettingsGeneral.qml:58
 #, kde-format
@@ -904,8 +909,8 @@ msgstr ""
 "navegador é máis ancho que alto.\n"
 "\n"
 " Teña en conta que se desactiva os botóns do menú, poderá acceder aos menús "
-"ben arrastrando desde a esquerda ou a dereita ou desde un lateral da parte "
-"inferior da xanela."
+"ben pasando da esquerda ou da dereita ou dun lateral da parte inferior da "
+"xanela."
 
 #: src/settings/SettingsNavigationBarPage.qml:35
 #, kde-format
