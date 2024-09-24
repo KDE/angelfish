@@ -260,7 +260,7 @@
       <li xml:lang="eu">fitxak</li>
       <li xml:lang="fi">välilehdet</li>
       <li xml:lang="fr">onglets</li>
-      <li xml:lang="gl">separadores</li>
+      <li xml:lang="gl">lapelas</li>
       <li xml:lang="he">לשוניות</li>
       <li xml:lang="hu">lapok</li>
       <li xml:lang="ia">schedas</li>
@@ -391,7 +391,7 @@
       <caption xml:lang="eu">Fitxa-ikuspegia</caption>
       <caption xml:lang="fi">Välilehtinäkymä</caption>
       <caption xml:lang="fr">Vue par onglets</caption>
-      <caption xml:lang="gl">Vista de separadores.</caption>
+      <caption xml:lang="gl">Vista de lapelas.</caption>
       <caption xml:lang="he">תצוגת לשוניות</caption>
       <caption xml:lang="hu">Lapnézet</caption>
       <caption xml:lang="ia">Vista de Schedas</caption>
@@ -432,7 +432,7 @@
       <caption xml:lang="eu">Mahaigaineko erabiltzailearen interfazea</caption>
       <caption xml:lang="fi">Työpöytäkäyttöliittymä</caption>
       <caption xml:lang="fr">Interface utilisateur de bureau</caption>
-      <caption xml:lang="gl">Interface de usuario de escritorio.</caption>
+      <caption xml:lang="gl">Interface de escritorio.</caption>
       <caption xml:lang="he">ממשק משתמש שולחן עבודה</caption>
       <caption xml:lang="hu">Asztali felhasználói felület</caption>
       <caption xml:lang="ia">Interfacie de usator de scriptorio</caption>
