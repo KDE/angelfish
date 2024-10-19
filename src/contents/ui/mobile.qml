@@ -205,7 +205,6 @@ Kirigami.ApplicationWindow {
             function enqueue(error){
                 errorString = error.description;
                 errorCode = error.error;
-                visible = true;
                 errorHandler.open(error);
             }
         }

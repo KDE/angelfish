@@ -39,7 +39,7 @@ Item {
         }
         Kirigami.Heading {
             opacity: 0.3
-            text: errorCode
+            text: errorHandler.errorCode ?? ""
         }
         Kirigami.Heading {
             level: 3
@@ -63,22 +63,24 @@ Item {
     Kirigami.OverlayDrawer {
         id: sslErrorDrawer
         edge: Qt.BottomEdge
-        contentItem: ColumnLayout {
+        parent: applicationWindow().overlay
+
+        ColumnLayout {
+            width: parent.width
             Controls.Label {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
                 text: i18n(
 "Do you wish to continue?\n\n \
 If you wish so, you may continue with an unverified certificate.\n \
-Accepting an unverified certificate means\n \
-you may not be connected with the host you tried to connect to.\n \
+Accepting an unverified certificate means you may not be connected with the host you tried to connect to.\n\n \
 Do you wish to override the security check and continue?")
             }
             Controls.Button {
                 Layout.alignment: Qt.AlignRight
                 text: i18n("Yes")
                 onClicked: {
-                    certErrors.shift().ignoreCertificateError();
+                    errorHandler.certErrors.shift().acceptCertificate();
                     errorHandler.certificateIgnored();
                     sslErrorDrawer.close();
                 }
@@ -87,15 +89,19 @@ Do you wish to override the security check and continue?")
                 Layout.alignment: Qt.AlignRight
                 text: i18n("No")
                 onClicked: {
-                    certErrors.shift().rejectCertificate();
+                    errorHandler.certErrors.shift().rejectCertificate();
                     sslErrorDrawer.close();
                 }
             }
         }
     }
 
-    function open(error){
+    function open(error) {
         certErrors.push(error);
         sslErrorDrawer.open();
+    }
+
+    function clear() {
+        certErrors.certErrors = []
     }
 }

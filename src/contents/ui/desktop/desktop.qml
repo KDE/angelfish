@@ -476,16 +476,10 @@ Kirigami.ApplicationWindow {
                      && currentWebView.errorDomain !== WebEngineLoadingInfo.HttpStatusCodeDomain
 
             onRefreshRequested: currentWebView.reload()
-            onCertificateIgnored: {
-                visible = Qt.binding(() => {
-                    return currentWebView.errorCode !== "";
-                })
-            }
 
             function enqueue(error){
                 errorString = error.description;
                 errorCode = error.error;
-                visible = true;
                 errorHandler.open(error);
             }
         }
