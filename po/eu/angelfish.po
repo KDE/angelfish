@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-19 00:39+0000\n"
+"POT-Creation-Date: 2024-10-20 00:39+0000\n"
 "PO-Revision-Date: 2024-07-12 11:13+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -107,14 +107,22 @@ msgstr "Errorea orria zamatzean"
 msgid "Retry"
 msgstr "Berriz saiatu"
 
-#: lib/contents/ui/ErrorHandler.qml:71
-#, kde-format
+#: lib/contents/ui/ErrorHandler.qml:74
+#, fuzzy, kde-format
+#| msgid ""
+#| "Do you wish to continue?\n"
+#| "\n"
+#| " If you wish so, you may continue with an unverified certificate.\n"
+#| " Accepting an unverified certificate means\n"
+#| " you may not be connected with the host you tried to connect to.\n"
+#| " Do you wish to override the security check and continue?"
 msgid ""
 "Do you wish to continue?\n"
 "\n"
 " If you wish so, you may continue with an unverified certificate.\n"
-" Accepting an unverified certificate means\n"
-" you may not be connected with the host you tried to connect to.\n"
+" Accepting an unverified certificate means you may not be connected with the "
+"host you tried to connect to.\n"
+"\n"
 " Do you wish to override the security check and continue?"
 msgstr ""
 "Jarraitu nahi duzu?\n"
@@ -124,12 +132,12 @@ msgstr ""
 " agian ez zaudela konektatuta zuk konektatu nahi duzun ostalariarekin.\n"
 " Segurtasun-kontrola ezeztatu eta jarraitu nahi duzu?"
 
-#: lib/contents/ui/ErrorHandler.qml:79
+#: lib/contents/ui/ErrorHandler.qml:81
 #, kde-format
 msgid "Yes"
 msgstr "Bai"
 
-#: lib/contents/ui/ErrorHandler.qml:88
+#: lib/contents/ui/ErrorHandler.qml:90
 #, kde-format
 msgid "No"
 msgstr "Ez"
@@ -405,7 +413,7 @@ msgid "Paste"
 msgstr "Itsatsi"
 
 #: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:345
-#: src/contents/ui/mobile.qml:297
+#: src/contents/ui/mobile.qml:296
 #, kde-format
 msgid "Share page"
 msgstr "Partekatu orria"
@@ -487,12 +495,12 @@ msgstr "Pantaila-betea"
 msgid "Hide developer tools"
 msgstr "Ezkutatu garatzailearen tresnak"
 
-#: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:393
+#: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:392
 #, kde-format
 msgid "Show developer tools"
 msgstr "Erakutsi garatzailearen tresnak"
 
-#: src/contents/ui/desktop/desktop.qml:329 src/contents/ui/mobile.qml:293
+#: src/contents/ui/desktop/desktop.qml:329 src/contents/ui/mobile.qml:292
 #, kde-format
 msgid "Find in page"
 msgstr "Aurkitu orrian"
@@ -621,57 +629,57 @@ msgstr "Angelfish web arakatzailea"
 msgid "Tabs"
 msgstr "Fitxak"
 
-#: src/contents/ui/mobile.qml:308
+#: src/contents/ui/mobile.qml:307
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Gehitu pantaila nagusira"
 
-#: src/contents/ui/mobile.qml:318
+#: src/contents/ui/mobile.qml:317
 #, kde-format
 msgid "Open in app"
 msgstr "Ireki aplikazioan"
 
-#: src/contents/ui/mobile.qml:326
+#: src/contents/ui/mobile.qml:325
 #, kde-format
 msgid "Go previous"
 msgstr "Joan aurrekora"
 
-#: src/contents/ui/mobile.qml:334 src/settings/SettingsNavigationBarPage.qml:59
+#: src/contents/ui/mobile.qml:333 src/settings/SettingsNavigationBarPage.qml:59
 #, kde-format
 msgid "Go forward"
 msgstr "Joan aurrera"
 
-#: src/contents/ui/mobile.qml:341
+#: src/contents/ui/mobile.qml:340
 #, kde-format
 msgid "Stop loading"
 msgstr "Gelditu zamatzea"
 
-#: src/contents/ui/mobile.qml:341
+#: src/contents/ui/mobile.qml:340
 #, kde-format
 msgid "Refresh"
 msgstr "Freskatu"
 
-#: src/contents/ui/mobile.qml:351
+#: src/contents/ui/mobile.qml:350
 #, kde-format
 msgid "Bookmarked"
 msgstr "Laster-marketan dago"
 
-#: src/contents/ui/mobile.qml:351
+#: src/contents/ui/mobile.qml:350
 #, kde-format
 msgid "Bookmark"
 msgstr "Laster-marka"
 
-#: src/contents/ui/mobile.qml:367
+#: src/contents/ui/mobile.qml:366
 #, kde-format
 msgid "Show desktop site"
 msgstr "Erakutsi mahaigaineko lekua"
 
-#: src/contents/ui/mobile.qml:376
+#: src/contents/ui/mobile.qml:375
 #, kde-format
 msgid "Reader Mode"
 msgstr "Irakurle modua"
 
-#: src/contents/ui/mobile.qml:384
+#: src/contents/ui/mobile.qml:383
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "Ezkutatu nabigatzeko barra"

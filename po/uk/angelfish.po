@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-19 00:39+0000\n"
+"POT-Creation-Date: 2024-10-20 00:39+0000\n"
 "PO-Revision-Date: 2024-07-12 08:34+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian\n"
@@ -107,14 +107,22 @@ msgstr "Помилка під час спроби Завантажити сто�
 msgid "Retry"
 msgstr "Повторити"
 
-#: lib/contents/ui/ErrorHandler.qml:71
-#, kde-format
+#: lib/contents/ui/ErrorHandler.qml:74
+#, fuzzy, kde-format
+#| msgid ""
+#| "Do you wish to continue?\n"
+#| "\n"
+#| " If you wish so, you may continue with an unverified certificate.\n"
+#| " Accepting an unverified certificate means\n"
+#| " you may not be connected with the host you tried to connect to.\n"
+#| " Do you wish to override the security check and continue?"
 msgid ""
 "Do you wish to continue?\n"
 "\n"
 " If you wish so, you may continue with an unverified certificate.\n"
-" Accepting an unverified certificate means\n"
-" you may not be connected with the host you tried to connect to.\n"
+" Accepting an unverified certificate means you may not be connected with the "
+"host you tried to connect to.\n"
+"\n"
 " Do you wish to override the security check and continue?"
 msgstr ""
 "Хочете продовжити обробку?\n"
@@ -125,12 +133,12 @@ msgstr ""
 " встановити зв'язок не з тим вузлом мережі, з яким хотіли це зробити.\n"
 " Хочете забути про заходи безпеки і продовжити обробку?"
 
-#: lib/contents/ui/ErrorHandler.qml:79
+#: lib/contents/ui/ErrorHandler.qml:81
 #, kde-format
 msgid "Yes"
 msgstr "Так"
 
-#: lib/contents/ui/ErrorHandler.qml:88
+#: lib/contents/ui/ErrorHandler.qml:90
 #, kde-format
 msgid "No"
 msgstr "Ні"
@@ -406,7 +414,7 @@ msgid "Paste"
 msgstr "Вставити"
 
 #: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:345
-#: src/contents/ui/mobile.qml:297
+#: src/contents/ui/mobile.qml:296
 #, kde-format
 msgid "Share page"
 msgstr "Оприлюднити сторінку"
@@ -488,12 +496,12 @@ msgstr "На весь екран"
 msgid "Hide developer tools"
 msgstr "Приховати інструменти розробника"
 
-#: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:393
+#: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:392
 #, kde-format
 msgid "Show developer tools"
 msgstr "Показати інструменти розробника"
 
-#: src/contents/ui/desktop/desktop.qml:329 src/contents/ui/mobile.qml:293
+#: src/contents/ui/desktop/desktop.qml:329 src/contents/ui/mobile.qml:292
 #, kde-format
 msgid "Find in page"
 msgstr "Знайти на сторінці"
@@ -622,57 +630,57 @@ msgstr "Веббраузер Angelfish"
 msgid "Tabs"
 msgstr "Вкладки"
 
-#: src/contents/ui/mobile.qml:308
+#: src/contents/ui/mobile.qml:307
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Додати на домашню сторінку"
 
-#: src/contents/ui/mobile.qml:318
+#: src/contents/ui/mobile.qml:317
 #, kde-format
 msgid "Open in app"
 msgstr "Відкрити у програмі"
 
-#: src/contents/ui/mobile.qml:326
+#: src/contents/ui/mobile.qml:325
 #, kde-format
 msgid "Go previous"
 msgstr "Перейти до попереднього"
 
-#: src/contents/ui/mobile.qml:334 src/settings/SettingsNavigationBarPage.qml:59
+#: src/contents/ui/mobile.qml:333 src/settings/SettingsNavigationBarPage.qml:59
 #, kde-format
 msgid "Go forward"
 msgstr "Перейти до наступного"
 
-#: src/contents/ui/mobile.qml:341
+#: src/contents/ui/mobile.qml:340
 #, kde-format
 msgid "Stop loading"
 msgstr "Припинити завантаження"
 
-#: src/contents/ui/mobile.qml:341
+#: src/contents/ui/mobile.qml:340
 #, kde-format
 msgid "Refresh"
 msgstr "Оновити"
 
-#: src/contents/ui/mobile.qml:351
+#: src/contents/ui/mobile.qml:350
 #, kde-format
 msgid "Bookmarked"
 msgstr "Додано до закладок"
 
-#: src/contents/ui/mobile.qml:351
+#: src/contents/ui/mobile.qml:350
 #, kde-format
 msgid "Bookmark"
 msgstr "Створити закладку"
 
-#: src/contents/ui/mobile.qml:367
+#: src/contents/ui/mobile.qml:366
 #, kde-format
 msgid "Show desktop site"
 msgstr "Показати місце стільниці"
 
-#: src/contents/ui/mobile.qml:376
+#: src/contents/ui/mobile.qml:375
 #, kde-format
 msgid "Reader Mode"
 msgstr "Режим читання"
 
-#: src/contents/ui/mobile.qml:384
+#: src/contents/ui/mobile.qml:383
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "Приховати панель навігації"

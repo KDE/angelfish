@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-19 00:39+0000\n"
+"POT-Creation-Date: 2024-10-20 00:39+0000\n"
 "PO-Revision-Date: 2024-07-12 04:46+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -105,14 +105,22 @@ msgstr "გვერდის ჩტვირთვის შეცდომა"
 msgid "Retry"
 msgstr "თავიდან ცდა"
 
-#: lib/contents/ui/ErrorHandler.qml:71
-#, kde-format
+#: lib/contents/ui/ErrorHandler.qml:74
+#, fuzzy, kde-format
+#| msgid ""
+#| "Do you wish to continue?\n"
+#| "\n"
+#| " If you wish so, you may continue with an unverified certificate.\n"
+#| " Accepting an unverified certificate means\n"
+#| " you may not be connected with the host you tried to connect to.\n"
+#| " Do you wish to override the security check and continue?"
 msgid ""
 "Do you wish to continue?\n"
 "\n"
 " If you wish so, you may continue with an unverified certificate.\n"
-" Accepting an unverified certificate means\n"
-" you may not be connected with the host you tried to connect to.\n"
+" Accepting an unverified certificate means you may not be connected with the "
+"host you tried to connect to.\n"
+"\n"
 " Do you wish to override the security check and continue?"
 msgstr ""
 "გნებავთ, გააგრძელოთ??\n"
@@ -123,12 +131,12 @@ msgstr ""
 "აპირებდით.\n"
 " გნებავთ, გადაფაროთ ეს უსაფრთხოების შემოწმენა და გააგრძელოთ?"
 
-#: lib/contents/ui/ErrorHandler.qml:79
+#: lib/contents/ui/ErrorHandler.qml:81
 #, kde-format
 msgid "Yes"
 msgstr "კი"
 
-#: lib/contents/ui/ErrorHandler.qml:88
+#: lib/contents/ui/ErrorHandler.qml:90
 #, kde-format
 msgid "No"
 msgstr "არა"
@@ -404,7 +412,7 @@ msgid "Paste"
 msgstr "ჩასმა"
 
 #: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:345
-#: src/contents/ui/mobile.qml:297
+#: src/contents/ui/mobile.qml:296
 #, kde-format
 msgid "Share page"
 msgstr "გვერდის გაზიარება"
@@ -484,12 +492,12 @@ msgstr "სრულეკრანიანი რეჟიმი"
 msgid "Hide developer tools"
 msgstr "პროგრამირების ხელსაწყოების დამალვა"
 
-#: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:393
+#: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:392
 #, kde-format
 msgid "Show developer tools"
 msgstr "პროგრამირების ხელსაწყოების ჩვენება"
 
-#: src/contents/ui/desktop/desktop.qml:329 src/contents/ui/mobile.qml:293
+#: src/contents/ui/desktop/desktop.qml:329 src/contents/ui/mobile.qml:292
 #, kde-format
 msgid "Find in page"
 msgstr "გვერდში ძებნა"
@@ -618,57 +626,57 @@ msgstr "Angelfish ბრაუზერი"
 msgid "Tabs"
 msgstr "დაფები"
 
-#: src/contents/ui/mobile.qml:308
+#: src/contents/ui/mobile.qml:307
 #, kde-format
 msgid "Add to homescreen"
 msgstr "საწყის ეკრანზე დამატება"
 
-#: src/contents/ui/mobile.qml:318
+#: src/contents/ui/mobile.qml:317
 #, kde-format
 msgid "Open in app"
 msgstr "აპში გახსნა"
 
-#: src/contents/ui/mobile.qml:326
+#: src/contents/ui/mobile.qml:325
 #, kde-format
 msgid "Go previous"
 msgstr "წინაზე გადასვლა"
 
-#: src/contents/ui/mobile.qml:334 src/settings/SettingsNavigationBarPage.qml:59
+#: src/contents/ui/mobile.qml:333 src/settings/SettingsNavigationBarPage.qml:59
 #, kde-format
 msgid "Go forward"
 msgstr "წინ გადასვლა"
 
-#: src/contents/ui/mobile.qml:341
+#: src/contents/ui/mobile.qml:340
 #, kde-format
 msgid "Stop loading"
 msgstr "ჩატვირთვის შეჩერება"
 
-#: src/contents/ui/mobile.qml:341
+#: src/contents/ui/mobile.qml:340
 #, kde-format
 msgid "Refresh"
 msgstr "განახლება"
 
-#: src/contents/ui/mobile.qml:351
+#: src/contents/ui/mobile.qml:350
 #, kde-format
 msgid "Bookmarked"
 msgstr "ჩამატებულია სანიშნეებში"
 
-#: src/contents/ui/mobile.qml:351
+#: src/contents/ui/mobile.qml:350
 #, kde-format
 msgid "Bookmark"
 msgstr "სანიშნი"
 
-#: src/contents/ui/mobile.qml:367
+#: src/contents/ui/mobile.qml:366
 #, kde-format
 msgid "Show desktop site"
 msgstr "საიტის კომპიუტერის ვერსიის ჩვენება"
 
-#: src/contents/ui/mobile.qml:376
+#: src/contents/ui/mobile.qml:375
 #, kde-format
 msgid "Reader Mode"
 msgstr "კითხვის რეჟიმი"
 
-#: src/contents/ui/mobile.qml:384
+#: src/contents/ui/mobile.qml:383
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "ნავიგაციის პანელის დამალვა"

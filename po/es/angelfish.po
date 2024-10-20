@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-19 00:39+0000\n"
+"POT-Creation-Date: 2024-10-20 00:39+0000\n"
 "PO-Revision-Date: 2024-07-13 04:06+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -106,14 +106,22 @@ msgstr "Ha ocurrido un error al cargar la página"
 msgid "Retry"
 msgstr "Volver a intentar"
 
-#: lib/contents/ui/ErrorHandler.qml:71
-#, kde-format
+#: lib/contents/ui/ErrorHandler.qml:74
+#, fuzzy, kde-format
+#| msgid ""
+#| "Do you wish to continue?\n"
+#| "\n"
+#| " If you wish so, you may continue with an unverified certificate.\n"
+#| " Accepting an unverified certificate means\n"
+#| " you may not be connected with the host you tried to connect to.\n"
+#| " Do you wish to override the security check and continue?"
 msgid ""
 "Do you wish to continue?\n"
 "\n"
 " If you wish so, you may continue with an unverified certificate.\n"
-" Accepting an unverified certificate means\n"
-" you may not be connected with the host you tried to connect to.\n"
+" Accepting an unverified certificate means you may not be connected with the "
+"host you tried to connect to.\n"
+"\n"
 " Do you wish to override the security check and continue?"
 msgstr ""
 "¿Desea continuar?\n"
@@ -123,12 +131,12 @@ msgstr ""
 "no esté conectado a la máquina a la que ha intentado conectarse.\n"
 "¿Desea anular la comprobación de seguridad y continuar?"
 
-#: lib/contents/ui/ErrorHandler.qml:79
+#: lib/contents/ui/ErrorHandler.qml:81
 #, kde-format
 msgid "Yes"
 msgstr "Sí"
 
-#: lib/contents/ui/ErrorHandler.qml:88
+#: lib/contents/ui/ErrorHandler.qml:90
 #, kde-format
 msgid "No"
 msgstr "No"
@@ -405,7 +413,7 @@ msgid "Paste"
 msgstr "Pegar"
 
 #: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:345
-#: src/contents/ui/mobile.qml:297
+#: src/contents/ui/mobile.qml:296
 #, kde-format
 msgid "Share page"
 msgstr "Compartir página"
@@ -487,12 +495,12 @@ msgstr "Pantalla completa"
 msgid "Hide developer tools"
 msgstr "Ocultar herramientas de desarrollador"
 
-#: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:393
+#: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:392
 #, kde-format
 msgid "Show developer tools"
 msgstr "Mostrar herramientas de desarrollador"
 
-#: src/contents/ui/desktop/desktop.qml:329 src/contents/ui/mobile.qml:293
+#: src/contents/ui/desktop/desktop.qml:329 src/contents/ui/mobile.qml:292
 #, kde-format
 msgid "Find in page"
 msgstr "Buscar en la página"
@@ -621,57 +629,57 @@ msgstr "Navegador web Angelfish"
 msgid "Tabs"
 msgstr "Pestañas"
 
-#: src/contents/ui/mobile.qml:308
+#: src/contents/ui/mobile.qml:307
 #, kde-format
 msgid "Add to homescreen"
 msgstr "Añadir a la pantalla de inicio"
 
-#: src/contents/ui/mobile.qml:318
+#: src/contents/ui/mobile.qml:317
 #, kde-format
 msgid "Open in app"
 msgstr "Abrir en la aplicación"
 
-#: src/contents/ui/mobile.qml:326
+#: src/contents/ui/mobile.qml:325
 #, kde-format
 msgid "Go previous"
 msgstr "Retroceder"
 
-#: src/contents/ui/mobile.qml:334 src/settings/SettingsNavigationBarPage.qml:59
+#: src/contents/ui/mobile.qml:333 src/settings/SettingsNavigationBarPage.qml:59
 #, kde-format
 msgid "Go forward"
 msgstr "Avanzar"
 
-#: src/contents/ui/mobile.qml:341
+#: src/contents/ui/mobile.qml:340
 #, kde-format
 msgid "Stop loading"
 msgstr "Detener la carga"
 
-#: src/contents/ui/mobile.qml:341
+#: src/contents/ui/mobile.qml:340
 #, kde-format
 msgid "Refresh"
 msgstr "Actualizar"
 
-#: src/contents/ui/mobile.qml:351
+#: src/contents/ui/mobile.qml:350
 #, kde-format
 msgid "Bookmarked"
 msgstr "Marcado"
 
-#: src/contents/ui/mobile.qml:351
+#: src/contents/ui/mobile.qml:350
 #, kde-format
 msgid "Bookmark"
 msgstr "Marcador"
 
-#: src/contents/ui/mobile.qml:367
+#: src/contents/ui/mobile.qml:366
 #, kde-format
 msgid "Show desktop site"
 msgstr "Mostrar el sitio del escritorio"
 
-#: src/contents/ui/mobile.qml:376
+#: src/contents/ui/mobile.qml:375
 #, kde-format
 msgid "Reader Mode"
 msgstr "Modo lector"
 
-#: src/contents/ui/mobile.qml:384
+#: src/contents/ui/mobile.qml:383
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "Ocultar la barra de navegación"

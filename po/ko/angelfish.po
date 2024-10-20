@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-19 00:39+0000\n"
+"POT-Creation-Date: 2024-10-20 00:39+0000\n"
 "PO-Revision-Date: 2024-08-19 21:40+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -105,14 +105,22 @@ msgstr "페이지를 불러오는 중 오류 발생"
 msgid "Retry"
 msgstr "다시 시도"
 
-#: lib/contents/ui/ErrorHandler.qml:71
-#, kde-format
+#: lib/contents/ui/ErrorHandler.qml:74
+#, fuzzy, kde-format
+#| msgid ""
+#| "Do you wish to continue?\n"
+#| "\n"
+#| " If you wish so, you may continue with an unverified certificate.\n"
+#| " Accepting an unverified certificate means\n"
+#| " you may not be connected with the host you tried to connect to.\n"
+#| " Do you wish to override the security check and continue?"
 msgid ""
 "Do you wish to continue?\n"
 "\n"
 " If you wish so, you may continue with an unverified certificate.\n"
-" Accepting an unverified certificate means\n"
-" you may not be connected with the host you tried to connect to.\n"
+" Accepting an unverified certificate means you may not be connected with the "
+"host you tried to connect to.\n"
+"\n"
 " Do you wish to override the security check and continue?"
 msgstr ""
 "계속 진행하시겠습니까?\n"
@@ -122,12 +130,12 @@ msgstr ""
 " 연결하려고 했던 호스트에 연결되지 않을 수도 있습니다.\n"
 " 보안 검사를 무시하고 계속 진행하시겠습니까?"
 
-#: lib/contents/ui/ErrorHandler.qml:79
+#: lib/contents/ui/ErrorHandler.qml:81
 #, kde-format
 msgid "Yes"
 msgstr "예"
 
-#: lib/contents/ui/ErrorHandler.qml:88
+#: lib/contents/ui/ErrorHandler.qml:90
 #, kde-format
 msgid "No"
 msgstr "아니요"
@@ -403,7 +411,7 @@ msgid "Paste"
 msgstr "붙여넣기"
 
 #: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:345
-#: src/contents/ui/mobile.qml:297
+#: src/contents/ui/mobile.qml:296
 #, kde-format
 msgid "Share page"
 msgstr "공유 페이지"
@@ -483,12 +491,12 @@ msgstr "전체 화면"
 msgid "Hide developer tools"
 msgstr "개발자 도구 숨기기"
 
-#: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:393
+#: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:392
 #, kde-format
 msgid "Show developer tools"
 msgstr "개발자 도구 표시"
 
-#: src/contents/ui/desktop/desktop.qml:329 src/contents/ui/mobile.qml:293
+#: src/contents/ui/desktop/desktop.qml:329 src/contents/ui/mobile.qml:292
 #, kde-format
 msgid "Find in page"
 msgstr "페이지에서 찾기"
@@ -617,57 +625,57 @@ msgstr "Angelfish 웹 브라우저"
 msgid "Tabs"
 msgstr "탭"
 
-#: src/contents/ui/mobile.qml:308
+#: src/contents/ui/mobile.qml:307
 #, kde-format
 msgid "Add to homescreen"
 msgstr "홈 화면에 추가"
 
-#: src/contents/ui/mobile.qml:318
+#: src/contents/ui/mobile.qml:317
 #, kde-format
 msgid "Open in app"
 msgstr "앱에서 열기"
 
-#: src/contents/ui/mobile.qml:326
+#: src/contents/ui/mobile.qml:325
 #, kde-format
 msgid "Go previous"
 msgstr "뒤로 이동"
 
-#: src/contents/ui/mobile.qml:334 src/settings/SettingsNavigationBarPage.qml:59
+#: src/contents/ui/mobile.qml:333 src/settings/SettingsNavigationBarPage.qml:59
 #, kde-format
 msgid "Go forward"
 msgstr "앞으로 이동"
 
-#: src/contents/ui/mobile.qml:341
+#: src/contents/ui/mobile.qml:340
 #, kde-format
 msgid "Stop loading"
 msgstr "불러오기 멈추기"
 
-#: src/contents/ui/mobile.qml:341
+#: src/contents/ui/mobile.qml:340
 #, kde-format
 msgid "Refresh"
 msgstr "새로 고침"
 
-#: src/contents/ui/mobile.qml:351
+#: src/contents/ui/mobile.qml:350
 #, kde-format
 msgid "Bookmarked"
 msgstr "책갈피에 추가됨"
 
-#: src/contents/ui/mobile.qml:351
+#: src/contents/ui/mobile.qml:350
 #, kde-format
 msgid "Bookmark"
 msgstr "책갈피"
 
-#: src/contents/ui/mobile.qml:367
+#: src/contents/ui/mobile.qml:366
 #, kde-format
 msgid "Show desktop site"
 msgstr "데스크톱 사이트 표시"
 
-#: src/contents/ui/mobile.qml:376
+#: src/contents/ui/mobile.qml:375
 #, kde-format
 msgid "Reader Mode"
 msgstr "읽기 모드"
 
-#: src/contents/ui/mobile.qml:384
+#: src/contents/ui/mobile.qml:383
 #, kde-format
 msgid "Hide navigation bar"
 msgstr "탐색 표시줄 숨기기"
