@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-10-20 00:39+0000\n"
-"PO-Revision-Date: 2024-07-12 04:46+0200\n"
+"PO-Revision-Date: 2024-10-20 07:26+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -106,14 +106,7 @@ msgid "Retry"
 msgstr "თავიდან ცდა"
 
 #: lib/contents/ui/ErrorHandler.qml:74
-#, fuzzy, kde-format
-#| msgid ""
-#| "Do you wish to continue?\n"
-#| "\n"
-#| " If you wish so, you may continue with an unverified certificate.\n"
-#| " Accepting an unverified certificate means\n"
-#| " you may not be connected with the host you tried to connect to.\n"
-#| " Do you wish to override the security check and continue?"
+#, kde-format
 msgid ""
 "Do you wish to continue?\n"
 "\n"
@@ -129,6 +122,7 @@ msgstr ""
 " ამ სერტიფიკატის მიღება ნიშნავს, რომ\n"
 " თქვენ შეიძლება სინამდვილეში არ იყოთ იმ ჰოსტთან მიერთებული, რომელზეც "
 "აპირებდით.\n"
+"\n"
 " გნებავთ, გადაფაროთ ეს უსაფრთხოების შემოწმენა და გააგრძელოთ?"
 
 #: lib/contents/ui/ErrorHandler.qml:81
