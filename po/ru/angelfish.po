@@ -1,15 +1,15 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-angelfish package.
 #
 # Alexander Potashev <aspotashev@gmail.com>, 2019.
 # Alexander Yavorsky <kekcuha@gmail.com>, 2020.
-# Olesya Gerasimenko <translation-team@basealt.ru>, 2022, 2023.
+# SPDX-FileCopyrightText: 2022, 2023, 2024 Olesya Gerasimenko <translation-team@basealt.ru>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-10-20 00:39+0000\n"
-"PO-Revision-Date: 2023-04-24 12:47+0300\n"
+"PO-Revision-Date: 2024-10-28 10:34+0300\n"
 "Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
 "Language-Team: Basealt Translation Team\n"
 "Language: ru\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -109,13 +109,6 @@ msgstr "Повторить"
 
 #: lib/contents/ui/ErrorHandler.qml:74
 #, fuzzy, kde-format
-#| msgid ""
-#| "Do you wish to continue?\n"
-#| "\n"
-#| " If you wish so, you may continue with an unverified certificate.\n"
-#| " Accepting an unverified certificate means\n"
-#| " you may not be connected with the host you tried to connect to.\n"
-#| " Do you wish to override the security check and continue?"
 msgid ""
 "Do you wish to continue?\n"
 "\n"
@@ -685,7 +678,7 @@ msgstr "Скрыть панель навигации"
 #: src/contents/ui/Navigation.qml:410
 #, kde-format
 msgid "Done"
-msgstr ""
+msgstr "Готово"
 
 #: src/contents/ui/NewTabQuestion.qml:11
 #, kde-format
@@ -775,8 +768,7 @@ msgid "Adblock settings"
 msgstr "Параметры блокировки рекламы"
 
 #: src/settings/SettingsAdblock.qml:23
-#, fuzzy, kde-format
-#| msgid "add Filterlist"
+#, kde-format
 msgctxt "@action:intoolbar"
 msgid "Add Filterlist"
 msgstr "Добавить список фильтров"
@@ -798,8 +790,7 @@ msgid "Remove this filter list"
 msgstr "Удалить этот список фильтров"
 
 #: src/settings/SettingsAdblock.qml:112
-#, fuzzy, kde-format
-#| msgid "add Filterlist"
+#, kde-format
 msgid "Add Filterlist"
 msgstr "Добавить список фильтров"
 
@@ -903,15 +894,7 @@ msgid "Navigation bar"
 msgstr "Панель навигации"
 
 #: src/settings/SettingsNavigationBarPage.qml:26
-#, fuzzy, kde-format
-#| msgid ""
-#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-#| "hidden only in portrait orientation of the browser and are always shown "
-#| "if  the browser is wider than its height.\n"
-#| "\n"
-#| " Note that if you disable the menu buttons, you will be able to access "
-#| "the menus either by swiping from the left or right side or to a side "
-#| "along the bottom of the window."
+#, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
@@ -973,7 +956,7 @@ msgstr "Удалить приложение"
 #, kde-format
 msgctxt "placeholder message"
 msgid "No Web Apps installed"
-msgstr ""
+msgstr "Установленные веб-приложения отсутствуют"
 
 #~ msgid "Show navigation bar"
 #~ msgstr "Показать панель навигации"
