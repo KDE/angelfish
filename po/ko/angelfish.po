@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-10-20 00:39+0000\n"
-"PO-Revision-Date: 2024-08-19 21:40+0200\n"
+"PO-Revision-Date: 2024-11-29 00:59+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -106,14 +106,7 @@ msgid "Retry"
 msgstr "다시 시도"
 
 #: lib/contents/ui/ErrorHandler.qml:74
-#, fuzzy, kde-format
-#| msgid ""
-#| "Do you wish to continue?\n"
-#| "\n"
-#| " If you wish so, you may continue with an unverified certificate.\n"
-#| " Accepting an unverified certificate means\n"
-#| " you may not be connected with the host you tried to connect to.\n"
-#| " Do you wish to override the security check and continue?"
+#, kde-format
 msgid ""
 "Do you wish to continue?\n"
 "\n"
@@ -128,6 +121,8 @@ msgstr ""
 " 계속 진행하면 검증되지 않은 인증서를 사용합니다.\n"
 " 검증되지 않은 인증서를 사용한다면\n"
 " 연결하려고 했던 호스트에 연결되지 않을 수도 있습니다.\n"
+"\n"
+"\n"
 " 보안 검사를 무시하고 계속 진행하시겠습니까?"
 
 #: lib/contents/ui/ErrorHandler.qml:81
