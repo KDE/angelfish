@@ -26,6 +26,7 @@
   <name xml:lang="pa">ਐਂਜਲਫਿਸ਼</name>
   <name xml:lang="pl">Angelfish</name>
   <name xml:lang="ru">Angelfish</name>
+  <name xml:lang="sa">एन्जिल्फिश</name>
   <name xml:lang="sl">Angelfish</name>
   <name xml:lang="sv">Angelfish</name>
   <name xml:lang="tr">Melekbalığı</name>
@@ -65,6 +66,7 @@
   <summary xml:lang="pt">Navegador Web para dispositivos móveis</summary>
   <summary xml:lang="pt-BR">Navegador Web para dispositivos móveis</summary>
   <summary xml:lang="ru">Веб-браузер для мобильных устройств</summary>
+  <summary xml:lang="sa">चलयन्त्राणां कृते जालपुटम्</summary>
   <summary xml:lang="sk">Webový prehliadač pre mobilné zariadenia</summary>
   <summary xml:lang="sl">Spletni brskalnik za mobilne naprave</summary>
   <summary xml:lang="sv">Webbläsare för mobila apparater</summary>
@@ -113,6 +115,7 @@
     <p xml:lang="pt">O Angelfish é um navegador Web móvel moderno</p>
     <p xml:lang="pt-BR">O Angelfish é um navegador Web móvel modem</p>
     <p xml:lang="ru">Angelfish — это современный веб-браузер для мобильных устройств</p>
+    <p xml:lang="sa">एन्जेल्फिश आधुनिकः चलजालपुटः अस्ति</p>
     <p xml:lang="sk">Angelfish je moderný mobilný webový prehliadač</p>
     <p xml:lang="sl">Angelfish je sodobni mobilni spletni brskalnik</p>
     <p xml:lang="sv">Angelfish är en modern mobilwebbläsare</p>
@@ -154,6 +157,7 @@
     <p xml:lang="pt">Suporta as funcionalidades típicas de navegação, como</p>
     <p xml:lang="pt-BR">Tem suporte a funcionalidades típicas de navegação, como</p>
     <p xml:lang="ru">Он поддерживает типичные функции веб-браузеров, такие как</p>
+    <p xml:lang="sa">एतत् विशिष्टानि ब्राउजर्-विशेषतानि समर्थयति, यथा...</p>
     <p xml:lang="sk">Podporuje typické funkcie prehliadača, ako napr.</p>
     <p xml:lang="sl">Podpira tipične možnosti brskalnikov, kot so</p>
     <p xml:lang="sv">Den stöder typiska webbläsarfunktioner, såsom</p>
@@ -196,6 +200,7 @@
       <li xml:lang="pt">favoritos</li>
       <li xml:lang="pt-BR">favoritos</li>
       <li xml:lang="ru">закладки</li>
+      <li xml:lang="sa">पुस्तकचिह्नानि</li>
       <li xml:lang="sk">zalozky</li>
       <li xml:lang="sl">zaznamki</li>
       <li xml:lang="sv">bokmärken</li>
@@ -237,6 +242,7 @@
       <li xml:lang="pt">histórico</li>
       <li xml:lang="pt-BR">histórico</li>
       <li xml:lang="ru">журнал</li>
+      <li xml:lang="sa">इतिहास</li>
       <li xml:lang="sk">História</li>
       <li xml:lang="sl">zgodovino brskanja</li>
       <li xml:lang="sv">historik</li>
@@ -278,6 +284,7 @@
       <li xml:lang="pt">páginas</li>
       <li xml:lang="pt-BR">abas</li>
       <li xml:lang="ru">вкладки</li>
+      <li xml:lang="sa">ट्याब्स्</li>
       <li xml:lang="sk">karty</li>
       <li xml:lang="sl">zavihke</li>
       <li xml:lang="sv">flikar</li>
@@ -323,6 +330,7 @@
       <caption xml:lang="pt">Página Web</caption>
       <caption xml:lang="pt-BR">Site</caption>
       <caption xml:lang="ru">Домашняя страница</caption>
+      <caption xml:lang="sa">मुखपृष्ठ</caption>
       <caption xml:lang="sk">Domovská stránka</caption>
       <caption xml:lang="sl">Domača stran</caption>
       <caption xml:lang="sv">Hemsida</caption>
@@ -367,6 +375,7 @@
       <caption xml:lang="pt">Acções do Menu</caption>
       <caption xml:lang="pt-BR">Menu de ações</caption>
       <caption xml:lang="ru">Действия меню</caption>
+      <caption xml:lang="sa">मेनू क्रियाः</caption>
       <caption xml:lang="sk">Akcie ponuky</caption>
       <caption xml:lang="sl">Dejavnosti menija</caption>
       <caption xml:lang="sv">Menyalternativ</caption>
@@ -408,6 +417,7 @@
       <caption xml:lang="pt">Vista de Páginas</caption>
       <caption xml:lang="pt-BR">Visualização das abas</caption>
       <caption xml:lang="ru">Вкладки</caption>
+      <caption xml:lang="sa">ट्याब्स् दृश्यम्</caption>
       <caption xml:lang="sk">Zobrazenie kariet</caption>
       <caption xml:lang="sl">Pogled zavihkov</caption>
       <caption xml:lang="sv">Flikvy</caption>
@@ -449,6 +459,7 @@
       <caption xml:lang="pt">Interface de Utilizador</caption>
       <caption xml:lang="pt-BR">Desktop User Interface</caption>
       <caption xml:lang="ru">Графический интерфейс пользователя для ПК</caption>
+      <caption xml:lang="sa">डेस्कटॉप उपयोक्तृ-अन्तरफलकम्</caption>
       <caption xml:lang="sk">Desktopové používateľské rozhranie</caption>
       <caption xml:lang="sl">Uporabniški vmesnik namizja</caption>
       <caption xml:lang="sv">Användargränssnitt för skrivbord</caption>
