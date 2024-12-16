@@ -1,110 +1,107 @@
-# Sanskrit translations for angelfish package.
+# Hindi translations for angelfish package.
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the angelfish package.
 # Kali <EMAIL@ADDRESS>, 2024.
 #
-# SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-10-20 00:39+0000\n"
-"PO-Revision-Date: 2024-12-14 01:48+0530\n"
-"Last-Translator: kali <skkalwar999@gmail.com>\n"
-"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
-"Language: sa\n"
+"PO-Revision-Date: 2024-12-15 17:36+0530\n"
+"Last-Translator: Kali <EMAIL@ADDRESS>\n"
+"Language-Team: Hindi <fedora-trans-hi@redhat.com>\n"
+"Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n>2);\n"
-"X-Generator: Lokalize 24.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "भवतः नामानि"
+msgstr "तुम्हारे नाम"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
+msgstr "आपके ईमेल"
 
 #: angelfish-webapp/main.cpp:71
 #, kde-format
 msgid "desktop file to open"
-msgstr "डेस्कटॉप् सञ्चिकां उद्घाटयितुं"
+msgstr "डेस्कटॉप फ़ाइल खोलने के लिए"
 
 #: angelfish-webapp/main.cpp:98
 #, kde-format
 msgid "Angelfish Web App runtime"
-msgstr "Angelfish Web App रनटाइम"
+msgstr "एंजेलफ़िश वेब ऐप रनटाइम"
 
 #: angelfish-webapp/main.cpp:100
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
-msgstr "प्रतिलिपि अधिकार 2020 Angelfish विकासकाः"
+msgstr "कॉपीराइट 2020 एंजेलफिश डेवलपर्स"
 
 #: angelfish-webapp/main.cpp:102
 #, kde-format
 msgid "Marco Martin"
-msgstr "मार्को मार्टिन्"
+msgstr "मार्को मार्टिन"
 
 #: lib/angelfishwebprofile.cpp:63
 #, kde-format
 msgid "Download finished"
-msgstr "डाउनलोड् समाप्तम्"
+msgstr "डाउनलोड समाप्त"
 
 #: lib/angelfishwebprofile.cpp:67
 #, kde-format
 msgid "Download failed"
-msgstr "डाउनलोड् विफलम्"
+msgstr "डाउनलोड विफल"
 
 #: lib/angelfishwebprofile.cpp:88 src/contents/ui/NewTabQuestion.qml:19
 #, kde-format
 msgid "Open"
-msgstr "उद्घाटित"
+msgstr "खुला"
 
 #: lib/contents/ui/AuthSheet.qml:17
 #, kde-format
 msgid "Authentication required"
-msgstr "प्रमाणीकरणं आवश्यकम्"
+msgstr "प्रमाणित करना"
 
 #: lib/contents/ui/AuthSheet.qml:30
 #, kde-format
 msgid "Username"
-msgstr "उपयोक्तृनाम"
+msgstr "उपयोगकर्ता नाम"
 
 #: lib/contents/ui/AuthSheet.qml:37
 #, kde-format
 msgid "Password"
-msgstr "समाभाष्"
+msgstr "पासवर्ड"
 
 #: lib/contents/ui/DownloadQuestion.qml:15
 #, kde-format
 msgid "Do you want to download this file?"
-msgstr "किं भवान् एतां सञ्चिकां डाउनलोड् कर्तुम् इच्छति ?"
+msgstr "क्या आप यह फ़ाइल डाउनलोड करना चाहते हैं?"
 
 #: lib/contents/ui/DownloadQuestion.qml:23
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
 #, kde-format
 msgid "Download"
-msgstr "अवाहरन"
+msgstr "डाउनलोड करना"
 
 #: lib/contents/ui/DownloadQuestion.qml:31 lib/contents/ui/PrintPreview.qml:163
 #: src/contents/ui/Downloads.qml:92
 #, kde-format
 msgid "Cancel"
-msgstr "निरसयतु"
+msgstr "रद्द करना"
 
 #: lib/contents/ui/ErrorHandler.qml:47
 #, kde-format
 msgid "Error loading the page"
-msgstr "पृष्ठं लोड् करणं त्रुटिः"
+msgstr "पेज लोड करने में त्रुटि"
 
 #: lib/contents/ui/ErrorHandler.qml:58
 #, kde-format
 msgid "Retry"
-msgstr "पुनः प्रयासं कुर्वन्तु"
+msgstr "पुन: प्रयास करें"
 
 #: lib/contents/ui/ErrorHandler.qml:74
 #, kde-format
@@ -117,151 +114,153 @@ msgid ""
 "\n"
 " Do you wish to override the security check and continue?"
 msgstr ""
-"किं भवन्तः अग्रे गन्तुं इच्छन्ति ?\n"
+"क्या आप जारी रखना चाहते हैं?\n"
 "\n"
-" यदि भवान् इच्छति तर्हि असत्यापितप्रमाणपत्रेण सह अग्रे गन्तुं शक्नोति।\n"
-" असत्यापितं प्रमाणपत्रं स्वीकृत्य भवता सम्बद्धं कर्तुं प्रयतितेन होस्ट् इत्यनेन सह भवान् सम्बद्धः न "
-"भवितुम् अर्हति इति अर्थः ।\n"
+"अगर आप चाहें तो आप असत्यापित प्रमाणपत्र के साथ जारी रख सकते हैं।\n"
+"असत्यापित प्रमाणपत्र स्वीकार करने का मतलब है कि आप उस होस्ट से कनेक्ट नहीं हो सकते जिससे "
+"आपने कनेक्ट करने का प्रयास किया था।\n"
 "\n"
-" किं भवान् सुरक्षापरीक्षां अतिक्रम्य निरन्तरं कर्तुम् इच्छति?"
+"क्या आप सुरक्षा जांच को ओवरराइड करके जारी रखना चाहते हैं?"
 
 #: lib/contents/ui/ErrorHandler.qml:81
 #, kde-format
 msgid "Yes"
-msgstr "आम्‌"
+msgstr "हाँ"
 
 #: lib/contents/ui/ErrorHandler.qml:90
 #, kde-format
 msgid "No"
-msgstr "नहि"
+msgstr "नहीं"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
 msgid "This page says"
-msgstr "अस्मिन् पृष्ठे उक्तम् अस्ति"
+msgstr "यह पृष्ठ कहता है"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:64
 #, kde-format
 msgid ""
 "The website asks for confirmation that you want to leave. Unsaved "
 "information might not be saved."
-msgstr "जालपुटे भवान् गन्तुम् इच्छति इति पुष्टिं याचते। असरक्षितसूचना न रक्षिता भवेत्।"
+msgstr ""
+"वेबसाइट आपसे पुष्टि मांगती है कि आप जाना चाहते हैं। हो सकता है कि सहेजी न गई जानकारी "
+"सहेजी न जाए।"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:79
 #, kde-format
 msgid "Leave page"
-msgstr "पृष्ठं त्यजतु"
+msgstr "पेज छोड़ें"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:87
 #, kde-format
 msgid "Submit"
-msgstr "उपस्थापयतु"
+msgstr "जमा करना"
 
 #: lib/contents/ui/PermissionQuestion.qml:19
 #, kde-format
 msgid "Do you want to allow the website to access the geo location?"
-msgstr "किं भवान् जालस्थलं भूस्थानं प्राप्तुं अनुमतिं दातुम् इच्छति?"
+msgstr "क्या आप वेबसाइट को भौगोलिक स्थान तक पहुंच की अनुमति देना चाहते हैं?"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format
 msgid "Do you want to allow the website to access the microphone?"
-msgstr "किं भवन्तः जालपुटे माइक्रोफोनं प्राप्तुं अनुमतिं दातुम् इच्छन्ति?"
+msgstr "क्या आप वेबसाइट को माइक्रोफ़ोन तक पहुंच की अनुमति देना चाहते हैं?"
 
 #: lib/contents/ui/PermissionQuestion.qml:25
 #, kde-format
 msgid "Do you want to allow the website to access the camera?"
-msgstr "किं भवन्तः जालपुटं कॅमेरा-प्रवेशं कर्तुम् इच्छन्ति ?"
+msgstr "क्या आप वेबसाइट को कैमरे तक पहुंच की अनुमति देना चाहते हैं?"
 
 #: lib/contents/ui/PermissionQuestion.qml:28
 #, kde-format
 msgid ""
 "Do you want to allow the website to access the camera and the microphone?"
-msgstr "किं भवन्तः जालपुटे कॅमेरा-माइक्रोफोन-प्रवेशं कर्तुम् इच्छन्ति?"
+msgstr "क्या आप वेबसाइट को कैमरा और माइक्रोफ़ोन तक पहुंच की अनुमति देना चाहते हैं?"
 
 #: lib/contents/ui/PermissionQuestion.qml:31
 #, kde-format
 msgid "Do you want to allow the website to share your screen?"
-msgstr "किं भवन्तः जालपुटे भवतः पटलं साझां कर्तुं अनुमतिं दातुम् इच्छन्ति?"
+msgstr "क्या आप वेबसाइट को अपनी स्क्रीन साझा करने की अनुमति देना चाहते हैं?"
 
 #: lib/contents/ui/PermissionQuestion.qml:34
 #, kde-format
 msgid "Do you want to allow the website to share the sound output?"
-msgstr "किं भवान् जालपुटे ध्वनिनिर्गमं साझां कर्तुं अनुमतिं दातुम् इच्छति?"
+msgstr "क्या आप वेबसाइट को ध्वनि आउटपुट साझा करने की अनुमति देना चाहते हैं?"
 
 #: lib/contents/ui/PermissionQuestion.qml:37
 #, kde-format
 msgid "Do you want to allow the website to send you notifications?"
-msgstr "किं भवन्तः जालपुटं भवन्तं सूचनां प्रेषयितुं अनुमतिं दातुम् इच्छन्ति?"
+msgstr "क्या आप वेबसाइट को सूचनाएं भेजने की अनुमति देना चाहते हैं?"
 
 #: lib/contents/ui/PermissionQuestion.qml:46
 #, kde-format
 msgid "Accept"
-msgstr "स्वीकरोतु"
+msgstr "स्वीकार करना"
 
 #: lib/contents/ui/PermissionQuestion.qml:56
 #, kde-format
 msgid "Decline"
-msgstr "अस्वीकरोतु"
+msgstr "गिरावट"
 
 #: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:296
 #, kde-format
 msgid "Print"
-msgstr "मुद्रण"
+msgstr "छाप"
 
 #: lib/contents/ui/PrintPreview.qml:64
 #, kde-format
 msgid "Destination"
-msgstr "गन्तव्य"
+msgstr "गंतव्य"
 
 #: lib/contents/ui/PrintPreview.qml:68
 #, kde-format
 msgid "Save to PDF"
-msgstr "PDF मध्ये रक्षन्तु"
+msgstr "पीडीएफ में सहेजें"
 
 #: lib/contents/ui/PrintPreview.qml:74
 #, kde-format
 msgid "Orientation"
-msgstr "आभिमुख्य"
+msgstr "अभिविन्यास"
 
 #: lib/contents/ui/PrintPreview.qml:99
 #, kde-format
 msgid "Paper size"
-msgstr "कागदस्य आकारः"
+msgstr "पेपर का आकार"
 
 #: lib/contents/ui/PrintPreview.qml:145
 #, kde-format
 msgid "Options"
-msgstr "विकल्पाः"
+msgstr "विकल्प"
 
 #: lib/contents/ui/PrintPreview.qml:149
 #, kde-format
 msgid "Print backgrounds"
-msgstr "पृष्ठभूमिं मुद्रयन्तु"
+msgstr "पृष्ठभूमि प्रिंट करें"
 
 #: lib/contents/ui/PrintPreview.qml:168
 #, kde-format
 msgid "Save"
-msgstr "रक्ष्"
+msgstr "बचाना"
 
 #: lib/contents/ui/WebView.qml:243
 #, kde-format
 msgid "Website was opened in a new tab"
-msgstr "नूतने ट्याब् मध्ये वेबसाइट् उद्घाटिता आसीत्"
+msgstr "वेबसाइट एक नए टैब में खोली गई"
 
 #: lib/contents/ui/WebView.qml:261
 #, kde-format
 msgid "Entered Full Screen Mode"
-msgstr "Full Screen Mode इत्यत्र प्रविष्टवान्"
+msgstr "पूर्ण स्क्रीन मोड में प्रवेश किया"
 
 #: lib/contents/ui/WebView.qml:262
 #, kde-format
 msgid "Exit Full Screen (Esc)"
-msgstr "पूर्णपर्दे (Esc) निर्गच्छन्तु ."
+msgstr "पूर्ण स्क्रीन से बाहर निकलें (Esc)"
 
 #: lib/contents/ui/WebView.qml:395
 #, kde-format
 msgid "Play"
-msgstr "क्रीडतु"
+msgstr "खेल"
 
 #: lib/contents/ui/WebView.qml:396 src/contents/ui/Downloads.qml:105
 #, kde-format
@@ -276,117 +275,117 @@ msgstr "अप्रसन्नता"
 #: lib/contents/ui/WebView.qml:404
 #, kde-format
 msgid "Mute"
-msgstr "मूक"
+msgstr "आवाज़ बंद करना"
 
 #: lib/contents/ui/WebView.qml:414
 #, kde-format
 msgid "Speed"
-msgstr "गति"
+msgstr "रफ़्तार"
 
 #: lib/contents/ui/WebView.qml:437
 #, kde-format
 msgid "Loop"
-msgstr "परिक्रम"
+msgstr "कुंडली"
 
 #: lib/contents/ui/WebView.qml:444
 #, kde-format
 msgid "Exit fullscreen"
-msgstr "पूर्णपर्दे निर्गच्छन्तु"
+msgstr "पूर्णस्क्रीन से बाहर निकलें"
 
 #: lib/contents/ui/WebView.qml:444
 #, kde-format
 msgid "Fullscreen"
-msgstr "पूर्णपर्दे"
+msgstr "पूर्ण स्क्रीन"
 
 #: lib/contents/ui/WebView.qml:457
 #, kde-format
 msgid "Hide controls"
-msgstr "नियन्त्रणानि गोपयन्तु"
+msgstr "नियंत्रण छिपाएँ"
 
 #: lib/contents/ui/WebView.qml:458
 #, kde-format
 msgid "Show controls"
-msgstr "नियन्त्रणानि दर्शयतु"
+msgstr "नियंत्रण दिखाएं"
 
 #: lib/contents/ui/WebView.qml:466
 #, kde-format
 msgid "Open video"
-msgstr "विडियो उद्घाटयतु"
+msgstr "खुला वीडियो"
 
 #: lib/contents/ui/WebView.qml:466
 #, kde-format
 msgid "Open audio"
-msgstr "श्रव्यं उद्घाटयन्तु"
+msgstr "ऑडियो खोलें"
 
 #: lib/contents/ui/WebView.qml:467
 #, kde-format
 msgid "Open video in new Tab"
-msgstr "नूतने ट्याब् मध्ये विडियो उद्घाटयन्तु"
+msgstr "वीडियो को नए टैब में खोलें"
 
 #: lib/contents/ui/WebView.qml:467
 #, kde-format
 msgid "Open audio in new Tab"
-msgstr "new Tab मध्ये audio उद्घाटयन्तु"
+msgstr "ऑडियो को नए टैब में खोलें"
 
 #: lib/contents/ui/WebView.qml:479
 #, kde-format
 msgid "Save video"
-msgstr "विडियो रक्षतु"
+msgstr "वीडियो सहेजें"
 
 #: lib/contents/ui/WebView.qml:485
 #, kde-format
 msgid "Copy video Link"
-msgstr "प्रतिलिपि विडियो लिङ्क"
+msgstr "वीडियो लिंक कॉपी करें"
 
 #: lib/contents/ui/WebView.qml:491
 #, kde-format
 msgid "Open image"
-msgstr "चित्रं उद्घाटयन्तु"
+msgstr "छवि खोलें"
 
 #: lib/contents/ui/WebView.qml:491
 #, kde-format
 msgid "Open image in new Tab"
-msgstr "नूतने Tab मध्ये चित्रं उद्घाटयन्तु"
+msgstr "छवि को नए टैब में खोलें"
 
 #: lib/contents/ui/WebView.qml:503
 #, kde-format
 msgid "Save image"
-msgstr "चित्रं रक्षतु"
+msgstr "चित्र को सेव करें"
 
 #: lib/contents/ui/WebView.qml:509
 #, kde-format
 msgid "Copy image"
-msgstr "प्रतिबिम्बं प्रतिलिपितु"
+msgstr "नकल छवि"
 
 #: lib/contents/ui/WebView.qml:515
 #, kde-format
 msgid "Copy image link"
-msgstr "प्रतिबिम्बलिङ्कं प्रतिलिखयतु"
+msgstr "छवि लिंक कॉपी करें"
 
 #: lib/contents/ui/WebView.qml:521
 #, kde-format
 msgid "Open link"
-msgstr "लिङ्कं उद्घाटयन्तु"
+msgstr "खुला लिंक"
 
 #: lib/contents/ui/WebView.qml:521
 #, kde-format
 msgid "Open link in new Tab"
-msgstr "new Tab इत्यत्र लिङ्कं उद्घाटयन्तु"
+msgstr "नए टैब में लिंक खोलें"
 
 #: lib/contents/ui/WebView.qml:533
 #, kde-format
 msgid "Bookmark link"
-msgstr "बुकमार्क लिङ्क्"
+msgstr "बुकमार्क लिंक"
 
 #: lib/contents/ui/WebView.qml:545
 #, kde-format
 msgid "Save link"
-msgstr "लिङ्कं रक्षतु"
+msgstr "लिंक सुरक्षित करें"
 
 #: lib/contents/ui/WebView.qml:551
 #, kde-format
 msgid "Copy link"
-msgstr "प्रतिलिङ्कं लिङ्कं कुर्वन्तु"
+msgstr "लिंक की प्रतिलिपि करें"
 
 #: lib/contents/ui/WebView.qml:558
 #, kde-format
@@ -396,67 +395,67 @@ msgstr "प्रतिलिपि"
 #: lib/contents/ui/WebView.qml:564
 #, kde-format
 msgid "Cut"
-msgstr "छिन्न"
+msgstr "काटना"
 
 #: lib/contents/ui/WebView.qml:570
 #, kde-format
 msgid "Paste"
-msgstr "चिनोतु"
+msgstr "पेस्ट करें"
 
 #: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:345
 #: src/contents/ui/mobile.qml:296
 #, kde-format
 msgid "Share page"
-msgstr "पेज शेयर करें"
+msgstr "पेज साझा करें"
 
 #: lib/contents/ui/WebView.qml:603
 #, kde-format
 msgid "View page source"
-msgstr "पृष्ठस्य स्रोतः पश्यन्तु"
+msgstr "पृष्ठ का स्त्रोत देखें"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
 #, kde-format
 msgid ""
 "The ad blocker is missing its filter lists, do you want to download them now?"
 msgstr ""
-"विज्ञापन-अवरोधकः स्वस्य फ़िल्टर-सूचिकाः गम्यते, किं भवान् तान् इदानीं डाउनलोड् कर्तुम् इच्छति?"
+"विज्ञापन अवरोधक की फ़िल्टर सूचियाँ गायब हैं, क्या आप उन्हें अभी डाउनलोड करना चाहते हैं?"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:35
 #, kde-format
 msgid "Downloading..."
-msgstr "डाउनलोड् करणं..."
+msgstr "डाउनलोड हो रहा है..."
 
 #: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:274
 #: src/contents/ui/mobile.qml:81
 #, kde-format
 msgid "Bookmarks"
-msgstr "बुकमार्क्स"
+msgstr "बुकमार्क"
 
 #: src/contents/ui/desktop/BookmarksPage.qml:30
 #, kde-format
 msgid "Search bookmarks…"
-msgstr "पुस्तकचिह्नानि अन्वेष्टुम्…"
+msgstr "बुकमार्क खोजें…"
 
 #: src/contents/ui/desktop/BookmarksPage.qml:77
 #, kde-format
 msgid "No bookmarks yet"
-msgstr "अद्यापि पुस्तकचिह्नानि नास्ति"
+msgstr "अभी तक कोई बुकमार्क नहीं"
 
 #: src/contents/ui/desktop/desktop.qml:125
 #, kde-format
 msgid "Search or enter URL…"
-msgstr "URL अन्वेष्टुम् अथवा प्रविष्टं कुर्वन्तु…"
+msgstr "खोजें या URL दर्ज करें…"
 
 #: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:355
 #: src/contents/ui/Navigation.qml:437
 #, kde-format
 msgid "New Tab"
-msgstr "नवीन ट्याब्"
+msgstr "नया टैब"
 
 #: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/mobile.qml:73
 #, kde-format
 msgid "Leave private mode"
-msgstr "निजी मोडं त्यजन्तु"
+msgstr "निजी मोड छोड़ें"
 
 #: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/mobile.qml:73
 #, kde-format
@@ -473,119 +472,119 @@ msgstr "इतिहास"
 #: src/contents/ui/mobile.qml:93
 #, kde-format
 msgid "Downloads"
-msgstr "डाउनलोड्स्"
+msgstr "डाउनलोड"
 
 #: src/contents/ui/desktop/desktop.qml:302
 #, kde-format
 msgid "Full Screen"
-msgstr "पूर्णपर्दे"
+msgstr "पूर्ण स्क्रीन"
 
 #: src/contents/ui/desktop/desktop.qml:319
 #, kde-format
 msgid "Hide developer tools"
-msgstr "विकासकसाधनं गोपयन्तु"
+msgstr "डेवलपर टूल छिपाएँ"
 
 #: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:392
 #, kde-format
 msgid "Show developer tools"
-msgstr "विकासकसाधनं दर्शयतु"
+msgstr "डेवलपर टूल दिखाएं"
 
 #: src/contents/ui/desktop/desktop.qml:329 src/contents/ui/mobile.qml:292
 #, kde-format
 msgid "Find in page"
-msgstr "पृष्ठे अन्वेष्टुम्"
+msgstr "पेज में खोजें"
 
 #: src/contents/ui/desktop/desktop.qml:338
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
-msgstr "पाठकविधिः"
+msgstr "रीडर मोड"
 
 #: src/contents/ui/desktop/desktop.qml:355
 #, kde-format
 msgid "Add to application launcher"
-msgstr "अनुप्रयोगप्रक्षेपकं योजयन्तु"
+msgstr "एप्लिकेशन लॉन्चर में जोड़ें"
 
 #: src/contents/ui/desktop/desktop.qml:374 src/contents/ui/mobile.qml:101
 #, kde-format
 msgid "Settings"
-msgstr "सेटिंग्स्"
+msgstr "सेटिंग्स"
 
 #: src/contents/ui/desktop/HistoryPage.qml:30
 #, kde-format
 msgid "Search history…"
-msgstr "अन्वेषण इतिहास…"
+msgstr "खोज इतिहास…"
 
 #: src/contents/ui/desktop/HistoryPage.qml:46
 #, kde-format
 msgid "Clear all history"
-msgstr "सर्वं इतिहासं स्वच्छं कुर्वन्तु"
+msgstr "सारा इतिहास साफ़ करें"
 
 #: src/contents/ui/desktop/HistoryPage.qml:83
 #, kde-format
 msgid "Not history yet"
-msgstr "अद्यापि इतिहासः न"
+msgstr "अभी इतिहास नहीं"
 
 #: src/contents/ui/desktop/Tabs.qml:232 src/contents/ui/Tabs.qml:275
 #, kde-format
 msgid "Reader Mode: %1"
-msgstr "पाठकविधिः %1"
+msgstr "रीडर मोड: %1"
 
 #: src/contents/ui/desktop/Tabs.qml:261 src/contents/ui/Tabs.qml:306
 #, kde-format
 msgid "Close tab"
-msgstr "ट्याब् बन्दं कुर्वन्तु"
+msgstr "टैब बंद करें"
 
 #: src/contents/ui/desktop/Tabs.qml:291
 #, kde-format
 msgid "Open a new tab"
-msgstr "नूतनं ट्याब् उद्घाटयन्तु"
+msgstr "नया टैब खोलें"
 
 #: src/contents/ui/desktop/Tabs.qml:324
 #, kde-format
 msgid "List all tabs"
-msgstr "सर्वाणि ट्याब्स् सूचीबद्धं कुर्वन्तु"
+msgstr "सभी टैब सूचीबद्ध करें"
 
 #: src/contents/ui/desktop/Tabs.qml:364
 #, kde-format
 msgid "Reload Tab"
-msgstr "Reload Tab"
+msgstr "टैब पुनः लोड करें"
 
 #: src/contents/ui/desktop/Tabs.qml:372
 #, kde-format
 msgid "Duplicate Tab"
-msgstr "डुप्लिकेट ट्याब्"
+msgstr "डुप्लिकेट टैब"
 
 #: src/contents/ui/desktop/Tabs.qml:380
 #, kde-format
 msgid "Bookmark Tab"
-msgstr "बुकमार्क ट्याब्"
+msgstr "बुकमार्क टैब"
 
 #: src/contents/ui/desktop/Tabs.qml:396
 #, kde-format
 msgid "Close Tab"
-msgstr "ट्याब् बन्दं कुर्वन्तु"
+msgstr "टैब बंद करें"
 
 #: src/contents/ui/Downloads.qml:28
 #, kde-format
 msgid "No running downloads"
-msgstr "न चलन्तः डाउनलोड्"
+msgstr "कोई डाउनलोड चालू नहीं"
 
 #: src/contents/ui/Downloads.qml:77
 #, kde-format
 msgctxt "download state"
 msgid "Starting…"
-msgstr "आरभ्य…"
+msgstr "प्रारंभ…"
 
 #: src/contents/ui/Downloads.qml:79
 #, kde-format
 msgid "Completed"
-msgstr "सम्पन्न"
+msgstr "पुरा होना।"
 
 #: src/contents/ui/Downloads.qml:81
 #, kde-format
 msgid "Cancelled"
-msgstr "रद्दं कृतम्"
+msgstr "रद्द"
 
 #: src/contents/ui/Downloads.qml:83
 #, kde-format
@@ -597,62 +596,62 @@ msgstr "बाधित"
 #, kde-format
 msgctxt "download state"
 msgid "In progress"
-msgstr "प्रगतिशीलः अस्ति"
+msgstr "प्रगति पर है"
 
 #: src/contents/ui/Downloads.qml:117
 #, kde-format
 msgid "Continue"
-msgstr "अनुवर्तते"
+msgstr "जारी रखना"
 
 #: src/contents/ui/FindInPageBar.qml:45
 #, kde-format
 msgid "Search..."
-msgstr "अन्वेषण..."
+msgstr "खोज..."
 
 #: src/contents/ui/mobile.qml:20
 #, kde-format
 msgid "Angelfish Web Browser"
-msgstr "Angelfish जाल ब्राउज़र"
+msgstr "एंजलफिश वेब ब्राउज़र"
 
 #: src/contents/ui/mobile.qml:66
 #, kde-format
 msgid "Tabs"
-msgstr "टब्स्"
+msgstr "टैब"
 
 #: src/contents/ui/mobile.qml:307
 #, kde-format
 msgid "Add to homescreen"
-msgstr "होमस्क्रीन् मध्ये योजयन्तु"
+msgstr "होम स्क्रीन में शामिल करें"
 
 #: src/contents/ui/mobile.qml:317
 #, kde-format
 msgid "Open in app"
-msgstr "एप् मध्ये उद्घाटयन्तु"
+msgstr "ऐप में खोलें"
 
 #: src/contents/ui/mobile.qml:325
 #, kde-format
 msgid "Go previous"
-msgstr "पूर्वं गच्छतु"
+msgstr "पिछले पर जाएँ"
 
 #: src/contents/ui/mobile.qml:333 src/settings/SettingsNavigationBarPage.qml:59
 #, kde-format
 msgid "Go forward"
-msgstr "अग्रे गच्छतु"
+msgstr "आगे बढ़ो"
 
 #: src/contents/ui/mobile.qml:340
 #, kde-format
 msgid "Stop loading"
-msgstr "लोडिंग् त्यजतु"
+msgstr "लोड करना बंद करें"
 
 #: src/contents/ui/mobile.qml:340
 #, kde-format
 msgid "Refresh"
-msgstr "ताजगी"
+msgstr "ताज़ा करना"
 
 #: src/contents/ui/mobile.qml:350
 #, kde-format
 msgid "Bookmarked"
-msgstr "बुकमार्क कृतम्"
+msgstr "बुकमार्क"
 
 #: src/contents/ui/mobile.qml:350
 #, kde-format
@@ -662,22 +661,22 @@ msgstr "बुकमार्क"
 #: src/contents/ui/mobile.qml:366
 #, kde-format
 msgid "Show desktop site"
-msgstr "डेस्कटॉप साइट् दर्शयतु"
+msgstr "डेस्कटॉप साइट दिखाएं"
 
 #: src/contents/ui/mobile.qml:375
 #, kde-format
 msgid "Reader Mode"
-msgstr "पाठकविधिः"
+msgstr "रीडर मोड"
 
 #: src/contents/ui/mobile.qml:383
 #, kde-format
 msgid "Hide navigation bar"
-msgstr "नेविगेशन पट्टिकां गोपयन्तु"
+msgstr "नेविगेशन बार छुपाएं"
 
 #: src/contents/ui/Navigation.qml:410
 #, kde-format
 msgid "Done"
-msgstr "कृतम्‌"
+msgstr "हो गया"
 
 #: src/contents/ui/NewTabQuestion.qml:11
 #, kde-format
@@ -685,18 +684,18 @@ msgid ""
 "Site wants to open a new tab: \n"
 "%1"
 msgstr ""
-"साइट् नूतनं ट्याब् उद्घाटयितुम् इच्छति: \n"
+"साइट एक नया टैब खोलना चाहती है:\n"
 "%1"
 
 #: src/contents/ui/ShareSheet.qml:18
 #, kde-format
 msgid "Share page to"
-msgstr "पृष्ठं साझां कुर्वन्तु"
+msgstr "पेज को साझा करें"
 
 #: src/main.cpp:82
 #, kde-format
 msgid "URL to open"
-msgstr "URL उद्घाटयितुं"
+msgstr "खोलने के लिए यूआरएल"
 
 #: src/settings/AngelfishConfigurationView.qml:14
 #: src/settings/SettingsGeneral.qml:18
@@ -707,155 +706,153 @@ msgstr "सामान्य"
 #: src/settings/AngelfishConfigurationView.qml:20
 #, kde-format
 msgid "Ad Block"
-msgstr "विज्ञापन खण्ड"
+msgstr "विज्ञापन ब्लॉक"
 
 #: src/settings/AngelfishConfigurationView.qml:26
 #: src/settings/SettingsWebApps.qml:16
 #, kde-format
 msgid "Web Apps"
-msgstr "Web Apps"
+msgstr "वेब ऐप्स"
 
 #: src/settings/AngelfishConfigurationView.qml:32
 #: src/settings/SettingsSearchEnginePage.qml:17
 #: src/settings/SettingsSearchEnginePage.qml:112
 #, kde-format
 msgid "Search Engine"
-msgstr "अन्वेषणयन्त्रम्"
+msgstr "खोज इंजन"
 
 #: src/settings/AngelfishConfigurationView.qml:38
 #: src/settings/DesktopHomeSettingsPage.qml:15
 #, kde-format
 msgid "Toolbars"
-msgstr "साधनपट्टिकाः"
+msgstr "उपकरण पट्टियाँ"
 
 #: src/settings/DesktopHomeSettingsPage.qml:24
 #, kde-format
 msgid "Show home button:"
-msgstr "गृहस्य बटनं दर्शयतु:"
+msgstr "होम बटन दिखाएँ:"
 
 #: src/settings/DesktopHomeSettingsPage.qml:25
 #, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
-msgstr "toolbar मध्ये reload बटनस्य पार्श्वे home बटनं दर्शितं भविष्यति ।"
+msgstr "होम बटन टूलबार में रीलोड बटन के बगल में दिखाया जाएगा।"
 
 #: src/settings/DesktopHomeSettingsPage.qml:35
 #, kde-format
 msgid "Homepage:"
-msgstr "मुखपृष्ठम् : १."
+msgstr "मुखपृष्ठ:"
 
 #: src/settings/DesktopHomeSettingsPage.qml:58
 #, kde-format
 msgid "New tabs:"
-msgstr "नवीन ट्याब्स् : १."
+msgstr "नये टैब:"
 
 #: src/settings/DesktopHomeSettingsPage.qml:81
 #, kde-format
 msgid "Always show the tab bar"
-msgstr "सर्वदा ट्याब् बारं दर्शयन्तु"
+msgstr "टैब बार हमेशा दिखाएं"
 
 #: src/settings/DesktopHomeSettingsPage.qml:82
 #, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open"
-msgstr "केवलं एकः ट्याब् उद्घाटितः अस्ति चेदपि ट्याब् बारः प्रदर्शितः भविष्यति"
+msgstr "टैब बार तब भी प्रदर्शित किया जाएगा जब केवल एक टैब खुला होगा"
 
 #: src/settings/SettingsAdblock.qml:16
 #, kde-format
 msgid "Adblock settings"
-msgstr "एडब्लॉक सेटिंग्स्"
+msgstr "एडब्लॉक सेटिंग्स"
 
 #: src/settings/SettingsAdblock.qml:23
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Add Filterlist"
-msgstr "Filterlist योजयन्तु"
+msgstr "फ़िल्टर सूची जोड़ें"
 
 #: src/settings/SettingsAdblock.qml:27
 #, kde-format
 msgid "Update lists"
-msgstr "सूचीः अद्यतनं कुर्वन्तु"
+msgstr "सूचियाँ अपडेट करें"
 
 #: src/settings/SettingsAdblock.qml:49
 #, kde-format
 msgid "The adblock functionality isn't included in this build."
-msgstr "अस्मिन् निर्माणे adblock कार्यक्षमता न समाविष्टा अस्ति ।"
+msgstr "इस बिल्ड में एडब्लॉक कार्यक्षमता शामिल नहीं है।"
 
 #: src/settings/SettingsAdblock.qml:100
 #, kde-format
 msgid "Remove this filter list"
-msgstr "एतां फ़िल्टरसूचीं निष्कासयन्तु"
+msgstr "इस फ़िल्टर सूची को हटाएँ"
 
 #: src/settings/SettingsAdblock.qml:112
 #, kde-format
 msgid "Add Filterlist"
-msgstr "Filterlist योजयन्तु"
+msgstr "फ़िल्टर सूची जोड़ें"
 
 #: src/settings/SettingsAdblock.qml:124
 #, kde-format
 msgid "Add filterlist"
-msgstr "फ़िल्टरलिस्ट् योजयन्तु"
+msgstr "फ़िल्टर सूची जोड़ें"
 
 #: src/settings/SettingsAdblock.qml:129
 #, kde-format
 msgid "Name"
-msgstr "नामः"
+msgstr "नाम"
 
 #: src/settings/SettingsAdblock.qml:138
 #, kde-format
 msgid "Url"
-msgstr "उर्ल्"
+msgstr "यूआरएल"
 
 #: src/settings/SettingsGeneral.qml:27
 #, kde-format
 msgid "Enable JavaScript"
-msgstr "जावास्क्रिप्ट् सक्षमं कुर्वन्तु"
+msgstr "जावास्क्रिप्ट सक्षम करें"
 
 #: src/settings/SettingsGeneral.qml:28
 #, kde-format
 msgid "This may be required on certain websites for them to work."
-msgstr "तेषां कार्यं कर्तुं कतिपयेषु जालपुटेषु एतत् आवश्यकं भवेत् ।"
+msgstr "कुछ वेबसाइटों पर काम करने के लिए यह आवश्यक हो सकता है।"
 
 #: src/settings/SettingsGeneral.qml:37
 #, kde-format
 msgid "Load images"
-msgstr "चित्राणि लोडयन्तु"
+msgstr "छवियाँ लोड करें"
 
 #: src/settings/SettingsGeneral.qml:38
 #, kde-format
 msgid "Whether to load images on websites."
-msgstr "जालपुटेषु चित्राणि लोड् कर्तव्यानि वा।"
+msgstr "वेबसाईट पर छवियाँ लोड करनी हैं या नहीं।"
 
 #: src/settings/SettingsGeneral.qml:47
 #, kde-format
 msgid "Enable adblock"
-msgstr "adblock सक्षमं कुर्वन्तु"
+msgstr "एडब्लॉक सक्षम करें"
 
 #: src/settings/SettingsGeneral.qml:48
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
-msgstr "जालपुटेषु विज्ञापनं न दर्शयितुं प्रयत्नः।"
+msgstr "वेबसाइटों पर विज्ञापनों को प्रदर्शित होने से रोकने का प्रयास।"
 
 #: src/settings/SettingsGeneral.qml:48
 #, kde-format
 msgid "AdBlock functionality was not included in this build."
-msgstr "अस्मिन् निर्माणे AdBlock कार्यक्षमता न समाविष्टा आसीत् ।"
+msgstr "इस बिल्ड में AdBlock कार्यक्षमता शामिल नहीं थी।"
 
 #: src/settings/SettingsGeneral.qml:58
 #, kde-format
 msgid "Switch to new tab immediately"
-msgstr "तत्क्षणमेव नूतनं ट्याब् प्रति गच्छन्तु"
+msgstr "तुरंत नए टैब पर स्विच करें"
 
 #: src/settings/SettingsGeneral.qml:59
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately"
-msgstr ""
-"यदा भवन्तः नूतने ट्याब् मध्ये लिङ्क्, इमेज् अथवा मीडिया उद्घाटयन्ति तदा तत्क्षणमेव तस्मिन् "
-"स्विच् कुर्वन्तु"
+msgstr "जब आप किसी लिंक, छवि या मीडिया को नए टैब में खोलें, तो तुरंत उस पर स्विच करें"
 
 #: src/settings/SettingsGeneral.qml:68
 #, kde-format
 msgid "Use Smooth Scrolling"
-msgstr "Smooth Scrolling इत्यस्य उपयोगं कुर्वन्तु"
+msgstr "सहज स्क्रॉलिंग का उपयोग करें"
 
 #: src/settings/SettingsGeneral.qml:69
 #, kde-format
@@ -863,13 +860,13 @@ msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
 "Requires app restart to take effect."
 msgstr ""
-"स्क्रॉलं सुचारुतरं भवति, यदा भवन्तः स्क्रॉलं त्यजन्ति तदा सहसा न स्थगयिष्यति । प्रभावी भवितुं "
-"एप् पुनः आरम्भस्य आवश्यकता अस्ति।"
+"स्क्रॉलिंग आसान है और जब आप स्क्रॉल करना बंद कर देंगे तो यह अचानक बंद नहीं होगा। प्रभावी "
+"होने के लिए ऐप को पुनः आरंभ करना आवश्यक है।"
 
 #: src/settings/SettingsGeneral.qml:78
 #, kde-format
 msgid "Use dark color scheme"
-msgstr "कृष्णवर्णयोजनायाः उपयोगं कुर्वन्तु"
+msgstr "गहरे रंग योजना का उपयोग करें"
 
 #: src/settings/SettingsGeneral.qml:79
 #, kde-format
@@ -877,13 +874,13 @@ msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
 "take effect."
 msgstr ""
-"वेबसाइट्-स्थानेषु तेषां वर्ण-योजना अन्धकार-रूपेण सेट् भविष्यति । प्रभावी भवितुं एप् पुनः आरम्भस्य "
-"आवश्यकता अस्ति।"
+"वेबसाइट्स की रंग योजनाएँ गहरे रंग में सेट होंगी। प्रभावी होने के लिए ऐप को पुनः आरंभ करना "
+"आवश्यक है।"
 
 #: src/settings/SettingsNavigationBarPage.qml:18
 #, kde-format
 msgid "Navigation bar"
-msgstr "नेविगेशन बार"
+msgstr "नेविगेशन पट्टी"
 
 #: src/settings/SettingsNavigationBarPage.qml:26
 #, kde-format
@@ -896,55 +893,54 @@ msgid ""
 "menus either by swiping from the left or right side or to a side along the "
 "bottom of the window."
 msgstr ""
-"नेविगेशन बार मध्ये सक्षमानि बटन्स् चिनोतु । केचन बटन्स् केवलं ब्राउजर् इत्यस्य चित्राभिमुखीकरणे "
-"एव निगूढाः भवितुम् अर्हन्ति तथा च यदि ब्राउजर् तस्य ऊर्ध्वतायाः अपेक्षया विस्तृतः भवति "
-"तर्हि सर्वदा दर्शिताः भवन्ति ।\n"
+"नेविगेशन बार में सक्षम बटन चुनें। कुछ बटन केवल ब्राउज़र के पोर्ट्रेट ओरिएंटेशन में ही छिपाए जा "
+"सकते हैं और ब्राउज़र की चौड़ाई उसकी ऊंचाई से ज़्यादा होने पर हमेशा दिखाए जाते हैं।\n"
 "\n"
-" ध्यानं कुर्वन्तु यत् यदि भवान् मेनू-बटन्स् निष्क्रियं करोति तर्हि वाम-दक्षिण-पार्श्वाद् वा "
-"विण्डो-अधः पार्श्वे वा स्वाइप्-द्वारा वा मेनू-प्रवेशं कर्तुं शक्नोति ।"
+"ध्यान दें कि यदि आप मेनू बटन अक्षम करते हैं, तो आप बाईं या दाईं ओर से या विंडो के निचले भाग "
+"के किनारे स्वाइप करके मेनू तक पहुँच पाएंगे।"
 
 #: src/settings/SettingsNavigationBarPage.qml:35
 #, kde-format
 msgid "Main menu in portrait"
-msgstr "चित्रे मुख्यमेनू"
+msgstr "पोर्ट्रेट में मुख्य मेनू"
 
 #: src/settings/SettingsNavigationBarPage.qml:41
 #, kde-format
 msgid "Tabs in portrait"
-msgstr "चित्रे ट्याब्स्"
+msgstr "पोर्ट्रेट में टैब"
 
 #: src/settings/SettingsNavigationBarPage.qml:47
 #, kde-format
 msgid "Context menu in portrait"
-msgstr "चित्रे सन्दर्भमेनू"
+msgstr "पोर्ट्रेट में संदर्भ मेनू"
 
 #: src/settings/SettingsNavigationBarPage.qml:53
 #, kde-format
 msgid "Go back"
-msgstr "पुनः गच्छतु"
+msgstr "वापस जाओ"
 
 #: src/settings/SettingsNavigationBarPage.qml:65
 #, kde-format
 msgid "Reload/Stop"
-msgstr "पुनः लोड करें/स्थगित करें"
+msgstr "पुनः लोड करें/रोकें"
 
 #: src/settings/SettingsSearchEnginePage.qml:20
 #, kde-format
 msgid "Custom"
-msgstr "आचारः"
+msgstr "रिवाज़"
 
 #: src/settings/SettingsSearchEnginePage.qml:117
 #, kde-format
 msgid "Base URL of your preferred search engine"
-msgstr "भवतः इष्टस्य अन्वेषणयन्त्रस्य आधारः URL"
+msgstr "आपके पसंदीदा खोज इंजन का आधार URL"
 
 #: src/settings/SettingsWebApps.qml:73
 #, kde-format
 msgid "Remove app"
-msgstr "एप्लिकेशनं निष्कासयन्तु"
+msgstr "ऐप हटाएँ"
 
 #: src/settings/SettingsWebApps.qml:85
 #, kde-format
 msgctxt "placeholder message"
 msgid "No Web Apps installed"
-msgstr "Web Apps संस्थापितम् नास्ति"
+msgstr "कोई वेब ऐप इंस्टॉल नहीं है"
