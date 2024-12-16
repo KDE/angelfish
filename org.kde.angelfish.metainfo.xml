@@ -15,6 +15,7 @@
   <name xml:lang="fr">Angelfish</name>
   <name xml:lang="gl">Angelfish</name>
   <name xml:lang="he">Angelfish</name>
+  <name xml:lang="hi">एंजेलफ़िश</name>
   <name xml:lang="hu">Angelfish</name>
   <name xml:lang="ia">Angelfish</name>
   <name xml:lang="it">Angelfish</name>
@@ -51,6 +52,7 @@
   <summary xml:lang="fr">Navigateur web pour les appareils mobiles</summary>
   <summary xml:lang="gl">Navegador web para dispositivos móbiles.</summary>
   <summary xml:lang="he">דפדפן אינטרנט למכשירים ניידים</summary>
+  <summary xml:lang="hi">मोबाइल उपकरणों के लिए वेब ब्राउज़र</summary>
   <summary xml:lang="hu">Webböngésző mobileszközökre</summary>
   <summary xml:lang="ia">Webbrowser (Navigator de web) per dispositivos mobile</summary>
   <summary xml:lang="id">Webbrowser untuk peranti ponsel</summary>
@@ -100,6 +102,7 @@
     <p xml:lang="fr">Angelfish est un navigateur web mobile moderne</p>
     <p xml:lang="gl">Angelfish é un navegador web móbil moderno.</p>
     <p xml:lang="he">Angelfish הוא דפדפן אינטרנט מודרני למכשירים ניידים</p>
+    <p xml:lang="hi">एंजेलफिश एक आधुनिक मोबाइल वेब ब्राउज़र है</p>
     <p xml:lang="hu">Az Angelfish egy modern mobilos webböngésző</p>
     <p xml:lang="ia">Angelfish es un moderne Webbrowser (navigator web) de mobile</p>
     <p xml:lang="id">Angelfish adalah sebuah webbrowser ponsel yang modern</p>
@@ -142,6 +145,7 @@
     <p xml:lang="fr">Il prend en charge les fonctionnalités classiques des navigateurs :</p>
     <p xml:lang="gl">Goza das funcionalidades habituais dos navegadores, como:</p>
     <p xml:lang="he">הוא תומך במגוון יכולות טיפוסיות של דפדפנים כגון</p>
+    <p xml:lang="hi">यह सामान्य ब्राउज़र सुविधाओं का समर्थन करता है, जैसे</p>
     <p xml:lang="hu">Támogatja a megszokott szolgáltatásokat, úgy mint</p>
     <p xml:lang="ia">Il supporta typic characteristicas de navigator, tal como</p>
     <p xml:lang="id">Ini mendukung fitur-fitur browser biasanya, sepertihalnya</p>
@@ -185,6 +189,7 @@
       <li xml:lang="fr">signets</li>
       <li xml:lang="gl">marcadores</li>
       <li xml:lang="he">סימניות</li>
+      <li xml:lang="hi">बुकमार्क</li>
       <li xml:lang="hu">könyvjelzők</li>
       <li xml:lang="ia">Marcatores de libro</li>
       <li xml:lang="id">markah</li>
@@ -227,6 +232,7 @@
       <li xml:lang="fr">historique</li>
       <li xml:lang="gl">historial</li>
       <li xml:lang="he">היסטוריה</li>
+      <li xml:lang="hi">इतिहास</li>
       <li xml:lang="hu">előzmények</li>
       <li xml:lang="ia">Chronologia</li>
       <li xml:lang="id">histori</li>
@@ -269,6 +275,7 @@
       <li xml:lang="fr">onglets</li>
       <li xml:lang="gl">lapelas</li>
       <li xml:lang="he">לשוניות</li>
+      <li xml:lang="hi">टैब</li>
       <li xml:lang="hu">lapok</li>
       <li xml:lang="ia">schedas</li>
       <li xml:lang="id">tab</li>
@@ -315,6 +322,7 @@
       <caption xml:lang="fr">Page d'accueil</caption>
       <caption xml:lang="gl">Páxina inicial.</caption>
       <caption xml:lang="he">דף הבית</caption>
+      <caption xml:lang="hi">मुखपृष्ठ</caption>
       <caption xml:lang="hu">Kezdőlap</caption>
       <caption xml:lang="ia">Pagina Domo o Principal</caption>
       <caption xml:lang="id">Laman</caption>
@@ -360,6 +368,7 @@
       <caption xml:lang="fr">Actions de menu</caption>
       <caption xml:lang="gl">Accións de menú.</caption>
       <caption xml:lang="he">פעולות תפריט</caption>
+      <caption xml:lang="hi">मेनू क्रियाएँ</caption>
       <caption xml:lang="hu">Menüműveletek</caption>
       <caption xml:lang="ia">Actiones de menu</caption>
       <caption xml:lang="id">Aksi Menu</caption>
@@ -403,6 +412,7 @@
       <caption xml:lang="fr">Vue par onglets</caption>
       <caption xml:lang="gl">Vista de lapelas.</caption>
       <caption xml:lang="he">תצוגת לשוניות</caption>
+      <caption xml:lang="hi">टैब्स दृश्य</caption>
       <caption xml:lang="hu">Lapnézet</caption>
       <caption xml:lang="ia">Vista de Schedas</caption>
       <caption xml:lang="id">Tampilan Tab</caption>
@@ -445,6 +455,7 @@
       <caption xml:lang="fr">Interface utilisateur de bureau</caption>
       <caption xml:lang="gl">Interface de escritorio.</caption>
       <caption xml:lang="he">ממשק משתמש שולחן עבודה</caption>
+      <caption xml:lang="hi">डेस्कटॉप उपयोगकर्ता इंटरफ़ेस</caption>
       <caption xml:lang="hu">Asztali felhasználói felület</caption>
       <caption xml:lang="ia">Interfacie de usator de scriptorio</caption>
       <caption xml:lang="id">Antarmuka Pengguna Desktop</caption>
