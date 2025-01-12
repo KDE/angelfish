@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the plasma-angelfish package.
 #
 # Volkan Gezer <volkangezer@gmail.com>, 2020, 2021.
-# SPDX-FileCopyrightText: 2022, 2023, 2024 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-10-20 00:39+0000\n"
-"PO-Revision-Date: 2024-10-20 12:21+0300\n"
+"PO-Revision-Date: 2025-01-11 17:15+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.11.70\n"
+"X-Generator: Lokalize 25.03.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -228,7 +228,7 @@ msgstr "Yönelim"
 #: lib/contents/ui/PrintPreview.qml:99
 #, kde-format
 msgid "Paper size"
-msgstr "Kağıt boyutu"
+msgstr "Kâğıt boyutu"
 
 #: lib/contents/ui/PrintPreview.qml:145
 #, kde-format
@@ -421,7 +421,7 @@ msgstr "Sayfa kaynağını görüntüle"
 msgid ""
 "The ad blocker is missing its filter lists, do you want to download them now?"
 msgstr ""
-"Reklam engelleyicinin süzgeç listeleri eksik, bunları şimdi indirmek ister "
+"Reklâm engelleyicinin süzgeç listeleri eksik, bunları şimdi indirmek ister "
 "misiniz?"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:35
@@ -710,7 +710,7 @@ msgstr "Genel"
 #: src/settings/AngelfishConfigurationView.qml:20
 #, kde-format
 msgid "Ad Block"
-msgstr "Reklam Engelleme"
+msgstr "Reklâm Engelleme"
 
 #: src/settings/AngelfishConfigurationView.qml:26
 #: src/settings/SettingsWebApps.qml:16
@@ -765,7 +765,7 @@ msgstr "Bir tane sekme açık olsa dahi sekme çubuğu gösterilecektir"
 #: src/settings/SettingsAdblock.qml:16
 #, kde-format
 msgid "Adblock settings"
-msgstr "Reklam engelleme ayarları"
+msgstr "Reklâm engelleme ayarları"
 
 #: src/settings/SettingsAdblock.qml:23
 #, kde-format
@@ -781,7 +781,7 @@ msgstr "Listeleri güncelle"
 #: src/settings/SettingsAdblock.qml:49
 #, kde-format
 msgid "The adblock functionality isn't included in this build."
-msgstr "Reklam engelleme işlevi bu yapıya dahil değildir."
+msgstr "Reklâm engelleme işlevi bu yapıya dahil değildir."
 
 #: src/settings/SettingsAdblock.qml:100
 #, kde-format
@@ -831,17 +831,17 @@ msgstr "Web sitelerindeki görseller yüklenip yüklenmemeli mi."
 #: src/settings/SettingsGeneral.qml:47
 #, kde-format
 msgid "Enable adblock"
-msgstr "Reklam engellemeyi etkinleştir"
+msgstr "Reklâm engellemeyi etkinleştir"
 
 #: src/settings/SettingsGeneral.qml:48
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
-msgstr "Web sayfalarındaki reklamları göstermemeye çalışır."
+msgstr "Web sayfalarındaki reklâmları göstermemeye çalışır."
 
 #: src/settings/SettingsGeneral.qml:48
 #, kde-format
 msgid "AdBlock functionality was not included in this build."
-msgstr "Reklam engelleme işlevi bu yapıda içerilmedi."
+msgstr "Reklâm engelleme işlevi bu yapıda içerilmedi."
 
 #: src/settings/SettingsGeneral.qml:58
 #, kde-format
