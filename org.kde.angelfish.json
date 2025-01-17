@@ -1,10 +1,10 @@
 {
     "id": "org.kde.angelfish",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.7",
+    "runtime-version": "6.8",
     "sdk": "org.kde.Sdk",
     "base": "io.qt.qtwebengine.BaseApp",
-    "base-version": "6.7",
+    "base-version": "6.8",
     "command": "angelfish",
     "tags": ["nightly"],
     "desktop-file-name-suffix": " (Nightly)",
@@ -12,7 +12,7 @@
         "--share=ipc",
         "--share=network",
         "--socket=pulseaudio",
-        "--socket=x11",
+        "--socket=fallback-x11",
         "--socket=wayland",
         "--device=dri",
         "--device=all",
@@ -27,7 +27,7 @@
         "org.freedesktop.Platform.ffmpeg-full": {
             "directory": "lib/ffmpeg",
             "add-ld-path": ".",
-            "version": "23.08"
+            "version": "24.08"
         }
     },
     "cleanup-commands": [
@@ -59,7 +59,13 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/danvratil/qcoro/archive/refs/tags/v0.10.0.tar.gz",
-                    "sha256": "b7c8f00273ad27d85814bf4ec93eb6922c75656800a61d11854d36355a4a1aec"
+                    "sha256": "b7c8f00273ad27d85814bf4ec93eb6922c75656800a61d11854d36355a4a1aec",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 236236,
+                        "stable-only": true,
+                        "url-template": "https://github.com/danvratil/qcoro/archive/refs/tags/v$version.tar.gz"
+                    }
                 }
             ]
         },
@@ -76,7 +82,14 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/futuresql/futuresql-0.1.1.tar.xz",
-                    "sha256": "e44ed8d5a9618b3ca7ba2983ed9c5f7572e6e0a5b199f94868834b71ccbebd43"
+                    "sha256": "e44ed8d5a9618b3ca7ba2983ed9c5f7572e6e0a5b199f94868834b71ccbebd43",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 368957,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/futuresql/futuresql-$version.tar.xz"
+                    }
+
                 }
             ]
         },
