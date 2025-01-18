@@ -189,6 +189,8 @@ inline auto resourceTypeToString(const QWebEngineUrlRequestInfo::ResourceType ty
         return "ping";
     case Type::ResourceTypeCspReport:
         return "csp_report";
+    case Type::ResourceTypeWebSocket:
+        return "websocket";
     default:
         return "other";
     }
