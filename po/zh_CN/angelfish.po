@@ -116,6 +116,12 @@ msgid ""
 "\n"
 " Do you wish to override the security check and continue?"
 msgstr ""
+"你想要继续吗？\n"
+"\n"
+" 如果你想要继续，你可以继续使用未经验证的证书。\n"
+" 接受未经验证的证书意味着您可能无法与您尝试连接的主机建立连接。\n"
+"\n"
+" 您想要覆盖安全检查并继续吗？"
 
 #: lib/contents/ui/ErrorHandler.qml:81
 #, kde-format
@@ -668,7 +674,7 @@ msgstr "隐藏导航栏"
 #: src/contents/ui/Navigation.qml:410
 #, kde-format
 msgid "Done"
-msgstr ""
+msgstr "完成"
 
 #: src/contents/ui/NewTabQuestion.qml:11
 #, kde-format
@@ -758,7 +764,7 @@ msgstr "广告拦截器设置"
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Add Filterlist"
-msgstr ""
+msgstr "添加过滤规则列表"
 
 #: src/settings/SettingsAdblock.qml:27
 #, kde-format
@@ -778,7 +784,7 @@ msgstr "移除此过滤规则列表"
 #: src/settings/SettingsAdblock.qml:112
 #, kde-format
 msgid "Add Filterlist"
-msgstr ""
+msgstr "添加过滤规则列表"
 
 #: src/settings/SettingsAdblock.qml:124
 #, kde-format
@@ -881,6 +887,10 @@ msgid ""
 "menus either by swiping from the left or right side or to a side along the "
 "bottom of the window."
 msgstr ""
+"选择导航栏中启用的按钮。某些按钮只能在竖屏模式下隐藏，并且在浏览器窗口的宽度"
+"大于其高度时总是显示。\n"
+"\n"
+" 提示：如果您禁用了菜单按钮，您依然可以在窗口底部左滑或右滑来访问菜单。"
 
 #: src/settings/SettingsNavigationBarPage.qml:35
 #, kde-format
@@ -926,4 +936,4 @@ msgstr "移除应用"
 #, kde-format
 msgctxt "placeholder message"
 msgid "No Web Apps installed"
-msgstr ""
+msgstr "未安装 Web 应用程序"
