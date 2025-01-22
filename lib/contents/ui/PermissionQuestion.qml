@@ -9,33 +9,35 @@ Kirigami.InlineMessage {
     id: permissionQuestion
 
     property int permission
-    property string origin
+    property url origin
 
     position: Kirigami.Settings.isMobile ? Kirigami.InlineMessage.Footer : Kirigami.InlineMessage.Header
 
     text: {
+        let url = new URL(permissionQuestion.origin)
+        let host = url.host
+
         switch(permission) {
-        case WebEngineView.Geolocation:
-            i18n("Do you want to allow the website to access the geo location?")
-            break
         case WebEngineView.MediaAudioCapture:
-            i18n("Do you want to allow the website to access the microphone?")
-            break
+            return i18n("Do you want to allow the website <b>%1</b> to access the <b>microphone</b>?", host)
         case WebEngineView.MediaVideoCapture:
-            i18n("Do you want to allow the website to access the camera?")
-            break
+            return i18n("Do you want to allow the website <b>%1</b> to access the <b>camera</b>?", host)
         case WebEngineView.MediaAudioVideoCapture:
-            i18n("Do you want to allow the website to access the camera and the microphone?")
-            break
+            return i18n("Do you want to allow the website <b>%1</b> to access the <b>camera and the microphone</b>?", host)
         case WebEngineView.DesktopVideoCapture:
-            i18n("Do you want to allow the website to share your screen?")
-            break
+            return i18n("Do you want to allow the website <b>%1</b> to share your <b>screen</b>?", host)
         case WebEngineView.DesktopAudioVideoCapture:
-            i18n("Do you want to allow the website to share the sound output?")
-            break
+            return i18n("Do you want to allow the website <b>%1</b> to share the sound <b>output</b>?", host)
         case WebEngineView.Notifications:
-            i18n("Do you want to allow the website to send you notifications?")
-            break
+            return i18n("Do you want to allow the website <b>%1</b> to send you <b>notifications</b>?", host)
+        case WebEngineView.Geolocation:
+            return i18n("Do you want to allow the website <b>%1</b> to access the <b>geo location</b>?", host)
+        case WebEngineView.ClipboardReadWrite:
+            return i18n("Do you want to allow the website <b>%1</b> to access the <b>clipboard</b>?", host)
+        case WebEngineView.LocalFontsAccess:
+            return i18n("Do you want to allow the website <b>%1</b> to access your <b>fonts</b>?", host)
+        default:
+            i18n("The website %1 requested an unknown permission %2", host, permission)
         }
     }
     showCloseButton: false
