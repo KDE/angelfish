@@ -78,7 +78,7 @@ FormCard.FormCardPage {
 
         FormCard.FormSwitchDelegate {
             id: alwaysShowTabs
-            text: i18n("@label:checkbox", "Always show the tab bar")
+            text: i18nc("@label:checkbox", "Always show the tab bar")
             description: i18n("The tab bar will be displayed even if there is only one tab open.")
             checked: Settings.showTabBar
             onClicked: Settings.showTabBar = checked
