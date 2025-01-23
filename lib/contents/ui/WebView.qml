@@ -575,7 +575,7 @@ classes
             property string elidedText: fullText.length > 25 ? fullText.slice(0, 25) + "…" : fullText
             visible: contextMenu.request && fullText
             height: visible ? implicitHeight : 0
-            text: contextMenu.request && fullText ? i18nc("@action:inmenu", "Search for “%1”, elidedText) : ""
+            text: contextMenu.request && fullText ? i18nc("@action:inmenu", "Search for “%1”", elidedText) : ""
             onTriggered: {
                 if (webEngineView.isAppView) {
                     Qt.openUrlExternally(UrlUtils.urlFromUserInput(Settings.searchBaseUrl + fullText));
