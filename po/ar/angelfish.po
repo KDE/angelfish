@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-20 00:39+0000\n"
+"POT-Creation-Date: 2025-01-23 00:40+0000\n"
 "PO-Revision-Date: 2024-10-24 06:37+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -156,48 +156,79 @@ msgstr "غادر الصفحة"
 msgid "Submit"
 msgstr "قدم"
 
-#: lib/contents/ui/PermissionQuestion.qml:19
-#, kde-format
-msgid "Do you want to allow the website to access the geo location?"
-msgstr "هل تريد أنت تسمح للموقع بالوصول إلى موقعك الجغرافي؟"
-
 #: lib/contents/ui/PermissionQuestion.qml:22
-#, kde-format
-msgid "Do you want to allow the website to access the microphone?"
+#, fuzzy, kde-format
+#| msgid "Do you want to allow the website to access the microphone?"
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>microphone</b>?"
 msgstr "هل تريد أنت تسمح للموقع بالوصول إلى لاقط الصوت؟"
 
-#: lib/contents/ui/PermissionQuestion.qml:25
-#, kde-format
-msgid "Do you want to allow the website to access the camera?"
+#: lib/contents/ui/PermissionQuestion.qml:24
+#, fuzzy, kde-format
+#| msgid "Do you want to allow the website to access the camera?"
+msgid "Do you want to allow the website <b>%1</b> to access the <b>camera</b>?"
 msgstr "هل تريد أنت تسمح للموقع بالوصول إلى الكاميرا؟"
 
-#: lib/contents/ui/PermissionQuestion.qml:28
-#, kde-format
+#: lib/contents/ui/PermissionQuestion.qml:26
+#, fuzzy, kde-format
+#| msgid ""
+#| "Do you want to allow the website to access the camera and the microphone?"
 msgid ""
-"Do you want to allow the website to access the camera and the microphone?"
+"Do you want to allow the website <b>%1</b> to access the <b>camera and the "
+"microphone</b>?"
 msgstr "هل تريد أنت تسمح للموقع بالوصول إلى الكاميرا ولاقط الصوت؟"
 
-#: lib/contents/ui/PermissionQuestion.qml:31
-#, kde-format
-msgid "Do you want to allow the website to share your screen?"
+#: lib/contents/ui/PermissionQuestion.qml:28
+#, fuzzy, kde-format
+#| msgid "Do you want to allow the website to share your screen?"
+msgid "Do you want to allow the website <b>%1</b> to share your <b>screen</b>?"
 msgstr "هل تريد أنت تسمح للموقع بمشاركة شاشتك؟"
 
-#: lib/contents/ui/PermissionQuestion.qml:34
-#, kde-format
-msgid "Do you want to allow the website to share the sound output?"
+#: lib/contents/ui/PermissionQuestion.qml:30
+#, fuzzy, kde-format
+#| msgid "Do you want to allow the website to share the sound output?"
+msgid ""
+"Do you want to allow the website <b>%1</b> to share the sound <b>output</b>?"
 msgstr "هل تريد أنت تسمح للموقع بمشاركة الصوت؟"
 
-#: lib/contents/ui/PermissionQuestion.qml:37
-#, kde-format
-msgid "Do you want to allow the website to send you notifications?"
+#: lib/contents/ui/PermissionQuestion.qml:32
+#, fuzzy, kde-format
+#| msgid "Do you want to allow the website to send you notifications?"
+msgid ""
+"Do you want to allow the website <b>%1</b> to send you <b>notifications</b>?"
 msgstr "هل تريد أنت تسمح للموقع بإرسال التنبيهات؟"
 
-#: lib/contents/ui/PermissionQuestion.qml:46
+#: lib/contents/ui/PermissionQuestion.qml:34
+#, fuzzy, kde-format
+#| msgid "Do you want to allow the website to access the geo location?"
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>geo location</b>?"
+msgstr "هل تريد أنت تسمح للموقع بالوصول إلى موقعك الجغرافي؟"
+
+#: lib/contents/ui/PermissionQuestion.qml:36
+#, fuzzy, kde-format
+#| msgid "Do you want to allow the website to access the camera?"
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>clipboard</b>?"
+msgstr "هل تريد أنت تسمح للموقع بالوصول إلى الكاميرا؟"
+
+#: lib/contents/ui/PermissionQuestion.qml:38
+#, fuzzy, kde-format
+#| msgid "Do you want to allow the website to share your screen?"
+msgid "Do you want to allow the website <b>%1</b> to access your <b>fonts</b>?"
+msgstr "هل تريد أنت تسمح للموقع بمشاركة شاشتك؟"
+
+#: lib/contents/ui/PermissionQuestion.qml:40
+#, kde-format
+msgid "The website %1 requested an unknown permission %2"
+msgstr ""
+
+#: lib/contents/ui/PermissionQuestion.qml:48
 #, kde-format
 msgid "Accept"
 msgstr "اقبل"
 
-#: lib/contents/ui/PermissionQuestion.qml:56
+#: lib/contents/ui/PermissionQuestion.qml:58
 #, kde-format
 msgid "Decline"
 msgstr "ارفض"

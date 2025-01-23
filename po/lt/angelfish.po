@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-20 00:39+0000\n"
+"POT-Creation-Date: 2025-01-23 00:40+0000\n"
 "PO-Revision-Date: 2024-04-09 00:28+0300\n"
 "Last-Translator: Moo\n"
 "Language-Team: lt\n"
@@ -166,52 +166,83 @@ msgstr "Išeiti iš puslapio"
 msgid "Submit"
 msgstr "Pateikti"
 
-#: lib/contents/ui/PermissionQuestion.qml:19
-#, kde-format
-msgid "Do you want to allow the website to access the geo location?"
-msgstr ""
-"Ar norite leisti internetinei svetainei prieigą prie jūsų geografinės buvimo "
-"vietos?"
-
 #: lib/contents/ui/PermissionQuestion.qml:22
-#, kde-format
-msgid "Do you want to allow the website to access the microphone?"
+#, fuzzy, kde-format
+#| msgid "Do you want to allow the website to access the microphone?"
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>microphone</b>?"
 msgstr "Ar norite leisti internetinei svetainei prieigą prie jūsų mikrofono?"
 
-#: lib/contents/ui/PermissionQuestion.qml:25
-#, kde-format
-msgid "Do you want to allow the website to access the camera?"
+#: lib/contents/ui/PermissionQuestion.qml:24
+#, fuzzy, kde-format
+#| msgid "Do you want to allow the website to access the camera?"
+msgid "Do you want to allow the website <b>%1</b> to access the <b>camera</b>?"
 msgstr "Ar norite leisti internetinei svetainei prieigą prie jūsų kameros?"
 
-#: lib/contents/ui/PermissionQuestion.qml:28
-#, kde-format
+#: lib/contents/ui/PermissionQuestion.qml:26
+#, fuzzy, kde-format
+#| msgid ""
+#| "Do you want to allow the website to access the camera and the microphone?"
 msgid ""
-"Do you want to allow the website to access the camera and the microphone?"
+"Do you want to allow the website <b>%1</b> to access the <b>camera and the "
+"microphone</b>?"
 msgstr ""
 "Ar norite leisti internetinei svetainei prieigą prie jūsų kameros ir "
 "mikrofono?"
 
-#: lib/contents/ui/PermissionQuestion.qml:31
-#, kde-format
-msgid "Do you want to allow the website to share your screen?"
+#: lib/contents/ui/PermissionQuestion.qml:28
+#, fuzzy, kde-format
+#| msgid "Do you want to allow the website to share your screen?"
+msgid "Do you want to allow the website <b>%1</b> to share your <b>screen</b>?"
 msgstr "Ar norite leisti internetinei svetainei bendrinti jūsų ekraną?"
 
-#: lib/contents/ui/PermissionQuestion.qml:34
-#, kde-format
-msgid "Do you want to allow the website to share the sound output?"
+#: lib/contents/ui/PermissionQuestion.qml:30
+#, fuzzy, kde-format
+#| msgid "Do you want to allow the website to share the sound output?"
+msgid ""
+"Do you want to allow the website <b>%1</b> to share the sound <b>output</b>?"
 msgstr "Ar norite leisti internetinei svetainei bendrinti garso išvestį?"
 
-#: lib/contents/ui/PermissionQuestion.qml:37
-#, kde-format
-msgid "Do you want to allow the website to send you notifications?"
+#: lib/contents/ui/PermissionQuestion.qml:32
+#, fuzzy, kde-format
+#| msgid "Do you want to allow the website to send you notifications?"
+msgid ""
+"Do you want to allow the website <b>%1</b> to send you <b>notifications</b>?"
 msgstr "Ar norite leisti internetinei svetainei siųsti jums pranešimus?"
 
-#: lib/contents/ui/PermissionQuestion.qml:46
+#: lib/contents/ui/PermissionQuestion.qml:34
+#, fuzzy, kde-format
+#| msgid "Do you want to allow the website to access the geo location?"
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>geo location</b>?"
+msgstr ""
+"Ar norite leisti internetinei svetainei prieigą prie jūsų geografinės buvimo "
+"vietos?"
+
+#: lib/contents/ui/PermissionQuestion.qml:36
+#, fuzzy, kde-format
+#| msgid "Do you want to allow the website to access the camera?"
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>clipboard</b>?"
+msgstr "Ar norite leisti internetinei svetainei prieigą prie jūsų kameros?"
+
+#: lib/contents/ui/PermissionQuestion.qml:38
+#, fuzzy, kde-format
+#| msgid "Do you want to allow the website to share your screen?"
+msgid "Do you want to allow the website <b>%1</b> to access your <b>fonts</b>?"
+msgstr "Ar norite leisti internetinei svetainei bendrinti jūsų ekraną?"
+
+#: lib/contents/ui/PermissionQuestion.qml:40
+#, kde-format
+msgid "The website %1 requested an unknown permission %2"
+msgstr ""
+
+#: lib/contents/ui/PermissionQuestion.qml:48
 #, kde-format
 msgid "Accept"
 msgstr "Priimti"
 
-#: lib/contents/ui/PermissionQuestion.qml:56
+#: lib/contents/ui/PermissionQuestion.qml:58
 #, kde-format
 msgid "Decline"
 msgstr "Atmesti"
