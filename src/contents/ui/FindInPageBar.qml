@@ -42,7 +42,7 @@ Item {
             leftPadding: index.anchors.rightMargin
             rightPadding: index.width + 2 * index.anchors.rightMargin
             inputMethodHints: rootPage.privateMode ? Qt.ImhNoPredictiveText : Qt.ImhNone
-            placeholderText: i18n("Search...")
+            placeholderText: i18nc("@info:placeholder", "Search…")
 
             onAccepted: currentWebView.findText(displayText)
             onDisplayTextChanged: currentWebView.findText(displayText)

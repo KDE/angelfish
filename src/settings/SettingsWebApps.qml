@@ -13,7 +13,7 @@ import org.kde.kirigamiaddons.formcard as FormCard
 FormCard.FormCardPage {
     id: root
 
-    title: i18n("Web Apps")
+    title: i18nc("@title:window", "Web Apps")
 
     FormCard.FormHeader {
         title: root.title
@@ -70,7 +70,7 @@ FormCard.FormCardPage {
                         icon.name: "delete"
                         display: Controls.AbstractButton.IconOnly
                         onClicked: webAppModel.removeApp(delegate.index)
-                        text: i18n("Remove app")
+                        text: i18nc("@info:tooltip", "Remove app")
 
                         Layout.leftMargin: Kirigami.Units.smallSpacing
                     }
@@ -82,7 +82,7 @@ FormCard.FormCardPage {
             visible: listView.count === 0
             background: null
             contentItem: Kirigami.PlaceholderMessage {
-                text: i18nc("placeholder message", "No Web Apps installed")
+                text: i18nc("@info:placeholder", "No web apps installed")
             }
         }
     }

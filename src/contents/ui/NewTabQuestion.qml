@@ -8,7 +8,7 @@ import org.kde.kirigami 2.4 as Kirigami
 Kirigami.InlineMessage {
     id: newTabQuestion
     type: Kirigami.MessageType.Warning
-    text: url ? i18n("Site wants to open a new tab: \n%1", url.toString()) : ""
+    text: url ? i18nc("@info:status", "Site wants to open a new tab:\n%1", url.toString()) : ""
     showCloseButton: true
 
     property url url
@@ -16,7 +16,7 @@ Kirigami.InlineMessage {
     actions: [
         Kirigami.Action {
             icon.name: "tab-new"
-            text: i18n("Open")
+            text: i18nc("@action:inmenu", "Open")
             onTriggered: {
                 tabs.tabsModel.newTab(newTabQuestion.url.toString())
                 newTabQuestion.visible = false

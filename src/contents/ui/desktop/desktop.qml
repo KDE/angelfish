@@ -21,7 +21,7 @@ import "regex-weburl.js" as RegexWebUrl
 Kirigami.ApplicationWindow {
     id: webBrowser
 
-    title: currentWebView.title + " ― Angelfish"
+    title: currentWebView.title + " — Angelfish"
 
     minimumWidth: Kirigami.Units.gridUnit * 20
     minimumHeight: Kirigami.Units.gridUnit * 10
@@ -122,7 +122,7 @@ Kirigami.ApplicationWindow {
                 autoAccept: false
                 popup.width:width
                 searchField.text: currentWebView.url
-                searchField.placeholderText: i18n("Search or enter URL…")
+                searchField.placeholderText: i18nc("@info:placeholder", "Search or enter URL…")
                 searchField.color: searchField.activeFocus ? Kirigami.Theme.textColor : Kirigami.Theme.disabledTextColor
                 onAccepted: {
                     let url = text;
@@ -246,14 +246,14 @@ Kirigami.ApplicationWindow {
                 id: menu
 
                 Kirigami.Action {
-                    text: i18n("New Tab")
+                    text: i18nc("@action:inmenu", "New Tab")
                     icon.name: "list-add"
                     shortcut: "Ctrl+T"
                     onTriggered: tabs.tabsModel.newTab(Settings.newTabUrl)
                 }
 
                 Kirigami.Action { // TODO: should ideally open up a new window in private mode
-                    text: rootPage.privateMode ? i18n("Leave private mode") : i18n("Private mode")
+                    text: rootPage.privateMode ? i18nc("@action:inmenu", "Leave Private Mode") : i18nc("@action:inmenu", "Private Mode")
                     icon.name: "view-private"
                     shortcut: "Ctrl+Shift+P"
                     onTriggered: rootPage.privateMode = !rootPage.privateMode
@@ -262,7 +262,7 @@ Kirigami.ApplicationWindow {
                 QQC2.MenuSeparator {}
 
                 Kirigami.Action {
-                    text: i18n("History")
+                    text: i18nc("@action:inmenu", "History")
                     icon.name: "view-history"
                     shortcut: "Ctrl+H"
                     onTriggered: {
@@ -271,7 +271,7 @@ Kirigami.ApplicationWindow {
                     }
                 }
                 Kirigami.Action {
-                    text: i18n("Bookmarks")
+                    text: i18nc("@action:inmenu", "Bookmarks")
                     icon.name: "bookmarks"
                     shortcut: "Ctrl+Shift+O"
                     onTriggered: {
@@ -280,7 +280,7 @@ Kirigami.ApplicationWindow {
                     }
                 }
                 Kirigami.Action {
-                    text: i18n("Downloads")
+                    text: i18nc("@action:inmenu", "Downloads")
                     icon.name: "download"
                     shortcut: "Ctrl+J"
                     onTriggered: {
@@ -293,13 +293,13 @@ Kirigami.ApplicationWindow {
 
                 Kirigami.Action {
                     icon.name: "document-print"
-                    text: i18n("Print")
+                    text: i18nc("@action:inmenu", "Print")
                     shortcut: "Ctrl+P"
                     onTriggered: currentWebView.printRequested()
                 }
 
                 Kirigami.Action {
-                    text: i18n("Full Screen")
+                    text: i18nc("@action:inmenu", "Full Screen")
                     icon.name: "view-fullscreen"
                     shortcut: "F11"
                     onTriggered: {
@@ -316,8 +316,8 @@ Kirigami.ApplicationWindow {
                 Kirigami.Action {
                     icon.name: "dialog-scripts"
                     text: tabs.itemAt(tabs.currentIndex) && tabs.itemAt(tabs.currentIndex).isDeveloperToolsOpen
-                        ? i18n("Hide developer tools")
-                        : i18n("Show developer tools")
+                        ? i18nc("@action:inmenu", "Hide Developer Tools")
+                        : i18nc("@action:inmenu", "Show Developer Tools")
                     shortcut: "F12"
                     onTriggered: tabs.tabsModel.toggleDeveloperTools(tabs.currentIndex)
                 }
@@ -326,7 +326,7 @@ Kirigami.ApplicationWindow {
                     icon.name: "edit-find"
                     shortcut: "Ctrl+F"
                     onTriggered: findInPage.activate()
-                    text: i18n("Find in page")
+                    text: i18nc("@action:inmenu", "Find in Page")
                 }
 
                 Kirigami.Action {
@@ -342,7 +342,7 @@ Kirigami.ApplicationWindow {
 
                 Kirigami.Action {
                     icon.name: "document-share"
-                    text: i18n("Share page")
+                    text: i18nc("@action:inmenu", "Share Page")
                     onTriggered: {
                         sheetLoader.setSource("ShareSheet.qml")
                         sheetLoader.item.url = currentWebView.url
@@ -352,7 +352,7 @@ Kirigami.ApplicationWindow {
                 }
 
                 Kirigami.Action {
-                    text: i18n("Add to application launcher")
+                    text: i18nc("@action:inmenu", "Add to Application Launcher")
                     icon.name: "install"
                     enabled: !webAppCreator.exists
 
@@ -371,7 +371,7 @@ Kirigami.ApplicationWindow {
                 QQC2.MenuSeparator {}
 
                 Kirigami.Action {
-                    text: i18n("Settings")
+                    text: i18nc("@action:inmenu", "Settings")
                     icon.name: "settings-configure"
                     shortcut: "Ctrl+Shift+,"
                     onTriggered: {

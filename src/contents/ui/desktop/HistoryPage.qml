@@ -27,7 +27,7 @@ Kirigami.ScrollablePage {
                 id: search
                 Layout.fillWidth: true
 
-                placeholderText: i18n("Search history…")
+                placeholderText: i18nc("@info:placeholder", "Search history…")
                 inputMethodHints: rootPage.privateMode ? Qt.ImhNoPredictiveText : Qt.ImhNone
                 onAccepted: {
                     if (text === "" || text.length > 2) {
@@ -43,7 +43,7 @@ Kirigami.ScrollablePage {
 
                 QQC2.ToolTip.visible: hovered
                 QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
-                QQC2.ToolTip.text: i18n("Clear all history")
+                QQC2.ToolTip.text: i18nc("@info:tooltip", "Clear all history")
             }
             QQC2.ToolButton {
                 icon.name: "tab-close"
@@ -80,7 +80,7 @@ Kirigami.ScrollablePage {
             visible: list.count === 0
             anchors.centerIn: parent
 
-            text: i18n("Not history yet")
+            text: i18nc("@info:placeholder", "No history yet")
         }
     }
 }

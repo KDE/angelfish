@@ -20,7 +20,7 @@ Kirigami.InlineMessage {
     actions: [
         Kirigami.Action {
             icon.name: "download"
-            text: i18n("Download")
+            text: i18nc("@action:button", "Download")
             onTriggered: {
                 downloadQuestion.download.resume()
                 downloadQuestion.visible = false
@@ -28,7 +28,7 @@ Kirigami.InlineMessage {
         },
         Kirigami.Action {
             icon.name: "dialog-cancel"
-            text: i18n("Cancel")
+            text: i18nc("@action:button", "Cancel")
             onTriggered: {
                 downloadQuestion.download.cancel()
                 downloadQuestion.visible = false

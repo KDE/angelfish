@@ -37,7 +37,7 @@ Kirigami.InlineMessage {
         case WebEngineView.LocalFontsAccess:
             return i18n("Do you want to allow the website <b>%1</b> to access your <b>fonts</b>?", host)
         default:
-            i18n("The website %1 requested an unknown permission %2", host, permission)
+            i18nc("The website (website) requested an unknown permission: Do you want to allow the website (website) to access your fonts?", "The website %1 requested an unknown permission: %2", host, permission)
         }
     }
     showCloseButton: false
@@ -45,7 +45,7 @@ Kirigami.InlineMessage {
     actions: [
         Kirigami.Action {
             icon.name: "dialog-ok-apply"
-            text: i18n("Accept")
+            text: i18nc("@action:button", "Accept")
             onTriggered: {
                 currentWebView.grantFeaturePermission(
                     permissionQuestion.origin,
@@ -55,7 +55,7 @@ Kirigami.InlineMessage {
         },
         Kirigami.Action {
             icon.name: "dialog-cancel"
-            text: i18n("Decline")
+            text: i18nc("@action:button", "Decline")
             onTriggered: {
                 currentWebView.grantFeaturePermission(
                     permissionQuestion.origin,

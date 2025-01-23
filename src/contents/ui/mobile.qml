@@ -17,7 +17,7 @@ import org.kde.angelfish.settings
 
 Kirigami.ApplicationWindow {
     id: webBrowser
-    title: i18n("Angelfish Web Browser")
+    title: i18nc("@title:window", "Angelfish Web Browser")
 
     /** Pointer to the currently active view.
      *
@@ -63,14 +63,14 @@ Kirigami.ApplicationWindow {
                     popSubPages();
                     tabsSheetLoader.toggle();
                 }
-                text: i18n("Tabs")
+                text: i18nc("@action:inmenu", "Tabs")
             },
             Kirigami.Action {
                 icon.name: "view-private"
                 onTriggered: {
                     rootPage.privateMode ? rootPage.privateMode = false : rootPage.privateMode = true
                 }
-                text: rootPage.privateMode ? i18n("Leave private mode") : i18n("Private mode")
+                text: rootPage.privateMode ? i18nc("@action:inmenu", "Leave Private Mode") : i18nc("@action:inmenu", "Private Mode")
             },
             Kirigami.Action {
                 icon.name: "bookmarks"
@@ -78,7 +78,7 @@ Kirigami.ApplicationWindow {
                     popSubPages();
                     pageStack.push(Qt.resolvedUrl("Bookmarks.qml"))
                 }
-                text: i18n("Bookmarks")
+                text: i18nc("@action:inmenu", "Bookmarks")
             },
             Kirigami.Action {
                 icon.name: "shallow-history"
@@ -86,11 +86,11 @@ Kirigami.ApplicationWindow {
                     popSubPages();
                     pageStack.push(Qt.resolvedUrl("History.qml"))
                 }
-                text: i18n("History")
+                text: i18nc("@action:inmenu", "History")
             },
             Kirigami.Action {
                 icon.name: "download"
-                text: i18n("Downloads")
+                text: i18nc("@action:inmenu", "Downloads")
                 onTriggered: {
                     popSubPages();
                     pageStack.push(Qt.resolvedUrl("Downloads.qml"))
@@ -98,7 +98,7 @@ Kirigami.ApplicationWindow {
             },
             Kirigami.Action {
                 icon.name: "configure"
-                text: i18n("Settings")
+                text: i18nc("@action:inmenu", "Settings")
                 onTriggered: {
                     popSubPages();
                     configurationView.open();
@@ -289,11 +289,11 @@ Kirigami.ApplicationWindow {
                 icon.name: "edit-find"
                 shortcut: "Ctrl+F"
                 onTriggered: findInPage.activate()
-                text: i18n("Find in page")
+                text: i18nc("@action:inmenu", "Find in Page")
             },
             Kirigami.Action {
                 icon.name: "document-share"
-                text: i18n("Share page")
+                text: i18nc("@action:inmenu", "Share Page")
                 onTriggered: {
                     sheetLoader.setSource("ShareSheet.qml")
                     sheetLoader.item.url = currentWebView.url
@@ -304,7 +304,7 @@ Kirigami.ApplicationWindow {
             Kirigami.Action {
                 id: addHomeScreenAction
                 icon.name: "list-add"
-                text: i18n("Add to homescreen")
+                text: i18nc("@action:inmenu", "Add to Homescreen")
                 enabled: !webAppCreator.exists
                 onTriggered: {
                     webAppCreator.createDesktopFile(currentWebView.title,
@@ -314,7 +314,7 @@ Kirigami.ApplicationWindow {
             },
             Kirigami.Action {
                 icon.name: "application-x-object"
-                text: i18n("Open in app")
+                text: i18nc("@action:inmenu", "Open in App")
                 onTriggered: {
                     Qt.openUrlExternally(currentWebView.url)
                 }
@@ -322,7 +322,7 @@ Kirigami.ApplicationWindow {
             Kirigami.Action {
                 enabled: currentWebView.canGoBack
                 icon.name: "go-previous"
-                text: i18n("Go previous")
+                text: i18nc("@action:inmenu", "Go Back")
                 onTriggered: {
                     currentWebView.goBack()
                 }
@@ -330,14 +330,14 @@ Kirigami.ApplicationWindow {
             Kirigami.Action {
                 enabled: currentWebView.canGoForward
                 icon.name: "go-next"
-                text: i18n("Go forward")
+                text: i18nc("@action:inmenu", "Go Forward")
                 onTriggered: {
                     currentWebView.goForward()
                 }
             },
             Kirigami.Action {
                 icon.name: currentWebView.loading ? "process-stop" : "view-refresh"
-                text: currentWebView.loading ? i18n("Stop loading") : i18n("Refresh")
+                text: currentWebView.loading ? i18nc("@action:inmenu", "Stop Loading") : i18nc("@action:inmenu", "Refresh")
                 onTriggered: {
                     currentWebView.loading ? currentWebView.stopLoading() : currentWebView.reload()
                 }
@@ -347,7 +347,7 @@ Kirigami.ApplicationWindow {
                 checkable: true
                 checked: urlObserver.bookmarked
                 icon.name: "bookmarks"
-                text: checked ? i18n("Bookmarked") : i18n("Bookmark")
+                text: checked ? i18nc("@info:status", "Bookmarked") : i18nc("@action:inmenu", "Bookmark")
                 onTriggered: {
                     if (checked) {
                         var request = {
@@ -363,7 +363,7 @@ Kirigami.ApplicationWindow {
             },
             Kirigami.Action {
                 icon.name: "computer"
-                text: i18n("Show desktop site")
+                text: i18nc("@action:inmenu", "Show Desktop Site")
                 checkable: true
                 checked: !currentWebView.userAgent.isMobile
                 onTriggered: {
@@ -372,7 +372,7 @@ Kirigami.ApplicationWindow {
             },
             Kirigami.Action {
                 icon.name: currentWebView.readerMode ? "view-readermode-active" : "view-readermode"
-                text: i18n("Reader Mode")
+                text: i18nc("@action:inmenu", "Reader Mode")
                 checkable: true
                 checked: currentWebView.readerMode
                 onTriggered: currentWebView.readerModeSwitch()
@@ -380,7 +380,7 @@ Kirigami.ApplicationWindow {
             },
             Kirigami.Action {
                 icon.name: "edit-select-text"
-                text: i18n("Hide navigation bar")
+                text: i18nc("@action:inmenu", "Hide Navigation Bar")
                 visible: navigation.visible
                 onTriggered: {
                     if (!navigation.visible) return;
@@ -389,7 +389,7 @@ Kirigami.ApplicationWindow {
             },
             Kirigami.Action {
                 icon.name: "dialog-scripts"
-                text: i18n("Show developer tools")
+                text: i18nc("@action:inmenu", "Show Developer Tools")
                 checkable: true
                 checked: tabs.itemAt(tabs.currentIndex).isDeveloperToolsOpen
                 onTriggered: {

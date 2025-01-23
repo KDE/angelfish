@@ -44,7 +44,7 @@ Item {
         Kirigami.Heading {
             level: 3
             Layout.fillHeight: false
-            text: i18n("Error loading the page")
+            text: i18nc("@title", "Error Loading the Page")
         }
         Controls.Label {
             id: errorDescription
@@ -55,7 +55,7 @@ Item {
         }
         Controls.ToolButton {
             Layout.alignment: Qt.AlignHCenter
-            text: i18n("Retry")
+            text: i18nc("@action:intoolbar", "Retry")
             icon.name: "view-refresh"
             onClicked: errorHandler.refreshRequested()
         }
@@ -70,7 +70,7 @@ Item {
             Controls.Label {
                 Layout.fillWidth: true
                 wrapMode: Text.WordWrap
-                text: i18n(
+                text: i18n( 
 "Do you wish to continue?\n\n \
 If you wish so, you may continue with an unverified certificate.\n \
 Accepting an unverified certificate means you may not be connected with the host you tried to connect to.\n\n \
@@ -78,7 +78,7 @@ Do you wish to override the security check and continue?")
             }
             Controls.Button {
                 Layout.alignment: Qt.AlignRight
-                text: i18n("Yes")
+                text: i18nc("@action:button", "Yes")
                 onClicked: {
                     errorHandler.certErrors.shift().acceptCertificate();
                     errorHandler.certificateIgnored();
@@ -87,7 +87,7 @@ Do you wish to override the security check and continue?")
             }
             Controls.Button {
                 Layout.alignment: Qt.AlignRight
-                text: i18n("No")
+                text: i18nc("@action:button", "No")
                 onClicked: {
                     errorHandler.certErrors.shift().rejectCertificate();
                     sslErrorDrawer.close();

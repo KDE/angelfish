@@ -13,18 +13,18 @@ import org.kde.angelfish
 FormCard.FormCardPage {
     id: adblockSettings
 
-    title: i18n("Adblock settings")
+    title: i18nc("@title:window", "Adblock Settings")
 
     actions: [
         Kirigami.Action {
             icon.name: "list-add"
             onTriggered: addDialog.open()
             enabled: AdblockUrlInterceptor.adblockSupported
-            text: i18nc("@action:intoolbar", "Add Filterlist")
+            text: i18nc("@info:tooltip", "Add filter list")
             displayHint: Kirigami.DisplayHint.IconOnly
         },
         Kirigami.Action {
-            text: i18n("Update lists")
+            text: i18nc("@action:intoolbar", "Update Lists")
             icon.name: "view-refresh"
             enabled: AdblockUrlInterceptor.adblockSupported
             onTriggered: {
@@ -97,7 +97,7 @@ FormCard.FormCardPage {
                         icon.name: "list-remove"
                         display: Controls.AbstractButton.IconOnly
                         onClicked:  filterlistModel.removeFilterList(delegate.index)
-                        text: i18n("Remove this filter list")
+                        text: i18nc("@info:tooltip", "Remove this filter list")
 
                         Layout.leftMargin: Kirigami.Units.smallSpacing
                     }
@@ -109,7 +109,7 @@ FormCard.FormCardPage {
 
         FormCard.FormButtonDelegate {
             id: addSource
-            text: i18n("Add Filterlist")
+            text: i18nc("@action:button", "Add Filter List")
             leading: Kirigami.Icon{
                 source: "list-add"
                 implicitHeight: Kirigami.Units.gridUnit
@@ -121,12 +121,12 @@ FormCard.FormCardPage {
 
                 parent: adblockSettings.Controls.Overlay.overlay
 
-                title: i18n("Add filterlist")
+                title: i18nc("@title:group", "Add Filter List")
 
                 FormCard.FormTextFieldDelegate {
                     id: nameInput
 
-                    label: i18n("Name")
+                    label: i18nc("@label", "Name")
                     onAccepted: urlInput.accepted()
                 }
 
@@ -135,7 +135,7 @@ FormCard.FormCardPage {
                 FormCard.FormTextFieldDelegate {
                     id: urlInput
 
-                    label: i18n("Url")
+                    label: i18nc("@label", "URL")
                     inputMethodHints: Qt.ImhUrlCharactersOnly
                     onAccepted: addDialog.accepted()
                 }

@@ -21,7 +21,7 @@ Kirigami.OverlaySheet {
     rightPadding: 0
 
     header: Kirigami.Heading {
-        text: i18n("Print")
+        text: i18nc("@title:window", "Print")
     }
 
     contentItem: Loader {
@@ -61,17 +61,17 @@ Kirigami.OverlaySheet {
                     Layout.fillWidth: true
 
                     FormCard.FormHeader {
-                        title: i18n("Destination")
+                        title: i18nc("@title:group", "Destination")
                     }
 
                     FormCard.FormTextDelegate {
-                        text: i18n("Save to PDF")
+                        text: i18nc("@title:group", "Save to PDF")
                     }
 
                     FormCard.FormDelegateSeparator {}
 
                     FormCard.FormHeader {
-                        title: i18n("Orientation")
+                        title: i18nc("@title:group", "Orientation")
                     }
 
                     ColumnLayout {
@@ -96,7 +96,7 @@ Kirigami.OverlaySheet {
                     FormCard.FormDelegateSeparator {}
 
                     FormCard.FormHeader {
-                        title: i18n("Paper size")
+                        title: i18nc("@title:group", "Paper Size")
                     }
 
                     FormCard.FormComboBoxDelegate {
@@ -142,11 +142,11 @@ Kirigami.OverlaySheet {
                     FormCard.FormDelegateSeparator {}
 
                     FormCard.FormHeader {
-                        title: i18n("Options")
+                        title: i18nc("@title:group", "Options")
                     }
 
                     FormCard.FormCheckDelegate {
-                        text: i18n("Print backgrounds")
+                        text: i18nc("@label:checkbox", "Print backgrounds")
                         checked: webEngineView.settings.printElementBackgrounds
                         onClicked: {
                             webEngineView.settings.printElementBackgrounds = checked;
@@ -160,12 +160,12 @@ Kirigami.OverlaySheet {
                 Row {
                     spacing: Kirigami.Units.largeSpacing
                     QQC2.Button {
-                        text: i18n("Cancel")
+                        text: i18nc("@action:button", "Cancel")
                         onClicked: printPreview.close()
                     }
 
                     QQC2.Button {
-                        text: i18n("Save")
+                        text: i18nc("@action:button", "Save")
                         onClicked: {
                             const filePath = BrowserManager.downloadDirectory() + "/" + webEngineView.title + ".pdf";
                             webEnginePreview.printToPdf(filePath, webEnginePreview.printedPageSizeId, webEnginePreview.printedPageOrientation);

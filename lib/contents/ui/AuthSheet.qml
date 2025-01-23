@@ -14,7 +14,7 @@ Kirigami.PromptDialog {
     id: root
     property AuthenticationDialogRequest request
 
-    title: i18n("Authentication required")
+    title: i18nc("@title:window", "Authentication Required")
 
     standardButtons: Kirigami.Dialog.Ok | Kirigami.Dialog.Cancel
     
@@ -27,14 +27,14 @@ Kirigami.PromptDialog {
         Controls.TextField {
             id: usernameField
 
-            Kirigami.FormData.label: i18n("Username")
+            Kirigami.FormData.label: i18nc("@label:textbox", "Username:")
             Layout.fillWidth: true
         }
         Controls.TextField {
             id: passwordField
             echoMode: TextInput.Password
 
-            Kirigami.FormData.label: i18n("Password")
+            Kirigami.FormData.label: i18nc("@label:textbox", "Password:")
             Layout.fillWidth: true
         }
     }

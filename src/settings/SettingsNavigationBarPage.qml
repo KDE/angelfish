@@ -15,7 +15,7 @@ import org.kde.angelfish
 FormCard.FormCardPage {
     id: root
 
-    title: i18n("Navigation bar")
+    title: i18nc("@title:window", "Navigation Bar")
 
     FormCard.FormHeader {
         title: root.title
@@ -32,37 +32,37 @@ FormCard.FormCardPage {
         FormCard.FormDelegateSeparator {}
 
         FormCard.FormCheckDelegate {
-            text: i18n("Main menu in portrait")
+            text: i18nc("@label:checkbox", "Main menu in portrait")
             checked: Settings.navBarMainMenu
             onCheckedChanged: Settings.navBarMainMenu = checked
         }
 
         FormCard.FormCheckDelegate {
-            text: i18n("Tabs in portrait")
+            text: i18nc("@label:checkbox", "Tabs in portrait")
             checked: Settings.navBarTabs
             onCheckedChanged: Settings.navBarTabs = checked
         }
 
         FormCard.FormCheckDelegate {
-            text: i18n("Context menu in portrait")
+            text: i18nc("@label:checkbox", "Context menu in portrait")
             checked: Settings.navBarContextMenu
             onCheckedChanged: Settings.navBarContextMenu = checked
         }
 
         FormCard.FormCheckDelegate {
-            text: i18n("Go back")
+            text: i18nc("@label:checkbox", "Go back")
             checked: Settings.navBarBack
             onCheckedChanged: Settings.navBarBack = checked
         }
 
         FormCard.FormCheckDelegate {
-            text: i18n("Go forward")
+            text: i18nc("@label:checkbox", "Go forward")
             checked: Settings.navBarForward
             onCheckedChanged: Settings.navBarForward = checked
         }
 
         FormCard.FormCheckDelegate {
-            text: i18n("Reload/Stop")
+            text: i18nc("@label:checkbox", "Reload/Stop")
             checked: Settings.navBarReload
             onCheckedChanged: Settings.navBarReload = checked
         }

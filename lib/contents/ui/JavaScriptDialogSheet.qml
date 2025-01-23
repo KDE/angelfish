@@ -46,7 +46,7 @@ Kirigami.PromptDialog {
         }
     }
     
-    title: i18n("This page says")
+    title: i18nc("@title:window", "This Page Says")
     
     ColumnLayout {
         spacing: Kirigami.Units.smallSpacing
@@ -76,7 +76,7 @@ Kirigami.PromptDialog {
     }
 
     property var leavePageAction: Kirigami.Action {
-        text: i18n("Leave page")
+        text: i18nc("@action:button", "Leave Page")
         onTriggered: {
             root.request.dialogAccept()
             root.close()
@@ -84,7 +84,7 @@ Kirigami.PromptDialog {
     }
     
     property var submitAction: Kirigami.Action {
-        text: i18n("Submit")
+        text: i18nc("@action:button", "Submit")
         icon.name: "dialog-ok"
         onTriggered: {
             root.request.dialogAccept(inputField.text)

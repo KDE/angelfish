@@ -11,7 +11,7 @@ Kirigami.InlineMessage {
 
     visible: AdblockUrlInterceptor.adblockSupported
 
-    text: i18n("The ad blocker is missing its filter lists, do you want to download them now?")
+    text: i18nc("@info", "The adblocker is missing its filter lists, do you want to download them now?")
     position: Kirigami.Settings.isMobile ? Kirigami.InlineMessage.Footer : Kirigami.InlineMessage.Header
 
     AdblockFilterListsModel {
@@ -27,12 +27,12 @@ Kirigami.InlineMessage {
         Kirigami.Action {
             id: downloadAction
             icon.name: "download"
-            text: i18n("Download")
+            text: i18nc("@action:button", "Download")
 
             onTriggered: {
                 filterListsModel.refreshLists()
                 downloadAction.enabled = false;
-                downloadAction.text = i18n("Downloading...")
+                downloadAction.text = i18nc("@info", "Downloading…")
             }
         }
     ]

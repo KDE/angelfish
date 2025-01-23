@@ -229,7 +229,7 @@ RowLayout {
                     Layout.leftMargin: Kirigami.Units.smallSpacing
                     Layout.rightMargin: Kirigami.Units.smallSpacing
                     text: tabs.itemAt(model.index).readerMode ?
-                        i18n("Reader Mode: %1", tabs.itemAt(model.index).readerTitle)
+                        i18nc("@label", "Reader mode: %1", tabs.itemAt(model.index).readerTitle)
                         : tabs.itemAt(model.index).title
                     elide: Text.ElideRight
                     horizontalAlignment: Text.AlignLeft
@@ -258,7 +258,7 @@ RowLayout {
 
                     QQC2.ToolTip.visible: closeButton.hovered
                     QQC2.ToolTip.delay: Qt.styleHints.mousePressAndHoldInterval
-                    QQC2.ToolTip.text: i18n("Close tab")
+                    QQC2.ToolTip.text: i18nc("@info:tooltip", "Close tab")
                 }
 
                 QQC2.ToolTip.visible: control.hovered
@@ -288,7 +288,7 @@ RowLayout {
 
                     QQC2.ToolTip.visible: hoverHandler.hovered
                     QQC2.ToolTip.delay: Qt.styleHints.mousePressAndHoldInterval
-                    QQC2.ToolTip.text: i18n("Open a new tab")
+                    QQC2.ToolTip.text: i18nc("@info:tooltip", "Open a new tab")
 
                     HoverHandler {
                         id: hoverHandler
@@ -321,7 +321,7 @@ RowLayout {
 
             QQC2.ToolTip.visible: hoverHandler.hovered
             QQC2.ToolTip.delay: Qt.styleHints.mousePressAndHoldInterval
-            QQC2.ToolTip.text: i18n("List all tabs")
+            QQC2.ToolTip.text: i18nc("@info:tooltip", "List all tabs")
 
             HoverHandler {
                 id: hoverHandler
@@ -352,7 +352,7 @@ RowLayout {
         property int index
 
         Kirigami.Action {
-            text: i18n("New Tab")
+            text: i18nc("@action:inmenu", "New Tab")
             icon.name: "list-add"
             shortcut: "Ctrl+T"
             onTriggered: tabs.tabsModel.newTab(Settings.newTabUrl)
@@ -361,7 +361,7 @@ RowLayout {
         QQC2.MenuSeparator {}
 
         Kirigami.Action {
-            text: i18n("Reload Tab")
+            text: i18nc("@action:inmenu", "Reload Tab")
             icon.name: "view-refresh"
             shortcut: "Ctrl+R"
             onTriggered: {
@@ -369,7 +369,7 @@ RowLayout {
             }
         }
         Kirigami.Action {
-            text: i18n("Duplicate Tab")
+            text: i18nc("@action:inmenu", "Duplicate Tab")
             icon.name: "tab-duplicate"
             onTriggered: tabs.tabsModel.newTab(currentWebView.url)
         }
@@ -377,7 +377,7 @@ RowLayout {
         QQC2.MenuSeparator {}
 
         Kirigami.Action {
-            text: i18n("Bookmark Tab")
+            text: i18nc("@action:inmenu", "Bookmark Tab")
             icon.name: urlObserver.bookmarked ? "rating" : "rating-unrated"
             shortcut: "Ctrl+D"
             onTriggered: {
@@ -393,7 +393,7 @@ RowLayout {
         QQC2.MenuSeparator {}
 
         Kirigami.Action {
-            text: i18n("Close Tab")
+            text: i18nc("@action:inmenu", "Close Tab")
             icon.name: "tab-close"
             onTriggered: tabs.tabsModel.closeTab(tabMenu.index)
         }

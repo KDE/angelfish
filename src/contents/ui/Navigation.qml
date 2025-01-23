@@ -407,7 +407,7 @@ Item {
                     minimumPixelSize: 0
                     minimumPointSize: 0
                     clip: true
-                    text: i18n("Done")
+                    text: i18nc("@action:intoolbar", "Done")
                     horizontalAlignment: Text.AlignHCenter
                     verticalAlignment: Text.AlignVCenter
                     Kirigami.Theme.inherit: true
@@ -420,7 +420,7 @@ Item {
                 Layout.fillWidth: true
                 minimumPixelSize: 0
                 minimumPointSize: 0
-                text: "%1 Tabs".arg(tabs.count)
+                text: i18nc("@info:status", "%1 tabs", tabs.count)
                 horizontalAlignment: Text.AlignHCenter
                 verticalAlignment: Text.AlignVCenter
                 Kirigami.Theme.inherit: true
@@ -434,7 +434,7 @@ Item {
                 Layout.preferredHeight:  buttonSize
 
                 icon.name: "list-add"
-                text: i18n("New Tab")
+                text: i18nc("@action:inmenu", "New Tab")
 
                 Kirigami.Theme.inherit: true
 

@@ -14,10 +14,10 @@ import org.kde.angelfish
 FormCard.FormCardPage {
     id: root
 
-    title: i18n("Search Engine")
+    title: i18nc("@window:title", "Search Engines")
 
     property string baseUrl: Settings.searchBaseUrl
-    property string customName: i18n("Custom")
+    property string customName: i18nc("@label", "Custom")
 
     FormCard.FormHeader {
         title: root.title
@@ -109,12 +109,12 @@ FormCard.FormCardPage {
     FormCard.FormCardDialog {
         id: searchEnginePopup
 
-        title: i18n("Search Engine")
+        title: i18nc("@title:window", "Search Engines")
         parent: Controls.Overlay.overlay
 
         FormCard.FormTextFieldDelegate {
             id: urlInput
-            label: i18n("Base URL of your preferred search engine")
+            label: i18nc("@label", "Base URL of your preferred search engine")
             text: Settings.searchCustomUrl
             onAccepted: searchEnginePopup.accepted();
         }

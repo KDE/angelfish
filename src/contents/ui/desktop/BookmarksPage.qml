@@ -27,7 +27,7 @@ Kirigami.ScrollablePage {
                 id: search
                 Layout.fillWidth: true
 
-                placeholderText: i18n("Search bookmarks…")
+                placeholderText: i18nc("@info:placeholder", "Search bookmarks…")
                 inputMethodHints: rootPage.privateMode ? Qt.ImhNoPredictiveText : Qt.ImhNone
                 onAccepted: {
                     if (text === "" || text.length > 2) {
@@ -74,7 +74,7 @@ Kirigami.ScrollablePage {
             anchors.centerIn: parent
             width: parent.width - Kirigami.Units.gridUnit * 4
 
-            text: i18n("No bookmarks yet")
+            text: i18nc("@info:placeholder", "No bookmarks yet")
         }
     }
 }

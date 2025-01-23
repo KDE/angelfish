@@ -9,7 +9,7 @@ import org.kde.kirigami 2.8 as Kirigami
 import org.kde.angelfish 1.0
 
 Kirigami.ScrollablePage {
-    title: i18n("History")
+    title: i18nc("@title:window", "History")
     Kirigami.ColumnView.fillWidth: false
 
     actions: [

@@ -240,7 +240,7 @@ classes
     onNewWindowRequested: request => {
         if (request.userInitiated) {
             tabsModel.newTab(request.requestedUrl.toString())
-            showPassiveNotification(i18n("Website was opened in a new tab"))
+            showPassiveNotification(i18nc("@info:status", "Website was opened in a new tab"))
         } else {
             questionLoader.setSource("NewTabQuestion.qml")
             questionLoader.item.url = request.requestedUrl
@@ -258,8 +258,8 @@ classes
     onFullScreenRequested: request => {
         if (request.toggleOn) {
             webBrowser.showFullScreen()
-            const message = i18n("Entered Full Screen Mode")
-            const actionText = i18n("Exit Full Screen (Esc)")
+            const message = i18nc("@info:status", "Entered Full Screen mode")
+            const actionText = i18nc("@action:button", "Exit Full Screen (Esc)")
             showPassiveNotification(message, "short", actionText, function() { webEngineView.fullScreenCancelled() });
         } else {
             webBrowser.showNormal()
@@ -392,16 +392,16 @@ classes
             visible: contextMenu.isAudio || contextMenu.isVideo
             height: visible ? implicitHeight : 0
             text: contextMenu.request && contextMenu.request.mediaFlags & ContextMenuRequest.MediaPaused
-            ? i18n("Play")
-            : i18n("Pause")
+            ? i18nc("@action:inmenu", "Play")
+            : i18nc("@action:inmenu", "Pause")
             onTriggered: webEngineView.triggerWebAction(WebEngineView.ToggleMediaPlayPause)
         }
         QQC2.MenuItem {
             visible: contextMenu.request && contextMenu.request.mediaFlags & ContextMenuRequest.MediaHasAudio
             height: visible ? implicitHeight : 0
             text:  contextMenu.request && contextMenu.request.mediaFlags & ContextMenuRequest.MediaMuted
-            ? i18n("Unmute")
-            : i18n("Mute")
+            ? i18nc("@action:inmenu", "Unmute")
+            : i18nc("@action:inmenu", "Mute")
             onTriggered: webEngineView.triggerWebAction(WebEngineView.ToggleMediaMute)
         }
         QQC2.MenuItem {
@@ -411,7 +411,7 @@ classes
                 QQC2.Label {
                     Layout.leftMargin: Kirigami.Units.largeSpacing
                     Layout.fillWidth: true
-                    text: i18n("Speed")
+                    text: i18nc("@label", "Speed")
                 }
                 QQC2.SpinBox {
                     Layout.rightMargin: Kirigami.Units.largeSpacing
@@ -434,14 +434,14 @@ classes
         QQC2.MenuItem {
             visible: contextMenu.isAudio || contextMenu.isVideo
             height: visible ? implicitHeight : 0
-            text: i18n("Loop")
+            text: i18nc("@action:inmenu", "Loop")
             checked: contextMenu.request && contextMenu.request.mediaFlags & ContextMenuRequest.MediaLoop
             onTriggered: webEngineView.triggerWebAction(WebEngineView.ToggleMediaLoop)
         }
         QQC2.MenuItem {
             visible: webEngineView.settings.javascriptEnabled && contextMenu.isVideo
             height: visible ? implicitHeight : 0
-            text: webEngineView.isFullScreen ? i18n("Exit fullscreen") : i18n("Fullscreen")
+            text: webEngineView.isFullScreen ? i18nc("@action:inmenu", "Exit Fullscreen") : i18nc("@action:inmenu", "Enter Fullscreen")
             onTriggered: {
                 const point = contextMenu.request.x + ', ' + contextMenu.request.y
                 const js = webEngineView.isFullScreen
@@ -454,8 +454,8 @@ classes
             visible: webEngineView.settings.javascriptEnabled && (contextMenu.isAudio || contextMenu.isVideo)
             height: visible ? implicitHeight : 0
             text: contextMenu.request && contextMenu.request.mediaFlags & ContextMenuRequest.MediaControls
-            ? i18n("Hide controls")
-            : i18n("Show controls")
+            ? i18nc("@action:inmenu", "Hide Controls")
+            : i18nc("@action:inmenu", "Show Controls")
             onTriggered: webEngineView.triggerWebAction(WebEngineView.ToggleMediaControls)
         }
         QQC2.MenuSeparator { visible: contextMenu.isAudio || contextMenu.isVideo }
@@ -463,8 +463,8 @@ classes
             visible: (contextMenu.isAudio || contextMenu.isVideo) && contextMenu.request.mediaUrl !== currentWebView.url
             height: visible ? implicitHeight : 0
             text: webEngineView.isAppView
-                ? contextMenu.isVideo ? i18n("Open video") : i18n("Open audio")
-                : contextMenu.isVideo ? i18n("Open video in new Tab") : i18n("Open audio in new Tab")
+                ? contextMenu.isVideo ? i18nc("@action:inmenu", "Open Video") : i18nc("@action:inmenu", "Open Audio")
+                : contextMenu.isVideo ? i18nc("@action:inmenu", "Open Video in New Tab") : i18nc("@action:inmenu", "Open Audio in New Tab")
             onTriggered: {
                 if (webEngineView.isAppView) {
                     Qt.openUrlExternally(contextMenu.request.mediaUrl);
@@ -476,19 +476,19 @@ classes
         QQC2.MenuItem {
             visible: contextMenu.isVideo
             height: visible ? implicitHeight : 0
-            text: i18n("Save video")
+            text: i18nc("@action:inmenu", "Save Video")
             onTriggered: webEngineView.triggerWebAction(WebEngineView.DownloadMediaToDisk)
         }
         QQC2.MenuItem {
             visible: contextMenu.isVideo
             height: visible ? implicitHeight : 0
-            text: i18n("Copy video Link")
+            text: i18nc("@action:inmenu", "Copy Video Link")
             onTriggered: webEngineView.triggerWebAction(WebEngineView.CopyMediaUrlToClipboard)
         }
         QQC2.MenuItem {
             visible: contextMenu.isImage && contextMenu.request.mediaUrl !== currentWebView.url
             height: visible ? implicitHeight : 0
-            text: webEngineView.isAppView ? i18n("Open image") : i18n("Open image in new Tab")
+            text: webEngineView.isAppView ? i18nc("@action:inmenu", "Open Image") : i18nc("@action:inmenu", "Open Image in New Tab")
             onTriggered: {
                 if (webEngineView.isAppView) {
                     Qt.openUrlExternally(contextMenu.request.mediaUrl);
@@ -500,25 +500,25 @@ classes
         QQC2.MenuItem {
             visible: contextMenu.isImage
             height: visible ? implicitHeight : 0
-            text: i18n("Save image")
+            text: i18nc("@action:inmenu", "Save Image")
             onTriggered: webEngineView.triggerWebAction(WebEngineView.DownloadImageToDisk)
         }
         QQC2.MenuItem {
             visible: contextMenu.isImage
             height: visible ? implicitHeight : 0
-            text: i18n("Copy image")
+            text: i18nc("@action:inmenu", "Copy Image")
             onTriggered: webEngineView.triggerWebAction(WebEngineView.CopyImageToClipboard)
         }
         QQC2.MenuItem {
             visible: contextMenu.isImage
             height: visible ? implicitHeight : 0
-            text: i18n("Copy image link")
+            text: i18nc("@action:inmenu", "Copy Image Link")
             onTriggered: webEngineView.triggerWebAction(WebEngineView.CopyImageUrlToClipboard)
         }
         QQC2.MenuItem {
             visible: contextMenu.request && contextMenu.isValidUrl
             height: visible ? implicitHeight : 0
-            text: webEngineView.isAppView ? i18n("Open link") : i18n("Open link in new Tab")
+            text: webEngineView.isAppView ? i18nc("@action:inmenu", "Open Link") : i18nc("@action:inmenu", "Open Link in New Tab")
             onTriggered: {
                 if (webEngineView.isAppView) {
                     Qt.openUrlExternally(contextMenu.request.linkUrl);
@@ -530,7 +530,7 @@ classes
         QQC2.MenuItem {
             visible: contextMenu.request && contextMenu.isValidUrl
             height: visible ? implicitHeight : 0
-            text: i18n("Bookmark link")
+            text: i18nc("@action:inmenu", "Bookmark Link")
             onTriggered: {
                 const bookmark = {
                     url: contextMenu.request.linkUrl,
@@ -542,40 +542,40 @@ classes
         QQC2.MenuItem {
             visible: contextMenu.request && contextMenu.isValidUrl
             height: visible ? implicitHeight : 0
-            text: i18n("Save link")
+            text: i18nc("@action:inmenu", "Save Link")
             onTriggered: webEngineView.triggerWebAction(WebEngineView.DownloadLinkToDisk)
         }
         QQC2.MenuItem {
             visible: contextMenu.request && contextMenu.isValidUrl
             height: visible ? implicitHeight : 0
-            text: i18n("Copy link")
+            text: i18nc("@action:inmenu", "Copy Link")
             onTriggered: webEngineView.triggerWebAction(WebEngineView.CopyLinkToClipboard)
         }
         QQC2.MenuSeparator { visible: contextMenu.request && contextMenu.isValidUrl }
         QQC2.MenuItem {
             visible: contextMenu.request && (contextMenu.request.editFlags & ContextMenuRequest.CanCopy) && contextMenu.request.mediaUrl == ""
             height: visible ? implicitHeight : 0
-            text: i18n("Copy")
+            text: i18nc("@action:inmenu", "Copy")
             onTriggered: webEngineView.triggerWebAction(WebEngineView.Copy)
         }
         QQC2.MenuItem {
             visible: contextMenu.request && (contextMenu.request.editFlags & ContextMenuRequest.CanCut)
             height: visible ? implicitHeight : 0
-            text: i18n("Cut")
+            text: i18nc("@action:inmenu", "Cut")
             onTriggered: webEngineView.triggerWebAction(WebEngineView.Cut)
         }
         QQC2.MenuItem {
             visible: contextMenu.request && (contextMenu.request.editFlags & ContextMenuRequest.CanPaste)
             height: visible ? implicitHeight : 0
-            text: i18n("Paste")
+            text: i18nc("@action:inmenu", "Paste")
             onTriggered: webEngineView.triggerWebAction(WebEngineView.Paste)
         }
         QQC2.MenuItem {
             property string fullText: contextMenu.request ? contextMenu.request.selectedText || contextMenu.request.linkText : ""
-            property string elidedText: fullText.length > 25 ? fullText.slice(0, 25) + "..." : fullText
+            property string elidedText: fullText.length > 25 ? fullText.slice(0, 25) + "…" : fullText
             visible: contextMenu.request && fullText
             height: visible ? implicitHeight : 0
-            text: contextMenu.request && fullText ? i18n('Search for "%1"', elidedText) : ""
+            text: contextMenu.request && fullText ? i18nc("@action:inmenu", "Search for “%1”, elidedText) : ""
             onTriggered: {
                 if (webEngineView.isAppView) {
                     Qt.openUrlExternally(UrlUtils.urlFromUserInput(Settings.searchBaseUrl + fullText));
@@ -588,7 +588,7 @@ classes
         QQC2.MenuItem {
             visible: !webEngineView.isAppView && contextMenu.request && contextMenu.request.selectedText === ""
             height: visible ? implicitHeight : 0
-            text: i18n("Share page")
+            text: i18nc("@action:inmenu", "Share Page")
             onTriggered: {
                 sheetLoader.setSource("ShareSheet.qml")
                 sheetLoader.item.url = currentWebView.url
@@ -600,7 +600,7 @@ classes
         QQC2.MenuItem {
             visible: !webEngineView.isAppView
             height: visible ? implicitHeight : 0
-            text: i18n("View page source")
+            text: i18nc("@action:inmenu", "View Page Source")
             onTriggered: tabsModel.newTab("view-source:" + webEngineView.url)
         }
     }

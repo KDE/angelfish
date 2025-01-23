@@ -15,7 +15,7 @@ Kirigami.Dialog {
     property url url
     property string inputTitle
 
-    title: i18n("Share page to")
+    title: i18nc("@title:window", "Share Page")
     preferredWidth: Kirigami.Units.gridUnit * 16
     standardButtons: Kirigami.Dialog.NoButton
 

@@ -12,7 +12,7 @@ import org.kde.angelfish
 FormCard.FormCardPage {
     id: root
 
-    title: i18n("Toolbars")
+    title: i18nc("@title:window", "Toolbars")
 
     FormCard.FormHeader {
         title: root.title
@@ -21,7 +21,7 @@ FormCard.FormCardPage {
     FormCard.FormCard {
         FormCard.FormSwitchDelegate {
             id: showHome
-            text: i18n("Show home button:")
+            text: i18nc("@label", "Show home button:")
             description: i18n("The home button will be shown next to the reload button in the toolbar.")
             checked: Settings.showHomeButton
             onClicked: Settings.showHomeButton = checked
@@ -32,7 +32,7 @@ FormCard.FormCardPage {
         FormCard.FormTextFieldDelegate {
             id: homepage
             visible: Settings.showHomeButton
-            label: i18n("Homepage:")
+            label: i18nc("@label", "Homepage:")
             text: Settings.homepage
             onAccepted: {
                 let url = text;
@@ -55,7 +55,7 @@ FormCard.FormCardPage {
 
         FormCard.FormTextFieldDelegate {
             id: newTab
-            label: i18n("New tabs:")
+            label: i18nc("@label", "New tabs:")
             text: Settings.newTabUrl
             onAccepted: {
                 let url = text;
@@ -78,8 +78,8 @@ FormCard.FormCardPage {
 
         FormCard.FormSwitchDelegate {
             id: alwaysShowTabs
-            text: i18n("Always show the tab bar")
-            description: i18n("The tab bar will be displayed even if there is only one tab open")
+            text: i18n("@label:checkbox", "Always show the tab bar")
+            description: i18n("The tab bar will be displayed even if there is only one tab open.")
             checked: Settings.showTabBar
             onClicked: Settings.showTabBar = checked
         }

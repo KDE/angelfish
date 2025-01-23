@@ -272,7 +272,7 @@ Kirigami.Page {
                                 color: Kirigami.Theme.textColor
                                 text: tabs.itemAt(index) ?
                                 tabs.itemAt(index).readerMode ?
-                                i18n("Reader Mode: %1", tabs.itemAt(index).readerTitle)
+                                i18nc("@label", "Reader mode: %1", tabs.itemAt(index).readerTitle)
                                 : tabs.itemAt(index).title
                                 : ""
                                 font.pointSize: Kirigami.Theme.defaultFont.pointSize - 2
@@ -303,7 +303,7 @@ Kirigami.Page {
 
                                 QQC2.ToolTip.visible: hoverHandler.hovered
                                 QQC2.ToolTip.delay: Qt.styleHints.mousePressAndHoldInterval
-                                QQC2.ToolTip.text: i18n("Close tab")
+                                QQC2.ToolTip.text: i18nc("@info:tooltip", "Close tab")
 
                                 HoverHandler {
                                     id: hoverHandler

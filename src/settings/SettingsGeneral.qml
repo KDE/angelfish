@@ -15,7 +15,7 @@ import org.kde.angelfish
 FormCard.FormCardPage {
     id: root
 
-    title: i18n("General")
+    title: i18nc("@title:window", "General")
 
     FormCard.FormHeader {
         title: root.title
@@ -34,7 +34,7 @@ FormCard.FormCardPage {
 
         FormCard.FormSwitchDelegate {
             id: loadImages
-            text: i18n("Load images")
+            text: i18nc("@label:checkbox", "Load images")
             description: i18n("Whether to load images on websites.")
             checked: Settings.webAutoLoadImages
             onClicked: Settings.webAutoLoadImages = checked
@@ -44,8 +44,8 @@ FormCard.FormCardPage {
 
         FormCard.FormSwitchDelegate {
             id: enableAdblock
-            text: i18n("Enable adblock")
-            description: enabled ? i18n("Attempts to prevent advertisements on websites from showing.") : i18n("AdBlock functionality was not included in this build.")
+            text: i18nc("@label:checkbox", "Enable adblock")
+            description: enabled ? i18n("Attempts to prevent advertisements on websites from showing.") : i18n("Adblock functionality was not included in this build.")
             enabled: AdblockUrlInterceptor.adblockSupported
             checked: AdblockUrlInterceptor.enabled
             onClicked: AdblockUrlInterceptor.enabled = checked
@@ -55,8 +55,8 @@ FormCard.FormCardPage {
 
         FormCard.FormSwitchDelegate {
             id: openLinkSwitch
-            text: i18n("Switch to new tab immediately")
-            description: i18n("When you open a link, image or media in a new tab, switch to it immediately")
+            text: i18nc("@label:checkbox", "Switch to new tab immediately")
+            description: i18n("When you open a link, image or media in a new tab, switch to it immediately.")
             checked: Settings.switchToNewTab
             onClicked: Settings.switchToNewTab = checked
         }
@@ -65,7 +65,7 @@ FormCard.FormCardPage {
 
         FormCard.FormSwitchDelegate {
             id: enableSmoothScrolling
-            text: i18n("Use Smooth Scrolling")
+            text: i18nc("@label:checkbox", "Use smooth scrolling")
             description: i18n("Scrolling is smoother and will not stop suddenly when you stop scrolling. Requires app restart to take effect.")
             checked: Settings.webSmoothScrollingEnabled
             onClicked: Settings.webSmoothScrollingEnabled = checked
@@ -75,7 +75,7 @@ FormCard.FormCardPage {
 
         FormCard.FormSwitchDelegate {
             id: enableDarkMode
-            text: i18n("Use dark color scheme")
+            text: i18nc("@label:checkbox", "Use dark color scheme")
             description: i18n("Websites will have their color schemes set to dark. Requires app restart to take effect.")
             checked: Settings.webDarkModeEnabled
             onClicked: Settings.webDarkModeEnabled = checked

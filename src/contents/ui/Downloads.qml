@@ -13,7 +13,7 @@ import org.kde.kirigamiaddons.delegates as Delegates
 import org.kde.angelfish 1.0
 
 Kirigami.ScrollablePage {
-    title: i18n("Downloads")
+    title: i18nc("@title:window", "Downloads")
     Kirigami.ColumnView.fillWidth: false
 
     ListView {
@@ -25,7 +25,7 @@ Kirigami.ScrollablePage {
             anchors.centerIn: parent
             width: parent.width - (Kirigami.Units.largeSpacing * 4)
             visible: parent.count === 0
-            text: i18n("No running downloads")
+            text: i18nc("@info:placeholder", "No running downloads")
         }
         delegate: Delegates.RoundedItemDelegate {
             id: downloadDelegate
@@ -74,22 +74,22 @@ Kirigami.ScrollablePage {
                         text: {
                             switch (downloadDelegate.download.state) {
                             case WebEngineDownloadRequest.DownloadRequested:
-                                return i18nc("download state", "Starting…");
+                                return i18nc("@info:progress", "Starting…");
                             case WebEngineDownloadRequest.DownloadCompleted:
-                                return i18n("Completed");
+                                return i18nc("@info:progress", "Completed");
                             case WebEngineDownloadRequest.DownloadCancelled:
-                                return i18n("Cancelled");
+                                return i18nc("@info:progress", "Cancelled");
                             case WebEngineDownloadRequest.DownloadInterrupted:
-                                return i18nc("download state", "Interrupted");
+                                return i18nc("@info:progress", "Interrupted");
                             case WebEngineDownloadRequest.DownloadInProgress:
-                                return i18nc("download state", "In progress")
+                                return i18nc("@info:progress", "In progress…")
                             }
                         }
                     }
                 }
 
                 QQC2.ToolButton {
-                    text: i18n("Cancel")
+                    text: i18nc("@info:tooltip", "Cancel")
                     display: QQC2.ToolButton.IconOnly
                     icon.name: downloadDelegate.download.state === WebEngineDownloadRequest.DownloadInProgress ? "dialog-cancel" : "list-remove"
                     onClicked: downloadsModel.removeDownload(index)
@@ -102,7 +102,7 @@ Kirigami.ScrollablePage {
                 QQC2.ToolButton {
                     visible: !downloadDelegate.download.isPaused && downloadDelegate.download.state === WebEngineDownloadRequest.DownloadInProgress
                     display: QQC2.ToolButton.IconOnly
-                    text: i18n("Pause")
+                    text: i18c("@info:tooltip", "Pause")
                     icon.name: "media-playback-pause"
                     onClicked: downloadDelegate.download.pause()
 
@@ -114,7 +114,7 @@ Kirigami.ScrollablePage {
                 QQC2.ToolButton {
                     visible: downloadDelegate.download.isPaused && downloadDelegate.download.state === WebEngineDownloadRequest.DownloadInProgress
                     display: QQC2.ToolButton.IconOnly
-                    text: i18n("Continue")
+                    text: i18nc("@info:tooltip", "Continue")
                     icon.name: "media-playback-start"
                     onClicked: downloadDelegate.download.resume();
 
