@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the plasma-angelfish package.
 #
 # Volkan Gezer <volkangezer@gmail.com>, 2020, 2021.
-# SPDX-FileCopyrightText: 2022, 2023, 2024 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-10-20 00:39+0000\n"
-"PO-Revision-Date: 2024-10-20 12:21+0300\n"
+"PO-Revision-Date: 2025-01-23 12:25+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.11.70\n"
+"X-Generator: Lokalize 25.03.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -41,7 +41,7 @@ msgstr "Melekbalığı Web Uygulaması çalışma zamanı"
 #: angelfish-webapp/main.cpp:100
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
-msgstr "Telif Hakkı 2020 Melekbalığı geliştiricileri"
+msgstr "© 2020 Melekbalığı geliştiricileri"
 
 #: angelfish-webapp/main.cpp:102
 #, kde-format
@@ -51,12 +51,12 @@ msgstr "Marco Martin"
 #: lib/angelfishwebprofile.cpp:63
 #, kde-format
 msgid "Download finished"
-msgstr "Yükleme tamamlandı"
+msgstr "İndirme tamamlandı"
 
 #: lib/angelfishwebprofile.cpp:67
 #, kde-format
 msgid "Download failed"
-msgstr "Yükleme hatası"
+msgstr "İndirme başarısız oldu"
 
 #: lib/angelfishwebprofile.cpp:88 src/contents/ui/NewTabQuestion.qml:19
 #, kde-format
@@ -66,7 +66,7 @@ msgstr "Aç"
 #: lib/contents/ui/AuthSheet.qml:17
 #, kde-format
 msgid "Authentication required"
-msgstr "Kimlik doğrulama"
+msgstr "Kimlik doğrulama gerekiyor"
 
 #: lib/contents/ui/AuthSheet.qml:30
 #, kde-format
@@ -145,8 +145,8 @@ msgid ""
 "The website asks for confirmation that you want to leave. Unsaved "
 "information might not be saved."
 msgstr ""
-"Web sitesi, ayrılmak istediğinizden dair onay ister. Kaydedilmemiş bilgiler "
-"kaydedilmeyebilir."
+"Web sitesi, ayrılmak istediğinizden dair onay istiyor. Kaydedilmemiş "
+"bilgiler kaybolabilir."
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:79
 #, kde-format
@@ -248,7 +248,7 @@ msgstr "Kaydet"
 #: lib/contents/ui/WebView.qml:243
 #, kde-format
 msgid "Website was opened in a new tab"
-msgstr "Web sitesi eni sekmede açılacak"
+msgstr "Web sitesi yeni bir sekmede açılmış"
 
 #: lib/contents/ui/WebView.qml:261
 #, kde-format
@@ -293,7 +293,7 @@ msgstr "Döngü"
 #: lib/contents/ui/WebView.qml:444
 #, kde-format
 msgid "Exit fullscreen"
-msgstr "Tam ekrandan çık"
+msgstr "Tam Ekrandan Çık"
 
 #: lib/contents/ui/WebView.qml:444
 #, kde-format
@@ -303,92 +303,92 @@ msgstr "Tam Ekran"
 #: lib/contents/ui/WebView.qml:457
 #, kde-format
 msgid "Hide controls"
-msgstr "Denetimleri gizle"
+msgstr "Denetimleri Gizle"
 
 #: lib/contents/ui/WebView.qml:458
 #, kde-format
 msgid "Show controls"
-msgstr "Denetimleri göster"
+msgstr "Denetimleri Göster"
 
 #: lib/contents/ui/WebView.qml:466
 #, kde-format
 msgid "Open video"
-msgstr "Video aç"
+msgstr "Videoyu Aç"
 
 #: lib/contents/ui/WebView.qml:466
 #, kde-format
 msgid "Open audio"
-msgstr "Ses aç"
+msgstr "Sesi Aç"
 
 #: lib/contents/ui/WebView.qml:467
 #, kde-format
 msgid "Open video in new Tab"
-msgstr "Videoyu yeni sekmede aç"
+msgstr "Videoyu Yeni Sekmede Aç"
 
 #: lib/contents/ui/WebView.qml:467
 #, kde-format
 msgid "Open audio in new Tab"
-msgstr "Sesi yeni sekmede aç"
+msgstr "Sesi Yeni Sekmede Aç"
 
 #: lib/contents/ui/WebView.qml:479
 #, kde-format
 msgid "Save video"
-msgstr "Video kaydet"
+msgstr "Videoyu Kaydet"
 
 #: lib/contents/ui/WebView.qml:485
 #, kde-format
 msgid "Copy video Link"
-msgstr "Video bağlantısını kopyala"
+msgstr "Video Bağlantısını Kopyala"
 
 #: lib/contents/ui/WebView.qml:491
 #, kde-format
 msgid "Open image"
-msgstr "Görseli aç"
+msgstr "Görseli Aç"
 
 #: lib/contents/ui/WebView.qml:491
 #, kde-format
 msgid "Open image in new Tab"
-msgstr "Görseli yeni sekmede aç"
+msgstr "Görseli Yeni Sekmede Aç"
 
 #: lib/contents/ui/WebView.qml:503
 #, kde-format
 msgid "Save image"
-msgstr "Görseli kaydet"
+msgstr "Görseli Kaydet"
 
 #: lib/contents/ui/WebView.qml:509
 #, kde-format
 msgid "Copy image"
-msgstr "Görseli kopyala"
+msgstr "Görseli Kopyala"
 
 #: lib/contents/ui/WebView.qml:515
 #, kde-format
 msgid "Copy image link"
-msgstr "Görsel bağlantısını kopyala"
+msgstr "Görsel Bağlantısını Kopyala"
 
 #: lib/contents/ui/WebView.qml:521
 #, kde-format
 msgid "Open link"
-msgstr "Bağlantıyı aç"
+msgstr "Bağlantıyı Aç"
 
 #: lib/contents/ui/WebView.qml:521
 #, kde-format
 msgid "Open link in new Tab"
-msgstr "Bağlantıyı yeni sekmede aç"
+msgstr "Bağlantıyı Yeni Sekmede Aç"
 
 #: lib/contents/ui/WebView.qml:533
 #, kde-format
 msgid "Bookmark link"
-msgstr "Bağlantıyı yer imlerine ekle"
+msgstr "Bağlantıya Yer İmi Koy"
 
 #: lib/contents/ui/WebView.qml:545
 #, kde-format
 msgid "Save link"
-msgstr "Bağlantıyı kaydet"
+msgstr "Bağlantıyı Kaydet"
 
 #: lib/contents/ui/WebView.qml:551
 #, kde-format
 msgid "Copy link"
-msgstr "Bağlantıyı kopyala"
+msgstr "Bağlantıyı Kopyala"
 
 #: lib/contents/ui/WebView.qml:558
 #, kde-format
@@ -409,12 +409,12 @@ msgstr "Yapıştır"
 #: src/contents/ui/mobile.qml:296
 #, kde-format
 msgid "Share page"
-msgstr "Sayfayı paylaş"
+msgstr "Sayfayı Paylaş"
 
 #: lib/contents/ui/WebView.qml:603
 #, kde-format
 msgid "View page source"
-msgstr "Sayfa kaynağını görüntüle"
+msgstr "Sayfa Kaynağını Görüntüle"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
 #, kde-format
@@ -459,12 +459,12 @@ msgstr "Yeni Sekme"
 #: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/mobile.qml:73
 #, kde-format
 msgid "Leave private mode"
-msgstr "Özel kipten çık"
+msgstr "Gizli Kipten Çık"
 
 #: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/mobile.qml:73
 #, kde-format
 msgid "Private mode"
-msgstr "Özel kip"
+msgstr "Gizli Kip"
 
 #: src/contents/ui/desktop/desktop.qml:265 src/contents/ui/History.qml:12
 #: src/contents/ui/mobile.qml:89
@@ -486,17 +486,17 @@ msgstr "Tam Ekran"
 #: src/contents/ui/desktop/desktop.qml:319
 #, kde-format
 msgid "Hide developer tools"
-msgstr "Geliştirici araçlarını gizle"
+msgstr "Geliştirici Araçlarını Gizle"
 
 #: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:392
 #, kde-format
 msgid "Show developer tools"
-msgstr "Geliştirici araçlarını göster"
+msgstr "Geliştirici Araçlarını Göster"
 
 #: src/contents/ui/desktop/desktop.qml:329 src/contents/ui/mobile.qml:292
 #, kde-format
 msgid "Find in page"
-msgstr "Sayfada bul"
+msgstr "Sayfada Bul"
 
 #: src/contents/ui/desktop/desktop.qml:338
 #, kde-format
@@ -507,7 +507,7 @@ msgstr "Okuyucu Kipi"
 #: src/contents/ui/desktop/desktop.qml:355
 #, kde-format
 msgid "Add to application launcher"
-msgstr "Uygulama başlatıcıya ekle"
+msgstr "Uygulama Başlatıcısına Ekle"
 
 #: src/contents/ui/desktop/desktop.qml:374 src/contents/ui/mobile.qml:101
 #, kde-format
@@ -734,7 +734,7 @@ msgstr "Araç Çubukları"
 #: src/settings/DesktopHomeSettingsPage.qml:24
 #, kde-format
 msgid "Show home button:"
-msgstr "Anasayfa düğmesini göster:"
+msgstr "Ana sayfa düğmesini göster:"
 
 #: src/settings/DesktopHomeSettingsPage.qml:25
 #, kde-format
@@ -745,7 +745,7 @@ msgstr ""
 #: src/settings/DesktopHomeSettingsPage.qml:35
 #, kde-format
 msgid "Homepage:"
-msgstr "Anasayfa:"
+msgstr "Ana sayfa:"
 
 #: src/settings/DesktopHomeSettingsPage.qml:58
 #, kde-format
@@ -760,7 +760,7 @@ msgstr "Sekme çubuğunu her zaman göster:"
 #: src/settings/DesktopHomeSettingsPage.qml:82
 #, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open"
-msgstr "Bir tane sekme açık olsa dahi sekme çubuğu gösterilecektir"
+msgstr "Bir tane sekme açık olsa dahi sekme çubuğu gösterilecektir."
 
 #: src/settings/SettingsAdblock.qml:16
 #, kde-format
@@ -776,7 +776,7 @@ msgstr "Süzgeç Listesi Ekle"
 #: src/settings/SettingsAdblock.qml:27
 #, kde-format
 msgid "Update lists"
-msgstr "Listeleri güncelle"
+msgstr "Listeleri Güncelle"
 
 #: src/settings/SettingsAdblock.qml:49
 #, kde-format
@@ -806,7 +806,7 @@ msgstr "Ad"
 #: src/settings/SettingsAdblock.qml:138
 #, kde-format
 msgid "Url"
-msgstr "Url"
+msgstr "URL"
 
 #: src/settings/SettingsGeneral.qml:27
 #, kde-format
@@ -826,7 +826,7 @@ msgstr "Görselleri yükle"
 #: src/settings/SettingsGeneral.qml:38
 #, kde-format
 msgid "Whether to load images on websites."
-msgstr "Web sitelerindeki görseller yüklenip yüklenmemeli mi."
+msgstr "Web sitelerindeki görsellerin yüklenip yüklenmemesi gerektiği."
 
 #: src/settings/SettingsGeneral.qml:47
 #, kde-format
@@ -853,12 +853,13 @@ msgstr "Anında yeni sekmeye geç"
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately"
 msgstr ""
-"Bir bağlantıyı, görseli veya ortamı yeni sekmede açtığınızda, hemen ona geç"
+"Bir bağlantıyı, görseli veya ortamı yeni sekmede açtığınızda, hemen ona "
+"geçin."
 
 #: src/settings/SettingsGeneral.qml:68
 #, kde-format
 msgid "Use Smooth Scrolling"
-msgstr "Pürüzsüz Sarmayı Kullan"
+msgstr "Pürüzsüz sarmayı kullan"
 
 #: src/settings/SettingsGeneral.qml:69
 #, kde-format
@@ -951,7 +952,7 @@ msgstr "Uygulamayı kaldır"
 #, kde-format
 msgctxt "placeholder message"
 msgid "No Web Apps installed"
-msgstr "Kurulu Web uygulaması yok"
+msgstr "Kurulu web uygulaması yok"
 
 #~ msgid "Show navigation bar"
 #~ msgstr "Dolaşım çubuğunu göster"
