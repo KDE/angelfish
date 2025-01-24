@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-23 00:40+0000\n"
+"POT-Creation-Date: 2025-01-24 00:41+0000\n"
 "PO-Revision-Date: 2020-06-03 20:47+0300\n"
 "Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
 "Language-Team: Estonian <kde-et@lists.linux.ee>\n"
@@ -57,24 +57,30 @@ msgstr "Allalaadimine lõpetatud"
 msgid "Download failed"
 msgstr "Allalaadimine nurjus"
 
-#: lib/angelfishwebprofile.cpp:88 src/contents/ui/NewTabQuestion.qml:19
+#: lib/angelfishwebprofile.cpp:88
 #, kde-format
 msgid "Open"
 msgstr "Ava"
 
 #: lib/contents/ui/AuthSheet.qml:17
-#, kde-format
-msgid "Authentication required"
+#, fuzzy, kde-format
+#| msgid "Authentication required"
+msgctxt "@title:window"
+msgid "Authentication Required"
 msgstr "Vajalik on autentida"
 
 #: lib/contents/ui/AuthSheet.qml:30
-#, kde-format
-msgid "Username"
+#, fuzzy, kde-format
+#| msgid "Username"
+msgctxt "@label:textbox"
+msgid "Username:"
 msgstr "Kasutajanimi"
 
 #: lib/contents/ui/AuthSheet.qml:37
-#, kde-format
-msgid "Password"
+#, fuzzy, kde-format
+#| msgid "Password"
+msgctxt "@label:textbox"
+msgid "Password:"
 msgstr "Parool"
 
 #: lib/contents/ui/DownloadQuestion.qml:15
@@ -84,23 +90,30 @@ msgstr "Kas laadida see fail alla?"
 
 #: lib/contents/ui/DownloadQuestion.qml:23
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Download"
+msgctxt "@action:button"
 msgid "Download"
 msgstr "Laadi alla"
 
 #: lib/contents/ui/DownloadQuestion.qml:31 lib/contents/ui/PrintPreview.qml:163
-#: src/contents/ui/Downloads.qml:92
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Cancel"
+msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Loobu"
 
 #: lib/contents/ui/ErrorHandler.qml:47
-#, kde-format
-msgid "Error loading the page"
+#, fuzzy, kde-format
+#| msgid "Error loading the page"
+msgctxt "@title"
+msgid "Error Loading the Page"
 msgstr "Tõrge lehekülje laadimisel"
 
 #: lib/contents/ui/ErrorHandler.qml:58
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Retry"
+msgctxt "@action:intoolbar"
 msgid "Retry"
 msgstr "Proovi uuesti"
 
@@ -118,17 +131,20 @@ msgstr ""
 
 #: lib/contents/ui/ErrorHandler.qml:81
 #, kde-format
+msgctxt "@action:button"
 msgid "Yes"
 msgstr ""
 
 #: lib/contents/ui/ErrorHandler.qml:90
 #, kde-format
+msgctxt "@action:button"
 msgid "No"
 msgstr ""
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
-msgid "This page says"
+msgctxt "@title:window"
+msgid "This Page Says"
 msgstr ""
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:64
@@ -141,12 +157,16 @@ msgstr ""
 "teave võib nii kaotsi minna."
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:79
-#, kde-format
-msgid "Leave page"
+#, fuzzy, kde-format
+#| msgid "Leave page"
+msgctxt "@action:button"
+msgid "Leave Page"
 msgstr "Lahku leheküljelt"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:87
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Submit"
+msgctxt "@action:button"
 msgid "Submit"
 msgstr "Saada"
 
@@ -214,325 +234,423 @@ msgstr "Kas lubada veebisaidil jagada ekraani?"
 
 #: lib/contents/ui/PermissionQuestion.qml:40
 #, kde-format
-msgid "The website %1 requested an unknown permission %2"
+msgctxt ""
+"The website (website) requested an unknown permission: Do you want to allow "
+"the website (website) to access your fonts?"
+msgid "The website %1 requested an unknown permission: %2"
 msgstr ""
 
 #: lib/contents/ui/PermissionQuestion.qml:48
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Accept"
+msgctxt "@action:button"
 msgid "Accept"
 msgstr "Nõustu"
 
 #: lib/contents/ui/PermissionQuestion.qml:58
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Decline"
+msgctxt "@action:button"
 msgid "Decline"
 msgstr "Keeldu"
 
-#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:296
+#: lib/contents/ui/PrintPreview.qml:24
 #, kde-format
+msgctxt "@title:window"
 msgid "Print"
 msgstr ""
 
 #: lib/contents/ui/PrintPreview.qml:64
 #, kde-format
+msgctxt "@title:group"
 msgid "Destination"
 msgstr ""
 
 #: lib/contents/ui/PrintPreview.qml:68
 #, kde-format
+msgctxt "@title:group"
 msgid "Save to PDF"
 msgstr ""
 
 #: lib/contents/ui/PrintPreview.qml:74
 #, kde-format
+msgctxt "@title:group"
 msgid "Orientation"
 msgstr ""
 
 #: lib/contents/ui/PrintPreview.qml:99
 #, kde-format
-msgid "Paper size"
+msgctxt "@title:group"
+msgid "Paper Size"
 msgstr ""
 
 #: lib/contents/ui/PrintPreview.qml:145
 #, kde-format
+msgctxt "@title:group"
 msgid "Options"
 msgstr ""
 
 #: lib/contents/ui/PrintPreview.qml:149
 #, kde-format
+msgctxt "@label:checkbox"
 msgid "Print backgrounds"
 msgstr ""
 
 #: lib/contents/ui/PrintPreview.qml:168
 #, kde-format
+msgctxt "@action:button"
 msgid "Save"
 msgstr ""
 
 #: lib/contents/ui/WebView.qml:243
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Website was opened in a new tab"
+msgctxt "@info:status"
 msgid "Website was opened in a new tab"
 msgstr "Veebilehekülg avati uuel kaardil"
 
 #: lib/contents/ui/WebView.qml:261
 #, kde-format
-msgid "Entered Full Screen Mode"
+msgctxt "@info:status"
+msgid "Entered Full Screen mode"
 msgstr ""
 
 #: lib/contents/ui/WebView.qml:262
 #, kde-format
+msgctxt "@action:button"
 msgid "Exit Full Screen (Esc)"
 msgstr ""
 
 #: lib/contents/ui/WebView.qml:395
 #, kde-format
+msgctxt "@action:inmenu"
 msgid "Play"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:396 src/contents/ui/Downloads.qml:105
+#: lib/contents/ui/WebView.qml:396
 #, kde-format
+msgctxt "@action:inmenu"
 msgid "Pause"
 msgstr ""
 
 #: lib/contents/ui/WebView.qml:403
 #, kde-format
+msgctxt "@action:inmenu"
 msgid "Unmute"
 msgstr ""
 
 #: lib/contents/ui/WebView.qml:404
 #, kde-format
+msgctxt "@action:inmenu"
 msgid "Mute"
 msgstr ""
 
 #: lib/contents/ui/WebView.qml:414
 #, kde-format
+msgctxt "@label"
 msgid "Speed"
 msgstr ""
 
 #: lib/contents/ui/WebView.qml:437
 #, kde-format
+msgctxt "@action:inmenu"
 msgid "Loop"
 msgstr ""
 
 #: lib/contents/ui/WebView.qml:444
 #, kde-format
-msgid "Exit fullscreen"
+msgctxt "@action:inmenu"
+msgid "Exit Fullscreen"
 msgstr ""
 
 #: lib/contents/ui/WebView.qml:444
 #, kde-format
-msgid "Fullscreen"
+msgctxt "@action:inmenu"
+msgid "Enter Fullscreen"
 msgstr ""
 
 #: lib/contents/ui/WebView.qml:457
 #, kde-format
-msgid "Hide controls"
+msgctxt "@action:inmenu"
+msgid "Hide Controls"
 msgstr ""
 
 #: lib/contents/ui/WebView.qml:458
 #, kde-format
-msgid "Show controls"
+msgctxt "@action:inmenu"
+msgid "Show Controls"
 msgstr ""
 
 #: lib/contents/ui/WebView.qml:466
-#, kde-format
-msgid "Open video"
-msgstr ""
-
-#: lib/contents/ui/WebView.qml:466
-#, kde-format
-msgid "Open audio"
-msgstr ""
-
-#: lib/contents/ui/WebView.qml:467
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
-msgid "Open video in new Tab"
+msgctxt "@action:inmenu"
+msgid "Open Video"
+msgstr "Ava uuel kaardil"
+
+#: lib/contents/ui/WebView.qml:466
+#, fuzzy, kde-format
+#| msgid "Open in new Tab"
+msgctxt "@action:inmenu"
+msgid "Open Audio"
 msgstr "Ava uuel kaardil"
 
 #: lib/contents/ui/WebView.qml:467
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
-msgid "Open audio in new Tab"
+msgctxt "@action:inmenu"
+msgid "Open Video in New Tab"
+msgstr "Ava uuel kaardil"
+
+#: lib/contents/ui/WebView.qml:467
+#, fuzzy, kde-format
+#| msgid "Open in new Tab"
+msgctxt "@action:inmenu"
+msgid "Open Audio in New Tab"
 msgstr "Ava uuel kaardil"
 
 #: lib/contents/ui/WebView.qml:479
-#, kde-format
-msgid "Save video"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Leave page"
+msgctxt "@action:inmenu"
+msgid "Save Video"
+msgstr "Lahku leheküljelt"
 
 #: lib/contents/ui/WebView.qml:485
-#, kde-format
-msgid "Copy video Link"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Copy Url"
+msgctxt "@action:inmenu"
+msgid "Copy Video Link"
+msgstr "Kopeeri URL"
 
 #: lib/contents/ui/WebView.qml:491
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
-msgid "Open image"
+msgctxt "@action:inmenu"
+msgid "Open Image"
 msgstr "Ava uuel kaardil"
 
 #: lib/contents/ui/WebView.qml:491
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
-msgid "Open image in new Tab"
+msgctxt "@action:inmenu"
+msgid "Open Image in New Tab"
 msgstr "Ava uuel kaardil"
 
 #: lib/contents/ui/WebView.qml:503
 #, fuzzy, kde-format
 #| msgid "Leave page"
-msgid "Save image"
+msgctxt "@action:inmenu"
+msgid "Save Image"
 msgstr "Lahku leheküljelt"
 
 #: lib/contents/ui/WebView.qml:509
 #, fuzzy, kde-format
 #| msgid "Load images"
-msgid "Copy image"
+msgctxt "@action:inmenu"
+msgid "Copy Image"
 msgstr "Piltide laadimine"
 
 #: lib/contents/ui/WebView.qml:515
-#, kde-format
-msgid "Copy image link"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Load images"
+msgctxt "@action:inmenu"
+msgid "Copy Image Link"
+msgstr "Piltide laadimine"
 
 #: lib/contents/ui/WebView.qml:521
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
-msgid "Open link"
+msgctxt "@action:inmenu"
+msgid "Open Link"
 msgstr "Ava uuel kaardil"
 
 #: lib/contents/ui/WebView.qml:521
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
-msgid "Open link in new Tab"
+msgctxt "@action:inmenu"
+msgid "Open Link in New Tab"
 msgstr "Ava uuel kaardil"
 
 #: lib/contents/ui/WebView.qml:533
 #, fuzzy, kde-format
 #| msgid "Bookmark"
-msgid "Bookmark link"
+msgctxt "@action:inmenu"
+msgid "Bookmark Link"
 msgstr "Järjehoidjatesse"
 
 #: lib/contents/ui/WebView.qml:545
-#, kde-format
-msgid "Save link"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Leave page"
+msgctxt "@action:inmenu"
+msgid "Save Link"
+msgstr "Lahku leheküljelt"
 
 #: lib/contents/ui/WebView.qml:551
 #, fuzzy, kde-format
 #| msgid "Copy Url"
-msgid "Copy link"
+msgctxt "@action:inmenu"
+msgid "Copy Link"
 msgstr "Kopeeri URL"
 
 #: lib/contents/ui/WebView.qml:558
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Copy"
+msgctxt "@action:inmenu"
 msgid "Copy"
 msgstr "Kopeeri"
 
 #: lib/contents/ui/WebView.qml:564
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Cut"
+msgctxt "@action:inmenu"
 msgid "Cut"
 msgstr "Lõika"
 
 #: lib/contents/ui/WebView.qml:570
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Paste"
+msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "Aseta"
 
+#: lib/contents/ui/WebView.qml:578
+#, fuzzy, kde-format
+#| msgid "Search online for '%1'"
+msgctxt "@action:inmenu"
+msgid "Search for “%1”"
+msgstr "\"%1\" otsimine võrgust"
+
 #: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:345
 #: src/contents/ui/mobile.qml:296
-#, kde-format
-msgid "Share page"
+#, fuzzy, kde-format
+#| msgid "Share page"
+msgctxt "@action:inmenu"
+msgid "Share Page"
 msgstr "Jaga lehekülge"
 
 #: lib/contents/ui/WebView.qml:603
 #, fuzzy, kde-format
 #| msgid "View source"
-msgid "View page source"
+msgctxt "@action:inmenu"
+msgid "View Page Source"
 msgstr "Vaata lähtekoodi"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
 #, kde-format
+msgctxt "@info"
 msgid ""
-"The ad blocker is missing its filter lists, do you want to download them now?"
+"The adblocker is missing its filter lists, do you want to download them now?"
 msgstr ""
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:35
 #, fuzzy, kde-format
 #| msgid "Download"
-msgid "Downloading..."
+msgctxt "@info"
+msgid "Downloading…"
 msgstr "Laadi alla"
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:274
-#: src/contents/ui/mobile.qml:81
-#, kde-format
+#: src/contents/ui/Bookmarks.qml:12
+#, fuzzy, kde-format
+#| msgid "Bookmarks"
+msgctxt "@title:window"
 msgid "Bookmarks"
 msgstr "Järjehoidjad"
 
 #: src/contents/ui/desktop/BookmarksPage.qml:30
 #, kde-format
+msgctxt "@info:placeholder"
 msgid "Search bookmarks…"
 msgstr ""
 
 #: src/contents/ui/desktop/BookmarksPage.qml:77
 #, fuzzy, kde-format
 #| msgid "Add bookmark"
+msgctxt "@info:placeholder"
 msgid "No bookmarks yet"
 msgstr "Lisa järjehoidja"
 
 #: src/contents/ui/desktop/desktop.qml:125
 #, kde-format
+msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr ""
 
 #: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:355
 #: src/contents/ui/Navigation.qml:437
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Close"
+msgctxt "@action:inmenu"
 msgid "New Tab"
-msgstr ""
+msgstr "Sulge"
 
 #: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/mobile.qml:73
-#, kde-format
-msgid "Leave private mode"
+#, fuzzy, kde-format
+#| msgid "Leave private mode"
+msgctxt "@action:inmenu"
+msgid "Leave Private Mode"
 msgstr "Välju privaatrežiimist"
 
 #: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/mobile.qml:73
-#, kde-format
-msgid "Private mode"
+#, fuzzy, kde-format
+#| msgid "Private mode"
+msgctxt "@action:inmenu"
+msgid "Private Mode"
 msgstr "Privaatrežiim"
 
-#: src/contents/ui/desktop/desktop.qml:265 src/contents/ui/History.qml:12
-#: src/contents/ui/mobile.qml:89
-#, kde-format
+#: src/contents/ui/desktop/desktop.qml:265 src/contents/ui/mobile.qml:89
+#, fuzzy, kde-format
+#| msgid "History"
+msgctxt "@action:inmenu"
 msgid "History"
 msgstr "Ajalugu"
 
-#: src/contents/ui/desktop/desktop.qml:283 src/contents/ui/Downloads.qml:16
-#: src/contents/ui/mobile.qml:93
+#: src/contents/ui/desktop/desktop.qml:274 src/contents/ui/mobile.qml:81
+#, fuzzy, kde-format
+#| msgid "Bookmarks"
+msgctxt "@action:inmenu"
+msgid "Bookmarks"
+msgstr "Järjehoidjad"
+
+#: src/contents/ui/desktop/desktop.qml:283 src/contents/ui/mobile.qml:93
 #, fuzzy, kde-format
 #| msgid "Download"
+msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "Laadi alla"
 
+#: src/contents/ui/desktop/desktop.qml:296
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Print"
+msgstr ""
+
 #: src/contents/ui/desktop/desktop.qml:302
 #, kde-format
+msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr ""
 
 #: src/contents/ui/desktop/desktop.qml:319
 #, kde-format
-msgid "Hide developer tools"
+msgctxt "@action:inmenu"
+msgid "Hide Developer Tools"
 msgstr ""
 
 #: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:392
 #, kde-format
-msgid "Show developer tools"
+msgctxt "@action:inmenu"
+msgid "Show Developer Tools"
 msgstr ""
 
 #: src/contents/ui/desktop/desktop.qml:329 src/contents/ui/mobile.qml:292
-#, kde-format
-msgid "Find in page"
+#, fuzzy, kde-format
+#| msgid "Find in page"
+msgctxt "@action:inmenu"
+msgid "Find in Page"
 msgstr "Otsi leheküljelt"
 
-#: src/contents/ui/desktop/desktop.qml:338
+#: src/contents/ui/desktop/desktop.qml:338 src/contents/ui/mobile.qml:375
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
@@ -540,203 +658,282 @@ msgstr ""
 
 #: src/contents/ui/desktop/desktop.qml:355
 #, kde-format
-msgid "Add to application launcher"
+msgctxt "@action:inmenu"
+msgid "Add to Application Launcher"
 msgstr ""
 
 #: src/contents/ui/desktop/desktop.qml:374 src/contents/ui/mobile.qml:101
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Settings"
+msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "Seadistused"
 
 #: src/contents/ui/desktop/HistoryPage.qml:30
 #, kde-format
+msgctxt "@info:placeholder"
 msgid "Search history…"
 msgstr ""
 
 #: src/contents/ui/desktop/HistoryPage.qml:46
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "Clear all history"
 msgstr ""
 
 #: src/contents/ui/desktop/HistoryPage.qml:83
-#, kde-format
-msgid "Not history yet"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Add bookmark"
+msgctxt "@info:placeholder"
+msgid "No history yet"
+msgstr "Lisa järjehoidja"
 
 #: src/contents/ui/desktop/Tabs.qml:232 src/contents/ui/Tabs.qml:275
 #, kde-format
-msgid "Reader Mode: %1"
+msgctxt "@label"
+msgid "Reader mode: %1"
 msgstr ""
 
 #: src/contents/ui/desktop/Tabs.qml:261 src/contents/ui/Tabs.qml:306
 #, fuzzy, kde-format
 #| msgid "Close"
+msgctxt "@info:tooltip"
 msgid "Close tab"
 msgstr "Sulge"
 
 #: src/contents/ui/desktop/Tabs.qml:291
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
+msgctxt "@info:tooltip"
 msgid "Open a new tab"
 msgstr "Ava uuel kaardil"
 
 #: src/contents/ui/desktop/Tabs.qml:324
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "List all tabs"
 msgstr ""
 
 #: src/contents/ui/desktop/Tabs.qml:364
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Close"
+msgctxt "@action:inmenu"
 msgid "Reload Tab"
-msgstr ""
+msgstr "Sulge"
 
 #: src/contents/ui/desktop/Tabs.qml:372
 #, fuzzy, kde-format
 #| msgid "Private Tabs"
+msgctxt "@action:inmenu"
 msgid "Duplicate Tab"
 msgstr "Privaatkaardid"
 
 #: src/contents/ui/desktop/Tabs.qml:380
 #, fuzzy, kde-format
 #| msgid "Bookmark"
+msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "Järjehoidjatesse"
 
 #: src/contents/ui/desktop/Tabs.qml:396
 #, fuzzy, kde-format
 #| msgid "Close"
+msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Sulge"
 
+#: src/contents/ui/Downloads.qml:16
+#, fuzzy, kde-format
+#| msgid "Download"
+msgctxt "@title:window"
+msgid "Downloads"
+msgstr "Laadi alla"
+
 #: src/contents/ui/Downloads.qml:28
 #, kde-format
+msgctxt "@info:placeholder"
 msgid "No running downloads"
 msgstr ""
 
 #: src/contents/ui/Downloads.qml:77
 #, fuzzy, kde-format
 #| msgid "Settings"
-msgctxt "download state"
+msgctxt "@info:progress"
 msgid "Starting…"
 msgstr "Seadistused"
 
 #: src/contents/ui/Downloads.qml:79
 #, kde-format
+msgctxt "@info:progress"
 msgid "Completed"
 msgstr ""
 
 #: src/contents/ui/Downloads.qml:81
 #, fuzzy, kde-format
 #| msgid "Cancel"
+msgctxt "@info:progress"
 msgid "Cancelled"
 msgstr "Loobu"
 
 #: src/contents/ui/Downloads.qml:83
 #, kde-format
-msgctxt "download state"
+msgctxt "@info:progress"
 msgid "Interrupted"
 msgstr ""
 
 #: src/contents/ui/Downloads.qml:85
 #, kde-format
-msgctxt "download state"
-msgid "In progress"
+msgctxt "@info:progress"
+msgid "In progress…"
 msgstr ""
+
+#: src/contents/ui/Downloads.qml:92
+#, fuzzy, kde-format
+#| msgid "Cancel"
+msgctxt "@info:tooltip"
+msgid "Cancel"
+msgstr "Loobu"
 
 #: src/contents/ui/Downloads.qml:117
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "Continue"
 msgstr ""
 
 #: src/contents/ui/FindInPageBar.qml:45
-#, kde-format
-msgid "Search..."
+#, fuzzy, kde-format
+#| msgid "Search..."
+msgctxt "@info:placeholder"
+msgid "Search…"
 msgstr "Otsi ..."
 
+#: src/contents/ui/History.qml:12
+#, fuzzy, kde-format
+#| msgid "History"
+msgctxt "@title:window"
+msgid "History"
+msgstr "Ajalugu"
+
 #: src/contents/ui/mobile.qml:20
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Angelfish Web Browser"
+msgctxt "@title:window"
 msgid "Angelfish Web Browser"
 msgstr "Angelfishi veebilehitseja"
 
 #: src/contents/ui/mobile.qml:66
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Tabs"
+msgctxt "@action:inmenu"
 msgid "Tabs"
 msgstr "Kaardid"
 
 #: src/contents/ui/mobile.qml:307
-#, kde-format
-msgid "Add to homescreen"
+#, fuzzy, kde-format
+#| msgid "Add to homescreen"
+msgctxt "@action:inmenu"
+msgid "Add to Homescreen"
 msgstr "Lisa avaekraanile"
 
 #: src/contents/ui/mobile.qml:317
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
-msgid "Open in app"
+msgctxt "@action:inmenu"
+msgid "Open in App"
 msgstr "Ava uuel kaardil"
 
 #: src/contents/ui/mobile.qml:325
 #, kde-format
-msgid "Go previous"
-msgstr "Liigu tagasi"
+msgctxt "@action:inmenu"
+msgid "Go Back"
+msgstr ""
 
-#: src/contents/ui/mobile.qml:333 src/settings/SettingsNavigationBarPage.qml:59
-#, kde-format
-msgid "Go forward"
+#: src/contents/ui/mobile.qml:333
+#, fuzzy, kde-format
+#| msgid "Go forward"
+msgctxt "@action:inmenu"
+msgid "Go Forward"
 msgstr "Liigu edasi"
 
 #: src/contents/ui/mobile.qml:340
-#, kde-format
-msgid "Stop loading"
+#, fuzzy, kde-format
+#| msgid "Stop loading"
+msgctxt "@action:inmenu"
+msgid "Stop Loading"
 msgstr "Peata laadimine"
 
 #: src/contents/ui/mobile.qml:340
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Refresh"
+msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Värskenda"
 
 #: src/contents/ui/mobile.qml:350
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Bookmarked"
+msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "järjehoidjates"
 
 #: src/contents/ui/mobile.qml:350
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Bookmark"
+msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Järjehoidjatesse"
 
 #: src/contents/ui/mobile.qml:366
-#, kde-format
-msgid "Show desktop site"
+#, fuzzy, kde-format
+#| msgid "Show desktop site"
+msgctxt "@action:inmenu"
+msgid "Show Desktop Site"
 msgstr "Näita töölaua saiti"
 
-#: src/contents/ui/mobile.qml:375
-#, kde-format
-msgid "Reader Mode"
-msgstr ""
-
 #: src/contents/ui/mobile.qml:383
-#, kde-format
-msgid "Hide navigation bar"
+#, fuzzy, kde-format
+#| msgid "Hide navigation bar"
+msgctxt "@action:inmenu"
+msgid "Hide Navigation Bar"
 msgstr "Peida liikumisriba"
 
 #: src/contents/ui/Navigation.qml:410
 #, kde-format
+msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr ""
 
-#: src/contents/ui/NewTabQuestion.qml:11
+#: src/contents/ui/Navigation.qml:423
 #, kde-format
+msgctxt "@info:status"
+msgid "%1 tabs"
+msgstr ""
+
+#: src/contents/ui/NewTabQuestion.qml:11
+#, fuzzy, kde-format
+#| msgid ""
+#| "Site wants to open a new tab: \n"
+#| "%1"
+msgctxt "@info:status"
 msgid ""
-"Site wants to open a new tab: \n"
+"Site wants to open a new tab:\n"
 "%1"
 msgstr ""
 "Sait tahab avada uut kaarti: \n"
 "%1"
 
+#: src/contents/ui/NewTabQuestion.qml:19
+#, fuzzy, kde-format
+#| msgid "Open"
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "Ava"
+
 #: src/contents/ui/ShareSheet.qml:18
 #, fuzzy, kde-format
 #| msgid "Share page"
-msgid "Share page to"
+msgctxt "@title:window"
+msgid "Share Page"
 msgstr "Jaga lehekülge"
 
 #: src/main.cpp:82
@@ -747,35 +944,41 @@ msgstr "Avatav URL"
 #: src/settings/AngelfishConfigurationView.qml:14
 #: src/settings/SettingsGeneral.qml:18
 #, kde-format
+msgctxt "@title:window"
 msgid "General"
 msgstr ""
 
 #: src/settings/AngelfishConfigurationView.qml:20
 #, kde-format
-msgid "Ad Block"
+msgctxt "@title:window"
+msgid "Adblock"
 msgstr ""
 
 #: src/settings/AngelfishConfigurationView.qml:26
 #: src/settings/SettingsWebApps.qml:16
 #, kde-format
+msgctxt "@title:window"
 msgid "Web Apps"
 msgstr ""
 
 #: src/settings/AngelfishConfigurationView.qml:32
-#: src/settings/SettingsSearchEnginePage.qml:17
 #: src/settings/SettingsSearchEnginePage.qml:112
-#, kde-format
-msgid "Search Engine"
+#, fuzzy, kde-format
+#| msgid "Search Engine"
+msgctxt "@title:window"
+msgid "Search Engines"
 msgstr "Otsingumootor"
 
 #: src/settings/AngelfishConfigurationView.qml:38
 #: src/settings/DesktopHomeSettingsPage.qml:15
 #, kde-format
+msgctxt "@title:window"
 msgid "Toolbars"
 msgstr ""
 
 #: src/settings/DesktopHomeSettingsPage.qml:24
 #, kde-format
+msgctxt "@label"
 msgid "Show home button:"
 msgstr ""
 
@@ -787,38 +990,44 @@ msgstr ""
 #: src/settings/DesktopHomeSettingsPage.qml:35
 #, fuzzy, kde-format
 #| msgid "Homepage"
+msgctxt "@label"
 msgid "Homepage:"
 msgstr "Kodulehekülg"
 
 #: src/settings/DesktopHomeSettingsPage.qml:58
 #, kde-format
+msgctxt "@label"
 msgid "New tabs:"
 msgstr ""
 
 #: src/settings/DesktopHomeSettingsPage.qml:81
 #, kde-format
+msgctxt "@label:checkbox"
 msgid "Always show the tab bar"
 msgstr ""
 
 #: src/settings/DesktopHomeSettingsPage.qml:82
 #, kde-format
-msgid "The tab bar will be displayed even if there is only one tab open"
+msgid "The tab bar will be displayed even if there is only one tab open."
 msgstr ""
 
 #: src/settings/SettingsAdblock.qml:16
-#, kde-format
-msgid "Adblock settings"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Settings"
+msgctxt "@title:window"
+msgid "Adblock Settings"
+msgstr "Seadistused"
 
 #: src/settings/SettingsAdblock.qml:23
 #, kde-format
-msgctxt "@action:intoolbar"
-msgid "Add Filterlist"
+msgctxt "@info:tooltip"
+msgid "Add filter list"
 msgstr ""
 
 #: src/settings/SettingsAdblock.qml:27
 #, kde-format
-msgid "Update lists"
+msgctxt "@action:intoolbar"
+msgid "Update Lists"
 msgstr ""
 
 #: src/settings/SettingsAdblock.qml:49
@@ -828,27 +1037,32 @@ msgstr ""
 
 #: src/settings/SettingsAdblock.qml:100
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "Remove this filter list"
 msgstr ""
 
 #: src/settings/SettingsAdblock.qml:112
 #, kde-format
-msgid "Add Filterlist"
+msgctxt "@action:button"
+msgid "Add Filter List"
 msgstr ""
 
 #: src/settings/SettingsAdblock.qml:124
 #, kde-format
-msgid "Add filterlist"
+msgctxt "@title:group"
+msgid "Add Filter List"
 msgstr ""
 
 #: src/settings/SettingsAdblock.qml:129
 #, kde-format
+msgctxt "@label"
 msgid "Name"
 msgstr ""
 
 #: src/settings/SettingsAdblock.qml:138
 #, kde-format
-msgid "Url"
+msgctxt "@label"
+msgid "URL"
 msgstr ""
 
 #: src/settings/SettingsGeneral.qml:27
@@ -862,7 +1076,9 @@ msgid "This may be required on certain websites for them to work."
 msgstr ""
 
 #: src/settings/SettingsGeneral.qml:37
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Load images"
+msgctxt "@label:checkbox"
 msgid "Load images"
 msgstr "Piltide laadimine"
 
@@ -873,6 +1089,7 @@ msgstr ""
 
 #: src/settings/SettingsGeneral.qml:47
 #, kde-format
+msgctxt "@label:checkbox"
 msgid "Enable adblock"
 msgstr ""
 
@@ -883,23 +1100,25 @@ msgstr ""
 
 #: src/settings/SettingsGeneral.qml:48
 #, kde-format
-msgid "AdBlock functionality was not included in this build."
+msgid "Adblock functionality was not included in this build."
 msgstr ""
 
 #: src/settings/SettingsGeneral.qml:58
 #, kde-format
+msgctxt "@label:checkbox"
 msgid "Switch to new tab immediately"
 msgstr ""
 
 #: src/settings/SettingsGeneral.qml:59
 #, kde-format
 msgid ""
-"When you open a link, image or media in a new tab, switch to it immediately"
+"When you open a link, image or media in a new tab, switch to it immediately."
 msgstr ""
 
 #: src/settings/SettingsGeneral.qml:68
 #, kde-format
-msgid "Use Smooth Scrolling"
+msgctxt "@label:checkbox"
+msgid "Use smooth scrolling"
 msgstr ""
 
 #: src/settings/SettingsGeneral.qml:69
@@ -911,6 +1130,7 @@ msgstr ""
 
 #: src/settings/SettingsGeneral.qml:78
 #, kde-format
+msgctxt "@label:checkbox"
 msgid "Use dark color scheme"
 msgstr ""
 
@@ -922,8 +1142,10 @@ msgid ""
 msgstr ""
 
 #: src/settings/SettingsNavigationBarPage.qml:18
-#, kde-format
-msgid "Navigation bar"
+#, fuzzy, kde-format
+#| msgid "Navigation bar"
+msgctxt "@title:window"
+msgid "Navigation Bar"
 msgstr "Liikumisriba"
 
 #: src/settings/SettingsNavigationBarPage.qml:26
@@ -939,61 +1161,93 @@ msgid ""
 msgstr ""
 
 #: src/settings/SettingsNavigationBarPage.qml:35
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Main menu in portrait"
+msgctxt "@label:checkbox"
 msgid "Main menu in portrait"
 msgstr "Põhimenüü püstpaigutusega"
 
 #: src/settings/SettingsNavigationBarPage.qml:41
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Tabs in portrait"
+msgctxt "@label:checkbox"
 msgid "Tabs in portrait"
 msgstr "Kaardid püstpaigutusega"
 
 #: src/settings/SettingsNavigationBarPage.qml:47
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Context menu in portrait"
+msgctxt "@label:checkbox"
 msgid "Context menu in portrait"
 msgstr "Kontekstimenüü püstpaigutusega"
 
 #: src/settings/SettingsNavigationBarPage.qml:53
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Go back"
+msgctxt "@label:checkbox"
 msgid "Go back"
 msgstr "Liigu tagasi"
 
+#: src/settings/SettingsNavigationBarPage.qml:59
+#, fuzzy, kde-format
+#| msgid "Go forward"
+msgctxt "@label:checkbox"
+msgid "Go forward"
+msgstr "Liigu edasi"
+
 #: src/settings/SettingsNavigationBarPage.qml:65
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Reload/Stop"
+msgctxt "@label:checkbox"
 msgid "Reload/Stop"
 msgstr "Laadi uuesti/Peata"
 
+#: src/settings/SettingsSearchEnginePage.qml:17
+#, fuzzy, kde-format
+#| msgid "Search Engine"
+msgctxt "@window:title"
+msgid "Search Engines"
+msgstr "Otsingumootor"
+
 #: src/settings/SettingsSearchEnginePage.qml:20
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Custom"
+msgctxt "@label"
 msgid "Custom"
 msgstr "Kohandatud "
 
 #: src/settings/SettingsSearchEnginePage.qml:117
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Base URL of your preferred search engine"
+msgctxt "@label"
 msgid "Base URL of your preferred search engine"
 msgstr "Eelistatud otsingumootori baas-URL"
 
 #: src/settings/SettingsWebApps.qml:73
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "Remove app"
 msgstr ""
 
 #: src/settings/SettingsWebApps.qml:85
 #, kde-format
-msgctxt "placeholder message"
-msgid "No Web Apps installed"
+msgctxt "@info:placeholder"
+msgid "No web apps installed"
 msgstr ""
+
+#~ msgid "Private mode"
+#~ msgstr "Privaatrežiim"
+
+#~ msgid "Go previous"
+#~ msgstr "Liigu tagasi"
+
+#, fuzzy
+#~| msgid "Share page"
+#~ msgid "Share page to"
+#~ msgstr "Jaga lehekülge"
 
 #~ msgid "Show navigation bar"
 #~ msgstr "Näita liikumisriba"
-
-#, fuzzy
-#~| msgid "Private mode"
-#~ msgid "Private Mode"
-#~ msgstr "Privaatrežiim"
-
-#~ msgid "Search online for '%1'"
-#~ msgstr "\"%1\" otsimine võrgust"
 
 #~ msgid "Search online"
 #~ msgstr "Otsimine võrgus"

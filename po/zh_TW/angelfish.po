@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-23 00:40+0000\n"
+"POT-Creation-Date: 2025-01-24 00:41+0000\n"
 "PO-Revision-Date: 2024-10-24 19:21+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -58,24 +58,30 @@ msgstr "下載完成"
 msgid "Download failed"
 msgstr "下載失敗"
 
-#: lib/angelfishwebprofile.cpp:88 src/contents/ui/NewTabQuestion.qml:19
+#: lib/angelfishwebprofile.cpp:88
 #, kde-format
 msgid "Open"
 msgstr "開啟"
 
 #: lib/contents/ui/AuthSheet.qml:17
-#, kde-format
-msgid "Authentication required"
+#, fuzzy, kde-format
+#| msgid "Authentication required"
+msgctxt "@title:window"
+msgid "Authentication Required"
 msgstr "需要身份驗證"
 
 #: lib/contents/ui/AuthSheet.qml:30
-#, kde-format
-msgid "Username"
+#, fuzzy, kde-format
+#| msgid "Username"
+msgctxt "@label:textbox"
+msgid "Username:"
 msgstr "使用者名稱"
 
 #: lib/contents/ui/AuthSheet.qml:37
-#, kde-format
-msgid "Password"
+#, fuzzy, kde-format
+#| msgid "Password"
+msgctxt "@label:textbox"
+msgid "Password:"
 msgstr "密碼"
 
 #: lib/contents/ui/DownloadQuestion.qml:15
@@ -85,23 +91,30 @@ msgstr "是否下載此檔案？"
 
 #: lib/contents/ui/DownloadQuestion.qml:23
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Download"
+msgctxt "@action:button"
 msgid "Download"
 msgstr "下載"
 
 #: lib/contents/ui/DownloadQuestion.qml:31 lib/contents/ui/PrintPreview.qml:163
-#: src/contents/ui/Downloads.qml:92
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Cancel"
+msgctxt "@action:button"
 msgid "Cancel"
 msgstr "取消"
 
 #: lib/contents/ui/ErrorHandler.qml:47
-#, kde-format
-msgid "Error loading the page"
+#, fuzzy, kde-format
+#| msgid "Error loading the page"
+msgctxt "@title"
+msgid "Error Loading the Page"
 msgstr "載入頁面錯誤"
 
 #: lib/contents/ui/ErrorHandler.qml:58
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Retry"
+msgctxt "@action:intoolbar"
 msgid "Retry"
 msgstr "重試"
 
@@ -124,18 +137,24 @@ msgstr ""
 " 您要忽略這個安全性檢查並繼續嗎？"
 
 #: lib/contents/ui/ErrorHandler.qml:81
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Yes"
+msgctxt "@action:button"
 msgid "Yes"
 msgstr "是"
 
 #: lib/contents/ui/ErrorHandler.qml:90
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "No"
+msgctxt "@action:button"
 msgid "No"
 msgstr "否"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
-#, kde-format
-msgid "This page says"
+#, fuzzy, kde-format
+#| msgid "This page says"
+msgctxt "@title:window"
+msgid "This Page Says"
 msgstr "這個頁面說"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:64
@@ -146,12 +165,16 @@ msgid ""
 msgstr "網站請求確認您是否想要離開。未儲存的資訊可能還沒儲存。"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:79
-#, kde-format
-msgid "Leave page"
+#, fuzzy, kde-format
+#| msgid "Leave page"
+msgctxt "@action:button"
+msgid "Leave Page"
 msgstr "離開頁面"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:87
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Submit"
+msgctxt "@action:button"
 msgid "Submit"
 msgstr "提交"
 
@@ -219,506 +242,750 @@ msgstr "是否允許網站分享您的螢幕？"
 
 #: lib/contents/ui/PermissionQuestion.qml:40
 #, kde-format
-msgid "The website %1 requested an unknown permission %2"
+msgctxt ""
+"The website (website) requested an unknown permission: Do you want to allow "
+"the website (website) to access your fonts?"
+msgid "The website %1 requested an unknown permission: %2"
 msgstr ""
 
 #: lib/contents/ui/PermissionQuestion.qml:48
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Accept"
+msgctxt "@action:button"
 msgid "Accept"
 msgstr "允許"
 
 #: lib/contents/ui/PermissionQuestion.qml:58
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Decline"
+msgctxt "@action:button"
 msgid "Decline"
 msgstr "拒絕"
 
-#: lib/contents/ui/PrintPreview.qml:24 src/contents/ui/desktop/desktop.qml:296
-#, kde-format
+#: lib/contents/ui/PrintPreview.qml:24
+#, fuzzy, kde-format
+#| msgid "Print"
+msgctxt "@title:window"
 msgid "Print"
 msgstr "列印"
 
 #: lib/contents/ui/PrintPreview.qml:64
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Destination"
+msgctxt "@title:group"
 msgid "Destination"
 msgstr "目的地"
 
 #: lib/contents/ui/PrintPreview.qml:68
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Save to PDF"
+msgctxt "@title:group"
 msgid "Save to PDF"
 msgstr "儲存到 PDF"
 
 #: lib/contents/ui/PrintPreview.qml:74
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Orientation"
+msgctxt "@title:group"
 msgid "Orientation"
 msgstr "方向"
 
 #: lib/contents/ui/PrintPreview.qml:99
-#, kde-format
-msgid "Paper size"
+#, fuzzy, kde-format
+#| msgid "Paper size"
+msgctxt "@title:group"
+msgid "Paper Size"
 msgstr "紙張大小"
 
 #: lib/contents/ui/PrintPreview.qml:145
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Options"
+msgctxt "@title:group"
 msgid "Options"
 msgstr "選項"
 
 #: lib/contents/ui/PrintPreview.qml:149
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Print backgrounds"
+msgctxt "@label:checkbox"
 msgid "Print backgrounds"
 msgstr "列印背景"
 
 #: lib/contents/ui/PrintPreview.qml:168
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Save"
+msgctxt "@action:button"
 msgid "Save"
 msgstr "儲存"
 
 #: lib/contents/ui/WebView.qml:243
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Website was opened in a new tab"
+msgctxt "@info:status"
 msgid "Website was opened in a new tab"
 msgstr "已在新分頁中開啟網站"
 
 #: lib/contents/ui/WebView.qml:261
-#, kde-format
-msgid "Entered Full Screen Mode"
+#, fuzzy, kde-format
+#| msgid "Entered Full Screen Mode"
+msgctxt "@info:status"
+msgid "Entered Full Screen mode"
 msgstr "已進入全螢幕模式"
 
 #: lib/contents/ui/WebView.qml:262
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Exit Full Screen (Esc)"
+msgctxt "@action:button"
 msgid "Exit Full Screen (Esc)"
 msgstr "離開全螢幕 (Esc)"
 
 #: lib/contents/ui/WebView.qml:395
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Play"
+msgctxt "@action:inmenu"
 msgid "Play"
 msgstr "播放"
 
-#: lib/contents/ui/WebView.qml:396 src/contents/ui/Downloads.qml:105
-#, kde-format
+#: lib/contents/ui/WebView.qml:396
+#, fuzzy, kde-format
+#| msgid "Pause"
+msgctxt "@action:inmenu"
 msgid "Pause"
 msgstr "暫停"
 
 #: lib/contents/ui/WebView.qml:403
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Unmute"
+msgctxt "@action:inmenu"
 msgid "Unmute"
 msgstr "取消靜音"
 
 #: lib/contents/ui/WebView.qml:404
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Mute"
+msgctxt "@action:inmenu"
 msgid "Mute"
 msgstr "靜音"
 
 #: lib/contents/ui/WebView.qml:414
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Speed"
+msgctxt "@label"
 msgid "Speed"
 msgstr "速度"
 
 #: lib/contents/ui/WebView.qml:437
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Loop"
+msgctxt "@action:inmenu"
 msgid "Loop"
 msgstr "重複播放"
 
 #: lib/contents/ui/WebView.qml:444
-#, kde-format
-msgid "Exit fullscreen"
+#, fuzzy, kde-format
+#| msgid "Exit fullscreen"
+msgctxt "@action:inmenu"
+msgid "Exit Fullscreen"
 msgstr "離開全螢幕"
 
 #: lib/contents/ui/WebView.qml:444
-#, kde-format
-msgid "Fullscreen"
-msgstr "全螢幕"
+#, fuzzy, kde-format
+#| msgid "Exit fullscreen"
+msgctxt "@action:inmenu"
+msgid "Enter Fullscreen"
+msgstr "離開全螢幕"
 
 #: lib/contents/ui/WebView.qml:457
-#, kde-format
-msgid "Hide controls"
+#, fuzzy, kde-format
+#| msgid "Hide controls"
+msgctxt "@action:inmenu"
+msgid "Hide Controls"
 msgstr "隱藏控制"
 
 #: lib/contents/ui/WebView.qml:458
-#, kde-format
-msgid "Show controls"
+#, fuzzy, kde-format
+#| msgid "Show controls"
+msgctxt "@action:inmenu"
+msgid "Show Controls"
 msgstr "顯示控制"
 
 #: lib/contents/ui/WebView.qml:466
-#, kde-format
-msgid "Open video"
+#, fuzzy, kde-format
+#| msgid "Open video"
+msgctxt "@action:inmenu"
+msgid "Open Video"
 msgstr "開啟影片"
 
 #: lib/contents/ui/WebView.qml:466
-#, kde-format
-msgid "Open audio"
+#, fuzzy, kde-format
+#| msgid "Open audio"
+msgctxt "@action:inmenu"
+msgid "Open Audio"
 msgstr "開啟音效"
 
 #: lib/contents/ui/WebView.qml:467
-#, kde-format
-msgid "Open video in new Tab"
+#, fuzzy, kde-format
+#| msgid "Open video in new Tab"
+msgctxt "@action:inmenu"
+msgid "Open Video in New Tab"
 msgstr "在新分頁開啟影片"
 
 #: lib/contents/ui/WebView.qml:467
-#, kde-format
-msgid "Open audio in new Tab"
+#, fuzzy, kde-format
+#| msgid "Open audio in new Tab"
+msgctxt "@action:inmenu"
+msgid "Open Audio in New Tab"
 msgstr "在新分頁開啟音效"
 
 #: lib/contents/ui/WebView.qml:479
-#, kde-format
-msgid "Save video"
+#, fuzzy, kde-format
+#| msgid "Save video"
+msgctxt "@action:inmenu"
+msgid "Save Video"
 msgstr "儲存影片"
 
 #: lib/contents/ui/WebView.qml:485
-#, kde-format
-msgid "Copy video Link"
+#, fuzzy, kde-format
+#| msgid "Copy video Link"
+msgctxt "@action:inmenu"
+msgid "Copy Video Link"
 msgstr "複製影片連結"
 
 #: lib/contents/ui/WebView.qml:491
-#, kde-format
-msgid "Open image"
+#, fuzzy, kde-format
+#| msgid "Open image"
+msgctxt "@action:inmenu"
+msgid "Open Image"
 msgstr "開啟圖片"
 
 #: lib/contents/ui/WebView.qml:491
-#, kde-format
-msgid "Open image in new Tab"
+#, fuzzy, kde-format
+#| msgid "Open image in new Tab"
+msgctxt "@action:inmenu"
+msgid "Open Image in New Tab"
 msgstr "在新分頁開啟圖片"
 
 #: lib/contents/ui/WebView.qml:503
-#, kde-format
-msgid "Save image"
+#, fuzzy, kde-format
+#| msgid "Save image"
+msgctxt "@action:inmenu"
+msgid "Save Image"
 msgstr "儲存圖片"
 
 #: lib/contents/ui/WebView.qml:509
-#, kde-format
-msgid "Copy image"
+#, fuzzy, kde-format
+#| msgid "Copy image"
+msgctxt "@action:inmenu"
+msgid "Copy Image"
 msgstr "複製圖片"
 
 #: lib/contents/ui/WebView.qml:515
-#, kde-format
-msgid "Copy image link"
+#, fuzzy, kde-format
+#| msgid "Copy image link"
+msgctxt "@action:inmenu"
+msgid "Copy Image Link"
 msgstr "複製圖片連結"
 
 #: lib/contents/ui/WebView.qml:521
-#, kde-format
-msgid "Open link"
+#, fuzzy, kde-format
+#| msgid "Open link"
+msgctxt "@action:inmenu"
+msgid "Open Link"
 msgstr "開啟連結"
 
 #: lib/contents/ui/WebView.qml:521
-#, kde-format
-msgid "Open link in new Tab"
+#, fuzzy, kde-format
+#| msgid "Open link in new Tab"
+msgctxt "@action:inmenu"
+msgid "Open Link in New Tab"
 msgstr "在新分頁開啟連結"
 
 #: lib/contents/ui/WebView.qml:533
-#, kde-format
-msgid "Bookmark link"
+#, fuzzy, kde-format
+#| msgid "Bookmark link"
+msgctxt "@action:inmenu"
+msgid "Bookmark Link"
 msgstr "將連結加入書籤"
 
 #: lib/contents/ui/WebView.qml:545
-#, kde-format
-msgid "Save link"
+#, fuzzy, kde-format
+#| msgid "Save link"
+msgctxt "@action:inmenu"
+msgid "Save Link"
 msgstr "儲存連結"
 
 #: lib/contents/ui/WebView.qml:551
-#, kde-format
-msgid "Copy link"
+#, fuzzy, kde-format
+#| msgid "Copy link"
+msgctxt "@action:inmenu"
+msgid "Copy Link"
 msgstr "複製連結"
 
 #: lib/contents/ui/WebView.qml:558
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Copy"
+msgctxt "@action:inmenu"
 msgid "Copy"
 msgstr "複製"
 
 #: lib/contents/ui/WebView.qml:564
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Cut"
+msgctxt "@action:inmenu"
 msgid "Cut"
 msgstr "剪下"
 
 #: lib/contents/ui/WebView.qml:570
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Paste"
+msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "貼上"
 
+#: lib/contents/ui/WebView.qml:578
+#, fuzzy, kde-format
+#| msgid "Search online for '%1'"
+msgctxt "@action:inmenu"
+msgid "Search for “%1”"
+msgstr "線上搜尋「%1」"
+
 #: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:345
 #: src/contents/ui/mobile.qml:296
-#, kde-format
-msgid "Share page"
+#, fuzzy, kde-format
+#| msgid "Share page"
+msgctxt "@action:inmenu"
+msgid "Share Page"
 msgstr "分享頁面"
 
 #: lib/contents/ui/WebView.qml:603
-#, kde-format
-msgid "View page source"
+#, fuzzy, kde-format
+#| msgid "View page source"
+msgctxt "@action:inmenu"
+msgid "View Page Source"
 msgstr "檢視頁面原始碼"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "The ad blocker is missing its filter lists, do you want to download them "
+#| "now?"
+msgctxt "@info"
 msgid ""
-"The ad blocker is missing its filter lists, do you want to download them now?"
+"The adblocker is missing its filter lists, do you want to download them now?"
 msgstr "廣告阻擋器缺少它的過濾列表，您要現在下載它們嗎？"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:35
-#, kde-format
-msgid "Downloading..."
+#, fuzzy, kde-format
+#| msgid "Downloading..."
+msgctxt "@info"
+msgid "Downloading…"
 msgstr "正在下載…"
 
-#: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:274
-#: src/contents/ui/mobile.qml:81
-#, kde-format
+#: src/contents/ui/Bookmarks.qml:12
+#, fuzzy, kde-format
+#| msgid "Bookmarks"
+msgctxt "@title:window"
 msgid "Bookmarks"
 msgstr "書籤"
 
 #: src/contents/ui/desktop/BookmarksPage.qml:30
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Search bookmarks…"
+msgctxt "@info:placeholder"
 msgid "Search bookmarks…"
 msgstr "搜尋書籤…"
 
 #: src/contents/ui/desktop/BookmarksPage.qml:77
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "No bookmarks yet"
+msgctxt "@info:placeholder"
 msgid "No bookmarks yet"
 msgstr "還沒有書籤"
 
 #: src/contents/ui/desktop/desktop.qml:125
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Search or enter URL…"
+msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "搜尋或輸入網址…"
 
 #: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:355
 #: src/contents/ui/Navigation.qml:437
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "New Tab"
+msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "新增分頁"
 
 #: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/mobile.qml:73
-#, kde-format
-msgid "Leave private mode"
+#, fuzzy, kde-format
+#| msgid "Leave private mode"
+msgctxt "@action:inmenu"
+msgid "Leave Private Mode"
 msgstr "離開隱私模式"
 
 #: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/mobile.qml:73
-#, kde-format
-msgid "Private mode"
+#, fuzzy, kde-format
+#| msgid "Private mode"
+msgctxt "@action:inmenu"
+msgid "Private Mode"
 msgstr "隱私模式"
 
-#: src/contents/ui/desktop/desktop.qml:265 src/contents/ui/History.qml:12
-#: src/contents/ui/mobile.qml:89
-#, kde-format
+#: src/contents/ui/desktop/desktop.qml:265 src/contents/ui/mobile.qml:89
+#, fuzzy, kde-format
+#| msgid "History"
+msgctxt "@action:inmenu"
 msgid "History"
 msgstr "歷史記錄"
 
-#: src/contents/ui/desktop/desktop.qml:283 src/contents/ui/Downloads.qml:16
-#: src/contents/ui/mobile.qml:93
-#, kde-format
+#: src/contents/ui/desktop/desktop.qml:274 src/contents/ui/mobile.qml:81
+#, fuzzy, kde-format
+#| msgid "Bookmarks"
+msgctxt "@action:inmenu"
+msgid "Bookmarks"
+msgstr "書籤"
+
+#: src/contents/ui/desktop/desktop.qml:283 src/contents/ui/mobile.qml:93
+#, fuzzy, kde-format
+#| msgid "Downloads"
+msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "下載"
 
+#: src/contents/ui/desktop/desktop.qml:296
+#, fuzzy, kde-format
+#| msgid "Print"
+msgctxt "@action:inmenu"
+msgid "Print"
+msgstr "列印"
+
 #: src/contents/ui/desktop/desktop.qml:302
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Full Screen"
+msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr "全螢幕"
 
 #: src/contents/ui/desktop/desktop.qml:319
-#, kde-format
-msgid "Hide developer tools"
+#, fuzzy, kde-format
+#| msgid "Hide developer tools"
+msgctxt "@action:inmenu"
+msgid "Hide Developer Tools"
 msgstr "隱藏開發者工具"
 
 #: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:392
-#, kde-format
-msgid "Show developer tools"
+#, fuzzy, kde-format
+#| msgid "Show developer tools"
+msgctxt "@action:inmenu"
+msgid "Show Developer Tools"
 msgstr "顯示開發者工具"
 
 #: src/contents/ui/desktop/desktop.qml:329 src/contents/ui/mobile.qml:292
-#, kde-format
-msgid "Find in page"
+#, fuzzy, kde-format
+#| msgid "Find in page"
+msgctxt "@action:inmenu"
+msgid "Find in Page"
 msgstr "在頁面中尋找內容"
 
-#: src/contents/ui/desktop/desktop.qml:338
+#: src/contents/ui/desktop/desktop.qml:338 src/contents/ui/mobile.qml:375
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "閱讀模式"
 
 #: src/contents/ui/desktop/desktop.qml:355
-#, kde-format
-msgid "Add to application launcher"
+#, fuzzy, kde-format
+#| msgid "Add to application launcher"
+msgctxt "@action:inmenu"
+msgid "Add to Application Launcher"
 msgstr "新增到應用程式啟動器"
 
 #: src/contents/ui/desktop/desktop.qml:374 src/contents/ui/mobile.qml:101
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Settings"
+msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "設定"
 
 #: src/contents/ui/desktop/HistoryPage.qml:30
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Search history…"
+msgctxt "@info:placeholder"
 msgid "Search history…"
 msgstr "搜尋歷史…"
 
 #: src/contents/ui/desktop/HistoryPage.qml:46
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Clear all history"
+msgctxt "@info:tooltip"
 msgid "Clear all history"
 msgstr "清空歷史"
 
 #: src/contents/ui/desktop/HistoryPage.qml:83
-#, kde-format
-msgid "Not history yet"
+#, fuzzy, kde-format
+#| msgid "Not history yet"
+msgctxt "@info:placeholder"
+msgid "No history yet"
 msgstr "還沒有歷史"
 
 #: src/contents/ui/desktop/Tabs.qml:232 src/contents/ui/Tabs.qml:275
-#, kde-format
-msgid "Reader Mode: %1"
+#, fuzzy, kde-format
+#| msgid "Reader Mode: %1"
+msgctxt "@label"
+msgid "Reader mode: %1"
 msgstr "閱讀模式：%1"
 
 #: src/contents/ui/desktop/Tabs.qml:261 src/contents/ui/Tabs.qml:306
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Close tab"
+msgctxt "@info:tooltip"
 msgid "Close tab"
 msgstr "關閉分頁"
 
 #: src/contents/ui/desktop/Tabs.qml:291
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Open a new tab"
+msgctxt "@info:tooltip"
 msgid "Open a new tab"
 msgstr "在新分頁開啟"
 
 #: src/contents/ui/desktop/Tabs.qml:324
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "List all tabs"
+msgctxt "@info:tooltip"
 msgid "List all tabs"
 msgstr "列出所有分頁"
 
 #: src/contents/ui/desktop/Tabs.qml:364
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Reload Tab"
+msgctxt "@action:inmenu"
 msgid "Reload Tab"
 msgstr "重新載入分頁"
 
 #: src/contents/ui/desktop/Tabs.qml:372
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Duplicate Tab"
+msgctxt "@action:inmenu"
 msgid "Duplicate Tab"
 msgstr "複製分頁"
 
 #: src/contents/ui/desktop/Tabs.qml:380
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Bookmark Tab"
+msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "將分頁加入書籤"
 
 #: src/contents/ui/desktop/Tabs.qml:396
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Close Tab"
+msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "關閉分頁"
 
+#: src/contents/ui/Downloads.qml:16
+#, fuzzy, kde-format
+#| msgid "Downloads"
+msgctxt "@title:window"
+msgid "Downloads"
+msgstr "下載"
+
 #: src/contents/ui/Downloads.qml:28
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "No running downloads"
+msgctxt "@info:placeholder"
 msgid "No running downloads"
 msgstr "沒有執行中的下載"
 
 #: src/contents/ui/Downloads.qml:77
-#, kde-format
-msgctxt "download state"
+#, fuzzy, kde-format
+#| msgctxt "download state"
+#| msgid "Starting…"
+msgctxt "@info:progress"
 msgid "Starting…"
 msgstr "正在開始…"
 
 #: src/contents/ui/Downloads.qml:79
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Completed"
+msgctxt "@info:progress"
 msgid "Completed"
 msgstr "已完成"
 
 #: src/contents/ui/Downloads.qml:81
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Cancelled"
+msgctxt "@info:progress"
 msgid "Cancelled"
 msgstr "已取消"
 
 #: src/contents/ui/Downloads.qml:83
-#, kde-format
-msgctxt "download state"
+#, fuzzy, kde-format
+#| msgctxt "download state"
+#| msgid "Interrupted"
+msgctxt "@info:progress"
 msgid "Interrupted"
 msgstr "已中斷"
 
 #: src/contents/ui/Downloads.qml:85
-#, kde-format
-msgctxt "download state"
-msgid "In progress"
+#, fuzzy, kde-format
+#| msgctxt "download state"
+#| msgid "In progress"
+msgctxt "@info:progress"
+msgid "In progress…"
 msgstr "進行中"
 
+#: src/contents/ui/Downloads.qml:92
+#, fuzzy, kde-format
+#| msgid "Cancel"
+msgctxt "@info:tooltip"
+msgid "Cancel"
+msgstr "取消"
+
 #: src/contents/ui/Downloads.qml:117
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Continue"
+msgctxt "@info:tooltip"
 msgid "Continue"
 msgstr "繼續"
 
 #: src/contents/ui/FindInPageBar.qml:45
-#, kde-format
-msgid "Search..."
-msgstr "搜尋…"
+#, fuzzy, kde-format
+#| msgid "Search history…"
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "搜尋歷史…"
+
+#: src/contents/ui/History.qml:12
+#, fuzzy, kde-format
+#| msgid "History"
+msgctxt "@title:window"
+msgid "History"
+msgstr "歷史記錄"
 
 #: src/contents/ui/mobile.qml:20
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Angelfish Web Browser"
+msgctxt "@title:window"
 msgid "Angelfish Web Browser"
 msgstr "Angelfish 網路瀏覽器"
 
 #: src/contents/ui/mobile.qml:66
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Tabs"
+msgctxt "@action:inmenu"
 msgid "Tabs"
 msgstr "分頁"
 
 #: src/contents/ui/mobile.qml:307
-#, kde-format
-msgid "Add to homescreen"
+#, fuzzy, kde-format
+#| msgid "Add to homescreen"
+msgctxt "@action:inmenu"
+msgid "Add to Homescreen"
 msgstr "新增至主螢幕"
 
 #: src/contents/ui/mobile.qml:317
-#, kde-format
-msgid "Open in app"
+#, fuzzy, kde-format
+#| msgid "Open in app"
+msgctxt "@action:inmenu"
+msgid "Open in App"
 msgstr "在應用程式中開啟"
 
 #: src/contents/ui/mobile.qml:325
 #, kde-format
-msgid "Go previous"
-msgstr "上一頁"
+msgctxt "@action:inmenu"
+msgid "Go Back"
+msgstr ""
 
-#: src/contents/ui/mobile.qml:333 src/settings/SettingsNavigationBarPage.qml:59
-#, kde-format
-msgid "Go forward"
+#: src/contents/ui/mobile.qml:333
+#, fuzzy, kde-format
+#| msgid "Go forward"
+msgctxt "@action:inmenu"
+msgid "Go Forward"
 msgstr "下一頁"
 
 #: src/contents/ui/mobile.qml:340
-#, kde-format
-msgid "Stop loading"
+#, fuzzy, kde-format
+#| msgid "Stop loading"
+msgctxt "@action:inmenu"
+msgid "Stop Loading"
 msgstr "停止載入"
 
 #: src/contents/ui/mobile.qml:340
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Refresh"
+msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "重新整理"
 
 #: src/contents/ui/mobile.qml:350
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Bookmarked"
+msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "已加入書籤"
 
 #: src/contents/ui/mobile.qml:350
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Bookmark"
+msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "書籤"
 
 #: src/contents/ui/mobile.qml:366
-#, kde-format
-msgid "Show desktop site"
+#, fuzzy, kde-format
+#| msgid "Show desktop site"
+msgctxt "@action:inmenu"
+msgid "Show Desktop Site"
 msgstr "顯示桌面站台"
 
-#: src/contents/ui/mobile.qml:375
-#, kde-format
-msgid "Reader Mode"
-msgstr "閱讀模式"
-
 #: src/contents/ui/mobile.qml:383
-#, kde-format
-msgid "Hide navigation bar"
+#, fuzzy, kde-format
+#| msgid "Hide navigation bar"
+msgctxt "@action:inmenu"
+msgid "Hide Navigation Bar"
 msgstr "隱藏導航列"
 
 #: src/contents/ui/Navigation.qml:410
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Done"
+msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr "完成"
 
+#: src/contents/ui/Navigation.qml:423
+#, fuzzy, kde-format
+#| msgid "New tabs:"
+msgctxt "@info:status"
+msgid "%1 tabs"
+msgstr "新分頁："
+
 #: src/contents/ui/NewTabQuestion.qml:11
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "Site wants to open a new tab: \n"
+#| "%1"
+msgctxt "@info:status"
 msgid ""
-"Site wants to open a new tab: \n"
+"Site wants to open a new tab:\n"
 "%1"
 msgstr ""
 "網站欲開啟新分頁：\n"
 "%1"
 
+#: src/contents/ui/NewTabQuestion.qml:19
+#, fuzzy, kde-format
+#| msgid "Open"
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "開啟"
+
 #: src/contents/ui/ShareSheet.qml:18
-#, kde-format
-msgid "Share page to"
+#, fuzzy, kde-format
+#| msgid "Share page"
+msgctxt "@title:window"
+msgid "Share Page"
 msgstr "分享頁面"
 
 #: src/main.cpp:82
@@ -728,36 +995,47 @@ msgstr "欲開啟網址"
 
 #: src/settings/AngelfishConfigurationView.qml:14
 #: src/settings/SettingsGeneral.qml:18
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "General"
+msgctxt "@title:window"
 msgid "General"
 msgstr "一般"
 
 #: src/settings/AngelfishConfigurationView.qml:20
-#, kde-format
-msgid "Ad Block"
+#, fuzzy, kde-format
+#| msgid "Ad Block"
+msgctxt "@title:window"
+msgid "Adblock"
 msgstr "廣告阻擋"
 
 #: src/settings/AngelfishConfigurationView.qml:26
 #: src/settings/SettingsWebApps.qml:16
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Web Apps"
+msgctxt "@title:window"
 msgid "Web Apps"
 msgstr "網頁應用程式"
 
 #: src/settings/AngelfishConfigurationView.qml:32
-#: src/settings/SettingsSearchEnginePage.qml:17
 #: src/settings/SettingsSearchEnginePage.qml:112
-#, kde-format
-msgid "Search Engine"
+#, fuzzy, kde-format
+#| msgid "Search Engine"
+msgctxt "@title:window"
+msgid "Search Engines"
 msgstr "搜尋引擎"
 
 #: src/settings/AngelfishConfigurationView.qml:38
 #: src/settings/DesktopHomeSettingsPage.qml:15
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Toolbars"
+msgctxt "@title:window"
 msgid "Toolbars"
 msgstr "工具列"
 
 #: src/settings/DesktopHomeSettingsPage.qml:24
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show home button:"
+msgctxt "@label"
 msgid "Show home button:"
 msgstr "顯示首頁按鈕："
 
@@ -767,39 +1045,51 @@ msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr "首頁按鈕會顯示在工具列中重新載入按鈕的旁邊。"
 
 #: src/settings/DesktopHomeSettingsPage.qml:35
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Homepage:"
+msgctxt "@label"
 msgid "Homepage:"
 msgstr "首頁"
 
 #: src/settings/DesktopHomeSettingsPage.qml:58
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "New tabs:"
+msgctxt "@label"
 msgid "New tabs:"
 msgstr "新分頁："
 
 #: src/settings/DesktopHomeSettingsPage.qml:81
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Always show the tab bar"
+msgctxt "@label:checkbox"
 msgid "Always show the tab bar"
 msgstr "總是顯示分頁列"
 
 #: src/settings/DesktopHomeSettingsPage.qml:82
-#, kde-format
-msgid "The tab bar will be displayed even if there is only one tab open"
+#, fuzzy, kde-format
+#| msgid "The tab bar will be displayed even if there is only one tab open"
+msgid "The tab bar will be displayed even if there is only one tab open."
 msgstr "讓分頁列在只有一個分頁時也仍然顯示"
 
 #: src/settings/SettingsAdblock.qml:16
-#, kde-format
-msgid "Adblock settings"
+#, fuzzy, kde-format
+#| msgid "Adblock settings"
+msgctxt "@title:window"
+msgid "Adblock Settings"
 msgstr "廣告阻擋設定"
 
 #: src/settings/SettingsAdblock.qml:23
-#, kde-format
-msgctxt "@action:intoolbar"
-msgid "Add Filterlist"
+#, fuzzy, kde-format
+#| msgid "Add filterlist"
+msgctxt "@info:tooltip"
+msgid "Add filter list"
 msgstr "新增過濾列表"
 
 #: src/settings/SettingsAdblock.qml:27
-#, kde-format
-msgid "Update lists"
+#, fuzzy, kde-format
+#| msgid "Update lists"
+msgctxt "@action:intoolbar"
+msgid "Update Lists"
 msgstr "更新列表"
 
 #: src/settings/SettingsAdblock.qml:49
@@ -808,29 +1098,38 @@ msgid "The adblock functionality isn't included in this build."
 msgstr "廣告阻擋功能沒有包含在這個建置版裡。"
 
 #: src/settings/SettingsAdblock.qml:100
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Remove this filter list"
+msgctxt "@info:tooltip"
 msgid "Remove this filter list"
 msgstr "移除這個過濾列表"
 
 #: src/settings/SettingsAdblock.qml:112
-#, kde-format
-msgid "Add Filterlist"
+#, fuzzy, kde-format
+#| msgid "Add Filterlist"
+msgctxt "@action:button"
+msgid "Add Filter List"
 msgstr "新增過濾列表"
 
 #: src/settings/SettingsAdblock.qml:124
-#, kde-format
-msgid "Add filterlist"
+#, fuzzy, kde-format
+#| msgid "Add Filterlist"
+msgctxt "@title:group"
+msgid "Add Filter List"
 msgstr "新增過濾列表"
 
 #: src/settings/SettingsAdblock.qml:129
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Name"
+msgctxt "@label"
 msgid "Name"
 msgstr "名稱"
 
 #: src/settings/SettingsAdblock.qml:138
 #, kde-format
-msgid "Url"
-msgstr "網址"
+msgctxt "@label"
+msgid "URL"
+msgstr ""
 
 #: src/settings/SettingsGeneral.qml:27
 #, kde-format
@@ -843,7 +1142,9 @@ msgid "This may be required on certain websites for them to work."
 msgstr "有些網站可能需要這個才能正常運作。"
 
 #: src/settings/SettingsGeneral.qml:37
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Load images"
+msgctxt "@label:checkbox"
 msgid "Load images"
 msgstr "載入圖片"
 
@@ -853,7 +1154,9 @@ msgid "Whether to load images on websites."
 msgstr "是否要在網站上載入圖片。"
 
 #: src/settings/SettingsGeneral.qml:47
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Enable adblock"
+msgctxt "@label:checkbox"
 msgid "Enable adblock"
 msgstr "啟用廣告阻擋"
 
@@ -863,24 +1166,32 @@ msgid "Attempts to prevent advertisements on websites from showing."
 msgstr "嘗試阻止網站上廣告的顯示。"
 
 #: src/settings/SettingsGeneral.qml:48
-#, kde-format
-msgid "AdBlock functionality was not included in this build."
+#, fuzzy, kde-format
+#| msgid "AdBlock functionality was not included in this build."
+msgid "Adblock functionality was not included in this build."
 msgstr "廣告阻擋功能未被包含在這個建置版裡。"
 
 #: src/settings/SettingsGeneral.qml:58
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Switch to new tab immediately"
+msgctxt "@label:checkbox"
 msgid "Switch to new tab immediately"
 msgstr "馬上切換到新分頁"
 
 #: src/settings/SettingsGeneral.qml:59
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "When you open a link, image or media in a new tab, switch to it "
+#| "immediately"
 msgid ""
-"When you open a link, image or media in a new tab, switch to it immediately"
+"When you open a link, image or media in a new tab, switch to it immediately."
 msgstr "當您在新分頁開啟連結、圖片或媒體時，馬上切換到新分頁"
 
 #: src/settings/SettingsGeneral.qml:68
-#, kde-format
-msgid "Use Smooth Scrolling"
+#, fuzzy, kde-format
+#| msgid "Use Smooth Scrolling"
+msgctxt "@label:checkbox"
+msgid "Use smooth scrolling"
 msgstr "使用平滑捲動"
 
 #: src/settings/SettingsGeneral.qml:69
@@ -891,7 +1202,9 @@ msgid ""
 msgstr "捲動較為平滑而不會在您停止捲動時馬上停止。應用程式重新啟動後才會生效。"
 
 #: src/settings/SettingsGeneral.qml:78
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Use dark color scheme"
+msgctxt "@label:checkbox"
 msgid "Use dark color scheme"
 msgstr "使用深色配色方案"
 
@@ -903,8 +1216,10 @@ msgid ""
 msgstr "網站的配色方案會被設定為深色。應用程式重新啟動後才會生效。"
 
 #: src/settings/SettingsNavigationBarPage.qml:18
-#, kde-format
-msgid "Navigation bar"
+#, fuzzy, kde-format
+#| msgid "Navigation bar"
+msgctxt "@title:window"
+msgid "Navigation Bar"
 msgstr "導航列"
 
 #: src/settings/SettingsNavigationBarPage.qml:26
@@ -925,50 +1240,107 @@ msgstr ""
 "底端滑到邊緣去。"
 
 #: src/settings/SettingsNavigationBarPage.qml:35
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Main menu in portrait"
+msgctxt "@label:checkbox"
 msgid "Main menu in portrait"
 msgstr "直向模式中的主選單"
 
 #: src/settings/SettingsNavigationBarPage.qml:41
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Tabs in portrait"
+msgctxt "@label:checkbox"
 msgid "Tabs in portrait"
 msgstr "直向模式中的分頁"
 
 #: src/settings/SettingsNavigationBarPage.qml:47
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Context menu in portrait"
+msgctxt "@label:checkbox"
 msgid "Context menu in portrait"
 msgstr "直向模式中的內容功能表"
 
 #: src/settings/SettingsNavigationBarPage.qml:53
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Go back"
+msgctxt "@label:checkbox"
 msgid "Go back"
 msgstr "返回"
 
+#: src/settings/SettingsNavigationBarPage.qml:59
+#, fuzzy, kde-format
+#| msgid "Go forward"
+msgctxt "@label:checkbox"
+msgid "Go forward"
+msgstr "下一頁"
+
 #: src/settings/SettingsNavigationBarPage.qml:65
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Reload/Stop"
+msgctxt "@label:checkbox"
 msgid "Reload/Stop"
 msgstr "重新載入/停止"
 
+#: src/settings/SettingsSearchEnginePage.qml:17
+#, fuzzy, kde-format
+#| msgid "Search Engine"
+msgctxt "@window:title"
+msgid "Search Engines"
+msgstr "搜尋引擎"
+
 #: src/settings/SettingsSearchEnginePage.qml:20
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Custom"
+msgctxt "@label"
 msgid "Custom"
 msgstr "自訂"
 
 #: src/settings/SettingsSearchEnginePage.qml:117
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Base URL of your preferred search engine"
+msgctxt "@label"
 msgid "Base URL of your preferred search engine"
 msgstr "偏好搜尋引擎的基礎網址"
 
 #: src/settings/SettingsWebApps.qml:73
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Remove app"
+msgctxt "@info:tooltip"
 msgid "Remove app"
 msgstr "移除應用程式"
 
 #: src/settings/SettingsWebApps.qml:85
-#, kde-format
-msgctxt "placeholder message"
-msgid "No Web Apps installed"
+#, fuzzy, kde-format
+#| msgctxt "placeholder message"
+#| msgid "No Web Apps installed"
+msgctxt "@info:placeholder"
+msgid "No web apps installed"
 msgstr "沒有已安裝的網路應用程式"
+
+#~ msgid "Fullscreen"
+#~ msgstr "全螢幕"
+
+#~ msgid "Private mode"
+#~ msgstr "隱私模式"
+
+#~ msgid "Search..."
+#~ msgstr "搜尋…"
+
+#~ msgid "Go previous"
+#~ msgstr "上一頁"
+
+#~ msgid "Reader Mode"
+#~ msgstr "閱讀模式"
+
+#~ msgid "Share page to"
+#~ msgstr "分享頁面"
+
+#~ msgctxt "@action:intoolbar"
+#~ msgid "Add Filterlist"
+#~ msgstr "新增過濾列表"
+
+#~ msgid "Url"
+#~ msgstr "網址"
 
 #~ msgid "Show navigation bar"
 #~ msgstr "顯示導航列"
@@ -979,19 +1351,11 @@ msgstr "沒有已安裝的網路應用程式"
 #~ msgid "Add"
 #~ msgstr "新增"
 
-#, fuzzy
-#~| msgid "Private mode"
-#~ msgid "Private Mode"
-#~ msgstr "隱私模式"
-
 #~ msgid "Enabled"
 #~ msgstr "啟用"
 
 #~ msgid "Disabled"
 #~ msgstr "停用"
-
-#~ msgid "Search online for '%1'"
-#~ msgstr "線上搜尋「%1」"
 
 #~ msgid "Search online"
 #~ msgstr "線上搜尋"
