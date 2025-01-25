@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the plasma-angelfish package.
 #
 # Automatically generated, 2019.
-# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2023, 2024 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2023, 2024, 2025 Eloy Cuadra <ecuadra@eloihr.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-10-20 00:39+0000\n"
-"PO-Revision-Date: 2024-10-20 14:00+0200\n"
+"PO-Revision-Date: 2025-01-24 14:03+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.08.2\n"
+"X-Generator: Lokalize 24.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -656,7 +656,7 @@ msgstr "Actualizar"
 #: src/contents/ui/mobile.qml:350
 #, kde-format
 msgid "Bookmarked"
-msgstr "Marcado"
+msgstr "Marcada"
 
 #: src/contents/ui/mobile.qml:350
 #, kde-format
@@ -700,7 +700,7 @@ msgstr "Compartir página con"
 #: src/main.cpp:82
 #, kde-format
 msgid "URL to open"
-msgstr "URL a abrir"
+msgstr "URL que se abrirá"
 
 #: src/settings/AngelfishConfigurationView.qml:14
 #: src/settings/SettingsGeneral.qml:18
@@ -785,7 +785,7 @@ msgstr "Actualizar listas"
 #, kde-format
 msgid "The adblock functionality isn't included in this build."
 msgstr ""
-"La funcionalidad de bloqueo publicitario no se ha incluido en esta versión."
+"La funcionalidad de bloqueo de publicidad no se ha incluido en esta versión."
 
 #: src/settings/SettingsAdblock.qml:100
 #, kde-format
@@ -835,7 +835,7 @@ msgstr "Si se deben cargar o no las imágenes de los sitios web."
 #: src/settings/SettingsGeneral.qml:47
 #, kde-format
 msgid "Enable adblock"
-msgstr "Activar el bloqueo publicitario"
+msgstr "Activar el bloqueo de publicidad"
 
 #: src/settings/SettingsGeneral.qml:48
 #, kde-format
@@ -936,7 +936,7 @@ msgstr "Volver"
 #: src/settings/SettingsNavigationBarPage.qml:65
 #, kde-format
 msgid "Reload/Stop"
-msgstr "Volver a cargar/Detener"
+msgstr "Volver a cargar o detener"
 
 #: src/settings/SettingsSearchEnginePage.qml:20
 #, kde-format
@@ -946,7 +946,7 @@ msgstr "Personalizar"
 #: src/settings/SettingsSearchEnginePage.qml:117
 #, kde-format
 msgid "Base URL of your preferred search engine"
-msgstr "URL base de su motor de búsqueda preferido"
+msgstr "URL base del motor de búsqueda preferido"
 
 #: src/settings/SettingsWebApps.qml:73
 #, kde-format
