@@ -1,13 +1,13 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-angelfish package.
-# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2023, 2024 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
+# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2023, 2024, 2025 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-01-24 00:41+0000\n"
-"PO-Revision-Date: 2024-10-26 12:29+0200\n"
+"PO-Revision-Date: 2025-01-25 12:23+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 24.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -64,25 +64,22 @@ msgid "Open"
 msgstr "Otwórz"
 
 #: lib/contents/ui/AuthSheet.qml:17
-#, fuzzy, kde-format
-#| msgid "Authentication required"
+#, kde-format
 msgctxt "@title:window"
 msgid "Authentication Required"
 msgstr "Wymagane uwierzytelnienie"
 
 #: lib/contents/ui/AuthSheet.qml:30
-#, fuzzy, kde-format
-#| msgid "Username"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Username:"
-msgstr "Nazwa użytkownika"
+msgstr "Nazwa użytkownika:"
 
 #: lib/contents/ui/AuthSheet.qml:37
-#, fuzzy, kde-format
-#| msgid "Password"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Password:"
-msgstr "Hasło"
+msgstr "Hasło:"
 
 #: lib/contents/ui/DownloadQuestion.qml:15
 #, kde-format
@@ -91,29 +88,25 @@ msgstr "Czy pobrać ten plik?"
 
 #: lib/contents/ui/DownloadQuestion.qml:23
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
-#, fuzzy, kde-format
-#| msgid "Download"
+#, kde-format
 msgctxt "@action:button"
 msgid "Download"
 msgstr "Pobierz"
 
 #: lib/contents/ui/DownloadQuestion.qml:31 lib/contents/ui/PrintPreview.qml:163
-#, fuzzy, kde-format
-#| msgid "Cancel"
+#, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Anuluj"
 
 #: lib/contents/ui/ErrorHandler.qml:47
-#, fuzzy, kde-format
-#| msgid "Error loading the page"
+#, kde-format
 msgctxt "@title"
 msgid "Error Loading the Page"
 msgstr "Błąd wczytywania strony"
 
 #: lib/contents/ui/ErrorHandler.qml:58
-#, fuzzy, kde-format
-#| msgid "Retry"
+#, kde-format
 msgctxt "@action:intoolbar"
 msgid "Retry"
 msgstr "Ponów"
@@ -140,22 +133,19 @@ msgstr ""
 " Czy chcesz pominąć to sprawdzenie bezpieczeństwa i kontynuować?"
 
 #: lib/contents/ui/ErrorHandler.qml:81
-#, fuzzy, kde-format
-#| msgid "Yes"
+#, kde-format
 msgctxt "@action:button"
 msgid "Yes"
 msgstr "Tak"
 
 #: lib/contents/ui/ErrorHandler.qml:90
-#, fuzzy, kde-format
-#| msgid "No"
+#, kde-format
 msgctxt "@action:button"
 msgid "No"
 msgstr "Nie"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
-#, fuzzy, kde-format
-#| msgid "This page says"
+#, kde-format
 msgctxt "@title:window"
 msgid "This Page Says"
 msgstr "Ta strona mówi"
@@ -170,80 +160,72 @@ msgstr ""
 "mogą pozostać niezapisanymi."
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:79
-#, fuzzy, kde-format
-#| msgid "Leave page"
+#, kde-format
 msgctxt "@action:button"
 msgid "Leave Page"
 msgstr "Opuść stronę"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:87
-#, fuzzy, kde-format
-#| msgid "Submit"
+#, kde-format
 msgctxt "@action:button"
 msgid "Submit"
 msgstr "Wyślij"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to access the microphone?"
+#, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>microphone</b>?"
-msgstr "Czy strona ma mieć dostęp do mikrofonu?"
+msgstr "Czy zezwolić stronie <b>%1</b> na dostęp do <b>mikrofonu</b>?"
 
 #: lib/contents/ui/PermissionQuestion.qml:24
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to access the camera?"
+#, kde-format
 msgid "Do you want to allow the website <b>%1</b> to access the <b>camera</b>?"
-msgstr "Czy strona ma mieć dostęp do kamery?"
+msgstr "Czy zezwolić stronie <b>%1</b> na dostęp do <b>kamery</b>?"
 
 #: lib/contents/ui/PermissionQuestion.qml:26
-#, fuzzy, kde-format
-#| msgid ""
-#| "Do you want to allow the website to access the camera and the microphone?"
+#, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>camera and the "
 "microphone</b>?"
-msgstr "Czy strona ma mieć dostęp do kamery i mikrofonu?"
+msgstr "Czy zezwolić stronie <b>%1</b> na dostęp do <b>kamery i mikrofonu</b>?"
 
 #: lib/contents/ui/PermissionQuestion.qml:28
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to share your screen?"
+#, kde-format
 msgid "Do you want to allow the website <b>%1</b> to share your <b>screen</b>?"
-msgstr "Czy strona może widzieć twój udostępniony ekran?"
+msgstr ""
+"Czy dać stronie <b>%1</b> możliwość udostępniania twojego <b>ekranu</b>?"
 
 #: lib/contents/ui/PermissionQuestion.qml:30
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to share the sound output?"
+#, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to share the sound <b>output</b>?"
-msgstr "Czy strona może słyszeć twoje wyjście dźwiękowe?"
+msgstr ""
+"Czy dać stronie <b>%1</b> możliwość udostępniania <b>wyjścia</b> dźwiękowego?"
 
 #: lib/contents/ui/PermissionQuestion.qml:32
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to send you notifications?"
+#, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to send you <b>notifications</b>?"
-msgstr "Czy strona może wysyłać ci powiadomienia?"
+msgstr "Czy zezwolić stronie <b>%1</b> na pokazywanie <b>powiadomień</b>?"
 
 #: lib/contents/ui/PermissionQuestion.qml:34
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to access the geo location?"
+#, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>geo location</b>?"
-msgstr "Czy strona ma mieć dostęp do geo-położenia?"
+msgstr ""
+"Czy zezwolić stronie <b>%1</b> na dostęp do <b>twojego położenia "
+"geograficznego</b>?"
 
 #: lib/contents/ui/PermissionQuestion.qml:36
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to access the camera?"
+#, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>clipboard</b>?"
-msgstr "Czy strona ma mieć dostęp do kamery?"
+msgstr "Czy zezwolić stronie <b>%1</b> na dostęp do <b>schowka</b>?"
 
 #: lib/contents/ui/PermissionQuestion.qml:38
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to share your screen?"
+#, kde-format
 msgid "Do you want to allow the website <b>%1</b> to access your <b>fonts</b>?"
-msgstr "Czy strona może widzieć twój udostępniony ekran?"
+msgstr "Czy zezwolić stronie <b>%1</b> na dostęp do twoich <b>czcionek</b>?"
 
 #: lib/contents/ui/PermissionQuestion.qml:40
 #, kde-format
@@ -251,446 +233,382 @@ msgctxt ""
 "The website (website) requested an unknown permission: Do you want to allow "
 "the website (website) to access your fonts?"
 msgid "The website %1 requested an unknown permission: %2"
-msgstr ""
+msgstr "Strona %1 poprosiła o nieznane uprawienie: %2"
 
 #: lib/contents/ui/PermissionQuestion.qml:48
-#, fuzzy, kde-format
-#| msgid "Accept"
+#, kde-format
 msgctxt "@action:button"
 msgid "Accept"
 msgstr "Przyjmij"
 
 #: lib/contents/ui/PermissionQuestion.qml:58
-#, fuzzy, kde-format
-#| msgid "Decline"
+#, kde-format
 msgctxt "@action:button"
 msgid "Decline"
 msgstr "Odrzuć"
 
 #: lib/contents/ui/PrintPreview.qml:24
-#, fuzzy, kde-format
-#| msgid "Print"
+#, kde-format
 msgctxt "@title:window"
 msgid "Print"
 msgstr "Wydrukuj"
 
 #: lib/contents/ui/PrintPreview.qml:64
-#, fuzzy, kde-format
-#| msgid "Destination"
+#, kde-format
 msgctxt "@title:group"
 msgid "Destination"
 msgstr "Cel"
 
 #: lib/contents/ui/PrintPreview.qml:68
-#, fuzzy, kde-format
-#| msgid "Save to PDF"
+#, kde-format
 msgctxt "@title:group"
 msgid "Save to PDF"
 msgstr "Zapisz do PDFa"
 
 #: lib/contents/ui/PrintPreview.qml:74
-#, fuzzy, kde-format
-#| msgid "Orientation"
+#, kde-format
 msgctxt "@title:group"
 msgid "Orientation"
 msgstr "Kierunek"
 
 #: lib/contents/ui/PrintPreview.qml:99
-#, fuzzy, kde-format
-#| msgid "Paper size"
+#, kde-format
 msgctxt "@title:group"
 msgid "Paper Size"
 msgstr "Rozmiar papieru"
 
 #: lib/contents/ui/PrintPreview.qml:145
-#, fuzzy, kde-format
-#| msgid "Options"
+#, kde-format
 msgctxt "@title:group"
 msgid "Options"
 msgstr "Ustawienia"
 
 #: lib/contents/ui/PrintPreview.qml:149
-#, fuzzy, kde-format
-#| msgid "Print backgrounds"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Print backgrounds"
 msgstr "Drukuj tła"
 
 #: lib/contents/ui/PrintPreview.qml:168
-#, fuzzy, kde-format
-#| msgid "Save"
+#, kde-format
 msgctxt "@action:button"
 msgid "Save"
 msgstr "Zapisz"
 
 #: lib/contents/ui/WebView.qml:243
-#, fuzzy, kde-format
-#| msgid "Website was opened in a new tab"
+#, kde-format
 msgctxt "@info:status"
 msgid "Website was opened in a new tab"
 msgstr "Strona sieciowa otworzyła się w nowej karcie"
 
 #: lib/contents/ui/WebView.qml:261
-#, fuzzy, kde-format
-#| msgid "Entered Full Screen Mode"
+#, kde-format
 msgctxt "@info:status"
 msgid "Entered Full Screen mode"
 msgstr "Włączono tryb pełnego ekranu"
 
 #: lib/contents/ui/WebView.qml:262
-#, fuzzy, kde-format
-#| msgid "Exit Full Screen (Esc)"
+#, kde-format
 msgctxt "@action:button"
 msgid "Exit Full Screen (Esc)"
 msgstr "Wyłącz tryb pełnego ekranu (Esc)"
 
 #: lib/contents/ui/WebView.qml:395
-#, fuzzy, kde-format
-#| msgid "Play"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Play"
 msgstr "Odtwórz"
 
 #: lib/contents/ui/WebView.qml:396
-#, fuzzy, kde-format
-#| msgid "Pause"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Pause"
 msgstr "Wstrzymaj"
 
 #: lib/contents/ui/WebView.qml:403
-#, fuzzy, kde-format
-#| msgid "Unmute"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Unmute"
 msgstr "Wyłącz wyciszenie"
 
 #: lib/contents/ui/WebView.qml:404
-#, fuzzy, kde-format
-#| msgid "Mute"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Mute"
 msgstr "Wycisz"
 
 #: lib/contents/ui/WebView.qml:414
-#, fuzzy, kde-format
-#| msgid "Speed"
+#, kde-format
 msgctxt "@label"
 msgid "Speed"
 msgstr "Szybkość"
 
 #: lib/contents/ui/WebView.qml:437
-#, fuzzy, kde-format
-#| msgid "Loop"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Loop"
 msgstr "Zapętlij"
 
 #: lib/contents/ui/WebView.qml:444
-#, fuzzy, kde-format
-#| msgid "Exit fullscreen"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Exit Fullscreen"
 msgstr "Wyłącz tryb pełnoekranowy"
 
 #: lib/contents/ui/WebView.qml:444
-#, fuzzy, kde-format
-#| msgid "Exit fullscreen"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Enter Fullscreen"
-msgstr "Wyłącz tryb pełnoekranowy"
+msgstr "Włącz tryb pełnoekranowy"
 
 #: lib/contents/ui/WebView.qml:457
-#, fuzzy, kde-format
-#| msgid "Hide controls"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Controls"
 msgstr "Ukryj sterowanie"
 
 #: lib/contents/ui/WebView.qml:458
-#, fuzzy, kde-format
-#| msgid "Show controls"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Controls"
 msgstr "Pokaż sterowanie"
 
 #: lib/contents/ui/WebView.qml:466
-#, fuzzy, kde-format
-#| msgid "Open video"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video"
 msgstr "Otwórz film"
 
 #: lib/contents/ui/WebView.qml:466
-#, fuzzy, kde-format
-#| msgid "Open audio"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio"
 msgstr "Otwórz dźwięk"
 
 #: lib/contents/ui/WebView.qml:467
-#, fuzzy, kde-format
-#| msgid "Open video in new Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video in New Tab"
-msgstr "Otwórz film w nowej karcie"
+msgstr "Otwórz film na nowej karcie"
 
 #: lib/contents/ui/WebView.qml:467
-#, fuzzy, kde-format
-#| msgid "Open audio in new Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio in New Tab"
-msgstr "Otwórz dźwięk w nowej karcie"
+msgstr "Otwórz dźwięk na nowej karcie"
 
 #: lib/contents/ui/WebView.qml:479
-#, fuzzy, kde-format
-#| msgid "Save video"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Video"
 msgstr "Zapisz film"
 
 #: lib/contents/ui/WebView.qml:485
-#, fuzzy, kde-format
-#| msgid "Copy video Link"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Video Link"
-msgstr "Skopiuj odnośnik filmu"
+msgstr "Skopiuj odnośnik do filmu"
 
 #: lib/contents/ui/WebView.qml:491
-#, fuzzy, kde-format
-#| msgid "Open image"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image"
 msgstr "Otwórz obraz"
 
 #: lib/contents/ui/WebView.qml:491
-#, fuzzy, kde-format
-#| msgid "Open image in new Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image in New Tab"
-msgstr "Otwórz obraz w nowej karcie"
+msgstr "Otwórz obraz na nowej karcie"
 
 #: lib/contents/ui/WebView.qml:503
-#, fuzzy, kde-format
-#| msgid "Save image"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Image"
 msgstr "Zapisz obraz"
 
 #: lib/contents/ui/WebView.qml:509
-#, fuzzy, kde-format
-#| msgid "Copy image"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image"
 msgstr "Skopiuj obraz"
 
 #: lib/contents/ui/WebView.qml:515
-#, fuzzy, kde-format
-#| msgid "Copy image link"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image Link"
-msgstr "Skopiuj odnośnik obrazu"
+msgstr "Skopiuj odnośnik do obrazu"
 
 #: lib/contents/ui/WebView.qml:521
-#, fuzzy, kde-format
-#| msgid "Open link"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Link"
 msgstr "Otwórz odnośnik"
 
 #: lib/contents/ui/WebView.qml:521
-#, fuzzy, kde-format
-#| msgid "Open link in new Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Link in New Tab"
 msgstr "Otwórz odnośnik w nowej karcie"
 
 #: lib/contents/ui/WebView.qml:533
-#, fuzzy, kde-format
-#| msgid "Bookmark link"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Link"
 msgstr "Dodaj odnośnik do zakładek"
 
 #: lib/contents/ui/WebView.qml:545
-#, fuzzy, kde-format
-#| msgid "Save link"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Link"
 msgstr "Zapisz odnośnik"
 
 #: lib/contents/ui/WebView.qml:551
-#, fuzzy, kde-format
-#| msgid "Copy link"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Link"
 msgstr "Skopiuj odnośnik"
 
 #: lib/contents/ui/WebView.qml:558
-#, fuzzy, kde-format
-#| msgid "Copy"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy"
 msgstr "Skopiuj"
 
 #: lib/contents/ui/WebView.qml:564
-#, fuzzy, kde-format
-#| msgid "Cut"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Cut"
 msgstr "Wytnij"
 
 #: lib/contents/ui/WebView.qml:570
-#, fuzzy, kde-format
-#| msgid "Paste"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "Wklej"
 
 #: lib/contents/ui/WebView.qml:578
-#, fuzzy, kde-format
-#| msgid "Search online for '%1'"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Search for “%1”"
-msgstr "Szukaj '%1' w sieci"
+msgstr "Poszukaj \"%1\""
 
 #: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:345
 #: src/contents/ui/mobile.qml:296
-#, fuzzy, kde-format
-#| msgid "Share page"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
 msgstr "Udostępnij stronę"
 
 #: lib/contents/ui/WebView.qml:603
-#, fuzzy, kde-format
-#| msgid "View page source"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "View Page Source"
 msgstr "Pokaż źródło strony"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
-#, fuzzy, kde-format
-#| msgid ""
-#| "The ad blocker is missing its filter lists, do you want to download them "
-#| "now?"
+#, kde-format
 msgctxt "@info"
 msgid ""
 "The adblocker is missing its filter lists, do you want to download them now?"
 msgstr "Program blokujący reklamy nie ma spisu filtrów, czy pobrać je teraz?"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:35
-#, fuzzy, kde-format
-#| msgid "Downloading..."
+#, kde-format
 msgctxt "@info"
 msgid "Downloading…"
-msgstr "Pobieranie..."
+msgstr "Pobieranie…"
 
 #: src/contents/ui/Bookmarks.qml:12
-#, fuzzy, kde-format
-#| msgid "Bookmarks"
+#, kde-format
 msgctxt "@title:window"
 msgid "Bookmarks"
 msgstr "Zakładki"
 
 #: src/contents/ui/desktop/BookmarksPage.qml:30
-#, fuzzy, kde-format
-#| msgid "Search bookmarks…"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Search bookmarks…"
 msgstr "Szukaj zakładek"
 
 #: src/contents/ui/desktop/BookmarksPage.qml:77
-#, fuzzy, kde-format
-#| msgid "No bookmarks yet"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "No bookmarks yet"
 msgstr "Nie ma jeszcze żadnej zakładki"
 
 #: src/contents/ui/desktop/desktop.qml:125
-#, fuzzy, kde-format
-#| msgid "Search or enter URL…"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "Poszukaj lub wpisz adres URL..."
 
 #: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:355
 #: src/contents/ui/Navigation.qml:437
-#, fuzzy, kde-format
-#| msgid "New Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "Nowa karta"
 
 #: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/mobile.qml:73
-#, fuzzy, kde-format
-#| msgid "Leave private mode"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
 msgstr "Opuść tryb prywatny"
 
 #: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/mobile.qml:73
-#, fuzzy, kde-format
-#| msgid "Private mode"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Private Mode"
 msgstr "Tryb prywatny"
 
 #: src/contents/ui/desktop/desktop.qml:265 src/contents/ui/mobile.qml:89
-#, fuzzy, kde-format
-#| msgid "History"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "History"
 msgstr "Historia"
 
 #: src/contents/ui/desktop/desktop.qml:274 src/contents/ui/mobile.qml:81
-#, fuzzy, kde-format
-#| msgid "Bookmarks"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "Zakładki"
 
 #: src/contents/ui/desktop/desktop.qml:283 src/contents/ui/mobile.qml:93
-#, fuzzy, kde-format
-#| msgid "Downloads"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "Pobierane"
 
 #: src/contents/ui/desktop/desktop.qml:296
-#, fuzzy, kde-format
-#| msgid "Print"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr "Wydrukuj"
 
 #: src/contents/ui/desktop/desktop.qml:302
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr "Pełny ekran"
 
 #: src/contents/ui/desktop/desktop.qml:319
-#, fuzzy, kde-format
-#| msgid "Hide developer tools"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Ukryj narzędzia programistyczne"
 
 #: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:392
-#, fuzzy, kde-format
-#| msgid "Show developer tools"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Pokaż narzędzia programistyczne"
 
 #: src/contents/ui/desktop/desktop.qml:329 src/contents/ui/mobile.qml:292
-#, fuzzy, kde-format
-#| msgid "Find in page"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
-msgstr "Znajdź na stronie"
+msgstr "Poszukaj na stronie"
 
 #: src/contents/ui/desktop/desktop.qml:338 src/contents/ui/mobile.qml:375
 #, kde-format
@@ -699,200 +617,169 @@ msgid "Reader Mode"
 msgstr "Tryb czytania"
 
 #: src/contents/ui/desktop/desktop.qml:355
-#, fuzzy, kde-format
-#| msgid "Add to application launcher"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "Dodaj do uruchamiacza aplikacji"
 
 #: src/contents/ui/desktop/desktop.qml:374 src/contents/ui/mobile.qml:101
-#, fuzzy, kde-format
-#| msgid "Settings"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "Ustawienia"
 
 #: src/contents/ui/desktop/HistoryPage.qml:30
-#, fuzzy, kde-format
-#| msgid "Search history…"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Search history…"
 msgstr "Szukaj w historii..."
 
 #: src/contents/ui/desktop/HistoryPage.qml:46
-#, fuzzy, kde-format
-#| msgid "Clear all history"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Clear all history"
 msgstr "Wyczyść całą historię"
 
 #: src/contents/ui/desktop/HistoryPage.qml:83
-#, fuzzy, kde-format
-#| msgid "Not history yet"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "No history yet"
 msgstr "Nie ma jeszcze historii"
 
 #: src/contents/ui/desktop/Tabs.qml:232 src/contents/ui/Tabs.qml:275
-#, fuzzy, kde-format
-#| msgid "Reader Mode: %1"
+#, kde-format
 msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr "Tryb czytania: %1"
 
 #: src/contents/ui/desktop/Tabs.qml:261 src/contents/ui/Tabs.qml:306
-#, fuzzy, kde-format
-#| msgid "Close tab"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Close tab"
 msgstr "Zamknij kartę"
 
 #: src/contents/ui/desktop/Tabs.qml:291
-#, fuzzy, kde-format
-#| msgid "Open a new tab"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Open a new tab"
 msgstr "Otwórz nową kartę"
 
 #: src/contents/ui/desktop/Tabs.qml:324
-#, fuzzy, kde-format
-#| msgid "List all tabs"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "List all tabs"
 msgstr "Wymień wszystkie karty"
 
 #: src/contents/ui/desktop/Tabs.qml:364
-#, fuzzy, kde-format
-#| msgid "Reload Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Reload Tab"
 msgstr "Odśwież kartę"
 
 #: src/contents/ui/desktop/Tabs.qml:372
-#, fuzzy, kde-format
-#| msgid "Duplicate Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Duplicate Tab"
 msgstr "Powiel kartę"
 
 #: src/contents/ui/desktop/Tabs.qml:380
-#, fuzzy, kde-format
-#| msgid "Bookmark Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "Dodaj kartę do zakładek"
 
 #: src/contents/ui/desktop/Tabs.qml:396
-#, fuzzy, kde-format
-#| msgid "Close Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Zamknij kartę"
 
 #: src/contents/ui/Downloads.qml:16
-#, fuzzy, kde-format
-#| msgid "Downloads"
+#, kde-format
 msgctxt "@title:window"
 msgid "Downloads"
 msgstr "Pobierane"
 
 #: src/contents/ui/Downloads.qml:28
-#, fuzzy, kde-format
-#| msgid "No running downloads"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "No running downloads"
 msgstr "Brak pobieranych plików"
 
 #: src/contents/ui/Downloads.qml:77
-#, fuzzy, kde-format
-#| msgctxt "download state"
-#| msgid "Starting…"
+#, kde-format
 msgctxt "@info:progress"
 msgid "Starting…"
-msgstr "Uruchamianie..."
+msgstr "Uruchamianie…"
 
 #: src/contents/ui/Downloads.qml:79
-#, fuzzy, kde-format
-#| msgid "Completed"
+#, kde-format
 msgctxt "@info:progress"
 msgid "Completed"
 msgstr "Ukończone"
 
 #: src/contents/ui/Downloads.qml:81
-#, fuzzy, kde-format
-#| msgid "Cancelled"
+#, kde-format
 msgctxt "@info:progress"
 msgid "Cancelled"
 msgstr "Anulowane"
 
 #: src/contents/ui/Downloads.qml:83
-#, fuzzy, kde-format
-#| msgctxt "download state"
-#| msgid "Interrupted"
+#, kde-format
 msgctxt "@info:progress"
 msgid "Interrupted"
 msgstr "Przerwane"
 
 #: src/contents/ui/Downloads.qml:85
-#, fuzzy, kde-format
-#| msgctxt "download state"
-#| msgid "In progress"
+#, kde-format
 msgctxt "@info:progress"
 msgid "In progress…"
-msgstr "Wykonywanie"
+msgstr "W trakcie…"
 
 #: src/contents/ui/Downloads.qml:92
-#, fuzzy, kde-format
-#| msgid "Cancel"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Cancel"
 msgstr "Anuluj"
 
 #: src/contents/ui/Downloads.qml:117
-#, fuzzy, kde-format
-#| msgid "Continue"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Continue"
 msgstr "Kontynuuj"
 
 #: src/contents/ui/FindInPageBar.qml:45
-#, fuzzy, kde-format
-#| msgid "Search history…"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
-msgstr "Szukaj w historii..."
+msgstr "Poszukaj…"
 
 #: src/contents/ui/History.qml:12
-#, fuzzy, kde-format
-#| msgid "History"
+#, kde-format
 msgctxt "@title:window"
 msgid "History"
 msgstr "Historia"
 
 #: src/contents/ui/mobile.qml:20
-#, fuzzy, kde-format
-#| msgid "Angelfish Web Browser"
+#, kde-format
 msgctxt "@title:window"
 msgid "Angelfish Web Browser"
 msgstr "Przeglądarka sieciowa Angelfish"
 
 #: src/contents/ui/mobile.qml:66
-#, fuzzy, kde-format
-#| msgid "Tabs"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Tabs"
 msgstr "Karty"
 
 #: src/contents/ui/mobile.qml:307
-#, fuzzy, kde-format
-#| msgid "Add to homescreen"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Dodaj do strony domowej"
 
 #: src/contents/ui/mobile.qml:317
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Otwórz w programie"
@@ -901,94 +788,80 @@ msgstr "Otwórz w programie"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
-msgstr ""
+msgstr "Przejdź wstecz"
 
 #: src/contents/ui/mobile.qml:333
-#, fuzzy, kde-format
-#| msgid "Go forward"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "Przejdź naprzód"
 
 #: src/contents/ui/mobile.qml:340
-#, fuzzy, kde-format
-#| msgid "Stop loading"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Zatrzymaj wczytywanie"
 
 #: src/contents/ui/mobile.qml:340
-#, fuzzy, kde-format
-#| msgid "Refresh"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Odśwież"
 
 #: src/contents/ui/mobile.qml:350
-#, fuzzy, kde-format
-#| msgid "Bookmarked"
+#, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "W zakładkach"
 
 #: src/contents/ui/mobile.qml:350
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Zakładka"
 
 #: src/contents/ui/mobile.qml:366
-#, fuzzy, kde-format
-#| msgid "Show desktop site"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Pokaż stronę pulpitu"
 
 #: src/contents/ui/mobile.qml:383
-#, fuzzy, kde-format
-#| msgid "Hide navigation bar"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
-msgstr "Ukryj pasek poruszania się"
+msgstr "Ukryj pasek przemieszczania się"
 
 #: src/contents/ui/Navigation.qml:410
-#, fuzzy, kde-format
-#| msgid "Done"
+#, kde-format
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr "Gotowe"
 
 #: src/contents/ui/Navigation.qml:423
-#, fuzzy, kde-format
-#| msgid "New tabs:"
+#, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"
-msgstr "Nowe karty:"
+msgstr "%1 karty"
 
 #: src/contents/ui/NewTabQuestion.qml:11
-#, fuzzy, kde-format
-#| msgid ""
-#| "Site wants to open a new tab: \n"
-#| "%1"
+#, kde-format
 msgctxt "@info:status"
 msgid ""
 "Site wants to open a new tab:\n"
 "%1"
 msgstr ""
-"Strona chce otworzyć nową kartę: \n"
+"Strona chce otworzyć nową kartę:\n"
 "%1"
 
 #: src/contents/ui/NewTabQuestion.qml:19
-#, fuzzy, kde-format
-#| msgid "Open"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
 msgstr "Otwórz"
 
 #: src/contents/ui/ShareSheet.qml:18
-#, fuzzy, kde-format
-#| msgid "Share page"
+#, kde-format
 msgctxt "@title:window"
 msgid "Share Page"
 msgstr "Udostępnij stronę"
@@ -1000,46 +873,40 @@ msgstr "Adres URL do otwarcia"
 
 #: src/settings/AngelfishConfigurationView.qml:14
 #: src/settings/SettingsGeneral.qml:18
-#, fuzzy, kde-format
-#| msgid "General"
+#, kde-format
 msgctxt "@title:window"
 msgid "General"
 msgstr "Ogólne"
 
 #: src/settings/AngelfishConfigurationView.qml:20
-#, fuzzy, kde-format
-#| msgid "Ad Block"
+#, kde-format
 msgctxt "@title:window"
 msgid "Adblock"
-msgstr "Ad Block"
+msgstr "Adblock"
 
 #: src/settings/AngelfishConfigurationView.qml:26
 #: src/settings/SettingsWebApps.qml:16
-#, fuzzy, kde-format
-#| msgid "Web Apps"
+#, kde-format
 msgctxt "@title:window"
 msgid "Web Apps"
 msgstr "Programy sieciowe"
 
 #: src/settings/AngelfishConfigurationView.qml:32
 #: src/settings/SettingsSearchEnginePage.qml:112
-#, fuzzy, kde-format
-#| msgid "Search Engine"
+#, kde-format
 msgctxt "@title:window"
 msgid "Search Engines"
-msgstr "Wyszukiwarka"
+msgstr "Wyszukiwarki"
 
 #: src/settings/AngelfishConfigurationView.qml:38
 #: src/settings/DesktopHomeSettingsPage.qml:15
-#, fuzzy, kde-format
-#| msgid "Toolbars"
+#, kde-format
 msgctxt "@title:window"
 msgid "Toolbars"
 msgstr "Paski narzędzi"
 
 #: src/settings/DesktopHomeSettingsPage.qml:24
-#, fuzzy, kde-format
-#| msgid "Show home button:"
+#, kde-format
 msgctxt "@label"
 msgid "Show home button:"
 msgstr "Pokaż przycisk domu:"
@@ -1052,49 +919,44 @@ msgstr ""
 "pasku narzędzi."
 
 #: src/settings/DesktopHomeSettingsPage.qml:35
-#, fuzzy, kde-format
-#| msgid "Homepage:"
+#, kde-format
 msgctxt "@label"
 msgid "Homepage:"
 msgstr "Strona domowa:"
 
 #: src/settings/DesktopHomeSettingsPage.qml:58
-#, fuzzy, kde-format
-#| msgid "New tabs:"
+#, kde-format
 msgctxt "@label"
 msgid "New tabs:"
 msgstr "Nowe karty:"
 
 #: src/settings/DesktopHomeSettingsPage.qml:81
-#, fuzzy, kde-format
-#| msgid "Always show the tab bar"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Always show the tab bar"
 msgstr "Zawsze pokazuj pasek kart"
 
 #: src/settings/DesktopHomeSettingsPage.qml:82
-#, fuzzy, kde-format
-#| msgid "The tab bar will be displayed even if there is only one tab open"
+#, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open."
-msgstr "Pasek kart będzie wyświetlany nawet w przypadku jednej karty"
+msgstr ""
+"Pasek kart będzie wyświetlany nawet wtedy, gdy otwarta jest tylko jedna "
+"karta."
 
 #: src/settings/SettingsAdblock.qml:16
-#, fuzzy, kde-format
-#| msgid "Adblock settings"
+#, kde-format
 msgctxt "@title:window"
 msgid "Adblock Settings"
 msgstr "Ustawienia Adblock"
 
 #: src/settings/SettingsAdblock.qml:23
-#, fuzzy, kde-format
-#| msgid "Add filterlist"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Add filter list"
 msgstr "Dodaj spis filtrów"
 
 #: src/settings/SettingsAdblock.qml:27
-#, fuzzy, kde-format
-#| msgid "Update lists"
+#, kde-format
 msgctxt "@action:intoolbar"
 msgid "Update Lists"
 msgstr "Uaktualnij listę"
@@ -1105,29 +967,25 @@ msgid "The adblock functionality isn't included in this build."
 msgstr "Brak możliwości blokowania reklam w tym wydaniu."
 
 #: src/settings/SettingsAdblock.qml:100
-#, fuzzy, kde-format
-#| msgid "Remove this filter list"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove this filter list"
 msgstr "Usuń ten spis filtrów"
 
 #: src/settings/SettingsAdblock.qml:112
-#, fuzzy, kde-format
-#| msgid "Add Filterlist"
+#, kde-format
 msgctxt "@action:button"
 msgid "Add Filter List"
 msgstr "Dodaj spis filtrów"
 
 #: src/settings/SettingsAdblock.qml:124
-#, fuzzy, kde-format
-#| msgid "Add Filterlist"
+#, kde-format
 msgctxt "@title:group"
 msgid "Add Filter List"
 msgstr "Dodaj spis filtrów"
 
 #: src/settings/SettingsAdblock.qml:129
-#, fuzzy, kde-format
-#| msgid "Name"
+#, kde-format
 msgctxt "@label"
 msgid "Name"
 msgstr "Nazwa"
@@ -1136,7 +994,7 @@ msgstr "Nazwa"
 #, kde-format
 msgctxt "@label"
 msgid "URL"
-msgstr ""
+msgstr "Adres URL"
 
 #: src/settings/SettingsGeneral.qml:27
 #, kde-format
@@ -1149,8 +1007,7 @@ msgid "This may be required on certain websites for them to work."
 msgstr "Może to być wymagane przez niektóre strony, aby zadziałały."
 
 #: src/settings/SettingsGeneral.qml:37
-#, fuzzy, kde-format
-#| msgid "Load images"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Load images"
 msgstr "Wczytaj obrazy"
@@ -1161,8 +1018,7 @@ msgid "Whether to load images on websites."
 msgstr "Określa czy wczytywać obrazy na stronach sieciowych."
 
 #: src/settings/SettingsGeneral.qml:47
-#, fuzzy, kde-format
-#| msgid "Enable adblock"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Enable adblock"
 msgstr "Włącz AdBlock"
@@ -1173,32 +1029,26 @@ msgid "Attempts to prevent advertisements on websites from showing."
 msgstr "Próbuje uniemożliwić stronom sieciowym pokazywanie reklam na."
 
 #: src/settings/SettingsGeneral.qml:48
-#, fuzzy, kde-format
-#| msgid "AdBlock functionality was not included in this build."
+#, kde-format
 msgid "Adblock functionality was not included in this build."
-msgstr "AdBlock nie został dodany podczas budowania programu."
+msgstr "Adblock nie został dodany podczas budowania programu."
 
 #: src/settings/SettingsGeneral.qml:58
-#, fuzzy, kde-format
-#| msgid "Switch to new tab immediately"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Switch to new tab immediately"
 msgstr "Przełącz na nową kartę natychmiast"
 
 #: src/settings/SettingsGeneral.qml:59
-#, fuzzy, kde-format
-#| msgid ""
-#| "When you open a link, image or media in a new tab, switch to it "
-#| "immediately"
+#, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately."
 msgstr ""
 "Po otwarciu odnośnika, obrazu lub filmu w nowej karcie, przełącz na nią "
-"natychmiast"
+"natychmiast."
 
 #: src/settings/SettingsGeneral.qml:68
-#, fuzzy, kde-format
-#| msgid "Use Smooth Scrolling"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Use smooth scrolling"
 msgstr "Użyj płynnego przewijania"
@@ -1214,8 +1064,7 @@ msgstr ""
 "zadziałać."
 
 #: src/settings/SettingsGeneral.qml:78
-#, fuzzy, kde-format
-#| msgid "Use dark color scheme"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Use dark color scheme"
 msgstr "Użyj ciemnego zestawu barw"
@@ -1230,11 +1079,10 @@ msgstr ""
 "uruchomienia aplikacji, aby zadziałać."
 
 #: src/settings/SettingsNavigationBarPage.qml:18
-#, fuzzy, kde-format
-#| msgid "Navigation bar"
+#, kde-format
 msgctxt "@title:window"
 msgid "Navigation Bar"
-msgstr "Pasek poruszania się"
+msgstr "Pasek przemieszczania się"
 
 #: src/settings/SettingsNavigationBarPage.qml:26
 #, kde-format
@@ -1256,79 +1104,67 @@ msgstr ""
 "krawędzi okna."
 
 #: src/settings/SettingsNavigationBarPage.qml:35
-#, fuzzy, kde-format
-#| msgid "Main menu in portrait"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Main menu in portrait"
 msgstr "Główne menu w pionie"
 
 #: src/settings/SettingsNavigationBarPage.qml:41
-#, fuzzy, kde-format
-#| msgid "Tabs in portrait"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Tabs in portrait"
 msgstr "Karty w pionie"
 
 #: src/settings/SettingsNavigationBarPage.qml:47
-#, fuzzy, kde-format
-#| msgid "Context menu in portrait"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Context menu in portrait"
 msgstr "Menu podręczne w pionie"
 
 #: src/settings/SettingsNavigationBarPage.qml:53
-#, fuzzy, kde-format
-#| msgid "Go back"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Go back"
 msgstr "Przejdź wstecz"
 
 #: src/settings/SettingsNavigationBarPage.qml:59
-#, fuzzy, kde-format
-#| msgid "Go forward"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Go forward"
 msgstr "Przejdź naprzód"
 
 #: src/settings/SettingsNavigationBarPage.qml:65
-#, fuzzy, kde-format
-#| msgid "Reload/Stop"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Reload/Stop"
 msgstr "Wczytaj ponownie/Zatrzymaj"
 
 #: src/settings/SettingsSearchEnginePage.qml:17
-#, fuzzy, kde-format
-#| msgid "Search Engine"
+#, kde-format
 msgctxt "@window:title"
 msgid "Search Engines"
-msgstr "Wyszukiwarka"
+msgstr "Wyszukiwarki"
 
 #: src/settings/SettingsSearchEnginePage.qml:20
-#, fuzzy, kde-format
-#| msgid "Custom"
+#, kde-format
 msgctxt "@label"
 msgid "Custom"
 msgstr "Własny"
 
 #: src/settings/SettingsSearchEnginePage.qml:117
-#, fuzzy, kde-format
-#| msgid "Base URL of your preferred search engine"
+#, kde-format
 msgctxt "@label"
 msgid "Base URL of your preferred search engine"
 msgstr "Podstawowy adres URL dla wyszukiwarki"
 
 #: src/settings/SettingsWebApps.qml:73
-#, fuzzy, kde-format
-#| msgid "Remove app"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove app"
 msgstr "Usuń program"
 
 #: src/settings/SettingsWebApps.qml:85
-#, fuzzy, kde-format
-#| msgctxt "placeholder message"
-#| msgid "No Web Apps installed"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "Nie wgrano żadnej aplikacji sieciowej"

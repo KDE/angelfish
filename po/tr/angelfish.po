@@ -310,13 +310,13 @@ msgstr "Kaydet"
 #, kde-format
 msgctxt "@info:status"
 msgid "Website was opened in a new tab"
-msgstr "Web sitesi yeni bir sekmede açılmış."
+msgstr "Web sitesi yeni bir sekmede açıldı."
 
 #: lib/contents/ui/WebView.qml:261
 #, kde-format
 msgctxt "@info:status"
 msgid "Entered Full Screen mode"
-msgstr "Tam ekran kipine geçildi."
+msgstr "Tam ekran kipine girildi."
 
 #: lib/contents/ui/WebView.qml:262
 #, kde-format
@@ -1177,64 +1177,3 @@ msgstr "Uygulamayı kaldır"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "Kurulu web uygulaması yok"
-
-#~ msgid "Fullscreen"
-#~ msgstr "Tam Ekran"
-
-#~ msgid "Private mode"
-#~ msgstr "Gizli Kip"
-
-#~ msgid "Search..."
-#~ msgstr "Ara…"
-
-#~ msgid "Go previous"
-#~ msgstr "Öncekine git"
-
-#~ msgid "Reader Mode"
-#~ msgstr "Okuyucu Kipi"
-
-#~ msgid "Share page to"
-#~ msgstr "Sayfayı şuraya paylaş"
-
-#~ msgctxt "@action:intoolbar"
-#~ msgid "Add Filterlist"
-#~ msgstr "Süzgeç Listesi Ekle"
-
-#~ msgid "Url"
-#~ msgstr "URL"
-
-#~ msgid "Show navigation bar"
-#~ msgstr "Dolaşım çubuğunu göster"
-
-#~ msgid "Configure Angelfish"
-#~ msgstr "Melekbalığı Uygulamasını Yapılandır"
-
-#~ msgid "Add"
-#~ msgstr "Ekle"
-
-#~ msgid "Enabled"
-#~ msgstr "Etkin"
-
-#~ msgid "Disabled"
-#~ msgstr "Devre dışı"
-
-#~ msgid "Search online"
-#~ msgstr "Çevrimiçi ara"
-
-#~ msgid "Confirm"
-#~ msgstr "Onayla"
-
-#~ msgid "OK"
-#~ msgstr "Tamam"
-
-#~ msgid "Enable Adblock"
-#~ msgstr "Adblock'u etkinleştir"
-
-#~ msgid "Adblock filter lists"
-#~ msgstr "Adblock filtre listeleri"
-
-#~ msgid "New"
-#~ msgstr "Yeni"
-
-#~ msgid "Choose the buttons enabled in navigation bar. "
-#~ msgstr "Gezinme çubuğunda etkinleştirilen düğmeleri seçin."

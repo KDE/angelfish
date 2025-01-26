@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-01-24 00:41+0000\n"
-"PO-Revision-Date: 2025-01-24 09:20+0200\n"
+"PO-Revision-Date: 2025-01-24 09:46+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -831,35 +831,29 @@ msgid "Done"
 msgstr "בוצע"
 
 #: src/contents/ui/Navigation.qml:423
-#, fuzzy, kde-format
-#| msgid "New tabs:"
+#, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"
-msgstr "לשוניות חדשות:"
+msgstr "%1 לשוניות"
 
 #: src/contents/ui/NewTabQuestion.qml:11
-#, fuzzy, kde-format
-#| msgid ""
-#| "Site wants to open a new tab: \n"
-#| "%1"
+#, kde-format
 msgctxt "@info:status"
 msgid ""
 "Site wants to open a new tab:\n"
 "%1"
 msgstr ""
-"האתר רוצה לפתוח לשונית חדשה: \n"
+"האתר רוצה לפתוח לשונית חדשה:\n"
 "%1"
 
 #: src/contents/ui/NewTabQuestion.qml:19
-#, fuzzy, kde-format
-#| msgid "Open"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
 msgstr "פתיחה"
 
 #: src/contents/ui/ShareSheet.qml:18
-#, fuzzy, kde-format
-#| msgid "Share page"
+#, kde-format
 msgctxt "@title:window"
 msgid "Share Page"
 msgstr "שיתוף העמוד"
@@ -871,46 +865,40 @@ msgstr "כתובת לפתיחה"
 
 #: src/settings/AngelfishConfigurationView.qml:14
 #: src/settings/SettingsGeneral.qml:18
-#, fuzzy, kde-format
-#| msgid "General"
+#, kde-format
 msgctxt "@title:window"
 msgid "General"
 msgstr "כללי"
 
 #: src/settings/AngelfishConfigurationView.qml:20
-#, fuzzy, kde-format
-#| msgid "Ad Block"
+#, kde-format
 msgctxt "@title:window"
 msgid "Adblock"
-msgstr "Ad Block"
+msgstr "חסימת פרסומות"
 
 #: src/settings/AngelfishConfigurationView.qml:26
 #: src/settings/SettingsWebApps.qml:16
-#, fuzzy, kde-format
-#| msgid "Web Apps"
+#, kde-format
 msgctxt "@title:window"
 msgid "Web Apps"
 msgstr "יישומוני דפדפן"
 
 #: src/settings/AngelfishConfigurationView.qml:32
 #: src/settings/SettingsSearchEnginePage.qml:112
-#, fuzzy, kde-format
-#| msgid "Search Engine"
+#, kde-format
 msgctxt "@title:window"
 msgid "Search Engines"
-msgstr "מנוע חיפוש"
+msgstr "מנועי חיפוש"
 
 #: src/settings/AngelfishConfigurationView.qml:38
 #: src/settings/DesktopHomeSettingsPage.qml:15
-#, fuzzy, kde-format
-#| msgid "Toolbars"
+#, kde-format
 msgctxt "@title:window"
 msgid "Toolbars"
 msgstr "סרגלי כלים"
 
 #: src/settings/DesktopHomeSettingsPage.qml:24
-#, fuzzy, kde-format
-#| msgid "Show home button:"
+#, kde-format
 msgctxt "@label"
 msgid "Show home button:"
 msgstr "הצגת כפתור הבית:"
@@ -921,49 +909,42 @@ msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr "כפתור הבית יופיע ליד כפתור הריענון בסרגל הכלים."
 
 #: src/settings/DesktopHomeSettingsPage.qml:35
-#, fuzzy, kde-format
-#| msgid "Homepage:"
+#, kde-format
 msgctxt "@label"
 msgid "Homepage:"
 msgstr "עמוד הבית:"
 
 #: src/settings/DesktopHomeSettingsPage.qml:58
-#, fuzzy, kde-format
-#| msgid "New tabs:"
+#, kde-format
 msgctxt "@label"
 msgid "New tabs:"
 msgstr "לשוניות חדשות:"
 
 #: src/settings/DesktopHomeSettingsPage.qml:81
-#, fuzzy, kde-format
-#| msgid "Always show the tab bar"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Always show the tab bar"
 msgstr "תמיד להציג את סרגל הלשוניות"
 
 #: src/settings/DesktopHomeSettingsPage.qml:82
-#, fuzzy, kde-format
-#| msgid "The tab bar will be displayed even if there is only one tab open"
+#, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open."
-msgstr "סרגל הלשוניות יוצג אפילו אם לשונית אחת פתוחה"
+msgstr "סרגל הלשוניות יוצג אפילו אם לשונית אחת פתוחה."
 
 #: src/settings/SettingsAdblock.qml:16
-#, fuzzy, kde-format
-#| msgid "Adblock settings"
+#, kde-format
 msgctxt "@title:window"
 msgid "Adblock Settings"
-msgstr "הגדרות Adblock"
+msgstr "הגדרות חסימת פרסומות"
 
 #: src/settings/SettingsAdblock.qml:23
-#, fuzzy, kde-format
-#| msgid "Add filterlist"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Add filter list"
 msgstr "הוספת רשימת מסננים"
 
 #: src/settings/SettingsAdblock.qml:27
-#, fuzzy, kde-format
-#| msgid "Update lists"
+#, kde-format
 msgctxt "@action:intoolbar"
 msgid "Update Lists"
 msgstr "עדכון רשימות"
@@ -974,29 +955,25 @@ msgid "The adblock functionality isn't included in this build."
 msgstr "יכולת ה־adblock לא נכללת בבנייה הזאת."
 
 #: src/settings/SettingsAdblock.qml:100
-#, fuzzy, kde-format
-#| msgid "Remove this filter list"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove this filter list"
 msgstr "הסרת רשימת המסננים הזאת"
 
 #: src/settings/SettingsAdblock.qml:112
-#, fuzzy, kde-format
-#| msgid "Add Filterlist"
+#, kde-format
 msgctxt "@action:button"
 msgid "Add Filter List"
 msgstr "הוספת רשימת מסננים"
 
 #: src/settings/SettingsAdblock.qml:124
-#, fuzzy, kde-format
-#| msgid "Add Filterlist"
+#, kde-format
 msgctxt "@title:group"
 msgid "Add Filter List"
 msgstr "הוספת רשימת מסננים"
 
 #: src/settings/SettingsAdblock.qml:129
-#, fuzzy, kde-format
-#| msgid "Name"
+#, kde-format
 msgctxt "@label"
 msgid "Name"
 msgstr "שם"
@@ -1018,8 +995,7 @@ msgid "This may be required on certain websites for them to work."
 msgstr "יכול להיות שזה נחוץ למספר אתרים כדי שיעבדו כראוי."
 
 #: src/settings/SettingsGeneral.qml:37
-#, fuzzy, kde-format
-#| msgid "Load images"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Load images"
 msgstr "טעינת תמונות"
@@ -1030,11 +1006,10 @@ msgid "Whether to load images on websites."
 msgstr "האם לטעון תמונות באתרים."
 
 #: src/settings/SettingsGeneral.qml:47
-#, fuzzy, kde-format
-#| msgid "Enable adblock"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Enable adblock"
-msgstr "הפעלת adblock"
+msgstr "הפעלת חסימת פרסומות"
 
 #: src/settings/SettingsGeneral.qml:48
 #, kde-format
@@ -1042,30 +1017,24 @@ msgid "Attempts to prevent advertisements on websites from showing."
 msgstr "מנסע למנוע הופעת פרסומות באתרים."
 
 #: src/settings/SettingsGeneral.qml:48
-#, fuzzy, kde-format
-#| msgid "AdBlock functionality was not included in this build."
+#, kde-format
 msgid "Adblock functionality was not included in this build."
-msgstr "יכולת AdBlock לא נכללה בבנייה הזאת."
+msgstr "יכולת חסימת פרסומות לא נכללה בבנייה הזאת."
 
 #: src/settings/SettingsGeneral.qml:58
-#, fuzzy, kde-format
-#| msgid "Switch to new tab immediately"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Switch to new tab immediately"
-msgstr "מעבר ללשונית החדשה מיידית"
+msgstr "מעבר ללשונית חדשה מיידית"
 
 #: src/settings/SettingsGeneral.qml:59
-#, fuzzy, kde-format
-#| msgid ""
-#| "When you open a link, image or media in a new tab, switch to it "
-#| "immediately"
+#, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately."
-msgstr "בעת פתיחת קישור, תמונה או מדיה בלשונית חדשה, לעבור אליה מיידית"
+msgstr "בעת פתיחת קישור, תמונה או מדיה בלשונית חדשה, לעבור אליה מיידית."
 
 #: src/settings/SettingsGeneral.qml:68
-#, fuzzy, kde-format
-#| msgid "Use Smooth Scrolling"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Use smooth scrolling"
 msgstr "להשתמש בגלילה חלקה"
@@ -1080,8 +1049,7 @@ msgstr ""
 "מחדש כדי לפעול."
 
 #: src/settings/SettingsGeneral.qml:78
-#, fuzzy, kde-format
-#| msgid "Use dark color scheme"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Use dark color scheme"
 msgstr "להשתמש בערכת צבעים כהה"
@@ -1095,8 +1063,7 @@ msgstr ""
 "ערכות הצבע של האתרים יוגדרו לכהות. דורש את הפעלת היישומון מחדש כדי לפעול."
 
 #: src/settings/SettingsNavigationBarPage.qml:18
-#, fuzzy, kde-format
-#| msgid "Navigation bar"
+#, kde-format
 msgctxt "@title:window"
 msgid "Navigation Bar"
 msgstr "סרגל ניווט"
@@ -1119,36 +1086,31 @@ msgstr ""
 "השמאלי או הימני או בצד לאורך תחתית החלון."
 
 #: src/settings/SettingsNavigationBarPage.qml:35
-#, fuzzy, kde-format
-#| msgid "Main menu in portrait"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Main menu in portrait"
 msgstr "תפריט ראשי במצב אנכי"
 
 #: src/settings/SettingsNavigationBarPage.qml:41
-#, fuzzy, kde-format
-#| msgid "Tabs in portrait"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Tabs in portrait"
 msgstr "לשוניות במצב אנכי"
 
 #: src/settings/SettingsNavigationBarPage.qml:47
-#, fuzzy, kde-format
-#| msgid "Context menu in portrait"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Context menu in portrait"
 msgstr "תפריט הקשר במצב אנכי"
 
 #: src/settings/SettingsNavigationBarPage.qml:53
-#, fuzzy, kde-format
-#| msgid "Go back"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Go back"
 msgstr "חזרה"
 
 #: src/settings/SettingsNavigationBarPage.qml:59
-#, fuzzy, kde-format
-#| msgid "Go forward"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Go forward"
 msgstr "התקדמות לבא"
@@ -1160,37 +1122,31 @@ msgid "Reload/Stop"
 msgstr "ריענון/עצירה"
 
 #: src/settings/SettingsSearchEnginePage.qml:17
-#, fuzzy, kde-format
-#| msgid "Search Engine"
+#, kde-format
 msgctxt "@window:title"
 msgid "Search Engines"
-msgstr "מנוע חיפוש"
+msgstr "מנועי חיפוש"
 
 #: src/settings/SettingsSearchEnginePage.qml:20
-#, fuzzy, kde-format
-#| msgid "Custom"
+#, kde-format
 msgctxt "@label"
 msgid "Custom"
 msgstr "התאמה אישית"
 
 #: src/settings/SettingsSearchEnginePage.qml:117
-#, fuzzy, kde-format
-#| msgid "Base URL of your preferred search engine"
+#, kde-format
 msgctxt "@label"
 msgid "Base URL of your preferred search engine"
-msgstr "כתובת הבסיס למנוע החיפוש המועדף עליך"
+msgstr "כתובת הבסיס של מנוע החיפוש המועדף עליך"
 
 #: src/settings/SettingsWebApps.qml:73
-#, fuzzy, kde-format
-#| msgid "Remove app"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove app"
-msgstr "הסרת יישומון"
+msgstr "הסרת יישום"
 
 #: src/settings/SettingsWebApps.qml:85
-#, fuzzy, kde-format
-#| msgctxt "placeholder message"
-#| msgid "No Web Apps installed"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "לא מותקנים יישומי דפדפן"
