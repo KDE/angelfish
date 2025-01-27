@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the angelfish package.
 #
-# Kishore G <kishore96@gmail.com>, 2022, 2023.
+# SPDX-FileCopyrightText: 2022, 2023, 2025 Kishore G <kishore96@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-01-24 00:41+0000\n"
-"PO-Revision-Date: 2023-03-12 16:45+0530\n"
+"PO-Revision-Date: 2025-01-26 17:57+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
 "Language: ta\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 24.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -60,28 +60,25 @@ msgstr "பதிவிறக்கம் தோல்வியடைந்த�
 #: lib/angelfishwebprofile.cpp:88
 #, kde-format
 msgid "Open"
-msgstr ""
+msgstr "திற"
 
 #: lib/contents/ui/AuthSheet.qml:17
-#, fuzzy, kde-format
-#| msgid "Authentication required"
+#, kde-format
 msgctxt "@title:window"
 msgid "Authentication Required"
 msgstr "சான்றளிக்க வேண்டும்"
 
 #: lib/contents/ui/AuthSheet.qml:30
-#, fuzzy, kde-format
-#| msgid "Username"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Username:"
-msgstr "பயனர் பெயர்"
+msgstr "பயனர் பெயர்:"
 
 #: lib/contents/ui/AuthSheet.qml:37
-#, fuzzy, kde-format
-#| msgid "Password"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Password:"
-msgstr "கடவுச்சொல்"
+msgstr "கடவுச்சொல்:"
 
 #: lib/contents/ui/DownloadQuestion.qml:15
 #, kde-format
@@ -90,29 +87,25 @@ msgstr "இக்கோப்பை பதிவிறக்க வேண்ட�
 
 #: lib/contents/ui/DownloadQuestion.qml:23
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
-#, fuzzy, kde-format
-#| msgid "Download"
+#, kde-format
 msgctxt "@action:button"
 msgid "Download"
 msgstr "பதிவிறக்கு"
 
 #: lib/contents/ui/DownloadQuestion.qml:31 lib/contents/ui/PrintPreview.qml:163
-#, fuzzy, kde-format
-#| msgid "Cancel"
+#, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
 msgstr "ரத்து செய்"
 
 #: lib/contents/ui/ErrorHandler.qml:47
-#, fuzzy, kde-format
-#| msgid "Error loading the page"
+#, kde-format
 msgctxt "@title"
 msgid "Error Loading the Page"
 msgstr "பக்கத்தை ஏற்றுவதில் சிக்கல்"
 
 #: lib/contents/ui/ErrorHandler.qml:58
-#, fuzzy, kde-format
-#| msgid "Retry"
+#, kde-format
 msgctxt "@action:intoolbar"
 msgid "Retry"
 msgstr "மீண்டும் முயற்சி"
@@ -130,22 +123,19 @@ msgid ""
 msgstr ""
 
 #: lib/contents/ui/ErrorHandler.qml:81
-#, fuzzy, kde-format
-#| msgid "Yes"
+#, kde-format
 msgctxt "@action:button"
 msgid "Yes"
 msgstr "ஆம்"
 
 #: lib/contents/ui/ErrorHandler.qml:90
-#, fuzzy, kde-format
-#| msgid "No"
+#, kde-format
 msgctxt "@action:button"
 msgid "No"
 msgstr "இல்லை"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
-#, fuzzy, kde-format
-#| msgid "This page says"
+#, kde-format
 msgctxt "@title:window"
 msgid "This Page Says"
 msgstr "இப்பக்கம் கூறுவது"
@@ -160,80 +150,69 @@ msgstr ""
 "இழக்க நேரிடலாம்."
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:79
-#, fuzzy, kde-format
-#| msgid "Leave page"
+#, kde-format
 msgctxt "@action:button"
 msgid "Leave Page"
 msgstr "பக்கத்திலிருந்து வெளியேறு"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:87
-#, fuzzy, kde-format
-#| msgid "Submit"
+#, kde-format
 msgctxt "@action:button"
 msgid "Submit"
 msgstr "சமர்ப்பி"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to access the microphone?"
+#, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>microphone</b>?"
-msgstr "உங்கள் ஒலிவாங்கியை அணுக இத்தளத்தை அனுமதிக்க வேண்டுமா?"
+msgstr "உங்கள் <b>ஒலிவாங்கியை</b> அணுக  <b>%1</b> தனை அனுமதிக்க வேண்டுமா?"
 
 #: lib/contents/ui/PermissionQuestion.qml:24
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to access the camera?"
+#, kde-format
 msgid "Do you want to allow the website <b>%1</b> to access the <b>camera</b>?"
-msgstr "உங்கள் படக்கருவியை அணுக இத்தளத்தை அனுமதிக்க வேண்டுமா?"
+msgstr "உங்கள் <b>படக்கருவியை</b> அணுக <b>%1</b> தனை அனுமதிக்க வேண்டுமா?"
 
 #: lib/contents/ui/PermissionQuestion.qml:26
-#, fuzzy, kde-format
-#| msgid ""
-#| "Do you want to allow the website to access the camera and the microphone?"
+#, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>camera and the "
 "microphone</b>?"
-msgstr "உங்கள் ஒலிவாங்கியையும் படக்கருவியையும் அணுக இத்தளத்தை அனுமதிக்க வேண்டுமா?"
+msgstr ""
+"உங்கள் <b>ஒலிவாங்கியையும் படக்கருவியையும்</b> அணுக <b>%1</b> தனை அனுமதிக்க வேண்டுமா?"
 
 #: lib/contents/ui/PermissionQuestion.qml:28
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to share your screen?"
+#, kde-format
 msgid "Do you want to allow the website <b>%1</b> to share your <b>screen</b>?"
-msgstr "உங்கள் திரையைப் பகிர இத்தளத்தை அனுமதிக்க வேண்டுமா?"
+msgstr "உங்கள் <b>திரையைப்</b> பகிர <b>%1</b> தனை அனுமதிக்க வேண்டுமா?"
 
 #: lib/contents/ui/PermissionQuestion.qml:30
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to share the sound output?"
+#, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to share the sound <b>output</b>?"
-msgstr "உங்கள் ஒலிவெளியீட்டைப் பகிர இத்தளத்தை அனுமதிக்க வேண்டுமா?"
+msgstr "உங்கள் <b>ஒலிவெளியீட்டைப்</b> பகிர <b>%1</b> தனை அனுமதிக்க வேண்டுமா?"
 
 #: lib/contents/ui/PermissionQuestion.qml:32
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to send you notifications?"
+#, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to send you <b>notifications</b>?"
-msgstr "உங்களுக்கு அறிவிப்புகளனுப்ப இத்தளத்தை அனுமதிக்க வேண்டுமா?"
+msgstr "உங்களுக்கு <b>அறிவிப்புகளனுப்ப</b> <b>%1</b> தனை அனுமதிக்க வேண்டுமா?"
 
 #: lib/contents/ui/PermissionQuestion.qml:34
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to access the geo location?"
+#, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>geo location</b>?"
-msgstr "உங்கள் புவியிருப்பிடத்தை அணுக இத்தளத்தை அனுமதிக்க வேண்டுமா?"
+msgstr "உங்கள் <b>புவியிருப்பிடத்தை</b> அணுக <b>%1</b> தனை அனுமதிக்க வேண்டுமா?"
 
 #: lib/contents/ui/PermissionQuestion.qml:36
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to access the camera?"
+#, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>clipboard</b>?"
-msgstr "உங்கள் படக்கருவியை அணுக இத்தளத்தை அனுமதிக்க வேண்டுமா?"
+msgstr "உங்கள் <b>பிடிப்புப்பலகையை</b> அணுக <b>%1</b> தனை அனுமதிக்க வேண்டுமா?"
 
 #: lib/contents/ui/PermissionQuestion.qml:38
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to share your screen?"
+#, kde-format
 msgid "Do you want to allow the website <b>%1</b> to access your <b>fonts</b>?"
-msgstr "உங்கள் திரையைப் பகிர இத்தளத்தை அனுமதிக்க வேண்டுமா?"
+msgstr "உங்கள் <b>எழுத்துருக்களை</b> அணுக <b>%1</b> தனை அனுமதிக்க வேண்டுமா?"
 
 #: lib/contents/ui/PermissionQuestion.qml:40
 #, kde-format
@@ -241,306 +220,265 @@ msgctxt ""
 "The website (website) requested an unknown permission: Do you want to allow "
 "the website (website) to access your fonts?"
 msgid "The website %1 requested an unknown permission: %2"
-msgstr ""
+msgstr "தெரியாத அனுமதியை %1 கோரியது: %2"
 
 #: lib/contents/ui/PermissionQuestion.qml:48
-#, fuzzy, kde-format
-#| msgid "Accept"
+#, kde-format
 msgctxt "@action:button"
 msgid "Accept"
 msgstr "ஏற்றுக்கொள்"
 
 #: lib/contents/ui/PermissionQuestion.qml:58
-#, fuzzy, kde-format
-#| msgid "Decline"
+#, kde-format
 msgctxt "@action:button"
 msgid "Decline"
-msgstr "நிராகரி"
+msgstr "மறு"
 
 #: lib/contents/ui/PrintPreview.qml:24
-#, fuzzy, kde-format
-#| msgid "Print"
+#, kde-format
 msgctxt "@title:window"
 msgid "Print"
-msgstr "அச்சிடு"
+msgstr "அச்சிடுவது"
 
 #: lib/contents/ui/PrintPreview.qml:64
-#, fuzzy, kde-format
-#| msgid "Destination"
+#, kde-format
 msgctxt "@title:group"
 msgid "Destination"
 msgstr "சேருமிடம்"
 
 #: lib/contents/ui/PrintPreview.qml:68
-#, fuzzy, kde-format
-#| msgid "Save to PDF"
+#, kde-format
 msgctxt "@title:group"
 msgid "Save to PDF"
-msgstr "PDF-ஆக சேமி"
+msgstr "PDF-ஆக சேமிப்பது"
 
 #: lib/contents/ui/PrintPreview.qml:74
-#, fuzzy, kde-format
-#| msgid "Orientation"
+#, kde-format
 msgctxt "@title:group"
 msgid "Orientation"
 msgstr "நோக்குநிலை"
 
 #: lib/contents/ui/PrintPreview.qml:99
-#, fuzzy, kde-format
-#| msgid "Paper size"
+#, kde-format
 msgctxt "@title:group"
 msgid "Paper Size"
 msgstr "தாளின் அளவு"
 
 #: lib/contents/ui/PrintPreview.qml:145
-#, fuzzy, kde-format
-#| msgid "Options"
+#, kde-format
 msgctxt "@title:group"
 msgid "Options"
 msgstr "விருப்பங்கள்"
 
 #: lib/contents/ui/PrintPreview.qml:149
-#, fuzzy, kde-format
-#| msgid "Print backgrounds"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Print backgrounds"
 msgstr "பின்புலத்தை அச்சிடு"
 
 #: lib/contents/ui/PrintPreview.qml:168
-#, fuzzy, kde-format
-#| msgid "Save"
+#, kde-format
 msgctxt "@action:button"
 msgid "Save"
 msgstr "சேமி"
 
 #: lib/contents/ui/WebView.qml:243
-#, fuzzy, kde-format
-#| msgid "Website was opened in a new tab"
+#, kde-format
 msgctxt "@info:status"
 msgid "Website was opened in a new tab"
 msgstr "இணையதளம் புதிய கீற்றில் திறக்கப்பட்டுள்ளது"
 
 #: lib/contents/ui/WebView.qml:261
-#, fuzzy, kde-format
-#| msgid "Entered Full Screen Mode"
+#, kde-format
 msgctxt "@info:status"
 msgid "Entered Full Screen mode"
 msgstr "முழுத்திரை பயன்முறையில் நுழைந்துள்ளீர்"
 
 #: lib/contents/ui/WebView.qml:262
-#, fuzzy, kde-format
-#| msgid "Exit Full Screen (Esc)"
+#, kde-format
 msgctxt "@action:button"
 msgid "Exit Full Screen (Esc)"
 msgstr "முழுத்திரை பயன்முறையிலிருந்து வெளியேறு (Esc)"
 
 #: lib/contents/ui/WebView.qml:395
-#, fuzzy, kde-format
-#| msgid "Play"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Play"
 msgstr "இயக்கு"
 
 #: lib/contents/ui/WebView.qml:396
-#, fuzzy, kde-format
-#| msgid "Pause"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Pause"
 msgstr "இடைநிறுத்து"
 
 #: lib/contents/ui/WebView.qml:403
-#, fuzzy, kde-format
-#| msgid "Unmute"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Unmute"
 msgstr "ஒலிமுடக்கத்தை நீக்கு"
 
 #: lib/contents/ui/WebView.qml:404
-#, fuzzy, kde-format
-#| msgid "Mute"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Mute"
 msgstr "ஒலியை அடக்கு"
 
 #: lib/contents/ui/WebView.qml:414
-#, fuzzy, kde-format
-#| msgid "Speed"
+#, kde-format
 msgctxt "@label"
 msgid "Speed"
 msgstr "வேகம்"
 
 #: lib/contents/ui/WebView.qml:437
-#, fuzzy, kde-format
-#| msgid "Loop"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Loop"
 msgstr "சுழற்று"
 
 #: lib/contents/ui/WebView.qml:444
-#, fuzzy, kde-format
-#| msgid "Exit fullscreen"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Exit Fullscreen"
 msgstr "முழுத்திரையிலிருந்து வெளியேறு"
 
 #: lib/contents/ui/WebView.qml:444
-#, fuzzy, kde-format
-#| msgid "Exit fullscreen"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Enter Fullscreen"
-msgstr "முழுத்திரையிலிருந்து வெளியேறு"
+msgstr "முழுத்திரையில் நுழை"
 
 #: lib/contents/ui/WebView.qml:457
-#, fuzzy, kde-format
-#| msgid "Hide controls"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Controls"
 msgstr "கட்டுப்படுத்திகளை மறை"
 
 #: lib/contents/ui/WebView.qml:458
-#, fuzzy, kde-format
-#| msgid "Show controls"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Controls"
 msgstr "கட்டுப்படுத்திகளைக் காட்டு"
 
 #: lib/contents/ui/WebView.qml:466
-#, fuzzy, kde-format
-#| msgid "Open video"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video"
 msgstr "நிகழ்படத்தைத் திற"
 
 #: lib/contents/ui/WebView.qml:466
-#, fuzzy, kde-format
-#| msgid "Open audio"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio"
 msgstr "ஒலிக்கோப்பைத் திற"
 
 #: lib/contents/ui/WebView.qml:467
-#, fuzzy, kde-format
-#| msgid "Open video in new Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video in New Tab"
 msgstr "நிகழ்படத்தை புதிய கீற்றில் திற"
 
 #: lib/contents/ui/WebView.qml:467
-#, fuzzy, kde-format
-#| msgid "Open audio in new Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio in New Tab"
 msgstr "ஒலிக்கோப்பை புதிய கீற்றில் திற"
 
 #: lib/contents/ui/WebView.qml:479
-#, fuzzy, kde-format
-#| msgid "Leave page"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Video"
-msgstr "பக்கத்திலிருந்து வெளியேறு"
+msgstr "நிகழ்படத்தை சேமி"
 
 #: lib/contents/ui/WebView.qml:485
-#, fuzzy, kde-format
-#| msgid "Copy Url"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Video Link"
-msgstr "முகவரியை நகலெடு"
+msgstr "நிகழ்படத்தின் முகவரியை நகலெடு"
 
 #: lib/contents/ui/WebView.qml:491
-#, fuzzy, kde-format
-#| msgid "Open video"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image"
-msgstr "நிகழ்படத்தைத் திற"
+msgstr "படத்தை திற"
 
 #: lib/contents/ui/WebView.qml:491
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image in New Tab"
-msgstr "புதிய கீற்றில் திற"
+msgstr "படத்தை புதிய கீற்றில் திற"
 
 #: lib/contents/ui/WebView.qml:503
-#, fuzzy, kde-format
-#| msgid "Leave page"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Image"
-msgstr "பக்கத்திலிருந்து வெளியேறு"
+msgstr "படத்தை சேமி"
 
 #: lib/contents/ui/WebView.qml:509
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image"
-msgstr ""
+msgstr "படத்தை நகலெடு"
 
 #: lib/contents/ui/WebView.qml:515
-#, fuzzy, kde-format
-#| msgid "Copy Url"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image Link"
-msgstr "முகவரியை நகலெடு"
+msgstr "படத்தின் முகவரியை நகலெடு"
 
 #: lib/contents/ui/WebView.qml:521
-#, fuzzy, kde-format
-#| msgid "Open video"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Link"
-msgstr "நிகழ்படத்தைத் திற"
+msgstr "இணைப்பை திற"
 
 #: lib/contents/ui/WebView.qml:521
-#, fuzzy, kde-format
-#| msgid "Open in new Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Link in New Tab"
-msgstr "புதிய கீற்றில் திற"
+msgstr "இணைப்பை புதிய கீற்றில் திற"
 
 #: lib/contents/ui/WebView.qml:533
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Link"
-msgstr ""
+msgstr "இணைப்பை நினைவுக்குறியிடு"
 
 #: lib/contents/ui/WebView.qml:545
-#, fuzzy, kde-format
-#| msgid "Leave page"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Link"
-msgstr "பக்கத்திலிருந்து வெளியேறு"
+msgstr "இணைப்பை சேமி"
 
 #: lib/contents/ui/WebView.qml:551
-#, fuzzy, kde-format
-#| msgid "Copy Url"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Link"
-msgstr "முகவரியை நகலெடு"
+msgstr "இணைப்பை நகலெடு"
 
 #: lib/contents/ui/WebView.qml:558
-#, fuzzy, kde-format
-#| msgid "Copy"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy"
 msgstr "நகலெடு"
 
 #: lib/contents/ui/WebView.qml:564
-#, fuzzy, kde-format
-#| msgid "Cut"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Cut"
 msgstr "வெட்டு"
 
 #: lib/contents/ui/WebView.qml:570
-#, fuzzy, kde-format
-#| msgid "Paste"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "ஒட்டு"
 
 #: lib/contents/ui/WebView.qml:578
-#, fuzzy, kde-format
-#| msgid "Search online for '%1'"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Search for “%1”"
-msgstr "'%1' என்பதை இணையத்தில் தேடு"
+msgstr "'%1' என்பதை தேடு"
 
 #: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:345
 #: src/contents/ui/mobile.qml:296
