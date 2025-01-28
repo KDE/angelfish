@@ -1,13 +1,13 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-angelfish package.
-# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2023, 2024 Paolo Zamponi <feus73@gmail.com>
+# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2023, 2024, 2025 Paolo Zamponi <feus73@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-01-24 00:41+0000\n"
-"PO-Revision-Date: 2024-10-31 14:56+0100\n"
+"PO-Revision-Date: 2025-01-23 16:54+0100\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.08.2\n"
+"X-Generator: Lokalize 24.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -182,67 +182,71 @@ msgid "Submit"
 msgstr "Invia"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to access the microphone?"
+#, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>microphone</b>?"
-msgstr "Vuoi consentire al sito web di accedere al microfono?"
+msgstr ""
+"Vuoi consentire al sito web <b>%1</b> di poter accedere al  <b>microfono</b>?"
 
 #: lib/contents/ui/PermissionQuestion.qml:24
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to access the camera?"
+#, kde-format
 msgid "Do you want to allow the website <b>%1</b> to access the <b>camera</b>?"
-msgstr "Vuoi consentire al sito web di accedere alla fotocamera?"
+msgstr ""
+"Vuoi consentire al sito web <b>%1</b> di poter accedere alla <b>fotocamera</"
+"b>?"
 
 #: lib/contents/ui/PermissionQuestion.qml:26
-#, fuzzy, kde-format
-#| msgid ""
-#| "Do you want to allow the website to access the camera and the microphone?"
+#, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>camera and the "
 "microphone</b>?"
 msgstr ""
-"Vuoi consentire al sito web di accedere alla fotocamera e al microfono?"
+"Vuoi consentire al sito web <b>%1</b> di poter accedere alla  <b>fotocamera "
+"e al microfono</b>?"
 
 #: lib/contents/ui/PermissionQuestion.qml:28
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to share your screen?"
+#, kde-format
 msgid "Do you want to allow the website <b>%1</b> to share your <b>screen</b>?"
-msgstr "Vuoi consentire al sito web di condividere il tuo schermo?"
+msgstr ""
+"Vuoi consentire al sito web <b>%1</b> di condividere il tuo <b>schermo</b>?"
 
 #: lib/contents/ui/PermissionQuestion.qml:30
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to share the sound output?"
+#, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to share the sound <b>output</b>?"
-msgstr "Vuoi consentire al sito web di condividere l'output sonoro?"
+msgstr ""
+"Vuoi consentire al sito web <b>%1</b> di poter condividere l'<b>uscita</b> "
+"sonora?"
 
 #: lib/contents/ui/PermissionQuestion.qml:32
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to send you notifications?"
+#, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to send you <b>notifications</b>?"
-msgstr "Vuoi consentire al sito web di inviarti delle notifiche?"
+msgstr ""
+"Vuoi consentire al sito web <b>%1</b> di poterti inviare delle <b>notifiche</"
+"b>?"
 
 #: lib/contents/ui/PermissionQuestion.qml:34
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to access the geo location?"
+#, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>geo location</b>?"
-msgstr "Vuoi consentire al sito web di accedere alla posizione geografica?"
+msgstr ""
+"Vuoi consentire al sito web <b>%1</b> di poter accedere alla <b>posizione "
+"geografica</b>?"
 
 #: lib/contents/ui/PermissionQuestion.qml:36
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to access the camera?"
+#, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>clipboard</b>?"
-msgstr "Vuoi consentire al sito web di accedere alla fotocamera?"
+msgstr ""
+"Vuoi consentire al sito web <b>%1</b> di aver accesso agli <b>appunti</b>?"
 
 #: lib/contents/ui/PermissionQuestion.qml:38
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to share your screen?"
+#, kde-format
 msgid "Do you want to allow the website <b>%1</b> to access your <b>fonts</b>?"
-msgstr "Vuoi consentire al sito web di condividere il tuo schermo?"
+msgstr ""
+"Vuoi consentire al sito web <b>%1</b> di poter accedere ai tuoi "
+"<b>caratteri</b>?"
 
 #: lib/contents/ui/PermissionQuestion.qml:40
 #, kde-format
