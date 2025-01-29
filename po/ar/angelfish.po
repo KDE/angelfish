@@ -1,13 +1,13 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the angelfish package.
-# SPDX-FileCopyrightText: 2023, 2024 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-10-20 00:39+0000\n"
-"PO-Revision-Date: 2024-10-24 06:37+0400\n"
+"PO-Revision-Date: 2025-01-28 19:26+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -400,7 +400,7 @@ msgstr "قص"
 #: lib/contents/ui/WebView.qml:570
 #, kde-format
 msgid "Paste"
-msgstr "الصق"
+msgstr "ألصِق"
 
 #: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:345
 #: src/contents/ui/mobile.qml:296
@@ -734,7 +734,7 @@ msgstr "اعرض زر المنزل:"
 #: src/settings/DesktopHomeSettingsPage.qml:25
 #, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
-msgstr "سيتم عرض زر المنزل بجوار زر اعادة التحميل في شريط الأدوات."
+msgstr "سيتم عرض زر المنزل بجوار زر إعادة التحميل في شريط الأدوات."
 
 #: src/settings/DesktopHomeSettingsPage.qml:35
 #, kde-format

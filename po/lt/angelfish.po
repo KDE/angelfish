@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-10-20 00:39+0000\n"
-"PO-Revision-Date: 2024-04-09 00:28+0300\n"
+"PO-Revision-Date: 2025-01-29 00:15+0200\n"
 "Last-Translator: Moo\n"
 "Language-Team: lt\n"
 "Language: lt\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -107,14 +107,7 @@ msgid "Retry"
 msgstr "Bandyti dar kartą"
 
 #: lib/contents/ui/ErrorHandler.qml:74
-#, fuzzy, kde-format
-#| msgid ""
-#| "Do you wish to continue?\n"
-#| "\n"
-#| " If you wish so, you may continue with an unverified certificate.\n"
-#| " Accepting an unverified certificate means\n"
-#| " you may not be connected with the host you tried to connect to.\n"
-#| " Do you wish to override the security check and continue?"
+#, kde-format
 msgid ""
 "Do you wish to continue?\n"
 "\n"
@@ -130,6 +123,7 @@ msgstr ""
 " Jei sutiksite naudotis nepatikrintu liudijimu, tai reikš,\n"
 " jog gali būti tikimybė, kad būsite prisijungę ne prie to mazgo, prie kurio "
 "ketinote jungtis.\n"
+"\n"
 " Ar norite nustelbti saugumo patikrinimą ir tęsti?"
 
 #: lib/contents/ui/ErrorHandler.qml:81
@@ -691,7 +685,7 @@ msgstr "Slėpti naršymo juostą"
 #: src/contents/ui/Navigation.qml:410
 #, kde-format
 msgid "Done"
-msgstr ""
+msgstr "Atlikta"
 
 #: src/contents/ui/NewTabQuestion.qml:11
 #, kde-format
@@ -780,8 +774,7 @@ msgid "Adblock settings"
 msgstr "Reklamos blokavimo nuostatos"
 
 #: src/settings/SettingsAdblock.qml:23
-#, fuzzy, kde-format
-#| msgid "add Filterlist"
+#, kde-format
 msgctxt "@action:intoolbar"
 msgid "Add Filterlist"
 msgstr "Pridėti filtrų sąrašą"
@@ -802,8 +795,7 @@ msgid "Remove this filter list"
 msgstr "Šalinti šį filtrų sąrašą"
 
 #: src/settings/SettingsAdblock.qml:112
-#, fuzzy, kde-format
-#| msgid "add Filterlist"
+#, kde-format
 msgid "Add Filterlist"
 msgstr "Pridėti filtrų sąrašą"
 
@@ -905,15 +897,7 @@ msgid "Navigation bar"
 msgstr "Naršymo juostą"
 
 #: src/settings/SettingsNavigationBarPage.qml:26
-#, fuzzy, kde-format
-#| msgid ""
-#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-#| "hidden only in portrait orientation of the browser and are always shown "
-#| "if  the browser is wider than its height.\n"
-#| "\n"
-#| " Note that if you disable the menu buttons, you will be able to access "
-#| "the menus either by swiping from the left or right side or to a side "
-#| "along the bottom of the window."
+#, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
@@ -974,7 +958,7 @@ msgstr "Šalinti programėlę"
 #, kde-format
 msgctxt "placeholder message"
 msgid "No Web Apps installed"
-msgstr ""
+msgstr "Nėra įdiegta jokių saityno programėlių"
 
 #~ msgid "Show navigation bar"
 #~ msgstr "Rodyti naršymo juostą"
