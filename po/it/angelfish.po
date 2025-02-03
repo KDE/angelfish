@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-10-20 00:39+0000\n"
-"PO-Revision-Date: 2024-10-31 14:56+0100\n"
+"PO-Revision-Date: 2025-01-30 08:58+0100\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -507,7 +507,7 @@ msgstr "Modalità lettore"
 #: src/contents/ui/desktop/desktop.qml:355
 #, kde-format
 msgid "Add to application launcher"
-msgstr "Aggiungi al lanciatore di applicazioni"
+msgstr "Aggiungi all'avviatore di applicazioni"
 
 #: src/contents/ui/desktop/desktop.qml:374 src/contents/ui/mobile.qml:101
 #, kde-format
