@@ -1241,14 +1241,3 @@ msgstr ""
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr ""
-
-#~ msgid "Go previous"
-#~ msgstr "Gå til førre"
-
-#, fuzzy
-#~ msgctxt "@action:intoolbar"
-#~ msgid "Add Filterlist"
-#~ msgstr "Legg til filterliste"
-
-#~ msgid "Url"
-#~ msgstr "Adresse"
