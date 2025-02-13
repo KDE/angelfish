@@ -67,19 +67,19 @@ msgstr "打开"
 #, kde-format
 msgctxt "@title:window"
 msgid "Authentication Required"
-msgstr ""
+msgstr "需要进行身份认证"
 
 #: lib/contents/ui/AuthSheet.qml:30
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Username:"
-msgstr ""
+msgstr "用户名："
 
 #: lib/contents/ui/AuthSheet.qml:37
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Password:"
-msgstr ""
+msgstr "密码："
 
 #: lib/contents/ui/DownloadQuestion.qml:15
 #, kde-format
@@ -103,7 +103,7 @@ msgstr "取消"
 #, kde-format
 msgctxt "@title"
 msgid "Error Loading the Page"
-msgstr ""
+msgstr "加载页面出错"
 
 #: lib/contents/ui/ErrorHandler.qml:58
 #, kde-format
@@ -122,9 +122,9 @@ msgid ""
 "\n"
 " Do you wish to override the security check and continue?"
 msgstr ""
-"你想要继续吗？\n"
+"您想要继续吗？\n"
 "\n"
-" 如果你想要继续，你可以继续使用未经验证的证书。\n"
+" 如果您想要继续，您可以继续使用未经验证的证书。\n"
 " 接受未经验证的证书意味着您可能无法与您尝试连接的主机建立连接。\n"
 "\n"
 " 您想要覆盖安全检查并继续吗？"
@@ -145,7 +145,7 @@ msgstr "否"
 #, kde-format
 msgctxt "@title:window"
 msgid "This Page Says"
-msgstr ""
+msgstr "此页面显示"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:64
 #, kde-format
@@ -158,7 +158,7 @@ msgstr "网站要求您在想要离开时进行确认。尚未保存的信息可
 #, kde-format
 msgctxt "@action:button"
 msgid "Leave Page"
-msgstr ""
+msgstr "离开页面"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:87
 #, kde-format
@@ -170,53 +170,53 @@ msgstr "提交"
 #, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>microphone</b>?"
-msgstr ""
+msgstr "您想要允许网站 <b>%1</b> 使用<b>麦克风</b>吗？"
 
 #: lib/contents/ui/PermissionQuestion.qml:24
 #, kde-format
 msgid "Do you want to allow the website <b>%1</b> to access the <b>camera</b>?"
-msgstr ""
+msgstr "您想要允许网站 <b>%1</b> 使用<b>摄像头</b>吗？"
 
 #: lib/contents/ui/PermissionQuestion.qml:26
 #, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>camera and the "
 "microphone</b>?"
-msgstr ""
+msgstr "您想要允许网站 <b>%1</b> 使用<b>摄像头和麦克风</b>吗？"
 
 #: lib/contents/ui/PermissionQuestion.qml:28
 #, kde-format
 msgid "Do you want to allow the website <b>%1</b> to share your <b>screen</b>?"
-msgstr ""
+msgstr "您想要允许网站 <b>%1</b> 共享您的<b>屏幕</b>吗？"
 
 #: lib/contents/ui/PermissionQuestion.qml:30
 #, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to share the sound <b>output</b>?"
-msgstr ""
+msgstr "您想要允许网站 <b>%1</b> 共享声音<b>输出</b>吗？"
 
 #: lib/contents/ui/PermissionQuestion.qml:32
 #, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to send you <b>notifications</b>?"
-msgstr ""
+msgstr "您想要允许网站 <b>%1</b> 向您发送<b>通知</b>吗？"
 
 #: lib/contents/ui/PermissionQuestion.qml:34
 #, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>geo location</b>?"
-msgstr ""
+msgstr "您想要允许网站 <b>%1</b> 访问<b>地理位置</b>吗？"
 
 #: lib/contents/ui/PermissionQuestion.qml:36
 #, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>clipboard</b>?"
-msgstr ""
+msgstr "您想要允许网站 <b>%1</b> 访问<b>剪贴板</b>吗？"
 
 #: lib/contents/ui/PermissionQuestion.qml:38
 #, kde-format
 msgid "Do you want to allow the website <b>%1</b> to access your <b>fonts</b>?"
-msgstr ""
+msgstr "您想要允许网站 <b>%1</b> 访问您的<b>字体</b>吗？"
 
 #: lib/contents/ui/PermissionQuestion.qml:40
 #, kde-format
@@ -224,7 +224,7 @@ msgctxt ""
 "The website (website) requested an unknown permission: Do you want to allow "
 "the website (website) to access your fonts?"
 msgid "The website %1 requested an unknown permission: %2"
-msgstr ""
+msgstr "网站 %1 请求了一个未知权限： %2"
 
 #: lib/contents/ui/PermissionQuestion.qml:48
 #, kde-format
@@ -266,7 +266,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:group"
 msgid "Paper Size"
-msgstr ""
+msgstr "页面大小"
 
 #: lib/contents/ui/PrintPreview.qml:145
 #, kde-format
@@ -296,7 +296,7 @@ msgstr "网站已在新标签页中打开"
 #, kde-format
 msgctxt "@info:status"
 msgid "Entered Full Screen mode"
-msgstr ""
+msgstr "进入全屏模式"
 
 #: lib/contents/ui/WebView.qml:262
 #, kde-format
@@ -344,121 +344,121 @@ msgstr "循环播放"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Exit Fullscreen"
-msgstr ""
+msgstr "退出全屏"
 
 #: lib/contents/ui/WebView.qml:444
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enter Fullscreen"
-msgstr ""
+msgstr "进入全屏"
 
 #: lib/contents/ui/WebView.qml:457
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Controls"
-msgstr ""
+msgstr "隐藏控件"
 
 #: lib/contents/ui/WebView.qml:458
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Controls"
-msgstr ""
+msgstr "显示控件"
 
 #: lib/contents/ui/WebView.qml:466
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video"
-msgstr ""
+msgstr "打开视频"
 
 #: lib/contents/ui/WebView.qml:466
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio"
-msgstr ""
+msgstr "打开音频"
 
 #: lib/contents/ui/WebView.qml:467
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video in New Tab"
-msgstr ""
+msgstr "在新标签页中打开视频"
 
 #: lib/contents/ui/WebView.qml:467
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio in New Tab"
-msgstr ""
+msgstr "在新标签页中打开音频"
 
 #: lib/contents/ui/WebView.qml:479
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Video"
-msgstr ""
+msgstr "保存视频"
 
 #: lib/contents/ui/WebView.qml:485
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Video Link"
-msgstr ""
+msgstr "复制视频链接"
 
 #: lib/contents/ui/WebView.qml:491
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image"
-msgstr ""
+msgstr "打开图片"
 
 #: lib/contents/ui/WebView.qml:491
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image in New Tab"
-msgstr ""
+msgstr "在新标签中显示图片"
 
 #: lib/contents/ui/WebView.qml:503
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Image"
-msgstr ""
+msgstr "保存图片"
 
 #: lib/contents/ui/WebView.qml:509
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image"
-msgstr ""
+msgstr "复制图片"
 
 #: lib/contents/ui/WebView.qml:515
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image Link"
-msgstr ""
+msgstr "复制图片链接"
 
 #: lib/contents/ui/WebView.qml:521
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Link"
-msgstr ""
+msgstr "打开链接"
 
 #: lib/contents/ui/WebView.qml:521
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Link in New Tab"
-msgstr ""
+msgstr "在新标签页中打开链接"
 
 #: lib/contents/ui/WebView.qml:533
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Link"
-msgstr ""
+msgstr "书签链接"
 
 #: lib/contents/ui/WebView.qml:545
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Link"
-msgstr ""
+msgstr "保存链接"
 
 #: lib/contents/ui/WebView.qml:551
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Link"
-msgstr ""
+msgstr "复制链接"
 
 #: lib/contents/ui/WebView.qml:558
 #, kde-format
@@ -482,33 +482,33 @@ msgstr "粘贴"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Search for “%1”"
-msgstr ""
+msgstr "搜索 “%1”"
 
 #: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:345
 #: src/contents/ui/mobile.qml:296
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
-msgstr ""
+msgstr "分享页面"
 
 #: lib/contents/ui/WebView.qml:603
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "View Page Source"
-msgstr ""
+msgstr "查看页面源代码"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
 #, kde-format
 msgctxt "@info"
 msgid ""
 "The adblocker is missing its filter lists, do you want to download them now?"
-msgstr ""
+msgstr "广告拦截器缺少过滤规则列表。您想要现在下载它们吗？"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:35
 #, kde-format
 msgctxt "@info"
 msgid "Downloading…"
-msgstr ""
+msgstr "正在下载..."
 
 #: src/contents/ui/Bookmarks.qml:12
 #, kde-format
@@ -545,13 +545,13 @@ msgstr "新建标签页"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
-msgstr ""
+msgstr "离开隐私模式"
 
 #: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/mobile.qml:73
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Private Mode"
-msgstr ""
+msgstr "隐私模式"
 
 #: src/contents/ui/desktop/desktop.qml:265 src/contents/ui/mobile.qml:89
 #, kde-format
@@ -587,19 +587,19 @@ msgstr "全屏"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
-msgstr ""
+msgstr "隐藏开发者工具"
 
 #: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:392
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
-msgstr ""
+msgstr "显示开发者工具"
 
 #: src/contents/ui/desktop/desktop.qml:329 src/contents/ui/mobile.qml:292
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
-msgstr ""
+msgstr "查找页面中的内容"
 
 #: src/contents/ui/desktop/desktop.qml:338 src/contents/ui/mobile.qml:375
 #, kde-format
@@ -611,7 +611,7 @@ msgstr "阅读模式"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
-msgstr ""
+msgstr "添加到应用程序启动器"
 
 #: src/contents/ui/desktop/desktop.qml:374 src/contents/ui/mobile.qml:101
 #, kde-format
@@ -635,13 +635,13 @@ msgstr "清除所有历史记录"
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No history yet"
-msgstr ""
+msgstr "没有历史记录"
 
 #: src/contents/ui/desktop/Tabs.qml:232 src/contents/ui/Tabs.qml:275
 #, kde-format
 msgctxt "@label"
 msgid "Reader mode: %1"
-msgstr ""
+msgstr "阅读模式：%1"
 
 #: src/contents/ui/desktop/Tabs.qml:261 src/contents/ui/Tabs.qml:306
 #, kde-format
@@ -725,7 +725,7 @@ msgstr "已中断"
 #, kde-format
 msgctxt "@info:progress"
 msgid "In progress…"
-msgstr ""
+msgstr "进行中..."
 
 #: src/contents/ui/Downloads.qml:92
 #, kde-format
@@ -743,7 +743,7 @@ msgstr "继续"
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
-msgstr ""
+msgstr "搜索…"
 
 #: src/contents/ui/History.qml:12
 #, kde-format
@@ -767,31 +767,31 @@ msgstr "标签页"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
-msgstr ""
+msgstr "添加到主屏幕"
 
 #: src/contents/ui/mobile.qml:317
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
-msgstr ""
+msgstr "在应用程序中打开"
 
 #: src/contents/ui/mobile.qml:325
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
-msgstr ""
+msgstr "后退"
 
 #: src/contents/ui/mobile.qml:333
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
-msgstr ""
+msgstr "前进"
 
 #: src/contents/ui/mobile.qml:340
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
-msgstr ""
+msgstr "停止加载"
 
 #: src/contents/ui/mobile.qml:340
 #, kde-format
@@ -815,25 +815,25 @@ msgstr "书签"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
-msgstr ""
+msgstr "显示桌面版网站"
 
 #: src/contents/ui/mobile.qml:383
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
-msgstr ""
+msgstr "隐藏导航栏"
 
 #: src/contents/ui/Navigation.qml:410
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Done"
-msgstr ""
+msgstr "完成"
 
 #: src/contents/ui/Navigation.qml:423
 #, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"
-msgstr ""
+msgstr "%1 标签页"
 
 #: src/contents/ui/NewTabQuestion.qml:11
 #, kde-format
@@ -842,6 +842,8 @@ msgid ""
 "Site wants to open a new tab:\n"
 "%1"
 msgstr ""
+"网站想要打开一个新标签页： \n"
+"%1"
 
 #: src/contents/ui/NewTabQuestion.qml:19
 #, kde-format
@@ -853,7 +855,7 @@ msgstr "打开"
 #, kde-format
 msgctxt "@title:window"
 msgid "Share Page"
-msgstr ""
+msgstr "分享页面"
 
 #: src/main.cpp:82
 #, kde-format
@@ -871,7 +873,7 @@ msgstr "常规"
 #, kde-format
 msgctxt "@title:window"
 msgid "Adblock"
-msgstr ""
+msgstr "广告屏蔽"
 
 #: src/settings/AngelfishConfigurationView.qml:26
 #: src/settings/SettingsWebApps.qml:16
@@ -885,7 +887,7 @@ msgstr "网页小程序"
 #, kde-format
 msgctxt "@title:window"
 msgid "Search Engines"
-msgstr ""
+msgstr "搜索引擎"
 
 #: src/settings/AngelfishConfigurationView.qml:38
 #: src/settings/DesktopHomeSettingsPage.qml:15
@@ -926,25 +928,25 @@ msgstr "总是显示标签页栏"
 #: src/settings/DesktopHomeSettingsPage.qml:82
 #, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open."
-msgstr ""
+msgstr "即使只打开了一个标签页，标签栏也会显示。"
 
 #: src/settings/SettingsAdblock.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Adblock Settings"
-msgstr ""
+msgstr "广告拦截器设置"
 
 #: src/settings/SettingsAdblock.qml:23
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Add filter list"
-msgstr ""
+msgstr "广告拦截器过滤列表"
 
 #: src/settings/SettingsAdblock.qml:27
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Update Lists"
-msgstr ""
+msgstr "更新列表"
 
 #: src/settings/SettingsAdblock.qml:49
 #, kde-format
@@ -961,13 +963,13 @@ msgstr "移除此过滤规则列表"
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Filter List"
-msgstr ""
+msgstr "添加过滤列表"
 
 #: src/settings/SettingsAdblock.qml:124
 #, kde-format
 msgctxt "@title:group"
 msgid "Add Filter List"
-msgstr ""
+msgstr "添加过滤列表"
 
 #: src/settings/SettingsAdblock.qml:129
 #, kde-format
@@ -979,7 +981,7 @@ msgstr "名称"
 #, kde-format
 msgctxt "@label"
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: src/settings/SettingsGeneral.qml:27
 #, kde-format
@@ -1016,7 +1018,7 @@ msgstr ""
 #: src/settings/SettingsGeneral.qml:48
 #, kde-format
 msgid "Adblock functionality was not included in this build."
-msgstr ""
+msgstr "此版软件不包含广告拦截器功能。"
 
 #: src/settings/SettingsGeneral.qml:58
 #, kde-format
@@ -1028,13 +1030,13 @@ msgstr "立即切换到新标签页"
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately."
-msgstr ""
+msgstr "在新标签页中打开链接、图像或介质时，立即切换到该标签页."
 
 #: src/settings/SettingsGeneral.qml:68
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Use smooth scrolling"
-msgstr ""
+msgstr "使用平滑滚动"
 
 #: src/settings/SettingsGeneral.qml:69
 #, kde-format
@@ -1060,7 +1062,7 @@ msgstr "网站的配色方案将设为深色。需要重启应用才能生效。
 #, kde-format
 msgctxt "@title:window"
 msgid "Navigation Bar"
-msgstr ""
+msgstr "导航栏"
 
 #: src/settings/SettingsNavigationBarPage.qml:26
 #, kde-format
@@ -1118,7 +1120,7 @@ msgstr "刷新/停止"
 #, kde-format
 msgctxt "@window:title"
 msgid "Search Engines"
-msgstr ""
+msgstr "搜索引擎"
 
 #: src/settings/SettingsSearchEnginePage.qml:20
 #, kde-format
@@ -1142,4 +1144,4 @@ msgstr "移除应用"
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
-msgstr ""
+msgstr "没有已安装的网页应用"
