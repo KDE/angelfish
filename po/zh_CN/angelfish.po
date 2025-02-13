@@ -116,9 +116,9 @@ msgid ""
 "\n"
 " Do you wish to override the security check and continue?"
 msgstr ""
-"你想要继续吗？\n"
+"您想要继续吗？\n"
 "\n"
-" 如果你想要继续，你可以继续使用未经验证的证书。\n"
+" 如果您想要继续，您可以继续使用未经验证的证书。\n"
 " 接受未经验证的证书意味着您可能无法与您尝试连接的主机建立连接。\n"
 "\n"
 " 您想要覆盖安全检查并继续吗？"
@@ -674,7 +674,7 @@ msgstr "隐藏导航栏"
 #: src/contents/ui/Navigation.qml:410
 #, kde-format
 msgid "Done"
-msgstr ""
+msgstr "完成"
 
 #: src/contents/ui/NewTabQuestion.qml:11
 #, kde-format
