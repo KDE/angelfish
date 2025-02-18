@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-10-20 00:39+0000\n"
-"PO-Revision-Date: 2025-01-24 14:03+0100\n"
+"PO-Revision-Date: 2025-02-17 22:36+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.12.1\n"
+"X-Generator: Lokalize 24.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -428,7 +428,7 @@ msgstr ""
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:35
 #, kde-format
 msgid "Downloading..."
-msgstr "Descargando..."
+msgstr "Descargando…"
 
 #: src/contents/ui/Bookmarks.qml:12 src/contents/ui/desktop/desktop.qml:274
 #: src/contents/ui/mobile.qml:81
@@ -439,7 +439,7 @@ msgstr "Marcadores"
 #: src/contents/ui/desktop/BookmarksPage.qml:30
 #, kde-format
 msgid "Search bookmarks…"
-msgstr "Buscar en los marcadores..."
+msgstr "Buscar en los marcadores…"
 
 #: src/contents/ui/desktop/BookmarksPage.qml:77
 #, kde-format
@@ -449,7 +449,7 @@ msgstr "Aún no hay marcadores"
 #: src/contents/ui/desktop/desktop.qml:125
 #, kde-format
 msgid "Search or enter URL…"
-msgstr "Buscar o introducir URL..."
+msgstr "Buscar o introducir URL…"
 
 #: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:355
 #: src/contents/ui/Navigation.qml:437
@@ -518,7 +518,7 @@ msgstr "Preferencias"
 #: src/contents/ui/desktop/HistoryPage.qml:30
 #, kde-format
 msgid "Search history…"
-msgstr "Buscar en el historial..."
+msgstr "Buscar en el historial…"
 
 #: src/contents/ui/desktop/HistoryPage.qml:46
 #, kde-format
@@ -611,7 +611,7 @@ msgstr "Continuar"
 #: src/contents/ui/FindInPageBar.qml:45
 #, kde-format
 msgid "Search..."
-msgstr "Buscar..."
+msgstr "Buscar…"
 
 #: src/contents/ui/mobile.qml:20
 #, kde-format
