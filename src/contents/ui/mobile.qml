@@ -428,7 +428,7 @@ Kirigami.ApplicationWindow {
 
             Kirigami.Theme.colorSet: rootPage.privateMode ? Kirigami.Theme.Complementary : Kirigami.Theme.Window
 
-            layer.enabled: active
+            layer.enabled: GraphicsInfo.api !== GraphicsInfo.Software && active
             layer.effect: DropShadow {
                 verticalOffset: - 1
                 color: Kirigami.Theme.disabledTextColor
@@ -455,7 +455,7 @@ Kirigami.ApplicationWindow {
 
             Kirigami.Theme.colorSet: rootPage.privateMode ? Kirigami.Theme.Complementary : Kirigami.Theme.Window
 
-            layer.enabled: navigation.navigationShown
+            layer.enabled: GraphicsInfo.api !== GraphicsInfo.Software && navigation.navigationShown
             layer.effect: DropShadow {
                 verticalOffset: - 1
                 color: Kirigami.Theme.disabledTextColor
