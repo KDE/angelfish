@@ -935,12 +935,12 @@ msgstr "Novas lapelas:"
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Always show the tab bar"
-msgstr "Amosar sempre a barra de lapelas."
+msgstr "Amosar sempre a barra de separadores."
 
 #: src/settings/DesktopHomeSettingsPage.qml:82
 #, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open."
-msgstr "A barra de lapelas amosarase aínda que só haxa unha lapela aberta."
+msgstr "A barra de separadores amosarase aínda que só haxa unha lapela aberta."
 
 #: src/settings/SettingsAdblock.qml:16
 #, kde-format
