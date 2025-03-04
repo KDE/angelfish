@@ -26,15 +26,6 @@ slots:
     interface: dbus
     name: org.kde.angelfish
     bus: session
-package-repositories:
--   type: apt
-    components:
-    - main
-    suites:
-    - noble
-    key-id: 444DABCF3667D0283F894EDDE6D4736255751E5D
-    url: http://origin.archive.neon.kde.org/user
-    key-server: keyserver.ubuntu.com
 parts:
   futuresql:
     plugin: cmake
@@ -91,7 +82,8 @@ parts:
       - -DCMAKE_LIBRARY_PATH=lib/$CRAFT_ARCH_TRIPLET_BUILD_FOR
     build-environment:
       - PKG_CONFIG_PATH: "/snap/ffmpeg-2404-sdk/current/usr/lib/$CRAFT_ARCH_TRIPLET_BUILD_FOR/pkgconfig"
-      - LD_LIBRARY_PATH: "$CRAFT_STAGE/usr/lib/$CRAFT_ARCH_TRIPLET_BUILD_FOR:/snap/ffmpeg-2404-sdk/current/usr/lib/$CRAFT_ARCH_TRIPLET_BUILD_FOR:/snap/kde-qt6-core24-sdk/current/usr/lib/$CRAFT_ARCH_TRIPLET_BUILD_FOR/libproxy:${LD_LIBRARY_PATH}"
+      - LD_LIBRARY_PATH: >
+         "/snap/mesa-2404/current/usr/lib/$CRAFT_ARCH_TRIPLET_BUILD_FOR:$CRAFT_STAGE/usr/lib/$CRAFT_ARCH_TRIPLET_BUILD_FOR:/snap/kde-qt6-core24-sdk/current/usr/lib/$CRAFT_ARCH_TRIPLET_BUILD_FOR/libproxy:$LD_LIBRARY_PATH"
     prime:
       - -usr/lib/*/cmake/*
       - -usr/include/*
@@ -122,5 +114,3 @@ parts:
       for snap in "core24" "kf6-core24"; do
         cd "/snap/$snap/current" && find . -type f,l -exec rm -rf "${CRAFT_PRIME}/{}" \;
       done
-
-
