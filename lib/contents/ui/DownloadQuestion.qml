@@ -12,7 +12,9 @@ Kirigami.InlineMessage {
 
     property WebEngineDownloadRequest download
 
-    text: i18n("Do you want to download this file?")
+    text: i18nc("Would you like to download (filename) from (domain)?",
+                "Would you like to download %1 from %2?",
+                download.downloadFileName, new URL(download.url).host)
     showCloseButton: false
 
     position: Kirigami.Settings.isMobile ? Kirigami.InlineMessage.Footer : Kirigami.InlineMessage.Header
