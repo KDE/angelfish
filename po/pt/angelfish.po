@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-24 00:41+0000\n"
+"POT-Creation-Date: 2025-03-08 00:43+0000\n"
 "PO-Revision-Date: 2023-05-22 22:20+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -84,12 +84,14 @@ msgctxt "@label:textbox"
 msgid "Password:"
 msgstr "Senha"
 
-#: lib/contents/ui/DownloadQuestion.qml:15
-#, kde-format
-msgid "Do you want to download this file?"
+#: lib/contents/ui/DownloadQuestion.qml:16
+#, fuzzy, kde-format
+#| msgid "Do you want to download this file?"
+msgctxt "Would you like to download (filename) from (domain)?"
+msgid "Would you like to download %1 from %2?"
 msgstr "Deseja obter este ficheiro?"
 
-#: lib/contents/ui/DownloadQuestion.qml:23
+#: lib/contents/ui/DownloadQuestion.qml:25
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
 #, fuzzy, kde-format
 #| msgid "Download"
@@ -97,7 +99,7 @@ msgctxt "@action:button"
 msgid "Download"
 msgstr "Obter"
 
-#: lib/contents/ui/DownloadQuestion.qml:31 lib/contents/ui/PrintPreview.qml:163
+#: lib/contents/ui/DownloadQuestion.qml:33 lib/contents/ui/PrintPreview.qml:163
 #, fuzzy, kde-format
 #| msgid "Cancel"
 msgctxt "@action:button"

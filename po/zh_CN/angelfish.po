@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-24 00:41+0000\n"
+"POT-Creation-Date: 2025-03-08 00:43+0000\n"
 "PO-Revision-Date: 2024-04-22 15:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -81,19 +81,21 @@ msgctxt "@label:textbox"
 msgid "Password:"
 msgstr "密码："
 
-#: lib/contents/ui/DownloadQuestion.qml:15
-#, kde-format
-msgid "Do you want to download this file?"
+#: lib/contents/ui/DownloadQuestion.qml:16
+#, fuzzy, kde-format
+#| msgid "Do you want to download this file?"
+msgctxt "Would you like to download (filename) from (domain)?"
+msgid "Would you like to download %1 from %2?"
 msgstr "您想要下载此文件吗？"
 
-#: lib/contents/ui/DownloadQuestion.qml:23
+#: lib/contents/ui/DownloadQuestion.qml:25
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "Download"
 msgstr "下载"
 
-#: lib/contents/ui/DownloadQuestion.qml:31 lib/contents/ui/PrintPreview.qml:163
+#: lib/contents/ui/DownloadQuestion.qml:33 lib/contents/ui/PrintPreview.qml:163
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel"

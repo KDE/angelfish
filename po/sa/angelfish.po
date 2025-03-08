@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-01-24 00:41+0000\n"
+"POT-Creation-Date: 2025-03-08 00:43+0000\n"
 "PO-Revision-Date: 2024-12-24 20:39+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -85,12 +85,14 @@ msgctxt "@label:textbox"
 msgid "Password:"
 msgstr "समाभाष्"
 
-#: lib/contents/ui/DownloadQuestion.qml:15
-#, kde-format
-msgid "Do you want to download this file?"
+#: lib/contents/ui/DownloadQuestion.qml:16
+#, fuzzy, kde-format
+#| msgid "Do you want to download this file?"
+msgctxt "Would you like to download (filename) from (domain)?"
+msgid "Would you like to download %1 from %2?"
 msgstr "किं भवान् एतां सञ्चिकां डाउनलोड् कर्तुम् इच्छति ?"
 
-#: lib/contents/ui/DownloadQuestion.qml:23
+#: lib/contents/ui/DownloadQuestion.qml:25
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
 #, fuzzy, kde-format
 #| msgid "Download"
@@ -98,7 +100,7 @@ msgctxt "@action:button"
 msgid "Download"
 msgstr "अवाहरन"
 
-#: lib/contents/ui/DownloadQuestion.qml:31 lib/contents/ui/PrintPreview.qml:163
+#: lib/contents/ui/DownloadQuestion.qml:33 lib/contents/ui/PrintPreview.qml:163
 #, fuzzy, kde-format
 #| msgid "Cancel"
 msgctxt "@action:button"
