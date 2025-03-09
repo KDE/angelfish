@@ -1,5 +1,5 @@
 # Spanish translations for angelfish.po package.
-# Copyright (C) 2019 This file is copyright:
+# Copyright (C) 2019-2025 This file is copyright:
 # This file is distributed under the same license as the plasma-angelfish package.
 #
 # Automatically generated, 2019.
@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-08 00:43+0000\n"
-"PO-Revision-Date: 2025-01-24 14:03+0100\n"
+"PO-Revision-Date: 2025-03-09 01:08+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.12.1\n"
+"X-Generator: Lokalize 24.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -83,11 +83,10 @@ msgid "Password:"
 msgstr "Contraseña:"
 
 #: lib/contents/ui/DownloadQuestion.qml:16
-#, fuzzy, kde-format
-#| msgid "Do you want to download this file?"
+#, kde-format
 msgctxt "Would you like to download (filename) from (domain)?"
 msgid "Would you like to download %1 from %2?"
-msgstr "¿Desea descargar este archivo?"
+msgstr "¿Desea descargar %1 de %2?"
 
 #: lib/contents/ui/DownloadQuestion.qml:25
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
@@ -532,7 +531,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info"
 msgid "Downloading…"
-msgstr "Descargando..."
+msgstr "Descargando…"
 
 #: src/contents/ui/Bookmarks.qml:12
 #, kde-format
@@ -544,7 +543,7 @@ msgstr "Marcadores"
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search bookmarks…"
-msgstr "Buscar en los marcadores..."
+msgstr "Buscar en los marcadores…"
 
 #: src/contents/ui/desktop/BookmarksPage.qml:77
 #, kde-format
@@ -556,7 +555,7 @@ msgstr "Aún no hay marcadores"
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
-msgstr "Buscar o introducir URL..."
+msgstr "Buscar o introducir URL…"
 
 #: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:355
 #: src/contents/ui/Navigation.qml:437
@@ -647,7 +646,7 @@ msgstr "Preferencias"
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search history…"
-msgstr "Buscar en el historial..."
+msgstr "Buscar en el historial…"
 
 #: src/contents/ui/desktop/HistoryPage.qml:46
 #, kde-format
@@ -749,7 +748,7 @@ msgstr "Interrumpida"
 #, kde-format
 msgctxt "@info:progress"
 msgid "In progress…"
-msgstr "En curso..."
+msgstr "En curso…"
 
 #: src/contents/ui/Downloads.qml:92
 #, kde-format
@@ -767,7 +766,7 @@ msgstr "Continuar"
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
-msgstr "Buscar..."
+msgstr "Buscar…"
 
 #: src/contents/ui/History.qml:12
 #, kde-format
@@ -1183,97 +1182,3 @@ msgstr "Eliminar aplicación"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "No hay aplicaciones web instaladas"
-
-#~ msgid "Fullscreen"
-#~ msgstr "Pantalla completa"
-
-#~ msgid "Private mode"
-#~ msgstr "Modo privado"
-
-#~ msgid "Search..."
-#~ msgstr "Buscar..."
-
-#~ msgid "Go previous"
-#~ msgstr "Retroceder"
-
-#~ msgid "Reader Mode"
-#~ msgstr "Modo lector"
-
-#~ msgid "Share page to"
-#~ msgstr "Compartir página con"
-
-#~ msgctxt "@action:intoolbar"
-#~ msgid "Add Filterlist"
-#~ msgstr "Añadir lista de filtrado"
-
-#~ msgid "Url"
-#~ msgstr "URL"
-
-#~ msgid "Show navigation bar"
-#~ msgstr "Mostrar la barra de navegación"
-
-#~ msgid "Configure Angelfish"
-#~ msgstr "Configurar Angelfish"
-
-#~ msgid "Add"
-#~ msgstr "Añadir"
-
-#~ msgid "Enabled"
-#~ msgstr "Activado"
-
-#~ msgid "Disabled"
-#~ msgstr "Desactivado"
-
-#~ msgid "Search online"
-#~ msgstr "Buscar en línea"
-
-#~ msgid "Confirm"
-#~ msgstr "Confirmar"
-
-#~ msgid "OK"
-#~ msgstr "Aceptar"
-
-#~ msgid "General:"
-#~ msgstr "General:"
-
-#~ msgid "Enable Adblock"
-#~ msgstr "Activar el bloqueo publicitario"
-
-#~ msgid "Home"
-#~ msgstr "Página de inicio"
-
-#~ msgid "Adblock filter lists"
-#~ msgstr "Listas de filtrado de bloqueo publicitario"
-
-#~ msgid "New"
-#~ msgstr "Nueva"
-
-#~ msgid "Choose the buttons enabled in navigation bar. "
-#~ msgstr "Escoja los botones activos en la barra de navegación."
-
-#~ msgid "Website that should be loaded on startup"
-#~ msgstr "Sitio web que se debe cargar durante el inicio"
-
-#~ msgid "Find..."
-#~ msgstr "Buscar..."
-
-#~ msgid "Highlight text on the current website"
-#~ msgstr "Resaltar texto en el sitio web actual"
-
-#~ msgid "Start without UI"
-#~ msgstr "Iniciar sin interfaz de usuario"
-
-#~ msgid "geo location"
-#~ msgstr "geolocalización"
-
-#~ msgid "the microphone"
-#~ msgstr "el micrófono"
-
-#~ msgid "the camera"
-#~ msgstr "la cámara"
-
-#~ msgid "camera and microphone"
-#~ msgstr "la cámara y el micrófono"
-
-#~ msgid "Ok"
-#~ msgstr "Aceptar"
