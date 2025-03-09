@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-08 00:43+0000\n"
-"PO-Revision-Date: 2025-01-24 08:18+0100\n"
+"PO-Revision-Date: 2025-03-08 10:26+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -85,11 +85,10 @@ msgid "Password:"
 msgstr "Contrasenya:"
 
 #: lib/contents/ui/DownloadQuestion.qml:16
-#, fuzzy, kde-format
-#| msgid "Do you want to download this file?"
+#, kde-format
 msgctxt "Would you like to download (filename) from (domain)?"
 msgid "Would you like to download %1 from %2?"
-msgstr "Voleu baixar aquest fitxer?"
+msgstr "Voleu baixar %1 des de %2?"
 
 #: lib/contents/ui/DownloadQuestion.qml:25
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
@@ -1178,25 +1177,3 @@ msgstr "Elimina l'aplicació"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "No hi ha instal·lada cap aplicació web"
-
-#~ msgid "Fullscreen"
-#~ msgstr "Pantalla completa"
-
-#~ msgid "Search..."
-#~ msgstr "Cerca..."
-
-#~ msgid "Go previous"
-#~ msgstr "Ves a l'anterior"
-
-#~ msgid "Reader Mode"
-#~ msgstr "Mode lector"
-
-#~ msgid "Share page to"
-#~ msgstr "Comparteix la pàgina a"
-
-#~ msgctxt "@action:intoolbar"
-#~ msgid "Add Filterlist"
-#~ msgstr "Afegeix una llista de filtres"
-
-#~ msgid "Url"
-#~ msgstr "URL"

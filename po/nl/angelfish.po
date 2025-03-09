@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-08 00:43+0000\n"
-"PO-Revision-Date: 2025-01-24 11:27+0100\n"
+"PO-Revision-Date: 2025-03-08 10:47+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.12.1\n"
+"X-Generator: Lokalize 24.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -81,11 +81,10 @@ msgid "Password:"
 msgstr "Wachtwoord:"
 
 #: lib/contents/ui/DownloadQuestion.qml:16
-#, fuzzy, kde-format
-#| msgid "Do you want to download this file?"
+#, kde-format
 msgctxt "Would you like to download (filename) from (domain)?"
 msgid "Would you like to download %1 from %2?"
-msgstr "Wil u dit bestand downloaden?"
+msgstr "Zou u %1 uit %2 willen downloaden?"
 
 #: lib/contents/ui/DownloadQuestion.qml:25
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:30

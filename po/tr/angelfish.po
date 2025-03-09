@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-08 00:43+0000\n"
-"PO-Revision-Date: 2025-01-24 16:52+0300\n"
+"PO-Revision-Date: 2025-03-08 14:32+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -82,11 +82,10 @@ msgid "Password:"
 msgstr "Parola:"
 
 #: lib/contents/ui/DownloadQuestion.qml:16
-#, fuzzy, kde-format
-#| msgid "Do you want to download this file?"
+#, kde-format
 msgctxt "Would you like to download (filename) from (domain)?"
 msgid "Would you like to download %1 from %2?"
-msgstr "Bu dosyayı indirmek istiyor musunuz?"
+msgstr "%2 konumundan %1 dosyasını indirmek istiyor musunuz?"
 
 #: lib/contents/ui/DownloadQuestion.qml:25
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:30

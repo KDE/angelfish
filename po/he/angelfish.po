@@ -1,13 +1,13 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the angelfish package.
 #
-# SPDX-FileCopyrightText: 2024 Yaron Shahrabani <sh.yaron@gmail.com>
+# SPDX-FileCopyrightText: 2024, 2025 Yaron Shahrabani <sh.yaron@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-08 00:43+0000\n"
-"PO-Revision-Date: 2025-01-24 09:46+0200\n"
+"PO-Revision-Date: 2025-03-08 14:01+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Lokalize 24.12.0\n"
+"X-Generator: Lokalize 24.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -82,11 +82,10 @@ msgid "Password:"
 msgstr "סיסמה:"
 
 #: lib/contents/ui/DownloadQuestion.qml:16
-#, fuzzy, kde-format
-#| msgid "Do you want to download this file?"
+#, kde-format
 msgctxt "Would you like to download (filename) from (domain)?"
 msgid "Would you like to download %1 from %2?"
-msgstr "להוריד את הקובץ הזה?"
+msgstr "להוריד את %1 מ־%2?"
 
 #: lib/contents/ui/DownloadQuestion.qml:25
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
