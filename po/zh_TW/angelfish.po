@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-08 00:43+0000\n"
-"PO-Revision-Date: 2025-02-18 16:21+0900\n"
+"PO-Revision-Date: 2025-03-10 20:34+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 25.03.70\n"
+"X-Generator: Lokalize 24.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -82,11 +82,10 @@ msgid "Password:"
 msgstr "密碼："
 
 #: lib/contents/ui/DownloadQuestion.qml:16
-#, fuzzy, kde-format
-#| msgid "Do you want to download this file?"
+#, kde-format
 msgctxt "Would you like to download (filename) from (domain)?"
 msgid "Would you like to download %1 from %2?"
-msgstr "是否下載此檔案？"
+msgstr "您要從 %2 下載 %1 嗎？"
 
 #: lib/contents/ui/DownloadQuestion.qml:25
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
