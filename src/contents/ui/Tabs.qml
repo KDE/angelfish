@@ -148,6 +148,7 @@ Kirigami.Page {
                     z: 0
                     drag.onActiveChanged: {
                         xAnimator.stop();
+                        if (pressed) { return }
                         let rightThreshold = Math.min(gridItem.sourceX + grid.width * 0.45, grid.width + Kirigami.Units.gridUnit * 2);
                         let leftThreshold = Math.max(gridItem.sourceX - grid.width * 0.45, - Kirigami.Units.gridUnit * 2);
                         if (parent.x > rightThreshold) {
@@ -195,7 +196,7 @@ Kirigami.Page {
 
                 NumberAnimation on x {
                     id: xAnimator
-                    running: !mouseArea.drag.active && !zoomAnimator.running
+                    running: false
                     duration: Kirigami.Units.longDuration
                     easing.type: Easing.OutQuad
                     to: gridItem.sourceX
@@ -320,6 +321,13 @@ Kirigami.Page {
                         height: itemHeight - Kirigami.Units.gridUnit * 1.5 - Kirigami.Units.smallSpacing
                         clip: true
 
+                        Image {
+                            id: tabImage
+                            anchors.fill: parent
+                            fillMode: Image.PreserveAspectCrop
+                            verticalAlignment: Image.AlignTop
+                        }
+
                         // ShaderEffectSource requires that corresponding WebEngineView is
                         // visible. Here, visibility is enabled while snapshot is taken and
                         // removed as soon as it is ready.
@@ -328,7 +336,8 @@ Kirigami.Page {
 
                             live: false
                             anchors.fill: parent
-                            sourceRect: Qt.rect(0, 0, applicationWindow().width, webHeight) //height/width
+                            sourceRect: Qt.rect(0, 0, applicationWindow().width, webHeight)
+                            visible: false
 
                             transform: Scale {yScale: webHeight / (applicationWindow().width * ((itemHeight - Kirigami.Units.gridUnit * 1.5) / itemWidth))}
 
@@ -337,9 +346,15 @@ Kirigami.Page {
                             Component.onCompleted: {
                                 sourceItem.readyForSnapshot = true;
                                 scheduleUpdate();
+                                shaderItem.grabToImage(function(result) {
+                                    tabImage.source = result.url
+                                    convertedImage.visible = true;
+                                }, Qt.size(Math.round(applicationWindow().width / columns),
+                                           Math.round(webHeight / columns)));
                             }
+
                             onScheduledUpdateCompleted: {
-                                sourceItem.readyForSnapshot = false
+                                sourceItem.readyForSnapshot = false;
                             }
                         }
                     }
@@ -348,4 +363,3 @@ Kirigami.Page {
         }
     }
 }
-
