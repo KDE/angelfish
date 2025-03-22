@@ -346,7 +346,7 @@ Kirigami.Page {
                             Component.onCompleted: {
                                 sourceItem.readyForSnapshot = true;
                                 scheduleUpdate();
-                                shaderItem.grabToImage(function(result) {tabImage.source = result.url; convertedImage.visible = true;}, Qt.size(applicationWindow().width / 2, webHeight / 2));
+                                shaderItem.grabToImage(function(result) {tabImage.source = result.url; convertedImage.visible = true;}, Qt.size(Math.round(applicationWindow().width / columns), Math.round(webHeight / columns)));
                             }
 
                             onScheduledUpdateCompleted: {
