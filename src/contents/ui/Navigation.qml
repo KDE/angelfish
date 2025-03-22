@@ -310,8 +310,6 @@ Item {
                         visible: icon.name
                         height: parent.height
                         width: visible ? Math.round(buttonSize * 0.5) : 0
-                        icon.height: 16
-                        icon.width: 16
                         Kirigami.Theme.inherit: true
                         enabled: dismissValue == 0
                         onClicked: activateUrlEntry()
