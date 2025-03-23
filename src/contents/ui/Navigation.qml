@@ -8,7 +8,7 @@ import QtQuick.Layouts 1.0
 import QtWebEngine 1.4
 import QtQuick.Controls 2.0 as Controls
 
-import org.kde.kirigami 2.5 as Kirigami
+import org.kde.kirigami as Kirigami
 import org.kde.angelfish 1.0
 
 Item {
@@ -31,9 +31,11 @@ Item {
     property int buttonSize: Kirigami.Units.gridUnit * 2
     property int gestureThreshold: expandedHeight * 2
     
-    property var tabsSheet
+    required property var tabsSheet
+    required property HistorySheet historySheet
     
-    signal activateUrlEntry;
+    signal activateUrlEntry
+    signal openNewTab
 
     Rectangle { anchors.fill: parent; color: Kirigami.Theme.backgroundColor; }
     
@@ -95,16 +97,16 @@ Item {
         running: !tabDragHandler.active && dismissValue == 0
         duration: Kirigami.Units.longDuration
         easing.type: Easing.InOutQuad
-        to: expandedHeight
+        to: navigation.expandedHeight
     }
     
     Item {
         id: navContainer
         width: navigation.width
         height: navigation.height
-        y: Math.max(Math.round((navigation.height - expandedHeight) / 10), 0)
+        y: Math.max(Math.round((navigation.height - navigation.expandedHeight) / 10), 0)
         
-        opacity: 1 - (Math.abs(navContainer.x) / (gestureThreshold * 2))
+        opacity: 1 - (Math.abs(navContainer.x) / (navigation.gestureThreshold * 2))
 
         // left/right gestures
         HapticsEffectLoader {
@@ -113,7 +115,7 @@ Item {
 
         MouseArea {
             anchors.fill: parent
-            enabled: dismissValue != 0
+            enabled: navigation.dismissValue != 0
             onClicked: {
                 rootPage.navigationAutoShow = true;
                 rootPage.navigationAutoShowLock = false;
@@ -125,28 +127,28 @@ Item {
             target: parent
             yAxis.enabled: false
             xAxis.enabled: true
-            enabled: !tabsSheet.showTabs && dismissValue == 0
-            xAxis.minimum: currentWebView.canGoForward ? -gestureThreshold : 0
-            xAxis.maximum: currentWebView.canGoBack ? gestureThreshold : 0
+            enabled: !navigation.tabsSheet.showTabs && navigation.dismissValue == 0
+            xAxis.minimum: currentWebView.canGoForward ? -navigation.gestureThreshold : 0
+            xAxis.maximum: currentWebView.canGoBack ? navigation.gestureThreshold : 0
             onActiveChanged: {
                 xAnimator.restart(); // go back to center
 
-                if (parent.x >= gestureThreshold && currentWebView.canGoBack) {
+                if (parent.x >= navigation.gestureThreshold && currentWebView.canGoBack) {
                     currentWebView.goBack()
-                } else if (parent.x <= -gestureThreshold && currentWebView.canGoForward) {
+                } else if (parent.x <= -navigation.gestureThreshold && currentWebView.canGoForward) {
                     currentWebView.goForward()
                 }
             }
         }
         NumberAnimation on x {
             id: xAnimator
-            running: !dragHandler.active && dismissValue == 0
+            running: !dragHandler.active && navigation.dismissValue == 0
             duration: Kirigami.Units.longDuration
             easing.type: Easing.InOutQuad
             to: 0
         }
         onXChanged: {
-            if ((x >= gestureThreshold && currentWebView.canGoBack) || (x <= -gestureThreshold && currentWebView.canGoForward)) {
+            if ((x >= navigation.gestureThreshold && currentWebView.canGoBack) || (x <= -gestureThreshold && currentWebView.canGoForward)) {
                 vibrate.start();
             }
         }
@@ -176,7 +178,7 @@ Item {
             anchors.right: parent.right
 
 
-            visible: !tabsSheet.showTabs
+            visible: !navigation.tabsSheet.showTabs
 
             spacing: Kirigami.Units.smallSpacing
             Kirigami.Theme.inherit: true
@@ -185,23 +187,23 @@ Item {
                 id: mainMenuButton
                 icon.name: rootPage.privateMode ? "view-private" : "application-menu"
                 visible: webBrowser.landscape || Settings.navBarMainMenu
-                opacity: dismissOpacity
+                opacity: navigation.dismissOpacity
 
-                Layout.preferredWidth: buttonSize
-                Layout.preferredHeight: buttonSize
+                Layout.preferredWidth: navigation.buttonSize
+                Layout.preferredHeight: navigation.buttonSize
 
                 Kirigami.Theme.inherit: true
 
-                enabled: dismissValue == 0
+                enabled: navigation.dismissValue == 0
                 onClicked: globalDrawer.open()
             }
 
             Controls.ToolButton {
                 id: tabButton
                 visible: webBrowser.landscape || Settings.navBarTabs
-                opacity: dismissOpacity
-                Layout.preferredWidth: buttonSize
-                Layout.preferredHeight: buttonSize
+                opacity: navigation.dismissOpacity
+                Layout.preferredWidth: navigation.buttonSize
+                Layout.preferredHeight: navigation.buttonSize
 
                 Rectangle {
                     anchors.centerIn: parent
@@ -230,63 +232,68 @@ Item {
                     }
                 }
 
-                enabled: dismissValue == 0
-                onClicked: tabsSheet.toggle()
+                enabled: navigation.dismissValue == 0
+                onClicked: navigation.tabsSheet.toggle()
             }
 
             Controls.ToolButton {
                 id: backButton
 
-                Layout.preferredWidth: buttonSize
-                Layout.preferredHeight: buttonSize
+                Layout.preferredWidth: navigation.buttonSize
+                Layout.preferredHeight: navigation.buttonSize
 
                 visible: currentWebView.canGoBack && Settings.navBarBack
-                opacity: dismissOpacity
+                opacity: navigation.dismissOpacity
                 icon.name: "go-previous"
 
                 Kirigami.Theme.inherit: true
 
-                enabled: dismissValue == 0
+                enabled: navigation.dismissValue == 0
                 onClicked: currentWebView.goBack()
                 onPressAndHold: {
-                    historySheet.backHistory = true;
-
-                    historySheet.open();
+                    navigation.historySheet.backHistory = true;
+                    navigation.historySheet.open();
                 }
             }
 
             Controls.ToolButton {
                 id: forwardButton
 
-                Layout.preferredWidth: buttonSize
-                Layout.preferredHeight: buttonSize
+                Layout.preferredWidth: navigation.buttonSize
+                Layout.preferredHeight: navigation.buttonSize
 
                 visible: currentWebView.canGoForward && Settings.navBarForward
-                opacity: dismissOpacity
+                opacity: navigation.dismissOpacity
                 icon.name: "go-next"
 
                 Kirigami.Theme.inherit: true
 
-                enabled: dismissValue == 0
+                enabled: navigation.dismissValue == 0
                 onClicked: currentWebView.goForward()
                 onPressAndHold: {
-                    historySheet.backHistory = false;
-                    historySheet.open();
+                    navigation.historySheet.backHistory = false;
+                    navigation.historySheet.open();
                 }
             }
 
             Controls.ToolButton {
                 id: labelItem
                 Layout.fillWidth: true
-                Layout.preferredHeight: buttonSize
+                Layout.preferredHeight: navigation.buttonSize
 
                 Layout.leftMargin: {
-                    let leftCenterMargin = ((mainMenuButton.visible + buttonSize) + (tabButton.visible * buttonSize) + (backButton.visible * buttonSize) + (forwardButton.visible * buttonSize) - buttonSize / 2) // Value need to center the url on the left
-                    return Math.round(-leftCenterMargin * dismissValue)
+                    let leftCenterMargin = ((mainMenuButton.visible + navigation.buttonSize)
+                                            + (tabButton.visible * navigation.buttonSize)
+                                            + (backButton.visible * navigation.buttonSize)
+                                            + (forwardButton.visible * navigation.buttonSize)
+                                            - navigation.buttonSize / 2) // Value need to center the url on the left
+                    return Math.round(-leftCenterMargin * navigation.dismissValue)
                 }
                 Layout.rightMargin: {
-                    let rightCenterMargin = ((reloadButton.visible * buttonSize) + (optionsButton.visible * buttonSize) - buttonSize / 2) // Value need to center the url on the right
-                    return Math.round(-rightCenterMargin * dismissValue)
+                    let rightCenterMargin = ((reloadButton.visible * navigation.buttonSize)
+                                             + (optionsButton.visible * navigation.buttonSize)
+                                             - navigation.buttonSize / 2) // Value need to center the url on the right
+                    return Math.round(-rightCenterMargin * navigation.dismissValue)
                 }
 
                 property string scheme: UrlUtils.urlScheme(currentWebView.requestedUrl)
@@ -309,12 +316,12 @@ Item {
                         }
                         visible: icon.name
                         height: parent.height
-                        width: visible ? Math.round(buttonSize * 0.5) : 0
+                        width: visible ? Math.round(navigation.buttonSize * 0.5) : 0
                         icon.height: 16
                         icon.width: 16
                         Kirigami.Theme.inherit: true
-                        enabled: dismissValue == 0
-                        onClicked: activateUrlEntry()
+                        enabled: navigation.dismissValue == 0
+                        onClicked: navigation.activateUrlEntry()
                     }
 
 
@@ -343,23 +350,23 @@ Item {
                 }
 
 
-                enabled: dismissValue == 0
-                onClicked: activateUrlEntry()
+                enabled: navigation.dismissValue == 0
+                onClicked: navigation.activateUrlEntry()
             }
 
             Controls.ToolButton {
                 id: reloadButton
 
-                Layout.preferredWidth: buttonSize
-                Layout.preferredHeight: buttonSize
+                Layout.preferredWidth: navigation.buttonSize
+                Layout.preferredHeight: navigation.buttonSize
 
                 visible: Settings.navBarReload
-                opacity: dismissOpacity
+                opacity: navigation.dismissOpacity
                 icon.name: currentWebView.loading ? "process-stop" : "view-refresh"
 
                 Kirigami.Theme.inherit: true
 
-                enabled: dismissValue == 0
+                enabled: navigation.dismissValue == 0
                 onClicked: currentWebView.loading ? currentWebView.stopLoading() : currentWebView.reload()
 
             }
@@ -370,16 +377,16 @@ Item {
                 property string targetState: "overview"
 
                 Layout.fillWidth: false
-                Layout.preferredWidth: buttonSize
-                Layout.preferredHeight: buttonSize
+                Layout.preferredWidth: navigation.buttonSize
+                Layout.preferredHeight: navigation.buttonSize
 
                 visible: webBrowser.landscape || Settings.navBarContextMenu
-                opacity: dismissOpacity
+                opacity: navigation.dismissOpacity
                 icon.name: "overflow-menu"
 
                 Kirigami.Theme.inherit: true
 
-                enabled: dismissValue == 0
+                enabled: navigation.dismissValue == 0
                 onClicked: contextDrawer.open()
             }
         }
@@ -390,14 +397,14 @@ Item {
             anchors.leftMargin: Kirigami.Units.gridUnit / 2
             anchors.rightMargin: Kirigami.Units.gridUnit / 2
 
-            visible: tabsSheet.showTabs
+            visible: navigation.tabsSheet.showTabs
 
             spacing: Kirigami.Units.smallSpacing
             Kirigami.Theme.inherit: true
 
             Controls.ToolButton {
-                Layout.preferredWidth: buttonSize * 3
-                Layout.preferredHeight: buttonSize
+                Layout.preferredWidth: navigation.buttonSize * 3
+                Layout.preferredHeight: navigation.buttonSize
 
                 Controls.Label {
                     anchors.centerIn: parent
@@ -413,7 +420,7 @@ Item {
                     Kirigami.Theme.inherit: true
                 }
 
-                onClicked: tabsSheet.toggle()
+                onClicked: navigation.tabsSheet.toggle()
             }
 
             Controls.Label {
@@ -430,8 +437,8 @@ Item {
                 id: newTab
 
                 Layout.fillWidth: false
-                Layout.preferredWidth: buttonSize * 3
-                Layout.preferredHeight:  buttonSize
+                Layout.preferredWidth: navigation.buttonSize * 3
+                Layout.preferredHeight:  navigation.buttonSize
 
                 icon.name: "list-add"
                 text: i18nc("@action:inmenu", "New Tab")
@@ -439,10 +446,9 @@ Item {
                 Kirigami.Theme.inherit: true
 
                 onClicked: {
-                    tabs.tabsModel.newTab("about:blank")
-                    tabs.tabsModel.setLatestTab()
-                    urlEntry.open();
-                    tabsSheet.toggle()
+                    navigation.openNewTab()
+                    navigation.activateUrlEntry()
+                    navigation.tabsSheet.toggle()
                 }
             }
         }

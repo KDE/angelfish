@@ -452,6 +452,7 @@ Kirigami.ApplicationWindow {
             visible: webBrowser.visibility !== Window.FullScreen && !findInPage.active
 
             tabsSheet: tabsSheetLoader
+            historySheet: historySheet
 
             Kirigami.Theme.inherit: false
             Kirigami.Theme.colorSet: rootPage.privateMode ? Kirigami.Theme.Complementary : Kirigami.Theme.Window
@@ -466,6 +467,10 @@ Kirigami.ApplicationWindow {
             }
 
             onActivateUrlEntry: urlEntry.open()
+            onOpenNewTab: {
+                webBrowser.tabs.tabsModel.newTab("about:blank")
+                webBrowser.tabs.tabsModel.setLatestTab()
+            }
         }
 
         NavigationEntrySheet {
