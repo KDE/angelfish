@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-08 00:43+0000\n"
+"POT-Creation-Date: 2025-03-23 00:41+0000\n"
 "PO-Revision-Date: 2025-03-08 14:01+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -537,7 +537,7 @@ msgid "Search or enter URL…"
 msgstr "חיפוש או מילוי כתובת…"
 
 #: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:355
-#: src/contents/ui/Navigation.qml:437
+#: src/contents/ui/Navigation.qml:444
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
@@ -825,13 +825,13 @@ msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "הסתרת סרגל ניווט"
 
-#: src/contents/ui/Navigation.qml:410
+#: src/contents/ui/Navigation.qml:417
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr "בוצע"
 
-#: src/contents/ui/Navigation.qml:423
+#: src/contents/ui/Navigation.qml:430
 #, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"

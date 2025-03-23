@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-08 00:43+0000\n"
-"PO-Revision-Date: 2025-01-24 22:55+0100\n"
+"POT-Creation-Date: 2025-03-23 00:41+0000\n"
+"PO-Revision-Date: 2025-03-22 15:06+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.12.1\n"
+"X-Generator: Lokalize 24.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -84,11 +84,10 @@ msgid "Password:"
 msgstr "Pasahitza:"
 
 #: lib/contents/ui/DownloadQuestion.qml:16
-#, fuzzy, kde-format
-#| msgid "Do you want to download this file?"
+#, kde-format
 msgctxt "Would you like to download (filename) from (domain)?"
 msgid "Would you like to download %1 from %2?"
-msgstr "Fitxategi hau zama-jaitsi nahi duzu?"
+msgstr "%2(e)tik %1 zama-jaitsi nahi duzu?"
 
 #: lib/contents/ui/DownloadQuestion.qml:25
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
@@ -547,7 +546,7 @@ msgid "Search or enter URL…"
 msgstr "Bilatu edo sartu URLa..."
 
 #: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:355
-#: src/contents/ui/Navigation.qml:437
+#: src/contents/ui/Navigation.qml:444
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
@@ -835,13 +834,13 @@ msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "Ezkutatu nabigatzeko barra"
 
-#: src/contents/ui/Navigation.qml:410
+#: src/contents/ui/Navigation.qml:417
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr "Eginda"
 
-#: src/contents/ui/Navigation.qml:423
+#: src/contents/ui/Navigation.qml:430
 #, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"

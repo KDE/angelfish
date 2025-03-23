@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-08 00:43+0000\n"
+"POT-Creation-Date: 2025-03-23 00:41+0000\n"
 "PO-Revision-Date: 2025-03-19 13:15+0300\n"
 "Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
 "Language-Team: Basealt Translation Team\n"
@@ -541,7 +541,7 @@ msgid "Search or enter URL…"
 msgstr "Выполнить поиск или ввести URL-адрес…"
 
 #: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:355
-#: src/contents/ui/Navigation.qml:437
+#: src/contents/ui/Navigation.qml:444
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
@@ -829,13 +829,13 @@ msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "Скрыть панель навигации"
 
-#: src/contents/ui/Navigation.qml:410
+#: src/contents/ui/Navigation.qml:417
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr "Готово"
 
-#: src/contents/ui/Navigation.qml:423
+#: src/contents/ui/Navigation.qml:430
 #, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-08 00:43+0000\n"
+"POT-Creation-Date: 2025-03-23 00:41+0000\n"
 "PO-Revision-Date: 2025-03-19 13:25+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.gal>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
@@ -546,7 +546,7 @@ msgid "Search or enter URL…"
 msgstr "Busque ou escriba un URL…"
 
 #: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:355
-#: src/contents/ui/Navigation.qml:437
+#: src/contents/ui/Navigation.qml:444
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
@@ -834,13 +834,13 @@ msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "Agochar a barra de navegación"
 
-#: src/contents/ui/Navigation.qml:410
+#: src/contents/ui/Navigation.qml:417
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr "Feito"
 
-#: src/contents/ui/Navigation.qml:423
+#: src/contents/ui/Navigation.qml:430
 #, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"
