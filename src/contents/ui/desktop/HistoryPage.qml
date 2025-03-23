@@ -9,7 +9,8 @@ import QtQuick.Window
 import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.delegates as Delegates
 
-import org.kde.angelfish 1.0
+import org.kde.angelfish
+import org.kde.angelfish.core as Core
 
 Kirigami.ScrollablePage {
     globalToolBarStyle: Kirigami.ApplicationHeaderStyle.None
@@ -57,7 +58,7 @@ Kirigami.ScrollablePage {
 
         currentIndex: -1
 
-        model: BookmarksHistoryModel {
+        model: Core.BookmarksHistoryModel {
             history: true
             bookmarks: false
         }

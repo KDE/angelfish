@@ -10,6 +10,7 @@ import QtWebEngine 1.10
 import org.kde.kirigami 2.19 as Kirigami
 
 import org.kde.angelfish 1.0
+import org.kde.angelfish.core as Core
 
 Repeater {
     id: tabs
@@ -24,7 +25,7 @@ Repeater {
 
     property int bottomOffset: 0
 
-    property WebEngineProfile profile: AngelfishWebProfile {
+    property WebEngineProfile profile: Core.AngelfishWebProfile {
         httpUserAgent: tabs.currentItem.userAgent.userAgent
         offTheRecord: tabs.privateTabsMode
         storageName: tabs.privateTabsMode ? "Private" : Settings.profile
@@ -33,7 +34,7 @@ Repeater {
         urlInterceptor: typeof AdblockUrlInterceptor !== "undefined" && AdblockUrlInterceptor
     }
 
-    model: TabsModel {
+    model: Core.TabsModel {
         id: tabsModel
         isMobileDefault: Kirigami.Settings.isMobile
         privateMode: privateTabsMode

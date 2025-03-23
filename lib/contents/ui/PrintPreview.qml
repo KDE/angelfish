@@ -2,15 +2,16 @@
 //
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-import QtQuick 2.15
-import QtQuick.Controls 2.15 as QQC2
-import QtQuick.Layouts 1.15
-import QtWebEngine 1.10
+import QtQuick
+import QtQuick.Controls as QQC2
+import QtQuick.Layouts
+import QtWebEngine
 
-import org.kde.kirigami 2.19 as Kirigami
-import org.kde.kirigamiaddons.formcard 1.0 as FormCard
+import org.kde.kirigami as Kirigami
+import org.kde.kirigamiaddons.formcard as FormCard
 
-import org.kde.angelfish 1.0
+import org.kde.angelfish
+import org.kde.angelfish.core as Core
 
 Kirigami.OverlaySheet {
     id: printPreview
@@ -167,7 +168,7 @@ Kirigami.OverlaySheet {
                     QQC2.Button {
                         text: i18nc("@action:button", "Save")
                         onClicked: {
-                            const filePath = BrowserManager.downloadDirectory() + "/" + webEngineView.title + ".pdf";
+                            const filePath = Core.BrowserManager.downloadDirectory() + "/" + webEngineView.title + ".pdf";
                             webEnginePreview.printToPdf(filePath, webEnginePreview.printedPageSizeId, webEnginePreview.printedPageOrientation);
                         }
                     }

@@ -7,6 +7,8 @@
 #define URLUTILS_H
 
 #include <QObject>
+#include <QtQml/qqmlregistration.h>
+
 
 /**
  * @class UrlUtils
@@ -15,6 +17,8 @@
 class UrlUtils : public QObject
 {
     Q_OBJECT
+    QML_ELEMENT
+    QML_SINGLETON
 
 public:
     UrlUtils(QObject *parent = nullptr);

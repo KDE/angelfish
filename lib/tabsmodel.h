@@ -9,6 +9,7 @@
 
 #include <QAbstractListModel>
 #include <QUrl>
+#include <QtQml/qqmlregistration.h>
 
 class QJsonObject;
 
@@ -45,6 +46,8 @@ class TabsModel : public QAbstractListModel
     Q_PROPERTY(int currentTab READ currentTab WRITE setCurrentTab NOTIFY currentTabChanged)
     Q_PROPERTY(bool isMobileDefault READ isMobileDefault WRITE setIsMobileDefault NOTIFY isMobileDefaultChanged)
     Q_PROPERTY(bool privateMode READ privateMode WRITE setPrivateMode NOTIFY privateModeChanged REQUIRED)
+
+    QML_ELEMENT
 
     enum RoleNames { UrlRole = Qt::UserRole + 1, IsMobileRole, IsDeveloperToolsOpen };
 

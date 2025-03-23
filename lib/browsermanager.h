@@ -7,6 +7,8 @@
 
 #include <QObject>
 #include <QUrl>
+#include <QJSEngine>
+#include <QtQml/qqmlregistration.h>
 
 #include "dbmanager.h"
 
@@ -24,8 +26,16 @@ class BrowserManager : public QObject
 
     Q_PROPERTY(QUrl initialUrl READ initialUrl WRITE setInitialUrl NOTIFY initialUrlChanged)
 
+    QML_ELEMENT
+    QML_SINGLETON
+
 public:
     static BrowserManager *instance();
+
+    static BrowserManager *create(QQmlEngine *, QJSEngine *)
+    {
+        return BrowserManager::instance();
+    }
 
     QUrl initialUrl() const;
     void setInitialUrl(const QUrl &initialUrl);

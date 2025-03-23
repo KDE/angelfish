@@ -3,10 +3,11 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 import QtQuick
-import QtQuick.Layouts 1.0
+import QtQuick.Layouts
 
-import org.kde.kirigami 2.8 as Kirigami
-import org.kde.angelfish 1.0
+import org.kde.kirigami as Kirigami
+import org.kde.angelfish
+import org.kde.angelfish.core as Core
 
 Kirigami.ScrollablePage {
     title: i18nc("@title:window", "Bookmarks")
@@ -62,7 +63,7 @@ Kirigami.ScrollablePage {
                 currentWebView.url = model.url;
                 pageStack.pop();
             }
-            onRemoved: BrowserManager.removeBookmark(model.url);
+            onRemoved: Core.BrowserManager.removeBookmark(model.url);
         }
     }
 
@@ -73,7 +74,7 @@ Kirigami.ScrollablePage {
         interactive: height < contentHeight
         clip: true
 
-        model: BookmarksHistoryModel {
+        model: Core.BookmarksHistoryModel {
             bookmarks: true
         }
 

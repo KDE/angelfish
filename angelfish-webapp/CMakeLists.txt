@@ -23,6 +23,7 @@ target_link_libraries(angelfish-webapp PRIVATE
     KF${QT_MAJOR_VERSION}::I18n
     KF${QT_MAJOR_VERSION}::CoreAddons
     AngelfishCore
+    AngelfishCoreplugin
 )
 
 if(QT_MAJOR_VERSION STREQUAL "6")

@@ -64,6 +64,7 @@ target_link_libraries(angelfish PRIVATE
     KF6::WindowSystem
     QCoro6::Qml
     AngelfishCore
+    AngelfishCoreplugin
     angelfish_settingsplugin
 )
 

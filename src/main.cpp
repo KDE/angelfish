@@ -21,25 +21,20 @@
 #include <KWindowSystem>
 
 #include <csignal>
-#include <ranges>
 
 #include "adblockfilterlistsmanager.h"
 #include "adblockfilterlistsmodel.h"
 #include "adblockurlinterceptor.h"
 #include "angelfishsettings.h"
 #include "angelfishwebprofile.h"
-#include "bookmarkshistorymodel.h"
 #include "browsermanager.h"
 #include "domdistiller.h"
-#include "downloadsmodel.h"
-#include "iconimageprovider.h"
-#include "tabsmodel.h"
-#include "urlobserver.h"
-#include "urlutils.h"
-#include "useragent.h"
 #include "version.h"
 #include "webappcreator.h"
 #include "webappmanagermodel.h"
+#include "iconimageprovider.h"
+#include "tabsmodel.h"
+#include "downloadsmodel.h"
 
 namespace ranges = std::ranges;
 
@@ -137,14 +132,9 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     }
 
     // Exported types
-    qmlRegisterType<BookmarksHistoryModel>(APPLICATION_ID, 1, 0, "BookmarksHistoryModel");
-    qmlRegisterType<UrlObserver>(APPLICATION_ID, 1, 0, "UrlObserver");
-    qmlRegisterType<UserAgent>(APPLICATION_ID, 1, 0, "UserAgentGenerator");
-    qmlRegisterType<TabsModel>(APPLICATION_ID, 1, 0, "TabsModel");
-    qmlRegisterType<AngelfishWebProfile>(APPLICATION_ID, 1, 0, "AngelfishWebProfile");
+    qmlRegisterType<DownloadsModel>(APPLICATION_ID, 1, 0, "DownloadsModel");
     qmlRegisterSingletonInstance<AngelfishSettings>(APPLICATION_ID, 1, 0, "Settings", AngelfishSettings::self());
     qmlRegisterType<AdblockFilterListsModel>(APPLICATION_ID, 1, 0, "AdblockFilterListsModel");
-    qmlRegisterType<DownloadsModel>(APPLICATION_ID, 1, 0, "DownloadsModel");
     qmlRegisterType<WebAppManagerModel>(APPLICATION_ID, 1, 0, "WebAppManagerModel");
     qmlRegisterType<WebAppCreator>(APPLICATION_ID, 1, 0, "WebAppCreator");
     qmlRegisterAnonymousType<QWebEngineUrlRequestInterceptor>(APPLICATION_ID, 1);
@@ -153,18 +143,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     qmlRegisterSingletonType<DomDistiller>(APPLICATION_ID, 1, 0, "DomDistiller", [](QQmlEngine *, QJSEngine *) -> QObject * {
         return new DomDistiller();
     });
-
-    // URL utils
-    qmlRegisterSingletonType<UrlUtils>(APPLICATION_ID, 1, 0, "UrlUtils", [](QQmlEngine *, QJSEngine *) -> QObject * {
-        return new UrlUtils();
-    });
-
-    // Browser Manager
-    qmlRegisterSingletonType<BrowserManager>(APPLICATION_ID, 1, 0, "BrowserManager", [](QQmlEngine *, QJSEngine *) -> QObject * {
-        return BrowserManager::instance();
-    });
-
-    Q_INIT_RESOURCE(resources_angelfish_generated);
 
     QObject::connect(QApplication::instance(), &QCoreApplication::aboutToQuit, QApplication::instance(), [] {
         AngelfishSettings::self()->save();

@@ -9,6 +9,7 @@
 #include <QObject>
 #include <QString>
 #include <QSqlDatabase>
+#include <QtQml/qqmlregistration.h>
 
 #include <ThreadedDatabase>
 
@@ -23,6 +24,8 @@ class QQmlEngine;
 class DBManager : public QObject
 {
     Q_OBJECT
+    QML_ELEMENT
+
 public:
     explicit DBManager(QObject *parent = nullptr);
 

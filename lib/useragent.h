@@ -7,6 +7,7 @@
 #define USERAGENT_H
 
 #include <QObject>
+#include <QtQml/qqmlregistration.h>
 
 class QQuickWebEngineProfile;
 
@@ -16,6 +17,7 @@ class UserAgent : public QObject
     Q_PROPERTY(bool isMobile READ isMobile WRITE setIsMobile NOTIFY isMobileChanged)
 
     Q_OBJECT
+    QML_ELEMENT
 
 public:
     explicit UserAgent(QObject *parent = nullptr);

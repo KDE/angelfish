@@ -20,7 +20,6 @@
 #include <KLocalizedString>
 
 #include "angelfishsettings.h"
-#include "angelfishwebprofile.h"
 #include "bookmarkshistorymodel.h"
 #include "browsermanager.h"
 #include "iconimageprovider.h"
@@ -103,28 +102,10 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     KAboutData::setApplicationData(aboutData);
 
-    // Exported types
-    qmlRegisterType<BookmarksHistoryModel>(APPLICATION_ID, 1, 0, "BookmarksHistoryModel");
-    qmlRegisterType<UserAgent>(APPLICATION_ID, 1, 0, "UserAgentGenerator");
-    qmlRegisterType<TabsModel>(APPLICATION_ID, 1, 0, "TabsModel");
-    qmlRegisterType<AngelfishWebProfile>(APPLICATION_ID, 1, 0, "AngelfishWebProfile");
-
-    // URL utils
-    qmlRegisterSingletonType<UrlUtils>(APPLICATION_ID, 1, 0, "UrlUtils", [](QQmlEngine *, QJSEngine *) -> QObject * {
-        return new UrlUtils();
-    });
-
     BrowserManager::instance()->setInitialUrl(initialUrl);
-
-    // Browser Manager
-    qmlRegisterSingletonType<BrowserManager>(APPLICATION_ID, 1, 0, "BrowserManager", [](QQmlEngine *, QJSEngine *) -> QObject * {
-        return BrowserManager::instance();
-    });
 
     // Settings are read from WebView which we use as super class for WebAppView
     qmlRegisterSingletonInstance<AngelfishSettings>(APPLICATION_ID, 1, 0, "Settings", AngelfishSettings::self());
-
-    Q_INIT_RESOURCE(resources_angelfish_generated);
 
     // Load QML
     engine.load(QUrl(QStringLiteral("qrc:///webapp.qml")));

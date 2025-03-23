@@ -3,13 +3,14 @@
 //
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-import QtQuick 2.15
-import QtQuick.Layouts 1.0
-import QtWebEngine 1.4
-import QtQuick.Controls 2.0 as Controls
+import QtQuick
+import QtQuick.Layouts
+import QtWebEngine
+import QtQuick.Controls as Controls
 
 import org.kde.kirigami as Kirigami
-import org.kde.angelfish 1.0
+import org.kde.angelfish
+import org.kde.angelfish.core as Core
 
 Item {
     id: navigation
@@ -159,7 +160,7 @@ Item {
             id: labelTextWidth
             text:  {
                 if (labelItem.scheme === "http" || labelItem.scheme === "https") {
-                    return UrlUtils.htmlFormattedUrl(currentWebView.requestedUrl)
+                    return Core.UrlUtils.htmlFormattedUrl(currentWebView.requestedUrl)
                 }
                 return currentWebView.requestedUrl;
             }
@@ -296,7 +297,7 @@ Item {
                     return Math.round(-rightCenterMargin * navigation.dismissValue)
                 }
 
-                property string scheme: UrlUtils.urlScheme(currentWebView.requestedUrl)
+                property string scheme: Core.UrlUtils.urlScheme(currentWebView.requestedUrl)
 
                 Row {
                     id: urlBar
@@ -335,7 +336,7 @@ Item {
 
                         text:  {
                             if (labelItem.scheme === "http" || labelItem.scheme === "https") {
-                                return UrlUtils.htmlFormattedUrl(currentWebView.requestedUrl)
+                                return Core.UrlUtils.htmlFormattedUrl(currentWebView.requestedUrl)
                             }
                             return currentWebView.requestedUrl;
                         }

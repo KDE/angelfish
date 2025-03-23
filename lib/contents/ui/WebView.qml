@@ -10,6 +10,7 @@ import QtWebEngine
 import org.kde.kirigami 2.19 as Kirigami
 
 import org.kde.angelfish 1.0
+import org.kde.angelfish.core as Core
 
 WebEngineView {
     id: webEngineView
@@ -104,7 +105,7 @@ WebEngineView {
         }
     }
 
-    UserAgentGenerator {
+    Core.UserAgent {
         id: userAgent
         onUserAgentChanged: webEngineView.reload()
     }
@@ -159,8 +160,8 @@ WebEngineView {
                     icon: currentWebView.icon
                 }
 
-                BrowserManager.addToHistory(request);
-                BrowserManager.updateLastVisited(currentWebView.url);
+                Core.BrowserManager.addToHistory(request);
+                Core.BrowserManager.updateLastVisited(currentWebView.url);
             }
 
             if (typeof AdblockUrlInterceptor !== "undefined" && AdblockUrlInterceptor.adblockSupported) {
@@ -197,11 +198,11 @@ classes
                         }
                     })
                 })
-            }
 
-            let script = AdblockUrlInterceptor.getInjectedScript(webEngineView.url)
-            if (script !== "") {
-                webEngineView.runJavaScript(script)
+                let script = AdblockUrlInterceptor.getInjectedScript(webEngineView.url)
+                if (script !== "") {
+                    webEngineView.runJavaScript(script)
+                }
             }
 
             ec = null;
@@ -234,7 +235,7 @@ classes
 
     onIconChanged: {
         if (icon && !privateMode) {
-            BrowserManager.updateIcon(url, icon)
+            Core.BrowserManager.updateIcon(url, icon)
         }
     }
     onNewWindowRequested: request => {
@@ -335,7 +336,7 @@ classes
     onPrintRequested: {
         printPreviewUrl = "";
         generatingPdf = true;
-        const filePath = BrowserManager.tempDirectory() + "/print-preview.pdf";
+        const filePath = Core.BrowserManager.tempDirectory() + "/print-preview.pdf";
         printToPdf(filePath, printedPageSizeId, printedPageOrientation);
 
         if (!printPreview.sheetOpen) {
@@ -536,7 +537,7 @@ classes
                     url: contextMenu.request.linkUrl,
                     title: contextMenu.request.linkText
                 }
-                BrowserManager.addBookmark(bookmark)
+                Core.BrowserManager.addBookmark(bookmark)
             }
         }
         QQC2.MenuItem {

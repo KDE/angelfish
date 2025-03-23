@@ -9,6 +9,7 @@
 #include <QQuickWebEngineProfile>
 #include <QWebEngineDownloadRequest>
 #include <QWebEngineUrlRequestInterceptor>
+#include <QtQml/qqmlregistration.h>
 
 using DownloadItem = QWebEngineDownloadRequest;
 
@@ -22,6 +23,8 @@ class AngelfishWebProfile : public QQuickWebEngineProfile
 
     Q_PROPERTY(QQuickItem *questionLoader MEMBER m_questionLoader NOTIFY questionLoaderChanged)
     Q_PROPERTY(QWebEngineUrlRequestInterceptor *urlInterceptor WRITE setUrlInterceptor READ urlInterceptor NOTIFY urlInterceptorChanged)
+
+    QML_ELEMENT
 
 public:
     explicit AngelfishWebProfile(QObject *parent = nullptr);

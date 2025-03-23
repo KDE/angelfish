@@ -1,3 +1,4 @@
+
 // SPDX-FileCopyrightText: 2021 Felipe Kinoshita <kinofhek@gmail.com>
 //
 // SPDX-License-Identifier: LGPL-2.0-or-later
@@ -13,7 +14,8 @@ import org.kde.kirigamiaddons.delegates as Delegates
 
 import Qt5Compat.GraphicalEffects
 
-import org.kde.angelfish 1.0
+import org.kde.angelfish
+import org.kde.angelfish.core as Core
 import org.kde.angelfish.settings as AngelfishSettings
 import org.kde.kirigamiaddons.labs.components 1.0 as Addons
 import "regex-weburl.js" as RegexWebUrl
@@ -35,13 +37,13 @@ Kirigami.ApplicationWindow {
      * Browser-level functionality should use this to refer to the current
      * view, rather than looking up views in the mode, as far as possible.
      */
-    property WebView currentWebView: tabs.currentItem
+    property Core.WebView currentWebView: tabs.currentItem
 
     // Pointer to the currently active list of tabs.
     //
     // As there are private and normal tabs, switch between
     // them according to the current mode.
-    property ListWebView tabs: rootPage.privateMode ? privateTabs : regularTabs
+    property Core.ListWebView tabs: rootPage.privateMode ? privateTabs : regularTabs
 
     // Hides headers, toolbars and other controls when enabled
     property bool fullscreenMode: false
@@ -120,7 +122,7 @@ Kirigami.ApplicationWindow {
                 Layout.fillWidth: true
                 Layout.maximumWidth: 800
                 autoAccept: false
-                popup.width:width
+                popup.width: width
                 searchField.text: currentWebView.url
                 searchField.placeholderText: i18nc("@info:placeholder", "Search or enter URL…")
                 searchField.color: searchField.activeFocus ? Kirigami.Theme.textColor : Kirigami.Theme.disabledTextColor
@@ -169,9 +171,9 @@ Kirigami.ApplicationWindow {
                                     title: currentWebView.title,
                                     icon: currentWebView.icon
                                 }
-                                BrowserManager.addBookmark(request);
+                                Core.BrowserManager.addBookmark(request);
                             } else {
-                                BrowserManager.removeBookmark(currentWebView.url);
+                                Core.BrowserManager.removeBookmark(currentWebView.url);
                             }
                         }
                     }
@@ -193,16 +195,19 @@ Kirigami.ApplicationWindow {
                         Layout.fillWidth: true
                         Layout.fillHeight: true
 
+                        clip: true
+
+
                         QQC2.ScrollBar.horizontal.visible: false
 
                         ListView {
                             id: historyList
 
                             currentIndex: -1
-                            model: BookmarksHistoryModel {
+                            model: Core.BookmarksHistoryModel {
                                 history: true
                                 bookmarks: false
-                                active: navigationPopup.opened
+                                active: urlBar.popup.opened
                             }
 
                             delegate: Delegates.RoundedItemDelegate {
@@ -446,21 +451,21 @@ Kirigami.ApplicationWindow {
             source: Qt.resolvedUrl("DesktopTabs.qml")
         }
 
-        ListWebView {
+        Core.ListWebView {
             id: regularTabs
             objectName: "regularTabsObject"
             anchors.fill: parent
             activeTabs: rootPage.initialized && !rootPage.privateMode
         }
 
-        ListWebView {
+        Core.ListWebView {
             id: privateTabs
             anchors.fill: parent
             activeTabs: rootPage.initialized && rootPage.privateMode
             privateTabsMode: true
         }
 
-        ErrorHandler {
+        Core.ErrorHandler {
             id: errorHandler
 
             errorString: currentWebView.errorString
@@ -514,7 +519,7 @@ Kirigami.ApplicationWindow {
             anchors.right: parent.right
         }
 
-        Questions {
+        Core.Questions {
             id: questions
 
             anchors.top: parent.top
@@ -565,7 +570,7 @@ Kirigami.ApplicationWindow {
             }
         }
 
-        UrlObserver {
+        Core.UrlObserver {
             id: urlObserver
             url: currentWebView.url
         }

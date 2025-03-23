@@ -2,18 +2,19 @@
 //
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-import QtQuick 2.15
-import QtQuick.Controls 2.15 as QQC2
-import QtQuick.Layouts 1.15
+import QtQuick
+import QtQuick.Controls as QQC2
+import QtQuick.Layouts
 
-import org.kde.kirigami 2.19 as Kirigami
+import org.kde.kirigami as Kirigami
 
-import org.kde.angelfish 1.0
+import org.kde.angelfish
+import org.kde.angelfish.core as Core
 
-WebView {
+Core.WebView {
     id: webEngineView
 
-    profile: AngelfishWebProfile {
+    profile: Core.AngelfishWebProfile {
         httpUserAgent: userAgent.userAgent
         questionLoader: questionLoader
         offTheRecord: false
@@ -23,7 +24,7 @@ WebView {
     isAppView: true
 
     onNewWindowRequested: {
-        if (UrlUtils.urlHost(request.requestedUrl) === UrlUtils.urlHost( BrowserManager.initialUrl)) {
+        if (Core.UrlUtils.urlHost(request.requestedUrl) === Core.UrlUtils.urlHost(Core.BrowserManager.initialUrl)) {
             url = request.requestedUrl;
         } else {
             Qt.openUrlExternally(request.requestedUrl);

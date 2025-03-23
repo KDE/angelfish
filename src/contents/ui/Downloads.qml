@@ -10,7 +10,8 @@ import QtWebEngine
 
 import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.delegates as Delegates
-import org.kde.angelfish 1.0
+import org.kde.angelfish
+
 
 Kirigami.ScrollablePage {
     title: i18nc("@title:window", "Downloads")

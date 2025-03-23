@@ -6,6 +6,7 @@
 #define URLOBSERVER_H
 
 #include <QObject>
+#include <QtQml/qqmlregistration.h>
 
 #include <QCoro/QCoroTask>
 
@@ -15,6 +16,8 @@ class UrlObserver : public QObject
     Q_PROPERTY(bool bookmarked READ bookmarked NOTIFY bookmarkedChanged)
 
     Q_OBJECT
+    QML_ELEMENT
+
 public:
     explicit UrlObserver(QObject *parent = nullptr);
 

@@ -7,6 +7,8 @@
 #define BOOKMARKSHISTORYMODEL_H
 
 #include <QAbstractListModel>
+#include <QtQml/qqmlregistration.h>
+
 
 struct BookmarksHistoryRecord {
     using ColumnTypes = std::tuple<int, QString, QString, QString, int>;
@@ -38,6 +40,8 @@ class BookmarksHistoryModel : public QAbstractListModel
     // set to string to filter url or title by it. without filter set, only
     // bookmarks are shown
     Q_PROPERTY(QString filter READ filter WRITE setFilter NOTIFY filterChanged)
+
+    QML_ELEMENT
 
     enum Role {
         Id = Qt::UserRole + 1,

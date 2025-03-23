@@ -3,12 +3,13 @@
 //
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-import QtQuick 2.7
-import QtQuick.Controls 2.2 as Controls
-import QtQuick.Layouts 1.2
+import QtQuick
+import QtQuick.Controls as Controls
+import QtQuick.Layouts
 
-import org.kde.kirigami 2.5 as Kirigami
-import org.kde.angelfish 1.0
+import org.kde.kirigami as Kirigami
+import org.kde.angelfish
+import org.kde.angelfish.core as Core
 
 import "regex-weburl.js" as RegexWebUrl
 
@@ -81,9 +82,9 @@ Controls.Drawer {
 
                 function applyUrl() {
                     if (text.match(RegexWebUrl.re_weburl) || text.startsWith("chrome://")) {
-                        currentWebView.url = UrlUtils.urlFromUserInput(text);
+                        currentWebView.url = Core.UrlUtils.urlFromUserInput(text);
                     } else {
-                        currentWebView.url = UrlUtils.urlFromUserInput(Settings.searchBaseUrl + text);
+                        currentWebView.url = Core.UrlUtils.urlFromUserInput(Settings.searchBaseUrl + text);
                     }
                     overlay.close();
                 }
@@ -134,7 +135,7 @@ Controls.Drawer {
                 }
             }
 
-            model: BookmarksHistoryModel {
+            model: Core.BookmarksHistoryModel {
                 id: urlFilter
                 active: openedState
                 history: true

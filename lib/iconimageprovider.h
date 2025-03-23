@@ -14,6 +14,9 @@
 
 class IconImageProvider : public QCoro::ImageProvider
 {
+    Q_OBJECT
+    QML_ELEMENT
+
 public:
     IconImageProvider();
 

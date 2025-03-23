@@ -3,10 +3,11 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 import QtQuick
-import QtQuick.Layouts 1.0
+import QtQuick.Layouts
 
-import org.kde.kirigami 2.8 as Kirigami
+import org.kde.kirigami as Kirigami
 import org.kde.angelfish 1.0
+import org.kde.angelfish.core as Core
 
 Kirigami.ScrollablePage {
     title: i18nc("@title:window", "History")
@@ -17,7 +18,7 @@ Kirigami.ScrollablePage {
             text: "Clear"
             icon.name: "edit-clear-all"
 
-            onTriggered: BrowserManager.clearHistory()
+            onTriggered: Core.BrowserManager.clearHistory()
         }
     ]
 
@@ -72,7 +73,7 @@ Kirigami.ScrollablePage {
                 currentWebView.url = model.url;
                 pageStack.pop();
             }
-            onRemoved: BrowserManager.removeFromHistory(model.url);
+            onRemoved: Core.BrowserManager.removeFromHistory(model.url);
         }
     }
 
@@ -84,7 +85,7 @@ Kirigami.ScrollablePage {
         clip: true
 
         reuseItems: true
-        model: BookmarksHistoryModel {
+        model: Core.BookmarksHistoryModel {
             history: true
         }
 

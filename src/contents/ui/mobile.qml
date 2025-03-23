@@ -13,6 +13,7 @@ import QtWebEngine
 import org.kde.kirigami as Kirigami
 
 import org.kde.angelfish 1.0
+import org.kde.angelfish.core as Core
 import org.kde.angelfish.settings
 
 Kirigami.ApplicationWindow {
@@ -24,13 +25,13 @@ Kirigami.ApplicationWindow {
      * Browser-level functionality should use this to refer to the current
      * view, rather than looking up views in the mode, as far as possible.
      */
-    property WebView currentWebView: tabs.currentItem
+    property Core.WebView currentWebView: tabs.currentItem
 
     // Pointer to the currently active list of tabs.
     //
     // As there are private and normal tabs, switch between
     // them according to the current mode.
-    property ListWebView tabs: rootPage.privateMode ? privateTabs : regularTabs
+    property Core.ListWebView tabs: rootPage.privateMode ? privateTabs : regularTabs
 
     // Used to determine if the window is in landscape mode
     property bool landscape: width > height
@@ -153,7 +154,7 @@ Kirigami.ApplicationWindow {
         property alias questionLoader: questionLoader
         property alias questions: questions
 
-        ListWebView {
+        Core.ListWebView {
             id: regularTabs
             objectName: "regularTabsObject"
             anchors.fill: parent
@@ -161,7 +162,7 @@ Kirigami.ApplicationWindow {
             bottomOffset: navigation.visible ? navigation.dismissHeight : 0
         }
 
-        ListWebView {
+        Core.ListWebView {
             id: privateTabs
             anchors.fill: parent
             activeTabs: rootPage.initialized && rootPage.privateMode
@@ -180,7 +181,7 @@ Kirigami.ApplicationWindow {
             interactive: false
         }
 
-        ErrorHandler {
+        Core.ErrorHandler {
             id: errorHandler
 
             errorString: currentWebView.errorString
@@ -223,7 +224,7 @@ Kirigami.ApplicationWindow {
             anchors.right: parent.right
         }
 
-        Questions {
+        Core.Questions {
             id: questions
 
             anchors.bottom: navigation.top
@@ -273,7 +274,7 @@ Kirigami.ApplicationWindow {
             }
         }
 
-        UrlObserver {
+        Core.UrlObserver {
             id: urlObserver
             url: currentWebView.url
         }
@@ -355,9 +356,9 @@ Kirigami.ApplicationWindow {
                             title: currentWebView.title,
                             icon: currentWebView.icon
                         }
-                        BrowserManager.addBookmark(request);
+                        Core.BrowserManager.addBookmark(request);
                     } else {
-                        BrowserManager.removeBookmark(currentWebView.url);
+                        Core.BrowserManager.removeBookmark(currentWebView.url);
                     }
                 }
             },

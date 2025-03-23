@@ -2,15 +2,15 @@
 //
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-import QtQuick 2.1
-import QtQuick.Window 2.3
-import QtQuick.Layouts 1.2
+import QtQuick
+import QtQuick.Window
+import QtQuick.Layouts
 import Qt5Compat.GraphicalEffects
-import Qt.labs.settings 1.0 as QtSettings
 import QtWebEngine
 
-import org.kde.kirigami 2.7 as Kirigami
-import org.kde.angelfish 1.0
+import org.kde.kirigami as Kirigami
+import org.kde.angelfish
+import org.kde.angelfish.core as Core
 
 Kirigami.ApplicationWindow {
     id: webBrowser
@@ -39,9 +39,9 @@ Kirigami.ApplicationWindow {
             // ID for compatibility with angelfish components
             id: currentWebView
             anchors.fill: parent
-            url: BrowserManager.initialUrl
+            url: Core.BrowserManager.initialUrl
         }
-        ErrorHandler {
+        Core.ErrorHandler {
             id: errorHandler
 
             errorString: currentWebView.errorString
@@ -61,7 +61,7 @@ Kirigami.ApplicationWindow {
             anchors.right: parent.right
         }
 
-        Questions {
+        Core.Questions {
             id: questions
 
             anchors.bottom: parent.bottom
