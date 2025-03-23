@@ -250,7 +250,7 @@ Kirigami.ApplicationWindow {
             Rectangle {
                 color: Kirigami.Theme.highlightColor
 
-                width: Math.round((currentWebView.loadProgress / 100) * parent.width)
+                width: Math.round(((currentWebView ? currentWebView.loadProgress : 0) / 100) * parent.width)
                 anchors {
                     top: parent.top
                     left: parent.left
