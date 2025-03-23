@@ -453,6 +453,7 @@ Kirigami.ApplicationWindow {
 
             tabsSheet: tabsSheetLoader
 
+            Kirigami.Theme.inherit: false
             Kirigami.Theme.colorSet: rootPage.privateMode ? Kirigami.Theme.Complementary : Kirigami.Theme.Window
 
             layer.enabled: GraphicsInfo.api !== GraphicsInfo.Software && navigation.navigationShown
