@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-23 00:41+0000\n"
+"POT-Creation-Date: 2025-03-24 00:41+0000\n"
 "PO-Revision-Date: 2024-12-15 17:36+0530\n"
 "Last-Translator: Kali <EMAIL@ADDRESS>\n"
 "Language-Team: Hindi <fedora-trans-hi@redhat.com>\n"
@@ -615,7 +615,7 @@ msgid "Search or enter URL…"
 msgstr "खोजें या URL दर्ज करें…"
 
 #: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:355
-#: src/contents/ui/Navigation.qml:444
+#: src/contents/ui/Navigation.qml:442
 #, fuzzy, kde-format
 #| msgid "New Tab"
 msgctxt "@action:inmenu"
@@ -733,14 +733,14 @@ msgctxt "@info:placeholder"
 msgid "No history yet"
 msgstr "अभी इतिहास नहीं"
 
-#: src/contents/ui/desktop/Tabs.qml:232 src/contents/ui/Tabs.qml:275
+#: src/contents/ui/desktop/Tabs.qml:232 src/contents/ui/Tabs.qml:276
 #, fuzzy, kde-format
 #| msgid "Reader Mode: %1"
 msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr "रीडर मोड: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:261 src/contents/ui/Tabs.qml:306
+#: src/contents/ui/desktop/Tabs.qml:261 src/contents/ui/Tabs.qml:307
 #, fuzzy, kde-format
 #| msgid "Close tab"
 msgctxt "@info:tooltip"
@@ -952,14 +952,14 @@ msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "नेविगेशन बार छुपाएं"
 
-#: src/contents/ui/Navigation.qml:417
+#: src/contents/ui/Navigation.qml:415
 #, fuzzy, kde-format
 #| msgid "Done"
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr "हो गया"
 
-#: src/contents/ui/Navigation.qml:430
+#: src/contents/ui/Navigation.qml:428
 #, fuzzy, kde-format
 #| msgid "New tabs:"
 msgctxt "@info:status"

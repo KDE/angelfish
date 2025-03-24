@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-23 00:41+0000\n"
+"POT-Creation-Date: 2025-03-24 00:41+0000\n"
 "PO-Revision-Date: 2025-03-10 20:34+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -536,7 +536,7 @@ msgid "Search or enter URL…"
 msgstr "搜尋或輸入網址…"
 
 #: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:355
-#: src/contents/ui/Navigation.qml:444
+#: src/contents/ui/Navigation.qml:442
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
@@ -638,13 +638,13 @@ msgctxt "@info:placeholder"
 msgid "No history yet"
 msgstr "還沒有歷史"
 
-#: src/contents/ui/desktop/Tabs.qml:232 src/contents/ui/Tabs.qml:275
+#: src/contents/ui/desktop/Tabs.qml:232 src/contents/ui/Tabs.qml:276
 #, kde-format
 msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr "閱讀模式：%1"
 
-#: src/contents/ui/desktop/Tabs.qml:261 src/contents/ui/Tabs.qml:306
+#: src/contents/ui/desktop/Tabs.qml:261 src/contents/ui/Tabs.qml:307
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close tab"
@@ -824,13 +824,13 @@ msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "隱藏導覽列"
 
-#: src/contents/ui/Navigation.qml:417
+#: src/contents/ui/Navigation.qml:415
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr "完成"
 
-#: src/contents/ui/Navigation.qml:430
+#: src/contents/ui/Navigation.qml:428
 #, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"

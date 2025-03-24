@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-23 00:41+0000\n"
+"POT-Creation-Date: 2025-03-24 00:41+0000\n"
 "PO-Revision-Date: 2021-03-21 17:55+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -570,7 +570,7 @@ msgid "Search or enter URL…"
 msgstr ""
 
 #: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:355
-#: src/contents/ui/Navigation.qml:444
+#: src/contents/ui/Navigation.qml:442
 #, fuzzy, kde-format
 #| msgid "New Tab"
 msgctxt "@action:inmenu"
@@ -680,13 +680,13 @@ msgctxt "@info:placeholder"
 msgid "No history yet"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:232 src/contents/ui/Tabs.qml:275
+#: src/contents/ui/desktop/Tabs.qml:232 src/contents/ui/Tabs.qml:276
 #, kde-format
 msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr ""
 
-#: src/contents/ui/desktop/Tabs.qml:261 src/contents/ui/Tabs.qml:306
+#: src/contents/ui/desktop/Tabs.qml:261 src/contents/ui/Tabs.qml:307
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close tab"
@@ -892,13 +892,13 @@ msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "Gøym navigasjonslinja"
 
-#: src/contents/ui/Navigation.qml:417
+#: src/contents/ui/Navigation.qml:415
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr ""
 
-#: src/contents/ui/Navigation.qml:430
+#: src/contents/ui/Navigation.qml:428
 #, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"
