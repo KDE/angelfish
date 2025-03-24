@@ -68,6 +68,10 @@ QCoro::QmlTask WebAppCreator::createDesktopFile(const QString name, QString url,
 QCoro::Task<QImage> WebAppCreator::fetchIcon(const QString &url)
 {
     auto *provider = static_cast<QQuickAsyncImageProvider *>(qmlEngine(this)->imageProvider(QStringLiteral("favicon")));
+    if (!provider) {
+        qDebug() << "Failed to access favicon provider";
+        co_return QImage();
+    }
 
     const QStringView prefixFavicon = QStringView(u"image://favicon/");
     const QString providerIconName = url.mid(prefixFavicon.size());
