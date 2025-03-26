@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-24 00:41+0000\n"
+"POT-Creation-Date: 2025-03-26 00:41+0000\n"
 "PO-Revision-Date: 2025-03-08 08:57+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -30,22 +30,22 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "yurchor@ukr.net"
 
-#: angelfish-webapp/main.cpp:71
+#: angelfish-webapp/main.cpp:70
 #, kde-format
 msgid "desktop file to open"
 msgstr "файл desktop, який слід відкрити"
 
-#: angelfish-webapp/main.cpp:98
+#: angelfish-webapp/main.cpp:97
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr "Середовище виконання вебпрограм Angelfish"
 
-#: angelfish-webapp/main.cpp:100
+#: angelfish-webapp/main.cpp:99
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "© Розробники Angelfish, 2020"
 
-#: angelfish-webapp/main.cpp:102
+#: angelfish-webapp/main.cpp:101
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
@@ -96,7 +96,7 @@ msgctxt "@action:button"
 msgid "Download"
 msgstr "Отримати"
 
-#: lib/contents/ui/DownloadQuestion.qml:33 lib/contents/ui/PrintPreview.qml:163
+#: lib/contents/ui/DownloadQuestion.qml:33 lib/contents/ui/PrintPreview.qml:164
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
@@ -250,260 +250,260 @@ msgctxt "@action:button"
 msgid "Decline"
 msgstr "Відхилити"
 
-#: lib/contents/ui/PrintPreview.qml:24
+#: lib/contents/ui/PrintPreview.qml:25
 #, kde-format
 msgctxt "@title:window"
 msgid "Print"
 msgstr "Надрукувати"
 
-#: lib/contents/ui/PrintPreview.qml:64
+#: lib/contents/ui/PrintPreview.qml:65
 #, kde-format
 msgctxt "@title:group"
 msgid "Destination"
 msgstr "Призначення"
 
-#: lib/contents/ui/PrintPreview.qml:68
+#: lib/contents/ui/PrintPreview.qml:69
 #, kde-format
 msgctxt "@title:group"
 msgid "Save to PDF"
 msgstr "Зберегти до PDF"
 
-#: lib/contents/ui/PrintPreview.qml:74
+#: lib/contents/ui/PrintPreview.qml:75
 #, kde-format
 msgctxt "@title:group"
 msgid "Orientation"
 msgstr "Орієнтація"
 
-#: lib/contents/ui/PrintPreview.qml:99
+#: lib/contents/ui/PrintPreview.qml:100
 #, kde-format
 msgctxt "@title:group"
 msgid "Paper Size"
 msgstr "Розмір аркуша"
 
-#: lib/contents/ui/PrintPreview.qml:145
+#: lib/contents/ui/PrintPreview.qml:146
 #, kde-format
 msgctxt "@title:group"
 msgid "Options"
 msgstr "Параметри"
 
-#: lib/contents/ui/PrintPreview.qml:149
+#: lib/contents/ui/PrintPreview.qml:150
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Print backgrounds"
 msgstr "Друкувати тло"
 
-#: lib/contents/ui/PrintPreview.qml:168
+#: lib/contents/ui/PrintPreview.qml:169
 #, kde-format
 msgctxt "@action:button"
 msgid "Save"
 msgstr "Зберегти"
 
-#: lib/contents/ui/WebView.qml:243
+#: lib/contents/ui/WebView.qml:244
 #, kde-format
 msgctxt "@info:status"
 msgid "Website was opened in a new tab"
 msgstr "Сайт було відкрито у новій вкладці"
 
-#: lib/contents/ui/WebView.qml:261
+#: lib/contents/ui/WebView.qml:262
 #, kde-format
 msgctxt "@info:status"
 msgid "Entered Full Screen mode"
 msgstr "Перехід у повноекранний режим"
 
-#: lib/contents/ui/WebView.qml:262
+#: lib/contents/ui/WebView.qml:263
 #, kde-format
 msgctxt "@action:button"
 msgid "Exit Full Screen (Esc)"
 msgstr "Вийти з повноекранного режиму (Esc)"
 
-#: lib/contents/ui/WebView.qml:395
+#: lib/contents/ui/WebView.qml:396
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Play"
 msgstr "Відтворити"
 
-#: lib/contents/ui/WebView.qml:396
+#: lib/contents/ui/WebView.qml:397
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Pause"
 msgstr "Призупинити"
 
-#: lib/contents/ui/WebView.qml:403
+#: lib/contents/ui/WebView.qml:404
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Unmute"
 msgstr "Увімкнути звук"
 
-#: lib/contents/ui/WebView.qml:404
+#: lib/contents/ui/WebView.qml:405
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Mute"
 msgstr "Вимкнути звук"
 
-#: lib/contents/ui/WebView.qml:414
+#: lib/contents/ui/WebView.qml:415
 #, kde-format
 msgctxt "@label"
 msgid "Speed"
 msgstr "Швидкість"
 
-#: lib/contents/ui/WebView.qml:437
+#: lib/contents/ui/WebView.qml:438
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Loop"
 msgstr "Зациклити"
 
-#: lib/contents/ui/WebView.qml:444
+#: lib/contents/ui/WebView.qml:445
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Exit Fullscreen"
 msgstr "Вийти з повноекранного режиму"
 
-#: lib/contents/ui/WebView.qml:444
+#: lib/contents/ui/WebView.qml:445
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enter Fullscreen"
 msgstr "Повноекранний режим"
 
-#: lib/contents/ui/WebView.qml:457
+#: lib/contents/ui/WebView.qml:458
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Controls"
 msgstr "Приховати керування"
 
-#: lib/contents/ui/WebView.qml:458
+#: lib/contents/ui/WebView.qml:459
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Controls"
 msgstr "Показати керування"
 
-#: lib/contents/ui/WebView.qml:466
+#: lib/contents/ui/WebView.qml:467
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video"
 msgstr "Відкрити відео"
 
-#: lib/contents/ui/WebView.qml:466
+#: lib/contents/ui/WebView.qml:467
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio"
 msgstr "Відкрити звукові дані"
 
-#: lib/contents/ui/WebView.qml:467
+#: lib/contents/ui/WebView.qml:468
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video in New Tab"
 msgstr "Відкрити відео у новій вкладці"
 
-#: lib/contents/ui/WebView.qml:467
+#: lib/contents/ui/WebView.qml:468
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio in New Tab"
 msgstr "Відкрити звукові дані у новій вкладці"
 
-#: lib/contents/ui/WebView.qml:479
+#: lib/contents/ui/WebView.qml:480
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Video"
 msgstr "Зберегти відеодані"
 
-#: lib/contents/ui/WebView.qml:485
+#: lib/contents/ui/WebView.qml:486
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Video Link"
 msgstr "Копіювати посилання на відео"
 
-#: lib/contents/ui/WebView.qml:491
+#: lib/contents/ui/WebView.qml:492
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image"
 msgstr "Відкрити зображення"
 
-#: lib/contents/ui/WebView.qml:491
+#: lib/contents/ui/WebView.qml:492
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image in New Tab"
 msgstr "Відкрити зображення у новій вкладці"
 
-#: lib/contents/ui/WebView.qml:503
+#: lib/contents/ui/WebView.qml:504
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Image"
 msgstr "Зберегти зображення"
 
-#: lib/contents/ui/WebView.qml:509
+#: lib/contents/ui/WebView.qml:510
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image"
 msgstr "Копіювати зображення"
 
-#: lib/contents/ui/WebView.qml:515
+#: lib/contents/ui/WebView.qml:516
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image Link"
 msgstr "Копіювати посилання на зображення"
 
-#: lib/contents/ui/WebView.qml:521
+#: lib/contents/ui/WebView.qml:522
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Link"
 msgstr "Відкрити посилання"
 
-#: lib/contents/ui/WebView.qml:521
+#: lib/contents/ui/WebView.qml:522
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Link in New Tab"
 msgstr "Відкрити посилання у новій вкладці"
 
-#: lib/contents/ui/WebView.qml:533
+#: lib/contents/ui/WebView.qml:534
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Link"
 msgstr "Створити закладку для посилання"
 
-#: lib/contents/ui/WebView.qml:545
+#: lib/contents/ui/WebView.qml:546
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Link"
 msgstr "Зберегти посилання"
 
-#: lib/contents/ui/WebView.qml:551
+#: lib/contents/ui/WebView.qml:552
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Link"
 msgstr "Копіювати посилання"
 
-#: lib/contents/ui/WebView.qml:558
+#: lib/contents/ui/WebView.qml:559
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy"
 msgstr "Копіювати"
 
-#: lib/contents/ui/WebView.qml:564
+#: lib/contents/ui/WebView.qml:565
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Cut"
 msgstr "Вирізати"
 
-#: lib/contents/ui/WebView.qml:570
+#: lib/contents/ui/WebView.qml:571
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "Вставити"
 
-#: lib/contents/ui/WebView.qml:578
+#: lib/contents/ui/WebView.qml:579
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "Шукати «%1»"
 
-#: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:345
-#: src/contents/ui/mobile.qml:296
+#: lib/contents/ui/WebView.qml:592 src/contents/ui/desktop/desktop.qml:350
+#: src/contents/ui/mobile.qml:297
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
 msgstr "Оприлюднити сторінку"
 
-#: lib/contents/ui/WebView.qml:603
+#: lib/contents/ui/WebView.qml:604
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "View Page Source"
@@ -524,128 +524,128 @@ msgctxt "@info"
 msgid "Downloading…"
 msgstr "Отримання…"
 
-#: src/contents/ui/Bookmarks.qml:12
+#: src/contents/ui/Bookmarks.qml:13
 #, kde-format
 msgctxt "@title:window"
 msgid "Bookmarks"
 msgstr "Закладки"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:30
+#: src/contents/ui/desktop/BookmarksPage.qml:31
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search bookmarks…"
 msgstr "Шукати закладки…"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:77
+#: src/contents/ui/desktop/BookmarksPage.qml:78
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No bookmarks yet"
 msgstr "Закладок поки немає"
 
-#: src/contents/ui/desktop/desktop.qml:125
+#: src/contents/ui/desktop/desktop.qml:127
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "Пошук або введення адреси…"
 
-#: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:355
-#: src/contents/ui/Navigation.qml:442
+#: src/contents/ui/desktop/desktop.qml:254 src/contents/ui/desktop/Tabs.qml:355
+#: src/contents/ui/Navigation.qml:443
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "Нова вкладка"
 
-#: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/mobile.qml:73
+#: src/contents/ui/desktop/desktop.qml:261 src/contents/ui/mobile.qml:74
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
 msgstr "Вийти з конфіденційного режиму"
 
-#: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/mobile.qml:73
+#: src/contents/ui/desktop/desktop.qml:261 src/contents/ui/mobile.qml:74
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Private Mode"
 msgstr "Конфіденційний режим"
 
-#: src/contents/ui/desktop/desktop.qml:265 src/contents/ui/mobile.qml:89
+#: src/contents/ui/desktop/desktop.qml:270 src/contents/ui/mobile.qml:90
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "History"
 msgstr "Журнал"
 
-#: src/contents/ui/desktop/desktop.qml:274 src/contents/ui/mobile.qml:81
+#: src/contents/ui/desktop/desktop.qml:279 src/contents/ui/mobile.qml:82
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "Закладки"
 
-#: src/contents/ui/desktop/desktop.qml:283 src/contents/ui/mobile.qml:93
+#: src/contents/ui/desktop/desktop.qml:288 src/contents/ui/mobile.qml:94
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "Отримання файлів"
 
-#: src/contents/ui/desktop/desktop.qml:296
+#: src/contents/ui/desktop/desktop.qml:301
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr "Надрукувати"
 
-#: src/contents/ui/desktop/desktop.qml:302
+#: src/contents/ui/desktop/desktop.qml:307
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr "На весь екран"
 
-#: src/contents/ui/desktop/desktop.qml:319
+#: src/contents/ui/desktop/desktop.qml:324
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Приховати інструменти розробника"
 
-#: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:392
+#: src/contents/ui/desktop/desktop.qml:325 src/contents/ui/mobile.qml:393
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Показати інструменти розробника"
 
-#: src/contents/ui/desktop/desktop.qml:329 src/contents/ui/mobile.qml:292
+#: src/contents/ui/desktop/desktop.qml:334 src/contents/ui/mobile.qml:293
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Знайти на сторінці"
 
-#: src/contents/ui/desktop/desktop.qml:338 src/contents/ui/mobile.qml:375
+#: src/contents/ui/desktop/desktop.qml:343 src/contents/ui/mobile.qml:376
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Режим читання"
 
-#: src/contents/ui/desktop/desktop.qml:355
+#: src/contents/ui/desktop/desktop.qml:360
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "Додати до інструмента запуску програм"
 
-#: src/contents/ui/desktop/desktop.qml:374 src/contents/ui/mobile.qml:101
+#: src/contents/ui/desktop/desktop.qml:379 src/contents/ui/mobile.qml:102
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "Параметри"
 
-#: src/contents/ui/desktop/HistoryPage.qml:30
+#: src/contents/ui/desktop/HistoryPage.qml:31
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search history…"
 msgstr "Шукати у журналі…"
 
-#: src/contents/ui/desktop/HistoryPage.qml:46
+#: src/contents/ui/desktop/HistoryPage.qml:47
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Clear all history"
 msgstr "Спорожнити увесь журнал"
 
-#: src/contents/ui/desktop/HistoryPage.qml:83
+#: src/contents/ui/desktop/HistoryPage.qml:84
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No history yet"
@@ -699,55 +699,55 @@ msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Закрити вкладку"
 
-#: src/contents/ui/Downloads.qml:16
+#: src/contents/ui/Downloads.qml:17
 #, kde-format
 msgctxt "@title:window"
 msgid "Downloads"
 msgstr "Отримання файлів"
 
-#: src/contents/ui/Downloads.qml:28
+#: src/contents/ui/Downloads.qml:29
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No running downloads"
 msgstr "Немає сеансів отримання файлів"
 
-#: src/contents/ui/Downloads.qml:77
+#: src/contents/ui/Downloads.qml:78
 #, kde-format
 msgctxt "@info:progress"
 msgid "Starting…"
 msgstr "Починаємо…"
 
-#: src/contents/ui/Downloads.qml:79
+#: src/contents/ui/Downloads.qml:80
 #, kde-format
 msgctxt "@info:progress"
 msgid "Completed"
 msgstr "Завершено"
 
-#: src/contents/ui/Downloads.qml:81
+#: src/contents/ui/Downloads.qml:82
 #, kde-format
 msgctxt "@info:progress"
 msgid "Cancelled"
 msgstr "Скасовано"
 
-#: src/contents/ui/Downloads.qml:83
+#: src/contents/ui/Downloads.qml:84
 #, kde-format
 msgctxt "@info:progress"
 msgid "Interrupted"
 msgstr "Перервано"
 
-#: src/contents/ui/Downloads.qml:85
+#: src/contents/ui/Downloads.qml:86
 #, kde-format
 msgctxt "@info:progress"
 msgid "In progress…"
 msgstr "Триває…"
 
-#: src/contents/ui/Downloads.qml:92
+#: src/contents/ui/Downloads.qml:93
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Cancel"
 msgstr "Скасувати"
 
-#: src/contents/ui/Downloads.qml:117
+#: src/contents/ui/Downloads.qml:118
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Continue"
@@ -759,91 +759,91 @@ msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr "Шукати…"
 
-#: src/contents/ui/History.qml:12
+#: src/contents/ui/History.qml:13
 #, kde-format
 msgctxt "@title:window"
 msgid "History"
 msgstr "Журнал"
 
-#: src/contents/ui/mobile.qml:20
+#: src/contents/ui/mobile.qml:21
 #, kde-format
 msgctxt "@title:window"
 msgid "Angelfish Web Browser"
 msgstr "Веббраузер Angelfish"
 
-#: src/contents/ui/mobile.qml:66
+#: src/contents/ui/mobile.qml:67
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Tabs"
 msgstr "Вкладки"
 
-#: src/contents/ui/mobile.qml:307
+#: src/contents/ui/mobile.qml:308
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Додати на домашню сторінку"
 
-#: src/contents/ui/mobile.qml:317
+#: src/contents/ui/mobile.qml:318
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Відкрити у програмі"
 
-#: src/contents/ui/mobile.qml:325
+#: src/contents/ui/mobile.qml:326
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr "Перейти назад"
 
-#: src/contents/ui/mobile.qml:333
+#: src/contents/ui/mobile.qml:334
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "Перейти вперед"
 
-#: src/contents/ui/mobile.qml:340
+#: src/contents/ui/mobile.qml:341
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Зупинити завантаження"
 
-#: src/contents/ui/mobile.qml:340
+#: src/contents/ui/mobile.qml:341
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Оновити"
 
-#: src/contents/ui/mobile.qml:350
+#: src/contents/ui/mobile.qml:351
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "Додано до закладок"
 
-#: src/contents/ui/mobile.qml:350
+#: src/contents/ui/mobile.qml:351
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Створити закладку"
 
-#: src/contents/ui/mobile.qml:366
+#: src/contents/ui/mobile.qml:367
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Показати місце стільниці"
 
-#: src/contents/ui/mobile.qml:383
+#: src/contents/ui/mobile.qml:384
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "Приховати панель навігації"
 
-#: src/contents/ui/Navigation.qml:415
+#: src/contents/ui/Navigation.qml:416
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr "Виконано"
 
-#: src/contents/ui/Navigation.qml:428
+#: src/contents/ui/Navigation.qml:429
 #, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"
@@ -871,7 +871,7 @@ msgctxt "@title:window"
 msgid "Share Page"
 msgstr "Оприлюднення сторінки"
 
-#: src/main.cpp:82
+#: src/main.cpp:77
 #, kde-format
 msgid "URL to open"
 msgstr "Адреса, яку слід відкрити"
