@@ -10,6 +10,7 @@ import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.formcard as FormCard
 
 import org.kde.angelfish
+import org.kde.angelfish.core as Core
 
 FormCard.FormCardPage {
     id: root
@@ -124,7 +125,7 @@ FormCard.FormCardPage {
         onRejected: close();
 
         onAccepted: {
-            const url = UrlUtils.urlFromUserInput(urlInput.text);
+            const url = Core.UrlUtils.urlFromUserInput(urlInput.text);
             Settings.searchCustomUrl = url;
             baseUrl = url;
             searchEngines.setProperty(searchEngines.count - 1, "url", url);
@@ -133,7 +134,7 @@ FormCard.FormCardPage {
     }
 
     onBaseUrlChanged: {
-        Settings.searchBaseUrl = UrlUtils.urlFromUserInput(baseUrl);
+        Settings.searchBaseUrl = Core.UrlUtils.urlFromUserInput(baseUrl);
     }
 
     Component.onCompleted: {
