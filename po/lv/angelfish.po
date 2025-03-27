@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-26 00:41+0000\n"
+"POT-Creation-Date: 2025-03-27 00:41+0000\n"
 "PO-Revision-Date: 2025-02-13 15:51+0200\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
@@ -897,7 +897,7 @@ msgid "Web Apps"
 msgstr "Tīmekļa lietotnes"
 
 #: src/settings/AngelfishConfigurationView.qml:32
-#: src/settings/SettingsSearchEnginePage.qml:112
+#: src/settings/SettingsSearchEnginePage.qml:113
 #, kde-format
 msgctxt "@title:window"
 msgid "Search Engines"
@@ -1137,19 +1137,19 @@ msgctxt "@label:checkbox"
 msgid "Reload/Stop"
 msgstr "Pārlādēt/apturēt"
 
-#: src/settings/SettingsSearchEnginePage.qml:17
+#: src/settings/SettingsSearchEnginePage.qml:18
 #, kde-format
 msgctxt "@window:title"
 msgid "Search Engines"
 msgstr "Meklētāji"
 
-#: src/settings/SettingsSearchEnginePage.qml:20
+#: src/settings/SettingsSearchEnginePage.qml:21
 #, kde-format
 msgctxt "@label"
 msgid "Custom"
 msgstr "Pielāgots"
 
-#: src/settings/SettingsSearchEnginePage.qml:117
+#: src/settings/SettingsSearchEnginePage.qml:118
 #, kde-format
 msgctxt "@label"
 msgid "Base URL of your preferred search engine"

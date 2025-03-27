@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-26 00:41+0000\n"
-"PO-Revision-Date: 2025-01-25 08:34+0100\n"
+"POT-Creation-Date: 2025-03-27 00:41+0000\n"
+"PO-Revision-Date: 2025-03-26 17:52+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -81,11 +81,10 @@ msgid "Password:"
 msgstr "Lösenord"
 
 #: lib/contents/ui/DownloadQuestion.qml:16
-#, fuzzy, kde-format
-#| msgid "Do you want to download this file?"
+#, kde-format
 msgctxt "Would you like to download (filename) from (domain)?"
 msgid "Would you like to download %1 from %2?"
-msgstr "Vill du ladda ner den här filen?"
+msgstr "Vill du ladda ner %1 från %2?"
 
 #: lib/contents/ui/DownloadQuestion.qml:25
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
@@ -894,7 +893,7 @@ msgid "Web Apps"
 msgstr "Webbprogram"
 
 #: src/settings/AngelfishConfigurationView.qml:32
-#: src/settings/SettingsSearchEnginePage.qml:112
+#: src/settings/SettingsSearchEnginePage.qml:113
 #, kde-format
 msgctxt "@title:window"
 msgid "Search Engines"
@@ -1135,19 +1134,19 @@ msgctxt "@label:checkbox"
 msgid "Reload/Stop"
 msgstr "Uppdatera/Stoppa"
 
-#: src/settings/SettingsSearchEnginePage.qml:17
+#: src/settings/SettingsSearchEnginePage.qml:18
 #, kde-format
 msgctxt "@window:title"
 msgid "Search Engines"
 msgstr "Söktjänster"
 
-#: src/settings/SettingsSearchEnginePage.qml:20
+#: src/settings/SettingsSearchEnginePage.qml:21
 #, kde-format
 msgctxt "@label"
 msgid "Custom"
 msgstr "Egen"
 
-#: src/settings/SettingsSearchEnginePage.qml:117
+#: src/settings/SettingsSearchEnginePage.qml:118
 #, kde-format
 msgctxt "@label"
 msgid "Base URL of your preferred search engine"

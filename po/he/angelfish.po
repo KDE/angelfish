@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-26 00:41+0000\n"
+"POT-Creation-Date: 2025-03-27 00:41+0000\n"
 "PO-Revision-Date: 2025-03-08 14:01+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -885,7 +885,7 @@ msgid "Web Apps"
 msgstr "יישומוני דפדפן"
 
 #: src/settings/AngelfishConfigurationView.qml:32
-#: src/settings/SettingsSearchEnginePage.qml:112
+#: src/settings/SettingsSearchEnginePage.qml:113
 #, kde-format
 msgctxt "@title:window"
 msgid "Search Engines"
@@ -1122,19 +1122,19 @@ msgctxt "@label:checkbox"
 msgid "Reload/Stop"
 msgstr "ריענון/עצירה"
 
-#: src/settings/SettingsSearchEnginePage.qml:17
+#: src/settings/SettingsSearchEnginePage.qml:18
 #, kde-format
 msgctxt "@window:title"
 msgid "Search Engines"
 msgstr "מנועי חיפוש"
 
-#: src/settings/SettingsSearchEnginePage.qml:20
+#: src/settings/SettingsSearchEnginePage.qml:21
 #, kde-format
 msgctxt "@label"
 msgid "Custom"
 msgstr "התאמה אישית"
 
-#: src/settings/SettingsSearchEnginePage.qml:117
+#: src/settings/SettingsSearchEnginePage.qml:118
 #, kde-format
 msgctxt "@label"
 msgid "Base URL of your preferred search engine"

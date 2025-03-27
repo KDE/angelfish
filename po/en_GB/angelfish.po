@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-26 00:41+0000\n"
+"POT-Creation-Date: 2025-03-27 00:41+0000\n"
 "PO-Revision-Date: 2024-11-01 14:07+0000\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English\n"
@@ -1023,7 +1023,7 @@ msgid "Web Apps"
 msgstr "Web Apps"
 
 #: src/settings/AngelfishConfigurationView.qml:32
-#: src/settings/SettingsSearchEnginePage.qml:112
+#: src/settings/SettingsSearchEnginePage.qml:113
 #, fuzzy, kde-format
 #| msgid "Search Engine"
 msgctxt "@title:window"
@@ -1295,21 +1295,21 @@ msgctxt "@label:checkbox"
 msgid "Reload/Stop"
 msgstr "Reload/Stop"
 
-#: src/settings/SettingsSearchEnginePage.qml:17
+#: src/settings/SettingsSearchEnginePage.qml:18
 #, fuzzy, kde-format
 #| msgid "Search Engine"
 msgctxt "@window:title"
 msgid "Search Engines"
 msgstr "Search Engine"
 
-#: src/settings/SettingsSearchEnginePage.qml:20
+#: src/settings/SettingsSearchEnginePage.qml:21
 #, fuzzy, kde-format
 #| msgid "Custom"
 msgctxt "@label"
 msgid "Custom"
 msgstr "Custom"
 
-#: src/settings/SettingsSearchEnginePage.qml:117
+#: src/settings/SettingsSearchEnginePage.qml:118
 #, fuzzy, kde-format
 #| msgid "Base URL of your preferred search engine"
 msgctxt "@label"
