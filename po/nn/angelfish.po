@@ -65,28 +65,24 @@ msgstr "Opna"
 
 #: lib/contents/ui/AuthSheet.qml:17
 #, fuzzy, kde-format
-#| msgid "Authentication required"
 msgctxt "@title:window"
 msgid "Authentication Required"
 msgstr "Krev brukarnamn og passord"
 
 #: lib/contents/ui/AuthSheet.qml:30
 #, fuzzy, kde-format
-#| msgid "Username"
 msgctxt "@label:textbox"
 msgid "Username:"
 msgstr "Brukarnamn"
 
 #: lib/contents/ui/AuthSheet.qml:37
 #, fuzzy, kde-format
-#| msgid "Password"
 msgctxt "@label:textbox"
 msgid "Password:"
 msgstr "Passord"
 
 #: lib/contents/ui/DownloadQuestion.qml:16
 #, fuzzy, kde-format
-#| msgid "Do you want to download this file?"
 msgctxt "Would you like to download (filename) from (domain)?"
 msgid "Would you like to download %1 from %2?"
 msgstr "Vil du lasta ned fila?"
@@ -94,28 +90,24 @@ msgstr "Vil du lasta ned fila?"
 #: lib/contents/ui/DownloadQuestion.qml:25
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
 #, fuzzy, kde-format
-#| msgid "Download"
 msgctxt "@action:button"
 msgid "Download"
 msgstr "Last ned"
 
 #: lib/contents/ui/DownloadQuestion.qml:33 lib/contents/ui/PrintPreview.qml:163
 #, fuzzy, kde-format
-#| msgid "Cancel"
 msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Avbryt"
 
 #: lib/contents/ui/ErrorHandler.qml:47
 #, fuzzy, kde-format
-#| msgid "Error loading the page"
 msgctxt "@title"
 msgid "Error Loading the Page"
 msgstr "Feil ved lasting av sida"
 
 #: lib/contents/ui/ErrorHandler.qml:58
 #, fuzzy, kde-format
-#| msgid "Retry"
 msgctxt "@action:intoolbar"
 msgid "Retry"
 msgstr "Prøv på nytt"
@@ -161,35 +153,29 @@ msgstr ""
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:79
 #, fuzzy, kde-format
-#| msgid "Leave page"
 msgctxt "@action:button"
 msgid "Leave Page"
 msgstr "Forlat sida"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:87
 #, fuzzy, kde-format
-#| msgid "Submit"
 msgctxt "@action:button"
 msgid "Submit"
 msgstr "Send inn"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, fuzzy, kde-format
-#| msgid "Do you want to allow the website to access the microphone?"
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>microphone</b>?"
 msgstr "Vil du gje nettsida tilgang til mikrofonen?"
 
 #: lib/contents/ui/PermissionQuestion.qml:24
 #, fuzzy, kde-format
-#| msgid "Do you want to allow the website to access the camera?"
 msgid "Do you want to allow the website <b>%1</b> to access the <b>camera</b>?"
 msgstr "Vil du gje nettsida tilgang til kameraet?"
 
 #: lib/contents/ui/PermissionQuestion.qml:26
 #, fuzzy, kde-format
-#| msgid ""
-#| "Do you want to allow the website to access the camera and the microphone?"
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>camera and the "
 "microphone</b>?"
@@ -197,41 +183,35 @@ msgstr "Vil du gje nettsida tilgang til kameraet og mikrofonen?"
 
 #: lib/contents/ui/PermissionQuestion.qml:28
 #, fuzzy, kde-format
-#| msgid "Do you want to allow the website to share your screen?"
 msgid "Do you want to allow the website <b>%1</b> to share your <b>screen</b>?"
 msgstr "Vil du gje nettsida tilgang til å dela skjermen?"
 
 #: lib/contents/ui/PermissionQuestion.qml:30
 #, fuzzy, kde-format
-#| msgid "Do you want to allow the website to share the sound output?"
 msgid ""
 "Do you want to allow the website <b>%1</b> to share the sound <b>output</b>?"
 msgstr "Vil du gje nettsida tilgang til å dela lyd?"
 
 #: lib/contents/ui/PermissionQuestion.qml:32
 #, fuzzy, kde-format
-#| msgid "Do you want to allow the website to send you notifications?"
 msgid ""
 "Do you want to allow the website <b>%1</b> to send you <b>notifications</b>?"
 msgstr "Vil du gje nettsida tilgang til å senda deg varslingar?"
 
 #: lib/contents/ui/PermissionQuestion.qml:34
 #, fuzzy, kde-format
-#| msgid "Do you want to allow the website to access the geo location?"
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>geo location</b>?"
 msgstr "Vil du gje nettsida tilgang til di geografiske plassering?"
 
 #: lib/contents/ui/PermissionQuestion.qml:36
 #, fuzzy, kde-format
-#| msgid "Do you want to allow the website to access the camera?"
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>clipboard</b>?"
 msgstr "Vil du gje nettsida tilgang til kameraet?"
 
 #: lib/contents/ui/PermissionQuestion.qml:38
 #, fuzzy, kde-format
-#| msgid "Do you want to allow the website to share your screen?"
 msgid "Do you want to allow the website <b>%1</b> to access your <b>fonts</b>?"
 msgstr "Vil du gje nettsida tilgang til å dela skjermen?"
 
@@ -245,14 +225,12 @@ msgstr ""
 
 #: lib/contents/ui/PermissionQuestion.qml:48
 #, fuzzy, kde-format
-#| msgid "Accept"
 msgctxt "@action:button"
 msgid "Accept"
 msgstr "Godta"
 
 #: lib/contents/ui/PermissionQuestion.qml:58
 #, fuzzy, kde-format
-#| msgid "Decline"
 msgctxt "@action:button"
 msgid "Decline"
 msgstr "Avslå"
@@ -307,7 +285,6 @@ msgstr ""
 
 #: lib/contents/ui/WebView.qml:243
 #, fuzzy, kde-format
-#| msgid "Website was opened in a new tab"
 msgctxt "@info:status"
 msgid "Website was opened in a new tab"
 msgstr "Nettstaden vart opna i ei nye fane"
@@ -332,7 +309,6 @@ msgstr ""
 
 #: lib/contents/ui/WebView.qml:396
 #, fuzzy, kde-format
-#| msgid "Pause"
 msgctxt "@action:inmenu"
 msgid "Pause"
 msgstr "Pause"
@@ -435,7 +411,6 @@ msgstr ""
 
 #: lib/contents/ui/WebView.qml:503
 #, fuzzy, kde-format
-#| msgid "Leave page"
 msgctxt "@action:inmenu"
 msgid "Save Image"
 msgstr "Forlat sida"
@@ -454,7 +429,6 @@ msgstr ""
 
 #: lib/contents/ui/WebView.qml:521
 #, fuzzy, kde-format
-#| msgid "Open in app"
 msgctxt "@action:inmenu"
 msgid "Open Link"
 msgstr "Opna i app"
@@ -467,7 +441,6 @@ msgstr ""
 
 #: lib/contents/ui/WebView.qml:533
 #, fuzzy, kde-format
-#| msgid "Bookmark"
 msgctxt "@action:inmenu"
 msgid "Bookmark Link"
 msgstr "Bokmerke"
@@ -480,28 +453,24 @@ msgstr ""
 
 #: lib/contents/ui/WebView.qml:551
 #, fuzzy, kde-format
-#| msgid "Copy"
 msgctxt "@action:inmenu"
 msgid "Copy Link"
 msgstr "Kopier"
 
 #: lib/contents/ui/WebView.qml:558
 #, fuzzy, kde-format
-#| msgid "Copy"
 msgctxt "@action:inmenu"
 msgid "Copy"
 msgstr "Kopier"
 
 #: lib/contents/ui/WebView.qml:564
 #, fuzzy, kde-format
-#| msgid "Cut"
 msgctxt "@action:inmenu"
 msgid "Cut"
 msgstr "Klipp ut"
 
 #: lib/contents/ui/WebView.qml:570
 #, fuzzy, kde-format
-#| msgid "Paste"
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "Lim inn"
@@ -515,7 +484,6 @@ msgstr ""
 #: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:345
 #: src/contents/ui/mobile.qml:296
 #, fuzzy, kde-format
-#| msgid "Share page"
 msgctxt "@action:inmenu"
 msgid "Share Page"
 msgstr "Del sida"
@@ -528,9 +496,6 @@ msgstr ""
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
 #, fuzzy, kde-format
-#| msgid ""
-#| "The ad blocker is missing its filter lists, do you want to download them "
-#| "now?"
 msgctxt "@info"
 msgid ""
 "The adblocker is missing its filter lists, do you want to download them now?"
@@ -538,14 +503,12 @@ msgstr "Reklamefilteret manglar filterlister. Vil du lasta dei ned no?"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:35
 #, fuzzy, kde-format
-#| msgid "Downloading..."
 msgctxt "@info"
 msgid "Downloading…"
 msgstr "Lastar ned …"
 
 #: src/contents/ui/Bookmarks.qml:12
 #, fuzzy, kde-format
-#| msgid "Bookmarks"
 msgctxt "@title:window"
 msgid "Bookmarks"
 msgstr "Bokmerke"
@@ -558,7 +521,6 @@ msgstr ""
 
 #: src/contents/ui/desktop/BookmarksPage.qml:77
 #, fuzzy, kde-format
-#| msgid "Bookmarks"
 msgctxt "@info:placeholder"
 msgid "No bookmarks yet"
 msgstr "Bokmerke"
@@ -572,42 +534,36 @@ msgstr ""
 #: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:355
 #: src/contents/ui/Navigation.qml:437
 #, fuzzy, kde-format
-#| msgid "New Tab"
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "Ny fane"
 
 #: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/mobile.qml:73
 #, fuzzy, kde-format
-#| msgid "Leave private mode"
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
 msgstr "Forlat privatmodus"
 
 #: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/mobile.qml:73
 #, fuzzy, kde-format
-#| msgid "Private mode"
 msgctxt "@action:inmenu"
 msgid "Private Mode"
 msgstr "Privatmodus"
 
 #: src/contents/ui/desktop/desktop.qml:265 src/contents/ui/mobile.qml:89
 #, fuzzy, kde-format
-#| msgid "History"
 msgctxt "@action:inmenu"
 msgid "History"
 msgstr "Logg"
 
 #: src/contents/ui/desktop/desktop.qml:274 src/contents/ui/mobile.qml:81
 #, fuzzy, kde-format
-#| msgid "Bookmarks"
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "Bokmerke"
 
 #: src/contents/ui/desktop/desktop.qml:283 src/contents/ui/mobile.qml:93
 #, fuzzy, kde-format
-#| msgid "Downloads"
 msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "Nedlastingar"
@@ -638,7 +594,6 @@ msgstr ""
 
 #: src/contents/ui/desktop/desktop.qml:329 src/contents/ui/mobile.qml:292
 #, fuzzy, kde-format
-#| msgid "Find in page"
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Finn på sida"
@@ -657,7 +612,6 @@ msgstr ""
 
 #: src/contents/ui/desktop/desktop.qml:374 src/contents/ui/mobile.qml:101
 #, fuzzy, kde-format
-#| msgid "Settings"
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "Innstillingar"
@@ -694,7 +648,6 @@ msgstr ""
 
 #: src/contents/ui/desktop/Tabs.qml:291
 #, fuzzy, kde-format
-#| msgid "Open in app"
 msgctxt "@info:tooltip"
 msgid "Open a new tab"
 msgstr "Opna i app"
@@ -719,58 +672,48 @@ msgstr ""
 
 #: src/contents/ui/desktop/Tabs.qml:380
 #, fuzzy, kde-format
-#| msgid "Bookmark"
 msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "Bokmerke"
 
 #: src/contents/ui/desktop/Tabs.qml:396
 #, fuzzy, kde-format
-#| msgid "New Tab"
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Ny fane"
 
 #: src/contents/ui/Downloads.qml:16
 #, fuzzy, kde-format
-#| msgid "Downloads"
 msgctxt "@title:window"
 msgid "Downloads"
 msgstr "Nedlastingar"
 
 #: src/contents/ui/Downloads.qml:28
 #, fuzzy, kde-format
-#| msgid "No running downloads"
 msgctxt "@info:placeholder"
 msgid "No running downloads"
 msgstr "Ingen nedlastingar pågår"
 
 #: src/contents/ui/Downloads.qml:77
 #, fuzzy, kde-format
-#| msgctxt "download state"
-#| msgid "Starting…"
 msgctxt "@info:progress"
 msgid "Starting…"
 msgstr "Startar …"
 
 #: src/contents/ui/Downloads.qml:79
 #, fuzzy, kde-format
-#| msgid "Completed"
 msgctxt "@info:progress"
 msgid "Completed"
 msgstr "Fullført"
 
 #: src/contents/ui/Downloads.qml:81
 #, fuzzy, kde-format
-#| msgid "Cancelled"
 msgctxt "@info:progress"
 msgid "Cancelled"
 msgstr "Avbroten"
 
 #: src/contents/ui/Downloads.qml:83
 #, fuzzy, kde-format
-#| msgctxt "download state"
-#| msgid "Interrupted"
 msgctxt "@info:progress"
 msgid "Interrupted"
 msgstr "Avbroten"
@@ -783,56 +726,48 @@ msgstr ""
 
 #: src/contents/ui/Downloads.qml:92
 #, fuzzy, kde-format
-#| msgid "Cancel"
 msgctxt "@info:tooltip"
 msgid "Cancel"
 msgstr "Avbryt"
 
 #: src/contents/ui/Downloads.qml:117
 #, fuzzy, kde-format
-#| msgid "Continue"
 msgctxt "@info:tooltip"
 msgid "Continue"
 msgstr "Hald fram"
 
 #: src/contents/ui/FindInPageBar.qml:45
 #, fuzzy, kde-format
-#| msgid "Search..."
 msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr "Søk …"
 
 #: src/contents/ui/History.qml:12
 #, fuzzy, kde-format
-#| msgid "History"
 msgctxt "@title:window"
 msgid "History"
 msgstr "Logg"
 
 #: src/contents/ui/mobile.qml:20
 #, fuzzy, kde-format
-#| msgid "Angelfish Web Browser"
 msgctxt "@title:window"
 msgid "Angelfish Web Browser"
 msgstr "Angelfish nettlesar"
 
 #: src/contents/ui/mobile.qml:66
 #, fuzzy, kde-format
-#| msgid "Tabs"
 msgctxt "@action:inmenu"
 msgid "Tabs"
 msgstr "Faner"
 
 #: src/contents/ui/mobile.qml:307
 #, fuzzy, kde-format
-#| msgid "Add to homescreen"
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Legg til på heimeskjermen"
 
 #: src/contents/ui/mobile.qml:317
 #, fuzzy, kde-format
-#| msgid "Open in app"
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Opna i app"
@@ -845,49 +780,42 @@ msgstr ""
 
 #: src/contents/ui/mobile.qml:333
 #, fuzzy, kde-format
-#| msgid "Go forward"
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "Gå fram"
 
 #: src/contents/ui/mobile.qml:340
 #, fuzzy, kde-format
-#| msgid "Stop loading"
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Stopp innlasting"
 
 #: src/contents/ui/mobile.qml:340
 #, fuzzy, kde-format
-#| msgid "Refresh"
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Frisk opp"
 
 #: src/contents/ui/mobile.qml:350
 #, fuzzy, kde-format
-#| msgid "Bookmarked"
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "La til bokmerke"
 
 #: src/contents/ui/mobile.qml:350
 #, fuzzy, kde-format
-#| msgid "Bookmark"
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Bokmerke"
 
 #: src/contents/ui/mobile.qml:366
 #, fuzzy, kde-format
-#| msgid "Show desktop site"
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Vis skrivebords-nettstad"
 
 #: src/contents/ui/mobile.qml:383
 #, fuzzy, kde-format
-#| msgid "Hide navigation bar"
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "Gøym navigasjonslinja"
@@ -906,9 +834,6 @@ msgstr ""
 
 #: src/contents/ui/NewTabQuestion.qml:11
 #, fuzzy, kde-format
-#| msgid ""
-#| "Site wants to open a new tab: \n"
-#| "%1"
 msgctxt "@info:status"
 msgid ""
 "Site wants to open a new tab:\n"
@@ -919,14 +844,12 @@ msgstr ""
 
 #: src/contents/ui/NewTabQuestion.qml:19
 #, fuzzy, kde-format
-#| msgid "Open"
 msgctxt "@action:inmenu"
 msgid "Open"
 msgstr "Opna"
 
 #: src/contents/ui/ShareSheet.qml:18
 #, fuzzy, kde-format
-#| msgid "Share page"
 msgctxt "@title:window"
 msgid "Share Page"
 msgstr "Del sida"
@@ -945,7 +868,6 @@ msgstr ""
 
 #: src/settings/AngelfishConfigurationView.qml:20
 #, fuzzy, kde-format
-#| msgid "Adblock settings"
 msgctxt "@title:window"
 msgid "Adblock"
 msgstr "Innstillingar for reklamefilter"
@@ -960,7 +882,6 @@ msgstr ""
 #: src/settings/AngelfishConfigurationView.qml:32
 #: src/settings/SettingsSearchEnginePage.qml:112
 #, fuzzy, kde-format
-#| msgid "Search Engine"
 msgctxt "@title:window"
 msgid "Search Engines"
 msgstr "Søkjemotor"
@@ -991,7 +912,6 @@ msgstr ""
 
 #: src/settings/DesktopHomeSettingsPage.qml:58
 #, fuzzy, kde-format
-#| msgid "New Tab"
 msgctxt "@label"
 msgid "New tabs:"
 msgstr "Ny fane"
@@ -1009,14 +929,12 @@ msgstr ""
 
 #: src/settings/SettingsAdblock.qml:16
 #, fuzzy, kde-format
-#| msgid "Adblock settings"
 msgctxt "@title:window"
 msgid "Adblock Settings"
 msgstr "Innstillingar for reklamefilter"
 
 #: src/settings/SettingsAdblock.qml:23
 #, fuzzy, kde-format
-#| msgid "Add filterlist"
 msgctxt "@info:tooltip"
 msgid "Add filter list"
 msgstr "Legg til filterliste"
@@ -1035,7 +953,6 @@ msgstr ""
 
 #: src/settings/SettingsAdblock.qml:100
 #, fuzzy, kde-format
-#| msgid "Remove this filter list"
 msgctxt "@info:tooltip"
 msgid "Remove this filter list"
 msgstr "Fjern filterlista"
@@ -1054,7 +971,6 @@ msgstr "Legg til filterliste"
 
 #: src/settings/SettingsAdblock.qml:129
 #, fuzzy, kde-format
-#| msgid "Name"
 msgctxt "@label"
 msgid "Name"
 msgstr "Namn"
@@ -1077,7 +993,6 @@ msgstr ""
 
 #: src/settings/SettingsGeneral.qml:37
 #, fuzzy, kde-format
-#| msgid "Load images"
 msgctxt "@label:checkbox"
 msgid "Load images"
 msgstr "Last inn bilete"
@@ -1100,7 +1015,6 @@ msgstr ""
 
 #: src/settings/SettingsGeneral.qml:48
 #, fuzzy, kde-format
-#| msgid "The adblock functionality isn't included in this build."
 msgid "Adblock functionality was not included in this build."
 msgstr ""
 "Funksjonalitet for reklame­filtrering er ikkje inkludert i denne versjonen."
@@ -1145,7 +1059,6 @@ msgstr ""
 
 #: src/settings/SettingsNavigationBarPage.qml:18
 #, fuzzy, kde-format
-#| msgid "Navigation bar"
 msgctxt "@title:window"
 msgid "Navigation Bar"
 msgstr "Navigasjonslinje"
@@ -1171,63 +1084,54 @@ msgstr ""
 
 #: src/settings/SettingsNavigationBarPage.qml:35
 #, fuzzy, kde-format
-#| msgid "Main menu in portrait"
 msgctxt "@label:checkbox"
 msgid "Main menu in portrait"
 msgstr "Loddrett hovudmeny"
 
 #: src/settings/SettingsNavigationBarPage.qml:41
 #, fuzzy, kde-format
-#| msgid "Tabs in portrait"
 msgctxt "@label:checkbox"
 msgid "Tabs in portrait"
 msgstr "Loddrett faneliste"
 
 #: src/settings/SettingsNavigationBarPage.qml:47
 #, fuzzy, kde-format
-#| msgid "Context menu in portrait"
 msgctxt "@label:checkbox"
 msgid "Context menu in portrait"
 msgstr "Loddrett kontekstmeny"
 
 #: src/settings/SettingsNavigationBarPage.qml:53
 #, fuzzy, kde-format
-#| msgid "Go back"
 msgctxt "@label:checkbox"
 msgid "Go back"
 msgstr "Gå tilbake"
 
 #: src/settings/SettingsNavigationBarPage.qml:59
 #, fuzzy, kde-format
-#| msgid "Go forward"
 msgctxt "@label:checkbox"
 msgid "Go forward"
 msgstr "Gå fram"
 
 #: src/settings/SettingsNavigationBarPage.qml:65
 #, fuzzy, kde-format
-#| msgid "Reload/Stop"
 msgctxt "@label:checkbox"
 msgid "Reload/Stop"
 msgstr "Last om att / stopp"
 
 #: src/settings/SettingsSearchEnginePage.qml:17
 #, fuzzy, kde-format
-#| msgid "Search Engine"
 msgctxt "@window:title"
 msgid "Search Engines"
 msgstr "Søkjemotor"
 
 #: src/settings/SettingsSearchEnginePage.qml:20
 #, fuzzy, kde-format
-#| msgid "Custom"
 msgctxt "@label"
 msgid "Custom"
 msgstr "Tilpassa"
 
 #: src/settings/SettingsSearchEnginePage.qml:117
 #, fuzzy, kde-format
-#| msgid "Base URL of your preferred search engine"
 msgctxt "@label"
 msgid "Base URL of your preferred search engine"
 msgstr "Adressa til føretrekt søkjemotor"
