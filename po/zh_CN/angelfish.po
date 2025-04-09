@@ -85,7 +85,7 @@ msgstr "密码："
 #, kde-format
 msgctxt "Would you like to download (filename) from (domain)?"
 msgid "Would you like to download %1 from %2?"
-msgstr ""
+msgstr "您想从 %2 下载 %1 吗？"
 
 #: lib/contents/ui/DownloadQuestion.qml:25
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
