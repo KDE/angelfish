@@ -118,6 +118,8 @@ void BookmarksHistoryModel::fetchData()
                 QStringLiteral("SELECT rowid AS id, url, title, icon, ? - lastVisited AS lastVisitedDelta "
                                "FROM (SELECT * FROM bookmarks UNION SELECT * FROM history) "
                                "WHERE url LIKE '%' || ? || '%' OR title LIKE '%' || ? || '%' "
+                               "ORDER BY CASE WHEN rowid IN (SELECT rowid FROM history) THEN lastVisited END DESC, "
+                               "rowid "
                                "LIMIT %1").arg(QUERY_LIMIT),
                     currentTimeInUnix, filter, filter);
         } else if (bookmarks) {
@@ -131,6 +133,7 @@ void BookmarksHistoryModel::fetchData()
                 QStringLiteral("SELECT rowid AS id, url, title, icon, ? - lastVisited AS lastVisitedDelta "
                                "FROM history "
                                "WHERE url LIKE '%' || ? || '%' OR title LIKE '%' || ? || '%'"
+                               "ORDER BY lastvisited DESC "
                                "LIMIT  %1").arg(QUERY_LIMIT),
                     currentTimeInUnix, filter, filter);
         }
