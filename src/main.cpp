@@ -15,6 +15,8 @@
 #include <QtQml>
 #include <QtWebEngineQuick>
 
+#include <KAboutData>
+#include <KCrash>
 #include <KDBusService>
 #include <KLocalizedContext>
 #include <KLocalizedString>
@@ -81,6 +83,25 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     // QML loading
     QQmlApplicationEngine engine;
+
+	// Define your about data
+    KAboutData aboutData(
+        QStringLiteral("angelfish"),
+        i18n("Angelfish"),
+        QStringLiteral(ANGELFISH_VERSION_STRING),
+        i18n("Web browser for Plasma Mobile"),
+        KAboutLicense::GPL_V3,
+        i18n("© 2015-2024 KDE Community")
+    );
+
+    aboutData.addAuthor(i18n("Jonah Brüchert"), i18n("Maintainer"), QStringLiteral("jbb@kaidan.im"));
+    aboutData.setTranslator(i18nc("NAME OF TRANSLATORS", "Your names"), i18nc("EMAIL OF TRANSLATORS", "Your emails"));
+    aboutData.setOrganizationDomain("kde.org");
+    aboutData.setBugAddress("https://bugs.kde.org/describecomponents.cgi?product=angelfish");
+    KAboutData::setApplicationData(aboutData);
+
+    // Crash Handling
+    KCrash::initialize();
 
     // Open links in the already running window when e.g clicked on in another application.
     KDBusService service(KDBusService::Unique, &app);
@@ -205,6 +226,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QObject::connect(window, &QQuickWindow::yChanged, AngelfishSettings::self(), [window] {
         AngelfishSettings::setWindowY(window->y());
     });
-
+	
     return app.exec();
 }

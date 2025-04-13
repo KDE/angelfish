@@ -58,7 +58,7 @@ ecm_setup_version(${PROJECT_VERSION}
 
 find_package(Qt6 ${QT_MIN_VERSION} REQUIRED NO_MODULE COMPONENTS Core Quick Test Gui Svg QuickControls2 Sql Widgets)
 find_package(Qt6 ${QT_MIN_VERSION} OPTIONAL_COMPONENTS Feedback)
-find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami Purpose I18n Config CoreAddons DBusAddons WindowSystem Notifications OPTIONAL_COMPONENTS QQC2DesktopStyle)
+find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami Purpose I18n Config CoreAddons DBusAddons WindowSystem Notifications Crash OPTIONAL_COMPONENTS QQC2DesktopStyle)
 find_package(KF6KirigamiAddons 0.6 REQUIRED)
 set_package_properties(KF6QQC2DesktopStyle PROPERTIES TYPE RUNTIME)
 
