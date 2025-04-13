@@ -16,7 +16,7 @@ RowLayout {
     Shortcut {
         sequences: ["Ctrl+Tab", "Ctrl+PgDown"]
         onActivated: {
-            if (listview.currentIndex != listview.count -1) {
+            if (listview.currentIndex != listview.count - 1) {
                 tabs.currentIndex++;
             } else {
                 tabs.currentIndex = 0;
@@ -31,6 +31,12 @@ RowLayout {
             } else {
                 tabs.currentIndex--;
             }
+        }
+    }
+    Shortcut {
+        sequence: "Ctrl+Shift+T"
+        onActivated: {
+            tabs.tabsModel.reopenTab();
         }
     }
 
@@ -396,6 +402,13 @@ RowLayout {
             text: i18nc("@action:inmenu", "Close Tab")
             icon.name: "tab-close"
             onTriggered: tabs.tabsModel.closeTab(tabMenu.index)
+        }
+
+        Kirigami.Action {
+            text: i18nc("@action:inmenu", "Reopen Closed Tab")
+            icon.name: "edit-undo"
+            shortcut: "Ctrl+Shift+T"
+            onTriggered: tabs.tabsModel.reopenTab()
         }
     }
 }

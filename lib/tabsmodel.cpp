@@ -338,12 +338,35 @@ void TabsModel::closeTab(int index)
         }
     }
 
+    m_closedTabs.push_back(m_tabs[index]);
+    if (m_closedTabs.size() > 20)
+        m_closedTabs.pop_front();
+
     beginRemoveRows({}, index, index);
     m_tabs.erase(m_tabs.begin() + index);
     endRemoveRows();
 
     Q_EMIT currentTabChanged();
     saveTabs();
+}
+
+void TabsModel::reopenTab()
+{
+    if (!m_closedTabs.empty()) {
+        beginInsertRows({}, m_tabs.size(), m_tabs.size());
+
+        m_tabs.push_back(m_closedTabs.back());
+        m_closedTabs.pop_back();
+
+        endInsertRows();
+
+        // Switch to last tab
+        if (AngelfishSettings::self()->switchToNewTab()) {
+            m_currentTab = m_tabs.size() - 1;
+            Q_EMIT currentTabChanged();
+        }
+        saveTabs();
+    }
 }
 
 void TabsModel::setIsMobile(int index, bool isMobile)

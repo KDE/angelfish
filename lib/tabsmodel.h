@@ -71,6 +71,7 @@ public:
     Q_INVOKABLE void createEmptyTab();
     Q_INVOKABLE void setLatestTab();
     Q_INVOKABLE void closeTab(int index);
+    Q_INVOKABLE void reopenTab();
 
     Q_INVOKABLE void setUrl(int index, const QUrl &url);
     Q_INVOKABLE void setIsMobile(int index, bool isMobile);
@@ -90,6 +91,7 @@ protected:
 private:
     int m_currentTab = 0;
     std::vector<TabState> m_tabs{};
+    std::list<TabState> m_closedTabs{};
     bool m_privateMode = false;
     bool m_tabsReadOnly = false;
     bool m_isMobileDefault = false;
