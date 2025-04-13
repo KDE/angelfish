@@ -404,7 +404,7 @@ Kirigami.ApplicationWindow {
                 Layout.alignment: Qt.AlignRight
                 icon.name: "application-menu"
                 down: menu.visible
-                onPressed: menu.visible ? menu.close() : menu.popup(menuButton.x, menuButton.y + menuButton.height, webBrowser)
+                onPressed: menu.visible ? menu.close() : menu.popup(menuButton, menuButton.x, menuButton.y + menuButton.height)
             }
         }
     }
