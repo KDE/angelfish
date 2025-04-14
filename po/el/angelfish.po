@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-27 00:41+0000\n"
+"POT-Creation-Date: 2025-04-14 00:41+0000\n"
 "PO-Revision-Date: 2024-09-19 13:52+0300\n"
 "Last-Translator: Antonis Geralis <capoiosct@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -19,16 +19,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 24.08.1\n"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Stelios, Γιώργος Στεφανάκης"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "sstavra@gmail.com"
 
 #: angelfish-webapp/main.cpp:70
 #, kde-format
@@ -567,7 +557,7 @@ msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "Αναζήτηση ή εισαγωγή URL..."
 
-#: src/contents/ui/desktop/desktop.qml:254 src/contents/ui/desktop/Tabs.qml:355
+#: src/contents/ui/desktop/desktop.qml:254 src/contents/ui/desktop/Tabs.qml:361
 #: src/contents/ui/Navigation.qml:443
 #, kde-format
 msgctxt "@action:inmenu"
@@ -671,52 +661,60 @@ msgctxt "@info:placeholder"
 msgid "No history yet"
 msgstr "Κανένα ιστορικό ακόμη"
 
-#: src/contents/ui/desktop/Tabs.qml:232 src/contents/ui/Tabs.qml:276
+#: src/contents/ui/desktop/Tabs.qml:238 src/contents/ui/Tabs.qml:276
 #, kde-format
 msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr "Λειτουργία ανάγνωσης: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:261 src/contents/ui/Tabs.qml:307
+#: src/contents/ui/desktop/Tabs.qml:267 src/contents/ui/Tabs.qml:307
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close tab"
 msgstr "Κλείσιμο καρτέλας"
 
-#: src/contents/ui/desktop/Tabs.qml:291
+#: src/contents/ui/desktop/Tabs.qml:297
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open a new tab"
 msgstr "Άνοιγμα νέας καρτέλας"
 
-#: src/contents/ui/desktop/Tabs.qml:324
+#: src/contents/ui/desktop/Tabs.qml:330
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "List all tabs"
 msgstr "Προβολή όλων των καρτελών"
 
-#: src/contents/ui/desktop/Tabs.qml:364
+#: src/contents/ui/desktop/Tabs.qml:370
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reload Tab"
 msgstr "Επαναφόρτωση Καρτέλας"
 
-#: src/contents/ui/desktop/Tabs.qml:372
+#: src/contents/ui/desktop/Tabs.qml:378
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Duplicate Tab"
 msgstr "Διπλοποίηση καρτέλας"
 
-#: src/contents/ui/desktop/Tabs.qml:380
+#: src/contents/ui/desktop/Tabs.qml:386
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "Σελιδοδείκτη στην καρτέλα"
 
-#: src/contents/ui/desktop/Tabs.qml:396
+#: src/contents/ui/desktop/Tabs.qml:402
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
+msgstr "Κλείσιμο καρτέλας"
+
+#: src/contents/ui/desktop/Tabs.qml:408
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Close Tab"
+msgctxt "@action:inmenu"
+msgid "Reopen Closed Tab"
 msgstr "Κλείσιμο καρτέλας"
 
 #: src/contents/ui/Downloads.qml:17
@@ -896,10 +894,48 @@ msgctxt "@title:window"
 msgid "Share Page"
 msgstr "Διαμοιρασμός σελίδας"
 
-#: src/main.cpp:77
+#: src/main.cpp:79
 #, kde-format
 msgid "URL to open"
 msgstr "URL για άνοιγμα"
+
+#: src/main.cpp:90
+#, fuzzy, kde-format
+#| msgid "Configure Angelfish"
+msgid "Angelfish"
+msgstr "Διαμόρφωση Angelfish"
+
+#: src/main.cpp:92
+#, kde-format
+msgid "Web browser for Plasma Mobile"
+msgstr ""
+
+#: src/main.cpp:94
+#, kde-format
+msgid "© 2015-2024 KDE Community"
+msgstr ""
+
+#: src/main.cpp:97
+#, kde-format
+msgid "Jonah Brüchert"
+msgstr ""
+
+#: src/main.cpp:97
+#, kde-format
+msgid "Maintainer"
+msgstr ""
+
+#: src/main.cpp:98
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Stelios, Γιώργος Στεφανάκης"
+
+#: src/main.cpp:98
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sstavra@gmail.com"
 
 #: src/settings/AngelfishConfigurationView.qml:14
 #: src/settings/SettingsGeneral.qml:18
@@ -1235,9 +1271,6 @@ msgstr "Καμία ιστό-εφαρμογή δεν έχει εγκαταστα�
 
 #~ msgid "Show navigation bar"
 #~ msgstr "Εμφάνιση γραμμής πλοήγησης"
-
-#~ msgid "Configure Angelfish"
-#~ msgstr "Διαμόρφωση Angelfish"
 
 #~ msgid "Add"
 #~ msgstr "Προσθήκη"

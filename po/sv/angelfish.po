@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-27 00:41+0000\n"
+"POT-Creation-Date: 2025-04-14 00:41+0000\n"
 "PO-Revision-Date: 2025-03-26 17:52+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -16,16 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 24.12.0\n"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Stefan Asserhäll"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "stefan.asserhall@gmail.com"
 
 #: angelfish-webapp/main.cpp:70
 #, kde-format
@@ -544,7 +534,7 @@ msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "Sök efter eller ange webbadress…"
 
-#: src/contents/ui/desktop/desktop.qml:254 src/contents/ui/desktop/Tabs.qml:355
+#: src/contents/ui/desktop/desktop.qml:254 src/contents/ui/desktop/Tabs.qml:361
 #: src/contents/ui/Navigation.qml:443
 #, kde-format
 msgctxt "@action:inmenu"
@@ -647,52 +637,60 @@ msgctxt "@info:placeholder"
 msgid "No history yet"
 msgstr "Ingen historik ännu"
 
-#: src/contents/ui/desktop/Tabs.qml:232 src/contents/ui/Tabs.qml:276
+#: src/contents/ui/desktop/Tabs.qml:238 src/contents/ui/Tabs.qml:276
 #, kde-format
 msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr "Läsläge: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:261 src/contents/ui/Tabs.qml:307
+#: src/contents/ui/desktop/Tabs.qml:267 src/contents/ui/Tabs.qml:307
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close tab"
 msgstr "Stäng flik"
 
-#: src/contents/ui/desktop/Tabs.qml:291
+#: src/contents/ui/desktop/Tabs.qml:297
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open a new tab"
 msgstr "Öppna en ny flik"
 
-#: src/contents/ui/desktop/Tabs.qml:324
+#: src/contents/ui/desktop/Tabs.qml:330
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "List all tabs"
 msgstr "Lista alla flikar"
 
-#: src/contents/ui/desktop/Tabs.qml:364
+#: src/contents/ui/desktop/Tabs.qml:370
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reload Tab"
 msgstr "Uppdatera flik"
 
-#: src/contents/ui/desktop/Tabs.qml:372
+#: src/contents/ui/desktop/Tabs.qml:378
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Duplicate Tab"
 msgstr "Duplicera flik"
 
-#: src/contents/ui/desktop/Tabs.qml:380
+#: src/contents/ui/desktop/Tabs.qml:386
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "Bokmärk flik"
 
-#: src/contents/ui/desktop/Tabs.qml:396
+#: src/contents/ui/desktop/Tabs.qml:402
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
+msgstr "Stäng flik"
+
+#: src/contents/ui/desktop/Tabs.qml:408
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Close Tab"
+msgctxt "@action:inmenu"
+msgid "Reopen Closed Tab"
 msgstr "Stäng flik"
 
 #: src/contents/ui/Downloads.qml:17
@@ -867,10 +865,48 @@ msgctxt "@title:window"
 msgid "Share Page"
 msgstr "Dela sida"
 
-#: src/main.cpp:77
+#: src/main.cpp:79
 #, kde-format
 msgid "URL to open"
 msgstr "Webbadress att öppna"
+
+#: src/main.cpp:90
+#, fuzzy, kde-format
+#| msgid "Configure Angelfish"
+msgid "Angelfish"
+msgstr "Anpassa Angelfish"
+
+#: src/main.cpp:92
+#, kde-format
+msgid "Web browser for Plasma Mobile"
+msgstr ""
+
+#: src/main.cpp:94
+#, kde-format
+msgid "© 2015-2024 KDE Community"
+msgstr ""
+
+#: src/main.cpp:97
+#, kde-format
+msgid "Jonah Brüchert"
+msgstr ""
+
+#: src/main.cpp:97
+#, kde-format
+msgid "Maintainer"
+msgstr ""
+
+#: src/main.cpp:98
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Stefan Asserhäll"
+
+#: src/main.cpp:98
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "stefan.asserhall@gmail.com"
 
 #: src/settings/AngelfishConfigurationView.qml:14
 #: src/settings/SettingsGeneral.qml:18
@@ -1191,9 +1227,6 @@ msgstr "Inga webbapplikationer installerade"
 
 #~ msgid "Show navigation bar"
 #~ msgstr "Visa navigeringsrad"
-
-#~ msgid "Configure Angelfish"
-#~ msgstr "Anpassa Angelfish"
 
 #~ msgid "Add"
 #~ msgstr "Lägg till"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-27 00:41+0000\n"
+"POT-Creation-Date: 2025-04-14 00:41+0000\n"
 "PO-Revision-Date: 2025-03-19 13:15+0300\n"
 "Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
 "Language-Team: Basealt Translation Team\n"
@@ -19,16 +19,6 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 23.08.5\n"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Дмитрий Астанков, Олеся Герасименко"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "mornie@basealt.ru, translation-team@basealt.ru"
 
 #: angelfish-webapp/main.cpp:70
 #, kde-format
@@ -540,7 +530,7 @@ msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "Выполнить поиск или ввести URL-адрес…"
 
-#: src/contents/ui/desktop/desktop.qml:254 src/contents/ui/desktop/Tabs.qml:355
+#: src/contents/ui/desktop/desktop.qml:254 src/contents/ui/desktop/Tabs.qml:361
 #: src/contents/ui/Navigation.qml:443
 #, kde-format
 msgctxt "@action:inmenu"
@@ -643,52 +633,60 @@ msgctxt "@info:placeholder"
 msgid "No history yet"
 msgstr "В журнале ещё нет записей"
 
-#: src/contents/ui/desktop/Tabs.qml:232 src/contents/ui/Tabs.qml:276
+#: src/contents/ui/desktop/Tabs.qml:238 src/contents/ui/Tabs.qml:276
 #, kde-format
 msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr "Режим чтения: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:261 src/contents/ui/Tabs.qml:307
+#: src/contents/ui/desktop/Tabs.qml:267 src/contents/ui/Tabs.qml:307
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close tab"
 msgstr "Закрыть вкладку"
 
-#: src/contents/ui/desktop/Tabs.qml:291
+#: src/contents/ui/desktop/Tabs.qml:297
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open a new tab"
 msgstr "Открыть новую вкладку"
 
-#: src/contents/ui/desktop/Tabs.qml:324
+#: src/contents/ui/desktop/Tabs.qml:330
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "List all tabs"
 msgstr "Показать все вкладки"
 
-#: src/contents/ui/desktop/Tabs.qml:364
+#: src/contents/ui/desktop/Tabs.qml:370
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reload Tab"
 msgstr "Обновить вкладку"
 
-#: src/contents/ui/desktop/Tabs.qml:372
+#: src/contents/ui/desktop/Tabs.qml:378
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Duplicate Tab"
 msgstr "Создать копию вкладки"
 
-#: src/contents/ui/desktop/Tabs.qml:380
+#: src/contents/ui/desktop/Tabs.qml:386
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "Добавить вкладку в закладки"
 
-#: src/contents/ui/desktop/Tabs.qml:396
+#: src/contents/ui/desktop/Tabs.qml:402
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
+msgstr "Закрыть вкладку"
+
+#: src/contents/ui/desktop/Tabs.qml:408
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Close Tab"
+msgctxt "@action:inmenu"
+msgid "Reopen Closed Tab"
 msgstr "Закрыть вкладку"
 
 #: src/contents/ui/Downloads.qml:17
@@ -863,10 +861,48 @@ msgctxt "@title:window"
 msgid "Share Page"
 msgstr "Публикация страницы"
 
-#: src/main.cpp:77
+#: src/main.cpp:79
 #, kde-format
 msgid "URL to open"
 msgstr "URL-адрес для открытия"
+
+#: src/main.cpp:90
+#, fuzzy, kde-format
+#| msgid "Configure Angelfish"
+msgid "Angelfish"
+msgstr "Настройка Angelfish"
+
+#: src/main.cpp:92
+#, kde-format
+msgid "Web browser for Plasma Mobile"
+msgstr ""
+
+#: src/main.cpp:94
+#, kde-format
+msgid "© 2015-2024 KDE Community"
+msgstr ""
+
+#: src/main.cpp:97
+#, kde-format
+msgid "Jonah Brüchert"
+msgstr ""
+
+#: src/main.cpp:97
+#, kde-format
+msgid "Maintainer"
+msgstr ""
+
+#: src/main.cpp:98
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Дмитрий Астанков, Олеся Герасименко"
+
+#: src/main.cpp:98
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mornie@basealt.ru, translation-team@basealt.ru"
 
 #: src/settings/AngelfishConfigurationView.qml:14
 #: src/settings/SettingsGeneral.qml:18
@@ -1195,9 +1231,6 @@ msgstr "Установленные веб-приложения отсутств�
 
 #~ msgid "Show navigation bar"
 #~ msgstr "Показать панель навигации"
-
-#~ msgid "Configure Angelfish"
-#~ msgstr "Настройка Angelfish"
 
 #~ msgid "Add"
 #~ msgstr "Добавить"

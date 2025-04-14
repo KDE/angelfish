@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-27 00:41+0000\n"
+"POT-Creation-Date: 2025-04-14 00:41+0000\n"
 "PO-Revision-Date: 2025-04-08 00:25+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -17,16 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 23.08.5\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "박신조"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "kde@peremen.name"
 
 #: angelfish-webapp/main.cpp:70
 #, kde-format
@@ -548,7 +538,7 @@ msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "검색 또는 URL 입력…"
 
-#: src/contents/ui/desktop/desktop.qml:254 src/contents/ui/desktop/Tabs.qml:355
+#: src/contents/ui/desktop/desktop.qml:254 src/contents/ui/desktop/Tabs.qml:361
 #: src/contents/ui/Navigation.qml:443
 #, kde-format
 msgctxt "@action:inmenu"
@@ -651,52 +641,60 @@ msgctxt "@info:placeholder"
 msgid "No history yet"
 msgstr "과거 기록이 비어 있음"
 
-#: src/contents/ui/desktop/Tabs.qml:232 src/contents/ui/Tabs.qml:276
+#: src/contents/ui/desktop/Tabs.qml:238 src/contents/ui/Tabs.qml:276
 #, kde-format
 msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr "읽기 모드: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:261 src/contents/ui/Tabs.qml:307
+#: src/contents/ui/desktop/Tabs.qml:267 src/contents/ui/Tabs.qml:307
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close tab"
 msgstr "탭 닫기"
 
-#: src/contents/ui/desktop/Tabs.qml:291
+#: src/contents/ui/desktop/Tabs.qml:297
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open a new tab"
 msgstr "새 탭 열기"
 
-#: src/contents/ui/desktop/Tabs.qml:324
+#: src/contents/ui/desktop/Tabs.qml:330
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "List all tabs"
 msgstr "모든 탭 표시"
 
-#: src/contents/ui/desktop/Tabs.qml:364
+#: src/contents/ui/desktop/Tabs.qml:370
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reload Tab"
 msgstr "탭 새로 고침"
 
-#: src/contents/ui/desktop/Tabs.qml:372
+#: src/contents/ui/desktop/Tabs.qml:378
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Duplicate Tab"
 msgstr "탭 복제"
 
-#: src/contents/ui/desktop/Tabs.qml:380
+#: src/contents/ui/desktop/Tabs.qml:386
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "책갈피에 탭 추가"
 
-#: src/contents/ui/desktop/Tabs.qml:396
+#: src/contents/ui/desktop/Tabs.qml:402
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
+msgstr "탭 닫기"
+
+#: src/contents/ui/desktop/Tabs.qml:408
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Close Tab"
+msgctxt "@action:inmenu"
+msgid "Reopen Closed Tab"
 msgstr "탭 닫기"
 
 #: src/contents/ui/Downloads.qml:17
@@ -871,10 +869,48 @@ msgctxt "@title:window"
 msgid "Share Page"
 msgstr "페이지 공유"
 
-#: src/main.cpp:77
+#: src/main.cpp:79
 #, kde-format
 msgid "URL to open"
 msgstr "열 URL"
+
+#: src/main.cpp:90
+#, fuzzy, kde-format
+#| msgid "Configure Angelfish"
+msgid "Angelfish"
+msgstr "Angelfish 설정"
+
+#: src/main.cpp:92
+#, kde-format
+msgid "Web browser for Plasma Mobile"
+msgstr ""
+
+#: src/main.cpp:94
+#, kde-format
+msgid "© 2015-2024 KDE Community"
+msgstr ""
+
+#: src/main.cpp:97
+#, kde-format
+msgid "Jonah Brüchert"
+msgstr ""
+
+#: src/main.cpp:97
+#, kde-format
+msgid "Maintainer"
+msgstr ""
+
+#: src/main.cpp:98
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "박신조"
+
+#: src/main.cpp:98
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde@peremen.name"
 
 #: src/settings/AngelfishConfigurationView.qml:14
 #: src/settings/SettingsGeneral.qml:18
@@ -1192,9 +1228,6 @@ msgstr "설치한 웹 앱 없음"
 
 #~ msgid "Show navigation bar"
 #~ msgstr "탐색 표시줄 표시"
-
-#~ msgid "Configure Angelfish"
-#~ msgstr "Angelfish 설정"
 
 #~ msgid "Add"
 #~ msgstr "추가"
