@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-14 00:41+0000\n"
-"PO-Revision-Date: 2025-03-08 07:11+0100\n"
+"PO-Revision-Date: 2025-04-14 06:48+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 
 #: angelfish-webapp/main.cpp:70
 #, kde-format
@@ -509,7 +509,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info"
 msgid "Downloading…"
-msgstr "Prenašanje..."
+msgstr "Prenašanje…"
 
 #: src/contents/ui/Bookmarks.qml:13
 #, kde-format
@@ -687,12 +687,10 @@ msgid "Close Tab"
 msgstr "Zapri zavihek"
 
 #: src/contents/ui/desktop/Tabs.qml:408
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Close Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
-msgstr "Zapri zavihek"
+msgstr "Ponovno odpri zaprti zavihek"
 
 #: src/contents/ui/Downloads.qml:17
 #, kde-format
@@ -872,30 +870,29 @@ msgid "URL to open"
 msgstr "Spletni naslov za odpiranje"
 
 #: src/main.cpp:90
-#, fuzzy, kde-format
-#| msgid "Configure Angelfish"
+#, kde-format
 msgid "Angelfish"
-msgstr "Nastavi Angelfish"
+msgstr "Angelfish"
 
 #: src/main.cpp:92
 #, kde-format
 msgid "Web browser for Plasma Mobile"
-msgstr ""
+msgstr "Spletni brskalnik za Plasma Mobile"
 
 #: src/main.cpp:94
 #, kde-format
 msgid "© 2015-2024 KDE Community"
-msgstr ""
+msgstr "© 2015-2024 Skupnost KDE"
 
 #: src/main.cpp:97
 #, kde-format
 msgid "Jonah Brüchert"
-msgstr ""
+msgstr "Jonah Brüchert"
 
 #: src/main.cpp:97
 #, kde-format
 msgid "Maintainer"
-msgstr ""
+msgstr "Vzdrževalec"
 
 #: src/main.cpp:98
 #, kde-format

@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-14 00:41+0000\n"
-"PO-Revision-Date: 2025-03-08 10:26+0100\n"
+"PO-Revision-Date: 2025-04-14 11:33+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 24.12.3\n"
 "X-Accelerator-Marker: &\n"
 
 #: angelfish-webapp/main.cpp:70
@@ -696,12 +696,10 @@ msgid "Close Tab"
 msgstr "Tanca la pestanya"
 
 #: src/contents/ui/desktop/Tabs.qml:408
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Close Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
-msgstr "Tanca la pestanya"
+msgstr "Torna a obrir la pestanya tancada"
 
 #: src/contents/ui/Downloads.qml:17
 #, kde-format
@@ -883,27 +881,27 @@ msgstr "URL que s'ha d'obrir"
 #: src/main.cpp:90
 #, kde-format
 msgid "Angelfish"
-msgstr ""
+msgstr "Angelfish"
 
 #: src/main.cpp:92
 #, kde-format
 msgid "Web browser for Plasma Mobile"
-msgstr ""
+msgstr "Navegador web per a Plasma Mobile"
 
 #: src/main.cpp:94
 #, kde-format
 msgid "© 2015-2024 KDE Community"
-msgstr ""
+msgstr "© 2015-2024 Comunitat KDE"
 
 #: src/main.cpp:97
 #, kde-format
 msgid "Jonah Brüchert"
-msgstr ""
+msgstr "Jonah Brüchert"
 
 #: src/main.cpp:97
 #, kde-format
 msgid "Maintainer"
-msgstr ""
+msgstr "Mantenidor"
 
 #: src/main.cpp:98
 #, kde-format

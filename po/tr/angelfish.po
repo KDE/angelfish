@@ -699,12 +699,10 @@ msgid "Close Tab"
 msgstr "Sekmeyi Kapat"
 
 #: src/contents/ui/desktop/Tabs.qml:408
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Close Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
-msgstr "Sekmeyi Kapat"
+msgstr "Kapatılan Sekmeyi Yeniden Aç"
 
 #: src/contents/ui/Downloads.qml:17
 #, kde-format
@@ -886,27 +884,27 @@ msgstr "Açılacak URL"
 #: src/main.cpp:90
 #, kde-format
 msgid "Angelfish"
-msgstr ""
+msgstr "Melekbalığı"
 
 #: src/main.cpp:92
 #, kde-format
 msgid "Web browser for Plasma Mobile"
-msgstr ""
+msgstr "Plasma Cep için web tarayıcısı"
 
 #: src/main.cpp:94
 #, kde-format
 msgid "© 2015-2024 KDE Community"
-msgstr ""
+msgstr "© 2015–2024 KDE Topluluğu"
 
 #: src/main.cpp:97
 #, kde-format
 msgid "Jonah Brüchert"
-msgstr ""
+msgstr "Jonah Brüchert"
 
 #: src/main.cpp:97
 #, kde-format
 msgid "Maintainer"
-msgstr ""
+msgstr "Bakımcı"
 
 #: src/main.cpp:98
 #, kde-format

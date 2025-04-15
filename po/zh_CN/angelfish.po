@@ -676,12 +676,10 @@ msgid "Close Tab"
 msgstr "关闭标签页"
 
 #: src/contents/ui/desktop/Tabs.qml:408
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Close Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
-msgstr "关闭标签页"
+msgstr ""
 
 #: src/contents/ui/Downloads.qml:17
 #, kde-format

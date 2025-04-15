@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-14 00:41+0000\n"
-"PO-Revision-Date: 2025-03-08 08:57+0200\n"
+"PO-Revision-Date: 2025-04-14 10:05+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -690,12 +690,10 @@ msgid "Close Tab"
 msgstr "Закрити вкладку"
 
 #: src/contents/ui/desktop/Tabs.qml:408
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Close Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
-msgstr "Закрити вкладку"
+msgstr "Перевідкрити закриту вкладку"
 
 #: src/contents/ui/Downloads.qml:17
 #, kde-format
@@ -875,30 +873,29 @@ msgid "URL to open"
 msgstr "Адреса, яку слід відкрити"
 
 #: src/main.cpp:90
-#, fuzzy, kde-format
-#| msgid "Configure Angelfish"
+#, kde-format
 msgid "Angelfish"
-msgstr "Налаштувати Angelfish"
+msgstr "Angelfish"
 
 #: src/main.cpp:92
 #, kde-format
 msgid "Web browser for Plasma Mobile"
-msgstr ""
+msgstr "Браузер для мобільної Плазми"
 
 #: src/main.cpp:94
 #, kde-format
 msgid "© 2015-2024 KDE Community"
-msgstr ""
+msgstr "© Спільнота KDE, 2015–2024"
 
 #: src/main.cpp:97
 #, kde-format
 msgid "Jonah Brüchert"
-msgstr ""
+msgstr "Jonah Brüchert"
 
 #: src/main.cpp:97
 #, kde-format
 msgid "Maintainer"
-msgstr ""
+msgstr "Супровідник"
 
 #: src/main.cpp:98
 #, kde-format
