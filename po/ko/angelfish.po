@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-14 00:41+0000\n"
-"PO-Revision-Date: 2025-04-08 00:25+0200\n"
+"PO-Revision-Date: 2025-04-15 23:18+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -690,12 +690,10 @@ msgid "Close Tab"
 msgstr "탭 닫기"
 
 #: src/contents/ui/desktop/Tabs.qml:408
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Close Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
-msgstr "탭 닫기"
+msgstr "닫힌 탭 다시 열기"
 
 #: src/contents/ui/Downloads.qml:17
 #, kde-format
@@ -875,30 +873,29 @@ msgid "URL to open"
 msgstr "열 URL"
 
 #: src/main.cpp:90
-#, fuzzy, kde-format
-#| msgid "Configure Angelfish"
+#, kde-format
 msgid "Angelfish"
-msgstr "Angelfish 설정"
+msgstr "Angelfish"
 
 #: src/main.cpp:92
 #, kde-format
 msgid "Web browser for Plasma Mobile"
-msgstr ""
+msgstr "Plasma 모바일의 웹 브라우저"
 
 #: src/main.cpp:94
 #, kde-format
 msgid "© 2015-2024 KDE Community"
-msgstr ""
+msgstr "© 2015-2024 KDE Community"
 
 #: src/main.cpp:97
 #, kde-format
 msgid "Jonah Brüchert"
-msgstr ""
+msgstr "Jonah Brüchert"
 
 #: src/main.cpp:97
 #, kde-format
 msgid "Maintainer"
-msgstr ""
+msgstr "관리자"
 
 #: src/main.cpp:98
 #, kde-format

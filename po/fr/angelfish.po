@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-14 00:41+0000\n"
-"PO-Revision-Date: 2025-03-09 09:24+0100\n"
+"PO-Revision-Date: 2025-04-15 08:32+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -702,12 +702,10 @@ msgid "Close Tab"
 msgstr "Fermer un onglet"
 
 #: src/contents/ui/desktop/Tabs.qml:408
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Close Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
-msgstr "Fermer un onglet"
+msgstr "Ré-ouvrir un onglet fermé"
 
 #: src/contents/ui/Downloads.qml:17
 #, kde-format
@@ -887,30 +885,29 @@ msgid "URL to open"
 msgstr "URL à ouvrir"
 
 #: src/main.cpp:90
-#, fuzzy, kde-format
-#| msgid "Configure Angelfish"
+#, kde-format
 msgid "Angelfish"
-msgstr "Configurer Angelfish"
+msgstr "Angelfish"
 
 #: src/main.cpp:92
 #, kde-format
 msgid "Web browser for Plasma Mobile"
-msgstr ""
+msgstr "Navigateur Internet pour Plasma Mobile"
 
 #: src/main.cpp:94
 #, kde-format
 msgid "© 2015-2024 KDE Community"
-msgstr ""
+msgstr "© 2015 - 2024 Communauté de KDE"
 
 #: src/main.cpp:97
 #, kde-format
 msgid "Jonah Brüchert"
-msgstr ""
+msgstr "Jonah Brüchert"
 
 #: src/main.cpp:97
 #, kde-format
 msgid "Maintainer"
-msgstr ""
+msgstr "Mainteneur"
 
 #: src/main.cpp:98
 #, kde-format
