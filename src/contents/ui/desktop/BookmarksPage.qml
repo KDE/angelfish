@@ -36,7 +36,6 @@ Kirigami.ScrollablePage {
                     }
                 }
                 Keys.onEscapePressed: pageStack.pop()
-                Component.onCompleted: search.forceActiveFocus()
             }
             QQC2.ToolButton {
                 icon.name: "tab-close"
@@ -77,5 +76,12 @@ Kirigami.ScrollablePage {
 
             text: i18nc("@info:placeholder", "No bookmarks yet")
         }
+    }
+
+    Component.onCompleted: {
+        Qt.callLater(() => {
+            search.forceActiveFocus()
+            search.selectAll()
+        })
     }
 }

@@ -81,4 +81,11 @@ Kirigami.ScrollablePage {
         reuseItems: true
         delegate: delegateComponent
     }
+
+    Component.onCompleted: {
+        Qt.callLater(() => {
+            search.forceActiveFocus()
+            search.selectAll()
+        })
+    }
 }
