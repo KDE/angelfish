@@ -53,6 +53,10 @@ Kirigami.ApplicationWindow {
         window: webBrowser
     }
 
+    TabHistory {
+        id: historyMenu
+    }
+
     header: QQC2.ToolBar {
         id: toolbar
 
@@ -70,6 +74,16 @@ Kirigami.ApplicationWindow {
                     shortcut: StandardKey.Back
                     onTriggered: currentWebView.goBack()
                 }
+
+                MouseArea {
+                    anchors.fill: parent
+                    acceptedButtons: Qt.RightButton
+                    onClicked: {
+                        if (currentWebView.canGoBack) {
+                            historyMenu.showBackHistory()
+                        }
+                    }
+                }
             }
 
             QQC2.ToolButton {
@@ -80,6 +94,16 @@ Kirigami.ApplicationWindow {
                     icon.name: "go-next"
                     shortcut: StandardKey.Forward
                     onTriggered: currentWebView.goForward()
+                }
+
+                MouseArea {
+                    anchors.fill: parent
+                    acceptedButtons: Qt.RightButton
+                    onClicked: {
+                        if (currentWebView.canGoForward) {
+                            historyMenu.showForwardHistory()
+                        }
+                    }
                 }
             }
 
