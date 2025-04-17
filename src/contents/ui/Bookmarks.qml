@@ -11,6 +11,7 @@ import org.kde.angelfish.core as Core
 
 Kirigami.ScrollablePage {
     title: i18nc("@title:window", "Bookmarks")
+    objectName: "Bookmarks"
     Kirigami.ColumnView.fillWidth: false
 
     header: Item {

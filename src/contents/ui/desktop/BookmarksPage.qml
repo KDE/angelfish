@@ -13,6 +13,8 @@ import org.kde.angelfish
 import org.kde.angelfish.core as Core
 
 Kirigami.ScrollablePage {
+    objectName: "BookmarksPage"
+
     globalToolBarStyle: Kirigami.ApplicationHeaderStyle.None
     Kirigami.ColumnView.fillWidth: false
 

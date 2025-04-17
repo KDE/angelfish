@@ -20,6 +20,24 @@ Kirigami.ApplicationWindow {
     id: webBrowser
     title: i18nc("@title:window", "Angelfish Web Browser")
 
+    Shortcut {
+        sequence: "Ctrl+W"
+        onActivated: {
+            tabs.tabsModel.closeTab(tabs.currentIndex);
+        }
+    }
+
+    Shortcut {
+        sequence: "Ctrl+Shift+O"
+        onActivated: {
+            if(pageStack.currentItem.objectName == "Bookmarks"){
+                popSubPages();
+            } else {
+                pageStack.push(Qt.resolvedUrl("Bookmarks.qml"))
+            }
+        }
+    }
+
     /** Pointer to the currently active view.
      *
      * Browser-level functionality should use this to refer to the current

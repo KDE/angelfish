@@ -304,8 +304,11 @@ Kirigami.ApplicationWindow {
                     icon.name: "bookmarks"
                     shortcut: "Ctrl+Shift+O"
                     onTriggered: {
-                        popSubPages();
-                        webBrowser.pageStack.push(Qt.resolvedUrl("BookmarksPage.qml"))
+                        if(webBrowser.pageStack.currentItem.objectName == "BookmarksPage"){
+                            popSubPages();
+                        } else {
+                            webBrowser.pageStack.push(Qt.resolvedUrl("BookmarksPage.qml"))
+                        }
                     }
                 }
                 Kirigami.Action {
