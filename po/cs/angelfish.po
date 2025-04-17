@@ -858,7 +858,7 @@ msgstr "URL k otevření"
 #: src/main.cpp:90
 #, kde-format
 msgid "Angelfish"
-msgstr ""
+msgstr "Angelfish"
 
 #: src/main.cpp:92
 #, kde-format
@@ -873,12 +873,12 @@ msgstr ""
 #: src/main.cpp:97
 #, kde-format
 msgid "Jonah Brüchert"
-msgstr ""
+msgstr "Jonah Brüchert"
 
 #: src/main.cpp:97
 #, kde-format
 msgid "Maintainer"
-msgstr ""
+msgstr "Správce"
 
 #: src/main.cpp:98
 #, kde-format
