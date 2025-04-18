@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-14 00:41+0000\n"
+"POT-Creation-Date: 2025-04-18 00:41+0000\n"
 "PO-Revision-Date: 2020-08-12 20:25+0200\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -513,8 +513,8 @@ msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "Søg online efter \"%1\""
 
-#: lib/contents/ui/WebView.qml:592 src/contents/ui/desktop/desktop.qml:350
-#: src/contents/ui/mobile.qml:297
+#: lib/contents/ui/WebView.qml:592 src/contents/ui/desktop/desktop.qml:377
+#: src/contents/ui/mobile.qml:315
 #, fuzzy, kde-format
 #| msgid "Share page"
 msgctxt "@action:inmenu"
@@ -549,26 +549,26 @@ msgctxt "@title:window"
 msgid "Bookmarks"
 msgstr "Bogmærker"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:31
+#: src/contents/ui/desktop/BookmarksPage.qml:33
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search bookmarks…"
 msgstr ""
 
-#: src/contents/ui/desktop/BookmarksPage.qml:78
+#: src/contents/ui/desktop/BookmarksPage.qml:79
 #, fuzzy, kde-format
 #| msgid "Bookmarks"
 msgctxt "@info:placeholder"
 msgid "No bookmarks yet"
 msgstr "Bogmærker"
 
-#: src/contents/ui/desktop/desktop.qml:127
+#: src/contents/ui/desktop/desktop.qml:151
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:254 src/contents/ui/desktop/Tabs.qml:361
+#: src/contents/ui/desktop/desktop.qml:278 src/contents/ui/desktop/Tabs.qml:361
 #: src/contents/ui/Navigation.qml:443
 #, fuzzy, kde-format
 #| msgid "Close"
@@ -576,85 +576,85 @@ msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "Luk"
 
-#: src/contents/ui/desktop/desktop.qml:261 src/contents/ui/mobile.qml:74
+#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:92
 #, fuzzy, kde-format
 #| msgid "Leave private mode"
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
 msgstr "Forlad privattilstand"
 
-#: src/contents/ui/desktop/desktop.qml:261 src/contents/ui/mobile.qml:74
+#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:92
 #, fuzzy, kde-format
 #| msgid "Private mode"
 msgctxt "@action:inmenu"
 msgid "Private Mode"
 msgstr "Privattilstand"
 
-#: src/contents/ui/desktop/desktop.qml:270 src/contents/ui/mobile.qml:90
+#: src/contents/ui/desktop/desktop.qml:294 src/contents/ui/mobile.qml:108
 #, fuzzy, kde-format
 #| msgid "History"
 msgctxt "@action:inmenu"
 msgid "History"
 msgstr "Historik"
 
-#: src/contents/ui/desktop/desktop.qml:279 src/contents/ui/mobile.qml:82
+#: src/contents/ui/desktop/desktop.qml:303 src/contents/ui/mobile.qml:100
 #, fuzzy, kde-format
 #| msgid "Bookmarks"
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "Bogmærker"
 
-#: src/contents/ui/desktop/desktop.qml:288 src/contents/ui/mobile.qml:94
+#: src/contents/ui/desktop/desktop.qml:315 src/contents/ui/mobile.qml:112
 #, fuzzy, kde-format
 #| msgid "Download"
 msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "Download"
 
-#: src/contents/ui/desktop/desktop.qml:301
+#: src/contents/ui/desktop/desktop.qml:328
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:307
+#: src/contents/ui/desktop/desktop.qml:334
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:324
+#: src/contents/ui/desktop/desktop.qml:351
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:325 src/contents/ui/mobile.qml:393
+#: src/contents/ui/desktop/desktop.qml:352 src/contents/ui/mobile.qml:411
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:334 src/contents/ui/mobile.qml:293
+#: src/contents/ui/desktop/desktop.qml:361 src/contents/ui/mobile.qml:311
 #, fuzzy, kde-format
 #| msgid "Find in page"
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Find på siden"
 
-#: src/contents/ui/desktop/desktop.qml:343 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:370 src/contents/ui/mobile.qml:394
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:360
+#: src/contents/ui/desktop/desktop.qml:387
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr ""
 
-#: src/contents/ui/desktop/desktop.qml:379 src/contents/ui/mobile.qml:102
+#: src/contents/ui/desktop/desktop.qml:406 src/contents/ui/mobile.qml:120
 #, fuzzy, kde-format
 #| msgid "Settings"
 msgctxt "@action:inmenu"
@@ -820,76 +820,76 @@ msgctxt "@title:window"
 msgid "Angelfish Web Browser"
 msgstr "Angelfish webbrowser"
 
-#: src/contents/ui/mobile.qml:67
+#: src/contents/ui/mobile.qml:85
 #, fuzzy, kde-format
 #| msgid "Tabs"
 msgctxt "@action:inmenu"
 msgid "Tabs"
 msgstr "Faneblade"
 
-#: src/contents/ui/mobile.qml:308
+#: src/contents/ui/mobile.qml:326
 #, fuzzy, kde-format
 #| msgid "Add to homescreen"
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Føj til hjemmeskærm"
 
-#: src/contents/ui/mobile.qml:318
+#: src/contents/ui/mobile.qml:336
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Åbn i nyt faneblad"
 
-#: src/contents/ui/mobile.qml:326
+#: src/contents/ui/mobile.qml:344
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr ""
 
-#: src/contents/ui/mobile.qml:334
+#: src/contents/ui/mobile.qml:352
 #, fuzzy, kde-format
 #| msgid "Go forward"
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "Gå frem"
 
-#: src/contents/ui/mobile.qml:341
+#: src/contents/ui/mobile.qml:359
 #, fuzzy, kde-format
 #| msgid "Stop loading"
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Stop indlæsning"
 
-#: src/contents/ui/mobile.qml:341
+#: src/contents/ui/mobile.qml:359
 #, fuzzy, kde-format
 #| msgid "Refresh"
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Genopfrisk"
 
-#: src/contents/ui/mobile.qml:351
+#: src/contents/ui/mobile.qml:369
 #, fuzzy, kde-format
 #| msgid "Bookmarked"
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "Bogmærke gemt"
 
-#: src/contents/ui/mobile.qml:351
+#: src/contents/ui/mobile.qml:369
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Bogmærke"
 
-#: src/contents/ui/mobile.qml:367
+#: src/contents/ui/mobile.qml:385
 #, fuzzy, kde-format
 #| msgid "Show desktop site"
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Vis desktopside"
 
-#: src/contents/ui/mobile.qml:384
+#: src/contents/ui/mobile.qml:402
 #, fuzzy, kde-format
 #| msgid "Hide navigation bar"
 msgctxt "@action:inmenu"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-14 00:41+0000\n"
+"POT-Creation-Date: 2025-04-18 00:41+0000\n"
 "PO-Revision-Date: 2025-01-29 00:14+0200\n"
 "Last-Translator: Moo\n"
 "Language-Team: lt\n"
@@ -499,8 +499,8 @@ msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "Ieškoti „%1“"
 
-#: lib/contents/ui/WebView.qml:592 src/contents/ui/desktop/desktop.qml:350
-#: src/contents/ui/mobile.qml:297
+#: lib/contents/ui/WebView.qml:592 src/contents/ui/desktop/desktop.qml:377
+#: src/contents/ui/mobile.qml:315
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
@@ -533,104 +533,104 @@ msgctxt "@title:window"
 msgid "Bookmarks"
 msgstr "Žymelės"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:31
+#: src/contents/ui/desktop/BookmarksPage.qml:33
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search bookmarks…"
 msgstr "Ieškoti žymelių…"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:78
+#: src/contents/ui/desktop/BookmarksPage.qml:79
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No bookmarks yet"
 msgstr "Kol kas žymelių nėra"
 
-#: src/contents/ui/desktop/desktop.qml:127
+#: src/contents/ui/desktop/desktop.qml:151
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "Atlikite paiešką arba įveskite URL adresą…"
 
-#: src/contents/ui/desktop/desktop.qml:254 src/contents/ui/desktop/Tabs.qml:361
+#: src/contents/ui/desktop/desktop.qml:278 src/contents/ui/desktop/Tabs.qml:361
 #: src/contents/ui/Navigation.qml:443
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "Nauja kortelė"
 
-#: src/contents/ui/desktop/desktop.qml:261 src/contents/ui/mobile.qml:74
+#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:92
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
 msgstr "Išeiti iš privačios veiksenos"
 
-#: src/contents/ui/desktop/desktop.qml:261 src/contents/ui/mobile.qml:74
+#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:92
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Private Mode"
 msgstr "Privati veiksena"
 
-#: src/contents/ui/desktop/desktop.qml:270 src/contents/ui/mobile.qml:90
+#: src/contents/ui/desktop/desktop.qml:294 src/contents/ui/mobile.qml:108
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "History"
 msgstr "Istorija"
 
-#: src/contents/ui/desktop/desktop.qml:279 src/contents/ui/mobile.qml:82
+#: src/contents/ui/desktop/desktop.qml:303 src/contents/ui/mobile.qml:100
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "Žymelės"
 
-#: src/contents/ui/desktop/desktop.qml:288 src/contents/ui/mobile.qml:94
+#: src/contents/ui/desktop/desktop.qml:315 src/contents/ui/mobile.qml:112
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "Atsiuntimai"
 
-#: src/contents/ui/desktop/desktop.qml:301
+#: src/contents/ui/desktop/desktop.qml:328
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr "Spausdinti"
 
-#: src/contents/ui/desktop/desktop.qml:307
+#: src/contents/ui/desktop/desktop.qml:334
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr "Visas ekranas"
 
-#: src/contents/ui/desktop/desktop.qml:324
+#: src/contents/ui/desktop/desktop.qml:351
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Slėpti plėtotojo įrankius"
 
-#: src/contents/ui/desktop/desktop.qml:325 src/contents/ui/mobile.qml:393
+#: src/contents/ui/desktop/desktop.qml:352 src/contents/ui/mobile.qml:411
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Rodyti plėtotojo įrankius"
 
-#: src/contents/ui/desktop/desktop.qml:334 src/contents/ui/mobile.qml:293
+#: src/contents/ui/desktop/desktop.qml:361 src/contents/ui/mobile.qml:311
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Rasti puslapyje"
 
-#: src/contents/ui/desktop/desktop.qml:343 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:370 src/contents/ui/mobile.qml:394
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Skaitytojo veiksena"
 
-#: src/contents/ui/desktop/desktop.qml:360
+#: src/contents/ui/desktop/desktop.qml:387
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "Pridėti į programų paleidyklę"
 
-#: src/contents/ui/desktop/desktop.qml:379 src/contents/ui/mobile.qml:102
+#: src/contents/ui/desktop/desktop.qml:406 src/contents/ui/mobile.qml:120
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Settings"
@@ -782,67 +782,67 @@ msgctxt "@title:window"
 msgid "Angelfish Web Browser"
 msgstr "Angelfish saityno naršyklė"
 
-#: src/contents/ui/mobile.qml:67
+#: src/contents/ui/mobile.qml:85
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Tabs"
 msgstr "Kortelės"
 
-#: src/contents/ui/mobile.qml:308
+#: src/contents/ui/mobile.qml:326
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Pridėti į pradžios ekraną"
 
-#: src/contents/ui/mobile.qml:318
+#: src/contents/ui/mobile.qml:336
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Atverti programėlėje"
 
-#: src/contents/ui/mobile.qml:326
+#: src/contents/ui/mobile.qml:344
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr "Grįžti"
 
-#: src/contents/ui/mobile.qml:334
+#: src/contents/ui/mobile.qml:352
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "Eiti pirmyn"
 
-#: src/contents/ui/mobile.qml:341
+#: src/contents/ui/mobile.qml:359
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Stabdyti įkėlimą"
 
-#: src/contents/ui/mobile.qml:341
+#: src/contents/ui/mobile.qml:359
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Įkelti iš naujo"
 
-#: src/contents/ui/mobile.qml:351
+#: src/contents/ui/mobile.qml:369
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "Įrašyta į žymeles"
 
-#: src/contents/ui/mobile.qml:351
+#: src/contents/ui/mobile.qml:369
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Įrašyti į žymeles"
 
-#: src/contents/ui/mobile.qml:367
+#: src/contents/ui/mobile.qml:385
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Rodyti darbalaukiui skirtą svetainės versiją"
 
-#: src/contents/ui/mobile.qml:384
+#: src/contents/ui/mobile.qml:402
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"

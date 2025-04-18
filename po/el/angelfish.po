@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-14 00:41+0000\n"
+"POT-Creation-Date: 2025-04-18 00:41+0000\n"
 "PO-Revision-Date: 2024-09-19 13:52+0300\n"
 "Last-Translator: Antonis Geralis <capoiosct@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -502,8 +502,8 @@ msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "Αναζήτηση σε σύνδεση για το '%1'"
 
-#: lib/contents/ui/WebView.qml:592 src/contents/ui/desktop/desktop.qml:350
-#: src/contents/ui/mobile.qml:297
+#: lib/contents/ui/WebView.qml:592 src/contents/ui/desktop/desktop.qml:377
+#: src/contents/ui/mobile.qml:315
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
@@ -539,104 +539,104 @@ msgctxt "@title:window"
 msgid "Bookmarks"
 msgstr "Σελιδοδείκτες"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:31
+#: src/contents/ui/desktop/BookmarksPage.qml:33
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search bookmarks…"
 msgstr "Αναζήτηση στους σελιδοδείκτες…"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:78
+#: src/contents/ui/desktop/BookmarksPage.qml:79
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No bookmarks yet"
 msgstr "Κανένας σελιδοδείκτης ακόμη"
 
-#: src/contents/ui/desktop/desktop.qml:127
+#: src/contents/ui/desktop/desktop.qml:151
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "Αναζήτηση ή εισαγωγή URL..."
 
-#: src/contents/ui/desktop/desktop.qml:254 src/contents/ui/desktop/Tabs.qml:361
+#: src/contents/ui/desktop/desktop.qml:278 src/contents/ui/desktop/Tabs.qml:361
 #: src/contents/ui/Navigation.qml:443
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "Νέα καρτέλα"
 
-#: src/contents/ui/desktop/desktop.qml:261 src/contents/ui/mobile.qml:74
+#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:92
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
 msgstr "Να παραμείνει σε ιδιωτική λειτουργία"
 
-#: src/contents/ui/desktop/desktop.qml:261 src/contents/ui/mobile.qml:74
+#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:92
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Private Mode"
 msgstr "Ιδιωτική λειτουργία"
 
-#: src/contents/ui/desktop/desktop.qml:270 src/contents/ui/mobile.qml:90
+#: src/contents/ui/desktop/desktop.qml:294 src/contents/ui/mobile.qml:108
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "History"
 msgstr "Ιστορικό"
 
-#: src/contents/ui/desktop/desktop.qml:279 src/contents/ui/mobile.qml:82
+#: src/contents/ui/desktop/desktop.qml:303 src/contents/ui/mobile.qml:100
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "Σελιδοδείκτες"
 
-#: src/contents/ui/desktop/desktop.qml:288 src/contents/ui/mobile.qml:94
+#: src/contents/ui/desktop/desktop.qml:315 src/contents/ui/mobile.qml:112
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "Λήψεις"
 
-#: src/contents/ui/desktop/desktop.qml:301
+#: src/contents/ui/desktop/desktop.qml:328
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr "Εκτύπωση"
 
-#: src/contents/ui/desktop/desktop.qml:307
+#: src/contents/ui/desktop/desktop.qml:334
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr "Πλήρης οθόνη"
 
-#: src/contents/ui/desktop/desktop.qml:324
+#: src/contents/ui/desktop/desktop.qml:351
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Απόκρυψη εργαλείων προγραμματιστή"
 
-#: src/contents/ui/desktop/desktop.qml:325 src/contents/ui/mobile.qml:393
+#: src/contents/ui/desktop/desktop.qml:352 src/contents/ui/mobile.qml:411
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Εμφάνιση εργαλείων προγραμματιστή"
 
-#: src/contents/ui/desktop/desktop.qml:334 src/contents/ui/mobile.qml:293
+#: src/contents/ui/desktop/desktop.qml:361 src/contents/ui/mobile.qml:311
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Εύρεση σε σελίδα"
 
-#: src/contents/ui/desktop/desktop.qml:343 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:370 src/contents/ui/mobile.qml:394
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Λειτουργία ανάγνωσης"
 
-#: src/contents/ui/desktop/desktop.qml:360
+#: src/contents/ui/desktop/desktop.qml:387
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "Προσθήκη στον εκτελεστή εφαρμογών"
 
-#: src/contents/ui/desktop/desktop.qml:379 src/contents/ui/mobile.qml:102
+#: src/contents/ui/desktop/desktop.qml:406 src/contents/ui/mobile.qml:120
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Settings"
@@ -790,67 +790,67 @@ msgctxt "@title:window"
 msgid "Angelfish Web Browser"
 msgstr "Περιηγητής ιστού Angelfish"
 
-#: src/contents/ui/mobile.qml:67
+#: src/contents/ui/mobile.qml:85
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Tabs"
 msgstr "Καρτέλες"
 
-#: src/contents/ui/mobile.qml:308
+#: src/contents/ui/mobile.qml:326
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Προσθήκη στην προσωπική οθόνη"
 
-#: src/contents/ui/mobile.qml:318
+#: src/contents/ui/mobile.qml:336
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Άνοιγμα σε εφαρμογή"
 
-#: src/contents/ui/mobile.qml:326
+#: src/contents/ui/mobile.qml:344
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr ""
 
-#: src/contents/ui/mobile.qml:334
+#: src/contents/ui/mobile.qml:352
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "Μετάβαση στην επόμενη"
 
-#: src/contents/ui/mobile.qml:341
+#: src/contents/ui/mobile.qml:359
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Διακοπή φόρτωσης"
 
-#: src/contents/ui/mobile.qml:341
+#: src/contents/ui/mobile.qml:359
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Ανανέωση"
 
-#: src/contents/ui/mobile.qml:351
+#: src/contents/ui/mobile.qml:369
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "Στους σελιδοδείκτες"
 
-#: src/contents/ui/mobile.qml:351
+#: src/contents/ui/mobile.qml:369
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Σελιδοδείκτης"
 
-#: src/contents/ui/mobile.qml:367
+#: src/contents/ui/mobile.qml:385
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Εμφάνιση τόπου επιφάνειας εργασίας"
 
-#: src/contents/ui/mobile.qml:384
+#: src/contents/ui/mobile.qml:402
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"

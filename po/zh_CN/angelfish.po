@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-14 00:41+0000\n"
+"POT-Creation-Date: 2025-04-18 00:41+0000\n"
 "PO-Revision-Date: 2024-04-22 15:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -474,8 +474,8 @@ msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "搜索 “%1”"
 
-#: lib/contents/ui/WebView.qml:592 src/contents/ui/desktop/desktop.qml:350
-#: src/contents/ui/mobile.qml:297
+#: lib/contents/ui/WebView.qml:592 src/contents/ui/desktop/desktop.qml:377
+#: src/contents/ui/mobile.qml:315
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
@@ -506,104 +506,104 @@ msgctxt "@title:window"
 msgid "Bookmarks"
 msgstr "书签"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:31
+#: src/contents/ui/desktop/BookmarksPage.qml:33
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search bookmarks…"
 msgstr "搜索书签…"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:78
+#: src/contents/ui/desktop/BookmarksPage.qml:79
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No bookmarks yet"
 msgstr "没有书签"
 
-#: src/contents/ui/desktop/desktop.qml:127
+#: src/contents/ui/desktop/desktop.qml:151
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "搜索或输入 URL..."
 
-#: src/contents/ui/desktop/desktop.qml:254 src/contents/ui/desktop/Tabs.qml:361
+#: src/contents/ui/desktop/desktop.qml:278 src/contents/ui/desktop/Tabs.qml:361
 #: src/contents/ui/Navigation.qml:443
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "新建标签页"
 
-#: src/contents/ui/desktop/desktop.qml:261 src/contents/ui/mobile.qml:74
+#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:92
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
 msgstr "离开隐私模式"
 
-#: src/contents/ui/desktop/desktop.qml:261 src/contents/ui/mobile.qml:74
+#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:92
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Private Mode"
 msgstr "隐私模式"
 
-#: src/contents/ui/desktop/desktop.qml:270 src/contents/ui/mobile.qml:90
+#: src/contents/ui/desktop/desktop.qml:294 src/contents/ui/mobile.qml:108
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "History"
 msgstr "历史记录"
 
-#: src/contents/ui/desktop/desktop.qml:279 src/contents/ui/mobile.qml:82
+#: src/contents/ui/desktop/desktop.qml:303 src/contents/ui/mobile.qml:100
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "书签"
 
-#: src/contents/ui/desktop/desktop.qml:288 src/contents/ui/mobile.qml:94
+#: src/contents/ui/desktop/desktop.qml:315 src/contents/ui/mobile.qml:112
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "下载"
 
-#: src/contents/ui/desktop/desktop.qml:301
+#: src/contents/ui/desktop/desktop.qml:328
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr "打印"
 
-#: src/contents/ui/desktop/desktop.qml:307
+#: src/contents/ui/desktop/desktop.qml:334
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr "全屏"
 
-#: src/contents/ui/desktop/desktop.qml:324
+#: src/contents/ui/desktop/desktop.qml:351
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "隐藏开发者工具"
 
-#: src/contents/ui/desktop/desktop.qml:325 src/contents/ui/mobile.qml:393
+#: src/contents/ui/desktop/desktop.qml:352 src/contents/ui/mobile.qml:411
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "显示开发者工具"
 
-#: src/contents/ui/desktop/desktop.qml:334 src/contents/ui/mobile.qml:293
+#: src/contents/ui/desktop/desktop.qml:361 src/contents/ui/mobile.qml:311
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "查找页面中的内容"
 
-#: src/contents/ui/desktop/desktop.qml:343 src/contents/ui/mobile.qml:376
+#: src/contents/ui/desktop/desktop.qml:370 src/contents/ui/mobile.qml:394
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "阅读模式"
 
-#: src/contents/ui/desktop/desktop.qml:360
+#: src/contents/ui/desktop/desktop.qml:387
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "添加到应用程序启动器"
 
-#: src/contents/ui/desktop/desktop.qml:379 src/contents/ui/mobile.qml:102
+#: src/contents/ui/desktop/desktop.qml:406 src/contents/ui/mobile.qml:120
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Settings"
@@ -753,67 +753,67 @@ msgctxt "@title:window"
 msgid "Angelfish Web Browser"
 msgstr "Angelfish 网页浏览器"
 
-#: src/contents/ui/mobile.qml:67
+#: src/contents/ui/mobile.qml:85
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Tabs"
 msgstr "标签页"
 
-#: src/contents/ui/mobile.qml:308
+#: src/contents/ui/mobile.qml:326
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "添加到主屏幕"
 
-#: src/contents/ui/mobile.qml:318
+#: src/contents/ui/mobile.qml:336
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "在应用程序中打开"
 
-#: src/contents/ui/mobile.qml:326
+#: src/contents/ui/mobile.qml:344
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr "后退"
 
-#: src/contents/ui/mobile.qml:334
+#: src/contents/ui/mobile.qml:352
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "前进"
 
-#: src/contents/ui/mobile.qml:341
+#: src/contents/ui/mobile.qml:359
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "停止加载"
 
-#: src/contents/ui/mobile.qml:341
+#: src/contents/ui/mobile.qml:359
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "刷新"
 
-#: src/contents/ui/mobile.qml:351
+#: src/contents/ui/mobile.qml:369
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "已添加书签"
 
-#: src/contents/ui/mobile.qml:351
+#: src/contents/ui/mobile.qml:369
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "书签"
 
-#: src/contents/ui/mobile.qml:367
+#: src/contents/ui/mobile.qml:385
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "显示桌面版网站"
 
-#: src/contents/ui/mobile.qml:384
+#: src/contents/ui/mobile.qml:402
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
