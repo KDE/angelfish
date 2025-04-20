@@ -54,7 +54,6 @@ target_link_libraries(angelfish PRIVATE
     Qt::Widgets
     Qt::WebEngineCore
     Qt::WebEngineQuick
-    Qt::WebEngineQuickPrivate
     KF6::I18n
     KF6::CoreAddons
     KF6::ConfigCore
