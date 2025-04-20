@@ -52,7 +52,6 @@ target_link_libraries(angelfish PRIVATE
     Qt::Sql
     Qt::Svg
     Qt::Widgets
-    Qt::CorePrivate
     Qt::WebEngineCore
     Qt::WebEngineQuick
     Qt::WebEngineQuickPrivate
