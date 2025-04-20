@@ -34,6 +34,18 @@ Kirigami.InlineMessage {
                 downloadAction.enabled = false;
                 downloadAction.text = i18nc("@info", "Downloading…")
             }
+        },
+        Kirigami.Action {
+            id: disableAction
+            icon.name: "dialog-cancel"
+            text: i18nc("@action:button", "Disable Adblock")
+
+            onTriggered: {
+                AdblockUrlInterceptor.enabled = false;
+                disableAction.enabled = false;
+                downloadAction.enabled = false;
+                disableAction.text = i18nc("@info", "Adblock Disabled…")
+            }
         }
     ]
 }
