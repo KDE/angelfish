@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-18 00:41+0000\n"
+"POT-Creation-Date: 2025-04-21 00:41+0000\n"
 "PO-Revision-Date: 2025-04-17 12:04+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -509,6 +509,19 @@ msgstr "Reklamblockeringen saknar sina filterlistor. Vill du ladda ner dem nu?"
 msgctxt "@info"
 msgid "Downloading…"
 msgstr "Laddar ner..."
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:41
+#, fuzzy, kde-format
+#| msgid "Enable Adblock"
+msgctxt "@action:button"
+msgid "Disable Adblock"
+msgstr "Aktivera reklamblockering"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:47
+#, kde-format
+msgctxt "@info"
+msgid "Adblock Disabled…"
+msgstr ""
 
 #: src/contents/ui/Bookmarks.qml:13
 #, kde-format
@@ -1245,9 +1258,6 @@ msgstr "Inga webbapplikationer installerade"
 
 #~ msgid "General:"
 #~ msgstr "Allmänt:"
-
-#~ msgid "Enable Adblock"
-#~ msgstr "Aktivera reklamblockering"
 
 #~ msgid "Home"
 #~ msgstr "Hem"

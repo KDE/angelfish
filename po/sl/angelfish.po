@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-18 00:41+0000\n"
+"POT-Creation-Date: 2025-04-21 00:41+0000\n"
 "PO-Revision-Date: 2025-04-14 06:48+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -510,6 +510,19 @@ msgstr ""
 msgctxt "@info"
 msgid "Downloading…"
 msgstr "Prenašanje…"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:41
+#, fuzzy, kde-format
+#| msgid "Enable Adblock"
+msgctxt "@action:button"
+msgid "Disable Adblock"
+msgstr "Omogoči blokiranje oglasov"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:47
+#, kde-format
+msgctxt "@info"
+msgid "Adblock Disabled…"
+msgstr ""
 
 #: src/contents/ui/Bookmarks.qml:13
 #, kde-format
@@ -1247,9 +1260,6 @@ msgstr "Ni nameščenih spletnih aplikacij"
 
 #~ msgid "General:"
 #~ msgstr "Splošno:"
-
-#~ msgid "Enable Adblock"
-#~ msgstr "Omogoči blokiranje oglasov"
 
 #~ msgid "Home"
 #~ msgstr "Domov"

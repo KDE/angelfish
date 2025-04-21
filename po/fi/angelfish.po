@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-18 00:41+0000\n"
+"POT-Creation-Date: 2025-04-21 00:41+0000\n"
 "PO-Revision-Date: 2025-03-23 16:00+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -502,6 +502,19 @@ msgstr "Mainosestolta puuttuvat suodatinluettelot: haluatko ladata ne nyt?"
 msgctxt "@info"
 msgid "Downloading…"
 msgstr "Ladataan…"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:41
+#, fuzzy, kde-format
+#| msgid "Enable Adblock"
+msgctxt "@action:button"
+msgid "Disable Adblock"
+msgstr "Käytä mainosestoa"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:47
+#, kde-format
+msgctxt "@info"
+msgid "Adblock Disabled…"
+msgstr ""
 
 #: src/contents/ui/Bookmarks.qml:13
 #, kde-format
@@ -1238,9 +1251,6 @@ msgstr "Ei asennettuja verkkosovelluksia"
 
 #~ msgid "OK"
 #~ msgstr "OK"
-
-#~ msgid "Enable Adblock"
-#~ msgstr "Käytä mainosestoa"
 
 #, fuzzy
 #~| msgid "Homepage"

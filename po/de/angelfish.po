@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-18 00:41+0000\n"
+"POT-Creation-Date: 2025-04-21 00:41+0000\n"
 "PO-Revision-Date: 2024-06-12 22:29+0200\n"
 "Last-Translator: Alois Spitzbart <spitz234@hotmail.com>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -585,6 +585,19 @@ msgstr ""
 msgctxt "@info"
 msgid "Downloading…"
 msgstr "Wird heruntergeladen ..."
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:41
+#, fuzzy, kde-format
+#| msgid "Enable Adblock"
+msgctxt "@action:button"
+msgid "Disable Adblock"
+msgstr "Werbefilter aktivieren"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:47
+#, kde-format
+msgctxt "@info"
+msgid "Adblock Disabled…"
+msgstr ""
 
 #: src/contents/ui/Bookmarks.qml:13
 #, fuzzy, kde-format
@@ -1422,9 +1435,6 @@ msgstr ""
 
 #~ msgid "OK"
 #~ msgstr "OK"
-
-#~ msgid "Enable Adblock"
-#~ msgstr "Werbefilter aktivieren"
 
 #, fuzzy
 #~| msgid "Homepage"

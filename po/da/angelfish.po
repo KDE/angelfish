@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-18 00:41+0000\n"
+"POT-Creation-Date: 2025-04-21 00:41+0000\n"
 "PO-Revision-Date: 2020-08-12 20:25+0200\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -541,6 +541,18 @@ msgstr ""
 msgctxt "@info"
 msgid "Downloading…"
 msgstr "Download"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:41
+#, kde-format
+msgctxt "@action:button"
+msgid "Disable Adblock"
+msgstr ""
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:47
+#, kde-format
+msgctxt "@info"
+msgid "Adblock Disabled…"
+msgstr ""
 
 #: src/contents/ui/Bookmarks.qml:13
 #, fuzzy, kde-format

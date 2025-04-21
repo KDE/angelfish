@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-18 00:41+0000\n"
+"POT-Creation-Date: 2025-04-21 00:41+0000\n"
 "PO-Revision-Date: 2025-04-17 09:45+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -502,6 +502,20 @@ msgstr "حاجب الإعلان ينقصه قوائم المرشحات. هل ت�
 msgctxt "@info"
 msgid "Downloading…"
 msgstr "يُنزّل…"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:41
+#, fuzzy, kde-format
+#| msgctxt "@label:checkbox"
+#| msgid "Enable adblock"
+msgctxt "@action:button"
+msgid "Disable Adblock"
+msgstr "فعل حاجب الإعلانات"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:47
+#, kde-format
+msgctxt "@info"
+msgid "Adblock Disabled…"
+msgstr ""
 
 #: src/contents/ui/Bookmarks.qml:13
 #, kde-format

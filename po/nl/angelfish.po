@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-18 00:41+0000\n"
+"POT-Creation-Date: 2025-04-21 00:41+0000\n"
 "PO-Revision-Date: 2025-04-14 11:49+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -511,6 +511,19 @@ msgstr ""
 msgctxt "@info"
 msgid "Downloading…"
 msgstr "Bezig met downloaden…"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:41
+#, fuzzy, kde-format
+#| msgid "Enable Adblock"
+msgctxt "@action:button"
+msgid "Disable Adblock"
+msgstr "Ad-block inschakelen"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:47
+#, kde-format
+msgctxt "@info"
+msgid "Adblock Disabled…"
+msgstr ""
 
 #: src/contents/ui/Bookmarks.qml:13
 #, kde-format
@@ -1249,9 +1262,6 @@ msgstr "Geen webtoepassingen geïnstalleerd"
 
 #~ msgid "General:"
 #~ msgstr "Algemeen:"
-
-#~ msgid "Enable Adblock"
-#~ msgstr "Ad-block inschakelen"
 
 #~ msgid "Home"
 #~ msgstr "Home"

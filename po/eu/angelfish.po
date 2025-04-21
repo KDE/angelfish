@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-18 00:41+0000\n"
+"POT-Creation-Date: 2025-04-21 00:41+0000\n"
 "PO-Revision-Date: 2025-03-22 15:06+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -510,6 +510,19 @@ msgstr ""
 msgctxt "@info"
 msgid "Downloading…"
 msgstr "Zama-jaisten..."
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:41
+#, fuzzy, kde-format
+#| msgid "Enable Adblock"
+msgctxt "@action:button"
+msgid "Disable Adblock"
+msgstr "Gaitu iragarkiak blokeatzea"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:47
+#, kde-format
+msgctxt "@info"
+msgid "Adblock Disabled…"
+msgstr ""
 
 #: src/contents/ui/Bookmarks.qml:13
 #, kde-format
@@ -1251,9 +1264,6 @@ msgstr "Ez dago web-aplikaziorik instalatuta"
 
 #~ msgid "OK"
 #~ msgstr "Ados"
-
-#~ msgid "Enable Adblock"
-#~ msgstr "Gaitu iragarkiak blokeatzea"
 
 #, fuzzy
 #~| msgid "Homepage"

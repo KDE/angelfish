@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-18 00:41+0000\n"
+"POT-Creation-Date: 2025-04-21 00:41+0000\n"
 "PO-Revision-Date: 2024-12-19 22:25-0600\n"
 "Last-Translator: aalam <aalam@punlinux.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -581,6 +581,19 @@ msgstr ""
 msgctxt "@info"
 msgid "Downloading…"
 msgstr "ਡਾਊਨਲੋਡ ਜਾਰੀ ਹੈ…"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:41
+#, fuzzy, kde-format
+#| msgid "Enable Adblock"
+msgctxt "@action:button"
+msgid "Disable Adblock"
+msgstr "ਇਸ਼ਤਿਹਾਰ-ਰੋਕੂ ਸਮਰੱਥ ਕਰੋ"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:47
+#, kde-format
+msgctxt "@info"
+msgid "Adblock Disabled…"
+msgstr ""
 
 #: src/contents/ui/Bookmarks.qml:13
 #, fuzzy, kde-format
@@ -1404,9 +1417,6 @@ msgstr "ਕੋਈ ਵੈੱਬ ਐਪ ਇੰਸਟਾਲ ਨਹੀਂ ਹੈ"
 
 #~ msgid "OK"
 #~ msgstr "ਠੀਕ ਹੈ"
-
-#~ msgid "Enable Adblock"
-#~ msgstr "ਇਸ਼ਤਿਹਾਰ-ਰੋਕੂ ਸਮਰੱਥ ਕਰੋ"
 
 #~ msgid "Adblock filter lists"
 #~ msgstr "ਇਸ਼ਤਿਹਾਰ-ਰੋਕੂ ਫਿਲਟਰ ਸੂਚੀਆਂ"

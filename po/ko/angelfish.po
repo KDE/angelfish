@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-18 00:41+0000\n"
+"POT-Creation-Date: 2025-04-21 00:41+0000\n"
 "PO-Revision-Date: 2025-04-15 23:18+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -513,6 +513,19 @@ msgstr "광고 차단기 필터가 비어 있습니다. 지금 다운로드하�
 msgctxt "@info"
 msgid "Downloading…"
 msgstr "다운로드 중…"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:41
+#, fuzzy, kde-format
+#| msgid "Enable Adblock"
+msgctxt "@action:button"
+msgid "Disable Adblock"
+msgstr "광고 차단 활성화"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:47
+#, kde-format
+msgctxt "@info"
+msgid "Adblock Disabled…"
+msgstr ""
 
 #: src/contents/ui/Bookmarks.qml:13
 #, kde-format
@@ -1243,9 +1256,6 @@ msgstr "설치한 웹 앱 없음"
 
 #~ msgid "OK"
 #~ msgstr "확인"
-
-#~ msgid "Enable Adblock"
-#~ msgstr "광고 차단 활성화"
 
 #, fuzzy
 #~| msgid "Homepage"

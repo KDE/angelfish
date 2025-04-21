@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-18 00:41+0000\n"
+"POT-Creation-Date: 2025-04-21 00:41+0000\n"
 "PO-Revision-Date: 2023-05-29 19:05+0400\n"
 "Last-Translator: Kheyyam <xxmn77@gmail.com>\n"
 "Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
@@ -567,6 +567,19 @@ msgstr "Reklam bloklayıcında filtr siyahısı yoxdur, onlar indi yüklənsin?"
 msgctxt "@info"
 msgid "Downloading…"
 msgstr "Yüklənir..."
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:41
+#, fuzzy, kde-format
+#| msgid "Enable Adblock"
+msgctxt "@action:button"
+msgid "Disable Adblock"
+msgstr "ASBlock'u aktivləşdirmək"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:47
+#, kde-format
+msgctxt "@info"
+msgid "Adblock Disabled…"
+msgstr ""
 
 #: src/contents/ui/Bookmarks.qml:13
 #, fuzzy, kde-format
@@ -1404,9 +1417,6 @@ msgstr ""
 
 #~ msgid "General:"
 #~ msgstr "Əsas:"
-
-#~ msgid "Enable Adblock"
-#~ msgstr "ASBlock'u aktivləşdirmək"
 
 #~ msgid "Home"
 #~ msgstr "Ev"

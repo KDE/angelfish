@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-18 00:41+0000\n"
+"POT-Creation-Date: 2025-04-21 00:41+0000\n"
 "PO-Revision-Date: 2025-03-15 10:04+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -509,6 +509,19 @@ msgstr "Program blokujący reklamy nie ma spisu filtrów, czy pobrać je teraz?"
 msgctxt "@info"
 msgid "Downloading…"
 msgstr "Pobieranie…"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:41
+#, fuzzy, kde-format
+#| msgid "Enable Adblock"
+msgctxt "@action:button"
+msgid "Disable Adblock"
+msgstr "Włącz AdBlock"
+
+#: src/contents/ui/AdblockFilterDownloadQuestion.qml:47
+#, kde-format
+msgctxt "@info"
+msgid "Adblock Disabled…"
+msgstr ""
 
 #: src/contents/ui/Bookmarks.qml:13
 #, kde-format
@@ -1251,9 +1264,6 @@ msgstr "Nie wgrano żadnej aplikacji sieciowej"
 
 #~ msgid "OK"
 #~ msgstr "OK"
-
-#~ msgid "Enable Adblock"
-#~ msgstr "Włącz AdBlock"
 
 #, fuzzy
 #~| msgid "Homepage"
