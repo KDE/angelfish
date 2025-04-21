@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the plasma-angelfish package.
 #
 # Kristóf Kiszel <kiszel.kristof@gmail.com>, 2020, 2021.
-# SPDX-FileCopyrightText: 2021, 2022, 2024 Kristof Kiszel <ulysses@fsf.hu>
+# SPDX-FileCopyrightText: 2021, 2022, 2024, 2025 Kristof Kiszel <ulysses@fsf.hu>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-08 00:43+0000\n"
-"PO-Revision-Date: 2024-11-13 22:21+0100\n"
+"PO-Revision-Date: 2025-04-20 20:59+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.08.3\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -64,58 +64,50 @@ msgid "Open"
 msgstr "Megnyitás"
 
 #: lib/contents/ui/AuthSheet.qml:17
-#, fuzzy, kde-format
-#| msgid "Authentication required"
+#, kde-format
 msgctxt "@title:window"
 msgid "Authentication Required"
 msgstr "Hitelesítés szükséges"
 
 #: lib/contents/ui/AuthSheet.qml:30
-#, fuzzy, kde-format
-#| msgid "Username"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Username:"
-msgstr "Felhasználónév"
+msgstr "Felhasználónév:"
 
 #: lib/contents/ui/AuthSheet.qml:37
-#, fuzzy, kde-format
-#| msgid "Password"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Password:"
-msgstr "Jelszó"
+msgstr "Jelszó:"
 
 #: lib/contents/ui/DownloadQuestion.qml:16
-#, fuzzy, kde-format
-#| msgid "Do you want to download this file?"
+#, kde-format
 msgctxt "Would you like to download (filename) from (domain)?"
 msgid "Would you like to download %1 from %2?"
-msgstr "Szeretné letölteni ezt a fájlt?"
+msgstr "Szeretné letölteni a(z) %1 fájlt innen: %2?"
 
 #: lib/contents/ui/DownloadQuestion.qml:25
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
-#, fuzzy, kde-format
-#| msgid "Download"
+#, kde-format
 msgctxt "@action:button"
 msgid "Download"
 msgstr "Letöltés"
 
 #: lib/contents/ui/DownloadQuestion.qml:33 lib/contents/ui/PrintPreview.qml:163
-#, fuzzy, kde-format
-#| msgid "Cancel"
+#, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
-msgstr "Mégsem"
+msgstr "Mégse"
 
 #: lib/contents/ui/ErrorHandler.qml:47
-#, fuzzy, kde-format
-#| msgid "Error loading the page"
+#, kde-format
 msgctxt "@title"
 msgid "Error Loading the Page"
 msgstr "Hiba az oldal betöltésekor"
 
 #: lib/contents/ui/ErrorHandler.qml:58
-#, fuzzy, kde-format
-#| msgid "Retry"
+#, kde-format
 msgctxt "@action:intoolbar"
 msgid "Retry"
 msgstr "Újra"
@@ -139,22 +131,19 @@ msgstr ""
 " Szeretné felülírni a biztonsági ellenőrzést, és folytatni?"
 
 #: lib/contents/ui/ErrorHandler.qml:81
-#, fuzzy, kde-format
-#| msgid "Yes"
+#, kde-format
 msgctxt "@action:button"
 msgid "Yes"
 msgstr "Igen"
 
 #: lib/contents/ui/ErrorHandler.qml:90
-#, fuzzy, kde-format
-#| msgid "No"
+#, kde-format
 msgctxt "@action:button"
 msgid "No"
 msgstr "Nem"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
-#, fuzzy, kde-format
-#| msgid "This page says"
+#, kde-format
 msgctxt "@title:window"
 msgid "This Page Says"
 msgstr "Az oldal azt mondja, hogy"
@@ -169,80 +158,76 @@ msgstr ""
 "elveszhetnek."
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:79
-#, fuzzy, kde-format
-#| msgid "Leave page"
+#, kde-format
 msgctxt "@action:button"
 msgid "Leave Page"
 msgstr "Oldal elhagyása"
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:87
-#, fuzzy, kde-format
-#| msgid "Submit"
+#, kde-format
 msgctxt "@action:button"
 msgid "Submit"
 msgstr "Elküldés"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to access the microphone?"
+#, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>microphone</b>?"
-msgstr "Engedélyezi a weboldalnak a mikrofon használatát?"
+msgstr "Engedélyezi a(z) <b>%1</b> weboldalnak a <b>mikrofon</b> használatát?"
 
 #: lib/contents/ui/PermissionQuestion.qml:24
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to access the camera?"
+#, kde-format
 msgid "Do you want to allow the website <b>%1</b> to access the <b>camera</b>?"
-msgstr "Engedélyezi a weboldalnak a kamera használatát?"
+msgstr "Engedélyezi a(z) <b>%1</b> weboldalnak a <b>kamera</b> használatát?"
 
 #: lib/contents/ui/PermissionQuestion.qml:26
-#, fuzzy, kde-format
-#| msgid ""
-#| "Do you want to allow the website to access the camera and the microphone?"
+#, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>camera and the "
 "microphone</b>?"
-msgstr "Engedélyezi a weboldalnak a kamera és a mikrofon használatát?"
+msgstr ""
+"Engedélyezi a(z) <b>%1</b> weboldalnak a <b>kamera és a mikrofon</b> "
+"használatát?"
 
 #: lib/contents/ui/PermissionQuestion.qml:28
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to share your screen?"
+#, kde-format
 msgid "Do you want to allow the website <b>%1</b> to share your <b>screen</b>?"
-msgstr "Engedélyezi a weboldalnak a képernyője megosztását?"
+msgstr ""
+"Engedélyezi a(z) <b>%1</b> weboldalnak a <b>képernyője</b> megosztását?"
 
 #: lib/contents/ui/PermissionQuestion.qml:30
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to share the sound output?"
+#, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to share the sound <b>output</b>?"
-msgstr "Engedélyezi a weboldalnak a hangkimenet megosztását?"
+msgstr ""
+"Engedélyezi a(z) <b>%1</b> weboldalnak a hang<b>kimenet</b> megosztását?"
 
 #: lib/contents/ui/PermissionQuestion.qml:32
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to send you notifications?"
+#, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to send you <b>notifications</b>?"
-msgstr "Engedélyezi a weboldalnak értesítések küldését?"
+msgstr "Engedélyezi a(z) <b>%1</b> weboldalnak <b>értesítések</b> küldését?"
 
 #: lib/contents/ui/PermissionQuestion.qml:34
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to access the geo location?"
+#, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>geo location</b>?"
-msgstr "Engedélyezi a weboldalnak a helymeghatározás használatát?"
+msgstr ""
+"Engedélyezi a(z) <b>%1</b> weboldalnak a <b>helymeghatározás</b> használatát?"
 
 #: lib/contents/ui/PermissionQuestion.qml:36
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to access the camera?"
+#, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>clipboard</b>?"
-msgstr "Engedélyezi a weboldalnak a kamera használatát?"
+msgstr ""
+"Engedélyezi a(z) <b>%1</b> weboldalnak a <b>vágólaphoz</b> való hozzáférést?"
 
 #: lib/contents/ui/PermissionQuestion.qml:38
-#, fuzzy, kde-format
-#| msgid "Do you want to allow the website to share your screen?"
+#, kde-format
 msgid "Do you want to allow the website <b>%1</b> to access your <b>fonts</b>?"
-msgstr "Engedélyezi a weboldalnak a képernyője megosztását?"
+msgstr ""
+"Engedélyezi a(z) <b>%1</b> weboldalnak a <b>betűkészleteihez</b> való "
+"hozzáférést?"
 
 #: lib/contents/ui/PermissionQuestion.qml:40
 #, kde-format
@@ -250,443 +235,379 @@ msgctxt ""
 "The website (website) requested an unknown permission: Do you want to allow "
 "the website (website) to access your fonts?"
 msgid "The website %1 requested an unknown permission: %2"
-msgstr ""
+msgstr "A(z) %1 weboldal ismeretlen jogosultságot kért: %2"
 
 #: lib/contents/ui/PermissionQuestion.qml:48
-#, fuzzy, kde-format
-#| msgid "Accept"
+#, kde-format
 msgctxt "@action:button"
 msgid "Accept"
-msgstr "Elfogadás"
+msgstr "Elfogad"
 
 #: lib/contents/ui/PermissionQuestion.qml:58
-#, fuzzy, kde-format
-#| msgid "Decline"
+#, kde-format
 msgctxt "@action:button"
 msgid "Decline"
-msgstr "Elutasítás"
+msgstr "Elutasít"
 
 #: lib/contents/ui/PrintPreview.qml:24
-#, fuzzy, kde-format
-#| msgid "Print"
+#, kde-format
 msgctxt "@title:window"
 msgid "Print"
 msgstr "Nyomtatás"
 
 #: lib/contents/ui/PrintPreview.qml:64
-#, fuzzy, kde-format
-#| msgid "Destination"
+#, kde-format
 msgctxt "@title:group"
 msgid "Destination"
 msgstr "Cél"
 
 #: lib/contents/ui/PrintPreview.qml:68
-#, fuzzy, kde-format
-#| msgid "Save to PDF"
+#, kde-format
 msgctxt "@title:group"
 msgid "Save to PDF"
 msgstr "Mentés PDF-ként"
 
 #: lib/contents/ui/PrintPreview.qml:74
-#, fuzzy, kde-format
-#| msgid "Orientation"
+#, kde-format
 msgctxt "@title:group"
 msgid "Orientation"
 msgstr "Tájolás"
 
 #: lib/contents/ui/PrintPreview.qml:99
-#, fuzzy, kde-format
-#| msgid "Paper size"
+#, kde-format
 msgctxt "@title:group"
 msgid "Paper Size"
 msgstr "Papírméret"
 
 #: lib/contents/ui/PrintPreview.qml:145
-#, fuzzy, kde-format
-#| msgid "Options"
+#, kde-format
 msgctxt "@title:group"
 msgid "Options"
 msgstr "Beállítások"
 
 #: lib/contents/ui/PrintPreview.qml:149
-#, fuzzy, kde-format
-#| msgid "Print backgrounds"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Print backgrounds"
 msgstr "Hátterek nyomtatása"
 
 #: lib/contents/ui/PrintPreview.qml:168
-#, fuzzy, kde-format
-#| msgid "Save"
+#, kde-format
 msgctxt "@action:button"
 msgid "Save"
 msgstr "Mentés"
 
 #: lib/contents/ui/WebView.qml:243
-#, fuzzy, kde-format
-#| msgid "Website was opened in a new tab"
+#, kde-format
 msgctxt "@info:status"
 msgid "Website was opened in a new tab"
 msgstr "A weboldal egy új lapon nyílt meg"
 
 #: lib/contents/ui/WebView.qml:261
-#, fuzzy, kde-format
-#| msgid "Entered Full Screen Mode"
+#, kde-format
 msgctxt "@info:status"
 msgid "Entered Full Screen mode"
 msgstr "Teljes képernyős mód"
 
 #: lib/contents/ui/WebView.qml:262
-#, fuzzy, kde-format
-#| msgid "Exit Full Screen (Esc)"
+#, kde-format
 msgctxt "@action:button"
 msgid "Exit Full Screen (Esc)"
 msgstr "Kilépés a teljes képernyős módból (Esc)"
 
 #: lib/contents/ui/WebView.qml:395
-#, fuzzy, kde-format
-#| msgid "Play"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Play"
 msgstr "Lejátszás"
 
 #: lib/contents/ui/WebView.qml:396
-#, fuzzy, kde-format
-#| msgid "Pause"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Pause"
 msgstr "Szünet"
 
 #: lib/contents/ui/WebView.qml:403
-#, fuzzy, kde-format
-#| msgid "Unmute"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Unmute"
 msgstr "Visszahangosítás"
 
 #: lib/contents/ui/WebView.qml:404
-#, fuzzy, kde-format
-#| msgid "Mute"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Mute"
 msgstr "Némítás"
 
 #: lib/contents/ui/WebView.qml:414
-#, fuzzy, kde-format
-#| msgid "Speed"
+#, kde-format
 msgctxt "@label"
 msgid "Speed"
 msgstr "Sebesség"
 
 #: lib/contents/ui/WebView.qml:437
-#, fuzzy, kde-format
-#| msgid "Loop"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Loop"
 msgstr "Ismétlődés"
 
 #: lib/contents/ui/WebView.qml:444
-#, fuzzy, kde-format
-#| msgid "Exit fullscreen"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Exit Fullscreen"
 msgstr "Kilépés teljes képernyőből"
 
 #: lib/contents/ui/WebView.qml:444
-#, fuzzy, kde-format
-#| msgid "Exit fullscreen"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Enter Fullscreen"
 msgstr "Kilépés teljes képernyőből"
 
 #: lib/contents/ui/WebView.qml:457
-#, fuzzy, kde-format
-#| msgid "Hide controls"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Controls"
 msgstr "Vezérlők elrejtése"
 
 #: lib/contents/ui/WebView.qml:458
-#, fuzzy, kde-format
-#| msgid "Show controls"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Controls"
 msgstr "Vezérlők megjelenítése"
 
 #: lib/contents/ui/WebView.qml:466
-#, fuzzy, kde-format
-#| msgid "Open video"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video"
 msgstr "Videó megnyitása"
 
 #: lib/contents/ui/WebView.qml:466
-#, fuzzy, kde-format
-#| msgid "Open audio"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio"
 msgstr "Hang megnyitása"
 
 #: lib/contents/ui/WebView.qml:467
-#, fuzzy, kde-format
-#| msgid "Open video in new Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video in New Tab"
 msgstr "Videó megnyitása új lapon"
 
 #: lib/contents/ui/WebView.qml:467
-#, fuzzy, kde-format
-#| msgid "Open audio in new Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio in New Tab"
 msgstr "Hang megnyitása új lapon"
 
 #: lib/contents/ui/WebView.qml:479
-#, fuzzy, kde-format
-#| msgid "Save video"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Video"
 msgstr "Videó mentése"
 
 #: lib/contents/ui/WebView.qml:485
-#, fuzzy, kde-format
-#| msgid "Copy video Link"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Video Link"
 msgstr "Videó címének másolása"
 
 #: lib/contents/ui/WebView.qml:491
-#, fuzzy, kde-format
-#| msgid "Open image"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image"
 msgstr "Kép megnyitása"
 
 #: lib/contents/ui/WebView.qml:491
-#, fuzzy, kde-format
-#| msgid "Open image in new Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image in New Tab"
 msgstr "Kép megnyitása új lapon"
 
 #: lib/contents/ui/WebView.qml:503
-#, fuzzy, kde-format
-#| msgid "Save image"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Image"
 msgstr "Kép mentése"
 
 #: lib/contents/ui/WebView.qml:509
-#, fuzzy, kde-format
-#| msgid "Copy image"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image"
 msgstr "Kép másolása"
 
 #: lib/contents/ui/WebView.qml:515
-#, fuzzy, kde-format
-#| msgid "Copy image link"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image Link"
 msgstr "Kép címének másolása"
 
 #: lib/contents/ui/WebView.qml:521
-#, fuzzy, kde-format
-#| msgid "Open link"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Link"
 msgstr "Hivatkozás megnyitása"
 
 #: lib/contents/ui/WebView.qml:521
-#, fuzzy, kde-format
-#| msgid "Open link in new Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Link in New Tab"
 msgstr "Hivatkozás megnyitása új lapon"
 
 #: lib/contents/ui/WebView.qml:533
-#, fuzzy, kde-format
-#| msgid "Bookmark link"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Link"
 msgstr "Könyvjelző a hivatkozásra"
 
 #: lib/contents/ui/WebView.qml:545
-#, fuzzy, kde-format
-#| msgid "Save link"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Link"
 msgstr "Hivatkozás mentése"
 
 #: lib/contents/ui/WebView.qml:551
-#, fuzzy, kde-format
-#| msgid "Copy link"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Link"
 msgstr "Hivatkozás másolása"
 
 #: lib/contents/ui/WebView.qml:558
-#, fuzzy, kde-format
-#| msgid "Copy"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy"
 msgstr "Másolás"
 
 #: lib/contents/ui/WebView.qml:564
-#, fuzzy, kde-format
-#| msgid "Cut"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Cut"
 msgstr "Kivágás"
 
 #: lib/contents/ui/WebView.qml:570
-#, fuzzy, kde-format
-#| msgid "Paste"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "Beillesztés"
 
 #: lib/contents/ui/WebView.qml:578
-#, fuzzy, kde-format
-#| msgid "Search online for '%1'"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Search for “%1”"
-msgstr "„%1” keresése online"
+msgstr "„%1” keresése"
 
 #: lib/contents/ui/WebView.qml:591 src/contents/ui/desktop/desktop.qml:345
 #: src/contents/ui/mobile.qml:296
-#, fuzzy, kde-format
-#| msgid "Share page"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
 msgstr "Oldal megosztása"
 
 #: lib/contents/ui/WebView.qml:603
-#, fuzzy, kde-format
-#| msgid "View page source"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "View Page Source"
 msgstr "Oldal forrásának megtekintése"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
-#, fuzzy, kde-format
-#| msgid ""
-#| "The ad blocker is missing its filter lists, do you want to download them "
-#| "now?"
+#, kde-format
 msgctxt "@info"
 msgid ""
 "The adblocker is missing its filter lists, do you want to download them now?"
 msgstr "Az adblocker szűrőlistái hiányoznak, szeretné letölteni azokat most?"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:35
-#, fuzzy, kde-format
-#| msgid "Downloading..."
+#, kde-format
 msgctxt "@info"
 msgid "Downloading…"
 msgstr "Letöltés…"
 
 #: src/contents/ui/Bookmarks.qml:12
-#, fuzzy, kde-format
-#| msgid "Bookmarks"
+#, kde-format
 msgctxt "@title:window"
 msgid "Bookmarks"
 msgstr "Könyvjelzők"
 
 #: src/contents/ui/desktop/BookmarksPage.qml:30
-#, fuzzy, kde-format
-#| msgid "Search bookmarks…"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Search bookmarks…"
 msgstr "Könyvjelzők keresése…"
 
 #: src/contents/ui/desktop/BookmarksPage.qml:77
-#, fuzzy, kde-format
-#| msgid "No bookmarks yet"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "No bookmarks yet"
 msgstr "Nincsenek könyvjelzők"
 
 #: src/contents/ui/desktop/desktop.qml:125
-#, fuzzy, kde-format
-#| msgid "Search or enter URL…"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "Keresés vagy URL megadása…"
 
 #: src/contents/ui/desktop/desktop.qml:249 src/contents/ui/desktop/Tabs.qml:355
 #: src/contents/ui/Navigation.qml:437
-#, fuzzy, kde-format
-#| msgid "New Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "Új lap"
 
 #: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/mobile.qml:73
-#, fuzzy, kde-format
-#| msgid "Leave private mode"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
 msgstr "Kilépés a privát módból"
 
 #: src/contents/ui/desktop/desktop.qml:256 src/contents/ui/mobile.qml:73
-#, fuzzy, kde-format
-#| msgid "Private mode"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Private Mode"
 msgstr "Privát mód"
 
 #: src/contents/ui/desktop/desktop.qml:265 src/contents/ui/mobile.qml:89
-#, fuzzy, kde-format
-#| msgid "History"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "History"
 msgstr "Előzmények"
 
 #: src/contents/ui/desktop/desktop.qml:274 src/contents/ui/mobile.qml:81
-#, fuzzy, kde-format
-#| msgid "Bookmarks"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "Könyvjelzők"
 
 #: src/contents/ui/desktop/desktop.qml:283 src/contents/ui/mobile.qml:93
-#, fuzzy, kde-format
-#| msgid "Downloads"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "Letöltések"
 
 #: src/contents/ui/desktop/desktop.qml:296
-#, fuzzy, kde-format
-#| msgid "Print"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr "Nyomtatás"
 
 #: src/contents/ui/desktop/desktop.qml:302
-#, fuzzy, kde-format
-#| msgid "Full Screen"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr "Teljes képernyő"
 
 #: src/contents/ui/desktop/desktop.qml:319
-#, fuzzy, kde-format
-#| msgid "Hide developer tools"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Fejlesztői eszközök elrejtése"
 
 #: src/contents/ui/desktop/desktop.qml:320 src/contents/ui/mobile.qml:392
-#, fuzzy, kde-format
-#| msgid "Show developer tools"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Fejlesztői eszközök"
 
 #: src/contents/ui/desktop/desktop.qml:329 src/contents/ui/mobile.qml:292
-#, fuzzy, kde-format
-#| msgid "Find in page"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Keresés az oldalon"
@@ -698,200 +619,169 @@ msgid "Reader Mode"
 msgstr "Olvasó mód"
 
 #: src/contents/ui/desktop/desktop.qml:355
-#, fuzzy, kde-format
-#| msgid "Add to application launcher"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "Hozzáadás az alkalmazásindítóhoz"
 
 #: src/contents/ui/desktop/desktop.qml:374 src/contents/ui/mobile.qml:101
-#, fuzzy, kde-format
-#| msgid "Settings"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "Beállítások"
 
 #: src/contents/ui/desktop/HistoryPage.qml:30
-#, fuzzy, kde-format
-#| msgid "Search history…"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Search history…"
 msgstr "Keresés az előzményekben…"
 
 #: src/contents/ui/desktop/HistoryPage.qml:46
-#, fuzzy, kde-format
-#| msgid "Clear all history"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Clear all history"
 msgstr "Minden előzmény törlése"
 
 #: src/contents/ui/desktop/HistoryPage.qml:83
-#, fuzzy, kde-format
-#| msgid "Not history yet"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "No history yet"
 msgstr "Nincsenek előzmények"
 
 #: src/contents/ui/desktop/Tabs.qml:232 src/contents/ui/Tabs.qml:275
-#, fuzzy, kde-format
-#| msgid "Reader Mode: %1"
+#, kde-format
 msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr "Olvasó mód: %1"
 
 #: src/contents/ui/desktop/Tabs.qml:261 src/contents/ui/Tabs.qml:306
-#, fuzzy, kde-format
-#| msgid "Close tab"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Close tab"
 msgstr "Lap bezárása"
 
 #: src/contents/ui/desktop/Tabs.qml:291
-#, fuzzy, kde-format
-#| msgid "Open a new tab"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Open a new tab"
 msgstr "Új lap megnyitása"
 
 #: src/contents/ui/desktop/Tabs.qml:324
-#, fuzzy, kde-format
-#| msgid "List all tabs"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "List all tabs"
 msgstr "Összes lap listázása"
 
 #: src/contents/ui/desktop/Tabs.qml:364
-#, fuzzy, kde-format
-#| msgid "Reload Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Reload Tab"
 msgstr "Lap újratöltése"
 
 #: src/contents/ui/desktop/Tabs.qml:372
-#, fuzzy, kde-format
-#| msgid "Duplicate Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Duplicate Tab"
 msgstr "Lap duplázása"
 
 #: src/contents/ui/desktop/Tabs.qml:380
-#, fuzzy, kde-format
-#| msgid "Bookmark Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "Lap könyvjelzőzése"
 
 #: src/contents/ui/desktop/Tabs.qml:396
-#, fuzzy, kde-format
-#| msgid "Close Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Lap bezárása"
 
 #: src/contents/ui/Downloads.qml:16
-#, fuzzy, kde-format
-#| msgid "Downloads"
+#, kde-format
 msgctxt "@title:window"
 msgid "Downloads"
 msgstr "Letöltések"
 
 #: src/contents/ui/Downloads.qml:28
-#, fuzzy, kde-format
-#| msgid "No running downloads"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "No running downloads"
 msgstr "Nincsenek futó letöltések"
 
 #: src/contents/ui/Downloads.qml:77
-#, fuzzy, kde-format
-#| msgctxt "download state"
-#| msgid "Starting…"
+#, kde-format
 msgctxt "@info:progress"
 msgid "Starting…"
 msgstr "Indítás…"
 
 #: src/contents/ui/Downloads.qml:79
-#, fuzzy, kde-format
-#| msgid "Completed"
+#, kde-format
 msgctxt "@info:progress"
 msgid "Completed"
 msgstr "Befejezve"
 
 #: src/contents/ui/Downloads.qml:81
-#, fuzzy, kde-format
-#| msgid "Cancelled"
+#, kde-format
 msgctxt "@info:progress"
 msgid "Cancelled"
-msgstr "Törölve"
+msgstr "Megszakítva"
 
 #: src/contents/ui/Downloads.qml:83
-#, fuzzy, kde-format
-#| msgctxt "download state"
-#| msgid "Interrupted"
+#, kde-format
 msgctxt "@info:progress"
 msgid "Interrupted"
 msgstr "Megszakítva"
 
 #: src/contents/ui/Downloads.qml:85
-#, fuzzy, kde-format
-#| msgctxt "download state"
-#| msgid "In progress"
+#, kde-format
 msgctxt "@info:progress"
 msgid "In progress…"
-msgstr "Folyamatban"
+msgstr "Folyamatban…"
 
 #: src/contents/ui/Downloads.qml:92
-#, fuzzy, kde-format
-#| msgid "Cancel"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Cancel"
-msgstr "Mégsem"
+msgstr "Mégse"
 
 #: src/contents/ui/Downloads.qml:117
-#, fuzzy, kde-format
-#| msgid "Continue"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Continue"
 msgstr "Folytatás"
 
 #: src/contents/ui/FindInPageBar.qml:45
-#, fuzzy, kde-format
-#| msgid "Search history…"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
-msgstr "Keresés az előzményekben…"
+msgstr "Keresés…"
 
 #: src/contents/ui/History.qml:12
-#, fuzzy, kde-format
-#| msgid "History"
+#, kde-format
 msgctxt "@title:window"
 msgid "History"
 msgstr "Előzmények"
 
 #: src/contents/ui/mobile.qml:20
-#, fuzzy, kde-format
-#| msgid "Angelfish Web Browser"
+#, kde-format
 msgctxt "@title:window"
 msgid "Angelfish Web Browser"
 msgstr "Angelfish webböngésző"
 
 #: src/contents/ui/mobile.qml:66
-#, fuzzy, kde-format
-#| msgid "Tabs"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Tabs"
 msgstr "Lapok"
 
 #: src/contents/ui/mobile.qml:307
-#, fuzzy, kde-format
-#| msgid "Add to homescreen"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Hozzáadás a kezdőképernyőhöz"
 
 #: src/contents/ui/mobile.qml:317
-#, fuzzy, kde-format
-#| msgid "Open in app"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Megnyitás alkalmazásban"
@@ -900,76 +790,64 @@ msgstr "Megnyitás alkalmazásban"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
-msgstr ""
+msgstr "Vissza"
 
 #: src/contents/ui/mobile.qml:333
-#, fuzzy, kde-format
-#| msgid "Go forward"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "Előre"
 
 #: src/contents/ui/mobile.qml:340
-#, fuzzy, kde-format
-#| msgid "Stop loading"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Betöltés leállítása"
 
 #: src/contents/ui/mobile.qml:340
-#, fuzzy, kde-format
-#| msgid "Refresh"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Frissítés"
 
 #: src/contents/ui/mobile.qml:350
-#, fuzzy, kde-format
-#| msgid "Bookmarked"
+#, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "Könyvjelzőzve"
 
 #: src/contents/ui/mobile.qml:350
-#, fuzzy, kde-format
-#| msgid "Bookmark"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
-msgstr "Könyvjelző"
+msgstr "Könyvjelzőzés"
 
 #: src/contents/ui/mobile.qml:366
-#, fuzzy, kde-format
-#| msgid "Show desktop site"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Asztali oldal kérése"
 
 #: src/contents/ui/mobile.qml:383
-#, fuzzy, kde-format
-#| msgid "Hide navigation bar"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "Navigációs sáv elrejtése"
 
 #: src/contents/ui/Navigation.qml:410
-#, fuzzy, kde-format
-#| msgid "Done"
+#, kde-format
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr "Kész"
 
 #: src/contents/ui/Navigation.qml:423
-#, fuzzy, kde-format
-#| msgid "New tabs:"
+#, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"
-msgstr "Új lapok:"
+msgstr "%1 lap"
 
 #: src/contents/ui/NewTabQuestion.qml:11
-#, fuzzy, kde-format
-#| msgid ""
-#| "Site wants to open a new tab: \n"
-#| "%1"
+#, kde-format
 msgctxt "@info:status"
 msgid ""
 "Site wants to open a new tab:\n"
@@ -979,15 +857,13 @@ msgstr ""
 "%1"
 
 #: src/contents/ui/NewTabQuestion.qml:19
-#, fuzzy, kde-format
-#| msgid "Open"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
 msgstr "Megnyitás"
 
 #: src/contents/ui/ShareSheet.qml:18
-#, fuzzy, kde-format
-#| msgid "Share page"
+#, kde-format
 msgctxt "@title:window"
 msgid "Share Page"
 msgstr "Oldal megosztása"
@@ -999,46 +875,40 @@ msgstr "A megnyitandó URL"
 
 #: src/settings/AngelfishConfigurationView.qml:14
 #: src/settings/SettingsGeneral.qml:18
-#, fuzzy, kde-format
-#| msgid "General"
+#, kde-format
 msgctxt "@title:window"
 msgid "General"
 msgstr "Általános"
 
 #: src/settings/AngelfishConfigurationView.qml:20
-#, fuzzy, kde-format
-#| msgid "Ad Block"
+#, kde-format
 msgctxt "@title:window"
 msgid "Adblock"
 msgstr "Reklámblokkolás"
 
 #: src/settings/AngelfishConfigurationView.qml:26
 #: src/settings/SettingsWebApps.qml:16
-#, fuzzy, kde-format
-#| msgid "Web Apps"
+#, kde-format
 msgctxt "@title:window"
 msgid "Web Apps"
 msgstr "Webalkalmazások"
 
 #: src/settings/AngelfishConfigurationView.qml:32
 #: src/settings/SettingsSearchEnginePage.qml:112
-#, fuzzy, kde-format
-#| msgid "Search Engine"
+#, kde-format
 msgctxt "@title:window"
 msgid "Search Engines"
-msgstr "Keresőmotor"
+msgstr "Keresőmotorok"
 
 #: src/settings/AngelfishConfigurationView.qml:38
 #: src/settings/DesktopHomeSettingsPage.qml:15
-#, fuzzy, kde-format
-#| msgid "Toolbars"
+#, kde-format
 msgctxt "@title:window"
 msgid "Toolbars"
 msgstr "Eszköztárak"
 
 #: src/settings/DesktopHomeSettingsPage.qml:24
-#, fuzzy, kde-format
-#| msgid "Show home button:"
+#, kde-format
 msgctxt "@label"
 msgid "Show home button:"
 msgstr "Kezdőlap gomb:"
@@ -1049,49 +919,42 @@ msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr "A kezdőlap gomb a frissítés gomb mellett jelenik meg az eszköztáron."
 
 #: src/settings/DesktopHomeSettingsPage.qml:35
-#, fuzzy, kde-format
-#| msgid "Homepage:"
+#, kde-format
 msgctxt "@label"
 msgid "Homepage:"
-msgstr "Honlap:"
+msgstr "Kezdőlap:"
 
 #: src/settings/DesktopHomeSettingsPage.qml:58
-#, fuzzy, kde-format
-#| msgid "New tabs:"
+#, kde-format
 msgctxt "@label"
 msgid "New tabs:"
 msgstr "Új lapok:"
 
 #: src/settings/DesktopHomeSettingsPage.qml:81
-#, fuzzy, kde-format
-#| msgid "Always show the tab bar"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Always show the tab bar"
 msgstr "A lapozósáv mindig látszódjon"
 
 #: src/settings/DesktopHomeSettingsPage.qml:82
-#, fuzzy, kde-format
-#| msgid "The tab bar will be displayed even if there is only one tab open"
+#, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open."
-msgstr "A lapozósáv mindig megjelenik, még ha csak egy lap is van megnyitva"
+msgstr "A lapozósáv mindig megjelenik, még ha csak egy lap is van megnyitva."
 
 #: src/settings/SettingsAdblock.qml:16
-#, fuzzy, kde-format
-#| msgid "Adblock settings"
+#, kde-format
 msgctxt "@title:window"
 msgid "Adblock Settings"
 msgstr "Adblock beállítások"
 
 #: src/settings/SettingsAdblock.qml:23
-#, fuzzy, kde-format
-#| msgid "Add filterlist"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Add filter list"
 msgstr "Szűrőlista hozzáadása"
 
 #: src/settings/SettingsAdblock.qml:27
-#, fuzzy, kde-format
-#| msgid "Update lists"
+#, kde-format
 msgctxt "@action:intoolbar"
 msgid "Update Lists"
 msgstr "Listák frissítése"
@@ -1102,29 +965,25 @@ msgid "The adblock functionality isn't included in this build."
 msgstr "Ez a verzió nem tartalmazza az adblock funkciót."
 
 #: src/settings/SettingsAdblock.qml:100
-#, fuzzy, kde-format
-#| msgid "Remove this filter list"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove this filter list"
 msgstr "Szűrőlista törlése"
 
 #: src/settings/SettingsAdblock.qml:112
-#, fuzzy, kde-format
-#| msgid "Add Filterlist"
+#, kde-format
 msgctxt "@action:button"
 msgid "Add Filter List"
 msgstr "Szűrőlista hozzáadása"
 
 #: src/settings/SettingsAdblock.qml:124
-#, fuzzy, kde-format
-#| msgid "Add Filterlist"
+#, kde-format
 msgctxt "@title:group"
 msgid "Add Filter List"
 msgstr "Szűrőlista hozzáadása"
 
 #: src/settings/SettingsAdblock.qml:129
-#, fuzzy, kde-format
-#| msgid "Name"
+#, kde-format
 msgctxt "@label"
 msgid "Name"
 msgstr "Név"
@@ -1133,7 +992,7 @@ msgstr "Név"
 #, kde-format
 msgctxt "@label"
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: src/settings/SettingsGeneral.qml:27
 #, kde-format
@@ -1146,8 +1005,7 @@ msgid "This may be required on certain websites for them to work."
 msgstr "Ez szükséges lehet bizonyos weboldalak működéséhez."
 
 #: src/settings/SettingsGeneral.qml:37
-#, fuzzy, kde-format
-#| msgid "Load images"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Load images"
 msgstr "Képek betöltése"
@@ -1158,8 +1016,7 @@ msgid "Whether to load images on websites."
 msgstr "Betöltődjenek-e a képek a weboldalakon."
 
 #: src/settings/SettingsGeneral.qml:47
-#, fuzzy, kde-format
-#| msgid "Enable adblock"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Enable adblock"
 msgstr "Adblock bekapcsolása"
@@ -1171,30 +1028,25 @@ msgstr ""
 "Megpróbálja megakadályozni, hogy a weboldalakon reklámok jelenjenek meg."
 
 #: src/settings/SettingsGeneral.qml:48
-#, fuzzy, kde-format
-#| msgid "AdBlock functionality was not included in this build."
+#, kde-format
 msgid "Adblock functionality was not included in this build."
 msgstr "Ez a verzió nem tartalmazza a reklámblokkoló funkciót."
 
 #: src/settings/SettingsGeneral.qml:58
-#, fuzzy, kde-format
-#| msgid "Switch to new tab immediately"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Switch to new tab immediately"
 msgstr "Váltás az új lapra azonnal"
 
 #: src/settings/SettingsGeneral.qml:59
-#, fuzzy, kde-format
-#| msgid ""
-#| "When you open a link, image or media in a new tab, switch to it "
-#| "immediately"
+#, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately."
-msgstr "Hivatkozás, kép vagy média új lapon megnyitásakor váltson azonnal arra"
+msgstr ""
+"Hivatkozás, kép vagy média új lapon megnyitásakor váltson azonnal arra."
 
 #: src/settings/SettingsGeneral.qml:68
-#, fuzzy, kde-format
-#| msgid "Use Smooth Scrolling"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Use smooth scrolling"
 msgstr "Sima görgetés használata"
@@ -1209,8 +1061,7 @@ msgstr ""
 "alkalmazás újraindítása szükséges a hatályba lépéshez."
 
 #: src/settings/SettingsGeneral.qml:78
-#, fuzzy, kde-format
-#| msgid "Use dark color scheme"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Use dark color scheme"
 msgstr "Sötét színséma használata"
@@ -1225,8 +1076,7 @@ msgstr ""
 "szükséges a hatályba lépéshez."
 
 #: src/settings/SettingsNavigationBarPage.qml:18
-#, fuzzy, kde-format
-#| msgid "Navigation bar"
+#, kde-format
 msgctxt "@title:window"
 msgid "Navigation Bar"
 msgstr "Navigációs sáv"
@@ -1250,79 +1100,67 @@ msgstr ""
 "jobb oldalról húzva, vagy az ablak alján húzva érheti el."
 
 #: src/settings/SettingsNavigationBarPage.qml:35
-#, fuzzy, kde-format
-#| msgid "Main menu in portrait"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Main menu in portrait"
 msgstr "Főmenü a portréban"
 
 #: src/settings/SettingsNavigationBarPage.qml:41
-#, fuzzy, kde-format
-#| msgid "Tabs in portrait"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Tabs in portrait"
 msgstr "Lapok a portréban"
 
 #: src/settings/SettingsNavigationBarPage.qml:47
-#, fuzzy, kde-format
-#| msgid "Context menu in portrait"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Context menu in portrait"
 msgstr "Helyi menü a portréban"
 
 #: src/settings/SettingsNavigationBarPage.qml:53
-#, fuzzy, kde-format
-#| msgid "Go back"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Go back"
 msgstr "Vissza"
 
 #: src/settings/SettingsNavigationBarPage.qml:59
-#, fuzzy, kde-format
-#| msgid "Go forward"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Go forward"
 msgstr "Előre"
 
 #: src/settings/SettingsNavigationBarPage.qml:65
-#, fuzzy, kde-format
-#| msgid "Reload/Stop"
+#, kde-format
 msgctxt "@label:checkbox"
 msgid "Reload/Stop"
 msgstr "Újratöltés/Leállítás"
 
 #: src/settings/SettingsSearchEnginePage.qml:17
-#, fuzzy, kde-format
-#| msgid "Search Engine"
+#, kde-format
 msgctxt "@window:title"
 msgid "Search Engines"
-msgstr "Keresőmotor"
+msgstr "Keresőmotorok"
 
 #: src/settings/SettingsSearchEnginePage.qml:20
-#, fuzzy, kde-format
-#| msgid "Custom"
+#, kde-format
 msgctxt "@label"
 msgid "Custom"
 msgstr "Egyéni"
 
 #: src/settings/SettingsSearchEnginePage.qml:117
-#, fuzzy, kde-format
-#| msgid "Base URL of your preferred search engine"
+#, kde-format
 msgctxt "@label"
 msgid "Base URL of your preferred search engine"
 msgstr "A keresőmotor alap URL-címe"
 
 #: src/settings/SettingsWebApps.qml:73
-#, fuzzy, kde-format
-#| msgid "Remove app"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove app"
 msgstr "Alkalmazás eltávolítása"
 
 #: src/settings/SettingsWebApps.qml:85
-#, fuzzy, kde-format
-#| msgctxt "placeholder message"
-#| msgid "No Web Apps installed"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "Nincs telepítve webalkalmazás"
