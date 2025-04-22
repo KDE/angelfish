@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-21 00:41+0000\n"
-"PO-Revision-Date: 2025-04-14 11:33+0200\n"
+"PO-Revision-Date: 2025-04-21 10:39+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.12.3\n"
+"X-Generator: Lokalize 22.12.3\n"
 "X-Accelerator-Marker: &\n"
 
 #: angelfish-webapp/main.cpp:70
@@ -521,18 +521,16 @@ msgid "Downloading…"
 msgstr "S'està baixant…"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:41
-#, fuzzy, kde-format
-#| msgctxt "@label:checkbox"
-#| msgid "Enable adblock"
+#, kde-format
 msgctxt "@action:button"
 msgid "Disable Adblock"
-msgstr "Habilita l'Adblock"
+msgstr "Desactiva l'Adblock"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:47
 #, kde-format
 msgctxt "@info"
 msgid "Adblock Disabled…"
-msgstr ""
+msgstr "L'AdBlock està desactivat…"
 
 #: src/contents/ui/Bookmarks.qml:13
 #, kde-format
@@ -1078,7 +1076,7 @@ msgstr "Si s'han de carregar les imatges dels llocs web."
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Enable adblock"
-msgstr "Habilita l'Adblock"
+msgstr "Activa l'Adblock"
 
 #: src/settings/SettingsGeneral.qml:48
 #, kde-format

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-21 00:41+0000\n"
-"PO-Revision-Date: 2025-04-14 11:49+0200\n"
+"PO-Revision-Date: 2025-04-21 14:50+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -15,12 +15,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.12.3\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #: angelfish-webapp/main.cpp:70
 #, kde-format
 msgid "desktop file to open"
-msgstr "te openen bureabladbestand"
+msgstr "te openen bureaubladbestand"
 
 #: angelfish-webapp/main.cpp:97
 #, kde-format
@@ -513,17 +513,16 @@ msgid "Downloading…"
 msgstr "Bezig met downloaden…"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:41
-#, fuzzy, kde-format
-#| msgid "Enable Adblock"
+#, kde-format
 msgctxt "@action:button"
 msgid "Disable Adblock"
-msgstr "Ad-block inschakelen"
+msgstr "Adblock uitschakelen"
 
 #: src/contents/ui/AdblockFilterDownloadQuestion.qml:47
 #, kde-format
 msgctxt "@info"
 msgid "Adblock Disabled…"
-msgstr ""
+msgstr "Adblock uitgeschakeld…"
 
 #: src/contents/ui/Bookmarks.qml:13
 #, kde-format
