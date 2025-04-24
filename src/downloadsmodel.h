@@ -5,10 +5,12 @@
 #pragma once
 
 #include <QAbstractItemModel>
+#include <qqmlintegration.h>
 
 class DownloadsModel : public QAbstractListModel
 {
     Q_OBJECT
+    QML_ELEMENT
 
     enum Role {
         UrlRole,

@@ -8,11 +8,12 @@ import QtQuick.Window
 import Qt5Compat.GraphicalEffects
 import QtQuick.Layouts
 import QtQuick.Controls as Controls
+import org.kde.config as Config
 import QtWebEngine
 
 import org.kde.kirigami as Kirigami
 
-import org.kde.angelfish 1.0
+import org.kde.angelfish
 import org.kde.angelfish.core as Core
 import org.kde.angelfish.settings
 
@@ -36,6 +37,10 @@ Kirigami.ApplicationWindow {
                 pageStack.push(Qt.resolvedUrl("Bookmarks.qml"))
             }
         }
+    }
+
+    Config.WindowStateSaver {
+        configGroupName: "mobile"
     }
 
     /** Pointer to the currently active view.
@@ -62,13 +67,8 @@ Kirigami.ApplicationWindow {
 
     pageStack.globalToolBar.style: Kirigami.ApplicationHeaderStyle.ToolBar
     pageStack.globalToolBar.showNavigationButtons: Kirigami.ApplicationHeaderStyle.ShowBackButton
-    
     pageStack.columnView.columnResizeMode: Kirigami.ColumnView.SingleColumn
-    
-    x: Settings.windowX
-    y: Settings.windowY
-    width: Settings.windowWidth
-    height: Settings.windowHeight
+
 
     globalDrawer: Kirigami.GlobalDrawer {
         id: globalDrawer

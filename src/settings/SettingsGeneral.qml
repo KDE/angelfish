@@ -11,6 +11,7 @@ import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.formcard as FormCard
 
 import org.kde.angelfish
+import org.kde.angelfish.core as Core
 
 FormCard.FormCardPage {
     id: root
@@ -26,8 +27,8 @@ FormCard.FormCardPage {
             id: enableJavascript
             text: i18n("Enable JavaScript")
             description: i18n("This may be required on certain websites for them to work.")
-            checked: Settings.webJavaScriptEnabled
-            onClicked: Settings.webJavaScriptEnabled = checked
+            checked: Core.AngelfishSettings.webJavaScriptEnabled
+            onClicked: Core.AngelfishSettings.webJavaScriptEnabled = checked
         }
 
         FormCard.FormDelegateSeparator { above: enableJavascript; below: loadImages }
@@ -36,8 +37,8 @@ FormCard.FormCardPage {
             id: loadImages
             text: i18nc("@label:checkbox", "Load images")
             description: i18n("Whether to load images on websites.")
-            checked: Settings.webAutoLoadImages
-            onClicked: Settings.webAutoLoadImages = checked
+            checked: Core.AngelfishSettings.webAutoLoadImages
+            onClicked: Core.AngelfishSettings.webAutoLoadImages = checked
         }
 
         FormCard.FormDelegateSeparator { above: loadImages; below: enableAdblock }
@@ -57,8 +58,8 @@ FormCard.FormCardPage {
             id: openLinkSwitch
             text: i18nc("@label:checkbox", "Switch to new tab immediately")
             description: i18n("When you open a link, image or media in a new tab, switch to it immediately.")
-            checked: Settings.switchToNewTab
-            onClicked: Settings.switchToNewTab = checked
+            checked: Core.AngelfishSettings.switchToNewTab
+            onClicked: Core.AngelfishSettings.switchToNewTab = checked
         }
 
         FormCard.FormDelegateSeparator { above: openLinkSwitch; below: enableSmoothScrolling }
@@ -67,8 +68,8 @@ FormCard.FormCardPage {
             id: enableSmoothScrolling
             text: i18nc("@label:checkbox", "Use smooth scrolling")
             description: i18n("Scrolling is smoother and will not stop suddenly when you stop scrolling. Requires app restart to take effect.")
-            checked: Settings.webSmoothScrollingEnabled
-            onClicked: Settings.webSmoothScrollingEnabled = checked
+            checked: Core.AngelfishSettings.webSmoothScrollingEnabled
+            onClicked: Core.AngelfishSettings.webSmoothScrollingEnabled = checked
         }
 
         FormCard.FormDelegateSeparator { above: enableSmoothScrolling; below: enableDarkMode }
@@ -77,8 +78,8 @@ FormCard.FormCardPage {
             id: enableDarkMode
             text: i18nc("@label:checkbox", "Use dark color scheme")
             description: i18n("Websites will have their color schemes set to dark. Requires app restart to take effect.")
-            checked: Settings.webDarkModeEnabled
-            onClicked: Settings.webDarkModeEnabled = checked
+            checked: Core.AngelfishSettings.webDarkModeEnabled
+            onClicked: Core.AngelfishSettings.webDarkModeEnabled = checked
         }
     }
 }

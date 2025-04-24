@@ -11,6 +11,7 @@ import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.formcard as FormCard
 
 import org.kde.angelfish
+import org.kde.angelfish.core as Core
 
 FormCard.FormCardPage {
     id: root
@@ -33,38 +34,38 @@ FormCard.FormCardPage {
 
         FormCard.FormCheckDelegate {
             text: i18nc("@label:checkbox", "Main menu in portrait")
-            checked: Settings.navBarMainMenu
-            onCheckedChanged: Settings.navBarMainMenu = checked
+            checked: Core.AngelfishSettings.navBarMainMenu
+            onCheckedChanged: Core.AngelfishSettings.navBarMainMenu = checked
         }
 
         FormCard.FormCheckDelegate {
             text: i18nc("@label:checkbox", "Tabs in portrait")
-            checked: Settings.navBarTabs
-            onCheckedChanged: Settings.navBarTabs = checked
+            checked: Core.AngelfishSettings.navBarTabs
+            onCheckedChanged: Core.AngelfishSettings.navBarTabs = checked
         }
 
         FormCard.FormCheckDelegate {
             text: i18nc("@label:checkbox", "Context menu in portrait")
-            checked: Settings.navBarContextMenu
-            onCheckedChanged: Settings.navBarContextMenu = checked
+            checked: SCore.Angelfishettings.navBarContextMenu
+            onCheckedChanged: Core.AngelfishSettings.navBarContextMenu = checked
         }
 
         FormCard.FormCheckDelegate {
             text: i18nc("@label:checkbox", "Go back")
-            checked: Settings.navBarBack
-            onCheckedChanged: Settings.navBarBack = checked
+            checked: Core.AngelfishSettings.navBarBack
+            onCheckedChanged: Core.AngelfishSettings.navBarBack = checked
         }
 
         FormCard.FormCheckDelegate {
             text: i18nc("@label:checkbox", "Go forward")
-            checked: Settings.navBarForward
-            onCheckedChanged: Settings.navBarForward = checked
+            checked: Core.AngelfishSettings.navBarForward
+            onCheckedChanged: Core.AngelfishSettings.navBarForward = checked
         }
 
         FormCard.FormCheckDelegate {
             text: i18nc("@label:checkbox", "Reload/Stop")
-            checked: Settings.navBarReload
-            onCheckedChanged: Settings.navBarReload = checked
+            checked: Core.AngelfishSettings.navBarReload
+            onCheckedChanged: Core.AngelfishSettings.navBarReload = checked
         }
     }
 }

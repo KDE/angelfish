@@ -6,13 +6,14 @@
 
 #include <QAbstractListModel>
 
-#include <memory>
+#include <qqmlregistration.h>
 
 class WebAppManager;
 
 class WebAppManagerModel : public QAbstractListModel
 {
     Q_OBJECT
+    QML_ELEMENT
 
     enum Role {
         NameRole,

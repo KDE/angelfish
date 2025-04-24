@@ -8,6 +8,7 @@ import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.formcard as FormCard
 
 import org.kde.angelfish
+import org.kde.angelfish.core as Core
 
 FormCard.FormCardPage {
     id: root
@@ -23,30 +24,30 @@ FormCard.FormCardPage {
             id: showHome
             text: i18nc("@label", "Show home button:")
             description: i18n("The home button will be shown next to the reload button in the toolbar.")
-            checked: Settings.showHomeButton
-            onClicked: Settings.showHomeButton = checked
+            checked: Core.AngelfishSettings.showHomeButton
+            onClicked: Core.AngelfishSettings.showHomeButton = checked
         }
 
         FormCard.FormDelegateSeparator { above: homepage; below: showHome; visible: homepage.visible }
 
         FormCard.FormTextFieldDelegate {
             id: homepage
-            visible: Settings.showHomeButton
+            visible: Core.AngelfishSettings.showHomeButton
             label: i18nc("@label", "Homepage:")
-            text: Settings.homepage
+            text: Core.AngelfishSettings.homepage
             onAccepted: {
                 let url = text;
                 if (url.indexOf(":/") < 0) {
                     url = "http://" + url;
                 }
-                Settings.homepage = url;
+                Core.AngelfishSettings.homepage = url;
             }
             onEditingFinished: {
                 let url = text;
                 if (url.indexOf(":/") < 0) {
                     url = "http://" + url;
                 }
-                Settings.homepage = url;
+                Core.AngelfishSettings.homepage = url;
             }
 
         }

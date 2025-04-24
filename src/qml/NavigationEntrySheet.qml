@@ -11,7 +11,7 @@ import org.kde.kirigami as Kirigami
 import org.kde.angelfish
 import org.kde.angelfish.core as Core
 
-import "regex-weburl.js" as RegexWebUrl
+import "RegexWebUrl.js" as RegexWebUrl
 
 Controls.Drawer {
     id: overlay
@@ -84,7 +84,7 @@ Controls.Drawer {
                     if (text.match(RegexWebUrl.re_weburl) || text.startsWith("chrome://")) {
                         currentWebView.url = Core.UrlUtils.urlFromUserInput(text);
                     } else {
-                        currentWebView.url = Core.UrlUtils.urlFromUserInput(Settings.searchBaseUrl + text);
+                        currentWebView.url = Core.UrlUtils.urlFromUserInput(Core.AngelfishSettings.searchBaseUrl + text);
                     }
                     overlay.close();
                 }

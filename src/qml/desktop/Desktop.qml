@@ -14,11 +14,12 @@ import org.kde.kirigamiaddons.delegates as Delegates
 
 import Qt5Compat.GraphicalEffects
 
+import org.kde.config as Config
 import org.kde.angelfish
 import org.kde.angelfish.core as Core
 import org.kde.angelfish.settings as AngelfishSettings
 import org.kde.kirigamiaddons.labs.components 1.0 as Addons
-import "regex-weburl.js" as RegexWebUrl
+import "RegexWebUrl.js" as RegexWebUrl
 
 Kirigami.ApplicationWindow {
     id: webBrowser
@@ -27,10 +28,10 @@ Kirigami.ApplicationWindow {
 
     minimumWidth: Kirigami.Units.gridUnit * 20
     minimumHeight: Kirigami.Units.gridUnit * 10
-    x: Settings.windowX
-    y: Settings.windowY
-    width: Settings.windowWidth
-    height: Settings.windowHeight
+
+    Config.WindowStateSaver {
+        configGroupName: "desktop"
+    }
 
     /** Pointer to the currently active view.
      *
@@ -128,11 +129,11 @@ Kirigami.ApplicationWindow {
             }
 
             QQC2.ToolButton {
-                visible: Settings.showHomeButton
+                visible: Core.AngelfishSettings.showHomeButton
                 Layout.alignment: Qt.AlignLeft
                 action: Kirigami.Action {
                     icon.name: "go-home"
-                    onTriggered: currentWebView.url = Settings.homepage
+                    onTriggered: currentWebView.url = Core.AngelfishSettings.homepage
                 }
             }
 
@@ -159,7 +160,7 @@ Kirigami.ApplicationWindow {
                     if (validURL(url)) {
                         currentWebView.url = url;
                     } else {
-                        currentWebView.url = UrlUtils.urlFromUserInput(Settings.searchBaseUrl + searchField.text);
+                        currentWebView.url = UrlUtils.urlFromUserInput(Core.AngelfishSettings.searchBaseUrl + searchField.text);
                     }
                     urlBar.popup.close()
                 }
@@ -278,7 +279,7 @@ Kirigami.ApplicationWindow {
                     text: i18nc("@action:inmenu", "New Tab")
                     icon.name: "list-add"
                     shortcut: "Ctrl+T"
-                    onTriggered: tabs.tabsModel.newTab(Settings.newTabUrl)
+                    onTriggered: tabs.tabsModel.newTab(Core.AngelfishSettings.newTabUrl)
                 }
 
                 Kirigami.Action { // TODO: should ideally open up a new window in private mode
@@ -536,7 +537,7 @@ Kirigami.ApplicationWindow {
             Component.onCompleted: {
                 if (AdblockUrlInterceptor.adblockSupported
                         && AdblockUrlInterceptor.downloadNeeded
-                        && !Settings.adblockFilterDownloadDismissed) {
+                        && !Core.AngelfishSettings.adblockFilterDownloadDismissed) {
                     questionLoader.setSource("AdblockFilterDownloadQuestion.qml")
                 }
             }

@@ -2,14 +2,14 @@
 //
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-import QtQuick 2.15
-import QtQuick.Controls 2.15 as QQC2
-import QtQuick.Layouts 1.15
+import QtQuick
+import QtQuick.Controls as QQC2
+import QtQuick.Layouts
 import QtWebEngine
 
-import org.kde.kirigami 2.19 as Kirigami
+import org.kde.kirigami as Kirigami
 
-import org.kde.angelfish 1.0
+import org.kde.angelfish
 import org.kde.angelfish.core as Core
 
 WebEngineView {
@@ -111,8 +111,8 @@ WebEngineView {
     }
 
     settings {
-        autoLoadImages: Settings.webAutoLoadImages
-        javascriptEnabled: Settings.webJavaScriptEnabled
+        autoLoadImages: Core.AngelfishSettings.webAutoLoadImages
+        javascriptEnabled: Core.AngelfishSettings.webJavaScriptEnabled
         // Disable builtin error pages in favor of our own
         errorPageEnabled: false
         // Load larger touch icons
@@ -579,9 +579,9 @@ classes
             text: contextMenu.request && fullText ? i18nc("@action:inmenu", "Search for “%1”", elidedText) : ""
             onTriggered: {
                 if (webEngineView.isAppView) {
-                    Qt.openUrlExternally(UrlUtils.urlFromUserInput(Settings.searchBaseUrl + fullText));
+                    Qt.openUrlExternally(UrlUtils.urlFromUserInput(Core.AngelfishSettings.searchBaseUrl + fullText));
                 } else {
-                    tabsModel.newTab(UrlUtils.urlFromUserInput(Settings.searchBaseUrl + fullText));
+                    tabsModel.newTab(UrlUtils.urlFromUserInput(Core.AngelfishSettings.searchBaseUrl + fullText));
                 }
             }
         }

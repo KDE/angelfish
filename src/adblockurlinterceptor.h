@@ -7,6 +7,7 @@
 #include <QWebEngineUrlRequestInterceptor>
 
 #include <angelfishsettings.h>
+#include <qqmlregistration.h>
 
 #ifdef BUILD_ADBLOCK
 #include <adblock.rs.h>
@@ -20,13 +21,15 @@ class QQuickWebEngineProfile;
 class AdblockUrlInterceptor : public QWebEngineUrlRequestInterceptor
 {
     Q_OBJECT
+    QML_ELEMENT
+    QML_SINGLETON
 
     Q_PROPERTY(bool downloadNeeded READ downloadNeeded NOTIFY downloadNeededChanged)
     Q_PROPERTY(bool enabled READ enabled WRITE setEnabled NOTIFY enabledChanged)
     Q_PROPERTY(bool adblockSupported READ adblockSupported CONSTANT)
 
 public:
-    static AdblockUrlInterceptor &instance();
+    AdblockUrlInterceptor(QObject *parent = nullptr);
     ~AdblockUrlInterceptor();
 
     void interceptRequest(QWebEngineUrlRequestInfo &info) override;
@@ -61,8 +64,6 @@ public:
     Q_SIGNAL void adblockInitialized();
 
 private:
-    explicit AdblockUrlInterceptor(QObject *parent = nullptr);
-
 #ifdef BUILD_ADBLOCK
     /// If an adblock cache is found, loads it, otherwise creates a new adblock
     /// from the current filter lists.

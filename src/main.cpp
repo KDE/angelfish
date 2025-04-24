@@ -24,23 +24,17 @@
 
 #include <csignal>
 
-#include "adblockfilterlistsmanager.h"
-#include "adblockfilterlistsmodel.h"
-#include "adblockurlinterceptor.h"
 #include "angelfishsettings.h"
-#include "angelfishwebprofile.h"
 #include "browsermanager.h"
-#include "domdistiller.h"
 #include "version.h"
-#include "webappcreator.h"
-#include "webappmanagermodel.h"
 #include "iconimageprovider.h"
 #include "tabsmodel.h"
-#include "downloadsmodel.h"
 
 namespace ranges = std::ranges;
 
 constexpr auto APPLICATION_ID = "org.kde.angelfish";
+
+using namespace Qt::StringLiterals;
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
@@ -136,9 +130,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
         KWindowSystem::activateWindow(webbrowserWindow);
     });
 
-    // register as early possible so it has time to load, constructor doesn't block
-    qmlRegisterSingletonInstance<AdblockUrlInterceptor>(APPLICATION_ID, 1, 0, "AdblockUrlInterceptor", &AdblockUrlInterceptor::instance());
-
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
 
     engine.addImageProvider(IconImageProvider::providerId(), new IconImageProvider());
@@ -151,19 +142,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
         }
         BrowserManager::instance()->setInitialUrl(initialUrl);
     }
-
-    // Exported types
-    qmlRegisterType<DownloadsModel>(APPLICATION_ID, 1, 0, "DownloadsModel");
-    qmlRegisterSingletonInstance<AngelfishSettings>(APPLICATION_ID, 1, 0, "Settings", AngelfishSettings::self());
-    qmlRegisterType<AdblockFilterListsModel>(APPLICATION_ID, 1, 0, "AdblockFilterListsModel");
-    qmlRegisterType<WebAppManagerModel>(APPLICATION_ID, 1, 0, "WebAppManagerModel");
-    qmlRegisterType<WebAppCreator>(APPLICATION_ID, 1, 0, "WebAppCreator");
-    qmlRegisterAnonymousType<QWebEngineUrlRequestInterceptor>(APPLICATION_ID, 1);
-
-    // Dom Distiller
-    qmlRegisterSingletonType<DomDistiller>(APPLICATION_ID, 1, 0, "DomDistiller", [](QQmlEngine *, QJSEngine *) -> QObject * {
-        return new DomDistiller();
-    });
 
     QObject::connect(QApplication::instance(), &QCoreApplication::aboutToQuit, QApplication::instance(), [] {
         AngelfishSettings::self()->save();
@@ -193,39 +171,14 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     // Load QML
 
-    const QUrl url(SettingsHelper::isMobile()
-                   ? QStringLiteral("qrc:/mobile.qml")
-                   : QStringLiteral("qrc:/desktop.qml"));
-    QObject::connect(
-        &engine,
-        &QQmlApplicationEngine::objectCreated,
-        &app,
-        [url](QObject* obj, const QUrl& objUrl) {
-            if ((obj == nullptr) && url == objUrl) {
-                QCoreApplication::exit(-1);
-            }
-        },
-        Qt::QueuedConnection);
-    engine.load(url);
+    const QString url(SettingsHelper::isMobile() ? u"Mobile"_s : u"Desktop"_s);
+
+    engine.loadFromModule("org.kde.angelfish"_L1, url);
 
     // Error handling
     if (engine.rootObjects().isEmpty()) {
         return -1;
     }
 
-    const auto window = qobject_cast<QQuickWindow *>(engine.rootObjects().constFirst());
-    QObject::connect(window, &QQuickWindow::widthChanged, AngelfishSettings::self(), [window] {
-        AngelfishSettings::setWindowWidth(window->width());
-    });
-    QObject::connect(window, &QQuickWindow::heightChanged, AngelfishSettings::self(), [window] {
-        AngelfishSettings::setWindowHeight(window->height());
-    });
-    QObject::connect(window, &QQuickWindow::xChanged, AngelfishSettings::self(), [window] {
-        AngelfishSettings::setWindowX(window->x());
-    });
-    QObject::connect(window, &QQuickWindow::yChanged, AngelfishSettings::self(), [window] {
-        AngelfishSettings::setWindowY(window->y());
-    });
-	
     return app.exec();
 }

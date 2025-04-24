@@ -96,13 +96,6 @@ void AdblockUrlInterceptor::setEnabled(bool enabled)
     AngelfishSettings::setAdblockEnabled(enabled);
 }
 
-AdblockUrlInterceptor &AdblockUrlInterceptor::instance()
-{
-    static AdblockUrlInterceptor instance;
-
-    return instance;
-}
-
 AdblockUrlInterceptor::~AdblockUrlInterceptor()
 {
 #ifdef BUILD_ADBLOCK

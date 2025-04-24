@@ -187,7 +187,7 @@ Item {
             Controls.ToolButton {
                 id: mainMenuButton
                 icon.name: rootPage.privateMode ? "view-private" : "application-menu"
-                visible: webBrowser.landscape || Settings.navBarMainMenu
+                visible: webBrowser.landscape || Core.AngelfishSettings.navBarMainMenu
                 opacity: navigation.dismissOpacity
 
                 Layout.preferredWidth: navigation.buttonSize
@@ -201,7 +201,7 @@ Item {
 
             Controls.ToolButton {
                 id: tabButton
-                visible: webBrowser.landscape || Settings.navBarTabs
+                visible: webBrowser.landscape || Core.AngelfishSettings.navBarTabs
                 opacity: navigation.dismissOpacity
                 Layout.preferredWidth: navigation.buttonSize
                 Layout.preferredHeight: navigation.buttonSize
@@ -243,7 +243,7 @@ Item {
                 Layout.preferredWidth: navigation.buttonSize
                 Layout.preferredHeight: navigation.buttonSize
 
-                visible: currentWebView.canGoBack && Settings.navBarBack
+                visible: currentWebView.canGoBack && Core.AngelfishSettings.navBarBack
                 opacity: navigation.dismissOpacity
                 icon.name: "go-previous"
 
@@ -263,7 +263,7 @@ Item {
                 Layout.preferredWidth: navigation.buttonSize
                 Layout.preferredHeight: navigation.buttonSize
 
-                visible: currentWebView.canGoForward && Settings.navBarForward
+                visible: currentWebView.canGoForward && Core.AngelfishSettings.navBarForward
                 opacity: navigation.dismissOpacity
                 icon.name: "go-next"
 
@@ -359,7 +359,7 @@ Item {
                 Layout.preferredWidth: navigation.buttonSize
                 Layout.preferredHeight: navigation.buttonSize
 
-                visible: Settings.navBarReload
+                visible: Core.AngelfishSettings.navBarReload
                 opacity: navigation.dismissOpacity
                 icon.name: currentWebView.loading ? "process-stop" : "view-refresh"
 
@@ -379,7 +379,7 @@ Item {
                 Layout.preferredWidth: navigation.buttonSize
                 Layout.preferredHeight: navigation.buttonSize
 
-                visible: webBrowser.landscape || Settings.navBarContextMenu
+                visible: webBrowser.landscape || Core.AngelfishSettings.navBarContextMenu
                 opacity: navigation.dismissOpacity
                 icon.name: "overflow-menu"
 

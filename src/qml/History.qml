@@ -6,7 +6,7 @@ import QtQuick
 import QtQuick.Layouts
 
 import org.kde.kirigami as Kirigami
-import org.kde.angelfish 1.0
+import org.kde.angelfish
 import org.kde.angelfish.core as Core
 
 Kirigami.ScrollablePage {

@@ -5,7 +5,7 @@
 
 add_subdirectory(settings)
 
-set(angelfish_SRCS
+add_executable(angelfish
     main.cpp
     adblockfilterlistsmodel.cpp
     adblockfilterlistsmanager.cpp
@@ -15,10 +15,44 @@ set(angelfish_SRCS
     webappcreator.cpp
     webappmanager.cpp
     webappmanagermodel.cpp
-    angelfish.qrc
 )
 
-add_executable(angelfish ${angelfish_SRCS})
+ecm_add_qml_module(angelfish
+    GENERATE_PLUGIN_SOURCE
+    URI org.kde.angelfish
+)
+
+ecm_target_qml_sources(angelfish
+    SOURCES
+        qml/AdblockFilterDownloadQuestion.qml
+        qml/Bookmarks.qml
+        qml/Downloads.qml
+        qml/FindInPageBar.qml
+        qml/HapticsEffectLoader.qml
+        qml/HapticsEffectWrapper.qml
+        qml/History.qml
+        qml/HistorySheet.qml
+        qml/InputSheet.qml
+        qml/Mobile.qml
+        qml/Navigation.qml
+        qml/NavigationEntrySheet.qml
+        qml/NewTabQuestion.qml
+        qml/ShareSheet.qml
+        qml/Tabs.qml
+        qml/UrlDelegate.qml
+
+        qml/desktop/BookmarksPage.qml
+        qml/desktop/Desktop.qml
+        qml/desktop/HistoryPage.qml
+        qml/desktop/TabHistory.qml
+        qml/desktop/DesktopTabs.qml
+
+        regex-weburl/RegexWebUrl.js
+)
+
+qt_add_resources(angelfish DomDistiller
+    FILES dom-distiller-dist/domdistiller.js
+)
 
 if (Corrosion_FOUND)
     add_custom_target(adblock

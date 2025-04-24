@@ -6,7 +6,7 @@ import QtQuick 2.0
 
 // see also: QTBUG-16854
 Loader {
-    source: "qrc:/HapticsEffectWrapper.qml"
+    source: Qt.resolvedUrl("HapticsEffectWrapper.qml")
     property bool valid: item !== null
     function start() {
         if (valid) item.start()

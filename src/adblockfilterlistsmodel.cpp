@@ -57,9 +57,4 @@ void AdblockFilterListsModel::refreshLists()
     m_manager.refreshLists();
 }
 
-void AdblockFilterListsModel::resetAdblock()
-{
-    AdblockUrlInterceptor::instance().resetAdblock();
-}
-
 #include "moc_adblockfilterlistsmodel.cpp"

@@ -2,13 +2,13 @@
 //
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-import QtQuick 2.3
-import QtQuick.Layouts 1.0
-import QtQuick.Controls 2.0 as Controls
-import QtWebEngine 1.5
+import QtQuick
+import QtQuick.Layouts
+import QtQuick.Controls as Controls
+import QtWebEngine
 
-import org.kde.kirigami 2.5 as Kirigami
-import org.kde.angelfish 1.0
+import org.kde.kirigami as Kirigami
+import org.kde.angelfish
 
 Item {
     id: findInPage

@@ -2,8 +2,9 @@
 //
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-import org.kde.kirigami 2.4 as Kirigami
-import org.kde.angelfish 1.0
+import org.kde.kirigami as Kirigami
+import org.kde.angelfish
+import org.kde.angelfish.core as Core
 
 Kirigami.InlineMessage {
     id: question
@@ -17,10 +18,11 @@ Kirigami.InlineMessage {
     AdblockFilterListsModel {
         id: filterListsModel
         onRefreshFinished: question.visible = false
+        onResetAdblock: AdblockUrlInterceptor.resetAdblock()
     }
 
     onVisibleChanged: if (!visible) {
-        Settings.adblockFilterDownloadDismissed = true
+        Core.AngelfishSettings.adblockFilterDownloadDismissed = true
     }
 
     actions: [

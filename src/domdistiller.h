@@ -6,10 +6,13 @@
 
 #include <QObject>
 #include <QString>
+#include <qqmlregistration.h>
 
 class DomDistiller : public QObject
 {
     Q_OBJECT
+    QML_SINGLETON
+    QML_ELEMENT
 
     Q_PROPERTY(QString script READ script)
     Q_PROPERTY(QString applyScript READ applyScript)

@@ -2,12 +2,13 @@
 // SPDX-FileCopyrightText: 2023 Michael Lang <criticaltemp@protonmail.com>
 // SPDX-License-Identifier: LGPL-2.0-or-later
 
-import QtQuick 2.15
-import QtQuick.Controls 2.15 as QQC2
-import QtQuick.Layouts 1.15
-import org.kde.kirigami 2.19 as Kirigami
+import QtQuick
+import QtQuick.Controls as QQC2
+import QtQuick.Layouts
+import org.kde.kirigami as Kirigami
 
-import org.kde.angelfish 1.0
+import org.kde.angelfish
+import org.kde.angelfish.core as Core
 
 RowLayout {
     id: tabsComponent
@@ -122,7 +123,7 @@ RowLayout {
 
     ListView {
         id: listview
-        visible: Settings.showTabBar || listview.count > 1
+        visible: Core.AngelfishSettings.showTabBar || listview.count > 1
         Layout.fillWidth: true
         Layout.preferredHeight: footerItem.height
         model: tabs.model
@@ -290,7 +291,7 @@ RowLayout {
                 }
                 QQC2.ToolButton {
                     icon.name: "list-add"
-                    onClicked: tabs.tabsModel.newTab(Settings.newTabUrl)
+                    onClicked: tabs.tabsModel.newTab(Core.Settings.newTabUrl)
 
                     QQC2.ToolTip.visible: hoverHandler.hovered
                     QQC2.ToolTip.delay: Qt.styleHints.mousePressAndHoldInterval
@@ -361,7 +362,7 @@ RowLayout {
             text: i18nc("@action:inmenu", "New Tab")
             icon.name: "list-add"
             shortcut: "Ctrl+T"
-            onTriggered: tabs.tabsModel.newTab(Settings.newTabUrl)
+            onTriggered: tabs.tabsModel.newTab(Core.Settings.newTabUrl)
         }
 
         QQC2.MenuSeparator {}

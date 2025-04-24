@@ -17,7 +17,7 @@ FormCard.FormCardPage {
 
     title: i18nc("@window:title", "Search Engines")
 
-    property string baseUrl: Settings.searchBaseUrl
+    property string baseUrl: Core.AngelfishSettings.searchBaseUrl
     property string customName: i18nc("@label", "Custom")
 
     FormCard.FormHeader {
@@ -90,7 +90,7 @@ FormCard.FormCardPage {
             delegate: FormCard.FormRadioDelegate {
                 checked: model.url === baseUrl
                 text: model.title
-                description: model.title === root.customName ? Settings.searchCustomUrl : model.url
+                description: model.title === root.customName ? Core.AngelfishSettings.searchCustomUrl : model.url
                 onClicked: {
                     if (model.title !== root.customName)
                         baseUrl = model.url;
@@ -116,7 +116,7 @@ FormCard.FormCardPage {
         FormCard.FormTextFieldDelegate {
             id: urlInput
             label: i18nc("@label", "Base URL of your preferred search engine")
-            text: Settings.searchCustomUrl
+            text: Core.AngelfishSettings.searchCustomUrl
             onAccepted: searchEnginePopup.accepted();
         }
 
@@ -126,7 +126,7 @@ FormCard.FormCardPage {
 
         onAccepted: {
             const url = Core.UrlUtils.urlFromUserInput(urlInput.text);
-            Settings.searchCustomUrl = url;
+            Core.AngelfishSettings.searchCustomUrl = url;
             baseUrl = url;
             searchEngines.setProperty(searchEngines.count - 1, "url", url);
             close();
@@ -134,10 +134,10 @@ FormCard.FormCardPage {
     }
 
     onBaseUrlChanged: {
-        Settings.searchBaseUrl = Core.UrlUtils.urlFromUserInput(baseUrl);
+        Core.AngelfishSettings.searchBaseUrl = Core.UrlUtils.urlFromUserInput(baseUrl);
     }
 
     Component.onCompleted: {
-        searchEngines.append({ title: root.customName, url: Settings.searchCustomUrl });
+        searchEngines.append({ title: root.customName, url: Core.AngelfishSettings.searchCustomUrl });
     }
 }

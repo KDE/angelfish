@@ -7,6 +7,7 @@
 #include <QCoroQml>
 #include <QCoroTask>
 #include <QObject>
+#include <qqmlregistration.h>
 
 class QQmlEngine;
 class WebAppManager;
@@ -14,6 +15,7 @@ class WebAppManager;
 class WebAppCreator : public QObject
 {
     Q_OBJECT
+    QML_ELEMENT
 
     Q_PROPERTY(QString websiteName READ websiteName WRITE setWebsiteName NOTIFY websiteNameChanged)
     Q_PROPERTY(bool exists READ exists NOTIFY existsChanged)

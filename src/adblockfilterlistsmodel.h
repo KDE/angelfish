@@ -7,12 +7,14 @@
 #include <QAbstractListModel>
 #include <QDateTime>
 #include <QNetworkAccessManager>
+#include <qqmlregistration.h>
 
 #include "adblockfilterlistsmanager.h"
 
 class AdblockFilterListsModel : public QAbstractListModel
 {
     Q_OBJECT
+    QML_ELEMENT
 
     enum Role {
         Url = Qt::UserRole + 1,
@@ -29,7 +31,7 @@ public:
     Q_SLOT void removeFilterList(const int index);
 
     Q_SLOT void refreshLists();
-    Q_SLOT void resetAdblock();
+    Q_SIGNAL void resetAdblock();
     Q_SIGNAL void refreshFinished();
 
 private:

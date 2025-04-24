@@ -6,12 +6,13 @@
 
 #include <QFile>
 #include <QTextStream>
+#include <QDebug>
 
 DomDistiller::DomDistiller(QObject *parent)
     : QObject{parent}
     , m_applyScript(QStringLiteral("org.chromium.distiller.DomDistiller.apply()"))
 {
-    QFile domDistillerFile(QStringLiteral(":/domdistiller.js"));
+    QFile domDistillerFile(QStringLiteral(":/dom-distiller-dist/domdistiller.js"));
 
     if (domDistillerFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
         QTextStream textStream(&domDistillerFile);

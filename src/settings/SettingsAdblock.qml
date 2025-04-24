@@ -63,6 +63,7 @@ FormCard.FormCardPage {
             model: AdblockFilterListsModel {
                 id: filterlistModel
                 onRefreshFinished: adblockSettings.refreshing = false
+                onResetAdblock: AdblockUrlInterceptor.resetAdblock()
             }
 
             delegate: FormCard.AbstractFormDelegate {
