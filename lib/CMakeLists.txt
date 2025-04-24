@@ -44,20 +44,16 @@ target_link_libraries(AngelfishCore PUBLIC
     Qt::Core
     Qt::Qml
     Qt::Sql
-    KF${QT_MAJOR_VERSION}::ConfigCore
-    KF${QT_MAJOR_VERSION}::ConfigGui
-    KF${QT_MAJOR_VERSION}::I18n
-    KF${QT_MAJOR_VERSION}::Notifications
-    FutureSQL${QT_MAJOR_VERSION}::FutureSQL
-    QCoro${QT_MAJOR_VERSION}::Core
-    QCoro${QT_MAJOR_VERSION}::Quick
+    KF6::ConfigCore
+    KF6::ConfigGui
+    KF6::I18n
+    KF6::Notifications
+    FutureSQL6::FutureSQL
+    QCoro6::Core
+    QCoro6::Quick
 )
 
-if(QT_MAJOR_VERSION STREQUAL "6")
-    target_link_libraries(AngelfishCore PRIVATE Qt::WebEngineCore Qt::WebEngineQuick)
-else()
-    target_link_libraries(AngelfishCore PRIVATE Qt::WebEngine)
-endif()
+target_link_libraries(AngelfishCore PRIVATE Qt::WebEngineCore Qt::WebEngineQuick)
 
 install(FILES angelfishsettings.kcfg DESTINATION ${KDE_INSTALL_KCFGDIR})
 install(FILES angelfish.notifyrc DESTINATION ${KDE_INSTALL_KNOTIFYRCDIR})

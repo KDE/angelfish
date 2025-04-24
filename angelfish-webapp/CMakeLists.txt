@@ -20,17 +20,13 @@ target_link_libraries(angelfish-webapp PRIVATE
     Qt::Sql
     Qt::Svg
     Qt::Widgets
-    KF${QT_MAJOR_VERSION}::I18n
-    KF${QT_MAJOR_VERSION}::CoreAddons
+    KF6::I18n
+    KF6::CoreAddons
     AngelfishCore
     AngelfishCoreplugin
 )
 
-if(QT_MAJOR_VERSION STREQUAL "6")
-    target_link_libraries(angelfish-webapp PRIVATE Qt::WebEngineCore Qt::WebEngineQuick)
-else()
-    target_link_libraries(angelfish-webapp PRIVATE Qt::WebEngine)
-endif()
+target_link_libraries(angelfish-webapp PRIVATE Qt::WebEngineCore Qt::WebEngineQuick)
 
 install(TARGETS angelfish-webapp ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
 
