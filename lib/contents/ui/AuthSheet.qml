@@ -3,39 +3,35 @@
 //
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-import QtQuick 2.0
-import QtQuick.Layouts 1.1
-import QtQuick.Controls 2.2 as Controls
-import org.kde.kirigami 2.20 as Kirigami
+import QtQuick
+import QtQuick.Layouts
+import QtQuick.Controls as Controls
+import org.kde.kirigami as Kirigami
+import org.kde.kirigamiaddons.formcard as FormCard
 
 import QtWebEngine 1.4
 
-Kirigami.PromptDialog {
+FormCard.FormCardDialog {
     id: root
+
     property AuthenticationDialogRequest request
 
     title: i18nc("@title:window", "Authentication Required")
 
     standardButtons: Kirigami.Dialog.Ok | Kirigami.Dialog.Cancel
-    
+
     onAccepted: root.request.dialogAccept(usernameField.text, passwordField.text)
     onRejected: root.request.dialogReject()
-    
-    Kirigami.FormLayout {
-        Layout.fillWidth: true
 
-        Controls.TextField {
-            id: usernameField
+    FormCard.FormTextFieldDelegate {
+        id: usernameField
 
-            Kirigami.FormData.label: i18nc("@label:textbox", "Username:")
-            Layout.fillWidth: true
-        }
-        Controls.TextField {
-            id: passwordField
-            echoMode: TextInput.Password
+        label: i18nc("@label:textbox", "Username:")
+    }
 
-            Kirigami.FormData.label: i18nc("@label:textbox", "Password:")
-            Layout.fillWidth: true
-        }
+    FormCard.FormPasswordFieldDelegate {
+        id: passwordField
+
+        label: i18nc("@label:textbox", "Password:")
     }
 }
