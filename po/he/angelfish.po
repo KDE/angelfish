@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-21 00:41+0000\n"
+"POT-Creation-Date: 2025-04-25 00:41+0000\n"
 "PO-Revision-Date: 2025-04-22 08:04+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -78,7 +78,7 @@ msgid "Would you like to download %1 from %2?"
 msgstr "להוריד את %1 מ־%2?"
 
 #: lib/contents/ui/DownloadQuestion.qml:25
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
+#: src/qml/AdblockFilterDownloadQuestion.qml:32
 #, kde-format
 msgctxt "@action:button"
 msgid "Download"
@@ -476,8 +476,8 @@ msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "חיפוש אחר „%1”"
 
-#: lib/contents/ui/WebView.qml:592 src/contents/ui/desktop/desktop.qml:377
-#: src/contents/ui/mobile.qml:315
+#: lib/contents/ui/WebView.qml:592 src/qml/desktop/Desktop.qml:378
+#: src/qml/Mobile.qml:315
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
@@ -489,363 +489,405 @@ msgctxt "@action:inmenu"
 msgid "View Page Source"
 msgstr "הצגת מקור העמוד"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
+#: src/main.cpp:73
+#, kde-format
+msgid "URL to open"
+msgstr "כתובת לפתיחה"
+
+#: src/main.cpp:84
+#, kde-format
+msgid "Angelfish"
+msgstr "Angelfish"
+
+#: src/main.cpp:86
+#, kde-format
+msgid "Web browser for Plasma Mobile"
+msgstr "דפדפן לפלזמה לניידים"
+
+#: src/main.cpp:88
+#, kde-format
+msgid "© 2015-2024 KDE Community"
+msgstr "© 2015‏-2024 קהילת KDE"
+
+#: src/main.cpp:91
+#, kde-format
+msgid "Jonah Brüchert"
+msgstr "יונה בריכרט"
+
+#: src/main.cpp:91
+#, kde-format
+msgid "Maintainer"
+msgstr "מתחזק"
+
+#: src/main.cpp:92
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "צוות התרגום של KDE ישראל"
+
+#: src/main.cpp:92
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-l10n-he@kde.org"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:15
 #, kde-format
 msgctxt "@info"
 msgid ""
 "The adblocker is missing its filter lists, do you want to download them now?"
 msgstr "לחוסם הפרסומות חסרה רשימת המסננים, להוריד אותם עכשיו?"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:35
+#: src/qml/AdblockFilterDownloadQuestion.qml:37
 #, kde-format
 msgctxt "@info"
 msgid "Downloading…"
 msgstr "מתבצעת הורדה…"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:41
+#: src/qml/AdblockFilterDownloadQuestion.qml:43
 #, kde-format
 msgctxt "@action:button"
 msgid "Disable Adblock"
 msgstr "השבתת חסימת פרסומות"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:47
+#: src/qml/AdblockFilterDownloadQuestion.qml:49
 #, kde-format
 msgctxt "@info"
 msgid "Adblock Disabled…"
 msgstr "חוסם פרסומות מושבת…"
 
-#: src/contents/ui/Bookmarks.qml:13
+#: src/qml/Bookmarks.qml:13
 #, kde-format
 msgctxt "@title:window"
 msgid "Bookmarks"
 msgstr "סימניות"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:33
+#: src/qml/desktop/BookmarksPage.qml:33
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search bookmarks…"
 msgstr "חיפוש בסימניות…"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:79
+#: src/qml/desktop/BookmarksPage.qml:79
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No bookmarks yet"
 msgstr "אין סימניות עדיין"
 
-#: src/contents/ui/desktop/desktop.qml:151
+#: src/qml/desktop/Desktop.qml:152
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "חיפוש או מילוי כתובת…"
 
-#: src/contents/ui/desktop/desktop.qml:278 src/contents/ui/desktop/Tabs.qml:361
-#: src/contents/ui/Navigation.qml:443
+#: src/qml/desktop/Desktop.qml:279 src/qml/desktop/DesktopTabs.qml:362
+#: src/qml/Navigation.qml:443
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "לשונית חדשה"
 
-#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:92
+#: src/qml/desktop/Desktop.qml:286 src/qml/Mobile.qml:92
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
 msgstr "יציאה ממצב פרטי"
 
-#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:92
+#: src/qml/desktop/Desktop.qml:286 src/qml/Mobile.qml:92
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Private Mode"
 msgstr "מצב פרטי"
 
-#: src/contents/ui/desktop/desktop.qml:294 src/contents/ui/mobile.qml:108
+#: src/qml/desktop/Desktop.qml:295 src/qml/Mobile.qml:108
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "History"
 msgstr "היסטוריה"
 
-#: src/contents/ui/desktop/desktop.qml:303 src/contents/ui/mobile.qml:100
+#: src/qml/desktop/Desktop.qml:304 src/qml/Mobile.qml:100
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "סימניות"
 
-#: src/contents/ui/desktop/desktop.qml:315 src/contents/ui/mobile.qml:112
+#: src/qml/desktop/Desktop.qml:316 src/qml/Mobile.qml:112
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "הורדות"
 
-#: src/contents/ui/desktop/desktop.qml:328
+#: src/qml/desktop/Desktop.qml:329
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr "הדפסה"
 
-#: src/contents/ui/desktop/desktop.qml:334
+#: src/qml/desktop/Desktop.qml:335
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr "מסך מלא"
 
-#: src/contents/ui/desktop/desktop.qml:351
+#: src/qml/desktop/Desktop.qml:352
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "הסתרת כלי מפתחים"
 
-#: src/contents/ui/desktop/desktop.qml:352 src/contents/ui/mobile.qml:411
+#: src/qml/desktop/Desktop.qml:353 src/qml/Mobile.qml:411
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "הצגת כלי מפתחים"
 
-#: src/contents/ui/desktop/desktop.qml:361 src/contents/ui/mobile.qml:311
+#: src/qml/desktop/Desktop.qml:362 src/qml/Mobile.qml:311
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "איתור בעמוד"
 
-#: src/contents/ui/desktop/desktop.qml:370 src/contents/ui/mobile.qml:394
+#: src/qml/desktop/Desktop.qml:371 src/qml/Mobile.qml:394
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "מצב קריאה"
 
-#: src/contents/ui/desktop/desktop.qml:387
+#: src/qml/desktop/Desktop.qml:388
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "הוספה למשגר היישומים"
 
-#: src/contents/ui/desktop/desktop.qml:406 src/contents/ui/mobile.qml:120
+#: src/qml/desktop/Desktop.qml:407 src/qml/Mobile.qml:120
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "הגדרות"
 
-#: src/contents/ui/desktop/HistoryPage.qml:31
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Search history…"
-msgstr "חיפוש בהיסטוריה…"
-
-#: src/contents/ui/desktop/HistoryPage.qml:47
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Clear all history"
-msgstr "פינוי כל ההיסטוריה"
-
-#: src/contents/ui/desktop/HistoryPage.qml:84
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "No history yet"
-msgstr "אין היסטוריה עדיין"
-
-#: src/contents/ui/desktop/Tabs.qml:238 src/contents/ui/Tabs.qml:276
+#: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
 #, kde-format
 msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr "מצב קריאה: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:267 src/contents/ui/Tabs.qml:307
+#: src/qml/desktop/DesktopTabs.qml:268 src/qml/Tabs.qml:306
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close tab"
 msgstr "סגירת לשונית"
 
-#: src/contents/ui/desktop/Tabs.qml:297
+#: src/qml/desktop/DesktopTabs.qml:298
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open a new tab"
 msgstr "פתיחת לשונית חדשה"
 
-#: src/contents/ui/desktop/Tabs.qml:330
+#: src/qml/desktop/DesktopTabs.qml:331
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "List all tabs"
 msgstr "הצגת כל הלשוניות"
 
-#: src/contents/ui/desktop/Tabs.qml:370
+#: src/qml/desktop/DesktopTabs.qml:371
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reload Tab"
 msgstr "ריענון לשונית"
 
-#: src/contents/ui/desktop/Tabs.qml:378
+#: src/qml/desktop/DesktopTabs.qml:379
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Duplicate Tab"
 msgstr "שכפול לשונית"
 
-#: src/contents/ui/desktop/Tabs.qml:386
+#: src/qml/desktop/DesktopTabs.qml:387
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "הוספת לשונית לסימניות"
 
-#: src/contents/ui/desktop/Tabs.qml:402
+#: src/qml/desktop/DesktopTabs.qml:403
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "סגירת לשונית"
 
-#: src/contents/ui/desktop/Tabs.qml:408
+#: src/qml/desktop/DesktopTabs.qml:409
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
 msgstr "פתיחת לשוניות שנסגרו מחדש"
 
-#: src/contents/ui/Downloads.qml:17
+#: src/qml/desktop/HistoryPage.qml:31
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search history…"
+msgstr "חיפוש בהיסטוריה…"
+
+#: src/qml/desktop/HistoryPage.qml:47
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear all history"
+msgstr "פינוי כל ההיסטוריה"
+
+#: src/qml/desktop/HistoryPage.qml:84
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No history yet"
+msgstr "אין היסטוריה עדיין"
+
+#: src/qml/Downloads.qml:17
 #, kde-format
 msgctxt "@title:window"
 msgid "Downloads"
 msgstr "הורדות"
 
-#: src/contents/ui/Downloads.qml:29
+#: src/qml/Downloads.qml:29
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No running downloads"
 msgstr "אין הורדות פעילות"
 
-#: src/contents/ui/Downloads.qml:78
+#: src/qml/Downloads.qml:78
 #, kde-format
 msgctxt "@info:progress"
 msgid "Starting…"
 msgstr "מופעל…"
 
-#: src/contents/ui/Downloads.qml:80
+#: src/qml/Downloads.qml:80
 #, kde-format
 msgctxt "@info:progress"
 msgid "Completed"
 msgstr "הושלמה"
 
-#: src/contents/ui/Downloads.qml:82
+#: src/qml/Downloads.qml:82
 #, kde-format
 msgctxt "@info:progress"
 msgid "Cancelled"
 msgstr "בוטלה"
 
-#: src/contents/ui/Downloads.qml:84
+#: src/qml/Downloads.qml:84
 #, kde-format
 msgctxt "@info:progress"
 msgid "Interrupted"
 msgstr "נקטעה"
 
-#: src/contents/ui/Downloads.qml:86
+#: src/qml/Downloads.qml:86
 #, kde-format
 msgctxt "@info:progress"
 msgid "In progress…"
 msgstr "בתהליך…"
 
-#: src/contents/ui/Downloads.qml:93
+#: src/qml/Downloads.qml:93
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Cancel"
 msgstr "ביטול"
 
-#: src/contents/ui/Downloads.qml:118
+#: src/qml/Downloads.qml:118
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Continue"
 msgstr "להמשיך"
 
-#: src/contents/ui/FindInPageBar.qml:45
+#: src/qml/FindInPageBar.qml:45
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr "חיפוש…"
 
-#: src/contents/ui/History.qml:13
+#: src/qml/History.qml:13
 #, kde-format
 msgctxt "@title:window"
 msgid "History"
 msgstr "היסטוריה"
 
-#: src/contents/ui/mobile.qml:21
+#: src/qml/Mobile.qml:22
 #, kde-format
 msgctxt "@title:window"
 msgid "Angelfish Web Browser"
 msgstr "דפדפן האינטרנט Angelfish"
 
-#: src/contents/ui/mobile.qml:85
+#: src/qml/Mobile.qml:85
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Tabs"
 msgstr "לשוניות"
 
-#: src/contents/ui/mobile.qml:326
+#: src/qml/Mobile.qml:326
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "הוספה למסך הבית"
 
-#: src/contents/ui/mobile.qml:336
+#: src/qml/Mobile.qml:336
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "פתיחה ביישומון"
 
-#: src/contents/ui/mobile.qml:344
+#: src/qml/Mobile.qml:344
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr "חזרה"
 
-#: src/contents/ui/mobile.qml:352
+#: src/qml/Mobile.qml:352
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "התקדמות לבא"
 
-#: src/contents/ui/mobile.qml:359
+#: src/qml/Mobile.qml:359
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "עצירת הטעינה"
 
-#: src/contents/ui/mobile.qml:359
+#: src/qml/Mobile.qml:359
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "ריענון"
 
-#: src/contents/ui/mobile.qml:369
+#: src/qml/Mobile.qml:369
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "נוסף לסימניות"
 
-#: src/contents/ui/mobile.qml:369
+#: src/qml/Mobile.qml:369
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "הוספה לסימניות"
 
-#: src/contents/ui/mobile.qml:385
+#: src/qml/Mobile.qml:385
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "הצגת אתר לשולחן העבודה"
 
-#: src/contents/ui/mobile.qml:402
+#: src/qml/Mobile.qml:402
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "הסתרת סרגל ניווט"
 
-#: src/contents/ui/Navigation.qml:416
+#: src/qml/Navigation.qml:416
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr "בוצע"
 
-#: src/contents/ui/Navigation.qml:429
+#: src/qml/Navigation.qml:429
 #, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"
 msgstr "%1 לשוניות"
 
-#: src/contents/ui/NewTabQuestion.qml:11
+#: src/qml/NewTabQuestion.qml:11
 #, kde-format
 msgctxt "@info:status"
 msgid ""
@@ -855,62 +897,20 @@ msgstr ""
 "האתר רוצה לפתוח לשונית חדשה:\n"
 "%1"
 
-#: src/contents/ui/NewTabQuestion.qml:19
+#: src/qml/NewTabQuestion.qml:19
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
 msgstr "פתיחה"
 
-#: src/contents/ui/ShareSheet.qml:18
+#: src/qml/ShareSheet.qml:18
 #, kde-format
 msgctxt "@title:window"
 msgid "Share Page"
 msgstr "שיתוף העמוד"
 
-#: src/main.cpp:79
-#, kde-format
-msgid "URL to open"
-msgstr "כתובת לפתיחה"
-
-#: src/main.cpp:90
-#, kde-format
-msgid "Angelfish"
-msgstr "Angelfish"
-
-#: src/main.cpp:92
-#, kde-format
-msgid "Web browser for Plasma Mobile"
-msgstr "דפדפן לפלזמה לניידים"
-
-#: src/main.cpp:94
-#, kde-format
-msgid "© 2015-2024 KDE Community"
-msgstr "© 2015‏-2024 קהילת KDE"
-
-#: src/main.cpp:97
-#, kde-format
-msgid "Jonah Brüchert"
-msgstr "יונה בריכרט"
-
-#: src/main.cpp:97
-#, kde-format
-msgid "Maintainer"
-msgstr "מתחזק"
-
-#: src/main.cpp:98
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "צוות התרגום של KDE ישראל"
-
-#: src/main.cpp:98
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "kde-l10n-he@kde.org"
-
 #: src/settings/AngelfishConfigurationView.qml:14
-#: src/settings/SettingsGeneral.qml:18
+#: src/settings/SettingsGeneral.qml:19
 #, kde-format
 msgctxt "@title:window"
 msgid "General"
@@ -937,42 +937,42 @@ msgid "Search Engines"
 msgstr "מנועי חיפוש"
 
 #: src/settings/AngelfishConfigurationView.qml:38
-#: src/settings/DesktopHomeSettingsPage.qml:15
+#: src/settings/DesktopHomeSettingsPage.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Toolbars"
 msgstr "סרגלי כלים"
 
-#: src/settings/DesktopHomeSettingsPage.qml:24
+#: src/settings/DesktopHomeSettingsPage.qml:25
 #, kde-format
 msgctxt "@label"
 msgid "Show home button:"
 msgstr "הצגת כפתור הבית:"
 
-#: src/settings/DesktopHomeSettingsPage.qml:25
+#: src/settings/DesktopHomeSettingsPage.qml:26
 #, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr "כפתור הבית יופיע ליד כפתור הריענון בסרגל הכלים."
 
-#: src/settings/DesktopHomeSettingsPage.qml:35
+#: src/settings/DesktopHomeSettingsPage.qml:36
 #, kde-format
 msgctxt "@label"
 msgid "Homepage:"
 msgstr "עמוד הבית:"
 
-#: src/settings/DesktopHomeSettingsPage.qml:58
+#: src/settings/DesktopHomeSettingsPage.qml:59
 #, kde-format
 msgctxt "@label"
 msgid "New tabs:"
 msgstr "לשוניות חדשות:"
 
-#: src/settings/DesktopHomeSettingsPage.qml:81
+#: src/settings/DesktopHomeSettingsPage.qml:82
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Always show the tab bar"
 msgstr "תמיד להציג את סרגל הלשוניות"
 
-#: src/settings/DesktopHomeSettingsPage.qml:82
+#: src/settings/DesktopHomeSettingsPage.qml:83
 #, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open."
 msgstr "סרגל הלשוניות יוצג אפילו אם לשונית אחת פתוחה."
@@ -1000,92 +1000,92 @@ msgstr "עדכון רשימות"
 msgid "The adblock functionality isn't included in this build."
 msgstr "יכולת ה־adblock לא נכללת בבנייה הזאת."
 
-#: src/settings/SettingsAdblock.qml:100
+#: src/settings/SettingsAdblock.qml:101
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove this filter list"
 msgstr "הסרת רשימת המסננים הזאת"
 
-#: src/settings/SettingsAdblock.qml:112
+#: src/settings/SettingsAdblock.qml:113
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Filter List"
 msgstr "הוספת רשימת מסננים"
 
-#: src/settings/SettingsAdblock.qml:124
+#: src/settings/SettingsAdblock.qml:125
 #, kde-format
 msgctxt "@title:group"
 msgid "Add Filter List"
 msgstr "הוספת רשימת מסננים"
 
-#: src/settings/SettingsAdblock.qml:129
+#: src/settings/SettingsAdblock.qml:130
 #, kde-format
 msgctxt "@label"
 msgid "Name"
 msgstr "שם"
 
-#: src/settings/SettingsAdblock.qml:138
+#: src/settings/SettingsAdblock.qml:139
 #, kde-format
 msgctxt "@label"
 msgid "URL"
 msgstr "כתובת"
 
-#: src/settings/SettingsGeneral.qml:27
+#: src/settings/SettingsGeneral.qml:28
 #, kde-format
 msgid "Enable JavaScript"
 msgstr "הפעלת JavaScript"
 
-#: src/settings/SettingsGeneral.qml:28
+#: src/settings/SettingsGeneral.qml:29
 #, kde-format
 msgid "This may be required on certain websites for them to work."
 msgstr "יכול להיות שזה נחוץ למספר אתרים כדי שיעבדו כראוי."
 
-#: src/settings/SettingsGeneral.qml:37
+#: src/settings/SettingsGeneral.qml:38
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Load images"
 msgstr "טעינת תמונות"
 
-#: src/settings/SettingsGeneral.qml:38
+#: src/settings/SettingsGeneral.qml:39
 #, kde-format
 msgid "Whether to load images on websites."
 msgstr "האם לטעון תמונות באתרים."
 
-#: src/settings/SettingsGeneral.qml:47
+#: src/settings/SettingsGeneral.qml:48
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Enable adblock"
 msgstr "הפעלת חסימת פרסומות"
 
-#: src/settings/SettingsGeneral.qml:48
+#: src/settings/SettingsGeneral.qml:49
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
 msgstr "מנסע למנוע הופעת פרסומות באתרים."
 
-#: src/settings/SettingsGeneral.qml:48
+#: src/settings/SettingsGeneral.qml:49
 #, kde-format
 msgid "Adblock functionality was not included in this build."
 msgstr "יכולת חסימת פרסומות לא נכללה בבנייה הזאת."
 
-#: src/settings/SettingsGeneral.qml:58
+#: src/settings/SettingsGeneral.qml:59
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Switch to new tab immediately"
 msgstr "מעבר ללשונית חדשה מיידית"
 
-#: src/settings/SettingsGeneral.qml:59
+#: src/settings/SettingsGeneral.qml:60
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately."
 msgstr "בעת פתיחת קישור, תמונה או מדיה בלשונית חדשה, לעבור אליה מיידית."
 
-#: src/settings/SettingsGeneral.qml:68
+#: src/settings/SettingsGeneral.qml:69
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Use smooth scrolling"
 msgstr "להשתמש בגלילה חלקה"
 
-#: src/settings/SettingsGeneral.qml:69
+#: src/settings/SettingsGeneral.qml:70
 #, kde-format
 msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
@@ -1094,13 +1094,13 @@ msgstr ""
 "הגלילה חלקה יותר ולא תעצור בפתאומיות עם עצירת הגלילה. דורש את הפעלת היישומון "
 "מחדש כדי לפעול."
 
-#: src/settings/SettingsGeneral.qml:78
+#: src/settings/SettingsGeneral.qml:79
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Use dark color scheme"
 msgstr "להשתמש בערכת צבעים כהה"
 
-#: src/settings/SettingsGeneral.qml:79
+#: src/settings/SettingsGeneral.qml:80
 #, kde-format
 msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
@@ -1108,13 +1108,13 @@ msgid ""
 msgstr ""
 "ערכות הצבע של האתרים יוגדרו לכהות. דורש את הפעלת היישומון מחדש כדי לפעול."
 
-#: src/settings/SettingsNavigationBarPage.qml:18
+#: src/settings/SettingsNavigationBarPage.qml:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Navigation Bar"
 msgstr "סרגל ניווט"
 
-#: src/settings/SettingsNavigationBarPage.qml:26
+#: src/settings/SettingsNavigationBarPage.qml:27
 #, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
@@ -1131,37 +1131,37 @@ msgstr ""
 " נא לשים לב שהשבתת כפתורי התפריטים תאפשר לך לגשת לתפריטים או בהחלקה מהצדדים "
 "השמאלי או הימני או בצד לאורך תחתית החלון."
 
-#: src/settings/SettingsNavigationBarPage.qml:35
+#: src/settings/SettingsNavigationBarPage.qml:36
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Main menu in portrait"
 msgstr "תפריט ראשי במצב אנכי"
 
-#: src/settings/SettingsNavigationBarPage.qml:41
+#: src/settings/SettingsNavigationBarPage.qml:42
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Tabs in portrait"
 msgstr "לשוניות במצב אנכי"
 
-#: src/settings/SettingsNavigationBarPage.qml:47
+#: src/settings/SettingsNavigationBarPage.qml:48
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Context menu in portrait"
 msgstr "תפריט הקשר במצב אנכי"
 
-#: src/settings/SettingsNavigationBarPage.qml:53
+#: src/settings/SettingsNavigationBarPage.qml:54
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Go back"
 msgstr "חזרה"
 
-#: src/settings/SettingsNavigationBarPage.qml:59
+#: src/settings/SettingsNavigationBarPage.qml:60
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Go forward"
 msgstr "התקדמות לבא"
 
-#: src/settings/SettingsNavigationBarPage.qml:65
+#: src/settings/SettingsNavigationBarPage.qml:66
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Reload/Stop"

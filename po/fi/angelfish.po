@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-21 00:41+0000\n"
+"POT-Creation-Date: 2025-04-25 00:41+0000\n"
 "PO-Revision-Date: 2025-03-23 16:00+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -77,7 +77,7 @@ msgid "Would you like to download %1 from %2?"
 msgstr "Haluatko ladata tiedoston %1 sivustolta %2?"
 
 #: lib/contents/ui/DownloadQuestion.qml:25
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
+#: src/qml/AdblockFilterDownloadQuestion.qml:32
 #, kde-format
 msgctxt "@action:button"
 msgid "Download"
@@ -477,8 +477,8 @@ msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "Etsi: ”%1”"
 
-#: lib/contents/ui/WebView.qml:592 src/contents/ui/desktop/desktop.qml:377
-#: src/contents/ui/mobile.qml:315
+#: lib/contents/ui/WebView.qml:592 src/qml/desktop/Desktop.qml:378
+#: src/qml/Mobile.qml:315
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
@@ -490,208 +490,233 @@ msgctxt "@action:inmenu"
 msgid "View Page Source"
 msgstr "Näytä sivun lähdekoodi"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
+#: src/main.cpp:73
+#, kde-format
+msgid "URL to open"
+msgstr "Avattava osoite"
+
+#: src/main.cpp:84
+#, fuzzy, kde-format
+#| msgid "Configure Angelfish"
+msgid "Angelfish"
+msgstr "Angelfishin asetukset"
+
+#: src/main.cpp:86
+#, kde-format
+msgid "Web browser for Plasma Mobile"
+msgstr ""
+
+#: src/main.cpp:88
+#, kde-format
+msgid "© 2015-2024 KDE Community"
+msgstr ""
+
+#: src/main.cpp:91
+#, kde-format
+msgid "Jonah Brüchert"
+msgstr ""
+
+#: src/main.cpp:91
+#, kde-format
+msgid "Maintainer"
+msgstr ""
+
+#: src/main.cpp:92
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Tommi Nieminen"
+
+#: src/main.cpp:92
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "translator@legisign.org"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:15
 #, kde-format
 msgctxt "@info"
 msgid ""
 "The adblocker is missing its filter lists, do you want to download them now?"
 msgstr "Mainosestolta puuttuvat suodatinluettelot: haluatko ladata ne nyt?"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:35
+#: src/qml/AdblockFilterDownloadQuestion.qml:37
 #, kde-format
 msgctxt "@info"
 msgid "Downloading…"
 msgstr "Ladataan…"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:41
+#: src/qml/AdblockFilterDownloadQuestion.qml:43
 #, fuzzy, kde-format
 #| msgid "Enable Adblock"
 msgctxt "@action:button"
 msgid "Disable Adblock"
 msgstr "Käytä mainosestoa"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:47
+#: src/qml/AdblockFilterDownloadQuestion.qml:49
 #, kde-format
 msgctxt "@info"
 msgid "Adblock Disabled…"
 msgstr ""
 
-#: src/contents/ui/Bookmarks.qml:13
+#: src/qml/Bookmarks.qml:13
 #, kde-format
 msgctxt "@title:window"
 msgid "Bookmarks"
 msgstr "Kirjanmerkit"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:33
+#: src/qml/desktop/BookmarksPage.qml:33
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search bookmarks…"
 msgstr "Etsi kirjanmerkkejä…"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:79
+#: src/qml/desktop/BookmarksPage.qml:79
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No bookmarks yet"
 msgstr "Ei vielä kirjanmerkkejä"
 
-#: src/contents/ui/desktop/desktop.qml:151
+#: src/qml/desktop/Desktop.qml:152
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "Kirjoita hakulause tai verkko-osoite…"
 
-#: src/contents/ui/desktop/desktop.qml:278 src/contents/ui/desktop/Tabs.qml:361
-#: src/contents/ui/Navigation.qml:443
+#: src/qml/desktop/Desktop.qml:279 src/qml/desktop/DesktopTabs.qml:362
+#: src/qml/Navigation.qml:443
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "Uusi välilehti"
 
-#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:92
+#: src/qml/desktop/Desktop.qml:286 src/qml/Mobile.qml:92
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
 msgstr "Poistu yksityistilasta"
 
-#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:92
+#: src/qml/desktop/Desktop.qml:286 src/qml/Mobile.qml:92
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Private Mode"
 msgstr "Yksityistila"
 
-#: src/contents/ui/desktop/desktop.qml:294 src/contents/ui/mobile.qml:108
+#: src/qml/desktop/Desktop.qml:295 src/qml/Mobile.qml:108
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "History"
 msgstr "Historia"
 
-#: src/contents/ui/desktop/desktop.qml:303 src/contents/ui/mobile.qml:100
+#: src/qml/desktop/Desktop.qml:304 src/qml/Mobile.qml:100
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "Kirjanmerkit"
 
-#: src/contents/ui/desktop/desktop.qml:315 src/contents/ui/mobile.qml:112
+#: src/qml/desktop/Desktop.qml:316 src/qml/Mobile.qml:112
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "Lataukset"
 
-#: src/contents/ui/desktop/desktop.qml:328
+#: src/qml/desktop/Desktop.qml:329
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr "Tulosta"
 
-#: src/contents/ui/desktop/desktop.qml:334
+#: src/qml/desktop/Desktop.qml:335
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr "Koko näyttö"
 
-#: src/contents/ui/desktop/desktop.qml:351
+#: src/qml/desktop/Desktop.qml:352
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Piilota kehitystyökalut"
 
-#: src/contents/ui/desktop/desktop.qml:352 src/contents/ui/mobile.qml:411
+#: src/qml/desktop/Desktop.qml:353 src/qml/Mobile.qml:411
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Näytä kehitystyökalut"
 
-#: src/contents/ui/desktop/desktop.qml:361 src/contents/ui/mobile.qml:311
+#: src/qml/desktop/Desktop.qml:362 src/qml/Mobile.qml:311
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Etsi sivulta"
 
-#: src/contents/ui/desktop/desktop.qml:370 src/contents/ui/mobile.qml:394
+#: src/qml/desktop/Desktop.qml:371 src/qml/Mobile.qml:394
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Lukutila"
 
-#: src/contents/ui/desktop/desktop.qml:387
+#: src/qml/desktop/Desktop.qml:388
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "Lisää sovelluskäynnistimeen"
 
-#: src/contents/ui/desktop/desktop.qml:406 src/contents/ui/mobile.qml:120
+#: src/qml/desktop/Desktop.qml:407 src/qml/Mobile.qml:120
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "Asetukset"
 
-#: src/contents/ui/desktop/HistoryPage.qml:31
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Search history…"
-msgstr "Etsi historiasta…"
-
-#: src/contents/ui/desktop/HistoryPage.qml:47
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Clear all history"
-msgstr "Tyhjennä koko historia"
-
-#: src/contents/ui/desktop/HistoryPage.qml:84
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "No history yet"
-msgstr "Ei vielä historiaa"
-
-#: src/contents/ui/desktop/Tabs.qml:238 src/contents/ui/Tabs.qml:276
+#: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
 #, kde-format
 msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr "Lukutila: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:267 src/contents/ui/Tabs.qml:307
+#: src/qml/desktop/DesktopTabs.qml:268 src/qml/Tabs.qml:306
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close tab"
 msgstr "Sulje välilehti"
 
-#: src/contents/ui/desktop/Tabs.qml:297
+#: src/qml/desktop/DesktopTabs.qml:298
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open a new tab"
 msgstr "Avaa uusi välilehti"
 
-#: src/contents/ui/desktop/Tabs.qml:330
+#: src/qml/desktop/DesktopTabs.qml:331
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "List all tabs"
 msgstr "Luettele kaikki välilehdet"
 
-#: src/contents/ui/desktop/Tabs.qml:370
+#: src/qml/desktop/DesktopTabs.qml:371
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reload Tab"
 msgstr "Virkistä välilehti"
 
-#: src/contents/ui/desktop/Tabs.qml:378
+#: src/qml/desktop/DesktopTabs.qml:379
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Duplicate Tab"
 msgstr "Monista välilehti"
 
-#: src/contents/ui/desktop/Tabs.qml:386
+#: src/qml/desktop/DesktopTabs.qml:387
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "Tee välilehdestä kirjanmerkki"
 
-#: src/contents/ui/desktop/Tabs.qml:402
+#: src/qml/desktop/DesktopTabs.qml:403
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Sulje välilehti"
 
-#: src/contents/ui/desktop/Tabs.qml:408
+#: src/qml/desktop/DesktopTabs.qml:409
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Close Tab"
@@ -699,157 +724,175 @@ msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
 msgstr "Sulje välilehti"
 
-#: src/contents/ui/Downloads.qml:17
+#: src/qml/desktop/HistoryPage.qml:31
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search history…"
+msgstr "Etsi historiasta…"
+
+#: src/qml/desktop/HistoryPage.qml:47
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear all history"
+msgstr "Tyhjennä koko historia"
+
+#: src/qml/desktop/HistoryPage.qml:84
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No history yet"
+msgstr "Ei vielä historiaa"
+
+#: src/qml/Downloads.qml:17
 #, kde-format
 msgctxt "@title:window"
 msgid "Downloads"
 msgstr "Lataukset"
 
-#: src/contents/ui/Downloads.qml:29
+#: src/qml/Downloads.qml:29
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No running downloads"
 msgstr "Ei latauksia käynnissä"
 
-#: src/contents/ui/Downloads.qml:78
+#: src/qml/Downloads.qml:78
 #, kde-format
 msgctxt "@info:progress"
 msgid "Starting…"
 msgstr "Käynnistyy…"
 
-#: src/contents/ui/Downloads.qml:80
+#: src/qml/Downloads.qml:80
 #, kde-format
 msgctxt "@info:progress"
 msgid "Completed"
 msgstr "Valmis"
 
-#: src/contents/ui/Downloads.qml:82
+#: src/qml/Downloads.qml:82
 #, kde-format
 msgctxt "@info:progress"
 msgid "Cancelled"
 msgstr "Peruttu"
 
-#: src/contents/ui/Downloads.qml:84
+#: src/qml/Downloads.qml:84
 #, kde-format
 msgctxt "@info:progress"
 msgid "Interrupted"
 msgstr "Keskeytetty"
 
-#: src/contents/ui/Downloads.qml:86
+#: src/qml/Downloads.qml:86
 #, kde-format
 msgctxt "@info:progress"
 msgid "In progress…"
 msgstr "Meneillään…"
 
-#: src/contents/ui/Downloads.qml:93
+#: src/qml/Downloads.qml:93
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Cancel"
 msgstr "Peru"
 
-#: src/contents/ui/Downloads.qml:118
+#: src/qml/Downloads.qml:118
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Continue"
 msgstr "Jatka"
 
-#: src/contents/ui/FindInPageBar.qml:45
+#: src/qml/FindInPageBar.qml:45
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr "Etsi…"
 
-#: src/contents/ui/History.qml:13
+#: src/qml/History.qml:13
 #, kde-format
 msgctxt "@title:window"
 msgid "History"
 msgstr "Historia"
 
-#: src/contents/ui/mobile.qml:21
+#: src/qml/Mobile.qml:22
 #, kde-format
 msgctxt "@title:window"
 msgid "Angelfish Web Browser"
 msgstr "Angelfish-verkkoselain"
 
-#: src/contents/ui/mobile.qml:85
+#: src/qml/Mobile.qml:85
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Tabs"
 msgstr "Välilehdet"
 
-#: src/contents/ui/mobile.qml:326
+#: src/qml/Mobile.qml:326
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Lisää kotinäyttöön"
 
-#: src/contents/ui/mobile.qml:336
+#: src/qml/Mobile.qml:336
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Avaa sovellukseen"
 
-#: src/contents/ui/mobile.qml:344
+#: src/qml/Mobile.qml:344
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr "Palaa"
 
-#: src/contents/ui/mobile.qml:352
+#: src/qml/Mobile.qml:352
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "Siirry eteenpäin"
 
-#: src/contents/ui/mobile.qml:359
+#: src/qml/Mobile.qml:359
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Pysäytä lataaminen"
 
-#: src/contents/ui/mobile.qml:359
+#: src/qml/Mobile.qml:359
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Virkistä"
 
-#: src/contents/ui/mobile.qml:369
+#: src/qml/Mobile.qml:369
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "Kirjanmerkitty"
 
-#: src/contents/ui/mobile.qml:369
+#: src/qml/Mobile.qml:369
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Kirjanmerkki"
 
-#: src/contents/ui/mobile.qml:385
+#: src/qml/Mobile.qml:385
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Näytä työpöytäsivusto"
 
-#: src/contents/ui/mobile.qml:402
+#: src/qml/Mobile.qml:402
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "Piilota navigointirivi"
 
-#: src/contents/ui/Navigation.qml:416
+#: src/qml/Navigation.qml:416
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr "Valmis"
 
-#: src/contents/ui/Navigation.qml:429
+#: src/qml/Navigation.qml:429
 #, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"
 msgstr "%1 välilehteä"
 
-#: src/contents/ui/NewTabQuestion.qml:11
+#: src/qml/NewTabQuestion.qml:11
 #, kde-format
 msgctxt "@info:status"
 msgid ""
@@ -859,63 +902,20 @@ msgstr ""
 "Sivusto haluaa avata uuden välilehden:\n"
 "%1"
 
-#: src/contents/ui/NewTabQuestion.qml:19
+#: src/qml/NewTabQuestion.qml:19
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
 msgstr "Avaa"
 
-#: src/contents/ui/ShareSheet.qml:18
+#: src/qml/ShareSheet.qml:18
 #, kde-format
 msgctxt "@title:window"
 msgid "Share Page"
 msgstr "Jaa sivu"
 
-#: src/main.cpp:79
-#, kde-format
-msgid "URL to open"
-msgstr "Avattava osoite"
-
-#: src/main.cpp:90
-#, fuzzy, kde-format
-#| msgid "Configure Angelfish"
-msgid "Angelfish"
-msgstr "Angelfishin asetukset"
-
-#: src/main.cpp:92
-#, kde-format
-msgid "Web browser for Plasma Mobile"
-msgstr ""
-
-#: src/main.cpp:94
-#, kde-format
-msgid "© 2015-2024 KDE Community"
-msgstr ""
-
-#: src/main.cpp:97
-#, kde-format
-msgid "Jonah Brüchert"
-msgstr ""
-
-#: src/main.cpp:97
-#, kde-format
-msgid "Maintainer"
-msgstr ""
-
-#: src/main.cpp:98
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Tommi Nieminen"
-
-#: src/main.cpp:98
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "translator@legisign.org"
-
 #: src/settings/AngelfishConfigurationView.qml:14
-#: src/settings/SettingsGeneral.qml:18
+#: src/settings/SettingsGeneral.qml:19
 #, kde-format
 msgctxt "@title:window"
 msgid "General"
@@ -942,42 +942,42 @@ msgid "Search Engines"
 msgstr "Hakukoneet"
 
 #: src/settings/AngelfishConfigurationView.qml:38
-#: src/settings/DesktopHomeSettingsPage.qml:15
+#: src/settings/DesktopHomeSettingsPage.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Toolbars"
 msgstr "Työkalurivit"
 
-#: src/settings/DesktopHomeSettingsPage.qml:24
+#: src/settings/DesktopHomeSettingsPage.qml:25
 #, kde-format
 msgctxt "@label"
 msgid "Show home button:"
 msgstr "Näytä kotipainike:"
 
-#: src/settings/DesktopHomeSettingsPage.qml:25
+#: src/settings/DesktopHomeSettingsPage.qml:26
 #, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr "Kotipainike näytetään työkalurivillä päivityspainikkeen vieressä."
 
-#: src/settings/DesktopHomeSettingsPage.qml:35
+#: src/settings/DesktopHomeSettingsPage.qml:36
 #, kde-format
 msgctxt "@label"
 msgid "Homepage:"
 msgstr "Kotisivu:"
 
-#: src/settings/DesktopHomeSettingsPage.qml:58
+#: src/settings/DesktopHomeSettingsPage.qml:59
 #, kde-format
 msgctxt "@label"
 msgid "New tabs:"
 msgstr "Uudet välilehdet:"
 
-#: src/settings/DesktopHomeSettingsPage.qml:81
+#: src/settings/DesktopHomeSettingsPage.qml:82
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Always show the tab bar"
 msgstr "Näytä välilehtipalkki aina"
 
-#: src/settings/DesktopHomeSettingsPage.qml:82
+#: src/settings/DesktopHomeSettingsPage.qml:83
 #, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open."
 msgstr "Välilehtipalkki näytetään, vaikka auki olisi vain yksi välilehti."
@@ -1005,80 +1005,80 @@ msgstr "Päivitä luettelot"
 msgid "The adblock functionality isn't included in this build."
 msgstr "Mainosestotoimintoa ei ole sisällytetty tähän koosteeseen."
 
-#: src/settings/SettingsAdblock.qml:100
+#: src/settings/SettingsAdblock.qml:101
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove this filter list"
 msgstr "Poista tämä suodatinluettelo"
 
-#: src/settings/SettingsAdblock.qml:112
+#: src/settings/SettingsAdblock.qml:113
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Filter List"
 msgstr "Lisää suodatinluetteloon"
 
-#: src/settings/SettingsAdblock.qml:124
+#: src/settings/SettingsAdblock.qml:125
 #, kde-format
 msgctxt "@title:group"
 msgid "Add Filter List"
 msgstr "Lisää suodatinluetteloon"
 
-#: src/settings/SettingsAdblock.qml:129
+#: src/settings/SettingsAdblock.qml:130
 #, kde-format
 msgctxt "@label"
 msgid "Name"
 msgstr "Nimi"
 
-#: src/settings/SettingsAdblock.qml:138
+#: src/settings/SettingsAdblock.qml:139
 #, kde-format
 msgctxt "@label"
 msgid "URL"
 msgstr "Verkko-osoite"
 
-#: src/settings/SettingsGeneral.qml:27
+#: src/settings/SettingsGeneral.qml:28
 #, kde-format
 msgid "Enable JavaScript"
 msgstr "Käytä JavaScriptiä"
 
-#: src/settings/SettingsGeneral.qml:28
+#: src/settings/SettingsGeneral.qml:29
 #, kde-format
 msgid "This may be required on certain websites for them to work."
 msgstr "Jotkin sivustot voivat vaatia tätä toimiakseen."
 
-#: src/settings/SettingsGeneral.qml:37
+#: src/settings/SettingsGeneral.qml:38
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Load images"
 msgstr "Lataa kuvat"
 
-#: src/settings/SettingsGeneral.qml:38
+#: src/settings/SettingsGeneral.qml:39
 #, kde-format
 msgid "Whether to load images on websites."
 msgstr "Ladataanko sivuston kuvat."
 
-#: src/settings/SettingsGeneral.qml:47
+#: src/settings/SettingsGeneral.qml:48
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Enable adblock"
 msgstr "Käytä mainosestoa"
 
-#: src/settings/SettingsGeneral.qml:48
+#: src/settings/SettingsGeneral.qml:49
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
 msgstr "Yrittää estää sivustojen mainosten näyttämisen."
 
-#: src/settings/SettingsGeneral.qml:48
+#: src/settings/SettingsGeneral.qml:49
 #, kde-format
 msgid "Adblock functionality was not included in this build."
 msgstr "Tässä koosteessa ei ole mainosestotoimintoa."
 
-#: src/settings/SettingsGeneral.qml:58
+#: src/settings/SettingsGeneral.qml:59
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Switch to new tab immediately"
 msgstr "Vaihda heti uuteen välilehteen"
 
-#: src/settings/SettingsGeneral.qml:59
+#: src/settings/SettingsGeneral.qml:60
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately."
@@ -1086,13 +1086,13 @@ msgstr ""
 "Avatessasi linkin, kuvan tai mediatiedoston uuteen välilehteen vaihda siihen "
 "heti."
 
-#: src/settings/SettingsGeneral.qml:68
+#: src/settings/SettingsGeneral.qml:69
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Use smooth scrolling"
 msgstr "Käytä tasaista vieritystä"
 
-#: src/settings/SettingsGeneral.qml:69
+#: src/settings/SettingsGeneral.qml:70
 #, kde-format
 msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
@@ -1101,13 +1101,13 @@ msgstr ""
 "Vieritys on tasaisempaa eikä pysähdy yhtäkkisesti lopetettaessa. Sovellus on "
 "käynnistettävä uudelleen, jotta asetus tulisi voimaan."
 
-#: src/settings/SettingsGeneral.qml:78
+#: src/settings/SettingsGeneral.qml:79
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Use dark color scheme"
 msgstr "Käytä tummaa väriteemaa"
 
-#: src/settings/SettingsGeneral.qml:79
+#: src/settings/SettingsGeneral.qml:80
 #, kde-format
 msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
@@ -1116,13 +1116,13 @@ msgstr ""
 "Sivustojen väriteema asetetaan tummaksi. Sovellus on käynnistettävä "
 "uudelleen, jotta asetus tulisi voimaan."
 
-#: src/settings/SettingsNavigationBarPage.qml:18
+#: src/settings/SettingsNavigationBarPage.qml:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Navigation Bar"
 msgstr "Navigointirivi"
 
-#: src/settings/SettingsNavigationBarPage.qml:26
+#: src/settings/SettingsNavigationBarPage.qml:27
 #, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
@@ -1140,37 +1140,37 @@ msgstr ""
 "Huomaa, että jos poistat valikkopainikkeen käytöstä, valikkoon pääsee "
 "pyyhkäisemällä vasemmalta oikealle tai ikkunan alaosaan."
 
-#: src/settings/SettingsNavigationBarPage.qml:35
+#: src/settings/SettingsNavigationBarPage.qml:36
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Main menu in portrait"
 msgstr "Pystysuuntainen päävalikko"
 
-#: src/settings/SettingsNavigationBarPage.qml:41
+#: src/settings/SettingsNavigationBarPage.qml:42
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Tabs in portrait"
 msgstr "Pystysuuntaiset välilehdet"
 
-#: src/settings/SettingsNavigationBarPage.qml:47
+#: src/settings/SettingsNavigationBarPage.qml:48
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Context menu in portrait"
 msgstr "Pystysuuntainen kontekstivalikko"
 
-#: src/settings/SettingsNavigationBarPage.qml:53
+#: src/settings/SettingsNavigationBarPage.qml:54
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Go back"
 msgstr "Siirry taaksepäin"
 
-#: src/settings/SettingsNavigationBarPage.qml:59
+#: src/settings/SettingsNavigationBarPage.qml:60
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Go forward"
 msgstr "Siirry eteenpäin"
 
-#: src/settings/SettingsNavigationBarPage.qml:65
+#: src/settings/SettingsNavigationBarPage.qml:66
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Reload/Stop"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-21 00:41+0000\n"
+"POT-Creation-Date: 2025-04-25 00:41+0000\n"
 "PO-Revision-Date: 2025-03-22 15:06+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -80,7 +80,7 @@ msgid "Would you like to download %1 from %2?"
 msgstr "%2(e)tik %1 zama-jaitsi nahi duzu?"
 
 #: lib/contents/ui/DownloadQuestion.qml:25
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
+#: src/qml/AdblockFilterDownloadQuestion.qml:32
 #, kde-format
 msgctxt "@action:button"
 msgid "Download"
@@ -483,8 +483,8 @@ msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "Bilatu \"%1\""
 
-#: lib/contents/ui/WebView.qml:592 src/contents/ui/desktop/desktop.qml:377
-#: src/contents/ui/mobile.qml:315
+#: lib/contents/ui/WebView.qml:592 src/qml/desktop/Desktop.qml:378
+#: src/qml/Mobile.qml:315
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
@@ -496,7 +496,50 @@ msgctxt "@action:inmenu"
 msgid "View Page Source"
 msgstr "Ikusi orriaren sorburua"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
+#: src/main.cpp:73
+#, kde-format
+msgid "URL to open"
+msgstr "Ireki beharreko URLa"
+
+#: src/main.cpp:84
+#, fuzzy, kde-format
+#| msgid "Configure Angelfish"
+msgid "Angelfish"
+msgstr "Konfiguratu Angelfish"
+
+#: src/main.cpp:86
+#, kde-format
+msgid "Web browser for Plasma Mobile"
+msgstr ""
+
+#: src/main.cpp:88
+#, kde-format
+msgid "© 2015-2024 KDE Community"
+msgstr ""
+
+#: src/main.cpp:91
+#, kde-format
+msgid "Jonah Brüchert"
+msgstr ""
+
+#: src/main.cpp:91
+#, kde-format
+msgid "Maintainer"
+msgstr ""
+
+#: src/main.cpp:92
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Iñigo Salvador Azurmendi"
+
+#: src/main.cpp:92
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "xalba@ni.eus"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:15
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -505,201 +548,183 @@ msgstr ""
 "Iragarki eragozleak bere iragazki-zerrendak falta ditu, orain zama-jaitsi "
 "nahi dituzu?"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:35
+#: src/qml/AdblockFilterDownloadQuestion.qml:37
 #, kde-format
 msgctxt "@info"
 msgid "Downloading…"
 msgstr "Zama-jaisten..."
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:41
+#: src/qml/AdblockFilterDownloadQuestion.qml:43
 #, fuzzy, kde-format
 #| msgid "Enable Adblock"
 msgctxt "@action:button"
 msgid "Disable Adblock"
 msgstr "Gaitu iragarkiak blokeatzea"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:47
+#: src/qml/AdblockFilterDownloadQuestion.qml:49
 #, kde-format
 msgctxt "@info"
 msgid "Adblock Disabled…"
 msgstr ""
 
-#: src/contents/ui/Bookmarks.qml:13
+#: src/qml/Bookmarks.qml:13
 #, kde-format
 msgctxt "@title:window"
 msgid "Bookmarks"
 msgstr "Laster-markak"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:33
+#: src/qml/desktop/BookmarksPage.qml:33
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search bookmarks…"
 msgstr "Bilatu laster-markak..."
 
-#: src/contents/ui/desktop/BookmarksPage.qml:79
+#: src/qml/desktop/BookmarksPage.qml:79
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No bookmarks yet"
 msgstr "Oraindik laster-markarik ez"
 
-#: src/contents/ui/desktop/desktop.qml:151
+#: src/qml/desktop/Desktop.qml:152
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "Bilatu edo sartu URLa..."
 
-#: src/contents/ui/desktop/desktop.qml:278 src/contents/ui/desktop/Tabs.qml:361
-#: src/contents/ui/Navigation.qml:443
+#: src/qml/desktop/Desktop.qml:279 src/qml/desktop/DesktopTabs.qml:362
+#: src/qml/Navigation.qml:443
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "Fitxa berria"
 
-#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:92
+#: src/qml/desktop/Desktop.qml:286 src/qml/Mobile.qml:92
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
 msgstr "Utzi modu pribatua"
 
-#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:92
+#: src/qml/desktop/Desktop.qml:286 src/qml/Mobile.qml:92
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Private Mode"
 msgstr "Modu pribatua"
 
-#: src/contents/ui/desktop/desktop.qml:294 src/contents/ui/mobile.qml:108
+#: src/qml/desktop/Desktop.qml:295 src/qml/Mobile.qml:108
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "History"
 msgstr "Historia"
 
-#: src/contents/ui/desktop/desktop.qml:303 src/contents/ui/mobile.qml:100
+#: src/qml/desktop/Desktop.qml:304 src/qml/Mobile.qml:100
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "Laster-markak"
 
-#: src/contents/ui/desktop/desktop.qml:315 src/contents/ui/mobile.qml:112
+#: src/qml/desktop/Desktop.qml:316 src/qml/Mobile.qml:112
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "Zama-jaitsierak"
 
-#: src/contents/ui/desktop/desktop.qml:328
+#: src/qml/desktop/Desktop.qml:329
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr "Inprimatu"
 
-#: src/contents/ui/desktop/desktop.qml:334
+#: src/qml/desktop/Desktop.qml:335
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr "Pantaila osoa"
 
-#: src/contents/ui/desktop/desktop.qml:351
+#: src/qml/desktop/Desktop.qml:352
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Ezkutatu garatzailearen tresnak"
 
-#: src/contents/ui/desktop/desktop.qml:352 src/contents/ui/mobile.qml:411
+#: src/qml/desktop/Desktop.qml:353 src/qml/Mobile.qml:411
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Erakutsi garatzailearen tresnak"
 
-#: src/contents/ui/desktop/desktop.qml:361 src/contents/ui/mobile.qml:311
+#: src/qml/desktop/Desktop.qml:362 src/qml/Mobile.qml:311
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Aurkitu orrian"
 
-#: src/contents/ui/desktop/desktop.qml:370 src/contents/ui/mobile.qml:394
+#: src/qml/desktop/Desktop.qml:371 src/qml/Mobile.qml:394
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Irakurle modua"
 
-#: src/contents/ui/desktop/desktop.qml:387
+#: src/qml/desktop/Desktop.qml:388
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "Gehitu aplikazio abiarazlean"
 
-#: src/contents/ui/desktop/desktop.qml:406 src/contents/ui/mobile.qml:120
+#: src/qml/desktop/Desktop.qml:407 src/qml/Mobile.qml:120
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "Ezarpenak"
 
-#: src/contents/ui/desktop/HistoryPage.qml:31
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Search history…"
-msgstr "Bilatu historialean..."
-
-#: src/contents/ui/desktop/HistoryPage.qml:47
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Clear all history"
-msgstr "Garbitu historia osoa"
-
-#: src/contents/ui/desktop/HistoryPage.qml:84
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "No history yet"
-msgstr "Oraindik historialik ez"
-
-#: src/contents/ui/desktop/Tabs.qml:238 src/contents/ui/Tabs.qml:276
+#: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
 #, kde-format
 msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr "Irakurle modua: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:267 src/contents/ui/Tabs.qml:307
+#: src/qml/desktop/DesktopTabs.qml:268 src/qml/Tabs.qml:306
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close tab"
 msgstr "Itxi fitxa"
 
-#: src/contents/ui/desktop/Tabs.qml:297
+#: src/qml/desktop/DesktopTabs.qml:298
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open a new tab"
 msgstr "Ireki fitxa berri bat"
 
-#: src/contents/ui/desktop/Tabs.qml:330
+#: src/qml/desktop/DesktopTabs.qml:331
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "List all tabs"
 msgstr "Zerrendatu fitxa guztiak"
 
-#: src/contents/ui/desktop/Tabs.qml:370
+#: src/qml/desktop/DesktopTabs.qml:371
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reload Tab"
 msgstr "Birzamatu fitxa"
 
-#: src/contents/ui/desktop/Tabs.qml:378
+#: src/qml/desktop/DesktopTabs.qml:379
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Duplicate Tab"
 msgstr "Bikoiztu fitxa"
 
-#: src/contents/ui/desktop/Tabs.qml:386
+#: src/qml/desktop/DesktopTabs.qml:387
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "Egin fitxaren laster-marka"
 
-#: src/contents/ui/desktop/Tabs.qml:402
+#: src/qml/desktop/DesktopTabs.qml:403
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Itxi fitxa"
 
-#: src/contents/ui/desktop/Tabs.qml:408
+#: src/qml/desktop/DesktopTabs.qml:409
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Close Tab"
@@ -707,157 +732,175 @@ msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
 msgstr "Itxi fitxa"
 
-#: src/contents/ui/Downloads.qml:17
+#: src/qml/desktop/HistoryPage.qml:31
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search history…"
+msgstr "Bilatu historialean..."
+
+#: src/qml/desktop/HistoryPage.qml:47
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear all history"
+msgstr "Garbitu historia osoa"
+
+#: src/qml/desktop/HistoryPage.qml:84
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No history yet"
+msgstr "Oraindik historialik ez"
+
+#: src/qml/Downloads.qml:17
 #, kde-format
 msgctxt "@title:window"
 msgid "Downloads"
 msgstr "Zama-jaitsierak"
 
-#: src/contents/ui/Downloads.qml:29
+#: src/qml/Downloads.qml:29
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No running downloads"
 msgstr "Ez dago zama-jaitsierarik martxan"
 
-#: src/contents/ui/Downloads.qml:78
+#: src/qml/Downloads.qml:78
 #, kde-format
 msgctxt "@info:progress"
 msgid "Starting…"
 msgstr "Abiatzen..."
 
-#: src/contents/ui/Downloads.qml:80
+#: src/qml/Downloads.qml:80
 #, kde-format
 msgctxt "@info:progress"
 msgid "Completed"
 msgstr "Osatuta"
 
-#: src/contents/ui/Downloads.qml:82
+#: src/qml/Downloads.qml:82
 #, kde-format
 msgctxt "@info:progress"
 msgid "Cancelled"
 msgstr "Bertan behera utzia"
 
-#: src/contents/ui/Downloads.qml:84
+#: src/qml/Downloads.qml:84
 #, kde-format
 msgctxt "@info:progress"
 msgid "Interrupted"
 msgstr "Etenda"
 
-#: src/contents/ui/Downloads.qml:86
+#: src/qml/Downloads.qml:86
 #, kde-format
 msgctxt "@info:progress"
 msgid "In progress…"
 msgstr "Egiteko bidean..."
 
-#: src/contents/ui/Downloads.qml:93
+#: src/qml/Downloads.qml:93
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Cancel"
 msgstr "Utzi"
 
-#: src/contents/ui/Downloads.qml:118
+#: src/qml/Downloads.qml:118
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Continue"
 msgstr "Jarraitu"
 
-#: src/contents/ui/FindInPageBar.qml:45
+#: src/qml/FindInPageBar.qml:45
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr "Bilatu..."
 
-#: src/contents/ui/History.qml:13
+#: src/qml/History.qml:13
 #, kde-format
 msgctxt "@title:window"
 msgid "History"
 msgstr "Historia"
 
-#: src/contents/ui/mobile.qml:21
+#: src/qml/Mobile.qml:22
 #, kde-format
 msgctxt "@title:window"
 msgid "Angelfish Web Browser"
 msgstr "Angelfish web arakatzailea"
 
-#: src/contents/ui/mobile.qml:85
+#: src/qml/Mobile.qml:85
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Tabs"
 msgstr "Fitxak"
 
-#: src/contents/ui/mobile.qml:326
+#: src/qml/Mobile.qml:326
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Gehitu pantaila nagusira"
 
-#: src/contents/ui/mobile.qml:336
+#: src/qml/Mobile.qml:336
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Ireki aplikazioan"
 
-#: src/contents/ui/mobile.qml:344
+#: src/qml/Mobile.qml:344
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr "Joan atzera"
 
-#: src/contents/ui/mobile.qml:352
+#: src/qml/Mobile.qml:352
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "Joan aurrera"
 
-#: src/contents/ui/mobile.qml:359
+#: src/qml/Mobile.qml:359
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Gelditu zamatzea"
 
-#: src/contents/ui/mobile.qml:359
+#: src/qml/Mobile.qml:359
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Freskatu"
 
-#: src/contents/ui/mobile.qml:369
+#: src/qml/Mobile.qml:369
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "Laster-marka egina"
 
-#: src/contents/ui/mobile.qml:369
+#: src/qml/Mobile.qml:369
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Laster-marka"
 
-#: src/contents/ui/mobile.qml:385
+#: src/qml/Mobile.qml:385
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Erakutsi mahaigaineko lekua"
 
-#: src/contents/ui/mobile.qml:402
+#: src/qml/Mobile.qml:402
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "Ezkutatu nabigatzeko barra"
 
-#: src/contents/ui/Navigation.qml:416
+#: src/qml/Navigation.qml:416
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr "Eginda"
 
-#: src/contents/ui/Navigation.qml:429
+#: src/qml/Navigation.qml:429
 #, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"
 msgstr "%1 fitxa"
 
-#: src/contents/ui/NewTabQuestion.qml:11
+#: src/qml/NewTabQuestion.qml:11
 #, kde-format
 msgctxt "@info:status"
 msgid ""
@@ -867,63 +910,20 @@ msgstr ""
 "Lekuak fitxa berri bat ireki nahi du:\n"
 "%1"
 
-#: src/contents/ui/NewTabQuestion.qml:19
+#: src/qml/NewTabQuestion.qml:19
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
 msgstr "Ireki"
 
-#: src/contents/ui/ShareSheet.qml:18
+#: src/qml/ShareSheet.qml:18
 #, kde-format
 msgctxt "@title:window"
 msgid "Share Page"
 msgstr "Partekatu orria"
 
-#: src/main.cpp:79
-#, kde-format
-msgid "URL to open"
-msgstr "Ireki beharreko URLa"
-
-#: src/main.cpp:90
-#, fuzzy, kde-format
-#| msgid "Configure Angelfish"
-msgid "Angelfish"
-msgstr "Konfiguratu Angelfish"
-
-#: src/main.cpp:92
-#, kde-format
-msgid "Web browser for Plasma Mobile"
-msgstr ""
-
-#: src/main.cpp:94
-#, kde-format
-msgid "© 2015-2024 KDE Community"
-msgstr ""
-
-#: src/main.cpp:97
-#, kde-format
-msgid "Jonah Brüchert"
-msgstr ""
-
-#: src/main.cpp:97
-#, kde-format
-msgid "Maintainer"
-msgstr ""
-
-#: src/main.cpp:98
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Iñigo Salvador Azurmendi"
-
-#: src/main.cpp:98
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "xalba@ni.eus"
-
 #: src/settings/AngelfishConfigurationView.qml:14
-#: src/settings/SettingsGeneral.qml:18
+#: src/settings/SettingsGeneral.qml:19
 #, kde-format
 msgctxt "@title:window"
 msgid "General"
@@ -950,43 +950,43 @@ msgid "Search Engines"
 msgstr "Bilaketa motorrak"
 
 #: src/settings/AngelfishConfigurationView.qml:38
-#: src/settings/DesktopHomeSettingsPage.qml:15
+#: src/settings/DesktopHomeSettingsPage.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Toolbars"
 msgstr "Tresna-barrak"
 
-#: src/settings/DesktopHomeSettingsPage.qml:24
+#: src/settings/DesktopHomeSettingsPage.qml:25
 #, kde-format
 msgctxt "@label"
 msgid "Show home button:"
 msgstr "Erakutsi etxeko botoia:"
 
-#: src/settings/DesktopHomeSettingsPage.qml:25
+#: src/settings/DesktopHomeSettingsPage.qml:26
 #, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr ""
 "Etxeko botoia, tresna-barran, birzamatzeko botoiaren ondoan erakutsiko da."
 
-#: src/settings/DesktopHomeSettingsPage.qml:35
+#: src/settings/DesktopHomeSettingsPage.qml:36
 #, kde-format
 msgctxt "@label"
 msgid "Homepage:"
 msgstr "Orri nagusia:"
 
-#: src/settings/DesktopHomeSettingsPage.qml:58
+#: src/settings/DesktopHomeSettingsPage.qml:59
 #, kde-format
 msgctxt "@label"
 msgid "New tabs:"
 msgstr "Fitxa berriak:"
 
-#: src/settings/DesktopHomeSettingsPage.qml:81
+#: src/settings/DesktopHomeSettingsPage.qml:82
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Always show the tab bar"
 msgstr "Fitxa-barra beti erakutsi"
 
-#: src/settings/DesktopHomeSettingsPage.qml:82
+#: src/settings/DesktopHomeSettingsPage.qml:83
 #, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open."
 msgstr "Fitxa-barra, fitxa bakarra irekita dagoenean ere, azalduko da."
@@ -1015,82 +1015,82 @@ msgid "The adblock functionality isn't included in this build."
 msgstr ""
 "Iragarkiak eragozteko funtzionalitatea ez dago eraikin honetan barneratuta."
 
-#: src/settings/SettingsAdblock.qml:100
+#: src/settings/SettingsAdblock.qml:101
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove this filter list"
 msgstr "Kendu iragazki-zerrenda hau"
 
-#: src/settings/SettingsAdblock.qml:112
+#: src/settings/SettingsAdblock.qml:113
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Filter List"
 msgstr "Gehitu iragazki-zerrenda"
 
-#: src/settings/SettingsAdblock.qml:124
+#: src/settings/SettingsAdblock.qml:125
 #, kde-format
 msgctxt "@title:group"
 msgid "Add Filter List"
 msgstr "Gehitu iragazki-zerrenda"
 
-#: src/settings/SettingsAdblock.qml:129
+#: src/settings/SettingsAdblock.qml:130
 #, kde-format
 msgctxt "@label"
 msgid "Name"
 msgstr "Izena"
 
-#: src/settings/SettingsAdblock.qml:138
+#: src/settings/SettingsAdblock.qml:139
 #, kde-format
 msgctxt "@label"
 msgid "URL"
 msgstr "URL"
 
-#: src/settings/SettingsGeneral.qml:27
+#: src/settings/SettingsGeneral.qml:28
 #, kde-format
 msgid "Enable JavaScript"
 msgstr "Gaitu JavaScript"
 
-#: src/settings/SettingsGeneral.qml:28
+#: src/settings/SettingsGeneral.qml:29
 #, kde-format
 msgid "This may be required on certain websites for them to work."
 msgstr ""
 "Webgune jakin batzuetan, haiek ibiltzeko, hau beharrezkoa izan daiteke."
 
-#: src/settings/SettingsGeneral.qml:37
+#: src/settings/SettingsGeneral.qml:38
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Load images"
 msgstr "Zamatu irudiak"
 
-#: src/settings/SettingsGeneral.qml:38
+#: src/settings/SettingsGeneral.qml:39
 #, kde-format
 msgid "Whether to load images on websites."
 msgstr "Webguneetan irudiak zamatu behar diren edo ez."
 
-#: src/settings/SettingsGeneral.qml:47
+#: src/settings/SettingsGeneral.qml:48
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Enable adblock"
 msgstr "Gaitu iragarkiak eragoztea"
 
-#: src/settings/SettingsGeneral.qml:48
+#: src/settings/SettingsGeneral.qml:49
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
 msgstr "Webguneetako iragarkiak erakustea eragozten saiatzen da."
 
-#: src/settings/SettingsGeneral.qml:48
+#: src/settings/SettingsGeneral.qml:49
 #, kde-format
 msgid "Adblock functionality was not included in this build."
 msgstr ""
 "Iragarkiak eragozteko funtzionalitatea ez dago eraikin honetan barneratuta."
 
-#: src/settings/SettingsGeneral.qml:58
+#: src/settings/SettingsGeneral.qml:59
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Switch to new tab immediately"
 msgstr "Aldatu fitxa berrira berehala"
 
-#: src/settings/SettingsGeneral.qml:59
+#: src/settings/SettingsGeneral.qml:60
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately."
@@ -1098,13 +1098,13 @@ msgstr ""
 "Esteka bat, irudi bat edo hedabide fitxa berri bat irekitzen duzunean, "
 "hartara berehala aldatu."
 
-#: src/settings/SettingsGeneral.qml:68
+#: src/settings/SettingsGeneral.qml:69
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Use smooth scrolling"
 msgstr "Erabili kiribiltze leuna"
 
-#: src/settings/SettingsGeneral.qml:69
+#: src/settings/SettingsGeneral.qml:70
 #, kde-format
 msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
@@ -1113,13 +1113,13 @@ msgstr ""
 "Kiribiltzea leunagoa da eta kiribiltzeari uzten diozunean ez da bat-batean "
 "geldituko. Indarrean sartzeko aplikazioa berrabiarazi beharra dago."
 
-#: src/settings/SettingsGeneral.qml:78
+#: src/settings/SettingsGeneral.qml:79
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Use dark color scheme"
 msgstr "Erabili kolore-antolaera iluna"
 
-#: src/settings/SettingsGeneral.qml:79
+#: src/settings/SettingsGeneral.qml:80
 #, kde-format
 msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
@@ -1128,13 +1128,13 @@ msgstr ""
 "Webguneen kolore-antolaera iluna ezarriko da. Indarrean sartzeko aplikazioa "
 "berrabiarazi beharra dago."
 
-#: src/settings/SettingsNavigationBarPage.qml:18
+#: src/settings/SettingsNavigationBarPage.qml:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Navigation Bar"
 msgstr "Nabigatzeko barra"
 
-#: src/settings/SettingsNavigationBarPage.qml:26
+#: src/settings/SettingsNavigationBarPage.qml:27
 #, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
@@ -1153,37 +1153,37 @@ msgstr ""
 "izango duzula ezker edo eskuin alboetan hatz-kolpe arin bat eginez edo leiho "
 "beheko aldetik albo batera irristatuz."
 
-#: src/settings/SettingsNavigationBarPage.qml:35
+#: src/settings/SettingsNavigationBarPage.qml:36
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Main menu in portrait"
 msgstr "Menu nagusia erretratu itxuran"
 
-#: src/settings/SettingsNavigationBarPage.qml:41
+#: src/settings/SettingsNavigationBarPage.qml:42
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Tabs in portrait"
 msgstr "Fitxak erretratu itxuran"
 
-#: src/settings/SettingsNavigationBarPage.qml:47
+#: src/settings/SettingsNavigationBarPage.qml:48
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Context menu in portrait"
 msgstr "Testuinguru menua erretratu itxuran"
 
-#: src/settings/SettingsNavigationBarPage.qml:53
+#: src/settings/SettingsNavigationBarPage.qml:54
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Go back"
 msgstr "Joan atzera"
 
-#: src/settings/SettingsNavigationBarPage.qml:59
+#: src/settings/SettingsNavigationBarPage.qml:60
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Go forward"
 msgstr "Joan aurrera"
 
-#: src/settings/SettingsNavigationBarPage.qml:65
+#: src/settings/SettingsNavigationBarPage.qml:66
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Reload/Stop"

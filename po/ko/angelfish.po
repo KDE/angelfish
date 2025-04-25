@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-21 00:41+0000\n"
+"POT-Creation-Date: 2025-04-25 00:41+0000\n"
 "PO-Revision-Date: 2025-04-15 23:18+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -78,7 +78,7 @@ msgid "Would you like to download %1 from %2?"
 msgstr "%2에서 %1을(를) 다운로드하시겠습니까?"
 
 #: lib/contents/ui/DownloadQuestion.qml:25
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
+#: src/qml/AdblockFilterDownloadQuestion.qml:32
 #, kde-format
 msgctxt "@action:button"
 msgid "Download"
@@ -488,8 +488,8 @@ msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "\"%1\" 검색"
 
-#: lib/contents/ui/WebView.qml:592 src/contents/ui/desktop/desktop.qml:377
-#: src/contents/ui/mobile.qml:315
+#: lib/contents/ui/WebView.qml:592 src/qml/desktop/Desktop.qml:378
+#: src/qml/Mobile.qml:315
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
@@ -501,364 +501,406 @@ msgctxt "@action:inmenu"
 msgid "View Page Source"
 msgstr "페이지 소스 보기"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
+#: src/main.cpp:73
+#, kde-format
+msgid "URL to open"
+msgstr "열 URL"
+
+#: src/main.cpp:84
+#, kde-format
+msgid "Angelfish"
+msgstr "Angelfish"
+
+#: src/main.cpp:86
+#, kde-format
+msgid "Web browser for Plasma Mobile"
+msgstr "Plasma 모바일의 웹 브라우저"
+
+#: src/main.cpp:88
+#, kde-format
+msgid "© 2015-2024 KDE Community"
+msgstr "© 2015-2024 KDE Community"
+
+#: src/main.cpp:91
+#, kde-format
+msgid "Jonah Brüchert"
+msgstr "Jonah Brüchert"
+
+#: src/main.cpp:91
+#, kde-format
+msgid "Maintainer"
+msgstr "관리자"
+
+#: src/main.cpp:92
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "박신조"
+
+#: src/main.cpp:92
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde@peremen.name"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:15
 #, kde-format
 msgctxt "@info"
 msgid ""
 "The adblocker is missing its filter lists, do you want to download them now?"
 msgstr "광고 차단기 필터가 비어 있습니다. 지금 다운로드하시겠습니까?"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:35
+#: src/qml/AdblockFilterDownloadQuestion.qml:37
 #, kde-format
 msgctxt "@info"
 msgid "Downloading…"
 msgstr "다운로드 중…"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:41
+#: src/qml/AdblockFilterDownloadQuestion.qml:43
 #, fuzzy, kde-format
 #| msgid "Enable Adblock"
 msgctxt "@action:button"
 msgid "Disable Adblock"
 msgstr "광고 차단 활성화"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:47
+#: src/qml/AdblockFilterDownloadQuestion.qml:49
 #, kde-format
 msgctxt "@info"
 msgid "Adblock Disabled…"
 msgstr ""
 
-#: src/contents/ui/Bookmarks.qml:13
+#: src/qml/Bookmarks.qml:13
 #, kde-format
 msgctxt "@title:window"
 msgid "Bookmarks"
 msgstr "책갈피"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:33
+#: src/qml/desktop/BookmarksPage.qml:33
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search bookmarks…"
 msgstr "책갈피 검색…"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:79
+#: src/qml/desktop/BookmarksPage.qml:79
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No bookmarks yet"
 msgstr "책갈피 없음"
 
-#: src/contents/ui/desktop/desktop.qml:151
+#: src/qml/desktop/Desktop.qml:152
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "검색 또는 URL 입력…"
 
-#: src/contents/ui/desktop/desktop.qml:278 src/contents/ui/desktop/Tabs.qml:361
-#: src/contents/ui/Navigation.qml:443
+#: src/qml/desktop/Desktop.qml:279 src/qml/desktop/DesktopTabs.qml:362
+#: src/qml/Navigation.qml:443
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "새 탭"
 
-#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:92
+#: src/qml/desktop/Desktop.qml:286 src/qml/Mobile.qml:92
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
 msgstr "사생활 보호 모드 나가기"
 
-#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:92
+#: src/qml/desktop/Desktop.qml:286 src/qml/Mobile.qml:92
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Private Mode"
 msgstr "사생활 보호 모드"
 
-#: src/contents/ui/desktop/desktop.qml:294 src/contents/ui/mobile.qml:108
+#: src/qml/desktop/Desktop.qml:295 src/qml/Mobile.qml:108
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "History"
 msgstr "과거 기록"
 
-#: src/contents/ui/desktop/desktop.qml:303 src/contents/ui/mobile.qml:100
+#: src/qml/desktop/Desktop.qml:304 src/qml/Mobile.qml:100
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "책갈피"
 
-#: src/contents/ui/desktop/desktop.qml:315 src/contents/ui/mobile.qml:112
+#: src/qml/desktop/Desktop.qml:316 src/qml/Mobile.qml:112
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "다운로드"
 
-#: src/contents/ui/desktop/desktop.qml:328
+#: src/qml/desktop/Desktop.qml:329
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr "인쇄"
 
-#: src/contents/ui/desktop/desktop.qml:334
+#: src/qml/desktop/Desktop.qml:335
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr "전체 화면"
 
-#: src/contents/ui/desktop/desktop.qml:351
+#: src/qml/desktop/Desktop.qml:352
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "개발자 도구 숨기기"
 
-#: src/contents/ui/desktop/desktop.qml:352 src/contents/ui/mobile.qml:411
+#: src/qml/desktop/Desktop.qml:353 src/qml/Mobile.qml:411
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "개발자 도구 표시"
 
-#: src/contents/ui/desktop/desktop.qml:361 src/contents/ui/mobile.qml:311
+#: src/qml/desktop/Desktop.qml:362 src/qml/Mobile.qml:311
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "페이지에서 찾기"
 
-#: src/contents/ui/desktop/desktop.qml:370 src/contents/ui/mobile.qml:394
+#: src/qml/desktop/Desktop.qml:371 src/qml/Mobile.qml:394
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "읽기 모드"
 
-#: src/contents/ui/desktop/desktop.qml:387
+#: src/qml/desktop/Desktop.qml:388
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "앱 실행기에 추가"
 
-#: src/contents/ui/desktop/desktop.qml:406 src/contents/ui/mobile.qml:120
+#: src/qml/desktop/Desktop.qml:407 src/qml/Mobile.qml:120
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "설정"
 
-#: src/contents/ui/desktop/HistoryPage.qml:31
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Search history…"
-msgstr "과거 기록 검색…"
-
-#: src/contents/ui/desktop/HistoryPage.qml:47
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Clear all history"
-msgstr "모든 기록 삭제"
-
-#: src/contents/ui/desktop/HistoryPage.qml:84
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "No history yet"
-msgstr "과거 기록이 비어 있음"
-
-#: src/contents/ui/desktop/Tabs.qml:238 src/contents/ui/Tabs.qml:276
+#: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
 #, kde-format
 msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr "읽기 모드: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:267 src/contents/ui/Tabs.qml:307
+#: src/qml/desktop/DesktopTabs.qml:268 src/qml/Tabs.qml:306
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close tab"
 msgstr "탭 닫기"
 
-#: src/contents/ui/desktop/Tabs.qml:297
+#: src/qml/desktop/DesktopTabs.qml:298
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open a new tab"
 msgstr "새 탭 열기"
 
-#: src/contents/ui/desktop/Tabs.qml:330
+#: src/qml/desktop/DesktopTabs.qml:331
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "List all tabs"
 msgstr "모든 탭 표시"
 
-#: src/contents/ui/desktop/Tabs.qml:370
+#: src/qml/desktop/DesktopTabs.qml:371
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reload Tab"
 msgstr "탭 새로 고침"
 
-#: src/contents/ui/desktop/Tabs.qml:378
+#: src/qml/desktop/DesktopTabs.qml:379
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Duplicate Tab"
 msgstr "탭 복제"
 
-#: src/contents/ui/desktop/Tabs.qml:386
+#: src/qml/desktop/DesktopTabs.qml:387
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "책갈피에 탭 추가"
 
-#: src/contents/ui/desktop/Tabs.qml:402
+#: src/qml/desktop/DesktopTabs.qml:403
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "탭 닫기"
 
-#: src/contents/ui/desktop/Tabs.qml:408
+#: src/qml/desktop/DesktopTabs.qml:409
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
 msgstr "닫힌 탭 다시 열기"
 
-#: src/contents/ui/Downloads.qml:17
+#: src/qml/desktop/HistoryPage.qml:31
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search history…"
+msgstr "과거 기록 검색…"
+
+#: src/qml/desktop/HistoryPage.qml:47
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear all history"
+msgstr "모든 기록 삭제"
+
+#: src/qml/desktop/HistoryPage.qml:84
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No history yet"
+msgstr "과거 기록이 비어 있음"
+
+#: src/qml/Downloads.qml:17
 #, kde-format
 msgctxt "@title:window"
 msgid "Downloads"
 msgstr "다운로드"
 
-#: src/contents/ui/Downloads.qml:29
+#: src/qml/Downloads.qml:29
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No running downloads"
 msgstr "실행 중인 다운로드 없음"
 
-#: src/contents/ui/Downloads.qml:78
+#: src/qml/Downloads.qml:78
 #, kde-format
 msgctxt "@info:progress"
 msgid "Starting…"
 msgstr "시작 중..."
 
-#: src/contents/ui/Downloads.qml:80
+#: src/qml/Downloads.qml:80
 #, kde-format
 msgctxt "@info:progress"
 msgid "Completed"
 msgstr "완료됨"
 
-#: src/contents/ui/Downloads.qml:82
+#: src/qml/Downloads.qml:82
 #, kde-format
 msgctxt "@info:progress"
 msgid "Cancelled"
 msgstr "취소됨"
 
-#: src/contents/ui/Downloads.qml:84
+#: src/qml/Downloads.qml:84
 #, kde-format
 msgctxt "@info:progress"
 msgid "Interrupted"
 msgstr "중지됨"
 
-#: src/contents/ui/Downloads.qml:86
+#: src/qml/Downloads.qml:86
 #, kde-format
 msgctxt "@info:progress"
 msgid "In progress…"
 msgstr "진행 중…"
 
-#: src/contents/ui/Downloads.qml:93
+#: src/qml/Downloads.qml:93
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Cancel"
 msgstr "취소"
 
-#: src/contents/ui/Downloads.qml:118
+#: src/qml/Downloads.qml:118
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Continue"
 msgstr "계속"
 
-#: src/contents/ui/FindInPageBar.qml:45
+#: src/qml/FindInPageBar.qml:45
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr "검색…"
 
-#: src/contents/ui/History.qml:13
+#: src/qml/History.qml:13
 #, kde-format
 msgctxt "@title:window"
 msgid "History"
 msgstr "과거 기록"
 
-#: src/contents/ui/mobile.qml:21
+#: src/qml/Mobile.qml:22
 #, kde-format
 msgctxt "@title:window"
 msgid "Angelfish Web Browser"
 msgstr "Angelfish 웹 브라우저"
 
-#: src/contents/ui/mobile.qml:85
+#: src/qml/Mobile.qml:85
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Tabs"
 msgstr "탭"
 
-#: src/contents/ui/mobile.qml:326
+#: src/qml/Mobile.qml:326
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "홈 화면에 추가"
 
-#: src/contents/ui/mobile.qml:336
+#: src/qml/Mobile.qml:336
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "앱에서 열기"
 
-#: src/contents/ui/mobile.qml:344
+#: src/qml/Mobile.qml:344
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr "뒤로 이동"
 
-#: src/contents/ui/mobile.qml:352
+#: src/qml/Mobile.qml:352
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "앞으로 이동"
 
-#: src/contents/ui/mobile.qml:359
+#: src/qml/Mobile.qml:359
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "불러오기 멈추기"
 
-#: src/contents/ui/mobile.qml:359
+#: src/qml/Mobile.qml:359
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "새로 고침"
 
-#: src/contents/ui/mobile.qml:369
+#: src/qml/Mobile.qml:369
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "책갈피에 추가됨"
 
-#: src/contents/ui/mobile.qml:369
+#: src/qml/Mobile.qml:369
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "책갈피"
 
-#: src/contents/ui/mobile.qml:385
+#: src/qml/Mobile.qml:385
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "데스크톱 사이트 표시"
 
-#: src/contents/ui/mobile.qml:402
+#: src/qml/Mobile.qml:402
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "탐색 표시줄 숨기기"
 
-#: src/contents/ui/Navigation.qml:416
+#: src/qml/Navigation.qml:416
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr "완료"
 
-#: src/contents/ui/Navigation.qml:429
+#: src/qml/Navigation.qml:429
 #, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"
 msgstr "탭 %1개"
 
-#: src/contents/ui/NewTabQuestion.qml:11
+#: src/qml/NewTabQuestion.qml:11
 #, kde-format
 msgctxt "@info:status"
 msgid ""
@@ -868,62 +910,20 @@ msgstr ""
 "사이트에서 새 탭을 열려고 합니다: \n"
 "%1"
 
-#: src/contents/ui/NewTabQuestion.qml:19
+#: src/qml/NewTabQuestion.qml:19
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
 msgstr "열기"
 
-#: src/contents/ui/ShareSheet.qml:18
+#: src/qml/ShareSheet.qml:18
 #, kde-format
 msgctxt "@title:window"
 msgid "Share Page"
 msgstr "페이지 공유"
 
-#: src/main.cpp:79
-#, kde-format
-msgid "URL to open"
-msgstr "열 URL"
-
-#: src/main.cpp:90
-#, kde-format
-msgid "Angelfish"
-msgstr "Angelfish"
-
-#: src/main.cpp:92
-#, kde-format
-msgid "Web browser for Plasma Mobile"
-msgstr "Plasma 모바일의 웹 브라우저"
-
-#: src/main.cpp:94
-#, kde-format
-msgid "© 2015-2024 KDE Community"
-msgstr "© 2015-2024 KDE Community"
-
-#: src/main.cpp:97
-#, kde-format
-msgid "Jonah Brüchert"
-msgstr "Jonah Brüchert"
-
-#: src/main.cpp:97
-#, kde-format
-msgid "Maintainer"
-msgstr "관리자"
-
-#: src/main.cpp:98
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "박신조"
-
-#: src/main.cpp:98
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "kde@peremen.name"
-
 #: src/settings/AngelfishConfigurationView.qml:14
-#: src/settings/SettingsGeneral.qml:18
+#: src/settings/SettingsGeneral.qml:19
 #, kde-format
 msgctxt "@title:window"
 msgid "General"
@@ -950,42 +950,42 @@ msgid "Search Engines"
 msgstr "검색 엔진"
 
 #: src/settings/AngelfishConfigurationView.qml:38
-#: src/settings/DesktopHomeSettingsPage.qml:15
+#: src/settings/DesktopHomeSettingsPage.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Toolbars"
 msgstr "도구 모음"
 
-#: src/settings/DesktopHomeSettingsPage.qml:24
+#: src/settings/DesktopHomeSettingsPage.qml:25
 #, kde-format
 msgctxt "@label"
 msgid "Show home button:"
 msgstr "홈 단추 표시:"
 
-#: src/settings/DesktopHomeSettingsPage.qml:25
+#: src/settings/DesktopHomeSettingsPage.qml:26
 #, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr "도구 모음의 새로 고침 단추 옆에 홈 단추를 표시합니다."
 
-#: src/settings/DesktopHomeSettingsPage.qml:35
+#: src/settings/DesktopHomeSettingsPage.qml:36
 #, kde-format
 msgctxt "@label"
 msgid "Homepage:"
 msgstr "홈페이지:"
 
-#: src/settings/DesktopHomeSettingsPage.qml:58
+#: src/settings/DesktopHomeSettingsPage.qml:59
 #, kde-format
 msgctxt "@label"
 msgid "New tabs:"
 msgstr "새 탭:"
 
-#: src/settings/DesktopHomeSettingsPage.qml:81
+#: src/settings/DesktopHomeSettingsPage.qml:82
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Always show the tab bar"
 msgstr "항상 탭 목록 표시"
 
-#: src/settings/DesktopHomeSettingsPage.qml:82
+#: src/settings/DesktopHomeSettingsPage.qml:83
 #, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open."
 msgstr "탭이 하나만 열려 있어도 탭 표시줄을 표시합니다."
@@ -1013,92 +1013,92 @@ msgstr "목록 업데이트"
 msgid "The adblock functionality isn't included in this build."
 msgstr "이 빌드에 광고 차단 기능이 제외되어 있습니다."
 
-#: src/settings/SettingsAdblock.qml:100
+#: src/settings/SettingsAdblock.qml:101
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove this filter list"
 msgstr "이 필터 목록 삭제"
 
-#: src/settings/SettingsAdblock.qml:112
+#: src/settings/SettingsAdblock.qml:113
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Filter List"
 msgstr "필터 목록 추가"
 
-#: src/settings/SettingsAdblock.qml:124
+#: src/settings/SettingsAdblock.qml:125
 #, kde-format
 msgctxt "@title:group"
 msgid "Add Filter List"
 msgstr "필터 목록 추가"
 
-#: src/settings/SettingsAdblock.qml:129
+#: src/settings/SettingsAdblock.qml:130
 #, kde-format
 msgctxt "@label"
 msgid "Name"
 msgstr "이름"
 
-#: src/settings/SettingsAdblock.qml:138
+#: src/settings/SettingsAdblock.qml:139
 #, kde-format
 msgctxt "@label"
 msgid "URL"
 msgstr "URL"
 
-#: src/settings/SettingsGeneral.qml:27
+#: src/settings/SettingsGeneral.qml:28
 #, kde-format
 msgid "Enable JavaScript"
 msgstr "자바스크립트 사용"
 
-#: src/settings/SettingsGeneral.qml:28
+#: src/settings/SettingsGeneral.qml:29
 #, kde-format
 msgid "This may be required on certain websites for them to work."
 msgstr "일부 웹사이트에서 필요할 수도 있습니다."
 
-#: src/settings/SettingsGeneral.qml:37
+#: src/settings/SettingsGeneral.qml:38
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Load images"
 msgstr "그림 불러오기"
 
-#: src/settings/SettingsGeneral.qml:38
+#: src/settings/SettingsGeneral.qml:39
 #, kde-format
 msgid "Whether to load images on websites."
 msgstr "웹사이트의 그림을 불러올지 여부입니다."
 
-#: src/settings/SettingsGeneral.qml:47
+#: src/settings/SettingsGeneral.qml:48
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Enable adblock"
 msgstr "광고 차단 활성화"
 
-#: src/settings/SettingsGeneral.qml:48
+#: src/settings/SettingsGeneral.qml:49
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
 msgstr "웹사이트에 표시되는 광고를 차단합니다."
 
-#: src/settings/SettingsGeneral.qml:48
+#: src/settings/SettingsGeneral.qml:49
 #, kde-format
 msgid "Adblock functionality was not included in this build."
 msgstr "이 빌드에 광고 차단 기능이 제외되어 있습니다."
 
-#: src/settings/SettingsGeneral.qml:58
+#: src/settings/SettingsGeneral.qml:59
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Switch to new tab immediately"
 msgstr "새 탭으로 바로 전환"
 
-#: src/settings/SettingsGeneral.qml:59
+#: src/settings/SettingsGeneral.qml:60
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately."
 msgstr "링크, 그림, 미디어를 새 탭으로 열 때 연 즉시 해당 탭으로 전환합니다."
 
-#: src/settings/SettingsGeneral.qml:68
+#: src/settings/SettingsGeneral.qml:69
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Use smooth scrolling"
 msgstr "부드러운 스크롤 사용"
 
-#: src/settings/SettingsGeneral.qml:69
+#: src/settings/SettingsGeneral.qml:70
 #, kde-format
 msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
@@ -1107,13 +1107,13 @@ msgstr ""
 "스크롤이 더 부드럽게 진행되며 스크롤을 중단했을 때 갑자기 중단되지 않습니다."
 "이 옵션을 변경하려면 다시 시작해야 합니다."
 
-#: src/settings/SettingsGeneral.qml:78
+#: src/settings/SettingsGeneral.qml:79
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Use dark color scheme"
 msgstr "어두운 색 배열 사용"
 
-#: src/settings/SettingsGeneral.qml:79
+#: src/settings/SettingsGeneral.qml:80
 #, kde-format
 msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
@@ -1122,13 +1122,13 @@ msgstr ""
 "웹사이트에서 어두운 색 배열을 사용하도록 설정합니다. 이 옵션을 변경하려면 다"
 "시 시작해야 합니다."
 
-#: src/settings/SettingsNavigationBarPage.qml:18
+#: src/settings/SettingsNavigationBarPage.qml:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Navigation Bar"
 msgstr "탐색 표시줄"
 
-#: src/settings/SettingsNavigationBarPage.qml:26
+#: src/settings/SettingsNavigationBarPage.qml:27
 #, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
@@ -1145,37 +1145,37 @@ msgstr ""
 " 메뉴 단추를 비활성화하면 화면 왼쪽이나 오른쪽에서 밀거나 창 아래쪽에서 밀어"
 "서 메뉴에 접근할 수 있습니다."
 
-#: src/settings/SettingsNavigationBarPage.qml:35
+#: src/settings/SettingsNavigationBarPage.qml:36
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Main menu in portrait"
 msgstr "세로로 주 메뉴 표시"
 
-#: src/settings/SettingsNavigationBarPage.qml:41
+#: src/settings/SettingsNavigationBarPage.qml:42
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Tabs in portrait"
 msgstr "세로로 탭 표시"
 
-#: src/settings/SettingsNavigationBarPage.qml:47
+#: src/settings/SettingsNavigationBarPage.qml:48
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Context menu in portrait"
 msgstr "세로로 상황에 맞는 메뉴 표시"
 
-#: src/settings/SettingsNavigationBarPage.qml:53
+#: src/settings/SettingsNavigationBarPage.qml:54
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Go back"
 msgstr "뒤로 이동"
 
-#: src/settings/SettingsNavigationBarPage.qml:59
+#: src/settings/SettingsNavigationBarPage.qml:60
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Go forward"
 msgstr "앞으로 이동"
 
-#: src/settings/SettingsNavigationBarPage.qml:65
+#: src/settings/SettingsNavigationBarPage.qml:66
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Reload/Stop"

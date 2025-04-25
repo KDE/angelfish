@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-21 00:41+0000\n"
+"POT-Creation-Date: 2025-04-25 00:41+0000\n"
 "PO-Revision-Date: 2025-04-20 20:59+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -78,7 +78,7 @@ msgid "Would you like to download %1 from %2?"
 msgstr "Szeretné letölteni a(z) %1 fájlt innen: %2?"
 
 #: lib/contents/ui/DownloadQuestion.qml:25
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
+#: src/qml/AdblockFilterDownloadQuestion.qml:32
 #, kde-format
 msgctxt "@action:button"
 msgid "Download"
@@ -485,8 +485,8 @@ msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "„%1” keresése"
 
-#: lib/contents/ui/WebView.qml:592 src/contents/ui/desktop/desktop.qml:377
-#: src/contents/ui/mobile.qml:315
+#: lib/contents/ui/WebView.qml:592 src/qml/desktop/Desktop.qml:378
+#: src/qml/Mobile.qml:315
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
@@ -498,365 +498,408 @@ msgctxt "@action:inmenu"
 msgid "View Page Source"
 msgstr "Oldal forrásának megtekintése"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
+#: src/main.cpp:73
+#, kde-format
+msgid "URL to open"
+msgstr "A megnyitandó URL"
+
+#: src/main.cpp:84
+#, fuzzy, kde-format
+#| msgid "Configure Angelfish"
+msgid "Angelfish"
+msgstr "Az Angelfish beállítása"
+
+#: src/main.cpp:86
+#, kde-format
+msgid "Web browser for Plasma Mobile"
+msgstr ""
+
+#: src/main.cpp:88
+#, kde-format
+msgid "© 2015-2024 KDE Community"
+msgstr ""
+
+#: src/main.cpp:91
+#, kde-format
+msgid "Jonah Brüchert"
+msgstr ""
+
+#: src/main.cpp:91
+#, kde-format
+msgid "Maintainer"
+msgstr ""
+
+#: src/main.cpp:92
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kiszel Kristóf"
+
+#: src/main.cpp:92
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ulysses@fsf.hu"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:15
 #, kde-format
 msgctxt "@info"
 msgid ""
 "The adblocker is missing its filter lists, do you want to download them now?"
 msgstr "Az adblocker szűrőlistái hiányoznak, szeretné letölteni azokat most?"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:35
+#: src/qml/AdblockFilterDownloadQuestion.qml:37
 #, kde-format
 msgctxt "@info"
 msgid "Downloading…"
 msgstr "Letöltés…"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:41
+#: src/qml/AdblockFilterDownloadQuestion.qml:43
 #, fuzzy, kde-format
 #| msgid "Enable Adblock"
 msgctxt "@action:button"
 msgid "Disable Adblock"
 msgstr "Adblock bekapcsolása"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:47
+#: src/qml/AdblockFilterDownloadQuestion.qml:49
 #, kde-format
 msgctxt "@info"
 msgid "Adblock Disabled…"
 msgstr ""
 
-#: src/contents/ui/Bookmarks.qml:13
+#: src/qml/Bookmarks.qml:13
 #, kde-format
 msgctxt "@title:window"
 msgid "Bookmarks"
 msgstr "Könyvjelzők"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:33
+#: src/qml/desktop/BookmarksPage.qml:33
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search bookmarks…"
 msgstr "Könyvjelzők keresése…"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:79
+#: src/qml/desktop/BookmarksPage.qml:79
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No bookmarks yet"
 msgstr "Nincsenek könyvjelzők"
 
-#: src/contents/ui/desktop/desktop.qml:151
+#: src/qml/desktop/Desktop.qml:152
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "Keresés vagy URL megadása…"
 
-#: src/contents/ui/desktop/desktop.qml:278 src/contents/ui/desktop/Tabs.qml:361
-#: src/contents/ui/Navigation.qml:443
+#: src/qml/desktop/Desktop.qml:279 src/qml/desktop/DesktopTabs.qml:362
+#: src/qml/Navigation.qml:443
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "Új lap"
 
-#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:92
+#: src/qml/desktop/Desktop.qml:286 src/qml/Mobile.qml:92
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
 msgstr "Kilépés a privát módból"
 
-#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:92
+#: src/qml/desktop/Desktop.qml:286 src/qml/Mobile.qml:92
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Private Mode"
 msgstr "Privát mód"
 
-#: src/contents/ui/desktop/desktop.qml:294 src/contents/ui/mobile.qml:108
+#: src/qml/desktop/Desktop.qml:295 src/qml/Mobile.qml:108
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "History"
 msgstr "Előzmények"
 
-#: src/contents/ui/desktop/desktop.qml:303 src/contents/ui/mobile.qml:100
+#: src/qml/desktop/Desktop.qml:304 src/qml/Mobile.qml:100
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "Könyvjelzők"
 
-#: src/contents/ui/desktop/desktop.qml:315 src/contents/ui/mobile.qml:112
+#: src/qml/desktop/Desktop.qml:316 src/qml/Mobile.qml:112
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "Letöltések"
 
-#: src/contents/ui/desktop/desktop.qml:328
+#: src/qml/desktop/Desktop.qml:329
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr "Nyomtatás"
 
-#: src/contents/ui/desktop/desktop.qml:334
+#: src/qml/desktop/Desktop.qml:335
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr "Teljes képernyő"
 
-#: src/contents/ui/desktop/desktop.qml:351
+#: src/qml/desktop/Desktop.qml:352
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Fejlesztői eszközök elrejtése"
 
-#: src/contents/ui/desktop/desktop.qml:352 src/contents/ui/mobile.qml:411
+#: src/qml/desktop/Desktop.qml:353 src/qml/Mobile.qml:411
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Fejlesztői eszközök"
 
-#: src/contents/ui/desktop/desktop.qml:361 src/contents/ui/mobile.qml:311
+#: src/qml/desktop/Desktop.qml:362 src/qml/Mobile.qml:311
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Keresés az oldalon"
 
-#: src/contents/ui/desktop/desktop.qml:370 src/contents/ui/mobile.qml:394
+#: src/qml/desktop/Desktop.qml:371 src/qml/Mobile.qml:394
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Olvasó mód"
 
-#: src/contents/ui/desktop/desktop.qml:387
+#: src/qml/desktop/Desktop.qml:388
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "Hozzáadás az alkalmazásindítóhoz"
 
-#: src/contents/ui/desktop/desktop.qml:406 src/contents/ui/mobile.qml:120
+#: src/qml/desktop/Desktop.qml:407 src/qml/Mobile.qml:120
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "Beállítások"
 
-#: src/contents/ui/desktop/HistoryPage.qml:31
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Search history…"
-msgstr "Keresés az előzményekben…"
-
-#: src/contents/ui/desktop/HistoryPage.qml:47
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Clear all history"
-msgstr "Minden előzmény törlése"
-
-#: src/contents/ui/desktop/HistoryPage.qml:84
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "No history yet"
-msgstr "Nincsenek előzmények"
-
-#: src/contents/ui/desktop/Tabs.qml:238 src/contents/ui/Tabs.qml:276
+#: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
 #, kde-format
 msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr "Olvasó mód: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:267 src/contents/ui/Tabs.qml:307
+#: src/qml/desktop/DesktopTabs.qml:268 src/qml/Tabs.qml:306
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close tab"
 msgstr "Lap bezárása"
 
-#: src/contents/ui/desktop/Tabs.qml:297
+#: src/qml/desktop/DesktopTabs.qml:298
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open a new tab"
 msgstr "Új lap megnyitása"
 
-#: src/contents/ui/desktop/Tabs.qml:330
+#: src/qml/desktop/DesktopTabs.qml:331
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "List all tabs"
 msgstr "Összes lap listázása"
 
-#: src/contents/ui/desktop/Tabs.qml:370
+#: src/qml/desktop/DesktopTabs.qml:371
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reload Tab"
 msgstr "Lap újratöltése"
 
-#: src/contents/ui/desktop/Tabs.qml:378
+#: src/qml/desktop/DesktopTabs.qml:379
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Duplicate Tab"
 msgstr "Lap duplázása"
 
-#: src/contents/ui/desktop/Tabs.qml:386
+#: src/qml/desktop/DesktopTabs.qml:387
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "Lap könyvjelzőzése"
 
-#: src/contents/ui/desktop/Tabs.qml:402
+#: src/qml/desktop/DesktopTabs.qml:403
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Lap bezárása"
 
-#: src/contents/ui/desktop/Tabs.qml:408
+#: src/qml/desktop/DesktopTabs.qml:409
 #, fuzzy, kde-format
 #| msgid "Close Tab"
 msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
 msgstr "Lap bezárása"
 
-#: src/contents/ui/Downloads.qml:17
+#: src/qml/desktop/HistoryPage.qml:31
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search history…"
+msgstr "Keresés az előzményekben…"
+
+#: src/qml/desktop/HistoryPage.qml:47
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear all history"
+msgstr "Minden előzmény törlése"
+
+#: src/qml/desktop/HistoryPage.qml:84
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No history yet"
+msgstr "Nincsenek előzmények"
+
+#: src/qml/Downloads.qml:17
 #, kde-format
 msgctxt "@title:window"
 msgid "Downloads"
 msgstr "Letöltések"
 
-#: src/contents/ui/Downloads.qml:29
+#: src/qml/Downloads.qml:29
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No running downloads"
 msgstr "Nincsenek futó letöltések"
 
-#: src/contents/ui/Downloads.qml:78
+#: src/qml/Downloads.qml:78
 #, kde-format
 msgctxt "@info:progress"
 msgid "Starting…"
 msgstr "Indítás…"
 
-#: src/contents/ui/Downloads.qml:80
+#: src/qml/Downloads.qml:80
 #, kde-format
 msgctxt "@info:progress"
 msgid "Completed"
 msgstr "Befejezve"
 
-#: src/contents/ui/Downloads.qml:82
+#: src/qml/Downloads.qml:82
 #, kde-format
 msgctxt "@info:progress"
 msgid "Cancelled"
 msgstr "Megszakítva"
 
-#: src/contents/ui/Downloads.qml:84
+#: src/qml/Downloads.qml:84
 #, kde-format
 msgctxt "@info:progress"
 msgid "Interrupted"
 msgstr "Megszakítva"
 
-#: src/contents/ui/Downloads.qml:86
+#: src/qml/Downloads.qml:86
 #, kde-format
 msgctxt "@info:progress"
 msgid "In progress…"
 msgstr "Folyamatban…"
 
-#: src/contents/ui/Downloads.qml:93
+#: src/qml/Downloads.qml:93
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Cancel"
 msgstr "Mégse"
 
-#: src/contents/ui/Downloads.qml:118
+#: src/qml/Downloads.qml:118
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Continue"
 msgstr "Folytatás"
 
-#: src/contents/ui/FindInPageBar.qml:45
+#: src/qml/FindInPageBar.qml:45
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr "Keresés…"
 
-#: src/contents/ui/History.qml:13
+#: src/qml/History.qml:13
 #, kde-format
 msgctxt "@title:window"
 msgid "History"
 msgstr "Előzmények"
 
-#: src/contents/ui/mobile.qml:21
+#: src/qml/Mobile.qml:22
 #, kde-format
 msgctxt "@title:window"
 msgid "Angelfish Web Browser"
 msgstr "Angelfish webböngésző"
 
-#: src/contents/ui/mobile.qml:85
+#: src/qml/Mobile.qml:85
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Tabs"
 msgstr "Lapok"
 
-#: src/contents/ui/mobile.qml:326
+#: src/qml/Mobile.qml:326
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Hozzáadás a kezdőképernyőhöz"
 
-#: src/contents/ui/mobile.qml:336
+#: src/qml/Mobile.qml:336
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Megnyitás alkalmazásban"
 
-#: src/contents/ui/mobile.qml:344
+#: src/qml/Mobile.qml:344
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr "Vissza"
 
-#: src/contents/ui/mobile.qml:352
+#: src/qml/Mobile.qml:352
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "Előre"
 
-#: src/contents/ui/mobile.qml:359
+#: src/qml/Mobile.qml:359
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Betöltés leállítása"
 
-#: src/contents/ui/mobile.qml:359
+#: src/qml/Mobile.qml:359
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Frissítés"
 
-#: src/contents/ui/mobile.qml:369
+#: src/qml/Mobile.qml:369
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "Könyvjelzőzve"
 
-#: src/contents/ui/mobile.qml:369
+#: src/qml/Mobile.qml:369
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Könyvjelzőzés"
 
-#: src/contents/ui/mobile.qml:385
+#: src/qml/Mobile.qml:385
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Asztali oldal kérése"
 
-#: src/contents/ui/mobile.qml:402
+#: src/qml/Mobile.qml:402
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "Navigációs sáv elrejtése"
 
-#: src/contents/ui/Navigation.qml:416
+#: src/qml/Navigation.qml:416
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr "Kész"
 
-#: src/contents/ui/Navigation.qml:429
+#: src/qml/Navigation.qml:429
 #, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"
 msgstr "%1 lap"
 
-#: src/contents/ui/NewTabQuestion.qml:11
+#: src/qml/NewTabQuestion.qml:11
 #, kde-format
 msgctxt "@info:status"
 msgid ""
@@ -866,63 +909,20 @@ msgstr ""
 "Az oldal egy új lapot akar megnyitni: \n"
 "%1"
 
-#: src/contents/ui/NewTabQuestion.qml:19
+#: src/qml/NewTabQuestion.qml:19
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
 msgstr "Megnyitás"
 
-#: src/contents/ui/ShareSheet.qml:18
+#: src/qml/ShareSheet.qml:18
 #, kde-format
 msgctxt "@title:window"
 msgid "Share Page"
 msgstr "Oldal megosztása"
 
-#: src/main.cpp:79
-#, kde-format
-msgid "URL to open"
-msgstr "A megnyitandó URL"
-
-#: src/main.cpp:90
-#, fuzzy, kde-format
-#| msgid "Configure Angelfish"
-msgid "Angelfish"
-msgstr "Az Angelfish beállítása"
-
-#: src/main.cpp:92
-#, kde-format
-msgid "Web browser for Plasma Mobile"
-msgstr ""
-
-#: src/main.cpp:94
-#, kde-format
-msgid "© 2015-2024 KDE Community"
-msgstr ""
-
-#: src/main.cpp:97
-#, kde-format
-msgid "Jonah Brüchert"
-msgstr ""
-
-#: src/main.cpp:97
-#, kde-format
-msgid "Maintainer"
-msgstr ""
-
-#: src/main.cpp:98
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Kiszel Kristóf"
-
-#: src/main.cpp:98
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "ulysses@fsf.hu"
-
 #: src/settings/AngelfishConfigurationView.qml:14
-#: src/settings/SettingsGeneral.qml:18
+#: src/settings/SettingsGeneral.qml:19
 #, kde-format
 msgctxt "@title:window"
 msgid "General"
@@ -949,42 +949,42 @@ msgid "Search Engines"
 msgstr "Keresőmotorok"
 
 #: src/settings/AngelfishConfigurationView.qml:38
-#: src/settings/DesktopHomeSettingsPage.qml:15
+#: src/settings/DesktopHomeSettingsPage.qml:16
 #, kde-format
 msgctxt "@title:window"
 msgid "Toolbars"
 msgstr "Eszköztárak"
 
-#: src/settings/DesktopHomeSettingsPage.qml:24
+#: src/settings/DesktopHomeSettingsPage.qml:25
 #, kde-format
 msgctxt "@label"
 msgid "Show home button:"
 msgstr "Kezdőlap gomb:"
 
-#: src/settings/DesktopHomeSettingsPage.qml:25
+#: src/settings/DesktopHomeSettingsPage.qml:26
 #, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr "A kezdőlap gomb a frissítés gomb mellett jelenik meg az eszköztáron."
 
-#: src/settings/DesktopHomeSettingsPage.qml:35
+#: src/settings/DesktopHomeSettingsPage.qml:36
 #, kde-format
 msgctxt "@label"
 msgid "Homepage:"
 msgstr "Kezdőlap:"
 
-#: src/settings/DesktopHomeSettingsPage.qml:58
+#: src/settings/DesktopHomeSettingsPage.qml:59
 #, kde-format
 msgctxt "@label"
 msgid "New tabs:"
 msgstr "Új lapok:"
 
-#: src/settings/DesktopHomeSettingsPage.qml:81
+#: src/settings/DesktopHomeSettingsPage.qml:82
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Always show the tab bar"
 msgstr "A lapozósáv mindig látszódjon"
 
-#: src/settings/DesktopHomeSettingsPage.qml:82
+#: src/settings/DesktopHomeSettingsPage.qml:83
 #, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open."
 msgstr "A lapozósáv mindig megjelenik, még ha csak egy lap is van megnyitva."
@@ -1012,94 +1012,94 @@ msgstr "Listák frissítése"
 msgid "The adblock functionality isn't included in this build."
 msgstr "Ez a verzió nem tartalmazza az adblock funkciót."
 
-#: src/settings/SettingsAdblock.qml:100
+#: src/settings/SettingsAdblock.qml:101
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove this filter list"
 msgstr "Szűrőlista törlése"
 
-#: src/settings/SettingsAdblock.qml:112
+#: src/settings/SettingsAdblock.qml:113
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Filter List"
 msgstr "Szűrőlista hozzáadása"
 
-#: src/settings/SettingsAdblock.qml:124
+#: src/settings/SettingsAdblock.qml:125
 #, kde-format
 msgctxt "@title:group"
 msgid "Add Filter List"
 msgstr "Szűrőlista hozzáadása"
 
-#: src/settings/SettingsAdblock.qml:129
+#: src/settings/SettingsAdblock.qml:130
 #, kde-format
 msgctxt "@label"
 msgid "Name"
 msgstr "Név"
 
-#: src/settings/SettingsAdblock.qml:138
+#: src/settings/SettingsAdblock.qml:139
 #, kde-format
 msgctxt "@label"
 msgid "URL"
 msgstr "URL"
 
-#: src/settings/SettingsGeneral.qml:27
+#: src/settings/SettingsGeneral.qml:28
 #, kde-format
 msgid "Enable JavaScript"
 msgstr "JavaScript engedélyezése"
 
-#: src/settings/SettingsGeneral.qml:28
+#: src/settings/SettingsGeneral.qml:29
 #, kde-format
 msgid "This may be required on certain websites for them to work."
 msgstr "Ez szükséges lehet bizonyos weboldalak működéséhez."
 
-#: src/settings/SettingsGeneral.qml:37
+#: src/settings/SettingsGeneral.qml:38
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Load images"
 msgstr "Képek betöltése"
 
-#: src/settings/SettingsGeneral.qml:38
+#: src/settings/SettingsGeneral.qml:39
 #, kde-format
 msgid "Whether to load images on websites."
 msgstr "Betöltődjenek-e a képek a weboldalakon."
 
-#: src/settings/SettingsGeneral.qml:47
+#: src/settings/SettingsGeneral.qml:48
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Enable adblock"
 msgstr "Adblock bekapcsolása"
 
-#: src/settings/SettingsGeneral.qml:48
+#: src/settings/SettingsGeneral.qml:49
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
 msgstr ""
 "Megpróbálja megakadályozni, hogy a weboldalakon reklámok jelenjenek meg."
 
-#: src/settings/SettingsGeneral.qml:48
+#: src/settings/SettingsGeneral.qml:49
 #, kde-format
 msgid "Adblock functionality was not included in this build."
 msgstr "Ez a verzió nem tartalmazza a reklámblokkoló funkciót."
 
-#: src/settings/SettingsGeneral.qml:58
+#: src/settings/SettingsGeneral.qml:59
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Switch to new tab immediately"
 msgstr "Váltás az új lapra azonnal"
 
-#: src/settings/SettingsGeneral.qml:59
+#: src/settings/SettingsGeneral.qml:60
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately."
 msgstr ""
 "Hivatkozás, kép vagy média új lapon megnyitásakor váltson azonnal arra."
 
-#: src/settings/SettingsGeneral.qml:68
+#: src/settings/SettingsGeneral.qml:69
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Use smooth scrolling"
 msgstr "Sima görgetés használata"
 
-#: src/settings/SettingsGeneral.qml:69
+#: src/settings/SettingsGeneral.qml:70
 #, kde-format
 msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
@@ -1108,13 +1108,13 @@ msgstr ""
 "A görgetés simább, és nem áll le hirtelen, amikor abbahagyja a görgetést. Az "
 "alkalmazás újraindítása szükséges a hatályba lépéshez."
 
-#: src/settings/SettingsGeneral.qml:78
+#: src/settings/SettingsGeneral.qml:79
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Use dark color scheme"
 msgstr "Sötét színséma használata"
 
-#: src/settings/SettingsGeneral.qml:79
+#: src/settings/SettingsGeneral.qml:80
 #, kde-format
 msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
@@ -1123,13 +1123,13 @@ msgstr ""
 "A weboldalak színsémái sötétre lesznek állítva. Az alkalmazás újraindítása "
 "szükséges a hatályba lépéshez."
 
-#: src/settings/SettingsNavigationBarPage.qml:18
+#: src/settings/SettingsNavigationBarPage.qml:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Navigation Bar"
 msgstr "Navigációs sáv"
 
-#: src/settings/SettingsNavigationBarPage.qml:26
+#: src/settings/SettingsNavigationBarPage.qml:27
 #, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
@@ -1147,37 +1147,37 @@ msgstr ""
 " Fontos megjegyezni, hogy a menügomb kikapcsolása esetén a menüket bal vagy "
 "jobb oldalról húzva, vagy az ablak alján húzva érheti el."
 
-#: src/settings/SettingsNavigationBarPage.qml:35
+#: src/settings/SettingsNavigationBarPage.qml:36
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Main menu in portrait"
 msgstr "Főmenü a portréban"
 
-#: src/settings/SettingsNavigationBarPage.qml:41
+#: src/settings/SettingsNavigationBarPage.qml:42
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Tabs in portrait"
 msgstr "Lapok a portréban"
 
-#: src/settings/SettingsNavigationBarPage.qml:47
+#: src/settings/SettingsNavigationBarPage.qml:48
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Context menu in portrait"
 msgstr "Helyi menü a portréban"
 
-#: src/settings/SettingsNavigationBarPage.qml:53
+#: src/settings/SettingsNavigationBarPage.qml:54
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Go back"
 msgstr "Vissza"
 
-#: src/settings/SettingsNavigationBarPage.qml:59
+#: src/settings/SettingsNavigationBarPage.qml:60
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Go forward"
 msgstr "Előre"
 
-#: src/settings/SettingsNavigationBarPage.qml:65
+#: src/settings/SettingsNavigationBarPage.qml:66
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Reload/Stop"

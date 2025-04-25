@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-21 00:41+0000\n"
+"POT-Creation-Date: 2025-04-25 00:41+0000\n"
 "PO-Revision-Date: 2024-12-19 22:25-0600\n"
 "Last-Translator: aalam <aalam@punlinux.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -81,7 +81,7 @@ msgid "Would you like to download %1 from %2?"
 msgstr "ਕੀ ਤੁਸੀਂ ਇਹ ਫ਼ਾਇਲ ਡਾਊਨਲੋਡ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
 
 #: lib/contents/ui/DownloadQuestion.qml:25
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:30
+#: src/qml/AdblockFilterDownloadQuestion.qml:32
 #, fuzzy, kde-format
 #| msgid "Download"
 msgctxt "@action:button"
@@ -549,8 +549,8 @@ msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "'%1' ਲਈ ਆਨਲਾਈਨ ਖੋਜੋ"
 
-#: lib/contents/ui/WebView.qml:592 src/contents/ui/desktop/desktop.qml:377
-#: src/contents/ui/mobile.qml:315
+#: lib/contents/ui/WebView.qml:592 src/qml/desktop/Desktop.qml:378
+#: src/qml/Mobile.qml:315
 #, fuzzy, kde-format
 #| msgid "Share page"
 msgctxt "@action:inmenu"
@@ -564,7 +564,50 @@ msgctxt "@action:inmenu"
 msgid "View Page Source"
 msgstr "ਸਫ਼ੇ ਦੇ ਸਰੋਤ ਨੂੰ ਵੇਖੋ"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:14
+#: src/main.cpp:73
+#, kde-format
+msgid "URL to open"
+msgstr "ਖੋਲ੍ਹਣ ਲਈ URL"
+
+#: src/main.cpp:84
+#, fuzzy, kde-format
+#| msgid "Configure Angelfish"
+msgid "Angelfish"
+msgstr "ਐਂਜਲਫਿਸ਼ ਦੀ ਸੰਰਚਨਾ"
+
+#: src/main.cpp:86
+#, kde-format
+msgid "Web browser for Plasma Mobile"
+msgstr ""
+
+#: src/main.cpp:88
+#, kde-format
+msgid "© 2015-2024 KDE Community"
+msgstr ""
+
+#: src/main.cpp:91
+#, kde-format
+msgid "Jonah Brüchert"
+msgstr ""
+
+#: src/main.cpp:91
+#, kde-format
+msgid "Maintainer"
+msgstr ""
+
+#: src/main.cpp:92
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ਅ.ਸ.ਆਲਮ. ੨੦੦੯-੨੦੨੩"
+
+#: src/main.cpp:92
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "aalam@punlinux.org"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:15
 #, fuzzy, kde-format
 #| msgid ""
 #| "The ad blocker is missing its filter lists, do you want to download them "
@@ -575,251 +618,251 @@ msgid ""
 msgstr ""
 "ਇਸ਼ਤਿਹਾਰ ਰੋਕੂ ਕੋਲ ਇਸ ਦੀ ਫਿਲਟਰ ਸੂਚੀਆਂ ਨਹੀਂ ਹਨ, ਕੀ ਤੁਸੀਂ ਉਹਨਾਂ ਨੂੰ ਹੁਣੇ ਡਾਊਨਲੋਡ ਕਰਨਾ ਚਾਹੋਗੇ?"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:35
+#: src/qml/AdblockFilterDownloadQuestion.qml:37
 #, fuzzy, kde-format
 #| msgid "Downloading..."
 msgctxt "@info"
 msgid "Downloading…"
 msgstr "ਡਾਊਨਲੋਡ ਜਾਰੀ ਹੈ…"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:41
+#: src/qml/AdblockFilterDownloadQuestion.qml:43
 #, fuzzy, kde-format
 #| msgid "Enable Adblock"
 msgctxt "@action:button"
 msgid "Disable Adblock"
 msgstr "ਇਸ਼ਤਿਹਾਰ-ਰੋਕੂ ਸਮਰੱਥ ਕਰੋ"
 
-#: src/contents/ui/AdblockFilterDownloadQuestion.qml:47
+#: src/qml/AdblockFilterDownloadQuestion.qml:49
 #, kde-format
 msgctxt "@info"
 msgid "Adblock Disabled…"
 msgstr ""
 
-#: src/contents/ui/Bookmarks.qml:13
+#: src/qml/Bookmarks.qml:13
 #, fuzzy, kde-format
 #| msgid "Bookmarks"
 msgctxt "@title:window"
 msgid "Bookmarks"
 msgstr "ਬੁੱਕਮਾਰਕ"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:33
+#: src/qml/desktop/BookmarksPage.qml:33
 #, fuzzy, kde-format
 #| msgid "Search bookmarks…"
 msgctxt "@info:placeholder"
 msgid "Search bookmarks…"
 msgstr "…ਬੁੱਕਮਾਰਕ ਲੱਭੋ"
 
-#: src/contents/ui/desktop/BookmarksPage.qml:79
+#: src/qml/desktop/BookmarksPage.qml:79
 #, fuzzy, kde-format
 #| msgid "No bookmarks yet"
 msgctxt "@info:placeholder"
 msgid "No bookmarks yet"
 msgstr "ਹਾਲੇ ਕੋਈ ਬੁੱਕਮਾਰਕ ਨਹੀਂ ਹਨ"
 
-#: src/contents/ui/desktop/desktop.qml:151
+#: src/qml/desktop/Desktop.qml:152
 #, fuzzy, kde-format
 #| msgid "Search or enter URL…"
 msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "ਖੋਜੋ ਜਾਂ URL ਦਿਓ…"
 
-#: src/contents/ui/desktop/desktop.qml:278 src/contents/ui/desktop/Tabs.qml:361
-#: src/contents/ui/Navigation.qml:443
+#: src/qml/desktop/Desktop.qml:279 src/qml/desktop/DesktopTabs.qml:362
+#: src/qml/Navigation.qml:443
 #, fuzzy, kde-format
 #| msgid "New Tab"
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "ਨਵੀਂ ਟੈਬ"
 
-#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:92
+#: src/qml/desktop/Desktop.qml:286 src/qml/Mobile.qml:92
 #, fuzzy, kde-format
 #| msgid "Leave private mode"
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
 msgstr "ਪ੍ਰਾਈਵੇਟ ਢੰਗ ਛੱਡੋ"
 
-#: src/contents/ui/desktop/desktop.qml:285 src/contents/ui/mobile.qml:92
+#: src/qml/desktop/Desktop.qml:286 src/qml/Mobile.qml:92
 #, fuzzy, kde-format
 #| msgid "Private mode"
 msgctxt "@action:inmenu"
 msgid "Private Mode"
 msgstr "ਪ੍ਰਾਈਵੇਟ ਢੰਗ"
 
-#: src/contents/ui/desktop/desktop.qml:294 src/contents/ui/mobile.qml:108
+#: src/qml/desktop/Desktop.qml:295 src/qml/Mobile.qml:108
 #, fuzzy, kde-format
 #| msgid "History"
 msgctxt "@action:inmenu"
 msgid "History"
 msgstr "ਅਤੀਤ"
 
-#: src/contents/ui/desktop/desktop.qml:303 src/contents/ui/mobile.qml:100
+#: src/qml/desktop/Desktop.qml:304 src/qml/Mobile.qml:100
 #, fuzzy, kde-format
 #| msgid "Bookmarks"
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "ਬੁੱਕਮਾਰਕ"
 
-#: src/contents/ui/desktop/desktop.qml:315 src/contents/ui/mobile.qml:112
+#: src/qml/desktop/Desktop.qml:316 src/qml/Mobile.qml:112
 #, fuzzy, kde-format
 #| msgid "Downloads"
 msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "ਡਾਊਨਲੋਡ"
 
-#: src/contents/ui/desktop/desktop.qml:328
+#: src/qml/desktop/Desktop.qml:329
 #, fuzzy, kde-format
 #| msgid "Print"
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr "ਪਰਿੰਟ ਕਰੋ"
 
-#: src/contents/ui/desktop/desktop.qml:334
+#: src/qml/desktop/Desktop.qml:335
 #, fuzzy, kde-format
 #| msgid "Full Screen"
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr "ਪੂਰੀ ਸਕਰੀਨ"
 
-#: src/contents/ui/desktop/desktop.qml:351
+#: src/qml/desktop/Desktop.qml:352
 #, fuzzy, kde-format
 #| msgid "Hide developer tools"
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "ਡਿਵੈਲਪਰ ਟੂਲ ਓਹਲੇ"
 
-#: src/contents/ui/desktop/desktop.qml:352 src/contents/ui/mobile.qml:411
+#: src/qml/desktop/Desktop.qml:353 src/qml/Mobile.qml:411
 #, fuzzy, kde-format
 #| msgid "Show developer tools"
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "ਡਿਵੈਲਪਰ ਟੂਲ ਵੇਖਾਓ"
 
-#: src/contents/ui/desktop/desktop.qml:361 src/contents/ui/mobile.qml:311
+#: src/qml/desktop/Desktop.qml:362 src/qml/Mobile.qml:311
 #, fuzzy, kde-format
 #| msgid "Find in page"
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "ਸਫ਼ੇ ਵਿੱਚ ਲੱਭੋ"
 
-#: src/contents/ui/desktop/desktop.qml:370 src/contents/ui/mobile.qml:394
+#: src/qml/desktop/Desktop.qml:371 src/qml/Mobile.qml:394
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "ਰੀਡਰ ਮੋਡ"
 
-#: src/contents/ui/desktop/desktop.qml:387
+#: src/qml/desktop/Desktop.qml:388
 #, fuzzy, kde-format
 #| msgid "Add to application launcher"
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "ਐਪਲੀਕੇਸ਼ਨ ਲਾਂਚਰ ਵਿੱਚ ਜੋੜੋ"
 
-#: src/contents/ui/desktop/desktop.qml:406 src/contents/ui/mobile.qml:120
+#: src/qml/desktop/Desktop.qml:407 src/qml/Mobile.qml:120
 #, fuzzy, kde-format
 #| msgid "Settings"
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "ਸੈਟਿੰਗਾਂ"
 
-#: src/contents/ui/desktop/HistoryPage.qml:31
-#, fuzzy, kde-format
-#| msgid "Search history…"
-msgctxt "@info:placeholder"
-msgid "Search history…"
-msgstr "…ਅਤੀਤ ਵਿੱਚ ਖੋਜੋ"
-
-#: src/contents/ui/desktop/HistoryPage.qml:47
-#, fuzzy, kde-format
-#| msgid "Clear all history"
-msgctxt "@info:tooltip"
-msgid "Clear all history"
-msgstr "ਸਾਰੇ ਅਤੀਤ ਨੂੰ ਮਿਟਾਓ"
-
-#: src/contents/ui/desktop/HistoryPage.qml:84
-#, fuzzy, kde-format
-#| msgid "Not history yet"
-msgctxt "@info:placeholder"
-msgid "No history yet"
-msgstr "ਹਾਲੇ ਕੋਈ ਅਤੀਤੀ ਨਹੀਂ ਹੈ"
-
-#: src/contents/ui/desktop/Tabs.qml:238 src/contents/ui/Tabs.qml:276
+#: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
 #, fuzzy, kde-format
 #| msgid "Reader Mode: %1"
 msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr "ਰੀਡਰ ਮੋਡ: %1"
 
-#: src/contents/ui/desktop/Tabs.qml:267 src/contents/ui/Tabs.qml:307
+#: src/qml/desktop/DesktopTabs.qml:268 src/qml/Tabs.qml:306
 #, fuzzy, kde-format
 #| msgid "Close tab"
 msgctxt "@info:tooltip"
 msgid "Close tab"
 msgstr "ਟੈਬ ਨੂੰ ਬੰਦ ਕਰੋ"
 
-#: src/contents/ui/desktop/Tabs.qml:297
+#: src/qml/desktop/DesktopTabs.qml:298
 #, fuzzy, kde-format
 #| msgid "Open a new tab"
 msgctxt "@info:tooltip"
 msgid "Open a new tab"
 msgstr "ਨਵੀਂ ਟੈਬ ਖੋਲ੍ਹੋ"
 
-#: src/contents/ui/desktop/Tabs.qml:330
+#: src/qml/desktop/DesktopTabs.qml:331
 #, fuzzy, kde-format
 #| msgid "List all tabs"
 msgctxt "@info:tooltip"
 msgid "List all tabs"
 msgstr "ਸਭ ਟੈਬਾਂ ਦੀ ਸੂਚੀ"
 
-#: src/contents/ui/desktop/Tabs.qml:370
+#: src/qml/desktop/DesktopTabs.qml:371
 #, fuzzy, kde-format
 #| msgid "Reload Tab"
 msgctxt "@action:inmenu"
 msgid "Reload Tab"
 msgstr "ਟੈਬ ਨੂੰ ਮੁੜ-ਲੋਡ ਕਰੋ"
 
-#: src/contents/ui/desktop/Tabs.qml:378
+#: src/qml/desktop/DesktopTabs.qml:379
 #, fuzzy, kde-format
 #| msgid "Duplicate Tab"
 msgctxt "@action:inmenu"
 msgid "Duplicate Tab"
 msgstr "ਟੈਬ ਨੂੰ ਡੁਪਲੀਕੇਟ ਕਰੋ"
 
-#: src/contents/ui/desktop/Tabs.qml:386
+#: src/qml/desktop/DesktopTabs.qml:387
 #, fuzzy, kde-format
 #| msgid "Bookmark Tab"
 msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "ਟੈਬ ਨੂੰ ਬੁੱਕਮਾਰਕ ਕਰੋ"
 
-#: src/contents/ui/desktop/Tabs.qml:402
+#: src/qml/desktop/DesktopTabs.qml:403
 #, fuzzy, kde-format
 #| msgid "Close Tab"
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "ਟੈਬ ਨੂੰ ਬੰਦ ਕਰੋ"
 
-#: src/contents/ui/desktop/Tabs.qml:408
+#: src/qml/desktop/DesktopTabs.qml:409
 #, fuzzy, kde-format
 #| msgid "Close Tab"
 msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
 msgstr "ਟੈਬ ਨੂੰ ਬੰਦ ਕਰੋ"
 
-#: src/contents/ui/Downloads.qml:17
+#: src/qml/desktop/HistoryPage.qml:31
+#, fuzzy, kde-format
+#| msgid "Search history…"
+msgctxt "@info:placeholder"
+msgid "Search history…"
+msgstr "…ਅਤੀਤ ਵਿੱਚ ਖੋਜੋ"
+
+#: src/qml/desktop/HistoryPage.qml:47
+#, fuzzy, kde-format
+#| msgid "Clear all history"
+msgctxt "@info:tooltip"
+msgid "Clear all history"
+msgstr "ਸਾਰੇ ਅਤੀਤ ਨੂੰ ਮਿਟਾਓ"
+
+#: src/qml/desktop/HistoryPage.qml:84
+#, fuzzy, kde-format
+#| msgid "Not history yet"
+msgctxt "@info:placeholder"
+msgid "No history yet"
+msgstr "ਹਾਲੇ ਕੋਈ ਅਤੀਤੀ ਨਹੀਂ ਹੈ"
+
+#: src/qml/Downloads.qml:17
 #, fuzzy, kde-format
 #| msgid "Downloads"
 msgctxt "@title:window"
 msgid "Downloads"
 msgstr "ਡਾਊਨਲੋਡ"
 
-#: src/contents/ui/Downloads.qml:29
+#: src/qml/Downloads.qml:29
 #, fuzzy, kde-format
 #| msgid "No running downloads"
 msgctxt "@info:placeholder"
 msgid "No running downloads"
 msgstr "ਕੋਈ ਡਾਊਨਲੋਡ ਨਹੀਂ ਹੋ ਰਿਹਾ ਹੈ"
 
-#: src/contents/ui/Downloads.qml:78
+#: src/qml/Downloads.qml:78
 #, fuzzy, kde-format
 #| msgctxt "download state"
 #| msgid "Starting…"
@@ -827,21 +870,21 @@ msgctxt "@info:progress"
 msgid "Starting…"
 msgstr "...ਸ਼ੁਰੂ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
-#: src/contents/ui/Downloads.qml:80
+#: src/qml/Downloads.qml:80
 #, fuzzy, kde-format
 #| msgid "Completed"
 msgctxt "@info:progress"
 msgid "Completed"
 msgstr "ਪੂਰਾ ਹੋਇਆ"
 
-#: src/contents/ui/Downloads.qml:82
+#: src/qml/Downloads.qml:82
 #, fuzzy, kde-format
 #| msgid "Cancelled"
 msgctxt "@info:progress"
 msgid "Cancelled"
 msgstr "ਰੱਦ ਕੀਤਾ"
 
-#: src/contents/ui/Downloads.qml:84
+#: src/qml/Downloads.qml:84
 #, fuzzy, kde-format
 #| msgctxt "download state"
 #| msgid "Interrupted"
@@ -849,7 +892,7 @@ msgctxt "@info:progress"
 msgid "Interrupted"
 msgstr "ਰੋਕਿਆ"
 
-#: src/contents/ui/Downloads.qml:86
+#: src/qml/Downloads.qml:86
 #, fuzzy, kde-format
 #| msgctxt "download state"
 #| msgid "In progress"
@@ -857,132 +900,132 @@ msgctxt "@info:progress"
 msgid "In progress…"
 msgstr "ਜਾਰੀ"
 
-#: src/contents/ui/Downloads.qml:93
+#: src/qml/Downloads.qml:93
 #, fuzzy, kde-format
 #| msgid "Cancel"
 msgctxt "@info:tooltip"
 msgid "Cancel"
 msgstr "ਰੱਦ ਕਰੋ"
 
-#: src/contents/ui/Downloads.qml:118
+#: src/qml/Downloads.qml:118
 #, fuzzy, kde-format
 #| msgid "Continue"
 msgctxt "@info:tooltip"
 msgid "Continue"
 msgstr "ਜਾਰੀ ਰੱਖੋ"
 
-#: src/contents/ui/FindInPageBar.qml:45
+#: src/qml/FindInPageBar.qml:45
 #, fuzzy, kde-format
 #| msgid "Search history…"
 msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr "…ਅਤੀਤ ਵਿੱਚ ਖੋਜੋ"
 
-#: src/contents/ui/History.qml:13
+#: src/qml/History.qml:13
 #, fuzzy, kde-format
 #| msgid "History"
 msgctxt "@title:window"
 msgid "History"
 msgstr "ਅਤੀਤ"
 
-#: src/contents/ui/mobile.qml:21
+#: src/qml/Mobile.qml:22
 #, fuzzy, kde-format
 #| msgid "Angelfish Web Browser"
 msgctxt "@title:window"
 msgid "Angelfish Web Browser"
 msgstr "ਐਂਜਲਫਿਸ਼ ਵੈੱਬ ਬਰਾਊਜ਼ਰ"
 
-#: src/contents/ui/mobile.qml:85
+#: src/qml/Mobile.qml:85
 #, fuzzy, kde-format
 #| msgid "Tabs"
 msgctxt "@action:inmenu"
 msgid "Tabs"
 msgstr "ਟੈਬਾਂ"
 
-#: src/contents/ui/mobile.qml:326
+#: src/qml/Mobile.qml:326
 #, fuzzy, kde-format
 #| msgid "Add to homescreen"
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "ਮੁੱਖ-ਸਕਰੀਨ ਉੱਤੇ ਜੋੜੋ"
 
-#: src/contents/ui/mobile.qml:336
+#: src/qml/Mobile.qml:336
 #, fuzzy, kde-format
 #| msgid "Open in app"
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "ਐਪ ਵਿੱਚ ਖੋਲ੍ਹੋ"
 
-#: src/contents/ui/mobile.qml:344
+#: src/qml/Mobile.qml:344
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr ""
 
-#: src/contents/ui/mobile.qml:352
+#: src/qml/Mobile.qml:352
 #, fuzzy, kde-format
 #| msgid "Go forward"
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "ਅੱਗੇ ਜਾਓ"
 
-#: src/contents/ui/mobile.qml:359
+#: src/qml/Mobile.qml:359
 #, fuzzy, kde-format
 #| msgid "Stop loading"
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "ਲੋਡ ਕਰਨਾ ਰੋਕੋ"
 
-#: src/contents/ui/mobile.qml:359
+#: src/qml/Mobile.qml:359
 #, fuzzy, kde-format
 #| msgid "Refresh"
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "ਤਾਜ਼ਾ ਕਰੋ"
 
-#: src/contents/ui/mobile.qml:369
+#: src/qml/Mobile.qml:369
 #, fuzzy, kde-format
 #| msgid "Bookmarked"
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "ਬੁੱਕਮਾਰਕ ਕੀਤਾ"
 
-#: src/contents/ui/mobile.qml:369
+#: src/qml/Mobile.qml:369
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "ਬੁੱਕਮਾਰਕ ਕਰੋ"
 
-#: src/contents/ui/mobile.qml:385
+#: src/qml/Mobile.qml:385
 #, fuzzy, kde-format
 #| msgid "Show desktop site"
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "ਡੈਸਕਟਾਪ ਸਾਈਟ ਵੇਖਾਓ"
 
-#: src/contents/ui/mobile.qml:402
+#: src/qml/Mobile.qml:402
 #, fuzzy, kde-format
 #| msgid "Hide navigation bar"
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "ਨੇਵੀਗੇਸ਼ਨ ਪੱਟੀ ਲੁਕਾਓ"
 
-#: src/contents/ui/Navigation.qml:416
+#: src/qml/Navigation.qml:416
 #, fuzzy, kde-format
 #| msgid "Done"
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr "ਮੁਕੰਮਲ"
 
-#: src/contents/ui/Navigation.qml:429
+#: src/qml/Navigation.qml:429
 #, fuzzy, kde-format
 #| msgid "New tabs:"
 msgctxt "@info:status"
 msgid "%1 tabs"
 msgstr "ਨਵੀਆਂ ਟੈਬਾਂ:"
 
-#: src/contents/ui/NewTabQuestion.qml:11
+#: src/qml/NewTabQuestion.qml:11
 #, fuzzy, kde-format
 #| msgid ""
 #| "Site wants to open a new tab: \n"
@@ -995,65 +1038,22 @@ msgstr ""
 "ਸਾਈਟ ਨਵੀਂ ਟੈਬ ਖੋਲ੍ਹਣਾ ਚਾਹੁੰਦੀ ਹੈ:\n"
 "%1"
 
-#: src/contents/ui/NewTabQuestion.qml:19
+#: src/qml/NewTabQuestion.qml:19
 #, fuzzy, kde-format
 #| msgid "Open"
 msgctxt "@action:inmenu"
 msgid "Open"
 msgstr "ਖੋਲ੍ਹੋ"
 
-#: src/contents/ui/ShareSheet.qml:18
+#: src/qml/ShareSheet.qml:18
 #, fuzzy, kde-format
 #| msgid "Share page"
 msgctxt "@title:window"
 msgid "Share Page"
 msgstr "ਸਫ਼ੇ ਨੂੰ ਸਾਂਝਾ ਕਰੋ"
 
-#: src/main.cpp:79
-#, kde-format
-msgid "URL to open"
-msgstr "ਖੋਲ੍ਹਣ ਲਈ URL"
-
-#: src/main.cpp:90
-#, fuzzy, kde-format
-#| msgid "Configure Angelfish"
-msgid "Angelfish"
-msgstr "ਐਂਜਲਫਿਸ਼ ਦੀ ਸੰਰਚਨਾ"
-
-#: src/main.cpp:92
-#, kde-format
-msgid "Web browser for Plasma Mobile"
-msgstr ""
-
-#: src/main.cpp:94
-#, kde-format
-msgid "© 2015-2024 KDE Community"
-msgstr ""
-
-#: src/main.cpp:97
-#, kde-format
-msgid "Jonah Brüchert"
-msgstr ""
-
-#: src/main.cpp:97
-#, kde-format
-msgid "Maintainer"
-msgstr ""
-
-#: src/main.cpp:98
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "ਅ.ਸ.ਆਲਮ. ੨੦੦੯-੨੦੨੩"
-
-#: src/main.cpp:98
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "aalam@punlinux.org"
-
 #: src/settings/AngelfishConfigurationView.qml:14
-#: src/settings/SettingsGeneral.qml:18
+#: src/settings/SettingsGeneral.qml:19
 #, fuzzy, kde-format
 #| msgid "General"
 msgctxt "@title:window"
@@ -1084,47 +1084,47 @@ msgid "Search Engines"
 msgstr "ਖੋਜ ਇੰਜਣ"
 
 #: src/settings/AngelfishConfigurationView.qml:38
-#: src/settings/DesktopHomeSettingsPage.qml:15
+#: src/settings/DesktopHomeSettingsPage.qml:16
 #, fuzzy, kde-format
 #| msgid "Toolbars"
 msgctxt "@title:window"
 msgid "Toolbars"
 msgstr "ਟੂਲਬਾਰ"
 
-#: src/settings/DesktopHomeSettingsPage.qml:24
+#: src/settings/DesktopHomeSettingsPage.qml:25
 #, fuzzy, kde-format
 #| msgid "Show home button:"
 msgctxt "@label"
 msgid "Show home button:"
 msgstr "ਮੁੱਖ-ਸਕਰੀਨ ਬਟਨ ਵੇਖਾਓ:"
 
-#: src/settings/DesktopHomeSettingsPage.qml:25
+#: src/settings/DesktopHomeSettingsPage.qml:26
 #, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
 msgstr ""
 
-#: src/settings/DesktopHomeSettingsPage.qml:35
+#: src/settings/DesktopHomeSettingsPage.qml:36
 #, fuzzy, kde-format
 #| msgid "Homepage:"
 msgctxt "@label"
 msgid "Homepage:"
 msgstr "ਮੁੱਖ ਸਫ਼ਾ:"
 
-#: src/settings/DesktopHomeSettingsPage.qml:58
+#: src/settings/DesktopHomeSettingsPage.qml:59
 #, fuzzy, kde-format
 #| msgid "New tabs:"
 msgctxt "@label"
 msgid "New tabs:"
 msgstr "ਨਵੀਆਂ ਟੈਬਾਂ:"
 
-#: src/settings/DesktopHomeSettingsPage.qml:81
+#: src/settings/DesktopHomeSettingsPage.qml:82
 #, fuzzy, kde-format
 #| msgid "Always show the tab bar"
 msgctxt "@label:checkbox"
 msgid "Always show the tab bar"
 msgstr "ਟੈਬ ਪੱਟੀ ਹਮੇਸ਼ਾਂ ਵੇਖਾਓ"
 
-#: src/settings/DesktopHomeSettingsPage.qml:82
+#: src/settings/DesktopHomeSettingsPage.qml:83
 #, fuzzy, kde-format
 #| msgid "The tab bar will be displayed even if there is only one tab open"
 msgid "The tab bar will be displayed even if there is only one tab open."
@@ -1156,88 +1156,88 @@ msgstr "ਲਿਸਟਾਂ ਨੂੰ ਅੱਪਡੇਟ ਕਰੋ"
 msgid "The adblock functionality isn't included in this build."
 msgstr "ਇਸ਼ਤਿਹਾਰ-ਰੋਕੂ ਸਹੂਲਤਾਂ ਇਸ ਬਿਲਡ ਵਿੱਚ ਸ਼ਾਮਲ ਨਹੀਂ ਹਨ।"
 
-#: src/settings/SettingsAdblock.qml:100
+#: src/settings/SettingsAdblock.qml:101
 #, fuzzy, kde-format
 #| msgid "Remove this filter list"
 msgctxt "@info:tooltip"
 msgid "Remove this filter list"
 msgstr "ਇਹ ਫਿਲਟਰ ਸੂਚੀ ਨੂੰ ਹਟਾਓ"
 
-#: src/settings/SettingsAdblock.qml:112
+#: src/settings/SettingsAdblock.qml:113
 #, fuzzy, kde-format
 #| msgid "Add Filterlist"
 msgctxt "@action:button"
 msgid "Add Filter List"
 msgstr "ਫਿਲਟਰ-ਸੂਚੀ ਜੋੜੋ"
 
-#: src/settings/SettingsAdblock.qml:124
+#: src/settings/SettingsAdblock.qml:125
 #, fuzzy, kde-format
 #| msgid "Add Filterlist"
 msgctxt "@title:group"
 msgid "Add Filter List"
 msgstr "ਫਿਲਟਰ-ਸੂਚੀ ਜੋੜੋ"
 
-#: src/settings/SettingsAdblock.qml:129
+#: src/settings/SettingsAdblock.qml:130
 #, fuzzy, kde-format
 #| msgid "Name"
 msgctxt "@label"
 msgid "Name"
 msgstr "ਨਾਂ"
 
-#: src/settings/SettingsAdblock.qml:138
+#: src/settings/SettingsAdblock.qml:139
 #, kde-format
 msgctxt "@label"
 msgid "URL"
 msgstr ""
 
-#: src/settings/SettingsGeneral.qml:27
+#: src/settings/SettingsGeneral.qml:28
 #, kde-format
 msgid "Enable JavaScript"
 msgstr "ਜਾਵਾ-ਸਕ੍ਰਿਪਟ ਸਮਰੱਥ ਕਰੋ"
 
-#: src/settings/SettingsGeneral.qml:28
+#: src/settings/SettingsGeneral.qml:29
 #, kde-format
 msgid "This may be required on certain websites for them to work."
 msgstr ""
 
-#: src/settings/SettingsGeneral.qml:37
+#: src/settings/SettingsGeneral.qml:38
 #, fuzzy, kde-format
 #| msgid "Load images"
 msgctxt "@label:checkbox"
 msgid "Load images"
 msgstr "ਚਿੱਤਰ ਲੋਡ ਕਰੋ"
 
-#: src/settings/SettingsGeneral.qml:38
+#: src/settings/SettingsGeneral.qml:39
 #, kde-format
 msgid "Whether to load images on websites."
 msgstr "ਕੀ ਵੈੱਬਸਾਈਟਾਂ ਉੱਤੇ ਚਿੱਤਰ ਲੋਡ ਕਰਨੇ ਹਨ।"
 
-#: src/settings/SettingsGeneral.qml:47
+#: src/settings/SettingsGeneral.qml:48
 #, fuzzy, kde-format
 #| msgid "Enable adblock"
 msgctxt "@label:checkbox"
 msgid "Enable adblock"
 msgstr "ਇਸ਼ਤਿਹਾਰ-ਰੋਕੂ ਸਮਰੱਥ ਕਰੋ"
 
-#: src/settings/SettingsGeneral.qml:48
+#: src/settings/SettingsGeneral.qml:49
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
 msgstr ""
 
-#: src/settings/SettingsGeneral.qml:48
+#: src/settings/SettingsGeneral.qml:49
 #, fuzzy, kde-format
 #| msgid "AdBlock functionality was not included in this build."
 msgid "Adblock functionality was not included in this build."
 msgstr "ਇਸ਼ਤਿਹਾਰ-ਰੋਕੂ ਸਹੂਲਤਾਂ ਇਸ ਬਿਲਡ ਵਿੱਚ ਸ਼ਾਮਲ ਨਹੀਂ ਸਨ।"
 
-#: src/settings/SettingsGeneral.qml:58
+#: src/settings/SettingsGeneral.qml:59
 #, fuzzy, kde-format
 #| msgid "Switch to new tab immediately"
 msgctxt "@label:checkbox"
 msgid "Switch to new tab immediately"
 msgstr "ਨਵੀਂ ਟੈਬ ਉੱਤੇ ਫ਼ੌਰਨ ਜਾਓ"
 
-#: src/settings/SettingsGeneral.qml:59
+#: src/settings/SettingsGeneral.qml:60
 #, fuzzy, kde-format
 #| msgid ""
 #| "When you open a link, image or media in a new tab, switch to it "
@@ -1246,41 +1246,41 @@ msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately."
 msgstr "ਜਦੋਂ ਤੁਸੀਂ ਲਿੰਕ, ਚਿੱਤਰ ਜਾਂ ਮੀਡੀਏ ਨੂੰ ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹਦੇ ਹੋ ਤਾਂ ਉਸ ਉੱਤੇ ਫ਼ੌਰਨ ਜਾਓ"
 
-#: src/settings/SettingsGeneral.qml:68
+#: src/settings/SettingsGeneral.qml:69
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Use smooth scrolling"
 msgstr ""
 
-#: src/settings/SettingsGeneral.qml:69
+#: src/settings/SettingsGeneral.qml:70
 #, kde-format
 msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
 "Requires app restart to take effect."
 msgstr ""
 
-#: src/settings/SettingsGeneral.qml:78
+#: src/settings/SettingsGeneral.qml:79
 #, fuzzy, kde-format
 #| msgid "Use dark color scheme"
 msgctxt "@label:checkbox"
 msgid "Use dark color scheme"
 msgstr "ਗੂੜ੍ਹਾ ਰੰਗ ਸਕੀਮ ਨੂੰ ਵਰਤੋਂ"
 
-#: src/settings/SettingsGeneral.qml:79
+#: src/settings/SettingsGeneral.qml:80
 #, kde-format
 msgid ""
 "Websites will have their color schemes set to dark. Requires app restart to "
 "take effect."
 msgstr ""
 
-#: src/settings/SettingsNavigationBarPage.qml:18
+#: src/settings/SettingsNavigationBarPage.qml:19
 #, fuzzy, kde-format
 #| msgid "Navigation bar"
 msgctxt "@title:window"
 msgid "Navigation Bar"
 msgstr "ਨੇਵੀਗੇਸ਼ਨ ਪੱਟੀ"
 
-#: src/settings/SettingsNavigationBarPage.qml:26
+#: src/settings/SettingsNavigationBarPage.qml:27
 #, kde-format
 msgid ""
 "Choose the buttons enabled in navigation bar. Some of the buttons can be "
@@ -1292,42 +1292,42 @@ msgid ""
 "bottom of the window."
 msgstr ""
 
-#: src/settings/SettingsNavigationBarPage.qml:35
+#: src/settings/SettingsNavigationBarPage.qml:36
 #, fuzzy, kde-format
 #| msgid "Main menu in portrait"
 msgctxt "@label:checkbox"
 msgid "Main menu in portrait"
 msgstr "ਪੋਰਟਰੇਟ ਵਿੱਚ ਮੁੱਖ ਮੇਨੂ"
 
-#: src/settings/SettingsNavigationBarPage.qml:41
+#: src/settings/SettingsNavigationBarPage.qml:42
 #, fuzzy, kde-format
 #| msgid "Tabs in portrait"
 msgctxt "@label:checkbox"
 msgid "Tabs in portrait"
 msgstr "ਪੋਰਟਰੇਟ ਵਿੱਚ ਟੈਬਾਂ"
 
-#: src/settings/SettingsNavigationBarPage.qml:47
+#: src/settings/SettingsNavigationBarPage.qml:48
 #, fuzzy, kde-format
 #| msgid "Context menu in portrait"
 msgctxt "@label:checkbox"
 msgid "Context menu in portrait"
 msgstr "ਪੋਰਟਰੇਟ ਵਿੱਚ ਪ੍ਰਸੰਗ ਮੇਨੂ"
 
-#: src/settings/SettingsNavigationBarPage.qml:53
+#: src/settings/SettingsNavigationBarPage.qml:54
 #, fuzzy, kde-format
 #| msgid "Go back"
 msgctxt "@label:checkbox"
 msgid "Go back"
 msgstr "ਪਿੱਛੇ ਜਾਓ"
 
-#: src/settings/SettingsNavigationBarPage.qml:59
+#: src/settings/SettingsNavigationBarPage.qml:60
 #, fuzzy, kde-format
 #| msgid "Go forward"
 msgctxt "@label:checkbox"
 msgid "Go forward"
 msgstr "ਅੱਗੇ ਜਾਓ"
 
-#: src/settings/SettingsNavigationBarPage.qml:65
+#: src/settings/SettingsNavigationBarPage.qml:66
 #, fuzzy, kde-format
 #| msgid "Reload/Stop"
 msgctxt "@label:checkbox"
