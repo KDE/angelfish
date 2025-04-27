@@ -338,18 +338,20 @@ classes
         const filePath = Core.BrowserManager.tempDirectory() + "/print-preview.pdf";
         printToPdf(filePath, printedPageSizeId, printedPageOrientation);
 
-        if (!printPreview.sheetOpen) {
-            printPreview.open();
+        const component = Qt.createComponent("org.kde.angelfish.core", "PrintPreview");
+        if (component.status === Component.Error) {
+            console.error(component.errorString());
+            return;
         }
+        const dialog = component.createObject(webEngineView, {
+            webView: webEngineView,
+        });
+        dialog.open();
     }
 
     onPdfPrintingFinished: (filePath, success) => {
-        generatingPdf = false;
         printPreviewUrl = "file://" + filePath + "#toolbar=0&view=Fit";
-    }
-
-    PrintPreview {
-        id: printPreview
+        generatingPdf = false;
     }
 
     onLinkHovered: hoveredUrl => hoveredLink.text = hoveredUrl
