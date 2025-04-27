@@ -56,6 +56,7 @@ Kirigami.ApplicationWindow {
 
     TabHistory {
         id: historyMenu
+        currentWebView: webBrowser.currentWebView
     }
 
     header: QQC2.ToolBar {
