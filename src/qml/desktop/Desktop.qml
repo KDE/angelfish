@@ -160,7 +160,7 @@ Kirigami.ApplicationWindow {
                     if (validURL(url)) {
                         currentWebView.url = url;
                     } else {
-                        currentWebView.url = UrlUtils.urlFromUserInput(Core.AngelfishSettings.searchBaseUrl + searchField.text);
+                        currentWebView.url = Core.UrlUtils.urlFromUserInput(Core.AngelfishSettings.searchBaseUrl + searchField.text);
                     }
                     urlBar.popup.close()
                 }
