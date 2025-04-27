@@ -8,7 +8,7 @@ import QtQuick.Layouts
 
 import org.kde.kirigami as Kirigami
 
-import org.kde.angelfish
+import org.kde.angelfish.webapp
 import org.kde.angelfish.core as Core
 
 Core.WebView {

@@ -20,12 +20,8 @@
 #include <KLocalizedString>
 
 #include "angelfishsettings.h"
-#include "bookmarkshistorymodel.h"
 #include "browsermanager.h"
 #include "iconimageprovider.h"
-#include "tabsmodel.h"
-#include "urlutils.h"
-#include "useragent.h"
 
 constexpr auto APPLICATION_ID = "org.kde.angelfish";
 
@@ -104,11 +100,8 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     BrowserManager::instance()->setInitialUrl(initialUrl);
 
-    // Settings are read from WebView which we use as super class for WebAppView
-    qmlRegisterSingletonInstance<AngelfishSettings>(APPLICATION_ID, 1, 0, "Settings", AngelfishSettings::self());
-
     // Load QML
-    engine.load(QUrl(QStringLiteral("qrc:///webapp.qml")));
+    engine.loadFromModule("org.kde.angelfish.webapp", "WebApp");
 
     // Error handling
     if (engine.rootObjects().isEmpty()) {

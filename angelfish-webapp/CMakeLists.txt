@@ -3,12 +3,18 @@
 #
 # SPDX-License-Identifier: LGPL-2.0-or-later
 
-set(angelfish_webapp_SRCS
-    main.cpp
-    webapp-resources.qrc
+add_executable(angelfish-webapp main.cpp)
+
+ecm_add_qml_module(angelfish-webapp
+    GENERATE_PLUGIN_SOURCE
+    URI org.kde.angelfish.webapp
 )
 
-add_executable(angelfish-webapp ${angelfish_webapp_SRCS} ${RESOURCES} ${WEBAPP_RESOURCES})
+ecm_target_qml_sources(angelfish-webapp
+    SOURCES
+        qml/WebAppView.qml
+        qml/WebApp.qml
+)
 
 target_include_directories(angelfish-webapp PRIVATE ../src/)
 target_compile_definitions(angelfish-webapp PRIVATE -DQT_NO_CAST_FROM_ASCII)

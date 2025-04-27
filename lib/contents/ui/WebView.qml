@@ -9,7 +9,6 @@ import QtWebEngine
 
 import org.kde.kirigami as Kirigami
 
-import org.kde.angelfish
 import org.kde.angelfish.core as Core
 
 WebEngineView {
