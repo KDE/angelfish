@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-25 00:41+0000\n"
+"POT-Creation-Date: 2025-04-28 00:41+0000\n"
 "PO-Revision-Date: 2025-04-17 12:04+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -17,22 +17,22 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 24.12.3\n"
 
-#: angelfish-webapp/main.cpp:70
+#: angelfish-webapp/main.cpp:66
 #, kde-format
 msgid "desktop file to open"
 msgstr "skrivbordsfil att öppna"
 
-#: angelfish-webapp/main.cpp:97
+#: angelfish-webapp/main.cpp:93
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr "Angelfish webbkörprogram"
 
-#: angelfish-webapp/main.cpp:99
+#: angelfish-webapp/main.cpp:95
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "Copyright 2020, Angelfish-utvecklarna"
 
-#: angelfish-webapp/main.cpp:101
+#: angelfish-webapp/main.cpp:97
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
@@ -52,19 +52,19 @@ msgstr "Nerladdning misslyckades"
 msgid "Open"
 msgstr "Öppna"
 
-#: lib/contents/ui/AuthSheet.qml:17
+#: lib/contents/ui/AuthSheet.qml:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Authentication Required"
 msgstr "Behörighetskontroll krävs"
 
-#: lib/contents/ui/AuthSheet.qml:30
+#: lib/contents/ui/AuthSheet.qml:29
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Username:"
 msgstr "Användarnamn"
 
-#: lib/contents/ui/AuthSheet.qml:37
+#: lib/contents/ui/AuthSheet.qml:35
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Password:"
@@ -83,7 +83,7 @@ msgctxt "@action:button"
 msgid "Download"
 msgstr "Ladda ner"
 
-#: lib/contents/ui/DownloadQuestion.qml:33 lib/contents/ui/PrintPreview.qml:164
+#: lib/contents/ui/DownloadQuestion.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
@@ -238,260 +238,256 @@ msgctxt "@action:button"
 msgid "Decline"
 msgstr "Neka"
 
-#: lib/contents/ui/PrintPreview.qml:25
+#: lib/contents/ui/PrintPreview.qml:36
 #, kde-format
 msgctxt "@title:window"
 msgid "Print"
 msgstr "Skriv ut"
 
-#: lib/contents/ui/PrintPreview.qml:65
+#: lib/contents/ui/PrintPreview.qml:88
 #, kde-format
 msgctxt "@title:group"
 msgid "Destination"
 msgstr "Mål"
 
-#: lib/contents/ui/PrintPreview.qml:69
+#: lib/contents/ui/PrintPreview.qml:92
 #, kde-format
 msgctxt "@title:group"
 msgid "Save to PDF"
 msgstr "Spara som PDF"
 
-#: lib/contents/ui/PrintPreview.qml:75
+#: lib/contents/ui/PrintPreview.qml:101
 #, kde-format
 msgctxt "@title:group"
 msgid "Orientation"
 msgstr "Orientering"
 
-#: lib/contents/ui/PrintPreview.qml:100
-#, kde-format
-msgctxt "@title:group"
+#: lib/contents/ui/PrintPreview.qml:126
+#, fuzzy, kde-format
+#| msgctxt "@title:group"
+#| msgid "Paper Size"
+msgctxt "@label:combobox"
 msgid "Paper Size"
 msgstr "Pappersstorlek"
 
-#: lib/contents/ui/PrintPreview.qml:146
+#: lib/contents/ui/PrintPreview.qml:169
 #, kde-format
 msgctxt "@title:group"
 msgid "Options"
 msgstr "Alternativ"
 
-#: lib/contents/ui/PrintPreview.qml:150
+#: lib/contents/ui/PrintPreview.qml:173
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Print backgrounds"
 msgstr "Skriv ut bakgrunder"
 
-#: lib/contents/ui/PrintPreview.qml:169
-#, kde-format
-msgctxt "@action:button"
-msgid "Save"
-msgstr "Spara"
-
-#: lib/contents/ui/WebView.qml:244
+#: lib/contents/ui/WebView.qml:243
 #, kde-format
 msgctxt "@info:status"
 msgid "Website was opened in a new tab"
 msgstr "Webbplatsen öppnades under en ny flik"
 
-#: lib/contents/ui/WebView.qml:262
+#: lib/contents/ui/WebView.qml:261
 #, kde-format
 msgctxt "@info:status"
 msgid "Entered Full Screen mode"
 msgstr "Gå till fullskärmsläge"
 
-#: lib/contents/ui/WebView.qml:263
+#: lib/contents/ui/WebView.qml:262
 #, kde-format
 msgctxt "@action:button"
 msgid "Exit Full Screen (Esc)"
 msgstr "Avsluta fullskärm (Esc)"
 
-#: lib/contents/ui/WebView.qml:396
+#: lib/contents/ui/WebView.qml:397
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Play"
 msgstr "Spela"
 
-#: lib/contents/ui/WebView.qml:397
+#: lib/contents/ui/WebView.qml:398
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Pause"
 msgstr "Paus"
 
-#: lib/contents/ui/WebView.qml:404
+#: lib/contents/ui/WebView.qml:405
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Unmute"
 msgstr "Tysta inte"
 
-#: lib/contents/ui/WebView.qml:405
+#: lib/contents/ui/WebView.qml:406
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Mute"
 msgstr "Tyst"
 
-#: lib/contents/ui/WebView.qml:415
+#: lib/contents/ui/WebView.qml:416
 #, kde-format
 msgctxt "@label"
 msgid "Speed"
 msgstr "Hastighet"
 
-#: lib/contents/ui/WebView.qml:438
+#: lib/contents/ui/WebView.qml:439
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Loop"
 msgstr "Upprepa"
 
-#: lib/contents/ui/WebView.qml:445
+#: lib/contents/ui/WebView.qml:446
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Exit Fullscreen"
 msgstr "Avsluta fullskärm"
 
-#: lib/contents/ui/WebView.qml:445
+#: lib/contents/ui/WebView.qml:446
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enter Fullscreen"
 msgstr "Gå till fullskärm"
 
-#: lib/contents/ui/WebView.qml:458
+#: lib/contents/ui/WebView.qml:459
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Controls"
 msgstr "Dölj kontroller"
 
-#: lib/contents/ui/WebView.qml:459
+#: lib/contents/ui/WebView.qml:460
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Controls"
 msgstr "Visa kontroller"
 
-#: lib/contents/ui/WebView.qml:467
+#: lib/contents/ui/WebView.qml:468
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video"
 msgstr "Öppna video"
 
-#: lib/contents/ui/WebView.qml:467
+#: lib/contents/ui/WebView.qml:468
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio"
 msgstr "Öppna ljud"
 
-#: lib/contents/ui/WebView.qml:468
+#: lib/contents/ui/WebView.qml:469
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video in New Tab"
 msgstr "Öppna video under ny flik"
 
-#: lib/contents/ui/WebView.qml:468
+#: lib/contents/ui/WebView.qml:469
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio in New Tab"
 msgstr "Öppna ljud under ny flik"
 
-#: lib/contents/ui/WebView.qml:480
+#: lib/contents/ui/WebView.qml:481
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Video"
 msgstr "Spara video"
 
-#: lib/contents/ui/WebView.qml:486
+#: lib/contents/ui/WebView.qml:487
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Video Link"
 msgstr "Kopiera videolänk"
 
-#: lib/contents/ui/WebView.qml:492
+#: lib/contents/ui/WebView.qml:493
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image"
 msgstr "Öppna bild"
 
-#: lib/contents/ui/WebView.qml:492
+#: lib/contents/ui/WebView.qml:493
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image in New Tab"
 msgstr "Öppna bild under ny flik"
 
-#: lib/contents/ui/WebView.qml:504
+#: lib/contents/ui/WebView.qml:505
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Image"
 msgstr "Spara bild"
 
-#: lib/contents/ui/WebView.qml:510
+#: lib/contents/ui/WebView.qml:511
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image"
 msgstr "Kopiera bild"
 
-#: lib/contents/ui/WebView.qml:516
+#: lib/contents/ui/WebView.qml:517
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image Link"
 msgstr "Kopiera bildlänk"
 
-#: lib/contents/ui/WebView.qml:522
+#: lib/contents/ui/WebView.qml:523
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Link"
 msgstr "Öppna länk"
 
-#: lib/contents/ui/WebView.qml:522
+#: lib/contents/ui/WebView.qml:523
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Link in New Tab"
 msgstr "Öppna länk under ny flik"
 
-#: lib/contents/ui/WebView.qml:534
+#: lib/contents/ui/WebView.qml:535
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Link"
 msgstr "Bokmärk länk"
 
-#: lib/contents/ui/WebView.qml:546
+#: lib/contents/ui/WebView.qml:547
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Link"
 msgstr "Spara länk"
 
-#: lib/contents/ui/WebView.qml:552
+#: lib/contents/ui/WebView.qml:553
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Link"
 msgstr "Kopiera länk"
 
-#: lib/contents/ui/WebView.qml:559
+#: lib/contents/ui/WebView.qml:560
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy"
 msgstr "Kopiera"
 
-#: lib/contents/ui/WebView.qml:565
+#: lib/contents/ui/WebView.qml:566
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Cut"
 msgstr "Klipp ut"
 
-#: lib/contents/ui/WebView.qml:571
+#: lib/contents/ui/WebView.qml:572
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "Klistra in"
 
-#: lib/contents/ui/WebView.qml:579
+#: lib/contents/ui/WebView.qml:580
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "Sök efter \"%1\""
 
-#: lib/contents/ui/WebView.qml:592 src/qml/desktop/Desktop.qml:378
+#: lib/contents/ui/WebView.qml:593 src/qml/desktop/Desktop.qml:378
 #: src/qml/Mobile.qml:315
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
 msgstr "Dela sida"
 
-#: lib/contents/ui/WebView.qml:604
+#: lib/contents/ui/WebView.qml:605
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "View Page Source"
@@ -1209,6 +1205,10 @@ msgstr "Ta bort program"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "Inga webbapplikationer installerade"
+
+#~ msgctxt "@action:button"
+#~ msgid "Save"
+#~ msgstr "Spara"
 
 #~ msgid "Fullscreen"
 #~ msgstr "Fullskärm"

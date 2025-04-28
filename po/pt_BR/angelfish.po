@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-25 00:41+0000\n"
+"POT-Creation-Date: 2025-04-28 00:41+0000\n"
 "PO-Revision-Date: 2023-05-31 13:50-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -19,22 +19,22 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 21.12.3\n"
 
-#: angelfish-webapp/main.cpp:70
+#: angelfish-webapp/main.cpp:66
 #, kde-format
 msgid "desktop file to open"
 msgstr "Arquivo desktop a abrir"
 
-#: angelfish-webapp/main.cpp:97
+#: angelfish-webapp/main.cpp:93
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr "Execução de aplicativos web do Angelfish"
 
-#: angelfish-webapp/main.cpp:99
+#: angelfish-webapp/main.cpp:95
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "Copyright 2020 Desenvolvedores do Angelfish"
 
-#: angelfish-webapp/main.cpp:101
+#: angelfish-webapp/main.cpp:97
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
@@ -54,21 +54,21 @@ msgstr "Falha no download"
 msgid "Open"
 msgstr "Abrir"
 
-#: lib/contents/ui/AuthSheet.qml:17
+#: lib/contents/ui/AuthSheet.qml:19
 #, fuzzy, kde-format
 #| msgid "Authentication required"
 msgctxt "@title:window"
 msgid "Authentication Required"
 msgstr "Autenticação necessária"
 
-#: lib/contents/ui/AuthSheet.qml:30
+#: lib/contents/ui/AuthSheet.qml:29
 #, fuzzy, kde-format
 #| msgid "Username"
 msgctxt "@label:textbox"
 msgid "Username:"
 msgstr "Usuário"
 
-#: lib/contents/ui/AuthSheet.qml:37
+#: lib/contents/ui/AuthSheet.qml:35
 #, fuzzy, kde-format
 #| msgid "Password"
 msgctxt "@label:textbox"
@@ -90,7 +90,7 @@ msgctxt "@action:button"
 msgid "Download"
 msgstr "Download"
 
-#: lib/contents/ui/DownloadQuestion.qml:33 lib/contents/ui/PrintPreview.qml:164
+#: lib/contents/ui/DownloadQuestion.qml:33
 #, fuzzy, kde-format
 #| msgid "Cancel"
 msgctxt "@action:button"
@@ -264,294 +264,287 @@ msgctxt "@action:button"
 msgid "Decline"
 msgstr "Recusar"
 
-#: lib/contents/ui/PrintPreview.qml:25
+#: lib/contents/ui/PrintPreview.qml:36
 #, fuzzy, kde-format
 #| msgid "Print"
 msgctxt "@title:window"
 msgid "Print"
 msgstr "Imprimir"
 
-#: lib/contents/ui/PrintPreview.qml:65
+#: lib/contents/ui/PrintPreview.qml:88
 #, fuzzy, kde-format
 #| msgid "Destination"
 msgctxt "@title:group"
 msgid "Destination"
 msgstr "Destino"
 
-#: lib/contents/ui/PrintPreview.qml:69
+#: lib/contents/ui/PrintPreview.qml:92
 #, fuzzy, kde-format
 #| msgid "Save to PDF"
 msgctxt "@title:group"
 msgid "Save to PDF"
 msgstr "Salvar em PDF"
 
-#: lib/contents/ui/PrintPreview.qml:75
+#: lib/contents/ui/PrintPreview.qml:101
 #, fuzzy, kde-format
 #| msgid "Orientation"
 msgctxt "@title:group"
 msgid "Orientation"
 msgstr "Orientação"
 
-#: lib/contents/ui/PrintPreview.qml:100
+#: lib/contents/ui/PrintPreview.qml:126
 #, fuzzy, kde-format
 #| msgid "Paper size"
-msgctxt "@title:group"
+msgctxt "@label:combobox"
 msgid "Paper Size"
 msgstr "Tamanho do papel"
 
-#: lib/contents/ui/PrintPreview.qml:146
+#: lib/contents/ui/PrintPreview.qml:169
 #, fuzzy, kde-format
 #| msgid "Options"
 msgctxt "@title:group"
 msgid "Options"
 msgstr "Opções"
 
-#: lib/contents/ui/PrintPreview.qml:150
+#: lib/contents/ui/PrintPreview.qml:173
 #, fuzzy, kde-format
 #| msgid "Print backgrounds"
 msgctxt "@label:checkbox"
 msgid "Print backgrounds"
 msgstr "Imprimir fundos"
 
-#: lib/contents/ui/PrintPreview.qml:169
-#, fuzzy, kde-format
-#| msgid "Save"
-msgctxt "@action:button"
-msgid "Save"
-msgstr "Salvar"
-
-#: lib/contents/ui/WebView.qml:244
+#: lib/contents/ui/WebView.qml:243
 #, fuzzy, kde-format
 #| msgid "Website was opened in a new tab"
 msgctxt "@info:status"
 msgid "Website was opened in a new tab"
 msgstr "O site foi aberto em uma nova aba"
 
-#: lib/contents/ui/WebView.qml:262
+#: lib/contents/ui/WebView.qml:261
 #, fuzzy, kde-format
 #| msgid "Entered Full Screen Mode"
 msgctxt "@info:status"
 msgid "Entered Full Screen mode"
 msgstr "Entrou no modo tela inteira"
 
-#: lib/contents/ui/WebView.qml:263
+#: lib/contents/ui/WebView.qml:262
 #, fuzzy, kde-format
 #| msgid "Exit Full Screen (Esc)"
 msgctxt "@action:button"
 msgid "Exit Full Screen (Esc)"
 msgstr "Sair da tela inteira (Esc)"
 
-#: lib/contents/ui/WebView.qml:396
+#: lib/contents/ui/WebView.qml:397
 #, fuzzy, kde-format
 #| msgid "Play"
 msgctxt "@action:inmenu"
 msgid "Play"
 msgstr "Reproduzir"
 
-#: lib/contents/ui/WebView.qml:397
+#: lib/contents/ui/WebView.qml:398
 #, fuzzy, kde-format
 #| msgid "Pause"
 msgctxt "@action:inmenu"
 msgid "Pause"
 msgstr "Pausar"
 
-#: lib/contents/ui/WebView.qml:404
+#: lib/contents/ui/WebView.qml:405
 #, fuzzy, kde-format
 #| msgid "Unmute"
 msgctxt "@action:inmenu"
 msgid "Unmute"
 msgstr "Ativar o som"
 
-#: lib/contents/ui/WebView.qml:405
+#: lib/contents/ui/WebView.qml:406
 #, fuzzy, kde-format
 #| msgid "Mute"
 msgctxt "@action:inmenu"
 msgid "Mute"
 msgstr "Mudo"
 
-#: lib/contents/ui/WebView.qml:415
+#: lib/contents/ui/WebView.qml:416
 #, fuzzy, kde-format
 #| msgid "Speed"
 msgctxt "@label"
 msgid "Speed"
 msgstr "Velocidade"
 
-#: lib/contents/ui/WebView.qml:438
+#: lib/contents/ui/WebView.qml:439
 #, fuzzy, kde-format
 #| msgid "Loop"
 msgctxt "@action:inmenu"
 msgid "Loop"
 msgstr "Repetição"
 
-#: lib/contents/ui/WebView.qml:445
+#: lib/contents/ui/WebView.qml:446
 #, fuzzy, kde-format
 #| msgid "Exit fullscreen"
 msgctxt "@action:inmenu"
 msgid "Exit Fullscreen"
 msgstr "Sair da tela inteira"
 
-#: lib/contents/ui/WebView.qml:445
+#: lib/contents/ui/WebView.qml:446
 #, fuzzy, kde-format
 #| msgid "Exit fullscreen"
 msgctxt "@action:inmenu"
 msgid "Enter Fullscreen"
 msgstr "Sair da tela inteira"
 
-#: lib/contents/ui/WebView.qml:458
+#: lib/contents/ui/WebView.qml:459
 #, fuzzy, kde-format
 #| msgid "Hide controls"
 msgctxt "@action:inmenu"
 msgid "Hide Controls"
 msgstr "Ocultar controles"
 
-#: lib/contents/ui/WebView.qml:459
+#: lib/contents/ui/WebView.qml:460
 #, fuzzy, kde-format
 #| msgid "Show controls"
 msgctxt "@action:inmenu"
 msgid "Show Controls"
 msgstr "Mostrar controles"
 
-#: lib/contents/ui/WebView.qml:467
+#: lib/contents/ui/WebView.qml:468
 #, fuzzy, kde-format
 #| msgid "Open video"
 msgctxt "@action:inmenu"
 msgid "Open Video"
 msgstr "Abrir vídeo"
 
-#: lib/contents/ui/WebView.qml:467
+#: lib/contents/ui/WebView.qml:468
 #, fuzzy, kde-format
 #| msgid "Open audio"
 msgctxt "@action:inmenu"
 msgid "Open Audio"
 msgstr "Abrir áudio"
 
-#: lib/contents/ui/WebView.qml:468
+#: lib/contents/ui/WebView.qml:469
 #, fuzzy, kde-format
 #| msgid "Open video in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Video in New Tab"
 msgstr "Abrir vídeo em nova aba"
 
-#: lib/contents/ui/WebView.qml:468
+#: lib/contents/ui/WebView.qml:469
 #, fuzzy, kde-format
 #| msgid "Open audio in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Audio in New Tab"
 msgstr "Abrir áudio em nova aba"
 
-#: lib/contents/ui/WebView.qml:480
+#: lib/contents/ui/WebView.qml:481
 #, fuzzy, kde-format
 #| msgid "Save video"
 msgctxt "@action:inmenu"
 msgid "Save Video"
 msgstr "Salvar vídeo"
 
-#: lib/contents/ui/WebView.qml:486
+#: lib/contents/ui/WebView.qml:487
 #, fuzzy, kde-format
 #| msgid "Copy video Link"
 msgctxt "@action:inmenu"
 msgid "Copy Video Link"
 msgstr "Copiar link do vídeo"
 
-#: lib/contents/ui/WebView.qml:492
+#: lib/contents/ui/WebView.qml:493
 #, fuzzy, kde-format
 #| msgid "Open image"
 msgctxt "@action:inmenu"
 msgid "Open Image"
 msgstr "Abrir imagem"
 
-#: lib/contents/ui/WebView.qml:492
+#: lib/contents/ui/WebView.qml:493
 #, fuzzy, kde-format
 #| msgid "Open image in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Image in New Tab"
 msgstr "Abrir imagem em nova aba"
 
-#: lib/contents/ui/WebView.qml:504
+#: lib/contents/ui/WebView.qml:505
 #, fuzzy, kde-format
 #| msgid "Save image"
 msgctxt "@action:inmenu"
 msgid "Save Image"
 msgstr "Salvar imagem"
 
-#: lib/contents/ui/WebView.qml:510
+#: lib/contents/ui/WebView.qml:511
 #, fuzzy, kde-format
 #| msgid "Copy image"
 msgctxt "@action:inmenu"
 msgid "Copy Image"
 msgstr "Copiar imagem"
 
-#: lib/contents/ui/WebView.qml:516
+#: lib/contents/ui/WebView.qml:517
 #, fuzzy, kde-format
 #| msgid "Copy image link"
 msgctxt "@action:inmenu"
 msgid "Copy Image Link"
 msgstr "Copiar link da imagem"
 
-#: lib/contents/ui/WebView.qml:522
+#: lib/contents/ui/WebView.qml:523
 #, fuzzy, kde-format
 #| msgid "Open link"
 msgctxt "@action:inmenu"
 msgid "Open Link"
 msgstr "Abrir link"
 
-#: lib/contents/ui/WebView.qml:522
+#: lib/contents/ui/WebView.qml:523
 #, fuzzy, kde-format
 #| msgid "Open link in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Link in New Tab"
 msgstr "Abrir link em nova aba"
 
-#: lib/contents/ui/WebView.qml:534
+#: lib/contents/ui/WebView.qml:535
 #, fuzzy, kde-format
 #| msgid "Bookmark link"
 msgctxt "@action:inmenu"
 msgid "Bookmark Link"
 msgstr "Favoritar link"
 
-#: lib/contents/ui/WebView.qml:546
+#: lib/contents/ui/WebView.qml:547
 #, fuzzy, kde-format
 #| msgid "Save link"
 msgctxt "@action:inmenu"
 msgid "Save Link"
 msgstr "Salvar link"
 
-#: lib/contents/ui/WebView.qml:552
+#: lib/contents/ui/WebView.qml:553
 #, fuzzy, kde-format
 #| msgid "Copy link"
 msgctxt "@action:inmenu"
 msgid "Copy Link"
 msgstr "Copiar link"
 
-#: lib/contents/ui/WebView.qml:559
+#: lib/contents/ui/WebView.qml:560
 #, fuzzy, kde-format
 #| msgid "Copy"
 msgctxt "@action:inmenu"
 msgid "Copy"
 msgstr "Copiar"
 
-#: lib/contents/ui/WebView.qml:565
+#: lib/contents/ui/WebView.qml:566
 #, fuzzy, kde-format
 #| msgid "Cut"
 msgctxt "@action:inmenu"
 msgid "Cut"
 msgstr "Recortar"
 
-#: lib/contents/ui/WebView.qml:571
+#: lib/contents/ui/WebView.qml:572
 #, fuzzy, kde-format
 #| msgid "Paste"
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "Colar"
 
-#: lib/contents/ui/WebView.qml:579
+#: lib/contents/ui/WebView.qml:580
 #, fuzzy, kde-format
 #| msgid "Search online for '%1'"
 msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "Pesquisar online por '%1'"
 
-#: lib/contents/ui/WebView.qml:592 src/qml/desktop/Desktop.qml:378
+#: lib/contents/ui/WebView.qml:593 src/qml/desktop/Desktop.qml:378
 #: src/qml/Mobile.qml:315
 #, fuzzy, kde-format
 #| msgid "Share page"
@@ -559,7 +552,7 @@ msgctxt "@action:inmenu"
 msgid "Share Page"
 msgstr "Compartilhar página"
 
-#: lib/contents/ui/WebView.qml:604
+#: lib/contents/ui/WebView.qml:605
 #, fuzzy, kde-format
 #| msgid "View page source"
 msgctxt "@action:inmenu"
@@ -1393,6 +1386,12 @@ msgstr "Remover aplicativo"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Save"
+#~ msgctxt "@action:button"
+#~ msgid "Save"
+#~ msgstr "Salvar"
 
 #~ msgid "Fullscreen"
 #~ msgstr "Tela inteira"
