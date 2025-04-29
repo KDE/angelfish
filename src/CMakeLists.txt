@@ -15,6 +15,7 @@ add_executable(angelfish
     webappcreator.cpp
     webappmanager.cpp
     webappmanagermodel.cpp
+    interfaceloader.cpp
 )
 
 ecm_add_qml_module(angelfish

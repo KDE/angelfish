@@ -411,6 +411,15 @@ Kirigami.ApplicationWindow {
                         configurationView.open();
                     }
                 }
+
+                Kirigami.Action {
+                    icon.name: "phone"
+                    text: i18nc("@action:inmenu", "Toggle Mobile Mode")
+                    onTriggered: {
+                        InterfaceLoader.isMobile = !InterfaceLoader.isMobile;
+                    }
+                }
+
             }
             Item{
                 //spacer to make the UrlBar centered

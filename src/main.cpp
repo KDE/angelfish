@@ -78,7 +78,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     // QML loading
     QQmlApplicationEngine engine;
 
-	// Define your about data
+    // Define your about data
     KAboutData aboutData(
         QStringLiteral("angelfish"),
         i18n("Angelfish"),

@@ -122,6 +122,13 @@ Kirigami.ApplicationWindow {
                     popSubPages();
                     configurationView.open();
                 }
+            },
+            Kirigami.Action {
+                icon.name: "computer"
+                text: i18nc("@action:inmenu", "Toggle Desktop Mode")
+                onTriggered: {
+                    InterfaceLoader.isMobile = !InterfaceLoader.isMobile;
+                }
             }
         ]
     }
