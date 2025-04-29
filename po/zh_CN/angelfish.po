@@ -267,7 +267,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:group"
 msgid "Paper Size"
-msgstr "页面大小"
+msgstr ""
 
 #: lib/contents/ui/PrintPreview.qml:145
 #, kde-format
