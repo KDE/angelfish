@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-28 00:41+0000\n"
-"PO-Revision-Date: 2025-04-21 03:29+0200\n"
+"PO-Revision-Date: 2025-04-28 04:19+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -267,12 +267,10 @@ msgid "Orientation"
 msgstr "ორიენტაცია"
 
 #: lib/contents/ui/PrintPreview.qml:126
-#, fuzzy, kde-format
-#| msgctxt "@title:group"
-#| msgid "Paper Size"
+#, kde-format
 msgctxt "@label:combobox"
 msgid "Paper Size"
-msgstr "გვერდის ზომა"
+msgstr "ქაღალდის ზომა"
 
 #: lib/contents/ui/PrintPreview.qml:169
 #, kde-format

@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-28 00:41+0000\n"
-"PO-Revision-Date: 2025-04-21 10:39+0200\n"
+"PO-Revision-Date: 2025-04-28 09:24+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -271,9 +271,7 @@ msgid "Orientation"
 msgstr "Orientació"
 
 #: lib/contents/ui/PrintPreview.qml:126
-#, fuzzy, kde-format
-#| msgctxt "@title:group"
-#| msgid "Paper Size"
+#, kde-format
 msgctxt "@label:combobox"
 msgid "Paper Size"
 msgstr "Mida del paper"
@@ -1218,7 +1216,3 @@ msgstr "Elimina l'aplicació"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "No hi ha instal·lada cap aplicació web"
-
-#~ msgctxt "@action:button"
-#~ msgid "Save"
-#~ msgstr "Guarda"
