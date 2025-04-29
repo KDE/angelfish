@@ -7,13 +7,18 @@ import QtQuick
 import QtQuick.Layouts
 import QtWebEngine
 import QtQuick.Controls as Controls
+import QtQuick.Templates as T
 
 import org.kde.kirigami as Kirigami
+import org.kde.kirigamiaddons.formcard as FormCard
 import org.kde.angelfish
 import org.kde.angelfish.core as Core
 
 Item {
-    id: navigation
+    id: root
+
+    required property Core.WebView currentWebView
+    required property FindInPageBar findInPage
 
     property double dismissValue: 0 // Value between 1 and 0 animating the dismiss state of the navbar. 0 is full, 1 is dismissed.
     property double dismissOpacity: Math.max(1 - (dismissValue * 2), 0)
@@ -39,14 +44,14 @@ Item {
     signal openNewTab
 
     Rectangle { anchors.fill: parent; color: Kirigami.Theme.backgroundColor; }
-    
+
     // left/right gesture icons
     Kirigami.Icon {
         id: leftGestureIcon
         anchors.margins: Kirigami.Units.gridUnit
-        anchors.left: navigation.left
-        anchors.top: navigation.top
-        anchors.bottom: navigation.bottom
+        anchors.left: root.left
+        anchors.top: root.top
+        anchors.bottom: root.bottom
         implicitWidth: height
         
         opacity: Math.abs(navContainer.x) / gestureThreshold
@@ -63,9 +68,9 @@ Item {
     Kirigami.Icon {
         id: rightGestureIcon
         anchors.margins: Kirigami.Units.gridUnit
-        anchors.right: navigation.right
-        anchors.top: navigation.top
-        anchors.bottom: navigation.bottom
+        anchors.right: root.right
+        anchors.top: root.top
+        anchors.bottom: root.bottom
         implicitWidth: height
         
         opacity: Math.abs(navContainer.x) / gestureThreshold
@@ -87,7 +92,7 @@ Item {
         onActiveChanged: {
             yAnimator.restart(); // go back to center
 
-            if (navigation.height >= gestureThreshold) {
+            if (root.height >= gestureThreshold) {
                 tabsSheet.toggle()
             }
         }
@@ -98,16 +103,16 @@ Item {
         running: !tabDragHandler.active && dismissValue == 0
         duration: Kirigami.Units.longDuration
         easing.type: Easing.InOutQuad
-        to: navigation.expandedHeight
+        to: root.expandedHeight
     }
     
     Item {
         id: navContainer
-        width: navigation.width
-        height: navigation.height
-        y: Math.max(Math.round((navigation.height - navigation.expandedHeight) / 10), 0)
+        width: root.width
+        height: root.height
+        y: Math.max(Math.round((root.height - root.expandedHeight) / 10), 0)
         
-        opacity: 1 - (Math.abs(navContainer.x) / (navigation.gestureThreshold * 2))
+        opacity: 1 - (Math.abs(navContainer.x) / (root.gestureThreshold * 2))
 
         // left/right gestures
         HapticsEffectLoader {
@@ -116,7 +121,7 @@ Item {
 
         MouseArea {
             anchors.fill: parent
-            enabled: navigation.dismissValue != 0
+            enabled: root.dismissValue != 0
             onClicked: {
                 rootPage.navigationAutoShow = true;
                 rootPage.navigationAutoShowLock = false;
@@ -128,28 +133,28 @@ Item {
             target: parent
             yAxis.enabled: false
             xAxis.enabled: true
-            enabled: !navigation.tabsSheet.showTabs && navigation.dismissValue == 0
-            xAxis.minimum: currentWebView.canGoForward ? -navigation.gestureThreshold : 0
-            xAxis.maximum: currentWebView.canGoBack ? navigation.gestureThreshold : 0
+            enabled: !root.tabsSheet.showTabs && root.dismissValue == 0
+            xAxis.minimum: currentWebView.canGoForward ? -root.gestureThreshold : 0
+            xAxis.maximum: currentWebView.canGoBack ? root.gestureThreshold : 0
             onActiveChanged: {
                 xAnimator.restart(); // go back to center
 
-                if (parent.x >= navigation.gestureThreshold && currentWebView.canGoBack) {
+                if (parent.x >= root.gestureThreshold && currentWebView.canGoBack) {
                     currentWebView.goBack()
-                } else if (parent.x <= -navigation.gestureThreshold && currentWebView.canGoForward) {
+                } else if (parent.x <= -root.gestureThreshold && currentWebView.canGoForward) {
                     currentWebView.goForward()
                 }
             }
         }
         NumberAnimation on x {
             id: xAnimator
-            running: !dragHandler.active && navigation.dismissValue == 0
+            running: !dragHandler.active && root.dismissValue == 0
             duration: Kirigami.Units.longDuration
             easing.type: Easing.InOutQuad
             to: 0
         }
         onXChanged: {
-            if ((x >= navigation.gestureThreshold && currentWebView.canGoBack) || (x <= -gestureThreshold && currentWebView.canGoForward)) {
+            if ((x >= root.gestureThreshold && currentWebView.canGoBack) || (x <= -gestureThreshold && currentWebView.canGoForward)) {
                 vibrate.start();
             }
         }
@@ -179,32 +184,17 @@ Item {
             anchors.right: parent.right
 
 
-            visible: !navigation.tabsSheet.showTabs
+            visible: !root.tabsSheet.showTabs
 
             spacing: Kirigami.Units.smallSpacing
             Kirigami.Theme.inherit: true
-            
-            Controls.ToolButton {
-                id: mainMenuButton
-                icon.name: rootPage.privateMode ? "view-private" : "application-menu"
-                visible: webBrowser.landscape || Core.AngelfishSettings.navBarMainMenu
-                opacity: navigation.dismissOpacity
-
-                Layout.preferredWidth: navigation.buttonSize
-                Layout.preferredHeight: navigation.buttonSize
-
-                Kirigami.Theme.inherit: true
-
-                enabled: navigation.dismissValue == 0
-                onClicked: globalDrawer.open()
-            }
 
             Controls.ToolButton {
                 id: tabButton
                 visible: webBrowser.landscape || Core.AngelfishSettings.navBarTabs
-                opacity: navigation.dismissOpacity
-                Layout.preferredWidth: navigation.buttonSize
-                Layout.preferredHeight: navigation.buttonSize
+                opacity: root.dismissOpacity
+                Layout.preferredWidth: root.buttonSize
+                Layout.preferredHeight: root.buttonSize
 
                 Rectangle {
                     anchors.centerIn: parent
@@ -233,68 +223,68 @@ Item {
                     }
                 }
 
-                enabled: navigation.dismissValue == 0
-                onClicked: navigation.tabsSheet.toggle()
+                enabled: root.dismissValue == 0
+                onClicked: root.tabsSheet.toggle()
             }
 
             Controls.ToolButton {
                 id: backButton
 
-                Layout.preferredWidth: navigation.buttonSize
-                Layout.preferredHeight: navigation.buttonSize
+                Layout.preferredWidth: root.buttonSize
+                Layout.preferredHeight: root.buttonSize
 
                 visible: currentWebView.canGoBack && Core.AngelfishSettings.navBarBack
-                opacity: navigation.dismissOpacity
+                opacity: root.dismissOpacity
                 icon.name: "go-previous"
 
                 Kirigami.Theme.inherit: true
 
-                enabled: navigation.dismissValue == 0
+                enabled: root.dismissValue == 0
                 onClicked: currentWebView.goBack()
                 onPressAndHold: {
-                    navigation.historySheet.backHistory = true;
-                    navigation.historySheet.open();
+                    root.historySheet.backHistory = true;
+                    root.historySheet.open();
                 }
             }
 
             Controls.ToolButton {
                 id: forwardButton
 
-                Layout.preferredWidth: navigation.buttonSize
-                Layout.preferredHeight: navigation.buttonSize
+                Layout.preferredWidth: root.buttonSize
+                Layout.preferredHeight: root.buttonSize
 
                 visible: currentWebView.canGoForward && Core.AngelfishSettings.navBarForward
-                opacity: navigation.dismissOpacity
+                opacity: root.dismissOpacity
                 icon.name: "go-next"
 
                 Kirigami.Theme.inherit: true
 
-                enabled: navigation.dismissValue == 0
+                enabled: root.dismissValue == 0
                 onClicked: currentWebView.goForward()
                 onPressAndHold: {
-                    navigation.historySheet.backHistory = false;
-                    navigation.historySheet.open();
+                    root.historySheet.backHistory = false;
+                    root.historySheet.open();
                 }
             }
 
             Controls.ToolButton {
                 id: labelItem
                 Layout.fillWidth: true
-                Layout.preferredHeight: navigation.buttonSize
+                Layout.preferredHeight: root.buttonSize
 
                 Layout.leftMargin: {
-                    let leftCenterMargin = ((mainMenuButton.visible + navigation.buttonSize)
-                                            + (tabButton.visible * navigation.buttonSize)
-                                            + (backButton.visible * navigation.buttonSize)
-                                            + (forwardButton.visible * navigation.buttonSize)
-                                            - navigation.buttonSize / 2) // Value need to center the url on the left
-                    return Math.round(-leftCenterMargin * navigation.dismissValue)
+                    let leftCenterMargin = ((mainMenuButton.visible + root.buttonSize)
+                                            + (tabButton.visible * root.buttonSize)
+                                            + (backButton.visible * root.buttonSize)
+                                            + (forwardButton.visible * root.buttonSize)
+                                            - root.buttonSize / 2) // Value need to center the url on the left
+                    return Math.round(-leftCenterMargin * root.dismissValue)
                 }
                 Layout.rightMargin: {
-                    let rightCenterMargin = ((reloadButton.visible * navigation.buttonSize)
-                                             + (optionsButton.visible * navigation.buttonSize)
-                                             - navigation.buttonSize / 2) // Value need to center the url on the right
-                    return Math.round(-rightCenterMargin * navigation.dismissValue)
+                    let rightCenterMargin = ((reloadButton.visible * root.buttonSize)
+                                             + (optionsButton.visible * root.buttonSize)
+                                             - root.buttonSize / 2) // Value need to center the url on the right
+                    return Math.round(-rightCenterMargin * root.dismissValue)
                 }
 
                 property string scheme: Core.UrlUtils.urlScheme(currentWebView.requestedUrl)
@@ -317,10 +307,10 @@ Item {
                         }
                         visible: icon.name
                         height: parent.height
-                        width: visible ? Math.round(navigation.buttonSize * 0.5) : 0
+                        width: visible ? Math.round(root.buttonSize * 0.5) : 0
                         Kirigami.Theme.inherit: true
-                        enabled: navigation.dismissValue == 0
-                        onClicked: navigation.activateUrlEntry()
+                        enabled: root.dismissValue == 0
+                        onClicked: root.activateUrlEntry()
                     }
 
 
@@ -349,23 +339,23 @@ Item {
                 }
 
 
-                enabled: navigation.dismissValue == 0
-                onClicked: navigation.activateUrlEntry()
+                enabled: root.dismissValue == 0
+                onClicked: root.activateUrlEntry()
             }
 
             Controls.ToolButton {
                 id: reloadButton
 
-                Layout.preferredWidth: navigation.buttonSize
-                Layout.preferredHeight: navigation.buttonSize
+                Layout.preferredWidth: root.buttonSize
+                Layout.preferredHeight: root.buttonSize
 
                 visible: Core.AngelfishSettings.navBarReload
-                opacity: navigation.dismissOpacity
+                opacity: root.dismissOpacity
                 icon.name: currentWebView.loading ? "process-stop" : "view-refresh"
 
                 Kirigami.Theme.inherit: true
 
-                enabled: navigation.dismissValue == 0
+                enabled: root.dismissValue == 0
                 onClicked: currentWebView.loading ? currentWebView.stopLoading() : currentWebView.reload()
 
             }
@@ -376,17 +366,249 @@ Item {
                 property string targetState: "overview"
 
                 Layout.fillWidth: false
-                Layout.preferredWidth: navigation.buttonSize
-                Layout.preferredHeight: navigation.buttonSize
+                Layout.preferredWidth: root.buttonSize
+                Layout.preferredHeight: root.buttonSize
 
                 visible: webBrowser.landscape || Core.AngelfishSettings.navBarContextMenu
-                opacity: navigation.dismissOpacity
+                opacity: root.dismissOpacity
                 icon.name: "overflow-menu"
 
                 Kirigami.Theme.inherit: true
 
-                enabled: navigation.dismissValue == 0
-                onClicked: contextDrawer.open()
+                enabled: root.dismissValue == 0
+                onClicked: pageMenu.open()
+                hoverEnabled: true
+
+                AngelfishMenu {
+                    id: pageMenu
+
+                    parent: root.Controls.Overlay.overlay
+
+                    Binding {
+                        pageMenu.x: root.Controls.Overlay.overlay.width - pageMenu.width - Kirigami.Units.largeSpacing
+                        pageMenu.y: root.Controls.Overlay.overlay.height - pageMenu.height - Kirigami.Units.largeSpacing
+                    }
+
+                    FormCard.FormButtonDelegate {
+                        icon.name: "view-private"
+                        trailingLogo.visible: false
+                        onClicked: {
+                            rootPage.privateMode ? rootPage.privateMode = false : rootPage.privateMode = true
+                            pageMenu.close()
+                        }
+                        text: rootPage.privateMode ? i18nc("@action:inmenu", "Leave Private Mode") : i18nc("@action:inmenu", "Private Mode")
+                    }
+
+                    FormCard.FormButtonDelegate {
+                        icon.name: "bookmarks"
+                        trailingLogo.visible: false
+                        onClicked: {
+                            popSubPages();
+                            pageStack.push(Qt.resolvedUrl("Bookmarks.qml"))
+                            pageMenu.close()
+                        }
+                        text: i18nc("@action:inmenu", "Bookmarks")
+                    }
+
+                    FormCard.FormButtonDelegate {
+                        icon.name: "shallow-history"
+                        trailingLogo.visible: false
+                        onClicked: {
+                            popSubPages();
+                            pageStack.push(Qt.resolvedUrl("History.qml"))
+                            pageMenu.close()
+                        }
+                        text: i18nc("@action:inmenu", "History")
+                    }
+
+                    FormCard.FormButtonDelegate {
+                        icon.name: "download"
+                        text: i18nc("@action:inmenu", "Downloads")
+                        trailingLogo.visible: false
+                        onClicked: {
+                            popSubPages();
+                            pageStack.push(Qt.resolvedUrl("Downloads.qml"))
+                            pageMenu.close()
+                        }
+                    }
+
+                    FormCard.FormButtonDelegate {
+                        icon.name: "configure"
+                        text: i18nc("@action:inmenu", "Settings")
+                        trailingLogo.visible: false
+                        onClicked: {
+                            popSubPages();
+                            configurationView.open();
+                        }
+                    }
+
+                    FormCard.FormDelegateSeparator {}
+
+                    FormCard.FormButtonDelegate {
+                        action: Controls.Action {
+                            icon.name: "edit-find"
+                            shortcut: "Ctrl+F"
+                            onTriggered: {
+                                findInPage.activate()
+                                pageMenu.close();
+                            }
+                            text: i18nc("@action:inmenu", "Find in Page")
+                        }
+                        trailingLogo.visible: false
+                    }
+
+                    FormCard.FormButtonDelegate {
+                        id: addHomeScreenAction
+
+                        icon.name: "list-add"
+                        text: i18nc("@action:inmenu", "Add to Homescreen")
+                        enabled: !webAppCreator.exists
+                        trailingLogo.visible: false
+                        onClicked: {
+                            webAppCreator.createDesktopFile(currentWebView.title, currentWebView.url, currentWebView.icon);
+                            pageMenu.close();
+                        }
+                    }
+
+                    FormCard.FormButtonDelegate {
+                        icon.name: "application-x-object"
+                        text: i18nc("@action:inmenu", "Open in App")
+                        onClicked: {
+                            Qt.openUrlExternally(currentWebView.url)
+                            pageMenu.close();
+                        }
+                        trailingLogo.visible: false
+                    }
+
+                    FormCard.FormButtonDelegate {
+                        id: bookmarkAction
+
+                        checkable: true
+                        checked: urlObserver.bookmarked
+                        icon.name: checked ? "bookmark-remove-symbolic" : "bookmarks"
+                        text: checked ? i18nc("@info:status", "Bookmarked") : i18nc("@action:inmenu", "Bookmark")
+                        trailingLogo.visible: false
+                        onToggled: if (checked) {
+                            var request = {
+                                url: currentWebView.url,
+                                title: currentWebView.title,
+                                icon: currentWebView.icon
+                            }
+                            Core.BrowserManager.addBookmark(request);
+                            pageMenu.close();
+                        } else {
+                            Core.BrowserManager.removeBookmark(currentWebView.url);
+                            pageMenu.close();
+                        }
+                    }
+
+                    FormCard.FormSwitchDelegate {
+                        icon.name: checked ? "phone-symbolic" : "computer-symbolic"
+                        text: checked ? i18nc("@action:inmenu", "Show Mobile Site") : i18nc("@action:inmenu", "Show Desktop Site")
+                        checkable: true
+                        checked: !root.currentWebView.userAgent.isMobile
+                        onToggled: {
+                            root.currentWebView.userAgent.isMobile = !root.currentWebView.userAgent.isMobile;
+                            pageMenu.close();
+                        }
+                    }
+
+                    FormCard.FormButtonDelegate {
+                        icon.name: currentWebView.readerMode ? "view-readermode-active" : "view-readermode"
+                        text: i18nc("@action:inmenu", "Reader Mode")
+                        checkable: true
+                        checked: currentWebView.readerMode
+                        onToggled: {
+                            root.currentWebView.readerModeSwitch()
+                            pageMenu.close();
+                        }
+                        trailingLogo.visible: false
+                    }
+
+                    FormCard.FormButtonDelegate {
+                        visible: root.visible
+                        icon.name: "edit-select-text"
+                        text: i18nc("@action:inmenu", "Hide root Bar")
+                        onClicked: {
+                            rootPage.navigationAutoShowLock = true
+                            pageMenu.close();
+                        }
+                        trailingLogo.visible: false
+                    }
+
+                    FormCard.FormButtonDelegate {
+                        id: showDeveloperTools
+                        icon.name: "dialog-scripts"
+                        text: i18nc("@action:inmenu", "Show Developer Tools")
+                        checkable: true
+                        trailingLogo.visible: false
+                        onToggled: {
+                            tabs.tabsModel.toggleDeveloperTools(tabs.currentIndex);
+                            pageMenu.close();
+                        }
+
+                        Binding {
+                            showDeveloperTools.checked: tabs.itemAt(tabs.currentIndex).isDeveloperToolsOpen
+                        }
+                    }
+
+                    FormCard.FormButtonDelegate {
+                        icon.name: "computer"
+                        text: i18nc("@action:inmenu", "Toggle Desktop Mode")
+                        trailingLogo.visible: false
+                        onClicked: {
+                            InterfaceLoader.isMobile = !InterfaceLoader.isMobile;
+                        }
+                    }
+
+                    footerContent: [
+                        FormCard.FormButtonDelegate {
+                            enabled: root.currentWebView.canGoBack
+                            icon.name: "go-previous"
+                            trailingLogo.visible: false
+                            onClicked: {
+                                root.currentWebView.goBack();
+                                pageMenu.close();
+                            }
+                            Accessible.name: i18nc("@action:inmenu", "Go Back")
+                        },
+                        FormCard.FormButtonDelegate {
+                            enabled: root.currentWebView.canGoForward
+                            icon.name: "go-next"
+                            trailingLogo.visible: false
+                            onClicked: {
+                                root.currentWebView.goForward();
+                                pageMenu.close();
+                            }
+
+                            Accessible.name: i18nc("@action:inmenu", "Go Forward")
+                        },
+                        FormCard.FormButtonDelegate {
+                            icon.name: root.currentWebView.loading ? "process-stop" : "view-refresh"
+                            trailingLogo.visible: false
+                            onClicked: {
+                                root.currentWebView.loading ? root.currentWebView.stopLoading() : root.currentWebView.reload();
+                                pageMenu.close();
+                            }
+
+                            Accessible.name: root.currentWebView.loading ? i18nc("@action:inmenu", "Stop Loading") : i18nc("@action:inmenu", "Refresh")
+                        },
+                        FormCard.FormButtonDelegate {
+                            icon.name: "document-share"
+                            trailingLogo.visible: false
+
+                            onClicked: {
+                                sheetLoader.setSource("ShareSheet.qml")
+                                sheetLoader.item.url = currentWebView.url
+                                sheetLoader.item.inputTitle = currentWebView.title
+                                sheetLoader.item.open()
+                                pageMenu.close();
+                            }
+
+                            Accessible.name: i18nc("@action:inmenu", "Share Page")
+                        }
+                    ]
+                }
             }
         }
 
@@ -396,14 +618,14 @@ Item {
             anchors.leftMargin: Kirigami.Units.gridUnit / 2
             anchors.rightMargin: Kirigami.Units.gridUnit / 2
 
-            visible: navigation.tabsSheet.showTabs
+            visible: root.tabsSheet.showTabs
 
             spacing: Kirigami.Units.smallSpacing
             Kirigami.Theme.inherit: true
 
             Controls.ToolButton {
-                Layout.preferredWidth: navigation.buttonSize * 3
-                Layout.preferredHeight: navigation.buttonSize
+                Layout.preferredWidth: root.buttonSize * 3
+                Layout.preferredHeight: root.buttonSize
 
                 Controls.Label {
                     anchors.centerIn: parent
@@ -419,7 +641,7 @@ Item {
                     Kirigami.Theme.inherit: true
                 }
 
-                onClicked: navigation.tabsSheet.toggle()
+                onClicked: root.tabsSheet.toggle()
             }
 
             Controls.Label {
@@ -436,8 +658,8 @@ Item {
                 id: newTab
 
                 Layout.fillWidth: false
-                Layout.preferredWidth: navigation.buttonSize * 3
-                Layout.preferredHeight:  navigation.buttonSize
+                Layout.preferredWidth: root.buttonSize * 3
+                Layout.preferredHeight:  root.buttonSize
 
                 icon.name: "list-add"
                 text: i18nc("@action:inmenu", "New Tab")
@@ -445,21 +667,20 @@ Item {
                 Kirigami.Theme.inherit: true
 
                 onClicked: {
-                    navigation.openNewTab()
-                    navigation.activateUrlEntry()
-                    navigation.tabsSheet.toggle()
+                    root.openNewTab()
+                    root.activateUrlEntry()
+                    root.tabsSheet.toggle()
                 }
             }
         }
     }
-
 
     states: [
         State {
             name: "shown"
             when: navigationShown || tabLayout.visible
             PropertyChanges {
-                target: navigation
+                target: root
                 dismissValue: 0;
             }
         },
@@ -467,14 +688,14 @@ Item {
             name: "hidden"
             when: !navigationShown && !tabLayout.visible
             PropertyChanges {
-                target: navigation
+                target: root
                 dismissValue: 1;
             }
         }
     ]
     transitions: Transition {
         PropertyAnimation {
-            properties: "dismissValue"; easing.type: Easing.OutCirc; duration: navigation.visible ? Kirigami.Units.longDuration : 0
+            properties: "dismissValue"; easing.type: Easing.OutCirc; duration: root.visible ? Kirigami.Units.longDuration : 0
         }
     }
 }

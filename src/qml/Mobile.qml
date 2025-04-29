@@ -69,82 +69,9 @@ Kirigami.ApplicationWindow {
     pageStack.globalToolBar.showNavigationButtons: Kirigami.ApplicationHeaderStyle.ShowBackButton
     pageStack.columnView.columnResizeMode: Kirigami.ColumnView.SingleColumn
 
-
-    globalDrawer: Kirigami.GlobalDrawer {
-        id: globalDrawer
-
-        handleVisible: false
-
-        actions: [
-            Kirigami.Action {
-                icon.name: "tab-duplicate"
-                onTriggered: {
-                    popSubPages();
-                    tabsSheetLoader.toggle();
-                }
-                text: i18nc("@action:inmenu", "Tabs")
-            },
-            Kirigami.Action {
-                icon.name: "view-private"
-                onTriggered: {
-                    rootPage.privateMode ? rootPage.privateMode = false : rootPage.privateMode = true
-                }
-                text: rootPage.privateMode ? i18nc("@action:inmenu", "Leave Private Mode") : i18nc("@action:inmenu", "Private Mode")
-            },
-            Kirigami.Action {
-                icon.name: "bookmarks"
-                onTriggered: {
-                    popSubPages();
-                    pageStack.push(Qt.resolvedUrl("Bookmarks.qml"))
-                }
-                text: i18nc("@action:inmenu", "Bookmarks")
-            },
-            Kirigami.Action {
-                icon.name: "shallow-history"
-                onTriggered: {
-                    popSubPages();
-                    pageStack.push(Qt.resolvedUrl("History.qml"))
-                }
-                text: i18nc("@action:inmenu", "History")
-            },
-            Kirigami.Action {
-                icon.name: "download"
-                text: i18nc("@action:inmenu", "Downloads")
-                onTriggered: {
-                    popSubPages();
-                    pageStack.push(Qt.resolvedUrl("Downloads.qml"))
-                }
-            },
-            Kirigami.Action {
-                icon.name: "configure"
-                text: i18nc("@action:inmenu", "Settings")
-                onTriggered: {
-                    popSubPages();
-                    configurationView.open();
-                }
-            },
-            Kirigami.Action {
-                icon.name: "computer"
-                text: i18nc("@action:inmenu", "Toggle Desktop Mode")
-                onTriggered: {
-                    InterfaceLoader.isMobile = !InterfaceLoader.isMobile;
-                }
-            }
-        ]
-    }
-
     AngelfishConfigurationView {
         id: configurationView
         window: webBrowser
-    }
-
-    contextDrawer: Kirigami.ContextDrawer {
-        id: contextDrawer
-
-        actions: pageStack.currentItem?.actions ?? []
-        enabled: true
-
-        handleVisible: false
     }
 
     // Main Page
@@ -311,117 +238,6 @@ Kirigami.ApplicationWindow {
 
         // The menu at the bottom right
         actions: [
-            Kirigami.Action {
-                icon.name: "edit-find"
-                shortcut: "Ctrl+F"
-                onTriggered: findInPage.activate()
-                text: i18nc("@action:inmenu", "Find in Page")
-            },
-            Kirigami.Action {
-                icon.name: "document-share"
-                text: i18nc("@action:inmenu", "Share Page")
-                onTriggered: {
-                    sheetLoader.setSource("ShareSheet.qml")
-                    sheetLoader.item.url = currentWebView.url
-                    sheetLoader.item.inputTitle = currentWebView.title
-                    sheetLoader.item.open()
-                }
-            },
-            Kirigami.Action {
-                id: addHomeScreenAction
-                icon.name: "list-add"
-                text: i18nc("@action:inmenu", "Add to Homescreen")
-                enabled: !webAppCreator.exists
-                onTriggered: {
-                    webAppCreator.createDesktopFile(currentWebView.title,
-                                                           currentWebView.url,
-                                                           currentWebView.icon)
-                }
-            },
-            Kirigami.Action {
-                icon.name: "application-x-object"
-                text: i18nc("@action:inmenu", "Open in App")
-                onTriggered: {
-                    Qt.openUrlExternally(currentWebView.url)
-                }
-            },
-            Kirigami.Action {
-                enabled: currentWebView.canGoBack
-                icon.name: "go-previous"
-                text: i18nc("@action:inmenu", "Go Back")
-                onTriggered: {
-                    currentWebView.goBack()
-                }
-            },
-            Kirigami.Action {
-                enabled: currentWebView.canGoForward
-                icon.name: "go-next"
-                text: i18nc("@action:inmenu", "Go Forward")
-                onTriggered: {
-                    currentWebView.goForward()
-                }
-            },
-            Kirigami.Action {
-                icon.name: currentWebView.loading ? "process-stop" : "view-refresh"
-                text: currentWebView.loading ? i18nc("@action:inmenu", "Stop Loading") : i18nc("@action:inmenu", "Refresh")
-                onTriggered: {
-                    currentWebView.loading ? currentWebView.stopLoading() : currentWebView.reload()
-                }
-            },
-            Kirigami.Action {
-                id: bookmarkAction
-                checkable: true
-                checked: urlObserver.bookmarked
-                icon.name: "bookmarks"
-                text: checked ? i18nc("@info:status", "Bookmarked") : i18nc("@action:inmenu", "Bookmark")
-                onTriggered: {
-                    if (checked) {
-                        var request = {
-                            url: currentWebView.url,
-                            title: currentWebView.title,
-                            icon: currentWebView.icon
-                        }
-                        Core.BrowserManager.addBookmark(request);
-                    } else {
-                        Core.BrowserManager.removeBookmark(currentWebView.url);
-                    }
-                }
-            },
-            Kirigami.Action {
-                icon.name: "computer"
-                text: i18nc("@action:inmenu", "Show Desktop Site")
-                checkable: true
-                checked: !currentWebView.userAgent.isMobile
-                onTriggered: {
-                    currentWebView.userAgent.isMobile = !currentWebView.userAgent.isMobile;
-                }
-            },
-            Kirigami.Action {
-                icon.name: currentWebView.readerMode ? "view-readermode-active" : "view-readermode"
-                text: i18nc("@action:inmenu", "Reader Mode")
-                checkable: true
-                checked: currentWebView.readerMode
-                onTriggered: currentWebView.readerModeSwitch()
-
-            },
-            Kirigami.Action {
-                icon.name: "edit-select-text"
-                text: i18nc("@action:inmenu", "Hide Navigation Bar")
-                visible: navigation.visible
-                onTriggered: {
-                    if (!navigation.visible) return;
-                    rootPage.navigationAutoShowLock = true
-                }
-            },
-            Kirigami.Action {
-                icon.name: "dialog-scripts"
-                text: i18nc("@action:inmenu", "Show Developer Tools")
-                checkable: true
-                checked: tabs.itemAt(tabs.currentIndex).isDeveloperToolsOpen
-                onTriggered: {
-                    tabs.tabsModel.toggleDeveloperTools(tabs.currentIndex)
-                }
-            }
         ]
 
         // Tabs sheet
@@ -474,6 +290,8 @@ Kirigami.ApplicationWindow {
                 right: parent.right
             }
 
+            currentWebView: tabs.currentItem
+            findInPage: findInPage
             navigationShown: visible && rootPage.navigationAutoShow && !rootPage.navigationAutoShowLock
             visible: webBrowser.visibility !== Window.FullScreen && !findInPage.active
 
