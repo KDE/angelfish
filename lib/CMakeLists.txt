@@ -28,6 +28,11 @@ ecm_add_qml_module(AngelfishCore
         settingshelper.cpp
         angelfishwebprofile.cpp
         downloadmanager.cpp
+        domdistiller.cpp
+)
+
+qt_add_resources(AngelfishCore DomDistiller
+    FILES dom-distiller-dist/domdistiller.js
 )
 
 qt_add_resources(AngelfishCore "resources"

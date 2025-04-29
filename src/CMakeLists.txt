@@ -10,7 +10,6 @@ add_executable(angelfish
     adblockfilterlistsmodel.cpp
     adblockfilterlistsmanager.cpp
     adblockurlinterceptor.cpp
-    domdistiller.cpp
     downloadsmodel.cpp
     webappcreator.cpp
     webappmanager.cpp
@@ -49,10 +48,6 @@ ecm_target_qml_sources(angelfish
         qml/desktop/DesktopTabs.qml
 
         regex-weburl/RegexWebUrl.js
-)
-
-qt_add_resources(angelfish DomDistiller
-    FILES dom-distiller-dist/domdistiller.js
 )
 
 if (Corrosion_FOUND)

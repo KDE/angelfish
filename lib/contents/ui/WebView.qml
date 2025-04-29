@@ -87,8 +87,8 @@ WebEngineView {
     // helper function to apply DomDistiller
     function readerDistillerRun() {
         readerSourceUrl = url
-        runJavaScript(DomDistiller.script, function() {
-                runJavaScript(DomDistiller.applyScript, function(result) {
+        runJavaScript(Core.DomDistiller.script, function() {
+                runJavaScript(Core.DomDistiller.applyScript, function(result) {
                     loadHtml(result[2][1])
                     readerTitle = result[1]
                 })
