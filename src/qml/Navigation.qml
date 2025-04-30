@@ -528,7 +528,7 @@ Item {
                     FormCard.FormButtonDelegate {
                         visible: root.visible
                         icon.name: "edit-select-text"
-                        text: i18nc("@action:inmenu", "Hide root Bar")
+                        text: i18nc("@action:inmenu", "Hide Navigation Bar")
                         onClicked: {
                             rootPage.navigationAutoShowLock = true
                             pageMenu.close();
