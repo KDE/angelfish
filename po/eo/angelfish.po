@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-28 00:41+0000\n"
+"POT-Creation-Date: 2025-04-30 00:42+0000\n"
 "PO-Revision-Date: 2025-03-23 07:29+0100\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
@@ -480,7 +480,7 @@ msgid "Search for “%1”"
 msgstr "Serĉi pri “%1”"
 
 #: lib/contents/ui/WebView.qml:593 src/qml/desktop/Desktop.qml:378
-#: src/qml/Mobile.qml:315
+#: src/qml/Mobile.qml:322
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
@@ -641,19 +641,19 @@ msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Kaŝi Programistajn Ilojn"
 
-#: src/qml/desktop/Desktop.qml:353 src/qml/Mobile.qml:411
+#: src/qml/desktop/Desktop.qml:353 src/qml/Mobile.qml:418
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Montri Programilojn"
 
-#: src/qml/desktop/Desktop.qml:362 src/qml/Mobile.qml:311
+#: src/qml/desktop/Desktop.qml:362 src/qml/Mobile.qml:318
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Trovi en Paĝo"
 
-#: src/qml/desktop/Desktop.qml:371 src/qml/Mobile.qml:394
+#: src/qml/desktop/Desktop.qml:371 src/qml/Mobile.qml:401
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
@@ -670,6 +670,12 @@ msgstr "Aldoni al Aplikaĵlanĉilo"
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "Agordo"
+
+#: src/qml/desktop/Desktop.qml:417
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Toggle Mobile Mode"
+msgstr ""
 
 #: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
 #, kde-format
@@ -823,61 +829,69 @@ msgctxt "@action:inmenu"
 msgid "Tabs"
 msgstr "Langetoj"
 
-#: src/qml/Mobile.qml:326
+#: src/qml/Mobile.qml:128
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Show Desktop Site"
+msgctxt "@action:inmenu"
+msgid "Toggle Desktop Mode"
+msgstr "Montri Labortablan Ejon"
+
+#: src/qml/Mobile.qml:333
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Aldoni al Hejmekrano"
 
-#: src/qml/Mobile.qml:336
+#: src/qml/Mobile.qml:343
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Malfermi en Apo"
 
-#: src/qml/Mobile.qml:344
+#: src/qml/Mobile.qml:351
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr "Iri Reen"
 
-#: src/qml/Mobile.qml:352
+#: src/qml/Mobile.qml:359
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "Iri Antaŭen"
 
-#: src/qml/Mobile.qml:359
+#: src/qml/Mobile.qml:366
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Ĉesi Ŝargi"
 
-#: src/qml/Mobile.qml:359
+#: src/qml/Mobile.qml:366
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Refreŝigi"
 
-#: src/qml/Mobile.qml:369
+#: src/qml/Mobile.qml:376
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "Legosignita"
 
-#: src/qml/Mobile.qml:369
+#: src/qml/Mobile.qml:376
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Legomarko"
 
-#: src/qml/Mobile.qml:385
+#: src/qml/Mobile.qml:392
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Montri Labortablan Ejon"
 
-#: src/qml/Mobile.qml:402
+#: src/qml/Mobile.qml:409
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-28 00:41+0000\n"
+"POT-Creation-Date: 2025-04-30 00:42+0000\n"
 "PO-Revision-Date: 2023-05-29 19:05+0400\n"
 "Last-Translator: Kheyyam <xxmn77@gmail.com>\n"
 "Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
@@ -531,7 +531,7 @@ msgid "Search for “%1”"
 msgstr "\"%1\" internetdə axtarmaq"
 
 #: lib/contents/ui/WebView.qml:593 src/qml/desktop/Desktop.qml:378
-#: src/qml/Mobile.qml:315
+#: src/qml/Mobile.qml:322
 #, fuzzy, kde-format
 #| msgid "Share page"
 msgctxt "@action:inmenu"
@@ -709,21 +709,21 @@ msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Tərtibatçı alətlərini göstərmək"
 
-#: src/qml/desktop/Desktop.qml:353 src/qml/Mobile.qml:411
+#: src/qml/desktop/Desktop.qml:353 src/qml/Mobile.qml:418
 #, fuzzy, kde-format
 #| msgid "Show developer tools"
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Tərtibatçı alətlərini göstərmək"
 
-#: src/qml/desktop/Desktop.qml:362 src/qml/Mobile.qml:311
+#: src/qml/desktop/Desktop.qml:362 src/qml/Mobile.qml:318
 #, fuzzy, kde-format
 #| msgid "Find in page"
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Səhifədə tapmaq"
 
-#: src/qml/desktop/Desktop.qml:371 src/qml/Mobile.qml:394
+#: src/qml/desktop/Desktop.qml:371 src/qml/Mobile.qml:401
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
@@ -742,6 +742,12 @@ msgstr "Tətbiq başladıcıya əlavə edin"
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "Ayarlar"
+
+#: src/qml/desktop/Desktop.qml:417
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Toggle Mobile Mode"
+msgstr ""
 
 #: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
 #, fuzzy, kde-format
@@ -920,69 +926,76 @@ msgctxt "@action:inmenu"
 msgid "Tabs"
 msgstr "Vərəqlər"
 
-#: src/qml/Mobile.qml:326
+#: src/qml/Mobile.qml:128
+#, fuzzy, kde-format
+#| msgid "Show desktop site"
+msgctxt "@action:inmenu"
+msgid "Toggle Desktop Mode"
+msgstr "Masaüstü görünüşü"
+
+#: src/qml/Mobile.qml:333
 #, fuzzy, kde-format
 #| msgid "Add to homescreen"
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Əsas ekrana əlavə etmək"
 
-#: src/qml/Mobile.qml:336
+#: src/qml/Mobile.qml:343
 #, fuzzy, kde-format
 #| msgid "Open in app"
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Tətbiqdə açamaq"
 
-#: src/qml/Mobile.qml:344
+#: src/qml/Mobile.qml:351
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr ""
 
-#: src/qml/Mobile.qml:352
+#: src/qml/Mobile.qml:359
 #, fuzzy, kde-format
 #| msgid "Go forward"
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "İrəli"
 
-#: src/qml/Mobile.qml:359
+#: src/qml/Mobile.qml:366
 #, fuzzy, kde-format
 #| msgid "Stop loading"
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Yükləməni dayandırmaq"
 
-#: src/qml/Mobile.qml:359
+#: src/qml/Mobile.qml:366
 #, fuzzy, kde-format
 #| msgid "Refresh"
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Yeniləmək"
 
-#: src/qml/Mobile.qml:369
+#: src/qml/Mobile.qml:376
 #, fuzzy, kde-format
 #| msgid "Bookmarked"
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "Əlfəcinlərdədir"
 
-#: src/qml/Mobile.qml:369
+#: src/qml/Mobile.qml:376
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Əlfəcin"
 
-#: src/qml/Mobile.qml:385
+#: src/qml/Mobile.qml:392
 #, fuzzy, kde-format
 #| msgid "Show desktop site"
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Masaüstü görünüşü"
 
-#: src/qml/Mobile.qml:402
+#: src/qml/Mobile.qml:409
 #, fuzzy, kde-format
 #| msgid "Hide navigation bar"
 msgctxt "@action:inmenu"

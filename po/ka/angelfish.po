@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-28 00:41+0000\n"
+"POT-Creation-Date: 2025-04-30 00:42+0000\n"
 "PO-Revision-Date: 2025-04-28 04:19+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -483,7 +483,7 @@ msgid "Search for “%1”"
 msgstr "\"%1\"-ის ძებნა"
 
 #: lib/contents/ui/WebView.qml:593 src/qml/desktop/Desktop.qml:378
-#: src/qml/Mobile.qml:315
+#: src/qml/Mobile.qml:322
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
@@ -641,19 +641,19 @@ msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "პროგრამირების ხელსაწყოების დამალვა"
 
-#: src/qml/desktop/Desktop.qml:353 src/qml/Mobile.qml:411
+#: src/qml/desktop/Desktop.qml:353 src/qml/Mobile.qml:418
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "პროგრამირების ხელსაწყოების ჩვენება"
 
-#: src/qml/desktop/Desktop.qml:362 src/qml/Mobile.qml:311
+#: src/qml/desktop/Desktop.qml:362 src/qml/Mobile.qml:318
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "გვერდში ძებნა"
 
-#: src/qml/desktop/Desktop.qml:371 src/qml/Mobile.qml:394
+#: src/qml/desktop/Desktop.qml:371 src/qml/Mobile.qml:401
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
@@ -670,6 +670,12 @@ msgstr "აპლიკაციების გამშვებში ჩა�
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "მორგება"
+
+#: src/qml/desktop/Desktop.qml:417
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Toggle Mobile Mode"
+msgstr ""
 
 #: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
 #, kde-format
@@ -821,61 +827,69 @@ msgctxt "@action:inmenu"
 msgid "Tabs"
 msgstr "ჩანართები"
 
-#: src/qml/Mobile.qml:326
+#: src/qml/Mobile.qml:128
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Show Desktop Site"
+msgctxt "@action:inmenu"
+msgid "Toggle Desktop Mode"
+msgstr "საიტის კომპიუტერის ვერსიის ჩვენება"
+
+#: src/qml/Mobile.qml:333
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "საწყის ეკრანზე დამატება"
 
-#: src/qml/Mobile.qml:336
+#: src/qml/Mobile.qml:343
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "აპში გახსნა"
 
-#: src/qml/Mobile.qml:344
+#: src/qml/Mobile.qml:351
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr "უკან დაბრუნება"
 
-#: src/qml/Mobile.qml:352
+#: src/qml/Mobile.qml:359
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "წინ გადასვლა"
 
-#: src/qml/Mobile.qml:359
+#: src/qml/Mobile.qml:366
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "ჩატვირთვის გაჩერება"
 
-#: src/qml/Mobile.qml:359
+#: src/qml/Mobile.qml:366
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "განახლება"
 
-#: src/qml/Mobile.qml:369
+#: src/qml/Mobile.qml:376
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "ჩამატებულია სანიშნეებში"
 
-#: src/qml/Mobile.qml:369
+#: src/qml/Mobile.qml:376
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "სანიშნე"
 
-#: src/qml/Mobile.qml:385
+#: src/qml/Mobile.qml:392
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "საიტის კომპიუტერის ვერსიის ჩვენება"
 
-#: src/qml/Mobile.qml:402
+#: src/qml/Mobile.qml:409
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
