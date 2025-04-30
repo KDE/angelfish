@@ -40,7 +40,6 @@ ecm_target_qml_sources(angelfish
         qml/ShareSheet.qml
         qml/Tabs.qml
         qml/UrlDelegate.qml
-        qml/AngelfishMenu.qml
 
         qml/desktop/BookmarksPage.qml
         qml/desktop/Desktop.qml
