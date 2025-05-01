@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-30 00:42+0000\n"
-"PO-Revision-Date: 2025-04-22 08:04+0300\n"
+"PO-Revision-Date: 2025-04-30 09:28+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -255,9 +255,7 @@ msgid "Orientation"
 msgstr "כיוון"
 
 #: lib/contents/ui/PrintPreview.qml:126
-#, fuzzy, kde-format
-#| msgctxt "@title:group"
-#| msgid "Paper Size"
+#, kde-format
 msgctxt "@label:combobox"
 msgid "Paper Size"
 msgstr "גודל נייר"
@@ -665,7 +663,7 @@ msgstr "הגדרות"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
-msgstr ""
+msgstr "החלפה למצב לניידים"
 
 #: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
 #, kde-format
@@ -818,12 +816,10 @@ msgid "Tabs"
 msgstr "לשוניות"
 
 #: src/qml/Mobile.qml:128
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Show Desktop Site"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
-msgstr "הצגת אתר לשולחן העבודה"
+msgstr "החלפה למצב מחשב"
 
 #: src/qml/Mobile.qml:333
 #, kde-format

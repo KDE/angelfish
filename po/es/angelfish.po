@@ -1,15 +1,15 @@
 # Spanish translations for angelfish.po package.
 # Copyright (C) 2019-2025 This file is copyright:
 # This file is distributed under the same license as the plasma-angelfish package.
-#
 # Automatically generated, 2019.
+#
 # SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2023, 2024, 2025 Eloy Cuadra <ecuadra@eloihr.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-30 00:42+0000\n"
-"PO-Revision-Date: 2025-04-28 03:39+0100\n"
+"PO-Revision-Date: 2025-04-30 18:59+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -684,7 +684,7 @@ msgstr "Preferencias"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
-msgstr ""
+msgstr "Cambiar al modo móvil"
 
 #: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
 #, kde-format
@@ -837,12 +837,10 @@ msgid "Tabs"
 msgstr "Pestañas"
 
 #: src/qml/Mobile.qml:128
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Show Desktop Site"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
-msgstr "Mostrar el sitio del escritorio"
+msgstr "Cambiar al modo de escritorio"
 
 #: src/qml/Mobile.qml:333
 #, kde-format
