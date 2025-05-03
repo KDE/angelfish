@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-30 00:42+0000\n"
-"PO-Revision-Date: 2025-04-30 14:57+0200\n"
+"PO-Revision-Date: 2025-05-01 16:18+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -687,7 +687,7 @@ msgstr "Configuration"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
-msgstr ""
+msgstr "Basculer vers le mode « Mobile »"
 
 #: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
 #, kde-format
@@ -840,12 +840,10 @@ msgid "Tabs"
 msgstr "Onglets"
 
 #: src/qml/Mobile.qml:128
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Show Desktop Site"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
-msgstr "Afficher le site de bureau"
+msgstr "Basculer vers le mode « Ordinateur »"
 
 #: src/qml/Mobile.qml:333
 #, kde-format

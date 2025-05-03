@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-30 00:42+0000\n"
-"PO-Revision-Date: 2025-04-28 09:24+0200\n"
+"PO-Revision-Date: 2025-04-30 10:15+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 25.04.0\n"
 "X-Accelerator-Marker: &\n"
 
 #: angelfish-webapp/main.cpp:66
@@ -681,7 +681,7 @@ msgstr "Configuració"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
-msgstr ""
+msgstr "Canvia al mode mòbil"
 
 #: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
 #, kde-format
@@ -834,12 +834,10 @@ msgid "Tabs"
 msgstr "Pestanyes"
 
 #: src/qml/Mobile.qml:128
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Show Desktop Site"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
-msgstr "Mostra una pàgina de l'escriptori"
+msgstr "Canvia al mode escriptori"
 
 #: src/qml/Mobile.qml:333
 #, kde-format
