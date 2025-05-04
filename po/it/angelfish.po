@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-30 00:42+0000\n"
-"PO-Revision-Date: 2025-04-17 09:44+0200\n"
+"PO-Revision-Date: 2025-05-01 14:01+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.12.3\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #: angelfish-webapp/main.cpp:66
 #, kde-format
@@ -272,9 +272,7 @@ msgid "Orientation"
 msgstr "Orientazione"
 
 #: lib/contents/ui/PrintPreview.qml:126
-#, fuzzy, kde-format
-#| msgctxt "@title:group"
-#| msgid "Paper Size"
+#, kde-format
 msgctxt "@label:combobox"
 msgid "Paper Size"
 msgstr "Dimensione del foglio"
@@ -560,17 +558,16 @@ msgid "Downloading…"
 msgstr "Scaricamento..."
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:43
-#, fuzzy, kde-format
-#| msgid "Enable Adblock"
+#, kde-format
 msgctxt "@action:button"
 msgid "Disable Adblock"
-msgstr "Abilita AdBlock"
+msgstr "Disabilita AdBlock"
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:49
 #, kde-format
 msgctxt "@info"
 msgid "Adblock Disabled…"
-msgstr ""
+msgstr "AdBlock disabilitato…"
 
 #: src/qml/Bookmarks.qml:13
 #, kde-format
@@ -685,7 +682,7 @@ msgstr "Impostazioni"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
-msgstr ""
+msgstr "Attiva la modalità mobile"
 
 #: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
 #, kde-format
@@ -838,12 +835,10 @@ msgid "Tabs"
 msgstr "Schede"
 
 #: src/qml/Mobile.qml:128
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Show Desktop Site"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
-msgstr "Mostra sito desktop"
+msgstr "Attiva la modalità desktop"
 
 #: src/qml/Mobile.qml:333
 #, kde-format
