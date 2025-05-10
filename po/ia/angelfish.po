@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-30 00:42+0000\n"
-"PO-Revision-Date: 2025-04-22 11:57+0200\n"
+"PO-Revision-Date: 2025-05-09 16:06+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -266,9 +266,7 @@ msgid "Orientation"
 msgstr "Orientation"
 
 #: lib/contents/ui/PrintPreview.qml:126
-#, fuzzy, kde-format
-#| msgctxt "@title:group"
-#| msgid "Paper Size"
+#, kde-format
 msgctxt "@label:combobox"
 msgid "Paper Size"
 msgstr "Formato de papiro"
@@ -678,7 +676,7 @@ msgstr "Preferentias"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
-msgstr ""
+msgstr "Commuta Modo de Mobile"
 
 #: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
 #, kde-format
@@ -831,12 +829,10 @@ msgid "Tabs"
 msgstr "Schedas"
 
 #: src/qml/Mobile.qml:128
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Show Desktop Site"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
-msgstr "Monstra sito de scriptorio"
+msgstr "Comuta Modo de Scriptorio"
 
 #: src/qml/Mobile.qml:333
 #, kde-format
