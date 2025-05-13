@@ -253,12 +253,10 @@ msgid "Orientation"
 msgstr ""
 
 #: lib/contents/ui/PrintPreview.qml:126
-#, fuzzy, kde-format
-#| msgctxt "@title:group"
-#| msgid "Paper Size"
+#, kde-format
 msgctxt "@label:combobox"
 msgid "Paper Size"
-msgstr "页面大小"
+msgstr ""
 
 #: lib/contents/ui/PrintPreview.qml:169
 #, kde-format
@@ -540,12 +538,10 @@ msgid "Downloading…"
 msgstr "正在下载..."
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:43
-#, fuzzy, kde-format
-#| msgctxt "@label:checkbox"
-#| msgid "Enable adblock"
+#, kde-format
 msgctxt "@action:button"
 msgid "Disable Adblock"
-msgstr "启用广告拦截器"
+msgstr ""
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:49
 #, kde-format
@@ -819,12 +815,10 @@ msgid "Tabs"
 msgstr "标签页"
 
 #: src/qml/Mobile.qml:128
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Show Desktop Site"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
-msgstr "显示桌面版网站"
+msgstr ""
 
 #: src/qml/Mobile.qml:333
 #, kde-format
@@ -1203,7 +1197,3 @@ msgstr "移除应用"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "没有已安装的网页应用"
-
-#~ msgctxt "@action:button"
-#~ msgid "Save"
-#~ msgstr "保存"

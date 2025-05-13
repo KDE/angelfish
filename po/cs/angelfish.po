@@ -71,11 +71,10 @@ msgid "Password:"
 msgstr "Heslo:"
 
 #: lib/contents/ui/DownloadQuestion.qml:16
-#, fuzzy, kde-format
-#| msgid "Do you want to download this file?"
+#, kde-format
 msgctxt "Would you like to download (filename) from (domain)?"
 msgid "Would you like to download %1 from %2?"
-msgstr "Přejete si stáhnout tento soubor?"
+msgstr ""
 
 #: lib/contents/ui/DownloadQuestion.qml:25
 #: src/qml/AdblockFilterDownloadQuestion.qml:32
@@ -248,12 +247,10 @@ msgid "Orientation"
 msgstr "Orientace"
 
 #: lib/contents/ui/PrintPreview.qml:126
-#, fuzzy, kde-format
-#| msgctxt "@title:group"
-#| msgid "Paper Size"
+#, kde-format
 msgctxt "@label:combobox"
 msgid "Paper Size"
-msgstr "Velikost papíru"
+msgstr ""
 
 #: lib/contents/ui/PrintPreview.qml:169
 #, kde-format
@@ -534,12 +531,10 @@ msgid "Downloading…"
 msgstr "Stahuji…"
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:43
-#, fuzzy, kde-format
-#| msgctxt "@label:checkbox"
-#| msgid "Enable adblock"
+#, kde-format
 msgctxt "@action:button"
 msgid "Disable Adblock"
-msgstr "Povolit adblock"
+msgstr ""
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:49
 #, kde-format
@@ -711,12 +706,10 @@ msgid "Close Tab"
 msgstr "Zavřít kartu"
 
 #: src/qml/desktop/DesktopTabs.qml:409
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Close Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
-msgstr "Zavřít kartu"
+msgstr ""
 
 #: src/qml/desktop/HistoryPage.qml:31
 #, kde-format
@@ -1195,7 +1188,3 @@ msgstr "Odstranit aplikaci"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "Žádná webová aplikace nebyla nainstalována"
-
-#~ msgctxt "@action:button"
-#~ msgid "Save"
-#~ msgstr "Uložit"
