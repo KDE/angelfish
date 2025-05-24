@@ -1,7 +1,7 @@
 # Translation for angelfish.po to Euskara/Basque (eu).
 # Copyright (C) 2020-2025 This file is copyright:
 # This file is distributed under the same license as the angelfish package.
-# SPDX-FileCopyrightText: 2024, 2025 KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>
+# SPDX-FileCopyrightText: 2024, 2025 KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
 #
 # Translators:
 # Iñigo Salvador Azurmendi <xalba@ni.eus>, 2020, 2021, 2022, 2023, 2024, 2025.
@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-30 00:42+0000\n"
-"PO-Revision-Date: 2025-03-22 15:06+0100\n"
+"PO-Revision-Date: 2025-05-23 23:46+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.12.3\n"
+"X-Generator: Lokalize 25.04.1\n"
 
 #: angelfish-webapp/main.cpp:66
 #, kde-format
@@ -262,9 +262,7 @@ msgid "Orientation"
 msgstr "Orientazioa"
 
 #: lib/contents/ui/PrintPreview.qml:126
-#, fuzzy, kde-format
-#| msgctxt "@title:group"
-#| msgid "Paper Size"
+#, kde-format
 msgctxt "@label:combobox"
 msgid "Paper Size"
 msgstr "Paperaren neurria"
@@ -498,30 +496,29 @@ msgid "URL to open"
 msgstr "Ireki beharreko URLa"
 
 #: src/main.cpp:84
-#, fuzzy, kde-format
-#| msgid "Configure Angelfish"
+#, kde-format
 msgid "Angelfish"
-msgstr "Konfiguratu Angelfish"
+msgstr "Angelfish"
 
 #: src/main.cpp:86
 #, kde-format
 msgid "Web browser for Plasma Mobile"
-msgstr ""
+msgstr "Plasma Mugikorrerako web-arakatzailea"
 
 #: src/main.cpp:88
 #, kde-format
 msgid "© 2015-2024 KDE Community"
-msgstr ""
+msgstr "© 2015-2024 KDE Komunitatea"
 
 #: src/main.cpp:91
 #, kde-format
 msgid "Jonah Brüchert"
-msgstr ""
+msgstr "Jonah Brüchert"
 
 #: src/main.cpp:91
 #, kde-format
 msgid "Maintainer"
-msgstr ""
+msgstr "Mantentzailea"
 
 #: src/main.cpp:92
 #, kde-format
@@ -551,17 +548,16 @@ msgid "Downloading…"
 msgstr "Zama-jaisten..."
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:43
-#, fuzzy, kde-format
-#| msgid "Enable Adblock"
+#, kde-format
 msgctxt "@action:button"
 msgid "Disable Adblock"
-msgstr "Gaitu iragarkiak blokeatzea"
+msgstr "Ezgaitu iragarkiak eragoztea"
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:49
 #, kde-format
 msgctxt "@info"
 msgid "Adblock Disabled…"
-msgstr ""
+msgstr "Iragarkiak eragoztea ezgaituta..."
 
 #: src/qml/Bookmarks.qml:13
 #, kde-format
@@ -676,7 +672,7 @@ msgstr "Ezarpenak"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
-msgstr ""
+msgstr "Txandakatu Mugikor modua"
 
 #: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
 #, kde-format
@@ -727,12 +723,10 @@ msgid "Close Tab"
 msgstr "Itxi fitxa"
 
 #: src/qml/desktop/DesktopTabs.qml:409
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Close Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
-msgstr "Itxi fitxa"
+msgstr "Berrireki itxitako fitxa"
 
 #: src/qml/desktop/HistoryPage.qml:31
 #, kde-format
@@ -831,12 +825,10 @@ msgid "Tabs"
 msgstr "Fitxak"
 
 #: src/qml/Mobile.qml:128
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Show Desktop Site"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
-msgstr "Erakutsi mahaigaineko lekua"
+msgstr "Txandakatu Mahaigain modua"
 
 #: src/qml/Mobile.qml:333
 #, kde-format
