@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-30 00:42+0000\n"
-"PO-Revision-Date: 2025-03-15 10:04+0100\n"
+"PO-Revision-Date: 2025-05-24 08:27+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -263,9 +263,7 @@ msgid "Orientation"
 msgstr "Kierunek"
 
 #: lib/contents/ui/PrintPreview.qml:126
-#, fuzzy, kde-format
-#| msgctxt "@title:group"
-#| msgid "Paper Size"
+#, kde-format
 msgctxt "@label:combobox"
 msgid "Paper Size"
 msgstr "Rozmiar papieru"
@@ -499,30 +497,29 @@ msgid "URL to open"
 msgstr "Adres URL do otwarcia"
 
 #: src/main.cpp:84
-#, fuzzy, kde-format
-#| msgid "Configure Angelfish"
+#, kde-format
 msgid "Angelfish"
-msgstr "Ustawienia Angelfisha"
+msgstr "Angelfish"
 
 #: src/main.cpp:86
 #, kde-format
 msgid "Web browser for Plasma Mobile"
-msgstr ""
+msgstr "Przeglądarka sieciowa dla Przenośnej Plazmy"
 
 #: src/main.cpp:88
 #, kde-format
 msgid "© 2015-2024 KDE Community"
-msgstr ""
+msgstr "© 2015-2024 Społeczność KDE"
 
 #: src/main.cpp:91
 #, kde-format
 msgid "Jonah Brüchert"
-msgstr ""
+msgstr "Jonah Brüchert"
 
 #: src/main.cpp:91
 #, kde-format
 msgid "Maintainer"
-msgstr ""
+msgstr "Opiekun"
 
 #: src/main.cpp:92
 #, kde-format
@@ -550,17 +547,16 @@ msgid "Downloading…"
 msgstr "Pobieranie…"
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:43
-#, fuzzy, kde-format
-#| msgid "Enable Adblock"
+#, kde-format
 msgctxt "@action:button"
 msgid "Disable Adblock"
-msgstr "Włącz AdBlock"
+msgstr "Wyłącz AdBlock"
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:49
 #, kde-format
 msgctxt "@info"
 msgid "Adblock Disabled…"
-msgstr ""
+msgstr "AdBlock jest wyłączony…"
 
 #: src/qml/Bookmarks.qml:13
 #, kde-format
@@ -675,7 +671,7 @@ msgstr "Ustawienia"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
-msgstr ""
+msgstr "Wyświetl jak na urządzeniu przenośnym"
 
 #: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
 #, kde-format
@@ -726,18 +722,16 @@ msgid "Close Tab"
 msgstr "Zamknij kartę"
 
 #: src/qml/desktop/DesktopTabs.qml:409
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Close Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
-msgstr "Zamknij kartę"
+msgstr "Ponownie otwórz zamkniętą kartę"
 
 #: src/qml/desktop/HistoryPage.qml:31
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search history…"
-msgstr "Szukaj w historii..."
+msgstr "Szukaj w historii…"
 
 #: src/qml/desktop/HistoryPage.qml:47
 #, kde-format
@@ -830,12 +824,10 @@ msgid "Tabs"
 msgstr "Karty"
 
 #: src/qml/Mobile.qml:128
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Show Desktop Site"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
-msgstr "Pokaż stronę pulpitu"
+msgstr "Wyświetl jak na urządzeniu biurkowym"
 
 #: src/qml/Mobile.qml:333
 #, kde-format
