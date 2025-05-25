@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-08 00:43+0000\n"
-"PO-Revision-Date: 2025-03-15 10:04+0100\n"
+"PO-Revision-Date: 2025-05-24 08:27+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -633,7 +633,7 @@ msgstr "Ustawienia"
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search history…"
-msgstr "Szukaj w historii..."
+msgstr "Szukaj w historii…"
 
 #: src/contents/ui/desktop/HistoryPage.qml:46
 #, kde-format
