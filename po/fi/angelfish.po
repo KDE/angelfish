@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-30 00:42+0000\n"
-"PO-Revision-Date: 2025-03-23 16:00+0200\n"
+"PO-Revision-Date: 2025-05-25 08:28+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -256,9 +256,7 @@ msgid "Orientation"
 msgstr "Suunta"
 
 #: lib/contents/ui/PrintPreview.qml:126
-#, fuzzy, kde-format
-#| msgctxt "@title:group"
-#| msgid "Paper Size"
+#, kde-format
 msgctxt "@label:combobox"
 msgid "Paper Size"
 msgstr "Paperikoko"
@@ -492,30 +490,29 @@ msgid "URL to open"
 msgstr "Avattava osoite"
 
 #: src/main.cpp:84
-#, fuzzy, kde-format
-#| msgid "Configure Angelfish"
+#, kde-format
 msgid "Angelfish"
-msgstr "Angelfishin asetukset"
+msgstr "Angelfish"
 
 #: src/main.cpp:86
 #, kde-format
 msgid "Web browser for Plasma Mobile"
-msgstr ""
+msgstr "Verkkoselain Plasma Mobileen"
 
 #: src/main.cpp:88
 #, kde-format
 msgid "© 2015-2024 KDE Community"
-msgstr ""
+msgstr "© 2015-2024 KDE-yhteisö"
 
 #: src/main.cpp:91
 #, kde-format
 msgid "Jonah Brüchert"
-msgstr ""
+msgstr "Jonah Brüchert"
 
 #: src/main.cpp:91
 #, kde-format
 msgid "Maintainer"
-msgstr ""
+msgstr "Ylläpitäjä"
 
 #: src/main.cpp:92
 #, kde-format
@@ -543,17 +540,16 @@ msgid "Downloading…"
 msgstr "Ladataan…"
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:43
-#, fuzzy, kde-format
-#| msgid "Enable Adblock"
+#, kde-format
 msgctxt "@action:button"
 msgid "Disable Adblock"
-msgstr "Käytä mainosestoa"
+msgstr "Poista mainosesto käytöstä"
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:49
 #, kde-format
 msgctxt "@info"
 msgid "Adblock Disabled…"
-msgstr ""
+msgstr "Mainosesto poistettu käytöstä…"
 
 #: src/qml/Bookmarks.qml:13
 #, kde-format
@@ -668,7 +664,7 @@ msgstr "Asetukset"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
-msgstr ""
+msgstr "Vaihda mobiilitilaan"
 
 #: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
 #, kde-format
@@ -719,12 +715,10 @@ msgid "Close Tab"
 msgstr "Sulje välilehti"
 
 #: src/qml/desktop/DesktopTabs.qml:409
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Close Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
-msgstr "Sulje välilehti"
+msgstr "Avaa suljettu välilehti uudelleen"
 
 #: src/qml/desktop/HistoryPage.qml:31
 #, kde-format
@@ -823,12 +817,10 @@ msgid "Tabs"
 msgstr "Välilehdet"
 
 #: src/qml/Mobile.qml:128
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Show Desktop Site"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
-msgstr "Näytä työpöytäsivusto"
+msgstr "Vaihda työpöytätilaan"
 
 #: src/qml/Mobile.qml:333
 #, kde-format
