@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-30 00:42+0000\n"
-"PO-Revision-Date: 2025-04-15 18:42+0300\n"
+"PO-Revision-Date: 2025-05-26 17:35+0300\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
 "Language: lv\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
-"X-Generator: Lokalize 24.12.3\n"
+"X-Generator: Lokalize 25.04.1\n"
 
 #: angelfish-webapp/main.cpp:66
 #, kde-format
@@ -265,9 +265,7 @@ msgid "Orientation"
 msgstr "Orientācija"
 
 #: lib/contents/ui/PrintPreview.qml:126
-#, fuzzy, kde-format
-#| msgctxt "@title:group"
-#| msgid "Paper Size"
+#, kde-format
 msgctxt "@label:combobox"
 msgid "Paper Size"
 msgstr "Lapas izmērs"
@@ -552,18 +550,16 @@ msgid "Downloading…"
 msgstr "Lejupielādē..."
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:43
-#, fuzzy, kde-format
-#| msgctxt "@label:checkbox"
-#| msgid "Enable adblock"
+#, kde-format
 msgctxt "@action:button"
 msgid "Disable Adblock"
-msgstr "Ieslēgt reklāmu bloķēšanu"
+msgstr "Izslēgt reklāmu bloķēšanu"
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:49
 #, kde-format
 msgctxt "@info"
 msgid "Adblock Disabled…"
-msgstr ""
+msgstr "Reklāmu bloķēšana ir izslēgta…"
 
 #: src/qml/Bookmarks.qml:13
 #, kde-format
@@ -678,7 +674,7 @@ msgstr "Iestatījumi"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
-msgstr ""
+msgstr "Pārslēgt mobilo režīmu"
 
 #: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
 #, kde-format
@@ -831,12 +827,10 @@ msgid "Tabs"
 msgstr "Cilnes"
 
 #: src/qml/Mobile.qml:128
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Show Desktop Site"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
-msgstr "Parādīt darbvirsmas vietni"
+msgstr "Pārslēgt datora režīmu"
 
 #: src/qml/Mobile.qml:333
 #, kde-format
