@@ -14,8 +14,8 @@ msgstr ""
 "X-Crowdin-Project: kdeorg\n"
 "X-Crowdin-Project-ID: 269464\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /kf6-trunk/messages/angelfish/angelfish.pot\n"
-"X-Crowdin-File-ID: 46249\n"
+"X-Crowdin-File: /kf6-stable/messages/angelfish/angelfish.pot\n"
+"X-Crowdin-File-ID: 51438\n"
 
 #: angelfish-webapp/main.cpp:66
 #, kde-format
@@ -256,7 +256,7 @@ msgstr ""
 #, kde-format
 msgctxt "@label:combobox"
 msgid "Paper Size"
-msgstr ""
+msgstr "页面大小"
 
 #: lib/contents/ui/PrintPreview.qml:169
 #, kde-format
@@ -541,13 +541,13 @@ msgstr "正在下载..."
 #, kde-format
 msgctxt "@action:button"
 msgid "Disable Adblock"
-msgstr ""
+msgstr "禁用 Adblock"
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:49
 #, kde-format
 msgctxt "@info"
 msgid "Adblock Disabled…"
-msgstr ""
+msgstr "Adblock 已禁用..."
 
 #: src/qml/Bookmarks.qml:13
 #, kde-format
@@ -662,7 +662,7 @@ msgstr "设置"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
-msgstr ""
+msgstr "切换到移动模式"
 
 #: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
 #, kde-format
@@ -818,7 +818,7 @@ msgstr "标签页"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
-msgstr ""
+msgstr "切换到桌面模式"
 
 #: src/qml/Mobile.qml:333
 #, kde-format
