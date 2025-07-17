@@ -279,27 +279,12 @@ Kirigami.Page {
                                 elide: Text.ElideRight
                             }
 
-                            QQC2.AbstractButton {
+                            QQC2.ToolButton {
                                 Layout.alignment: Qt.AlignVCenter
                                 Layout.preferredHeight: Kirigami.Units.gridUnit * 1.5
                                 Layout.preferredWidth: height
                                 onClicked: tabs.tabsModel.closeTab(index)
-
-                                background: Rectangle {
-                                    anchors.fill: parent
-                                    radius: height / 2
-                                    color: hoverHandler.hovered ? Kirigami.Theme.backgroundColor : Kirigami.Theme.disabledTextColor
-                                    border.width: 6
-                                    border.color: Kirigami.Theme.backgroundColor
-                                }
-
-                                contentItem: Kirigami.Icon {
-                                    source: "tab-close-symbolic"
-                                    color: hoverHandler.hovered ? Kirigami.Theme.negativeTextColor : Kirigami.Theme.backgroundColor
-                                    anchors.centerIn: parent
-                                    implicitWidth: parent.width
-                                    implicitHeight: width
-                                }
+                                icon.name: 'tab-close-symbolic'
 
                                 QQC2.ToolTip.visible: hoverHandler.hovered
                                 QQC2.ToolTip.delay: Qt.styleHints.mousePressAndHoldInterval
