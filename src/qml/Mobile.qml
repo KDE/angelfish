@@ -451,17 +451,7 @@ Kirigami.ApplicationWindow {
         // Find bar
         FindInPageBar {
             id: findInPage
-
             Kirigami.Theme.colorSet: rootPage.privateMode ? Kirigami.Theme.Complementary : Kirigami.Theme.Window
-
-            layer.enabled: GraphicsInfo.api !== GraphicsInfo.Software && active
-            layer.effect: DropShadow {
-                verticalOffset: - 1
-                color: Kirigami.Theme.disabledTextColor
-                samples: 10
-                spread: 0.1
-                cached: true // element is static
-            }
         }
 
         // Bottom navigation bar
@@ -482,15 +472,6 @@ Kirigami.ApplicationWindow {
 
             Kirigami.Theme.inherit: false
             Kirigami.Theme.colorSet: rootPage.privateMode ? Kirigami.Theme.Complementary : Kirigami.Theme.Window
-
-            layer.enabled: GraphicsInfo.api !== GraphicsInfo.Software && navigation.navigationShown
-            layer.effect: DropShadow {
-                verticalOffset: - 1
-                color: Kirigami.Theme.disabledTextColor
-                samples: 10
-                spread: 0.1
-                cached: true // element is static
-            }
 
             onActivateUrlEntry: urlEntry.open()
             onOpenNewTab: {
