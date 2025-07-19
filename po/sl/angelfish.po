@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-30 00:42+0000\n"
+"POT-Creation-Date: 2025-07-19 07:11+0000\n"
 "PO-Revision-Date: 2025-04-30 06:41+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -680,7 +680,7 @@ msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr "Bralni način: %1"
 
-#: src/qml/desktop/DesktopTabs.qml:268 src/qml/Tabs.qml:306
+#: src/qml/desktop/DesktopTabs.qml:268 src/qml/Tabs.qml:291
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close tab"

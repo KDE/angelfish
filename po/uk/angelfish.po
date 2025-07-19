@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-30 00:42+0000\n"
+"POT-Creation-Date: 2025-07-19 07:11+0000\n"
 "PO-Revision-Date: 2025-04-30 09:21+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -683,7 +683,7 @@ msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr "Режим читання: %1"
 
-#: src/qml/desktop/DesktopTabs.qml:268 src/qml/Tabs.qml:306
+#: src/qml/desktop/DesktopTabs.qml:268 src/qml/Tabs.qml:291
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close tab"

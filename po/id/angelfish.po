@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-30 00:42+0000\n"
+"POT-Creation-Date: 2025-07-19 07:11+0000\n"
 "PO-Revision-Date: 2022-08-19 20:36+0700\n"
 "Last-Translator: Wantoyèk <wantoyek@gmail.com>\n"
 "Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
@@ -758,7 +758,7 @@ msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr ""
 
-#: src/qml/desktop/DesktopTabs.qml:268 src/qml/Tabs.qml:306
+#: src/qml/desktop/DesktopTabs.qml:268 src/qml/Tabs.qml:291
 #, fuzzy, kde-format
 #| msgid "Close"
 msgctxt "@info:tooltip"
