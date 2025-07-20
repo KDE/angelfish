@@ -244,7 +244,7 @@ RowLayout {
 
                 QQC2.AbstractButton {
                     id: closeButton
-                    
+
                     hoverEnabled: true
                     visible: control.highlighted || control.width > Kirigami.Units.gridUnit * 8
                     Layout.alignment: Qt.AlignRight
@@ -291,7 +291,7 @@ RowLayout {
                 }
                 QQC2.ToolButton {
                     icon.name: "list-add"
-                    onClicked: tabs.tabsModel.newTab(Core.Settings.newTabUrl)
+                    onClicked: tabs.tabsModel.newTab(Core.AngelfishSettings.newTabUrl)
 
                     QQC2.ToolTip.visible: hoverHandler.hovered
                     QQC2.ToolTip.delay: Qt.styleHints.mousePressAndHoldInterval
@@ -362,7 +362,7 @@ RowLayout {
             text: i18nc("@action:inmenu", "New Tab")
             icon.name: "list-add"
             shortcut: "Ctrl+T"
-            onTriggered: tabs.tabsModel.newTab(Core.Settings.newTabUrl)
+            onTriggered: tabs.tabsModel.newTab(Core.AngelfishSettings.newTabUrl)
         }
 
         QQC2.MenuSeparator {}
