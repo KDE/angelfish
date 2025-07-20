@@ -57,20 +57,20 @@ FormCard.FormCardPage {
         FormCard.FormTextFieldDelegate {
             id: newTab
             label: i18nc("@label", "New tabs:")
-            text: Settings.newTabUrl
+            text: Core.AngelfishSettings.newTabUrl
             onAccepted: {
                 let url = text;
                 if (url.indexOf(":/") < 0) {
                     url = "http://" + url;
                 }
-                Settings.newTabUrl = url;
+                Core.AngelfishSettings.newTabUrl = url;
             }
             onEditingFinished: {
                 let url = text;
                 if (url.indexOf(":/") < 0) {
                     url = "http://" + url;
                 }
-                Settings.newTabUrl = url;
+                Core.AngelfishSettings.newTabUrl = url;
             }
 
         }
@@ -81,8 +81,8 @@ FormCard.FormCardPage {
             id: alwaysShowTabs
             text: i18nc("@label:checkbox", "Always show the tab bar")
             description: i18n("The tab bar will be displayed even if there is only one tab open.")
-            checked: Settings.showTabBar
-            onClicked: Settings.showTabBar = checked
+            checked: Core.AngelfishSettings.showTabBar
+            onClicked: Core.AngelfishSettings.showTabBar = checked
         }
     }
 }
