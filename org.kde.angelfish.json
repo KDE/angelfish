@@ -47,8 +47,14 @@
         }
     },
     "cleanup": [
+        "/include",
+        "/lib/*.a",
         "/lib/cmake",
-        "/lib/include"
+        "/lib/include",
+        "/lib/pkgconfig",
+        "/lib/*/cmake",
+        "/lib/*/include",
+        "/share/cmake"
     ],
     "modules": [
         "flatpak/corrosion.json",
