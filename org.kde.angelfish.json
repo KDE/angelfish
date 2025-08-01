@@ -6,7 +6,9 @@
     "base": "io.qt.qtwebengine.BaseApp",
     "base-version": "6.9",
     "command": "angelfish",
-    "tags": ["nightly"],
+    "tags": [
+        "nightly"
+    ],
     "desktop-file-name-suffix": " (Nightly)",
     "finish-args": [
         "--share=ipc",
@@ -54,7 +56,10 @@
         {
             "name": "qcoro",
             "buildsystem": "cmake-ninja",
-            "config-opts": ["-DBUILD_TESTING=OFF", "-DCMAKE_BUILD_TYPE=Release"],
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=Release"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -89,14 +94,17 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/futuresql/futuresql-$version.tar.xz"
                     }
-
                 }
             ]
         },
         {
             "name": "angelfish",
             "buildsystem": "cmake-ninja",
-            "config-opts": ["-DBUILD_TESTING=OFF", "-DCMAKE_BUILD_TYPE=Release", "-DQt6Feedback_DIR=/app/lib/cmake/Qt6Feedback"],
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=Release",
+                "-DQt6Feedback_DIR=/app/lib/cmake/Qt6Feedback"
+            ],
             "builddir": true,
             "build-options": {
                 "env": {
@@ -107,7 +115,9 @@
                 {
                     "type": "dir",
                     "path": ".",
-                    "skip": [".git"]
+                    "skip": [
+                        ".git"
+                    ]
                 },
                 "flatpak/generated-sources.json"
             ]
