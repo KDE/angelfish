@@ -730,7 +730,7 @@ msgstr "ابحث في السجل…"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Clear all history"
-msgstr "امسح كل السجل"
+msgstr "امحُ كل السجل"
 
 #: src/qml/desktop/HistoryPage.qml:84
 #, kde-format
@@ -1011,7 +1011,7 @@ msgstr "ميزة حجم الإعلانات غير متضمنة في هذا ال�
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove this filter list"
-msgstr "امسح قائمة الترشيح هذه"
+msgstr "امحُ قائمة الترشيح هذه"
 
 #: src/settings/SettingsAdblock.qml:113
 #, kde-format
@@ -1141,7 +1141,7 @@ msgstr ""
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Main menu in portrait"
-msgstr "القائمة الرئيسية في الوضع الأفقي"
+msgstr "القائمة الرئيسة في الوضع الأفقي"
 
 #: src/settings/SettingsNavigationBarPage.qml:42
 #, kde-format
