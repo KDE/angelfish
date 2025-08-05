@@ -25,7 +25,7 @@ msgstr "要打开的桌面文件"
 #: angelfish-webapp/main.cpp:93
 #, kde-format
 msgid "Angelfish Web App runtime"
-msgstr "Angelfish 网页小程序运行时组件"
+msgstr "Angelfish 网页应用运行时组件"
 
 #: angelfish-webapp/main.cpp:95
 #, kde-format
@@ -932,7 +932,7 @@ msgstr "广告屏蔽"
 #, kde-format
 msgctxt "@title:window"
 msgid "Web Apps"
-msgstr "网页小程序"
+msgstr "网页应用"
 
 #: src/settings/AngelfishConfigurationView.qml:32
 #: src/settings/SettingsSearchEnginePage.qml:113
