@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-19 05:21+0000\n"
-"PO-Revision-Date: 2025-05-04 06:31+0400\n"
+"PO-Revision-Date: 2025-08-06 17:27+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -115,7 +115,7 @@ msgid ""
 msgstr ""
 "هل ترغب في المتابعة؟\n"
 "\n"
-"إذا كنت ترغب بذلك، بإمكانك المتابعة بشهادة لم يتم التحقق منها.\n"
+"إذا كنت ترغب بذلك، بإمكانك المتابعة بشهادة لم يتُحقق منها.\n"
 "قبول شهادة غير متحقق منها يعني\n"
 "أنك قد لا تكون متصل بالخادم الذي تريد الاتصال به.\n"
 "هل تريد تخط هذا التحقق الأمني والمتابعة؟"
@@ -959,7 +959,7 @@ msgstr "اعرض زر المنزل:"
 #: src/settings/DesktopHomeSettingsPage.qml:26
 #, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
-msgstr "سيتم عرض زر المنزل بجوار زر إعادة التحميل في شريط الأدوات."
+msgstr "سيُعرض زر المنزل بجوار زر إعادة التحميل في شريط الأدوات."
 
 #: src/settings/DesktopHomeSettingsPage.qml:36
 #, kde-format
@@ -1056,7 +1056,7 @@ msgstr "تحميل الصور"
 #: src/settings/SettingsGeneral.qml:39
 #, kde-format
 msgid "Whether to load images on websites."
-msgstr "ما إذا كان سيتم تحميل الصور على المواقع."
+msgstr "ما إذا كان ستُحمل الصور على المواقع."
 
 #: src/settings/SettingsGeneral.qml:48
 #, kde-format
@@ -1084,7 +1084,7 @@ msgstr "انتقل إلى اللسان الجديد فورا"
 #, kde-format
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately."
-msgstr "عندما تفتح رابط, صورة أو وسائط في لسان جديد سيتم التبديل له مباشر."
+msgstr "عندما تفتح رابط, صورة أو وسائط في لسان جديد سينتقل له مباشر."
 
 #: src/settings/SettingsGeneral.qml:69
 #, kde-format
