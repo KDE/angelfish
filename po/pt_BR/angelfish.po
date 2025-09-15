@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-19 05:21+0000\n"
-"PO-Revision-Date: 2025-07-28 11:43-0300\n"
+"PO-Revision-Date: 2025-09-14 08:37-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.04.3\n"
+"X-Generator: Lokalize 25.08.1\n"
 
 #: angelfish-webapp/main.cpp:66
 #, kde-format
@@ -290,13 +290,13 @@ msgstr "O site foi aberto em uma nova aba"
 #, kde-format
 msgctxt "@info:status"
 msgid "Entered Full Screen mode"
-msgstr "Entrou no modo de tela inteira"
+msgstr "Entrou no modo de tela cheia"
 
 #: lib/contents/ui/WebView.qml:262
 #, kde-format
 msgctxt "@action:button"
 msgid "Exit Full Screen (Esc)"
-msgstr "Sair da tela inteira (Esc)"
+msgstr "Sair da tela cheia (Esc)"
 
 #: lib/contents/ui/WebView.qml:397
 #, kde-format
@@ -338,13 +338,13 @@ msgstr "Repetição"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Exit Fullscreen"
-msgstr "Sair da tela inteira"
+msgstr "Sair da tela cheia"
 
 #: lib/contents/ui/WebView.qml:446
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enter Fullscreen"
-msgstr "Entrar em tela inteira"
+msgstr "Entrar em tela cheia"
 
 #: lib/contents/ui/WebView.qml:459
 #, kde-format
@@ -631,7 +631,7 @@ msgstr "Imprimir"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Full Screen"
-msgstr "Tela inteira"
+msgstr "Tela cheia"
 
 #: src/qml/desktop/Desktop.qml:352
 #, kde-format
