@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: 2025 Yelsin Sepulveda <yelsinsepulveda@gmail.com>
+// SPDX-FileCopyrightText: 2025 Yelsin Sepulveda <yelsin.sepulveda@kdemail.net>
 // SPDX-License-Identifier: LGPL-2.0-only
 
 #pragma once
