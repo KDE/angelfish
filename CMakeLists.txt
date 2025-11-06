@@ -62,6 +62,11 @@ find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami Purpose I18n Con
 find_package(KF6KirigamiAddons 0.6 REQUIRED)
 set_package_properties(KF6QQC2DesktopStyle PROPERTIES TYPE RUNTIME)
 
+# TODO: This should probably be done in QCoros installed CMake file instead.
+if(Qt6Core_VERSION VERSION_GREATER_EQUAL "6.9.0")
+    find_package(Qt6 ${REQUIRED_QT_VERSION} CONFIG REQUIRED QmlPrivate)
+endif()
+
 # Necessary to support QtWebEngine installed in a different prefix than the rest of Qt (e.g flatpak)
 find_package(Qt6WebEngineCore REQUIRED)
 find_package(Qt6WebEngineQuick REQUIRED)
