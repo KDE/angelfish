@@ -14,8 +14,8 @@ msgstr ""
 "X-Crowdin-Project: kdeorg\n"
 "X-Crowdin-Project-ID: 269464\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /kf6-trunk/messages/angelfish/angelfish.pot\n"
-"X-Crowdin-File-ID: 46249\n"
+"X-Crowdin-File: /kf6-stable/messages/angelfish/angelfish.pot\n"
+"X-Crowdin-File-ID: 51438\n"
 
 #: angelfish-webapp/main.cpp:66
 #, kde-format
