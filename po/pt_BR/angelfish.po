@@ -5,20 +5,21 @@
 # André Marcelo Alvarenga <alvarenga@kde.org>, 2019, 2020.
 # Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2019, 2020, 2021, 2022, 2023.
 # SPDX-FileCopyrightText: 2025 Marcus Gama <marcus.gama@gmail.com>
+# SPDX-FileCopyrightText: 2025 Guilherme Marçal Silva <guimarcalsilva@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-19 05:21+0000\n"
-"PO-Revision-Date: 2025-09-14 08:37-0300\n"
-"Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
+"PO-Revision-Date: 2025-11-08 21:10-0300\n"
+"Last-Translator: Guilherme Marçal Silva <guimarcalsilva@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.08.1\n"
+"X-Generator: Lokalize 25.08.2\n"
 
 #: angelfish-webapp/main.cpp:66
 #, kde-format
@@ -546,7 +547,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info"
 msgid "Downloading…"
-msgstr "Baixando..."
+msgstr "Baixando…"
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:43
 #, kde-format
@@ -558,7 +559,7 @@ msgstr "Habilitar bloqueador de anúncios"
 #, kde-format
 msgctxt "@info"
 msgid "Adblock Disabled…"
-msgstr "Bloqueador de anúncios desabilitado..."
+msgstr "Bloqueador de anúncios desabilitado…"
 
 #: src/qml/Bookmarks.qml:13
 #, kde-format
@@ -570,7 +571,7 @@ msgstr "Favoritos"
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search bookmarks…"
-msgstr "Pesquisar favoritos..."
+msgstr "Pesquisar favoritos…"
 
 #: src/qml/desktop/BookmarksPage.qml:79
 #, kde-format
@@ -582,7 +583,7 @@ msgstr "Nenhum favorito ainda"
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
-msgstr "Pesquisar ou digitar URL..."
+msgstr "Pesquisar ou digitar URL…"
 
 #: src/qml/desktop/Desktop.qml:279 src/qml/desktop/DesktopTabs.qml:362
 #: src/qml/Navigation.qml:443
@@ -787,7 +788,7 @@ msgstr "Interrompido"
 #, kde-format
 msgctxt "@info:progress"
 msgid "In progress…"
-msgstr "Em andamento..."
+msgstr "Em andamento…"
 
 #: src/qml/Downloads.qml:93
 #, kde-format
