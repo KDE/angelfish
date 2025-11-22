@@ -144,6 +144,25 @@ Controls.Drawer {
     }
 
     onOpened: {
+        updateOnOpened();
+    }
+
+    onClosed: {
+        openedState = false;
+        currentWebView.forceActiveFocus();
+    }
+
+    Connections {
+        target: webBrowser
+        function onCurrentWebViewChanged() {
+            if (overlay.opened) {
+                updateOnOpened();
+            }
+        }
+    }
+
+    function updateOnOpened() {
+        if (!currentWebView) return;
         // check if the drawer was just slightly slided
         if (openedState) return;
         urlInput.text = currentWebView.requestedUrl;
@@ -152,10 +171,5 @@ Controls.Drawer {
         urlFilter.filter = "";
         openedState = true;
         listView.positionViewAtBeginning();
-    }
-
-    onClosed: {
-        openedState = false;
-        currentWebView.forceActiveFocus();
     }
 }
