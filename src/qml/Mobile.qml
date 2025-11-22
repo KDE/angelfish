@@ -417,7 +417,7 @@ Kirigami.ApplicationWindow {
                 icon.name: "dialog-scripts"
                 text: i18nc("@action:inmenu", "Show Developer Tools")
                 checkable: true
-                checked: tabs.itemAt(tabs.currentIndex).isDeveloperToolsOpen
+                checked: tabs.itemAt(tabs.currentIndex) && tabs.itemAt(tabs.currentIndex).isDeveloperToolsOpen
                 onTriggered: {
                     tabs.tabsModel.toggleDeveloperTools(tabs.currentIndex)
                 }
