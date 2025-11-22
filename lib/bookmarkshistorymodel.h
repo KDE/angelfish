@@ -11,14 +11,13 @@
 
 
 struct BookmarksHistoryRecord {
-    using ColumnTypes = std::tuple<int, QString, QString, QString, int>;
+    using ColumnTypes = std::tuple<int, QString, QString, int>;
 
     bool operator==(const BookmarksHistoryRecord &other) const = default;
 
     int id;
     QString url;
     QString title;
-    QString icon;
     int lastVisitedDelta;
 };
 
@@ -47,7 +46,6 @@ class BookmarksHistoryModel : public QAbstractListModel
         Id = Qt::UserRole + 1,
         Url,
         Title,
-        Icon,
         LastVisitedDelta
     };
 

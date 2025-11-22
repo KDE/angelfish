@@ -26,7 +26,6 @@ QHash<int, QByteArray> BookmarksHistoryModel::roleNames() const {
         {Id, "id"},
         {Url, "url"},
         {Title, "title"},
-        {Icon, "iconName"},
         {LastVisitedDelta, "lastVisitedDelte"}
     };
 }
@@ -41,8 +40,6 @@ QVariant BookmarksHistoryModel::data(const QModelIndex &index, int role) const
         return item.title;
     case Role::Url:
         return item.url;
-    case Role::Icon:
-        return item.icon;
     case Role::LastVisitedDelta:
         return item.lastVisitedDelta;
     }
@@ -115,7 +112,7 @@ void BookmarksHistoryModel::fetchData()
 
         if (bookmarks && history) {
             co_return co_await db->getResults<BookmarksHistoryRecord>(
-                QStringLiteral("SELECT rowid AS id, url, title, icon, ? - lastVisited AS lastVisitedDelta "
+                QStringLiteral("SELECT rowid AS id, url, title, ? - lastVisited AS lastVisitedDelta "
                                "FROM (SELECT * FROM bookmarks UNION SELECT * FROM history) "
                                "WHERE url LIKE '%' || ? || '%' OR title LIKE '%' || ? || '%' "
                                "ORDER BY CASE WHEN rowid IN (SELECT rowid FROM history) THEN lastVisited END DESC, "
@@ -124,13 +121,13 @@ void BookmarksHistoryModel::fetchData()
                     currentTimeInUnix, filter, filter);
         } else if (bookmarks) {
             co_return co_await db->getResults<BookmarksHistoryRecord>(
-                QStringLiteral("SELECT rowid AS id, url, title, icon, ? - lastVisited AS lastVisitedDelta "
+                QStringLiteral("SELECT rowid AS id, url, title, ? - lastVisited AS lastVisitedDelta "
                                "FROM bookmarks "
                                "WHERE url LIKE '%' || ? || '%' OR title LIKE '%' || ? || '%'"),
                     currentTimeInUnix, filter, filter);
         } else if (history) {
             co_return co_await db->getResults<BookmarksHistoryRecord>(
-                QStringLiteral("SELECT rowid AS id, url, title, icon, ? - lastVisited AS lastVisitedDelta "
+                QStringLiteral("SELECT rowid AS id, url, title, ? - lastVisited AS lastVisitedDelta "
                                "FROM history "
                                "WHERE url LIKE '%' || ? || '%' OR title LIKE '%' || ? || '%'"
                                "ORDER BY lastvisited DESC "

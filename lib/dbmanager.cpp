@@ -42,7 +42,6 @@ DBManager::DBManager(QObject *parent)
     // TODO DB: Add back migrations
 
     trimHistory();
-    trimIcons();
 }
 
 QCoro::Task<> DBManager::execute(const QString command)
@@ -58,27 +57,19 @@ QCoro::Task<> DBManager::trimHistory()
                 MAX_BROWSER_HISTORY_SIZE);
 }
 
-QCoro::Task<> DBManager::trimIcons()
-{
-    co_await m_database->execute(
-        QStringLiteral("DELETE FROM icons WHERE url NOT IN "
-                       "(SELECT icon FROM history UNION SELECT icon FROM bookmarks)"));
-}
-
 QCoro::Task<> DBManager::addRecord(const QString table, const QVariantMap pagedata)
 {
     const QString url = pagedata.value(QStringLiteral("url")).toString();
     const QString title = pagedata.value(QStringLiteral("title")).toString();
-    const QString icon = pagedata.value(QStringLiteral("icon")).toString();
     const qint64 lastVisited = QDateTime::currentSecsSinceEpoch();
 
     if (url.isEmpty() || url == QStringLiteral("about:blank"))
         co_return;
 
     co_await m_database->execute(QStringLiteral(
-                                "INSERT OR REPLACE INTO %1 (url, title, icon, lastVisited) "
+                                "INSERT OR REPLACE INTO %1 (url, title, lastVisited) "
                                 "VALUES (?, ?, ?, ?)").arg(table),
-                                url, title, icon, lastVisited);
+                                url, title, lastVisited);
 
     Q_EMIT databaseTableChanged(table);
 }

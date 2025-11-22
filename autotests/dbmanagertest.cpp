@@ -32,8 +32,7 @@ private Q_SLOTS:
         QSignalSpy spy(m_dbmanager, &DBManager::databaseTableChanged);
         auto future = m_dbmanager->addBookmark({
             {QStringLiteral("url"), QStringLiteral("https://kde.org")},
-            {QStringLiteral("title"), QStringLiteral("KDE")},
-            {QStringLiteral("icon"), QStringLiteral("TESTDATA")}
+            {QStringLiteral("title"), QStringLiteral("KDE")}
         });
 
         QCoro::waitFor(future);
@@ -45,8 +44,8 @@ private Q_SLOTS:
         QSignalSpy spy(m_dbmanager, &DBManager::databaseTableChanged);
         auto future = m_dbmanager->addToHistory({
             {QStringLiteral("url"), QStringLiteral("https://kde.org")},
-            {QStringLiteral("title"), QStringLiteral("KDE")},
-            {QStringLiteral("icon"), QStringLiteral("TESTDATA")}});
+            {QStringLiteral("title"), QStringLiteral("KDE")}
+        });
 
         QCoro::waitFor(future);
         QCOMPARE(spy.count(), 1);
