@@ -68,7 +68,7 @@ QCoro::Task<> DBManager::addRecord(const QString table, const QVariantMap pageda
 
     co_await m_database->execute(QStringLiteral(
                                 "INSERT OR REPLACE INTO %1 (url, title, lastVisited) "
-                                "VALUES (?, ?, ?, ?)").arg(table),
+                                "VALUES (?, ?, ?)").arg(table),
                                 url, title, lastVisited);
 
     Q_EMIT databaseTableChanged(table);
