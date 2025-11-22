@@ -38,7 +38,7 @@ Controls.Drawer {
             subtitle: model.url
 
             icon {
-                name: model.icon.name > 0 ? model.icon.name : "internet-services"
+                name: "image://favicon/" + model.url
                 width: Kirigami.Units.largeSpacing * 3
                 height: Kirigami.Units.largeSpacing * 3
             }

@@ -62,7 +62,6 @@ public Q_SLOTS:
     void clearHistory();
 
     void updateLastVisited(const QString &url);
-    void updateIcon(const QString &url, const QString &iconSource);
 
     QString tempDirectory() const;
     QString downloadDirectory() const;

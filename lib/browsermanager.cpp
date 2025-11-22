@@ -57,13 +57,6 @@ void BrowserManager::updateLastVisited(const QString &url)
     m_dbmanager->updateLastVisited(url);
 }
 
-void BrowserManager::updateIcon(const QString &url, const QString &iconSource)
-{
-    auto *engine = qmlEngine(this);
-    Q_ASSERT(engine);
-    m_dbmanager->updateIcon(engine, url, iconSource);
-}
-
 QUrl BrowserManager::initialUrl() const
 {
     return m_initialUrl;

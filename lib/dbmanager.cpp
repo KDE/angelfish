@@ -4,7 +4,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include "dbmanager.h"
-#include "iconimageprovider.h"
 
 #include <QDateTime>
 #include <QDebug>
@@ -112,16 +111,6 @@ QCoro::Task<bool> DBManager::hasRecord(const QString table, const QString url) c
     co_return false;
 }
 
-QCoro::Task<> DBManager::updateIconRecord(const QString table, const QString url, const QString iconSource)
-{
-    if (url.isEmpty())
-        co_return;
-
-    m_database->execute(QStringLiteral("UPDATE %1 SET icon = ? WHERE url = ?").arg(table), iconSource, url);
-
-    Q_EMIT databaseTableChanged(table);
-}
-
 QCoro::Task<> DBManager::setLastVisitedRecord(const QString table, const QString url)
 {
     if (url.isEmpty())
@@ -167,13 +156,6 @@ QCoro::Task<> DBManager::updateLastVisited(const QString url)
 {
     co_await setLastVisitedRecord(QStringLiteral("bookmarks"), url);
     co_await setLastVisitedRecord(QStringLiteral("history"), url);
-}
-
-QCoro::Task<> DBManager::updateIcon(QQmlEngine *engine, const QString url, const QString iconSource)
-{
-    const QString updatedSource = co_await storeIcon(engine, iconSource);
-    co_await updateIconRecord(QStringLiteral("bookmarks"), url, updatedSource);
-    co_await updateIconRecord(QStringLiteral("history"), url, updatedSource);
 }
 
 #include "moc_dbmanager.cpp"

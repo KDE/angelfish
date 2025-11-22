@@ -124,7 +124,7 @@ Controls.Drawer {
                 showRemove: false
 
                 icon {
-                    name: model.iconName.length > 0 ? model.iconName : "internet-services"
+                    name: "image://favicon/" + model.url
                     width: Kirigami.Units.largeSpacing * 3
                     height: Kirigami.Units.largeSpacing * 3
                 }

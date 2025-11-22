@@ -21,7 +21,6 @@
 
 #include "angelfishsettings.h"
 #include "browsermanager.h"
-#include "iconimageprovider.h"
 
 constexpr auto APPLICATION_ID = "org.kde.angelfish";
 
@@ -70,8 +69,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     // QML loading
     QQmlApplicationEngine engine;
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
-
-    engine.addImageProvider(IconImageProvider::providerId(), new IconImageProvider());
 
     if (parser.positionalArguments().isEmpty()) {
         return 1;

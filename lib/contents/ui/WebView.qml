@@ -232,11 +232,6 @@ classes
         print("Settings: " + webEngineView.settings);
     }
 
-    onIconChanged: {
-        if (icon && !privateMode) {
-            Core.BrowserManager.updateIcon(url, icon)
-        }
-    }
     onNewWindowRequested: request => {
         if (request.userInitiated) {
             tabsModel.newTab(request.requestedUrl.toString())

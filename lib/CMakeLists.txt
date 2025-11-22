@@ -20,7 +20,6 @@ ecm_add_qml_module(AngelfishCore
         browsermanager.cpp
         bookmarkshistorymodel.cpp
         dbmanager.cpp
-        iconimageprovider.cpp
         urlutils.cpp
         urlobserver.cpp
         useragent.cpp

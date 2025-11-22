@@ -27,7 +27,6 @@
 #include "angelfishsettings.h"
 #include "browsermanager.h"
 #include "version.h"
-#include "iconimageprovider.h"
 #include "tabsmodel.h"
 
 namespace ranges = std::ranges;
@@ -131,8 +130,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     });
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
-
-    engine.addImageProvider(IconImageProvider::providerId(), new IconImageProvider());
 
     // initial url command line parameter
     if (!parser.positionalArguments().isEmpty()) {

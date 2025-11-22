@@ -42,7 +42,6 @@ public:
     QCoro::Task<> removeFromHistory(const QString url);
     QCoro::Task<> clearHistory();
 
-    QCoro::Task<> updateIcon(QQmlEngine *engine, const QString url, const QString iconSource);
     QCoro::Task<> updateLastVisited(const QString url);
 
     inline std::shared_ptr<ThreadedDatabase> database() {
@@ -62,7 +61,6 @@ private:
     QCoro::Task<> addRecord(const QString table, const QVariantMap pagedata);
     QCoro::Task<> removeRecord(const QString table, const QString url);
     QCoro::Task<> removeAllRecords(const QString table);
-    QCoro::Task<> updateIconRecord(const QString table, const QString url, const QString iconSource);
     QCoro::Task<> setLastVisitedRecord(const QString table, const QString url);
     QCoro::Task<bool> hasRecord(const QString table, const QString url) const;
 
