@@ -58,7 +58,7 @@ fn new_adblock(list_dir: &str) -> Box<Adblock> {
 fn load_adblock(path: &str) -> Box<Adblock> {
     let engine = match fs::read(path) {
         Ok(data) => {
-            let mut engine = Engine::new(true);
+            let mut engine = Engine::default();
             match engine.deserialize(&data) {
                 Ok(()) => Some(engine),
                 Err(e) => {
@@ -123,16 +123,16 @@ impl Adblock {
     fn save(&self, path: &str) -> bool {
         match fs::File::create(path) {
             Ok(mut file) => match &self.blocker {
-                Some(engine) => match engine.serialize_raw() {
-                    Ok(data) => match file.write_all(&data) {
+                Some(engine) => {
+                    let data = engine.serialize();
+                    match file.write_all(&data) {
                         Ok(()) => {
                             adblock_debug!("Successfully saved adblock cache");
                             return true;
                         }
                         Err(e) => adblock_debug!("Failed to write adblock cache: {:?}", e),
-                    },
-                    Err(e) => adblock_debug!("Can't save adblock cache: {:?}", e),
-                },
+                    }
+                }
                 None => adblock_debug!("Can't save adblock cache, since the engine is not loaded."),
             },
             Err(e) => adblock_debug!("Can't save adblock cache, failed to write to file: {:?}", e),
