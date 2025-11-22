@@ -48,7 +48,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     // Setup QtWebEngine
     qputenv("QTWEBENGINE_DIALOG_SET", "QtQuickControls2");
-    QString chromiumFlags = QString::fromLocal8Bit(qgetenv("QTWEBENGINE_CHROMIUM_FLAGS"));
+    QString chromiumFlags = qEnvironmentVariable("QTWEBENGINE_CHROMIUM_FLAGS");
     if (AngelfishSettings::self()->webSmoothScrollingEnabled()) {
         chromiumFlags.append(QStringLiteral(" --enable-smooth-scrolling"));
     }
