@@ -235,7 +235,7 @@ classes
     onNewWindowRequested: request => {
         if (request.userInitiated) {
             tabsModel.newTab(request.requestedUrl.toString())
-            showPassiveNotification(i18nc("@info:status", "Website was opened in a new tab"))
+            showPassiveNotification(i18nc("@info:status", "Website was opened in a new tab"), "short")
         } else {
             questionLoader.setSource("NewTabQuestion.qml")
             questionLoader.item.url = request.requestedUrl
