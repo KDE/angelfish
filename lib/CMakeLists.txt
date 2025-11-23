@@ -10,6 +10,7 @@ ecm_add_qml_module(AngelfishCore
         contents/ui/ErrorHandler.qml
         contents/ui/JavaScriptDialogSheet.qml
         contents/ui/ListWebView.qml
+        contents/ui/NewTabQuestion.qml
         contents/ui/PermissionQuestion.qml
         contents/ui/PrintPreview.qml
         contents/ui/Questions.qml

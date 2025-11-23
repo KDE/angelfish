@@ -36,7 +36,6 @@ ecm_target_qml_sources(angelfish
         qml/Mobile.qml
         qml/Navigation.qml
         qml/NavigationEntrySheet.qml
-        qml/NewTabQuestion.qml
         qml/ShareSheet.qml
         qml/Tabs.qml
         qml/UrlDelegate.qml
