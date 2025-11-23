@@ -3,16 +3,16 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 import QtQuick 2.3
+import QtQuick.Layouts
 
-Item {
+ColumnLayout {
     id: questions
 
     Component {
         id: permissionQuestion
 
         PermissionQuestion {
-            anchors.left: questions.left
-            anchors.right: questions.right
+            Layout.fillWidth: true
         }
     }
 
