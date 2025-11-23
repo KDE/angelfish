@@ -57,10 +57,10 @@ Repeater {
         property bool showView: index === tabs.currentIndex
         property bool isVisible: (showView || readyForSnapshot || pageWebView.loadingActive) && tabs.activeTabs
         property alias pageWebView: pageWebViewLoader.item
-        property string title: pageWebView.title
-        property var icon: pageWebView.icon
-        property bool readerMode: pageWebView.readerMode
-        property string readerTitle: pageWebView.readerTitle
+        property string title: pageWebView ? pageWebView.title : i18nc("@title:webview", "Loading")
+        property var icon: pageWebView ? pageWebView.icon : null
+        property bool readerMode: pageWebView && pageWebView.readerMode
+        property string readerTitle: pageWebView ? pageWebView.readerTitle : i18nc("@title:webview", "Loading")
 
         onShowViewChanged: {
             if (showView) {
