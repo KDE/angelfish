@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:51+0000\n"
+"POT-Creation-Date: 2025-11-23 00:42+0000\n"
 "PO-Revision-Date: 2025-08-06 17:27+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -18,22 +18,22 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Lokalize 23.08.5\n"
 
-#: angelfish-webapp/main.cpp:66
+#: angelfish-webapp/main.cpp:65
 #, kde-format
 msgid "desktop file to open"
 msgstr "ملف سطح مكتب للفتح"
 
-#: angelfish-webapp/main.cpp:93
+#: angelfish-webapp/main.cpp:90
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr "بيئة انجيلفيش لتشغيل تطبيقات الويب"
 
-#: angelfish-webapp/main.cpp:95
+#: angelfish-webapp/main.cpp:92
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "جميع الحقوق محفوظة 2020 لمطوري انجيلقيش"
 
-#: angelfish-webapp/main.cpp:97
+#: angelfish-webapp/main.cpp:94
 #, kde-format
 msgid "Marco Martin"
 msgstr "ماركو مارتن"
@@ -273,254 +273,254 @@ msgctxt "@label:checkbox"
 msgid "Print backgrounds"
 msgstr "اطبع الخلفيات"
 
-#: lib/contents/ui/WebView.qml:243
+#: lib/contents/ui/WebView.qml:238
 #, kde-format
 msgctxt "@info:status"
 msgid "Website was opened in a new tab"
 msgstr "الموقع فتح في لسان جديد"
 
-#: lib/contents/ui/WebView.qml:261
+#: lib/contents/ui/WebView.qml:256
 #, kde-format
 msgctxt "@info:status"
 msgid "Entered Full Screen mode"
 msgstr "ادخل وضع ملئ الشاشة"
 
-#: lib/contents/ui/WebView.qml:262
+#: lib/contents/ui/WebView.qml:257
 #, kde-format
 msgctxt "@action:button"
 msgid "Exit Full Screen (Esc)"
 msgstr "اخرج من ملئ الشاشة (Esc)"
 
-#: lib/contents/ui/WebView.qml:397
+#: lib/contents/ui/WebView.qml:392
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Play"
 msgstr "شغّل"
 
-#: lib/contents/ui/WebView.qml:398
+#: lib/contents/ui/WebView.qml:393
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Pause"
 msgstr "ألبث"
 
-#: lib/contents/ui/WebView.qml:405
+#: lib/contents/ui/WebView.qml:400
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Unmute"
 msgstr "ألغ الكتم"
 
-#: lib/contents/ui/WebView.qml:406
+#: lib/contents/ui/WebView.qml:401
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Mute"
 msgstr "اكتم"
 
-#: lib/contents/ui/WebView.qml:416
+#: lib/contents/ui/WebView.qml:411
 #, kde-format
 msgctxt "@label"
 msgid "Speed"
 msgstr "السرعة"
 
-#: lib/contents/ui/WebView.qml:439
+#: lib/contents/ui/WebView.qml:434
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Loop"
 msgstr "تكرار"
 
-#: lib/contents/ui/WebView.qml:446
+#: lib/contents/ui/WebView.qml:441
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Exit Fullscreen"
 msgstr "أخرج من ملء الشّاشة"
 
-#: lib/contents/ui/WebView.qml:446
+#: lib/contents/ui/WebView.qml:441
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enter Fullscreen"
 msgstr "ادخل ملء الشّاشة"
 
-#: lib/contents/ui/WebView.qml:459
+#: lib/contents/ui/WebView.qml:454
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Controls"
 msgstr "أخف أدوات التحكم"
 
-#: lib/contents/ui/WebView.qml:460
+#: lib/contents/ui/WebView.qml:455
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Controls"
 msgstr "اظهر أدوات التحكم"
 
-#: lib/contents/ui/WebView.qml:468
+#: lib/contents/ui/WebView.qml:463
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video"
 msgstr "افتح الفيديو"
 
-#: lib/contents/ui/WebView.qml:468
+#: lib/contents/ui/WebView.qml:463
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio"
 msgstr "افتح صوتًا"
 
-#: lib/contents/ui/WebView.qml:469
+#: lib/contents/ui/WebView.qml:464
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video in New Tab"
 msgstr "افتح الفيديو في لسان جديد"
 
-#: lib/contents/ui/WebView.qml:469
+#: lib/contents/ui/WebView.qml:464
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio in New Tab"
 msgstr "افتح الصوت في لسان جديد"
 
-#: lib/contents/ui/WebView.qml:481
+#: lib/contents/ui/WebView.qml:476
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Video"
 msgstr "احفظ الفيديو"
 
-#: lib/contents/ui/WebView.qml:487
+#: lib/contents/ui/WebView.qml:482
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Video Link"
 msgstr "انسخ رابط الفيديو"
 
-#: lib/contents/ui/WebView.qml:493
+#: lib/contents/ui/WebView.qml:488
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image"
 msgstr "افتح صورة"
 
-#: lib/contents/ui/WebView.qml:493
+#: lib/contents/ui/WebView.qml:488
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image in New Tab"
 msgstr "افتح الصورة في لسان جديد"
 
-#: lib/contents/ui/WebView.qml:505
+#: lib/contents/ui/WebView.qml:500
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Image"
 msgstr "احفظ الصّورة"
 
-#: lib/contents/ui/WebView.qml:511
+#: lib/contents/ui/WebView.qml:506
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image"
 msgstr "انسخ الصورة"
 
-#: lib/contents/ui/WebView.qml:517
+#: lib/contents/ui/WebView.qml:512
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image Link"
 msgstr "انسخ رابط الصورة"
 
-#: lib/contents/ui/WebView.qml:523
+#: lib/contents/ui/WebView.qml:518
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Link"
 msgstr "افتح الوصلة"
 
-#: lib/contents/ui/WebView.qml:523
+#: lib/contents/ui/WebView.qml:518
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Link in New Tab"
 msgstr "افتح الرابط في لسان جديد"
 
-#: lib/contents/ui/WebView.qml:535
+#: lib/contents/ui/WebView.qml:530
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Link"
 msgstr "أضف الرابط للمفضلة"
 
-#: lib/contents/ui/WebView.qml:547
+#: lib/contents/ui/WebView.qml:542
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Link"
 msgstr "احفظ الرابط"
 
-#: lib/contents/ui/WebView.qml:553
+#: lib/contents/ui/WebView.qml:548
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Link"
 msgstr "انسخ الرابط"
 
-#: lib/contents/ui/WebView.qml:560
+#: lib/contents/ui/WebView.qml:555
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy"
 msgstr "انسخ"
 
-#: lib/contents/ui/WebView.qml:566
+#: lib/contents/ui/WebView.qml:561
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Cut"
 msgstr "قصّ"
 
-#: lib/contents/ui/WebView.qml:572
+#: lib/contents/ui/WebView.qml:567
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "ألصِق"
 
-#: lib/contents/ui/WebView.qml:580
+#: lib/contents/ui/WebView.qml:575
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "ابحث عن “%1”"
 
-#: lib/contents/ui/WebView.qml:593 src/qml/desktop/Desktop.qml:378
+#: lib/contents/ui/WebView.qml:588 src/qml/desktop/Desktop.qml:378
 #: src/qml/Mobile.qml:322
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
 msgstr "شارك الصفحة"
 
-#: lib/contents/ui/WebView.qml:605
+#: lib/contents/ui/WebView.qml:600
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "View Page Source"
 msgstr "اعرض النص المصدري للصفحة"
 
-#: src/main.cpp:73
+#: src/main.cpp:72
 #, kde-format
 msgid "URL to open"
 msgstr "رابط ليفتح"
 
-#: src/main.cpp:84
+#: src/main.cpp:83
 #, kde-format
 msgid "Angelfish"
 msgstr "انجلفش"
 
-#: src/main.cpp:86
+#: src/main.cpp:85
 #, kde-format
 msgid "Web browser for Plasma Mobile"
 msgstr "متصفح ويب لبلازما الجوال"
 
-#: src/main.cpp:88
+#: src/main.cpp:87
 #, kde-format
 msgid "© 2015-2024 KDE Community"
 msgstr "© 2015-2024 مجتمع كِيدِي"
 
-#: src/main.cpp:91
+#: src/main.cpp:90
 #, kde-format
 msgid "Jonah Brüchert"
 msgstr "جوناه بروكيرت"
 
-#: src/main.cpp:91
+#: src/main.cpp:90
 #, kde-format
 msgid "Maintainer"
 msgstr "الصائن"
 
-#: src/main.cpp:92
+#: src/main.cpp:91
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "عبدالله الفضل"
 
-#: src/main.cpp:92
+#: src/main.cpp:91
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"

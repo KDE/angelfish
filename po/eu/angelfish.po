@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:51+0000\n"
+"POT-Creation-Date: 2025-11-23 00:42+0000\n"
 "PO-Revision-Date: 2025-05-23 23:46+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -20,22 +20,22 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 25.04.1\n"
 
-#: angelfish-webapp/main.cpp:66
+#: angelfish-webapp/main.cpp:65
 #, kde-format
 msgid "desktop file to open"
 msgstr "Ireki beharreko mahaigaineko fitxategia"
 
-#: angelfish-webapp/main.cpp:93
+#: angelfish-webapp/main.cpp:90
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr "Angelfish web aplikazioak exekutatzeko ingurunea"
 
-#: angelfish-webapp/main.cpp:95
+#: angelfish-webapp/main.cpp:92
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "Copyright 2020 Angelfish garatzaileak"
 
-#: angelfish-webapp/main.cpp:97
+#: angelfish-webapp/main.cpp:94
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
@@ -279,254 +279,254 @@ msgctxt "@label:checkbox"
 msgid "Print backgrounds"
 msgstr "Inprimatu atzeko planoak"
 
-#: lib/contents/ui/WebView.qml:243
+#: lib/contents/ui/WebView.qml:238
 #, kde-format
 msgctxt "@info:status"
 msgid "Website was opened in a new tab"
 msgstr "Webgunea fitxa berri batean ireki da"
 
-#: lib/contents/ui/WebView.qml:261
+#: lib/contents/ui/WebView.qml:256
 #, kde-format
 msgctxt "@info:status"
 msgid "Entered Full Screen mode"
 msgstr "Pantaila osoko moduan sartu da"
 
-#: lib/contents/ui/WebView.qml:262
+#: lib/contents/ui/WebView.qml:257
 #, kde-format
 msgctxt "@action:button"
 msgid "Exit Full Screen (Esc)"
 msgstr "Irten pantaila osotik (Ihes)"
 
-#: lib/contents/ui/WebView.qml:397
+#: lib/contents/ui/WebView.qml:392
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Play"
 msgstr "Jo"
 
-#: lib/contents/ui/WebView.qml:398
+#: lib/contents/ui/WebView.qml:393
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Pause"
 msgstr "Etenaldia"
 
-#: lib/contents/ui/WebView.qml:405
+#: lib/contents/ui/WebView.qml:400
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Unmute"
 msgstr "Ozendu"
 
-#: lib/contents/ui/WebView.qml:406
+#: lib/contents/ui/WebView.qml:401
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Mute"
 msgstr "Isilarazi"
 
-#: lib/contents/ui/WebView.qml:416
+#: lib/contents/ui/WebView.qml:411
 #, kde-format
 msgctxt "@label"
 msgid "Speed"
 msgstr "Abiadura"
 
-#: lib/contents/ui/WebView.qml:439
+#: lib/contents/ui/WebView.qml:434
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Loop"
 msgstr "Begizta"
 
-#: lib/contents/ui/WebView.qml:446
+#: lib/contents/ui/WebView.qml:441
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Exit Fullscreen"
 msgstr "Irten Pantaila osotik"
 
-#: lib/contents/ui/WebView.qml:446
+#: lib/contents/ui/WebView.qml:441
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enter Fullscreen"
 msgstr "Sartu pantaila osoan"
 
-#: lib/contents/ui/WebView.qml:459
+#: lib/contents/ui/WebView.qml:454
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Controls"
 msgstr "Ezkutatu aginteak"
 
-#: lib/contents/ui/WebView.qml:460
+#: lib/contents/ui/WebView.qml:455
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Controls"
 msgstr "Erakutsi aginteak"
 
-#: lib/contents/ui/WebView.qml:468
+#: lib/contents/ui/WebView.qml:463
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video"
 msgstr "Ireki bideoa"
 
-#: lib/contents/ui/WebView.qml:468
+#: lib/contents/ui/WebView.qml:463
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio"
 msgstr "Ireki audioa"
 
-#: lib/contents/ui/WebView.qml:469
+#: lib/contents/ui/WebView.qml:464
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video in New Tab"
 msgstr "Ireki bideoa fitxa berrian"
 
-#: lib/contents/ui/WebView.qml:469
+#: lib/contents/ui/WebView.qml:464
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio in New Tab"
 msgstr "Ireki audioa fitxa berrian"
 
-#: lib/contents/ui/WebView.qml:481
+#: lib/contents/ui/WebView.qml:476
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Video"
 msgstr "Gorde bideoa"
 
-#: lib/contents/ui/WebView.qml:487
+#: lib/contents/ui/WebView.qml:482
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Video Link"
 msgstr "Kopiatu bideoaren esteka"
 
-#: lib/contents/ui/WebView.qml:493
+#: lib/contents/ui/WebView.qml:488
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image"
 msgstr "Ireki irudia"
 
-#: lib/contents/ui/WebView.qml:493
+#: lib/contents/ui/WebView.qml:488
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image in New Tab"
 msgstr "Ireki irudia fitxa berrian"
 
-#: lib/contents/ui/WebView.qml:505
+#: lib/contents/ui/WebView.qml:500
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Image"
 msgstr "Gorde irudia"
 
-#: lib/contents/ui/WebView.qml:511
+#: lib/contents/ui/WebView.qml:506
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image"
 msgstr "Kopiatu irudia"
 
-#: lib/contents/ui/WebView.qml:517
+#: lib/contents/ui/WebView.qml:512
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image Link"
 msgstr "Kopiatu irudiaren esteka"
 
-#: lib/contents/ui/WebView.qml:523
+#: lib/contents/ui/WebView.qml:518
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Link"
 msgstr "Ireki esteka"
 
-#: lib/contents/ui/WebView.qml:523
+#: lib/contents/ui/WebView.qml:518
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Link in New Tab"
 msgstr "Ireki esteka fitxa berrian"
 
-#: lib/contents/ui/WebView.qml:535
+#: lib/contents/ui/WebView.qml:530
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Link"
 msgstr "Egin estekaren laster-marka"
 
-#: lib/contents/ui/WebView.qml:547
+#: lib/contents/ui/WebView.qml:542
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Link"
 msgstr "Gorde esteka"
 
-#: lib/contents/ui/WebView.qml:553
+#: lib/contents/ui/WebView.qml:548
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Link"
 msgstr "Kopiatu esteka"
 
-#: lib/contents/ui/WebView.qml:560
+#: lib/contents/ui/WebView.qml:555
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy"
 msgstr "Kopiatu"
 
-#: lib/contents/ui/WebView.qml:566
+#: lib/contents/ui/WebView.qml:561
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Cut"
 msgstr "Ebaki"
 
-#: lib/contents/ui/WebView.qml:572
+#: lib/contents/ui/WebView.qml:567
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "Itsatsi"
 
-#: lib/contents/ui/WebView.qml:580
+#: lib/contents/ui/WebView.qml:575
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "Bilatu \"%1\""
 
-#: lib/contents/ui/WebView.qml:593 src/qml/desktop/Desktop.qml:378
+#: lib/contents/ui/WebView.qml:588 src/qml/desktop/Desktop.qml:378
 #: src/qml/Mobile.qml:322
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
 msgstr "Partekatu orria"
 
-#: lib/contents/ui/WebView.qml:605
+#: lib/contents/ui/WebView.qml:600
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "View Page Source"
 msgstr "Ikusi orriaren sorburua"
 
-#: src/main.cpp:73
+#: src/main.cpp:72
 #, kde-format
 msgid "URL to open"
 msgstr "Ireki beharreko URLa"
 
-#: src/main.cpp:84
+#: src/main.cpp:83
 #, kde-format
 msgid "Angelfish"
 msgstr "Angelfish"
 
-#: src/main.cpp:86
+#: src/main.cpp:85
 #, kde-format
 msgid "Web browser for Plasma Mobile"
 msgstr "Plasma Mugikorrerako web-arakatzailea"
 
-#: src/main.cpp:88
+#: src/main.cpp:87
 #, kde-format
 msgid "© 2015-2024 KDE Community"
 msgstr "© 2015-2024 KDE Komunitatea"
 
-#: src/main.cpp:91
+#: src/main.cpp:90
 #, kde-format
 msgid "Jonah Brüchert"
 msgstr "Jonah Brüchert"
 
-#: src/main.cpp:91
+#: src/main.cpp:90
 #, kde-format
 msgid "Maintainer"
 msgstr "Mantentzailea"
 
-#: src/main.cpp:92
+#: src/main.cpp:91
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Iñigo Salvador Azurmendi"
 
-#: src/main.cpp:92
+#: src/main.cpp:91
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:51+0000\n"
+"POT-Creation-Date: 2025-11-23 00:42+0000\n"
 "PO-Revision-Date: 2020-06-03 20:47+0300\n"
 "Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
 "Language-Team: Estonian <kde-et@lists.linux.ee>\n"
@@ -17,22 +17,22 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 19.12.3\n"
 
-#: angelfish-webapp/main.cpp:66
+#: angelfish-webapp/main.cpp:65
 #, kde-format
 msgid "desktop file to open"
 msgstr "avatav töölauafail"
 
-#: angelfish-webapp/main.cpp:93
+#: angelfish-webapp/main.cpp:90
 #, kde-format
 msgid "Angelfish Web App runtime"
 msgstr "Angelfishi veebilehitseja"
 
-#: angelfish-webapp/main.cpp:95
+#: angelfish-webapp/main.cpp:92
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
 msgstr "Autoriõigus 2020: Angelfishi arendajad"
 
-#: angelfish-webapp/main.cpp:97
+#: angelfish-webapp/main.cpp:94
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
@@ -288,226 +288,226 @@ msgctxt "@label:checkbox"
 msgid "Print backgrounds"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:243
+#: lib/contents/ui/WebView.qml:238
 #, fuzzy, kde-format
 #| msgid "Website was opened in a new tab"
 msgctxt "@info:status"
 msgid "Website was opened in a new tab"
 msgstr "Veebilehekülg avati uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:261
+#: lib/contents/ui/WebView.qml:256
 #, kde-format
 msgctxt "@info:status"
 msgid "Entered Full Screen mode"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:262
+#: lib/contents/ui/WebView.qml:257
 #, kde-format
 msgctxt "@action:button"
 msgid "Exit Full Screen (Esc)"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:397
+#: lib/contents/ui/WebView.qml:392
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Play"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:398
+#: lib/contents/ui/WebView.qml:393
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Pause"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:405
+#: lib/contents/ui/WebView.qml:400
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Unmute"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:406
+#: lib/contents/ui/WebView.qml:401
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Mute"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:416
+#: lib/contents/ui/WebView.qml:411
 #, kde-format
 msgctxt "@label"
 msgid "Speed"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:439
+#: lib/contents/ui/WebView.qml:434
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Loop"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:446
+#: lib/contents/ui/WebView.qml:441
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Exit Fullscreen"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:446
+#: lib/contents/ui/WebView.qml:441
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enter Fullscreen"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:459
+#: lib/contents/ui/WebView.qml:454
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Controls"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:460
+#: lib/contents/ui/WebView.qml:455
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Controls"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:468
+#: lib/contents/ui/WebView.qml:463
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Video"
 msgstr "Ava uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:468
+#: lib/contents/ui/WebView.qml:463
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Audio"
 msgstr "Ava uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:469
+#: lib/contents/ui/WebView.qml:464
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Video in New Tab"
 msgstr "Ava uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:469
+#: lib/contents/ui/WebView.qml:464
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Audio in New Tab"
 msgstr "Ava uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:481
+#: lib/contents/ui/WebView.qml:476
 #, fuzzy, kde-format
 #| msgid "Leave page"
 msgctxt "@action:inmenu"
 msgid "Save Video"
 msgstr "Lahku leheküljelt"
 
-#: lib/contents/ui/WebView.qml:487
+#: lib/contents/ui/WebView.qml:482
 #, fuzzy, kde-format
 #| msgid "Copy Url"
 msgctxt "@action:inmenu"
 msgid "Copy Video Link"
 msgstr "Kopeeri URL"
 
-#: lib/contents/ui/WebView.qml:493
+#: lib/contents/ui/WebView.qml:488
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Image"
 msgstr "Ava uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:493
+#: lib/contents/ui/WebView.qml:488
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Image in New Tab"
 msgstr "Ava uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:505
+#: lib/contents/ui/WebView.qml:500
 #, fuzzy, kde-format
 #| msgid "Leave page"
 msgctxt "@action:inmenu"
 msgid "Save Image"
 msgstr "Lahku leheküljelt"
 
-#: lib/contents/ui/WebView.qml:511
+#: lib/contents/ui/WebView.qml:506
 #, fuzzy, kde-format
 #| msgid "Load images"
 msgctxt "@action:inmenu"
 msgid "Copy Image"
 msgstr "Piltide laadimine"
 
-#: lib/contents/ui/WebView.qml:517
+#: lib/contents/ui/WebView.qml:512
 #, fuzzy, kde-format
 #| msgid "Load images"
 msgctxt "@action:inmenu"
 msgid "Copy Image Link"
 msgstr "Piltide laadimine"
 
-#: lib/contents/ui/WebView.qml:523
+#: lib/contents/ui/WebView.qml:518
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Link"
 msgstr "Ava uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:523
+#: lib/contents/ui/WebView.qml:518
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Link in New Tab"
 msgstr "Ava uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:535
+#: lib/contents/ui/WebView.qml:530
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgctxt "@action:inmenu"
 msgid "Bookmark Link"
 msgstr "Järjehoidjatesse"
 
-#: lib/contents/ui/WebView.qml:547
+#: lib/contents/ui/WebView.qml:542
 #, fuzzy, kde-format
 #| msgid "Leave page"
 msgctxt "@action:inmenu"
 msgid "Save Link"
 msgstr "Lahku leheküljelt"
 
-#: lib/contents/ui/WebView.qml:553
+#: lib/contents/ui/WebView.qml:548
 #, fuzzy, kde-format
 #| msgid "Copy Url"
 msgctxt "@action:inmenu"
 msgid "Copy Link"
 msgstr "Kopeeri URL"
 
-#: lib/contents/ui/WebView.qml:560
+#: lib/contents/ui/WebView.qml:555
 #, fuzzy, kde-format
 #| msgid "Copy"
 msgctxt "@action:inmenu"
 msgid "Copy"
 msgstr "Kopeeri"
 
-#: lib/contents/ui/WebView.qml:566
+#: lib/contents/ui/WebView.qml:561
 #, fuzzy, kde-format
 #| msgid "Cut"
 msgctxt "@action:inmenu"
 msgid "Cut"
 msgstr "Lõika"
 
-#: lib/contents/ui/WebView.qml:572
+#: lib/contents/ui/WebView.qml:567
 #, fuzzy, kde-format
 #| msgid "Paste"
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "Aseta"
 
-#: lib/contents/ui/WebView.qml:580
+#: lib/contents/ui/WebView.qml:575
 #, fuzzy, kde-format
 #| msgid "Search online for '%1'"
 msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "\"%1\" otsimine võrgust"
 
-#: lib/contents/ui/WebView.qml:593 src/qml/desktop/Desktop.qml:378
+#: lib/contents/ui/WebView.qml:588 src/qml/desktop/Desktop.qml:378
 #: src/qml/Mobile.qml:322
 #, fuzzy, kde-format
 #| msgid "Share page"
@@ -515,50 +515,50 @@ msgctxt "@action:inmenu"
 msgid "Share Page"
 msgstr "Jaga lehekülge"
 
-#: lib/contents/ui/WebView.qml:605
+#: lib/contents/ui/WebView.qml:600
 #, fuzzy, kde-format
 #| msgid "View source"
 msgctxt "@action:inmenu"
 msgid "View Page Source"
 msgstr "Vaata lähtekoodi"
 
-#: src/main.cpp:73
+#: src/main.cpp:72
 #, kde-format
 msgid "URL to open"
 msgstr "Avatav URL"
 
-#: src/main.cpp:84
+#: src/main.cpp:83
 #, kde-format
 msgid "Angelfish"
 msgstr ""
 
-#: src/main.cpp:86
+#: src/main.cpp:85
 #, kde-format
 msgid "Web browser for Plasma Mobile"
 msgstr ""
 
-#: src/main.cpp:88
+#: src/main.cpp:87
 #, kde-format
 msgid "© 2015-2024 KDE Community"
 msgstr ""
 
-#: src/main.cpp:91
+#: src/main.cpp:90
 #, kde-format
 msgid "Jonah Brüchert"
 msgstr ""
 
-#: src/main.cpp:91
+#: src/main.cpp:90
 #, kde-format
 msgid "Maintainer"
 msgstr ""
 
-#: src/main.cpp:92
+#: src/main.cpp:91
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Marek Laane"
 
-#: src/main.cpp:92
+#: src/main.cpp:91
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
