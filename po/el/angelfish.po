@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-23 00:42+0000\n"
+"POT-Creation-Date: 2025-11-26 00:42+0000\n"
 "PO-Revision-Date: 2024-09-19 13:52+0300\n"
 "Last-Translator: Antonis Geralis <capoiosct@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -162,6 +162,14 @@ msgstr "Αποχώρηση από σελίδα"
 msgctxt "@action:button"
 msgid "Submit"
 msgstr "Υποβολή"
+
+#: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Stop Loading"
+msgctxt "@title:webview"
+msgid "Loading"
+msgstr "Διακοπή φόρτωσης"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, fuzzy, kde-format

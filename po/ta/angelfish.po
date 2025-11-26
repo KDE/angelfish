@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-23 00:42+0000\n"
+"POT-Creation-Date: 2025-11-26 00:42+0000\n"
 "PO-Revision-Date: 2025-01-26 17:57+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
@@ -152,6 +152,13 @@ msgstr "பக்கத்திலிருந்து வெளியேற�
 msgctxt "@action:button"
 msgid "Submit"
 msgstr "சமர்ப்பி"
+
+#: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
+#, fuzzy, kde-format
+#| msgid "Leave page"
+msgctxt "@title:webview"
+msgid "Loading"
+msgstr "பக்கத்திலிருந்து வெளியேறு"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format

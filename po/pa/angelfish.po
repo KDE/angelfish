@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-23 00:42+0000\n"
+"POT-Creation-Date: 2025-11-26 00:42+0000\n"
 "PO-Revision-Date: 2024-12-19 22:25-0600\n"
 "Last-Translator: aalam <aalam@punlinux.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -177,6 +177,13 @@ msgstr "ਸਫ਼ੇ ਨੂੰ ਛੱਡੋ"
 msgctxt "@action:button"
 msgid "Submit"
 msgstr "ਭੇਜੋ"
+
+#: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
+#, fuzzy, kde-format
+#| msgid "Stop loading"
+msgctxt "@title:webview"
+msgid "Loading"
+msgstr "ਲੋਡ ਕਰਨਾ ਰੋਕੋ"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, fuzzy, kde-format
