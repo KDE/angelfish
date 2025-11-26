@@ -580,9 +580,9 @@ classes
             text: contextMenu.request && fullText ? i18nc("@action:inmenu", "Search for “%1”", elidedText) : ""
             onTriggered: {
                 if (webEngineView.isAppView) {
-                    Qt.openUrlExternally(UrlUtils.urlFromUserInput(Core.AngelfishSettings.searchBaseUrl + fullText));
+                    Qt.openUrlExternally(Core.UrlUtils.urlFromUserInput(Core.AngelfishSettings.searchBaseUrl + fullText));
                 } else {
-                    tabsModel.newTab(UrlUtils.urlFromUserInput(Core.AngelfishSettings.searchBaseUrl + fullText));
+                    tabsModel.newTab(Core.UrlUtils.urlFromUserInput(Core.AngelfishSettings.searchBaseUrl + fullText));
                 }
             }
         }
