@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-26 00:42+0000\n"
-"PO-Revision-Date: 2025-04-30 06:41+0200\n"
+"PO-Revision-Date: 2025-11-26 07:22+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.8\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -161,12 +161,10 @@ msgid "Submit"
 msgstr "Oddaj"
 
 #: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Stop Loading"
+#, kde-format
 msgctxt "@title:webview"
 msgid "Loading"
-msgstr "Ustavi nalaganje"
+msgstr "Nalaganje"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format

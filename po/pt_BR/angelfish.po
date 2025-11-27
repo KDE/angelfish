@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-26 00:42+0000\n"
-"PO-Revision-Date: 2025-11-08 21:10-0300\n"
+"PO-Revision-Date: 2025-11-26 01:16-0300\n"
 "Last-Translator: Guilherme Marçal Silva <guimarcalsilva@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.08.2\n"
+"X-Generator: Lokalize 25.08.3\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -164,12 +164,10 @@ msgid "Submit"
 msgstr "Enviar"
 
 #: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Stop Loading"
+#, kde-format
 msgctxt "@title:webview"
 msgid "Loading"
-msgstr "Parar o carregamento"
+msgstr "Carregando"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format

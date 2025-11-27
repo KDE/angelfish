@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-26 00:42+0000\n"
-"PO-Revision-Date: 2025-04-30 04:41+0200\n"
+"PO-Revision-Date: 2025-11-26 03:30+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.8\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -162,12 +162,10 @@ msgid "Submit"
 msgstr "გაგზავნა"
 
 #: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Stop Loading"
+#, kde-format
 msgctxt "@title:webview"
 msgid "Loading"
-msgstr "ჩატვირთვის გაჩერება"
+msgstr "იტვირთება"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format
