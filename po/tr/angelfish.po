@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-26 00:42+0000\n"
+"POT-Creation-Date: 2025-11-28 00:42+0000\n"
 "PO-Revision-Date: 2025-11-26 12:15+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -165,6 +165,22 @@ msgstr "Gönder"
 msgctxt "@title:webview"
 msgid "Loading"
 msgstr "Yükleniyor"
+
+#: lib/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"Site wants to open a new tab:\n"
+"%1"
+msgstr ""
+"Site yeni bir sekme açmak istiyor:\n"
+"%1"
+
+#: lib/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "Aç"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format
@@ -919,22 +935,6 @@ msgstr "Bitti"
 msgctxt "@info:status"
 msgid "%1 tabs"
 msgstr "%1 sekme"
-
-#: src/qml/NewTabQuestion.qml:11
-#, kde-format
-msgctxt "@info:status"
-msgid ""
-"Site wants to open a new tab:\n"
-"%1"
-msgstr ""
-"Site yeni bir sekme açmak istiyor:\n"
-"%1"
-
-#: src/qml/NewTabQuestion.qml:19
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Open"
-msgstr "Aç"
 
 #: src/qml/ShareSheet.qml:18
 #, kde-format

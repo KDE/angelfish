@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-26 00:42+0000\n"
+"POT-Creation-Date: 2025-11-28 00:42+0000\n"
 "PO-Revision-Date: 2025-06-11 00:13+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -168,6 +168,22 @@ msgstr "제출"
 msgctxt "@title:webview"
 msgid "Loading"
 msgstr "불러오기 멈추기"
+
+#: lib/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"Site wants to open a new tab:\n"
+"%1"
+msgstr ""
+"사이트에서 새 탭을 열려고 합니다: \n"
+"%1"
+
+#: lib/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "열기"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format
@@ -912,22 +928,6 @@ msgstr "완료"
 msgctxt "@info:status"
 msgid "%1 tabs"
 msgstr "탭 %1개"
-
-#: src/qml/NewTabQuestion.qml:11
-#, kde-format
-msgctxt "@info:status"
-msgid ""
-"Site wants to open a new tab:\n"
-"%1"
-msgstr ""
-"사이트에서 새 탭을 열려고 합니다: \n"
-"%1"
-
-#: src/qml/NewTabQuestion.qml:19
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Open"
-msgstr "열기"
 
 #: src/qml/ShareSheet.qml:18
 #, kde-format

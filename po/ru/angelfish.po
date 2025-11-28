@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-26 00:42+0000\n"
+"POT-Creation-Date: 2025-11-28 00:42+0000\n"
 "PO-Revision-Date: 2025-08-22 17:35+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -169,6 +169,22 @@ msgstr "Отправить"
 msgctxt "@title:webview"
 msgid "Loading"
 msgstr "Остановить загрузку"
+
+#: lib/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"Site wants to open a new tab:\n"
+"%1"
+msgstr ""
+"Сайт пытается открыть новую вкладку:\n"
+"%1"
+
+#: lib/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "Открыть"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format
@@ -904,22 +920,6 @@ msgstr "Готово"
 msgctxt "@info:status"
 msgid "%1 tabs"
 msgstr "Вкладок: %1"
-
-#: src/qml/NewTabQuestion.qml:11
-#, kde-format
-msgctxt "@info:status"
-msgid ""
-"Site wants to open a new tab:\n"
-"%1"
-msgstr ""
-"Сайт пытается открыть новую вкладку:\n"
-"%1"
-
-#: src/qml/NewTabQuestion.qml:19
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Open"
-msgstr "Открыть"
 
 #: src/qml/ShareSheet.qml:18
 #, kde-format

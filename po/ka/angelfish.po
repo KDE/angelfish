@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-26 00:42+0000\n"
+"POT-Creation-Date: 2025-11-28 00:42+0000\n"
 "PO-Revision-Date: 2025-11-26 03:30+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -166,6 +166,22 @@ msgstr "გაგზავნა"
 msgctxt "@title:webview"
 msgid "Loading"
 msgstr "იტვირთება"
+
+#: lib/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"Site wants to open a new tab:\n"
+"%1"
+msgstr ""
+"საიტს ახალი ჩანართის გახსნა უნდა:\n"
+"%1"
+
+#: lib/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "გახსნა"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format
@@ -910,22 +926,6 @@ msgstr "დასრულებული"
 msgctxt "@info:status"
 msgid "%1 tabs"
 msgstr "%1 ჩანართი"
-
-#: src/qml/NewTabQuestion.qml:11
-#, kde-format
-msgctxt "@info:status"
-msgid ""
-"Site wants to open a new tab:\n"
-"%1"
-msgstr ""
-"საიტს ახალი ჩანართის გახსნა უნდა:\n"
-"%1"
-
-#: src/qml/NewTabQuestion.qml:19
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Open"
-msgstr "გახსნა"
 
 #: src/qml/ShareSheet.qml:18
 #, kde-format

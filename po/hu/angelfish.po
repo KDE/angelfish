@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-26 00:42+0000\n"
+"POT-Creation-Date: 2025-11-28 00:42+0000\n"
 "PO-Revision-Date: 2025-07-07 22:23+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -166,6 +166,22 @@ msgstr "Elküldés"
 msgctxt "@title:webview"
 msgid "Loading"
 msgstr "Betöltés leállítása"
+
+#: lib/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"Site wants to open a new tab:\n"
+"%1"
+msgstr ""
+"Az oldal egy új lapot akar megnyitni: \n"
+"%1"
+
+#: lib/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "Megnyitás"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format
@@ -909,22 +925,6 @@ msgstr "Kész"
 msgctxt "@info:status"
 msgid "%1 tabs"
 msgstr "%1 lap"
-
-#: src/qml/NewTabQuestion.qml:11
-#, kde-format
-msgctxt "@info:status"
-msgid ""
-"Site wants to open a new tab:\n"
-"%1"
-msgstr ""
-"Az oldal egy új lapot akar megnyitni: \n"
-"%1"
-
-#: src/qml/NewTabQuestion.qml:19
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Open"
-msgstr "Megnyitás"
 
 #: src/qml/ShareSheet.qml:18
 #, kde-format

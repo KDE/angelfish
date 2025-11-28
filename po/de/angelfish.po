@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-26 00:42+0000\n"
+"POT-Creation-Date: 2025-11-28 00:42+0000\n"
 "PO-Revision-Date: 2025-07-10 15:31+0200\n"
 "Last-Translator: Philipp Kiemle <l10n.daphipz@fastmail.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -169,6 +169,22 @@ msgstr "Absenden"
 msgctxt "@title:webview"
 msgid "Loading"
 msgstr "Ladevorgang abbrechen"
+
+#: lib/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"Site wants to open a new tab:\n"
+"%1"
+msgstr ""
+"Seite möchte ein neues Unterfenster öffnen: \n"
+"%1"
+
+#: lib/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "Öffnen"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format
@@ -923,22 +939,6 @@ msgstr "Fertig"
 msgctxt "@info:status"
 msgid "%1 tabs"
 msgstr "%1 Unterfenster"
-
-#: src/qml/NewTabQuestion.qml:11
-#, kde-format
-msgctxt "@info:status"
-msgid ""
-"Site wants to open a new tab:\n"
-"%1"
-msgstr ""
-"Seite möchte ein neues Unterfenster öffnen: \n"
-"%1"
-
-#: src/qml/NewTabQuestion.qml:19
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Open"
-msgstr "Öffnen"
 
 #: src/qml/ShareSheet.qml:18
 #, kde-format

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-26 00:42+0000\n"
+"POT-Creation-Date: 2025-11-28 00:42+0000\n"
 "PO-Revision-Date: 2025-05-25 08:28+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -165,6 +165,22 @@ msgstr "Lähetä"
 msgctxt "@title:webview"
 msgid "Loading"
 msgstr "Pysäytä lataaminen"
+
+#: lib/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"Site wants to open a new tab:\n"
+"%1"
+msgstr ""
+"Sivusto haluaa avata uuden välilehden:\n"
+"%1"
+
+#: lib/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "Avaa"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format
@@ -901,22 +917,6 @@ msgstr "Valmis"
 msgctxt "@info:status"
 msgid "%1 tabs"
 msgstr "%1 välilehteä"
-
-#: src/qml/NewTabQuestion.qml:11
-#, kde-format
-msgctxt "@info:status"
-msgid ""
-"Site wants to open a new tab:\n"
-"%1"
-msgstr ""
-"Sivusto haluaa avata uuden välilehden:\n"
-"%1"
-
-#: src/qml/NewTabQuestion.qml:19
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Open"
-msgstr "Avaa"
 
 #: src/qml/ShareSheet.qml:18
 #, kde-format

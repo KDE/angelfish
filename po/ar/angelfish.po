@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-26 00:42+0000\n"
-"PO-Revision-Date: 2025-08-06 17:27+0400\n"
+"POT-Creation-Date: 2025-11-28 00:42+0000\n"
+"PO-Revision-Date: 2025-11-27 12:13+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -159,12 +159,26 @@ msgid "Submit"
 msgstr "أرسل"
 
 #: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Stop Loading"
+#, kde-format
 msgctxt "@title:webview"
 msgid "Loading"
-msgstr "أوقف التحميل"
+msgstr "يحمّل"
+
+#: lib/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"Site wants to open a new tab:\n"
+"%1"
+msgstr ""
+"موقع يريد فتح لسان جديد:\n"
+"%1"
+
+#: lib/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "افتح"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format
@@ -901,22 +915,6 @@ msgstr "تمّ"
 msgctxt "@info:status"
 msgid "%1 tabs"
 msgstr "%1 ألسنة"
-
-#: src/qml/NewTabQuestion.qml:11
-#, kde-format
-msgctxt "@info:status"
-msgid ""
-"Site wants to open a new tab:\n"
-"%1"
-msgstr ""
-"موقع يريد فتح لسان جديد:\n"
-"%1"
-
-#: src/qml/NewTabQuestion.qml:19
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Open"
-msgstr "افتح"
 
 #: src/qml/ShareSheet.qml:18
 #, kde-format

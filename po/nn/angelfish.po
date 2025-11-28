@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-26 00:42+0000\n"
+"POT-Creation-Date: 2025-11-28 00:42+0000\n"
 "PO-Revision-Date: 2021-03-21 17:55+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -158,6 +158,22 @@ msgstr "Send inn"
 msgctxt "@title:webview"
 msgid "Loading"
 msgstr "Stopp innlasting"
+
+#: lib/contents/ui/NewTabQuestion.qml:11
+#, fuzzy, kde-format
+msgctxt "@info:status"
+msgid ""
+"Site wants to open a new tab:\n"
+"%1"
+msgstr ""
+"Nettstaden ønskjer å opna ny fane: \n"
+"%1"
+
+#: lib/contents/ui/NewTabQuestion.qml:19
+#, fuzzy, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "Opna"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, fuzzy, kde-format
@@ -893,22 +909,6 @@ msgstr ""
 msgctxt "@info:status"
 msgid "%1 tabs"
 msgstr ""
-
-#: src/qml/NewTabQuestion.qml:11
-#, fuzzy, kde-format
-msgctxt "@info:status"
-msgid ""
-"Site wants to open a new tab:\n"
-"%1"
-msgstr ""
-"Nettstaden ønskjer å opna ny fane: \n"
-"%1"
-
-#: src/qml/NewTabQuestion.qml:19
-#, fuzzy, kde-format
-msgctxt "@action:inmenu"
-msgid "Open"
-msgstr "Opna"
 
 #: src/qml/ShareSheet.qml:18
 #, fuzzy, kde-format

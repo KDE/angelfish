@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-26 00:42+0000\n"
+"POT-Creation-Date: 2025-11-28 00:42+0000\n"
 "PO-Revision-Date: 2025-11-27 00:06+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -166,6 +166,22 @@ msgstr "Enviar"
 msgctxt "@title:webview"
 msgid "Loading"
 msgstr "Cargando"
+
+#: lib/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"Site wants to open a new tab:\n"
+"%1"
+msgstr ""
+"El sitio quiere abrir una nueva pestaña:\n"
+"%1"
+
+#: lib/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "Abrir"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format
@@ -919,22 +935,6 @@ msgstr "Terminado"
 msgctxt "@info:status"
 msgid "%1 tabs"
 msgstr "%1 pestañas"
-
-#: src/qml/NewTabQuestion.qml:11
-#, kde-format
-msgctxt "@info:status"
-msgid ""
-"Site wants to open a new tab:\n"
-"%1"
-msgstr ""
-"El sitio quiere abrir una nueva pestaña:\n"
-"%1"
-
-#: src/qml/NewTabQuestion.qml:19
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Open"
-msgstr "Abrir"
 
 #: src/qml/ShareSheet.qml:18
 #, kde-format
