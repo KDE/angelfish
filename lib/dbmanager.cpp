@@ -128,7 +128,7 @@ QCoro::Task<> DBManager::setLastVisitedRecord(const QString table, const QString
         co_return;
 
     const qint64 lastVisited = QDateTime::currentSecsSinceEpoch();
-    co_await m_database->execute(QStringLiteral("UPDATE %1 SET lastVisited = ? WHERE url = ?").arg(table), url, lastVisited);
+    co_await m_database->execute(QStringLiteral("UPDATE %1 SET lastVisited = ? WHERE url = ?").arg(table), lastVisited, url);
 
     Q_EMIT databaseTableChanged(table);
 }
