@@ -241,12 +241,11 @@ Kirigami.ApplicationWindow {
                                 required property int index
                                 required property string title
                                 required property string url
-                                required property string iconName
 
                                 text: title
 
                                 icon {
-                                    name: iconName.length > 0 ? iconName : "internet-services"
+                                    name: "image://favicon/" + url
                                     width: Kirigami.Units.largeSpacing * 3
                                     height: Kirigami.Units.largeSpacing * 3
                                 }

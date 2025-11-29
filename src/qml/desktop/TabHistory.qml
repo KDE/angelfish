@@ -22,7 +22,7 @@ QQC2.Menu {
             property var entry: modelData
 
             text: model.url
-            icon.name: model.iconName && model.iconName.length > 0 ? model.iconName : "internet-services"
+            icon.name: "image://favicon/" + model.url
 
             onTriggered: {
                 if (historyMenu.isBackMenu) {
