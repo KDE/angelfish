@@ -111,26 +111,32 @@ void BookmarksHistoryModel::fetchData()
         }
 
         if (bookmarks && history) {
+            // Returning ID in this case does not make sense as we mix two tables. To
+            // avoid any misuse of ID, set it to -1. In addition, same URL could be in the
+            // both tables as well. Return only one record in such case
             co_return co_await db->getResults<BookmarksHistoryRecord>(
-                QStringLiteral("SELECT rowid AS id, url, title, ? - lastVisited AS lastVisitedDelta "
-                               "FROM (SELECT * FROM bookmarks UNION SELECT * FROM history) "
+                QStringLiteral("SELECT -1 AS id, url, title, ? - lastVisited AS lastVisitedDelta "
+                               "FROM (SELECT rowid AS id, url, title, lastVisited, 1 AS bkm FROM bookmarks "
+                               "UNION SELECT rowid AS id, url, title, lastVisited, 0 AS bkm FROM history) "
                                "WHERE url LIKE '%' || ? || '%' OR title LIKE '%' || ? || '%' "
-                               "ORDER BY CASE WHEN rowid IN (SELECT rowid FROM history) THEN lastVisited END DESC, "
-                               "rowid "
-                               "LIMIT %1").arg(QUERY_LIMIT),
-                    currentTimeInUnix, filter, filter);
+                               "GROUP BY url "
+                               "ORDER BY MAX(bkm) DESC, MAX(lastVisited) DESC "
+                               "LIMIT %1")
+                    .arg(QUERY_LIMIT),
+                currentTimeInUnix, filter, filter);
         } else if (bookmarks) {
             co_return co_await db->getResults<BookmarksHistoryRecord>(
                 QStringLiteral("SELECT rowid AS id, url, title, ? - lastVisited AS lastVisitedDelta "
                                "FROM bookmarks "
-                               "WHERE url LIKE '%' || ? || '%' OR title LIKE '%' || ? || '%'"),
+                               "WHERE url LIKE '%' || ? || '%' OR title LIKE '%' || ? || '%' "
+                               "ORDER BY lastVisited DESC "),
                     currentTimeInUnix, filter, filter);
         } else if (history) {
             co_return co_await db->getResults<BookmarksHistoryRecord>(
                 QStringLiteral("SELECT rowid AS id, url, title, ? - lastVisited AS lastVisitedDelta "
                                "FROM history "
-                               "WHERE url LIKE '%' || ? || '%' OR title LIKE '%' || ? || '%'"
-                               "ORDER BY lastvisited DESC "
+                               "WHERE url LIKE '%' || ? || '%' OR title LIKE '%' || ? || '%' "
+                               "ORDER BY lastVisited DESC "
                                "LIMIT  %1").arg(QUERY_LIMIT),
                     currentTimeInUnix, filter, filter);
         }

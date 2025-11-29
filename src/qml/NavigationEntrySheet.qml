@@ -138,6 +138,7 @@ Controls.Drawer {
             model: Core.BookmarksHistoryModel {
                 id: urlFilter
                 active: openedState
+                bookmarks: true
                 history: true
             }
         }
