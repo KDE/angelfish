@@ -68,8 +68,16 @@ if (Corrosion_FOUND)
     endif()
     target_compile_definitions(angelfish PRIVATE -DBUILD_ADBLOCK)
 
+    if(Corrosion_VERSION VERSION_LESS 0.6.0)
+        set(corrosion_build_dir "build")
+    else()
+        string(SHA1 cargo_path_hash ${CMAKE_CURRENT_SOURCE_DIR}/rs/adblock/Cargo.toml)
+        string(SUBSTRING "${cargo_path_hash}" 0 5 cargo_path_hash)
+        set(corrosion_build_dir "adblock_${cargo_path_hash}")
+    endif()
+
     target_include_directories(angelfish PRIVATE
-        ${CMAKE_BINARY_DIR}/cargo/build/${Rust_CARGO_TARGET}/cxxbridge/angelfish-adblock/src/)
+        ${CMAKE_BINARY_DIR}/cargo/${corrosion_build_dir}/${Rust_CARGO_TARGET}/cxxbridge/angelfish-adblock/src/)
 endif()
 
 target_include_directories(angelfish PRIVATE ${CMAKE_BINARY_DIR})
