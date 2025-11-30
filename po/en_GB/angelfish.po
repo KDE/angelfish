@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 14:40+0000\n"
+"POT-Creation-Date: 2025-11-30 02:39+0000\n"
 "PO-Revision-Date: 2024-11-01 14:07+0000\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English\n"
@@ -171,6 +171,33 @@ msgstr "Leave page"
 msgctxt "@action:button"
 msgid "Submit"
 msgstr "Submit"
+
+#: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
+#, fuzzy, kde-format
+#| msgid "Stop loading"
+msgctxt "@title:webview"
+msgid "Loading"
+msgstr "Stop loading"
+
+#: lib/contents/ui/NewTabQuestion.qml:11
+#, fuzzy, kde-format
+#| msgid ""
+#| "Site wants to open a new tab: \n"
+#| "%1"
+msgctxt "@info:status"
+msgid ""
+"Site wants to open a new tab:\n"
+"%1"
+msgstr ""
+"Site wants to open a new tab: \n"
+"%1"
+
+#: lib/contents/ui/NewTabQuestion.qml:19
+#, fuzzy, kde-format
+#| msgid "Open"
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "Open"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, fuzzy, kde-format
@@ -1025,26 +1052,6 @@ msgstr "Done"
 msgctxt "@info:status"
 msgid "%1 tabs"
 msgstr "New tabs:"
-
-#: src/qml/NewTabQuestion.qml:11
-#, fuzzy, kde-format
-#| msgid ""
-#| "Site wants to open a new tab: \n"
-#| "%1"
-msgctxt "@info:status"
-msgid ""
-"Site wants to open a new tab:\n"
-"%1"
-msgstr ""
-"Site wants to open a new tab: \n"
-"%1"
-
-#: src/qml/NewTabQuestion.qml:19
-#, fuzzy, kde-format
-#| msgid "Open"
-msgctxt "@action:inmenu"
-msgid "Open"
-msgstr "Open"
 
 #: src/qml/ShareSheet.qml:18
 #, fuzzy, kde-format

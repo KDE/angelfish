@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 14:40+0000\n"
+"POT-Creation-Date: 2025-11-30 02:39+0000\n"
 "PO-Revision-Date: 2025-05-01 14:01+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -159,6 +159,30 @@ msgstr "Abbandona pagina"
 msgctxt "@action:button"
 msgid "Submit"
 msgstr "Invia"
+
+#: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Stop Loading"
+msgctxt "@title:webview"
+msgid "Loading"
+msgstr "Interrompi il caricamento"
+
+#: lib/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"Site wants to open a new tab:\n"
+"%1"
+msgstr ""
+"Il sito vuole aprire una nuova scheda:\n"
+"%1"
+
+#: lib/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "Apri"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format
@@ -911,22 +935,6 @@ msgstr "Fatto"
 msgctxt "@info:status"
 msgid "%1 tabs"
 msgstr "%1 schede"
-
-#: src/qml/NewTabQuestion.qml:11
-#, kde-format
-msgctxt "@info:status"
-msgid ""
-"Site wants to open a new tab:\n"
-"%1"
-msgstr ""
-"Il sito vuole aprire una nuova scheda:\n"
-"%1"
-
-#: src/qml/NewTabQuestion.qml:19
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Open"
-msgstr "Apri"
 
 #: src/qml/ShareSheet.qml:18
 #, kde-format

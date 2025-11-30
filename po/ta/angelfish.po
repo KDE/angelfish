@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 14:40+0000\n"
+"POT-Creation-Date: 2025-11-30 02:39+0000\n"
 "PO-Revision-Date: 2025-01-26 17:57+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
@@ -152,6 +152,28 @@ msgstr "பக்கத்திலிருந்து வெளியேற�
 msgctxt "@action:button"
 msgid "Submit"
 msgstr "சமர்ப்பி"
+
+#: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
+#, fuzzy, kde-format
+#| msgid "Leave page"
+msgctxt "@title:webview"
+msgid "Loading"
+msgstr "பக்கத்திலிருந்து வெளியேறு"
+
+#: lib/contents/ui/NewTabQuestion.qml:11
+#, fuzzy, kde-format
+#| msgid "Website was opened in a new tab"
+msgctxt "@info:status"
+msgid ""
+"Site wants to open a new tab:\n"
+"%1"
+msgstr "இணையதளம் புதிய கீற்றில் திறக்கப்பட்டுள்ளது"
+
+#: lib/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr ""
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format
@@ -900,21 +922,6 @@ msgstr ""
 #, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"
-msgstr ""
-
-#: src/qml/NewTabQuestion.qml:11
-#, fuzzy, kde-format
-#| msgid "Website was opened in a new tab"
-msgctxt "@info:status"
-msgid ""
-"Site wants to open a new tab:\n"
-"%1"
-msgstr "இணையதளம் புதிய கீற்றில் திறக்கப்பட்டுள்ளது"
-
-#: src/qml/NewTabQuestion.qml:19
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Open"
 msgstr ""
 
 #: src/qml/ShareSheet.qml:18

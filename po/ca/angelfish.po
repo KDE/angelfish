@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 14:40+0000\n"
+"POT-Creation-Date: 2025-11-30 02:39+0000\n"
 "PO-Revision-Date: 2025-04-30 10:15+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -162,6 +162,30 @@ msgstr "Surt de la pàgina"
 msgctxt "@action:button"
 msgid "Submit"
 msgstr "Envia"
+
+#: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Stop Loading"
+msgctxt "@title:webview"
+msgid "Loading"
+msgstr "Atura la càrrega"
+
+#: lib/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"Site wants to open a new tab:\n"
+"%1"
+msgstr ""
+"El lloc vol obrir una pestanya nova:\n"
+"%1"
+
+#: lib/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "Obre"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format
@@ -910,22 +934,6 @@ msgstr "Fet"
 msgctxt "@info:status"
 msgid "%1 tabs"
 msgstr "%1 pestanyes"
-
-#: src/qml/NewTabQuestion.qml:11
-#, kde-format
-msgctxt "@info:status"
-msgid ""
-"Site wants to open a new tab:\n"
-"%1"
-msgstr ""
-"El lloc vol obrir una pestanya nova:\n"
-"%1"
-
-#: src/qml/NewTabQuestion.qml:19
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Open"
-msgstr "Obre"
 
 #: src/qml/ShareSheet.qml:18
 #, kde-format

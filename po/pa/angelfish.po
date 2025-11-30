@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 14:40+0000\n"
+"POT-Creation-Date: 2025-11-30 02:39+0000\n"
 "PO-Revision-Date: 2024-12-19 22:25-0600\n"
 "Last-Translator: aalam <aalam@punlinux.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -177,6 +177,33 @@ msgstr "ਸਫ਼ੇ ਨੂੰ ਛੱਡੋ"
 msgctxt "@action:button"
 msgid "Submit"
 msgstr "ਭੇਜੋ"
+
+#: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
+#, fuzzy, kde-format
+#| msgid "Stop loading"
+msgctxt "@title:webview"
+msgid "Loading"
+msgstr "ਲੋਡ ਕਰਨਾ ਰੋਕੋ"
+
+#: lib/contents/ui/NewTabQuestion.qml:11
+#, fuzzy, kde-format
+#| msgid ""
+#| "Site wants to open a new tab: \n"
+#| "%1"
+msgctxt "@info:status"
+msgid ""
+"Site wants to open a new tab:\n"
+"%1"
+msgstr ""
+"ਸਾਈਟ ਨਵੀਂ ਟੈਬ ਖੋਲ੍ਹਣਾ ਚਾਹੁੰਦੀ ਹੈ:\n"
+"%1"
+
+#: lib/contents/ui/NewTabQuestion.qml:19
+#, fuzzy, kde-format
+#| msgid "Open"
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "ਖੋਲ੍ਹੋ"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, fuzzy, kde-format
@@ -1030,26 +1057,6 @@ msgstr "ਮੁਕੰਮਲ"
 msgctxt "@info:status"
 msgid "%1 tabs"
 msgstr "ਨਵੀਆਂ ਟੈਬਾਂ:"
-
-#: src/qml/NewTabQuestion.qml:11
-#, fuzzy, kde-format
-#| msgid ""
-#| "Site wants to open a new tab: \n"
-#| "%1"
-msgctxt "@info:status"
-msgid ""
-"Site wants to open a new tab:\n"
-"%1"
-msgstr ""
-"ਸਾਈਟ ਨਵੀਂ ਟੈਬ ਖੋਲ੍ਹਣਾ ਚਾਹੁੰਦੀ ਹੈ:\n"
-"%1"
-
-#: src/qml/NewTabQuestion.qml:19
-#, fuzzy, kde-format
-#| msgid "Open"
-msgctxt "@action:inmenu"
-msgid "Open"
-msgstr "ਖੋਲ੍ਹੋ"
 
 #: src/qml/ShareSheet.qml:18
 #, fuzzy, kde-format

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 14:40+0000\n"
+"POT-Creation-Date: 2025-11-30 02:39+0000\n"
 "PO-Revision-Date: 2025-04-30 06:41+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -159,6 +159,30 @@ msgstr "Zapusti stran"
 msgctxt "@action:button"
 msgid "Submit"
 msgstr "Oddaj"
+
+#: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Stop Loading"
+msgctxt "@title:webview"
+msgid "Loading"
+msgstr "Ustavi nalaganje"
+
+#: lib/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"Site wants to open a new tab:\n"
+"%1"
+msgstr ""
+"Spletišče želi odpreti nov zavihek: \n"
+"%1"
+
+#: lib/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "Odpri"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format
@@ -901,22 +925,6 @@ msgstr "Narejeno"
 msgctxt "@info:status"
 msgid "%1 tabs"
 msgstr "%1 zavihkov"
-
-#: src/qml/NewTabQuestion.qml:11
-#, kde-format
-msgctxt "@info:status"
-msgid ""
-"Site wants to open a new tab:\n"
-"%1"
-msgstr ""
-"Spletišče želi odpreti nov zavihek: \n"
-"%1"
-
-#: src/qml/NewTabQuestion.qml:19
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Open"
-msgstr "Odpri"
 
 #: src/qml/ShareSheet.qml:18
 #, kde-format

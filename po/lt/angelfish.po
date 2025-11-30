@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 14:40+0000\n"
+"POT-Creation-Date: 2025-11-30 02:39+0000\n"
 "PO-Revision-Date: 2025-01-29 00:14+0200\n"
 "Last-Translator: Moo\n"
 "Language-Team: lt\n"
@@ -162,6 +162,30 @@ msgstr "Išeiti iš puslapio"
 msgctxt "@action:button"
 msgid "Submit"
 msgstr "Pateikti"
+
+#: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Stop Loading"
+msgctxt "@title:webview"
+msgid "Loading"
+msgstr "Stabdyti įkėlimą"
+
+#: lib/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"Site wants to open a new tab:\n"
+"%1"
+msgstr ""
+"Svetainė nori atverti naują kortelę: \n"
+"%1"
+
+#: lib/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "Atverti"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, kde-format
@@ -926,22 +950,6 @@ msgstr "Atlikta"
 msgctxt "@info:status"
 msgid "%1 tabs"
 msgstr "Kortelių: %1"
-
-#: src/qml/NewTabQuestion.qml:11
-#, kde-format
-msgctxt "@info:status"
-msgid ""
-"Site wants to open a new tab:\n"
-"%1"
-msgstr ""
-"Svetainė nori atverti naują kortelę: \n"
-"%1"
-
-#: src/qml/NewTabQuestion.qml:19
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Open"
-msgstr "Atverti"
 
 #: src/qml/ShareSheet.qml:18
 #, kde-format

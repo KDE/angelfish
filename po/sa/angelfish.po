@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 14:40+0000\n"
+"POT-Creation-Date: 2025-11-30 02:39+0000\n"
 "PO-Revision-Date: 2024-12-24 20:39+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -171,6 +171,33 @@ msgstr "पृष्ठं त्यजतु"
 msgctxt "@action:button"
 msgid "Submit"
 msgstr "उपस्थापयतु"
+
+#: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
+#, fuzzy, kde-format
+#| msgid "Stop loading"
+msgctxt "@title:webview"
+msgid "Loading"
+msgstr "लोडिंग् त्यजतु"
+
+#: lib/contents/ui/NewTabQuestion.qml:11
+#, fuzzy, kde-format
+#| msgid ""
+#| "Site wants to open a new tab: \n"
+#| "%1"
+msgctxt "@info:status"
+msgid ""
+"Site wants to open a new tab:\n"
+"%1"
+msgstr ""
+"साइट् नूतनं ट्याब् उद्घाटयितुम् इच्छति: \n"
+"%1"
+
+#: lib/contents/ui/NewTabQuestion.qml:19
+#, fuzzy, kde-format
+#| msgid "Open"
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "उद्घाटित"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, fuzzy, kde-format
@@ -1023,26 +1050,6 @@ msgstr "कृतम्‌"
 msgctxt "@info:status"
 msgid "%1 tabs"
 msgstr "नवीन ट्याब्स् :"
-
-#: src/qml/NewTabQuestion.qml:11
-#, fuzzy, kde-format
-#| msgid ""
-#| "Site wants to open a new tab: \n"
-#| "%1"
-msgctxt "@info:status"
-msgid ""
-"Site wants to open a new tab:\n"
-"%1"
-msgstr ""
-"साइट् नूतनं ट्याब् उद्घाटयितुम् इच्छति: \n"
-"%1"
-
-#: src/qml/NewTabQuestion.qml:19
-#, fuzzy, kde-format
-#| msgid "Open"
-msgctxt "@action:inmenu"
-msgid "Open"
-msgstr "उद्घाटित"
 
 #: src/qml/ShareSheet.qml:18
 #, fuzzy, kde-format

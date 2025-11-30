@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 14:40+0000\n"
+"POT-Creation-Date: 2025-11-30 02:39+0000\n"
 "PO-Revision-Date: 2022-08-19 20:36+0700\n"
 "Last-Translator: Wantoyèk <wantoyek@gmail.com>\n"
 "Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
@@ -177,6 +177,33 @@ msgstr "Tinggalkan halaman"
 msgctxt "@action:button"
 msgid "Submit"
 msgstr "Serahkan"
+
+#: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
+#, fuzzy, kde-format
+#| msgid "Stop loading"
+msgctxt "@title:webview"
+msgid "Loading"
+msgstr "Hentikan pemuatan"
+
+#: lib/contents/ui/NewTabQuestion.qml:11
+#, fuzzy, kde-format
+#| msgid ""
+#| "Site wants to open a new tab: \n"
+#| "%1"
+msgctxt "@info:status"
+msgid ""
+"Site wants to open a new tab:\n"
+"%1"
+msgstr ""
+"Situs yang ingin dibuka dalam tab baru: \n"
+"%1"
+
+#: lib/contents/ui/NewTabQuestion.qml:19
+#, fuzzy, kde-format
+#| msgid "Open"
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "Buka"
 
 #: lib/contents/ui/PermissionQuestion.qml:22
 #, fuzzy, kde-format
@@ -1016,26 +1043,6 @@ msgstr ""
 msgctxt "@info:status"
 msgid "%1 tabs"
 msgstr "Tab baru:"
-
-#: src/qml/NewTabQuestion.qml:11
-#, fuzzy, kde-format
-#| msgid ""
-#| "Site wants to open a new tab: \n"
-#| "%1"
-msgctxt "@info:status"
-msgid ""
-"Site wants to open a new tab:\n"
-"%1"
-msgstr ""
-"Situs yang ingin dibuka dalam tab baru: \n"
-"%1"
-
-#: src/qml/NewTabQuestion.qml:19
-#, fuzzy, kde-format
-#| msgid "Open"
-msgctxt "@action:inmenu"
-msgid "Open"
-msgstr "Buka"
 
 #: src/qml/ShareSheet.qml:18
 #, fuzzy, kde-format
