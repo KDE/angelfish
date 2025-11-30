@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-28 00:42+0000\n"
+"POT-Creation-Date: 2025-11-30 00:42+0000\n"
 "PO-Revision-Date: 2020-08-12 20:25+0200\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -534,7 +534,7 @@ msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "Søg online efter \"%1\""
 
-#: lib/contents/ui/WebView.qml:588 src/qml/desktop/Desktop.qml:378
+#: lib/contents/ui/WebView.qml:588 src/qml/desktop/Desktop.qml:377
 #: src/qml/Mobile.qml:322
 #, fuzzy, kde-format
 #| msgid "Share page"
@@ -643,7 +643,7 @@ msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:279 src/qml/desktop/DesktopTabs.qml:362
+#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:362
 #: src/qml/Navigation.qml:443
 #, fuzzy, kde-format
 #| msgid "Close"
@@ -651,92 +651,92 @@ msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "Luk"
 
-#: src/qml/desktop/Desktop.qml:286 src/qml/Mobile.qml:92
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:92
 #, fuzzy, kde-format
 #| msgid "Leave private mode"
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
 msgstr "Forlad privattilstand"
 
-#: src/qml/desktop/Desktop.qml:286 src/qml/Mobile.qml:92
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:92
 #, fuzzy, kde-format
 #| msgid "Private mode"
 msgctxt "@action:inmenu"
 msgid "Private Mode"
 msgstr "Privattilstand"
 
-#: src/qml/desktop/Desktop.qml:295 src/qml/Mobile.qml:108
+#: src/qml/desktop/Desktop.qml:294 src/qml/Mobile.qml:108
 #, fuzzy, kde-format
 #| msgid "History"
 msgctxt "@action:inmenu"
 msgid "History"
 msgstr "Historik"
 
-#: src/qml/desktop/Desktop.qml:304 src/qml/Mobile.qml:100
+#: src/qml/desktop/Desktop.qml:303 src/qml/Mobile.qml:100
 #, fuzzy, kde-format
 #| msgid "Bookmarks"
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "Bogmærker"
 
-#: src/qml/desktop/Desktop.qml:316 src/qml/Mobile.qml:112
+#: src/qml/desktop/Desktop.qml:315 src/qml/Mobile.qml:112
 #, fuzzy, kde-format
 #| msgid "Download"
 msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "Download"
 
-#: src/qml/desktop/Desktop.qml:329
+#: src/qml/desktop/Desktop.qml:328
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:335
+#: src/qml/desktop/Desktop.qml:334
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:352
+#: src/qml/desktop/Desktop.qml:351
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:353 src/qml/Mobile.qml:418
+#: src/qml/desktop/Desktop.qml:352 src/qml/Mobile.qml:418
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:362 src/qml/Mobile.qml:318
+#: src/qml/desktop/Desktop.qml:361 src/qml/Mobile.qml:318
 #, fuzzy, kde-format
 #| msgid "Find in page"
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Find på siden"
 
-#: src/qml/desktop/Desktop.qml:371 src/qml/Mobile.qml:401
+#: src/qml/desktop/Desktop.qml:370 src/qml/Mobile.qml:401
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:388
+#: src/qml/desktop/Desktop.qml:387
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:407 src/qml/Mobile.qml:120
+#: src/qml/desktop/Desktop.qml:406 src/qml/Mobile.qml:120
 #, fuzzy, kde-format
 #| msgid "Settings"
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "Indstillinger"
 
-#: src/qml/desktop/Desktop.qml:417
+#: src/qml/desktop/Desktop.qml:416
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"

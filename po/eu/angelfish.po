@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-28 00:42+0000\n"
+"POT-Creation-Date: 2025-11-30 00:42+0000\n"
 "PO-Revision-Date: 2025-05-23 23:46+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -501,7 +501,7 @@ msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "Bilatu \"%1\""
 
-#: lib/contents/ui/WebView.qml:588 src/qml/desktop/Desktop.qml:378
+#: lib/contents/ui/WebView.qml:588 src/qml/desktop/Desktop.qml:377
 #: src/qml/Mobile.qml:322
 #, kde-format
 msgctxt "@action:inmenu"
@@ -607,92 +607,92 @@ msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "Bilatu edo sartu URLa..."
 
-#: src/qml/desktop/Desktop.qml:279 src/qml/desktop/DesktopTabs.qml:362
+#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:362
 #: src/qml/Navigation.qml:443
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "Fitxa berria"
 
-#: src/qml/desktop/Desktop.qml:286 src/qml/Mobile.qml:92
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:92
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
 msgstr "Utzi modu pribatua"
 
-#: src/qml/desktop/Desktop.qml:286 src/qml/Mobile.qml:92
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:92
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Private Mode"
 msgstr "Modu pribatua"
 
-#: src/qml/desktop/Desktop.qml:295 src/qml/Mobile.qml:108
+#: src/qml/desktop/Desktop.qml:294 src/qml/Mobile.qml:108
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "History"
 msgstr "Historia"
 
-#: src/qml/desktop/Desktop.qml:304 src/qml/Mobile.qml:100
+#: src/qml/desktop/Desktop.qml:303 src/qml/Mobile.qml:100
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "Laster-markak"
 
-#: src/qml/desktop/Desktop.qml:316 src/qml/Mobile.qml:112
+#: src/qml/desktop/Desktop.qml:315 src/qml/Mobile.qml:112
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "Zama-jaitsierak"
 
-#: src/qml/desktop/Desktop.qml:329
+#: src/qml/desktop/Desktop.qml:328
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr "Inprimatu"
 
-#: src/qml/desktop/Desktop.qml:335
+#: src/qml/desktop/Desktop.qml:334
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr "Pantaila osoa"
 
-#: src/qml/desktop/Desktop.qml:352
+#: src/qml/desktop/Desktop.qml:351
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Ezkutatu garatzailearen tresnak"
 
-#: src/qml/desktop/Desktop.qml:353 src/qml/Mobile.qml:418
+#: src/qml/desktop/Desktop.qml:352 src/qml/Mobile.qml:418
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Erakutsi garatzailearen tresnak"
 
-#: src/qml/desktop/Desktop.qml:362 src/qml/Mobile.qml:318
+#: src/qml/desktop/Desktop.qml:361 src/qml/Mobile.qml:318
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Aurkitu orrian"
 
-#: src/qml/desktop/Desktop.qml:371 src/qml/Mobile.qml:401
+#: src/qml/desktop/Desktop.qml:370 src/qml/Mobile.qml:401
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Irakurle modua"
 
-#: src/qml/desktop/Desktop.qml:388
+#: src/qml/desktop/Desktop.qml:387
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "Gehitu aplikazio abiarazlean"
 
-#: src/qml/desktop/Desktop.qml:407 src/qml/Mobile.qml:120
+#: src/qml/desktop/Desktop.qml:406 src/qml/Mobile.qml:120
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "Ezarpenak"
 
-#: src/qml/desktop/Desktop.qml:417
+#: src/qml/desktop/Desktop.qml:416
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"

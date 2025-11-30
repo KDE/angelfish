@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-28 00:42+0000\n"
-"PO-Revision-Date: 2025-05-01 17:27+0900\n"
+"POT-Creation-Date: 2025-11-30 00:42+0000\n"
+"PO-Revision-Date: 2025-11-29 17:06+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 25.07.70\n"
+"X-Generator: Lokalize 25.08.3\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -158,12 +158,10 @@ msgid "Submit"
 msgstr "提交"
 
 #: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Stop Loading"
+#, kde-format
 msgctxt "@title:webview"
 msgid "Loading"
-msgstr "停止載入"
+msgstr "載入中"
 
 #: lib/contents/ui/NewTabQuestion.qml:11
 #, kde-format
@@ -493,7 +491,7 @@ msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "搜尋「%1」"
 
-#: lib/contents/ui/WebView.qml:588 src/qml/desktop/Desktop.qml:378
+#: lib/contents/ui/WebView.qml:588 src/qml/desktop/Desktop.qml:377
 #: src/qml/Mobile.qml:322
 #, kde-format
 msgctxt "@action:inmenu"
@@ -597,92 +595,92 @@ msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "搜尋或輸入網址…"
 
-#: src/qml/desktop/Desktop.qml:279 src/qml/desktop/DesktopTabs.qml:362
+#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:362
 #: src/qml/Navigation.qml:443
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "新增分頁"
 
-#: src/qml/desktop/Desktop.qml:286 src/qml/Mobile.qml:92
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:92
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
 msgstr "離開隱私模式"
 
-#: src/qml/desktop/Desktop.qml:286 src/qml/Mobile.qml:92
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:92
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Private Mode"
 msgstr "隱私模式"
 
-#: src/qml/desktop/Desktop.qml:295 src/qml/Mobile.qml:108
+#: src/qml/desktop/Desktop.qml:294 src/qml/Mobile.qml:108
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "History"
 msgstr "歷史紀錄"
 
-#: src/qml/desktop/Desktop.qml:304 src/qml/Mobile.qml:100
+#: src/qml/desktop/Desktop.qml:303 src/qml/Mobile.qml:100
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "書籤"
 
-#: src/qml/desktop/Desktop.qml:316 src/qml/Mobile.qml:112
+#: src/qml/desktop/Desktop.qml:315 src/qml/Mobile.qml:112
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "下載"
 
-#: src/qml/desktop/Desktop.qml:329
+#: src/qml/desktop/Desktop.qml:328
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr "列印"
 
-#: src/qml/desktop/Desktop.qml:335
+#: src/qml/desktop/Desktop.qml:334
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr "全螢幕"
 
-#: src/qml/desktop/Desktop.qml:352
+#: src/qml/desktop/Desktop.qml:351
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "隱藏開發者工具"
 
-#: src/qml/desktop/Desktop.qml:353 src/qml/Mobile.qml:418
+#: src/qml/desktop/Desktop.qml:352 src/qml/Mobile.qml:418
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "顯示開發者工具"
 
-#: src/qml/desktop/Desktop.qml:362 src/qml/Mobile.qml:318
+#: src/qml/desktop/Desktop.qml:361 src/qml/Mobile.qml:318
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "在頁面中尋找內容"
 
-#: src/qml/desktop/Desktop.qml:371 src/qml/Mobile.qml:401
+#: src/qml/desktop/Desktop.qml:370 src/qml/Mobile.qml:401
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "閱讀模式"
 
-#: src/qml/desktop/Desktop.qml:388
+#: src/qml/desktop/Desktop.qml:387
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "新增到應用程式啟動器"
 
-#: src/qml/desktop/Desktop.qml:407 src/qml/Mobile.qml:120
+#: src/qml/desktop/Desktop.qml:406 src/qml/Mobile.qml:120
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "設定"
 
-#: src/qml/desktop/Desktop.qml:417
+#: src/qml/desktop/Desktop.qml:416
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
