@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-30 02:39+0000\n"
-"PO-Revision-Date: 2025-05-01 16:18+0200\n"
+"PO-Revision-Date: 2025-11-27 09:25+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -163,12 +163,10 @@ msgid "Submit"
 msgstr "Envoyer"
 
 #: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Stop Loading"
+#, kde-format
 msgctxt "@title:webview"
 msgid "Loading"
-msgstr "Arrêter le chargement"
+msgstr "Chargement en cours"
 
 #: lib/contents/ui/NewTabQuestion.qml:11
 #, kde-format

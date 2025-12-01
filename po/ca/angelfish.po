@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-30 02:39+0000\n"
-"PO-Revision-Date: 2025-04-30 10:15+0200\n"
+"PO-Revision-Date: 2025-11-30 10:37+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -164,12 +164,10 @@ msgid "Submit"
 msgstr "Envia"
 
 #: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Stop Loading"
+#, kde-format
 msgctxt "@title:webview"
 msgid "Loading"
-msgstr "Atura la càrrega"
+msgstr "S'està carregant"
 
 #: lib/contents/ui/NewTabQuestion.qml:11
 #, kde-format
@@ -1236,7 +1234,3 @@ msgstr "Elimina l'aplicació"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "No hi ha instal·lada cap aplicació web"
-
-#~ msgctxt "@action:button"
-#~ msgid "Save"
-#~ msgstr "Desa"
