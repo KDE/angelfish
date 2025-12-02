@@ -157,12 +157,10 @@ msgid "Submit"
 msgstr "提交"
 
 #: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Stop Loading"
+#, kde-format
 msgctxt "@title:webview"
 msgid "Loading"
-msgstr "停止加载"
+msgstr ""
 
 #: lib/contents/ui/NewTabQuestion.qml:11
 #, kde-format
