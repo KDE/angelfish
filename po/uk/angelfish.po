@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-30 02:39+0000\n"
-"PO-Revision-Date: 2025-04-30 09:21+0300\n"
+"PO-Revision-Date: 2025-12-05 13:12+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -164,12 +164,10 @@ msgid "Submit"
 msgstr "Надіслати"
 
 #: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Stop Loading"
+#, kde-format
 msgctxt "@title:webview"
 msgid "Loading"
-msgstr "Зупинити завантаження"
+msgstr "Завантаження"
 
 #: lib/contents/ui/NewTabQuestion.qml:11
 #, kde-format
