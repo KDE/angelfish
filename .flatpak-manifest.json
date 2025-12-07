@@ -1,1 +1,100 @@
-org.kde.angelfish.json
+{
+    "id": "org.kde.angelfish",
+    "runtime": "org.kde.Platform",
+    "runtime-version": "6.10",
+    "sdk": "org.kde.Sdk",
+    "base": "io.qt.qtwebengine.BaseApp",
+    "base-version": "6.10",
+    "command": "angelfish",
+    "tags": [
+        "nightly"
+    ],
+    "desktop-file-name-suffix": " (Nightly)",
+    "finish-args": [
+        "--share=ipc",
+        "--share=network",
+        "--socket=pulseaudio",
+        "--socket=fallback-x11",
+        "--socket=wayland",
+        "--device=dri",
+        "--device=all",
+        "--filesystem=xdg-data",
+        "--filesystem=xdg-download",
+        "--talk-name=org.freedesktop.Notifications",
+        "--own-name=org.kde.angelfish",
+        "--env=QML2_IMPORT_PATH=/app/qml/:/app/lib64/qml:/app/lib/qml"
+    ],
+    "separate-locales": false,
+    "sdk-extensions": [
+        "org.freedesktop.Sdk.Extension.rust-stable"
+    ],
+    "build-options": {
+        "append-path": "/usr/lib/sdk/rust-stable/bin",
+        "env": {
+            "RUST_BACKTRACE": "1",
+            "CARGO_NET_OFFLINE": "true",
+            "RUSTFLAGS": "--remap-path-prefix =../"
+        }
+    },
+    "cleanup": [
+        "/include",
+        "/lib/*.a",
+        "/lib/cmake",
+        "/lib/include",
+        "/lib/pkgconfig",
+        "/lib/*/cmake",
+        "/lib/*/include",
+        "/share/cmake"
+    ],
+    "modules": [
+        "flatpak/corrosion.json",
+        {
+            "name": "futuresql",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DBUILD_WITH_QT6=ON",
+                "-DQT_MAJOR_VERSION=6",
+                "-DCMAKE_BUILD_TYPE=Release"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/futuresql/futuresql-0.1.1.tar.xz",
+                    "sha256": "e44ed8d5a9618b3ca7ba2983ed9c5f7572e6e0a5b199f94868834b71ccbebd43",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 368957,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/futuresql/futuresql-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "angelfish",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=Release",
+                "-DQt6Feedback_DIR=/app/lib/cmake/Qt6Feedback"
+            ],
+            "builddir": true,
+            "build-options": {
+                "env": {
+                    "CARGO_HOME": "/run/build/angelfish/cargo"
+                }
+            },
+            "sources": [
+                {
+                    "type": "dir",
+                    "path": ".",
+                    "skip": [
+                        ".git"
+                    ]
+                },
+                "flatpak/generated-sources.json"
+            ]
+        }
+    ]
+}
