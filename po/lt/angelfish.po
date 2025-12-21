@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-30 00:42+0000\n"
-"PO-Revision-Date: 2025-01-29 00:14+0200\n"
+"PO-Revision-Date: 2025-12-20 21:21+0200\n"
 "Last-Translator: Moo\n"
 "Language-Team: lt\n"
 "Language: lt\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.8\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -73,11 +73,10 @@ msgid "Password:"
 msgstr "Slaptažodis:"
 
 #: lib/contents/ui/DownloadQuestion.qml:16
-#, fuzzy, kde-format
-#| msgid "Do you want to download this file?"
+#, kde-format
 msgctxt "Would you like to download (filename) from (domain)?"
 msgid "Would you like to download %1 from %2?"
-msgstr "Ar norite atsisiųsti šį failą?"
+msgstr "Ar norėtumėte atsisiųsti %1 iš %2?"
 
 #: lib/contents/ui/DownloadQuestion.qml:25
 #: src/qml/AdblockFilterDownloadQuestion.qml:32
@@ -164,12 +163,10 @@ msgid "Submit"
 msgstr "Pateikti"
 
 #: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Stop Loading"
+#, kde-format
 msgctxt "@title:webview"
 msgid "Loading"
-msgstr "Stabdyti įkėlimą"
+msgstr "Įkeliama"
 
 #: lib/contents/ui/NewTabQuestion.qml:11
 #, kde-format
@@ -302,9 +299,7 @@ msgid "Orientation"
 msgstr "Orientacija"
 
 #: lib/contents/ui/PrintPreview.qml:126
-#, fuzzy, kde-format
-#| msgctxt "@title:group"
-#| msgid "Paper Size"
+#, kde-format
 msgctxt "@label:combobox"
 msgid "Paper Size"
 msgstr "Popieriaus dydis"
@@ -538,30 +533,29 @@ msgid "URL to open"
 msgstr "URL, kurį atverti"
 
 #: src/main.cpp:83
-#, fuzzy, kde-format
-#| msgid "Configure Angelfish"
+#, kde-format
 msgid "Angelfish"
-msgstr "Konfigūruoti Angelfish"
+msgstr "Angelfish"
 
 #: src/main.cpp:85
 #, kde-format
 msgid "Web browser for Plasma Mobile"
-msgstr ""
+msgstr "Plasma Mobile saityno naršyklė"
 
 #: src/main.cpp:87
 #, kde-format
 msgid "© 2015-2024 KDE Community"
-msgstr ""
+msgstr "© 2015–2024 KDE bendruomenė"
 
 #: src/main.cpp:90
 #, kde-format
 msgid "Jonah Brüchert"
-msgstr ""
+msgstr "Jonah Brüchert"
 
 #: src/main.cpp:90
 #, kde-format
 msgid "Maintainer"
-msgstr ""
+msgstr "Prižiūrėtojas"
 
 #: src/main.cpp:91
 #, kde-format
@@ -591,18 +585,16 @@ msgid "Downloading…"
 msgstr "Atsiunčiama…"
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:43
-#, fuzzy, kde-format
-#| msgctxt "@label:checkbox"
-#| msgid "Enable adblock"
+#, kde-format
 msgctxt "@action:button"
 msgid "Disable Adblock"
-msgstr "Įjungti reklamos blokavimą"
+msgstr "Išjungti reklamos blokavimą"
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:49
 #, kde-format
 msgctxt "@info"
 msgid "Adblock Disabled…"
-msgstr ""
+msgstr "Reklamos blokavimas išjungtas…"
 
 #: src/qml/Bookmarks.qml:13
 #, kde-format
@@ -717,7 +709,7 @@ msgstr "Nuostatos"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
-msgstr ""
+msgstr "Perjungti mobiliąją veikseną"
 
 #: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
 #, kde-format
@@ -768,12 +760,10 @@ msgid "Close Tab"
 msgstr "Užverti kortelę"
 
 #: src/qml/desktop/DesktopTabs.qml:409
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Close Tab"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
-msgstr "Užverti kortelę"
+msgstr "Iš naujo atverti užvertą kortelę"
 
 #: src/qml/desktop/HistoryPage.qml:31
 #, kde-format
@@ -872,12 +862,10 @@ msgid "Tabs"
 msgstr "Kortelės"
 
 #: src/qml/Mobile.qml:128
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Show Desktop Site"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
-msgstr "Rodyti darbalaukiui skirtą svetainės versiją"
+msgstr "Perjungti darbalaukiui skirtą svetainės versiją"
 
 #: src/qml/Mobile.qml:333
 #, kde-format
