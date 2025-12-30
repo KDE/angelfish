@@ -36,6 +36,9 @@ parts:
     plugin: cmake
     source: https://invent.kde.org/libraries/futuresql.git
     source-branch: master
+    build-snaps:
+      - kde-qt6-core24-sdk/latest/beta
+      - kf6-core24-sdk/latest/beta
     build-packages:
       - rsync
     cmake-parameters:
@@ -56,8 +59,12 @@ parts:
     plugin: cmake
     source: .
     source-type: local
+    build-snaps:
+      - kde-qt6-core24-sdk/latest/beta
+      - kf6-core24-sdk/latest/beta
     build-packages:
       - libpulse0
+      - libduktape207
     stage-packages:
       - libpulse0
       - libasound2
