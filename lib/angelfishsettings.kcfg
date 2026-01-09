@@ -16,7 +16,7 @@ SPDX-License-Identifier: LGPL-2.0-or-later
     </group>
     <group name="Browser">
         <entry key="homepage" type="url">
-            <default>QUrl(QStringLiteral("https://start.duckduckgo.com"))</default>
+            <default>QUrl(QStringLiteral("https://noai.duckduckgo.com"))</default>
         </entry>
         <entry key="showHomeButton" type="bool">
             <default>true</default>
@@ -25,10 +25,10 @@ SPDX-License-Identifier: LGPL-2.0-or-later
             <default>true</default>
         </entry>
         <entry key="searchBaseUrl" type="url">
-            <default>QUrl(QStringLiteral("https://start.duckduckgo.com/?q="))</default>
+            <default>QUrl(QStringLiteral("https://noai.duckduckgo.com/?q="))</default>
         </entry>
         <entry key="newTabUrl" type="url">
-            <default>QUrl(QStringLiteral("https://start.duckduckgo.com/?q="))</default>
+            <default>QUrl(QStringLiteral("https://noai.duckduckgo.com/?q="))</default>
         </entry>
         <entry key="switchToNewTab" type="bool">
             <default>false</default>

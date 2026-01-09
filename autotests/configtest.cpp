@@ -14,8 +14,8 @@ class ConfigTest : public QObject
 
 private Q_SLOTS:
     void testDefaultValues() {
-        QCOMPARE(AngelfishSettings::defaultHomepageValue(), QUrl(QStringLiteral("https://start.duckduckgo.com")));
-        QCOMPARE(AngelfishSettings::defaultSearchBaseUrlValue(), QUrl(QStringLiteral("https://start.duckduckgo.com/?q=")));
+        QCOMPARE(AngelfishSettings::defaultHomepageValue(), QUrl(QStringLiteral("https://noai.duckduckgo.com")));
+        QCOMPARE(AngelfishSettings::defaultSearchBaseUrlValue(), QUrl(QStringLiteral("https://noai.duckduckgo.com/?q=")));
         QCOMPARE(AngelfishSettings::defaultWebAutoLoadImagesValue(), true);
         QCOMPARE(AngelfishSettings::defaultWebJavaScriptEnabledValue(), true);
         QCOMPARE(AngelfishSettings::defaultNavBarMainMenuValue(), true);
