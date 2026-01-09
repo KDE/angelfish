@@ -37,6 +37,11 @@ FormCard.FormCardPage {
                 }
 
                 ListElement {
+                    title: "DuckDuckGo (no AI)"
+                    url: "https://noai.duckduckgo.com/?q="
+                }
+
+                ListElement {
                     title: "DuckDuckGo"
                     url: "https://start.duckduckgo.com/?q="
                 }
