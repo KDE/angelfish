@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-30 00:42+0000\n"
+"POT-Creation-Date: 2026-01-12 00:43+0000\n"
 "PO-Revision-Date: 2020-08-12 20:25+0200\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -1024,7 +1024,7 @@ msgid "Web Apps"
 msgstr ""
 
 #: src/settings/AngelfishConfigurationView.qml:32
-#: src/settings/SettingsSearchEnginePage.qml:113
+#: src/settings/SettingsSearchEnginePage.qml:118
 #, fuzzy, kde-format
 #| msgid "Search Engine"
 msgctxt "@title:window"
@@ -1277,7 +1277,7 @@ msgctxt "@label"
 msgid "Custom"
 msgstr "Brugervalgt"
 
-#: src/settings/SettingsSearchEnginePage.qml:118
+#: src/settings/SettingsSearchEnginePage.qml:123
 #, fuzzy, kde-format
 #| msgid "Base URL of your preferred search engine"
 msgctxt "@label"

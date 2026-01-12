@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-30 00:42+0000\n"
+"POT-Creation-Date: 2026-01-12 00:43+0000\n"
 "PO-Revision-Date: 2025-11-27 12:13+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -943,7 +943,7 @@ msgid "Web Apps"
 msgstr "تطبيقات الويب"
 
 #: src/settings/AngelfishConfigurationView.qml:32
-#: src/settings/SettingsSearchEnginePage.qml:113
+#: src/settings/SettingsSearchEnginePage.qml:118
 #, kde-format
 msgctxt "@title:window"
 msgid "Search Engines"
@@ -1191,7 +1191,7 @@ msgctxt "@label"
 msgid "Custom"
 msgstr "مخصص"
 
-#: src/settings/SettingsSearchEnginePage.qml:118
+#: src/settings/SettingsSearchEnginePage.qml:123
 #, kde-format
 msgctxt "@label"
 msgid "Base URL of your preferred search engine"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-30 00:42+0000\n"
+"POT-Creation-Date: 2026-01-12 00:43+0000\n"
 "PO-Revision-Date: 2025-11-27 19:22+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -946,7 +946,7 @@ msgid "Web Apps"
 msgstr "Веб-приложения"
 
 #: src/settings/AngelfishConfigurationView.qml:32
-#: src/settings/SettingsSearchEnginePage.qml:113
+#: src/settings/SettingsSearchEnginePage.qml:118
 #, kde-format
 msgctxt "@title:window"
 msgid "Search Engines"
@@ -1207,7 +1207,7 @@ msgctxt "@label"
 msgid "Custom"
 msgstr "Другая"
 
-#: src/settings/SettingsSearchEnginePage.qml:118
+#: src/settings/SettingsSearchEnginePage.qml:123
 #, kde-format
 msgctxt "@label"
 msgid "Base URL of your preferred search engine"
