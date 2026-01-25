@@ -52,7 +52,7 @@ public:
 
     /// Deletes the old adblock and creates a new one from the current filter lists.
     /// This needs to be called after lists were changed.
-    void resetAdblock();
+    Q_INVOKABLE void resetAdblock();
 
 #ifdef BUILD_ADBLOCK
     Q_INVOKABLE std::vector<QString> getCosmeticFilters(const QUrl &url,
