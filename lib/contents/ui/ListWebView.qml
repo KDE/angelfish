@@ -30,7 +30,23 @@ Repeater {
         offTheRecord: tabs.privateTabsMode
         storageName: tabs.privateTabsMode ? "Private" : Core.AngelfishSettings.profile
 
-        questionLoader: rootPage.questionLoader
+        onDownloadRequested: (download) => {
+            rootPage.questionLoader.setSource("DownloadQuestion.qml")
+            rootPage.questionLoader.item.download = download
+            rootPage.questionLoader.item.visible = true
+        }
+
+        onDownloadFinished: (download) => {
+            switch (download.state) {
+            case WebEngineDownloadRequest.DownloadCompleted:
+                showPassiveNotification(i18n("Download finished"))
+                break
+            case WebEngineDownloadRequest.DownloadInterrupted:
+                showPassiveNotification(i18n("Download failed"));
+                break
+            }
+        }
+
         urlInterceptor: typeof AdblockUrlInterceptor !== "undefined" && AdblockUrlInterceptor
     }
 

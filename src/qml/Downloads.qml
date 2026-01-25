@@ -103,7 +103,7 @@ Kirigami.ScrollablePage {
                 QQC2.ToolButton {
                     visible: !downloadDelegate.download.isPaused && downloadDelegate.download.state === WebEngineDownloadRequest.DownloadInProgress
                     display: QQC2.ToolButton.IconOnly
-                    text: i18c("@info:tooltip", "Pause")
+                    text: i18nc("@info:tooltip", "Pause")
                     icon.name: "media-playback-pause"
                     onClicked: downloadDelegate.download.pause()
 

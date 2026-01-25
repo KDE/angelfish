@@ -24,7 +24,7 @@ Kirigami.InlineMessage {
             icon.name: "download"
             text: i18nc("@action:button", "Download")
             onTriggered: {
-                downloadQuestion.download.resume()
+                downloadQuestion.download.accept()
                 downloadQuestion.visible = false
             }
         },

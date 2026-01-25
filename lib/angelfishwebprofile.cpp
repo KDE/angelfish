@@ -14,65 +14,24 @@
 
 #include "downloadmanager.h"
 
+using namespace Qt::StringLiterals;
+
 class QQuickWebEngineDownloadRequest : public DownloadItem
 {
 };
 
 AngelfishWebProfile::AngelfishWebProfile(QObject *parent)
-    : QQuickWebEngineProfile(parent)
-    , m_questionLoader(nullptr)
+    : QQuickWebEngineProfile(QString(), parent)
     , m_urlInterceptor(nullptr)
 {
     connect(this, &QQuickWebEngineProfile::downloadRequested, this, &AngelfishWebProfile::handleDownload);
-    connect(this, &QQuickWebEngineProfile::downloadFinished, this, &AngelfishWebProfile::handleDownloadFinished);
     connect(this, &QQuickWebEngineProfile::presentNotification, this, &AngelfishWebProfile::showNotification);
 }
 
 void AngelfishWebProfile::handleDownload(QQuickWebEngineDownloadRequest *downloadItem)
 {
     DownloadItem *download = qobject_cast<DownloadItem *>(downloadItem);
-
-    // if we don't accept the request right away, it will be deleted
-    download->accept();
-    // therefore just stop the download again as quickly as possible,
-    // and ask the user for confirmation
-    download->pause();
-
-    DownloadManager::instance().addDownload(std::unique_ptr<DownloadItem>(downloadItem));
-
-    if (m_questionLoader) {
-        m_questionLoader->setProperty("source", QStringLiteral("qrc:/DownloadQuestion.qml"));
-
-        if (auto *question = m_questionLoader->property("item").value<QQuickItem *>()) {
-            question->setProperty("download", QVariant::fromValue(downloadItem));
-            question->setVisible(true);
-        }
-    }
-}
-
-void AngelfishWebProfile::handleDownloadFinished(DownloadItem *downloadItem)
-{
-    QQuickWindow *window = m_questionLoader->window();
-    const auto passiveNotification = [window](const QString &text) {
-        QMetaObject::invokeMethod(window, "showPassiveNotification", Q_ARG(QVariant, text), Q_ARG(QVariant, {}), Q_ARG(QVariant, {}), Q_ARG(QVariant, {}));
-    };
-
-    switch (downloadItem->state()) {
-    case DownloadItem::DownloadCompleted:
-        qDebug() << "download finished";
-        passiveNotification(i18n("Download finished"));
-        break;
-    case DownloadItem::DownloadInterrupted:
-        qDebug() << "Download failed";
-        passiveNotification(i18n("Download failed"));
-        qDebug() << "Download interrupt reason:" << downloadItem->interruptReasonString();
-        break;
-    case DownloadItem::DownloadCancelled:
-        qDebug() << "Download cancelled by the user";
-        break;
-    default:
-        break;
-    }
+    DownloadManager::instance().addDownload(std::unique_ptr<DownloadItem>(download));
 }
 
 void AngelfishWebProfile::showNotification(QWebEngineNotification *webNotification)
