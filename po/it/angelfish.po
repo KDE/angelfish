@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-12 00:43+0000\n"
+"POT-Creation-Date: 2026-01-26 00:42+0000\n"
 "PO-Revision-Date: 2025-12-01 18:09+0100\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -37,17 +37,7 @@ msgstr "Copyright 2020 degli sviluppatori di Angelfish"
 msgid "Marco Martin"
 msgstr "Marco Martin"
 
-#: lib/angelfishwebprofile.cpp:63
-#, kde-format
-msgid "Download finished"
-msgstr "Scaricamento completato"
-
-#: lib/angelfishwebprofile.cpp:67
-#, kde-format
-msgid "Download failed"
-msgstr "Scaricamento non riuscito"
-
-#: lib/angelfishwebprofile.cpp:88
+#: lib/angelfishwebprofile.cpp:47
 #, kde-format
 msgid "Open"
 msgstr "Apri"
@@ -160,7 +150,17 @@ msgctxt "@action:button"
 msgid "Submit"
 msgstr "Invia"
 
-#: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
+#: lib/contents/ui/ListWebView.qml:42
+#, kde-format
+msgid "Download finished"
+msgstr "Scaricamento completato"
+
+#: lib/contents/ui/ListWebView.qml:45
+#, kde-format
+msgid "Download failed"
+msgstr "Scaricamento non riuscito"
+
+#: lib/contents/ui/ListWebView.qml:76 lib/contents/ui/ListWebView.qml:79
 #, kde-format
 msgctxt "@title:webview"
 msgid "Loading"
@@ -825,6 +825,14 @@ msgstr "In corso…"
 msgctxt "@info:tooltip"
 msgid "Cancel"
 msgstr "Annulla"
+
+#: src/qml/Downloads.qml:106
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Pause"
+msgctxt "@info:tooltip"
+msgid "Pause"
+msgstr "Pausa"
 
 #: src/qml/Downloads.qml:118
 #, kde-format

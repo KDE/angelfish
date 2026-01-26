@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-12 00:43+0000\n"
+"POT-Creation-Date: 2026-01-26 00:42+0000\n"
 "PO-Revision-Date: 2023-11-07 21:26+0100\n"
 "Last-Translator: Enol P. <enolp@softastur.org>\n"
 "Language-Team: \n"
@@ -37,17 +37,7 @@ msgstr ""
 msgid "Marco Martin"
 msgstr ""
 
-#: lib/angelfishwebprofile.cpp:63
-#, kde-format
-msgid "Download finished"
-msgstr ""
-
-#: lib/angelfishwebprofile.cpp:67
-#, kde-format
-msgid "Download failed"
-msgstr ""
-
-#: lib/angelfishwebprofile.cpp:88
+#: lib/angelfishwebprofile.cpp:47
 #, kde-format
 msgid "Open"
 msgstr ""
@@ -150,7 +140,17 @@ msgctxt "@action:button"
 msgid "Submit"
 msgstr ""
 
-#: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
+#: lib/contents/ui/ListWebView.qml:42
+#, kde-format
+msgid "Download finished"
+msgstr ""
+
+#: lib/contents/ui/ListWebView.qml:45
+#, kde-format
+msgid "Download failed"
+msgstr ""
+
+#: lib/contents/ui/ListWebView.qml:76 lib/contents/ui/ListWebView.qml:79
 #, kde-format
 msgctxt "@title:webview"
 msgid "Loading"
@@ -795,6 +795,12 @@ msgstr ""
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Cancel"
+msgstr ""
+
+#: src/qml/Downloads.qml:106
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Pause"
 msgstr ""
 
 #: src/qml/Downloads.qml:118

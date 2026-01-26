@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-12 00:43+0000\n"
+"POT-Creation-Date: 2026-01-26 00:42+0000\n"
 "PO-Revision-Date: 2025-03-23 07:29+0100\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
@@ -38,17 +38,7 @@ msgstr "Kopirajto 2020 Angelfish-programistoj"
 msgid "Marco Martin"
 msgstr "Marco Martin"
 
-#: lib/angelfishwebprofile.cpp:63
-#, kde-format
-msgid "Download finished"
-msgstr "Elŝuto finiĝis"
-
-#: lib/angelfishwebprofile.cpp:67
-#, kde-format
-msgid "Download failed"
-msgstr "Elŝuto malsukcesis"
-
-#: lib/angelfishwebprofile.cpp:88
+#: lib/angelfishwebprofile.cpp:47
 #, kde-format
 msgid "Open"
 msgstr "Malfermi"
@@ -160,7 +150,17 @@ msgctxt "@action:button"
 msgid "Submit"
 msgstr "Sendi"
 
-#: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
+#: lib/contents/ui/ListWebView.qml:42
+#, kde-format
+msgid "Download finished"
+msgstr "Elŝuto finiĝis"
+
+#: lib/contents/ui/ListWebView.qml:45
+#, kde-format
+msgid "Download failed"
+msgstr "Elŝuto malsukcesis"
+
+#: lib/contents/ui/ListWebView.qml:76 lib/contents/ui/ListWebView.qml:79
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Stop Loading"
@@ -822,6 +822,14 @@ msgstr "Progresanta…"
 msgctxt "@info:tooltip"
 msgid "Cancel"
 msgstr "Nuligi"
+
+#: src/qml/Downloads.qml:106
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Pause"
+msgctxt "@info:tooltip"
+msgid "Pause"
+msgstr "Paŭzi"
 
 #: src/qml/Downloads.qml:118
 #, kde-format

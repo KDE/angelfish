@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-12 00:43+0000\n"
+"POT-Creation-Date: 2026-01-26 00:42+0000\n"
 "PO-Revision-Date: 2025-11-26 03:30+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -38,17 +38,7 @@ msgstr "2020 Angelfish-ის პროგრამისტები, ყვე
 msgid "Marco Martin"
 msgstr "მაკრო მარტინი"
 
-#: lib/angelfishwebprofile.cpp:63
-#, kde-format
-msgid "Download finished"
-msgstr "გადმოწერა დასრულდა"
-
-#: lib/angelfishwebprofile.cpp:67
-#, kde-format
-msgid "Download failed"
-msgstr "გადმოწერის შეცდომა"
-
-#: lib/angelfishwebprofile.cpp:88
+#: lib/angelfishwebprofile.cpp:47
 #, kde-format
 msgid "Open"
 msgstr "გახსნა"
@@ -161,7 +151,17 @@ msgctxt "@action:button"
 msgid "Submit"
 msgstr "გაგზავნა"
 
-#: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
+#: lib/contents/ui/ListWebView.qml:42
+#, kde-format
+msgid "Download finished"
+msgstr "გადმოწერა დასრულდა"
+
+#: lib/contents/ui/ListWebView.qml:45
+#, kde-format
+msgid "Download failed"
+msgstr "გადმოწერის შეცდომა"
+
+#: lib/contents/ui/ListWebView.qml:76 lib/contents/ui/ListWebView.qml:79
 #, kde-format
 msgctxt "@title:webview"
 msgid "Loading"
@@ -818,6 +818,14 @@ msgstr "მიმდინარეობს…"
 msgctxt "@info:tooltip"
 msgid "Cancel"
 msgstr "გაუქმება"
+
+#: src/qml/Downloads.qml:106
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Pause"
+msgctxt "@info:tooltip"
+msgid "Pause"
+msgstr "შეჩერება"
 
 #: src/qml/Downloads.qml:118
 #, kde-format

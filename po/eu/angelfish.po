@@ -1,7 +1,7 @@
 # Translation for angelfish.po to Euskara/Basque (eu).
 # Copyright (C) 2020-2025 This file is copyright:
 # This file is distributed under the same license as the angelfish package.
-# SPDX-FileCopyrightText: 2024, 2025 KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
+# SPDX-FileCopyrightText: 2024, 2025, 2026 KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
 #
 # Translators:
 # Iñigo Salvador Azurmendi <xalba@ni.eus>, 2020, 2021, 2022, 2023, 2024, 2025.
@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-12 00:43+0000\n"
-"PO-Revision-Date: 2025-11-30 14:40+0100\n"
+"POT-Creation-Date: 2026-01-26 00:42+0000\n"
+"PO-Revision-Date: 2026-01-25 13:30+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.08.3\n"
+"X-Generator: Lokalize 25.12.1\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -40,17 +40,7 @@ msgstr "Copyright 2020 Angelfish garatzaileak"
 msgid "Marco Martin"
 msgstr "Marco Martin"
 
-#: lib/angelfishwebprofile.cpp:63
-#, kde-format
-msgid "Download finished"
-msgstr "Zama-jaistea amaitu da"
-
-#: lib/angelfishwebprofile.cpp:67
-#, kde-format
-msgid "Download failed"
-msgstr "Zama-jaistea huts egin du"
-
-#: lib/angelfishwebprofile.cpp:88
+#: lib/angelfishwebprofile.cpp:47
 #, kde-format
 msgid "Open"
 msgstr "Ireki"
@@ -162,7 +152,17 @@ msgctxt "@action:button"
 msgid "Submit"
 msgstr "Bidali"
 
-#: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
+#: lib/contents/ui/ListWebView.qml:42
+#, kde-format
+msgid "Download finished"
+msgstr "Zama-jaistea amaitu da"
+
+#: lib/contents/ui/ListWebView.qml:45
+#, kde-format
+msgid "Download failed"
+msgstr "Zama-jaistea huts egin du"
+
+#: lib/contents/ui/ListWebView.qml:76 lib/contents/ui/ListWebView.qml:79
 #, kde-format
 msgctxt "@title:webview"
 msgid "Loading"
@@ -497,7 +497,7 @@ msgstr "Itsatsi"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Search for “%1”"
-msgstr "Bilatu \"%1\""
+msgstr "Bilatu  “%1”"
 
 #: lib/contents/ui/WebView.qml:588 src/qml/desktop/Desktop.qml:377
 #: src/qml/Mobile.qml:322
@@ -815,6 +815,14 @@ msgstr "Egiteko bidean..."
 msgctxt "@info:tooltip"
 msgid "Cancel"
 msgstr "Utzi"
+
+#: src/qml/Downloads.qml:106
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Pause"
+msgctxt "@info:tooltip"
+msgid "Pause"
+msgstr "Etenaldia"
 
 #: src/qml/Downloads.qml:118
 #, kde-format

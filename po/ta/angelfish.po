@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-12 00:43+0000\n"
+"POT-Creation-Date: 2026-01-26 00:42+0000\n"
 "PO-Revision-Date: 2025-11-30 15:27+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-l10n-ta@kde.org>\n"
@@ -37,17 +37,7 @@ msgstr "பதிப்புரிமை 2020 ஏஞ்சல்ஃபிஷ்
 msgid "Marco Martin"
 msgstr "மார்க்கோ மார்ட்டின்"
 
-#: lib/angelfishwebprofile.cpp:63
-#, kde-format
-msgid "Download finished"
-msgstr "பதிவிறக்கம் முடிந்த‍து"
-
-#: lib/angelfishwebprofile.cpp:67
-#, kde-format
-msgid "Download failed"
-msgstr "பதிவிறக்கம் தோல்வியடைந்தது"
-
-#: lib/angelfishwebprofile.cpp:88
+#: lib/angelfishwebprofile.cpp:47
 #, kde-format
 msgid "Open"
 msgstr "திற"
@@ -153,7 +143,17 @@ msgctxt "@action:button"
 msgid "Submit"
 msgstr "சமர்ப்பி"
 
-#: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
+#: lib/contents/ui/ListWebView.qml:42
+#, kde-format
+msgid "Download finished"
+msgstr "பதிவிறக்கம் முடிந்த‍து"
+
+#: lib/contents/ui/ListWebView.qml:45
+#, kde-format
+msgid "Download failed"
+msgstr "பதிவிறக்கம் தோல்வியடைந்தது"
+
+#: lib/contents/ui/ListWebView.qml:76 lib/contents/ui/ListWebView.qml:79
 #, fuzzy, kde-format
 #| msgid "Leave page"
 msgctxt "@title:webview"
@@ -813,6 +813,14 @@ msgstr ""
 msgctxt "@info:tooltip"
 msgid "Cancel"
 msgstr "ரத்து செய்"
+
+#: src/qml/Downloads.qml:106
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Pause"
+msgctxt "@info:tooltip"
+msgid "Pause"
+msgstr "இடைநிறுத்து"
 
 #: src/qml/Downloads.qml:118
 #, kde-format
