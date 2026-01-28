@@ -807,12 +807,10 @@ msgid "Cancel"
 msgstr "取消"
 
 #: src/qml/Downloads.qml:106
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Pause"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Pause"
-msgstr "暂停"
+msgstr ""
 
 #: src/qml/Downloads.qml:118
 #, kde-format
