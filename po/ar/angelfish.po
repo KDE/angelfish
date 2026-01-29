@@ -1,13 +1,13 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the angelfish package.
-# SPDX-FileCopyrightText: 2023, 2024, 2025 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+# SPDX-FileCopyrightText: 2023, 2024, 2025, 2026 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-26 00:42+0000\n"
-"PO-Revision-Date: 2025-11-27 12:13+0400\n"
+"PO-Revision-Date: 2026-01-28 20:03+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -809,12 +809,10 @@ msgid "Cancel"
 msgstr "ألغِ"
 
 #: src/qml/Downloads.qml:106
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Pause"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Pause"
-msgstr "ألبث"
+msgstr "ألبِث"
 
 #: src/qml/Downloads.qml:118
 #, kde-format
