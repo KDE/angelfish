@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the plasma-angelfish package.
 #
 # Volkan Gezer <volkangezer@gmail.com>, 2020, 2021.
-# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025, 2026 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-30 02:39+0000\n"
-"PO-Revision-Date: 2025-04-30 17:27+0300\n"
+"PO-Revision-Date: 2026-01-26 17:08+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.04.0\n"
+"X-Generator: Lokalize 25.12.1\n"
 
 #: angelfish-webapp/main.cpp:66
 #, kde-format
@@ -161,12 +161,10 @@ msgid "Submit"
 msgstr "Gönder"
 
 #: lib/contents/ui/ListWebView.qml:60 lib/contents/ui/ListWebView.qml:63
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Stop Loading"
+#, kde-format
 msgctxt "@title:webview"
 msgid "Loading"
-msgstr "Yüklemeyi Durdur"
+msgstr "Yükleniyor"
 
 #: lib/contents/ui/NewTabQuestion.qml:11
 #, kde-format
@@ -1237,6 +1235,10 @@ msgstr "Uygulamayı kaldır"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "Kurulu web uygulaması yok"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Pause"
+#~ msgstr "Duraklat"
 
 #~ msgctxt "@action:button"
 #~ msgid "Save"
