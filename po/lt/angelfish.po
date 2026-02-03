@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-26 00:42+0000\n"
-"PO-Revision-Date: 2025-12-20 21:21+0200\n"
+"PO-Revision-Date: 2026-02-02 23:19+0200\n"
 "Last-Translator: Moo\n"
 "Language-Team: lt\n"
 "Language: lt\n"
@@ -832,9 +832,7 @@ msgid "Cancel"
 msgstr "Atsisakyti"
 
 #: src/qml/Downloads.qml:106
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Pause"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Pause"
 msgstr "Pristabdyti"
