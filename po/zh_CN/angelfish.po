@@ -64,7 +64,7 @@ msgstr "密码："
 #, kde-format
 msgctxt "Would you like to download (filename) from (domain)?"
 msgid "Would you like to download %1 from %2?"
-msgstr "您想从 %2 下载 %1 吗？"
+msgstr "您是否想要从 %2 下载 %1？"
 
 #: lib/contents/ui/DownloadQuestion.qml:25
 #: src/qml/AdblockFilterDownloadQuestion.qml:32
@@ -160,7 +160,7 @@ msgstr "下载失败"
 #, kde-format
 msgctxt "@title:webview"
 msgid "Loading"
-msgstr ""
+msgstr "正在加载"
 
 #: lib/contents/ui/NewTabQuestion.qml:11
 #, kde-format
@@ -260,7 +260,7 @@ msgstr "打印"
 #, kde-format
 msgctxt "@title:group"
 msgid "Destination"
-msgstr ""
+msgstr "目标"
 
 #: lib/contents/ui/PrintPreview.qml:92
 #, kde-format
@@ -272,7 +272,7 @@ msgstr "保存为 PDF"
 #, kde-format
 msgctxt "@title:group"
 msgid "Orientation"
-msgstr ""
+msgstr "位置"
 
 #: lib/contents/ui/PrintPreview.qml:126
 #, kde-format
@@ -810,7 +810,7 @@ msgstr "取消"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Pause"
-msgstr ""
+msgstr "暂停"
 
 #: src/qml/Downloads.qml:118
 #, kde-format
@@ -969,7 +969,7 @@ msgstr "显示主页按钮："
 #: src/settings/DesktopHomeSettingsPage.qml:26
 #, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
-msgstr ""
+msgstr "主页按钮将显示在工具栏的刷新按钮旁。"
 
 #: src/settings/DesktopHomeSettingsPage.qml:36
 #, kde-format
@@ -1055,7 +1055,7 @@ msgstr "启用 JavaScript"
 #: src/settings/SettingsGeneral.qml:29
 #, kde-format
 msgid "This may be required on certain websites for them to work."
-msgstr ""
+msgstr "某些网站可能需要此项才能正常工作。"
 
 #: src/settings/SettingsGeneral.qml:38
 #, kde-format
@@ -1077,7 +1077,7 @@ msgstr "启用广告拦截器"
 #: src/settings/SettingsGeneral.qml:49
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
-msgstr ""
+msgstr "尝试阻止网页中的广告加载。"
 
 #: src/settings/SettingsGeneral.qml:49
 #, kde-format
@@ -1107,7 +1107,7 @@ msgstr "使用平滑滚动"
 msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
 "Requires app restart to take effect."
-msgstr ""
+msgstr "滚动更加平滑，且在停止操作时不会突然中断。需重启应用后生效。"
 
 #: src/settings/SettingsGeneral.qml:79
 #, kde-format
