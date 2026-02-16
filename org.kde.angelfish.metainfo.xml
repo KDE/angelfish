@@ -541,7 +541,19 @@
       <description>
         <ul>
           <li>Allow to hide tab bar when single tab is open</li>
+          <li xml:lang="ca">Permet ocultar la barra de pestanyes quan hi ha una única pestanya oberta</li>
+          <li xml:lang="he">לאפשר את הסתרת סרגל הלשוניות כשרק לשונית אחת פתוחה</li>
+          <li xml:lang="ka">ჩანართების ზოლის დამალვის დაშვება, როცა ღიაა, მხოლოდ, ერთი ჩანართი</li>
+          <li xml:lang="pt-BR">Permite ocultar a barra de abas quando apenas uma aba estiver aberta</li>
+          <li xml:lang="ru">Возможность скрывать панель вкладок при одной открытой вкладке</li>
+          <li xml:lang="sl">Dovoli skrivanje vrstice z zavihki, ko je odprt en sam zavihek</li>
           <li>Fix window activation on wayland</li>
+          <li xml:lang="ca">Corregeix l'activació de la finestra al Wayland</li>
+          <li xml:lang="he">תוקנה הפעלת חלון ב־Wayland</li>
+          <li xml:lang="ka">გასწორდა ფანჯრის გააქტიურება wayland-ზე</li>
+          <li xml:lang="pt-BR">Corrigida a ativação de janelas no Wayland</li>
+          <li xml:lang="ru">Исправление активации окна в Wayland</li>
+          <li xml:lang="sl">Popravi aktivacijo oken na Waylandu</li>
         </ul>
       </description>
     </release>
@@ -550,8 +562,26 @@
       <description>
         <ul>
           <li>Update adblock crate version</li>
+          <li xml:lang="ca">Actualitza la versió de la caixa de bloqueig de publicitat</li>
+          <li xml:lang="he">עודכנה גרסת ה־crate של חסימת הפרסומות</li>
+          <li xml:lang="ka">განახლდა adblock crate-ის ვერსია</li>
+          <li xml:lang="pt-BR">Atualizada a versão do Adblock Crate</li>
+          <li xml:lang="ru">Обновлена версия библиотеки блокировки рекламы</li>
+          <li xml:lang="sl">Posodobi različico programa adblock crate</li>
           <li>Fix webapp entries not showing up in phosh</li>
+          <li xml:lang="ca">Corregeix les entrades «webapp» que no es mostren al «phosh»</li>
+          <li xml:lang="he">תוקנו רשומות יישומי אתרים שלא מופיעות ב־phosh</li>
+          <li xml:lang="ka">გასწორდა ვებაპის ჩანაწერების არჩვენება phosh-ში</li>
+          <li xml:lang="pt-BR">Corrigido problema em que entradas de aplicativos web não aparecem no Phosh</li>
+          <li xml:lang="ru">Исправлено отсутствие записей веб-приложений в Phosh</li>
+          <li xml:lang="sl">Popravi vnose, ki se ne prikazujejo v phoshu</li>
           <li>Expose downloads in the desktop version</li>
+          <li xml:lang="ca">Exposa les baixades a la versió d'escriptori</li>
+          <li xml:lang="he">חשיפת הורדות בגרסה לשולחן העבודה</li>
+          <li xml:lang="ka">გადმოწერების ჩვენება კომპიუტერის ვერსიაში</li>
+          <li xml:lang="pt-BR">Exibir downloads na versão para desktop</li>
+          <li xml:lang="ru">Просмотр загрузки в версии для настольных компьютеров</li>
+          <li xml:lang="sl">Izpostavi prenose v namizni različici</li>
         </ul>
       </description>
     </release>
@@ -560,13 +590,61 @@
       <description>
         <ul>
           <li>Fix developer tools</li>
+          <li xml:lang="ca">Corregeix les eines de desenvolupador</li>
+          <li xml:lang="he">תוקנו כלי הפיתוח</li>
+          <li xml:lang="ka">გასწორდა პროგრამისტის ხელსაწყოები</li>
+          <li xml:lang="pt-BR">Correção nas ferramentas de desenvolvedor</li>
+          <li xml:lang="ru">Исправлены инструменты разработчика</li>
+          <li xml:lang="sl">Popravi orodja za razvijalce</li>
           <li>Fix displaying the page title in tab switcher</li>
+          <li xml:lang="ca">Corregeix la visualització del títol de la pàgina al commutador de pestanyes</li>
+          <li xml:lang="he">תוקנה הצגת כותרת העמוד במחליף הלשוניות</li>
+          <li xml:lang="ka">გასწორდა გვერდის სათაურის ჩვენება ჩანართების გადამრთველში</li>
+          <li xml:lang="pt-BR">Corrigido o problema de exibição do título da página no seletor de abas</li>
+          <li xml:lang="ru">Исправлено отображение заголовка страницы в переключателе вкладок</li>
+          <li xml:lang="sl">Popravi prikaz naslova strani v preklopniku zavihkov</li>
           <li>Fix wrong check in ad-blocker</li>
+          <li xml:lang="ca">Corregeix una comprovació incorrecta al bloquejador de publicitat</li>
+          <li xml:lang="he">תוקנה בדיקה שגויה בחוסם הפרסומות</li>
+          <li xml:lang="ka">გასწორდა არასწორი შემოწმება რეკლამთმბლოკავში</li>
+          <li xml:lang="pt-BR">Correção da verificação incorreta no bloqueador de anúncios</li>
+          <li xml:lang="ru">Исправлена неверная проверка в блокировщике рекламы</li>
+          <li xml:lang="sl">Popravi napačno prijavo v blokator oglasov</li>
           <li>Implement a desktop UI</li>
+          <li xml:lang="ca">Implementa una interfície d'usuari d'escriptori</li>
+          <li xml:lang="he">מימוש ממשק משתמש לשולחן עבודה</li>
+          <li xml:lang="ka">განხორციელდა სამუშაო მაგიდის ინტერფეისი</li>
+          <li xml:lang="pt-BR">Implementada uma interface de usuário para desktop</li>
+          <li xml:lang="ru">Реализован пользовательский интерфейс для настольных систем</li>
+          <li xml:lang="sl">Implementira uporabniški vmesnik za namizje</li>
           <li>Re-organize the settings UI and unify for desktop and mobile</li>
+          <li xml:lang="ca">Reorganitza la interfície d'usuari de configuració i l'unifica per a l'escriptori i el mòbil</li>
+          <li xml:lang="he">ממשק המשתמש של ההגדרות סודר מחדש ובוצע איחוד לשולחן עבודה וניידים</li>
+          <li xml:lang="ka">მორგების ინტერფეისის რეორგანიზაცია და გაერთიანება კომპიუტერისთვის და მობილურისთვის</li>
+          <li xml:lang="pt-BR">Reorganização da interface de configuração e unificação para desktop e dispositivos móveis</li>
+          <li xml:lang="ru">Реорганизация интерфейса настроек и унификация для настольных и мобильных систем</li>
+          <li xml:lang="sl">Reorganizira uporabniški vmesnik z nastavitvami in jih poenoti za namizne in mobilne naprave</li>
           <li>Simplify the navigation logic</li>
+          <li xml:lang="ca">Simplifica la lògica de navegació</li>
+          <li xml:lang="he">פישוט לוגיקת הניווט</li>
+          <li xml:lang="ka">გამარტივდა ნავიგაციის ლოგიკა</li>
+          <li xml:lang="pt-BR">Simplificação da lógica de navegação</li>
+          <li xml:lang="ru">Упрощена логика навигации</li>
+          <li xml:lang="sl">Poenostavi logiko navigacije</li>
           <li>Show a popup when URL bar is focused showing history and related text for current URL</li>
+          <li xml:lang="ca">Mostra una finestra emergent quan la barra d'URL està centrada mostrant l'historial i el text relacionat de l'URL actual</li>
+          <li xml:lang="ka">მხტუნარას ჩვენება, როცა URL-ის პანელს ფოკუსი აქვს, აჩვენებს ისტორიას და შესაბამის ტექსტს მიმდინარე URL-ისთვის</li>
+          <li xml:lang="pt-BR">Exibir uma janela pop-up quando a barra de URL estiver em foco, mostrando o histórico e o texto relacionado à URL atual</li>
+          <li xml:lang="ru">Вывод всплывающего окна при фокусировке на адресной строке с историей и связанным текстом для текущего URL</li>
+          <li xml:lang="sl">Prikaži pojavno okno, ko je v fokusu vrstica URL, ki prikazuje zgodovino in povezano besedilo za trenutni URL</li>
           <li>Use a better default user-agent for mobile devices</li>
+          <li xml:lang="ca">Utilitza un agent d'usuari predeterminat millor per a dispositius mòbils</li>
+          <li xml:lang="he">להשתמש בסוכן משתמש טוב יותר כברירת מחדל למכשירים ניידים</li>
+          <li xml:lang="ka">უკეთესი ნაგულისხმევი user-agent-ის გამოყენება მობილური მოწყობილობებისთვის</li>
+          <li xml:lang="pt-BR">Uso de um agente de usuário padrão melhor para dispositivos móveis</li>
+          <li xml:lang="ru">Использован более подходящий пользовательский агент по умолчанию для мобильных устройств</li>
+          <li xml:lang="sl">Uporabi boljši privzeti uporabniški agent za mobilne naprave</li>
+          <li xml:lang="uk">Використано кращий агент користувача для мобільних пристроїв</li>
         </ul>
       </description>
     </release>
@@ -575,10 +653,40 @@
       <description>
         <ul>
           <li>Add action button to clear history</li>
+          <li xml:lang="ca">Afegeix un botó d'acció per a netejar l'historial</li>
+          <li xml:lang="he">נוסף כפתור פעולה לפינוי ההיסטוריה</li>
+          <li xml:lang="ka">დაემატა ქმედების ღილაკი ისტორიის გასასუფთავებლად</li>
+          <li xml:lang="pt-BR">Adicionado botão de ação para limpar o histórico</li>
+          <li xml:lang="ru">Добавлена кнопка действия для очистки истории</li>
+          <li xml:lang="sl">Doda akcijski gumb za brisanje zgodovine</li>
+          <li xml:lang="uk">Дано кнопку дії для спорожнення журналу</li>
           <li>Improve virtual keyboard integration</li>
+          <li xml:lang="ca">Millora la integració del teclat virtual</li>
+          <li xml:lang="he">שילוב מקלדת וירטואלית השתפרה</li>
+          <li xml:lang="ka">გაუმჯობესდა ვირტუალური კლავიატურის ინტეგრაცია</li>
+          <li xml:lang="pt-BR">Melhoria na integração do teclado virtual</li>
+          <li xml:lang="ru">Улучшена интеграция с экранной клавиатурой</li>
+          <li xml:lang="sl">Izboljša integracijo virtualne tipkovnice</li>
           <li>Allow user to ignore SSL errors</li>
+          <li xml:lang="ca">Permet a l'usuari ignorar els errors de SSL</li>
+          <li xml:lang="he">לאפשר למשתמש להתעלם משגיאות SSL</li>
+          <li xml:lang="ka">მომხმარებლებისთვის SSL შეცდომების გამოტოვების უფლების მიცემა</li>
+          <li xml:lang="pt-BR">Permite que o usuário ignore erros SSL</li>
+          <li xml:lang="ru">Пользователю разрешено игнорировать ошибки SSL</li>
+          <li xml:lang="sl">Dovoli uporabniku prezreti napake SSL</li>
           <li>Fix loading chrome:// URLs</li>
+          <li xml:lang="ca">Corregeix la càrrega dels URL chrome://</li>
+          <li xml:lang="he">תוקנה טעינת כתובות chrome://‎</li>
+          <li xml:lang="ka">გასწორდა chrome:// ბმულების ჩატვირთვა</li>
+          <li xml:lang="pt-BR">Correção do carregamento de URLs chrome://</li>
+          <li xml:lang="ru">Исправлена загрузка адресов chrome://</li>
+          <li xml:lang="sl">Popravi nalaganje URL-jev chrome://</li>
           <li>Improved ad-blocker support for cosmetic filters</li>
+          <li xml:lang="ca">Millora la implementació del bloquejador de publicitat per a filtres cosmètics</li>
+          <li xml:lang="ka">გაუმჯობესდა რეკლამთმბლოკავის მხარდაჭერა კოსმეტიკური ფილტრებისთვის</li>
+          <li xml:lang="pt-BR">Melhoria no suporte a bloqueadores de anúncios para filtros cosméticos</li>
+          <li xml:lang="ru">Улучшена поддержка блокировщика рекламы для косметических фильтров</li>
+          <li xml:lang="sl">Izboljšana podpora za blokiranje oglasov za kozmetične filtre</li>
         </ul>
       </description>
     </release>
@@ -589,8 +697,25 @@
       <description>
         <ul>
           <li>Improve the startup time of the ad blocker</li>
+          <li xml:lang="ca">Millora el temps d'inici del bloquejador de publicitat</li>
+          <li xml:lang="he">זמן העלייה של חוסם הפרסומות השתפר</li>
+          <li xml:lang="ka">გაუმჯობესდა რეკლამთმბლოკავის გაშვების დრო</li>
+          <li xml:lang="pt-BR">Melhoria do tempo de inicialização do bloqueador de anúncios</li>
+          <li xml:lang="ru">Ускорение запуска блокировщика рекламы</li>
+          <li xml:lang="sl">Izboljša čas zagona blokatorja oglasov</li>
           <li>Fix various bugs and safety issues in the web app manager</li>
+          <li xml:lang="ca">Corregeix diversos errors i problemes de seguretat al gestor d'aplicacions web</li>
+          <li xml:lang="ka">გასწორდა სხვადასხვა შეცდომები და უსაფრთხოების პრობლემები ვებაპების მმართველში</li>
+          <li xml:lang="pt-BR">Correção de diversos erros e problemas de segurança no gerenciador de aplicativos da web</li>
+          <li xml:lang="ru">Исправлены различные ошибки и проблемы безопасности в менеджере веб-приложений</li>
+          <li xml:lang="sl">Popravi različne napake in varnostne težave v upravitelju spletnih aplikacij</li>
           <li>Improve flatpak support</li>
+          <li xml:lang="ca">Millora la implementació de flatpak</li>
+          <li xml:lang="he">התמיכה ב־flatpak השתפרה</li>
+          <li xml:lang="ka">გაუმჯობესდა Flatpak-ის მხარდაჭერა</li>
+          <li xml:lang="pt-BR">Melhoria no suporte a flatpak</li>
+          <li xml:lang="ru">Улучшена поддержка Flatpak</li>
+          <li xml:lang="sl">Izboljša podporo za flatpak</li>
         </ul>
       </description>
       <url>https://www.plasma-mobile.org/2021/07/20/plasma-mobile-gear-21-07/</url>
@@ -599,6 +724,12 @@
       <description>
         <ul>
           <li>Add a settings page for managing web apps</li>
+          <li xml:lang="ca">Afegeix una pàgina de configuració per a gestionar aplicacions web</li>
+          <li xml:lang="he">נוסף עמוד הגדרות לניהול יישומי אתרים</li>
+          <li xml:lang="ka">დაემატა მორგების გვერდი ვებაპების სამართავად</li>
+          <li xml:lang="pt-BR">Adicionada uma página de configurações para gerenciar aplicativos da web</li>
+          <li xml:lang="ru">Добавлена страница параметров для управления веб-приложениями</li>
+          <li xml:lang="sl">Doda stran z nastavitvami za upravljanje spletnih aplikacij</li>
         </ul>
       </description>
       <url>https://www.plasma-mobile.org/2021/06/10/plasma-mobile-update-june/</url>
