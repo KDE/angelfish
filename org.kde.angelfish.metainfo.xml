@@ -546,6 +546,7 @@
           <li xml:lang="ca-valencia">Permet ocultar la barra de pestanyes quan hi ha una única pestanya oberta</li>
           <li xml:lang="es">Permitir ocultar la barra de pestañas cuando una sola pestaña está abierta</li>
           <li xml:lang="he">לאפשר את הסתרת סרגל הלשוניות כשרק לשונית אחת פתוחה</li>
+          <li xml:lang="ia">Permitte celar barra de sched quando un singule scheda es aperite</li>
           <li xml:lang="nl">Toestaan de tabbladbalk te verbergen wanneer een enkel tabblad open is</li>
           <li xml:lang="pt-BR">Permite ocultar a barra de abas quando apenas uma aba estiver aberta</li>
           <li xml:lang="ru">Возможность скрывать панель вкладок при одной открытой вкладке</li>
@@ -555,6 +556,7 @@
           <li xml:lang="ca-valencia">Corregix l'activació de la finestra a Wayland</li>
           <li xml:lang="es">Se ha corregido la activación de la ventana en Wayland</li>
           <li xml:lang="he">תוקנה הפעלת חלון ב־Wayland</li>
+          <li xml:lang="ia">Corrige activation de fenestra sur wayland</li>
           <li xml:lang="nl">Probleem met vensteractivering op Wayland oplossen</li>
           <li xml:lang="pt-BR">Corrigida a ativação de janelas no Wayland</li>
           <li xml:lang="ru">Исправление активации окна в Wayland</li>
@@ -571,6 +573,7 @@
           <li xml:lang="ca-valencia">Actualitza la versió de la caixa de bloqueig de publicitat</li>
           <li xml:lang="es">Se ha actualizado la versión del bloqueador de publicidad</li>
           <li xml:lang="he">עודכנה גרסת ה־crate של חסימת הפרסומות</li>
+          <li xml:lang="ia">Actualisa version de cassa de adblock</li>
           <li xml:lang="nl">Adblock crate versie bijwerken</li>
           <li xml:lang="pt-BR">Atualizada a versão do Adblock Crate</li>
           <li xml:lang="ru">Обновлена версия библиотеки блокировки рекламы</li>
@@ -580,6 +583,7 @@
           <li xml:lang="ca-valencia">Corregix les entrades «webapp» que no es mostren al «phosh»</li>
           <li xml:lang="es">Se ha solucionado el problema de que las entradas de la aplicación web no aparecen en phosh</li>
           <li xml:lang="he">תוקנו רשומות יישומי אתרים שלא מופיעות ב־phosh</li>
+          <li xml:lang="ia">Corrige entratas de webapp que non se monstra in phosh</li>
           <li xml:lang="nl">Los het probleem op dat webapp-items niet worden weergegeven in Phosh</li>
           <li xml:lang="pt-BR">Corrigido problema em que entradas de aplicativos web não aparecem no Phosh</li>
           <li xml:lang="ru">Исправлено отсутствие записей веб-приложений в Phosh</li>
@@ -589,6 +593,7 @@
           <li xml:lang="ca-valencia">Exposa les baixades a la versió d'escriptori</li>
           <li xml:lang="es">Exponer descargas en la versión de escritorio</li>
           <li xml:lang="he">חשיפת הורדות בגרסה לשולחן העבודה</li>
+          <li xml:lang="ia">Expone discargamentos in le version de scriptorio</li>
           <li xml:lang="nl">Downloads in de bureaubladversie tonen</li>
           <li xml:lang="pt-BR">Exibir downloads na versão para desktop</li>
           <li xml:lang="ru">Просмотр загрузки в версии для настольных компьютеров</li>
@@ -605,6 +610,7 @@
           <li xml:lang="ca-valencia">Corregix les eines de desenvolupador</li>
           <li xml:lang="es">Se han corregido las herramientas del desarrollador</li>
           <li xml:lang="he">תוקנו כלי הפיתוח</li>
+          <li xml:lang="ia">Corrige instrumentos de disveloppator</li>
           <li xml:lang="nl">Hulpmiddelen voor ontwikkelaars repareren</li>
           <li xml:lang="pt-BR">Correção nas ferramentas de desenvolvedor</li>
           <li xml:lang="ru">Исправлены инструменты разработчика</li>
@@ -614,6 +620,7 @@
           <li xml:lang="ca-valencia">Corregix la visualització del títol de la pàgina al commutador de pestanyes</li>
           <li xml:lang="es">Se ha corregido la visualización del título de la página en el selector de pestañas</li>
           <li xml:lang="he">תוקנה הצגת כותרת העמוד במחליף הלשוניות</li>
+          <li xml:lang="ia">Corrige monstrar le titulo de pagina in commutator de scheda</li>
           <li xml:lang="nl">De paginatitel tonen in tabbladwisselaar repareren</li>
           <li xml:lang="pt-BR">Corrigido o problema de exibição do título da página no seletor de abas</li>
           <li xml:lang="ru">Исправлено отображение заголовка страницы в переключателе вкладок</li>
@@ -623,6 +630,7 @@
           <li xml:lang="ca-valencia">Corregix una comprovació incorrecta al bloquejador de publicitat</li>
           <li xml:lang="es">Se ha corregido la comprobación en el bloqueador de publicidad</li>
           <li xml:lang="he">תוקנה בדיקה שגויה בחוסם הפרסומות</li>
+          <li xml:lang="ia">Corrige verifica errate in adblocker</li>
           <li xml:lang="nl">Verkeerd inchecken in ad-blocker repareren</li>
           <li xml:lang="pt-BR">Correção da verificação incorreta no bloqueador de anúncios</li>
           <li xml:lang="ru">Исправлена неверная проверка в блокировщике рекламы</li>
@@ -632,6 +640,7 @@
           <li xml:lang="ca-valencia">Implementa una interfície d'usuari d'escriptori</li>
           <li xml:lang="es">Se ha implementado una interfaz de usuario en el escritorio</li>
           <li xml:lang="he">מימוש ממשק משתמש לשולחן עבודה</li>
+          <li xml:lang="ia">Implementa un UI de scriptoprio</li>
           <li xml:lang="nl">Een bureaublad-UI implementeren</li>
           <li xml:lang="pt-BR">Implementada uma interface de usuário para desktop</li>
           <li xml:lang="ru">Реализован пользовательский интерфейс для настольных систем</li>
@@ -641,6 +650,7 @@
           <li xml:lang="ca-valencia">Reorganitza la interfície d'usuari de configuració i l'unifica per a l'escriptori i el mòbil</li>
           <li xml:lang="es">Se han reorganizado la interfaz de las preferencias y se ha unificado para el escritorio y para móviles</li>
           <li xml:lang="he">ממשק המשתמש של ההגדרות סודר מחדש ובוצע איחוד לשולחן עבודה וניידים</li>
+          <li xml:lang="ia">Re.organisa le UI de preferentias e unifica per scriptorios e mobile</li>
           <li xml:lang="nl">Herstructureer de gebruikersinterface van de instellingen en zorg voor een uniforme interface voor desktop en mobiel.</li>
           <li xml:lang="pt-BR">Reorganização da interface de configuração e unificação para desktop e dispositivos móveis</li>
           <li xml:lang="ru">Реорганизация интерфейса настроек и унификация для настольных и мобильных систем</li>
@@ -650,6 +660,7 @@
           <li xml:lang="ca-valencia">Simplifica la lògica de navegació</li>
           <li xml:lang="es">Se ha simplificado la lógica de nevegación</li>
           <li xml:lang="he">פישוט לוגיקת הניווט</li>
+          <li xml:lang="ia">Simplifica le logica de navigation </li>
           <li xml:lang="nl">Vereenvoudig de navigatielogica</li>
           <li xml:lang="pt-BR">Simplificação da lógica de navegação</li>
           <li xml:lang="ru">Упрощена логика навигации</li>
@@ -658,6 +669,7 @@
           <li xml:lang="ca">Mostra una finestra emergent quan la barra d'URL està centrada mostrant l'historial i el text relacionat de l'URL actual</li>
           <li xml:lang="ca-valencia">Mostra una finestra emergent quan la barra d'URL està centrada mostrant l'historial i el text relacionat de l'URL actual</li>
           <li xml:lang="es">Mostrar una ventana emergente cuando la barra de URL tiene el foco y muestra el historial y texto relacionado con la URL actual</li>
+          <li xml:lang="ia">Monstra un popup quando le barra de URL es focalisate monstrante chronologia e texto affin per URL currente</li>
           <li xml:lang="nl">Toon een pop-upvenster wanneer de URL-balk is geselecteerd, met de geschiedenis en gerelateerde tekst voor de huidige URL.</li>
           <li xml:lang="pt-BR">Exibir uma janela pop-up quando a barra de URL estiver em foco, mostrando o histórico e o texto relacionado à URL atual</li>
           <li xml:lang="ru">Вывод всплывающего окна при фокусировке на адресной строке с историей и связанным текстом для текущего URL</li>
@@ -667,6 +679,7 @@
           <li xml:lang="ca-valencia">Utilitza un agent d'usuari predeterminat millor per a dispositius mòbils</li>
           <li xml:lang="es">Usar un mejor agente de usuario predeterminado para dispositivos móviles</li>
           <li xml:lang="he">להשתמש בסוכן משתמש טוב יותר כברירת מחדל למכשירים ניידים</li>
+          <li xml:lang="ia">Usa un melior agente-usator predefinite per dispositivos mobile</li>
           <li xml:lang="nl">Gebruik een betere standaard gebruikersagent voor mobiele apparaten</li>
           <li xml:lang="pt-BR">Uso de um agente de usuário padrão melhor para dispositivos móveis</li>
           <li xml:lang="ru">Использован более подходящий пользовательский агент по умолчанию для мобильных устройств</li>
@@ -683,6 +696,7 @@
           <li xml:lang="ca-valencia">Afig un botó d'acció per a netejar l'historial</li>
           <li xml:lang="es">Se ha añadido un botón de acción para borrar el historial</li>
           <li xml:lang="he">נוסף כפתור פעולה לפינוי ההיסטוריה</li>
+          <li xml:lang="ia">Adde button de action per nettar chronologia</li>
           <li xml:lang="nl">Voeg een actieknop toe om de geschiedenis te wissen</li>
           <li xml:lang="pt-BR">Adicionado botão de ação para limpar o histórico</li>
           <li xml:lang="ru">Добавлена кнопка действия для очистки истории</li>
@@ -692,6 +706,7 @@
           <li xml:lang="ca-valencia">Millora la integració del teclat virtual</li>
           <li xml:lang="es">Se ha mejorado la integración del teclado virtual</li>
           <li xml:lang="he">שילוב מקלדת וירטואלית השתפרה</li>
+          <li xml:lang="ia">Meliora integration de claviero virtual</li>
           <li xml:lang="nl">Verbeter de virtuele toetsenbordintegratie</li>
           <li xml:lang="pt-BR">Melhoria na integração do teclado virtual</li>
           <li xml:lang="ru">Улучшена интеграция с экранной клавиатурой</li>
@@ -701,6 +716,7 @@
           <li xml:lang="ca-valencia">Permet a l'usuari ignorar els errors de SSL</li>
           <li xml:lang="es">Permitir que el usuario ignore errores de SSL</li>
           <li xml:lang="he">לאפשר למשתמש להתעלם משגיאות SSL</li>
+          <li xml:lang="ia">Permitte que le usator ignora errores de SSL</li>
           <li xml:lang="nl">Sta de gebruiker toe SSL-fouten te negeren</li>
           <li xml:lang="pt-BR">Permite que o usuário ignore erros SSL</li>
           <li xml:lang="ru">Пользователю разрешено игнорировать ошибки SSL</li>
@@ -710,6 +726,7 @@
           <li xml:lang="ca-valencia">Corregix la càrrega dels URL chrome://</li>
           <li xml:lang="es">Se ha corregido la carga de URL de tipo chrome://</li>
           <li xml:lang="he">תוקנה טעינת כתובות chrome://‎</li>
+          <li xml:lang="ia">Corrige cargar chrome://URLs</li>
           <li xml:lang="nl">Het laden van chrome:// URL's wordt nu correct gedaan</li>
           <li xml:lang="pt-BR">Correção do carregamento de URLs chrome://</li>
           <li xml:lang="ru">Исправлена загрузка адресов chrome://</li>
@@ -718,6 +735,7 @@
           <li xml:lang="ca">Millora la implementació del bloquejador de publicitat per a filtres cosmètics</li>
           <li xml:lang="ca-valencia">Millora la implementació del bloquejador de publicitat per a filtres cosmètics</li>
           <li xml:lang="es">Se ha mejorado la compatibilidad del bloqueador de publicidad con filtros cosméticos</li>
+          <li xml:lang="ia">Meliorate supporto de ad-blocker per filtros cosmetic</li>
           <li xml:lang="nl">Verbeterde ondersteuning voor advertentieblokkers bij cosmetische filters</li>
           <li xml:lang="pt-BR">Melhoria no suporte a bloqueadores de anúncios para filtros cosméticos</li>
           <li xml:lang="ru">Улучшена поддержка блокировщика рекламы для косметических фильтров</li>
@@ -736,6 +754,7 @@
           <li xml:lang="ca-valencia">Millora el temps d'inici del bloquejador de publicitat</li>
           <li xml:lang="es">Se ha mejorado el tiempo de inicio del bloqueador de publicidad</li>
           <li xml:lang="he">זמן העלייה של חוסם הפרסומות השתפר</li>
+          <li xml:lang="ia">Meliora le tempore de startar del ad blocker (blocator de reclamos)</li>
           <li xml:lang="nl">Verbeter de opstarttijd van de advertentieblokker</li>
           <li xml:lang="pt-BR">Melhoria do tempo de inicialização do bloqueador de anúncios</li>
           <li xml:lang="ru">Ускорение запуска блокировщика рекламы</li>
@@ -744,6 +763,7 @@
           <li xml:lang="ca">Corregeix diversos errors i problemes de seguretat al gestor d'aplicacions web</li>
           <li xml:lang="ca-valencia">Corregix diversos errors i problemes de seguretat al gestor d'aplicacions web</li>
           <li xml:lang="es">Se han corregido diversos fallos y problemas de seguridad en el gestor de la aplicación web</li>
+          <li xml:lang="ia">Corrige varie faltas e problemas de securitate in le gerente de app de web</li>
           <li xml:lang="nl">Diverse bugs en beveiligingsproblemen in de webapp-beheerder opgelost</li>
           <li xml:lang="pt-BR">Correção de diversos erros e problemas de segurança no gerenciador de aplicativos da web</li>
           <li xml:lang="ru">Исправлены различные ошибки и проблемы безопасности в менеджере веб-приложений</li>
@@ -753,6 +773,7 @@
           <li xml:lang="ca-valencia">Millora la implementació de flatpak</li>
           <li xml:lang="es">Se ha mejorado la compatibilidad con flatpak</li>
           <li xml:lang="he">התמיכה ב־flatpak השתפרה</li>
+          <li xml:lang="ia">Meliora supporto de flatpack</li>
           <li xml:lang="nl">Ondersteuning van Flatpak verbeterd</li>
           <li xml:lang="pt-BR">Melhoria no suporte a flatpak</li>
           <li xml:lang="ru">Улучшена поддержка Flatpak</li>
@@ -769,6 +790,7 @@
           <li xml:lang="ca-valencia">Afig una pàgina de configuració per a gestionar aplicacions web</li>
           <li xml:lang="es">Se ha añadido una página de preferencias para la gestión de aplicaciones web</li>
           <li xml:lang="he">נוסף עמוד הגדרות לניהול יישומי אתרים</li>
+          <li xml:lang="ia">Adde un pagina de preferentias per gerer appsde web</li>
           <li xml:lang="nl">Voeg een instellingenpagina toe voor het beheren van webapps.</li>
           <li xml:lang="pt-BR">Adicionada uma página de configurações para gerenciar aplicativos da web</li>
           <li xml:lang="ru">Добавлена страница параметров для управления веб-приложениями</li>
