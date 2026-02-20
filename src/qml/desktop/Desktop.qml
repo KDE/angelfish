@@ -394,9 +394,11 @@ Kirigami.ApplicationWindow {
                     }
 
                     onTriggered: {
-                        webAppCreator.createDesktopFile(currentWebView.title,
-                                                        currentWebView.url,
-                                                        currentWebView.icon)
+                        webAppNameDialog.appName = currentWebView.title
+                        webAppNameDialog.appUrl = currentWebView.url
+                        webAppNameDialog.appIcon = currentWebView.icon
+                        webAppNameDialog.webAppCreator = webAppCreator
+                        webAppNameDialog.open()
                     }
                 }
 
@@ -537,6 +539,10 @@ Kirigami.ApplicationWindow {
                     sheetLoader.source = ""
                 }
             }
+        }
+
+        WebAppNameDialog {
+            id: webAppNameDialog
         }
 
         Loader {

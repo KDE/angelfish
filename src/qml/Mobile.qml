@@ -299,6 +299,10 @@ Kirigami.ApplicationWindow {
             }
         }
 
+        WebAppNameDialog {
+            id: webAppNameDialog
+        }
+
         Core.UrlObserver {
             id: urlObserver
             url: currentWebView.url
@@ -333,9 +337,11 @@ Kirigami.ApplicationWindow {
                 text: i18nc("@action:inmenu", "Add to Homescreen")
                 enabled: !webAppCreator.exists
                 onTriggered: {
-                    webAppCreator.createDesktopFile(currentWebView.title,
-                                                           currentWebView.url,
-                                                           currentWebView.icon)
+                    webAppNameDialog.appName = currentWebView.title
+                    webAppNameDialog.appUrl = currentWebView.url
+                    webAppNameDialog.appIcon = currentWebView.icon
+                    webAppNameDialog.webAppCreator = webAppCreator
+                    webAppNameDialog.open()
                 }
             },
             Kirigami.Action {
