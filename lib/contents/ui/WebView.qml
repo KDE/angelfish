@@ -13,6 +13,9 @@ import org.kde.angelfish.core as Core
 
 WebEngineView {
     id: webEngineView
+    // using color set for scrollable area
+    Kirigami.Theme.colorSet: Kirigami.Theme.View
+    Kirigami.Theme.inherit: false
 
     // int, but we want nullability
     property var errorCode: null
@@ -89,7 +92,114 @@ WebEngineView {
         readerSourceUrl = url
         runJavaScript(Core.DomDistiller.script, function() {
                 runJavaScript(Core.DomDistiller.applyScript, function(result) {
-                    loadHtml(result[2][1])
+                    // CSS styling for reader mode
+                    const readerCSS = 
+                        "<style>" +
+                        "body {" +
+                        "    font-family: 'Noto Sans', sans-serif;" +
+                        "    line-height: 1.8;" +
+                        "    max-width: 700px;" +
+                        "    margin: 0 auto;" +
+                        "    padding: 2em 1.5em;" +
+                        "    color: " + Kirigami.Theme.textColor + ";" +
+                        "    background-color: " + Kirigami.Theme.backgroundColor + ";" +
+                        "    font-size: 16px;" +
+                        "}" +
+                        "" +
+                        "h1, h2, h3, h4, h5, h6 {" +
+                        "    margin-top: 2em;" +
+                        "    margin-bottom: 0.8em;" +
+                        "    font-weight: 600;" +
+                        "    color: " + Kirigami.Theme.textColor + ";" +
+                        "    padding-top: 0.5em;" +
+                        "}" +
+                        "" +
+                        "h1 { font-size: 2em; margin-top: 1em; }" +
+                        "h2 { font-size: 1.6em; border-top: 1px solid " + Kirigami.Theme.dividerColor + "; padding-top: 1em; }" +
+                        "h3 { font-size: 1.3em; }" +
+                        "" +
+                        "p {" +
+                        "    margin-bottom: 1.2em;" +
+                        "    text-align: justify;" +
+                        "}" +
+                        "" +
+                        "a {" +
+                        "    color: " + Kirigami.Theme.linkColor + ";" +
+                        "    text-decoration: underline;" +
+                        "}" +
+                        "" +
+                        "a:visited {" +
+                        "    color: " + Kirigami.Theme.visitedLinkColor + ";" +
+                        "}" +
+                        "" +
+                        "code, pre {" +
+                        "    background-color: " + Kirigami.Theme.alternateBackgroundColor + ";" +
+                        "    padding: 0.2em 0.4em;" +
+                        "    border-radius: 3px;" +
+                        "    font-family: 'Noto Mono', monospace;" +
+                        "}" +
+                        "" +
+                        "pre {" +
+                        "    padding: 1em;" +
+                        "    overflow-x: auto;" +
+                        "    margin: 1em 0;" +
+                        "}" +
+                        "" +
+                        "blockquote {" +
+                        "    border-left: 4px solid " + Kirigami.Theme.linkColor + ";" +
+                        "    margin: 1em 0;" +
+                        "    padding-left: 1em;" +
+                        "    opacity: 0.8;" +
+                        "    font-style: italic;" +
+                        "}" +
+                        "" +
+                        "img {" +
+                        "    max-width: 100%;" +
+                        "    height: auto;" +
+                        "    margin: 2em auto;" +
+                        "    display: block;" +
+                        "}" +
+                        "" +
+                        "figure {" +
+                        "    margin: 2em 0;" +
+                        "    text-align: center;" +
+                        "}" +
+                        "" +
+                        "figcaption {" +
+                        "    text-align: center;" +
+                        "    font-style: italic;" +
+                        "    color: " + Kirigami.Theme.disabledTextColor + ";" +
+                        "    font-size: 0.9em;" +
+                        "    margin-top: 0.5em;" +
+                        "}" +
+                        "" +
+                        ".caption {" +
+                        "    text-align: center;" +
+                        "    font-style: italic;" +
+                        "    color: " + Kirigami.Theme.disabledTextColor + ";" +
+                        "    font-size: 0.9em;" +
+                        "    margin-top: 0.5em;" +
+                        "}" +
+                        "" +
+                        "table {" +
+                        "    width: 100%;" +
+                        "    border-collapse: collapse;" +
+                        "    margin: 1em 0;" +
+                        "}" +
+                        "" +
+                        "th, td {" +
+                        "    border: 1px solid " + Kirigami.Theme.dividerColor + ";" +
+                        "    padding: 0.5em;" +
+                        "    text-align: left;" +
+                        "}" +
+                        "" +
+                        "th {" +
+                        "    background-color: " + Kirigami.Theme.alternateBackgroundColor + ";" +
+                        "    font-weight: 600;" +
+                        "}" +
+                        "</style>"
+                    const htmlContent = readerCSS + result[2][1]
+                    loadHtml(htmlContent)
                     readerTitle = result[1]
                 })
         })
