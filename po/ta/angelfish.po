@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-26 00:42+0000\n"
+"POT-Creation-Date: 2026-02-21 00:44+0000\n"
 "PO-Revision-Date: 2025-11-30 15:27+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-l10n-ta@kde.org>\n"
@@ -292,212 +292,212 @@ msgctxt "@label:checkbox"
 msgid "Print backgrounds"
 msgstr "பின்புலத்தை அச்சிடு"
 
-#: lib/contents/ui/WebView.qml:238
+#: lib/contents/ui/WebView.qml:348
 #, kde-format
 msgctxt "@info:status"
 msgid "Website was opened in a new tab"
 msgstr "இணையதளம் புதிய கீற்றில் திறக்கப்பட்டுள்ளது"
 
-#: lib/contents/ui/WebView.qml:256
+#: lib/contents/ui/WebView.qml:366
 #, kde-format
 msgctxt "@info:status"
 msgid "Entered Full Screen mode"
 msgstr "முழுத்திரை பயன்முறையில் நுழைந்துள்ளீர்"
 
-#: lib/contents/ui/WebView.qml:257
+#: lib/contents/ui/WebView.qml:367
 #, kde-format
 msgctxt "@action:button"
 msgid "Exit Full Screen (Esc)"
 msgstr "முழுத்திரை பயன்முறையிலிருந்து வெளியேறு (Esc)"
 
-#: lib/contents/ui/WebView.qml:392
+#: lib/contents/ui/WebView.qml:502
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Play"
 msgstr "இயக்கு"
 
-#: lib/contents/ui/WebView.qml:393
+#: lib/contents/ui/WebView.qml:503
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Pause"
 msgstr "இடைநிறுத்து"
 
-#: lib/contents/ui/WebView.qml:400
+#: lib/contents/ui/WebView.qml:510
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Unmute"
 msgstr "ஒலிமுடக்கத்தை நீக்கு"
 
-#: lib/contents/ui/WebView.qml:401
+#: lib/contents/ui/WebView.qml:511
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Mute"
 msgstr "ஒலியை அடக்கு"
 
-#: lib/contents/ui/WebView.qml:411
+#: lib/contents/ui/WebView.qml:521
 #, kde-format
 msgctxt "@label"
 msgid "Speed"
 msgstr "வேகம்"
 
-#: lib/contents/ui/WebView.qml:434
+#: lib/contents/ui/WebView.qml:544
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Loop"
 msgstr "சுழற்று"
 
-#: lib/contents/ui/WebView.qml:441
+#: lib/contents/ui/WebView.qml:551
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Exit Fullscreen"
 msgstr "முழுத்திரையிலிருந்து வெளியேறு"
 
-#: lib/contents/ui/WebView.qml:441
+#: lib/contents/ui/WebView.qml:551
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enter Fullscreen"
 msgstr "முழுத்திரையில் நுழை"
 
-#: lib/contents/ui/WebView.qml:454
+#: lib/contents/ui/WebView.qml:564
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Controls"
 msgstr "கட்டுப்படுத்திகளை மறை"
 
-#: lib/contents/ui/WebView.qml:455
+#: lib/contents/ui/WebView.qml:565
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Controls"
 msgstr "கட்டுப்படுத்திகளைக் காட்டு"
 
-#: lib/contents/ui/WebView.qml:463
+#: lib/contents/ui/WebView.qml:573
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video"
 msgstr "நிகழ்படத்தைத் திற"
 
-#: lib/contents/ui/WebView.qml:463
+#: lib/contents/ui/WebView.qml:573
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio"
 msgstr "ஒலிக்கோப்பைத் திற"
 
-#: lib/contents/ui/WebView.qml:464
+#: lib/contents/ui/WebView.qml:574
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video in New Tab"
 msgstr "நிகழ்படத்தை புதிய கீற்றில் திற"
 
-#: lib/contents/ui/WebView.qml:464
+#: lib/contents/ui/WebView.qml:574
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio in New Tab"
 msgstr "ஒலிக்கோப்பை புதிய கீற்றில் திற"
 
-#: lib/contents/ui/WebView.qml:476
+#: lib/contents/ui/WebView.qml:586
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Video"
 msgstr "நிகழ்படத்தை சேமி"
 
-#: lib/contents/ui/WebView.qml:482
+#: lib/contents/ui/WebView.qml:592
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Video Link"
 msgstr "நிகழ்படத்தின் முகவரியை நகலெடு"
 
-#: lib/contents/ui/WebView.qml:488
+#: lib/contents/ui/WebView.qml:598
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image"
 msgstr "படத்தை திற"
 
-#: lib/contents/ui/WebView.qml:488
+#: lib/contents/ui/WebView.qml:598
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image in New Tab"
 msgstr "படத்தை புதிய கீற்றில் திற"
 
-#: lib/contents/ui/WebView.qml:500
+#: lib/contents/ui/WebView.qml:610
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Image"
 msgstr "படத்தை சேமி"
 
-#: lib/contents/ui/WebView.qml:506
+#: lib/contents/ui/WebView.qml:616
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image"
 msgstr "படத்தை நகலெடு"
 
-#: lib/contents/ui/WebView.qml:512
+#: lib/contents/ui/WebView.qml:622
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image Link"
 msgstr "படத்தின் முகவரியை நகலெடு"
 
-#: lib/contents/ui/WebView.qml:518
+#: lib/contents/ui/WebView.qml:628
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Link"
 msgstr "இணைப்பை திற"
 
-#: lib/contents/ui/WebView.qml:518
+#: lib/contents/ui/WebView.qml:628
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Link in New Tab"
 msgstr "இணைப்பை புதிய கீற்றில் திற"
 
-#: lib/contents/ui/WebView.qml:530
+#: lib/contents/ui/WebView.qml:640
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Link"
 msgstr "இணைப்பை நினைவுக்குறியிடு"
 
-#: lib/contents/ui/WebView.qml:542
+#: lib/contents/ui/WebView.qml:652
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Link"
 msgstr "இணைப்பை சேமி"
 
-#: lib/contents/ui/WebView.qml:548
+#: lib/contents/ui/WebView.qml:658
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Link"
 msgstr "இணைப்பை நகலெடு"
 
-#: lib/contents/ui/WebView.qml:555
+#: lib/contents/ui/WebView.qml:665
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy"
 msgstr "நகலெடு"
 
-#: lib/contents/ui/WebView.qml:561
+#: lib/contents/ui/WebView.qml:671
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Cut"
 msgstr "வெட்டு"
 
-#: lib/contents/ui/WebView.qml:567
+#: lib/contents/ui/WebView.qml:677
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "ஒட்டு"
 
-#: lib/contents/ui/WebView.qml:575
+#: lib/contents/ui/WebView.qml:685
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "'%1' என்பதை தேடு"
 
-#: lib/contents/ui/WebView.qml:588 src/qml/desktop/Desktop.qml:377
-#: src/qml/Mobile.qml:322
+#: lib/contents/ui/WebView.qml:698 src/qml/desktop/Desktop.qml:377
+#: src/qml/Mobile.qml:326
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:600
+#: lib/contents/ui/WebView.qml:710
 #, fuzzy, kde-format
 #| msgid "View source"
 msgctxt "@action:inmenu"
@@ -655,20 +655,20 @@ msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "கட்டுப்படுத்திகளை மறை"
 
-#: src/qml/desktop/Desktop.qml:352 src/qml/Mobile.qml:418
+#: src/qml/desktop/Desktop.qml:352 src/qml/Mobile.qml:424
 #, fuzzy, kde-format
 #| msgid "Show controls"
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "கட்டுப்படுத்திகளைக் காட்டு"
 
-#: src/qml/desktop/Desktop.qml:361 src/qml/Mobile.qml:318
+#: src/qml/desktop/Desktop.qml:361 src/qml/Mobile.qml:322
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:370 src/qml/Mobile.qml:401
+#: src/qml/desktop/Desktop.qml:370 src/qml/Mobile.qml:407
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
@@ -680,13 +680,13 @@ msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:406 src/qml/Mobile.qml:120
+#: src/qml/desktop/Desktop.qml:408 src/qml/Mobile.qml:120
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:416
+#: src/qml/desktop/Desktop.qml:418
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
@@ -858,61 +858,61 @@ msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
 msgstr ""
 
-#: src/qml/Mobile.qml:333
+#: src/qml/Mobile.qml:337
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr ""
 
-#: src/qml/Mobile.qml:343
+#: src/qml/Mobile.qml:349
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr ""
 
-#: src/qml/Mobile.qml:351
+#: src/qml/Mobile.qml:357
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr ""
 
-#: src/qml/Mobile.qml:359
+#: src/qml/Mobile.qml:365
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr ""
 
-#: src/qml/Mobile.qml:366
+#: src/qml/Mobile.qml:372
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr ""
 
-#: src/qml/Mobile.qml:366
+#: src/qml/Mobile.qml:372
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr ""
 
-#: src/qml/Mobile.qml:376
+#: src/qml/Mobile.qml:382
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr ""
 
-#: src/qml/Mobile.qml:376
+#: src/qml/Mobile.qml:382
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr ""
 
-#: src/qml/Mobile.qml:392
+#: src/qml/Mobile.qml:398
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr ""
 
-#: src/qml/Mobile.qml:409
+#: src/qml/Mobile.qml:415
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
@@ -934,6 +934,24 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Share Page"
+msgstr ""
+
+#: src/qml/WebAppNameDialog.qml:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Add to Application Launcher"
+msgstr ""
+
+#: src/qml/WebAppNameDialog.qml:32
+#, kde-format
+msgctxt "@info"
+msgid "Enter a name for the web application:"
+msgstr ""
+
+#: src/qml/WebAppNameDialog.qml:39
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Application name"
 msgstr ""
 
 #: src/settings/AngelfishConfigurationView.qml:14

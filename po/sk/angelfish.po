@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-26 00:42+0000\n"
+"POT-Creation-Date: 2026-02-21 00:44+0000\n"
 "PO-Revision-Date: 2023-11-13 18:52+0100\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <opensuse-translation@opensuse.org>\n"
@@ -339,246 +339,246 @@ msgctxt "@label:checkbox"
 msgid "Print backgrounds"
 msgstr "Vytlačiť pozadia"
 
-#: lib/contents/ui/WebView.qml:238
+#: lib/contents/ui/WebView.qml:348
 #, fuzzy, kde-format
 #| msgid "Website was opened in a new tab"
 msgctxt "@info:status"
 msgid "Website was opened in a new tab"
 msgstr "Webová stránka bola otvorená na novej karte"
 
-#: lib/contents/ui/WebView.qml:256
+#: lib/contents/ui/WebView.qml:366
 #, fuzzy, kde-format
 #| msgid "Entered Full Screen Mode"
 msgctxt "@info:status"
 msgid "Entered Full Screen mode"
 msgstr "Prechod do režimu celej obrazovky"
 
-#: lib/contents/ui/WebView.qml:257
+#: lib/contents/ui/WebView.qml:367
 #, fuzzy, kde-format
 #| msgid "Exit Full Screen (Esc)"
 msgctxt "@action:button"
 msgid "Exit Full Screen (Esc)"
 msgstr "Ukončiť režim celej obrazovky (Esc)"
 
-#: lib/contents/ui/WebView.qml:392
+#: lib/contents/ui/WebView.qml:502
 #, fuzzy, kde-format
 #| msgid "Play"
 msgctxt "@action:inmenu"
 msgid "Play"
 msgstr "Prehrať"
 
-#: lib/contents/ui/WebView.qml:393
+#: lib/contents/ui/WebView.qml:503
 #, fuzzy, kde-format
 #| msgid "Pause"
 msgctxt "@action:inmenu"
 msgid "Pause"
 msgstr "Pozastaviť"
 
-#: lib/contents/ui/WebView.qml:400
+#: lib/contents/ui/WebView.qml:510
 #, fuzzy, kde-format
 #| msgid "Unmute"
 msgctxt "@action:inmenu"
 msgid "Unmute"
 msgstr "Zrušiť stlmenie"
 
-#: lib/contents/ui/WebView.qml:401
+#: lib/contents/ui/WebView.qml:511
 #, fuzzy, kde-format
 #| msgid "Mute"
 msgctxt "@action:inmenu"
 msgid "Mute"
 msgstr "Stlmiť"
 
-#: lib/contents/ui/WebView.qml:411
+#: lib/contents/ui/WebView.qml:521
 #, fuzzy, kde-format
 #| msgid "Speed"
 msgctxt "@label"
 msgid "Speed"
 msgstr "Rýchlosť"
 
-#: lib/contents/ui/WebView.qml:434
+#: lib/contents/ui/WebView.qml:544
 #, fuzzy, kde-format
 #| msgid "Loop"
 msgctxt "@action:inmenu"
 msgid "Loop"
 msgstr "Slučka"
 
-#: lib/contents/ui/WebView.qml:441
+#: lib/contents/ui/WebView.qml:551
 #, fuzzy, kde-format
 #| msgid "Exit fullscreen"
 msgctxt "@action:inmenu"
 msgid "Exit Fullscreen"
 msgstr "Ukončiť režim celej obrazovky"
 
-#: lib/contents/ui/WebView.qml:441
+#: lib/contents/ui/WebView.qml:551
 #, fuzzy, kde-format
 #| msgid "Exit fullscreen"
 msgctxt "@action:inmenu"
 msgid "Enter Fullscreen"
 msgstr "Ukončiť režim celej obrazovky"
 
-#: lib/contents/ui/WebView.qml:454
+#: lib/contents/ui/WebView.qml:564
 #, fuzzy, kde-format
 #| msgid "Hide controls"
 msgctxt "@action:inmenu"
 msgid "Hide Controls"
 msgstr "Skryť ovládanie"
 
-#: lib/contents/ui/WebView.qml:455
+#: lib/contents/ui/WebView.qml:565
 #, fuzzy, kde-format
 #| msgid "Show controls"
 msgctxt "@action:inmenu"
 msgid "Show Controls"
 msgstr "Zobraziť ovládanie"
 
-#: lib/contents/ui/WebView.qml:463
+#: lib/contents/ui/WebView.qml:573
 #, fuzzy, kde-format
 #| msgid "Open video"
 msgctxt "@action:inmenu"
 msgid "Open Video"
 msgstr "Otvoriť video"
 
-#: lib/contents/ui/WebView.qml:463
+#: lib/contents/ui/WebView.qml:573
 #, fuzzy, kde-format
 #| msgid "Open audio"
 msgctxt "@action:inmenu"
 msgid "Open Audio"
 msgstr "Otvoriť zvuk"
 
-#: lib/contents/ui/WebView.qml:464
+#: lib/contents/ui/WebView.qml:574
 #, fuzzy, kde-format
 #| msgid "Open video in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Video in New Tab"
 msgstr "Otvoriť video na novej karte"
 
-#: lib/contents/ui/WebView.qml:464
+#: lib/contents/ui/WebView.qml:574
 #, fuzzy, kde-format
 #| msgid "Open audio in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Audio in New Tab"
 msgstr "Otvoriť zvuk na novej karte"
 
-#: lib/contents/ui/WebView.qml:476
+#: lib/contents/ui/WebView.qml:586
 #, fuzzy, kde-format
 #| msgid "Save video"
 msgctxt "@action:inmenu"
 msgid "Save Video"
 msgstr "Uložiť video"
 
-#: lib/contents/ui/WebView.qml:482
+#: lib/contents/ui/WebView.qml:592
 #, fuzzy, kde-format
 #| msgid "Copy video Link"
 msgctxt "@action:inmenu"
 msgid "Copy Video Link"
 msgstr "Kopírovať odkaz na video"
 
-#: lib/contents/ui/WebView.qml:488
+#: lib/contents/ui/WebView.qml:598
 #, fuzzy, kde-format
 #| msgid "Open image"
 msgctxt "@action:inmenu"
 msgid "Open Image"
 msgstr "Otvoriť obrázok"
 
-#: lib/contents/ui/WebView.qml:488
+#: lib/contents/ui/WebView.qml:598
 #, fuzzy, kde-format
 #| msgid "Open image in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Image in New Tab"
 msgstr "Otvoriť obrázok na novej karte"
 
-#: lib/contents/ui/WebView.qml:500
+#: lib/contents/ui/WebView.qml:610
 #, fuzzy, kde-format
 #| msgid "Save image"
 msgctxt "@action:inmenu"
 msgid "Save Image"
 msgstr "Uložiť obrázok"
 
-#: lib/contents/ui/WebView.qml:506
+#: lib/contents/ui/WebView.qml:616
 #, fuzzy, kde-format
 #| msgid "Copy image"
 msgctxt "@action:inmenu"
 msgid "Copy Image"
 msgstr "Kopírovať obrázok"
 
-#: lib/contents/ui/WebView.qml:512
+#: lib/contents/ui/WebView.qml:622
 #, fuzzy, kde-format
 #| msgid "Copy image link"
 msgctxt "@action:inmenu"
 msgid "Copy Image Link"
 msgstr "Kopírovať odkaz na obrázok"
 
-#: lib/contents/ui/WebView.qml:518
+#: lib/contents/ui/WebView.qml:628
 #, fuzzy, kde-format
 #| msgid "Open link"
 msgctxt "@action:inmenu"
 msgid "Open Link"
 msgstr "Otvoriť odkaz"
 
-#: lib/contents/ui/WebView.qml:518
+#: lib/contents/ui/WebView.qml:628
 #, fuzzy, kde-format
 #| msgid "Open link in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Link in New Tab"
 msgstr "Otvoriť odkaz na novej karte"
 
-#: lib/contents/ui/WebView.qml:530
+#: lib/contents/ui/WebView.qml:640
 #, fuzzy, kde-format
 #| msgid "Bookmark link"
 msgctxt "@action:inmenu"
 msgid "Bookmark Link"
 msgstr "Pridať odkaz do záložiek"
 
-#: lib/contents/ui/WebView.qml:542
+#: lib/contents/ui/WebView.qml:652
 #, fuzzy, kde-format
 #| msgid "Save link"
 msgctxt "@action:inmenu"
 msgid "Save Link"
 msgstr "Uložiť odkaz"
 
-#: lib/contents/ui/WebView.qml:548
+#: lib/contents/ui/WebView.qml:658
 #, fuzzy, kde-format
 #| msgid "Copy link"
 msgctxt "@action:inmenu"
 msgid "Copy Link"
 msgstr "Kopírovať odkaz"
 
-#: lib/contents/ui/WebView.qml:555
+#: lib/contents/ui/WebView.qml:665
 #, fuzzy, kde-format
 #| msgid "Copy"
 msgctxt "@action:inmenu"
 msgid "Copy"
 msgstr "Kopírovať"
 
-#: lib/contents/ui/WebView.qml:561
+#: lib/contents/ui/WebView.qml:671
 #, fuzzy, kde-format
 #| msgid "Cut"
 msgctxt "@action:inmenu"
 msgid "Cut"
 msgstr "Vystrihnúť"
 
-#: lib/contents/ui/WebView.qml:567
+#: lib/contents/ui/WebView.qml:677
 #, fuzzy, kde-format
 #| msgid "Paste"
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "Vložiť"
 
-#: lib/contents/ui/WebView.qml:575
+#: lib/contents/ui/WebView.qml:685
 #, fuzzy, kde-format
 #| msgid "Search Engine"
 msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "Vyhľadávací stroj"
 
-#: lib/contents/ui/WebView.qml:588 src/qml/desktop/Desktop.qml:377
-#: src/qml/Mobile.qml:322
+#: lib/contents/ui/WebView.qml:698 src/qml/desktop/Desktop.qml:377
+#: src/qml/Mobile.qml:326
 #, fuzzy, kde-format
 #| msgid "Share page"
 msgctxt "@action:inmenu"
 msgid "Share Page"
 msgstr "Zdielať stránku"
 
-#: lib/contents/ui/WebView.qml:600
+#: lib/contents/ui/WebView.qml:710
 #, fuzzy, kde-format
 #| msgid "View page source"
 msgctxt "@action:inmenu"
@@ -751,21 +751,21 @@ msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Skryť nástroje pre vývojárov"
 
-#: src/qml/desktop/Desktop.qml:352 src/qml/Mobile.qml:418
+#: src/qml/desktop/Desktop.qml:352 src/qml/Mobile.qml:424
 #, fuzzy, kde-format
 #| msgid "Show developer tools"
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Zobraziť nástroje pre vývojárov"
 
-#: src/qml/desktop/Desktop.qml:361 src/qml/Mobile.qml:318
+#: src/qml/desktop/Desktop.qml:361 src/qml/Mobile.qml:322
 #, fuzzy, kde-format
 #| msgid "Find in page"
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Nájsť na stránke"
 
-#: src/qml/desktop/Desktop.qml:370 src/qml/Mobile.qml:401
+#: src/qml/desktop/Desktop.qml:370 src/qml/Mobile.qml:407
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
@@ -778,14 +778,14 @@ msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "Pridať do spúšťača aplikácií"
 
-#: src/qml/desktop/Desktop.qml:406 src/qml/Mobile.qml:120
+#: src/qml/desktop/Desktop.qml:408 src/qml/Mobile.qml:120
 #, fuzzy, kde-format
 #| msgid "Settings"
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "Nastavenia"
 
-#: src/qml/desktop/Desktop.qml:416
+#: src/qml/desktop/Desktop.qml:418
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
@@ -983,69 +983,69 @@ msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
 msgstr "Zobraziť stránku plochy"
 
-#: src/qml/Mobile.qml:333
+#: src/qml/Mobile.qml:337
 #, fuzzy, kde-format
 #| msgid "Add to homescreen"
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Pridať na domovskú stránku"
 
-#: src/qml/Mobile.qml:343
+#: src/qml/Mobile.qml:349
 #, fuzzy, kde-format
 #| msgid "Open in app"
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Otvoriť v aplikácií"
 
-#: src/qml/Mobile.qml:351
+#: src/qml/Mobile.qml:357
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr ""
 
-#: src/qml/Mobile.qml:359
+#: src/qml/Mobile.qml:365
 #, fuzzy, kde-format
 #| msgid "Go forward"
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "Prejsť dopredu"
 
-#: src/qml/Mobile.qml:366
+#: src/qml/Mobile.qml:372
 #, fuzzy, kde-format
 #| msgid "Stop loading"
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Zastaviť načítavanie"
 
-#: src/qml/Mobile.qml:366
+#: src/qml/Mobile.qml:372
 #, fuzzy, kde-format
 #| msgid "Refresh"
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Obnoviť"
 
-#: src/qml/Mobile.qml:376
+#: src/qml/Mobile.qml:382
 #, fuzzy, kde-format
 #| msgid "Bookmarked"
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "V Záložkách"
 
-#: src/qml/Mobile.qml:376
+#: src/qml/Mobile.qml:382
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Záložka"
 
-#: src/qml/Mobile.qml:392
+#: src/qml/Mobile.qml:398
 #, fuzzy, kde-format
 #| msgid "Show desktop site"
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Zobraziť stránku plochy"
 
-#: src/qml/Mobile.qml:409
+#: src/qml/Mobile.qml:415
 #, fuzzy, kde-format
 #| msgid "Hide navigation bar"
 msgctxt "@action:inmenu"
@@ -1071,6 +1071,26 @@ msgstr "Nové karty:"
 msgctxt "@title:window"
 msgid "Share Page"
 msgstr "Zdielať stránku"
+
+#: src/qml/WebAppNameDialog.qml:18
+#, fuzzy, kde-format
+#| msgid "Add to application launcher"
+msgctxt "@title:window"
+msgid "Add to Application Launcher"
+msgstr "Pridať do spúšťača aplikácií"
+
+#: src/qml/WebAppNameDialog.qml:32
+#, kde-format
+msgctxt "@info"
+msgid "Enter a name for the web application:"
+msgstr ""
+
+#: src/qml/WebAppNameDialog.qml:39
+#, fuzzy, kde-format
+#| msgid "Add to application launcher"
+msgctxt "@info:placeholder"
+msgid "Application name"
+msgstr "Pridať do spúšťača aplikácií"
 
 #: src/settings/AngelfishConfigurationView.qml:14
 #: src/settings/SettingsGeneral.qml:19
