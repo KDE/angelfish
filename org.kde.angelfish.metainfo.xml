@@ -545,6 +545,7 @@
           <li xml:lang="ca">Permet ocultar la barra de pestanyes quan hi ha una única pestanya oberta</li>
           <li xml:lang="ca-valencia">Permet ocultar la barra de pestanyes quan hi ha una única pestanya oberta</li>
           <li xml:lang="es">Permitir ocultar la barra de pestañas cuando una sola pestaña está abierta</li>
+          <li xml:lang="fr">Autoriser le masquage de la barre d'onglets lorsqu'un seul onglet est ouvert</li>
           <li xml:lang="he">לאפשר את הסתרת סרגל הלשוניות כשרק לשונית אחת פתוחה</li>
           <li xml:lang="ia">Permitte celar barra de sched quando un singule scheda es aperite</li>
           <li xml:lang="ka">ჩანართების ზოლის დამალვის დაშვება, როცა ღიაა, მხოლოდ, ერთი ჩანართი</li>
@@ -559,6 +560,7 @@
           <li xml:lang="ca">Corregeix l'activació de la finestra al Wayland</li>
           <li xml:lang="ca-valencia">Corregix l'activació de la finestra a Wayland</li>
           <li xml:lang="es">Se ha corregido la activación de la ventana en Wayland</li>
+          <li xml:lang="fr">Correction de l'activation de fenêtres sous Wayland</li>
           <li xml:lang="he">תוקנה הפעלת חלון ב־Wayland</li>
           <li xml:lang="ia">Corrige activation de fenestra sur wayland</li>
           <li xml:lang="ka">გასწორდა ფანჯრის გააქტიურება wayland-ზე</li>
@@ -580,6 +582,7 @@
           <li xml:lang="ca">Actualitza la versió de la caixa de bloqueig de publicitat</li>
           <li xml:lang="ca-valencia">Actualitza la versió de la caixa de bloqueig de publicitat</li>
           <li xml:lang="es">Se ha actualizado la versión del bloqueador de publicidad</li>
+          <li xml:lang="fr">Mise à jour de la version de création de AdBlock</li>
           <li xml:lang="he">עודכנה גרסת ה־crate של חסימת הפרסומות</li>
           <li xml:lang="ia">Actualisa version de cassa de adblock</li>
           <li xml:lang="ka">განახლდა adblock crate-ის ვერსია</li>
@@ -594,6 +597,7 @@
           <li xml:lang="ca">Corregeix les entrades «webapp» que no es mostren al «phosh»</li>
           <li xml:lang="ca-valencia">Corregix les entrades «webapp» que no es mostren al «phosh»</li>
           <li xml:lang="es">Se ha solucionado el problema de que las entradas de la aplicación web no aparecen en phosh</li>
+          <li xml:lang="fr">Correction des entrées de l'application Internet n'apparaissant pas dans phosh</li>
           <li xml:lang="he">תוקנו רשומות יישומי אתרים שלא מופיעות ב־phosh</li>
           <li xml:lang="ia">Corrige entratas de webapp que non se monstra in phosh</li>
           <li xml:lang="ka">გასწორდა ვებაპის ჩანაწერების არჩვენება phosh-ში</li>
@@ -608,6 +612,7 @@
           <li xml:lang="ca">Exposa les baixades a la versió d'escriptori</li>
           <li xml:lang="ca-valencia">Exposa les baixades a la versió d'escriptori</li>
           <li xml:lang="es">Exponer descargas en la versión de escritorio</li>
+          <li xml:lang="fr">Affichage des téléchargements dans la version de bureau</li>
           <li xml:lang="he">חשיפת הורדות בגרסה לשולחן העבודה</li>
           <li xml:lang="ia">Expone discargamentos in le version de scriptorio</li>
           <li xml:lang="ka">გადმოწერების ჩვენება კომპიუტერის ვერსიაში</li>
@@ -629,6 +634,7 @@
           <li xml:lang="ca">Corregeix les eines de desenvolupador</li>
           <li xml:lang="ca-valencia">Corregix les eines de desenvolupador</li>
           <li xml:lang="es">Se han corregido las herramientas del desarrollador</li>
+          <li xml:lang="fr">Correction des outils de développement</li>
           <li xml:lang="he">תוקנו כלי הפיתוח</li>
           <li xml:lang="ia">Corrige instrumentos de disveloppator</li>
           <li xml:lang="ka">გასწორდა პროგრამისტის ხელსაწყოები</li>
@@ -643,6 +649,7 @@
           <li xml:lang="ca">Corregeix la visualització del títol de la pàgina al commutador de pestanyes</li>
           <li xml:lang="ca-valencia">Corregix la visualització del títol de la pàgina al commutador de pestanyes</li>
           <li xml:lang="es">Se ha corregido la visualización del título de la página en el selector de pestañas</li>
+          <li xml:lang="fr">Correction de l'affichage du titre de page dans le sélecteur d'onglets</li>
           <li xml:lang="he">תוקנה הצגת כותרת העמוד במחליף הלשוניות</li>
           <li xml:lang="ia">Corrige monstrar le titulo de pagina in commutator de scheda</li>
           <li xml:lang="ka">გასწორდა გვერდის სათაურის ჩვენება ჩანართების გადამრთველში</li>
@@ -657,6 +664,7 @@
           <li xml:lang="ca">Corregeix una comprovació incorrecta al bloquejador de publicitat</li>
           <li xml:lang="ca-valencia">Corregix una comprovació incorrecta al bloquejador de publicitat</li>
           <li xml:lang="es">Se ha corregido la comprobación en el bloqueador de publicidad</li>
+          <li xml:lang="fr">Correction de la vérification erronée dans le bloqueur de publicités</li>
           <li xml:lang="he">תוקנה בדיקה שגויה בחוסם הפרסומות</li>
           <li xml:lang="ia">Corrige verifica errate in adblocker</li>
           <li xml:lang="ka">გასწორდა არასწორი შემოწმება რეკლამთმბლოკავში</li>
@@ -671,6 +679,7 @@
           <li xml:lang="ca">Implementa una interfície d'usuari d'escriptori</li>
           <li xml:lang="ca-valencia">Implementa una interfície d'usuari d'escriptori</li>
           <li xml:lang="es">Se ha implementado una interfaz de usuario en el escritorio</li>
+          <li xml:lang="fr">Mettre en œuvre une interface utilisateur de bureau</li>
           <li xml:lang="he">מימוש ממשק משתמש לשולחן עבודה</li>
           <li xml:lang="ia">Implementa un UI de scriptoprio</li>
           <li xml:lang="ka">განხორციელდა სამუშაო მაგიდის ინტერფეისი</li>
@@ -685,6 +694,7 @@
           <li xml:lang="ca">Reorganitza la interfície d'usuari de configuració i l'unifica per a l'escriptori i el mòbil</li>
           <li xml:lang="ca-valencia">Reorganitza la interfície d'usuari de configuració i l'unifica per a l'escriptori i el mòbil</li>
           <li xml:lang="es">Se han reorganizado la interfaz de las preferencias y se ha unificado para el escritorio y para móviles</li>
+          <li xml:lang="fr">Réorganiser l'interface utilisateur de la configuration et la rendre les versions de bureau et mobile plus homogène</li>
           <li xml:lang="he">ממשק המשתמש של ההגדרות סודר מחדש ובוצע איחוד לשולחן עבודה וניידים</li>
           <li xml:lang="ia">Re.organisa le UI de preferentias e unifica per scriptorios e mobile</li>
           <li xml:lang="ka">მორგების ინტერფეისის რეორგანიზაცია და გაერთიანება კომპიუტერისთვის და მობილურისთვის</li>
@@ -699,6 +709,7 @@
           <li xml:lang="ca">Simplifica la lògica de navegació</li>
           <li xml:lang="ca-valencia">Simplifica la lògica de navegació</li>
           <li xml:lang="es">Se ha simplificado la lógica de nevegación</li>
+          <li xml:lang="fr">Simplifier la logique de navigation</li>
           <li xml:lang="he">פישוט לוגיקת הניווט</li>
           <li xml:lang="ia">Simplifica le logica de navigation </li>
           <li xml:lang="ka">გამარტივდა ნავიგაციის ლოგიკა</li>
@@ -713,6 +724,7 @@
           <li xml:lang="ca">Mostra una finestra emergent quan la barra d'URL està centrada mostrant l'historial i el text relacionat de l'URL actual</li>
           <li xml:lang="ca-valencia">Mostra una finestra emergent quan la barra d'URL està centrada mostrant l'historial i el text relacionat de l'URL actual</li>
           <li xml:lang="es">Mostrar una ventana emergente cuando la barra de URL tiene el foco y muestra el historial y texto relacionado con la URL actual</li>
+          <li xml:lang="fr">Afficher une fenêtre contextuelle lorsque la barre d'URL reçoit le focus, affichant l'historique et le texte associé à l'URL actuelle</li>
           <li xml:lang="he">להציג חלונית צצה כשהמיקוד הוא על סרגל הכתובות וההיסטוריה מופיעה לצד טקסט תואם לכתובת הנוכחית</li>
           <li xml:lang="ia">Monstra un popup quando le barra de URL es focalisate monstrante chronologia e texto affin per URL currente</li>
           <li xml:lang="ka">მხტუნარას ჩვენება, როცა URL-ის პანელს ფოკუსი აქვს, აჩვენებს ისტორიას და შესაბამის ტექსტს მიმდინარე URL-ისთვის</li>
@@ -727,6 +739,7 @@
           <li xml:lang="ca">Utilitza un agent d'usuari predeterminat millor per a dispositius mòbils</li>
           <li xml:lang="ca-valencia">Utilitza un agent d'usuari predeterminat millor per a dispositius mòbils</li>
           <li xml:lang="es">Usar un mejor agente de usuario predeterminado para dispositivos móviles</li>
+          <li xml:lang="fr">Utiliser un agent utilisateur meilleur par défaut pour les périphériques mobiles</li>
           <li xml:lang="he">להשתמש בסוכן משתמש טוב יותר כברירת מחדל למכשירים ניידים</li>
           <li xml:lang="ia">Usa un melior agente-usator predefinite per dispositivos mobile</li>
           <li xml:lang="ka">უკეთესი ნაგულისხმევი user-agent-ის გამოყენება მობილური მოწყობილობებისთვის</li>
@@ -748,6 +761,7 @@
           <li xml:lang="ca">Afegeix un botó d'acció per a netejar l'historial</li>
           <li xml:lang="ca-valencia">Afig un botó d'acció per a netejar l'historial</li>
           <li xml:lang="es">Se ha añadido un botón de acción para borrar el historial</li>
+          <li xml:lang="fr">Ajouter un bouton d'action pour l'effacement de l'historique</li>
           <li xml:lang="he">נוסף כפתור פעולה לפינוי ההיסטוריה</li>
           <li xml:lang="ia">Adde button de action per nettar chronologia</li>
           <li xml:lang="ka">დაემატა ქმედების ღილაკი ისტორიის გასასუფთავებლად</li>
@@ -762,6 +776,7 @@
           <li xml:lang="ca">Millora la integració del teclat virtual</li>
           <li xml:lang="ca-valencia">Millora la integració del teclat virtual</li>
           <li xml:lang="es">Se ha mejorado la integración del teclado virtual</li>
+          <li xml:lang="fr">Améliorer l'intégration du clavier virtuel</li>
           <li xml:lang="he">שילוב מקלדת וירטואלית השתפרה</li>
           <li xml:lang="ia">Meliora integration de claviero virtual</li>
           <li xml:lang="ka">გაუმჯობესდა ვირტუალური კლავიატურის ინტეგრაცია</li>
@@ -776,6 +791,7 @@
           <li xml:lang="ca">Permet a l'usuari ignorar els errors de SSL</li>
           <li xml:lang="ca-valencia">Permet a l'usuari ignorar els errors de SSL</li>
           <li xml:lang="es">Permitir que el usuario ignore errores de SSL</li>
+          <li xml:lang="fr">Permettre à l'utilisateur d'ignorer les erreurs de SSL</li>
           <li xml:lang="he">לאפשר למשתמש להתעלם משגיאות SSL</li>
           <li xml:lang="ia">Permitte que le usator ignora errores de SSL</li>
           <li xml:lang="ka">მომხმარებლებისთვის SSL შეცდომების გამოტოვების უფლების მიცემა</li>
@@ -790,6 +806,7 @@
           <li xml:lang="ca">Corregeix la càrrega dels URL chrome://</li>
           <li xml:lang="ca-valencia">Corregix la càrrega dels URL chrome://</li>
           <li xml:lang="es">Se ha corregido la carga de URL de tipo chrome://</li>
+          <li xml:lang="fr">Correction des chargement des URL « chrome:// »</li>
           <li xml:lang="he">תוקנה טעינת כתובות chrome://‎</li>
           <li xml:lang="ia">Corrige cargar chrome://URLs</li>
           <li xml:lang="ka">გასწორდა chrome:// ბმულების ჩატვირთვა</li>
@@ -804,6 +821,7 @@
           <li xml:lang="ca">Millora la implementació del bloquejador de publicitat per a filtres cosmètics</li>
           <li xml:lang="ca-valencia">Millora la implementació del bloquejador de publicitat per a filtres cosmètics</li>
           <li xml:lang="es">Se ha mejorado la compatibilidad del bloqueador de publicidad con filtros cosméticos</li>
+          <li xml:lang="fr">Amélioration de la prise en charge des bloqueurs de publicités pour les filtres cosmétiques</li>
           <li xml:lang="he">התמיכה במסננים קומסטיים בחוסם הפרסומות השתפרה</li>
           <li xml:lang="ia">Meliorate supporto de ad-blocker per filtros cosmetic</li>
           <li xml:lang="ka">გაუმჯობესდა რეკლამთმბლოკავის მხარდაჭერა კოსმეტიკური ფილტრებისთვის</li>
@@ -827,6 +845,7 @@
           <li xml:lang="ca">Millora el temps d'inici del bloquejador de publicitat</li>
           <li xml:lang="ca-valencia">Millora el temps d'inici del bloquejador de publicitat</li>
           <li xml:lang="es">Se ha mejorado el tiempo de inicio del bloqueador de publicidad</li>
+          <li xml:lang="fr">Améliorer le temps de démarrage du bloqueur de publicités</li>
           <li xml:lang="he">זמן העלייה של חוסם הפרסומות השתפר</li>
           <li xml:lang="ia">Meliora le tempore de startar del ad blocker (blocator de reclamos)</li>
           <li xml:lang="ka">გაუმჯობესდა რეკლამთმბლოკავის გაშვების დრო</li>
@@ -841,6 +860,7 @@
           <li xml:lang="ca">Corregeix diversos errors i problemes de seguretat al gestor d'aplicacions web</li>
           <li xml:lang="ca-valencia">Corregix diversos errors i problemes de seguretat al gestor d'aplicacions web</li>
           <li xml:lang="es">Se han corregido diversos fallos y problemas de seguridad en el gestor de la aplicación web</li>
+          <li xml:lang="fr">Correction de divers bogues et problèmes de sécurité dans le gestionnaire d'applications Internet</li>
           <li xml:lang="he">תוקנו מספר תקלות ובעיות אבטחה במנהל יישומי האתרים</li>
           <li xml:lang="ia">Corrige varie faltas e problemas de securitate in le gerente de app de web</li>
           <li xml:lang="ka">გასწორდა სხვადასხვა შეცდომები და უსაფრთხოების პრობლემები ვებაპების მმართველში</li>
@@ -855,6 +875,7 @@
           <li xml:lang="ca">Millora la implementació de flatpak</li>
           <li xml:lang="ca-valencia">Millora la implementació de flatpak</li>
           <li xml:lang="es">Se ha mejorado la compatibilidad con flatpak</li>
+          <li xml:lang="fr">Améliorer la prise en charge de FlatPak</li>
           <li xml:lang="he">התמיכה ב־flatpak השתפרה</li>
           <li xml:lang="ia">Meliora supporto de flatpack</li>
           <li xml:lang="ka">გაუმჯობესდა Flatpak-ის მხარდაჭერა</li>
@@ -876,6 +897,7 @@
           <li xml:lang="ca">Afegeix una pàgina de configuració per a gestionar aplicacions web</li>
           <li xml:lang="ca-valencia">Afig una pàgina de configuració per a gestionar aplicacions web</li>
           <li xml:lang="es">Se ha añadido una página de preferencias para la gestión de aplicaciones web</li>
+          <li xml:lang="fr">Ajouter une page de configuration pour la gestion des applications Internet</li>
           <li xml:lang="he">נוסף עמוד הגדרות לניהול יישומי אתרים</li>
           <li xml:lang="ia">Adde un pagina de preferentias per gerer appsde web</li>
           <li xml:lang="ka">დაემატა მორგების გვერდი ვებაპების სამართავად</li>
