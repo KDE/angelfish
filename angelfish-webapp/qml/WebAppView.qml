@@ -17,7 +17,6 @@ Core.WebView {
     profile: Core.AngelfishWebProfile {
         httpUserAgent: userAgent.userAgent
         offTheRecord: false
-        questionLoader: questionLoader
         storageName: "angelfish-webapp"
     }
 
