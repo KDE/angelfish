@@ -31,8 +31,6 @@
 
 namespace ranges = std::ranges;
 
-constexpr auto APPLICATION_ID = "org.kde.angelfish";
-
 using namespace Qt::StringLiterals;
 
 Q_DECL_EXPORT int main(int argc, char *argv[])

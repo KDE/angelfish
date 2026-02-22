@@ -19,7 +19,7 @@ Kirigami.ApplicationWindow {
     minimumWidth: Kirigami.Units.gridUnit * 15
     minimumHeight: Kirigami.Units.gridUnit * 15
 
-    pageStack.globalToolBar.showNavigationButtons: Kirigami.ApplicationHeaderStyle.NoNavigationButtons
+    pageStack.globalToolBar.style: Kirigami.ApplicationHeaderStyle.None
 
     // Main Page
     pageStack.initialPage: Kirigami.Page {
