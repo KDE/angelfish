@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-21 00:44+0000\n"
-"PO-Revision-Date: 2026-01-29 20:53+0100\n"
+"POT-Creation-Date: 2026-02-23 00:44+0000\n"
+"PO-Revision-Date: 2026-02-21 15:14+0100\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.12.1\n"
+"X-Generator: Lokalize 25.12.2\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -522,43 +522,43 @@ msgctxt "@action:inmenu"
 msgid "View Page Source"
 msgstr "Visualizza sorgente della pagina"
 
-#: src/main.cpp:72
+#: src/main.cpp:70
 #, kde-format
 msgid "URL to open"
 msgstr "URL da aprire"
 
-#: src/main.cpp:83
+#: src/main.cpp:81
 #, kde-format
 msgid "Angelfish"
 msgstr "Angelfish"
 
-#: src/main.cpp:85
+#: src/main.cpp:83
 #, kde-format
 msgid "Web browser for Plasma Mobile"
 msgstr "Browser web per Plasma Mobile"
 
-#: src/main.cpp:87
+#: src/main.cpp:85
 #, kde-format
 msgid "© 2015-2024 KDE Community"
 msgstr "© 2015-2024 della Comunità KDE"
 
-#: src/main.cpp:90
+#: src/main.cpp:88
 #, kde-format
 msgid "Jonah Brüchert"
 msgstr "Jonah Brüchert"
 
-#: src/main.cpp:90
+#: src/main.cpp:88
 #, kde-format
 msgid "Maintainer"
 msgstr "Responsabile"
 
-#: src/main.cpp:91
+#: src/main.cpp:89
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Paolo Zamponi"
 
-#: src/main.cpp:91
+#: src/main.cpp:89
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
@@ -947,9 +947,7 @@ msgid "Share Page"
 msgstr "Condividi pagina"
 
 #: src/qml/WebAppNameDialog.qml:18
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Add to Application Launcher"
+#, kde-format
 msgctxt "@title:window"
 msgid "Add to Application Launcher"
 msgstr "Aggiungi all'avviatore di applicazioni"
@@ -958,15 +956,13 @@ msgstr "Aggiungi all'avviatore di applicazioni"
 #, kde-format
 msgctxt "@info"
 msgid "Enter a name for the web application:"
-msgstr ""
+msgstr "Digita un nome per l'applicazione web:"
 
 #: src/qml/WebAppNameDialog.qml:39
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Add to Application Launcher"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Application name"
-msgstr "Aggiungi all'avviatore di applicazioni"
+msgstr "Nome dell'applicazione"
 
 #: src/settings/AngelfishConfigurationView.qml:14
 #: src/settings/SettingsGeneral.qml:19

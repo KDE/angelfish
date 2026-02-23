@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-21 00:44+0000\n"
+"POT-Creation-Date: 2026-02-23 00:44+0000\n"
 "PO-Revision-Date: 2026-01-03 22:20+0100\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -514,43 +514,43 @@ msgctxt "@action:inmenu"
 msgid "View Page Source"
 msgstr "Oldal forrásának megtekintése"
 
-#: src/main.cpp:72
+#: src/main.cpp:70
 #, kde-format
 msgid "URL to open"
 msgstr "A megnyitandó URL"
 
-#: src/main.cpp:83
+#: src/main.cpp:81
 #, kde-format
 msgid "Angelfish"
 msgstr "Angelfish"
 
-#: src/main.cpp:85
+#: src/main.cpp:83
 #, kde-format
 msgid "Web browser for Plasma Mobile"
 msgstr "Webböngésző a Plasma Mobile-hoz"
 
-#: src/main.cpp:87
+#: src/main.cpp:85
 #, kde-format
 msgid "© 2015-2024 KDE Community"
 msgstr "© A KDE Közösség, 2015-2024"
 
-#: src/main.cpp:90
+#: src/main.cpp:88
 #, kde-format
 msgid "Jonah Brüchert"
 msgstr "Jonah Brüchert"
 
-#: src/main.cpp:90
+#: src/main.cpp:88
 #, kde-format
 msgid "Maintainer"
 msgstr "Karbantartó"
 
-#: src/main.cpp:91
+#: src/main.cpp:89
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Kiszel Kristóf"
 
-#: src/main.cpp:91
+#: src/main.cpp:89
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"

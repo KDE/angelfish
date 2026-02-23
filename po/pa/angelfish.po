@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-21 00:44+0000\n"
+"POT-Creation-Date: 2026-02-23 00:44+0000\n"
 "PO-Revision-Date: 2024-12-19 22:25-0600\n"
 "Last-Translator: aalam <aalam@punlinux.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -584,44 +584,44 @@ msgctxt "@action:inmenu"
 msgid "View Page Source"
 msgstr "ਸਫ਼ੇ ਦੇ ਸਰੋਤ ਨੂੰ ਵੇਖੋ"
 
-#: src/main.cpp:72
+#: src/main.cpp:70
 #, kde-format
 msgid "URL to open"
 msgstr "ਖੋਲ੍ਹਣ ਲਈ URL"
 
-#: src/main.cpp:83
+#: src/main.cpp:81
 #, fuzzy, kde-format
 #| msgid "Configure Angelfish"
 msgid "Angelfish"
 msgstr "ਐਂਜਲਫਿਸ਼ ਦੀ ਸੰਰਚਨਾ"
 
-#: src/main.cpp:85
+#: src/main.cpp:83
 #, kde-format
 msgid "Web browser for Plasma Mobile"
 msgstr ""
 
-#: src/main.cpp:87
+#: src/main.cpp:85
 #, kde-format
 msgid "© 2015-2024 KDE Community"
 msgstr ""
 
-#: src/main.cpp:90
+#: src/main.cpp:88
 #, kde-format
 msgid "Jonah Brüchert"
 msgstr ""
 
-#: src/main.cpp:90
+#: src/main.cpp:88
 #, kde-format
 msgid "Maintainer"
 msgstr ""
 
-#: src/main.cpp:91
+#: src/main.cpp:89
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "ਅ.ਸ.ਆਲਮ. ੨੦੦੯-੨੦੨੩"
 
-#: src/main.cpp:91
+#: src/main.cpp:89
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
