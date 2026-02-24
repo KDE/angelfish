@@ -548,6 +548,7 @@
           <li xml:lang="fr">Autoriser le masquage de la barre d'onglets lorsqu'un seul onglet est ouvert</li>
           <li xml:lang="he">לאפשר את הסתרת סרגל הלשוניות כשרק לשונית אחת פתוחה</li>
           <li xml:lang="ia">Permitte celar barra de sched quando un singule scheda es aperite</li>
+          <li xml:lang="it">Permetti di nascondere la barra delle schede quando è aperta una sola scheda</li>
           <li xml:lang="nl">Toestaan de tabbladbalk te verbergen wanneer een enkel tabblad open is</li>
           <li xml:lang="pt-BR">Permite ocultar a barra de abas quando apenas uma aba estiver aberta</li>
           <li xml:lang="ru">Возможность скрывать панель вкладок при одной открытой вкладке</li>
@@ -561,6 +562,7 @@
           <li xml:lang="fr">Correction de l'activation de fenêtres sous Wayland</li>
           <li xml:lang="he">תוקנה הפעלת חלון ב־Wayland</li>
           <li xml:lang="ia">Corrige activation de fenestra sur wayland</li>
+          <li xml:lang="it">È stata corretta l'attivazione della finestra in wayland</li>
           <li xml:lang="nl">Probleem met vensteractivering op Wayland oplossen</li>
           <li xml:lang="pt-BR">Corrigida a ativação de janelas no Wayland</li>
           <li xml:lang="ru">Исправление активации окна в Wayland</li>
@@ -581,6 +583,7 @@
           <li xml:lang="fr">Mise à jour de la version de création de AdBlock</li>
           <li xml:lang="he">עודכנה גרסת ה־crate של חסימת הפרסומות</li>
           <li xml:lang="ia">Actualisa version de cassa de adblock</li>
+          <li xml:lang="it">È stata aggiornata la versione crate adblock</li>
           <li xml:lang="nl">Adblock crate versie bijwerken</li>
           <li xml:lang="pt-BR">Atualizada a versão do Adblock Crate</li>
           <li xml:lang="ru">Обновлена версия библиотеки блокировки рекламы</li>
@@ -594,6 +597,7 @@
           <li xml:lang="fr">Correction des entrées de l'application Internet n'apparaissant pas dans phosh</li>
           <li xml:lang="he">תוקנו רשומות יישומי אתרים שלא מופיעות ב־phosh</li>
           <li xml:lang="ia">Corrige entratas de webapp que non se monstra in phosh</li>
+          <li xml:lang="it">Sono state corrette le voci webapp che non venivano mostrate in phosh</li>
           <li xml:lang="nl">Los het probleem op dat webapp-items niet worden weergegeven in Phosh</li>
           <li xml:lang="pt-BR">Corrigido problema em que entradas de aplicativos web não aparecem no Phosh</li>
           <li xml:lang="ru">Исправлено отсутствие записей веб-приложений в Phosh</li>
@@ -607,6 +611,7 @@
           <li xml:lang="fr">Affichage des téléchargements dans la version de bureau</li>
           <li xml:lang="he">חשיפת הורדות בגרסה לשולחן העבודה</li>
           <li xml:lang="ia">Expone discargamentos in le version de scriptorio</li>
+          <li xml:lang="it">Vengono mostrati gli scaricamenti nella versione desktop</li>
           <li xml:lang="nl">Downloads in de bureaubladversie tonen</li>
           <li xml:lang="pt-BR">Exibir downloads na versão para desktop</li>
           <li xml:lang="ru">Просмотр загрузки в версии для настольных компьютеров</li>
@@ -627,6 +632,7 @@
           <li xml:lang="fr">Correction des outils de développement</li>
           <li xml:lang="he">תוקנו כלי הפיתוח</li>
           <li xml:lang="ia">Corrige instrumentos de disveloppator</li>
+          <li xml:lang="it">Sono stati corretti gli strumenti per sviluppatori</li>
           <li xml:lang="nl">Hulpmiddelen voor ontwikkelaars repareren</li>
           <li xml:lang="pt-BR">Correção nas ferramentas de desenvolvedor</li>
           <li xml:lang="ru">Исправлены инструменты разработчика</li>
@@ -640,6 +646,7 @@
           <li xml:lang="fr">Correction de l'affichage du titre de page dans le sélecteur d'onglets</li>
           <li xml:lang="he">תוקנה הצגת כותרת העמוד במחליף הלשוניות</li>
           <li xml:lang="ia">Corrige monstrar le titulo de pagina in commutator de scheda</li>
+          <li xml:lang="it">È stata corretta la visualizzazione del titolo della pagina nel selettore di schede</li>
           <li xml:lang="nl">De paginatitel tonen in tabbladwisselaar repareren</li>
           <li xml:lang="pt-BR">Corrigido o problema de exibição do título da página no seletor de abas</li>
           <li xml:lang="ru">Исправлено отображение заголовка страницы в переключателе вкладок</li>
@@ -653,6 +660,7 @@
           <li xml:lang="fr">Correction de la vérification erronée dans le bloqueur de publicités</li>
           <li xml:lang="he">תוקנה בדיקה שגויה בחוסם הפרסומות</li>
           <li xml:lang="ia">Corrige verifica errate in adblocker</li>
+          <li xml:lang="it">È stato corretto il segno sbagliato nel sistema di blocco degli annunci</li>
           <li xml:lang="nl">Verkeerd inchecken in ad-blocker repareren</li>
           <li xml:lang="pt-BR">Correção da verificação incorreta no bloqueador de anúncios</li>
           <li xml:lang="ru">Исправлена неверная проверка в блокировщике рекламы</li>
@@ -666,6 +674,7 @@
           <li xml:lang="fr">Mettre en œuvre une interface utilisateur de bureau</li>
           <li xml:lang="he">מימוש ממשק משתמש לשולחן עבודה</li>
           <li xml:lang="ia">Implementa un UI de scriptoprio</li>
+          <li xml:lang="it">È stata implementata un'interfaccia utente per desktop</li>
           <li xml:lang="nl">Een bureaublad-UI implementeren</li>
           <li xml:lang="pt-BR">Implementada uma interface de usuário para desktop</li>
           <li xml:lang="ru">Реализован пользовательский интерфейс для настольных систем</li>
