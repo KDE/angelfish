@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-23 00:44+0000\n"
-"PO-Revision-Date: 2026-02-02 23:19+0200\n"
+"PO-Revision-Date: 2026-02-25 00:19+0200\n"
 "Last-Translator: Moo\n"
 "Language-Team: lt\n"
 "Language: lt\n"
@@ -27,7 +27,7 @@ msgstr "darbalaukio failas, kurį atverti"
 #: angelfish-webapp/main.cpp:90
 #, kde-format
 msgid "Angelfish Web App runtime"
-msgstr "Angelfish saityno programos dinaminė programa"
+msgstr "Angelfish saityno programėlės dinaminė programa"
 
 #: angelfish-webapp/main.cpp:92
 #, kde-format
@@ -952,9 +952,7 @@ msgid "Share Page"
 msgstr "Bendrinti puslapį"
 
 #: src/qml/WebAppNameDialog.qml:18
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Add to Application Launcher"
+#, kde-format
 msgctxt "@title:window"
 msgid "Add to Application Launcher"
 msgstr "Pridėti į programų paleidyklę"
@@ -963,15 +961,13 @@ msgstr "Pridėti į programų paleidyklę"
 #, kde-format
 msgctxt "@info"
 msgid "Enter a name for the web application:"
-msgstr ""
+msgstr "Įveskite saityno programėlės pavadinimą:"
 
 #: src/qml/WebAppNameDialog.qml:39
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Add to Application Launcher"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Application name"
-msgstr "Pridėti į programų paleidyklę"
+msgstr "Programos pavadinimas"
 
 #: src/settings/AngelfishConfigurationView.qml:14
 #: src/settings/SettingsGeneral.qml:19
