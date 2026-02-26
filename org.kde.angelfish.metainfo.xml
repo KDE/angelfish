@@ -549,6 +549,7 @@
           <li xml:lang="he">לאפשר את הסתרת סרגל הלשוניות כשרק לשונית אחת פתוחה</li>
           <li xml:lang="ia">Permitte celar barra de sched quando un singule scheda es aperite</li>
           <li xml:lang="it">Permetti di nascondere la barra delle schede quando è aperta una sola scheda</li>
+          <li xml:lang="lt">Leidžiama slėpti kortelių juostą, kai atverta viena kortelė</li>
           <li xml:lang="nl">Toestaan de tabbladbalk te verbergen wanneer een enkel tabblad open is</li>
           <li xml:lang="pt-BR">Permite ocultar a barra de abas quando apenas uma aba estiver aberta</li>
           <li xml:lang="ru">Возможность скрывать панель вкладок при одной открытой вкладке</li>
@@ -563,6 +564,7 @@
           <li xml:lang="he">תוקנה הפעלת חלון ב־Wayland</li>
           <li xml:lang="ia">Corrige activation de fenestra sur wayland</li>
           <li xml:lang="it">È stata corretta l'attivazione della finestra in wayland</li>
+          <li xml:lang="lt">Ištaisytas lango aktyvavimas „Wayland“ aplinkoje</li>
           <li xml:lang="nl">Probleem met vensteractivering op Wayland oplossen</li>
           <li xml:lang="pt-BR">Corrigida a ativação de janelas no Wayland</li>
           <li xml:lang="ru">Исправление активации окна в Wayland</li>
@@ -584,6 +586,7 @@
           <li xml:lang="he">עודכנה גרסת ה־crate של חסימת הפרסומות</li>
           <li xml:lang="ia">Actualisa version de cassa de adblock</li>
           <li xml:lang="it">È stata aggiornata la versione crate adblock</li>
+          <li xml:lang="lt">Atnaujinta reklamos blokavimo pakuotės versija</li>
           <li xml:lang="nl">Adblock crate versie bijwerken</li>
           <li xml:lang="pt-BR">Atualizada a versão do Adblock Crate</li>
           <li xml:lang="ru">Обновлена версия библиотеки блокировки рекламы</li>
@@ -598,6 +601,7 @@
           <li xml:lang="he">תוקנו רשומות יישומי אתרים שלא מופיעות ב־phosh</li>
           <li xml:lang="ia">Corrige entratas de webapp que non se monstra in phosh</li>
           <li xml:lang="it">Sono state corrette le voci webapp che non venivano mostrate in phosh</li>
+          <li xml:lang="lt">Ištaisyta klaida, kai įrašai nebuvo rodomi „Phosh“ aplinkoje</li>
           <li xml:lang="nl">Los het probleem op dat webapp-items niet worden weergegeven in Phosh</li>
           <li xml:lang="pt-BR">Corrigido problema em que entradas de aplicativos web não aparecem no Phosh</li>
           <li xml:lang="ru">Исправлено отсутствие записей веб-приложений в Phosh</li>
@@ -612,6 +616,7 @@
           <li xml:lang="he">חשיפת הורדות בגרסה לשולחן העבודה</li>
           <li xml:lang="ia">Expone discargamentos in le version de scriptorio</li>
           <li xml:lang="it">Vengono mostrati gli scaricamenti nella versione desktop</li>
+          <li xml:lang="lt">Darbalaukio versijoje parodomi atsiuntimai</li>
           <li xml:lang="nl">Downloads in de bureaubladversie tonen</li>
           <li xml:lang="pt-BR">Exibir downloads na versão para desktop</li>
           <li xml:lang="ru">Просмотр загрузки в версии для настольных компьютеров</li>
@@ -633,6 +638,7 @@
           <li xml:lang="he">תוקנו כלי הפיתוח</li>
           <li xml:lang="ia">Corrige instrumentos de disveloppator</li>
           <li xml:lang="it">Sono stati corretti gli strumenti per sviluppatori</li>
+          <li xml:lang="lt">Ištaisyti plėtotojo įrankiai</li>
           <li xml:lang="nl">Hulpmiddelen voor ontwikkelaars repareren</li>
           <li xml:lang="pt-BR">Correção nas ferramentas de desenvolvedor</li>
           <li xml:lang="ru">Исправлены инструменты разработчика</li>
@@ -647,6 +653,7 @@
           <li xml:lang="he">תוקנה הצגת כותרת העמוד במחליף הלשוניות</li>
           <li xml:lang="ia">Corrige monstrar le titulo de pagina in commutator de scheda</li>
           <li xml:lang="it">È stata corretta la visualizzazione del titolo della pagina nel selettore di schede</li>
+          <li xml:lang="lt">Ištaisytas puslapio pavadinimo atvaizdavimas kortelių perjungiklyje</li>
           <li xml:lang="nl">De paginatitel tonen in tabbladwisselaar repareren</li>
           <li xml:lang="pt-BR">Corrigido o problema de exibição do título da página no seletor de abas</li>
           <li xml:lang="ru">Исправлено отображение заголовка страницы в переключателе вкладок</li>
@@ -661,6 +668,7 @@
           <li xml:lang="he">תוקנה בדיקה שגויה בחוסם הפרסומות</li>
           <li xml:lang="ia">Corrige verifica errate in adblocker</li>
           <li xml:lang="it">È stato corretto il segno sbagliato nel sistema di blocco degli annunci</li>
+          <li xml:lang="lt">Ištaisytas klaidingas patikrinimas reklamos blokavime</li>
           <li xml:lang="nl">Verkeerd inchecken in ad-blocker repareren</li>
           <li xml:lang="pt-BR">Correção da verificação incorreta no bloqueador de anúncios</li>
           <li xml:lang="ru">Исправлена неверная проверка в блокировщике рекламы</li>
@@ -675,6 +683,7 @@
           <li xml:lang="he">מימוש ממשק משתמש לשולחן עבודה</li>
           <li xml:lang="ia">Implementa un UI de scriptoprio</li>
           <li xml:lang="it">È stata implementata un'interfaccia utente per desktop</li>
+          <li xml:lang="lt">Įgyvendinta darbalaukio naudotojo sąsaja</li>
           <li xml:lang="nl">Een bureaublad-UI implementeren</li>
           <li xml:lang="pt-BR">Implementada uma interface de usuário para desktop</li>
           <li xml:lang="ru">Реализован пользовательский интерфейс для настольных систем</li>
@@ -688,6 +697,7 @@
           <li xml:lang="fr">Réorganiser l'interface utilisateur de la configuration et la rendre les versions de bureau et mobile plus homogène</li>
           <li xml:lang="he">ממשק המשתמש של ההגדרות סודר מחדש ובוצע איחוד לשולחן עבודה וניידים</li>
           <li xml:lang="ia">Re.organisa le UI de preferentias e unifica per scriptorios e mobile</li>
+          <li xml:lang="lt">Pertvarkyta ir suvienyta darbalaukiui ir mobiliesiems įrenginiams skirta nuostatų naudotojo sąsaja</li>
           <li xml:lang="nl">Herstructureer de gebruikersinterface van de instellingen en zorg voor een uniforme interface voor desktop en mobiel.</li>
           <li xml:lang="pt-BR">Reorganização da interface de configuração e unificação para desktop e dispositivos móveis</li>
           <li xml:lang="ru">Реорганизация интерфейса настроек и унификация для настольных и мобильных систем</li>
@@ -701,6 +711,7 @@
           <li xml:lang="fr">Simplifier la logique de navigation</li>
           <li xml:lang="he">פישוט לוגיקת הניווט</li>
           <li xml:lang="ia">Simplifica le logica de navigation </li>
+          <li xml:lang="lt">Supaprastinta naršymo logika</li>
           <li xml:lang="nl">Vereenvoudig de navigatielogica</li>
           <li xml:lang="pt-BR">Simplificação da lógica de navegação</li>
           <li xml:lang="ru">Упрощена логика навигации</li>
@@ -714,6 +725,7 @@
           <li xml:lang="fr">Afficher une fenêtre contextuelle lorsque la barre d'URL reçoit le focus, affichant l'historique et le texte associé à l'URL actuelle</li>
           <li xml:lang="he">להציג חלונית צצה כשהמיקוד הוא על סרגל הכתובות וההיסטוריה מופיעה לצד טקסט תואם לכתובת הנוכחית</li>
           <li xml:lang="ia">Monstra un popup quando le barra de URL es focalisate monstrante chronologia e texto affin per URL currente</li>
+          <li xml:lang="lt">Rodomas iškylantysis langas, kai URL juosta sufokusuota ir atvaizduoja istoriją bei su esamu URL adresu susijusį tekstą</li>
           <li xml:lang="nl">Toon een pop-upvenster wanneer de URL-balk is geselecteerd, met de geschiedenis en gerelateerde tekst voor de huidige URL.</li>
           <li xml:lang="pt-BR">Exibir uma janela pop-up quando a barra de URL estiver em foco, mostrando o histórico e o texto relacionado à URL atual</li>
           <li xml:lang="ru">Вывод всплывающего окна при фокусировке на адресной строке с историей и связанным текстом для текущего URL</li>
@@ -727,6 +739,7 @@
           <li xml:lang="fr">Utiliser un agent utilisateur meilleur par défaut pour les périphériques mobiles</li>
           <li xml:lang="he">להשתמש בסוכן משתמש טוב יותר כברירת מחדל למכשירים ניידים</li>
           <li xml:lang="ia">Usa un melior agente-usator predefinite per dispositivos mobile</li>
+          <li xml:lang="lt">Naudojamas geresnis numatytasis naudotojo agentas mobiliesiems įrenginiams</li>
           <li xml:lang="nl">Gebruik een betere standaard gebruikersagent voor mobiele apparaten</li>
           <li xml:lang="pt-BR">Uso de um agente de usuário padrão melhor para dispositivos móveis</li>
           <li xml:lang="ru">Использован более подходящий пользовательский агент по умолчанию для мобильных устройств</li>
@@ -747,6 +760,7 @@
           <li xml:lang="fr">Ajouter un bouton d'action pour l'effacement de l'historique</li>
           <li xml:lang="he">נוסף כפתור פעולה לפינוי ההיסטוריה</li>
           <li xml:lang="ia">Adde button de action per nettar chronologia</li>
+          <li xml:lang="lt">Pridėtas veiksmo mygtukas, skirtas išvalyti istoriją</li>
           <li xml:lang="nl">Voeg een actieknop toe om de geschiedenis te wissen</li>
           <li xml:lang="pt-BR">Adicionado botão de ação para limpar o histórico</li>
           <li xml:lang="ru">Добавлена кнопка действия для очистки истории</li>
@@ -760,6 +774,7 @@
           <li xml:lang="fr">Améliorer l'intégration du clavier virtuel</li>
           <li xml:lang="he">שילוב מקלדת וירטואלית השתפרה</li>
           <li xml:lang="ia">Meliora integration de claviero virtual</li>
+          <li xml:lang="lt">Patobulinta virtualios klaviatūros integracija</li>
           <li xml:lang="nl">Verbeter de virtuele toetsenbordintegratie</li>
           <li xml:lang="pt-BR">Melhoria na integração do teclado virtual</li>
           <li xml:lang="ru">Улучшена интеграция с экранной клавиатурой</li>
@@ -773,6 +788,7 @@
           <li xml:lang="fr">Permettre à l'utilisateur d'ignorer les erreurs de SSL</li>
           <li xml:lang="he">לאפשר למשתמש להתעלם משגיאות SSL</li>
           <li xml:lang="ia">Permitte que le usator ignora errores de SSL</li>
+          <li xml:lang="lt">Leidžiama naudotojui nepaisyti SSL klaidų</li>
           <li xml:lang="nl">Sta de gebruiker toe SSL-fouten te negeren</li>
           <li xml:lang="pt-BR">Permite que o usuário ignore erros SSL</li>
           <li xml:lang="ru">Пользователю разрешено игнорировать ошибки SSL</li>
@@ -786,6 +802,7 @@
           <li xml:lang="fr">Correction des chargement des URL « chrome:// »</li>
           <li xml:lang="he">תוקנה טעינת כתובות chrome://‎</li>
           <li xml:lang="ia">Corrige cargar chrome://URLs</li>
+          <li xml:lang="lt">Ištaisytas chrome:// URL adresų įkėlimas</li>
           <li xml:lang="nl">Het laden van chrome:// URL's wordt nu correct gedaan</li>
           <li xml:lang="pt-BR">Correção do carregamento de URLs chrome://</li>
           <li xml:lang="ru">Исправлена загрузка адресов chrome://</li>
@@ -799,6 +816,7 @@
           <li xml:lang="fr">Amélioration de la prise en charge des bloqueurs de publicités pour les filtres cosmétiques</li>
           <li xml:lang="he">התמיכה במסננים קומסטיים בחוסם הפרסומות השתפרה</li>
           <li xml:lang="ia">Meliorate supporto de ad-blocker per filtros cosmetic</li>
+          <li xml:lang="lt">Patobulintas reklamos blokavimo palaikymas, skirtas kosmetiniams filtrams</li>
           <li xml:lang="nl">Verbeterde ondersteuning voor advertentieblokkers bij cosmetische filters</li>
           <li xml:lang="pt-BR">Melhoria no suporte a bloqueadores de anúncios para filtros cosméticos</li>
           <li xml:lang="ru">Улучшена поддержка блокировщика рекламы для косметических фильтров</li>
@@ -821,6 +839,7 @@
           <li xml:lang="fr">Améliorer le temps de démarrage du bloqueur de publicités</li>
           <li xml:lang="he">זמן העלייה של חוסם הפרסומות השתפר</li>
           <li xml:lang="ia">Meliora le tempore de startar del ad blocker (blocator de reclamos)</li>
+          <li xml:lang="lt">Patobulintas reklamos blokavimo paleidimo laikas</li>
           <li xml:lang="nl">Verbeter de opstarttijd van de advertentieblokker</li>
           <li xml:lang="pt-BR">Melhoria do tempo de inicialização do bloqueador de anúncios</li>
           <li xml:lang="ru">Ускорение запуска блокировщика рекламы</li>
@@ -834,6 +853,7 @@
           <li xml:lang="fr">Correction de divers bogues et problèmes de sécurité dans le gestionnaire d'applications Internet</li>
           <li xml:lang="he">תוקנו מספר תקלות ובעיות אבטחה במנהל יישומי האתרים</li>
           <li xml:lang="ia">Corrige varie faltas e problemas de securitate in le gerente de app de web</li>
+          <li xml:lang="lt">Saityno programėlių tvarkytuvėje ištaisytos įvairios klaidos ir saugumo problemos</li>
           <li xml:lang="nl">Diverse bugs en beveiligingsproblemen in de webapp-beheerder opgelost</li>
           <li xml:lang="pt-BR">Correção de diversos erros e problemas de segurança no gerenciador de aplicativos da web</li>
           <li xml:lang="ru">Исправлены различные ошибки и проблемы безопасности в менеджере веб-приложений</li>
@@ -847,6 +867,7 @@
           <li xml:lang="fr">Améliorer la prise en charge de FlatPak</li>
           <li xml:lang="he">התמיכה ב־flatpak השתפרה</li>
           <li xml:lang="ia">Meliora supporto de flatpack</li>
+          <li xml:lang="lt">Patobulintas Flatpak palaikymas</li>
           <li xml:lang="nl">Ondersteuning van Flatpak verbeterd</li>
           <li xml:lang="pt-BR">Melhoria no suporte a flatpak</li>
           <li xml:lang="ru">Улучшена поддержка Flatpak</li>
@@ -867,6 +888,7 @@
           <li xml:lang="fr">Ajouter une page de configuration pour la gestion des applications Internet</li>
           <li xml:lang="he">נוסף עמוד הגדרות לניהול יישומי אתרים</li>
           <li xml:lang="ia">Adde un pagina de preferentias per gerer appsde web</li>
+          <li xml:lang="lt">Pridėtas nuostatų puslapis, skirtas tvarkyti saityno programėles</li>
           <li xml:lang="nl">Voeg een instellingenpagina toe voor het beheren van webapps.</li>
           <li xml:lang="pt-BR">Adicionada uma página de configurações para gerenciar aplicativos da web</li>
           <li xml:lang="ru">Добавлена страница параметров для управления веб-приложениями</li>
