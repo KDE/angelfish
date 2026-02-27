@@ -927,12 +927,10 @@ msgid "Share Page"
 msgstr "分享页面"
 
 #: src/qml/WebAppNameDialog.qml:18
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Add to Application Launcher"
+#, kde-format
 msgctxt "@title:window"
 msgid "Add to Application Launcher"
-msgstr "添加到应用程序启动器"
+msgstr ""
 
 #: src/qml/WebAppNameDialog.qml:32
 #, kde-format
@@ -941,12 +939,10 @@ msgid "Enter a name for the web application:"
 msgstr ""
 
 #: src/qml/WebAppNameDialog.qml:39
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Add to Application Launcher"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Application name"
-msgstr "添加到应用程序启动器"
+msgstr ""
 
 #: src/settings/AngelfishConfigurationView.qml:14
 #: src/settings/SettingsGeneral.qml:19
