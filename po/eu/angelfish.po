@@ -1,16 +1,16 @@
 # Translation for angelfish.po to Euskara/Basque (eu).
-# Copyright (C) 2020-2025 This file is copyright:
+# Copyright (C) 2020-2026 This file is copyright:
 # This file is distributed under the same license as the angelfish package.
 # SPDX-FileCopyrightText: 2024, 2025, 2026 KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
 #
 # Translators:
-# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2020, 2021, 2022, 2023, 2024, 2025.
+# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2020, 2021, 2022, 2023, 2024, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-23 00:44+0000\n"
-"PO-Revision-Date: 2026-01-25 13:30+0100\n"
+"PO-Revision-Date: 2026-03-04 22:51+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.12.1\n"
+"X-Generator: Lokalize 25.12.2\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -817,12 +817,10 @@ msgid "Cancel"
 msgstr "Utzi"
 
 #: src/qml/Downloads.qml:106
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Pause"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Pause"
-msgstr "Etenaldia"
+msgstr "Eten"
 
 #: src/qml/Downloads.qml:118
 #, kde-format
@@ -939,9 +937,7 @@ msgid "Share Page"
 msgstr "Partekatu orria"
 
 #: src/qml/WebAppNameDialog.qml:18
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Add to Application Launcher"
+#, kde-format
 msgctxt "@title:window"
 msgid "Add to Application Launcher"
 msgstr "Gehitu aplikazio abiarazlean"
@@ -950,15 +946,13 @@ msgstr "Gehitu aplikazio abiarazlean"
 #, kde-format
 msgctxt "@info"
 msgid "Enter a name for the web application:"
-msgstr ""
+msgstr "Sartu web-aplikazioarentzako izan bat:"
 
 #: src/qml/WebAppNameDialog.qml:39
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Add to Application Launcher"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Application name"
-msgstr "Gehitu aplikazio abiarazlean"
+msgstr "Aplikazioaren izena"
 
 #: src/settings/AngelfishConfigurationView.qml:14
 #: src/settings/SettingsGeneral.qml:19
