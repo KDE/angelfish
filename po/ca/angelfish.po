@@ -1258,7 +1258,3 @@ msgstr "Elimina l'aplicació"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "No hi ha instal·lada cap aplicació web"
-
-#~ msgctxt "@action:button"
-#~ msgid "Save"
-#~ msgstr "Desa"
