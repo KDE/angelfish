@@ -1,31 +1,31 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-angelfish package.
-# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2023, 2024, 2025 Vit Pelcak <vit@pelcak.org>
+# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Vit Pelcak <vit@pelcak.org>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-23 00:44+0000\n"
-"PO-Revision-Date: 2025-02-10 15:26+0100\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"PO-Revision-Date: 2026-03-16 11:33+0100\n"
+"Last-Translator:  Vít Pelčák <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 24.12.1\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
 msgid "desktop file to open"
-msgstr ""
+msgstr "soubor pro otevření v prohlížeči"
 
 #: angelfish-webapp/main.cpp:90
 #, kde-format
 msgid "Angelfish Web App runtime"
-msgstr ""
+msgstr "Runtime webové aplikace Angelfish"
 
 #: angelfish-webapp/main.cpp:92
 #, kde-format
@@ -64,7 +64,7 @@ msgstr "Heslo:"
 #, kde-format
 msgctxt "Would you like to download (filename) from (domain)?"
 msgid "Would you like to download %1 from %2?"
-msgstr ""
+msgstr "Chcete stáhnout %1 z %2?"
 
 #: lib/contents/ui/DownloadQuestion.qml:25
 #: src/qml/AdblockFilterDownloadQuestion.qml:32
@@ -102,6 +102,13 @@ msgid ""
 "\n"
 " Do you wish to override the security check and continue?"
 msgstr ""
+"Chcete pokračovat?\n"
+"\n"
+" Pokud ano, můžete pokračovat s neověřeným certifikátem.\n"
+" Přijetí neověřeného certifikátu znamená, že se možná nepřipojíte k "
+"hostiteli, ke kterému se pokoušíte připojit.\n"
+"\n"
+" Chcete potlačit bezpečnostní kontrolu a pokračovat?"
 
 #: lib/contents/ui/ErrorHandler.qml:81
 #, kde-format
@@ -127,6 +134,8 @@ msgid ""
 "The website asks for confirmation that you want to leave. Unsaved "
 "information might not be saved."
 msgstr ""
+"Webová stránka vás požádá o potvrzení, že chcete odejít. Neuložené informace "
+"nemusí být uloženy."
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:79
 #, kde-format
@@ -151,12 +160,10 @@ msgid "Download failed"
 msgstr "Stažení bylo neúspěšné"
 
 #: lib/contents/ui/ListWebView.qml:76 lib/contents/ui/ListWebView.qml:79
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Stop Loading"
+#, kde-format
 msgctxt "@title:webview"
 msgid "Loading"
-msgstr "Zastavit načítání"
+msgstr "Načítání"
 
 #: lib/contents/ui/NewTabQuestion.qml:11
 #, kde-format
@@ -178,12 +185,12 @@ msgstr "Otevřít"
 #, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>microphone</b>?"
-msgstr ""
+msgstr "Chcete povolit webové stránce <b>%1</b> přístup k <b>mikrofonu</b>?"
 
 #: lib/contents/ui/PermissionQuestion.qml:24
 #, kde-format
 msgid "Do you want to allow the website <b>%1</b> to access the <b>camera</b>?"
-msgstr ""
+msgstr "Chcete povolit webové stránce <b>%1</b> přístup ke <b>kameře</b>?"
 
 #: lib/contents/ui/PermissionQuestion.qml:26
 #, kde-format
@@ -191,40 +198,42 @@ msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>camera and the "
 "microphone</b>?"
 msgstr ""
+"Chcete povolit webové stránce <b>%1</b> přístup ke <b>kameře a mikrofonu</b>?"
 
 #: lib/contents/ui/PermissionQuestion.qml:28
 #, kde-format
 msgid "Do you want to allow the website <b>%1</b> to share your <b>screen</b>?"
-msgstr ""
+msgstr "Chcete povolit webové stránce <b>%1</b> sdílet vaši <b>obrazovku</b>?"
 
 #: lib/contents/ui/PermissionQuestion.qml:30
 #, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to share the sound <b>output</b>?"
-msgstr ""
+msgstr "Chcete povolit webové stránce <b>%1</b> sdílet zvukový <b>výstup</b>?"
 
 #: lib/contents/ui/PermissionQuestion.qml:32
 #, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to send you <b>notifications</b>?"
-msgstr ""
+msgstr "Chcete povolit webové stránce <b>%1</b> zasílat vám <b>oznámení</b>?"
 
 #: lib/contents/ui/PermissionQuestion.qml:34
 #, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>geo location</b>?"
 msgstr ""
+"Chcete povolit webové stránce <b>%1</b> přístup ke <b>geografické poloze</b>?"
 
 #: lib/contents/ui/PermissionQuestion.qml:36
 #, kde-format
 msgid ""
 "Do you want to allow the website <b>%1</b> to access the <b>clipboard</b>?"
-msgstr ""
+msgstr "Chcete povolit webové stránce <b>%1</b> přístup ke <b>schránce</b>?"
 
 #: lib/contents/ui/PermissionQuestion.qml:38
 #, kde-format
 msgid "Do you want to allow the website <b>%1</b> to access your <b>fonts</b>?"
-msgstr ""
+msgstr "Chcete povolit webové stránce <b>%1</b> přístup k vašim <b>fontům</b>?"
 
 #: lib/contents/ui/PermissionQuestion.qml:40
 #, kde-format
@@ -232,7 +241,7 @@ msgctxt ""
 "The website (website) requested an unknown permission: Do you want to allow "
 "the website (website) to access your fonts?"
 msgid "The website %1 requested an unknown permission: %2"
-msgstr ""
+msgstr "Webová stránka %1 požadovala neznámé oprávnění: %2"
 
 #: lib/contents/ui/PermissionQuestion.qml:48
 #, kde-format
@@ -274,7 +283,7 @@ msgstr "Orientace"
 #, kde-format
 msgctxt "@label:combobox"
 msgid "Paper Size"
-msgstr ""
+msgstr "Velikost papíru"
 
 #: lib/contents/ui/PrintPreview.qml:169
 #, kde-format
@@ -484,7 +493,7 @@ msgstr "Vložit"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Search for “%1”"
-msgstr ""
+msgstr "Hledat \"%1\""
 
 #: lib/contents/ui/WebView.qml:698 src/qml/desktop/Desktop.qml:377
 #: src/qml/Mobile.qml:326
@@ -512,12 +521,12 @@ msgstr "Angelfish"
 #: src/main.cpp:83
 #, kde-format
 msgid "Web browser for Plasma Mobile"
-msgstr ""
+msgstr "Webový prohlížeč pro Plasma Mobile"
 
 #: src/main.cpp:85
 #, kde-format
 msgid "© 2015-2024 KDE Community"
-msgstr ""
+msgstr "© 2015-2024 KDE Community"
 
 #: src/main.cpp:88
 #, kde-format
@@ -546,7 +555,7 @@ msgstr "vit@pelcak.org"
 msgctxt "@info"
 msgid ""
 "The adblocker is missing its filter lists, do you want to download them now?"
-msgstr ""
+msgstr "Adblockeru chybí seznamy filtrů, chcete je stáhnout nyní?"
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:37
 #, kde-format
@@ -558,13 +567,13 @@ msgstr "Stahuji…"
 #, kde-format
 msgctxt "@action:button"
 msgid "Disable Adblock"
-msgstr ""
+msgstr "Vypnout Adblock"
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:49
 #, kde-format
 msgctxt "@info"
 msgid "Adblock Disabled…"
-msgstr ""
+msgstr "Adblock vypnut..."
 
 #: src/qml/Bookmarks.qml:13
 #, kde-format
@@ -679,7 +688,7 @@ msgstr "Nastavení"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
-msgstr ""
+msgstr "Přepnout do mobilního režimu"
 
 #: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
 #, kde-format
@@ -733,7 +742,7 @@ msgstr "Zavřít kartu"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
-msgstr ""
+msgstr "Znovu otevřít zavřenou kartu"
 
 #: src/qml/desktop/HistoryPage.qml:31
 #, kde-format
@@ -841,7 +850,7 @@ msgstr "Karty"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
-msgstr ""
+msgstr "Přepnout do režimu pro počítač"
 
 #: src/qml/Mobile.qml:337
 #, kde-format
@@ -895,13 +904,13 @@ msgstr "Záložka"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
-msgstr ""
+msgstr "Zobrazit stránku pro počítač"
 
 #: src/qml/Mobile.qml:415
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
-msgstr ""
+msgstr "Skrýt navigační lištu"
 
 #: src/qml/Navigation.qml:416
 #, kde-format
@@ -913,7 +922,7 @@ msgstr "Hotovo"
 #, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"
-msgstr ""
+msgstr "%1 karet"
 
 #: src/qml/ShareSheet.qml:18
 #, kde-format
@@ -922,9 +931,7 @@ msgid "Share Page"
 msgstr "Sdílet stránku"
 
 #: src/qml/WebAppNameDialog.qml:18
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Add to Application Launcher"
+#, kde-format
 msgctxt "@title:window"
 msgid "Add to Application Launcher"
 msgstr "Přidat do spouštěče aplikací"
@@ -933,15 +940,13 @@ msgstr "Přidat do spouštěče aplikací"
 #, kde-format
 msgctxt "@info"
 msgid "Enter a name for the web application:"
-msgstr ""
+msgstr "Zadejte název webové aplikace:"
 
 #: src/qml/WebAppNameDialog.qml:39
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Add to Application Launcher"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Application name"
-msgstr "Přidat do spouštěče aplikací"
+msgstr "Název aplikace"
 
 #: src/settings/AngelfishConfigurationView.qml:14
 #: src/settings/SettingsGeneral.qml:19
@@ -981,12 +986,12 @@ msgstr "Panely nástrojů"
 #, kde-format
 msgctxt "@label"
 msgid "Show home button:"
-msgstr ""
+msgstr "Zobrazit tlačítko Domů:"
 
 #: src/settings/DesktopHomeSettingsPage.qml:26
 #, kde-format
 msgid "The home button will be shown next to the reload button in the toolbar."
-msgstr ""
+msgstr "Tlačítko Domů se zobrazí vedle tlačítka Obnovit na panelu nástrojů."
 
 #: src/settings/DesktopHomeSettingsPage.qml:36
 #, kde-format
@@ -1009,7 +1014,7 @@ msgstr "Vždy zobrazovat panel karet"
 #: src/settings/DesktopHomeSettingsPage.qml:83
 #, kde-format
 msgid "The tab bar will be displayed even if there is only one tab open."
-msgstr ""
+msgstr "Panel karet se zobrazí i v případě, že je otevřena pouze jedna karta."
 
 #: src/settings/SettingsAdblock.qml:16
 #, kde-format
@@ -1021,7 +1026,7 @@ msgstr "Nastavení Ad Blocku"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Add filter list"
-msgstr ""
+msgstr "Přidat seznam filtrů"
 
 #: src/settings/SettingsAdblock.qml:27
 #, kde-format
@@ -1032,7 +1037,7 @@ msgstr "Aktualizovat seznamy"
 #: src/settings/SettingsAdblock.qml:49
 #, kde-format
 msgid "The adblock functionality isn't included in this build."
-msgstr ""
+msgstr "Funkce blokování reklam není v této verzi zahrnuta."
 
 #: src/settings/SettingsAdblock.qml:101
 #, kde-format
@@ -1044,13 +1049,13 @@ msgstr "Odstranit tento seznam filtrů"
 #, kde-format
 msgctxt "@action:button"
 msgid "Add Filter List"
-msgstr ""
+msgstr "Přidat seznam filtrů"
 
 #: src/settings/SettingsAdblock.qml:125
 #, kde-format
 msgctxt "@title:group"
 msgid "Add Filter List"
-msgstr ""
+msgstr "Přidat seznam filtrů"
 
 #: src/settings/SettingsAdblock.qml:130
 #, kde-format
@@ -1073,6 +1078,8 @@ msgstr "Povolit JavaScript"
 #, kde-format
 msgid "This may be required on certain websites for them to work."
 msgstr ""
+"Toto může být na některých webových stránkách nutné pro jejich správné "
+"fungování."
 
 #: src/settings/SettingsGeneral.qml:38
 #, kde-format
@@ -1094,7 +1101,7 @@ msgstr "Povolit adblock"
 #: src/settings/SettingsGeneral.qml:49
 #, kde-format
 msgid "Attempts to prevent advertisements on websites from showing."
-msgstr ""
+msgstr "Pokusit se zabránit zobrazování reklam na webových stránkách."
 
 #: src/settings/SettingsGeneral.qml:49
 #, kde-format
@@ -1112,6 +1119,8 @@ msgstr "Okamžitě přepnout na novou kartu"
 msgid ""
 "When you open a link, image or media in a new tab, switch to it immediately."
 msgstr ""
+"Když otevřete odkaz, obrázek nebo médium v nové záložce, okamžitě se na ni "
+"přepnete."
 
 #: src/settings/SettingsGeneral.qml:69
 #, kde-format
@@ -1125,6 +1134,8 @@ msgid ""
 "Scrolling is smoother and will not stop suddenly when you stop scrolling. "
 "Requires app restart to take effect."
 msgstr ""
+"Posouvání je plynulejší a nezastaví se náhle, když přestanete posouvat. Aby "
+"se změna projevila, je nutné restartovat aplikaci."
 
 #: src/settings/SettingsGeneral.qml:79
 #, kde-format
@@ -1145,7 +1156,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Navigation Bar"
-msgstr ""
+msgstr "Navigační lišta"
 
 #: src/settings/SettingsNavigationBarPage.qml:27
 #, kde-format
@@ -1158,24 +1169,31 @@ msgid ""
 "menus either by swiping from the left or right side or to a side along the "
 "bottom of the window."
 msgstr ""
+"Vyberte tlačítka, která budou aktivní v navigační liště. Některá tlačítka "
+"lze skrýt pouze v orientaci prohlížeče na výšku a jsou vždy zobrazena, pokud "
+"je prohlížeč širší než vyšší.\n"
+"\n"
+" Upozorňujeme, že pokud deaktivujete tlačítka nabídky, budete mít přístup k "
+"nabídkám buď přejetím prstem z levé nebo pravé strany, nebo do strany podél "
+"spodní části okna."
 
 #: src/settings/SettingsNavigationBarPage.qml:36
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Main menu in portrait"
-msgstr ""
+msgstr "Hlavní menu v režimu na výšku"
 
 #: src/settings/SettingsNavigationBarPage.qml:42
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Tabs in portrait"
-msgstr ""
+msgstr "Záložky v režimu na výšku"
 
 #: src/settings/SettingsNavigationBarPage.qml:48
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Context menu in portrait"
-msgstr ""
+msgstr "Kontextové menu v režimu na výšku"
 
 #: src/settings/SettingsNavigationBarPage.qml:54
 #, kde-format
