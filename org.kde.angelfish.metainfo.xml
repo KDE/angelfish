@@ -545,6 +545,7 @@
           <li xml:lang="ar">إتاحة إخفاء شريط الألسنة عند فتح لسان واحد</li>
           <li xml:lang="ca">Permet ocultar la barra de pestanyes quan hi ha una única pestanya oberta</li>
           <li xml:lang="ca-valencia">Permet ocultar la barra de pestanyes quan hi ha una única pestanya oberta</li>
+          <li xml:lang="cs">Povoleno skrytí lišty karet, když je otevřena jedna karta</li>
           <li xml:lang="es">Permitir ocultar la barra de pestañas cuando una sola pestaña está abierta</li>
           <li xml:lang="eu">Fitxa bakarra irekita dagoenean fitxa-barra ezkutatzeko aukera eman</li>
           <li xml:lang="fr">Autoriser le masquage de la barre d'onglets lorsqu'un seul onglet est ouvert</li>
@@ -565,6 +566,7 @@
           <li xml:lang="ar">إصلاح تفعيل النافذة على Wayland</li>
           <li xml:lang="ca">Corregeix l'activació de la finestra al Wayland</li>
           <li xml:lang="ca-valencia">Corregix l'activació de la finestra a Wayland</li>
+          <li xml:lang="cs">Oprava aktivace okna na Waylandu</li>
           <li xml:lang="es">Se ha corregido la activación de la ventana en Wayland</li>
           <li xml:lang="eu">Waylanden leiho aktibazioa zuzendu</li>
           <li xml:lang="fr">Correction de l'activation de fenêtres sous Wayland</li>
@@ -592,6 +594,7 @@
           <li xml:lang="ar">تحديث إصدار حزمة (crate) مانع الإعلانات</li>
           <li xml:lang="ca">Actualitza la versió de la caixa de bloqueig de publicitat</li>
           <li xml:lang="ca-valencia">Actualitza la versió de la caixa de bloqueig de publicitat</li>
+          <li xml:lang="cs">Aktualizace verze balíčku adblock</li>
           <li xml:lang="es">Se ha actualizado la versión del bloqueador de publicidad</li>
           <li xml:lang="eu">Iragarkiak eragozteko crate-aren bertsioa eguneratu</li>
           <li xml:lang="fr">Mise à jour de la version de création de AdBlock</li>
@@ -612,6 +615,7 @@
           <li xml:lang="ar">إصلاح عدم ظهور مدخلات تطبيقات الويب في Phosh</li>
           <li xml:lang="ca">Corregeix les entrades «webapp» que no es mostren al «phosh»</li>
           <li xml:lang="ca-valencia">Corregix les entrades «webapp» que no es mostren al «phosh»</li>
+          <li xml:lang="cs">Oprava položek webové aplikace, které se nezobrazují v phosh</li>
           <li xml:lang="es">Se ha solucionado el problema de que las entradas de la aplicación web no aparecen en phosh</li>
           <li xml:lang="eu">phosh-en web-aplikazio sarrerak ez agertzea zuzendu</li>
           <li xml:lang="fr">Correction des entrées de l'application Internet n'apparaissant pas dans phosh</li>
@@ -632,6 +636,7 @@
           <li xml:lang="ar">إظهار التنزيلات في إصدار سطح المكتب</li>
           <li xml:lang="ca">Exposa les baixades a la versió d'escriptori</li>
           <li xml:lang="ca-valencia">Exposa les baixades a la versió d'escriptori</li>
+          <li xml:lang="cs">Zobrazení souborů ke stažení v desktopové verzi</li>
           <li xml:lang="es">Exponer descargas en la versión de escritorio</li>
           <li xml:lang="eu">Mahaigaineko bertsioan zama-jaitsierak agerian jarri</li>
           <li xml:lang="fr">Affichage des téléchargements dans la version de bureau</li>
@@ -659,6 +664,7 @@
           <li xml:lang="ar">إصلاح أدوات المطور</li>
           <li xml:lang="ca">Corregeix les eines de desenvolupador</li>
           <li xml:lang="ca-valencia">Corregix les eines de desenvolupador</li>
+          <li xml:lang="cs">Opraveny vývojářské nástroje</li>
           <li xml:lang="es">Se han corregido las herramientas del desarrollador</li>
           <li xml:lang="eu">Garatzaile-tresnak zuzendu</li>
           <li xml:lang="fr">Correction des outils de développement</li>
@@ -679,6 +685,7 @@
           <li xml:lang="ar">إصلاح عرض عنوان الصفحة في مبدل الألسنة</li>
           <li xml:lang="ca">Corregeix la visualització del títol de la pàgina al commutador de pestanyes</li>
           <li xml:lang="ca-valencia">Corregix la visualització del títol de la pàgina al commutador de pestanyes</li>
+          <li xml:lang="cs">Oprava zobrazení názvu stránky v přepínači karet</li>
           <li xml:lang="es">Se ha corregido la visualización del título de la página en el selector de pestañas</li>
           <li xml:lang="eu">Fitxa-aldatzailean orrialdearen titulua bistaratzea zuzendu</li>
           <li xml:lang="fr">Correction de l'affichage du titre de page dans le sélecteur d'onglets</li>
@@ -699,6 +706,7 @@
           <li xml:lang="ar">إصلاح فحص خاطئ في مانع الإعلانات</li>
           <li xml:lang="ca">Corregeix una comprovació incorrecta al bloquejador de publicitat</li>
           <li xml:lang="ca-valencia">Corregix una comprovació incorrecta al bloquejador de publicitat</li>
+          <li xml:lang="cs">Opravena nesprávná funkce v blokování reklam</li>
           <li xml:lang="es">Se ha corregido la comprobación en el bloqueador de publicidad</li>
           <li xml:lang="eu">Iragarki-eragozlean egiaztapen okerra zuzendu</li>
           <li xml:lang="fr">Correction de la vérification erronée dans le bloqueur de publicités</li>
@@ -719,6 +727,7 @@
           <li xml:lang="ar">توفير واجهة مستخدم لسطح المكتب</li>
           <li xml:lang="ca">Implementa una interfície d'usuari d'escriptori</li>
           <li xml:lang="ca-valencia">Implementa una interfície d'usuari d'escriptori</li>
+          <li xml:lang="cs">Implementace uživatelského rozhraní pro stolní počítače</li>
           <li xml:lang="es">Se ha implementado una interfaz de usuario en el escritorio</li>
           <li xml:lang="eu">Mahaigaineko erabiltzailearen interfaze bat inplementatu</li>
           <li xml:lang="fr">Mettre en œuvre une interface utilisateur de bureau</li>
@@ -739,6 +748,7 @@
           <li xml:lang="ar">إعادة تنظيم واجهة الإعدادات وتوحيدها لسطح المكتب والمحمول</li>
           <li xml:lang="ca">Reorganitza la interfície d'usuari de configuració i l'unifica per a l'escriptori i el mòbil</li>
           <li xml:lang="ca-valencia">Reorganitza la interfície d'usuari de configuració i l'unifica per a l'escriptori i el mòbil</li>
+          <li xml:lang="cs">Reorganizace nastavení uživatelského rozhraní a jeho sjednocení pro stolní počítače a mobilní zařízení.</li>
           <li xml:lang="es">Se han reorganizado la interfaz de las preferencias y se ha unificado para el escritorio y para móviles</li>
           <li xml:lang="eu">Ezarpenen erabiltzailearen interfazea berrantolatu eta mahaigainerako eta mugikorrerako bateratu</li>
           <li xml:lang="fr">Réorganiser l'interface utilisateur de la configuration et la rendre les versions de bureau et mobile plus homogène</li>
@@ -758,6 +768,7 @@
           <li xml:lang="ar">تبسيط منطق التنقل</li>
           <li xml:lang="ca">Simplifica la lògica de navegació</li>
           <li xml:lang="ca-valencia">Simplifica la lògica de navegació</li>
+          <li xml:lang="cs">Zjednodušena logika navigace</li>
           <li xml:lang="es">Se ha simplificado la lógica de nevegación</li>
           <li xml:lang="eu">Nabigazioaren logika sinplifikatu</li>
           <li xml:lang="fr">Simplifier la logique de navigation</li>
@@ -777,6 +788,7 @@
           <li xml:lang="ar">إظهار نافذة منبثقة عند تركيز شريط العنوان تعرض السجل والنصوص المتعلقة بالعنوان الحالي</li>
           <li xml:lang="ca">Mostra una finestra emergent quan la barra d'URL està centrada mostrant l'historial i el text relacionat de l'URL actual</li>
           <li xml:lang="ca-valencia">Mostra una finestra emergent quan la barra d'URL està centrada mostrant l'historial i el text relacionat de l'URL actual</li>
+          <li xml:lang="cs">Zobrazení vyskakovacího okna, když je zaměřena adresní lišta, s historií a souvisejícím textem pro aktuální URL</li>
           <li xml:lang="es">Mostrar una ventana emergente cuando la barra de URL tiene el foco y muestra el historial y texto relacionado con la URL actual</li>
           <li xml:lang="eu">URL-barra fokuratzean, uneko URLarekin lotutako historia eta testua erakusten dituen leiho gainerakor bat erakutsi</li>
           <li xml:lang="fr">Afficher une fenêtre contextuelle lorsque la barre d'URL reçoit le focus, affichant l'historique et le texte associé à l'URL actuelle</li>
@@ -796,6 +808,7 @@
           <li xml:lang="ar">استخدام وكيل مستخدم مبدئي أفضل للأجهزة المحمولة</li>
           <li xml:lang="ca">Utilitza un agent d'usuari predeterminat millor per a dispositius mòbils</li>
           <li xml:lang="ca-valencia">Utilitza un agent d'usuari predeterminat millor per a dispositius mòbils</li>
+          <li xml:lang="cs">Použit lepší výchozí uživatelský agent pro mobilní zařízení</li>
           <li xml:lang="es">Usar un mejor agente de usuario predeterminado para dispositivos móviles</li>
           <li xml:lang="eu">Gailu mugikorretarako erabiltzaile-agente hobe bat erabili</li>
           <li xml:lang="fr">Utiliser un agent utilisateur meilleur par défaut pour les périphériques mobiles</li>
@@ -822,6 +835,7 @@
           <li xml:lang="ar">إضافة زر إجراء لمسح السجل</li>
           <li xml:lang="ca">Afegeix un botó d'acció per a netejar l'historial</li>
           <li xml:lang="ca-valencia">Afig un botó d'acció per a netejar l'historial</li>
+          <li xml:lang="cs">Přidáno tlačítko pro vymazání historie</li>
           <li xml:lang="es">Se ha añadido un botón de acción para borrar el historial</li>
           <li xml:lang="eu">Historia borratzeko ekintza-botoia gehitu</li>
           <li xml:lang="fr">Ajouter un bouton d'action pour l'effacement de l'historique</li>
@@ -841,6 +855,7 @@
           <li xml:lang="ar">تحسين تكامل لوحة المفاتيح الافتراضية</li>
           <li xml:lang="ca">Millora la integració del teclat virtual</li>
           <li xml:lang="ca-valencia">Millora la integració del teclat virtual</li>
+          <li xml:lang="cs">Vylepšena integrace virtuální klávesnice</li>
           <li xml:lang="es">Se ha mejorado la integración del teclado virtual</li>
           <li xml:lang="eu">Alegiazko teklatuaren integrazioa hobetu</li>
           <li xml:lang="fr">Améliorer l'intégration du clavier virtuel</li>
@@ -860,6 +875,7 @@
           <li xml:lang="ar">السماح للمستخدم بتجاهل أخطاء SSL</li>
           <li xml:lang="ca">Permet a l'usuari ignorar els errors de SSL</li>
           <li xml:lang="ca-valencia">Permet a l'usuari ignorar els errors de SSL</li>
+          <li xml:lang="cs">Povoleno uživateli ignorovat chyby SSL</li>
           <li xml:lang="es">Permitir que el usuario ignore errores de SSL</li>
           <li xml:lang="eu">Erabiltzaileari SSL erroreak ez ikusteko aukera eman</li>
           <li xml:lang="fr">Permettre à l'utilisateur d'ignorer les erreurs de SSL</li>
@@ -879,6 +895,7 @@
           <li xml:lang="ar">إصلاح تحميل عناوين وبّ من نوع //:chrome</li>
           <li xml:lang="ca">Corregeix la càrrega dels URL chrome://</li>
           <li xml:lang="ca-valencia">Corregix la càrrega dels URL chrome://</li>
+          <li xml:lang="cs">Oprava načítání URL adres chrome://</li>
           <li xml:lang="es">Se ha corregido la carga de URL de tipo chrome://</li>
           <li xml:lang="eu">chrome:// URLak zamatzea zuzendu</li>
           <li xml:lang="fr">Correction des chargement des URL « chrome:// »</li>
@@ -898,6 +915,7 @@
           <li xml:lang="ar">تحسين دعم مانع الإعلانات للمرشحات التجميلية</li>
           <li xml:lang="ca">Millora la implementació del bloquejador de publicitat per a filtres cosmètics</li>
           <li xml:lang="ca-valencia">Millora la implementació del bloquejador de publicitat per a filtres cosmètics</li>
+          <li xml:lang="cs">Vylepšená podpora blokování reklam pro kosmetické filtry</li>
           <li xml:lang="es">Se ha mejorado la compatibilidad del bloqueador de publicidad con filtros cosméticos</li>
           <li xml:lang="eu">Iragazki kosmetikoetarako iragarki-eragozlearen euskarri hobetua</li>
           <li xml:lang="fr">Amélioration de la prise en charge des bloqueurs de publicités pour les filtres cosmétiques</li>
@@ -926,6 +944,7 @@
           <li xml:lang="ar">تحسين وقت بدء تشغيل مانع الإعلانات</li>
           <li xml:lang="ca">Millora el temps d'inici del bloquejador de publicitat</li>
           <li xml:lang="ca-valencia">Millora el temps d'inici del bloquejador de publicitat</li>
+          <li xml:lang="cs">Zlepšena doba spuštění blokování reklam</li>
           <li xml:lang="es">Se ha mejorado el tiempo de inicio del bloqueador de publicidad</li>
           <li xml:lang="eu">Iragarki-eragozlearen abio-denbora hobetu</li>
           <li xml:lang="fr">Améliorer le temps de démarrage du bloqueur de publicités</li>
@@ -945,6 +964,7 @@
           <li xml:lang="ar">إصلاح علل متنوعة ومشاكل أمنية في مدير تطبيقات الويب</li>
           <li xml:lang="ca">Corregeix diversos errors i problemes de seguretat al gestor d'aplicacions web</li>
           <li xml:lang="ca-valencia">Corregix diversos errors i problemes de seguretat al gestor d'aplicacions web</li>
+          <li xml:lang="cs">Opraveny různé chyby a bezpečnostní problémy ve správci webových aplikací</li>
           <li xml:lang="es">Se han corregido diversos fallos y problemas de seguridad en el gestor de la aplicación web</li>
           <li xml:lang="eu">Web-aplikazio kudeatzaileko hainbat akats eta segurtasun-arazo zuzendu</li>
           <li xml:lang="fr">Correction de divers bogues et problèmes de sécurité dans le gestionnaire d'applications Internet</li>
@@ -964,6 +984,7 @@
           <li xml:lang="ar">تحسين دعم Flatpak</li>
           <li xml:lang="ca">Millora la implementació de flatpak</li>
           <li xml:lang="ca-valencia">Millora la implementació de flatpak</li>
+          <li xml:lang="cs">Vylepšená podpora Flatpak</li>
           <li xml:lang="es">Se ha mejorado la compatibilidad con flatpak</li>
           <li xml:lang="eu">Flatpaken euskarria hobetu</li>
           <li xml:lang="fr">Améliorer la prise en charge de FlatPak</li>
@@ -990,6 +1011,7 @@
           <li xml:lang="ar">إضافة صفحة إعدادات لإدارة تطبيقات الويب</li>
           <li xml:lang="ca">Afegeix una pàgina de configuració per a gestionar aplicacions web</li>
           <li xml:lang="ca-valencia">Afig una pàgina de configuració per a gestionar aplicacions web</li>
+          <li xml:lang="cs">Přidána stránka nastavení pro správu webových aplikací</li>
           <li xml:lang="es">Se ha añadido una página de preferencias para la gestión de aplicaciones web</li>
           <li xml:lang="eu">Web-aplikazioak kudeatzeko ezarpen-orrialde bat gehitu</li>
           <li xml:lang="fr">Ajouter une page de configuration pour la gestion des applications Internet</li>
