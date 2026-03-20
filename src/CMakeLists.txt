@@ -46,6 +46,7 @@ ecm_target_qml_sources(angelfish
         qml/desktop/HistoryPage.qml
         qml/desktop/TabHistory.qml
         qml/desktop/DesktopTabs.qml
+        qml/desktop/DesktopTabDelegate.qml
 
         regex-weburl/RegexWebUrl.js
 )
