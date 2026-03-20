@@ -124,8 +124,10 @@ RowLayout {
     ListView {
         id: listview
         visible: Core.AngelfishSettings.showTabBar || listview.count > 1
+
         Layout.fillWidth: true
         Layout.preferredHeight: footerItem.height
+
         model: tabs.model
         orientation: ListView.Horizontal
         currentIndex: tabs.currentIndex
@@ -156,123 +158,26 @@ RowLayout {
         property real tabWidth: baseWidth * Math.min(Math.max(listview.width / (baseWidth * (listview.count + 1)), 0.4), 1)
         property bool tabScroll: listview.tabWidth * listview.count > listview.width
 
-        delegate: QQC2.ItemDelegate {
+        delegate: DesktopTabDelegate {
             id: control
-
-            leftInset: 0
-            rightInset: 0
-            topInset: 0
-            bottomInset: 0
-            padding: 0
-
-            hoverEnabled: true
-            highlighted: ListView.isCurrentItem
-
             width: listview.tabWidth
             height: tabsComponent.height
+            tab: tabs.itemAt(model.index)
 
+            onCloseRequested: tabs.tabsModel.closeTab(model.index)
+            onRightClicked: {
+                tabMenu.index = model.index
+                if (tabMenu.visible) {
+                    tabMenu.close()
+                } else {
+                    tabMenu.popup(control)
+                }
+            }
             onClicked: {
                 tabs.currentIndex = model.index;
             }
-
-            background: Rectangle {
-                implicitHeight: Kirigami.Units.gridUnit * 3 + Kirigami.Units.smallSpacing * 2
-                color: control.highlighted ? Qt.lighter(Kirigami.Theme.backgroundColor, 1.1)
-                    : (control.hovered ? Qt.darker(Kirigami.Theme.backgroundColor, 1.05)
-                    : Kirigami.Theme.backgroundColor)
-                Behavior on color { ColorAnimation { duration: Kirigami.Units.shortDuration } }
-
-                QQC2.ToolSeparator {
-                    anchors.top: parent.top
-                    anchors.bottom: parent.bottom
-                    anchors.right: parent.right
-                    orientation: Qt.Vertical
-                }
-
-                QQC2.ToolSeparator {
-                    visible: index === 0
-                    anchors.top: parent.top
-                    anchors.bottom: parent.bottom
-                    anchors.left: parent.left
-                    orientation: Qt.Vertical
-                }
-
-                MouseArea {
-                    anchors.fill: parent
-
-                    acceptedButtons: Qt.AllButtons
-
-                    onClicked: (mouse) => {
-                        if (mouse.button === Qt.MiddleButton) {
-                            tabs.tabsModel.closeTab(model.index);
-                        } else if (mouse.button === Qt.RightButton) {
-                            tabMenu.index = model.index
-                            if (tabMenu.visible) {
-                                tabMenu.close()
-                            } else {
-                                tabMenu.popup(control)
-                            }
-                        }
-                    }
-                }
-            }
-
-            contentItem: RowLayout {
-                id: layout
-                spacing: Kirigami.Units.smallSpacing
-
-                Kirigami.Icon {
-                    id: tabIcon
-                    Layout.alignment: Qt.AlignLeft
-                    Layout.preferredWidth: Kirigami.Units.iconSizes.small
-                    Layout.preferredHeight: width
-                    source: tabs.itemAt(model.index).icon
-                }
-
-                QQC2.Label {
-                    id: titleLabel
-                    Layout.fillWidth: true
-                    Layout.alignment: Qt.AlignLeft
-                    Layout.leftMargin: Kirigami.Units.smallSpacing
-                    Layout.rightMargin: Kirigami.Units.smallSpacing
-                    text: tabs.itemAt(model.index).readerMode ?
-                        i18nc("@label", "Reader mode: %1", tabs.itemAt(model.index).readerTitle)
-                        : tabs.itemAt(model.index).title
-                    elide: Text.ElideRight
-                    horizontalAlignment: Text.AlignLeft
-                }
-
-                QQC2.AbstractButton {
-                    id: closeButton
-
-                    hoverEnabled: true
-                    visible: control.highlighted || control.width > Kirigami.Units.gridUnit * 8
-                    Layout.alignment: Qt.AlignRight
-                    Layout.preferredWidth: Kirigami.Units.iconSizes.smallMedium
-                    Layout.fillHeight: true
-                    onClicked: tabs.tabsModel.closeTab(model.index)
-
-                    background: Item {}
-
-                    contentItem: Kirigami.Icon {
-                        source: 'tab-close-symbolic'
-                        isMask: closeButton.hovered
-                        color: Kirigami.Theme.textColor
-                        anchors.centerIn: parent
-                        implicitWidth: Kirigami.Units.iconSizes.smallMedium
-                        implicitHeight: Kirigami.Units.iconSizes.smallMedium
-                    }
-
-                    QQC2.ToolTip.visible: closeButton.hovered
-                    QQC2.ToolTip.delay: Qt.styleHints.mousePressAndHoldInterval
-                    QQC2.ToolTip.text: i18nc("@info:tooltip", "Close tab")
-                }
-
-                QQC2.ToolTip.visible: control.hovered
-                QQC2.ToolTip.delay: Qt.styleHints.mousePressAndHoldInterval
-                QQC2.ToolTip.text: titleLabel.text
-            }
         }
+
         footerPositioning: listview.tabScroll ? ListView.OverlayFooter : ListView.InlineFooter
         footer: Rectangle {
             z: 3
