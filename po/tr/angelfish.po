@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-23 00:44+0000\n"
+"POT-Creation-Date: 2026-03-21 02:42+0000\n"
 "PO-Revision-Date: 2026-02-21 12:23+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -617,7 +617,7 @@ msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "URL gir veya ara…"
 
-#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:362
+#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:267
 #: src/qml/Navigation.qml:443
 #, kde-format
 msgctxt "@action:inmenu"
@@ -708,55 +708,55 @@ msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
 msgstr "Taşınabilir Kipe Geç"
 
-#: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
+#: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:275
 #, kde-format
 msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr "Okuyucu kipi: %1"
 
-#: src/qml/desktop/DesktopTabs.qml:268 src/qml/Tabs.qml:291
+#: src/qml/desktop/DesktopTabDelegate.qml:118 src/qml/Tabs.qml:291
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close tab"
 msgstr "Sekmeyi kapat"
 
-#: src/qml/desktop/DesktopTabs.qml:298
+#: src/qml/desktop/DesktopTabs.qml:203
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open a new tab"
 msgstr "Yeni bir sekme aç"
 
-#: src/qml/desktop/DesktopTabs.qml:331
+#: src/qml/desktop/DesktopTabs.qml:236
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "List all tabs"
 msgstr "Tüm sekmeleri listele"
 
-#: src/qml/desktop/DesktopTabs.qml:371
+#: src/qml/desktop/DesktopTabs.qml:276
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reload Tab"
 msgstr "Sekmeyi Yeniden Yükle"
 
-#: src/qml/desktop/DesktopTabs.qml:379
+#: src/qml/desktop/DesktopTabs.qml:284
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Duplicate Tab"
 msgstr "Sekmeyi Çoğalt"
 
-#: src/qml/desktop/DesktopTabs.qml:387
+#: src/qml/desktop/DesktopTabs.qml:292
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "Sekmeyi Yer İmlerine Ekle"
 
-#: src/qml/desktop/DesktopTabs.qml:403
+#: src/qml/desktop/DesktopTabs.qml:308
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Sekmeyi Kapat"
 
-#: src/qml/desktop/DesktopTabs.qml:409
+#: src/qml/desktop/DesktopTabs.qml:314
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"

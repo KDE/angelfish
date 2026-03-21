@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-23 00:44+0000\n"
+"POT-Creation-Date: 2026-03-21 02:42+0000\n"
 "PO-Revision-Date: 2025-12-06 15:25+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: pl\n"
@@ -604,7 +604,7 @@ msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "Poszukaj lub wpisz adres URL..."
 
-#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:362
+#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:267
 #: src/qml/Navigation.qml:443
 #, kde-format
 msgctxt "@action:inmenu"
@@ -695,55 +695,55 @@ msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
 msgstr "Wyświetl jak na urządzeniu przenośnym"
 
-#: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
+#: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:275
 #, kde-format
 msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr "Tryb czytania: %1"
 
-#: src/qml/desktop/DesktopTabs.qml:268 src/qml/Tabs.qml:291
+#: src/qml/desktop/DesktopTabDelegate.qml:118 src/qml/Tabs.qml:291
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close tab"
 msgstr "Zamknij kartę"
 
-#: src/qml/desktop/DesktopTabs.qml:298
+#: src/qml/desktop/DesktopTabs.qml:203
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open a new tab"
 msgstr "Otwórz nową kartę"
 
-#: src/qml/desktop/DesktopTabs.qml:331
+#: src/qml/desktop/DesktopTabs.qml:236
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "List all tabs"
 msgstr "Wymień wszystkie karty"
 
-#: src/qml/desktop/DesktopTabs.qml:371
+#: src/qml/desktop/DesktopTabs.qml:276
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reload Tab"
 msgstr "Odśwież kartę"
 
-#: src/qml/desktop/DesktopTabs.qml:379
+#: src/qml/desktop/DesktopTabs.qml:284
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Duplicate Tab"
 msgstr "Powiel kartę"
 
-#: src/qml/desktop/DesktopTabs.qml:387
+#: src/qml/desktop/DesktopTabs.qml:292
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "Dodaj kartę do zakładek"
 
-#: src/qml/desktop/DesktopTabs.qml:403
+#: src/qml/desktop/DesktopTabs.qml:308
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Zamknij kartę"
 
-#: src/qml/desktop/DesktopTabs.qml:409
+#: src/qml/desktop/DesktopTabs.qml:314
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-23 00:44+0000\n"
+"POT-Creation-Date: 2026-03-21 02:42+0000\n"
 "PO-Revision-Date: 2022-08-19 20:36+0700\n"
 "Last-Translator: Wantoyèk <wantoyek@gmail.com>\n"
 "Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
@@ -676,7 +676,7 @@ msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "Cari histori..."
 
-#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:362
+#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:267
 #: src/qml/Navigation.qml:443
 #, fuzzy, kde-format
 #| msgid "New Tab"
@@ -779,61 +779,61 @@ msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
 msgstr ""
 
-#: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
+#: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:275
 #, kde-format
 msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr ""
 
-#: src/qml/desktop/DesktopTabs.qml:268 src/qml/Tabs.qml:291
+#: src/qml/desktop/DesktopTabDelegate.qml:118 src/qml/Tabs.qml:291
 #, fuzzy, kde-format
 #| msgid "Close"
 msgctxt "@info:tooltip"
 msgid "Close tab"
 msgstr "Tutup"
 
-#: src/qml/desktop/DesktopTabs.qml:298
+#: src/qml/desktop/DesktopTabs.qml:203
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgctxt "@info:tooltip"
 msgid "Open a new tab"
 msgstr "Buka di Tab baru"
 
-#: src/qml/desktop/DesktopTabs.qml:331
+#: src/qml/desktop/DesktopTabs.qml:236
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "List all tabs"
 msgstr ""
 
-#: src/qml/desktop/DesktopTabs.qml:371
+#: src/qml/desktop/DesktopTabs.qml:276
 #, fuzzy, kde-format
 #| msgid "Close"
 msgctxt "@action:inmenu"
 msgid "Reload Tab"
 msgstr "Tutup"
 
-#: src/qml/desktop/DesktopTabs.qml:379
+#: src/qml/desktop/DesktopTabs.qml:284
 #, fuzzy, kde-format
 #| msgid "Private Tabs"
 msgctxt "@action:inmenu"
 msgid "Duplicate Tab"
 msgstr "Tab Privasi"
 
-#: src/qml/desktop/DesktopTabs.qml:387
+#: src/qml/desktop/DesktopTabs.qml:292
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "Markah"
 
-#: src/qml/desktop/DesktopTabs.qml:403
+#: src/qml/desktop/DesktopTabs.qml:308
 #, fuzzy, kde-format
 #| msgid "Close"
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Tutup"
 
-#: src/qml/desktop/DesktopTabs.qml:409
+#: src/qml/desktop/DesktopTabs.qml:314
 #, fuzzy, kde-format
 #| msgid "Close"
 msgctxt "@action:inmenu"
