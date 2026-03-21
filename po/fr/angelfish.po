@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-23 00:44+0000\n"
+"POT-Creation-Date: 2026-03-21 00:44+0000\n"
 "PO-Revision-Date: 2026-02-22 07:52+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: \n"
@@ -620,7 +620,7 @@ msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "Rechercher ou saisir une URL…"
 
-#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:362
+#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:267
 #: src/qml/Navigation.qml:443
 #, kde-format
 msgctxt "@action:inmenu"
@@ -711,55 +711,55 @@ msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
 msgstr "Basculer vers le mode « Mobile »"
 
-#: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
+#: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:275
 #, kde-format
 msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr "Mode de lecture : %1"
 
-#: src/qml/desktop/DesktopTabs.qml:268 src/qml/Tabs.qml:291
+#: src/qml/desktop/DesktopTabDelegate.qml:118 src/qml/Tabs.qml:291
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close tab"
 msgstr "Fermer un onglet"
 
-#: src/qml/desktop/DesktopTabs.qml:298
+#: src/qml/desktop/DesktopTabs.qml:203
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open a new tab"
 msgstr "Ouvrir un nouvel onglet"
 
-#: src/qml/desktop/DesktopTabs.qml:331
+#: src/qml/desktop/DesktopTabs.qml:236
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "List all tabs"
 msgstr "Lister tous les onglets"
 
-#: src/qml/desktop/DesktopTabs.qml:371
+#: src/qml/desktop/DesktopTabs.qml:276
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reload Tab"
 msgstr "Recharger un onglet"
 
-#: src/qml/desktop/DesktopTabs.qml:379
+#: src/qml/desktop/DesktopTabs.qml:284
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Duplicate Tab"
 msgstr "Dupliquer un onglet"
 
-#: src/qml/desktop/DesktopTabs.qml:387
+#: src/qml/desktop/DesktopTabs.qml:292
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "Onglet des signets"
 
-#: src/qml/desktop/DesktopTabs.qml:403
+#: src/qml/desktop/DesktopTabs.qml:308
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Fermer un onglet"
 
-#: src/qml/desktop/DesktopTabs.qml:409
+#: src/qml/desktop/DesktopTabs.qml:314
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"

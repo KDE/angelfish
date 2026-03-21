@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-23 00:44+0000\n"
+"POT-Creation-Date: 2026-03-21 00:44+0000\n"
 "PO-Revision-Date: 2024-12-24 20:39+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -679,7 +679,7 @@ msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "URL अन्वेष्टुम् अथवा प्रविष्टं कुर्वन्तु…"
 
-#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:362
+#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:267
 #: src/qml/Navigation.qml:443
 #, fuzzy, kde-format
 #| msgid "New Tab"
@@ -783,63 +783,63 @@ msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
 msgstr ""
 
-#: src/qml/desktop/DesktopTabs.qml:239 src/qml/Tabs.qml:275
+#: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:275
 #, fuzzy, kde-format
 #| msgid "Reader Mode: %1"
 msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr "पाठकविधिः %1"
 
-#: src/qml/desktop/DesktopTabs.qml:268 src/qml/Tabs.qml:291
+#: src/qml/desktop/DesktopTabDelegate.qml:118 src/qml/Tabs.qml:291
 #, fuzzy, kde-format
 #| msgid "Close tab"
 msgctxt "@info:tooltip"
 msgid "Close tab"
 msgstr "ट्याब् बन्दं कुर्वन्तु"
 
-#: src/qml/desktop/DesktopTabs.qml:298
+#: src/qml/desktop/DesktopTabs.qml:203
 #, fuzzy, kde-format
 #| msgid "Open a new tab"
 msgctxt "@info:tooltip"
 msgid "Open a new tab"
 msgstr "नूतनं ट्याब् उद्घाटयन्तु"
 
-#: src/qml/desktop/DesktopTabs.qml:331
+#: src/qml/desktop/DesktopTabs.qml:236
 #, fuzzy, kde-format
 #| msgid "List all tabs"
 msgctxt "@info:tooltip"
 msgid "List all tabs"
 msgstr "सर्वाणि ट्याब्स् सूचीबद्धं कुर्वन्तु"
 
-#: src/qml/desktop/DesktopTabs.qml:371
+#: src/qml/desktop/DesktopTabs.qml:276
 #, fuzzy, kde-format
 #| msgid "Reload Tab"
 msgctxt "@action:inmenu"
 msgid "Reload Tab"
 msgstr "Reload Tab"
 
-#: src/qml/desktop/DesktopTabs.qml:379
+#: src/qml/desktop/DesktopTabs.qml:284
 #, fuzzy, kde-format
 #| msgid "Duplicate Tab"
 msgctxt "@action:inmenu"
 msgid "Duplicate Tab"
 msgstr "डुप्लिकेट ट्याब्"
 
-#: src/qml/desktop/DesktopTabs.qml:387
+#: src/qml/desktop/DesktopTabs.qml:292
 #, fuzzy, kde-format
 #| msgid "Bookmark Tab"
 msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "बुकमार्क ट्याब्"
 
-#: src/qml/desktop/DesktopTabs.qml:403
+#: src/qml/desktop/DesktopTabs.qml:308
 #, fuzzy, kde-format
 #| msgid "Close Tab"
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "ट्याब् बन्दं कुर्वन्तु"
 
-#: src/qml/desktop/DesktopTabs.qml:409
+#: src/qml/desktop/DesktopTabs.qml:314
 #, fuzzy, kde-format
 #| msgid "Close Tab"
 msgctxt "@action:inmenu"
