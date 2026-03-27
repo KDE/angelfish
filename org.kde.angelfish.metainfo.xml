@@ -548,6 +548,7 @@
           <li xml:lang="cs">Povoleno skrytí lišty karet, když je otevřena jedna karta</li>
           <li xml:lang="es">Permitir ocultar la barra de pestañas cuando una sola pestaña está abierta</li>
           <li xml:lang="eu">Fitxa bakarra irekita dagoenean fitxa-barra ezkutatzeko aukera eman</li>
+          <li xml:lang="fi">salli piilottaa välilehtirivi, kun vain yksi välilehti on auki</li>
           <li xml:lang="fr">Autoriser le masquage de la barre d'onglets lorsqu'un seul onglet est ouvert</li>
           <li xml:lang="he">לאפשר את הסתרת סרגל הלשוניות כשרק לשונית אחת פתוחה</li>
           <li xml:lang="ia">Permitte celar barra de sched quando un singule scheda es aperite</li>
@@ -569,6 +570,7 @@
           <li xml:lang="cs">Oprava aktivace okna na Waylandu</li>
           <li xml:lang="es">Se ha corregido la activación de la ventana en Wayland</li>
           <li xml:lang="eu">Waylanden leiho aktibazioa zuzendu</li>
+          <li xml:lang="fi">korjaa ikkunan aktivointi Waylandissä</li>
           <li xml:lang="fr">Correction de l'activation de fenêtres sous Wayland</li>
           <li xml:lang="he">תוקנה הפעלת חלון ב־Wayland</li>
           <li xml:lang="ia">Corrige activation de fenestra sur wayland</li>
@@ -597,6 +599,7 @@
           <li xml:lang="cs">Aktualizace verze balíčku adblock</li>
           <li xml:lang="es">Se ha actualizado la versión del bloqueador de publicidad</li>
           <li xml:lang="eu">Iragarkiak eragozteko crate-aren bertsioa eguneratu</li>
+          <li xml:lang="fi">päivitä mainosestokontin versio</li>
           <li xml:lang="fr">Mise à jour de la version de création de AdBlock</li>
           <li xml:lang="he">עודכנה גרסת ה־crate של חסימת הפרסומות</li>
           <li xml:lang="ia">Actualisa version de cassa de adblock</li>
@@ -618,6 +621,7 @@
           <li xml:lang="cs">Oprava položek webové aplikace, které se nezobrazují v phosh</li>
           <li xml:lang="es">Se ha solucionado el problema de que las entradas de la aplicación web no aparecen en phosh</li>
           <li xml:lang="eu">phosh-en web-aplikazio sarrerak ez agertzea zuzendu</li>
+          <li xml:lang="fi">korjaa verkkosovellustietueet, jotka eivät näkyneet phoshissa</li>
           <li xml:lang="fr">Correction des entrées de l'application Internet n'apparaissant pas dans phosh</li>
           <li xml:lang="he">תוקנו רשומות יישומי אתרים שלא מופיעות ב־phosh</li>
           <li xml:lang="ia">Corrige entratas de webapp que non se monstra in phosh</li>
@@ -639,6 +643,7 @@
           <li xml:lang="cs">Zobrazení souborů ke stažení v desktopové verzi</li>
           <li xml:lang="es">Exponer descargas en la versión de escritorio</li>
           <li xml:lang="eu">Mahaigaineko bertsioan zama-jaitsierak agerian jarri</li>
+          <li xml:lang="fi">paljasta lataukset työpöytäversiossa</li>
           <li xml:lang="fr">Affichage des téléchargements dans la version de bureau</li>
           <li xml:lang="he">חשיפת הורדות בגרסה לשולחן העבודה</li>
           <li xml:lang="ia">Expone discargamentos in le version de scriptorio</li>
@@ -667,6 +672,7 @@
           <li xml:lang="cs">Opraveny vývojářské nástroje</li>
           <li xml:lang="es">Se han corregido las herramientas del desarrollador</li>
           <li xml:lang="eu">Garatzaile-tresnak zuzendu</li>
+          <li xml:lang="fi">korjaa kehitystyökalut</li>
           <li xml:lang="fr">Correction des outils de développement</li>
           <li xml:lang="he">תוקנו כלי הפיתוח</li>
           <li xml:lang="ia">Corrige instrumentos de disveloppator</li>
@@ -688,6 +694,7 @@
           <li xml:lang="cs">Oprava zobrazení názvu stránky v přepínači karet</li>
           <li xml:lang="es">Se ha corregido la visualización del título de la página en el selector de pestañas</li>
           <li xml:lang="eu">Fitxa-aldatzailean orrialdearen titulua bistaratzea zuzendu</li>
+          <li xml:lang="fi">korjaa sivun otsikon näyttäminen välilehtivaihdossa</li>
           <li xml:lang="fr">Correction de l'affichage du titre de page dans le sélecteur d'onglets</li>
           <li xml:lang="he">תוקנה הצגת כותרת העמוד במחליף הלשוניות</li>
           <li xml:lang="ia">Corrige monstrar le titulo de pagina in commutator de scheda</li>
@@ -709,6 +716,7 @@
           <li xml:lang="cs">Opravena nesprávná funkce v blokování reklam</li>
           <li xml:lang="es">Se ha corregido la comprobación en el bloqueador de publicidad</li>
           <li xml:lang="eu">Iragarki-eragozlean egiaztapen okerra zuzendu</li>
+          <li xml:lang="fi">korjaa väärä tarkistus mainosestossa</li>
           <li xml:lang="fr">Correction de la vérification erronée dans le bloqueur de publicités</li>
           <li xml:lang="he">תוקנה בדיקה שגויה בחוסם הפרסומות</li>
           <li xml:lang="ia">Corrige verifica errate in adblocker</li>
@@ -730,6 +738,7 @@
           <li xml:lang="cs">Implementace uživatelského rozhraní pro stolní počítače</li>
           <li xml:lang="es">Se ha implementado una interfaz de usuario en el escritorio</li>
           <li xml:lang="eu">Mahaigaineko erabiltzailearen interfaze bat inplementatu</li>
+          <li xml:lang="fi">toteuta työpöytäkäyttöliittymä</li>
           <li xml:lang="fr">Mettre en œuvre une interface utilisateur de bureau</li>
           <li xml:lang="he">מימוש ממשק משתמש לשולחן עבודה</li>
           <li xml:lang="ia">Implementa un UI de scriptoprio</li>
@@ -751,6 +760,7 @@
           <li xml:lang="cs">Reorganizace nastavení uživatelského rozhraní a jeho sjednocení pro stolní počítače a mobilní zařízení.</li>
           <li xml:lang="es">Se han reorganizado la interfaz de las preferencias y se ha unificado para el escritorio y para móviles</li>
           <li xml:lang="eu">Ezarpenen erabiltzailearen interfazea berrantolatu eta mahaigainerako eta mugikorrerako bateratu</li>
+          <li xml:lang="fi">järjestä asetuskäyttöliittymä uudelleen ja yhtenäistä työpöytä ja mobiili</li>
           <li xml:lang="fr">Réorganiser l'interface utilisateur de la configuration et la rendre les versions de bureau et mobile plus homogène</li>
           <li xml:lang="he">ממשק המשתמש של ההגדרות סודר מחדש ובוצע איחוד לשולחן עבודה וניידים</li>
           <li xml:lang="ia">Re.organisa le UI de preferentias e unifica per scriptorios e mobile</li>
@@ -771,6 +781,7 @@
           <li xml:lang="cs">Zjednodušena logika navigace</li>
           <li xml:lang="es">Se ha simplificado la lógica de nevegación</li>
           <li xml:lang="eu">Nabigazioaren logika sinplifikatu</li>
+          <li xml:lang="fi">yksinkertaista navigointilogiikkaa</li>
           <li xml:lang="fr">Simplifier la logique de navigation</li>
           <li xml:lang="he">פישוט לוגיקת הניווט</li>
           <li xml:lang="ia">Simplifica le logica de navigation </li>
@@ -791,6 +802,7 @@
           <li xml:lang="cs">Zobrazení vyskakovacího okna, když je zaměřena adresní lišta, s historií a souvisejícím textem pro aktuální URL</li>
           <li xml:lang="es">Mostrar una ventana emergente cuando la barra de URL tiene el foco y muestra el historial y texto relacionado con la URL actual</li>
           <li xml:lang="eu">URL-barra fokuratzean, uneko URLarekin lotutako historia eta testua erakusten dituen leiho gainerakor bat erakutsi</li>
+          <li xml:lang="fi">näytä ponnahdusviesti, kun historian ja verkko-osoitteeseen liittyvää tekstiä näyttävä osoiterivi kohdistetaan</li>
           <li xml:lang="fr">Afficher une fenêtre contextuelle lorsque la barre d'URL reçoit le focus, affichant l'historique et le texte associé à l'URL actuelle</li>
           <li xml:lang="he">להציג חלונית צצה כשהמיקוד הוא על סרגל הכתובות וההיסטוריה מופיעה לצד טקסט תואם לכתובת הנוכחית</li>
           <li xml:lang="ia">Monstra un popup quando le barra de URL es focalisate monstrante chronologia e texto affin per URL currente</li>
@@ -811,6 +823,7 @@
           <li xml:lang="cs">Použit lepší výchozí uživatelský agent pro mobilní zařízení</li>
           <li xml:lang="es">Usar un mejor agente de usuario predeterminado para dispositivos móviles</li>
           <li xml:lang="eu">Gailu mugikorretarako erabiltzaile-agente hobe bat erabili</li>
+          <li xml:lang="fi">käytä mobiililaitteissa parempaa oletuskäyttäjäagenttia</li>
           <li xml:lang="fr">Utiliser un agent utilisateur meilleur par défaut pour les périphériques mobiles</li>
           <li xml:lang="he">להשתמש בסוכן משתמש טוב יותר כברירת מחדל למכשירים ניידים</li>
           <li xml:lang="ia">Usa un melior agente-usator predefinite per dispositivos mobile</li>
@@ -838,6 +851,7 @@
           <li xml:lang="cs">Přidáno tlačítko pro vymazání historie</li>
           <li xml:lang="es">Se ha añadido un botón de acción para borrar el historial</li>
           <li xml:lang="eu">Historia borratzeko ekintza-botoia gehitu</li>
+          <li xml:lang="fi">lisää historian tyhjentävä toimintopainike</li>
           <li xml:lang="fr">Ajouter un bouton d'action pour l'effacement de l'historique</li>
           <li xml:lang="he">נוסף כפתור פעולה לפינוי ההיסטוריה</li>
           <li xml:lang="ia">Adde button de action per nettar chronologia</li>
@@ -858,6 +872,7 @@
           <li xml:lang="cs">Vylepšena integrace virtuální klávesnice</li>
           <li xml:lang="es">Se ha mejorado la integración del teclado virtual</li>
           <li xml:lang="eu">Alegiazko teklatuaren integrazioa hobetu</li>
+          <li xml:lang="fi">paranna näyttönäppäimistöeheytystä</li>
           <li xml:lang="fr">Améliorer l'intégration du clavier virtuel</li>
           <li xml:lang="he">שילוב מקלדת וירטואלית השתפרה</li>
           <li xml:lang="ia">Meliora integration de claviero virtual</li>
@@ -878,6 +893,7 @@
           <li xml:lang="cs">Povoleno uživateli ignorovat chyby SSL</li>
           <li xml:lang="es">Permitir que el usuario ignore errores de SSL</li>
           <li xml:lang="eu">Erabiltzaileari SSL erroreak ez ikusteko aukera eman</li>
+          <li xml:lang="fi">salli käyttäjä sivuuttaa SSL-virheet</li>
           <li xml:lang="fr">Permettre à l'utilisateur d'ignorer les erreurs de SSL</li>
           <li xml:lang="he">לאפשר למשתמש להתעלם משגיאות SSL</li>
           <li xml:lang="ia">Permitte que le usator ignora errores de SSL</li>
@@ -898,6 +914,7 @@
           <li xml:lang="cs">Oprava načítání URL adres chrome://</li>
           <li xml:lang="es">Se ha corregido la carga de URL de tipo chrome://</li>
           <li xml:lang="eu">chrome:// URLak zamatzea zuzendu</li>
+          <li xml:lang="fi">korjaa chrome://-osoitteiden lataaminen</li>
           <li xml:lang="fr">Correction des chargement des URL « chrome:// »</li>
           <li xml:lang="he">תוקנה טעינת כתובות chrome://‎</li>
           <li xml:lang="ia">Corrige cargar chrome://URLs</li>
@@ -918,6 +935,7 @@
           <li xml:lang="cs">Vylepšená podpora blokování reklam pro kosmetické filtry</li>
           <li xml:lang="es">Se ha mejorado la compatibilidad del bloqueador de publicidad con filtros cosméticos</li>
           <li xml:lang="eu">Iragazki kosmetikoetarako iragarki-eragozlearen euskarri hobetua</li>
+          <li xml:lang="fi">parannettu mainosestotuki kosmeettisille suodattimille</li>
           <li xml:lang="fr">Amélioration de la prise en charge des bloqueurs de publicités pour les filtres cosmétiques</li>
           <li xml:lang="he">התמיכה במסננים קומסטיים בחוסם הפרסומות השתפרה</li>
           <li xml:lang="ia">Meliorate supporto de ad-blocker per filtros cosmetic</li>
@@ -947,6 +965,7 @@
           <li xml:lang="cs">Zlepšena doba spuštění blokování reklam</li>
           <li xml:lang="es">Se ha mejorado el tiempo de inicio del bloqueador de publicidad</li>
           <li xml:lang="eu">Iragarki-eragozlearen abio-denbora hobetu</li>
+          <li xml:lang="fi">nopeuta mainoseston käynnistysaikaa</li>
           <li xml:lang="fr">Améliorer le temps de démarrage du bloqueur de publicités</li>
           <li xml:lang="he">זמן העלייה של חוסם הפרסומות השתפר</li>
           <li xml:lang="ia">Meliora le tempore de startar del ad blocker (blocator de reclamos)</li>
@@ -967,6 +986,7 @@
           <li xml:lang="cs">Opraveny různé chyby a bezpečnostní problémy ve správci webových aplikací</li>
           <li xml:lang="es">Se han corregido diversos fallos y problemas de seguridad en el gestor de la aplicación web</li>
           <li xml:lang="eu">Web-aplikazio kudeatzaileko hainbat akats eta segurtasun-arazo zuzendu</li>
+          <li xml:lang="fi">korjaa eri vikoja ja tietoturvaongelmia verkkosovellushallinnassa</li>
           <li xml:lang="fr">Correction de divers bogues et problèmes de sécurité dans le gestionnaire d'applications Internet</li>
           <li xml:lang="he">תוקנו מספר תקלות ובעיות אבטחה במנהל יישומי האתרים</li>
           <li xml:lang="ia">Corrige varie faltas e problemas de securitate in le gerente de app de web</li>
@@ -987,6 +1007,7 @@
           <li xml:lang="cs">Vylepšená podpora Flatpak</li>
           <li xml:lang="es">Se ha mejorado la compatibilidad con flatpak</li>
           <li xml:lang="eu">Flatpaken euskarria hobetu</li>
+          <li xml:lang="fi">paranna Flatpak-tukea</li>
           <li xml:lang="fr">Améliorer la prise en charge de FlatPak</li>
           <li xml:lang="he">התמיכה ב־flatpak השתפרה</li>
           <li xml:lang="ia">Meliora supporto de flatpack</li>
@@ -1014,6 +1035,7 @@
           <li xml:lang="cs">Přidána stránka nastavení pro správu webových aplikací</li>
           <li xml:lang="es">Se ha añadido una página de preferencias para la gestión de aplicaciones web</li>
           <li xml:lang="eu">Web-aplikazioak kudeatzeko ezarpen-orrialde bat gehitu</li>
+          <li xml:lang="fi">lisää asetussivu verkkosovelluksille</li>
           <li xml:lang="fr">Ajouter une page de configuration pour la gestion des applications Internet</li>
           <li xml:lang="he">נוסף עמוד הגדרות לניהול יישומי אתרים</li>
           <li xml:lang="ia">Adde un pagina de preferentias per gerer appsde web</li>
