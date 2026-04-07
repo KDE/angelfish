@@ -38,6 +38,13 @@ KirigamiSettings.ConfigurationView {
             text: i18nc("@title:window", "Toolbars")
             icon.name: "home"
             page: () => Kirigami.Settings.isMobile ? Qt.createComponent("SettingsNavigationBarPage.qml") : Qt.createComponent("DesktopHomeSettingsPage.qml")
+        },
+        KirigamiSettings.ConfigurationModule {
+            moduleId: "aboutAngelfish"
+            text: i18n("About Angelfish")
+            icon.name: "help-about"
+            page: () => Qt.createComponent("org.kde.kirigamiaddons.formcard", "AboutPage")
+            category: i18nc("@title:group", "About")
         }
     ]
 }

@@ -82,7 +82,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
         QStringLiteral(ANGELFISH_VERSION_STRING),
         i18n("Web browser for Plasma Mobile"),
         KAboutLicense::GPL_V3,
-        i18n("© 2015-2024 KDE Community")
+        i18n("© 2015-2026 KDE Community")
     );
 
     aboutData.addAuthor(i18n("Jonah Brüchert"), i18n("Maintainer"), QStringLiteral("jbb@kaidan.im"));

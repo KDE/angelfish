@@ -24,6 +24,9 @@ import "RegexWebUrl.js" as RegexWebUrl
 Kirigami.ApplicationWindow {
     id: webBrowser
 
+    required property Kirigami.ApplicationWindow appWindow
+    appWindow: webBrowser
+
     title: currentWebView.title + " — Angelfish"
 
     minimumWidth: Kirigami.Units.gridUnit * 20
@@ -321,6 +324,14 @@ Kirigami.ApplicationWindow {
                     }
                 }
 
+                Kirigami.Action {
+                    icon.name: "phone"
+                    text: i18nc("@action:inmenu", "Toggle Mobile Mode")
+                    onTriggered: {
+                        InterfaceLoader.isMobile = !InterfaceLoader.isMobile;
+                    }
+                }
+
                 QQC2.MenuSeparator {}
 
                 Kirigami.Action {
@@ -414,10 +425,10 @@ Kirigami.ApplicationWindow {
                 }
 
                 Kirigami.Action {
-                    icon.name: "phone"
-                    text: i18nc("@action:inmenu", "Toggle Mobile Mode")
+                    text: i18nc("@action:inmenu", "About Angelfish")
+                    icon.name: "help-about"
                     onTriggered: {
-                        InterfaceLoader.isMobile = !InterfaceLoader.isMobile;
+                        webBrowser.appWindow.pageStack.pushDialogLayer(Qt.createComponent("org.kde.kirigamiaddons.formcard", "AboutPage"))
                     }
                 }
 

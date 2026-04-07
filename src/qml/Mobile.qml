@@ -21,6 +21,9 @@ Kirigami.ApplicationWindow {
     id: webBrowser
     title: i18nc("@title:window", "Angelfish Web Browser")
 
+    required property Kirigami.ApplicationWindow appWindow
+    appWindow: webBrowser
+
     Shortcut {
         sequence: "Ctrl+W"
         onActivated: {
@@ -116,6 +119,13 @@ Kirigami.ApplicationWindow {
                 }
             },
             Kirigami.Action {
+                icon.name: "computer"
+                text: i18nc("@action:inmenu", "Toggle Desktop Mode")
+                onTriggered: {
+                    InterfaceLoader.isMobile = !InterfaceLoader.isMobile;
+                }
+            },
+            Kirigami.Action {
                 icon.name: "configure"
                 text: i18nc("@action:inmenu", "Settings")
                 onTriggered: {
@@ -124,12 +134,12 @@ Kirigami.ApplicationWindow {
                 }
             },
             Kirigami.Action {
-                icon.name: "computer"
-                text: i18nc("@action:inmenu", "Toggle Desktop Mode")
+                text: i18nc("@action:inmenu", "About Angelfish")
+                icon.name: "help-about"
                 onTriggered: {
-                    InterfaceLoader.isMobile = !InterfaceLoader.isMobile;
+                    webBrowser.appWindow.pageStack.pushDialogLayer(Qt.createComponent("org.kde.kirigamiaddons.formcard", "AboutPage"))
                 }
-            }
+            },
         ]
     }
 
