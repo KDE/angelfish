@@ -21,9 +21,6 @@ Kirigami.ApplicationWindow {
     id: webBrowser
     title: i18nc("@title:window", "Angelfish Web Browser")
 
-    required property Kirigami.ApplicationWindow appWindow
-    appWindow: webBrowser
-
     Shortcut {
         sequence: "Ctrl+W"
         onActivated: {
@@ -137,9 +134,9 @@ Kirigami.ApplicationWindow {
                 text: i18nc("@action:inmenu", "About Angelfish")
                 icon.name: "help-about"
                 onTriggered: {
-                    webBrowser.appWindow.pageStack.pushDialogLayer(Qt.createComponent("org.kde.kirigamiaddons.formcard", "AboutPage"))
+                    applicationWindow().pageStack.pushDialogLayer(Qt.createComponent("org.kde.kirigamiaddons.formcard", "AboutPage"))
                 }
-            },
+            }
         ]
     }
 

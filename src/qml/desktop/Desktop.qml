@@ -24,9 +24,6 @@ import "RegexWebUrl.js" as RegexWebUrl
 Kirigami.ApplicationWindow {
     id: webBrowser
 
-    required property Kirigami.ApplicationWindow appWindow
-    appWindow: webBrowser
-
     title: currentWebView.title + " — Angelfish"
 
     minimumWidth: Kirigami.Units.gridUnit * 20
@@ -428,7 +425,7 @@ Kirigami.ApplicationWindow {
                     text: i18nc("@action:inmenu", "About Angelfish")
                     icon.name: "help-about"
                     onTriggered: {
-                        webBrowser.appWindow.pageStack.pushDialogLayer(Qt.createComponent("org.kde.kirigamiaddons.formcard", "AboutPage"))
+                        applicationWindow().pageStack.pushDialogLayer(Qt.createComponent("org.kde.kirigamiaddons.formcard", "AboutPage"))
                     }
                 }
 
