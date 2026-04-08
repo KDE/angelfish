@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-21 00:44+0000\n"
+"POT-Creation-Date: 2026-04-08 00:45+0000\n"
 "PO-Revision-Date: 2025-06-11 00:13+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -506,8 +506,8 @@ msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "\"%1\" 검색"
 
-#: lib/contents/ui/WebView.qml:698 src/qml/desktop/Desktop.qml:377
-#: src/qml/Mobile.qml:326
+#: lib/contents/ui/WebView.qml:698 src/qml/desktop/Desktop.qml:385
+#: src/qml/Mobile.qml:333
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
@@ -535,8 +535,9 @@ msgid "Web browser for Plasma Mobile"
 msgstr "Plasma 모바일의 웹 브라우저"
 
 #: src/main.cpp:85
-#, kde-format
-msgid "© 2015-2024 KDE Community"
+#, fuzzy, kde-format
+#| msgid "© 2015-2024 KDE Community"
+msgid "© 2015-2026 KDE Community"
 msgstr "© 2015-2024 KDE Community"
 
 #: src/main.cpp:88
@@ -647,59 +648,66 @@ msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "다운로드"
 
-#: src/qml/desktop/Desktop.qml:328
+#: src/qml/desktop/Desktop.qml:326
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Toggle Mobile Mode"
+msgstr "모바일 모드 전환"
+
+#: src/qml/desktop/Desktop.qml:336
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr "인쇄"
 
-#: src/qml/desktop/Desktop.qml:334
+#: src/qml/desktop/Desktop.qml:342
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr "전체 화면"
 
-#: src/qml/desktop/Desktop.qml:351
+#: src/qml/desktop/Desktop.qml:359
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "개발자 도구 숨기기"
 
-#: src/qml/desktop/Desktop.qml:352 src/qml/Mobile.qml:424
+#: src/qml/desktop/Desktop.qml:360 src/qml/Mobile.qml:431
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "개발자 도구 표시"
 
-#: src/qml/desktop/Desktop.qml:361 src/qml/Mobile.qml:322
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:329
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "페이지에서 찾기"
 
-#: src/qml/desktop/Desktop.qml:370 src/qml/Mobile.qml:407
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:414
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "읽기 모드"
 
-#: src/qml/desktop/Desktop.qml:387
+#: src/qml/desktop/Desktop.qml:395
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "앱 실행기에 추가"
 
-#: src/qml/desktop/Desktop.qml:408 src/qml/Mobile.qml:120
+#: src/qml/desktop/Desktop.qml:416 src/qml/Mobile.qml:127
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "설정"
 
-#: src/qml/desktop/Desktop.qml:418
-#, kde-format
+#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:134
+#, fuzzy, kde-format
+#| msgid "Angelfish"
 msgctxt "@action:inmenu"
-msgid "Toggle Mobile Mode"
-msgstr "모바일 모드 전환"
+msgid "About Angelfish"
+msgstr "Angelfish"
 
 #: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:275
 #, kde-format
@@ -859,67 +867,67 @@ msgctxt "@action:inmenu"
 msgid "Tabs"
 msgstr "탭"
 
-#: src/qml/Mobile.qml:128
+#: src/qml/Mobile.qml:120
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
 msgstr "데스크톱 모드 전환"
 
-#: src/qml/Mobile.qml:337
+#: src/qml/Mobile.qml:344
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "홈 화면에 추가"
 
-#: src/qml/Mobile.qml:349
+#: src/qml/Mobile.qml:356
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "앱에서 열기"
 
-#: src/qml/Mobile.qml:357
+#: src/qml/Mobile.qml:364
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr "뒤로 이동"
 
-#: src/qml/Mobile.qml:365
+#: src/qml/Mobile.qml:372
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "앞으로 이동"
 
-#: src/qml/Mobile.qml:372
+#: src/qml/Mobile.qml:379
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "불러오기 멈추기"
 
-#: src/qml/Mobile.qml:372
+#: src/qml/Mobile.qml:379
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "새로 고침"
 
-#: src/qml/Mobile.qml:382
+#: src/qml/Mobile.qml:389
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "책갈피에 추가됨"
 
-#: src/qml/Mobile.qml:382
+#: src/qml/Mobile.qml:389
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "책갈피"
 
-#: src/qml/Mobile.qml:398
+#: src/qml/Mobile.qml:405
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "데스크톱 사이트 표시"
 
-#: src/qml/Mobile.qml:415
+#: src/qml/Mobile.qml:422
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
@@ -998,6 +1006,18 @@ msgstr "검색 엔진"
 msgctxt "@title:window"
 msgid "Toolbars"
 msgstr "도구 모음"
+
+#: src/settings/AngelfishConfigurationView.qml:44
+#, fuzzy, kde-format
+#| msgid "Angelfish"
+msgid "About Angelfish"
+msgstr "Angelfish"
+
+#: src/settings/AngelfishConfigurationView.qml:47
+#, kde-format
+msgctxt "@title:group"
+msgid "About"
+msgstr ""
 
 #: src/settings/DesktopHomeSettingsPage.qml:25
 #, kde-format

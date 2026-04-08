@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-21 00:44+0000\n"
+"POT-Creation-Date: 2026-04-08 00:45+0000\n"
 "PO-Revision-Date: 2024-12-15 17:36+0530\n"
 "Last-Translator: Kali <EMAIL@ADDRESS>\n"
 "Language-Team: Hindi <fedora-trans-hi@redhat.com>\n"
@@ -563,8 +563,8 @@ msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "खोज इतिहास…"
 
-#: lib/contents/ui/WebView.qml:698 src/qml/desktop/Desktop.qml:377
-#: src/qml/Mobile.qml:326
+#: lib/contents/ui/WebView.qml:698 src/qml/desktop/Desktop.qml:385
+#: src/qml/Mobile.qml:333
 #, fuzzy, kde-format
 #| msgid "Share page"
 msgctxt "@action:inmenu"
@@ -595,7 +595,7 @@ msgstr ""
 
 #: src/main.cpp:85
 #, kde-format
-msgid "© 2015-2024 KDE Community"
+msgid "© 2015-2026 KDE Community"
 msgstr ""
 
 #: src/main.cpp:88
@@ -722,65 +722,71 @@ msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "डाउनलोड"
 
-#: src/qml/desktop/Desktop.qml:328
+#: src/qml/desktop/Desktop.qml:326
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Toggle Mobile Mode"
+msgstr ""
+
+#: src/qml/desktop/Desktop.qml:336
 #, fuzzy, kde-format
 #| msgid "Print"
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr "छाप"
 
-#: src/qml/desktop/Desktop.qml:334
+#: src/qml/desktop/Desktop.qml:342
 #, fuzzy, kde-format
 #| msgid "Full Screen"
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr "पूर्ण स्क्रीन"
 
-#: src/qml/desktop/Desktop.qml:351
+#: src/qml/desktop/Desktop.qml:359
 #, fuzzy, kde-format
 #| msgid "Hide developer tools"
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "डेवलपर टूल छिपाएँ"
 
-#: src/qml/desktop/Desktop.qml:352 src/qml/Mobile.qml:424
+#: src/qml/desktop/Desktop.qml:360 src/qml/Mobile.qml:431
 #, fuzzy, kde-format
 #| msgid "Show developer tools"
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "डेवलपर टूल दिखाएं"
 
-#: src/qml/desktop/Desktop.qml:361 src/qml/Mobile.qml:322
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:329
 #, fuzzy, kde-format
 #| msgid "Find in page"
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "पेज में खोजें"
 
-#: src/qml/desktop/Desktop.qml:370 src/qml/Mobile.qml:407
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:414
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "रीडर मोड"
 
-#: src/qml/desktop/Desktop.qml:387
+#: src/qml/desktop/Desktop.qml:395
 #, fuzzy, kde-format
 #| msgid "Add to application launcher"
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "एप्लिकेशन लॉन्चर में जोड़ें"
 
-#: src/qml/desktop/Desktop.qml:408 src/qml/Mobile.qml:120
+#: src/qml/desktop/Desktop.qml:416 src/qml/Mobile.qml:127
 #, fuzzy, kde-format
 #| msgid "Settings"
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "सेटिंग्स"
 
-#: src/qml/desktop/Desktop.qml:418
+#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:134
 #, kde-format
 msgctxt "@action:inmenu"
-msgid "Toggle Mobile Mode"
+msgid "About Angelfish"
 msgstr ""
 
 #: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:275
@@ -968,76 +974,76 @@ msgctxt "@action:inmenu"
 msgid "Tabs"
 msgstr "टैब"
 
-#: src/qml/Mobile.qml:128
+#: src/qml/Mobile.qml:120
 #, fuzzy, kde-format
 #| msgid "Show desktop site"
 msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
 msgstr "डेस्कटॉप साइट दिखाएं"
 
-#: src/qml/Mobile.qml:337
+#: src/qml/Mobile.qml:344
 #, fuzzy, kde-format
 #| msgid "Add to homescreen"
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "होम स्क्रीन में शामिल करें"
 
-#: src/qml/Mobile.qml:349
+#: src/qml/Mobile.qml:356
 #, fuzzy, kde-format
 #| msgid "Open in app"
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "ऐप में खोलें"
 
-#: src/qml/Mobile.qml:357
+#: src/qml/Mobile.qml:364
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr ""
 
-#: src/qml/Mobile.qml:365
+#: src/qml/Mobile.qml:372
 #, fuzzy, kde-format
 #| msgid "Go forward"
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "आगे बढ़ो"
 
-#: src/qml/Mobile.qml:372
+#: src/qml/Mobile.qml:379
 #, fuzzy, kde-format
 #| msgid "Stop loading"
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "लोड करना बंद करें"
 
-#: src/qml/Mobile.qml:372
+#: src/qml/Mobile.qml:379
 #, fuzzy, kde-format
 #| msgid "Refresh"
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "ताज़ा करना"
 
-#: src/qml/Mobile.qml:382
+#: src/qml/Mobile.qml:389
 #, fuzzy, kde-format
 #| msgid "Bookmarked"
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "बुकमार्क"
 
-#: src/qml/Mobile.qml:382
+#: src/qml/Mobile.qml:389
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "बुकमार्क"
 
-#: src/qml/Mobile.qml:398
+#: src/qml/Mobile.qml:405
 #, fuzzy, kde-format
 #| msgid "Show desktop site"
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "डेस्कटॉप साइट दिखाएं"
 
-#: src/qml/Mobile.qml:415
+#: src/qml/Mobile.qml:422
 #, fuzzy, kde-format
 #| msgid "Hide navigation bar"
 msgctxt "@action:inmenu"
@@ -1123,6 +1129,17 @@ msgstr "खोज इंजन"
 msgctxt "@title:window"
 msgid "Toolbars"
 msgstr "उपकरण पट्टियाँ"
+
+#: src/settings/AngelfishConfigurationView.qml:44
+#, kde-format
+msgid "About Angelfish"
+msgstr ""
+
+#: src/settings/AngelfishConfigurationView.qml:47
+#, kde-format
+msgctxt "@title:group"
+msgid "About"
+msgstr ""
 
 #: src/settings/DesktopHomeSettingsPage.qml:25
 #, fuzzy, kde-format
