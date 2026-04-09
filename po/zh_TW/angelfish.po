@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the plasma-angelfish package.
 #
 # pan93412 <pan93412@gmail.com>, 2019, 2020.
-# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025, 2026 Kisaragi Hiu <mail@kisaragi-hiu.com>
+# SPDX-FileCopyrightText: 2022-2026 Kisaragi Hiu <mail@kisaragi-hiu.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-08 00:45+0000\n"
-"PO-Revision-Date: 2026-03-02 04:35+0900\n"
+"PO-Revision-Date: 2026-04-08 23:09+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 25.11.70\n"
+"X-Generator: Lokalize 26.07.70\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -520,10 +520,9 @@ msgid "Web browser for Plasma Mobile"
 msgstr "Plasma 行動的網頁瀏覽器"
 
 #: src/main.cpp:85
-#, fuzzy, kde-format
-#| msgid "© 2015-2024 KDE Community"
+#, kde-format
 msgid "© 2015-2026 KDE Community"
-msgstr "© 2015-2024 KDE 社群"
+msgstr "© 2015-2026 KDE 社群"
 
 #: src/main.cpp:88
 #, kde-format
@@ -688,11 +687,10 @@ msgid "Settings"
 msgstr "設定"
 
 #: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:134
-#, fuzzy, kde-format
-#| msgid "Angelfish"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Angelfish"
-msgstr "Angelfish"
+msgstr "關於 Angelfish"
 
 #: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:275
 #, kde-format
@@ -987,16 +985,15 @@ msgid "Toolbars"
 msgstr "工具列"
 
 #: src/settings/AngelfishConfigurationView.qml:44
-#, fuzzy, kde-format
-#| msgid "Angelfish"
+#, kde-format
 msgid "About Angelfish"
-msgstr "Angelfish"
+msgstr "關於 Angelfish"
 
 #: src/settings/AngelfishConfigurationView.qml:47
 #, kde-format
 msgctxt "@title:group"
 msgid "About"
-msgstr ""
+msgstr "關於"
 
 #: src/settings/DesktopHomeSettingsPage.qml:25
 #, kde-format

@@ -1000,7 +1000,7 @@ msgstr "Angelfish"
 #, kde-format
 msgctxt "@title:group"
 msgid "About"
-msgstr ""
+msgstr "O aplikaci"
 
 #: src/settings/DesktopHomeSettingsPage.qml:25
 #, kde-format

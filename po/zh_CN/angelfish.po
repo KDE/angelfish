@@ -519,10 +519,9 @@ msgid "Web browser for Plasma Mobile"
 msgstr "Plasma Mobile网络浏览器"
 
 #: src/main.cpp:85
-#, fuzzy, kde-format
-#| msgid "© 2015-2024 KDE Community"
+#, kde-format
 msgid "© 2015-2026 KDE Community"
-msgstr "© 2015-2024 KDE Community"
+msgstr ""
 
 #: src/main.cpp:88
 #, kde-format
@@ -688,11 +687,10 @@ msgid "Settings"
 msgstr "设置"
 
 #: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:134
-#, fuzzy, kde-format
-#| msgid "Angelfish"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Angelfish"
-msgstr "Angelfish"
+msgstr ""
 
 #: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:275
 #, kde-format
@@ -987,10 +985,9 @@ msgid "Toolbars"
 msgstr "工具栏"
 
 #: src/settings/AngelfishConfigurationView.qml:44
-#, fuzzy, kde-format
-#| msgid "Angelfish"
+#, kde-format
 msgid "About Angelfish"
-msgstr "Angelfish"
+msgstr ""
 
 #: src/settings/AngelfishConfigurationView.qml:47
 #, kde-format
