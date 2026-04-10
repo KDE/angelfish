@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-08 00:45+0000\n"
-"PO-Revision-Date: 2026-02-24 22:43+0400\n"
+"PO-Revision-Date: 2026-04-09 11:31+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -522,10 +522,9 @@ msgid "Web browser for Plasma Mobile"
 msgstr "متصفح ويب لبلازما الجوال"
 
 #: src/main.cpp:85
-#, fuzzy, kde-format
-#| msgid "© 2015-2024 KDE Community"
+#, kde-format
 msgid "© 2015-2026 KDE Community"
-msgstr "© 2015-2024 مجتمع كِيدِي"
+msgstr "© 2015-2026 مجتمع كِيدِي"
 
 #: src/main.cpp:88
 #, kde-format
@@ -690,11 +689,10 @@ msgid "Settings"
 msgstr "إعدادات"
 
 #: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:134
-#, fuzzy, kde-format
-#| msgid "Angelfish"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Angelfish"
-msgstr "انجلفش"
+msgstr "عن انجلفش"
 
 #: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:275
 #, kde-format
@@ -989,16 +987,15 @@ msgid "Toolbars"
 msgstr "شريط الأدوات"
 
 #: src/settings/AngelfishConfigurationView.qml:44
-#, fuzzy, kde-format
-#| msgid "Angelfish"
+#, kde-format
 msgid "About Angelfish"
-msgstr "انجلفش"
+msgstr "عن انجلفش"
 
 #: src/settings/AngelfishConfigurationView.qml:47
 #, kde-format
 msgctxt "@title:group"
 msgid "About"
-msgstr ""
+msgstr "عن"
 
 #: src/settings/DesktopHomeSettingsPage.qml:25
 #, kde-format
