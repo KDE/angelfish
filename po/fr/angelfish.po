@@ -6,9 +6,9 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-08 00:45+0000\n"
-"PO-Revision-Date: 2026-02-22 07:52+0100\n"
+"PO-Revision-Date: 2026-04-09 12:08+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
-"Language-Team: \n"
+"Language-Team: fr\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Accelerator-Marker: \n"
 "X-Environment: kde\n"
-"X-Generator: Lokalize 25.12.2\n"
+"X-Generator: Lokalize 25.12.3\n"
 "X-Text-Markup: \n"
 
 #: angelfish-webapp/main.cpp:65
@@ -543,10 +543,9 @@ msgid "Web browser for Plasma Mobile"
 msgstr "Navigateur Internet pour Plasma Mobile"
 
 #: src/main.cpp:85
-#, fuzzy, kde-format
-#| msgid "© 2015-2024 KDE Community"
+#, kde-format
 msgid "© 2015-2026 KDE Community"
-msgstr "© 2015 - 2024 Communauté de KDE"
+msgstr "© 2015 - 2026 Communauté de KDE"
 
 #: src/main.cpp:88
 #, kde-format
@@ -713,11 +712,10 @@ msgid "Settings"
 msgstr "Configuration"
 
 #: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:134
-#, fuzzy, kde-format
-#| msgid "Angelfish"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Angelfish"
-msgstr "Angelfish"
+msgstr "À propos de Angelfish"
 
 #: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:275
 #, kde-format
@@ -1012,16 +1010,15 @@ msgid "Toolbars"
 msgstr "Barres d'outils"
 
 #: src/settings/AngelfishConfigurationView.qml:44
-#, fuzzy, kde-format
-#| msgid "Angelfish"
+#, kde-format
 msgid "About Angelfish"
-msgstr "Angelfish"
+msgstr "À propos de Angelfish"
 
 #: src/settings/AngelfishConfigurationView.qml:47
 #, kde-format
 msgctxt "@title:group"
 msgid "About"
-msgstr ""
+msgstr "À propos"
 
 #: src/settings/DesktopHomeSettingsPage.qml:25
 #, kde-format
