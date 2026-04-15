@@ -564,6 +564,7 @@
           <li xml:lang="sl">Dovoli skrivanje vrstice z zavihki, ko je odprt en sam zavihek</li>
           <li xml:lang="tr">Tek sekme açıkken sekme çubuğunun gizlenmesine izin ver</li>
           <li xml:lang="uk">Уможливлено приховування панелі вкладок, якщо відкрито єдину вкладку</li>
+          <li xml:lang="zh-CN">当单个标签打开时允许隐藏标签栏</li>
           <li xml:lang="zh-TW">允許在只開啟一個分頁時隱藏分頁列</li>
           <li>Fix window activation on wayland</li>
           <li xml:lang="ar">إصلاح تفعيل النافذة على Wayland</li>
@@ -586,6 +587,7 @@
           <li xml:lang="sl">Popravi aktivacijo oken na Waylandu</li>
           <li xml:lang="tr">Wayland üzerinde pencere etkinleştirmesini düzelt</li>
           <li xml:lang="uk">Виправлено активацію вікна у wayland</li>
+          <li xml:lang="zh-CN">修复在 Wayland 上时的窗口激活问题</li>
           <li xml:lang="zh-TW">修正 Wayland 上的視窗作用</li>
         </ul>
       </description>
@@ -615,6 +617,7 @@
           <li xml:lang="sl">Posodobi različico programa adblock crate</li>
           <li xml:lang="tr">Reklâm engelleme paketi sürümünü güncelle</li>
           <li xml:lang="uk">Оновлено версію блокувальника реклами</li>
+          <li xml:lang="zh-CN">更新 adblock crate 版本</li>
           <li xml:lang="zh-TW">更新 adblock crate 版本</li>
           <li>Fix webapp entries not showing up in phosh</li>
           <li xml:lang="ar">إصلاح عدم ظهور مدخلات تطبيقات الويب في Phosh</li>
@@ -637,6 +640,7 @@
           <li xml:lang="sl">Popravi vnose, ki se ne prikazujejo v phoshu</li>
           <li xml:lang="tr">Web uygulaması girdilerinin Phosh’ta görünmemesi sorununu düzelt</li>
           <li xml:lang="uk">Виправлено показ записів вебпрограми у phosh</li>
+          <li xml:lang="zh-CN">修复在 Phosh 中不显示网页应用条目</li>
           <li xml:lang="zh-TW">修正網頁應用程式項目不會出現在 Phosh 的問題</li>
           <li>Expose downloads in the desktop version</li>
           <li xml:lang="ar">إظهار التنزيلات في إصدار سطح المكتب</li>
@@ -659,6 +663,7 @@
           <li xml:lang="sl">Izpostavi prenose v namizni različici</li>
           <li xml:lang="tr">Masaüstü sürümünde indirilenleri göster</li>
           <li xml:lang="uk">Реалізовано показ отриманих файлів у версії для робочих станцій</li>
+          <li xml:lang="zh-CN">显示桌面版本中的下载</li>
           <li xml:lang="zh-TW">在桌面版也顯示下載項目</li>
         </ul>
       </description>
@@ -688,6 +693,7 @@
           <li xml:lang="sl">Popravi orodja za razvijalce</li>
           <li xml:lang="tr">Geliştirici araçlarını onar</li>
           <li xml:lang="uk">Виправлено інструменти розробника</li>
+          <li xml:lang="zh-CN">修复开发者工具</li>
           <li xml:lang="zh-TW">修正開發者工具</li>
           <li>Fix displaying the page title in tab switcher</li>
           <li xml:lang="ar">إصلاح عرض عنوان الصفحة في مبدل الألسنة</li>
@@ -710,6 +716,7 @@
           <li xml:lang="sl">Popravi prikaz naslova strani v preklopniku zavihkov</li>
           <li xml:lang="tr">Sekme değiştiricisinde sayfa başlığının görüntülenmesini düzelt</li>
           <li xml:lang="uk">Виправлено показ заголовка сторінки на панелі перемикання вкладок</li>
+          <li xml:lang="zh-CN">修复在标签切换器中显示页面标题的问题</li>
           <li xml:lang="zh-TW">修正分頁切換器當中的頁面標題顯示</li>
           <li>Fix wrong check in ad-blocker</li>
           <li xml:lang="ar">إصلاح فحص خاطئ في مانع الإعلانات</li>
@@ -732,6 +739,7 @@
           <li xml:lang="sl">Popravi napačno prijavo v blokator oglasov</li>
           <li xml:lang="tr">Reklâm engelleyicisindeki yanlış denetimi düzelt</li>
           <li xml:lang="uk">Виправлено помилкову перевірку у засобі блокування екрана</li>
+          <li xml:lang="zh-CN">修复广告拦截器中错误的检查</li>
           <li xml:lang="zh-TW">修正廣告阻擋器的錯誤檢查</li>
           <li>Implement a desktop UI</li>
           <li xml:lang="ar">توفير واجهة مستخدم لسطح المكتب</li>
@@ -754,6 +762,7 @@
           <li xml:lang="sl">Implementira uporabniški vmesnik za namizje</li>
           <li xml:lang="tr">Bir masaüstü kullanıcı arayüzü gerçekle</li>
           <li xml:lang="uk">Реалізовано інтерфейс для робочих станцій</li>
+          <li xml:lang="zh-CN">实现适合桌面的用户界面</li>
           <li xml:lang="zh-TW">實作桌面版介面</li>
           <li>Re-organize the settings UI and unify for desktop and mobile</li>
           <li xml:lang="ar">إعادة تنظيم واجهة الإعدادات وتوحيدها لسطح المكتب والمحمول</li>
@@ -775,6 +784,7 @@
           <li xml:lang="sl">Reorganizira uporabniški vmesnik z nastavitvami in jih poenoti za namizne in mobilne naprave</li>
           <li xml:lang="tr">Ayarlar arayüzünü yeniden düzenle ve masaüstü ile taşınabilir için birleştir</li>
           <li xml:lang="uk">Перевпорядковано інтерфейс параметрів та уніфіковано інтерфейс на комп'ютері та на мобільному пристрої</li>
+          <li xml:lang="zh-CN">重整设置界面，统一桌面和移动版</li>
           <li xml:lang="zh-TW">整理設定介面並統一桌面版與行動版設定頁面</li>
           <li>Simplify the navigation logic</li>
           <li xml:lang="ar">تبسيط منطق التنقل</li>
@@ -796,6 +806,7 @@
           <li xml:lang="sl">Poenostavi logiko navigacije</li>
           <li xml:lang="tr">Dalaşma mantığını basitleştir</li>
           <li xml:lang="uk">Спрощено логіку навігації</li>
+          <li xml:lang="zh-CN">简化导航逻辑。</li>
           <li xml:lang="zh-TW">簡化導覽邏輯</li>
           <li>Show a popup when URL bar is focused showing history and related text for current URL</li>
           <li xml:lang="ar">إظهار نافذة منبثقة عند تركيز شريط العنوان تعرض السجل والنصوص المتعلقة بالعنوان الحالي</li>
@@ -817,6 +828,7 @@
           <li xml:lang="sl">Prikaži pojavno okno, ko je v fokusu vrstica URL, ki prikazuje zgodovino in povezano besedilo za trenutni URL</li>
           <li xml:lang="tr">URL çubuğu odaklandığında geçerli URL için geçmişi ve ilgili metni gösteren bir açılır pencere göster</li>
           <li xml:lang="uk">Реалізовано показ контекстної панелі зі журналом та пов'язаним текстом для поточної адреси, якщо панель адреси перебуває у фокусі</li>
+          <li xml:lang="zh-CN">当 URL 栏被聚焦时显示弹出窗口，显示当前 URL 的历史记录和相关文本</li>
           <li xml:lang="zh-TW">聚焦網址列時顯示包含歷史記錄與相關文字的彈出視窗</li>
           <li>Use a better default user-agent for mobile devices</li>
           <li xml:lang="ar">استخدام وكيل مستخدم مبدئي أفضل للأجهزة المحمولة</li>
@@ -838,6 +850,7 @@
           <li xml:lang="sl">Uporabi boljši privzeti uporabniški agent za mobilne naprave</li>
           <li xml:lang="tr">Taşınabilir aygıtlar için daha iyi bir öntanımlı kullanıcı aracısı (user-agent) kullan</li>
           <li xml:lang="uk">Використано кращий агент користувача для мобільних пристроїв</li>
+          <li xml:lang="zh-CN">让移动设备使用更好的默认用户代理</li>
           <li xml:lang="zh-TW">為行動裝置使用更適合的預設使用者代理字串</li>
         </ul>
       </description>
@@ -866,6 +879,7 @@
           <li xml:lang="sl">Doda akcijski gumb za brisanje zgodovine</li>
           <li xml:lang="tr">Geçmişi temizlemek için eylem düğmesi ekle</li>
           <li xml:lang="uk">Дано кнопку дії для спорожнення журналу</li>
+          <li xml:lang="zh-CN">添加清除历史记录的动作按钮</li>
           <li xml:lang="zh-TW">新增清除歷史用的動作按鈕</li>
           <li>Improve virtual keyboard integration</li>
           <li xml:lang="ar">تحسين تكامل لوحة المفاتيح الافتراضية</li>
@@ -887,6 +901,7 @@
           <li xml:lang="sl">Izboljša integracijo virtualne tipkovnice</li>
           <li xml:lang="tr">Sanal klavye tümleşimini iyileştir</li>
           <li xml:lang="uk">Удосконалено інтеграцію з віртуальною клавіатурою</li>
+          <li xml:lang="zh-CN">改进虚拟键盘的整合</li>
           <li xml:lang="zh-TW">改善虛擬鍵盤整合</li>
           <li>Allow user to ignore SSL errors</li>
           <li xml:lang="ar">السماح للمستخدم بتجاهل أخطاء SSL</li>
@@ -908,6 +923,7 @@
           <li xml:lang="sl">Dovoli uporabniku prezreti napake SSL</li>
           <li xml:lang="tr">Kullanıcının SSL hatalarını yok saymasına izin ver</li>
           <li xml:lang="uk">Уможливлено ігнорування користувачем помилок SSL</li>
+          <li xml:lang="zh-CN">允许用户忽略 SSL 错误</li>
           <li xml:lang="zh-TW">允許使用者忽略 SSL 錯誤</li>
           <li>Fix loading chrome:// URLs</li>
           <li xml:lang="ar">إصلاح تحميل عناوين وبّ من نوع //:chrome</li>
@@ -929,6 +945,7 @@
           <li xml:lang="sl">Popravi nalaganje URL-jev chrome://</li>
           <li xml:lang="tr">chrome:// URL’lerinin yüklenmesini düzelt</li>
           <li xml:lang="uk">Виправлено завантаження адрес chrome://</li>
+          <li xml:lang="zh-CN">修复加载 chrome:// URL</li>
           <li xml:lang="zh-TW">修正 chrome:// 網址的載入</li>
           <li>Improved ad-blocker support for cosmetic filters</li>
           <li xml:lang="ar">تحسين دعم مانع الإعلانات للمرشحات التجميلية</li>
@@ -950,6 +967,7 @@
           <li xml:lang="sl">Izboljšana podpora za blokiranje oglasov za kozmetične filtre</li>
           <li xml:lang="tr">Kozmetik süzgeçler için reklâm engelleyicisi desteğini iyileştir</li>
           <li xml:lang="uk">Удосконалено підтримку блокування реклами для косметичних фільтрів</li>
+          <li xml:lang="zh-CN">改进广告拦截器对装饰过滤器的支持</li>
           <li xml:lang="zh-TW">改善廣告阻擋器對外觀過濾器 (cosmetic filter) 的支援</li>
         </ul>
       </description>
@@ -980,6 +998,7 @@
           <li xml:lang="sl">Izboljša čas zagona blokatorja oglasov</li>
           <li xml:lang="tr">Reklâm engelleyicisinin başlangıç süresini iyileştir</li>
           <li xml:lang="uk">Пришвидшено час завантаження засобу блокування реклами</li>
+          <li xml:lang="zh-CN">改进广告拦截器的启动时间</li>
           <li xml:lang="zh-TW">改善廣告阻擋器啟動所需的時間</li>
           <li>Fix various bugs and safety issues in the web app manager</li>
           <li xml:lang="ar">إصلاح علل متنوعة ومشاكل أمنية في مدير تطبيقات الويب</li>
@@ -1001,6 +1020,7 @@
           <li xml:lang="sl">Popravi različne napake in varnostne težave v upravitelju spletnih aplikacij</li>
           <li xml:lang="tr">Web uygulaması yöneticisindeki çeşitli hataları ve güvenlik sorunlarını düzelt</li>
           <li xml:lang="uk">Виправлено різні вади та проблеми із захистом у засобі керування вебпрограмами</li>
+          <li xml:lang="zh-CN">修复网页应用管理器中的各种错误和安全问题</li>
           <li xml:lang="zh-TW">修正網頁應用程式管理器中的一些錯誤與安全性問題</li>
           <li>Improve flatpak support</li>
           <li xml:lang="ar">تحسين دعم Flatpak</li>
@@ -1022,6 +1042,7 @@
           <li xml:lang="sl">Izboljša podporo za flatpak</li>
           <li xml:lang="tr">Flatpak desteğini iyileştir</li>
           <li xml:lang="uk">Удосконалено підтримку flatpak</li>
+          <li xml:lang="zh-CN">改进 flatpak 支持</li>
           <li xml:lang="zh-TW">改善 Flatpak 支援</li>
         </ul>
       </description>
@@ -1050,6 +1071,7 @@
           <li xml:lang="sl">Doda stran z nastavitvami za upravljanje spletnih aplikacij</li>
           <li xml:lang="tr">Web uygulamalarını yönetmek için bir ayarlar sayfası ekle</li>
           <li xml:lang="uk">Додано сторінку параметрів для керування вебпрограмами</li>
+          <li xml:lang="zh-CN">添加用于管理网页应用的设置页面</li>
           <li xml:lang="zh-TW">新增管理網頁應用程式用的設定頁面</li>
         </ul>
       </description>
