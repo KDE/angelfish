@@ -1,13 +1,13 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-angelfish package.
-# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2023, 2024, 2025 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
+# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-21 02:42+0000\n"
-"PO-Revision-Date: 2025-12-06 15:25+0100\n"
+"PO-Revision-Date: 2026-04-18 14:27+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: pl\n"
 "Language: pl\n"
@@ -816,9 +816,7 @@ msgid "Cancel"
 msgstr "Anuluj"
 
 #: src/qml/Downloads.qml:106
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Pause"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Pause"
 msgstr "Wstrzymaj"
@@ -938,9 +936,7 @@ msgid "Share Page"
 msgstr "Udostępnij stronę"
 
 #: src/qml/WebAppNameDialog.qml:18
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Add to Application Launcher"
+#, kde-format
 msgctxt "@title:window"
 msgid "Add to Application Launcher"
 msgstr "Dodaj do uruchamiacza aplikacji"
@@ -949,15 +945,13 @@ msgstr "Dodaj do uruchamiacza aplikacji"
 #, kde-format
 msgctxt "@info"
 msgid "Enter a name for the web application:"
-msgstr ""
+msgstr "Wpisz nazwę aplikacji sieciowej:"
 
 #: src/qml/WebAppNameDialog.qml:39
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Add to Application Launcher"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Application name"
-msgstr "Dodaj do uruchamiacza aplikacji"
+msgstr "Nazwa aplikacji"
 
 #: src/settings/AngelfishConfigurationView.qml:14
 #: src/settings/SettingsGeneral.qml:19
@@ -997,7 +991,7 @@ msgstr "Paski narzędzi"
 #, kde-format
 msgctxt "@label"
 msgid "Show home button:"
-msgstr "Pokaż przycisk domu:"
+msgstr "Pokaż przycisk strony domowej:"
 
 #: src/settings/DesktopHomeSettingsPage.qml:26
 #, kde-format
