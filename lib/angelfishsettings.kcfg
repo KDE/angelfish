@@ -12,108 +12,86 @@ SPDX-License-Identifier: LGPL-2.0-or-later
     <include>"settingshelper.h"</include>
     <group name="SettingsPage">
         <!-- The custom search engine that can be added to the list of engines -->
-        <entry key="searchCustomUrl" type="string" />
+        <entry key="searchCustomUrl" type="String" />
     </group>
     <group name="Browser">
-        <entry key="homepage" type="url">
-            <default>QUrl(QStringLiteral("https://noai.duckduckgo.com"))</default>
+        <entry key="homepage" type="Url">
+            <default>https://noai.duckduckgo.com</default>
         </entry>
-        <entry key="showHomeButton" type="bool">
+        <entry key="showHomeButton" type="Bool">
             <default>true</default>
         </entry>
-        <entry key="showTabBar" type="bool">
+        <entry key="showTabBar" type="Bool">
             <default>true</default>
         </entry>
-        <entry key="searchBaseUrl" type="url">
-            <default>QUrl(QStringLiteral("https://noai.duckduckgo.com/?q="))</default>
+        <entry key="searchBaseUrl" type="Url">
+            <default>https://noai.duckduckgo.com/?q=</default>
         </entry>
-        <entry key="newTabUrl" type="url">
-            <default>QUrl(QStringLiteral("https://noai.duckduckgo.com/?q="))</default>
+        <entry key="newTabUrl" type="Url">
+            <default>https://noai.duckduckgo.com/?q=</default>
         </entry>
-        <entry key="switchToNewTab" type="bool">
+        <entry key="switchToNewTab" type="Bool">
             <default>false</default>
         </entry>
     </group>
     <!-- Remember states -->
     <group name="WebView">
-        <entry key="profile" type="string">
-            <default>QStringLiteral("DefaultProfile")</default>
+        <entry key="profile" type="String">
+            <default>DefaultProfile</default>
         </entry>
-        <entry key="webAutoLoadImages" type="bool">
+        <entry key="webAutoLoadImages" type="Bool">
             <default>true</default>
         </entry>
-        <entry key="webJavaScriptEnabled" type="bool">
+        <entry key="webJavaScriptEnabled" type="Bool">
             <default>true</default>
         </entry>
-        <entry key="webSmoothScrollingEnabled" type="bool">
+        <entry key="webSmoothScrollingEnabled" type="Bool">
             <default>false</default>
         </entry>
-        <entry key="webDarkModeEnabled" type="bool">
+        <entry key="webDarkModeEnabled" type="Bool">
             <default>false</default>
         </entry>
     </group>
     <group name="NavigationBar">
-        <entry key="navBarMainMenu" type="bool">
+        <entry key="navBarMainMenu" type="Bool">
             <default>true</default>
         </entry>
-        <entry key="navBarTabs" type="bool">
+        <entry key="navBarTabs" type="Bool">
             <default>true</default>
         </entry>
-        <entry key="navBarBack" type="bool">
+        <entry key="navBarBack" type="Bool">
             <default>!SettingsHelper::isMobile()</default>
         </entry>
-        <entry key="navBarForward" type="bool">
+        <entry key="navBarForward" type="Bool">
             <default>!SettingsHelper::isMobile()</default>
         </entry>
-        <entry key="navBarReload" type="bool">
+        <entry key="navBarReload" type="Bool">
             <default>!SettingsHelper::isMobile()</default>
         </entry>
-        <entry key="navBarContextMenu" type="bool"></entry>
+        <entry key="navBarContextMenu" type="Bool"></entry>
     </group>
     <group name="Window">
-        <entry key="windowX" type="int" />
-        <entry key="windowY" type="int" />
-        <entry key="windowWidth" type="int">
+        <entry key="windowX" type="Int" />
+        <entry key="windowY" type="Int" />
+        <entry key="windowWidth" type="Int">
             <default>SettingsHelper::isMobile() ? 300 : 1020</default>
         </entry>
-        <entry key="windowHeight" type="int">
+        <entry key="windowHeight" type="Int">
             <default>SettingsHelper::isMobile() ? 450 : 680</default>
         </entry>
     </group>
     <!-- Store adblock lists -->
     <group name="Adblock">
-        <entry key="adblockEnabled" type="bool">
+        <entry key="adblockEnabled" type="Bool">
             <default>true</default>
         </entry>
-        <entry key="adblockFilterUrls" type="urlList">
-            <default>
-                {
-                    QUrl(QStringLiteral("https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt")),
-                    QUrl(QStringLiteral("https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt")),
-                    QUrl(QStringLiteral("https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt")),
-                    QUrl(QStringLiteral("https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt")),
-                    QUrl(QStringLiteral("https://easylist.to/easylist/easyprivacy.txt")),
-                    QUrl(QStringLiteral("https://easylist.to/easylist/easylist.txt")),
-                    QUrl(QStringLiteral("https://filters.adtidy.org/extension/ublock/filters/14.txt")),
-                    QUrl(QStringLiteral("https://easylist-downloads.adblockplus.org/antiadblockfilters.txt"))
-                }
-            </default>
+        <entry key="adblockFilterUrls" type="UrlList">
+            <default>https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt,https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt,https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt,https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt,https://easylist.to/easylist/easyprivacy.txt,https://easylist.to/easylist/easylist.txt,https://filters.adtidy.org/extension/ublock/filters/14.txt,https://easylist-downloads.adblockplus.org/antiadblockfilters.txt</default>
         </entry>
-        <entry key="adblockFilterNames" type="stringList">
-            <default>
-                {
-                    QStringLiteral("uBlock filters"),
-                    QStringLiteral("uBlock filters – Privacy"),
-                    QStringLiteral("uBlock filters – Resource abuse"),
-                    QStringLiteral("uBlock filters – Unbreak"),
-                    QStringLiteral("EasyPrivacy"),
-                    QStringLiteral("Easylist"),
-                    QStringLiteral("AdGuard Annoyances"),
-                    QStringLiteral("Adblock Warning Removal List")
-                }
-            </default>
+        <entry key="adblockFilterNames" type="StringList">
+            <default>uBlock filters,uBlock filters – Resource abuse,uBlock filters – Privacy,uBlock filters – Resource abuse,uBlock filters – Unbreak,EasyPrivacy,Easylist,AdGuard Annoyances,Adblock Warning Removal List</default>
         </entry>
-        <entry key="adblockFilterDownloadDismissed" type="bool">
+        <entry key="adblockFilterDownloadDismissed" type="Bool">
             <default>false</default>
         </entry>
     </group>
