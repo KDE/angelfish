@@ -17,6 +17,10 @@ WebEngineView {
     Kirigami.Theme.colorSet: Kirigami.Theme.View
     Kirigami.Theme.inherit: false
 
+    // make background color follow color sheme
+    // and dark mode setting
+    backgroundColor: Core.AngelfishSettings.webDarkModeEnabled ? "#000000" : Kirigami.Theme.backgroundColor
+
     // int, but we want nullability
     property var errorCode: null
     property var errorDomain: null
