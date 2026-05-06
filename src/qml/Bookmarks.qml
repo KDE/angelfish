@@ -4,6 +4,7 @@
 
 import QtQuick
 import QtQuick.Layouts
+import QtQuick.Controls as QQC2
 
 import org.kde.kirigami as Kirigami
 import org.kde.angelfish
@@ -14,7 +15,17 @@ Kirigami.ScrollablePage {
     objectName: "Bookmarks"
     Kirigami.ColumnView.fillWidth: false
 
-    header: Item {
+    actions: [
+        Kirigami.Action {
+            visible: !InterfaceLoader.isMobile
+            icon.name: "tab-close"
+
+            onTriggered: pageStack.pop()
+            tooltip: i18nc("@info:tooltip", "Close")
+        }
+    ]
+
+    header: QQC2.ToolBar {
         anchors.horizontalCenter: parent.horizontalCenter
         height: Kirigami.Units.gridUnit * 3
         width: list.width
@@ -26,7 +37,6 @@ Kirigami.ScrollablePage {
 
             clip: true
             inputMethodHints: rootPage.privateMode ? Qt.ImhNoPredictiveText : Qt.ImhNone
-            Kirigami.Theme.inherit: true
 
             onDisplayTextChanged: {
                 if (displayText === "" || displayText.length > 2) {
@@ -35,7 +45,6 @@ Kirigami.ScrollablePage {
                 }
                 else timer.running = true;
             }
-            Keys.onEscapePressed: pageStack.pop()
 
             Timer {
                 id: timer
@@ -50,6 +59,7 @@ Kirigami.ScrollablePage {
         id: delegateComponent
 
         UrlDelegate {
+            highlightText: list.model.filter
             title: model.title
             subtitle: model.url
 
@@ -59,11 +69,11 @@ Kirigami.ScrollablePage {
                 height: Kirigami.Units.largeSpacing * 3
             }
 
-            highlightText: list.model.filter
             onClicked: {
                 currentWebView.url = model.url;
                 pageStack.pop();
             }
+            onMiddleClicked: tabs.tabsModel.newTab(model.url);
             onRemoved: Core.BrowserManager.removeBookmark(model.url);
         }
     }
@@ -84,9 +94,12 @@ Kirigami.ScrollablePage {
     }
 
     Component.onCompleted: {
-        Qt.callLater(() => {
-            search.forceActiveFocus()
-            search.selectAll()
-        })
+        if (!InterfaceLoader.isMobile) {
+            Qt.callLater(() => {
+                search.forceActiveFocus()
+                search.selectAll()
+            })
+        }
     }
+    Keys.onEscapePressed: pageStack.pop()
 }

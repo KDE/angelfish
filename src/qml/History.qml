@@ -4,6 +4,7 @@
 
 import QtQuick
 import QtQuick.Layouts
+import QtQuick.Controls as QQC2
 
 import org.kde.kirigami as Kirigami
 import org.kde.angelfish
@@ -11,6 +12,7 @@ import org.kde.angelfish.core as Core
 
 Kirigami.ScrollablePage {
     title: i18nc("@title:window", "History")
+    objectName: "History"
     Kirigami.ColumnView.fillWidth: false
 
     actions: [
@@ -19,10 +21,18 @@ Kirigami.ScrollablePage {
             icon.name: "edit-clear-all"
 
             onTriggered: Core.BrowserManager.clearHistory()
+            tooltip: i18nc("@info:tooltip", "Clear all history")
+        },
+        Kirigami.Action {
+            visible: !InterfaceLoader.isMobile
+            icon.name: "tab-close"
+
+            onTriggered: pageStack.pop()
+            tooltip: i18nc("@info:tooltip", "Close")
         }
     ]
 
-    header: Item {
+    header: QQC2.ToolBar {
         anchors.horizontalCenter: parent.horizontalCenter
         height: Kirigami.Units.gridUnit * 3
         width: list.width
@@ -34,7 +44,6 @@ Kirigami.ScrollablePage {
 
             clip: true
             inputMethodHints: rootPage.privateMode ? Qt.ImhNoPredictiveText : Qt.ImhNone
-            Kirigami.Theme.inherit: true
 
             onDisplayTextChanged: {
                 if (displayText === "" || displayText.length > 2) {
@@ -43,7 +52,6 @@ Kirigami.ScrollablePage {
                 }
                 else timer.running = true;
             }
-            Keys.onEscapePressed: pageStack.pop()
 
             Timer {
                 id: timer
@@ -62,7 +70,6 @@ Kirigami.ScrollablePage {
             title: model.title
             subtitle: model.url
             
-            // width: list.width
             icon {
                 name: "image://favicon/" + model.url
                 width: Kirigami.Units.largeSpacing * 3
@@ -73,6 +80,7 @@ Kirigami.ScrollablePage {
                 currentWebView.url = model.url;
                 pageStack.pop();
             }
+            onMiddleClicked: tabs.tabsModel.newTab(model.url);
             onRemoved: Core.BrowserManager.removeFromHistory(model.url);
         }
     }
@@ -92,5 +100,13 @@ Kirigami.ScrollablePage {
         delegate: delegateComponent
     }
 
-    Component.onCompleted: search.forceActiveFocus()
+    Component.onCompleted: {
+        if (!InterfaceLoader.isMobile) {
+            Qt.callLater(() => {
+                search.forceActiveFocus()
+                search.selectAll()
+            })
+        }
+    }
+    Keys.onEscapePressed: pageStack.pop()
 }

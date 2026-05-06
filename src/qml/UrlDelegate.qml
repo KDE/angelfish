@@ -22,6 +22,7 @@ Delegates.RoundedItemDelegate {
     property string title
     property string subtitle
     signal removed
+    signal middleClicked
 
     text: title ? (highlightText ? title.replace(regex, highlightedText) : title) : ""
 
@@ -38,5 +39,12 @@ Delegates.RoundedItemDelegate {
             icon.name: "entry-delete"
             onClicked: root.removed()
         }
+    }
+
+    MouseArea {
+        anchors.fill: parent
+
+        acceptedButtons: Qt.MiddleButton
+        onClicked: (mouse) => tabs.tabsModel.newTab(model.url)
     }
 }

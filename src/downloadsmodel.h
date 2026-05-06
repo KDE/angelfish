@@ -28,4 +28,5 @@ public:
     QHash<int, QByteArray> roleNames() const override;
 
     Q_INVOKABLE void removeDownload(const int index);
+    Q_INVOKABLE void clearDownloads();
 };

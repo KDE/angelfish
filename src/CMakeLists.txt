@@ -41,9 +41,7 @@ ecm_target_qml_sources(angelfish
         qml/UrlDelegate.qml
         qml/WebAppNameDialog.qml
 
-        qml/desktop/BookmarksPage.qml
         qml/desktop/Desktop.qml
-        qml/desktop/HistoryPage.qml
         qml/desktop/TabHistory.qml
         qml/desktop/DesktopTabs.qml
         qml/desktop/DesktopTabDelegate.qml

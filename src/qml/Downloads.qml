@@ -15,7 +15,25 @@ import org.kde.angelfish
 
 Kirigami.ScrollablePage {
     title: i18nc("@title:window", "Downloads")
+    objectName: "Downloads"
     Kirigami.ColumnView.fillWidth: false
+
+    actions: [
+        Kirigami.Action {
+            text: "Clear"
+            icon.name: "edit-clear-all"
+
+            onTriggered: Core.BrowserManager.clearHistory()
+            tooltip: i18nc("@info:tooltip", "Clear finished downloads")
+        },
+        Kirigami.Action {
+            visible: !InterfaceLoader.isMobile
+            icon.name: "tab-close"
+
+            onTriggered: pageStack.pop()
+            tooltip: i18nc("@info:tooltip", "Close")
+        }
+    ]
 
     ListView {
         currentIndex: -1 // don't select anything at start
@@ -127,4 +145,5 @@ Kirigami.ScrollablePage {
             }
         }
     }
+    Keys.onEscapePressed: pageStack.pop()
 }

@@ -295,8 +295,12 @@ Kirigami.ApplicationWindow {
                     icon.name: "view-history"
                     shortcut: "Ctrl+H"
                     onTriggered: {
-                        popSubPages();
-                        webBrowser.pageStack.push(Qt.resolvedUrl("HistoryPage.qml"));
+                        if(webBrowser.pageStack.currentItem.objectName == "History"){
+                            popSubPages();
+                        } else {
+                            popSubPages();
+                            webBrowser.pageStack.push(Qt.resolvedUrl("History.qml"))
+                        }
                     }
                 }
                 Kirigami.Action {
@@ -304,10 +308,11 @@ Kirigami.ApplicationWindow {
                     icon.name: "bookmarks"
                     shortcut: "Ctrl+Shift+O"
                     onTriggered: {
-                        if(webBrowser.pageStack.currentItem.objectName == "BookmarksPage"){
+                        if(webBrowser.pageStack.currentItem.objectName == "Bookmarks"){
                             popSubPages();
                         } else {
-                            webBrowser.pageStack.push(Qt.resolvedUrl("BookmarksPage.qml"))
+                            popSubPages();
+                            pageStack.push(Qt.resolvedUrl("Bookmarks.qml"))
                         }
                     }
                 }
@@ -316,8 +321,12 @@ Kirigami.ApplicationWindow {
                     icon.name: "download"
                     shortcut: "Ctrl+J"
                     onTriggered: {
-                        popSubPages();
-                        webBrowser.pageStack.push(Qt.resolvedUrl("Downloads.qml"))
+                        if(webBrowser.pageStack.currentItem.objectName == "Downloads"){
+                            popSubPages();
+                        } else {
+                            popSubPages();
+                            webBrowser.pageStack.push(Qt.resolvedUrl("Downloads.qml"))
+                        }
                     }
                 }
 

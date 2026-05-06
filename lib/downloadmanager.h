@@ -18,6 +18,7 @@ public:
 
     Q_INVOKABLE void addDownload(std::unique_ptr<DownloadItem> &&download);
     Q_INVOKABLE void removeDownload(const int index);
+    Q_INVOKABLE void clearDownloads();
     const std::vector<std::unique_ptr<DownloadItem>> &downloads();
 
 private:

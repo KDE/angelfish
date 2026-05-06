@@ -63,4 +63,11 @@ void DownloadsModel::removeDownload(const int index)
     endRemoveRows();
 }
 
+void DownloadsModel::clearDownloads()
+{
+    beginResetModel();
+    DownloadManager::instance().clearDownloads();
+    endResetModel();
+}
+
 #include "moc_downloadsmodel.cpp"
