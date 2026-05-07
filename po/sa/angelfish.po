@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-08 00:45+0000\n"
+"POT-Creation-Date: 2026-05-07 00:44+0000\n"
 "PO-Revision-Date: 2024-12-24 20:39+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -332,238 +332,238 @@ msgctxt "@label:checkbox"
 msgid "Print backgrounds"
 msgstr "पृष्ठभूमिं मुद्रयन्तु"
 
-#: lib/contents/ui/WebView.qml:348
+#: lib/contents/ui/WebView.qml:352
 #, fuzzy, kde-format
 #| msgid "Website was opened in a new tab"
 msgctxt "@info:status"
 msgid "Website was opened in a new tab"
 msgstr "नूतने ट्याब् मध्ये वेबसाइट् उद्घाटिता आसीत्"
 
-#: lib/contents/ui/WebView.qml:366
+#: lib/contents/ui/WebView.qml:370
 #, fuzzy, kde-format
 #| msgid "Entered Full Screen Mode"
 msgctxt "@info:status"
 msgid "Entered Full Screen mode"
 msgstr "Full Screen Mode इत्यत्र प्रविष्टवान्"
 
-#: lib/contents/ui/WebView.qml:367
+#: lib/contents/ui/WebView.qml:371
 #, fuzzy, kde-format
 #| msgid "Exit Full Screen (Esc)"
 msgctxt "@action:button"
 msgid "Exit Full Screen (Esc)"
 msgstr "पूर्णपर्दे (Esc) निर्गच्छन्तु ."
 
-#: lib/contents/ui/WebView.qml:502
+#: lib/contents/ui/WebView.qml:506
 #, fuzzy, kde-format
 #| msgid "Play"
 msgctxt "@action:inmenu"
 msgid "Play"
 msgstr "क्रीडतु"
 
-#: lib/contents/ui/WebView.qml:503
+#: lib/contents/ui/WebView.qml:507
 #, fuzzy, kde-format
 #| msgid "Pause"
 msgctxt "@action:inmenu"
 msgid "Pause"
 msgstr "विराम"
 
-#: lib/contents/ui/WebView.qml:510
+#: lib/contents/ui/WebView.qml:514
 #, fuzzy, kde-format
 #| msgid "Unmute"
 msgctxt "@action:inmenu"
 msgid "Unmute"
 msgstr "अप्रसन्नता"
 
-#: lib/contents/ui/WebView.qml:511
+#: lib/contents/ui/WebView.qml:515
 #, fuzzy, kde-format
 #| msgid "Mute"
 msgctxt "@action:inmenu"
 msgid "Mute"
 msgstr "मूक"
 
-#: lib/contents/ui/WebView.qml:521
+#: lib/contents/ui/WebView.qml:525
 #, fuzzy, kde-format
 #| msgid "Speed"
 msgctxt "@label"
 msgid "Speed"
 msgstr "गति"
 
-#: lib/contents/ui/WebView.qml:544
+#: lib/contents/ui/WebView.qml:548
 #, fuzzy, kde-format
 #| msgid "Loop"
 msgctxt "@action:inmenu"
 msgid "Loop"
 msgstr "परिक्रम"
 
-#: lib/contents/ui/WebView.qml:551
+#: lib/contents/ui/WebView.qml:555
 #, fuzzy, kde-format
 #| msgid "Exit fullscreen"
 msgctxt "@action:inmenu"
 msgid "Exit Fullscreen"
 msgstr "पूर्णपर्दे निर्गच्छन्तु"
 
-#: lib/contents/ui/WebView.qml:551
+#: lib/contents/ui/WebView.qml:555
 #, fuzzy, kde-format
 #| msgid "Exit fullscreen"
 msgctxt "@action:inmenu"
 msgid "Enter Fullscreen"
 msgstr "पूर्णपर्दे निर्गच्छन्तु"
 
-#: lib/contents/ui/WebView.qml:564
+#: lib/contents/ui/WebView.qml:568
 #, fuzzy, kde-format
 #| msgid "Hide controls"
 msgctxt "@action:inmenu"
 msgid "Hide Controls"
 msgstr "नियन्त्रणानि गोपयन्तु"
 
-#: lib/contents/ui/WebView.qml:565
+#: lib/contents/ui/WebView.qml:569
 #, fuzzy, kde-format
 #| msgid "Show controls"
 msgctxt "@action:inmenu"
 msgid "Show Controls"
 msgstr "नियन्त्रणानि दर्शयतु"
 
-#: lib/contents/ui/WebView.qml:573
+#: lib/contents/ui/WebView.qml:577
 #, fuzzy, kde-format
 #| msgid "Open video"
 msgctxt "@action:inmenu"
 msgid "Open Video"
 msgstr "विडियो उद्घाटयतु"
 
-#: lib/contents/ui/WebView.qml:573
+#: lib/contents/ui/WebView.qml:577
 #, fuzzy, kde-format
 #| msgid "Open audio"
 msgctxt "@action:inmenu"
 msgid "Open Audio"
 msgstr "श्रव्यं उद्घाटयन्तु"
 
-#: lib/contents/ui/WebView.qml:574
+#: lib/contents/ui/WebView.qml:578
 #, fuzzy, kde-format
 #| msgid "Open video in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Video in New Tab"
 msgstr "नूतने ट्याब् मध्ये विडियो उद्घाटयन्तु"
 
-#: lib/contents/ui/WebView.qml:574
+#: lib/contents/ui/WebView.qml:578
 #, fuzzy, kde-format
 #| msgid "Open audio in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Audio in New Tab"
 msgstr "new Tab मध्ये audio उद्घाटयन्तु"
 
-#: lib/contents/ui/WebView.qml:586
+#: lib/contents/ui/WebView.qml:590
 #, fuzzy, kde-format
 #| msgid "Save video"
 msgctxt "@action:inmenu"
 msgid "Save Video"
 msgstr "विडियो रक्षतु"
 
-#: lib/contents/ui/WebView.qml:592
+#: lib/contents/ui/WebView.qml:596
 #, fuzzy, kde-format
 #| msgid "Copy video Link"
 msgctxt "@action:inmenu"
 msgid "Copy Video Link"
 msgstr "प्रतिलिपि विडियो लिङ्क"
 
-#: lib/contents/ui/WebView.qml:598
+#: lib/contents/ui/WebView.qml:602
 #, fuzzy, kde-format
 #| msgid "Open image"
 msgctxt "@action:inmenu"
 msgid "Open Image"
 msgstr "चित्रं उद्घाटयन्तु"
 
-#: lib/contents/ui/WebView.qml:598
+#: lib/contents/ui/WebView.qml:602
 #, fuzzy, kde-format
 #| msgid "Open image in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Image in New Tab"
 msgstr "नूतने Tab मध्ये चित्रं उद्घाटयन्तु"
 
-#: lib/contents/ui/WebView.qml:610
+#: lib/contents/ui/WebView.qml:614
 #, fuzzy, kde-format
 #| msgid "Save image"
 msgctxt "@action:inmenu"
 msgid "Save Image"
 msgstr "चित्रं रक्षतु"
 
-#: lib/contents/ui/WebView.qml:616
+#: lib/contents/ui/WebView.qml:620
 #, fuzzy, kde-format
 #| msgid "Copy image"
 msgctxt "@action:inmenu"
 msgid "Copy Image"
 msgstr "प्रतिबिम्बं प्रतिलिपितु"
 
-#: lib/contents/ui/WebView.qml:622
+#: lib/contents/ui/WebView.qml:626
 #, fuzzy, kde-format
 #| msgid "Copy image link"
 msgctxt "@action:inmenu"
 msgid "Copy Image Link"
 msgstr "प्रतिबिम्बलिङ्कं प्रतिलिखयतु"
 
-#: lib/contents/ui/WebView.qml:628
+#: lib/contents/ui/WebView.qml:632
 #, fuzzy, kde-format
 #| msgid "Open link"
 msgctxt "@action:inmenu"
 msgid "Open Link"
 msgstr "लिङ्कं उद्घाटयन्तु"
 
-#: lib/contents/ui/WebView.qml:628
+#: lib/contents/ui/WebView.qml:632
 #, fuzzy, kde-format
 #| msgid "Open link in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Link in New Tab"
 msgstr "new Tab इत्यत्र लिङ्कं उद्घाटयन्तु"
 
-#: lib/contents/ui/WebView.qml:640
+#: lib/contents/ui/WebView.qml:644
 #, fuzzy, kde-format
 #| msgid "Bookmark link"
 msgctxt "@action:inmenu"
 msgid "Bookmark Link"
 msgstr "बुकमार्क लिङ्क्"
 
-#: lib/contents/ui/WebView.qml:652
+#: lib/contents/ui/WebView.qml:656
 #, fuzzy, kde-format
 #| msgid "Save link"
 msgctxt "@action:inmenu"
 msgid "Save Link"
 msgstr "लिङ्कं रक्षतु"
 
-#: lib/contents/ui/WebView.qml:658
+#: lib/contents/ui/WebView.qml:662
 #, fuzzy, kde-format
 #| msgid "Copy link"
 msgctxt "@action:inmenu"
 msgid "Copy Link"
 msgstr "प्रतिलिङ्कं लिङ्कं कुर्वन्तु"
 
-#: lib/contents/ui/WebView.qml:665
+#: lib/contents/ui/WebView.qml:669
 #, fuzzy, kde-format
 #| msgid "Copy"
 msgctxt "@action:inmenu"
 msgid "Copy"
 msgstr "प्रतिलिपि"
 
-#: lib/contents/ui/WebView.qml:671
+#: lib/contents/ui/WebView.qml:675
 #, fuzzy, kde-format
 #| msgid "Cut"
 msgctxt "@action:inmenu"
 msgid "Cut"
 msgstr "छिन्न"
 
-#: lib/contents/ui/WebView.qml:677
+#: lib/contents/ui/WebView.qml:681
 #, fuzzy, kde-format
 #| msgid "Paste"
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "चिनोतु"
 
-#: lib/contents/ui/WebView.qml:685
+#: lib/contents/ui/WebView.qml:689
 #, fuzzy, kde-format
 #| msgid "Search history…"
 msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "अन्वेषण इतिहास…"
 
-#: lib/contents/ui/WebView.qml:698 src/qml/desktop/Desktop.qml:385
+#: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
 #: src/qml/Mobile.qml:333
 #, fuzzy, kde-format
 #| msgid "Share page"
@@ -571,7 +571,7 @@ msgctxt "@action:inmenu"
 msgid "Share Page"
 msgstr "पेज शेयर करें"
 
-#: lib/contents/ui/WebView.qml:710
+#: lib/contents/ui/WebView.qml:714
 #, fuzzy, kde-format
 #| msgid "View page source"
 msgctxt "@action:inmenu"
@@ -651,26 +651,19 @@ msgctxt "@info"
 msgid "Adblock Disabled…"
 msgstr ""
 
-#: src/qml/Bookmarks.qml:13
+#: src/qml/Bookmarks.qml:14
 #, fuzzy, kde-format
 #| msgid "Bookmarks"
 msgctxt "@title:window"
 msgid "Bookmarks"
 msgstr "बुकमार्क्स"
 
-#: src/qml/desktop/BookmarksPage.qml:33
+#: src/qml/Bookmarks.qml:24 src/qml/Downloads.qml:34 src/qml/History.qml:31
 #, fuzzy, kde-format
-#| msgid "Search bookmarks…"
-msgctxt "@info:placeholder"
-msgid "Search bookmarks…"
-msgstr "पुस्तकचिह्नानि अन्वेष्टुम्…"
-
-#: src/qml/desktop/BookmarksPage.qml:79
-#, fuzzy, kde-format
-#| msgid "No bookmarks yet"
-msgctxt "@info:placeholder"
-msgid "No bookmarks yet"
-msgstr "अद्यापि पुस्तकचिह्नानि नास्ति"
+#| msgid "Close tab"
+msgctxt "@info:tooltip"
+msgid "Close"
+msgstr "ट्याब् बन्दं कुर्वन्तु"
 
 #: src/qml/desktop/Desktop.qml:152
 #, fuzzy, kde-format
@@ -708,82 +701,82 @@ msgctxt "@action:inmenu"
 msgid "History"
 msgstr "इतिहास"
 
-#: src/qml/desktop/Desktop.qml:303 src/qml/Mobile.qml:100
+#: src/qml/desktop/Desktop.qml:307 src/qml/Mobile.qml:100
 #, fuzzy, kde-format
 #| msgid "Bookmarks"
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "बुकमार्क्स"
 
-#: src/qml/desktop/Desktop.qml:315 src/qml/Mobile.qml:112
+#: src/qml/desktop/Desktop.qml:320 src/qml/Mobile.qml:112
 #, fuzzy, kde-format
 #| msgid "Downloads"
 msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "डाउनलोड्स्"
 
-#: src/qml/desktop/Desktop.qml:326
+#: src/qml/desktop/Desktop.qml:335
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:336
+#: src/qml/desktop/Desktop.qml:345
 #, fuzzy, kde-format
 #| msgid "Print"
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr "मुद्रण"
 
-#: src/qml/desktop/Desktop.qml:342
+#: src/qml/desktop/Desktop.qml:351
 #, fuzzy, kde-format
 #| msgid "Full Screen"
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr "पूर्णपर्दे"
 
-#: src/qml/desktop/Desktop.qml:359
+#: src/qml/desktop/Desktop.qml:368
 #, fuzzy, kde-format
 #| msgid "Hide developer tools"
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "विकासकसाधनं गोपयन्तु"
 
-#: src/qml/desktop/Desktop.qml:360 src/qml/Mobile.qml:431
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:431
 #, fuzzy, kde-format
 #| msgid "Show developer tools"
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "विकासकसाधनं दर्शयतु"
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:329
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:329
 #, fuzzy, kde-format
 #| msgid "Find in page"
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "पृष्ठे अन्वेष्टुम्"
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:414
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:414
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "पाठकविधिः"
 
-#: src/qml/desktop/Desktop.qml:395
+#: src/qml/desktop/Desktop.qml:404
 #, fuzzy, kde-format
 #| msgid "Add to application launcher"
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "अनुप्रयोगप्रक्षेपकं योजयन्तु"
 
-#: src/qml/desktop/Desktop.qml:416 src/qml/Mobile.qml:127
+#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:127
 #, fuzzy, kde-format
 #| msgid "Settings"
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "सेटिंग्स्"
 
-#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:134
+#: src/qml/desktop/Desktop.qml:434 src/qml/Mobile.qml:134
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Angelfish"
@@ -852,27 +845,6 @@ msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
 msgstr "ट्याब् बन्दं कुर्वन्तु"
 
-#: src/qml/desktop/HistoryPage.qml:31
-#, fuzzy, kde-format
-#| msgid "Search history…"
-msgctxt "@info:placeholder"
-msgid "Search history…"
-msgstr "अन्वेषण इतिहास…"
-
-#: src/qml/desktop/HistoryPage.qml:47
-#, fuzzy, kde-format
-#| msgid "Clear all history"
-msgctxt "@info:tooltip"
-msgid "Clear all history"
-msgstr "सर्वं इतिहासं स्वच्छं कुर्वन्तु"
-
-#: src/qml/desktop/HistoryPage.qml:84
-#, fuzzy, kde-format
-#| msgid "Not history yet"
-msgctxt "@info:placeholder"
-msgid "No history yet"
-msgstr "अद्यापि इतिहासः न"
-
 #: src/qml/Downloads.qml:17
 #, fuzzy, kde-format
 #| msgid "Downloads"
@@ -880,14 +852,20 @@ msgctxt "@title:window"
 msgid "Downloads"
 msgstr "डाउनलोड्स्"
 
-#: src/qml/Downloads.qml:29
+#: src/qml/Downloads.qml:27
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear finished downloads"
+msgstr ""
+
+#: src/qml/Downloads.qml:47
 #, fuzzy, kde-format
 #| msgid "No running downloads"
 msgctxt "@info:placeholder"
 msgid "No running downloads"
 msgstr "न चलन्तः डाउनलोड्"
 
-#: src/qml/Downloads.qml:78
+#: src/qml/Downloads.qml:96
 #, fuzzy, kde-format
 #| msgctxt "download state"
 #| msgid "Starting…"
@@ -895,21 +873,21 @@ msgctxt "@info:progress"
 msgid "Starting…"
 msgstr "आरभ्य…"
 
-#: src/qml/Downloads.qml:80
+#: src/qml/Downloads.qml:98
 #, fuzzy, kde-format
 #| msgid "Completed"
 msgctxt "@info:progress"
 msgid "Completed"
 msgstr "सम्पन्न"
 
-#: src/qml/Downloads.qml:82
+#: src/qml/Downloads.qml:100
 #, fuzzy, kde-format
 #| msgid "Cancelled"
 msgctxt "@info:progress"
 msgid "Cancelled"
 msgstr "रद्दं कृतम्"
 
-#: src/qml/Downloads.qml:84
+#: src/qml/Downloads.qml:102
 #, fuzzy, kde-format
 #| msgctxt "download state"
 #| msgid "Interrupted"
@@ -917,7 +895,7 @@ msgctxt "@info:progress"
 msgid "Interrupted"
 msgstr "बाधित"
 
-#: src/qml/Downloads.qml:86
+#: src/qml/Downloads.qml:104
 #, fuzzy, kde-format
 #| msgctxt "download state"
 #| msgid "In progress"
@@ -925,21 +903,21 @@ msgctxt "@info:progress"
 msgid "In progress…"
 msgstr "प्रगतिशीलः अस्ति"
 
-#: src/qml/Downloads.qml:93
+#: src/qml/Downloads.qml:111
 #, fuzzy, kde-format
 #| msgid "Cancel"
 msgctxt "@info:tooltip"
 msgid "Cancel"
 msgstr "निरसयतु"
 
-#: src/qml/Downloads.qml:106
+#: src/qml/Downloads.qml:124
 #, fuzzy, kde-format
 #| msgid "Pause"
 msgctxt "@info:tooltip"
 msgid "Pause"
 msgstr "विराम"
 
-#: src/qml/Downloads.qml:118
+#: src/qml/Downloads.qml:136
 #, fuzzy, kde-format
 #| msgid "Continue"
 msgctxt "@info:tooltip"
@@ -953,12 +931,19 @@ msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr "अन्वेषण इतिहास…"
 
-#: src/qml/History.qml:13
+#: src/qml/History.qml:14
 #, fuzzy, kde-format
 #| msgid "History"
 msgctxt "@title:window"
 msgid "History"
 msgstr "इतिहास"
+
+#: src/qml/History.qml:24
+#, fuzzy, kde-format
+#| msgid "Clear all history"
+msgctxt "@info:tooltip"
+msgid "Clear all history"
+msgstr "सर्वं इतिहासं स्वच्छं कुर्वन्तु"
 
 #: src/qml/Mobile.qml:22
 #, fuzzy, kde-format
@@ -1432,6 +1417,30 @@ msgstr "एप्लिकेशनं निष्कासयन्तु"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "Web Apps संस्थापितम् नास्ति"
+
+#, fuzzy
+#~| msgid "Search bookmarks…"
+#~ msgctxt "@info:placeholder"
+#~ msgid "Search bookmarks…"
+#~ msgstr "पुस्तकचिह्नानि अन्वेष्टुम्…"
+
+#, fuzzy
+#~| msgid "No bookmarks yet"
+#~ msgctxt "@info:placeholder"
+#~ msgid "No bookmarks yet"
+#~ msgstr "अद्यापि पुस्तकचिह्नानि नास्ति"
+
+#, fuzzy
+#~| msgid "Search history…"
+#~ msgctxt "@info:placeholder"
+#~ msgid "Search history…"
+#~ msgstr "अन्वेषण इतिहास…"
+
+#, fuzzy
+#~| msgid "Not history yet"
+#~ msgctxt "@info:placeholder"
+#~ msgid "No history yet"
+#~ msgstr "अद्यापि इतिहासः न"
 
 #, fuzzy
 #~| msgid "Save"

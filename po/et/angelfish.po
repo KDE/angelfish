@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-08 00:45+0000\n"
+"POT-Creation-Date: 2026-05-07 00:44+0000\n"
 "PO-Revision-Date: 2020-06-03 20:47+0300\n"
 "Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
 "Language-Team: Estonian <kde-et@lists.linux.ee>\n"
@@ -315,226 +315,226 @@ msgctxt "@label:checkbox"
 msgid "Print backgrounds"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:348
+#: lib/contents/ui/WebView.qml:352
 #, fuzzy, kde-format
 #| msgid "Website was opened in a new tab"
 msgctxt "@info:status"
 msgid "Website was opened in a new tab"
 msgstr "Veebilehekülg avati uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:366
+#: lib/contents/ui/WebView.qml:370
 #, kde-format
 msgctxt "@info:status"
 msgid "Entered Full Screen mode"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:367
+#: lib/contents/ui/WebView.qml:371
 #, kde-format
 msgctxt "@action:button"
 msgid "Exit Full Screen (Esc)"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:502
+#: lib/contents/ui/WebView.qml:506
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Play"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:503
+#: lib/contents/ui/WebView.qml:507
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Pause"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:510
+#: lib/contents/ui/WebView.qml:514
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Unmute"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:511
+#: lib/contents/ui/WebView.qml:515
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Mute"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:521
+#: lib/contents/ui/WebView.qml:525
 #, kde-format
 msgctxt "@label"
 msgid "Speed"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:544
+#: lib/contents/ui/WebView.qml:548
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Loop"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:551
+#: lib/contents/ui/WebView.qml:555
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Exit Fullscreen"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:551
+#: lib/contents/ui/WebView.qml:555
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enter Fullscreen"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:564
+#: lib/contents/ui/WebView.qml:568
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Controls"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:565
+#: lib/contents/ui/WebView.qml:569
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Controls"
 msgstr ""
 
-#: lib/contents/ui/WebView.qml:573
+#: lib/contents/ui/WebView.qml:577
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Video"
 msgstr "Ava uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:573
+#: lib/contents/ui/WebView.qml:577
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Audio"
 msgstr "Ava uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:574
+#: lib/contents/ui/WebView.qml:578
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Video in New Tab"
 msgstr "Ava uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:574
+#: lib/contents/ui/WebView.qml:578
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Audio in New Tab"
 msgstr "Ava uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:586
+#: lib/contents/ui/WebView.qml:590
 #, fuzzy, kde-format
 #| msgid "Leave page"
 msgctxt "@action:inmenu"
 msgid "Save Video"
 msgstr "Lahku leheküljelt"
 
-#: lib/contents/ui/WebView.qml:592
+#: lib/contents/ui/WebView.qml:596
 #, fuzzy, kde-format
 #| msgid "Copy Url"
 msgctxt "@action:inmenu"
 msgid "Copy Video Link"
 msgstr "Kopeeri URL"
 
-#: lib/contents/ui/WebView.qml:598
+#: lib/contents/ui/WebView.qml:602
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Image"
 msgstr "Ava uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:598
+#: lib/contents/ui/WebView.qml:602
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Image in New Tab"
 msgstr "Ava uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:610
+#: lib/contents/ui/WebView.qml:614
 #, fuzzy, kde-format
 #| msgid "Leave page"
 msgctxt "@action:inmenu"
 msgid "Save Image"
 msgstr "Lahku leheküljelt"
 
-#: lib/contents/ui/WebView.qml:616
+#: lib/contents/ui/WebView.qml:620
 #, fuzzy, kde-format
 #| msgid "Load images"
 msgctxt "@action:inmenu"
 msgid "Copy Image"
 msgstr "Piltide laadimine"
 
-#: lib/contents/ui/WebView.qml:622
+#: lib/contents/ui/WebView.qml:626
 #, fuzzy, kde-format
 #| msgid "Load images"
 msgctxt "@action:inmenu"
 msgid "Copy Image Link"
 msgstr "Piltide laadimine"
 
-#: lib/contents/ui/WebView.qml:628
+#: lib/contents/ui/WebView.qml:632
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Link"
 msgstr "Ava uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:628
+#: lib/contents/ui/WebView.qml:632
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Link in New Tab"
 msgstr "Ava uuel kaardil"
 
-#: lib/contents/ui/WebView.qml:640
+#: lib/contents/ui/WebView.qml:644
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgctxt "@action:inmenu"
 msgid "Bookmark Link"
 msgstr "Järjehoidjatesse"
 
-#: lib/contents/ui/WebView.qml:652
+#: lib/contents/ui/WebView.qml:656
 #, fuzzy, kde-format
 #| msgid "Leave page"
 msgctxt "@action:inmenu"
 msgid "Save Link"
 msgstr "Lahku leheküljelt"
 
-#: lib/contents/ui/WebView.qml:658
+#: lib/contents/ui/WebView.qml:662
 #, fuzzy, kde-format
 #| msgid "Copy Url"
 msgctxt "@action:inmenu"
 msgid "Copy Link"
 msgstr "Kopeeri URL"
 
-#: lib/contents/ui/WebView.qml:665
+#: lib/contents/ui/WebView.qml:669
 #, fuzzy, kde-format
 #| msgid "Copy"
 msgctxt "@action:inmenu"
 msgid "Copy"
 msgstr "Kopeeri"
 
-#: lib/contents/ui/WebView.qml:671
+#: lib/contents/ui/WebView.qml:675
 #, fuzzy, kde-format
 #| msgid "Cut"
 msgctxt "@action:inmenu"
 msgid "Cut"
 msgstr "Lõika"
 
-#: lib/contents/ui/WebView.qml:677
+#: lib/contents/ui/WebView.qml:681
 #, fuzzy, kde-format
 #| msgid "Paste"
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "Aseta"
 
-#: lib/contents/ui/WebView.qml:685
+#: lib/contents/ui/WebView.qml:689
 #, fuzzy, kde-format
 #| msgid "Search online for '%1'"
 msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "\"%1\" otsimine võrgust"
 
-#: lib/contents/ui/WebView.qml:698 src/qml/desktop/Desktop.qml:385
+#: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
 #: src/qml/Mobile.qml:333
 #, fuzzy, kde-format
 #| msgid "Share page"
@@ -542,7 +542,7 @@ msgctxt "@action:inmenu"
 msgid "Share Page"
 msgstr "Jaga lehekülge"
 
-#: lib/contents/ui/WebView.qml:710
+#: lib/contents/ui/WebView.qml:714
 #, fuzzy, kde-format
 #| msgid "View source"
 msgctxt "@action:inmenu"
@@ -617,25 +617,19 @@ msgctxt "@info"
 msgid "Adblock Disabled…"
 msgstr ""
 
-#: src/qml/Bookmarks.qml:13
+#: src/qml/Bookmarks.qml:14
 #, fuzzy, kde-format
 #| msgid "Bookmarks"
 msgctxt "@title:window"
 msgid "Bookmarks"
 msgstr "Järjehoidjad"
 
-#: src/qml/desktop/BookmarksPage.qml:33
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Search bookmarks…"
-msgstr ""
-
-#: src/qml/desktop/BookmarksPage.qml:79
+#: src/qml/Bookmarks.qml:24 src/qml/Downloads.qml:34 src/qml/History.qml:31
 #, fuzzy, kde-format
-#| msgid "Add bookmark"
-msgctxt "@info:placeholder"
-msgid "No bookmarks yet"
-msgstr "Lisa järjehoidja"
+#| msgid "Close"
+msgctxt "@info:tooltip"
+msgid "Close"
+msgstr "Sulge"
 
 #: src/qml/desktop/Desktop.qml:152
 #, kde-format
@@ -672,77 +666,77 @@ msgctxt "@action:inmenu"
 msgid "History"
 msgstr "Ajalugu"
 
-#: src/qml/desktop/Desktop.qml:303 src/qml/Mobile.qml:100
+#: src/qml/desktop/Desktop.qml:307 src/qml/Mobile.qml:100
 #, fuzzy, kde-format
 #| msgid "Bookmarks"
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "Järjehoidjad"
 
-#: src/qml/desktop/Desktop.qml:315 src/qml/Mobile.qml:112
+#: src/qml/desktop/Desktop.qml:320 src/qml/Mobile.qml:112
 #, fuzzy, kde-format
 #| msgid "Download"
 msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "Laadi alla"
 
-#: src/qml/desktop/Desktop.qml:326
+#: src/qml/desktop/Desktop.qml:335
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:336
+#: src/qml/desktop/Desktop.qml:345
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:342
+#: src/qml/desktop/Desktop.qml:351
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:359
+#: src/qml/desktop/Desktop.qml:368
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:360 src/qml/Mobile.qml:431
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:431
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:329
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:329
 #, fuzzy, kde-format
 #| msgid "Find in page"
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Otsi leheküljelt"
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:414
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:414
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:395
+#: src/qml/desktop/Desktop.qml:404
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:416 src/qml/Mobile.qml:127
+#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:127
 #, fuzzy, kde-format
 #| msgid "Settings"
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "Seadistused"
 
-#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:134
+#: src/qml/desktop/Desktop.qml:434 src/qml/Mobile.qml:134
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Angelfish"
@@ -809,25 +803,6 @@ msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
 msgstr "Sulge"
 
-#: src/qml/desktop/HistoryPage.qml:31
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Search history…"
-msgstr ""
-
-#: src/qml/desktop/HistoryPage.qml:47
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Clear all history"
-msgstr ""
-
-#: src/qml/desktop/HistoryPage.qml:84
-#, fuzzy, kde-format
-#| msgid "Add bookmark"
-msgctxt "@info:placeholder"
-msgid "No history yet"
-msgstr "Lisa järjehoidja"
-
 #: src/qml/Downloads.qml:17
 #, fuzzy, kde-format
 #| msgid "Download"
@@ -835,58 +810,64 @@ msgctxt "@title:window"
 msgid "Downloads"
 msgstr "Laadi alla"
 
-#: src/qml/Downloads.qml:29
+#: src/qml/Downloads.qml:27
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear finished downloads"
+msgstr ""
+
+#: src/qml/Downloads.qml:47
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No running downloads"
 msgstr ""
 
-#: src/qml/Downloads.qml:78
+#: src/qml/Downloads.qml:96
 #, fuzzy, kde-format
 #| msgid "Settings"
 msgctxt "@info:progress"
 msgid "Starting…"
 msgstr "Seadistused"
 
-#: src/qml/Downloads.qml:80
+#: src/qml/Downloads.qml:98
 #, kde-format
 msgctxt "@info:progress"
 msgid "Completed"
 msgstr ""
 
-#: src/qml/Downloads.qml:82
+#: src/qml/Downloads.qml:100
 #, fuzzy, kde-format
 #| msgid "Cancel"
 msgctxt "@info:progress"
 msgid "Cancelled"
 msgstr "Loobu"
 
-#: src/qml/Downloads.qml:84
+#: src/qml/Downloads.qml:102
 #, kde-format
 msgctxt "@info:progress"
 msgid "Interrupted"
 msgstr ""
 
-#: src/qml/Downloads.qml:86
+#: src/qml/Downloads.qml:104
 #, kde-format
 msgctxt "@info:progress"
 msgid "In progress…"
 msgstr ""
 
-#: src/qml/Downloads.qml:93
+#: src/qml/Downloads.qml:111
 #, fuzzy, kde-format
 #| msgid "Cancel"
 msgctxt "@info:tooltip"
 msgid "Cancel"
 msgstr "Loobu"
 
-#: src/qml/Downloads.qml:106
+#: src/qml/Downloads.qml:124
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Pause"
 msgstr ""
 
-#: src/qml/Downloads.qml:118
+#: src/qml/Downloads.qml:136
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Continue"
@@ -899,12 +880,18 @@ msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr "Otsi ..."
 
-#: src/qml/History.qml:13
+#: src/qml/History.qml:14
 #, fuzzy, kde-format
 #| msgid "History"
 msgctxt "@title:window"
 msgid "History"
 msgstr "Ajalugu"
+
+#: src/qml/History.qml:24
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear all history"
+msgstr ""
 
 #: src/qml/Mobile.qml:22
 #, fuzzy, kde-format
@@ -1337,6 +1324,18 @@ msgstr ""
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Add bookmark"
+#~ msgctxt "@info:placeholder"
+#~ msgid "No bookmarks yet"
+#~ msgstr "Lisa järjehoidja"
+
+#, fuzzy
+#~| msgid "Add bookmark"
+#~ msgctxt "@info:placeholder"
+#~ msgid "No history yet"
+#~ msgstr "Lisa järjehoidja"
 
 #~ msgid "Private mode"
 #~ msgstr "Privaatrežiim"

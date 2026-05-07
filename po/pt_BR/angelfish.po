@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-08 00:45+0000\n"
+"POT-Creation-Date: 2026-05-07 00:44+0000\n"
 "PO-Revision-Date: 2026-04-08 08:46-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -303,212 +303,212 @@ msgctxt "@label:checkbox"
 msgid "Print backgrounds"
 msgstr "Imprimir fundos"
 
-#: lib/contents/ui/WebView.qml:348
+#: lib/contents/ui/WebView.qml:352
 #, kde-format
 msgctxt "@info:status"
 msgid "Website was opened in a new tab"
 msgstr "O site foi aberto em uma nova aba"
 
-#: lib/contents/ui/WebView.qml:366
+#: lib/contents/ui/WebView.qml:370
 #, kde-format
 msgctxt "@info:status"
 msgid "Entered Full Screen mode"
 msgstr "Entrou no modo de tela cheia"
 
-#: lib/contents/ui/WebView.qml:367
+#: lib/contents/ui/WebView.qml:371
 #, kde-format
 msgctxt "@action:button"
 msgid "Exit Full Screen (Esc)"
 msgstr "Sair da tela cheia (Esc)"
 
-#: lib/contents/ui/WebView.qml:502
+#: lib/contents/ui/WebView.qml:506
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Play"
 msgstr "Reproduzir"
 
-#: lib/contents/ui/WebView.qml:503
+#: lib/contents/ui/WebView.qml:507
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Pause"
 msgstr "Pausar"
 
-#: lib/contents/ui/WebView.qml:510
+#: lib/contents/ui/WebView.qml:514
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Unmute"
 msgstr "Ativar o som"
 
-#: lib/contents/ui/WebView.qml:511
+#: lib/contents/ui/WebView.qml:515
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Mute"
 msgstr "Mudo"
 
-#: lib/contents/ui/WebView.qml:521
+#: lib/contents/ui/WebView.qml:525
 #, kde-format
 msgctxt "@label"
 msgid "Speed"
 msgstr "Velocidade"
 
-#: lib/contents/ui/WebView.qml:544
+#: lib/contents/ui/WebView.qml:548
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Loop"
 msgstr "Repetição"
 
-#: lib/contents/ui/WebView.qml:551
+#: lib/contents/ui/WebView.qml:555
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Exit Fullscreen"
 msgstr "Sair da tela cheia"
 
-#: lib/contents/ui/WebView.qml:551
+#: lib/contents/ui/WebView.qml:555
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enter Fullscreen"
 msgstr "Entrar em tela cheia"
 
-#: lib/contents/ui/WebView.qml:564
+#: lib/contents/ui/WebView.qml:568
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Controls"
 msgstr "Ocultar controles"
 
-#: lib/contents/ui/WebView.qml:565
+#: lib/contents/ui/WebView.qml:569
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Controls"
 msgstr "Mostrar controles"
 
-#: lib/contents/ui/WebView.qml:573
+#: lib/contents/ui/WebView.qml:577
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video"
 msgstr "Abrir vídeo"
 
-#: lib/contents/ui/WebView.qml:573
+#: lib/contents/ui/WebView.qml:577
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio"
 msgstr "Abrir áudio"
 
-#: lib/contents/ui/WebView.qml:574
+#: lib/contents/ui/WebView.qml:578
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video in New Tab"
 msgstr "Abrir vídeo em nova aba"
 
-#: lib/contents/ui/WebView.qml:574
+#: lib/contents/ui/WebView.qml:578
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio in New Tab"
 msgstr "Abrir áudio em nova aba"
 
-#: lib/contents/ui/WebView.qml:586
+#: lib/contents/ui/WebView.qml:590
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Video"
 msgstr "Salvar vídeo"
 
-#: lib/contents/ui/WebView.qml:592
+#: lib/contents/ui/WebView.qml:596
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Video Link"
 msgstr "Copiar link do vídeo"
 
-#: lib/contents/ui/WebView.qml:598
+#: lib/contents/ui/WebView.qml:602
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image"
 msgstr "Abrir imagem"
 
-#: lib/contents/ui/WebView.qml:598
+#: lib/contents/ui/WebView.qml:602
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image in New Tab"
 msgstr "Abrir imagem em nova aba"
 
-#: lib/contents/ui/WebView.qml:610
+#: lib/contents/ui/WebView.qml:614
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Image"
 msgstr "Salvar imagem"
 
-#: lib/contents/ui/WebView.qml:616
+#: lib/contents/ui/WebView.qml:620
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image"
 msgstr "Copiar imagem"
 
-#: lib/contents/ui/WebView.qml:622
+#: lib/contents/ui/WebView.qml:626
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image Link"
 msgstr "Copiar link da imagem"
 
-#: lib/contents/ui/WebView.qml:628
+#: lib/contents/ui/WebView.qml:632
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Link"
 msgstr "Abrir link"
 
-#: lib/contents/ui/WebView.qml:628
+#: lib/contents/ui/WebView.qml:632
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Link in New Tab"
 msgstr "Abrir link em nova aba"
 
-#: lib/contents/ui/WebView.qml:640
+#: lib/contents/ui/WebView.qml:644
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Link"
 msgstr "Favoritar link"
 
-#: lib/contents/ui/WebView.qml:652
+#: lib/contents/ui/WebView.qml:656
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Link"
 msgstr "Salvar link"
 
-#: lib/contents/ui/WebView.qml:658
+#: lib/contents/ui/WebView.qml:662
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Link"
 msgstr "Copiar link"
 
-#: lib/contents/ui/WebView.qml:665
+#: lib/contents/ui/WebView.qml:669
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy"
 msgstr "Copiar"
 
-#: lib/contents/ui/WebView.qml:671
+#: lib/contents/ui/WebView.qml:675
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Cut"
 msgstr "Recortar"
 
-#: lib/contents/ui/WebView.qml:677
+#: lib/contents/ui/WebView.qml:681
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "Colar"
 
-#: lib/contents/ui/WebView.qml:685
+#: lib/contents/ui/WebView.qml:689
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "Pesquisar por \"%1\""
 
-#: lib/contents/ui/WebView.qml:698 src/qml/desktop/Desktop.qml:385
+#: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
 #: src/qml/Mobile.qml:333
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
 msgstr "Compartilhar página"
 
-#: lib/contents/ui/WebView.qml:710
+#: lib/contents/ui/WebView.qml:714
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "View Page Source"
@@ -583,23 +583,19 @@ msgctxt "@info"
 msgid "Adblock Disabled…"
 msgstr "Bloqueador de anúncios desabilitado…"
 
-#: src/qml/Bookmarks.qml:13
+#: src/qml/Bookmarks.qml:14
 #, kde-format
 msgctxt "@title:window"
 msgid "Bookmarks"
 msgstr "Favoritos"
 
-#: src/qml/desktop/BookmarksPage.qml:33
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Search bookmarks…"
-msgstr "Pesquisar favoritos…"
-
-#: src/qml/desktop/BookmarksPage.qml:79
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "No bookmarks yet"
-msgstr "Nenhum favorito ainda"
+#: src/qml/Bookmarks.qml:24 src/qml/Downloads.qml:34 src/qml/History.qml:31
+#, fuzzy, kde-format
+#| msgctxt "@info:tooltip"
+#| msgid "Close tab"
+msgctxt "@info:tooltip"
+msgid "Close"
+msgstr "Fechar aba"
 
 #: src/qml/desktop/Desktop.qml:152
 #, kde-format
@@ -632,73 +628,73 @@ msgctxt "@action:inmenu"
 msgid "History"
 msgstr "Histórico"
 
-#: src/qml/desktop/Desktop.qml:303 src/qml/Mobile.qml:100
+#: src/qml/desktop/Desktop.qml:307 src/qml/Mobile.qml:100
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "Favoritos"
 
-#: src/qml/desktop/Desktop.qml:315 src/qml/Mobile.qml:112
+#: src/qml/desktop/Desktop.qml:320 src/qml/Mobile.qml:112
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "Downloads"
 
-#: src/qml/desktop/Desktop.qml:326
+#: src/qml/desktop/Desktop.qml:335
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
 msgstr "Alternar modo celular"
 
-#: src/qml/desktop/Desktop.qml:336
+#: src/qml/desktop/Desktop.qml:345
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr "Imprimir"
 
-#: src/qml/desktop/Desktop.qml:342
+#: src/qml/desktop/Desktop.qml:351
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr "Tela cheia"
 
-#: src/qml/desktop/Desktop.qml:359
+#: src/qml/desktop/Desktop.qml:368
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Ocultar ferramentas de desenvolvimento"
 
-#: src/qml/desktop/Desktop.qml:360 src/qml/Mobile.qml:431
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:431
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Mostrar ferramentas de desenvolvimento"
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:329
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:329
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Localizar na página"
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:414
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:414
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Modo de leitura"
 
-#: src/qml/desktop/Desktop.qml:395
+#: src/qml/desktop/Desktop.qml:404
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "Adicionar ao lançador de aplicativos"
 
-#: src/qml/desktop/Desktop.qml:416 src/qml/Mobile.qml:127
+#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:127
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "Configurações"
 
-#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:134
+#: src/qml/desktop/Desktop.qml:434 src/qml/Mobile.qml:134
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Angelfish"
@@ -758,79 +754,67 @@ msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
 msgstr "Reabrir aba fechada"
 
-#: src/qml/desktop/HistoryPage.qml:31
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Search history…"
-msgstr "Pesquisar histórico…"
-
-#: src/qml/desktop/HistoryPage.qml:47
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Clear all history"
-msgstr "Limpar histórico"
-
-#: src/qml/desktop/HistoryPage.qml:84
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "No history yet"
-msgstr "Sem histórico"
-
 #: src/qml/Downloads.qml:17
 #, kde-format
 msgctxt "@title:window"
 msgid "Downloads"
 msgstr "Downloads"
 
-#: src/qml/Downloads.qml:29
+#: src/qml/Downloads.qml:27
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear finished downloads"
+msgstr ""
+
+#: src/qml/Downloads.qml:47
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No running downloads"
 msgstr "Nenhum download em andamento"
 
-#: src/qml/Downloads.qml:78
+#: src/qml/Downloads.qml:96
 #, kde-format
 msgctxt "@info:progress"
 msgid "Starting…"
 msgstr "Iniciando…"
 
-#: src/qml/Downloads.qml:80
+#: src/qml/Downloads.qml:98
 #, kde-format
 msgctxt "@info:progress"
 msgid "Completed"
 msgstr "Concluído"
 
-#: src/qml/Downloads.qml:82
+#: src/qml/Downloads.qml:100
 #, kde-format
 msgctxt "@info:progress"
 msgid "Cancelled"
 msgstr "Cancelado"
 
-#: src/qml/Downloads.qml:84
+#: src/qml/Downloads.qml:102
 #, kde-format
 msgctxt "@info:progress"
 msgid "Interrupted"
 msgstr "Interrompido"
 
-#: src/qml/Downloads.qml:86
+#: src/qml/Downloads.qml:104
 #, kde-format
 msgctxt "@info:progress"
 msgid "In progress…"
 msgstr "Em andamento…"
 
-#: src/qml/Downloads.qml:93
+#: src/qml/Downloads.qml:111
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: src/qml/Downloads.qml:106
+#: src/qml/Downloads.qml:124
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Pause"
 msgstr "Pausar"
 
-#: src/qml/Downloads.qml:118
+#: src/qml/Downloads.qml:136
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Continue"
@@ -842,11 +826,17 @@ msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr "Pesquisar…"
 
-#: src/qml/History.qml:13
+#: src/qml/History.qml:14
 #, kde-format
 msgctxt "@title:window"
 msgid "History"
 msgstr "Histórico"
+
+#: src/qml/History.qml:24
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear all history"
+msgstr "Limpar histórico"
 
 #: src/qml/Mobile.qml:22
 #, kde-format
@@ -1267,6 +1257,22 @@ msgstr "Remover aplicativo"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "Nenhum aplicativo Web instalado"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "Search bookmarks…"
+#~ msgstr "Pesquisar favoritos…"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "No bookmarks yet"
+#~ msgstr "Nenhum favorito ainda"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "Search history…"
+#~ msgstr "Pesquisar histórico…"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "No history yet"
+#~ msgstr "Sem histórico"
 
 #, fuzzy
 #~| msgid "Save"

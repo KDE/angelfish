@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-08 00:45+0000\n"
+"POT-Creation-Date: 2026-05-07 00:44+0000\n"
 "PO-Revision-Date: 2024-09-19 13:52+0300\n"
 "Last-Translator: Antonis Geralis <capoiosct@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -319,220 +319,220 @@ msgctxt "@label:checkbox"
 msgid "Print backgrounds"
 msgstr "Εκτύπωση φόντων"
 
-#: lib/contents/ui/WebView.qml:348
+#: lib/contents/ui/WebView.qml:352
 #, kde-format
 msgctxt "@info:status"
 msgid "Website was opened in a new tab"
 msgstr "Ο ιστότοπος άνοιξε σε νέα καρτέλα"
 
-#: lib/contents/ui/WebView.qml:366
+#: lib/contents/ui/WebView.qml:370
 #, fuzzy, kde-format
 #| msgid "Entered Full Screen Mode"
 msgctxt "@info:status"
 msgid "Entered Full Screen mode"
 msgstr "Εισήλθε σε λειτουργία πλήρους οθόνης"
 
-#: lib/contents/ui/WebView.qml:367
+#: lib/contents/ui/WebView.qml:371
 #, kde-format
 msgctxt "@action:button"
 msgid "Exit Full Screen (Esc)"
 msgstr "Έξοδος πλήρους οθόνης (Esc)"
 
-#: lib/contents/ui/WebView.qml:502
+#: lib/contents/ui/WebView.qml:506
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Play"
 msgstr "Αναπαραγωγή"
 
-#: lib/contents/ui/WebView.qml:503
+#: lib/contents/ui/WebView.qml:507
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Pause"
 msgstr "Παύση"
 
-#: lib/contents/ui/WebView.qml:510
+#: lib/contents/ui/WebView.qml:514
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Unmute"
 msgstr "Αποσίγαση"
 
-#: lib/contents/ui/WebView.qml:511
+#: lib/contents/ui/WebView.qml:515
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Mute"
 msgstr "Σίγαση"
 
-#: lib/contents/ui/WebView.qml:521
+#: lib/contents/ui/WebView.qml:525
 #, kde-format
 msgctxt "@label"
 msgid "Speed"
 msgstr "Ταχύτητα"
 
-#: lib/contents/ui/WebView.qml:544
+#: lib/contents/ui/WebView.qml:548
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Loop"
 msgstr "Επανάληψη"
 
-#: lib/contents/ui/WebView.qml:551
+#: lib/contents/ui/WebView.qml:555
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Exit Fullscreen"
 msgstr "Έξοδος πλήρους οθόνης"
 
-#: lib/contents/ui/WebView.qml:551
+#: lib/contents/ui/WebView.qml:555
 #, fuzzy, kde-format
 #| msgid "Exit fullscreen"
 msgctxt "@action:inmenu"
 msgid "Enter Fullscreen"
 msgstr "Έξοδος πλήρους οθόνης"
 
-#: lib/contents/ui/WebView.qml:564
+#: lib/contents/ui/WebView.qml:568
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Controls"
 msgstr "Απόκρυψη χειριστηριών"
 
-#: lib/contents/ui/WebView.qml:565
+#: lib/contents/ui/WebView.qml:569
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Controls"
 msgstr "Εμφάνιση χειριστηριών"
 
-#: lib/contents/ui/WebView.qml:573
+#: lib/contents/ui/WebView.qml:577
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video"
 msgstr "Άνοιγμα βίντεο"
 
-#: lib/contents/ui/WebView.qml:573
+#: lib/contents/ui/WebView.qml:577
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio"
 msgstr "Άνοιγμα ήχου"
 
-#: lib/contents/ui/WebView.qml:574
+#: lib/contents/ui/WebView.qml:578
 #, fuzzy, kde-format
 #| msgid "Open video in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Video in New Tab"
 msgstr "Άνοιγμα βίντεο σε νέα καρτέλα"
 
-#: lib/contents/ui/WebView.qml:574
+#: lib/contents/ui/WebView.qml:578
 #, fuzzy, kde-format
 #| msgid "Open audio in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Audio in New Tab"
 msgstr "Άνοιγμα ήχου σε νέα καρτέλα"
 
-#: lib/contents/ui/WebView.qml:586
+#: lib/contents/ui/WebView.qml:590
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Video"
 msgstr "Αποθήκευση βίντεο"
 
-#: lib/contents/ui/WebView.qml:592
+#: lib/contents/ui/WebView.qml:596
 #, fuzzy, kde-format
 #| msgid "Copy video Link"
 msgctxt "@action:inmenu"
 msgid "Copy Video Link"
 msgstr "Αντιγραφή συνδέσμου βίντεο"
 
-#: lib/contents/ui/WebView.qml:598
+#: lib/contents/ui/WebView.qml:602
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image"
 msgstr "Άνοιγμα εικόνας"
 
-#: lib/contents/ui/WebView.qml:598
+#: lib/contents/ui/WebView.qml:602
 #, fuzzy, kde-format
 #| msgid "Open image in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Image in New Tab"
 msgstr "Άνοιγμα εικόνας σε νέα καρτέλα"
 
-#: lib/contents/ui/WebView.qml:610
+#: lib/contents/ui/WebView.qml:614
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Image"
 msgstr "Αποθήκευση εικόνας"
 
-#: lib/contents/ui/WebView.qml:616
+#: lib/contents/ui/WebView.qml:620
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image"
 msgstr "Αντιγραφή εικόνας"
 
-#: lib/contents/ui/WebView.qml:622
+#: lib/contents/ui/WebView.qml:626
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image Link"
 msgstr "Αντιγραφή συνδέσμου εικόνας"
 
-#: lib/contents/ui/WebView.qml:628
+#: lib/contents/ui/WebView.qml:632
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Link"
 msgstr "Άνοιγμα συνδέσμου"
 
-#: lib/contents/ui/WebView.qml:628
+#: lib/contents/ui/WebView.qml:632
 #, fuzzy, kde-format
 #| msgid "Open link in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open Link in New Tab"
 msgstr "Άνοιγμα συνδέσμου σε νέα καρτέλα"
 
-#: lib/contents/ui/WebView.qml:640
+#: lib/contents/ui/WebView.qml:644
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Link"
 msgstr "Προσθήκη συνδέσμου στους Σελιδοδείκτες"
 
-#: lib/contents/ui/WebView.qml:652
+#: lib/contents/ui/WebView.qml:656
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Link"
 msgstr "Αποθήκευση συνδέσμου"
 
-#: lib/contents/ui/WebView.qml:658
+#: lib/contents/ui/WebView.qml:662
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Link"
 msgstr "Αντιγραφή συνδέσμου"
 
-#: lib/contents/ui/WebView.qml:665
+#: lib/contents/ui/WebView.qml:669
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy"
 msgstr "Αντιγραφή"
 
-#: lib/contents/ui/WebView.qml:671
+#: lib/contents/ui/WebView.qml:675
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Cut"
 msgstr "Αποκοπή"
 
-#: lib/contents/ui/WebView.qml:677
+#: lib/contents/ui/WebView.qml:681
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "Επικόλληση"
 
-#: lib/contents/ui/WebView.qml:685
+#: lib/contents/ui/WebView.qml:689
 #, fuzzy, kde-format
 #| msgid "Search online for '%1'"
 msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "Αναζήτηση σε σύνδεση για το '%1'"
 
-#: lib/contents/ui/WebView.qml:698 src/qml/desktop/Desktop.qml:385
+#: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
 #: src/qml/Mobile.qml:333
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
 msgstr "Διαμοιρασμός σελίδας"
 
-#: lib/contents/ui/WebView.qml:710
+#: lib/contents/ui/WebView.qml:714
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "View Page Source"
@@ -612,23 +612,19 @@ msgctxt "@info"
 msgid "Adblock Disabled…"
 msgstr ""
 
-#: src/qml/Bookmarks.qml:13
+#: src/qml/Bookmarks.qml:14
 #, kde-format
 msgctxt "@title:window"
 msgid "Bookmarks"
 msgstr "Σελιδοδείκτες"
 
-#: src/qml/desktop/BookmarksPage.qml:33
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Search bookmarks…"
-msgstr "Αναζήτηση στους σελιδοδείκτες…"
-
-#: src/qml/desktop/BookmarksPage.qml:79
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "No bookmarks yet"
-msgstr "Κανένας σελιδοδείκτης ακόμη"
+#: src/qml/Bookmarks.qml:24 src/qml/Downloads.qml:34 src/qml/History.qml:31
+#, fuzzy, kde-format
+#| msgctxt "@info:tooltip"
+#| msgid "Close tab"
+msgctxt "@info:tooltip"
+msgid "Close"
+msgstr "Κλείσιμο καρτέλας"
 
 #: src/qml/desktop/Desktop.qml:152
 #, kde-format
@@ -661,73 +657,73 @@ msgctxt "@action:inmenu"
 msgid "History"
 msgstr "Ιστορικό"
 
-#: src/qml/desktop/Desktop.qml:303 src/qml/Mobile.qml:100
+#: src/qml/desktop/Desktop.qml:307 src/qml/Mobile.qml:100
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "Σελιδοδείκτες"
 
-#: src/qml/desktop/Desktop.qml:315 src/qml/Mobile.qml:112
+#: src/qml/desktop/Desktop.qml:320 src/qml/Mobile.qml:112
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "Λήψεις"
 
-#: src/qml/desktop/Desktop.qml:326
+#: src/qml/desktop/Desktop.qml:335
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:336
+#: src/qml/desktop/Desktop.qml:345
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr "Εκτύπωση"
 
-#: src/qml/desktop/Desktop.qml:342
+#: src/qml/desktop/Desktop.qml:351
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr "Πλήρης οθόνη"
 
-#: src/qml/desktop/Desktop.qml:359
+#: src/qml/desktop/Desktop.qml:368
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Απόκρυψη εργαλείων προγραμματιστή"
 
-#: src/qml/desktop/Desktop.qml:360 src/qml/Mobile.qml:431
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:431
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Εμφάνιση εργαλείων προγραμματιστή"
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:329
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:329
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Εύρεση σε σελίδα"
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:414
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:414
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Λειτουργία ανάγνωσης"
 
-#: src/qml/desktop/Desktop.qml:395
+#: src/qml/desktop/Desktop.qml:404
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "Προσθήκη στον εκτελεστή εφαρμογών"
 
-#: src/qml/desktop/Desktop.qml:416 src/qml/Mobile.qml:127
+#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:127
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "Ρυθμίσεις"
 
-#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:134
+#: src/qml/desktop/Desktop.qml:434 src/qml/Mobile.qml:134
 #, fuzzy, kde-format
 #| msgid "Configure Angelfish"
 msgctxt "@action:inmenu"
@@ -790,74 +786,61 @@ msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
 msgstr "Κλείσιμο καρτέλας"
 
-#: src/qml/desktop/HistoryPage.qml:31
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Search history…"
-msgstr "Αναζήτηση στο ιστορικό…"
-
-#: src/qml/desktop/HistoryPage.qml:47
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Clear all history"
-msgstr "Καθαρισμός όλου του ιστορικού"
-
-#: src/qml/desktop/HistoryPage.qml:84
-#, fuzzy, kde-format
-#| msgid "Not history yet"
-msgctxt "@info:placeholder"
-msgid "No history yet"
-msgstr "Κανένα ιστορικό ακόμη"
-
 #: src/qml/Downloads.qml:17
 #, kde-format
 msgctxt "@title:window"
 msgid "Downloads"
 msgstr "Λήψεις"
 
-#: src/qml/Downloads.qml:29
+#: src/qml/Downloads.qml:27
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear finished downloads"
+msgstr ""
+
+#: src/qml/Downloads.qml:47
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No running downloads"
 msgstr "Δεν εκτελούνται λήψεις"
 
-#: src/qml/Downloads.qml:78
+#: src/qml/Downloads.qml:96
 #, kde-format
 msgctxt "@info:progress"
 msgid "Starting…"
 msgstr "Έναρξη…"
 
-#: src/qml/Downloads.qml:80
+#: src/qml/Downloads.qml:98
 #, kde-format
 msgctxt "@info:progress"
 msgid "Completed"
 msgstr "Ολοκληρώθηκε"
 
-#: src/qml/Downloads.qml:82
+#: src/qml/Downloads.qml:100
 #, kde-format
 msgctxt "@info:progress"
 msgid "Cancelled"
 msgstr "Ακυρώθηκε"
 
-#: src/qml/Downloads.qml:84
+#: src/qml/Downloads.qml:102
 #, kde-format
 msgctxt "@info:progress"
 msgid "Interrupted"
 msgstr "Διακόπηκε"
 
-#: src/qml/Downloads.qml:86
+#: src/qml/Downloads.qml:104
 #, kde-format
 msgctxt "@info:progress"
 msgid "In progress…"
 msgstr "Σε εξέλιξη…"
 
-#: src/qml/Downloads.qml:93
+#: src/qml/Downloads.qml:111
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Cancel"
 msgstr "Ακύρωση"
 
-#: src/qml/Downloads.qml:106
+#: src/qml/Downloads.qml:124
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Pause"
@@ -865,7 +848,7 @@ msgctxt "@info:tooltip"
 msgid "Pause"
 msgstr "Παύση"
 
-#: src/qml/Downloads.qml:118
+#: src/qml/Downloads.qml:136
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Continue"
@@ -878,11 +861,17 @@ msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr "Αναζήτηση στο ιστορικό…"
 
-#: src/qml/History.qml:13
+#: src/qml/History.qml:14
 #, kde-format
 msgctxt "@title:window"
 msgid "History"
 msgstr "Ιστορικό"
+
+#: src/qml/History.qml:24
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear all history"
+msgstr "Καθαρισμός όλου του ιστορικού"
 
 #: src/qml/Mobile.qml:22
 #, kde-format
@@ -1323,6 +1312,24 @@ msgstr "Διαγραφή εφαρμογής"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "Καμία ιστό-εφαρμογή δεν έχει εγκατασταθεί"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "Search bookmarks…"
+#~ msgstr "Αναζήτηση στους σελιδοδείκτες…"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "No bookmarks yet"
+#~ msgstr "Κανένας σελιδοδείκτης ακόμη"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "Search history…"
+#~ msgstr "Αναζήτηση στο ιστορικό…"
+
+#, fuzzy
+#~| msgid "Not history yet"
+#~ msgctxt "@info:placeholder"
+#~ msgid "No history yet"
+#~ msgstr "Κανένα ιστορικό ακόμη"
 
 #~ msgctxt "@action:button"
 #~ msgid "Save"

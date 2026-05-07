@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-08 00:45+0000\n"
+"POT-Creation-Date: 2026-05-07 00:44+0000\n"
 "PO-Revision-Date: 2026-01-03 22:20+0100\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -303,212 +303,212 @@ msgctxt "@label:checkbox"
 msgid "Print backgrounds"
 msgstr "Hátterek nyomtatása"
 
-#: lib/contents/ui/WebView.qml:348
+#: lib/contents/ui/WebView.qml:352
 #, kde-format
 msgctxt "@info:status"
 msgid "Website was opened in a new tab"
 msgstr "A weboldal egy új lapon nyílt meg"
 
-#: lib/contents/ui/WebView.qml:366
+#: lib/contents/ui/WebView.qml:370
 #, kde-format
 msgctxt "@info:status"
 msgid "Entered Full Screen mode"
 msgstr "Teljes képernyős mód"
 
-#: lib/contents/ui/WebView.qml:367
+#: lib/contents/ui/WebView.qml:371
 #, kde-format
 msgctxt "@action:button"
 msgid "Exit Full Screen (Esc)"
 msgstr "Kilépés a teljes képernyős módból (Esc)"
 
-#: lib/contents/ui/WebView.qml:502
+#: lib/contents/ui/WebView.qml:506
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Play"
 msgstr "Lejátszás"
 
-#: lib/contents/ui/WebView.qml:503
+#: lib/contents/ui/WebView.qml:507
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Pause"
 msgstr "Szünet"
 
-#: lib/contents/ui/WebView.qml:510
+#: lib/contents/ui/WebView.qml:514
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Unmute"
 msgstr "Visszahangosítás"
 
-#: lib/contents/ui/WebView.qml:511
+#: lib/contents/ui/WebView.qml:515
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Mute"
 msgstr "Némítás"
 
-#: lib/contents/ui/WebView.qml:521
+#: lib/contents/ui/WebView.qml:525
 #, kde-format
 msgctxt "@label"
 msgid "Speed"
 msgstr "Sebesség"
 
-#: lib/contents/ui/WebView.qml:544
+#: lib/contents/ui/WebView.qml:548
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Loop"
 msgstr "Ismétlődés"
 
-#: lib/contents/ui/WebView.qml:551
+#: lib/contents/ui/WebView.qml:555
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Exit Fullscreen"
 msgstr "Kilépés teljes képernyőből"
 
-#: lib/contents/ui/WebView.qml:551
+#: lib/contents/ui/WebView.qml:555
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enter Fullscreen"
 msgstr "Kilépés teljes képernyőből"
 
-#: lib/contents/ui/WebView.qml:564
+#: lib/contents/ui/WebView.qml:568
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Controls"
 msgstr "Vezérlők elrejtése"
 
-#: lib/contents/ui/WebView.qml:565
+#: lib/contents/ui/WebView.qml:569
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Controls"
 msgstr "Vezérlők megjelenítése"
 
-#: lib/contents/ui/WebView.qml:573
+#: lib/contents/ui/WebView.qml:577
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video"
 msgstr "Videó megnyitása"
 
-#: lib/contents/ui/WebView.qml:573
+#: lib/contents/ui/WebView.qml:577
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio"
 msgstr "Hang megnyitása"
 
-#: lib/contents/ui/WebView.qml:574
+#: lib/contents/ui/WebView.qml:578
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video in New Tab"
 msgstr "Videó megnyitása új lapon"
 
-#: lib/contents/ui/WebView.qml:574
+#: lib/contents/ui/WebView.qml:578
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio in New Tab"
 msgstr "Hang megnyitása új lapon"
 
-#: lib/contents/ui/WebView.qml:586
+#: lib/contents/ui/WebView.qml:590
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Video"
 msgstr "Videó mentése"
 
-#: lib/contents/ui/WebView.qml:592
+#: lib/contents/ui/WebView.qml:596
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Video Link"
 msgstr "Videó címének másolása"
 
-#: lib/contents/ui/WebView.qml:598
+#: lib/contents/ui/WebView.qml:602
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image"
 msgstr "Kép megnyitása"
 
-#: lib/contents/ui/WebView.qml:598
+#: lib/contents/ui/WebView.qml:602
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image in New Tab"
 msgstr "Kép megnyitása új lapon"
 
-#: lib/contents/ui/WebView.qml:610
+#: lib/contents/ui/WebView.qml:614
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Image"
 msgstr "Kép mentése"
 
-#: lib/contents/ui/WebView.qml:616
+#: lib/contents/ui/WebView.qml:620
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image"
 msgstr "Kép másolása"
 
-#: lib/contents/ui/WebView.qml:622
+#: lib/contents/ui/WebView.qml:626
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image Link"
 msgstr "Kép címének másolása"
 
-#: lib/contents/ui/WebView.qml:628
+#: lib/contents/ui/WebView.qml:632
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Link"
 msgstr "Hivatkozás megnyitása"
 
-#: lib/contents/ui/WebView.qml:628
+#: lib/contents/ui/WebView.qml:632
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Link in New Tab"
 msgstr "Hivatkozás megnyitása új lapon"
 
-#: lib/contents/ui/WebView.qml:640
+#: lib/contents/ui/WebView.qml:644
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Link"
 msgstr "Könyvjelző a hivatkozásra"
 
-#: lib/contents/ui/WebView.qml:652
+#: lib/contents/ui/WebView.qml:656
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Link"
 msgstr "Hivatkozás mentése"
 
-#: lib/contents/ui/WebView.qml:658
+#: lib/contents/ui/WebView.qml:662
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Link"
 msgstr "Hivatkozás másolása"
 
-#: lib/contents/ui/WebView.qml:665
+#: lib/contents/ui/WebView.qml:669
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy"
 msgstr "Másolás"
 
-#: lib/contents/ui/WebView.qml:671
+#: lib/contents/ui/WebView.qml:675
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Cut"
 msgstr "Kivágás"
 
-#: lib/contents/ui/WebView.qml:677
+#: lib/contents/ui/WebView.qml:681
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "Beillesztés"
 
-#: lib/contents/ui/WebView.qml:685
+#: lib/contents/ui/WebView.qml:689
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "„%1” keresése"
 
-#: lib/contents/ui/WebView.qml:698 src/qml/desktop/Desktop.qml:385
+#: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
 #: src/qml/Mobile.qml:333
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
 msgstr "Oldal megosztása"
 
-#: lib/contents/ui/WebView.qml:710
+#: lib/contents/ui/WebView.qml:714
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "View Page Source"
@@ -582,23 +582,19 @@ msgctxt "@info"
 msgid "Adblock Disabled…"
 msgstr "Adblock kikapcsolva…"
 
-#: src/qml/Bookmarks.qml:13
+#: src/qml/Bookmarks.qml:14
 #, kde-format
 msgctxt "@title:window"
 msgid "Bookmarks"
 msgstr "Könyvjelzők"
 
-#: src/qml/desktop/BookmarksPage.qml:33
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Search bookmarks…"
-msgstr "Könyvjelzők keresése…"
-
-#: src/qml/desktop/BookmarksPage.qml:79
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "No bookmarks yet"
-msgstr "Nincsenek könyvjelzők"
+#: src/qml/Bookmarks.qml:24 src/qml/Downloads.qml:34 src/qml/History.qml:31
+#, fuzzy, kde-format
+#| msgctxt "@info:tooltip"
+#| msgid "Close tab"
+msgctxt "@info:tooltip"
+msgid "Close"
+msgstr "Lap bezárása"
 
 #: src/qml/desktop/Desktop.qml:152
 #, kde-format
@@ -631,73 +627,73 @@ msgctxt "@action:inmenu"
 msgid "History"
 msgstr "Előzmények"
 
-#: src/qml/desktop/Desktop.qml:303 src/qml/Mobile.qml:100
+#: src/qml/desktop/Desktop.qml:307 src/qml/Mobile.qml:100
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "Könyvjelzők"
 
-#: src/qml/desktop/Desktop.qml:315 src/qml/Mobile.qml:112
+#: src/qml/desktop/Desktop.qml:320 src/qml/Mobile.qml:112
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "Letöltések"
 
-#: src/qml/desktop/Desktop.qml:326
+#: src/qml/desktop/Desktop.qml:335
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
 msgstr "Mobil mód be-/kikapcsolása"
 
-#: src/qml/desktop/Desktop.qml:336
+#: src/qml/desktop/Desktop.qml:345
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr "Nyomtatás"
 
-#: src/qml/desktop/Desktop.qml:342
+#: src/qml/desktop/Desktop.qml:351
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr "Teljes képernyő"
 
-#: src/qml/desktop/Desktop.qml:359
+#: src/qml/desktop/Desktop.qml:368
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Fejlesztői eszközök elrejtése"
 
-#: src/qml/desktop/Desktop.qml:360 src/qml/Mobile.qml:431
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:431
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Fejlesztői eszközök"
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:329
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:329
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Keresés az oldalon"
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:414
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:414
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Olvasó mód"
 
-#: src/qml/desktop/Desktop.qml:395
+#: src/qml/desktop/Desktop.qml:404
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "Hozzáadás az alkalmazásindítóhoz"
 
-#: src/qml/desktop/Desktop.qml:416 src/qml/Mobile.qml:127
+#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:127
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "Beállítások"
 
-#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:134
+#: src/qml/desktop/Desktop.qml:434 src/qml/Mobile.qml:134
 #, fuzzy, kde-format
 #| msgid "Angelfish"
 msgctxt "@action:inmenu"
@@ -758,73 +754,61 @@ msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
 msgstr "Bezárt lap újranyitása"
 
-#: src/qml/desktop/HistoryPage.qml:31
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Search history…"
-msgstr "Keresés az előzményekben…"
-
-#: src/qml/desktop/HistoryPage.qml:47
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Clear all history"
-msgstr "Minden előzmény törlése"
-
-#: src/qml/desktop/HistoryPage.qml:84
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "No history yet"
-msgstr "Nincsenek előzmények"
-
 #: src/qml/Downloads.qml:17
 #, kde-format
 msgctxt "@title:window"
 msgid "Downloads"
 msgstr "Letöltések"
 
-#: src/qml/Downloads.qml:29
+#: src/qml/Downloads.qml:27
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear finished downloads"
+msgstr ""
+
+#: src/qml/Downloads.qml:47
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No running downloads"
 msgstr "Nincsenek futó letöltések"
 
-#: src/qml/Downloads.qml:78
+#: src/qml/Downloads.qml:96
 #, kde-format
 msgctxt "@info:progress"
 msgid "Starting…"
 msgstr "Indítás…"
 
-#: src/qml/Downloads.qml:80
+#: src/qml/Downloads.qml:98
 #, kde-format
 msgctxt "@info:progress"
 msgid "Completed"
 msgstr "Befejezve"
 
-#: src/qml/Downloads.qml:82
+#: src/qml/Downloads.qml:100
 #, kde-format
 msgctxt "@info:progress"
 msgid "Cancelled"
 msgstr "Megszakítva"
 
-#: src/qml/Downloads.qml:84
+#: src/qml/Downloads.qml:102
 #, kde-format
 msgctxt "@info:progress"
 msgid "Interrupted"
 msgstr "Megszakítva"
 
-#: src/qml/Downloads.qml:86
+#: src/qml/Downloads.qml:104
 #, kde-format
 msgctxt "@info:progress"
 msgid "In progress…"
 msgstr "Folyamatban…"
 
-#: src/qml/Downloads.qml:93
+#: src/qml/Downloads.qml:111
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Cancel"
 msgstr "Mégse"
 
-#: src/qml/Downloads.qml:106
+#: src/qml/Downloads.qml:124
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Pause"
@@ -832,7 +816,7 @@ msgctxt "@info:tooltip"
 msgid "Pause"
 msgstr "Szünet"
 
-#: src/qml/Downloads.qml:118
+#: src/qml/Downloads.qml:136
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Continue"
@@ -844,11 +828,17 @@ msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr "Keresés…"
 
-#: src/qml/History.qml:13
+#: src/qml/History.qml:14
 #, kde-format
 msgctxt "@title:window"
 msgid "History"
 msgstr "Előzmények"
+
+#: src/qml/History.qml:24
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear all history"
+msgstr "Minden előzmény törlése"
 
 #: src/qml/Mobile.qml:22
 #, kde-format
@@ -1271,6 +1261,22 @@ msgstr "Alkalmazás eltávolítása"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "Nincs telepítve webalkalmazás"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "Search bookmarks…"
+#~ msgstr "Könyvjelzők keresése…"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "No bookmarks yet"
+#~ msgstr "Nincsenek könyvjelzők"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "Search history…"
+#~ msgstr "Keresés az előzményekben…"
+
+#~ msgctxt "@info:placeholder"
+#~ msgid "No history yet"
+#~ msgstr "Nincsenek előzmények"
 
 #~ msgctxt "@action:button"
 #~ msgid "Save"
