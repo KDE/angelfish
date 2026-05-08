@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-07 00:44+0000\n"
-"PO-Revision-Date: 2026-04-08 08:35+0300\n"
+"PO-Revision-Date: 2026-05-07 10:30+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -591,12 +591,10 @@ msgid "Bookmarks"
 msgstr "Закладки"
 
 #: src/qml/Bookmarks.qml:24 src/qml/Downloads.qml:34 src/qml/History.qml:31
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid "Close tab"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Close"
-msgstr "Закрити вкладку"
+msgstr "Закрити"
 
 #: src/qml/desktop/Desktop.qml:152
 #, kde-format
@@ -765,7 +763,7 @@ msgstr "Отримання файлів"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Clear finished downloads"
-msgstr ""
+msgstr "Вилучати записи завершених отримань зі списку"
 
 #: src/qml/Downloads.qml:47
 #, kde-format

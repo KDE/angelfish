@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-07 00:44+0000\n"
-"PO-Revision-Date: 2026-04-08 07:07+0200\n"
+"PO-Revision-Date: 2026-05-07 07:05+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -588,12 +588,10 @@ msgid "Bookmarks"
 msgstr "Zaznamki"
 
 #: src/qml/Bookmarks.qml:24 src/qml/Downloads.qml:34 src/qml/History.qml:31
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid "Close tab"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Close"
-msgstr "Zapri zavihek"
+msgstr "Zapri"
 
 #: src/qml/desktop/Desktop.qml:152
 #, kde-format
@@ -762,7 +760,7 @@ msgstr "Prejemi"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Clear finished downloads"
-msgstr ""
+msgstr "Počisti dokončane prenose"
 
 #: src/qml/Downloads.qml:47
 #, kde-format

@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the angelfish package.
 # Automatically generated, 2019.
 #
-# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2019-2026 Eloy Cuadra <ecuadra@eloihr.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-07 00:44+0000\n"
-"PO-Revision-Date: 2026-04-09 01:27+0100\n"
+"PO-Revision-Date: 2026-05-07 12:19+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.12.3\n"
+"X-Generator: Lokalize 26.04.0\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -600,12 +600,10 @@ msgid "Bookmarks"
 msgstr "Marcadores"
 
 #: src/qml/Bookmarks.qml:24 src/qml/Downloads.qml:34 src/qml/History.qml:31
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid "Close tab"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Close"
-msgstr "Cerrar la pestaña"
+msgstr "Cerrar"
 
 #: src/qml/desktop/Desktop.qml:152
 #, kde-format
@@ -774,7 +772,7 @@ msgstr "Descargas"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Clear finished downloads"
-msgstr ""
+msgstr "Limpiar las descargas finalizadas"
 
 #: src/qml/Downloads.qml:47
 #, kde-format
@@ -1270,19 +1268,3 @@ msgstr "Eliminar aplicación"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "No hay aplicaciones web instaladas"
-
-#~ msgctxt "@info:placeholder"
-#~ msgid "Search bookmarks…"
-#~ msgstr "Buscar en los marcadores…"
-
-#~ msgctxt "@info:placeholder"
-#~ msgid "No bookmarks yet"
-#~ msgstr "Aún no hay marcadores"
-
-#~ msgctxt "@info:placeholder"
-#~ msgid "Search history…"
-#~ msgstr "Buscar en el historial…"
-
-#~ msgctxt "@info:placeholder"
-#~ msgid "No history yet"
-#~ msgstr "Aún no hay historial"

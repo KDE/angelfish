@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the plasma-angelfish package.
 #
 # Volkan Gezer <volkangezer@gmail.com>, 2020, 2021.
-# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025, 2026 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2022-2026 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-07 00:44+0000\n"
-"PO-Revision-Date: 2026-05-02 19:50+0300\n"
+"PO-Revision-Date: 2026-05-07 14:18+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.12.3\n"
+"X-Generator: Lokalize 26.04.0\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -600,12 +600,10 @@ msgid "Bookmarks"
 msgstr "Yer İmleri"
 
 #: src/qml/Bookmarks.qml:24 src/qml/Downloads.qml:34 src/qml/History.qml:31
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid "Close tab"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Close"
-msgstr "Sekmeyi kapat"
+msgstr "Kapat"
 
 #: src/qml/desktop/Desktop.qml:152
 #, kde-format
@@ -774,7 +772,7 @@ msgstr "İndirilenler"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Clear finished downloads"
-msgstr ""
+msgstr "Bitmiş indirmeleri temizle"
 
 #: src/qml/Downloads.qml:47
 #, kde-format

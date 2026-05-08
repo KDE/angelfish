@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-07 00:44+0000\n"
-"PO-Revision-Date: 2026-04-08 07:11+0200\n"
+"PO-Revision-Date: 2026-05-07 07:35+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -591,12 +591,10 @@ msgid "Bookmarks"
 msgstr "სანიშნეები"
 
 #: src/qml/Bookmarks.qml:24 src/qml/Downloads.qml:34 src/qml/History.qml:31
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid "Close tab"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Close"
-msgstr "ჩანართის დახურვა"
+msgstr "დახურვა"
 
 #: src/qml/desktop/Desktop.qml:152
 #, kde-format
@@ -765,7 +763,7 @@ msgstr "გადმოწერები"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Clear finished downloads"
-msgstr ""
+msgstr "დასრულებული გადმოწერების გასუფთავება"
 
 #: src/qml/Downloads.qml:47
 #, kde-format
