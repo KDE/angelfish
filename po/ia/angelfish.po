@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-07 00:44+0000\n"
-"PO-Revision-Date: 2026-04-09 15:41+0200\n"
+"PO-Revision-Date: 2026-05-08 11:43+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -592,12 +592,10 @@ msgid "Bookmarks"
 msgstr "Marcatores de libro"
 
 #: src/qml/Bookmarks.qml:24 src/qml/Downloads.qml:34 src/qml/History.qml:31
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid "Close tab"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Close"
-msgstr "Claude scheda"
+msgstr "Claude"
 
 #: src/qml/desktop/Desktop.qml:152
 #, kde-format
@@ -766,7 +764,7 @@ msgstr "Discargamentos"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Clear finished downloads"
-msgstr ""
+msgstr "Discargamentos terminate clarmente"
 
 #: src/qml/Downloads.qml:47
 #, kde-format

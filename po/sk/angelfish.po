@@ -588,12 +588,10 @@ msgid "Bookmarks"
 msgstr "Záložky"
 
 #: src/qml/Bookmarks.qml:24 src/qml/Downloads.qml:34 src/qml/History.qml:31
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid "Close tab"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Close"
-msgstr "Zavrieť kartu"
+msgstr "Zavrieť"
 
 #: src/qml/desktop/Desktop.qml:152
 #, kde-format
@@ -762,7 +760,7 @@ msgstr "Sťahovania"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Clear finished downloads"
-msgstr ""
+msgstr "Vyčistiť dokončené stiahnutia"
 
 #: src/qml/Downloads.qml:47
 #, kde-format

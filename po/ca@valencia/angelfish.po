@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-07 00:44+0000\n"
-"PO-Revision-Date: 2026-04-08 08:52+0200\n"
+"PO-Revision-Date: 2026-05-07 09:43+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -597,12 +597,10 @@ msgid "Bookmarks"
 msgstr "Adreces d'interés"
 
 #: src/qml/Bookmarks.qml:24 src/qml/Downloads.qml:34 src/qml/History.qml:31
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid "Close tab"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Close"
-msgstr "Tanca la pestanya"
+msgstr "Tanca"
 
 #: src/qml/desktop/Desktop.qml:152
 #, kde-format
@@ -771,7 +769,7 @@ msgstr "Baixades"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Clear finished downloads"
-msgstr ""
+msgstr "Neteja les baixades acabades"
 
 #: src/qml/Downloads.qml:47
 #, kde-format
@@ -1265,19 +1263,3 @@ msgstr "Elimina l'aplicació"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "No hi ha instal·lada cap aplicació web"
-
-#~ msgctxt "@info:placeholder"
-#~ msgid "Search bookmarks…"
-#~ msgstr "Busca les adreces d'interés…"
-
-#~ msgctxt "@info:placeholder"
-#~ msgid "No bookmarks yet"
-#~ msgstr "Encara no hi ha cap adreça d'interés"
-
-#~ msgctxt "@info:placeholder"
-#~ msgid "Search history…"
-#~ msgstr "Busca en l'historial…"
-
-#~ msgctxt "@info:placeholder"
-#~ msgid "No history yet"
-#~ msgstr "Encara no hi ha historial"

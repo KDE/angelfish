@@ -578,12 +578,10 @@ msgid "Bookmarks"
 msgstr "书签"
 
 #: src/qml/Bookmarks.qml:24 src/qml/Downloads.qml:34 src/qml/History.qml:31
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid "Close tab"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Close"
-msgstr "关闭标签页"
+msgstr ""
 
 #: src/qml/desktop/Desktop.qml:152
 #, kde-format
@@ -1234,19 +1232,3 @@ msgstr "移除应用"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "没有已安装的网页应用"
-
-#~ msgctxt "@info:placeholder"
-#~ msgid "Search bookmarks…"
-#~ msgstr "搜索书签…"
-
-#~ msgctxt "@info:placeholder"
-#~ msgid "No bookmarks yet"
-#~ msgstr "没有书签"
-
-#~ msgctxt "@info:placeholder"
-#~ msgid "Search history…"
-#~ msgstr "搜索历史记录…"
-
-#~ msgctxt "@info:placeholder"
-#~ msgid "No history yet"
-#~ msgstr "没有历史记录"
