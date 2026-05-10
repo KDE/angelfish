@@ -1233,8 +1233,3 @@ msgstr ""
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr ""
-
-#, fuzzy
-#~ msgctxt "@info:placeholder"
-#~ msgid "No bookmarks yet"
-#~ msgstr "Bokmerke"
