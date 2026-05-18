@@ -26,3 +26,5 @@ ecm_add_test(configtest.cpp
              TEST_NAME configtest
              LINK_LIBRARIES Qt::Test AngelfishCore
 )
+
+add_test(NAME self-test COMMAND angelfish --self-test)

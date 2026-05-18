@@ -68,6 +68,11 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     // Command line parser
     QCommandLineParser parser;
     parser.addPositionalArgument(QStringLiteral("url"), i18n("URL to open"), QStringLiteral("[url]"));
+
+    QCommandLineOption selfTestOpt(u"self-test"_s, u"internal, for automated testing"_s);
+    selfTestOpt.setFlags(QCommandLineOption::HiddenFromHelp);
+    parser.addOption(selfTestOpt);
+
     parser.addHelpOption();
     parser.addVersionOption();
     parser.process(app);
@@ -173,6 +178,10 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     // Error handling
     if (engine.rootObjects().isEmpty()) {
         return -1;
+    }
+
+    if (parser.isSet(selfTestOpt)) {
+        QTimer::singleShot(std::chrono::milliseconds(250), &app, &QCoreApplication::quit);
     }
 
     return app.exec();
