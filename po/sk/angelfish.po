@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-07 00:44+0000\n"
+"POT-Creation-Date: 2026-05-19 00:44+0000\n"
 "PO-Revision-Date: 2023-11-13 18:52+0100\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <opensuse-translation@opensuse.org>\n"
@@ -518,38 +518,38 @@ msgstr "Zobraziť zdroj stránky"
 msgid "URL to open"
 msgstr "Otvoriť URL"
 
-#: src/main.cpp:81
+#: src/main.cpp:86
 #, kde-format
 msgid "Angelfish"
 msgstr "Angelfish"
 
-#: src/main.cpp:83
+#: src/main.cpp:88
 #, kde-format
 msgid "Web browser for Plasma Mobile"
 msgstr "Webový prehliadač pre Plasma Mobile"
 
-#: src/main.cpp:85
+#: src/main.cpp:90
 #, kde-format
 msgid "© 2015-2026 KDE Community"
 msgstr "© 2015-2026 KDE Community"
 
-#: src/main.cpp:88
+#: src/main.cpp:93
 #, kde-format
 msgid "Jonah Brüchert"
 msgstr "Jonah Brüchert"
 
-#: src/main.cpp:88
+#: src/main.cpp:93
 #, kde-format
 msgid "Maintainer"
 msgstr "Správca"
 
-#: src/main.cpp:89
+#: src/main.cpp:94
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Roman Paholík,Ferdinand Galko"
 
-#: src/main.cpp:89
+#: src/main.cpp:94
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"

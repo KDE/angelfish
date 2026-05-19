@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-07 00:44+0000\n"
+"POT-Creation-Date: 2026-05-19 00:44+0000\n"
 "PO-Revision-Date: 2026-02-21 14:08+0200\n"
 "Last-Translator: Alexander Yavorskiy <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -514,39 +514,39 @@ msgstr "Показать исходный код страницы"
 msgid "URL to open"
 msgstr "URL-адрес для открытия"
 
-#: src/main.cpp:81
+#: src/main.cpp:86
 #, kde-format
 msgid "Angelfish"
 msgstr "Angelfish"
 
-#: src/main.cpp:83
+#: src/main.cpp:88
 #, kde-format
 msgid "Web browser for Plasma Mobile"
 msgstr "Веб-браузер для Plasma Mobile"
 
-#: src/main.cpp:85
+#: src/main.cpp:90
 #, fuzzy, kde-format
 #| msgid "© 2015-2024 KDE Community"
 msgid "© 2015-2026 KDE Community"
 msgstr "© Сообщество KDE, 2015-2024"
 
-#: src/main.cpp:88
+#: src/main.cpp:93
 #, kde-format
 msgid "Jonah Brüchert"
 msgstr "Jonah Brüchert"
 
-#: src/main.cpp:88
+#: src/main.cpp:93
 #, kde-format
 msgid "Maintainer"
 msgstr "Сопровождающий"
 
-#: src/main.cpp:89
+#: src/main.cpp:94
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Дмитрий Астанков, Олеся Герасименко"
 
-#: src/main.cpp:89
+#: src/main.cpp:94
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
