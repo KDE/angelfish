@@ -1,21 +1,21 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-angelfish package.
 # Jung Hee Lee <daemul72@gmail.com>, 2019.
-# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2023, 2024, 2025 Shinjo Park <kde@peremen.name>
+# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Shinjo Park <kde@peremen.name>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-21 02:42+0000\n"
-"PO-Revision-Date: 2025-06-11 00:13+0200\n"
+"PO-Revision-Date: 2026-05-25 18:31+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 24.12.3\n"
+"X-Generator: Lokalize 25.12.3\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: angelfish-webapp/main.cpp:65
@@ -162,12 +162,10 @@ msgid "Download failed"
 msgstr "다운로드 실패"
 
 #: lib/contents/ui/ListWebView.qml:76 lib/contents/ui/ListWebView.qml:79
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Stop Loading"
+#, kde-format
 msgctxt "@title:webview"
 msgid "Loading"
-msgstr "불러오기 멈추기"
+msgstr "불러오는 중"
 
 #: lib/contents/ui/NewTabQuestion.qml:11
 #, kde-format
@@ -822,9 +820,7 @@ msgid "Cancel"
 msgstr "취소"
 
 #: src/qml/Downloads.qml:106
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Pause"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Pause"
 msgstr "일시 정지"
@@ -944,9 +940,7 @@ msgid "Share Page"
 msgstr "페이지 공유"
 
 #: src/qml/WebAppNameDialog.qml:18
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Add to Application Launcher"
+#, kde-format
 msgctxt "@title:window"
 msgid "Add to Application Launcher"
 msgstr "앱 실행기에 추가"
@@ -955,15 +949,13 @@ msgstr "앱 실행기에 추가"
 #, kde-format
 msgctxt "@info"
 msgid "Enter a name for the web application:"
-msgstr ""
+msgstr "웹 앱의 이름 입력:"
 
 #: src/qml/WebAppNameDialog.qml:39
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Add to Application Launcher"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Application name"
-msgstr "앱 실행기에 추가"
+msgstr "앱 이름"
 
 #: src/settings/AngelfishConfigurationView.qml:14
 #: src/settings/SettingsGeneral.qml:19
