@@ -210,6 +210,7 @@
       <li xml:lang="sl">zaznamki</li>
       <li xml:lang="sv">bokmärken</li>
       <li xml:lang="tr">yer imleri</li>
+      <li xml:lang="ug">خەتكۈش</li>
       <li xml:lang="uk">закладки</li>
       <li xml:lang="zh-CN">书签</li>
       <li xml:lang="zh-TW">書籤</li>
@@ -340,6 +341,7 @@
       <caption xml:lang="sl">Domača stran</caption>
       <caption xml:lang="sv">Hemsida</caption>
       <caption xml:lang="tr">Ana Sayfa</caption>
+      <caption xml:lang="ug">باش بەت</caption>
       <caption xml:lang="uk">Домашня сторінка</caption>
       <caption xml:lang="zh-CN">主页</caption>
       <caption xml:lang="zh-TW">首頁</caption>
