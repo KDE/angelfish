@@ -17,18 +17,16 @@ Item {
 
     property double dismissValue: 0 // Value between 1 and 0 animating the dismiss state of the navbar. 0 is full, 1 is dismissed.
     property double dismissOpacity: Math.max(1 - (dismissValue * 2), 0)
-    // The web view lags a bit when resizing, so this rounds the value.
-    property int dismissHeight: expandedHeight * (1 - Math.round(dismissValue) * 0.6)
+    property int dismissHeight: expandedHeight * (1 - dismissValue) + collapsedHeight * dismissValue
 
-    height: {
-        let progress = Math.max(-tabDragHandler.yAxis.activeValue, 0) / expandedHeight;
-        let effectProgress = Math.atan(progress);
-        return (expandedHeight + effectProgress * expandedHeight) * (1 - dismissValue * 0.6)
-    }
+    height: dismissValue == 0.0 ? expandedHeight : collapsedHeight
 
     property bool navigationShown: true
+    property bool shown: navigationShown || tabLayout.visible
 
     property int expandedHeight: Kirigami.Units.gridUnit * 3
+    property int collapsedHeight: expandedHeight * 0.4
+
     property int buttonSize: Kirigami.Units.gridUnit * 2
     property int gestureThreshold: expandedHeight * 2
     
@@ -83,40 +81,42 @@ Item {
         target: null
         yAxis.enabled: true
         xAxis.enabled: false
-        enabled: dismissValue == 0
+        enabled: shown
         onActiveChanged: {
             yAnimator.restart(); // go back to center
 
-            if (navigation.height >= gestureThreshold) {
+            if (navContainer.height >= gestureThreshold) {
                 tabsSheet.toggle()
             }
         }
-    }
-
-    NumberAnimation on height {
-        id: yAnimator
-        running: !tabDragHandler.active && dismissValue == 0
-        duration: Kirigami.Units.longDuration
-        easing.type: Easing.InOutQuad
-        to: navigation.expandedHeight
     }
     
     Item {
         id: navContainer
         width: navigation.width
-        height: navigation.height
-        y: Math.max(Math.round((navigation.height - navigation.expandedHeight) / 10), 0)
+        height: dismissHeight * (1 + Math.max(Math.atan(-tabDragHandler.yAxis.activeValue/expandedHeight), 0))
+        anchors.bottom: navigation.bottom
         
         opacity: 1 - (Math.abs(navContainer.x) / (navigation.gestureThreshold * 2))
+
+        Rectangle { anchors.fill: parent; color: Kirigami.Theme.backgroundColor; }
 
         // left/right gestures
         HapticsEffectLoader {
             id: vibrate
         }
 
+        NumberAnimation on height {
+            id: yAnimator
+            running: !tabDragHandler.active && dismissValue == 0
+            duration: Kirigami.Units.longDuration
+            easing.type: Easing.InOutQuad
+            to: navigation.expandedHeight
+        }
+
         MouseArea {
             anchors.fill: parent
-            enabled: navigation.dismissValue != 0
+            enabled: !navigation.shown
             onClicked: {
                 rootPage.navigationAutoShow = true;
                 rootPage.navigationAutoShowLock = false;
@@ -128,7 +128,7 @@ Item {
             target: parent
             yAxis.enabled: false
             xAxis.enabled: true
-            enabled: !navigation.tabsSheet.showTabs && navigation.dismissValue == 0
+            enabled: !navigation.tabsSheet.showTabs && navigation.shown
             xAxis.minimum: currentWebView.canGoForward ? -navigation.gestureThreshold : 0
             xAxis.maximum: currentWebView.canGoBack ? navigation.gestureThreshold : 0
             onActiveChanged: {
@@ -143,7 +143,7 @@ Item {
         }
         NumberAnimation on x {
             id: xAnimator
-            running: !dragHandler.active && navigation.dismissValue == 0
+            running: !dragHandler.active && navigation.shown
             duration: Kirigami.Units.longDuration
             easing.type: Easing.InOutQuad
             to: 0
@@ -195,7 +195,7 @@ Item {
 
                 Kirigami.Theme.inherit: true
 
-                enabled: navigation.dismissValue == 0
+                enabled: navigation.shown
                 onClicked: globalDrawer.open()
             }
 
@@ -233,7 +233,7 @@ Item {
                     }
                 }
 
-                enabled: navigation.dismissValue == 0
+                enabled: navigation.shown
                 onClicked: navigation.tabsSheet.toggle()
             }
 
@@ -249,7 +249,7 @@ Item {
 
                 Kirigami.Theme.inherit: true
 
-                enabled: navigation.dismissValue == 0
+                enabled: navigation.shown
                 onClicked: currentWebView.goBack()
                 onPressAndHold: {
                     navigation.historySheet.backHistory = true;
@@ -269,7 +269,7 @@ Item {
 
                 Kirigami.Theme.inherit: true
 
-                enabled: navigation.dismissValue == 0
+                enabled: navigation.shown
                 onClicked: currentWebView.goForward()
                 onPressAndHold: {
                     navigation.historySheet.backHistory = false;
@@ -319,7 +319,7 @@ Item {
                         height: parent.height
                         width: visible ? Math.round(navigation.buttonSize * 0.5) : 0
                         Kirigami.Theme.inherit: true
-                        enabled: navigation.dismissValue == 0
+                        enabled: navigation.shown
                         onClicked: navigation.activateUrlEntry()
                     }
 
@@ -349,7 +349,7 @@ Item {
                 }
 
 
-                enabled: navigation.dismissValue == 0
+                enabled: navigation.shown
                 onClicked: navigation.activateUrlEntry()
             }
 
@@ -365,7 +365,7 @@ Item {
 
                 Kirigami.Theme.inherit: true
 
-                enabled: navigation.dismissValue == 0
+                // enabled: navigation.shown
                 onClicked: currentWebView.loading ? currentWebView.stopLoading() : currentWebView.reload()
 
             }
@@ -385,7 +385,7 @@ Item {
 
                 Kirigami.Theme.inherit: true
 
-                enabled: navigation.dismissValue == 0
+                enabled: navigation.shown
                 onClicked: contextDrawer.open()
             }
         }
@@ -457,7 +457,7 @@ Item {
     states: [
         State {
             name: "shown"
-            when: navigationShown || tabLayout.visible
+            when: shown
             PropertyChanges {
                 target: navigation
                 dismissValue: 0;
@@ -465,7 +465,7 @@ Item {
         },
         State {
             name: "hidden"
-            when: !navigationShown && !tabLayout.visible
+            when: !shown
             PropertyChanges {
                 target: navigation
                 dismissValue: 1;

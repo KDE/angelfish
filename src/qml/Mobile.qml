@@ -191,7 +191,6 @@ Kirigami.ApplicationWindow {
             objectName: "regularTabsObject"
             anchors.fill: parent
             activeTabs: rootPage.initialized && !rootPage.privateMode
-            bottomOffset: navigation.visible ? navigation.dismissHeight : 0
         }
 
         Core.ListWebView {
@@ -199,7 +198,6 @@ Kirigami.ApplicationWindow {
             anchors.fill: parent
             activeTabs: rootPage.initialized && rootPage.privateMode
             privateTabsMode: true
-            bottomOffset: navigation.visible ? navigation.dismissHeight : 0
         }
 
         Controls.ScrollBar {
@@ -271,8 +269,7 @@ Kirigami.ApplicationWindow {
             height: Math.round(Kirigami.Units.gridUnit / 6)
             z: navigation.z + 1
             anchors {
-                bottom: findInPage.active ? findInPage.top : navigation.top
-                bottomMargin: -Math.round(height / 2)
+                bottom: findInPage.active ? findInPage.top : parent.bottom
                 left: tabs.left
                 right: tabs.right
             }
@@ -284,11 +281,7 @@ Kirigami.ApplicationWindow {
                 color: Kirigami.Theme.highlightColor
 
                 width: Math.round(((currentWebView ? currentWebView.loadProgress : 0) / 100) * parent.width)
-                anchors {
-                    top: parent.top
-                    left: parent.left
-                    bottom: parent.bottom
-                }
+                anchors.fill: parent
             }
         }
 
@@ -468,14 +461,8 @@ Kirigami.ApplicationWindow {
         }
 
         // Bottom navigation bar
-        Navigation {
+        footer: Navigation {
             id: navigation
-
-            anchors {
-                bottom: parent.bottom
-                left: parent.left
-                right: parent.right
-            }
 
             navigationShown: visible && rootPage.navigationAutoShow && !rootPage.navigationAutoShowLock
             visible: webBrowser.visibility !== Window.FullScreen && !findInPage.active
@@ -502,12 +489,14 @@ Kirigami.ApplicationWindow {
         }
 
         // Thin line above navigation or find
+        // TODO: Enventualy replace it by a Kirigami Separator
         Rectangle {
             height: webBrowser.borderWidth
             color: webBrowser.borderColor
             anchors {
                 left: parent.left
-                bottom: findInPage.active ? findInPage.top : navigation.top
+                bottom: findInPage.active ? findInPage.top : parent.bottom
+                bottomMargin: findInPage.active ? 0 : navigation.dismissHeight - navigation.height
                 right: parent.right
             }
             visible: navigation.navigationShown || findInPage.active
