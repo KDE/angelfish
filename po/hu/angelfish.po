@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the plasma-angelfish package.
 #
 # Kristóf Kiszel <kiszel.kristof@gmail.com>, 2020, 2021.
-# SPDX-FileCopyrightText: 2021, 2022, 2024, 2025, 2026 Kristof Kiszel <ulysses@fsf.hu>
+# SPDX-FileCopyrightText: 2021-2022, 2024-2026 Kristof Kiszel <ulysses@fsf.hu>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-19 00:44+0000\n"
-"PO-Revision-Date: 2026-01-03 22:20+0100\n"
+"PO-Revision-Date: 2026-06-22 22:25+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.08.3\n"
+"X-Generator: Lokalize 26.04.2\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -809,12 +809,10 @@ msgid "Cancel"
 msgstr "Mégse"
 
 #: src/qml/Downloads.qml:124
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Pause"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Pause"
-msgstr "Szünet"
+msgstr "Szüneteltetés"
 
 #: src/qml/Downloads.qml:136
 #, kde-format
@@ -937,9 +935,7 @@ msgid "Share Page"
 msgstr "Oldal megosztása"
 
 #: src/qml/WebAppNameDialog.qml:18
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Add to Application Launcher"
+#, kde-format
 msgctxt "@title:window"
 msgid "Add to Application Launcher"
 msgstr "Hozzáadás az alkalmazásindítóhoz"
@@ -948,15 +944,13 @@ msgstr "Hozzáadás az alkalmazásindítóhoz"
 #, kde-format
 msgctxt "@info"
 msgid "Enter a name for the web application:"
-msgstr ""
+msgstr "Adja meg a webalkalmazás nevét:"
 
 #: src/qml/WebAppNameDialog.qml:39
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Add to Application Launcher"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Application name"
-msgstr "Hozzáadás az alkalmazásindítóhoz"
+msgstr "Alkalmazás neve"
 
 #: src/settings/AngelfishConfigurationView.qml:14
 #: src/settings/SettingsGeneral.qml:19
