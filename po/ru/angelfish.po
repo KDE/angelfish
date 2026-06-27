@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the plasma-angelfish package.
 #
 # Alexander Potashev <aspotashev@gmail.com>, 2019.
-# SPDX-FileCopyrightText: 2020, 2025, 2026 Alexander Yavorsky <kekcuha@gmail.com>
+# SPDX-FileCopyrightText: 2020, 2025-2026 Alexander Yavorsky <kekcuha@gmail.com>
 # SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Olesya Gerasimenko <translation-team@basealt.ru>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-19 00:44+0000\n"
-"PO-Revision-Date: 2026-02-21 14:08+0200\n"
+"PO-Revision-Date: 2026-06-26 20:54+0200\n"
 "Last-Translator: Alexander Yavorskiy <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 25.12.2\n"
+"X-Generator: Lokalize 26.04.2\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -525,10 +525,9 @@ msgid "Web browser for Plasma Mobile"
 msgstr "Веб-браузер для Plasma Mobile"
 
 #: src/main.cpp:90
-#, fuzzy, kde-format
-#| msgid "© 2015-2024 KDE Community"
+#, kde-format
 msgid "© 2015-2026 KDE Community"
-msgstr "© Сообщество KDE, 2015-2024"
+msgstr "© Сообщество KDE, 2015-2026"
 
 #: src/main.cpp:93
 #, kde-format
@@ -584,12 +583,10 @@ msgid "Bookmarks"
 msgstr "Закладки"
 
 #: src/qml/Bookmarks.qml:24 src/qml/Downloads.qml:34 src/qml/History.qml:31
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid "Close tab"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Close"
-msgstr "Закрыть вкладку"
+msgstr "Закрыть"
 
 #: src/qml/desktop/Desktop.qml:152
 #, kde-format
@@ -689,11 +686,10 @@ msgid "Settings"
 msgstr "Параметры"
 
 #: src/qml/desktop/Desktop.qml:434 src/qml/Mobile.qml:134
-#, fuzzy, kde-format
-#| msgid "Angelfish"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Angelfish"
-msgstr "Angelfish"
+msgstr "О Angelfish"
 
 #: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:275
 #, kde-format
@@ -759,7 +755,7 @@ msgstr "Загрузки"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Clear finished downloads"
-msgstr ""
+msgstr "Очистить завершённые загрузки"
 
 #: src/qml/Downloads.qml:47
 #, kde-format
@@ -982,16 +978,15 @@ msgid "Toolbars"
 msgstr "Панели инструментов"
 
 #: src/settings/AngelfishConfigurationView.qml:44
-#, fuzzy, kde-format
-#| msgid "Angelfish"
+#, kde-format
 msgid "About Angelfish"
-msgstr "Angelfish"
+msgstr "О Angelfish"
 
 #: src/settings/AngelfishConfigurationView.qml:47
 #, kde-format
 msgctxt "@title:group"
 msgid "About"
-msgstr ""
+msgstr "О приложении"
 
 #: src/settings/DesktopHomeSettingsPage.qml:25
 #, kde-format
