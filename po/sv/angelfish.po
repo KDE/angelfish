@@ -1,13 +1,13 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-angelfish package.
 #
-# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Stefan Asserhäll <stefan.asserhall@gmail.com>
+# SPDX-FileCopyrightText: 2019-2026 Stefan Asserhäll <stefan.asserhall@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-21 02:42+0000\n"
-"PO-Revision-Date: 2026-01-27 18:25+0100\n"
+"PO-Revision-Date: 2026-07-03 21:53+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.12.1\n"
+"X-Generator: Lokalize 26.04.2\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -936,9 +936,7 @@ msgid "Share Page"
 msgstr "Dela sida"
 
 #: src/qml/WebAppNameDialog.qml:18
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Add to Application Launcher"
+#, kde-format
 msgctxt "@title:window"
 msgid "Add to Application Launcher"
 msgstr "Lägg till i startprogram"
@@ -947,15 +945,13 @@ msgstr "Lägg till i startprogram"
 #, kde-format
 msgctxt "@info"
 msgid "Enter a name for the web application:"
-msgstr ""
+msgstr "Ange ett namn på webbprogrammet:"
 
 #: src/qml/WebAppNameDialog.qml:39
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Add to Application Launcher"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Application name"
-msgstr "Lägg till i startprogram"
+msgstr "Programnamn"
 
 #: src/settings/AngelfishConfigurationView.qml:14
 #: src/settings/SettingsGeneral.qml:19
