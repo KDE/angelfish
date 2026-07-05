@@ -340,6 +340,38 @@ Kirigami.ApplicationWindow {
 
                 QQC2.MenuSeparator {}
 
+                QQC2.MenuItem {
+                    text: i18nc("@action:inmenu", "Zoom")
+                    icon.name: "list-add"
+                    height: implicitContentHeight
+                    contentItem: RowLayout {
+                        anchors.fill: parent
+                        Kirigami.Icon {}
+                        QQC2.Label {
+                            Layout.alignment: Qt.AlignVCenter
+                            text: "Zoom:"
+                        }
+                        QQC2.DoubleSpinBox {
+                            Layout.alignment: Qt.AlignVCenter
+                            id: zoomSpinbox
+                            visible: true
+                            from: 0.5
+                            value: currentWebView.zoomFactor
+                            to: 5.0
+                            stepSize: 0.25
+                            editable: true
+                            onValueChanged: currentWebView.zoomFactor = zoomSpinbox.value
+                            textFromValue: function(value) {
+                                return Number(value * 100) + "%"
+                            }
+                            valueFromText: function(text) {
+                                let cleanText = text.replace("%", "")
+                                return Number(cleanText * 0.01)
+                            }
+                        }
+                    }
+                }
+
                 Kirigami.Action {
                     icon.name: "document-print"
                     text: i18nc("@action:inmenu", "Print")
