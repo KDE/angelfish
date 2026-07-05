@@ -346,13 +346,13 @@ Kirigami.ApplicationWindow {
                     height: implicitContentHeight
                     contentItem: RowLayout {
                         anchors.fill: parent
-                        Kirigami.Icon {}
                         QQC2.Label {
-                            Layout.alignment: Qt.AlignVCenter
-                            text: "Zoom:"
+                            Layout.alignment: Qt.AlignVCenter | Qt.AlignCenter
+                            leftPadding: Kirigami.Units.largeSpacing * 4
+                            text: "Zoom"
                         }
                         QQC2.DoubleSpinBox {
-                            Layout.alignment: Qt.AlignVCenter
+                            Layout.alignment: Qt.AlignVCenter | Qt.AlignRight
                             id: zoomSpinbox
                             visible: true
                             from: 0.5
