@@ -262,6 +262,12 @@ RowLayout {
     QQC2.Menu {
         id: tabMenu
         property int index
+        property Core.WebView tabWebView: tabs.itemAt(index).pageWebView
+
+        Core.UrlObserver {
+            id: tabUrlObserver
+            url: tabMenu.tabWebView.url
+        }
 
         Kirigami.Action {
             text: i18nc("@action:inmenu", "New Tab")
@@ -277,28 +283,34 @@ RowLayout {
             icon.name: "view-refresh"
             shortcut: "Ctrl+R"
             onTriggered: {
-                currentWebView.reload();
+                tabMenu.tabWebView.reload();
             }
         }
         Kirigami.Action {
             text: i18nc("@action:inmenu", "Duplicate Tab")
             icon.name: "tab-duplicate"
-            onTriggered: tabs.tabsModel.newTab(currentWebView.url)
+            onTriggered: tabs.tabsModel.newTab(tabMenu.tabWebView.url)
         }
 
         QQC2.MenuSeparator {}
 
         Kirigami.Action {
-            text: i18nc("@action:inmenu", "Bookmark Tab")
-            icon.name: urlObserver.bookmarked ? "rating" : "rating-unrated"
+            text: tabUrlObserver.bookmarked ?
+                i18nc("@action:inmenu", "Remove Bookmark") :
+                i18nc("@action:inmenu", "Bookmark Tab")
+            icon.name: tabUrlObserver.bookmarked ? "rating" : "rating-unrated"
             shortcut: "Ctrl+D"
             onTriggered: {
-                const request = {
-                    url: currentWebView.url,
-                    title: currentWebView.title,
-                    icon: currentWebView.icon
+                if (!tabUrlObserver.bookmarked) {
+                    var request = {
+                        url: tabMenu.tabWebView.url,
+                        title: tabMenu.tabWebView.title,
+                        icon: tabMenu.tabWebView.icon
+                    }
+                    Core.BrowserManager.addBookmark(request);
+                } else {
+                    Core.BrowserManager.removeBookmark(tabMenu.tabWebView.url);
                 }
-                BrowserManager.addBookmark(request)
             }
         }
 
