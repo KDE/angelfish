@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-19 00:44+0000\n"
+"POT-Creation-Date: 2026-07-06 00:44+0000\n"
 "PO-Revision-Date: 2022-08-19 20:36+0700\n"
 "Last-Translator: Wantoyèk <wantoyek@gmail.com>\n"
 "Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
@@ -559,7 +559,7 @@ msgid "Search for “%1”"
 msgstr "Cari online '%1'"
 
 #: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
-#: src/qml/Mobile.qml:333
+#: src/qml/Mobile.qml:326
 #, fuzzy, kde-format
 #| msgid "Share page"
 msgctxt "@action:inmenu"
@@ -669,7 +669,7 @@ msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "Cari histori..."
 
-#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:267
+#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:273
 #: src/qml/Navigation.qml:443
 #, fuzzy, kde-format
 #| msgid "New Tab"
@@ -738,21 +738,21 @@ msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Tampilkan peralatan pengembang"
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:431
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:424
 #, fuzzy, kde-format
 #| msgid "Show developer tools"
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Tampilkan peralatan pengembang"
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:329
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:322
 #, fuzzy, kde-format
 #| msgid "Find in page"
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Temukan halaman"
 
-#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:414
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:407
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
@@ -805,35 +805,42 @@ msgctxt "@info:tooltip"
 msgid "List all tabs"
 msgstr ""
 
-#: src/qml/desktop/DesktopTabs.qml:276
+#: src/qml/desktop/DesktopTabs.qml:282
 #, fuzzy, kde-format
 #| msgid "Close"
 msgctxt "@action:inmenu"
 msgid "Reload Tab"
 msgstr "Tutup"
 
-#: src/qml/desktop/DesktopTabs.qml:284
+#: src/qml/desktop/DesktopTabs.qml:290
 #, fuzzy, kde-format
 #| msgid "Private Tabs"
 msgctxt "@action:inmenu"
 msgid "Duplicate Tab"
 msgstr "Tab Privasi"
 
-#: src/qml/desktop/DesktopTabs.qml:292
+#: src/qml/desktop/DesktopTabs.qml:299
+#, fuzzy, kde-format
+#| msgid "Bookmark"
+msgctxt "@action:inmenu"
+msgid "Remove Bookmark"
+msgstr "Markah"
+
+#: src/qml/desktop/DesktopTabs.qml:300
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "Markah"
 
-#: src/qml/desktop/DesktopTabs.qml:308
+#: src/qml/desktop/DesktopTabs.qml:320
 #, fuzzy, kde-format
 #| msgid "Close"
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Tutup"
 
-#: src/qml/desktop/DesktopTabs.qml:314
+#: src/qml/desktop/DesktopTabs.qml:326
 #, fuzzy, kde-format
 #| msgid "Close"
 msgctxt "@action:inmenu"
@@ -961,69 +968,69 @@ msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
 msgstr "Tampilkan situs desktop"
 
-#: src/qml/Mobile.qml:344
+#: src/qml/Mobile.qml:337
 #, fuzzy, kde-format
 #| msgid "Add to homescreen"
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Tambahkan ke layar beranda"
 
-#: src/qml/Mobile.qml:356
+#: src/qml/Mobile.qml:349
 #, fuzzy, kde-format
 #| msgid "Open in app"
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Buka di aplikasi"
 
-#: src/qml/Mobile.qml:364
+#: src/qml/Mobile.qml:357
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr ""
 
-#: src/qml/Mobile.qml:372
+#: src/qml/Mobile.qml:365
 #, fuzzy, kde-format
 #| msgid "Go forward"
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "Maju"
 
-#: src/qml/Mobile.qml:379
+#: src/qml/Mobile.qml:372
 #, fuzzy, kde-format
 #| msgid "Stop loading"
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Hentikan pemuatan"
 
-#: src/qml/Mobile.qml:379
+#: src/qml/Mobile.qml:372
 #, fuzzy, kde-format
 #| msgid "Refresh"
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Segarkan"
 
-#: src/qml/Mobile.qml:389
+#: src/qml/Mobile.qml:382
 #, fuzzy, kde-format
 #| msgid "Bookmarked"
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "Dimarkah"
 
-#: src/qml/Mobile.qml:389
+#: src/qml/Mobile.qml:382
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Markah"
 
-#: src/qml/Mobile.qml:405
+#: src/qml/Mobile.qml:398
 #, fuzzy, kde-format
 #| msgid "Show desktop site"
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Tampilkan situs desktop"
 
-#: src/qml/Mobile.qml:422
+#: src/qml/Mobile.qml:415
 #, fuzzy, kde-format
 #| msgid "Hide navigation bar"
 msgctxt "@action:inmenu"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-19 00:44+0000\n"
+"POT-Creation-Date: 2026-07-06 00:44+0000\n"
 "PO-Revision-Date: 2026-02-25 13:34+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -494,7 +494,7 @@ msgid "Search for “%1”"
 msgstr "Etsi: ”%1”"
 
 #: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
-#: src/qml/Mobile.qml:333
+#: src/qml/Mobile.qml:326
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
@@ -594,7 +594,7 @@ msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "Kirjoita hakulause tai verkko-osoite…"
 
-#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:267
+#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:273
 #: src/qml/Navigation.qml:443
 #, kde-format
 msgctxt "@action:inmenu"
@@ -655,19 +655,19 @@ msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Piilota kehitystyökalut"
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:431
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:424
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Näytä kehitystyökalut"
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:329
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:322
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Etsi sivulta"
 
-#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:414
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:407
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
@@ -716,31 +716,39 @@ msgctxt "@info:tooltip"
 msgid "List all tabs"
 msgstr "Luettele kaikki välilehdet"
 
-#: src/qml/desktop/DesktopTabs.qml:276
+#: src/qml/desktop/DesktopTabs.qml:282
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reload Tab"
 msgstr "Virkistä välilehti"
 
-#: src/qml/desktop/DesktopTabs.qml:284
+#: src/qml/desktop/DesktopTabs.qml:290
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Duplicate Tab"
 msgstr "Monista välilehti"
 
-#: src/qml/desktop/DesktopTabs.qml:292
+#: src/qml/desktop/DesktopTabs.qml:299
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Bookmark"
+msgctxt "@action:inmenu"
+msgid "Remove Bookmark"
+msgstr "Kirjanmerkki"
+
+#: src/qml/desktop/DesktopTabs.qml:300
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "Tee välilehdestä kirjanmerkki"
 
-#: src/qml/desktop/DesktopTabs.qml:308
+#: src/qml/desktop/DesktopTabs.qml:320
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Sulje välilehti"
 
-#: src/qml/desktop/DesktopTabs.qml:314
+#: src/qml/desktop/DesktopTabs.qml:326
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
@@ -848,61 +856,61 @@ msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
 msgstr "Vaihda työpöytätilaan"
 
-#: src/qml/Mobile.qml:344
+#: src/qml/Mobile.qml:337
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Lisää kotinäyttöön"
 
-#: src/qml/Mobile.qml:356
+#: src/qml/Mobile.qml:349
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Avaa sovellukseen"
 
-#: src/qml/Mobile.qml:364
+#: src/qml/Mobile.qml:357
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr "Palaa"
 
-#: src/qml/Mobile.qml:372
+#: src/qml/Mobile.qml:365
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "Siirry eteenpäin"
 
-#: src/qml/Mobile.qml:379
+#: src/qml/Mobile.qml:372
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Pysäytä lataaminen"
 
-#: src/qml/Mobile.qml:379
+#: src/qml/Mobile.qml:372
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Virkistä"
 
-#: src/qml/Mobile.qml:389
+#: src/qml/Mobile.qml:382
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "Kirjanmerkitty"
 
-#: src/qml/Mobile.qml:389
+#: src/qml/Mobile.qml:382
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Kirjanmerkki"
 
-#: src/qml/Mobile.qml:405
+#: src/qml/Mobile.qml:398
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Näytä työpöytäsivusto"
 
-#: src/qml/Mobile.qml:422
+#: src/qml/Mobile.qml:415
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"

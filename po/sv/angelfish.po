@@ -1,13 +1,13 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-angelfish package.
 #
-# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Stefan Asserhäll <stefan.asserhall@gmail.com>
+# SPDX-FileCopyrightText: 2019-2026 Stefan Asserhäll <stefan.asserhall@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-19 00:44+0000\n"
-"PO-Revision-Date: 2026-01-27 18:25+0100\n"
+"POT-Creation-Date: 2026-07-06 00:44+0000\n"
+"PO-Revision-Date: 2026-07-05 17:15+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.12.1\n"
+"X-Generator: Lokalize 26.04.2\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -501,7 +501,7 @@ msgid "Search for “%1”"
 msgstr "Sök efter \"%1\""
 
 #: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
-#: src/qml/Mobile.qml:333
+#: src/qml/Mobile.qml:326
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
@@ -529,10 +529,9 @@ msgid "Web browser for Plasma Mobile"
 msgstr "Webbläsare för Plasma mobil"
 
 #: src/main.cpp:90
-#, fuzzy, kde-format
-#| msgid "© 2015-2024 KDE Community"
+#, kde-format
 msgid "© 2015-2026 KDE Community"
-msgstr "© 2015-2024 KDE-gemenskapen"
+msgstr "© 2015-2026 KDE-gemenskapen"
 
 #: src/main.cpp:93
 #, kde-format
@@ -588,12 +587,10 @@ msgid "Bookmarks"
 msgstr "Bokmärken"
 
 #: src/qml/Bookmarks.qml:24 src/qml/Downloads.qml:34 src/qml/History.qml:31
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid "Close tab"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Close"
-msgstr "Stäng flik"
+msgstr "Stäng"
 
 #: src/qml/desktop/Desktop.qml:152
 #, kde-format
@@ -601,7 +598,7 @@ msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "Sök efter eller ange webbadress…"
 
-#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:267
+#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:273
 #: src/qml/Navigation.qml:443
 #, kde-format
 msgctxt "@action:inmenu"
@@ -662,19 +659,19 @@ msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Dölj utvecklingsverktyg"
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:431
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:424
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Visa utvecklingsverktyg"
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:329
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:322
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Sök på sidan"
 
-#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:414
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:407
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
@@ -693,11 +690,10 @@ msgid "Settings"
 msgstr "Inställningar"
 
 #: src/qml/desktop/Desktop.qml:434 src/qml/Mobile.qml:134
-#, fuzzy, kde-format
-#| msgid "Angelfish"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Angelfish"
-msgstr "Angelfish"
+msgstr "Om Angelfish"
 
 #: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:275
 #, kde-format
@@ -723,31 +719,39 @@ msgctxt "@info:tooltip"
 msgid "List all tabs"
 msgstr "Lista alla flikar"
 
-#: src/qml/desktop/DesktopTabs.qml:276
+#: src/qml/desktop/DesktopTabs.qml:282
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reload Tab"
 msgstr "Uppdatera flik"
 
-#: src/qml/desktop/DesktopTabs.qml:284
+#: src/qml/desktop/DesktopTabs.qml:290
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Duplicate Tab"
 msgstr "Duplicera flik"
 
-#: src/qml/desktop/DesktopTabs.qml:292
+#: src/qml/desktop/DesktopTabs.qml:299
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Bookmark"
+msgctxt "@action:inmenu"
+msgid "Remove Bookmark"
+msgstr "Bokmärke"
+
+#: src/qml/desktop/DesktopTabs.qml:300
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "Bokmärk flik"
 
-#: src/qml/desktop/DesktopTabs.qml:308
+#: src/qml/desktop/DesktopTabs.qml:320
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Stäng flik"
 
-#: src/qml/desktop/DesktopTabs.qml:314
+#: src/qml/desktop/DesktopTabs.qml:326
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
@@ -763,7 +767,7 @@ msgstr "Nerladdningar"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Clear finished downloads"
-msgstr ""
+msgstr "Rensa färdiga nerladdningar"
 
 #: src/qml/Downloads.qml:47
 #, kde-format
@@ -855,61 +859,61 @@ msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
 msgstr "Ändra skrivbordsläge"
 
-#: src/qml/Mobile.qml:344
+#: src/qml/Mobile.qml:337
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Lägg till i på hemsida"
 
-#: src/qml/Mobile.qml:356
+#: src/qml/Mobile.qml:349
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Öppna i program"
 
-#: src/qml/Mobile.qml:364
+#: src/qml/Mobile.qml:357
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr "Gå tillbaka"
 
-#: src/qml/Mobile.qml:372
+#: src/qml/Mobile.qml:365
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "Gå framåt"
 
-#: src/qml/Mobile.qml:379
+#: src/qml/Mobile.qml:372
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Stoppa inläsning"
 
-#: src/qml/Mobile.qml:379
+#: src/qml/Mobile.qml:372
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Uppdatera"
 
-#: src/qml/Mobile.qml:389
+#: src/qml/Mobile.qml:382
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "Har bokmärke"
 
-#: src/qml/Mobile.qml:389
+#: src/qml/Mobile.qml:382
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Bokmärke"
 
-#: src/qml/Mobile.qml:405
+#: src/qml/Mobile.qml:398
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Visa skrivbordsplats"
 
-#: src/qml/Mobile.qml:422
+#: src/qml/Mobile.qml:415
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
@@ -934,9 +938,7 @@ msgid "Share Page"
 msgstr "Dela sida"
 
 #: src/qml/WebAppNameDialog.qml:18
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Add to Application Launcher"
+#, kde-format
 msgctxt "@title:window"
 msgid "Add to Application Launcher"
 msgstr "Lägg till i startprogram"
@@ -945,15 +947,13 @@ msgstr "Lägg till i startprogram"
 #, kde-format
 msgctxt "@info"
 msgid "Enter a name for the web application:"
-msgstr ""
+msgstr "Ange ett namn på webbprogrammet:"
 
 #: src/qml/WebAppNameDialog.qml:39
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Add to Application Launcher"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Application name"
-msgstr "Lägg till i startprogram"
+msgstr "Programnamn"
 
 #: src/settings/AngelfishConfigurationView.qml:14
 #: src/settings/SettingsGeneral.qml:19
@@ -990,16 +990,15 @@ msgid "Toolbars"
 msgstr "Verktygsrader"
 
 #: src/settings/AngelfishConfigurationView.qml:44
-#, fuzzy, kde-format
-#| msgid "Angelfish"
+#, kde-format
 msgid "About Angelfish"
-msgstr "Angelfish"
+msgstr "Om Angelfish"
 
 #: src/settings/AngelfishConfigurationView.qml:47
 #, kde-format
 msgctxt "@title:group"
 msgid "About"
-msgstr ""
+msgstr "Om"
 
 #: src/settings/DesktopHomeSettingsPage.qml:25
 #, kde-format

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-19 00:44+0000\n"
+"POT-Creation-Date: 2026-07-06 00:44+0000\n"
 "PO-Revision-Date: 2021-03-21 17:55+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@nuug.no>\n"
@@ -488,7 +488,7 @@ msgid "Search for “%1”"
 msgstr ""
 
 #: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
-#: src/qml/Mobile.qml:333
+#: src/qml/Mobile.qml:326
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
@@ -585,7 +585,7 @@ msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:267
+#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:273
 #: src/qml/Navigation.qml:443
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
@@ -646,19 +646,19 @@ msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:431
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:424
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:329
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:322
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Finn på sida"
 
-#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:414
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:407
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
@@ -706,31 +706,37 @@ msgctxt "@info:tooltip"
 msgid "List all tabs"
 msgstr ""
 
-#: src/qml/desktop/DesktopTabs.qml:276
+#: src/qml/desktop/DesktopTabs.qml:282
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reload Tab"
 msgstr ""
 
-#: src/qml/desktop/DesktopTabs.qml:284
+#: src/qml/desktop/DesktopTabs.qml:290
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Duplicate Tab"
 msgstr ""
 
-#: src/qml/desktop/DesktopTabs.qml:292
+#: src/qml/desktop/DesktopTabs.qml:299
+#, fuzzy, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove Bookmark"
+msgstr "Bokmerke"
+
+#: src/qml/desktop/DesktopTabs.qml:300
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "Bokmerke"
 
-#: src/qml/desktop/DesktopTabs.qml:308
+#: src/qml/desktop/DesktopTabs.qml:320
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Ny fane"
 
-#: src/qml/desktop/DesktopTabs.qml:314
+#: src/qml/desktop/DesktopTabs.qml:326
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
@@ -838,61 +844,61 @@ msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
 msgstr "Vis skrivebords-nettstad"
 
-#: src/qml/Mobile.qml:344
+#: src/qml/Mobile.qml:337
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Legg til på heimeskjermen"
 
-#: src/qml/Mobile.qml:356
+#: src/qml/Mobile.qml:349
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Opna i app"
 
-#: src/qml/Mobile.qml:364
+#: src/qml/Mobile.qml:357
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr ""
 
-#: src/qml/Mobile.qml:372
+#: src/qml/Mobile.qml:365
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "Gå fram"
 
-#: src/qml/Mobile.qml:379
+#: src/qml/Mobile.qml:372
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Stopp innlasting"
 
-#: src/qml/Mobile.qml:379
+#: src/qml/Mobile.qml:372
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Frisk opp"
 
-#: src/qml/Mobile.qml:389
+#: src/qml/Mobile.qml:382
 #, fuzzy, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "La til bokmerke"
 
-#: src/qml/Mobile.qml:389
+#: src/qml/Mobile.qml:382
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Bokmerke"
 
-#: src/qml/Mobile.qml:405
+#: src/qml/Mobile.qml:398
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Vis skrivebords-nettstad"
 
-#: src/qml/Mobile.qml:422
+#: src/qml/Mobile.qml:415
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-19 00:44+0000\n"
+"POT-Creation-Date: 2026-07-06 00:44+0000\n"
 "PO-Revision-Date: 2026-05-07 08:26+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -493,7 +493,7 @@ msgid "Search for “%1”"
 msgstr "חיפוש אחר „%1”"
 
 #: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
-#: src/qml/Mobile.qml:333
+#: src/qml/Mobile.qml:326
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
@@ -590,7 +590,7 @@ msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "חיפוש או מילוי כתובת…"
 
-#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:267
+#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:273
 #: src/qml/Navigation.qml:443
 #, kde-format
 msgctxt "@action:inmenu"
@@ -651,19 +651,19 @@ msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "הסתרת כלי מפתחים"
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:431
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:424
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "הצגת כלי מפתחים"
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:329
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:322
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "איתור בעמוד"
 
-#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:414
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:407
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
@@ -711,31 +711,39 @@ msgctxt "@info:tooltip"
 msgid "List all tabs"
 msgstr "הצגת כל הלשוניות"
 
-#: src/qml/desktop/DesktopTabs.qml:276
+#: src/qml/desktop/DesktopTabs.qml:282
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reload Tab"
 msgstr "ריענון לשונית"
 
-#: src/qml/desktop/DesktopTabs.qml:284
+#: src/qml/desktop/DesktopTabs.qml:290
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Duplicate Tab"
 msgstr "שכפול לשונית"
 
-#: src/qml/desktop/DesktopTabs.qml:292
+#: src/qml/desktop/DesktopTabs.qml:299
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Bookmark"
+msgctxt "@action:inmenu"
+msgid "Remove Bookmark"
+msgstr "הוספה לסימניות"
+
+#: src/qml/desktop/DesktopTabs.qml:300
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "הוספת לשונית לסימניות"
 
-#: src/qml/desktop/DesktopTabs.qml:308
+#: src/qml/desktop/DesktopTabs.qml:320
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "סגירת לשונית"
 
-#: src/qml/desktop/DesktopTabs.qml:314
+#: src/qml/desktop/DesktopTabs.qml:326
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reopen Closed Tab"
@@ -843,61 +851,61 @@ msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
 msgstr "החלפה למצב מחשב"
 
-#: src/qml/Mobile.qml:344
+#: src/qml/Mobile.qml:337
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "הוספה למסך הבית"
 
-#: src/qml/Mobile.qml:356
+#: src/qml/Mobile.qml:349
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "פתיחה ביישומון"
 
-#: src/qml/Mobile.qml:364
+#: src/qml/Mobile.qml:357
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr "חזרה"
 
-#: src/qml/Mobile.qml:372
+#: src/qml/Mobile.qml:365
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "התקדמות לבא"
 
-#: src/qml/Mobile.qml:379
+#: src/qml/Mobile.qml:372
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "עצירת הטעינה"
 
-#: src/qml/Mobile.qml:379
+#: src/qml/Mobile.qml:372
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "ריענון"
 
-#: src/qml/Mobile.qml:389
+#: src/qml/Mobile.qml:382
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "נוסף לסימניות"
 
-#: src/qml/Mobile.qml:389
+#: src/qml/Mobile.qml:382
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "הוספה לסימניות"
 
-#: src/qml/Mobile.qml:405
+#: src/qml/Mobile.qml:398
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "הצגת אתר לשולחן העבודה"
 
-#: src/qml/Mobile.qml:422
+#: src/qml/Mobile.qml:415
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
