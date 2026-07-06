@@ -892,6 +892,7 @@
           <li xml:lang="ru">Использован более подходящий пользовательский агент по умолчанию для мобильных устройств</li>
           <li xml:lang="sk">Použitie lepšieho predvoleného user-agent pre mobilné zariadenia</li>
           <li xml:lang="sl">Uporabi boljši privzeti uporabniški agent za mobilne naprave</li>
+          <li xml:lang="sv">Visa en bättre förvald användarmodul för mobilapparater</li>
           <li xml:lang="tr">Taşınabilir aygıtlar için daha iyi bir öntanımlı kullanıcı aracısı (user-agent) kullan</li>
           <li xml:lang="uk">Використано кращий агент користувача для мобільних пристроїв</li>
           <li xml:lang="zh-CN">让移动设备使用更好的默认用户代理</li>
@@ -924,6 +925,7 @@
           <li xml:lang="ru">Добавлена кнопка действия для очистки истории</li>
           <li xml:lang="sk">Pridanie tlačidla akcie na vymazanie histórie</li>
           <li xml:lang="sl">Doda akcijski gumb za brisanje zgodovine</li>
+          <li xml:lang="sv">Lägg till en åtgärdsknapp för att rensa historik</li>
           <li xml:lang="tr">Geçmişi temizlemek için eylem düğmesi ekle</li>
           <li xml:lang="uk">Дано кнопку дії для спорожнення журналу</li>
           <li xml:lang="zh-CN">添加清除历史记录的动作按钮</li>
