@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-06 00:44+0000\n"
-"PO-Revision-Date: 2026-05-07 05:08-0300\n"
+"PO-Revision-Date: 2026-07-06 08:34-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 26.04.0\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -735,12 +735,10 @@ msgid "Duplicate Tab"
 msgstr "Duplicar aba"
 
 #: src/qml/desktop/DesktopTabs.qml:299
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Bookmark"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove Bookmark"
-msgstr "Favorito"
+msgstr "Remover favorito"
 
 #: src/qml/desktop/DesktopTabs.qml:300
 #, kde-format

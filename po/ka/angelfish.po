@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-06 00:44+0000\n"
-"PO-Revision-Date: 2026-05-07 07:35+0200\n"
+"PO-Revision-Date: 2026-07-06 06:34+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -736,12 +736,10 @@ msgid "Duplicate Tab"
 msgstr "ჩანართის დუბლირება"
 
 #: src/qml/desktop/DesktopTabs.qml:299
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Bookmark"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove Bookmark"
-msgstr "სანიშნე"
+msgstr "სანიშნეს წაშლა"
 
 #: src/qml/desktop/DesktopTabs.qml:300
 #, kde-format

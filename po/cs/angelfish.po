@@ -728,12 +728,10 @@ msgid "Duplicate Tab"
 msgstr "Duplikovat kartu"
 
 #: src/qml/desktop/DesktopTabs.qml:299
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Bookmark"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove Bookmark"
-msgstr "Záložka"
+msgstr "Smazat záložku"
 
 #: src/qml/desktop/DesktopTabs.qml:300
 #, kde-format

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-06 00:44+0000\n"
-"PO-Revision-Date: 2026-05-07 10:30+0300\n"
+"PO-Revision-Date: 2026-07-06 09:02+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -736,12 +736,10 @@ msgid "Duplicate Tab"
 msgstr "Дублювати вкладку"
 
 #: src/qml/desktop/DesktopTabs.qml:299
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Bookmark"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove Bookmark"
-msgstr "Створити закладку"
+msgstr "Вилучити закладку"
 
 #: src/qml/desktop/DesktopTabs.qml:300
 #, kde-format

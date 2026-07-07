@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-06 00:44+0000\n"
-"PO-Revision-Date: 2026-05-21 11:14+0400\n"
+"PO-Revision-Date: 2026-07-06 18:16+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -725,12 +725,10 @@ msgid "Duplicate Tab"
 msgstr "كرّر اللسان"
 
 #: src/qml/desktop/DesktopTabs.qml:299
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Bookmark"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove Bookmark"
-msgstr "اضف للعلامات"
+msgstr "احذف العلامة"
 
 #: src/qml/desktop/DesktopTabs.qml:300
 #, kde-format
