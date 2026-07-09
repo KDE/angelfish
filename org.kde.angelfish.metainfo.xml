@@ -570,6 +570,7 @@
           <li xml:lang="ru">Возможность скрывать панель вкладок при одной открытой вкладке</li>
           <li xml:lang="sk">Možnosť skryť panel kariet pri otvorení jednej karty</li>
           <li xml:lang="sl">Dovoli skrivanje vrstice z zavihki, ko je odprt en sam zavihek</li>
+          <li xml:lang="sv">Tillåt att flikraden döljs när en enda flik är öppen</li>
           <li xml:lang="tr">Tek sekme açıkken sekme çubuğunun gizlenmesine izin ver</li>
           <li xml:lang="uk">Уможливлено приховування панелі вкладок, якщо відкрито єдину вкладку</li>
           <li xml:lang="zh-CN">当单个标签打开时允许隐藏标签栏</li>
@@ -596,6 +597,7 @@
           <li xml:lang="ru">Исправление активации окна в Wayland</li>
           <li xml:lang="sk">Opravenie aktivácie okna na Waylande</li>
           <li xml:lang="sl">Popravi aktivacijo oken na Waylandu</li>
+          <li xml:lang="sv">Rätta fönsteraktivering på Wayland</li>
           <li xml:lang="tr">Wayland üzerinde pencere etkinleştirmesini düzelt</li>
           <li xml:lang="uk">Виправлено активацію вікна у wayland</li>
           <li xml:lang="zh-CN">修复在 Wayland 上时的窗口激活问题</li>
@@ -629,6 +631,7 @@
           <li xml:lang="ru">Обновлена версия библиотеки блокировки рекламы</li>
           <li xml:lang="sk">Aktualizácia verzie balíčka adblock</li>
           <li xml:lang="sl">Posodobi različico programa adblock crate</li>
+          <li xml:lang="sv">Uppdatera reklamblockeringsversion</li>
           <li xml:lang="tr">Reklâm engelleme paketi sürümünü güncelle</li>
           <li xml:lang="uk">Оновлено версію блокувальника реклами</li>
           <li xml:lang="zh-CN">更新 adblock crate 版本</li>
@@ -655,6 +658,7 @@
           <li xml:lang="ru">Исправлено отсутствие записей веб-приложений в Phosh</li>
           <li xml:lang="sk">Opravenie zobrazenia položiek webových aplikácií v phosh</li>
           <li xml:lang="sl">Popravi vnose, ki se ne prikazujejo v phoshu</li>
+          <li xml:lang="sv">Rätta att webbprogramposter inte visas i phosh</li>
           <li xml:lang="tr">Web uygulaması girdilerinin Phosh’ta görünmemesi sorununu düzelt</li>
           <li xml:lang="uk">Виправлено показ записів вебпрограми у phosh</li>
           <li xml:lang="zh-CN">修复在 Phosh 中不显示网页应用条目</li>
@@ -681,6 +685,7 @@
           <li xml:lang="ru">Просмотр загрузки в версии для настольных компьютеров</li>
           <li xml:lang="sk">Sprístupnenie sťahovaní v desktopovej verzii</li>
           <li xml:lang="sl">Izpostavi prenose v namizni različici</li>
+          <li xml:lang="sv">Exponera nerladdningar i skrivbordsversionen</li>
           <li xml:lang="tr">Masaüstü sürümünde indirilenleri göster</li>
           <li xml:lang="uk">Реалізовано показ отриманих файлів у версії для робочих станцій</li>
           <li xml:lang="zh-CN">显示桌面版本中的下载</li>
@@ -714,6 +719,7 @@
           <li xml:lang="ru">Исправлены инструменты разработчика</li>
           <li xml:lang="sk">Opravenie nástrojov pre vývojárov</li>
           <li xml:lang="sl">Popravi orodja za razvijalce</li>
+          <li xml:lang="sv">Rätta utvecklingsverktyg</li>
           <li xml:lang="tr">Geliştirici araçlarını onar</li>
           <li xml:lang="uk">Виправлено інструменти розробника</li>
           <li xml:lang="zh-CN">修复开发者工具</li>
@@ -740,6 +746,7 @@
           <li xml:lang="ru">Исправлено отображение заголовка страницы в переключателе вкладок</li>
           <li xml:lang="sk">Opravenie zobrazenia názvu stránky v prepínači kariet</li>
           <li xml:lang="sl">Popravi prikaz naslova strani v preklopniku zavihkov</li>
+          <li xml:lang="sv">Rätta visning av sidrubrik i flikbytaren</li>
           <li xml:lang="tr">Sekme değiştiricisinde sayfa başlığının görüntülenmesini düzelt</li>
           <li xml:lang="uk">Виправлено показ заголовка сторінки на панелі перемикання вкладок</li>
           <li xml:lang="zh-CN">修复在标签切换器中显示页面标题的问题</li>
@@ -766,6 +773,7 @@
           <li xml:lang="ru">Исправлена неверная проверка в блокировщике рекламы</li>
           <li xml:lang="sk">Opravenie chybnej kontroly v blokovaní reklám</li>
           <li xml:lang="sl">Popravi napačno prijavo v blokator oglasov</li>
+          <li xml:lang="sv">Rätta felaktig kontroll i reklamblockering</li>
           <li xml:lang="tr">Reklâm engelleyicisindeki yanlış denetimi düzelt</li>
           <li xml:lang="uk">Виправлено помилкову перевірку у засобі блокування екрана</li>
           <li xml:lang="zh-CN">修复广告拦截器中错误的检查</li>
@@ -792,6 +800,7 @@
           <li xml:lang="ru">Реализован пользовательский интерфейс для настольных систем</li>
           <li xml:lang="sk">Implementácia desktopového používateľského rozhrania</li>
           <li xml:lang="sl">Implementira uporabniški vmesnik za namizje</li>
+          <li xml:lang="sv">Implementera ett användargränssnitt för skrivbord</li>
           <li xml:lang="tr">Bir masaüstü kullanıcı arayüzü gerçekle</li>
           <li xml:lang="uk">Реалізовано інтерфейс для робочих станцій</li>
           <li xml:lang="zh-CN">实现适合桌面的用户界面</li>
@@ -817,6 +826,7 @@
           <li xml:lang="ru">Реорганизация интерфейса настроек и унификация для настольных и мобильных систем</li>
           <li xml:lang="sk">Reorganizácia nastavení a zjednotenie pre desktop a mobil</li>
           <li xml:lang="sl">Reorganizira uporabniški vmesnik z nastavitvami in jih poenoti za namizne in mobilne naprave</li>
+          <li xml:lang="sv">Omorganisera inställningsanvändargränssnittet och kombinera för skrivbord och mobil</li>
           <li xml:lang="tr">Ayarlar arayüzünü yeniden düzenle ve masaüstü ile taşınabilir için birleştir</li>
           <li xml:lang="uk">Перевпорядковано інтерфейс параметрів та уніфіковано інтерфейс на комп'ютері та на мобільному пристрої</li>
           <li xml:lang="zh-CN">重整设置界面，统一桌面和移动版</li>
@@ -842,6 +852,7 @@
           <li xml:lang="ru">Упрощена логика навигации</li>
           <li xml:lang="sk">Zjednodušenie logiky navigácie</li>
           <li xml:lang="sl">Poenostavi logiko navigacije</li>
+          <li xml:lang="sv">Förenkla navigeringslogiken</li>
           <li xml:lang="tr">Dalaşma mantığını basitleştir</li>
           <li xml:lang="uk">Спрощено логіку навігації</li>
           <li xml:lang="zh-CN">简化导航逻辑。</li>
@@ -867,6 +878,7 @@
           <li xml:lang="ru">Вывод всплывающего окна при фокусировке на адресной строке с историей и связанным текстом для текущего URL</li>
           <li xml:lang="sk">Zobraziť vyskakovacie okno pri zameraní panela URL zobrazujúce históriu a súvisiaci text pre aktuálnu URL</li>
           <li xml:lang="sl">Prikaži pojavno okno, ko je v fokusu vrstica URL, ki prikazuje zgodovino in povezano besedilo za trenutni URL</li>
+          <li xml:lang="sv">Visa en meddelanderuta när webbadressraden har fokus som visar historik och samhörande text för aktuell webbadress</li>
           <li xml:lang="tr">URL çubuğu odaklandığında geçerli URL için geçmişi ve ilgili metni gösteren bir açılır pencere göster</li>
           <li xml:lang="uk">Реалізовано показ контекстної панелі зі журналом та пов'язаним текстом для поточної адреси, якщо панель адреси перебуває у фокусі</li>
           <li xml:lang="zh-CN">当 URL 栏被聚焦时显示弹出窗口，显示当前 URL 的历史记录和相关文本</li>
@@ -951,6 +963,7 @@
           <li xml:lang="ru">Улучшена интеграция с экранной клавиатурой</li>
           <li xml:lang="sk">Zlepšenie integrácie virtuálnej klávesnice</li>
           <li xml:lang="sl">Izboljša integracijo virtualne tipkovnice</li>
+          <li xml:lang="sv">Förbättra integrering med virtuellt tangentbord</li>
           <li xml:lang="tr">Sanal klavye tümleşimini iyileştir</li>
           <li xml:lang="uk">Удосконалено інтеграцію з віртуальною клавіатурою</li>
           <li xml:lang="zh-CN">改进虚拟键盘的整合</li>
@@ -976,6 +989,7 @@
           <li xml:lang="ru">Пользователю разрешено игнорировать ошибки SSL</li>
           <li xml:lang="sk">Povolenie ignorovania chýb SSL používateľom</li>
           <li xml:lang="sl">Dovoli uporabniku prezreti napake SSL</li>
+          <li xml:lang="sv">Tillåt användaren ignorera SSL-fel</li>
           <li xml:lang="tr">Kullanıcının SSL hatalarını yok saymasına izin ver</li>
           <li xml:lang="uk">Уможливлено ігнорування користувачем помилок SSL</li>
           <li xml:lang="zh-CN">允许用户忽略 SSL 错误</li>
@@ -1001,6 +1015,7 @@
           <li xml:lang="ru">Исправлена загрузка адресов chrome://</li>
           <li xml:lang="sk">Opravenie načítavania URL chrome://</li>
           <li xml:lang="sl">Popravi nalaganje URL-jev chrome://</li>
+          <li xml:lang="sv">Rätta inläsning av chrome:// webbadresser</li>
           <li xml:lang="tr">chrome:// URL’lerinin yüklenmesini düzelt</li>
           <li xml:lang="uk">Виправлено завантаження адрес chrome://</li>
           <li xml:lang="zh-CN">修复加载 chrome:// URL</li>
@@ -1026,6 +1041,7 @@
           <li xml:lang="ru">Улучшена поддержка блокировщика рекламы для косметических фильтров</li>
           <li xml:lang="sk">Vylepšená podpora blokovania reklám pre kozmetické filtre</li>
           <li xml:lang="sl">Izboljšana podpora za blokiranje oglasov za kozmetične filtre</li>
+          <li xml:lang="sv">Förbättrat stöd för kosmetiska filter i reklamblockering</li>
           <li xml:lang="tr">Kozmetik süzgeçler için reklâm engelleyicisi desteğini iyileştir</li>
           <li xml:lang="uk">Удосконалено підтримку блокування реклами для косметичних фільтрів</li>
           <li xml:lang="zh-CN">改进广告拦截器对装饰过滤器的支持</li>
@@ -1060,6 +1076,7 @@
           <li xml:lang="ru">Ускорение запуска блокировщика рекламы</li>
           <li xml:lang="sk">Zlepšenie času spustenia blokovania reklám</li>
           <li xml:lang="sl">Izboljša čas zagona blokatorja oglasov</li>
+          <li xml:lang="sv">Förbättra reklamblockeringens starttid</li>
           <li xml:lang="tr">Reklâm engelleyicisinin başlangıç süresini iyileştir</li>
           <li xml:lang="uk">Пришвидшено час завантаження засобу блокування реклами</li>
           <li xml:lang="zh-CN">改进广告拦截器的启动时间</li>
@@ -1085,6 +1102,7 @@
           <li xml:lang="ru">Исправлены различные ошибки и проблемы безопасности в менеджере веб-приложений</li>
           <li xml:lang="sk">Opravenie rôznych chýb a bezpečnostných problémov v správcovi webových aplikácií</li>
           <li xml:lang="sl">Popravi različne napake in varnostne težave v upravitelju spletnih aplikacij</li>
+          <li xml:lang="sv">Rätta diverse fel och säkerhetsproblem i webbprogramhanteraren</li>
           <li xml:lang="tr">Web uygulaması yöneticisindeki çeşitli hataları ve güvenlik sorunlarını düzelt</li>
           <li xml:lang="uk">Виправлено різні вади та проблеми із захистом у засобі керування вебпрограмами</li>
           <li xml:lang="zh-CN">修复网页应用管理器中的各种错误和安全问题</li>
@@ -1110,6 +1128,7 @@
           <li xml:lang="ru">Улучшена поддержка Flatpak</li>
           <li xml:lang="sk">Zlepšenie podpory flatpak</li>
           <li xml:lang="sl">Izboljša podporo za flatpak</li>
+          <li xml:lang="sv">Förbättra stöd för Flatpak</li>
           <li xml:lang="tr">Flatpak desteğini iyileştir</li>
           <li xml:lang="uk">Удосконалено підтримку flatpak</li>
           <li xml:lang="zh-CN">改进 flatpak 支持</li>
@@ -1142,6 +1161,7 @@
           <li xml:lang="ru">Добавлена страница параметров для управления веб-приложениями</li>
           <li xml:lang="sk">Pridanie stránky nastavení na správu webových aplikácií</li>
           <li xml:lang="sl">Doda stran z nastavitvami za upravljanje spletnih aplikacij</li>
+          <li xml:lang="sv">Lägg till en inställningssida för att hantera webbprogram</li>
           <li xml:lang="tr">Web uygulamalarını yönetmek için bir ayarlar sayfası ekle</li>
           <li xml:lang="uk">Додано сторінку параметрів для керування вебпрограмами</li>
           <li xml:lang="zh-CN">添加用于管理网页应用的设置页面</li>
