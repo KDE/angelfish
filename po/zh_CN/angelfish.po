@@ -723,12 +723,10 @@ msgid "Duplicate Tab"
 msgstr "复制标签页"
 
 #: src/qml/desktop/DesktopTabs.qml:299
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Bookmark"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove Bookmark"
-msgstr "书签"
+msgstr ""
 
 #: src/qml/desktop/DesktopTabs.qml:300
 #, kde-format
