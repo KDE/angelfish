@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-06 00:44+0000\n"
-"PO-Revision-Date: 2026-05-07 09:43+0200\n"
+"PO-Revision-Date: 2026-07-06 09:36+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -539,7 +539,7 @@ msgstr "Navegador web per a Plasma Mobile"
 #: src/main.cpp:90
 #, kde-format
 msgid "© 2015-2026 KDE Community"
-msgstr "© 2015-2026 Comunitat KDE"
+msgstr "© 2015-2026 La comunitat KDE"
 
 #: src/main.cpp:93
 #, kde-format
@@ -742,12 +742,10 @@ msgid "Duplicate Tab"
 msgstr "Duplica la pestanya"
 
 #: src/qml/desktop/DesktopTabs.qml:299
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Bookmark"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove Bookmark"
-msgstr "Adreça d'interés"
+msgstr "Elimina una adreça d'interés"
 
 #: src/qml/desktop/DesktopTabs.qml:300
 #, kde-format
