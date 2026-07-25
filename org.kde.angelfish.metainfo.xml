@@ -560,7 +560,7 @@
           <li xml:lang="he">לאפשר את הסתרת סרגל הלשוניות כשרק לשונית אחת פתוחה</li>
           <li xml:lang="hu">A lapsor elrejthető, ha csak egy lap van megnyitva</li>
           <li xml:lang="ia">Permitte celar barra de sched quando un singule scheda es aperite</li>
-          <li xml:lang="it">Permetti di nascondere la barra delle schede quando è aperta una sola scheda</li>
+          <li xml:lang="it">È possibile nascondere la barra delle schede quando ce n'è aperta una sola</li>
           <li xml:lang="ka">ჩანართების ზოლის დამალვის დაშვება, როცა ღიაა, მხოლოდ, ერთი ჩანართი</li>
           <li xml:lang="ko">탭 한 개만 열려 있을 때 탭 표시줄 숨기기 허용</li>
           <li xml:lang="lt">Leidžiama slėpti kortelių juostą, kai atverta viena kortelė</li>
@@ -817,6 +817,7 @@
           <li xml:lang="he">ממשק המשתמש של ההגדרות סודר מחדש ובוצע איחוד לשולחן עבודה וניידים</li>
           <li xml:lang="hu">A beállítások átszervezése és egységesítése az asztali és mobil felületeken</li>
           <li xml:lang="ia">Re.organisa le UI de preferentias e unifica per scriptorios e mobile</li>
+          <li xml:lang="it">Riorganizzazione dell'interfaccia utente delle impostazioni, e uniformazione tra desktop e dispositivi mobili</li>
           <li xml:lang="ka">მორგების ინტერფეისის რეორგანიზაცია და გაერთიანება კომპიუტერისთვის და მობილურისთვის</li>
           <li xml:lang="ko">설정 UI 재배치 및 데스크톱과 모바일 통합</li>
           <li xml:lang="lt">Pertvarkyta ir suvienyta darbalaukiui ir mobiliesiems įrenginiams skirta nuostatų naudotojo sąsaja</li>
@@ -843,6 +844,7 @@
           <li xml:lang="he">פישוט לוגיקת הניווט</li>
           <li xml:lang="hu">Navigációs logika egyszerűsítése</li>
           <li xml:lang="ia">Simplifica le logica de navigation </li>
+          <li xml:lang="it">Semplificazione della logica di navigazione</li>
           <li xml:lang="ka">გამარტივდა ნავიგაციის ლოგიკა</li>
           <li xml:lang="ko">탐색 로직 단순화</li>
           <li xml:lang="lt">Supaprastinta naršymo logika</li>
@@ -869,6 +871,7 @@
           <li xml:lang="he">להציג חלונית צצה כשהמיקוד הוא על סרגל הכתובות וההיסטוריה מופיעה לצד טקסט תואם לכתובת הנוכחית</li>
           <li xml:lang="hu">Felugró megjelenítése, amikor a címsávra kerül a fókusz, megjelenítve az előzményeket és a jelenlegi URL-hez kapcsolódó szöveget</li>
           <li xml:lang="ia">Monstra un popup quando le barra de URL es focalisate monstrante chronologia e texto affin per URL currente</li>
+          <li xml:lang="it">Visualizzazione di una finestra a comparsa quando il cursore si trova sulla barra degli indirizzi, che mostra la cronologia e il testo correlato all'URL corrente</li>
           <li xml:lang="ka">მხტუნარას ჩვენება, როცა URL-ის პანელს ფოკუსი აქვს, აჩვენებს ისტორიას და შესაბამის ტექსტს მიმდინარე URL-ისთვის</li>
           <li xml:lang="ko">URL 표시줄에 포커스가 맞춰져 있을 때 현재 URL의 과거 기록과 연관 텍스트를 표시하는 팝업 표시</li>
           <li xml:lang="lt">Rodomas iškylantysis langas, kai URL juosta sufokusuota ir atvaizduoja istoriją bei su esamu URL adresu susijusį tekstą</li>
@@ -895,6 +898,7 @@
           <li xml:lang="he">להשתמש בסוכן משתמש טוב יותר כברירת מחדל למכשירים ניידים</li>
           <li xml:lang="hu">Jobb alapértelmezett böngészőazonosító mobil eszközökhöz</li>
           <li xml:lang="ia">Usa un melior agente-usator predefinite per dispositivos mobile</li>
+          <li xml:lang="it">Utilizzo di un user-agent predefinito più adeguato per i dispositivi mobili</li>
           <li xml:lang="ka">უკეთესი ნაგულისხმევი user-agent-ის გამოყენება მობილური მოწყობილობებისთვის</li>
           <li xml:lang="ko">모바일 장치의 기본 User-Agent 개선</li>
           <li xml:lang="lt">Naudojamas geresnis numatytasis naudotojo agentas mobiliesiems įrenginiams</li>
@@ -928,6 +932,7 @@
           <li xml:lang="he">נוסף כפתור פעולה לפינוי ההיסטוריה</li>
           <li xml:lang="hu">Műveletgomb az előzmények törléséhez</li>
           <li xml:lang="ia">Adde button de action per nettar chronologia</li>
+          <li xml:lang="it">Aggiunta di un pulsante di azione per pulire la cronologia</li>
           <li xml:lang="ka">დაემატა ქმედების ღილაკი ისტორიის გასასუფთავებლად</li>
           <li xml:lang="ko">과거 기록 비우기 동작 단추 추가</li>
           <li xml:lang="lt">Pridėtas veiksmo mygtukas, skirtas išvalyti istoriją</li>
@@ -954,6 +959,7 @@
           <li xml:lang="he">שילוב מקלדת וירטואלית השתפרה</li>
           <li xml:lang="hu">Virtuális billentyűzet integrációjának javítása</li>
           <li xml:lang="ia">Meliora integration de claviero virtual</li>
+          <li xml:lang="it">Miglioramenti all'integrazione con la tastiera virtuale</li>
           <li xml:lang="ka">გაუმჯობესდა ვირტუალური კლავიატურის ინტეგრაცია</li>
           <li xml:lang="ko">가상 키보드 통합 개선</li>
           <li xml:lang="lt">Patobulinta virtualios klaviatūros integracija</li>
@@ -980,6 +986,7 @@
           <li xml:lang="he">לאפשר למשתמש להתעלם משגיאות SSL</li>
           <li xml:lang="hu">A felhasználó figyelmen kívül hagyhatja az SSL hibákat</li>
           <li xml:lang="ia">Permitte que le usator ignora errores de SSL</li>
+          <li xml:lang="it">È stato permesso all'utente di ignorare gli errori SSL</li>
           <li xml:lang="ka">მომხმარებლებისთვის SSL შეცდომების გამოტოვების უფლების მიცემა</li>
           <li xml:lang="ko">SSL 오류 무시 허용</li>
           <li xml:lang="lt">Leidžiama naudotojui nepaisyti SSL klaidų</li>
@@ -1006,6 +1013,7 @@
           <li xml:lang="he">תוקנה טעינת כתובות chrome://‎</li>
           <li xml:lang="hu">A chrome:// URL-ek betöltése javítva</li>
           <li xml:lang="ia">Corrige cargar chrome://URLs</li>
+          <li xml:lang="it">Correzione nel caricamento degli URL chrome://</li>
           <li xml:lang="ka">გასწორდა chrome:// ბმულების ჩატვირთვა</li>
           <li xml:lang="ko">chrome:// URL 불러오기 수정</li>
           <li xml:lang="lt">Ištaisytas chrome:// URL adresų įkėlimas</li>
@@ -1032,6 +1040,7 @@
           <li xml:lang="he">התמיכה במסננים קומסטיים בחוסם הפרסומות השתפרה</li>
           <li xml:lang="hu">Fejlesztett reklámblokkoló-támogatás kozmetikai szűrőkhöz</li>
           <li xml:lang="ia">Meliorate supporto de ad-blocker per filtros cosmetic</li>
+          <li xml:lang="it">Miglioramento al supporto del blocco degli annunci per i filtri estetici</li>
           <li xml:lang="ka">გაუმჯობესდა რეკლამთმბლოკავის მხარდაჭერა კოსმეტიკური ფილტრებისთვის</li>
           <li xml:lang="ko">광고 차단기의 표시 필터 지원 개선</li>
           <li xml:lang="lt">Patobulintas reklamos blokavimo palaikymas, skirtas kosmetiniams filtrams</li>
@@ -1067,6 +1076,7 @@
           <li xml:lang="he">זמן העלייה של חוסם הפרסומות השתפר</li>
           <li xml:lang="hu">A reklámblokkoló indulási ideje javítva</li>
           <li xml:lang="ia">Meliora le tempore de startar del ad blocker (blocator de reclamos)</li>
+          <li xml:lang="it">Miglioramento del tempo di avvio del blocco degli annunci</li>
           <li xml:lang="ka">გაუმჯობესდა რეკლამთმბლოკავის გაშვების დრო</li>
           <li xml:lang="ko">광고 차단기 시작 시간 개선</li>
           <li xml:lang="lt">Patobulintas reklamos blokavimo paleidimo laikas</li>
@@ -1093,6 +1103,7 @@
           <li xml:lang="he">תוקנו מספר תקלות ובעיות אבטחה במנהל יישומי האתרים</li>
           <li xml:lang="hu">Különböző hibák és biztonsági problémák javítva a webalkalmazás-kezelőben</li>
           <li xml:lang="ia">Corrige varie faltas e problemas de securitate in le gerente de app de web</li>
+          <li xml:lang="it">Correzione di vari bug e problemi di sicurezza nel gestore delle applicazioni web</li>
           <li xml:lang="ka">გასწორდა სხვადასხვა შეცდომები და უსაფრთხოების პრობლემები ვებაპების მმართველში</li>
           <li xml:lang="ko">웹 앱 관리자의 다양한 버그와 보안 문제 개선</li>
           <li xml:lang="lt">Saityno programėlių tvarkytuvėje ištaisytos įvairios klaidos ir saugumo problemos</li>
@@ -1119,6 +1130,7 @@
           <li xml:lang="he">התמיכה ב־flatpak השתפרה</li>
           <li xml:lang="hu">Javított Flatpak támogatás</li>
           <li xml:lang="ia">Meliora supporto de flatpack</li>
+          <li xml:lang="it">Miglioramento al supporto per Flatpak</li>
           <li xml:lang="ka">გაუმჯობესდა Flatpak-ის მხარდაჭერა</li>
           <li xml:lang="ko">Flatpak 지원 개선</li>
           <li xml:lang="lt">Patobulintas Flatpak palaikymas</li>
@@ -1152,6 +1164,7 @@
           <li xml:lang="he">נוסף עמוד הגדרות לניהול יישומי אתרים</li>
           <li xml:lang="hu">Beállítások oldal hozzáadva webalkalmazások kezeléséhez</li>
           <li xml:lang="ia">Adde un pagina de preferentias per gerer appsde web</li>
+          <li xml:lang="it">Aggiunta di una pagina delle impostazioni per la gestione delle applicazioni web</li>
           <li xml:lang="ka">დაემატა მორგების გვერდი ვებაპების სამართავად</li>
           <li xml:lang="ko">웹 앱 관리 설정 페이지 추가</li>
           <li xml:lang="lt">Pridėtas nuostatų puslapis, skirtas tvarkyti saityno programėles</li>
