@@ -521,7 +521,7 @@ msgstr "Plasma Mobile网络浏览器"
 #: src/main.cpp:90
 #, kde-format
 msgid "© 2015-2026 KDE Community"
-msgstr ""
+msgstr "© 2015-2026 KDE Community"
 
 #: src/main.cpp:93
 #, kde-format
@@ -581,7 +581,7 @@ msgstr "书签"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close"
-msgstr ""
+msgstr "关闭"
 
 #: src/qml/desktop/Desktop.qml:152
 #, kde-format
@@ -684,7 +684,7 @@ msgstr "设置"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Angelfish"
-msgstr ""
+msgstr "关于 Angelfish"
 
 #: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:275
 #, kde-format
@@ -726,7 +726,7 @@ msgstr "复制标签页"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove Bookmark"
-msgstr ""
+msgstr "移除书签"
 
 #: src/qml/desktop/DesktopTabs.qml:300
 #, kde-format
@@ -756,7 +756,7 @@ msgstr "下载"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Clear finished downloads"
-msgstr ""
+msgstr "清除已完成的下载"
 
 #: src/qml/Downloads.qml:47
 #, kde-format
@@ -981,13 +981,13 @@ msgstr "工具栏"
 #: src/settings/AngelfishConfigurationView.qml:44
 #, kde-format
 msgid "About Angelfish"
-msgstr ""
+msgstr "关于 Angelfish"
 
 #: src/settings/AngelfishConfigurationView.qml:47
 #, kde-format
 msgctxt "@title:group"
 msgid "About"
-msgstr ""
+msgstr "关于"
 
 #: src/settings/DesktopHomeSettingsPage.qml:25
 #, kde-format
