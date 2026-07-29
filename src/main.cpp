@@ -21,6 +21,7 @@
 #include <KLocalizedContext>
 #include <KLocalizedString>
 #include <KWindowSystem>
+#include <KirigamiAddons/App/KirigamiAppDefaults>
 
 #include <csignal>
 
@@ -35,12 +36,6 @@ using namespace Qt::StringLiterals;
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
-    // set default style and icon theme
-    QIcon::setFallbackThemeName(QStringLiteral("breeze"));
-    if (qEnvironmentVariableIsEmpty("QT_QUICK_CONTROLS_STYLE") && QQuickStyle::name().isEmpty()) {
-        QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
-    }
-
     QGuiApplication::setAttribute(Qt::AA_ShareOpenGLContexts);
 
     // Setup QtWebEngine
@@ -64,6 +59,8 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QCoreApplication::setApplicationVersion(QStringLiteral(ANGELFISH_VERSION_STRING));
     QGuiApplication::setDesktopFileName(QStringLiteral("org.kde.angelfish"));
     KLocalizedString::setApplicationDomain("angelfish");
+
+    KirigamiAppDefaults::apply(&app);
 
     // Command line parser
     QCommandLineParser parser;
@@ -95,9 +92,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     aboutData.setOrganizationDomain("kde.org");
     aboutData.setBugAddress("https://bugs.kde.org/describecomponents.cgi?product=angelfish");
     KAboutData::setApplicationData(aboutData);
-
-    // Crash Handling
-    KCrash::initialize();
 
     // Open links in the already running window when e.g clicked on in another application.
     KDBusService service(KDBusService::Unique, &app);

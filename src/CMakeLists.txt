@@ -102,6 +102,7 @@ target_link_libraries(angelfish PRIVATE
     AngelfishCore
     AngelfishCoreplugin
     angelfish_settingsplugin
+    KirigamiApp
 )
 
 install(TARGETS angelfish ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
