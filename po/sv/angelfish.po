@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-06 00:44+0000\n"
+"POT-Creation-Date: 2026-07-31 00:45+0000\n"
 "PO-Revision-Date: 2026-07-07 15:54+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -513,43 +513,43 @@ msgctxt "@action:inmenu"
 msgid "View Page Source"
 msgstr "Visa sidans källkod"
 
-#: src/main.cpp:70
+#: src/main.cpp:67
 #, kde-format
 msgid "URL to open"
 msgstr "Webbadress att öppna"
 
-#: src/main.cpp:86
+#: src/main.cpp:83
 #, kde-format
 msgid "Angelfish"
 msgstr "Angelfish"
 
-#: src/main.cpp:88
+#: src/main.cpp:85
 #, kde-format
 msgid "Web browser for Plasma Mobile"
 msgstr "Webbläsare för Plasma mobil"
 
-#: src/main.cpp:90
+#: src/main.cpp:87
 #, kde-format
 msgid "© 2015-2026 KDE Community"
 msgstr "© 2015-2026 KDE-gemenskapen"
 
-#: src/main.cpp:93
+#: src/main.cpp:90
 #, kde-format
 msgid "Jonah Brüchert"
 msgstr "Jonah Brüchert"
 
-#: src/main.cpp:93
+#: src/main.cpp:90
 #, kde-format
 msgid "Maintainer"
 msgstr "Underhållsansvarig"
 
-#: src/main.cpp:94
+#: src/main.cpp:91
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Stefan Asserhäll"
 
-#: src/main.cpp:94
+#: src/main.cpp:91
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"

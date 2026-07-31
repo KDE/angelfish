@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-06 00:44+0000\n"
+"POT-Creation-Date: 2026-07-31 00:45+0000\n"
 "PO-Revision-Date: 2026-07-06 09:36+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -521,43 +521,43 @@ msgctxt "@action:inmenu"
 msgid "View Page Source"
 msgstr "Mostra el codi font de la pàgina"
 
-#: src/main.cpp:70
+#: src/main.cpp:67
 #, kde-format
 msgid "URL to open"
 msgstr "URL a obrir"
 
-#: src/main.cpp:86
+#: src/main.cpp:83
 #, kde-format
 msgid "Angelfish"
 msgstr "Angelfish"
 
-#: src/main.cpp:88
+#: src/main.cpp:85
 #, kde-format
 msgid "Web browser for Plasma Mobile"
 msgstr "Navegador web per al Plasma Mobile"
 
-#: src/main.cpp:90
+#: src/main.cpp:87
 #, kde-format
 msgid "© 2015-2026 KDE Community"
 msgstr "© 2015-2026 KDE Community"
 
-#: src/main.cpp:93
+#: src/main.cpp:90
 #, kde-format
 msgid "Jonah Brüchert"
 msgstr "Jonah Brüchert"
 
-#: src/main.cpp:93
+#: src/main.cpp:90
 #, kde-format
 msgid "Maintainer"
 msgstr "Mantenidor"
 
-#: src/main.cpp:94
+#: src/main.cpp:91
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Josep M. Ferrer"
 
-#: src/main.cpp:94
+#: src/main.cpp:91
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
