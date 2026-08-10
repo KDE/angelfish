@@ -1,14 +1,14 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the angelfish package.
 #
-# SPDX-FileCopyrightText: 2024, 2025, 2026 Toms Trasūns <toms.trasuns@posteo.net>
+# SPDX-FileCopyrightText: 2024-2026 Toms Trasūns <toms.trasuns@posteo.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-31 00:45+0000\n"
-"PO-Revision-Date: 2026-03-04 13:35+0200\n"
-"Last-Translator: Toms Trasūns <toms.trasuns@posteo.net>\n"
+"PO-Revision-Date: 2026-08-07 13:55+0300\n"
+"Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
-"X-Generator: Lokalize 25.12.2\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -531,10 +531,9 @@ msgid "Web browser for Plasma Mobile"
 msgstr "„Plasma Mobile“ tīmekļa pārlūkprogramma"
 
 #: src/main.cpp:87
-#, fuzzy, kde-format
-#| msgid "© 2015-2024 KDE Community"
+#, kde-format
 msgid "© 2015-2026 KDE Community"
-msgstr "© 2015—2024 KDE kopiena"
+msgstr "© 2015—2026 KDE kopiena"
 
 #: src/main.cpp:90
 #, kde-format
@@ -591,12 +590,10 @@ msgid "Bookmarks"
 msgstr "Grāmatzīmes"
 
 #: src/qml/Bookmarks.qml:24 src/qml/Downloads.qml:34 src/qml/History.qml:31
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid "Close tab"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Close"
-msgstr "Aizvērt cilni"
+msgstr "Aizvērt"
 
 #: src/qml/desktop/Desktop.qml:152
 #, kde-format
@@ -696,11 +693,10 @@ msgid "Settings"
 msgstr "Iestatījumi"
 
 #: src/qml/desktop/Desktop.qml:434 src/qml/Mobile.qml:134
-#, fuzzy, kde-format
-#| msgid "Angelfish"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Angelfish"
-msgstr "Angelfish"
+msgstr "Par „Angelfish“"
 
 #: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:275
 #, kde-format
@@ -739,12 +735,10 @@ msgid "Duplicate Tab"
 msgstr "Dublēt cilni"
 
 #: src/qml/desktop/DesktopTabs.qml:299
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Bookmark"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove Bookmark"
-msgstr "Grāmatzīme"
+msgstr "Noņemt grāmatzīmi"
 
 #: src/qml/desktop/DesktopTabs.qml:300
 #, kde-format
@@ -774,7 +768,7 @@ msgstr "Lejupielādes"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Clear finished downloads"
-msgstr ""
+msgstr "Notīrīt pabeigtās lejupielādes"
 
 #: src/qml/Downloads.qml:47
 #, kde-format
@@ -997,16 +991,15 @@ msgid "Toolbars"
 msgstr "Rīkjoslas"
 
 #: src/settings/AngelfishConfigurationView.qml:44
-#, fuzzy, kde-format
-#| msgid "Angelfish"
+#, kde-format
 msgid "About Angelfish"
-msgstr "Angelfish"
+msgstr "Par „Angelfish“"
 
 #: src/settings/AngelfishConfigurationView.qml:47
 #, kde-format
 msgctxt "@title:group"
 msgid "About"
-msgstr ""
+msgstr "Par"
 
 #: src/settings/DesktopHomeSettingsPage.qml:25
 #, kde-format
