@@ -907,7 +907,7 @@ msgstr "Arrêter le chargement"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
-msgstr "Rafraîchir"
+msgstr "Rafraichir"
 
 #: src/qml/Mobile.qml:382
 #, kde-format
