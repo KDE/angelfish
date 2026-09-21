@@ -123,7 +123,6 @@ RowLayout {
 
     ListView {
         id: listview
-        visible: Core.AngelfishSettings.showTabBar || listview.count > 1
 
         Layout.fillWidth: true
         Layout.preferredHeight: footerItem.height

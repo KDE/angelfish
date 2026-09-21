@@ -440,20 +440,27 @@ Kirigami.ApplicationWindow {
 
             }
             Item{
-                //spacer to make the UrlBar centered
+                visible: rootPage.privateMode
                 Layout.fillHeight: true
-                width: menuButton.width
-            }
-            Item{
-                Layout.fillHeight: true
+                Layout.alignment: Qt.AlignRight
                 width: menuButton.width
                 Kirigami.Icon{
                     anchors.centerIn:parent
                     source: "view-private"
-                    visible: rootPage.privateMode
                     implicitHeight: Kirigami.Units.gridUnit*1.2
                 }
             }
+
+            QQC2.ToolButton {
+                visible: !(Core.AngelfishSettings.showTabBar || tabs.count > 1)
+                Layout.alignment: Qt.AlignRight
+                action: Kirigami.Action {
+                    text: i18nc("@action:toolbutton", "New Tab")
+                    icon.name: "list-add"
+                    onTriggered: tabs.tabsModel.newTab(Core.AngelfishSettings.newTabUrl)
+                }
+            }
+
             QQC2.ToolButton {
                 id: menuButton
                 Layout.alignment: Qt.AlignRight
@@ -489,7 +496,10 @@ Kirigami.ApplicationWindow {
             id: tabsLoader
 
             visible: {
-                if (webBrowser.fullscreenMode || webBrowser.visibility === Window.FullScreen) {
+                if (
+                    webBrowser.fullscreenMode || webBrowser.visibility === Window.FullScreen
+                    || !(Core.AngelfishSettings.showTabBar || tabs.count > 1)
+                ) {
                     return false;
                 } else {
                     return true;
