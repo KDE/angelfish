@@ -191,12 +191,14 @@ Kirigami.ApplicationWindow {
             objectName: "regularTabsObject"
             anchors.fill: parent
             activeTabs: rootPage.initialized && !rootPage.privateMode
+            enabledTabs: !tabsSheetLoader.active
         }
 
         Core.ListWebView {
             id: privateTabs
             anchors.fill: parent
             activeTabs: rootPage.initialized && rootPage.privateMode
+            enabledTabs: !tabsSheetLoader.active
             privateTabsMode: true
         }
 

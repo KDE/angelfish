@@ -16,6 +16,7 @@ Repeater {
     id: tabs
 
     property bool activeTabs: false
+    property bool enabledTabs: true
     property bool privateTabsMode: false
 
     property alias currentIndex: tabsModel.currentTab
@@ -103,6 +104,7 @@ Repeater {
                 sourceComponent: WebView {
                     anchors.fill: parent
                     visible: isVisible
+                    enabled: tabs.enabledTabs
 
                     privateMode: tabs.privateTabsMode
                     userAgent.isMobile: tabDelegate.isMobile

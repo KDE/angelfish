@@ -8,6 +8,7 @@ import QtQuick.Layouts
 import QtQuick.Controls as QQC2
 
 import org.kde.kirigami as Kirigami
+import org.kde.kirigamiaddons.delegates as Delegates
 
 import org.kde.angelfish
 
@@ -15,67 +16,52 @@ Kirigami.Page {
     id: tabsRoot
 
     property int columns: width > 800 ? 4 : width > 600 ? 3 : 2
-    property real ratio: applicationWindow().height / applicationWindow().width
-    readonly property double itemWidth: applicationWindow().width / columns - Kirigami.Units.smallSpacing * 2
-    readonly property double itemHeight: (itemWidth * ratio + Kirigami.Units.gridUnit) * columns / 4.0
-    property int borderWidth: 2
-    readonly property double fullZoomScale: (itemWidth - (borderWidth * 2)) / applicationWindow().width
+    property real pageRatio: tabs.height / tabs.width
+    property real ratio: pageRatio > 1 ? Math.sqrt(pageRatio) : pageRatio
+    readonly property int itemWidth: (tabs.width / columns) -  Kirigami.Units.largeSpacing * 4
+    readonly property int itemHeight: itemWidth * pageRatio
+    readonly property int itemHeightClipped: itemWidth * ratio
+
+    readonly property double fullZoomScale: itemWidth / tabs.width
     property double zoomValue: 1
     property double zoomScale: fullZoomScale + (zoomValue * (1 - fullZoomScale))
     readonly property int zoomSourceX: {
-        let zoomGridX = tabs.currentIndex % (((applicationWindow().width - (Kirigami.Units.largeSpacing * 2)) / ((applicationWindow().width - (Kirigami.Units.largeSpacing * 2)) / (columns))));
-        let oneMinusFullZoom = (1 - fullZoomScale);
-        return (zoomGridX * ((itemWidth + Kirigami.Units.largeSpacing) / oneMinusFullZoom)) + (((Kirigami.Units.smallSpacing + borderWidth)) / oneMinusFullZoom);
+        let zoomGridX =  Kirigami.Units.largeSpacing * 2 + (tabs.currentIndex % columns) * grid.cellWidth;
+        return (zoomGridX * (1 - zoomValue));
     }
     readonly property int zoomSourceY: {
-        let zoomGridY = Math.floor(tabs.currentIndex / (((applicationWindow().width - (Kirigami.Units.largeSpacing * 2)) / ((applicationWindow().width - (Kirigami.Units.largeSpacing * 2)) / (columns)))));
-        let oneMinusFullZoom = (1 - fullZoomScale);
-        return (zoomGridY * ((itemHeight + Kirigami.Units.largeSpacing) / oneMinusFullZoom)) + (((Kirigami.Units.gridUnit * 1.5) + (Kirigami.Units.smallSpacing + borderWidth) - grid.contentY) / oneMinusFullZoom);
+        let zoomGridY = Kirigami.Units.gridUnit * 2 +  Kirigami.Units.largeSpacing  + Math.floor(tabs.currentIndex / columns) * grid.cellHeight;
+        return ((zoomGridY - grid.contentY) * (1 - zoomValue));
     }
     readonly property int webHeight: (applicationWindow().height - rootPage.navHeight)
-    readonly property int zoomTabHeight: {
-        let fullItemHeight = (itemHeight - Kirigami.Units.gridUnit * 1.5)
-        let zoomFromZero = (zoomScale - fullZoomScale)
-        let zoomFactor = (zoomFromZero * (1 / (1 - fullZoomScale)))
-        return webHeight * zoomFactor + (applicationWindow().width * (fullItemHeight / itemWidth)) * (1 - zoomFactor)
-
-    }
-    readonly property int zoomY: ((webHeight - (webHeight - zoomSourceY)) / webHeight) * (((webHeight - zoomTabHeight) / 2))
 
     property var tabsSheet
     property var sheet
 
-    height: applicationWindow().height
-    width: applicationWindow().width
+    height: tabs.height
+    width: tabs.width
     padding: 0
-
-    Component.onCompleted: {
-        tabs.itemAt(tabs.currentIndex).grabToImage(function(result) {convertedImage.source = result.url}, Qt.size(applicationWindow().width, webHeight))
-    }
 
     Item {
         id: zoomTabImage
-        width: applicationWindow().width
-        height: zoomTabHeight
+        width: tabs.width * zoomValue + itemWidth * (1 - zoomValue)
+        height: tabs.height * zoomValue + itemHeightClipped * (1 - zoomValue)
+        clip: true
 
-        y: zoomY
+        x: zoomSourceX
+        y: zoomSourceY
 
-        transform: Scale { origin.x: zoomSourceX; origin.y: zoomSourceY - zoomY / (1 - fullZoomScale); xScale: zoomScale; yScale: zoomScale }
         z: 3
-        visible: zoomAnimator.running ? true : false
+        visible: zoomAnimator.running
 
         ShaderEffectSource {
             id: shaderTab
-            live: false
-            anchors.fill: parent
+            live: parent.visible
+            anchors.left: parent.left
+            anchors.top: parent.top
+            width: parent.width
+            height: tabs.height * zoomValue + itemHeight * (1 - zoomValue)
             sourceItem: tabs.itemAt(tabs.currentIndex)
-        }
-
-        Image {
-            id: convertedImage
-            anchors.fill: parent
-            fillMode: Image.PreserveAspectCrop
-            verticalAlignment: Image.AlignTop
         }
     }
 
@@ -83,7 +69,7 @@ Kirigami.Page {
         id: zoomAnimator
         running: true
         duration: Kirigami.Units.longDuration
-        easing.type: Easing.OutCirc
+        easing.type: Easing.OutCubic
         to: 0
         onFinished: {
             if (to == 1) {tabsSheet.close()}
@@ -92,7 +78,6 @@ Kirigami.Page {
 
     function openTab() {
         zoomAnimator.stop()
-        shaderTab.visible = false;
         zoomAnimator.to = 1;
         zoomAnimator.start()
     }
@@ -100,9 +85,10 @@ Kirigami.Page {
 
     Flickable {
         id: flickable
-        height: applicationWindow().height - (Kirigami.Units.largeSpacing * 7)
-        width: applicationWindow().width
+        height: tabs.height
+        width: tabs.width
         scale: 1 - (zoomValue * 0.15)
+        opacity: 1 - zoomValue
 
         boundsMovement: Flickable.StopAtBounds
         boundsBehavior: Flickable.DragOverBounds
@@ -114,17 +100,18 @@ Kirigami.Page {
             id: grid
             currentIndex: tabs.currentIndex
             model: tabs.model
-            cellWidth: itemWidth + Kirigami.Units.largeSpacing
-            cellHeight: itemHeight + Kirigami.Units.largeSpacing
+            cellWidth: itemWidth + Kirigami.Units.largeSpacing * 4
+            cellHeight: itemHeightClipped + Kirigami.Units.gridUnit * 2 + Kirigami.Units.largeSpacing * 3
 
             add: Transition {
                 NumberAnimation { property: "opacity"; from: 0; to: 1.0; duration: Kirigami.Units.shortDuration }
             }
             remove: Transition {
-                NumberAnimation { property: "opacity"; from: 0; to: 1.0; duration: Kirigami.Units.shortDuration }
+                NumberAnimation { property: "opacity"; from: 1.0; to: 0; duration: Kirigami.Units.shortDuration }
             }
             displaced: Transition {
                 NumberAnimation { properties: "x"; duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad}
+                NumberAnimation { properties: "y"; duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad}
             }
 
             delegate: QQC2.ItemDelegate {
@@ -132,12 +119,13 @@ Kirigami.Page {
                 // taking care of spacing
                 width: grid.cellWidth
                 height: grid.cellHeight
-                padding: Kirigami.Units.smallSpacing + borderWidth
-                clip: true
+                padding: Kirigami.Units.largeSpacing
+                bottomPadding: padding
 
                 z: mouseArea.pressed || scaleAnimator.running ? 1 : 0
+                highlighted: tabs.currentIndex === index
 
-                property double sourceX: (index % (applicationWindow().width / grid.cellWidth)) * grid.cellWidth
+                property double sourceX: (index % columns) * grid.cellWidth
 
                 MouseArea {
                     id: mouseArea
@@ -161,7 +149,7 @@ Kirigami.Page {
                     }
                     onPressed: {
                         scaleAnimator.stop()
-                        scaleAnimator.to = 1.15;
+                        scaleAnimator.to = 0.9;
                         scaleAnimator.start()
                     }
                     onReleased: {
@@ -186,11 +174,15 @@ Kirigami.Page {
                     onClicked: {
                         if (zoomAnimator.to != 1) {
                             tabs.currentIndex = index;
-                            convertedImage.visible = false
-                            shaderItem.grabToImage(function(result) {convertedImage.source = result.url; convertedImage.visible = true;}, Qt.size(applicationWindow().width, webHeight))
                             tabsSheet.toggle();
                         }
                     }
+                }
+
+                MouseArea {
+                    anchors.fill: parent
+                    acceptedButtons: Qt.MiddleButton
+                    onPressed: tabs.tabsModel.closeTab(model.index)
                 }
 
                 NumberAnimation on x {
@@ -215,49 +207,25 @@ Kirigami.Page {
                     to: 1.0
                 }
 
-
-                background: Item {
-                    anchors.centerIn: parent
-                    width: itemWidth
-                    height: itemHeight
-                    Rectangle {
-                        // border around a selected tile
-                        anchors.fill: parent;
-                        border.color: tabs.currentIndex === index ? Kirigami.Theme.highlightColor : Kirigami.Theme.disabledTextColor
-                        border.width: borderWidth
-                        color: "transparent"
-                        opacity: tabs.currentIndex === index ? 1.0 : 0.2
-                    }
-
-                    Rectangle {
-                        // selection indicator
-                        anchors.fill: parent
-                        color: gridItem.pressed ? Kirigami.Theme.highlightColor : "transparent"
-                        opacity: 0.2
-                    }
-                }
-
                 contentItem: Column {
-                    anchors.horizontalCenter: parent.horizontalCenter
-                    width: itemWidth - Kirigami.Units.smallSpacing
+                    anchors.fill: parent
+                    anchors.margins: Kirigami.Units.largeSpacing
 
-                    Kirigami.Theme.inherit: false
-                    Kirigami.Theme.colorSet: Kirigami.Theme.Header
+                    clip: true
 
                     z: 2
 
-                    Rectangle {
+                    Item {
                         anchors.horizontalCenter: parent.horizontalCenter
-                        color: Kirigami.Theme.backgroundColor
-                        width: itemWidth - Kirigami.Units.smallSpacing
-                        height: Kirigami.Units.gridUnit * 1.5
+                        width: parent.width
+                        height: Kirigami.Units.gridUnit * 2
 
                         RowLayout {
                             anchors.fill: parent
                             spacing: Kirigami.Units.smallSpacing
 
                             Image {
-                                Layout.leftMargin: 2
+                                Layout.leftMargin: Kirigami.Units.largeSpacing
                                 Layout.alignment: Qt.AlignVCenter
                                 Layout.preferredHeight: Kirigami.Units.iconSizes.smallMedium
                                 Layout.preferredWidth: height
@@ -275,25 +243,20 @@ Kirigami.Page {
                                 i18nc("@label", "Reader mode: %1", tabs.itemAt(index).readerTitle)
                                 : tabs.itemAt(index).title
                                 : ""
-                                font.pointSize: Kirigami.Theme.defaultFont.pointSize - 2
+                                font.pointSize: Kirigami.Theme.defaultFont.pointSize
                                 elide: Text.ElideRight
                             }
 
                             QQC2.ToolButton {
                                 Layout.alignment: Qt.AlignVCenter
-                                Layout.preferredHeight: Kirigami.Units.gridUnit * 1.5
+                                Layout.preferredHeight: parent.height
                                 Layout.preferredWidth: height
                                 onClicked: tabs.tabsModel.closeTab(index)
                                 icon.name: 'tab-close-symbolic'
 
-                                QQC2.ToolTip.visible: hoverHandler.hovered
+                                QQC2.ToolTip.visible: hovered
                                 QQC2.ToolTip.delay: Qt.styleHints.mousePressAndHoldInterval
                                 QQC2.ToolTip.text: i18nc("@info:tooltip", "Close tab")
-
-                                HoverHandler {
-                                    id: hoverHandler
-                                    acceptedDevices: PointerDevice.Mouse | PointerDevice.Stylus
-                                }
                             }
                         }
                     }
@@ -301,8 +264,8 @@ Kirigami.Page {
                     Item {
                         id: tabItem
                         anchors.horizontalCenter: parent.horizontalCenter
-                        width: itemWidth - Kirigami.Units.smallSpacing
-                        height: itemHeight - Kirigami.Units.gridUnit * 1.5 - Kirigami.Units.smallSpacing
+                        width: itemWidth
+                        height: itemHeightClipped
                         clip: true
 
                         Image {
@@ -319,11 +282,14 @@ Kirigami.Page {
                             id: shaderItem
 
                             live: false
-                            anchors.fill: parent
-                            sourceRect: Qt.rect(0, 0, applicationWindow().width, webHeight)
-                            visible: false
+                            anchors.horizontalCenter: parent.horizontalCenter
+                            anchors.top: parent.top
 
-                            transform: Scale {yScale: webHeight / (applicationWindow().width * ((itemHeight - Kirigami.Units.gridUnit * 1.5) / itemWidth))}
+                            width: itemWidth
+                            height: itemHeight
+
+                            sourceRect: Qt.rect(0, 0, tabs.width, tabs.height)
+                            textureSize: Qt.size(itemWidth, itemHeight)
 
                             sourceItem: tabs.itemAt(index)
 
