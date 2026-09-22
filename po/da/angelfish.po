@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-31 00:45+0000\n"
+"POT-Creation-Date: 2026-09-22 00:44+0000\n"
 "PO-Revision-Date: 2020-08-12 20:25+0200\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -152,17 +152,17 @@ msgctxt "@action:button"
 msgid "Submit"
 msgstr "Indsend"
 
-#: lib/contents/ui/ListWebView.qml:42
+#: lib/contents/ui/ListWebView.qml:43
 #, kde-format
 msgid "Download finished"
 msgstr "Download gennemført"
 
-#: lib/contents/ui/ListWebView.qml:45
+#: lib/contents/ui/ListWebView.qml:46
 #, kde-format
 msgid "Download failed"
 msgstr "Download mislykkedes"
 
-#: lib/contents/ui/ListWebView.qml:76 lib/contents/ui/ListWebView.qml:79
+#: lib/contents/ui/ListWebView.qml:77 lib/contents/ui/ListWebView.qml:80
 #, fuzzy, kde-format
 #| msgid "Stop loading"
 msgctxt "@title:webview"
@@ -535,7 +535,7 @@ msgid "Search for “%1”"
 msgstr "Søg online efter \"%1\""
 
 #: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
-#: src/qml/Mobile.qml:326
+#: src/qml/Mobile.qml:328
 #, fuzzy, kde-format
 #| msgid "Share page"
 msgctxt "@action:inmenu"
@@ -637,7 +637,7 @@ msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:273
+#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:272
 #: src/qml/Navigation.qml:443
 #, fuzzy, kde-format
 #| msgid "Close"
@@ -704,20 +704,20 @@ msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:424
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:426
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:322
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:324
 #, fuzzy, kde-format
 #| msgid "Find in page"
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Find på siden"
 
-#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:407
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:409
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
@@ -742,68 +742,75 @@ msgctxt "@action:inmenu"
 msgid "About Angelfish"
 msgstr ""
 
-#: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:275
+#: src/qml/desktop/Desktop.qml:458
+#, fuzzy, kde-format
+#| msgid "Close"
+msgctxt "@action:toolbutton"
+msgid "New Tab"
+msgstr "Luk"
+
+#: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:243
 #, kde-format
 msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr ""
 
-#: src/qml/desktop/DesktopTabDelegate.qml:118 src/qml/Tabs.qml:291
+#: src/qml/desktop/DesktopTabDelegate.qml:118 src/qml/Tabs.qml:259
 #, fuzzy, kde-format
 #| msgid "Close"
 msgctxt "@info:tooltip"
 msgid "Close tab"
 msgstr "Luk"
 
-#: src/qml/desktop/DesktopTabs.qml:203
+#: src/qml/desktop/DesktopTabs.qml:202
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgctxt "@info:tooltip"
 msgid "Open a new tab"
 msgstr "Åbn i nyt faneblad"
 
-#: src/qml/desktop/DesktopTabs.qml:236
+#: src/qml/desktop/DesktopTabs.qml:235
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "List all tabs"
 msgstr ""
 
-#: src/qml/desktop/DesktopTabs.qml:282
+#: src/qml/desktop/DesktopTabs.qml:281
 #, fuzzy, kde-format
 #| msgid "Close"
 msgctxt "@action:inmenu"
 msgid "Reload Tab"
 msgstr "Luk"
 
-#: src/qml/desktop/DesktopTabs.qml:290
+#: src/qml/desktop/DesktopTabs.qml:289
 #, fuzzy, kde-format
 #| msgid "Private Tabs"
 msgctxt "@action:inmenu"
 msgid "Duplicate Tab"
 msgstr "Private faneblade"
 
-#: src/qml/desktop/DesktopTabs.qml:299
+#: src/qml/desktop/DesktopTabs.qml:298
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgctxt "@action:inmenu"
 msgid "Remove Bookmark"
 msgstr "Bogmærke"
 
-#: src/qml/desktop/DesktopTabs.qml:300
+#: src/qml/desktop/DesktopTabs.qml:299
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgctxt "@action:inmenu"
 msgid "Bookmark Tab"
 msgstr "Bogmærke"
 
-#: src/qml/desktop/DesktopTabs.qml:320
+#: src/qml/desktop/DesktopTabs.qml:319
 #, fuzzy, kde-format
 #| msgid "Close"
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Luk"
 
-#: src/qml/desktop/DesktopTabs.qml:326
+#: src/qml/desktop/DesktopTabs.qml:325
 #, fuzzy, kde-format
 #| msgid "Close"
 msgctxt "@action:inmenu"
@@ -921,69 +928,69 @@ msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
 msgstr "Vis desktopside"
 
-#: src/qml/Mobile.qml:337
+#: src/qml/Mobile.qml:339
 #, fuzzy, kde-format
 #| msgid "Add to homescreen"
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Føj til hjemmeskærm"
 
-#: src/qml/Mobile.qml:349
+#: src/qml/Mobile.qml:351
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Åbn i nyt faneblad"
 
-#: src/qml/Mobile.qml:357
+#: src/qml/Mobile.qml:359
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr ""
 
-#: src/qml/Mobile.qml:365
+#: src/qml/Mobile.qml:367
 #, fuzzy, kde-format
 #| msgid "Go forward"
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "Gå frem"
 
-#: src/qml/Mobile.qml:372
+#: src/qml/Mobile.qml:374
 #, fuzzy, kde-format
 #| msgid "Stop loading"
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Stop indlæsning"
 
-#: src/qml/Mobile.qml:372
+#: src/qml/Mobile.qml:374
 #, fuzzy, kde-format
 #| msgid "Refresh"
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Genopfrisk"
 
-#: src/qml/Mobile.qml:382
+#: src/qml/Mobile.qml:384
 #, fuzzy, kde-format
 #| msgid "Bookmarked"
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "Bogmærke gemt"
 
-#: src/qml/Mobile.qml:382
+#: src/qml/Mobile.qml:384
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Bogmærke"
 
-#: src/qml/Mobile.qml:398
+#: src/qml/Mobile.qml:400
 #, fuzzy, kde-format
 #| msgid "Show desktop site"
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Vis desktopside"
 
-#: src/qml/Mobile.qml:415
+#: src/qml/Mobile.qml:417
 #, fuzzy, kde-format
 #| msgid "Hide navigation bar"
 msgctxt "@action:inmenu"
