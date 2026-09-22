@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-22 00:44+0000\n"
-"PO-Revision-Date: 2026-05-28 17:03-0400\n"
+"PO-Revision-Date: 2026-09-22 18:02+0900\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
 "Language: ug\n"
@@ -36,7 +36,7 @@ msgstr ""
 #: angelfish-webapp/main.cpp:94
 #, kde-format
 msgid "Marco Martin"
-msgstr "Marco Martin"
+msgstr ""
 
 #: lib/angelfishwebprofile.cpp:47
 #, kde-format
@@ -103,6 +103,13 @@ msgid ""
 "\n"
 " Do you wish to override the security check and continue?"
 msgstr ""
+"Do you wish to continue?\n"
+"\n"
+" If you wish so, you may continue with an unverified certificate.\n"
+" Accepting an unverified certificate means you may not be connected with the "
+"host you tried to connect to.\n"
+"\n"
+" Do you wish to override the security check and continue?"
 
 #: lib/contents/ui/ErrorHandler.qml:81
 #, kde-format
@@ -271,7 +278,7 @@ msgstr "يۆنىلىش"
 #, kde-format
 msgctxt "@label:combobox"
 msgid "Paper Size"
-msgstr ""
+msgstr "قەغەز چوڭلۇقى"
 
 #: lib/contents/ui/PrintPreview.qml:169
 #, kde-format
@@ -295,13 +302,13 @@ msgstr ""
 #, kde-format
 msgctxt "@info:status"
 msgid "Entered Full Screen mode"
-msgstr ""
+msgstr "پۈتۈن ئېكران ھالىتىگە كىردى"
 
 #: lib/contents/ui/WebView.qml:371
 #, kde-format
 msgctxt "@action:button"
 msgid "Exit Full Screen (Esc)"
-msgstr ""
+msgstr "پۈتۈن ئېكراندىن چېكىن"
 
 #: lib/contents/ui/WebView.qml:506
 #, kde-format
@@ -355,13 +362,13 @@ msgstr "پۈتۈن ئېكرانغا كىر"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Controls"
-msgstr ""
+msgstr "تىزگىننى يوشۇر"
 
 #: lib/contents/ui/WebView.qml:569
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Controls"
-msgstr ""
+msgstr "تىزگىننى كۆرسەت"
 
 #: lib/contents/ui/WebView.qml:577
 #, kde-format
@@ -379,25 +386,25 @@ msgstr "ئۈن ئاچ"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video in New Tab"
-msgstr ""
+msgstr "سىننى يېڭى بەتكۈچتە ئاچ"
 
 #: lib/contents/ui/WebView.qml:578
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio in New Tab"
-msgstr ""
+msgstr "ئۈننى يېڭى بەتكۈچتە ئاچ"
 
 #: lib/contents/ui/WebView.qml:590
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Video"
-msgstr ""
+msgstr "سىن ساقلا"
 
 #: lib/contents/ui/WebView.qml:596
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Video Link"
-msgstr ""
+msgstr "سىن ئۇلانمىسىنى كۆچۈر"
 
 #: lib/contents/ui/WebView.qml:602
 #, kde-format
@@ -409,7 +416,7 @@ msgstr "سۈرەت ئاچ"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image in New Tab"
-msgstr ""
+msgstr "سۈرەتنى يېڭى بەتكۈچتە ئاچ"
 
 #: lib/contents/ui/WebView.qml:614
 #, kde-format
@@ -427,7 +434,7 @@ msgstr "سۈرەت كۆچۈر"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image Link"
-msgstr ""
+msgstr "سۈرەت ئۇلانمىسىنى كۆچۈر"
 
 #: lib/contents/ui/WebView.qml:632
 #, kde-format
@@ -451,13 +458,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Link"
-msgstr ""
+msgstr "ئۇلانما ساقلا"
 
 #: lib/contents/ui/WebView.qml:662
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Link"
-msgstr ""
+msgstr "ئۇلانما كۆچۈر"
 
 #: lib/contents/ui/WebView.qml:669
 #, kde-format
@@ -519,7 +526,7 @@ msgstr ""
 #: src/main.cpp:90
 #, kde-format
 msgid "Jonah Brüchert"
-msgstr "Jonah Brüchert"
+msgstr ""
 
 #: src/main.cpp:90
 #, kde-format
@@ -679,9 +686,7 @@ msgid "About Angelfish"
 msgstr ""
 
 #: src/qml/desktop/Desktop.qml:458
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "New Tab"
+#, kde-format
 msgctxt "@action:toolbutton"
 msgid "New Tab"
 msgstr "يېڭى بەتكۈچ"
@@ -723,12 +728,10 @@ msgid "Duplicate Tab"
 msgstr "بەتكۈچنى كۆپەيت"
 
 #: src/qml/desktop/DesktopTabs.qml:298
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Bookmark"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove Bookmark"
-msgstr "خەتكۈش"
+msgstr "خەتكۈش چىقىرىۋەت"
 
 #: src/qml/desktop/DesktopTabs.qml:299
 #, kde-format
@@ -964,7 +967,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Web Apps"
-msgstr ""
+msgstr "تور ئەپ"
 
 #: src/settings/AngelfishConfigurationView.qml:32
 #: src/settings/SettingsSearchEnginePage.qml:118
@@ -1170,6 +1173,13 @@ msgid ""
 "menus either by swiping from the left or right side or to a side along the "
 "bottom of the window."
 msgstr ""
+"Choose the buttons enabled in navigation bar. Some of the buttons can be "
+"hidden only in portrait orientation of the browser and are always shown if "
+"the browser is wider than its height.\n"
+"\n"
+" Note that if you disable the menu buttons, you will be able to access the "
+"menus either by swiping from the left or right side or to a side along the "
+"bottom of the window."
 
 #: src/settings/SettingsNavigationBarPage.qml:36
 #, kde-format
