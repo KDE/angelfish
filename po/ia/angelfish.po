@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-22 00:44+0000\n"
-"PO-Revision-Date: 2026-07-15 18:07+0200\n"
+"PO-Revision-Date: 2026-09-23 10:51+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -701,9 +701,7 @@ msgid "About Angelfish"
 msgstr "Re Angelfish"
 
 #: src/qml/desktop/Desktop.qml:458
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "New Tab"
+#, kde-format
 msgctxt "@action:toolbutton"
 msgid "New Tab"
 msgstr "Nove scheda"
