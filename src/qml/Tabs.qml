@@ -14,6 +14,8 @@ import org.kde.angelfish
 Kirigami.Page {
     id: tabsRoot
 
+    property real bottomMargin: 0
+
     property int columns: width > 800 ? 4 : width > 600 ? 3 : 2
     property real ratio: applicationWindow().height / applicationWindow().width
     readonly property double itemWidth: applicationWindow().width / columns - Kirigami.Units.smallSpacing * 2
@@ -100,8 +102,8 @@ Kirigami.Page {
 
     Flickable {
         id: flickable
-        height: applicationWindow().height - (Kirigami.Units.largeSpacing * 7)
-        width: applicationWindow().width
+        height: Math.max(0, tabs.height - tabsRoot.bottomMargin)
+        width: tabs.width
         scale: 1 - (zoomValue * 0.15)
 
         boundsMovement: Flickable.StopAtBounds
