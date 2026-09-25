@@ -5,6 +5,7 @@
 
 import QtQuick
 import QtQuick.Layouts
+import QtQuick.Window
 import QtQuick.Controls as QQC2
 
 import org.kde.kirigami as Kirigami
@@ -291,7 +292,8 @@ Kirigami.Page {
                             height: itemHeight
 
                             sourceRect: Qt.rect(0, 0, tabs.width, tabs.height)
-                            textureSize: Qt.size(itemWidth, itemHeight)
+                            textureSize: Qt.size(Math.ceil(itemWidth * Screen.devicePixelRatio),
+                                                 Math.ceil(itemHeight * Screen.devicePixelRatio))
 
                             sourceItem: tabs.itemAt(index)
 
@@ -300,7 +302,6 @@ Kirigami.Page {
                                 scheduleUpdate();
                                 shaderItem.grabToImage(function(result) {
                                     tabImage.source = result.url
-                                    convertedImage.visible = true;
                                 }, Qt.size(Math.round(applicationWindow().width / columns),
                                            Math.round(webHeight / columns)));
                             }
