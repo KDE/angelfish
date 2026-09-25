@@ -207,44 +207,6 @@ Item {
             }
 
             Controls.ToolButton {
-                id: tabButton
-                visible: webBrowser.landscape || Core.AngelfishSettings.navBarTabs
-                opacity: navigation.dismissOpacity
-                Layout.preferredWidth: navigation.buttonSize
-                Layout.preferredHeight: navigation.buttonSize
-
-                Rectangle {
-                    anchors.centerIn: parent
-                    height: Kirigami.Units.gridUnit * 1.25
-                    width: Kirigami.Units.gridUnit * 1.25
-
-                    color: "transparent"
-                    border.color: Kirigami.Theme.textColor
-                    border.width: Kirigami.Units.gridUnit / 10
-                    radius: Kirigami.Units.gridUnit / 5
-
-                    Kirigami.Theme.inherit: true
-
-                    Controls.Label {
-                        anchors.centerIn: parent
-                        height: Kirigami.Units.gridUnit
-                        width: Kirigami.Units.gridUnit
-                        fontSizeMode: Text.Fit
-                        minimumPixelSize: 0
-                        minimumPointSize: 0
-                        clip: true
-                        text: "%1".arg(tabs.count)
-                        horizontalAlignment: Text.AlignHCenter
-                        verticalAlignment: Text.AlignVCenter
-                        Kirigami.Theme.inherit: true
-                    }
-                }
-
-                enabled: navigation.shown
-                onClicked: navigation.tabsSheet.toggle()
-            }
-
-            Controls.ToolButton {
                 id: backButton
 
                 Layout.preferredWidth: navigation.buttonSize
@@ -304,6 +266,18 @@ Item {
                     return Math.round(-rightCenterMargin * navigation.dismissValue)
                 }
 
+                background: Rectangle {
+                    border.color: Kirigami.Theme.highlightColor
+                    border.width: labelItem.hovered | labelItem.down ? 1 : 0
+                    color: labelItem.down ? Qt.rgba(Kirigami.Theme.highlightColor.r, Kirigami.Theme.highlightColor.g, Kirigami.Theme.highlightColor.b, 0.3) :
+                                            Kirigami.Theme.alternateBackgroundColor
+                    radius: Kirigami.Units.cornerRadius
+
+                    Kirigami.Theme.inherit: false
+                    Kirigami.Theme.colorSet: Kirigami.Theme.Window
+                    visible: navigation.shown
+                }
+
                 property string scheme: Core.UrlUtils.urlScheme(currentWebView.requestedUrl)
 
                 Row {
@@ -324,7 +298,6 @@ Item {
                         }
                         visible: icon.name
                         height: parent.height
-                        width: visible ? Math.round(navigation.buttonSize * 0.5) : 0
                         Kirigami.Theme.inherit: true
                         enabled: navigation.shown
                         onClicked: navigation.activateUrlEntry()
@@ -375,6 +348,44 @@ Item {
                 // enabled: navigation.shown
                 onClicked: currentWebView.loading ? currentWebView.stopLoading() : currentWebView.reload()
 
+            }
+
+            Controls.ToolButton {
+                id: tabButton
+                visible: (webBrowser.landscape || Core.AngelfishSettings.navBarTabs) && navigation.shown
+                opacity: navigation.dismissOpacity
+                Layout.preferredWidth: navigation.buttonSize
+                Layout.preferredHeight: navigation.buttonSize
+
+                Rectangle {
+                    anchors.centerIn: parent
+                    height: Kirigami.Units.gridUnit * 1.25
+                    width: Kirigami.Units.gridUnit * 1.25
+
+                    color: "transparent"
+                    border.color: Kirigami.Theme.textColor
+                    border.width: 1
+                    radius: Kirigami.Units.cornerRadius
+
+                    Kirigami.Theme.inherit: true
+
+                    Controls.Label {
+                        anchors.centerIn: parent
+                        height: Kirigami.Units.gridUnit
+                        width: Kirigami.Units.gridUnit
+                        fontSizeMode: Text.Fit
+                        minimumPixelSize: 0
+                        minimumPointSize: 0
+                        clip: true
+                        text: "%1".arg(tabs.count)
+                        horizontalAlignment: Text.AlignHCenter
+                        verticalAlignment: Text.AlignVCenter
+                        Kirigami.Theme.inherit: true
+                    }
+                }
+
+                enabled: navigation.shown
+                onClicked: navigation.tabsSheet.toggle()
             }
 
             Controls.ToolButton {
