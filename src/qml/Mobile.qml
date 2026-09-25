@@ -62,8 +62,6 @@ Kirigami.ApplicationWindow {
     onCurrentWebViewChanged: {
         print("Current WebView is now : " + tabs.currentIndex);
     }
-    property int borderWidth: Math.round(Kirigami.Units.gridUnit / 18);
-    property color borderColor: Kirigami.Theme.highlightColor;
 
     pageStack.globalToolBar.style: Kirigami.ApplicationHeaderStyle.ToolBar
     pageStack.globalToolBar.showNavigationButtons: Kirigami.ApplicationHeaderStyle.ShowBackButton
@@ -163,7 +161,7 @@ Kirigami.ApplicationWindow {
         topPadding: 0
         bottomPadding: 0
 
-        globalToolBarStyle: pageStack.layers.depth === 1 ? Kirigami.ApplicationHeaderStyle.None : Kirigami.ApplicationHeaderStyle.ToolBar
+        globalToolBarStyle: Kirigami.ApplicationHeaderStyle.None
         Kirigami.ColumnView.fillWidth: true
         Kirigami.ColumnView.pinned: true
         Kirigami.ColumnView.preventStealing: true
@@ -186,31 +184,51 @@ Kirigami.ApplicationWindow {
         property alias questionLoader: questionLoader
         property alias questions: questions
 
-        Core.ListWebView {
-            id: regularTabs
-            objectName: "regularTabsObject"
-            anchors.fill: parent
-            activeTabs: rootPage.initialized && !rootPage.privateMode
-            enabledTabs: !tabsSheetLoader.active
+        readonly property bool isScrollable: currentWebView.contentsSize.height > rootPage.height - navigation.collapsedHeight
+
+        // Reserve space at the bottom for the navigation bar
+        // Avoid changing this often since resizing the webview is laggy!
+        // Use a heuristic: if the page is scrollable use the navbar collapsed height, otherwise the full height
+        readonly property real contentBottomMargin: {
+            if (!navigation.visible) {
+                return 0;
+            } else if (!rootPage.navigationAutoShowLock && !isScrollable && navigation.shown) {
+                return navigation.expandedHeight;
+            }
+            return navigation.collapsedHeight;
         }
 
-        Core.ListWebView {
-            id: privateTabs
+        Item {
+            id: contentView
             anchors.fill: parent
-            activeTabs: rootPage.initialized && rootPage.privateMode
-            enabledTabs: !tabsSheetLoader.active
-            privateTabsMode: true
-        }
+            anchors.bottomMargin: rootPage.contentBottomMargin
 
-        Controls.ScrollBar {
-            visible: true
-            anchors.right: parent.right
-            anchors.top: parent.top
-            anchors.bottom: parent.bottom
-            position: currentWebView.scrollPosition.y / currentWebView.contentsSize.height
-            orientation: Qt.Vertical
-            size: currentWebView.height / currentWebView.contentsSize.height
-            interactive: false
+            Core.ListWebView {
+                id: regularTabs
+                objectName: "regularTabsObject"
+                anchors.fill: parent
+                activeTabs: rootPage.initialized && !rootPage.privateMode
+                enabledTabs: !tabsSheetLoader.active
+            }
+
+            Core.ListWebView {
+                id: privateTabs
+                anchors.fill: parent
+                activeTabs: rootPage.initialized && rootPage.privateMode
+                enabledTabs: !tabsSheetLoader.active
+                privateTabsMode: true
+            }
+
+            Controls.ScrollBar {
+                visible: true
+                anchors.right: parent.right
+                anchors.top: parent.top
+                anchors.bottom: parent.bottom
+                position: currentWebView.scrollPosition.y / currentWebView.contentsSize.height
+                orientation: Qt.Vertical
+                size: currentWebView.height / currentWebView.contentsSize.height
+                interactive: false
+            }
         }
 
         Core.ErrorHandler {
@@ -271,9 +289,9 @@ Kirigami.ApplicationWindow {
             height: Math.round(Kirigami.Units.gridUnit / 6)
             z: navigation.z + 1
             anchors {
-                bottom: findInPage.active ? findInPage.top : parent.bottom
-                left: tabs.left
-                right: tabs.right
+                bottom: findInPage.active ? findInPage.top : navigation.top
+                left: parent.left
+                right: parent.right
             }
 
             opacity: currentWebView.loading ? 1 : 0
@@ -451,8 +469,11 @@ Kirigami.ApplicationWindow {
                 showTabs = false;
             }
             sourceComponent: Tabs {
-                 tabsSheet: tabsSheetLoader
-                 sheet: sheetLoader
+                bottomMargin: navigation.visible
+                    ? Math.max(0, navigation.realHeight - rootPage.contentBottomMargin)
+                    : 0
+                tabsSheet: tabsSheetLoader
+                sheet: sheetLoader
             }
         }
 
@@ -460,11 +481,23 @@ Kirigami.ApplicationWindow {
         FindInPageBar {
             id: findInPage
             Kirigami.Theme.colorSet: rootPage.privateMode ? Kirigami.Theme.Complementary : Kirigami.Theme.Window
+
+            Kirigami.Separator {
+                anchors {
+                    left: parent.left
+                    top: parent.top
+                    right: parent.right
+                }
+                visible: findInPage.active
+            }
         }
 
         // Bottom navigation bar
-        footer: Navigation {
+        Navigation {
             id: navigation
+            anchors.left: parent.left
+            anchors.right: parent.right
+            anchors.bottom: parent.bottom
 
             navigationShown: visible && rootPage.navigationAutoShow && !rootPage.navigationAutoShowLock
             visible: webBrowser.visibility !== Window.FullScreen && !findInPage.active
@@ -480,6 +513,22 @@ Kirigami.ApplicationWindow {
                 webBrowser.tabs.tabsModel.newTab("about:blank")
                 webBrowser.tabs.tabsModel.setLatestTab()
             }
+            onRequestHide: {
+                // Tapping on an empty area on the nav bar hides it
+                if (rootPage.isScrollable) {
+                    rootPage.navigationAutoShow = false;
+                }
+            }
+
+            Kirigami.Separator {
+                anchors {
+                    left: parent.left
+                    bottom: parent.bottom
+                    bottomMargin: navigation.realHeight
+                    right: parent.right
+                }
+                visible: navigation.navigationShown
+            }
         }
 
         NavigationEntrySheet {
@@ -488,20 +537,6 @@ Kirigami.ApplicationWindow {
 
         HistorySheet {
             id: historySheet
-        }
-
-        // Thin line above navigation or find
-        // TODO: Enventualy replace it by a Kirigami Separator
-        Rectangle {
-            height: webBrowser.borderWidth
-            color: webBrowser.borderColor
-            anchors {
-                left: parent.left
-                bottom: findInPage.active ? findInPage.top : parent.bottom
-                bottomMargin: findInPage.active ? 0 : navigation.dismissHeight - navigation.height
-                right: parent.right
-            }
-            visible: navigation.navigationShown || findInPage.active
         }
 
         // dealing with hiding and showing navigation bar

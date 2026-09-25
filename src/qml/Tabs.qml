@@ -15,6 +15,8 @@ import org.kde.angelfish
 Kirigami.Page {
     id: tabsRoot
 
+    property real bottomMargin: 0
+
     property int columns: width > 800 ? 4 : width > 600 ? 3 : 2
     property real pageRatio: tabs.height / tabs.width
     property real ratio: pageRatio > 1 ? Math.sqrt(pageRatio) : pageRatio
@@ -85,7 +87,7 @@ Kirigami.Page {
 
     Flickable {
         id: flickable
-        height: tabs.height
+        height: Math.max(0, tabs.height - tabsRoot.bottomMargin)
         width: tabs.width
         scale: 1 - (zoomValue * 0.15)
         opacity: 1 - zoomValue

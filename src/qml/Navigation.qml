@@ -29,15 +29,19 @@ Item {
 
     property int buttonSize: Kirigami.Units.gridUnit * 2
     property int gestureThreshold: expandedHeight * 2
-    
+
+    readonly property real realHeight: navContainer.height
+
     required property var tabsSheet
     required property HistorySheet historySheet
-    
+
     signal activateUrlEntry
     signal openNewTab
 
+    signal requestHide
+
     Rectangle { anchors.fill: parent; color: Kirigami.Theme.backgroundColor; }
-    
+
     // left/right gesture icons
     Kirigami.Icon {
         id: leftGestureIcon
@@ -46,7 +50,7 @@ Item {
         anchors.top: navigation.top
         anchors.bottom: navigation.bottom
         implicitWidth: height
-        
+
         opacity: Math.abs(navContainer.x) / gestureThreshold
         source: "arrow-left"
         transform: Scale {
@@ -65,7 +69,7 @@ Item {
         anchors.top: navigation.top
         anchors.bottom: navigation.bottom
         implicitWidth: height
-        
+
         opacity: Math.abs(navContainer.x) / gestureThreshold
         source: "arrow-right"
         transform: Scale {
@@ -90,13 +94,13 @@ Item {
             }
         }
     }
-    
+
     Item {
         id: navContainer
         width: navigation.width
         height: dismissHeight * (1 + Math.max(Math.atan(-tabDragHandler.yAxis.activeValue/expandedHeight), 0))
         anchors.bottom: navigation.bottom
-        
+
         opacity: 1 - (Math.abs(navContainer.x) / (navigation.gestureThreshold * 2))
 
         Rectangle { anchors.fill: parent; color: Kirigami.Theme.backgroundColor; }
@@ -116,10 +120,13 @@ Item {
 
         MouseArea {
             anchors.fill: parent
-            enabled: !navigation.shown
             onClicked: {
-                rootPage.navigationAutoShow = true;
-                rootPage.navigationAutoShowLock = false;
+                if (navigation.shown) {
+                    navigation.requestHide()
+                } else {
+                    rootPage.navigationAutoShow = true;
+                    rootPage.navigationAutoShowLock = false;
+                }
             }
         }
 
@@ -183,7 +190,7 @@ Item {
 
             spacing: Kirigami.Units.smallSpacing
             Kirigami.Theme.inherit: true
-            
+
             Controls.ToolButton {
                 id: mainMenuButton
                 icon.name: rootPage.privateMode ? "view-private" : "application-menu"
