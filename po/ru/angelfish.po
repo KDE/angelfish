@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-22 00:44+0000\n"
+"POT-Creation-Date: 2026-09-26 00:45+0000\n"
 "PO-Revision-Date: 2026-09-22 21:30+0200\n"
 "Last-Translator: Alexander Yavorskiy <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -497,7 +497,7 @@ msgid "Search for “%1”"
 msgstr "Найти «%1» в Интернете"
 
 #: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
-#: src/qml/Mobile.qml:328
+#: src/qml/Mobile.qml:346
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
@@ -595,37 +595,37 @@ msgid "Search or enter URL…"
 msgstr "Выполнить поиск или ввести URL-адрес…"
 
 #: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:272
-#: src/qml/Navigation.qml:443
+#: src/qml/Navigation.qml:461
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "Новая вкладка"
 
-#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:92
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:90
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
 msgstr "Отключить приватный режим"
 
-#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:92
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:90
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Private Mode"
 msgstr "Включить приватный режим"
 
-#: src/qml/desktop/Desktop.qml:294 src/qml/Mobile.qml:108
+#: src/qml/desktop/Desktop.qml:294 src/qml/Mobile.qml:106
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "History"
 msgstr "Журнал"
 
-#: src/qml/desktop/Desktop.qml:307 src/qml/Mobile.qml:100
+#: src/qml/desktop/Desktop.qml:307 src/qml/Mobile.qml:98
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "Закладки"
 
-#: src/qml/desktop/Desktop.qml:320 src/qml/Mobile.qml:112
+#: src/qml/desktop/Desktop.qml:320 src/qml/Mobile.qml:110
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Downloads"
@@ -655,19 +655,19 @@ msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Скрыть инструменты для разработки"
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:426
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:444
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Показать инструменты для разработки"
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:324
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:342
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Найти на странице"
 
-#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:409
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:427
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
@@ -679,13 +679,13 @@ msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "Добавить в средство запуска программ"
 
-#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:127
+#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:125
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "Параметры"
 
-#: src/qml/desktop/Desktop.qml:434 src/qml/Mobile.qml:134
+#: src/qml/desktop/Desktop.qml:434 src/qml/Mobile.qml:132
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Angelfish"
@@ -697,13 +697,13 @@ msgctxt "@action:toolbutton"
 msgid "New Tab"
 msgstr "Новая вкладка"
 
-#: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:243
+#: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:246
 #, kde-format
 msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr "Режим чтения: %1"
 
-#: src/qml/desktop/DesktopTabDelegate.qml:118 src/qml/Tabs.qml:259
+#: src/qml/desktop/DesktopTabDelegate.qml:118 src/qml/Tabs.qml:262
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close tab"
@@ -847,85 +847,85 @@ msgctxt "@title:window"
 msgid "Angelfish Web Browser"
 msgstr "Веб-браузер Angelfish"
 
-#: src/qml/Mobile.qml:85
+#: src/qml/Mobile.qml:83
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Tabs"
 msgstr "Вкладки"
 
-#: src/qml/Mobile.qml:120
+#: src/qml/Mobile.qml:118
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
 msgstr "Режим просмотра для ПК"
 
-#: src/qml/Mobile.qml:339
+#: src/qml/Mobile.qml:357
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Добавить на домашний экран"
 
-#: src/qml/Mobile.qml:351
+#: src/qml/Mobile.qml:369
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Открыть в приложении"
 
-#: src/qml/Mobile.qml:359
+#: src/qml/Mobile.qml:377
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr "На предыдущую страницу"
 
-#: src/qml/Mobile.qml:367
+#: src/qml/Mobile.qml:385
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "На следующую страницу"
 
-#: src/qml/Mobile.qml:374
+#: src/qml/Mobile.qml:392
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Остановить загрузку"
 
-#: src/qml/Mobile.qml:374
+#: src/qml/Mobile.qml:392
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Обновить"
 
-#: src/qml/Mobile.qml:384
+#: src/qml/Mobile.qml:402
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "В закладках"
 
-#: src/qml/Mobile.qml:384
+#: src/qml/Mobile.qml:402
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Добавить закладку"
 
-#: src/qml/Mobile.qml:400
+#: src/qml/Mobile.qml:418
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Показать версию для настольного ПК"
 
-#: src/qml/Mobile.qml:417
+#: src/qml/Mobile.qml:435
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "Скрыть панель навигации"
 
-#: src/qml/Navigation.qml:416
+#: src/qml/Navigation.qml:434
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr "Готово"
 
-#: src/qml/Navigation.qml:429
+#: src/qml/Navigation.qml:447
 #, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"

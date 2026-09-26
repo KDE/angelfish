@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-22 00:44+0000\n"
+"POT-Creation-Date: 2026-09-26 00:45+0000\n"
 "PO-Revision-Date: 2026-09-22 06:53-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -502,7 +502,7 @@ msgid "Search for “%1”"
 msgstr "Pesquisar por \"%1\""
 
 #: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
-#: src/qml/Mobile.qml:328
+#: src/qml/Mobile.qml:346
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
@@ -602,37 +602,37 @@ msgid "Search or enter URL…"
 msgstr "Pesquisar ou digitar URL…"
 
 #: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:272
-#: src/qml/Navigation.qml:443
+#: src/qml/Navigation.qml:461
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "Nova aba"
 
-#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:92
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:90
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
 msgstr "Sair do modo privativo"
 
-#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:92
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:90
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Private Mode"
 msgstr "Modo privativo"
 
-#: src/qml/desktop/Desktop.qml:294 src/qml/Mobile.qml:108
+#: src/qml/desktop/Desktop.qml:294 src/qml/Mobile.qml:106
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "History"
 msgstr "Histórico"
 
-#: src/qml/desktop/Desktop.qml:307 src/qml/Mobile.qml:100
+#: src/qml/desktop/Desktop.qml:307 src/qml/Mobile.qml:98
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "Favoritos"
 
-#: src/qml/desktop/Desktop.qml:320 src/qml/Mobile.qml:112
+#: src/qml/desktop/Desktop.qml:320 src/qml/Mobile.qml:110
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Downloads"
@@ -662,19 +662,19 @@ msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Ocultar ferramentas de desenvolvimento"
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:426
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:444
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Mostrar ferramentas de desenvolvimento"
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:324
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:342
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Localizar na página"
 
-#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:409
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:427
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
@@ -686,13 +686,13 @@ msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "Adicionar ao lançador de aplicativos"
 
-#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:127
+#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:125
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "Configurações"
 
-#: src/qml/desktop/Desktop.qml:434 src/qml/Mobile.qml:134
+#: src/qml/desktop/Desktop.qml:434 src/qml/Mobile.qml:132
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Angelfish"
@@ -704,13 +704,13 @@ msgctxt "@action:toolbutton"
 msgid "New Tab"
 msgstr "Nova aba"
 
-#: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:243
+#: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:246
 #, kde-format
 msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr "Modo de leitura: %1"
 
-#: src/qml/desktop/DesktopTabDelegate.qml:118 src/qml/Tabs.qml:259
+#: src/qml/desktop/DesktopTabDelegate.qml:118 src/qml/Tabs.qml:262
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close tab"
@@ -854,85 +854,85 @@ msgctxt "@title:window"
 msgid "Angelfish Web Browser"
 msgstr "Navegador Web Angelfish"
 
-#: src/qml/Mobile.qml:85
+#: src/qml/Mobile.qml:83
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Tabs"
 msgstr "Abas"
 
-#: src/qml/Mobile.qml:120
+#: src/qml/Mobile.qml:118
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
 msgstr "Alternar modo desktop"
 
-#: src/qml/Mobile.qml:339
+#: src/qml/Mobile.qml:357
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Adicionar à tela inicial"
 
-#: src/qml/Mobile.qml:351
+#: src/qml/Mobile.qml:369
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Abrir no aplicativo"
 
-#: src/qml/Mobile.qml:359
+#: src/qml/Mobile.qml:377
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr "Voltar"
 
-#: src/qml/Mobile.qml:367
+#: src/qml/Mobile.qml:385
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "Avançar"
 
-#: src/qml/Mobile.qml:374
+#: src/qml/Mobile.qml:392
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Parar o carregamento"
 
-#: src/qml/Mobile.qml:374
+#: src/qml/Mobile.qml:392
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Atualizar"
 
-#: src/qml/Mobile.qml:384
+#: src/qml/Mobile.qml:402
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "Favoritado"
 
-#: src/qml/Mobile.qml:384
+#: src/qml/Mobile.qml:402
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Favorito"
 
-#: src/qml/Mobile.qml:400
+#: src/qml/Mobile.qml:418
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Mostrar site do desktop"
 
-#: src/qml/Mobile.qml:417
+#: src/qml/Mobile.qml:435
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "Ocultar barra de navegação"
 
-#: src/qml/Navigation.qml:416
+#: src/qml/Navigation.qml:434
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr "Concluído"
 
-#: src/qml/Navigation.qml:429
+#: src/qml/Navigation.qml:447
 #, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"

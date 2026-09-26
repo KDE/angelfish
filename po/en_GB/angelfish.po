@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-22 00:44+0000\n"
+"POT-Creation-Date: 2026-09-26 00:45+0000\n"
 "PO-Revision-Date: 2024-11-01 14:07+0000\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English\n"
@@ -565,7 +565,7 @@ msgid "Search for “%1”"
 msgstr "Search online for '%1'"
 
 #: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
-#: src/qml/Mobile.qml:328
+#: src/qml/Mobile.qml:346
 #, fuzzy, kde-format
 #| msgid "Share page"
 msgctxt "@action:inmenu"
@@ -675,42 +675,42 @@ msgid "Search or enter URL…"
 msgstr "Search or enter URL…"
 
 #: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:272
-#: src/qml/Navigation.qml:443
+#: src/qml/Navigation.qml:461
 #, fuzzy, kde-format
 #| msgid "New Tab"
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "New Tab"
 
-#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:92
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:90
 #, fuzzy, kde-format
 #| msgid "Leave private mode"
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
 msgstr "Leave private mode"
 
-#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:92
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:90
 #, fuzzy, kde-format
 #| msgid "Private Mode"
 msgctxt "@action:inmenu"
 msgid "Private Mode"
 msgstr "Private Mode"
 
-#: src/qml/desktop/Desktop.qml:294 src/qml/Mobile.qml:108
+#: src/qml/desktop/Desktop.qml:294 src/qml/Mobile.qml:106
 #, fuzzy, kde-format
 #| msgid "History"
 msgctxt "@action:inmenu"
 msgid "History"
 msgstr "History"
 
-#: src/qml/desktop/Desktop.qml:307 src/qml/Mobile.qml:100
+#: src/qml/desktop/Desktop.qml:307 src/qml/Mobile.qml:98
 #, fuzzy, kde-format
 #| msgid "Bookmarks"
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "Bookmarks"
 
-#: src/qml/desktop/Desktop.qml:320 src/qml/Mobile.qml:112
+#: src/qml/desktop/Desktop.qml:320 src/qml/Mobile.qml:110
 #, fuzzy, kde-format
 #| msgid "Downloads"
 msgctxt "@action:inmenu"
@@ -744,21 +744,21 @@ msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Hide developer tools"
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:426
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:444
 #, fuzzy, kde-format
 #| msgid "Show developer tools"
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Show developer tools"
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:324
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:342
 #, fuzzy, kde-format
 #| msgid "Find in page"
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Find in page"
 
-#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:409
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:427
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
@@ -771,14 +771,14 @@ msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "Add to application launcher"
 
-#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:127
+#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:125
 #, fuzzy, kde-format
 #| msgid "Settings"
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "Settings"
 
-#: src/qml/desktop/Desktop.qml:434 src/qml/Mobile.qml:134
+#: src/qml/desktop/Desktop.qml:434 src/qml/Mobile.qml:132
 #, fuzzy, kde-format
 #| msgid "Configure Angelfish"
 msgctxt "@action:inmenu"
@@ -792,14 +792,14 @@ msgctxt "@action:toolbutton"
 msgid "New Tab"
 msgstr "New Tab"
 
-#: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:243
+#: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:246
 #, fuzzy, kde-format
 #| msgid "Reader Mode: %1"
 msgctxt "@label"
 msgid "Reader mode: %1"
 msgstr "Reader Mode: %1"
 
-#: src/qml/desktop/DesktopTabDelegate.qml:118 src/qml/Tabs.qml:259
+#: src/qml/desktop/DesktopTabDelegate.qml:118 src/qml/Tabs.qml:262
 #, fuzzy, kde-format
 #| msgid "Close tab"
 msgctxt "@info:tooltip"
@@ -969,97 +969,97 @@ msgctxt "@title:window"
 msgid "Angelfish Web Browser"
 msgstr "Angelfish Web Browser"
 
-#: src/qml/Mobile.qml:85
+#: src/qml/Mobile.qml:83
 #, fuzzy, kde-format
 #| msgid "Tabs"
 msgctxt "@action:inmenu"
 msgid "Tabs"
 msgstr "Tabs"
 
-#: src/qml/Mobile.qml:120
+#: src/qml/Mobile.qml:118
 #, fuzzy, kde-format
 #| msgid "Show desktop site"
 msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
 msgstr "Show desktop site"
 
-#: src/qml/Mobile.qml:339
+#: src/qml/Mobile.qml:357
 #, fuzzy, kde-format
 #| msgid "Add to homescreen"
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Add to homescreen"
 
-#: src/qml/Mobile.qml:351
+#: src/qml/Mobile.qml:369
 #, fuzzy, kde-format
 #| msgid "Open in app"
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Open in app"
 
-#: src/qml/Mobile.qml:359
+#: src/qml/Mobile.qml:377
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr ""
 
-#: src/qml/Mobile.qml:367
+#: src/qml/Mobile.qml:385
 #, fuzzy, kde-format
 #| msgid "Go forward"
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "Go forwards"
 
-#: src/qml/Mobile.qml:374
+#: src/qml/Mobile.qml:392
 #, fuzzy, kde-format
 #| msgid "Stop loading"
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Stop loading"
 
-#: src/qml/Mobile.qml:374
+#: src/qml/Mobile.qml:392
 #, fuzzy, kde-format
 #| msgid "Refresh"
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Refresh"
 
-#: src/qml/Mobile.qml:384
+#: src/qml/Mobile.qml:402
 #, fuzzy, kde-format
 #| msgid "Bookmarked"
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "Bookmarked"
 
-#: src/qml/Mobile.qml:384
+#: src/qml/Mobile.qml:402
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Bookmark"
 
-#: src/qml/Mobile.qml:400
+#: src/qml/Mobile.qml:418
 #, fuzzy, kde-format
 #| msgid "Show desktop site"
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Show desktop site"
 
-#: src/qml/Mobile.qml:417
+#: src/qml/Mobile.qml:435
 #, fuzzy, kde-format
 #| msgid "Hide navigation bar"
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "Hide navigation bar"
 
-#: src/qml/Navigation.qml:416
+#: src/qml/Navigation.qml:434
 #, fuzzy, kde-format
 #| msgid "Done"
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr "Done"
 
-#: src/qml/Navigation.qml:429
+#: src/qml/Navigation.qml:447
 #, fuzzy, kde-format
 #| msgid "New tabs:"
 msgctxt "@info:status"
