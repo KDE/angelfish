@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-26 00:45+0000\n"
-"PO-Revision-Date: 2026-09-15 16:07+0900\n"
+"PO-Revision-Date: 2026-10-01 00:59+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -687,9 +687,7 @@ msgid "About Angelfish"
 msgstr "關於 Angelfish"
 
 #: src/qml/desktop/Desktop.qml:458
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "New Tab"
+#, kde-format
 msgctxt "@action:toolbutton"
 msgid "New Tab"
 msgstr "新增分頁"
