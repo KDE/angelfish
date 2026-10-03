@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-26 02:59+0000\n"
-"PO-Revision-Date: 2026-02-25 13:34+0200\n"
+"PO-Revision-Date: 2026-08-26 12:20+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -522,10 +522,9 @@ msgid "Web browser for Plasma Mobile"
 msgstr "Verkkoselain Plasma Mobileen"
 
 #: src/main.cpp:90
-#, fuzzy, kde-format
-#| msgid "© 2015-2024 KDE Community"
+#, kde-format
 msgid "© 2015-2026 KDE Community"
-msgstr "© 2015-2024 KDE-yhteisö"
+msgstr "© 2015-2026 KDE-yhteisö"
 
 #: src/main.cpp:93
 #, kde-format
@@ -581,12 +580,10 @@ msgid "Bookmarks"
 msgstr "Kirjanmerkit"
 
 #: src/qml/Bookmarks.qml:24 src/qml/Downloads.qml:34 src/qml/History.qml:31
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid "Close tab"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Close"
-msgstr "Sulje välilehti"
+msgstr "Sulje"
 
 #: src/qml/desktop/Desktop.qml:152
 #, kde-format
@@ -686,11 +683,10 @@ msgid "Settings"
 msgstr "Asetukset"
 
 #: src/qml/desktop/Desktop.qml:434 src/qml/Mobile.qml:132
-#, fuzzy, kde-format
-#| msgid "Angelfish"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Angelfish"
-msgstr "Angelfish"
+msgstr "Tietoa Angelfishistä"
 
 #: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:277
 #, kde-format
@@ -756,7 +752,7 @@ msgstr "Lataukset"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Clear finished downloads"
-msgstr ""
+msgstr "Tyhjennä valmistuneet lataukset"
 
 #: src/qml/Downloads.qml:47
 #, kde-format
@@ -927,9 +923,7 @@ msgid "Share Page"
 msgstr "Jaa sivu"
 
 #: src/qml/WebAppNameDialog.qml:18
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Add to Application Launcher"
+#, kde-format
 msgctxt "@title:window"
 msgid "Add to Application Launcher"
 msgstr "Lisää sovelluskäynnistimeen"
@@ -938,15 +932,13 @@ msgstr "Lisää sovelluskäynnistimeen"
 #, kde-format
 msgctxt "@info"
 msgid "Enter a name for the web application:"
-msgstr ""
+msgstr "Anna verkkosovellukselle nimi:"
 
 #: src/qml/WebAppNameDialog.qml:39
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Add to Application Launcher"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Application name"
-msgstr "Lisää sovelluskäynnistimeen"
+msgstr "Sovelluksen nimi"
 
 #: src/settings/AngelfishConfigurationView.qml:14
 #: src/settings/SettingsGeneral.qml:19
@@ -983,16 +975,15 @@ msgid "Toolbars"
 msgstr "Työkalurivit"
 
 #: src/settings/AngelfishConfigurationView.qml:44
-#, fuzzy, kde-format
-#| msgid "Angelfish"
+#, kde-format
 msgid "About Angelfish"
-msgstr "Angelfish"
+msgstr "Tietoa Angelfishistä"
 
 #: src/settings/AngelfishConfigurationView.qml:47
 #, kde-format
 msgctxt "@title:group"
 msgid "About"
-msgstr ""
+msgstr "Tietoa"
 
 #: src/settings/DesktopHomeSettingsPage.qml:25
 #, kde-format
