@@ -62,6 +62,7 @@ Repeater {
 
         required property bool isMobile
         required property url pageurl
+        required property string savedTitle
         required property bool isDeveloperToolsOpen
 
         required property int index
@@ -72,9 +73,11 @@ Repeater {
 
         property bool readyForSnapshot: false
         property bool showView: index === tabs.currentIndex
-        property bool isVisible: (showView || readyForSnapshot || pageWebView.loadingActive) && tabs.activeTabs
+        property bool isVisible: (showView || readyForSnapshot || (pageWebView && pageWebView.loadingActive)) && tabs.activeTabs
         property alias pageWebView: pageWebViewLoader.item
-        property string title: pageWebView ? pageWebView.title : i18nc("@title:webview", "Loading")
+        property string title: pageWebView && pageWebView.title
+            ? pageWebView.title
+            : savedTitle || i18nc("@title:webview", "Loading")
         property var icon: pageWebView ? pageWebView.icon : null
         property bool readerMode: pageWebView && pageWebView.readerMode
         property string readerTitle: pageWebView ? pageWebView.readerTitle : i18nc("@title:webview", "Loading")
@@ -117,9 +120,14 @@ Repeater {
                     }
 
                     onRequestedUrlChanged: tabsModel.setUrl(index, requestedUrl)
+                    onTitleChanged: {
+                        if (title) {
+                            tabsModel.setTitle(index, title)
+                        }
+                    }
 
                     Connections {
-                        target: pageWebView.userAgent
+                        target: pageWebView ? pageWebView.userAgent : null
                         function onUserAgentChanged() {
                             tabsModel.setIsMobile(index, pageWebView.userAgent.isMobile);
                         }
