@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-26 02:59+0000\n"
+"POT-Creation-Date: 2026-10-09 02:58+0000\n"
 "PO-Revision-Date: 2026-05-25 18:31+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -603,7 +603,7 @@ msgid "Search or enter URL…"
 msgstr "검색 또는 URL 입력…"
 
 #: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:267
-#: src/qml/Navigation.qml:463
+#: src/qml/Navigation.qml:464
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
@@ -915,13 +915,13 @@ msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "탐색 표시줄 숨기기"
 
-#: src/qml/Navigation.qml:436
+#: src/qml/Navigation.qml:437
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr "완료"
 
-#: src/qml/Navigation.qml:449
+#: src/qml/Navigation.qml:450
 #, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"

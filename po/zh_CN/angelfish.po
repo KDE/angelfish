@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-26 02:59+0000\n"
+"POT-Creation-Date: 2026-10-09 02:58+0000\n"
 "PO-Revision-Date: 2024-04-22 15:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -590,7 +590,7 @@ msgid "Search or enter URL…"
 msgstr "搜索或输入 URL..."
 
 #: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:267
-#: src/qml/Navigation.qml:463
+#: src/qml/Navigation.qml:464
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
@@ -902,13 +902,13 @@ msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "隐藏导航栏"
 
-#: src/qml/Navigation.qml:436
+#: src/qml/Navigation.qml:437
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr "完成"
 
-#: src/qml/Navigation.qml:449
+#: src/qml/Navigation.qml:450
 #, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"
