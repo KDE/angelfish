@@ -267,8 +267,9 @@ Item {
                 }
 
                 background: Rectangle {
-                    border.color: Kirigami.Theme.highlightColor
-                    border.width: labelItem.hovered | labelItem.down ? 1 : 0
+                    border.color: (labelItem.hovered && labelItem.down) ? Kirigami.Theme.highlightColor :
+                                                                          Qt.rgba(Kirigami.Theme.textColor.r, Kirigami.Theme.textColor.g, Kirigami.Theme.textColor.b, 0.1)
+                    border.width: 1
                     color: labelItem.down ? Qt.rgba(Kirigami.Theme.highlightColor.r, Kirigami.Theme.highlightColor.g, Kirigami.Theme.highlightColor.b, 0.3) :
                                             Kirigami.Theme.alternateBackgroundColor
                     radius: Kirigami.Units.cornerRadius
