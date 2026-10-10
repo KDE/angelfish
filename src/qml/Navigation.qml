@@ -203,7 +203,10 @@ Item {
                 Kirigami.Theme.inherit: true
 
                 enabled: navigation.shown
-                onClicked: globalDrawer.open()
+                onClicked: {
+                    mainMenu.anchorItem = mainMenuButton;
+                    mainMenu.open();
+                }
             }
 
             Controls.ToolButton {
@@ -398,14 +401,16 @@ Item {
                 Layout.preferredWidth: navigation.buttonSize
                 Layout.preferredHeight: navigation.buttonSize
 
-                visible: webBrowser.landscape || Core.AngelfishSettings.navBarContextMenu
                 opacity: navigation.dismissOpacity
                 icon.name: "overflow-menu"
 
                 Kirigami.Theme.inherit: true
 
                 enabled: navigation.shown
-                onClicked: contextDrawer.open()
+                onClicked: {
+                    contextMenu.anchorItem = optionsButton;
+                    contextMenu.open();
+                }
             }
         }
 

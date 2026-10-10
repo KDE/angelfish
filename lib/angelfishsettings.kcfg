@@ -68,7 +68,6 @@ SPDX-License-Identifier: LGPL-2.0-or-later
         <entry key="navBarReload" type="Bool">
             <default>!SettingsHelper::isMobile()</default>
         </entry>
-        <entry key="navBarContextMenu" type="Bool"></entry>
     </group>
     <group name="Window">
         <entry key="windowX" type="Int" />

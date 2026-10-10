@@ -24,7 +24,7 @@ FormCard.FormCardPage {
 
     FormCard.FormCard {
         Controls.Label {
-            text: i18n("Choose the buttons enabled in navigation bar. Some of the buttons can be hidden only in portrait orientation of the browser and are always shown if the browser is wider than its height.\n\n Note that if you disable the menu buttons, you will be able to access the menus either by swiping from the left or right side or to a side along the bottom of the window.")
+            text: i18n("Choose the buttons enabled in the navigation bar. Some of the buttons can be hidden only in portrait orientation of the browser and are always shown if the browser is wider than its height.")
             Layout.fillWidth: true
             padding: Kirigami.Units.gridUnit
             wrapMode: Text.WordWrap
@@ -42,12 +42,6 @@ FormCard.FormCardPage {
             text: i18nc("@label:checkbox", "Tabs in portrait")
             checked: Core.AngelfishSettings.navBarTabs
             onCheckedChanged: Core.AngelfishSettings.navBarTabs = checked
-        }
-
-        FormCard.FormCheckDelegate {
-            text: i18nc("@label:checkbox", "Context menu in portrait")
-            checked: SCore.Angelfishettings.navBarContextMenu
-            onCheckedChanged: Core.AngelfishSettings.navBarContextMenu = checked
         }
 
         FormCard.FormCheckDelegate {

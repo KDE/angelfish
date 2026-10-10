@@ -67,89 +67,67 @@ Kirigami.ApplicationWindow {
     pageStack.globalToolBar.showNavigationButtons: Kirigami.ApplicationHeaderStyle.ShowBackButton
     pageStack.columnView.columnResizeMode: Kirigami.ColumnView.SingleColumn
 
+    Controls.Menu {
+        id: mainMenu
 
-    globalDrawer: Kirigami.GlobalDrawer {
-        id: globalDrawer
+        property Item anchorItem
 
-        handleVisible: false
+        parent: anchorItem ?? webBrowser.contentItem
+        x: 0
+        y: anchorItem ? -height : 0
+        modal: true
 
-        actions: [
-            Kirigami.Action {
-                icon.name: "tab-duplicate"
-                onTriggered: {
-                    popSubPages();
-                    tabsSheetLoader.toggle();
-                }
-                text: i18nc("@action:inmenu", "Tabs")
-            },
-            Kirigami.Action {
-                icon.name: "view-private"
-                onTriggered: {
-                    rootPage.privateMode ? rootPage.privateMode = false : rootPage.privateMode = true
-                }
-                text: rootPage.privateMode ? i18nc("@action:inmenu", "Leave Private Mode") : i18nc("@action:inmenu", "Private Mode")
-            },
-            Kirigami.Action {
-                icon.name: "bookmarks"
-                onTriggered: {
-                    popSubPages();
-                    pageStack.push(Qt.resolvedUrl("Bookmarks.qml"))
-                }
-                text: i18nc("@action:inmenu", "Bookmarks")
-            },
-            Kirigami.Action {
-                icon.name: "shallow-history"
-                onTriggered: {
-                    popSubPages();
-                    pageStack.push(Qt.resolvedUrl("History.qml"))
-                }
-                text: i18nc("@action:inmenu", "History")
-            },
-            Kirigami.Action {
-                icon.name: "download"
-                text: i18nc("@action:inmenu", "Downloads")
-                onTriggered: {
-                    popSubPages();
-                    pageStack.push(Qt.resolvedUrl("Downloads.qml"))
-                }
-            },
-            Kirigami.Action {
-                icon.name: "computer"
-                text: i18nc("@action:inmenu", "Toggle Desktop Mode")
-                onTriggered: {
-                    InterfaceLoader.isMobile = !InterfaceLoader.isMobile;
-                }
-            },
-            Kirigami.Action {
-                icon.name: "configure"
-                text: i18nc("@action:inmenu", "Settings")
-                onTriggered: {
-                    popSubPages();
-                    configurationView.open();
-                }
-            },
-            Kirigami.Action {
-                text: i18nc("@action:inmenu", "About Angelfish")
-                icon.name: "help-about"
-                onTriggered: {
-                    applicationWindow().pageStack.pushDialogLayer(Qt.createComponent("org.kde.kirigamiaddons.formcard", "AboutPage"))
-                }
+        Kirigami.Action {
+            icon.name: "view-private"
+            onTriggered: {
+                rootPage.privateMode ? rootPage.privateMode = false : rootPage.privateMode = true
             }
-        ]
+            text: rootPage.privateMode ? i18nc("@action:inmenu", "Leave Private Mode") : i18nc("@action:inmenu", "Private Mode")
+        }
+        Kirigami.Action {
+            icon.name: "bookmarks"
+            onTriggered: {
+                popSubPages();
+                pageStack.push(Qt.resolvedUrl("Bookmarks.qml"))
+            }
+            text: i18nc("@action:inmenu", "Bookmarks")
+        }
+        Kirigami.Action {
+            icon.name: "shallow-history"
+            onTriggered: {
+                popSubPages();
+                pageStack.push(Qt.resolvedUrl("History.qml"))
+            }
+            text: i18nc("@action:inmenu", "History")
+        }
+        Kirigami.Action {
+            icon.name: "download"
+            text: i18nc("@action:inmenu", "Downloads")
+            onTriggered: {
+                popSubPages();
+                pageStack.push(Qt.resolvedUrl("Downloads.qml"))
+            }
+        }
+        Kirigami.Action {
+            icon.name: "computer"
+            text: i18nc("@action:inmenu", "Toggle Desktop Mode")
+            onTriggered: {
+                InterfaceLoader.isMobile = !InterfaceLoader.isMobile;
+            }
+        }
+        Kirigami.Action {
+            icon.name: "configure"
+            text: i18nc("@action:inmenu", "Settings")
+            onTriggered: {
+                popSubPages();
+                configurationView.open();
+            }
+        }
     }
 
     AngelfishConfigurationView {
         id: configurationView
         window: webBrowser
-    }
-
-    contextDrawer: Kirigami.ContextDrawer {
-        id: contextDrawer
-
-        actions: pageStack.currentItem?.actions ?? []
-        enabled: true
-
-        handleVisible: false
     }
 
     // Main Page
@@ -333,14 +311,23 @@ Kirigami.ApplicationWindow {
             websiteName: currentWebView.title
         }
 
-        // The menu at the bottom right
-        actions: [
+        Controls.Menu {
+            id: contextMenu
+
+            property Item anchorItem
+
+            parent: anchorItem ?? rootPage
+            x: anchorItem ? anchorItem.width - width : 0
+            y: anchorItem ? -height : 0
+
+            modal: true
+
             Kirigami.Action {
                 icon.name: "edit-find"
                 shortcut: "Ctrl+F"
                 onTriggered: findInPage.activate()
                 text: i18nc("@action:inmenu", "Find in Page")
-            },
+            }
             Kirigami.Action {
                 icon.name: "document-share"
                 text: i18nc("@action:inmenu", "Share Page")
@@ -350,7 +337,7 @@ Kirigami.ApplicationWindow {
                     sheetLoader.item.inputTitle = currentWebView.title
                     sheetLoader.item.open()
                 }
-            },
+            }
             Kirigami.Action {
                 id: addHomeScreenAction
                 icon.name: "list-add"
@@ -363,37 +350,14 @@ Kirigami.ApplicationWindow {
                     webAppNameDialog.webAppCreator = webAppCreator
                     webAppNameDialog.open()
                 }
-            },
+            }
             Kirigami.Action {
                 icon.name: "application-x-object"
                 text: i18nc("@action:inmenu", "Open in App")
                 onTriggered: {
                     Qt.openUrlExternally(currentWebView.url)
                 }
-            },
-            Kirigami.Action {
-                enabled: currentWebView.canGoBack
-                icon.name: "go-previous"
-                text: i18nc("@action:inmenu", "Go Back")
-                onTriggered: {
-                    currentWebView.goBack()
-                }
-            },
-            Kirigami.Action {
-                enabled: currentWebView.canGoForward
-                icon.name: "go-next"
-                text: i18nc("@action:inmenu", "Go Forward")
-                onTriggered: {
-                    currentWebView.goForward()
-                }
-            },
-            Kirigami.Action {
-                icon.name: currentWebView.loading ? "process-stop" : "view-refresh"
-                text: currentWebView.loading ? i18nc("@action:inmenu", "Stop Loading") : i18nc("@action:inmenu", "Refresh")
-                onTriggered: {
-                    currentWebView.loading ? currentWebView.stopLoading() : currentWebView.reload()
-                }
-            },
+            }
             Kirigami.Action {
                 id: bookmarkAction
                 checkable: true
@@ -412,7 +376,7 @@ Kirigami.ApplicationWindow {
                         Core.BrowserManager.removeBookmark(currentWebView.url);
                     }
                 }
-            },
+            }
             Kirigami.Action {
                 icon.name: "computer"
                 text: i18nc("@action:inmenu", "Show Desktop Site")
@@ -421,7 +385,7 @@ Kirigami.ApplicationWindow {
                 onTriggered: {
                     currentWebView.userAgent.isMobile = !currentWebView.userAgent.isMobile;
                 }
-            },
+            }
             Kirigami.Action {
                 icon.name: currentWebView.readerMode ? "view-readermode-active" : "view-readermode"
                 text: i18nc("@action:inmenu", "Reader Mode")
@@ -429,7 +393,7 @@ Kirigami.ApplicationWindow {
                 checked: currentWebView.readerMode
                 onTriggered: currentWebView.readerModeSwitch()
 
-            },
+            }
             Kirigami.Action {
                 icon.name: "edit-select-text"
                 text: i18nc("@action:inmenu", "Hide Navigation Bar")
@@ -438,7 +402,7 @@ Kirigami.ApplicationWindow {
                     if (!navigation.visible) return;
                     rootPage.navigationAutoShowLock = true
                 }
-            },
+            }
             Kirigami.Action {
                 icon.name: "dialog-scripts"
                 text: i18nc("@action:inmenu", "Show Developer Tools")
@@ -448,7 +412,30 @@ Kirigami.ApplicationWindow {
                     tabs.tabsModel.toggleDeveloperTools(tabs.currentIndex)
                 }
             }
-        ]
+            Kirigami.Action {
+                enabled: currentWebView.canGoBack
+                icon.name: "go-previous"
+                text: i18nc("@action:inmenu", "Go Back")
+                onTriggered: {
+                    currentWebView.goBack()
+                }
+            }
+            Kirigami.Action {
+                enabled: currentWebView.canGoForward
+                icon.name: "go-next"
+                text: i18nc("@action:inmenu", "Go Forward")
+                onTriggered: {
+                    currentWebView.goForward()
+                }
+            }
+            Kirigami.Action {
+                icon.name: currentWebView.loading ? "process-stop" : "view-refresh"
+                text: currentWebView.loading ? i18nc("@action:inmenu", "Stop Loading") : i18nc("@action:inmenu", "Refresh")
+                onTriggered: {
+                    currentWebView.loading ? currentWebView.stopLoading() : currentWebView.reload()
+                }
+            }
+        }
 
         // Tabs sheet
         Loader {
