@@ -14,6 +14,8 @@
 #include <QUrl>
 #include <QtQml>
 #include <QtWebEngineQuick>
+#include <QtWebEngineCoreVersion>
+#include <qtwebenginecoreglobal.h>
 
 #include <KAboutData>
 #include <KCrash>
@@ -91,6 +93,21 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     aboutData.setTranslator(i18nc("NAME OF TRANSLATORS", "Your names"), i18nc("EMAIL OF TRANSLATORS", "Your emails"));
     aboutData.setOrganizationDomain("kde.org");
     aboutData.setBugAddress("https://bugs.kde.org/describecomponents.cgi?product=angelfish");
+    aboutData.addComponent(u"Qt WebEngine"_s,
+                           i18n("A browser engine based on Chromium for embeding web content."),
+                           i18nc("<version number> (built against <possibly different version number>)",
+                                 "%1 (built against %2)",
+                                 QString::fromLocal8Bit(qWebEngineVersion()),
+                                 QStringLiteral(QTWEBENGINECORE_VERSION_STR)),
+                           u"https://github.com/qt/qtwebengine"_s,
+                           KAboutLicense::BSD_3_Clause);
+    aboutData.addComponent(u"Chromium"_s,
+                           i18n("Web browser project developed by Google."),
+                           QString::fromLocal8Bit(qWebEngineChromiumVersion()),
+                           u"https://www.chromium.org/Home/"_s,
+                           KAboutLicense::BSD_3_Clause);
+
+
     KAboutData::setApplicationData(aboutData);
 
     // Open links in the already running window when e.g clicked on in another application.
