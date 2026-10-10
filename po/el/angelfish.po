@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-26 00:45+0000\n"
+"POT-Creation-Date: 2026-10-10 00:45+0000\n"
 "PO-Revision-Date: 2024-09-19 13:52+0300\n"
 "Last-Translator: Antonis Geralis <capoiosct@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -633,7 +633,7 @@ msgid "Search or enter URL…"
 msgstr "Αναζήτηση ή εισαγωγή URL..."
 
 #: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:272
-#: src/qml/Navigation.qml:461
+#: src/qml/Navigation.qml:462
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
@@ -969,13 +969,13 @@ msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "Απόκρυψη γραμμής πλοήγησης"
 
-#: src/qml/Navigation.qml:434
+#: src/qml/Navigation.qml:435
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr "Έγινε"
 
-#: src/qml/Navigation.qml:447
+#: src/qml/Navigation.qml:448
 #, fuzzy, kde-format
 #| msgid "New tabs:"
 msgctxt "@info:status"

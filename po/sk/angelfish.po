@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-26 00:45+0000\n"
+"POT-Creation-Date: 2026-10-10 00:45+0000\n"
 "PO-Revision-Date: 2023-11-13 18:52+0100\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <opensuse-translation@opensuse.org>\n"
@@ -600,7 +600,7 @@ msgid "Search or enter URL…"
 msgstr "Vyhľadať alebo zadať URL..."
 
 #: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:272
-#: src/qml/Navigation.qml:461
+#: src/qml/Navigation.qml:462
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
@@ -926,13 +926,13 @@ msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "Skryť navigačný panel"
 
-#: src/qml/Navigation.qml:434
+#: src/qml/Navigation.qml:435
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr "Hotovo"
 
-#: src/qml/Navigation.qml:447
+#: src/qml/Navigation.qml:448
 #, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"
