@@ -8,6 +8,7 @@
 #define TABSMODEL_H
 
 #include <QAbstractListModel>
+#include <QString>
 #include <QUrl>
 #include <QtQml/qqmlregistration.h>
 
@@ -30,11 +31,15 @@ public:
     bool isDeveloperToolsOpen() const;
     void setIsDeveloperToolsOpen(bool isDeveloperToolsOpen);
 
+    QString title() const;
+    void setTitle(const QString &title);
+
     QUrl url() const;
     void setUrl(const QUrl &url);
 
 private:
     QUrl m_url;
+    QString m_title;
     bool m_isMobile = true;
     bool m_isDeveloperToolsOpen = false;
 };
@@ -49,7 +54,7 @@ class TabsModel : public QAbstractListModel
 
     QML_ELEMENT
 
-    enum RoleNames { UrlRole = Qt::UserRole + 1, IsMobileRole, IsDeveloperToolsOpen };
+    enum RoleNames { UrlRole = Qt::UserRole + 1, IsMobileRole, IsDeveloperToolsOpen, TitleRole };
 
 public:
     explicit TabsModel(QObject *parent = nullptr);
@@ -74,6 +79,7 @@ public:
     Q_INVOKABLE void reopenTab();
 
     Q_INVOKABLE void setUrl(int index, const QUrl &url);
+    Q_INVOKABLE void setTitle(int index, const QString &title);
     Q_INVOKABLE void setIsMobile(int index, bool isMobile);
     Q_INVOKABLE void toggleDeveloperTools(int index);
 

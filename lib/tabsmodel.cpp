@@ -44,6 +44,7 @@ QHash<int, QByteArray> TabsModel::roleNames() const
 {
     return {
         {RoleNames::UrlRole, QByteArrayLiteral("pageurl")},
+        {RoleNames::TitleRole, QByteArrayLiteral("savedTitle")},
         {RoleNames::IsMobileRole, QByteArrayLiteral("isMobile")},
         {RoleNames::IsDeveloperToolsOpen, QByteArrayLiteral("isDeveloperToolsOpen")},
     };
@@ -58,6 +59,8 @@ QVariant TabsModel::data(const QModelIndex &index, int role) const
     switch (role) {
     case RoleNames::UrlRole:
         return m_tabs.at(index.row()).url();
+    case RoleNames::TitleRole:
+        return m_tabs.at(index.row()).title();
     case RoleNames::IsMobileRole:
         return m_tabs.at(index.row()).isMobile();
     case RoleNames::IsDeveloperToolsOpen:
@@ -416,6 +419,19 @@ void TabsModel::setUrl(int index, const QUrl &url)
     saveTabs();
 }
 
+void TabsModel::setTitle(int index, const QString &title)
+{
+    if (index < 0 || size_t(index) >= m_tabs.size() || m_tabs[index].title() == title) {
+        return;
+    }
+
+    m_tabs[index].setTitle(title);
+
+    const QModelIndex mindex = createIndex(index, index);
+    Q_EMIT dataChanged(mindex, mindex, {RoleNames::TitleRole});
+    saveTabs();
+}
+
 QUrl TabState::url() const
 {
     return m_url;
@@ -424,6 +440,16 @@ QUrl TabState::url() const
 void TabState::setUrl(const QUrl &url)
 {
     m_url = url;
+}
+
+QString TabState::title() const
+{
+    return m_title;
+}
+
+void TabState::setTitle(const QString &title)
+{
+    m_title = title;
 }
 
 bool TabState::isMobile() const
@@ -450,6 +476,7 @@ TabState TabState::fromJson(const QJsonObject &obj)
 {
     TabState tab;
     tab.setUrl(QUrl(obj.value(QStringLiteral("url")).toString()));
+    tab.setTitle(obj.value(QStringLiteral("title")).toString());
     tab.setIsMobile(obj.value(QStringLiteral("isMobile")).toBool());
     tab.setIsDeveloperToolsOpen(obj.value(QStringLiteral("isDeveloperToolsOpen")).toBool());
     return tab;
@@ -465,6 +492,7 @@ bool TabState::operator==(const TabState &other) const
 {
     return (
         m_url == other.url() &&
+        m_title == other.title() &&
         m_isMobile == other.isMobile() &&
         m_isDeveloperToolsOpen == other.isDeveloperToolsOpen()
     );
@@ -474,6 +502,7 @@ QJsonObject TabState::toJson() const
 {
     return {
         {QStringLiteral("url"), m_url.toString()},
+        {QStringLiteral("title"), m_title},
         {QStringLiteral("isMobile"), m_isMobile},
         {QStringLiteral("isDeveloperToolsOpen"), m_isDeveloperToolsOpen},
     };
