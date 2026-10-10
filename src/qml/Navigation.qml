@@ -277,8 +277,6 @@ Item {
                                             Kirigami.Theme.alternateBackgroundColor
                     radius: Kirigami.Units.cornerRadius
 
-                    Kirigami.Theme.inherit: false
-                    Kirigami.Theme.colorSet: Kirigami.Theme.Window
                     visible: navigation.shown
                 }
 
