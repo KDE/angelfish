@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-10 00:45+0000\n"
+"POT-Creation-Date: 2026-10-11 00:49+0000\n"
 "PO-Revision-Date: 2020-08-12 20:25+0200\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -162,7 +162,7 @@ msgstr "Download gennemført"
 msgid "Download failed"
 msgstr "Download mislykkedes"
 
-#: lib/contents/ui/ListWebView.qml:77 lib/contents/ui/ListWebView.qml:80
+#: lib/contents/ui/ListWebView.qml:80 lib/contents/ui/ListWebView.qml:83
 #, fuzzy, kde-format
 #| msgid "Stop loading"
 msgctxt "@title:webview"
@@ -535,7 +535,7 @@ msgid "Search for “%1”"
 msgstr "Søg online efter \"%1\""
 
 #: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
-#: src/qml/Mobile.qml:346
+#: src/qml/Mobile.qml:333
 #, fuzzy, kde-format
 #| msgid "Share page"
 msgctxt "@action:inmenu"
@@ -549,47 +549,63 @@ msgctxt "@action:inmenu"
 msgid "View Page Source"
 msgstr "Vis kildetekst"
 
-#: src/main.cpp:67
+#: src/main.cpp:69
 #, kde-format
 msgid "URL to open"
 msgstr "URL der skal åbnes"
 
-#: src/main.cpp:83
+#: src/main.cpp:85
 #, kde-format
 msgid "Angelfish"
 msgstr ""
 
-#: src/main.cpp:85
+#: src/main.cpp:87
 #, kde-format
 msgid "Web browser for Plasma Mobile"
 msgstr ""
 
-#: src/main.cpp:87
+#: src/main.cpp:89
 #, kde-format
 msgid "© 2015-2026 KDE Community"
 msgstr ""
 
-#: src/main.cpp:90
+#: src/main.cpp:92
 #, kde-format
 msgid "Jonah Brüchert"
 msgstr ""
 
-#: src/main.cpp:90
+#: src/main.cpp:92
 #, kde-format
 msgid "Maintainer"
 msgstr ""
 
-#: src/main.cpp:91
+#: src/main.cpp:93
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Martin Schlander"
 
-#: src/main.cpp:91
+#: src/main.cpp:93
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mschlander@opensuse.org"
+
+#: src/main.cpp:97
+#, kde-format
+msgid "A browser engine based on Chromium for embeding web content."
+msgstr ""
+
+#: src/main.cpp:99
+#, kde-format
+msgctxt "<version number> (built against <possibly different version number>)"
+msgid "%1 (built against %2)"
+msgstr ""
+
+#: src/main.cpp:105
+#, kde-format
+msgid "Web browser project developed by Google."
+msgstr ""
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:15
 #, kde-format
@@ -638,42 +654,42 @@ msgid "Search or enter URL…"
 msgstr ""
 
 #: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:272
-#: src/qml/Navigation.qml:462
+#: src/qml/Navigation.qml:465
 #, fuzzy, kde-format
 #| msgid "Close"
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "Luk"
 
-#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:90
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:85
 #, fuzzy, kde-format
 #| msgid "Leave private mode"
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
 msgstr "Forlad privattilstand"
 
-#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:90
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:85
 #, fuzzy, kde-format
 #| msgid "Private mode"
 msgctxt "@action:inmenu"
 msgid "Private Mode"
 msgstr "Privattilstand"
 
-#: src/qml/desktop/Desktop.qml:294 src/qml/Mobile.qml:106
+#: src/qml/desktop/Desktop.qml:294 src/qml/Mobile.qml:101
 #, fuzzy, kde-format
 #| msgid "History"
 msgctxt "@action:inmenu"
 msgid "History"
 msgstr "Historik"
 
-#: src/qml/desktop/Desktop.qml:307 src/qml/Mobile.qml:98
+#: src/qml/desktop/Desktop.qml:307 src/qml/Mobile.qml:93
 #, fuzzy, kde-format
 #| msgid "Bookmarks"
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "Bogmærker"
 
-#: src/qml/desktop/Desktop.qml:320 src/qml/Mobile.qml:110
+#: src/qml/desktop/Desktop.qml:320 src/qml/Mobile.qml:105
 #, fuzzy, kde-format
 #| msgid "Download"
 msgctxt "@action:inmenu"
@@ -704,20 +720,20 @@ msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:444
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:408
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:342
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:329
 #, fuzzy, kde-format
 #| msgid "Find in page"
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Find på siden"
 
-#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:427
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:391
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
@@ -729,14 +745,14 @@ msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:125
+#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:120
 #, fuzzy, kde-format
 #| msgid "Settings"
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "Indstillinger"
 
-#: src/qml/desktop/Desktop.qml:434 src/qml/Mobile.qml:132
+#: src/qml/desktop/Desktop.qml:434
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Angelfish"
@@ -914,96 +930,89 @@ msgctxt "@title:window"
 msgid "Angelfish Web Browser"
 msgstr "Angelfish webbrowser"
 
-#: src/qml/Mobile.qml:83
-#, fuzzy, kde-format
-#| msgid "Tabs"
-msgctxt "@action:inmenu"
-msgid "Tabs"
-msgstr "Faneblade"
-
-#: src/qml/Mobile.qml:118
+#: src/qml/Mobile.qml:113
 #, fuzzy, kde-format
 #| msgid "Show desktop site"
 msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
 msgstr "Vis desktopside"
 
-#: src/qml/Mobile.qml:357
+#: src/qml/Mobile.qml:344
 #, fuzzy, kde-format
 #| msgid "Add to homescreen"
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Føj til hjemmeskærm"
 
-#: src/qml/Mobile.qml:369
+#: src/qml/Mobile.qml:356
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Åbn i nyt faneblad"
 
-#: src/qml/Mobile.qml:377
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Go Back"
-msgstr ""
-
-#: src/qml/Mobile.qml:385
-#, fuzzy, kde-format
-#| msgid "Go forward"
-msgctxt "@action:inmenu"
-msgid "Go Forward"
-msgstr "Gå frem"
-
-#: src/qml/Mobile.qml:392
-#, fuzzy, kde-format
-#| msgid "Stop loading"
-msgctxt "@action:inmenu"
-msgid "Stop Loading"
-msgstr "Stop indlæsning"
-
-#: src/qml/Mobile.qml:392
-#, fuzzy, kde-format
-#| msgid "Refresh"
-msgctxt "@action:inmenu"
-msgid "Refresh"
-msgstr "Genopfrisk"
-
-#: src/qml/Mobile.qml:402
+#: src/qml/Mobile.qml:366
 #, fuzzy, kde-format
 #| msgid "Bookmarked"
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "Bogmærke gemt"
 
-#: src/qml/Mobile.qml:402
+#: src/qml/Mobile.qml:366
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Bogmærke"
 
-#: src/qml/Mobile.qml:418
+#: src/qml/Mobile.qml:382
 #, fuzzy, kde-format
 #| msgid "Show desktop site"
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Vis desktopside"
 
-#: src/qml/Mobile.qml:435
+#: src/qml/Mobile.qml:399
 #, fuzzy, kde-format
 #| msgid "Hide navigation bar"
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "Skjul navigationslinje"
 
-#: src/qml/Navigation.qml:435
+#: src/qml/Mobile.qml:418
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Go Back"
+msgstr ""
+
+#: src/qml/Mobile.qml:426
+#, fuzzy, kde-format
+#| msgid "Go forward"
+msgctxt "@action:inmenu"
+msgid "Go Forward"
+msgstr "Gå frem"
+
+#: src/qml/Mobile.qml:433
+#, fuzzy, kde-format
+#| msgid "Stop loading"
+msgctxt "@action:inmenu"
+msgid "Stop Loading"
+msgstr "Stop indlæsning"
+
+#: src/qml/Mobile.qml:433
+#, fuzzy, kde-format
+#| msgid "Refresh"
+msgctxt "@action:inmenu"
+msgid "Refresh"
+msgstr "Genopfrisk"
+
+#: src/qml/Navigation.qml:438
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr ""
 
-#: src/qml/Navigation.qml:448
+#: src/qml/Navigation.qml:451
 #, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"
@@ -1254,13 +1263,9 @@ msgstr "Navigationslinje"
 #: src/settings/SettingsNavigationBarPage.qml:27
 #, kde-format
 msgid ""
-"Choose the buttons enabled in navigation bar. Some of the buttons can be "
+"Choose the buttons enabled in the navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
-"the browser is wider than its height.\n"
-"\n"
-" Note that if you disable the menu buttons, you will be able to access the "
-"menus either by swiping from the left or right side or to a side along the "
-"bottom of the window."
+"the browser is wider than its height."
 msgstr ""
 
 #: src/settings/SettingsNavigationBarPage.qml:36
@@ -1279,26 +1284,19 @@ msgstr "Faneblade i stående"
 
 #: src/settings/SettingsNavigationBarPage.qml:48
 #, fuzzy, kde-format
-#| msgid "Context menu in portrait"
-msgctxt "@label:checkbox"
-msgid "Context menu in portrait"
-msgstr "Kontekstmenu i stående"
-
-#: src/settings/SettingsNavigationBarPage.qml:54
-#, fuzzy, kde-format
 #| msgid "Go back"
 msgctxt "@label:checkbox"
 msgid "Go back"
 msgstr "Gå tilbage"
 
-#: src/settings/SettingsNavigationBarPage.qml:60
+#: src/settings/SettingsNavigationBarPage.qml:54
 #, fuzzy, kde-format
 #| msgid "Go forward"
 msgctxt "@label:checkbox"
 msgid "Go forward"
 msgstr "Gå frem"
 
-#: src/settings/SettingsNavigationBarPage.qml:66
+#: src/settings/SettingsNavigationBarPage.qml:60
 #, fuzzy, kde-format
 #| msgid "Reload/Stop"
 msgctxt "@label:checkbox"
@@ -1337,6 +1335,18 @@ msgstr ""
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Tabs"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Tabs"
+#~ msgstr "Faneblade"
+
+#, fuzzy
+#~| msgid "Context menu in portrait"
+#~ msgctxt "@label:checkbox"
+#~ msgid "Context menu in portrait"
+#~ msgstr "Kontekstmenu i stående"
 
 #, fuzzy
 #~| msgid "Bookmarks"

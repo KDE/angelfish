@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-10 00:45+0000\n"
+"POT-Creation-Date: 2026-10-11 00:49+0000\n"
 "PO-Revision-Date: 2026-10-01 00:59+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -157,7 +157,7 @@ msgstr "下載完成"
 msgid "Download failed"
 msgstr "下載失敗"
 
-#: lib/contents/ui/ListWebView.qml:77 lib/contents/ui/ListWebView.qml:80
+#: lib/contents/ui/ListWebView.qml:80 lib/contents/ui/ListWebView.qml:83
 #, kde-format
 msgctxt "@title:webview"
 msgid "Loading"
@@ -492,7 +492,7 @@ msgid "Search for “%1”"
 msgstr "搜尋「%1」"
 
 #: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
-#: src/qml/Mobile.qml:346
+#: src/qml/Mobile.qml:333
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
@@ -504,47 +504,63 @@ msgctxt "@action:inmenu"
 msgid "View Page Source"
 msgstr "檢視頁面原始碼"
 
-#: src/main.cpp:67
+#: src/main.cpp:69
 #, kde-format
 msgid "URL to open"
 msgstr "欲開啟網址"
 
-#: src/main.cpp:83
+#: src/main.cpp:85
 #, kde-format
 msgid "Angelfish"
 msgstr "Angelfish"
 
-#: src/main.cpp:85
+#: src/main.cpp:87
 #, kde-format
 msgid "Web browser for Plasma Mobile"
 msgstr "Plasma 行動的網頁瀏覽器"
 
-#: src/main.cpp:87
+#: src/main.cpp:89
 #, kde-format
 msgid "© 2015-2026 KDE Community"
 msgstr "© 2015-2026 KDE 社群"
 
-#: src/main.cpp:90
+#: src/main.cpp:92
 #, kde-format
 msgid "Jonah Brüchert"
 msgstr "Jonah Brüchert"
 
-#: src/main.cpp:90
+#: src/main.cpp:92
 #, kde-format
 msgid "Maintainer"
 msgstr "維護者"
 
-#: src/main.cpp:91
+#: src/main.cpp:93
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Yi-Jyun Pan, Kisaragi Hiu"
 
-#: src/main.cpp:91
+#: src/main.cpp:93
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "pan93412@gmail.com, mail@kisaragi-hiu.com"
+
+#: src/main.cpp:97
+#, kde-format
+msgid "A browser engine based on Chromium for embeding web content."
+msgstr ""
+
+#: src/main.cpp:99
+#, kde-format
+msgctxt "<version number> (built against <possibly different version number>)"
+msgid "%1 (built against %2)"
+msgstr ""
+
+#: src/main.cpp:105
+#, kde-format
+msgid "Web browser project developed by Google."
+msgstr ""
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:15
 #, kde-format
@@ -590,37 +606,37 @@ msgid "Search or enter URL…"
 msgstr "搜尋或輸入網址…"
 
 #: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:272
-#: src/qml/Navigation.qml:462
+#: src/qml/Navigation.qml:465
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "新增分頁"
 
-#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:90
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:85
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
 msgstr "離開隱私模式"
 
-#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:90
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:85
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Private Mode"
 msgstr "隱私模式"
 
-#: src/qml/desktop/Desktop.qml:294 src/qml/Mobile.qml:106
+#: src/qml/desktop/Desktop.qml:294 src/qml/Mobile.qml:101
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "History"
 msgstr "歷史紀錄"
 
-#: src/qml/desktop/Desktop.qml:307 src/qml/Mobile.qml:98
+#: src/qml/desktop/Desktop.qml:307 src/qml/Mobile.qml:93
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "書籤"
 
-#: src/qml/desktop/Desktop.qml:320 src/qml/Mobile.qml:110
+#: src/qml/desktop/Desktop.qml:320 src/qml/Mobile.qml:105
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Downloads"
@@ -650,19 +666,19 @@ msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "隱藏開發者工具"
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:444
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:408
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "顯示開發者工具"
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:342
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:329
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "在頁面中尋找內容"
 
-#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:427
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:391
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
@@ -674,13 +690,13 @@ msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "新增到應用程式啟動器"
 
-#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:125
+#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:120
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "設定"
 
-#: src/qml/desktop/Desktop.qml:434 src/qml/Mobile.qml:132
+#: src/qml/desktop/Desktop.qml:434
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Angelfish"
@@ -842,85 +858,79 @@ msgctxt "@title:window"
 msgid "Angelfish Web Browser"
 msgstr "Angelfish 網路瀏覽器"
 
-#: src/qml/Mobile.qml:83
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Tabs"
-msgstr "分頁"
-
-#: src/qml/Mobile.qml:118
+#: src/qml/Mobile.qml:113
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
 msgstr "切換桌面版模式"
 
-#: src/qml/Mobile.qml:357
+#: src/qml/Mobile.qml:344
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "新增至主螢幕"
 
-#: src/qml/Mobile.qml:369
+#: src/qml/Mobile.qml:356
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "在應用程式中開啟"
 
-#: src/qml/Mobile.qml:377
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Go Back"
-msgstr "返回"
-
-#: src/qml/Mobile.qml:385
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Go Forward"
-msgstr "往前"
-
-#: src/qml/Mobile.qml:392
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Stop Loading"
-msgstr "停止載入"
-
-#: src/qml/Mobile.qml:392
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Refresh"
-msgstr "重新整理"
-
-#: src/qml/Mobile.qml:402
+#: src/qml/Mobile.qml:366
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "已加入書籤"
 
-#: src/qml/Mobile.qml:402
+#: src/qml/Mobile.qml:366
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "書籤"
 
-#: src/qml/Mobile.qml:418
+#: src/qml/Mobile.qml:382
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "顯示桌面版網站"
 
-#: src/qml/Mobile.qml:435
+#: src/qml/Mobile.qml:399
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "隱藏導覽列"
 
-#: src/qml/Navigation.qml:435
+#: src/qml/Mobile.qml:418
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Go Back"
+msgstr "返回"
+
+#: src/qml/Mobile.qml:426
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Go Forward"
+msgstr "往前"
+
+#: src/qml/Mobile.qml:433
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Stop Loading"
+msgstr "停止載入"
+
+#: src/qml/Mobile.qml:433
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Refresh"
+msgstr "重新整理"
+
+#: src/qml/Navigation.qml:438
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr "完成"
 
-#: src/qml/Navigation.qml:448
+#: src/qml/Navigation.qml:451
 #, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"
@@ -1164,15 +1174,19 @@ msgid "Navigation Bar"
 msgstr "導覽列"
 
 #: src/settings/SettingsNavigationBarPage.qml:27
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
+#| "hidden only in portrait orientation of the browser and are always shown "
+#| "if the browser is wider than its height.\n"
+#| "\n"
+#| " Note that if you disable the menu buttons, you will be able to access "
+#| "the menus either by swiping from the left or right side or to a side "
+#| "along the bottom of the window."
 msgid ""
-"Choose the buttons enabled in navigation bar. Some of the buttons can be "
+"Choose the buttons enabled in the navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
-"the browser is wider than its height.\n"
-"\n"
-" Note that if you disable the menu buttons, you will be able to access the "
-"menus either by swiping from the left or right side or to a side along the "
-"bottom of the window."
+"the browser is wider than its height."
 msgstr ""
 "選擇在導覽列啟用的按鈕。某些按鈕只能在瀏覽器直立顯示時隱藏，亦即它們在瀏覽器"
 "寬度大於高度時總是會顯示。\n"
@@ -1195,22 +1209,16 @@ msgstr "直向模式中的分頁"
 #: src/settings/SettingsNavigationBarPage.qml:48
 #, kde-format
 msgctxt "@label:checkbox"
-msgid "Context menu in portrait"
-msgstr "直向模式中的內容功能表"
-
-#: src/settings/SettingsNavigationBarPage.qml:54
-#, kde-format
-msgctxt "@label:checkbox"
 msgid "Go back"
 msgstr "返回"
 
-#: src/settings/SettingsNavigationBarPage.qml:60
+#: src/settings/SettingsNavigationBarPage.qml:54
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Go forward"
 msgstr "向前"
 
-#: src/settings/SettingsNavigationBarPage.qml:66
+#: src/settings/SettingsNavigationBarPage.qml:60
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Reload/Stop"
@@ -1245,6 +1253,14 @@ msgstr "移除應用程式"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "沒有已安裝的網路應用程式"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Tabs"
+#~ msgstr "分頁"
+
+#~ msgctxt "@label:checkbox"
+#~ msgid "Context menu in portrait"
+#~ msgstr "直向模式中的內容功能表"
 
 #~ msgctxt "@info:placeholder"
 #~ msgid "Search bookmarks…"
