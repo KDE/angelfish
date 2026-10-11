@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-09 02:58+0000\n"
+"POT-Creation-Date: 2026-10-11 03:33+0000\n"
 "PO-Revision-Date: 2025-11-30 15:27+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-l10n-ta@kde.org>\n"
@@ -153,7 +153,7 @@ msgstr "பதிவிறக்கம் முடிந்த‍து"
 msgid "Download failed"
 msgstr "பதிவிறக்கம் தோல்வியடைந்தது"
 
-#: lib/contents/ui/ListWebView.qml:76 lib/contents/ui/ListWebView.qml:79
+#: lib/contents/ui/ListWebView.qml:79 lib/contents/ui/ListWebView.qml:82
 #, fuzzy, kde-format
 #| msgid "Leave page"
 msgctxt "@title:webview"
@@ -591,7 +591,7 @@ msgid "Search or enter URL…"
 msgstr ""
 
 #: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:267
-#: src/qml/Navigation.qml:464
+#: src/qml/Navigation.qml:462
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
@@ -912,13 +912,13 @@ msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr ""
 
-#: src/qml/Navigation.qml:437
+#: src/qml/Navigation.qml:435
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr ""
 
-#: src/qml/Navigation.qml:450
+#: src/qml/Navigation.qml:448
 #, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"
