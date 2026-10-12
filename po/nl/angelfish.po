@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-11 00:49+0000\n"
-"PO-Revision-Date: 2026-09-22 10:57+0200\n"
+"PO-Revision-Date: 2026-10-11 18:02+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -560,17 +560,18 @@ msgstr "freekdekruijf@kde.nl"
 #, kde-format
 msgid "A browser engine based on Chromium for embeding web content."
 msgstr ""
+"Een op Chromium gebaseerde browser-engine voor het insluiten van webinhoud."
 
 #: src/main.cpp:99
 #, kde-format
 msgctxt "<version number> (built against <possibly different version number>)"
 msgid "%1 (built against %2)"
-msgstr ""
+msgstr "%1 (gebouwd tegen %2)"
 
 #: src/main.cpp:105
 #, kde-format
 msgid "Web browser project developed by Google."
-msgstr ""
+msgstr "Webbrowserproject ontwikkelt door Google."
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:15
 #, kde-format
@@ -1192,27 +1193,15 @@ msgid "Navigation Bar"
 msgstr "Navigatiebalk"
 
 #: src/settings/SettingsNavigationBarPage.qml:27
-#, fuzzy, kde-format
-#| msgid ""
-#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-#| "hidden only in portrait orientation of the browser and are always shown "
-#| "if the browser is wider than its height.\n"
-#| "\n"
-#| " Note that if you disable the menu buttons, you will be able to access "
-#| "the menus either by swiping from the left or right side or to a side "
-#| "along the bottom of the window."
+#, kde-format
 msgid ""
 "Choose the buttons enabled in the navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
 "the browser is wider than its height."
 msgstr ""
-"De in de navigatiebalk ingeschakelde knoppen kiezen. Sommige knoppen kunnen "
+"Kies de ingeschakelde knoppen in de navigatiebalk. Sommige knoppen kunnen "
 "alleen in portretoriëntatie van de browser verborgen zijn en worden altijd "
-"getoond als de browser breder is dan zijn hoogte.\n"
-"\n"
-" Merk op dat als u de menuknoppen uitschakelt, u in staat zult zijn om de "
-"menu's te bereiken ofwel door van een zijde links of rechts te vegen of naar "
-"een zijde langs de onderkant van het venster."
+"getoond als de browser breder is dan zijn hoogte"
 
 #: src/settings/SettingsNavigationBarPage.qml:36
 #, kde-format

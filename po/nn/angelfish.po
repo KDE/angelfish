@@ -1246,13 +1246,3 @@ msgstr ""
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr ""
-
-#, fuzzy
-#~ msgctxt "@action:inmenu"
-#~ msgid "Tabs"
-#~ msgstr "Faner"
-
-#, fuzzy
-#~ msgctxt "@label:checkbox"
-#~ msgid "Context menu in portrait"
-#~ msgstr "Loddrett kontekstmeny"

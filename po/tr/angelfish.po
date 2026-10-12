@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-11 00:49+0000\n"
-"PO-Revision-Date: 2026-09-22 18:22+0300\n"
+"PO-Revision-Date: 2026-10-11 22:04+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -26,12 +26,12 @@ msgstr "açılacak masaüstü dosyası"
 #: angelfish-webapp/main.cpp:90
 #, kde-format
 msgid "Angelfish Web App runtime"
-msgstr "Melekbalığı Web Uygulaması çalışma zamanı"
+msgstr "Angelfish Web Uygulaması çalışma zamanı"
 
 #: angelfish-webapp/main.cpp:92
 #, kde-format
 msgid "Copyright 2020 Angelfish developers"
-msgstr "© 2020 Melekbalığı geliştiricileri"
+msgstr "© 2020 Angelfish geliştiricileri"
 
 #: angelfish-webapp/main.cpp:94
 #, kde-format
@@ -532,7 +532,7 @@ msgstr "Açılacak URL"
 #: src/main.cpp:85
 #, kde-format
 msgid "Angelfish"
-msgstr "Melekbalığı"
+msgstr "Angelfish"
 
 #: src/main.cpp:87
 #, kde-format
@@ -569,18 +569,18 @@ msgstr "volkangezer@gmail.com, alicengizkurt@gmail.com, emir_sari@icloud.com"
 #: src/main.cpp:97
 #, kde-format
 msgid "A browser engine based on Chromium for embeding web content."
-msgstr ""
+msgstr "Web içeriğini gömmek için Chromium tabanlı bir tarayıcı işletkesi"
 
 #: src/main.cpp:99
 #, kde-format
 msgctxt "<version number> (built against <possibly different version number>)"
 msgid "%1 (built against %2)"
-msgstr ""
+msgstr "%1 (%2 üzerine yapılı)"
 
 #: src/main.cpp:105
 #, kde-format
 msgid "Web browser project developed by Google."
-msgstr ""
+msgstr "Google tarafından geliştirilen web tarayıcısı projesi"
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:15
 #, kde-format
@@ -722,7 +722,7 @@ msgstr "Ayarlar"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Angelfish"
-msgstr "Melekbalığı Hakkında"
+msgstr "Angelfish Hakkında"
 
 #: src/qml/desktop/Desktop.qml:458
 #, kde-format
@@ -878,7 +878,7 @@ msgstr "Tüm geçmişi temizle"
 #, kde-format
 msgctxt "@title:window"
 msgid "Angelfish Web Browser"
-msgstr "Melekbalığı Web Tarayıcısı"
+msgstr "Angelfish Web Tarayıcısı"
 
 #: src/qml/Mobile.qml:113
 #, kde-format
@@ -1019,7 +1019,7 @@ msgstr "Araç Çubukları"
 #: src/settings/AngelfishConfigurationView.qml:44
 #, kde-format
 msgid "About Angelfish"
-msgstr "Melekbalığı Hakkında"
+msgstr "Angelfish Hakkında"
 
 #: src/settings/AngelfishConfigurationView.qml:47
 #, kde-format
@@ -1203,15 +1203,7 @@ msgid "Navigation Bar"
 msgstr "Dolaşım Çubuğu"
 
 #: src/settings/SettingsNavigationBarPage.qml:27
-#, fuzzy, kde-format
-#| msgid ""
-#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-#| "hidden only in portrait orientation of the browser and are always shown "
-#| "if the browser is wider than its height.\n"
-#| "\n"
-#| " Note that if you disable the menu buttons, you will be able to access "
-#| "the menus either by swiping from the left or right side or to a side "
-#| "along the bottom of the window."
+#, kde-format
 msgid ""
 "Choose the buttons enabled in the navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
@@ -1219,11 +1211,7 @@ msgid ""
 msgstr ""
 "Dolaşım çubuğunda etkin olan düğmeleri seçin. Bazı düğmeler tarayıcının "
 "dikey yöneliminde gizlenebilir ve tarayıcı onun boyundan daha genişse her "
-"zaman gösterilir.\n"
-"\n"
-"Menü düğmelerini devre dışı bırakırsanız menülere sağdan, soldan veya "
-"pencerenin altından bir kenara doğru sürüklerseniz erişebileceğinizi not "
-"edin."
+"zaman gösterilir."
 
 #: src/settings/SettingsNavigationBarPage.qml:36
 #, kde-format

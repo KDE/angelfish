@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-11 00:49+0000\n"
-"PO-Revision-Date: 2026-09-22 21:30+0200\n"
+"PO-Revision-Date: 2026-10-11 15:24+0200\n"
 "Last-Translator: Alexander Yavorskiy <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -551,21 +551,22 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mornie@basealt.ru, translation-team@basealt.ru"
 
+# BUGME: typo, embeding -> embedding --ayavorsky 2026-10-11
 #: src/main.cpp:97
 #, kde-format
 msgid "A browser engine based on Chromium for embeding web content."
-msgstr ""
+msgstr "Браузерный движок на основе Chromium для встраивания веб-содержимого."
 
 #: src/main.cpp:99
 #, kde-format
 msgctxt "<version number> (built against <possibly different version number>)"
 msgid "%1 (built against %2)"
-msgstr ""
+msgstr "%1 (собрано с версией %2)"
 
 #: src/main.cpp:105
 #, kde-format
 msgid "Web browser project developed by Google."
-msgstr ""
+msgstr "Проект веб-браузера, разрабатываемый компанией Google."
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:15
 #, kde-format
@@ -1192,15 +1193,7 @@ msgid "Navigation Bar"
 msgstr "Панель навигации"
 
 #: src/settings/SettingsNavigationBarPage.qml:27
-#, fuzzy, kde-format
-#| msgid ""
-#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-#| "hidden only in portrait orientation of the browser and are always shown "
-#| "if the browser is wider than its height.\n"
-#| "\n"
-#| " Note that if you disable the menu buttons, you will be able to access "
-#| "the menus either by swiping from the left or right side or to a side "
-#| "along the bottom of the window."
+#, kde-format
 msgid ""
 "Choose the buttons enabled in the navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
@@ -1208,11 +1201,7 @@ msgid ""
 msgstr ""
 "Выберите кнопки, включённые на панели навигации. Некоторые из кнопок могут "
 "быть скрыты только при книжной ориентации браузера и будут всегда показаны, "
-"когда ширина браузера превышает его высоту.\n"
-"\n"
-" Обратите внимание: если кнопки меню отключены, доступ к меню возможно "
-"получить путём проведения пальцем с левого или правого края экрана или вдоль "
-"нижнего края окна."
+"когда ширина браузера превышает его высоту."
 
 #: src/settings/SettingsNavigationBarPage.qml:36
 #, kde-format

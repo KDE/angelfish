@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-11 00:49+0000\n"
-"PO-Revision-Date: 2026-09-22 08:57+0200\n"
+"PO-Revision-Date: 2026-10-11 10:31+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 26.08.1\n"
+"X-Generator: Lokalize 25.04.0\n"
 "X-Accelerator-Marker: &\n"
 
 #: angelfish-webapp/main.cpp:65
@@ -566,18 +566,18 @@ msgstr "txemaq@gmail.com"
 #: src/main.cpp:97
 #, kde-format
 msgid "A browser engine based on Chromium for embeding web content."
-msgstr ""
+msgstr "Un motor de navegador basat en Chromium per a contingut web incrustat."
 
 #: src/main.cpp:99
 #, kde-format
 msgctxt "<version number> (built against <possibly different version number>)"
 msgid "%1 (built against %2)"
-msgstr ""
+msgstr "%1 (construïda amb %2)"
 
 #: src/main.cpp:105
 #, kde-format
 msgid "Web browser project developed by Google."
-msgstr ""
+msgstr "Projecte de navegador web desenvolupat per Google."
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:15
 #, kde-format
@@ -1202,15 +1202,7 @@ msgid "Navigation Bar"
 msgstr "Barra de navegació"
 
 #: src/settings/SettingsNavigationBarPage.qml:27
-#, fuzzy, kde-format
-#| msgid ""
-#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-#| "hidden only in portrait orientation of the browser and are always shown "
-#| "if the browser is wider than its height.\n"
-#| "\n"
-#| " Note that if you disable the menu buttons, you will be able to access "
-#| "the menus either by swiping from the left or right side or to a side "
-#| "along the bottom of the window."
+#, kde-format
 msgid ""
 "Choose the buttons enabled in the navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
@@ -1218,11 +1210,7 @@ msgid ""
 msgstr ""
 "Trieu els botons habilitats en la barra de navegació. Algun dels botons pot "
 "estar ocult en l'orientació de retrat del navegador i es mostra sempre si el "
-"navegador és més ample que la seua alçària.\n"
-"\n"
-" Cal tindre en compte que si inhabiliteu els botons del menú, podreu accedir "
-"als menús lliscant des de la banda esquerra o dreta, o a una banda al llarg "
-"de la part inferior de la finestra."
+"navegador és més ample que la seua alçària."
 
 #: src/settings/SettingsNavigationBarPage.qml:36
 #, kde-format
@@ -1283,11 +1271,3 @@ msgstr "Elimina l'aplicació"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "No hi ha instal·lada cap aplicació web"
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "Tabs"
-#~ msgstr "Pestanyes"
-
-#~ msgctxt "@label:checkbox"
-#~ msgid "Context menu in portrait"
-#~ msgstr "Menú contextual en vertical"

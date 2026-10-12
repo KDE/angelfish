@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-11 00:49+0000\n"
-"PO-Revision-Date: 2026-09-22 06:53-0300\n"
+"PO-Revision-Date: 2026-10-11 08:05-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 26.08.1\n"
+"X-Generator: Lokalize 26.08.2\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -560,17 +560,18 @@ msgstr "elchevive@opensuse.org, alvarenga@kde.org"
 #, kde-format
 msgid "A browser engine based on Chromium for embeding web content."
 msgstr ""
+"Um motor de navegador baseado no Chromium para incorporar conteúdo da web."
 
 #: src/main.cpp:99
 #, kde-format
 msgctxt "<version number> (built against <possibly different version number>)"
 msgid "%1 (built against %2)"
-msgstr ""
+msgstr "%1 (compilado com %2)"
 
 #: src/main.cpp:105
 #, kde-format
 msgid "Web browser project developed by Google."
-msgstr ""
+msgstr "Projeto de navegador web desenvolvido pelo Google."
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:15
 #, kde-format
@@ -1194,15 +1195,7 @@ msgid "Navigation Bar"
 msgstr "Barra de navegação"
 
 #: src/settings/SettingsNavigationBarPage.qml:27
-#, fuzzy, kde-format
-#| msgid ""
-#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-#| "hidden only in portrait orientation of the browser and are always shown "
-#| "if the browser is wider than its height.\n"
-#| "\n"
-#| " Note that if you disable the menu buttons, you will be able to access "
-#| "the menus either by swiping from the left or right side or to a side "
-#| "along the bottom of the window."
+#, kde-format
 msgid ""
 "Choose the buttons enabled in the navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
@@ -1210,11 +1203,7 @@ msgid ""
 msgstr ""
 "Escolha os botões habilitados na barra de navegação. Alguns dos botões podem "
 "ser ocultos apenas na orientação retrato do navegador e são sempre mostrados "
-"se o navegador for mais largo que sua altura.\n"
-"\n"
-" Note que se você desabilitar os botões do menu, você poderá acessar os "
-"menus ou deslizando do lado esquerdo ou direito ou para o lado na parte "
-"inferior da janela."
+"se o navegador for mais largo que sua altura."
 
 #: src/settings/SettingsNavigationBarPage.qml:36
 #, kde-format
