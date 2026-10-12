@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-11 03:33+0000\n"
-"PO-Revision-Date: 2026-05-19 21:56+0200\n"
+"PO-Revision-Date: 2026-10-11 11:20+0200\n"
 "Last-Translator: Libor Filípek <libor.filipek@gmail.com>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 26.08.1\n"
+"X-Generator: Lokalize 26.08.2\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -563,7 +563,7 @@ msgstr "Adblockeru chybí seznamy filtrů, chcete je stáhnout nyní?"
 #, kde-format
 msgctxt "@info"
 msgid "Downloading…"
-msgstr "Stahuji…"
+msgstr "Stahování…"
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:43
 #, kde-format
