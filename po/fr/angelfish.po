@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-11 00:49+0000\n"
-"PO-Revision-Date: 2026-09-23 09:05+0200\n"
+"PO-Revision-Date: 2026-10-12 09:00+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -573,17 +573,19 @@ msgstr "sdepiets@gmail.com, xavier.besnard@kde.org"
 #, kde-format
 msgid "A browser engine based on Chromium for embeding web content."
 msgstr ""
+"Un moteur de navigateur reposant sur Chromium pour l'intégration de contenu "
+"Internet."
 
 #: src/main.cpp:99
 #, kde-format
 msgctxt "<version number> (built against <possibly different version number>)"
 msgid "%1 (built against %2)"
-msgstr ""
+msgstr "%1 (Compilé avec %2)"
 
 #: src/main.cpp:105
 #, kde-format
 msgid "Web browser project developed by Google."
-msgstr ""
+msgstr "Projet de navigateur Internet développé par Google."
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:15
 #, kde-format
@@ -1214,28 +1216,16 @@ msgid "Navigation Bar"
 msgstr "Barre de navigation"
 
 #: src/settings/SettingsNavigationBarPage.qml:27
-#, fuzzy, kde-format
-#| msgid ""
-#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-#| "hidden only in portrait orientation of the browser and are always shown "
-#| "if the browser is wider than its height.\n"
-#| "\n"
-#| " Note that if you disable the menu buttons, you will be able to access "
-#| "the menus either by swiping from the left or right side or to a side "
-#| "along the bottom of the window."
+#, kde-format
 msgid ""
 "Choose the buttons enabled in the navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
 "the browser is wider than its height."
 msgstr ""
-"Sélectionner les boutons activés dans la barre de navigation. Certains de "
+"Sélectionnez les boutons activés dans la barre de navigation. Certains de "
 "ces boutons peuvent être masqués, uniquement dans la configuration en mode "
 "« Portrait » du navigateur. Ils sont toujours affichés si la taille de la "
-"fenêtre du navigateur est plus large que haute.\n"
-"\n"
-"Veuillez noter que si vous désactivez les boutons de menus, vous serez "
-"capable d'accéder aux menus, par un balayage, soit à partir des côtés droit "
-"ou gauche ou soit à partir du bord inférieur de la fenêtre."
+"fenêtre du navigateur est plus large que haute."
 
 #: src/settings/SettingsNavigationBarPage.qml:36
 #, kde-format
