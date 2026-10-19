@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-11 00:49+0000\n"
-"PO-Revision-Date: 2026-08-07 13:55+0300\n"
+"PO-Revision-Date: 2026-10-16 14:18+0300\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
 "Language: lv\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
-"X-Generator: Lokalize 26.04.3\n"
+"X-Generator: Lokalize 26.08.1\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -560,18 +560,18 @@ msgstr "toms.trasuns@posteo.net"
 #: src/main.cpp:97
 #, kde-format
 msgid "A browser engine based on Chromium for embeding web content."
-msgstr ""
+msgstr "Pārlūka dzinis iegultam tīmekļa saturam balstās uz „Chromium“."
 
 #: src/main.cpp:99
 #, kde-format
 msgctxt "<version number> (built against <possibly different version number>)"
 msgid "%1 (built against %2)"
-msgstr ""
+msgstr "%1 (būvēts pret %2)"
 
 #: src/main.cpp:105
 #, kde-format
 msgid "Web browser project developed by Google."
-msgstr ""
+msgstr "„Google“ izstrādāts pārlūkprogrammas projekts"
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:15
 #, kde-format
@@ -715,9 +715,7 @@ msgid "About Angelfish"
 msgstr "Par „Angelfish“"
 
 #: src/qml/desktop/Desktop.qml:458
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "New Tab"
+#, kde-format
 msgctxt "@action:toolbutton"
 msgid "New Tab"
 msgstr "Jauna cilne"
@@ -1193,15 +1191,7 @@ msgid "Navigation Bar"
 msgstr "Navigācijas josla"
 
 #: src/settings/SettingsNavigationBarPage.qml:27
-#, fuzzy, kde-format
-#| msgid ""
-#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-#| "hidden only in portrait orientation of the browser and are always shown "
-#| "if the browser is wider than its height.\n"
-#| "\n"
-#| " Note that if you disable the menu buttons, you will be able to access "
-#| "the menus either by swiping from the left or right side or to a side "
-#| "along the bottom of the window."
+#, kde-format
 msgid ""
 "Choose the buttons enabled in the navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
@@ -1209,10 +1199,7 @@ msgid ""
 msgstr ""
 "Izvēlieties pogas, kuras vēlaties redzēt navigācijas joslā. Dažas no pogām "
 "var būt redzamas tika tad, ja pārlūks ir ainavas režīmā un tā platums ir "
-"lielāks par augstumu.\n"
-"\n"
-" Ievērojiet, ka, izslēdzot izvēļņu pogas, izvēlnēm varēsiet piekļūt, "
-"pavelkot no kreisās vai labās malas vai gar loga apakšu."
+"lielāks par augstumu."
 
 #: src/settings/SettingsNavigationBarPage.qml:36
 #, kde-format
