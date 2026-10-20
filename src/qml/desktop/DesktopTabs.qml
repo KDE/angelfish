@@ -195,7 +195,7 @@ RowLayout {
                 }
                 QQC2.ToolButton {
                     icon.name: "list-add"
-                    onClicked: tabs.tabsModel.newTab(Core.AngelfishSettings.newTabUrl)
+                    onClicked: webBrowser.openNewTab()
 
                     QQC2.ToolTip.visible: hoverHandler.hovered
                     QQC2.ToolTip.delay: Qt.styleHints.mousePressAndHoldInterval
@@ -272,7 +272,7 @@ RowLayout {
             text: i18nc("@action:inmenu", "New Tab")
             icon.name: "list-add"
             shortcut: "Ctrl+T"
-            onTriggered: tabs.tabsModel.newTab(Core.AngelfishSettings.newTabUrl)
+            onTriggered: webBrowser.openNewTab()
         }
 
         QQC2.MenuSeparator {}

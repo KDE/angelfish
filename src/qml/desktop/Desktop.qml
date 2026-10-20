@@ -278,7 +278,7 @@ Kirigami.ApplicationWindow {
                     text: i18nc("@action:inmenu", "New Tab")
                     icon.name: "list-add"
                     shortcut: "Ctrl+T"
-                    onTriggered: tabs.tabsModel.newTab(Core.AngelfishSettings.newTabUrl)
+                    onTriggered: webBrowser.openNewTab()
                 }
 
                 Kirigami.Action { // TODO: should ideally open up a new window in private mode
@@ -457,7 +457,7 @@ Kirigami.ApplicationWindow {
                 action: Kirigami.Action {
                     text: i18nc("@action:toolbutton", "New Tab")
                     icon.name: "list-add"
-                    onTriggered: tabs.tabsModel.newTab(Core.AngelfishSettings.newTabUrl)
+                    onTriggered: webBrowser.openNewTab()
                 }
             }
 
@@ -677,5 +677,13 @@ Kirigami.ApplicationWindow {
     function popSubPages() {
         while (webBrowser.pageStack.depth > 1)
             webBrowser.pageStack.pop();
+    }
+
+    function openNewTab(url) {
+        if (!url) {
+            url = Core.AngelfishSettings.newTabUrl;
+        }
+        tabs.tabsModel.newTab(url);
+        Qt.callLater(urlBar.searchField.forceActiveFocus);
     }
 }
