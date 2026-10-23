@@ -558,18 +558,18 @@ msgstr "wizzardsk@gmail.com,galko.ferdinand@gmail.com"
 #: src/main.cpp:97
 #, kde-format
 msgid "A browser engine based on Chromium for embeding web content."
-msgstr ""
+msgstr "Prehliadačový engine založený na Chromiu na vkladanie webového obsahu."
 
 #: src/main.cpp:99
 #, kde-format
 msgctxt "<version number> (built against <possibly different version number>)"
 msgid "%1 (built against %2)"
-msgstr ""
+msgstr "%1 (zostavené s %2)"
 
 #: src/main.cpp:105
 #, kde-format
 msgid "Web browser project developed by Google."
-msgstr ""
+msgstr "Projekt webového prehliadača vyvíjaný spoločnosťou Google."
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:15
 #, kde-format
@@ -713,9 +713,7 @@ msgid "About Angelfish"
 msgstr "Nastaviť Angelfish"
 
 #: src/qml/desktop/Desktop.qml:458
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "New Tab"
+#, kde-format
 msgctxt "@action:toolbutton"
 msgid "New Tab"
 msgstr "Nová karta"
@@ -1194,15 +1192,7 @@ msgid "Navigation Bar"
 msgstr "Navigačný panel"
 
 #: src/settings/SettingsNavigationBarPage.qml:27
-#, fuzzy, kde-format
-#| msgid ""
-#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-#| "hidden only in portrait orientation of the browser and are always shown "
-#| "if the browser is wider than its height.\n"
-#| "\n"
-#| " Note that if you disable the menu buttons, you will be able to access "
-#| "the menus either by swiping from the left or right side or to a side "
-#| "along the bottom of the window."
+#, kde-format
 msgid ""
 "Choose the buttons enabled in the navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
@@ -1210,11 +1200,7 @@ msgid ""
 msgstr ""
 "Vyberte tlačidlá povolené v navigačnom paneli. Niektoré tlačidlá môžu byť "
 "skryté len pri orientácii prehliadača na výšku a sú vždy zobrazené, ak je "
-"prehliadač širší ako jeho výška.\n"
-"\n"
-" Treba poznamenať, že ak zakážete tlačidlá ponuky, budete mať prístup k menu "
-"buď potiahnutím z ľavej alebo pravej strany, alebo do strany pozdĺž spodnej "
-"časti okna."
+"prehliadač širší ako vysoký."
 
 #: src/settings/SettingsNavigationBarPage.qml:36
 #, kde-format
