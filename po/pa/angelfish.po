@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-11 03:33+0000\n"
+"POT-Creation-Date: 2026-10-27 03:17+0000\n"
 "PO-Revision-Date: 2024-12-19 22:25-0600\n"
 "Last-Translator: aalam <aalam@punlinux.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -570,7 +570,7 @@ msgid "Search for “%1”"
 msgstr "'%1' ਲਈ ਆਨਲਾਈਨ ਖੋਜੋ"
 
 #: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
-#: src/qml/Mobile.qml:348
+#: src/qml/Mobile.qml:350
 #, fuzzy, kde-format
 #| msgid "Share page"
 msgctxt "@action:inmenu"
@@ -749,21 +749,21 @@ msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "ਡਿਵੈਲਪਰ ਟੂਲ ਓਹਲੇ"
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:446
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:448
 #, fuzzy, kde-format
 #| msgid "Show developer tools"
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "ਡਿਵੈਲਪਰ ਟੂਲ ਵੇਖਾਓ"
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:344
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:346
 #, fuzzy, kde-format
 #| msgid "Find in page"
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "ਸਫ਼ੇ ਵਿੱਚ ਲੱਭੋ"
 
-#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:429
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:431
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
@@ -974,69 +974,69 @@ msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
 msgstr "ਡੈਸਕਟਾਪ ਸਾਈਟ ਵੇਖਾਓ"
 
-#: src/qml/Mobile.qml:359
+#: src/qml/Mobile.qml:361
 #, fuzzy, kde-format
 #| msgid "Add to homescreen"
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "ਮੁੱਖ-ਸਕਰੀਨ ਉੱਤੇ ਜੋੜੋ"
 
-#: src/qml/Mobile.qml:371
+#: src/qml/Mobile.qml:373
 #, fuzzy, kde-format
 #| msgid "Open in app"
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "ਐਪ ਵਿੱਚ ਖੋਲ੍ਹੋ"
 
-#: src/qml/Mobile.qml:379
+#: src/qml/Mobile.qml:381
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr ""
 
-#: src/qml/Mobile.qml:387
+#: src/qml/Mobile.qml:389
 #, fuzzy, kde-format
 #| msgid "Go forward"
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "ਅੱਗੇ ਜਾਓ"
 
-#: src/qml/Mobile.qml:394
+#: src/qml/Mobile.qml:396
 #, fuzzy, kde-format
 #| msgid "Stop loading"
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "ਲੋਡ ਕਰਨਾ ਰੋਕੋ"
 
-#: src/qml/Mobile.qml:394
+#: src/qml/Mobile.qml:396
 #, fuzzy, kde-format
 #| msgid "Refresh"
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "ਤਾਜ਼ਾ ਕਰੋ"
 
-#: src/qml/Mobile.qml:404
+#: src/qml/Mobile.qml:406
 #, fuzzy, kde-format
 #| msgid "Bookmarked"
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "ਬੁੱਕਮਾਰਕ ਕੀਤਾ"
 
-#: src/qml/Mobile.qml:404
+#: src/qml/Mobile.qml:406
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "ਬੁੱਕਮਾਰਕ ਕਰੋ"
 
-#: src/qml/Mobile.qml:420
+#: src/qml/Mobile.qml:422
 #, fuzzy, kde-format
 #| msgid "Show desktop site"
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "ਡੈਸਕਟਾਪ ਸਾਈਟ ਵੇਖਾਓ"
 
-#: src/qml/Mobile.qml:437
+#: src/qml/Mobile.qml:439
 #, fuzzy, kde-format
 #| msgid "Hide navigation bar"
 msgctxt "@action:inmenu"

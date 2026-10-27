@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-11 03:33+0000\n"
+"POT-Creation-Date: 2026-10-27 03:17+0000\n"
 "PO-Revision-Date: 2022-08-19 20:36+0700\n"
 "Last-Translator: Wantoyèk <wantoyek@gmail.com>\n"
 "Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
@@ -559,7 +559,7 @@ msgid "Search for “%1”"
 msgstr "Cari online '%1'"
 
 #: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
-#: src/qml/Mobile.qml:348
+#: src/qml/Mobile.qml:350
 #, fuzzy, kde-format
 #| msgid "Share page"
 msgctxt "@action:inmenu"
@@ -738,21 +738,21 @@ msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Tampilkan peralatan pengembang"
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:446
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:448
 #, fuzzy, kde-format
 #| msgid "Show developer tools"
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Tampilkan peralatan pengembang"
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:344
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:346
 #, fuzzy, kde-format
 #| msgid "Find in page"
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Temukan halaman"
 
-#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:429
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:431
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
@@ -961,69 +961,69 @@ msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
 msgstr "Tampilkan situs desktop"
 
-#: src/qml/Mobile.qml:359
+#: src/qml/Mobile.qml:361
 #, fuzzy, kde-format
 #| msgid "Add to homescreen"
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Tambahkan ke layar beranda"
 
-#: src/qml/Mobile.qml:371
+#: src/qml/Mobile.qml:373
 #, fuzzy, kde-format
 #| msgid "Open in app"
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Buka di aplikasi"
 
-#: src/qml/Mobile.qml:379
+#: src/qml/Mobile.qml:381
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr ""
 
-#: src/qml/Mobile.qml:387
+#: src/qml/Mobile.qml:389
 #, fuzzy, kde-format
 #| msgid "Go forward"
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "Maju"
 
-#: src/qml/Mobile.qml:394
+#: src/qml/Mobile.qml:396
 #, fuzzy, kde-format
 #| msgid "Stop loading"
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Hentikan pemuatan"
 
-#: src/qml/Mobile.qml:394
+#: src/qml/Mobile.qml:396
 #, fuzzy, kde-format
 #| msgid "Refresh"
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Segarkan"
 
-#: src/qml/Mobile.qml:404
+#: src/qml/Mobile.qml:406
 #, fuzzy, kde-format
 #| msgid "Bookmarked"
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "Dimarkah"
 
-#: src/qml/Mobile.qml:404
+#: src/qml/Mobile.qml:406
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Markah"
 
-#: src/qml/Mobile.qml:420
+#: src/qml/Mobile.qml:422
 #, fuzzy, kde-format
 #| msgid "Show desktop site"
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Tampilkan situs desktop"
 
-#: src/qml/Mobile.qml:437
+#: src/qml/Mobile.qml:439
 #, fuzzy, kde-format
 #| msgid "Hide navigation bar"
 msgctxt "@action:inmenu"

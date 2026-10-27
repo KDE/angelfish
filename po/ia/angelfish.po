@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-11 03:33+0000\n"
+"POT-Creation-Date: 2026-10-27 03:17+0000\n"
 "PO-Revision-Date: 2026-05-08 11:43+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
@@ -504,7 +504,7 @@ msgid "Search for “%1”"
 msgstr "Cerca “%1”"
 
 #: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
-#: src/qml/Mobile.qml:348
+#: src/qml/Mobile.qml:350
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
@@ -664,19 +664,19 @@ msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Cela instrumentos per disveloppatores"
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:446
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:448
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Monstra instrumentos per disveloppatores"
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:344
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:346
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Trova in pagina"
 
-#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:429
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:431
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
@@ -856,61 +856,61 @@ msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
 msgstr "Comuta Modo de Scriptorio"
 
-#: src/qml/Mobile.qml:359
+#: src/qml/Mobile.qml:361
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Adde a schermo de initio"
 
-#: src/qml/Mobile.qml:371
+#: src/qml/Mobile.qml:373
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Aperi in app"
 
-#: src/qml/Mobile.qml:379
+#: src/qml/Mobile.qml:381
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr "Vade retro"
 
-#: src/qml/Mobile.qml:387
+#: src/qml/Mobile.qml:389
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "Vade avante"
 
-#: src/qml/Mobile.qml:394
+#: src/qml/Mobile.qml:396
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Stoppa de cargar"
 
-#: src/qml/Mobile.qml:394
+#: src/qml/Mobile.qml:396
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Refresca"
 
-#: src/qml/Mobile.qml:404
+#: src/qml/Mobile.qml:406
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "Ponite in le marcatores de libro"
 
-#: src/qml/Mobile.qml:404
+#: src/qml/Mobile.qml:406
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Marcator de libro"
 
-#: src/qml/Mobile.qml:420
+#: src/qml/Mobile.qml:422
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Monstra sito de scriptorio"
 
-#: src/qml/Mobile.qml:437
+#: src/qml/Mobile.qml:439
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"

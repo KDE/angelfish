@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-11 03:33+0000\n"
+"POT-Creation-Date: 2026-10-27 03:17+0000\n"
 "PO-Revision-Date: 2026-06-22 22:25+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -502,7 +502,7 @@ msgid "Search for “%1”"
 msgstr "„%1” keresése"
 
 #: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
-#: src/qml/Mobile.qml:348
+#: src/qml/Mobile.qml:350
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
@@ -663,19 +663,19 @@ msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Fejlesztői eszközök elrejtése"
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:446
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:448
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Fejlesztői eszközök"
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:344
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:346
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Keresés az oldalon"
 
-#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:429
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:431
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
@@ -856,61 +856,61 @@ msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
 msgstr "Asztali mód be-/kikapcsolása"
 
-#: src/qml/Mobile.qml:359
+#: src/qml/Mobile.qml:361
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Hozzáadás a kezdőképernyőhöz"
 
-#: src/qml/Mobile.qml:371
+#: src/qml/Mobile.qml:373
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Megnyitás alkalmazásban"
 
-#: src/qml/Mobile.qml:379
+#: src/qml/Mobile.qml:381
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr "Vissza"
 
-#: src/qml/Mobile.qml:387
+#: src/qml/Mobile.qml:389
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "Előre"
 
-#: src/qml/Mobile.qml:394
+#: src/qml/Mobile.qml:396
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Betöltés leállítása"
 
-#: src/qml/Mobile.qml:394
+#: src/qml/Mobile.qml:396
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Frissítés"
 
-#: src/qml/Mobile.qml:404
+#: src/qml/Mobile.qml:406
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "Könyvjelzőzve"
 
-#: src/qml/Mobile.qml:404
+#: src/qml/Mobile.qml:406
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Könyvjelzőzés"
 
-#: src/qml/Mobile.qml:420
+#: src/qml/Mobile.qml:422
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Asztali oldal kérése"
 
-#: src/qml/Mobile.qml:437
+#: src/qml/Mobile.qml:439
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
