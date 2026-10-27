@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-11 00:49+0000\n"
+"POT-Creation-Date: 2026-10-27 00:59+0000\n"
 "PO-Revision-Date: 2020-08-12 20:25+0200\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -535,7 +535,7 @@ msgid "Search for “%1”"
 msgstr "Søg online efter \"%1\""
 
 #: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
-#: src/qml/Mobile.qml:333
+#: src/qml/Mobile.qml:335
 #, fuzzy, kde-format
 #| msgid "Share page"
 msgctxt "@action:inmenu"
@@ -720,20 +720,20 @@ msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:408
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:410
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:329
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:331
 #, fuzzy, kde-format
 #| msgid "Find in page"
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Find på siden"
 
-#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:391
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:393
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
@@ -937,69 +937,69 @@ msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
 msgstr "Vis desktopside"
 
-#: src/qml/Mobile.qml:344
+#: src/qml/Mobile.qml:346
 #, fuzzy, kde-format
 #| msgid "Add to homescreen"
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Føj til hjemmeskærm"
 
-#: src/qml/Mobile.qml:356
+#: src/qml/Mobile.qml:358
 #, fuzzy, kde-format
 #| msgid "Open in new Tab"
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Åbn i nyt faneblad"
 
-#: src/qml/Mobile.qml:366
+#: src/qml/Mobile.qml:368
 #, fuzzy, kde-format
 #| msgid "Bookmarked"
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "Bogmærke gemt"
 
-#: src/qml/Mobile.qml:366
+#: src/qml/Mobile.qml:368
 #, fuzzy, kde-format
 #| msgid "Bookmark"
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Bogmærke"
 
-#: src/qml/Mobile.qml:382
+#: src/qml/Mobile.qml:384
 #, fuzzy, kde-format
 #| msgid "Show desktop site"
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Vis desktopside"
 
-#: src/qml/Mobile.qml:399
+#: src/qml/Mobile.qml:401
 #, fuzzy, kde-format
 #| msgid "Hide navigation bar"
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "Skjul navigationslinje"
 
-#: src/qml/Mobile.qml:418
+#: src/qml/Mobile.qml:420
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr ""
 
-#: src/qml/Mobile.qml:426
+#: src/qml/Mobile.qml:428
 #, fuzzy, kde-format
 #| msgid "Go forward"
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "Gå frem"
 
-#: src/qml/Mobile.qml:433
+#: src/qml/Mobile.qml:435
 #, fuzzy, kde-format
 #| msgid "Stop loading"
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Stop indlæsning"
 
-#: src/qml/Mobile.qml:433
+#: src/qml/Mobile.qml:435
 #, fuzzy, kde-format
 #| msgid "Refresh"
 msgctxt "@action:inmenu"

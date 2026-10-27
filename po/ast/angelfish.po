@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-11 00:49+0000\n"
+"POT-Creation-Date: 2026-10-27 00:59+0000\n"
 "PO-Revision-Date: 2023-11-07 21:26+0100\n"
 "Last-Translator: Enol P. <enolp@softastur.org>\n"
 "Language-Team: \n"
@@ -483,7 +483,7 @@ msgid "Search for “%1”"
 msgstr ""
 
 #: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
-#: src/qml/Mobile.qml:333
+#: src/qml/Mobile.qml:335
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
@@ -657,19 +657,19 @@ msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:408
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:410
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:329
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:331
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr ""
 
-#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:391
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:393
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
@@ -855,61 +855,61 @@ msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
 msgstr ""
 
-#: src/qml/Mobile.qml:344
+#: src/qml/Mobile.qml:346
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr ""
 
-#: src/qml/Mobile.qml:356
+#: src/qml/Mobile.qml:358
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr ""
 
-#: src/qml/Mobile.qml:366
+#: src/qml/Mobile.qml:368
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr ""
 
-#: src/qml/Mobile.qml:366
+#: src/qml/Mobile.qml:368
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr ""
 
-#: src/qml/Mobile.qml:382
+#: src/qml/Mobile.qml:384
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr ""
 
-#: src/qml/Mobile.qml:399
+#: src/qml/Mobile.qml:401
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr ""
 
-#: src/qml/Mobile.qml:418
+#: src/qml/Mobile.qml:420
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr ""
 
-#: src/qml/Mobile.qml:426
+#: src/qml/Mobile.qml:428
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr ""
 
-#: src/qml/Mobile.qml:433
+#: src/qml/Mobile.qml:435
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr ""
 
-#: src/qml/Mobile.qml:433
+#: src/qml/Mobile.qml:435
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
