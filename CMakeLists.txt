@@ -3,7 +3,7 @@
 #
 # SPDX-License-Identifier: LGPL-2.0-or-later
 
-cmake_minimum_required(VERSION 3.16.0)
+cmake_minimum_required(VERSION 3.24.0)
 
 # KDE Applications version, managed by release script.
 set(RELEASE_SERVICE_VERSION_MAJOR "26")
@@ -13,9 +13,9 @@ set(RELEASE_SERVICE_VERSION "${RELEASE_SERVICE_VERSION_MAJOR}.${RELEASE_SERVICE_
 
 project(angelfish VERSION ${RELEASE_SERVICE_VERSION})
 
-set(KF_MIN_VERSION "5.240")
-set(QT_MIN_VERSION "6.4")
-set(QCORO_MIN_VERSION "0.7.0")
+set(KF_MIN_VERSION "6.26")
+set(QT_MIN_VERSION "6.10")
+set(QCORO_MIN_VERSION "0.11.0")
 
 
 set(CMAKE_CXX_STANDARD 20)

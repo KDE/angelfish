@@ -16,7 +16,7 @@
 
 #include <KAboutData>
 #include <KDesktopFile>
-#include <KLocalizedContext>
+#include <KLocalizedQmlContext>
 #include <KLocalizedString>
 
 #include "angelfishsettings.h"
@@ -68,7 +68,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     // QML loading
     QQmlApplicationEngine engine;
-    engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
+    KLocalization::setupLocalizedContext(&engine);
 
     if (parser.positionalArguments().isEmpty()) {
         return 1;

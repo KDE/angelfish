@@ -20,7 +20,7 @@
 #include <KAboutData>
 #include <KCrash>
 #include <KDBusService>
-#include <KLocalizedContext>
+#include <KLocalizedQmlContext>
 #include <KLocalizedString>
 #include <KWindowSystem>
 #include <KirigamiAddons/App/KirigamiAppDefaults>
@@ -64,30 +64,8 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     KirigamiAppDefaults::apply(&app);
 
-    // Command line parser
-    QCommandLineParser parser;
-    parser.addPositionalArgument(QStringLiteral("url"), i18n("URL to open"), QStringLiteral("[url]"));
-
-    QCommandLineOption selfTestOpt(u"self-test"_s, u"internal, for automated testing"_s);
-    selfTestOpt.setFlags(QCommandLineOption::HiddenFromHelp);
-    parser.addOption(selfTestOpt);
-
-    parser.addHelpOption();
-    parser.addVersionOption();
-    parser.process(app);
-
-    // QML loading
-    QQmlApplicationEngine engine;
-
-    // Define your about data
-    KAboutData aboutData(
-        QStringLiteral("angelfish"),
-        i18n("Angelfish"),
-        QStringLiteral(ANGELFISH_VERSION_STRING),
-        i18n("Web browser for Plasma Mobile"),
-        KAboutLicense::GPL_V3,
-        i18n("© 2015-2026 KDE Community")
-    );
+    auto aboutData = KAboutData::fromAppStreamId(u"org.kde.angelfish"_s);
+    aboutData.setVersion(ANGELFISH_VERSION_STRING);
 
     aboutData.addAuthor(i18n("Jonah Brüchert"), i18n("Maintainer"), QStringLiteral("jbb@kaidan.im"));
     aboutData.setTranslator(i18nc("NAME OF TRANSLATORS", "Your names"), i18nc("EMAIL OF TRANSLATORS", "Your emails"));
@@ -107,6 +85,23 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
                            u"https://www.chromium.org/Home/"_s,
                            KAboutLicense::BSD_3_Clause);
 
+    KAboutData::setApplicationData(aboutData);
+
+    // Command line parser
+    QCommandLineParser parser;
+    parser.addPositionalArgument(QStringLiteral("url"), i18n("URL to open"), QStringLiteral("[url]"));
+
+    QCommandLineOption selfTestOpt(u"self-test"_s, u"internal, for automated testing"_s);
+    selfTestOpt.setFlags(QCommandLineOption::HiddenFromHelp);
+    parser.addOption(selfTestOpt);
+
+    aboutData.setupCommandLine(&parser);
+    parser.process(app);
+    aboutData.processCommandLine(&parser);
+
+    // QML loading
+    QQmlApplicationEngine engine;
+    KLocalization::setupLocalizedContext(&engine);
 
     KAboutData::setApplicationData(aboutData);
 
@@ -142,8 +137,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
         KWindowSystem::updateStartupId(webbrowserWindow);
         KWindowSystem::activateWindow(webbrowserWindow);
     });
-
-    engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
 
     // initial url command line parameter
     if (!parser.positionalArguments().isEmpty()) {
