@@ -204,7 +204,8 @@ void AdblockUrlInterceptor::interceptRequest(QWebEngineUrlRequestInfo &info)
 
     const std::string url = info.requestUrl().toString().toStdString();
     const std::string firstPartyUrl = info.firstPartyUrl().toString().toStdString();
-    const AdblockResult result = (*m_adblock)->shouldBlock(url, firstPartyUrl, resourceTypeToString(info.resourceType()));
+    const std::string method = info.requestMethod().toStdString();
+    const AdblockResult result = (*m_adblock)->shouldBlock(url, firstPartyUrl, resourceTypeToString(info.resourceType()), method);
 
     const auto &redirect = result.redirect;
     const auto &rewrittenUrl = result.rewrittenUrl;

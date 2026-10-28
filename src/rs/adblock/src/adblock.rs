@@ -33,7 +33,7 @@ fn new_adblock(list_dir: &str) -> Box<Adblock> {
                     adblock_debug!("Loading filter {:?}", entry);
                     match fs::read_to_string(&entry.path()) {
                         Ok(contents) => {
-                            filter_set.add_filter_list(&contents, ParseOptions::default());
+                            filter_set.add_filter_list(contents, ParseOptions::default());
                         }
                         Err(e) => {
                             adblock_debug!("Loading filter {:?} failed: {}", entry.path(), e);
@@ -43,7 +43,7 @@ fn new_adblock(list_dir: &str) -> Box<Adblock> {
             }
         }
 
-        let blocker = Engine::from_filter_set(filter_set, true);
+        let blocker = Engine::new_with_filter_set(filter_set);
         return Box::new(Adblock {
             blocker: Some(blocker),
             needs_save: true,
@@ -82,15 +82,21 @@ fn load_adblock(path: &str) -> Box<Adblock> {
 impl Adblock {
     /// returns a boxed AdblockResult object with information on whether
     /// the request should be blocked or redirected.
-    fn should_block(&self, url: &str, source_url: &str, request_type: &str) -> ffi::AdblockResult {
+    fn should_block(
+        &self,
+        url: &str,
+        source_url: &str,
+        request_type: &str,
+        method: &str,
+    ) -> ffi::AdblockResult {
         if let Some(engine) = &self.blocker {
-            if let Ok(request) = Request::new(url, source_url, request_type) {
+            if let Ok(request) = Request::new(url, source_url, request_type, method) {
                 let blocker_result = engine.check_network_request(&request);
                 adblock_debug!("Blocker input: {}, {}, {}", url, source_url, request_type);
                 adblock_debug!("Blocker result: {:?}", blocker_result);
 
                 return ffi::AdblockResult {
-                    matched: blocker_result.matched,
+                    matched: blocker_result.should_block(),
                     important: blocker_result.important,
                     redirect: blocker_result.redirect.unwrap_or_default(),
                     rewritten_url: blocker_result.rewritten_url.unwrap_or_default(),
@@ -179,6 +185,7 @@ mod ffi {
             url: &str,
             source_url: &str,
             request_type: &str,
+            method: &str,
         ) -> AdblockResult;
         #[cxx_name = "getCosmeticFilters"]
         fn get_cosmetic_filters(
