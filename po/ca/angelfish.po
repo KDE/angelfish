@@ -1263,23 +1263,3 @@ msgstr "Elimina l'aplicació"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "No hi ha instal·lada cap aplicació web"
-
-#~ msgctxt "@info:placeholder"
-#~ msgid "Search bookmarks…"
-#~ msgstr "Cerca les adreces d'interès…"
-
-#~ msgctxt "@info:placeholder"
-#~ msgid "No bookmarks yet"
-#~ msgstr "Encara no hi ha cap adreça d'interès"
-
-#~ msgctxt "@info:placeholder"
-#~ msgid "Search history…"
-#~ msgstr "Cerca a l'historial…"
-
-#~ msgctxt "@info:placeholder"
-#~ msgid "No history yet"
-#~ msgstr "Encara no hi ha historial"
-
-#~ msgctxt "@action:button"
-#~ msgid "Save"
-#~ msgstr "Desa"
