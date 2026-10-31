@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-27 00:59+0000\n"
+"POT-Creation-Date: 2026-10-31 00:50+0000\n"
 "PO-Revision-Date: 2023-11-13 18:52+0100\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <opensuse-translation@opensuse.org>\n"
@@ -513,63 +513,48 @@ msgctxt "@action:inmenu"
 msgid "View Page Source"
 msgstr "Zobraziť zdroj stránky"
 
-#: src/main.cpp:69
-#, kde-format
-msgid "URL to open"
-msgstr "Otvoriť URL"
-
-#: src/main.cpp:85
-#, kde-format
-msgid "Angelfish"
-msgstr "Angelfish"
-
-#: src/main.cpp:87
-#, kde-format
-msgid "Web browser for Plasma Mobile"
-msgstr "Webový prehliadač pre Plasma Mobile"
-
-#: src/main.cpp:89
-#, kde-format
-msgid "© 2015-2026 KDE Community"
-msgstr "© 2015-2026 KDE Community"
-
-#: src/main.cpp:92
+#: src/main.cpp:70
 #, kde-format
 msgid "Jonah Brüchert"
 msgstr "Jonah Brüchert"
 
-#: src/main.cpp:92
+#: src/main.cpp:70
 #, kde-format
 msgid "Maintainer"
 msgstr "Správca"
 
-#: src/main.cpp:93
+#: src/main.cpp:71
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Roman Paholík,Ferdinand Galko"
 
-#: src/main.cpp:93
+#: src/main.cpp:71
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "wizzardsk@gmail.com,galko.ferdinand@gmail.com"
 
-#: src/main.cpp:97
+#: src/main.cpp:75
 #, kde-format
 msgid "A browser engine based on Chromium for embeding web content."
 msgstr "Prehliadačový engine založený na Chromiu na vkladanie webového obsahu."
 
-#: src/main.cpp:99
+#: src/main.cpp:77
 #, kde-format
 msgctxt "<version number> (built against <possibly different version number>)"
 msgid "%1 (built against %2)"
 msgstr "%1 (zostavené s %2)"
 
-#: src/main.cpp:105
+#: src/main.cpp:83
 #, kde-format
 msgid "Web browser project developed by Google."
 msgstr "Projekt webového prehliadača vyvíjaný spoločnosťou Google."
+
+#: src/main.cpp:92
+#, kde-format
+msgid "URL to open"
+msgstr "Otvoriť URL"
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:15
 #, kde-format
@@ -1261,6 +1246,15 @@ msgstr "Odstrániť aplikáciu"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "Žiadne webové aplikácie nie sú nainštalované"
+
+#~ msgid "Angelfish"
+#~ msgstr "Angelfish"
+
+#~ msgid "Web browser for Plasma Mobile"
+#~ msgstr "Webový prehliadač pre Plasma Mobile"
+
+#~ msgid "© 2015-2026 KDE Community"
+#~ msgstr "© 2015-2026 KDE Community"
 
 #~ msgctxt "@action:inmenu"
 #~ msgid "Tabs"

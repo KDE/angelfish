@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-27 00:59+0000\n"
+"POT-Creation-Date: 2026-10-31 00:50+0000\n"
 "PO-Revision-Date: 2026-10-11 15:24+0200\n"
 "Last-Translator: Alexander Yavorskiy <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -509,64 +509,49 @@ msgctxt "@action:inmenu"
 msgid "View Page Source"
 msgstr "Показать исходный код страницы"
 
-#: src/main.cpp:69
-#, kde-format
-msgid "URL to open"
-msgstr "URL-адрес для открытия"
-
-#: src/main.cpp:85
-#, kde-format
-msgid "Angelfish"
-msgstr "Angelfish"
-
-#: src/main.cpp:87
-#, kde-format
-msgid "Web browser for Plasma Mobile"
-msgstr "Веб-браузер для Plasma Mobile"
-
-#: src/main.cpp:89
-#, kde-format
-msgid "© 2015-2026 KDE Community"
-msgstr "© Сообщество KDE, 2015-2026"
-
-#: src/main.cpp:92
+#: src/main.cpp:70
 #, kde-format
 msgid "Jonah Brüchert"
 msgstr "Jonah Brüchert"
 
-#: src/main.cpp:92
+#: src/main.cpp:70
 #, kde-format
 msgid "Maintainer"
 msgstr "Сопровождающий"
 
-#: src/main.cpp:93
+#: src/main.cpp:71
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Дмитрий Астанков, Олеся Герасименко"
 
-#: src/main.cpp:93
+#: src/main.cpp:71
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mornie@basealt.ru, translation-team@basealt.ru"
 
 # BUGME: typo, embeding -> embedding --ayavorsky 2026-10-11
-#: src/main.cpp:97
+#: src/main.cpp:75
 #, kde-format
 msgid "A browser engine based on Chromium for embeding web content."
 msgstr "Браузерный движок на основе Chromium для встраивания веб-содержимого."
 
-#: src/main.cpp:99
+#: src/main.cpp:77
 #, kde-format
 msgctxt "<version number> (built against <possibly different version number>)"
 msgid "%1 (built against %2)"
 msgstr "%1 (собрано с версией %2)"
 
-#: src/main.cpp:105
+#: src/main.cpp:83
 #, kde-format
 msgid "Web browser project developed by Google."
 msgstr "Проект веб-браузера, разрабатываемый компанией Google."
+
+#: src/main.cpp:92
+#, kde-format
+msgid "URL to open"
+msgstr "URL-адрес для открытия"
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:15
 #, kde-format
@@ -1262,6 +1247,15 @@ msgstr "Удалить приложение"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "Установленные веб-приложения отсутствуют"
+
+#~ msgid "Angelfish"
+#~ msgstr "Angelfish"
+
+#~ msgid "Web browser for Plasma Mobile"
+#~ msgstr "Веб-браузер для Plasma Mobile"
+
+#~ msgid "© 2015-2026 KDE Community"
+#~ msgstr "© Сообщество KDE, 2015-2026"
 
 #~ msgctxt "@action:inmenu"
 #~ msgid "Tabs"

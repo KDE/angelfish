@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-27 00:59+0000\n"
+"POT-Creation-Date: 2026-10-31 00:50+0000\n"
 "PO-Revision-Date: 2026-09-27 14:18+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -513,63 +513,48 @@ msgctxt "@action:inmenu"
 msgid "View Page Source"
 msgstr "Visa sidans källkod"
 
-#: src/main.cpp:69
-#, kde-format
-msgid "URL to open"
-msgstr "Webbadress att öppna"
-
-#: src/main.cpp:85
-#, kde-format
-msgid "Angelfish"
-msgstr "Angelfish"
-
-#: src/main.cpp:87
-#, kde-format
-msgid "Web browser for Plasma Mobile"
-msgstr "Webbläsare för Plasma mobil"
-
-#: src/main.cpp:89
-#, kde-format
-msgid "© 2015-2026 KDE Community"
-msgstr "© 2015-2026 KDE-gemenskapen"
-
-#: src/main.cpp:92
+#: src/main.cpp:70
 #, kde-format
 msgid "Jonah Brüchert"
 msgstr "Jonah Brüchert"
 
-#: src/main.cpp:92
+#: src/main.cpp:70
 #, kde-format
 msgid "Maintainer"
 msgstr "Underhållsansvarig"
 
-#: src/main.cpp:93
+#: src/main.cpp:71
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Stefan Asserhäll"
 
-#: src/main.cpp:93
+#: src/main.cpp:71
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "stefan.asserhall@gmail.com"
 
-#: src/main.cpp:97
+#: src/main.cpp:75
 #, kde-format
 msgid "A browser engine based on Chromium for embeding web content."
 msgstr ""
 
-#: src/main.cpp:99
+#: src/main.cpp:77
 #, kde-format
 msgctxt "<version number> (built against <possibly different version number>)"
 msgid "%1 (built against %2)"
 msgstr ""
 
-#: src/main.cpp:105
+#: src/main.cpp:83
 #, kde-format
 msgid "Web browser project developed by Google."
 msgstr ""
+
+#: src/main.cpp:92
+#, kde-format
+msgid "URL to open"
+msgstr "Webbadress att öppna"
 
 #: src/qml/AdblockFilterDownloadQuestion.qml:15
 #, kde-format
@@ -1269,6 +1254,15 @@ msgstr "Ta bort program"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "Inga webbapplikationer installerade"
+
+#~ msgid "Angelfish"
+#~ msgstr "Angelfish"
+
+#~ msgid "Web browser for Plasma Mobile"
+#~ msgstr "Webbläsare för Plasma mobil"
+
+#~ msgid "© 2015-2026 KDE Community"
+#~ msgstr "© 2015-2026 KDE-gemenskapen"
 
 #~ msgctxt "@action:inmenu"
 #~ msgid "Tabs"
