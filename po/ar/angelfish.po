@@ -1,13 +1,13 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the angelfish package.
-# SPDX-FileCopyrightText: 2023, 2024, 2025, 2026 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+# SPDX-FileCopyrightText: 2023-2026 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-31 00:50+0000\n"
-"PO-Revision-Date: 2026-09-23 17:37+0400\n"
+"PO-Revision-Date: 2026-10-31 17:25+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Lokalize 25.12.3\n"
+"X-Generator: Lokalize 26.08.1\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -531,18 +531,18 @@ msgstr "alfadhel.a@gmail.com"
 #: src/main.cpp:75
 #, kde-format
 msgid "A browser engine based on Chromium for embeding web content."
-msgstr ""
+msgstr "محرك متصفح مبني على Chromium لتضمين محتوى الويب."
 
 #: src/main.cpp:77
 #, kde-format
 msgctxt "<version number> (built against <possibly different version number>)"
 msgid "%1 (built against %2)"
-msgstr ""
+msgstr "‏%1 (بني على %2)"
 
 #: src/main.cpp:83
 #, kde-format
 msgid "Web browser project developed by Google."
-msgstr ""
+msgstr "مشروع متصفح ويب طوّرته شركة جوجل."
 
 #: src/main.cpp:92
 #, kde-format
@@ -1163,25 +1163,14 @@ msgid "Navigation Bar"
 msgstr "شريط الملاحة"
 
 #: src/settings/SettingsNavigationBarPage.qml:27
-#, fuzzy, kde-format
-#| msgid ""
-#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-#| "hidden only in portrait orientation of the browser and are always shown "
-#| "if the browser is wider than its height.\n"
-#| "\n"
-#| " Note that if you disable the menu buttons, you will be able to access "
-#| "the menus either by swiping from the left or right side or to a side "
-#| "along the bottom of the window."
+#, kde-format
 msgid ""
 "Choose the buttons enabled in the navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
 "the browser is wider than its height."
 msgstr ""
 "اختر الأزرار المفعلة في شريط الملاحة. بعض الأزرار يمكن أن تخفى في الوضع "
-"الطولي للمتصفح ودائما تظهر إذا كان عرض المتصفح اكبر من طوله.\n"
-"\n"
-"لاحظ إذا عطلت أزرار القائمة، ستستطيع الوصول لكل القوائم أما بالسحب من اليسار "
-"إلى اليمين أو الجنب بمحاذاة اسفل النافذة."
+"الطولي للمتصفح ودائما تظهر إذا كان عرض المتصفح اكبر من طوله."
 
 #: src/settings/SettingsNavigationBarPage.qml:36
 #, kde-format

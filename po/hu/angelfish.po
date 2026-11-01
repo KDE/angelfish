@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-31 00:50+0000\n"
-"PO-Revision-Date: 2026-06-22 22:25+0200\n"
+"PO-Revision-Date: 2026-10-31 22:42+0100\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 26.04.2\n"
+"X-Generator: Lokalize 26.08.1\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -589,12 +589,10 @@ msgid "Bookmarks"
 msgstr "Könyvjelzők"
 
 #: src/qml/Bookmarks.qml:24 src/qml/Downloads.qml:34 src/qml/History.qml:31
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid "Close tab"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Close"
-msgstr "Lap bezárása"
+msgstr "Bezárás"
 
 #: src/qml/desktop/Desktop.qml:152
 #, kde-format
@@ -694,11 +692,10 @@ msgid "Settings"
 msgstr "Beállítások"
 
 #: src/qml/desktop/Desktop.qml:434
-#, fuzzy, kde-format
-#| msgid "Angelfish"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Angelfish"
-msgstr "Angelfish"
+msgstr "Névjegy: Angelfish"
 
 #: src/qml/desktop/Desktop.qml:458
 #, fuzzy, kde-format
@@ -780,7 +777,7 @@ msgstr "Letöltések"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Clear finished downloads"
-msgstr ""
+msgstr "Befejezett letöltések törlése"
 
 #: src/qml/Downloads.qml:47
 #, kde-format
@@ -997,16 +994,15 @@ msgid "Toolbars"
 msgstr "Eszköztárak"
 
 #: src/settings/AngelfishConfigurationView.qml:44
-#, fuzzy, kde-format
-#| msgid "Angelfish"
+#, kde-format
 msgid "About Angelfish"
-msgstr "Angelfish"
+msgstr "Névjegy: Angelfish"
 
 #: src/settings/AngelfishConfigurationView.qml:47
 #, kde-format
 msgctxt "@title:group"
 msgid "About"
-msgstr ""
+msgstr "Névjegy"
 
 #: src/settings/DesktopHomeSettingsPage.qml:25
 #, kde-format
