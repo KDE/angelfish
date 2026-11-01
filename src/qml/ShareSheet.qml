@@ -16,13 +16,31 @@ Kirigami.Dialog {
     property string inputTitle
 
     title: i18nc("@title:window", "Share Page")
-    preferredWidth: Kirigami.Units.gridUnit * 16
+    preferredWidth: Kirigami.Units.gridUnit * 18
+    preferredHeight: Kirigami.Units.gridUnit * 18
     standardButtons: Kirigami.Dialog.NoButton
+
+    onUrlChanged: updateInputData()
+    onInputTitleChanged: updateInputData()
+
+    function updateInputData() {
+        if (inputSheet.url.toString().length > 0) {
+            view.inputData = {
+                "urls": [inputSheet.url.toString()],
+                "title": inputSheet.inputTitle
+            };
+        }
+    }
+
 
     Purpose.AlternativesView {
         id: view
         pluginType: "ShareUrl"
         clip: true
+        Layout.fillWidth: true
+        Layout.fillHeight: true
+        implicitWidth: inputSheet.preferredWidth
+        implicitHeight: Kirigami.Units.gridUnit * 14
 
         delegate: Delegates.RoundedItemDelegate {
             id: shareDelegate
@@ -40,6 +58,7 @@ Kirigami.Dialog {
 
                 Delegates.DefaultContentItem {
                     itemDelegate: shareDelegate
+                    Layout.fillWidth: true
                 }
 
                 Kirigami.Icon {
@@ -51,13 +70,6 @@ Kirigami.Dialog {
         }
 
         onFinished: close()
-    }
-
-    onVisibleChanged: {
-        view.inputData = {
-            "urls": [inputSheet.url.toString()],
-            "title": inputSheet.inputTitle
-        }
     }
 }
 
