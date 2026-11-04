@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-31 00:50+0000\n"
-"PO-Revision-Date: 2026-10-01 00:59+0900\n"
+"PO-Revision-Date: 2026-11-03 21:54+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -529,18 +529,18 @@ msgstr "pan93412@gmail.com, mail@kisaragi-hiu.com"
 #: src/main.cpp:75
 #, kde-format
 msgid "A browser engine based on Chromium for embeding web content."
-msgstr ""
+msgstr "基於 Chromium 用來內嵌網路內容的瀏覽器引擎。"
 
 #: src/main.cpp:77
 #, kde-format
 msgctxt "<version number> (built against <possibly different version number>)"
 msgid "%1 (built against %2)"
-msgstr ""
+msgstr "%1 (建置於 %2 上)"
 
 #: src/main.cpp:83
 #, kde-format
 msgid "Web browser project developed by Google."
-msgstr ""
+msgstr "Google 開發的網頁瀏覽器專案。"
 
 #: src/main.cpp:92
 #, kde-format
@@ -1159,25 +1159,14 @@ msgid "Navigation Bar"
 msgstr "導覽列"
 
 #: src/settings/SettingsNavigationBarPage.qml:27
-#, fuzzy, kde-format
-#| msgid ""
-#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-#| "hidden only in portrait orientation of the browser and are always shown "
-#| "if the browser is wider than its height.\n"
-#| "\n"
-#| " Note that if you disable the menu buttons, you will be able to access "
-#| "the menus either by swiping from the left or right side or to a side "
-#| "along the bottom of the window."
+#, kde-format
 msgid ""
 "Choose the buttons enabled in the navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
 "the browser is wider than its height."
 msgstr ""
 "選擇在導覽列啟用的按鈕。某些按鈕只能在瀏覽器直立顯示時隱藏，亦即它們在瀏覽器"
-"寬度大於高度時總是會顯示。\n"
-"\n"
-" 請注意，如果您停用了選單按鈕，要存取選單將會需要從左端或右端滑入，或是從視窗"
-"底端滑到邊緣去。"
+"寬度大於高度時總是會顯示。"
 
 #: src/settings/SettingsNavigationBarPage.qml:36
 #, kde-format
