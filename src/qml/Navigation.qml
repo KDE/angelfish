@@ -294,6 +294,7 @@ Item {
                     Controls.ToolButton {
                         id: schemeIcon
                         icon.name: {
+                            if (currentWebView.insecureCertificate) return "security-low";
                             if (labelItem.scheme === "https") return "lock";
                             if (labelItem.scheme === "http") return "unlock";
                             return "";

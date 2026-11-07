@@ -2,28 +2,30 @@
 //
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-import QtQuick 2.3
-import QtQuick.Controls 2.0 as Controls
-import QtQuick.Layouts 1.0
-import QtWebEngine 1.1
+import QtQuick
+import QtQuick.Controls as Controls
+import QtQuick.Layouts
+import QtWebEngine
 
-import org.kde.kirigami 2.17 as Kirigami
+import org.kde.kirigami as Kirigami
 
-
+// Shown in place of the website when it failed to load, or when its certificate is waiting for the user's decision.
 Item {
     id: errorHandler
 
     signal refreshRequested
-    signal certificateIgnored
 
-    property var errorCode
-    property alias errorString: errorDescription.text
-    property var certErrors: []
+    property var webView
+
+    readonly property var certError: webView?.certErrors[0] ?? null
+    readonly property bool hasLoadError: webView !== null && webView !== undefined
+                                         && webView.errorDomain !== null
+                                         && webView.errorDomain !== WebEngineLoadingInfo.HttpStatusCodeDomain
+
+    visible: certError !== null || hasLoadError
 
     Kirigami.Theme.inherit: false
     Kirigami.Theme.colorSet: Kirigami.Theme.View
-
-    Behavior on height { NumberAnimation { duration: Kirigami.Units.longDuration; easing.type: Easing.InOutQuad} }
 
     Rectangle {
         anchors.fill: parent
@@ -31,7 +33,9 @@ Item {
         color: Kirigami.Theme.backgroundColor
     }
 
+    // Load error
     ColumnLayout {
+        visible: errorHandler.certError === null
         spacing: Kirigami.Units.gridUnit
         anchors {
             fill: parent
@@ -39,7 +43,7 @@ Item {
         }
         Kirigami.Heading {
             opacity: 0.3
-            text: errorHandler.errorCode ?? ""
+            text: errorHandler.webView?.errorCode ?? ""
         }
         Kirigami.Heading {
             level: 3
@@ -47,8 +51,10 @@ Item {
             text: i18nc("@title", "Error Loading the Page")
         }
         Controls.Label {
-            id: errorDescription
+            Layout.fillWidth: true
             Layout.fillHeight: false
+            wrapMode: Text.Wrap
+            text: errorHandler.webView?.errorString ?? ""
         }
         Item {
             Layout.fillHeight: true
@@ -60,48 +66,126 @@ Item {
             onClicked: errorHandler.refreshRequested()
         }
     }
-    Kirigami.OverlayDrawer {
-        id: sslErrorDrawer
-        edge: Qt.BottomEdge
-        parent: applicationWindow().overlay
+
+    // Certificate error
+    Controls.ScrollView {
+        id: certErrorPage
+        visible: errorHandler.certError !== null
+        anchors.fill: parent
+        contentWidth: availableWidth
+
+        readonly property string reason: errorHandler.certErrorReason(errorHandler.certError)
 
         ColumnLayout {
-            width: parent.width
-            Controls.Label {
+            width: certErrorPage.availableWidth
+            spacing: 0
+
+            // Vertically center the content when it fits
+            Item {
                 Layout.fillWidth: true
-                wrapMode: Text.WordWrap
-                text: i18n( 
-"Do you wish to continue?\n\n \
-If you wish so, you may continue with an unverified certificate.\n \
-Accepting an unverified certificate means you may not be connected with the host you tried to connect to.\n\n \
-Do you wish to override the security check and continue?")
+                Layout.preferredHeight: Math.max(Kirigami.Units.gridUnit,
+                                                 (certErrorPage.availableHeight - certErrorContent.implicitHeight) / 2)
             }
-            Controls.Button {
-                Layout.alignment: Qt.AlignRight
-                text: i18nc("@action:button", "Yes")
-                onClicked: {
-                    errorHandler.certErrors.shift().acceptCertificate();
-                    errorHandler.certificateIgnored();
-                    sslErrorDrawer.close();
+
+            ColumnLayout {
+                id: certErrorContent
+                spacing: Kirigami.Units.largeSpacing
+                Layout.alignment: Qt.AlignHCenter
+                Layout.fillWidth: true
+                Layout.maximumWidth: Kirigami.Units.gridUnit * 26
+                Layout.leftMargin: Kirigami.Units.gridUnit
+                Layout.rightMargin: Kirigami.Units.gridUnit
+                Layout.bottomMargin: Kirigami.Units.gridUnit
+
+                Kirigami.Icon {
+                    source: "security-low"
+                    implicitWidth: Kirigami.Units.iconSizes.huge
+                    implicitHeight: Kirigami.Units.iconSizes.huge
+                    Layout.bottomMargin: Kirigami.Units.largeSpacing
                 }
-            }
-            Controls.Button {
-                Layout.alignment: Qt.AlignRight
-                text: i18nc("@action:button", "No")
-                onClicked: {
-                    errorHandler.certErrors.shift().rejectCertificate();
-                    sslErrorDrawer.close();
+
+                Kirigami.Heading {
+                    Layout.fillWidth: true
+                    level: 1
+                    wrapMode: Text.Wrap
+                    text: i18nc("@title", "Connection Not Secure")
+                }
+
+                Controls.Label {
+                    Layout.fillWidth: true
+                    wrapMode: Text.Wrap
+                    font.bold: true
+                    text: errorHandler.certError ? new URL(errorHandler.certError.url.toString()).host : ""
+                }
+
+                Controls.Label {
+                    Layout.fillWidth: true
+                    wrapMode: Text.Wrap
+                    text: certErrorPage.reason
+                }
+
+                Controls.Label {
+                    Layout.fillWidth: true
+                    wrapMode: Text.Wrap
+                    text: errorHandler.certError?.overridable
+                        ? i18nc("@info", "Someone could be trying to impersonate this website or intercept your connection. Only continue if you trust this network and website.")
+                        : i18nc("@info", "This website requires a secure connection, so it cannot be opened.")
+                }
+
+                Controls.Label {
+                    Layout.fillWidth: true
+                    wrapMode: Text.Wrap
+                    font: Kirigami.Theme.smallFont
+                    color: Kirigami.Theme.disabledTextColor
+                    visible: text !== "" && text !== certErrorPage.reason
+                    text: errorHandler.certError?.description ?? ""
+                }
+
+                Controls.Button {
+                    Layout.fillWidth: true
+                    Layout.topMargin: Kirigami.Units.gridUnit
+                    highlighted: true
+                    icon.name: errorHandler.webView?.canGoBack ? "go-previous" : "dialog-cancel"
+                    text: errorHandler.webView?.canGoBack ? i18nc("@action:button", "Go Back")
+                                                          : i18nc("@action:button", "Cancel")
+                    onClicked: {
+                        const webView = errorHandler.webView;
+                        webView.resolveCertificateError(false);
+                        if (webView.canGoBack) {
+                            webView.goBack();
+                        }
+                    }
+                }
+
+                Controls.Button {
+                    Layout.fillWidth: true
+                    flat: true
+                    visible: errorHandler.certError?.overridable ?? false
+                    text: i18nc("@action:button", "Continue Anyway (Unsafe)")
+                    onClicked: errorHandler.webView.resolveCertificateError(true)
                 }
             }
         }
     }
 
-    function open(error) {
-        certErrors.push(error);
-        sslErrorDrawer.open();
-    }
-
-    function clear() {
-        certErrors.certErrors = []
+    function certErrorReason(error) {
+        if (!error) {
+            return "";
+        }
+        switch (error.type) {
+        case WebEngineCertificateError.CertificateDateInvalid:
+            return i18nc("@info", "The website's certificate has expired or is not yet valid.");
+        case WebEngineCertificateError.CertificateAuthorityInvalid:
+            return i18nc("@info", "The website's certificate could not be verified, because it was not issued by a trusted authority. It may be self-signed.");
+        case WebEngineCertificateError.CertificateCommonNameInvalid:
+            return i18nc("@info", "The website's certificate belongs to a different website.");
+        case WebEngineCertificateError.CertificateRevoked:
+            return i18nc("@info", "The website's certificate has been revoked.");
+        case WebEngineCertificateError.CertificateWeakSignatureAlgorithm:
+        case WebEngineCertificateError.CertificateWeakKey:
+            return i18nc("@info", "The website's certificate uses weak security.");
+        default:
+            return error.description;
+        }
     }
 }
