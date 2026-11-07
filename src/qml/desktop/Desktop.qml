@@ -176,7 +176,7 @@ Kirigami.ApplicationWindow {
                 }
 
                 function validURL(str) {
-                    return searchField.text.match(RegexWebUrl.re_weburl) || searchField.text.startsWith("chrome://")
+                    return RegexWebUrl.isUrl(searchField.text)
                 }
 
                 searchField.focusSequence: "Ctrl+L"

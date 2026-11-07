@@ -40,6 +40,8 @@
 // local changes:
 //
 // - removed "short syntax //", either http://, https://, ftp:// or just the domain
+// - added isUrl(), which also accepts input that is clearly meant as an address
+//   without having a TLD (explicit scheme, localhost, IPv6)
 //
 // Compressed one-line versions:
 //
@@ -86,3 +88,13 @@ var re_weburl = new RegExp(
     "(?:[/?#]\\S*)?" +
   "$", "i"
 );
+
+// Input that is clearly an address even though it doesn't match re_weburl:
+// an explicit scheme (http://myhost, file:///tmp, chrome://gpu), localhost or an IPv6 address
+var re_explicit_url = /^(?:[a-z][a-z0-9+.-]*:\/\/\S+|(?:localhost|\[[0-9a-f:.]+\])(?::\d{1,5})?(?:[/?#]\S*)?)$/i;
+
+// Whether the user input should be loaded as an address rather than searched for
+function isUrl(text) {
+    const trimmed = text.trim();
+    return re_weburl.test(trimmed) || re_explicit_url.test(trimmed);
+}
