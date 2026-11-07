@@ -81,7 +81,7 @@ Controls.Drawer {
                 }
 
                 function applyUrl() {
-                    if (text.match(RegexWebUrl.re_weburl) || text.startsWith("chrome://")) {
+                    if (RegexWebUrl.isUrl(text)) {
                         currentWebView.url = Core.UrlUtils.urlFromUserInput(text);
                     } else {
                         currentWebView.url = Core.UrlUtils.urlFromUserInput(Core.AngelfishSettings.searchBaseUrl + text);
