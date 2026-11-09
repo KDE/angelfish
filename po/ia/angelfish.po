@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-31 00:50+0000\n"
+"POT-Creation-Date: 2026-11-09 00:55+0000\n"
 "PO-Revision-Date: 2026-10-26 16:39+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
@@ -73,54 +73,89 @@ msgctxt "@action:button"
 msgid "Download"
 msgstr "Discarga"
 
-#: lib/contents/ui/DownloadQuestion.qml:33
+#: lib/contents/ui/DownloadQuestion.qml:33 lib/contents/ui/ErrorHandler.qml:150
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Cancella"
 
-#: lib/contents/ui/ErrorHandler.qml:47
+#: lib/contents/ui/ErrorHandler.qml:51
 #, kde-format
 msgctxt "@title"
 msgid "Error Loading the Page"
 msgstr "Error a cargar le pagina"
 
-#: lib/contents/ui/ErrorHandler.qml:58
+#: lib/contents/ui/ErrorHandler.qml:64
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Retry"
 msgstr "Prova novemente"
 
-#: lib/contents/ui/ErrorHandler.qml:74
+#: lib/contents/ui/ErrorHandler.qml:111
 #, kde-format
-msgid ""
-"Do you wish to continue?\n"
-"\n"
-" If you wish so, you may continue with an unverified certificate.\n"
-" Accepting an unverified certificate means you may not be connected with the "
-"host you tried to connect to.\n"
-"\n"
-" Do you wish to override the security check and continue?"
+msgctxt "@title"
+msgid "Connection Not Secure"
 msgstr ""
-"Tu desira continuar?\n"
-"\n"
-"Si tu desira assi, tu pote continuar con un certificato non verificate.\n"
-"Acceptar un certificato non verificate significa que tu poterea\n"
-"non esser connectite al hospite qui tu essayava connecter.\n"
-"\n"
-"Tu vole ultrepassare le verifica de securitate e continuar? "
 
-#: lib/contents/ui/ErrorHandler.qml:81
+#: lib/contents/ui/ErrorHandler.qml:131
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Someone could be trying to impersonate this website or intercept your "
+"connection. Only continue if you trust this network and website."
+msgstr ""
+
+#: lib/contents/ui/ErrorHandler.qml:132
+#, kde-format
+msgctxt "@info"
+msgid "This website requires a secure connection, so it cannot be opened."
+msgstr ""
+
+#: lib/contents/ui/ErrorHandler.qml:149
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Go Back"
+msgctxt "@action:button"
+msgid "Go Back"
+msgstr "Vade retro"
+
+#: lib/contents/ui/ErrorHandler.qml:164
 #, kde-format
 msgctxt "@action:button"
-msgid "Yes"
-msgstr "Si"
+msgid "Continue Anyway (Unsafe)"
+msgstr ""
 
-#: lib/contents/ui/ErrorHandler.qml:90
+#: lib/contents/ui/ErrorHandler.qml:177
 #, kde-format
-msgctxt "@action:button"
-msgid "No"
-msgstr "No"
+msgctxt "@info"
+msgid "The website's certificate has expired or is not yet valid."
+msgstr ""
+
+#: lib/contents/ui/ErrorHandler.qml:179
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The website's certificate could not be verified, because it was not issued "
+"by a trusted authority. It may be self-signed."
+msgstr ""
+
+#: lib/contents/ui/ErrorHandler.qml:181
+#, kde-format
+msgctxt "@info"
+msgid "The website's certificate belongs to a different website."
+msgstr ""
+
+#: lib/contents/ui/ErrorHandler.qml:183
+#, kde-format
+msgctxt "@info"
+msgid "The website's certificate has been revoked."
+msgstr ""
+
+#: lib/contents/ui/ErrorHandler.qml:186
+#, kde-format
+msgctxt "@info"
+msgid "The website's certificate uses weak security."
+msgstr ""
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
@@ -305,212 +340,212 @@ msgctxt "@label:checkbox"
 msgid "Print backgrounds"
 msgstr "Imprime fundos"
 
-#: lib/contents/ui/WebView.qml:352
+#: lib/contents/ui/WebView.qml:363
 #, kde-format
 msgctxt "@info:status"
 msgid "Website was opened in a new tab"
 msgstr "Sito web esseva aperite in un nove scheda"
 
-#: lib/contents/ui/WebView.qml:370
+#: lib/contents/ui/WebView.qml:381
 #, kde-format
 msgctxt "@info:status"
 msgid "Entered Full Screen mode"
 msgstr "Entrate a modo de Schermo plen"
 
-#: lib/contents/ui/WebView.qml:371
+#: lib/contents/ui/WebView.qml:382
 #, kde-format
 msgctxt "@action:button"
 msgid "Exit Full Screen (Esc)"
 msgstr "Exi Schermo plen (Esc)"
 
-#: lib/contents/ui/WebView.qml:506
+#: lib/contents/ui/WebView.qml:541
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Play"
 msgstr "Reproduce"
 
-#: lib/contents/ui/WebView.qml:507
+#: lib/contents/ui/WebView.qml:542
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Pause"
 msgstr "Pausa"
 
-#: lib/contents/ui/WebView.qml:514
+#: lib/contents/ui/WebView.qml:549
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Unmute"
 msgstr "Non silente"
 
-#: lib/contents/ui/WebView.qml:515
+#: lib/contents/ui/WebView.qml:550
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Mute"
 msgstr "Silente"
 
-#: lib/contents/ui/WebView.qml:525
+#: lib/contents/ui/WebView.qml:560
 #, kde-format
 msgctxt "@label"
 msgid "Speed"
 msgstr "Velocitate"
 
-#: lib/contents/ui/WebView.qml:548
+#: lib/contents/ui/WebView.qml:583
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Loop"
 msgstr "Anella"
 
-#: lib/contents/ui/WebView.qml:555
+#: lib/contents/ui/WebView.qml:590
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Exit Fullscreen"
 msgstr "Exi schermo plen"
 
-#: lib/contents/ui/WebView.qml:555
+#: lib/contents/ui/WebView.qml:590
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Enter Fullscreen"
 msgstr "Passa a schermo plen"
 
-#: lib/contents/ui/WebView.qml:568
+#: lib/contents/ui/WebView.qml:603
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Controls"
 msgstr "Cela Controlos"
 
-#: lib/contents/ui/WebView.qml:569
+#: lib/contents/ui/WebView.qml:604
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Controls"
 msgstr "Monstra Controlos"
 
-#: lib/contents/ui/WebView.qml:577
+#: lib/contents/ui/WebView.qml:612
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video"
 msgstr "Aperi video"
 
-#: lib/contents/ui/WebView.qml:577
+#: lib/contents/ui/WebView.qml:612
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio"
 msgstr "Aperi Audio"
 
-#: lib/contents/ui/WebView.qml:578
+#: lib/contents/ui/WebView.qml:613
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Video in New Tab"
 msgstr "Aperi video in nove scheda"
 
-#: lib/contents/ui/WebView.qml:578
+#: lib/contents/ui/WebView.qml:613
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Audio in New Tab"
 msgstr "Aperi Audio in nove scheda"
 
-#: lib/contents/ui/WebView.qml:590
+#: lib/contents/ui/WebView.qml:625
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Video"
 msgstr "Salveguarda video"
 
-#: lib/contents/ui/WebView.qml:596
+#: lib/contents/ui/WebView.qml:631
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Video Link"
 msgstr "Copia ligamine de video"
 
-#: lib/contents/ui/WebView.qml:602
+#: lib/contents/ui/WebView.qml:637
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image"
 msgstr "Aperi imagine"
 
-#: lib/contents/ui/WebView.qml:602
+#: lib/contents/ui/WebView.qml:637
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Image in New Tab"
 msgstr "Aperi imagine in nove scheda"
 
-#: lib/contents/ui/WebView.qml:614
+#: lib/contents/ui/WebView.qml:649
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Image"
 msgstr "Salveguarda imagine"
 
-#: lib/contents/ui/WebView.qml:620
+#: lib/contents/ui/WebView.qml:655
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image"
 msgstr "Copia imagine"
 
-#: lib/contents/ui/WebView.qml:626
+#: lib/contents/ui/WebView.qml:661
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Image Link"
 msgstr "Copia ligamine de imagine"
 
-#: lib/contents/ui/WebView.qml:632
+#: lib/contents/ui/WebView.qml:667
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Link"
 msgstr "Aperi Ligamine"
 
-#: lib/contents/ui/WebView.qml:632
+#: lib/contents/ui/WebView.qml:667
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Link in New Tab"
 msgstr "Aperi ligamine in nove scheda"
 
-#: lib/contents/ui/WebView.qml:644
+#: lib/contents/ui/WebView.qml:679
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark Link"
 msgstr "Ligamine de marcator de libro"
 
-#: lib/contents/ui/WebView.qml:656
+#: lib/contents/ui/WebView.qml:691
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save Link"
 msgstr "Salveguarda ligamine"
 
-#: lib/contents/ui/WebView.qml:662
+#: lib/contents/ui/WebView.qml:697
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Link"
 msgstr "Copia Ligamine"
 
-#: lib/contents/ui/WebView.qml:669
+#: lib/contents/ui/WebView.qml:704
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy"
 msgstr "Copia"
 
-#: lib/contents/ui/WebView.qml:675
+#: lib/contents/ui/WebView.qml:710
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Cut"
 msgstr "Talia"
 
-#: lib/contents/ui/WebView.qml:681
+#: lib/contents/ui/WebView.qml:716
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "Colla"
 
-#: lib/contents/ui/WebView.qml:689
+#: lib/contents/ui/WebView.qml:724
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "Cerca “%1”"
 
-#: lib/contents/ui/WebView.qml:702 src/qml/desktop/Desktop.qml:394
-#: src/qml/Mobile.qml:335
+#: lib/contents/ui/WebView.qml:737 src/qml/desktop/Desktop.qml:394
+#: src/qml/Mobile.qml:321
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
 msgstr "Comparti pagina"
 
-#: lib/contents/ui/WebView.qml:714
+#: lib/contents/ui/WebView.qml:749
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "View Page Source"
@@ -606,7 +641,7 @@ msgid "Search or enter URL…"
 msgstr "Cerca o inserta URL..."
 
 #: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:272
-#: src/qml/Navigation.qml:465
+#: src/qml/Navigation.qml:466
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
@@ -666,19 +701,19 @@ msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Cela instrumentos per disveloppatores"
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:410
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:396
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Monstra instrumentos per disveloppatores"
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:331
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:317
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Trova in pagina"
 
-#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:393
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:379
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
@@ -864,73 +899,73 @@ msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
 msgstr "Comuta Modo de Scriptorio"
 
-#: src/qml/Mobile.qml:346
+#: src/qml/Mobile.qml:332
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Adde a schermo de initio"
 
-#: src/qml/Mobile.qml:358
+#: src/qml/Mobile.qml:344
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Aperi in app"
 
-#: src/qml/Mobile.qml:368
+#: src/qml/Mobile.qml:354
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "Ponite in le marcatores de libro"
 
-#: src/qml/Mobile.qml:368
+#: src/qml/Mobile.qml:354
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Marcator de libro"
 
-#: src/qml/Mobile.qml:384
+#: src/qml/Mobile.qml:370
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Monstra sito de scriptorio"
 
-#: src/qml/Mobile.qml:401
+#: src/qml/Mobile.qml:387
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "Cela barra de navigation"
 
-#: src/qml/Mobile.qml:420
+#: src/qml/Mobile.qml:406
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr "Vade retro"
 
-#: src/qml/Mobile.qml:428
+#: src/qml/Mobile.qml:414
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "Vade avante"
 
-#: src/qml/Mobile.qml:435
+#: src/qml/Mobile.qml:421
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Stoppa de cargar"
 
-#: src/qml/Mobile.qml:435
+#: src/qml/Mobile.qml:421
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
 msgstr "Refresca"
 
-#: src/qml/Navigation.qml:438
+#: src/qml/Navigation.qml:439
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Done"
 msgstr "Facite"
 
-#: src/qml/Navigation.qml:451
+#: src/qml/Navigation.qml:452
 #, kde-format
 msgctxt "@info:status"
 msgid "%1 tabs"
@@ -1259,6 +1294,31 @@ msgstr "Remove app"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "Nulle Apps de Web installate"
+
+#~ msgid ""
+#~ "Do you wish to continue?\n"
+#~ "\n"
+#~ " If you wish so, you may continue with an unverified certificate.\n"
+#~ " Accepting an unverified certificate means you may not be connected with "
+#~ "the host you tried to connect to.\n"
+#~ "\n"
+#~ " Do you wish to override the security check and continue?"
+#~ msgstr ""
+#~ "Tu desira continuar?\n"
+#~ "\n"
+#~ "Si tu desira assi, tu pote continuar con un certificato non verificate.\n"
+#~ "Acceptar un certificato non verificate significa que tu poterea\n"
+#~ "non esser connectite al hospite qui tu essayava connecter.\n"
+#~ "\n"
+#~ "Tu vole ultrepassare le verifica de securitate e continuar? "
+
+#~ msgctxt "@action:button"
+#~ msgid "Yes"
+#~ msgstr "Si"
+
+#~ msgctxt "@action:button"
+#~ msgid "No"
+#~ msgstr "No"
 
 #~ msgid "Angelfish"
 #~ msgstr "Angelfish"
