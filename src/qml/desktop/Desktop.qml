@@ -533,8 +533,7 @@ Kirigami.ApplicationWindow {
         Core.ErrorHandler {
             id: errorHandler
 
-            errorString: currentWebView.errorString
-            errorCode: currentWebView.errorCode
+            webView: currentWebView
 
             anchors {
                 top: parent.top
@@ -542,16 +541,8 @@ Kirigami.ApplicationWindow {
                 right: parent.right
                 bottom: parent.bottom
             }
-            visible: currentWebView.errorDomain !== null
-                     && currentWebView.errorDomain !== WebEngineLoadingInfo.HttpStatusCodeDomain
 
             onRefreshRequested: currentWebView.reload()
-
-            function enqueue(error){
-                errorString = error.description;
-                errorCode = error.error;
-                errorHandler.open(error);
-            }
         }
 
         Loader {

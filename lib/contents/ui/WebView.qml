@@ -26,6 +26,13 @@ WebEngineView {
     property var errorDomain: null
     property string errorString: ""
 
+    // Certificate errors of the main frame waiting for the user's decision
+    property var certErrors: []
+    // Host for which the user accepted a bad certificate
+    property string certificateErrorIgnoredHost: ""
+    readonly property bool insecureCertificate: certErrors.length > 0
+        || (certificateErrorIgnoredHost !== "" && certificateErrorIgnoredHost === new URL(url.toString()).host)
+
     property bool privateMode: false
 
     property alias userAgent: userAgent
@@ -97,7 +104,7 @@ WebEngineView {
         runJavaScript(Core.DomDistiller.script, function() {
                 runJavaScript(Core.DomDistiller.applyScript, function(result) {
                     // CSS styling for reader mode
-                    const readerCSS = 
+                    const readerCSS =
                         "<style>" +
                         "body {" +
                         "    font-family: 'Noto Sans', sans-serif;" +
@@ -257,6 +264,10 @@ WebEngineView {
         var es = "";
         var ed = null;
         if (loadRequest.status === WebEngineView.LoadStartedStatus) {
+            // Navigating somewhere else abandons the pending certificate errors
+            if (certErrors.length > 0 && loadRequest.url.toString() !== certErrors[0].url.toString()) {
+                rejectCertificateErrors();
+            }
             if (profile.httpUserAgent !== userAgent.userAgent) {
                 //print("Mismatch of user agents, will load later " + loadRequest.url);
                 reloadOnMatchingAgents = true;
@@ -428,8 +439,32 @@ classes
     }
 
     onCertificateError: error => {
+        if (!error.isMainFrame) {
+            error.rejectCertificate();
+            return;
+        }
         error.defer();
-        errorHandler.enqueue(error);
+        certErrors = [...certErrors, error];
+    }
+
+    function resolveCertificateError(accept) {
+        if (certErrors.length === 0) {
+            return;
+        }
+        const [error, ...rest] = certErrors;
+        certErrors = rest;
+        if (accept) {
+            certificateErrorIgnoredHost = new URL(error.url.toString()).host;
+            error.acceptCertificate();
+        } else {
+            error.rejectCertificate();
+        }
+    }
+
+    function rejectCertificateErrors() {
+        const errors = certErrors;
+        certErrors = [];
+        errors.forEach(error => error.rejectCertificate());
     }
 
     function findInPageForward(text) {
