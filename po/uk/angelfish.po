@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-09 00:55+0000\n"
-"PO-Revision-Date: 2026-10-11 15:45+0300\n"
+"PO-Revision-Date: 2026-11-09 08:44+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -98,7 +98,7 @@ msgstr "Повторити"
 #, kde-format
 msgctxt "@title"
 msgid "Connection Not Secure"
-msgstr ""
+msgstr "З'єднання не є захищеним"
 
 #: lib/contents/ui/ErrorHandler.qml:131
 #, kde-format
@@ -107,32 +107,33 @@ msgid ""
 "Someone could be trying to impersonate this website or intercept your "
 "connection. Only continue if you trust this network and website."
 msgstr ""
+"Хтось може намагатися видати себе за цей вебсайт або перехопити ваше "
+"з'єднання. Продовжуйте, лише якщо довіряєте цій мережі та сайту."
 
 #: lib/contents/ui/ErrorHandler.qml:132
 #, kde-format
 msgctxt "@info"
 msgid "This website requires a secure connection, so it cannot be opened."
 msgstr ""
+"Для цього сайта потрібне захищене з'єднання, тому його неможливо відкрити."
 
 #: lib/contents/ui/ErrorHandler.qml:149
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Go Back"
+#, kde-format
 msgctxt "@action:button"
 msgid "Go Back"
-msgstr "Перейти назад"
+msgstr "Назад"
 
 #: lib/contents/ui/ErrorHandler.qml:164
 #, kde-format
 msgctxt "@action:button"
 msgid "Continue Anyway (Unsafe)"
-msgstr ""
+msgstr "Продовжити попри це (небезпечно)"
 
 #: lib/contents/ui/ErrorHandler.qml:177
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has expired or is not yet valid."
-msgstr ""
+msgstr "Строк дії сертифіката сайта вичерпано або сертифікат ще не є чинним."
 
 #: lib/contents/ui/ErrorHandler.qml:179
 #, kde-format
@@ -141,24 +142,26 @@ msgid ""
 "The website's certificate could not be verified, because it was not issued "
 "by a trusted authority. It may be self-signed."
 msgstr ""
+"Сертифікат сайта не вдалося перевірити, оскільки він не був виданий "
+"довіреним центром сертифікації. Можливо, він є самопідписаним."
 
 #: lib/contents/ui/ErrorHandler.qml:181
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate belongs to a different website."
-msgstr ""
+msgstr "Сертифікат сайта належить іншому сайту."
 
 #: lib/contents/ui/ErrorHandler.qml:183
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has been revoked."
-msgstr ""
+msgstr "Сертифікат сайта відкликано."
 
 #: lib/contents/ui/ErrorHandler.qml:186
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate uses weak security."
-msgstr ""
+msgstr "Для сертифікації сайта використано слабкий захист."
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format

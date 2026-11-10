@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-09 00:55+0000\n"
-"PO-Revision-Date: 2026-10-11 08:24+0200\n"
+"PO-Revision-Date: 2026-11-09 06:59+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
-"X-Generator: Poedit 3.9\n"
+"X-Generator: Poedit 3.10\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -96,7 +96,7 @@ msgstr "Ponovno poskusi"
 #, kde-format
 msgctxt "@title"
 msgid "Connection Not Secure"
-msgstr ""
+msgstr "Povezava ni varna"
 
 #: lib/contents/ui/ErrorHandler.qml:131
 #, kde-format
@@ -105,17 +105,17 @@ msgid ""
 "Someone could be trying to impersonate this website or intercept your "
 "connection. Only continue if you trust this network and website."
 msgstr ""
+"Morda bi nekdo poskušal posnemati to spletno mesto ali prestreči vašo "
+"povezavo. Nadaljujte le, če zaupate temu omrežju in spletnemu mestu."
 
 #: lib/contents/ui/ErrorHandler.qml:132
 #, kde-format
 msgctxt "@info"
 msgid "This website requires a secure connection, so it cannot be opened."
-msgstr ""
+msgstr "To spletno mesto zahteva varno povezavo, zato ga ni mogoče odpreti."
 
 #: lib/contents/ui/ErrorHandler.qml:149
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Go Back"
+#, kde-format
 msgctxt "@action:button"
 msgid "Go Back"
 msgstr "Pojdi nazaj"
@@ -124,13 +124,13 @@ msgstr "Pojdi nazaj"
 #, kde-format
 msgctxt "@action:button"
 msgid "Continue Anyway (Unsafe)"
-msgstr ""
+msgstr "Kljub temu nadaljuj (Nevarno)"
 
 #: lib/contents/ui/ErrorHandler.qml:177
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has expired or is not yet valid."
-msgstr ""
+msgstr "Potrdilo spletnega mesta je poteklo ali pa še ni veljavno."
 
 #: lib/contents/ui/ErrorHandler.qml:179
 #, kde-format
@@ -139,24 +139,26 @@ msgid ""
 "The website's certificate could not be verified, because it was not issued "
 "by a trusted authority. It may be self-signed."
 msgstr ""
+"Potrdila spletnega mesta ni bilo mogoče preveriti, saj ga ni izdala zaupanja "
+"vreden overitelj. Morda gre za samopodpisano potrdilo."
 
 #: lib/contents/ui/ErrorHandler.qml:181
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate belongs to a different website."
-msgstr ""
+msgstr "To potrdilo spletnega mesta pripada drugemu spletnemu mestu."
 
 #: lib/contents/ui/ErrorHandler.qml:183
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has been revoked."
-msgstr ""
+msgstr "Potrdilo spletnega mesta je bilo preklicano."
 
 #: lib/contents/ui/ErrorHandler.qml:186
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate uses weak security."
-msgstr ""
+msgstr "Potrdilo spletnega mesta uporablja šibko varnost."
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format

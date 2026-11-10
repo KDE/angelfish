@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-09 00:55+0000\n"
-"PO-Revision-Date: 2026-10-11 08:05-0300\n"
+"PO-Revision-Date: 2026-11-09 08:10-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 26.08.2\n"
+"X-Generator: Lokalize 26.08.3\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -99,7 +99,7 @@ msgstr "Repetir"
 #, kde-format
 msgctxt "@title"
 msgid "Connection Not Secure"
-msgstr ""
+msgstr "Conexão não segura"
 
 #: lib/contents/ui/ErrorHandler.qml:131
 #, kde-format
@@ -108,17 +108,17 @@ msgid ""
 "Someone could be trying to impersonate this website or intercept your "
 "connection. Only continue if you trust this network and website."
 msgstr ""
+"Alguém pode estar tentando se passar por este site ou interceptar sua "
+"conexão. Prossiga apenas se você confiar nesta rede e neste site."
 
 #: lib/contents/ui/ErrorHandler.qml:132
 #, kde-format
 msgctxt "@info"
 msgid "This website requires a secure connection, so it cannot be opened."
-msgstr ""
+msgstr "Este site exige uma conexão segura, por isso não pode ser aberto."
 
 #: lib/contents/ui/ErrorHandler.qml:149
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Go Back"
+#, kde-format
 msgctxt "@action:button"
 msgid "Go Back"
 msgstr "Voltar"
@@ -127,13 +127,13 @@ msgstr "Voltar"
 #, kde-format
 msgctxt "@action:button"
 msgid "Continue Anyway (Unsafe)"
-msgstr ""
+msgstr "Continuar mesmo assim (inseguro)"
 
 #: lib/contents/ui/ErrorHandler.qml:177
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has expired or is not yet valid."
-msgstr ""
+msgstr "O certificado do site expirou ou ainda não é válido."
 
 #: lib/contents/ui/ErrorHandler.qml:179
 #, kde-format
@@ -142,24 +142,26 @@ msgid ""
 "The website's certificate could not be verified, because it was not issued "
 "by a trusted authority. It may be self-signed."
 msgstr ""
+"Não foi possível verificar o certificado do site, pois ele não foi emitido "
+"por uma autoridade confiável. É possível que ele seja autoassinado."
 
 #: lib/contents/ui/ErrorHandler.qml:181
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate belongs to a different website."
-msgstr ""
+msgstr "O certificado do site pertence a um site diferente."
 
 #: lib/contents/ui/ErrorHandler.qml:183
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has been revoked."
-msgstr ""
+msgstr "O certificado do site foi revogado."
 
 #: lib/contents/ui/ErrorHandler.qml:186
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate uses weak security."
-msgstr ""
+msgstr "O certificado do site utiliza segurança fraca."
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format

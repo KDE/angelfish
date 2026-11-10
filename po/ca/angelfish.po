@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-09 00:55+0000\n"
-"PO-Revision-Date: 2026-10-11 10:31+0200\n"
+"PO-Revision-Date: 2026-11-09 11:57+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -99,7 +99,7 @@ msgstr "Torna-ho a intentar"
 #, kde-format
 msgctxt "@title"
 msgid "Connection Not Secure"
-msgstr ""
+msgstr "Connexió no segura"
 
 #: lib/contents/ui/ErrorHandler.qml:131
 #, kde-format
@@ -108,32 +108,33 @@ msgid ""
 "Someone could be trying to impersonate this website or intercept your "
 "connection. Only continue if you trust this network and website."
 msgstr ""
+"Algú podria intentar suplantar aquest lloc web o interceptar aquesta "
+"connexió. Continueu només si confieu en aquesta xarxa i lloc web."
 
 #: lib/contents/ui/ErrorHandler.qml:132
 #, kde-format
 msgctxt "@info"
 msgid "This website requires a secure connection, so it cannot be opened."
 msgstr ""
+"Aquest lloc web requereix una connexió segura, per tant, no es pot obrir."
 
 #: lib/contents/ui/ErrorHandler.qml:149
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Go Back"
+#, kde-format
 msgctxt "@action:button"
 msgid "Go Back"
-msgstr "Retrocedeix"
+msgstr "Enrere"
 
 #: lib/contents/ui/ErrorHandler.qml:164
 #, kde-format
 msgctxt "@action:button"
 msgid "Continue Anyway (Unsafe)"
-msgstr ""
+msgstr "Continua igualment (No és segur)"
 
 #: lib/contents/ui/ErrorHandler.qml:177
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has expired or is not yet valid."
-msgstr ""
+msgstr "El certificat del lloc web ha vençut o encara no és vàlid."
 
 #: lib/contents/ui/ErrorHandler.qml:179
 #, kde-format
@@ -142,24 +143,26 @@ msgid ""
 "The website's certificate could not be verified, because it was not issued "
 "by a trusted authority. It may be self-signed."
 msgstr ""
+"No s'ha pogut verificar el certificat del lloc web, perquè no l'ha emès una "
+"autoritat de confiança. Pot ser autosignat."
 
 #: lib/contents/ui/ErrorHandler.qml:181
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate belongs to a different website."
-msgstr ""
+msgstr "El certificat del lloc web pertany a un lloc web diferent."
 
 #: lib/contents/ui/ErrorHandler.qml:183
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has been revoked."
-msgstr ""
+msgstr "El certificat del lloc web s'ha revocat."
 
 #: lib/contents/ui/ErrorHandler.qml:186
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate uses weak security."
-msgstr ""
+msgstr "El certificat del lloc web fa servir una seguretat dèbil."
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format

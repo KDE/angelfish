@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-09 00:55+0000\n"
-"PO-Revision-Date: 2026-10-11 04:06+0200\n"
+"PO-Revision-Date: 2026-11-09 04:52+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.9\n"
+"X-Generator: Poedit 3.10\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -96,7 +96,7 @@ msgstr "თავიდან ცდა"
 #, kde-format
 msgctxt "@title"
 msgid "Connection Not Secure"
-msgstr ""
+msgstr "კავშირი დაცული არაა"
 
 #: lib/contents/ui/ErrorHandler.qml:131
 #, kde-format
@@ -105,32 +105,32 @@ msgid ""
 "Someone could be trying to impersonate this website or intercept your "
 "connection. Only continue if you trust this network and website."
 msgstr ""
+"შეიძლება, ვინმე ცდილობდეს ამ ვებსაიტის განსახიერებას, ან თქვენი კავშირის "
+"გადაჭერას. გააგრძელეთ, მხოლოდ, მაშინ, თუ ენდობით ამ ქსელს და ვებსაიტს."
 
 #: lib/contents/ui/ErrorHandler.qml:132
 #, kde-format
 msgctxt "@info"
 msgid "This website requires a secure connection, so it cannot be opened."
-msgstr ""
+msgstr "ეს ვებსაიტი ითხოვს დაცულ კავშირს, ამიტომ მისი გახსნა შეუძლებელია."
 
 #: lib/contents/ui/ErrorHandler.qml:149
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Go Back"
+#, kde-format
 msgctxt "@action:button"
 msgid "Go Back"
-msgstr "უკან დაბრუნება"
+msgstr "უკან გადასვლა"
 
 #: lib/contents/ui/ErrorHandler.qml:164
 #, kde-format
 msgctxt "@action:button"
 msgid "Continue Anyway (Unsafe)"
-msgstr ""
+msgstr "მაინც გაგრძელება (სახიფათოა)"
 
 #: lib/contents/ui/ErrorHandler.qml:177
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has expired or is not yet valid."
-msgstr ""
+msgstr "სერტიფიკატის ვადა ამოიწურა ან ჯერ სწორი არაა."
 
 #: lib/contents/ui/ErrorHandler.qml:179
 #, kde-format
@@ -139,24 +139,26 @@ msgid ""
 "The website's certificate could not be verified, because it was not issued "
 "by a trusted authority. It may be self-signed."
 msgstr ""
+"ვებსაიტის სერტიფიკატის გადამოწმება შეუძლებელია, რადგან ის სანდო ორგანოს მიერ "
+"არაა გაცემული. ის შეიძლება, თვითხელმოწერილი იყოს."
 
 #: lib/contents/ui/ErrorHandler.qml:181
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate belongs to a different website."
-msgstr ""
+msgstr "ვებსაიტის სერტიფიკატი სხვა ვაბსაიტს ეკუთვნის."
 
 #: lib/contents/ui/ErrorHandler.qml:183
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has been revoked."
-msgstr ""
+msgstr "ვებსაიტის სერტიფიკატი გაუქმდა."
 
 #: lib/contents/ui/ErrorHandler.qml:186
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate uses weak security."
-msgstr ""
+msgstr "ვებსაიტის სერტიფიკატი სუსტ უსაფრთხოებას იყენებს."
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
@@ -936,7 +938,7 @@ msgstr "ნავიგაციის პანელის დამალვ�
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
-msgstr "უკან დაბრუნება"
+msgstr "უკან გადასვლა"
 
 #: src/qml/Mobile.qml:414
 #, kde-format

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-09 00:55+0000\n"
-"PO-Revision-Date: 2026-10-11 12:24+0100\n"
+"PO-Revision-Date: 2026-11-09 12:40+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 26.08.1\n"
+"X-Generator: Lokalize 26.08.3\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -97,7 +97,7 @@ msgstr "Volver a intentar"
 #, kde-format
 msgctxt "@title"
 msgid "Connection Not Secure"
-msgstr ""
+msgstr "La conexión no es segura"
 
 #: lib/contents/ui/ErrorHandler.qml:131
 #, kde-format
@@ -106,17 +106,19 @@ msgid ""
 "Someone could be trying to impersonate this website or intercept your "
 "connection. Only continue if you trust this network and website."
 msgstr ""
+"Es posible que alguien esté intentando suplantar este sitio web o "
+"interceptar su conexión. Continúe solo si confía en esta red y en este sitio "
+"web."
 
 #: lib/contents/ui/ErrorHandler.qml:132
 #, kde-format
 msgctxt "@info"
 msgid "This website requires a secure connection, so it cannot be opened."
 msgstr ""
+"Este sitio web requiere una conexión segura, por lo que no se puede abrir."
 
 #: lib/contents/ui/ErrorHandler.qml:149
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Go Back"
+#, kde-format
 msgctxt "@action:button"
 msgid "Go Back"
 msgstr "Volver"
@@ -125,13 +127,13 @@ msgstr "Volver"
 #, kde-format
 msgctxt "@action:button"
 msgid "Continue Anyway (Unsafe)"
-msgstr ""
+msgstr "Continuar de todos modos (inseguro)"
 
 #: lib/contents/ui/ErrorHandler.qml:177
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has expired or is not yet valid."
-msgstr ""
+msgstr "El certificado del sitio web ha caducado o aún no es válido."
 
 #: lib/contents/ui/ErrorHandler.qml:179
 #, kde-format
@@ -140,24 +142,27 @@ msgid ""
 "The website's certificate could not be verified, because it was not issued "
 "by a trusted authority. It may be self-signed."
 msgstr ""
+"No se ha podido verificar el certificado del sitio web, ya que no ha sido "
+"emitido por una autoridad de confianza. Es posible que esté firmado por sí "
+"mismo."
 
 #: lib/contents/ui/ErrorHandler.qml:181
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate belongs to a different website."
-msgstr ""
+msgstr "El certificado del sitio web pertenece a un sitio web distinto."
 
 #: lib/contents/ui/ErrorHandler.qml:183
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has been revoked."
-msgstr ""
+msgstr "El certificado del sitio web ha sido revocado."
 
 #: lib/contents/ui/ErrorHandler.qml:186
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate uses weak security."
-msgstr ""
+msgstr "El certificado del sitio web usa un tipo de seguridad débil."
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
@@ -1297,37 +1302,3 @@ msgstr "Eliminar aplicación"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "No hay aplicaciones web instaladas"
-
-#~ msgid ""
-#~ "Do you wish to continue?\n"
-#~ "\n"
-#~ " If you wish so, you may continue with an unverified certificate.\n"
-#~ " Accepting an unverified certificate means you may not be connected with "
-#~ "the host you tried to connect to.\n"
-#~ "\n"
-#~ " Do you wish to override the security check and continue?"
-#~ msgstr ""
-#~ "¿Desea continuar?\n"
-#~ "\n"
-#~ "Si así lo desea, puede continuar con un certificado sin verificar.\n"
-#~ "Aceptar un certificado sin verificar significa que es posible que no esté "
-#~ "conectado a la máquina a la que ha intentado conectarse.\n"
-#~ "\n"
-#~ "¿Desea anular la comprobación de seguridad y continuar?"
-
-#~ msgctxt "@action:button"
-#~ msgid "Yes"
-#~ msgstr "Sí"
-
-#~ msgctxt "@action:button"
-#~ msgid "No"
-#~ msgstr "No"
-
-#~ msgid "Angelfish"
-#~ msgstr "Angelfish"
-
-#~ msgid "Web browser for Plasma Mobile"
-#~ msgstr "Navegador web para Plasma Mobile"
-
-#~ msgid "© 2015-2026 KDE Community"
-#~ msgstr "© 2015-2026 La comunidad KDE"

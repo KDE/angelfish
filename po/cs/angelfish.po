@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-09 00:55+0000\n"
-"PO-Revision-Date: 2026-10-11 11:20+0200\n"
+"PO-Revision-Date: 2026-11-09 11:59+0100\n"
 "Last-Translator: Libor Filípek <libor.filipek@gmail.com>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 26.08.2\n"
+"X-Generator: Lokalize 26.08.3\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -97,7 +97,7 @@ msgstr "Zkusit znovu"
 #, kde-format
 msgctxt "@title"
 msgid "Connection Not Secure"
-msgstr ""
+msgstr "Připojení není zabezpečené"
 
 #: lib/contents/ui/ErrorHandler.qml:131
 #, kde-format
@@ -106,17 +106,19 @@ msgid ""
 "Someone could be trying to impersonate this website or intercept your "
 "connection. Only continue if you trust this network and website."
 msgstr ""
+"Je možné, že se někdo pokouší vydávat za tuto webovou stránku nebo "
+"odposlouchávat vaše připojení. Pokračujte pouze v případě, že této síti a "
+"webové stránce důvěřujete."
 
 #: lib/contents/ui/ErrorHandler.qml:132
 #, kde-format
 msgctxt "@info"
 msgid "This website requires a secure connection, so it cannot be opened."
 msgstr ""
+"Tato webová stránka vyžaduje zabezpečené připojení, proto ji nelze otevřít."
 
 #: lib/contents/ui/ErrorHandler.qml:149
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Go Back"
+#, kde-format
 msgctxt "@action:button"
 msgid "Go Back"
 msgstr "Jít zpět"
@@ -125,13 +127,14 @@ msgstr "Jít zpět"
 #, kde-format
 msgctxt "@action:button"
 msgid "Continue Anyway (Unsafe)"
-msgstr ""
+msgstr "Pokračovat i tak (nebezpečné)"
 
 #: lib/contents/ui/ErrorHandler.qml:177
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has expired or is not yet valid."
 msgstr ""
+"Platnost certifikátu této webové stránky vypršela nebo ještě není platný."
 
 #: lib/contents/ui/ErrorHandler.qml:179
 #, kde-format
@@ -140,24 +143,27 @@ msgid ""
 "The website's certificate could not be verified, because it was not issued "
 "by a trusted authority. It may be self-signed."
 msgstr ""
+"Certifikát této webové stránky nebylo možné ověřit, protože nebyl vydán "
+"důvěryhodnou certifikační autoritou. Může se jednat o certifikát s vlastním "
+"podpisem."
 
 #: lib/contents/ui/ErrorHandler.qml:181
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate belongs to a different website."
-msgstr ""
+msgstr "Certifikát této webové stránky patří jiné webové stránce."
 
 #: lib/contents/ui/ErrorHandler.qml:183
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has been revoked."
-msgstr ""
+msgstr "Certifikát této webové stránky byl odvolán."
 
 #: lib/contents/ui/ErrorHandler.qml:186
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate uses weak security."
-msgstr ""
+msgstr "Certifikát této webové stránky využívá slabé zabezpečení."
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
