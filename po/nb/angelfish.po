@@ -1195,11 +1195,3 @@ msgstr ""
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr ""
-
-#~ msgctxt "@action:button"
-#~ msgid "Yes"
-#~ msgstr "Ja"
-
-#~ msgctxt "@action:button"
-#~ msgid "No"
-#~ msgstr "Nei"
