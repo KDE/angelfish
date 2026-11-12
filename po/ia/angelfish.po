@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-09 00:55+0000\n"
-"PO-Revision-Date: 2026-10-26 16:39+0100\n"
+"PO-Revision-Date: 2026-11-11 12:35+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -95,7 +95,7 @@ msgstr "Prova novemente"
 #, kde-format
 msgctxt "@title"
 msgid "Connection Not Secure"
-msgstr ""
+msgstr "Connexion non secur"
 
 #: lib/contents/ui/ErrorHandler.qml:131
 #, kde-format
@@ -112,9 +112,7 @@ msgid "This website requires a secure connection, so it cannot be opened."
 msgstr ""
 
 #: lib/contents/ui/ErrorHandler.qml:149
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Go Back"
+#, kde-format
 msgctxt "@action:button"
 msgid "Go Back"
 msgstr "Vade retro"
@@ -123,7 +121,7 @@ msgstr "Vade retro"
 #, kde-format
 msgctxt "@action:button"
 msgid "Continue Anyway (Unsafe)"
-msgstr ""
+msgstr "Continua de omne modo (insecur)"
 
 #: lib/contents/ui/ErrorHandler.qml:177
 #, kde-format
