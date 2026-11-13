@@ -148,10 +148,102 @@ Kirigami.ApplicationWindow {
                 Layout.maximumWidth: 800
                 autoAccept: false
                 popup.width: width
-                searchField.text: currentWebView.url
-                searchField.placeholderText: i18nc("@info:placeholder", "Search or enter URL…")
-                searchField.color: searchField.activeFocus ? Kirigami.Theme.textColor : Kirigami.Theme.disabledTextColor
+                popup.onClosed: {
+                    historyList.currentIndex = -1;
+                }
+                searchField: Kirigami.SearchField {
+                    text: currentWebView.url
+                    placeholderText: i18nc("@info:placeholder", "Search or enter URL…")
+                    color: activeFocus ? Kirigami.Theme.textColor : Kirigami.Theme.disabledTextColor
+                    onActiveFocusChanged: {
+                        if (activeFocus) {
+                            selectAll();
+                        }
+                    }
+                    focusSequence: "Ctrl+L"
+
+                    rightActions: [
+                        Kirigami.Action {
+                            id: bookmarkButton
+
+                            visible: !urlBar.searchField.activeFocus
+                            icon.name: checked ? "rating" : "rating-unrated"
+                            checkable: true
+                            checked: urlObserver.bookmarked
+                            onTriggered: {
+                                if (checked) {
+                                    var request = {
+                                        url: currentWebView.url,
+                                        title: currentWebView.title,
+                                        icon: currentWebView.icon
+                                    }
+                                    Core.BrowserManager.addBookmark(request);
+                                } else {
+                                    Core.BrowserManager.removeBookmark(currentWebView.url);
+                                }
+                            }
+                        }
+                    ]
+
+                    Shortcut {
+                        sequence: "Ctrl+D"
+                        onActivated: bookmarkButton.trigger()
+                    }
+
+                    Keys.priority: Keys.BeforeItem
+                    Keys.onDownPressed: (event) => {
+                        if (urlBar.popup.opened && historyList.count > 0) {
+                            if (historyList.currentIndex < historyList.count - 1) {
+                                historyList.currentIndex++;
+                            } else {
+                                historyList.currentIndex = 0;
+                            }
+                            historyList.positionViewAtIndex(historyList.currentIndex, ListView.Contain);
+                            event.accepted = true;
+                        }
+                    }
+
+                    Keys.onUpPressed: (event) => {
+                        if (urlBar.popup.opened) {
+                            if (historyList.currentIndex > 0) {
+                                historyList.currentIndex--;
+                                historyList.positionViewAtIndex(historyList.currentIndex, ListView.Contain);
+                            } else {
+                                historyList.currentIndex = -1;
+                            }
+                            event.accepted = true;
+                        }
+                    }
+
+                    Keys.onReturnPressed: (event) => {
+                        if (urlBar.popup.opened && historyList.currentIndex >= 0 && historyList.currentItem && historyList.currentItem.url) {
+                            currentWebView.url = historyList.currentItem.url;
+                            urlBar.popup.close();
+                            event.accepted = true;
+                        }
+                    }
+
+                    Keys.onEnterPressed: (event) => {
+                        if (urlBar.popup.opened && historyList.currentIndex >= 0 && historyList.currentItem && historyList.currentItem.url) {
+                            currentWebView.url = historyList.currentItem.url;
+                            urlBar.popup.close();
+                            event.accepted = true;
+                        }
+                    }
+                }
+
                 onAccepted: {
+                    let selectedUrl = "";
+                    if (historyList.currentIndex >= 0 && historyList.currentItem && historyList.currentItem.url) {
+                        selectedUrl = historyList.currentItem.url;
+                    }
+
+                    if (selectedUrl !== "") {
+                        currentWebView.url = selectedUrl;
+                        urlBar.popup.close();
+                        return;
+                    }
+
                     let url = text;
                     if (url.indexOf(":/") < 0) {
                         url = "http://" + url;
@@ -162,105 +254,116 @@ Kirigami.ApplicationWindow {
                     } else {
                         currentWebView.url = Core.UrlUtils.urlFromUserInput(Core.AngelfishSettings.searchBaseUrl + searchField.text);
                     }
-                    urlBar.popup.close()
+                    urlBar.popup.close();
                 }
+
                 onTextChanged: {
+                    historyList.currentIndex = -1;
                     if (searchField.text === "" || searchField.text.length > 2) {
                         historyList.model.filter = searchField.displayText;
                     }
                 }
-                searchField.onActiveFocusChanged: {
-                    if (searchField.activeFocus) {
-                        searchField.selectAll()
-                    }
-                }
 
                 function validURL(str) {
-                    return RegexWebUrl.isUrl(searchField.text)
+                    return RegexWebUrl.isUrl(searchField.text);
                 }
 
-                searchField.focusSequence: "Ctrl+L"
 
-                Item {
-                    Kirigami.Action {
-                        id: bookmarkButton
+                ListView {
+                    id: historyList
 
-                        visible: !urlBar.searchField.activeFocus
-                        icon.name: checked ? "rating" : "rating-unrated"
-                        checkable: true
-                        checked: urlObserver.bookmarked
-                        onTriggered: {
-                            if (checked) {
-                                var request = {
-                                    url: currentWebView.url,
-                                    title: currentWebView.title,
-                                    icon: currentWebView.icon
-                                }
-                                Core.BrowserManager.addBookmark(request);
-                            } else {
-                                Core.BrowserManager.removeBookmark(currentWebView.url);
-                            }
+                    currentIndex: -1
+                    focus: true
+                    activeFocusOnTab: true
+                    keyNavigationEnabled: true
+                    highlightFollowsCurrentItem: true
+                    boundsBehavior: Flickable.StopAtBounds
+
+                    KeyNavigation.up: urlBar.searchField
+                    KeyNavigation.backtab: urlBar.searchField
+
+                    onActiveFocusChanged: {
+                        if (activeFocus && currentIndex < 0 && count > 0) {
+                            currentIndex = 0;
                         }
                     }
 
-                    Shortcut {
-                        sequence: "Ctrl+D"
-                        onActivated: bookmarkButton.action.trigger()
+                    Keys.onDownPressed: (event) => {
+                        if (currentIndex < count - 1) {
+                            currentIndex++;
+                        } else {
+                            currentIndex = 0;
+                        }
+                        positionViewAtIndex(currentIndex, ListView.Contain);
+                        event.accepted = true;
                     }
-                }
 
-                Component.onCompleted: {
-                    searchField.rightActions[0] = bookmarkButton;
-                }
+                    Keys.onUpPressed: (event) => {
+                        if (currentIndex > 0) {
+                            currentIndex--;
+                            positionViewAtIndex(currentIndex, ListView.Contain);
+                            event.accepted = true;
+                        } else {
+                            currentIndex = -1;
+                            urlBar.searchField.forceActiveFocus();
+                            event.accepted = true;
+                        }
+                    }
 
-                ColumnLayout {
-                    anchors.fill: parent
+                    Keys.onReturnPressed: (event) => {
+                        if (currentIndex >= 0 && currentItem && currentItem.url) {
+                            currentWebView.url = currentItem.url;
+                            urlBar.popup.close();
+                            event.accepted = true;
+                        }
+                    }
 
-                    QQC2.ScrollView {
-                        Layout.fillWidth: true
-                        Layout.fillHeight: true
+                    Keys.onEnterPressed: (event) => {
+                        if (currentIndex >= 0 && currentItem && currentItem.url) {
+                            currentWebView.url = currentItem.url;
+                            urlBar.popup.close();
+                            event.accepted = true;
+                        }
+                    }
 
-                        clip: true
+                    Keys.onEscapePressed: (event) => {
+                        urlBar.popup.close();
+                        urlBar.searchField.forceActiveFocus();
+                        event.accepted = true;
+                    }
 
+                    model: Core.BookmarksHistoryModel {
+                        history: true
+                        bookmarks: false
+                        active: urlBar.popup.opened
+                    }
 
-                        QQC2.ScrollBar.horizontal.visible: false
+                    delegate: Delegates.RoundedItemDelegate {
+                        id: bookmarkDelegate
 
-                        ListView {
-                            id: historyList
+                        required property int index
+                        required property string title
+                        required property string url
 
-                            currentIndex: -1
-                            model: Core.BookmarksHistoryModel {
-                                history: true
-                                bookmarks: false
-                                active: urlBar.popup.opened
-                            }
+                        highlighted: historyList.currentIndex === index
 
-                            delegate: Delegates.RoundedItemDelegate {
-                                id: bookmarkDelegate
+                        text: title
 
-                                required property int index
-                                required property string title
-                                required property string url
+                        icon {
+                            name: "image://favicon/" + url
+                            width: Kirigami.Units.largeSpacing * 3
+                            height: Kirigami.Units.largeSpacing * 3
+                        }
 
-                                text: title
+                        onClicked: {
+                            currentWebView.url = bookmarkDelegate.url;
+                            urlBar.popup.close()
+                        }
 
-                                icon {
-                                    name: "image://favicon/" + url
-                                    width: Kirigami.Units.largeSpacing * 3
-                                    height: Kirigami.Units.largeSpacing * 3
-                                }
-
-                                onClicked: {
-                                    currentWebView.url = bookmarkDelegate.url;
-                                    urlBar.popup.close()
-                                }
-
-                                contentItem: Delegates.SubtitleContentItem {
-                                    itemDelegate: bookmarkDelegate
-                                    subtitle: bookmarkDelegate.url
-                                    labelItem.textFormat: Text.PlainText
-                                }
-                            }
+                        contentItem: Delegates.SubtitleContentItem {
+                            itemDelegate: bookmarkDelegate
+                            subtitle: bookmarkDelegate.url
+                            labelItem.textFormat: Text.PlainText
                         }
                     }
                 }
