@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-09 00:55+0000\n"
-"PO-Revision-Date: 2026-10-31 17:25+0400\n"
+"PO-Revision-Date: 2026-11-12 08:46+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -96,7 +96,7 @@ msgstr "أعد المحاولة"
 #, kde-format
 msgctxt "@title"
 msgid "Connection Not Secure"
-msgstr ""
+msgstr "الاتصال غير آمن"
 
 #: lib/contents/ui/ErrorHandler.qml:131
 #, kde-format
@@ -105,32 +105,32 @@ msgid ""
 "Someone could be trying to impersonate this website or intercept your "
 "connection. Only continue if you trust this network and website."
 msgstr ""
+"قد يحاول أحدهم انتحال هوية هذا الموقع أو اعتراض اتصالك. لا تتابع إلا إذا كنت "
+"تثق بهذه الشبكة وهذا الموقع."
 
 #: lib/contents/ui/ErrorHandler.qml:132
 #, kde-format
 msgctxt "@info"
 msgid "This website requires a secure connection, so it cannot be opened."
-msgstr ""
+msgstr "يتطلب هذا الموقع اتصالًا آمنًا، لذا يتعذر فتحه."
 
 #: lib/contents/ui/ErrorHandler.qml:149
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Go Back"
+#, kde-format
 msgctxt "@action:button"
 msgid "Go Back"
-msgstr "عُد"
+msgstr "ارجع"
 
 #: lib/contents/ui/ErrorHandler.qml:164
 #, kde-format
 msgctxt "@action:button"
 msgid "Continue Anyway (Unsafe)"
-msgstr ""
+msgstr "تابع على أي حال (غير آمن)"
 
 #: lib/contents/ui/ErrorHandler.qml:177
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has expired or is not yet valid."
-msgstr ""
+msgstr "انتهت صلاحية شهادة الموقع أو أنها ليست صالحة بعد."
 
 #: lib/contents/ui/ErrorHandler.qml:179
 #, kde-format
@@ -139,24 +139,26 @@ msgid ""
 "The website's certificate could not be verified, because it was not issued "
 "by a trusted authority. It may be self-signed."
 msgstr ""
+"تعذر التحقق من شهادة الموقع، لأنها لم تصدر عن جهة موثوقة. قد تكون موقعة "
+"ذاتيًا."
 
 #: lib/contents/ui/ErrorHandler.qml:181
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate belongs to a different website."
-msgstr ""
+msgstr "شهادة الموقع تخص موقعًا آخر."
 
 #: lib/contents/ui/ErrorHandler.qml:183
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has been revoked."
-msgstr ""
+msgstr "أُبطلت شهادة الموقع."
 
 #: lib/contents/ui/ErrorHandler.qml:186
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate uses weak security."
-msgstr ""
+msgstr "تستخدم شهادة الموقع أمانًا ضعيفًا."
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format

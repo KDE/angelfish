@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-09 00:55+0000\n"
-"PO-Revision-Date: 2026-10-13 11:45+0300\n"
+"PO-Revision-Date: 2026-11-12 18:03+0200\n"
 "Last-Translator: Moo\n"
 "Language-Team: lt\n"
 "Language: lt\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Poedit 3.9\n"
+"X-Generator: Poedit 3.10\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -97,7 +97,7 @@ msgstr "Bandyti dar kartą"
 #, kde-format
 msgctxt "@title"
 msgid "Connection Not Secure"
-msgstr ""
+msgstr "Nesaugus ryšys"
 
 #: lib/contents/ui/ErrorHandler.qml:131
 #, kde-format
@@ -106,17 +106,18 @@ msgid ""
 "Someone could be trying to impersonate this website or intercept your "
 "connection. Only continue if you trust this network and website."
 msgstr ""
+"Gali būti, jog kažkas bando apsimesti šia svetaine arba perimti ryšį. "
+"Tęskite tik tuo atveju, jei pasitikite šiuo tinklu ir internetine svetaine."
 
 #: lib/contents/ui/ErrorHandler.qml:132
 #, kde-format
 msgctxt "@info"
 msgid "This website requires a secure connection, so it cannot be opened."
 msgstr ""
+"Ši internetinė svetainė reikalauja saugaus ryšio, todėl negali būti atverta."
 
 #: lib/contents/ui/ErrorHandler.qml:149
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Go Back"
+#, kde-format
 msgctxt "@action:button"
 msgid "Go Back"
 msgstr "Grįžti"
@@ -125,13 +126,14 @@ msgstr "Grįžti"
 #, kde-format
 msgctxt "@action:button"
 msgid "Continue Anyway (Unsafe)"
-msgstr ""
+msgstr "Vis tiek tęsti (Nesaugu)"
 
 #: lib/contents/ui/ErrorHandler.qml:177
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has expired or is not yet valid."
 msgstr ""
+"Internetinės svetainės liudijimas nebegalioja arba dar nepradėjo galioti."
 
 #: lib/contents/ui/ErrorHandler.qml:179
 #, kde-format
@@ -140,24 +142,27 @@ msgid ""
 "The website's certificate could not be verified, because it was not issued "
 "by a trusted authority. It may be self-signed."
 msgstr ""
+"Nepavyko patikrinti internetinės svetainės liudijimo, nes jį išdavė "
+"nepatikima įstaiga. Gali būti, kad liudijimas yra savarankiškai pasirašytas."
 
 #: lib/contents/ui/ErrorHandler.qml:181
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate belongs to a different website."
 msgstr ""
+"Internetinės svetainės liudijimas priklauso kitokiai internetinei svetainei."
 
 #: lib/contents/ui/ErrorHandler.qml:183
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has been revoked."
-msgstr ""
+msgstr "Internetinės svetainės liudijimas panaikintas."
 
 #: lib/contents/ui/ErrorHandler.qml:186
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate uses weak security."
-msgstr ""
+msgstr "Internetinės svetainės liudijimas naudoja silpną saugumą."
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
@@ -598,7 +603,7 @@ msgstr "%1 (sudaryta remiantis %2)"
 #: src/main.cpp:83
 #, kde-format
 msgid "Web browser project developed by Google."
-msgstr "Saityno naršyklės projektas, kurį plėtoja „Google“"
+msgstr "Saityno naršyklės projektas, kurį plėtoja „Google“."
 
 #: src/main.cpp:92
 #, kde-format

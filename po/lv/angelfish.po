@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-09 00:55+0000\n"
-"PO-Revision-Date: 2026-10-16 14:18+0300\n"
-"Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
+"PO-Revision-Date: 2026-11-11 14:45+0200\n"
+"Last-Translator: Toms Trasūns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
-"X-Generator: Lokalize 26.08.1\n"
+"X-Generator: Lokalize 26.08.2\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -96,7 +96,7 @@ msgstr "Atkārtot"
 #, kde-format
 msgctxt "@title"
 msgid "Connection Not Secure"
-msgstr ""
+msgstr "Savienojums nav drošs"
 
 #: lib/contents/ui/ErrorHandler.qml:131
 #, kde-format
@@ -105,17 +105,19 @@ msgid ""
 "Someone could be trying to impersonate this website or intercept your "
 "connection. Only continue if you trust this network and website."
 msgstr ""
+"Kāds cits var izlikties par šo tīmekļa vietni vai pārtvert jūsu ierīces "
+"savienojumu ar to. Turpiniet tikai tad, ja uzticaties tīklam un tīmekļa "
+"vietnei."
 
 #: lib/contents/ui/ErrorHandler.qml:132
 #, kde-format
 msgctxt "@info"
 msgid "This website requires a secure connection, so it cannot be opened."
 msgstr ""
+"Šī tīmekļa vietne pieprasa drošu savienojumu, tāpēc to nav iespējams atvērt."
 
 #: lib/contents/ui/ErrorHandler.qml:149
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Go Back"
+#, kde-format
 msgctxt "@action:button"
 msgid "Go Back"
 msgstr "Atgriezties"
@@ -124,13 +126,14 @@ msgstr "Atgriezties"
 #, kde-format
 msgctxt "@action:button"
 msgid "Continue Anyway (Unsafe)"
-msgstr ""
+msgstr "Turpināt tik un tā (bīstami)"
 
 #: lib/contents/ui/ErrorHandler.qml:177
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has expired or is not yet valid."
 msgstr ""
+"Šīs tīmekļa vietnes sertifikāta derīgums ir beidzies vai tas vēl nav derīgs."
 
 #: lib/contents/ui/ErrorHandler.qml:179
 #, kde-format
@@ -139,24 +142,26 @@ msgid ""
 "The website's certificate could not be verified, because it was not issued "
 "by a trusted authority. It may be self-signed."
 msgstr ""
+"Šīs tīmekļa vietnes sertifikātu neizdevās pārbaudīt, jo to nav izdevusi "
+"uzticama iestāde. Iespējams, tas ir pašparakstīts sertifikāts."
 
 #: lib/contents/ui/ErrorHandler.qml:181
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate belongs to a different website."
-msgstr ""
+msgstr "Šīs tīmekļa vietnes sertifikāts pieder citai tīmekļa vietnei."
 
 #: lib/contents/ui/ErrorHandler.qml:183
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has been revoked."
-msgstr ""
+msgstr "Šīs tīmekļa vietnes sertifikāts ir atsaukts."
 
 #: lib/contents/ui/ErrorHandler.qml:186
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate uses weak security."
-msgstr ""
+msgstr "Šīs tīmekļa vietnes sertifikāts lieto vāju drošības līmeni."
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
