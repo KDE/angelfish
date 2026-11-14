@@ -7,16 +7,16 @@ msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-09 00:55+0000\n"
-"PO-Revision-Date: 2026-10-16 14:39+0300\n"
+"PO-Revision-Date: 2026-11-13 13:56+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: צוות התרגום של KDE ישראל\n"
+"Language-Team: Hebrew <kde-l10n-he@kde.org>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Lokalize 26.08.1\n"
+"X-Generator: Lokalize 26.08.3\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -96,7 +96,7 @@ msgstr "לנסות שוב"
 #, kde-format
 msgctxt "@title"
 msgid "Connection Not Secure"
-msgstr ""
+msgstr "החיבור לא מאובטח"
 
 #: lib/contents/ui/ErrorHandler.qml:131
 #, kde-format
@@ -105,17 +105,17 @@ msgid ""
 "Someone could be trying to impersonate this website or intercept your "
 "connection. Only continue if you trust this network and website."
 msgstr ""
+"יכול להיות שמישהו מנסה להתחזות לאתר הזה או ליירט את החיבור שלך. מומלץ להמשיך "
+"רק אם הרשת והאתר האלו מהימנים מבחינתך"
 
 #: lib/contents/ui/ErrorHandler.qml:132
 #, kde-format
 msgctxt "@info"
 msgid "This website requires a secure connection, so it cannot be opened."
-msgstr ""
+msgstr "האתר הזה דורש חיבור מאובטח, לכן אי אפשר לפתוח אותו."
 
 #: lib/contents/ui/ErrorHandler.qml:149
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Go Back"
+#, kde-format
 msgctxt "@action:button"
 msgid "Go Back"
 msgstr "חזרה"
@@ -124,13 +124,13 @@ msgstr "חזרה"
 #, kde-format
 msgctxt "@action:button"
 msgid "Continue Anyway (Unsafe)"
-msgstr ""
+msgstr "להמשיך בכל זאת (מפוקפק)"
 
 #: lib/contents/ui/ErrorHandler.qml:177
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has expired or is not yet valid."
-msgstr ""
+msgstr "תוקף האישור של האתר הזה פג או שאינו תקף עדיין."
 
 #: lib/contents/ui/ErrorHandler.qml:179
 #, kde-format
@@ -139,24 +139,26 @@ msgid ""
 "The website's certificate could not be verified, because it was not issued "
 "by a trusted authority. It may be self-signed."
 msgstr ""
+"לא ניתן לאמת את האישור של האתר, כיוון שלא הונפק על ידי רשות אמינה.יכול להיות "
+"שנחתם עצמית."
 
 #: lib/contents/ui/ErrorHandler.qml:181
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate belongs to a different website."
-msgstr ""
+msgstr "אישור האתר הזה שייך לאתר אחר."
 
 #: lib/contents/ui/ErrorHandler.qml:183
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has been revoked."
-msgstr ""
+msgstr "אישור האתר הזה נשלל."
 
 #: lib/contents/ui/ErrorHandler.qml:186
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate uses weak security."
-msgstr ""
+msgstr "אישור האתר הזה משתמש באבטחה חלשה."
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
