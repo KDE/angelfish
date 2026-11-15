@@ -39,6 +39,11 @@ Kirigami.ApplicationWindow {
         }
     }
 
+    Shortcut {
+        sequence: "Ctrl+R"
+        onActivated: currentWebView.loading ? currentWebView.stopLoading() : currentWebView.reload()
+    }
+
     Config.WindowStateSaver {
         configGroupName: "mobile"
     }
@@ -419,6 +424,7 @@ Kirigami.ApplicationWindow {
             Kirigami.Action {
                 icon.name: currentWebView.loading ? "process-stop" : "view-refresh"
                 text: currentWebView.loading ? i18nc("@action:inmenu", "Stop Loading") : i18nc("@action:inmenu", "Refresh")
+                shortcut: StandardKey.Refresh
                 onTriggered: {
                     currentWebView.loading ? currentWebView.stopLoading() : currentWebView.reload()
                 }
