@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-09 00:55+0000\n"
+"POT-Creation-Date: 2026-11-19 01:06+0000\n"
 "PO-Revision-Date: 2026-11-03 21:54+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -527,8 +527,8 @@ msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "搜尋「%1」"
 
-#: lib/contents/ui/WebView.qml:737 src/qml/desktop/Desktop.qml:394
-#: src/qml/Mobile.qml:321
+#: lib/contents/ui/WebView.qml:737 src/qml/desktop/Desktop.qml:497
+#: src/qml/Mobile.qml:326
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
@@ -620,110 +620,110 @@ msgctxt "@info:tooltip"
 msgid "Close"
 msgstr "關閉"
 
-#: src/qml/desktop/Desktop.qml:152
+#: src/qml/desktop/Desktop.qml:156
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "搜尋或輸入網址…"
 
-#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:272
+#: src/qml/desktop/Desktop.qml:381 src/qml/desktop/DesktopTabs.qml:272
 #: src/qml/Navigation.qml:466
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "新增分頁"
 
-#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:85
+#: src/qml/desktop/Desktop.qml:388 src/qml/Mobile.qml:90
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
 msgstr "離開隱私模式"
 
-#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:85
+#: src/qml/desktop/Desktop.qml:388 src/qml/Mobile.qml:90
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Private Mode"
 msgstr "隱私模式"
 
-#: src/qml/desktop/Desktop.qml:294 src/qml/Mobile.qml:101
+#: src/qml/desktop/Desktop.qml:397 src/qml/Mobile.qml:106
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "History"
 msgstr "歷史紀錄"
 
-#: src/qml/desktop/Desktop.qml:307 src/qml/Mobile.qml:93
+#: src/qml/desktop/Desktop.qml:410 src/qml/Mobile.qml:98
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "書籤"
 
-#: src/qml/desktop/Desktop.qml:320 src/qml/Mobile.qml:105
+#: src/qml/desktop/Desktop.qml:423 src/qml/Mobile.qml:110
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "下載"
 
-#: src/qml/desktop/Desktop.qml:335
+#: src/qml/desktop/Desktop.qml:438
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
 msgstr "切換行動版模式"
 
-#: src/qml/desktop/Desktop.qml:345
+#: src/qml/desktop/Desktop.qml:448
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr "列印"
 
-#: src/qml/desktop/Desktop.qml:351
+#: src/qml/desktop/Desktop.qml:454
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr "全螢幕"
 
-#: src/qml/desktop/Desktop.qml:368
+#: src/qml/desktop/Desktop.qml:471
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "隱藏開發者工具"
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:396
+#: src/qml/desktop/Desktop.qml:472 src/qml/Mobile.qml:401
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "顯示開發者工具"
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:317
+#: src/qml/desktop/Desktop.qml:481 src/qml/Mobile.qml:322
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "在頁面中尋找內容"
 
-#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:379
+#: src/qml/desktop/Desktop.qml:490 src/qml/Mobile.qml:384
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "閱讀模式"
 
-#: src/qml/desktop/Desktop.qml:404
+#: src/qml/desktop/Desktop.qml:507
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "新增到應用程式啟動器"
 
-#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:120
+#: src/qml/desktop/Desktop.qml:528 src/qml/Mobile.qml:125
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "設定"
 
-#: src/qml/desktop/Desktop.qml:434
+#: src/qml/desktop/Desktop.qml:537
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Angelfish"
 msgstr "關於 Angelfish"
 
-#: src/qml/desktop/Desktop.qml:458
+#: src/qml/desktop/Desktop.qml:561
 #, kde-format
 msgctxt "@action:toolbutton"
 msgid "New Tab"
@@ -879,67 +879,67 @@ msgctxt "@title:window"
 msgid "Angelfish Web Browser"
 msgstr "Angelfish 網路瀏覽器"
 
-#: src/qml/Mobile.qml:113
+#: src/qml/Mobile.qml:118
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
 msgstr "切換桌面版模式"
 
-#: src/qml/Mobile.qml:332
+#: src/qml/Mobile.qml:337
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "新增至主螢幕"
 
-#: src/qml/Mobile.qml:344
+#: src/qml/Mobile.qml:349
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "在應用程式中開啟"
 
-#: src/qml/Mobile.qml:354
+#: src/qml/Mobile.qml:359
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "已加入書籤"
 
-#: src/qml/Mobile.qml:354
+#: src/qml/Mobile.qml:359
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "書籤"
 
-#: src/qml/Mobile.qml:370
+#: src/qml/Mobile.qml:375
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "顯示桌面版網站"
 
-#: src/qml/Mobile.qml:387
+#: src/qml/Mobile.qml:392
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "隱藏導覽列"
 
-#: src/qml/Mobile.qml:406
+#: src/qml/Mobile.qml:411
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr "返回"
 
-#: src/qml/Mobile.qml:414
+#: src/qml/Mobile.qml:419
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "往前"
 
-#: src/qml/Mobile.qml:421
+#: src/qml/Mobile.qml:426
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "停止載入"
 
-#: src/qml/Mobile.qml:421
+#: src/qml/Mobile.qml:426
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"

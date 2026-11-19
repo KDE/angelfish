@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-09 00:55+0000\n"
+"POT-Creation-Date: 2026-11-19 01:06+0000\n"
 "PO-Revision-Date: 2026-11-09 04:52+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -540,8 +540,8 @@ msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "\"%1\"-ის ძებნა"
 
-#: lib/contents/ui/WebView.qml:737 src/qml/desktop/Desktop.qml:394
-#: src/qml/Mobile.qml:321
+#: lib/contents/ui/WebView.qml:737 src/qml/desktop/Desktop.qml:497
+#: src/qml/Mobile.qml:326
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
@@ -633,110 +633,110 @@ msgctxt "@info:tooltip"
 msgid "Close"
 msgstr "დახურვა"
 
-#: src/qml/desktop/Desktop.qml:152
+#: src/qml/desktop/Desktop.qml:156
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "მოძებნეთ ან შეიყვანეთ URL…"
 
-#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:272
+#: src/qml/desktop/Desktop.qml:381 src/qml/desktop/DesktopTabs.qml:272
 #: src/qml/Navigation.qml:466
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "ახალი ჩანართი"
 
-#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:85
+#: src/qml/desktop/Desktop.qml:388 src/qml/Mobile.qml:90
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
 msgstr "გასვლა კონფიდენციალური რეჟიმიდან"
 
-#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:85
+#: src/qml/desktop/Desktop.qml:388 src/qml/Mobile.qml:90
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Private Mode"
 msgstr "კონფიდენციალური რეჟიმი"
 
-#: src/qml/desktop/Desktop.qml:294 src/qml/Mobile.qml:101
+#: src/qml/desktop/Desktop.qml:397 src/qml/Mobile.qml:106
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "History"
 msgstr "ისტორია"
 
-#: src/qml/desktop/Desktop.qml:307 src/qml/Mobile.qml:93
+#: src/qml/desktop/Desktop.qml:410 src/qml/Mobile.qml:98
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "სანიშნეები"
 
-#: src/qml/desktop/Desktop.qml:320 src/qml/Mobile.qml:105
+#: src/qml/desktop/Desktop.qml:423 src/qml/Mobile.qml:110
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "გადმოწერები"
 
-#: src/qml/desktop/Desktop.qml:335
+#: src/qml/desktop/Desktop.qml:438
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
 msgstr "მობილური რეჟიმის გადართვა"
 
-#: src/qml/desktop/Desktop.qml:345
+#: src/qml/desktop/Desktop.qml:448
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr "ბეჭდვა"
 
-#: src/qml/desktop/Desktop.qml:351
+#: src/qml/desktop/Desktop.qml:454
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr "სრულ ეკრანზე"
 
-#: src/qml/desktop/Desktop.qml:368
+#: src/qml/desktop/Desktop.qml:471
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "პროგრამირების ხელსაწყოების დამალვა"
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:396
+#: src/qml/desktop/Desktop.qml:472 src/qml/Mobile.qml:401
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "პროგრამირების ხელსაწყოების ჩვენება"
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:317
+#: src/qml/desktop/Desktop.qml:481 src/qml/Mobile.qml:322
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "გვერდში ძებნა"
 
-#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:379
+#: src/qml/desktop/Desktop.qml:490 src/qml/Mobile.qml:384
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "კითხვის რეჟიმი"
 
-#: src/qml/desktop/Desktop.qml:404
+#: src/qml/desktop/Desktop.qml:507
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "აპლიკაციების გამშვებში ჩამატება"
 
-#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:120
+#: src/qml/desktop/Desktop.qml:528 src/qml/Mobile.qml:125
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "მორგება"
 
-#: src/qml/desktop/Desktop.qml:434
+#: src/qml/desktop/Desktop.qml:537
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Angelfish"
 msgstr "Angelfish-ის შესახებ"
 
-#: src/qml/desktop/Desktop.qml:458
+#: src/qml/desktop/Desktop.qml:561
 #, kde-format
 msgctxt "@action:toolbutton"
 msgid "New Tab"
@@ -892,67 +892,67 @@ msgctxt "@title:window"
 msgid "Angelfish Web Browser"
 msgstr "ბრაუზერი Angelfish"
 
-#: src/qml/Mobile.qml:113
+#: src/qml/Mobile.qml:118
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
 msgstr "კომპიუტერის რეჟიმის გადართვა"
 
-#: src/qml/Mobile.qml:332
+#: src/qml/Mobile.qml:337
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "საწყის ეკრანზე დამატება"
 
-#: src/qml/Mobile.qml:344
+#: src/qml/Mobile.qml:349
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "აპში გახსნა"
 
-#: src/qml/Mobile.qml:354
+#: src/qml/Mobile.qml:359
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "ჩამატებულია სანიშნეებში"
 
-#: src/qml/Mobile.qml:354
+#: src/qml/Mobile.qml:359
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "სანიშნე"
 
-#: src/qml/Mobile.qml:370
+#: src/qml/Mobile.qml:375
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "საიტის კომპიუტერის ვერსიის ჩვენება"
 
-#: src/qml/Mobile.qml:387
+#: src/qml/Mobile.qml:392
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "ნავიგაციის პანელის დამალვა"
 
-#: src/qml/Mobile.qml:406
+#: src/qml/Mobile.qml:411
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr "უკან გადასვლა"
 
-#: src/qml/Mobile.qml:414
+#: src/qml/Mobile.qml:419
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "წინ გადასვლა"
 
-#: src/qml/Mobile.qml:421
+#: src/qml/Mobile.qml:426
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "ჩატვირთვის გაჩერება"
 
-#: src/qml/Mobile.qml:421
+#: src/qml/Mobile.qml:426
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"

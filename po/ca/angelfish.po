@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-09 00:55+0000\n"
+"POT-Creation-Date: 2026-11-19 01:06+0000\n"
 "PO-Revision-Date: 2026-11-09 11:57+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -546,8 +546,8 @@ msgctxt "@action:inmenu"
 msgid "Search for “%1”"
 msgstr "Cerca «%1»"
 
-#: lib/contents/ui/WebView.qml:737 src/qml/desktop/Desktop.qml:394
-#: src/qml/Mobile.qml:321
+#: lib/contents/ui/WebView.qml:737 src/qml/desktop/Desktop.qml:497
+#: src/qml/Mobile.qml:326
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Share Page"
@@ -641,110 +641,110 @@ msgctxt "@info:tooltip"
 msgid "Close"
 msgstr "Tanca"
 
-#: src/qml/desktop/Desktop.qml:152
+#: src/qml/desktop/Desktop.qml:156
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search or enter URL…"
 msgstr "Cerca o introduïu un URL…"
 
-#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:272
+#: src/qml/desktop/Desktop.qml:381 src/qml/desktop/DesktopTabs.qml:272
 #: src/qml/Navigation.qml:466
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "Pestanya nova"
 
-#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:85
+#: src/qml/desktop/Desktop.qml:388 src/qml/Mobile.qml:90
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Leave Private Mode"
 msgstr "Surt del mode privat"
 
-#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:85
+#: src/qml/desktop/Desktop.qml:388 src/qml/Mobile.qml:90
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Private Mode"
 msgstr "Mode privat"
 
-#: src/qml/desktop/Desktop.qml:294 src/qml/Mobile.qml:101
+#: src/qml/desktop/Desktop.qml:397 src/qml/Mobile.qml:106
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "History"
 msgstr "Historial"
 
-#: src/qml/desktop/Desktop.qml:307 src/qml/Mobile.qml:93
+#: src/qml/desktop/Desktop.qml:410 src/qml/Mobile.qml:98
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmarks"
 msgstr "Adreces d'interès"
 
-#: src/qml/desktop/Desktop.qml:320 src/qml/Mobile.qml:105
+#: src/qml/desktop/Desktop.qml:423 src/qml/Mobile.qml:110
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Downloads"
 msgstr "Baixades"
 
-#: src/qml/desktop/Desktop.qml:335
+#: src/qml/desktop/Desktop.qml:438
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Mobile Mode"
 msgstr "Commuta al mode mòbil"
 
-#: src/qml/desktop/Desktop.qml:345
+#: src/qml/desktop/Desktop.qml:448
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Print"
 msgstr "Imprimeix"
 
-#: src/qml/desktop/Desktop.qml:351
+#: src/qml/desktop/Desktop.qml:454
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Full Screen"
 msgstr "Pantalla completa"
 
-#: src/qml/desktop/Desktop.qml:368
+#: src/qml/desktop/Desktop.qml:471
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Developer Tools"
 msgstr "Oculta les eines de desenvolupament"
 
-#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:396
+#: src/qml/desktop/Desktop.qml:472 src/qml/Mobile.qml:401
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Developer Tools"
 msgstr "Mostra les eines del desenvolupador"
 
-#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:317
+#: src/qml/desktop/Desktop.qml:481 src/qml/Mobile.qml:322
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find in Page"
 msgstr "Cerca a la pàgina"
 
-#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:379
+#: src/qml/desktop/Desktop.qml:490 src/qml/Mobile.qml:384
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reader Mode"
 msgstr "Mode lector"
 
-#: src/qml/desktop/Desktop.qml:404
+#: src/qml/desktop/Desktop.qml:507
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Application Launcher"
 msgstr "Afegeix al llançador d'aplicacions"
 
-#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:120
+#: src/qml/desktop/Desktop.qml:528 src/qml/Mobile.qml:125
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "Configuració"
 
-#: src/qml/desktop/Desktop.qml:434
+#: src/qml/desktop/Desktop.qml:537
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Angelfish"
 msgstr "Quant a l'Angelfish"
 
-#: src/qml/desktop/Desktop.qml:458
+#: src/qml/desktop/Desktop.qml:561
 #, kde-format
 msgctxt "@action:toolbutton"
 msgid "New Tab"
@@ -900,67 +900,67 @@ msgctxt "@title:window"
 msgid "Angelfish Web Browser"
 msgstr "Navegador web Angelfish"
 
-#: src/qml/Mobile.qml:113
+#: src/qml/Mobile.qml:118
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Desktop Mode"
 msgstr "Commuta al mode escriptori"
 
-#: src/qml/Mobile.qml:332
+#: src/qml/Mobile.qml:337
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add to Homescreen"
 msgstr "Afegeix a la pantalla principal"
 
-#: src/qml/Mobile.qml:344
+#: src/qml/Mobile.qml:349
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open in App"
 msgstr "Obre a l'aplicació"
 
-#: src/qml/Mobile.qml:354
+#: src/qml/Mobile.qml:359
 #, kde-format
 msgctxt "@info:status"
 msgid "Bookmarked"
 msgstr "Afegida a les adreces d'interès"
 
-#: src/qml/Mobile.qml:354
+#: src/qml/Mobile.qml:359
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Bookmark"
 msgstr "Adreça d'interès"
 
-#: src/qml/Mobile.qml:370
+#: src/qml/Mobile.qml:375
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Desktop Site"
 msgstr "Mostra una pàgina de l'escriptori"
 
-#: src/qml/Mobile.qml:387
+#: src/qml/Mobile.qml:392
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Hide Navigation Bar"
 msgstr "Oculta la barra de navegació"
 
-#: src/qml/Mobile.qml:406
+#: src/qml/Mobile.qml:411
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Back"
 msgstr "Retrocedeix"
 
-#: src/qml/Mobile.qml:414
+#: src/qml/Mobile.qml:419
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Go Forward"
 msgstr "Avança"
 
-#: src/qml/Mobile.qml:421
+#: src/qml/Mobile.qml:426
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Loading"
 msgstr "Atura la càrrega"
 
-#: src/qml/Mobile.qml:421
+#: src/qml/Mobile.qml:426
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Refresh"
