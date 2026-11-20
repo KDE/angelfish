@@ -95,7 +95,7 @@ msgstr "Opakovať"
 #, kde-format
 msgctxt "@title"
 msgid "Connection Not Secure"
-msgstr ""
+msgstr "Pripojenie nie je zabezpečené"
 
 #: lib/contents/ui/ErrorHandler.qml:131
 #, kde-format
@@ -104,32 +104,34 @@ msgid ""
 "Someone could be trying to impersonate this website or intercept your "
 "connection. Only continue if you trust this network and website."
 msgstr ""
+"Niekto sa môže pokúšať vydávať za túto webovú stránku alebo zachytávať vaše "
+"pripojenie. Pokračujte, iba ak dôverujete tejto sieti a webovej stránke."
 
 #: lib/contents/ui/ErrorHandler.qml:132
 #, kde-format
 msgctxt "@info"
 msgid "This website requires a secure connection, so it cannot be opened."
 msgstr ""
+"Táto webová stránka vyžaduje zabezpečené pripojenie, preto ju nemožno "
+"otvoriť."
 
 #: lib/contents/ui/ErrorHandler.qml:149
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Go Back"
+#, kde-format
 msgctxt "@action:button"
 msgid "Go Back"
-msgstr "Prejsť späť"
+msgstr "Návrat"
 
 #: lib/contents/ui/ErrorHandler.qml:164
 #, kde-format
 msgctxt "@action:button"
 msgid "Continue Anyway (Unsafe)"
-msgstr ""
+msgstr "Pokračovať aj tak (nebezpečné)"
 
 #: lib/contents/ui/ErrorHandler.qml:177
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has expired or is not yet valid."
-msgstr ""
+msgstr "Platnosť certifikátu webovej stránky vypršala alebo ešte nezačala."
 
 #: lib/contents/ui/ErrorHandler.qml:179
 #, kde-format
@@ -138,24 +140,26 @@ msgid ""
 "The website's certificate could not be verified, because it was not issued "
 "by a trusted authority. It may be self-signed."
 msgstr ""
+"Certifikát webovej stránky sa nepodarilo overiť, pretože ho nevydala "
+"dôveryhodná autorita. Môže byť podpísaný sám sebou."
 
 #: lib/contents/ui/ErrorHandler.qml:181
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate belongs to a different website."
-msgstr ""
+msgstr "Certifikát webovej stránky patrí inej webovej stránke."
 
 #: lib/contents/ui/ErrorHandler.qml:183
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has been revoked."
-msgstr ""
+msgstr "Certifikát webovej stránky bol zrušený."
 
 #: lib/contents/ui/ErrorHandler.qml:186
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate uses weak security."
-msgstr ""
+msgstr "Certifikát webovej stránky používa slabé zabezpečenie."
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format

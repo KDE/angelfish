@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-19 01:06+0000\n"
-"PO-Revision-Date: 2026-10-12 09:19+0200\n"
+"PO-Revision-Date: 2026-11-11 15:58+0100\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 26.08.1\n"
+"X-Generator: Lokalize 26.08.3\n"
 
 #: angelfish-webapp/main.cpp:65
 #, kde-format
@@ -95,7 +95,7 @@ msgstr "Riprova"
 #, kde-format
 msgctxt "@title"
 msgid "Connection Not Secure"
-msgstr ""
+msgstr "Connessione non sicura"
 
 #: lib/contents/ui/ErrorHandler.qml:131
 #, kde-format
@@ -104,17 +104,20 @@ msgid ""
 "Someone could be trying to impersonate this website or intercept your "
 "connection. Only continue if you trust this network and website."
 msgstr ""
+"Qualcuno potrebbe cercare di spacciarsi per questo sito web, oppure di "
+"intercettare la connessione. Procedi solo se ti fidi di questa rete e di "
+"questo sito web."
 
 #: lib/contents/ui/ErrorHandler.qml:132
 #, kde-format
 msgctxt "@info"
 msgid "This website requires a secure connection, so it cannot be opened."
 msgstr ""
+"Questo sito web richiede una connessione sicura, quindi non può essere "
+"aperto."
 
 #: lib/contents/ui/ErrorHandler.qml:149
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Go Back"
+#, kde-format
 msgctxt "@action:button"
 msgid "Go Back"
 msgstr "Vai indietro"
@@ -123,13 +126,13 @@ msgstr "Vai indietro"
 #, kde-format
 msgctxt "@action:button"
 msgid "Continue Anyway (Unsafe)"
-msgstr ""
+msgstr "Continua lo stesso (non sicuro)"
 
 #: lib/contents/ui/ErrorHandler.qml:177
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has expired or is not yet valid."
-msgstr ""
+msgstr "Il certificato del sito web è scaduto, o non è più valido."
 
 #: lib/contents/ui/ErrorHandler.qml:179
 #, kde-format
@@ -138,24 +141,27 @@ msgid ""
 "The website's certificate could not be verified, because it was not issued "
 "by a trusted authority. It may be self-signed."
 msgstr ""
+"Il certificato del sito web non può essere verificato perché non è stato "
+"rilasciato da un'autorità fidata. Potrebbe essere auto firmato."
 
 #: lib/contents/ui/ErrorHandler.qml:181
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate belongs to a different website."
-msgstr ""
+msgstr "Il certificato del sito web appartiene a un altro sito web."
 
 #: lib/contents/ui/ErrorHandler.qml:183
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has been revoked."
-msgstr ""
+msgstr "Il certificato del sito web è stato revocato."
 
 #: lib/contents/ui/ErrorHandler.qml:186
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate uses weak security."
 msgstr ""
+"Il certificato del sito web presenta un livello di sicurezza insufficiente."
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format

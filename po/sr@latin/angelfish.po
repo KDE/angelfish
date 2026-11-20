@@ -1,0 +1,1280 @@
+# Nemanja Hiršl <nemhirsl@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-angelfish\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-11-19 01:06+0000\n"
+"PO-Revision-Date: 2026-11-19 17:02+0100\n"
+"Last-Translator: Nemanja Hiršl <nemhirsl@gmail.com>\n"
+"Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
+"Language: sr@latin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Environment: kde\n"
+
+#: angelfish-webapp/main.cpp:65
+#, kde-format
+msgid "desktop file to open"
+msgstr ".Desktop fajl za otvaranje"
+
+#: angelfish-webapp/main.cpp:90
+#, kde-format
+msgid "Angelfish Web App runtime"
+msgstr "Izvršno okruženje veb programa Angelfish"
+
+#: angelfish-webapp/main.cpp:92
+#, kde-format
+msgid "Copyright 2020 Angelfish developers"
+msgstr "© 2020, programeri programa Angelfish"
+
+#: angelfish-webapp/main.cpp:94
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marko Martin"
+
+#: lib/angelfishwebprofile.cpp:47
+#, kde-format
+msgid "Open"
+msgstr "Otvori"
+
+#: lib/contents/ui/AuthSheet.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Authentication Required"
+msgstr "Neophodna autentifikacija"
+
+#: lib/contents/ui/AuthSheet.qml:29
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Username:"
+msgstr "Korisničko ime:"
+
+#: lib/contents/ui/AuthSheet.qml:35
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Password:"
+msgstr "Lozinka:"
+
+#: lib/contents/ui/DownloadQuestion.qml:16
+#, kde-format
+msgctxt "Would you like to download (filename) from (domain)?"
+msgid "Would you like to download %1 from %2?"
+msgstr "Želite li da preuzmete %1 sa %2?"
+
+#: lib/contents/ui/DownloadQuestion.qml:25
+#: src/qml/AdblockFilterDownloadQuestion.qml:32
+#, kde-format
+msgctxt "@action:button"
+msgid "Download"
+msgstr "Preuzmi"
+
+#: lib/contents/ui/DownloadQuestion.qml:33 lib/contents/ui/ErrorHandler.qml:150
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Odustani"
+
+#: lib/contents/ui/ErrorHandler.qml:51
+#, kde-format
+msgctxt "@title"
+msgid "Error Loading the Page"
+msgstr "Greška pri učitavanju stranice"
+
+#: lib/contents/ui/ErrorHandler.qml:64
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Retry"
+msgstr "Pokušaj ponovo"
+
+#: lib/contents/ui/ErrorHandler.qml:111
+#, kde-format
+msgctxt "@title"
+msgid "Connection Not Secure"
+msgstr "Veza nije bezbedna"
+
+#: lib/contents/ui/ErrorHandler.qml:131
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Someone could be trying to impersonate this website or intercept your "
+"connection. Only continue if you trust this network and website."
+msgstr ""
+"Neko možda pokušava da se lažno predstavi kao ovaj sajt ili da presretne "
+"vašu vezu. Nastavite samo ako verujete ovoj mreži i ovom sajtu."
+
+#: lib/contents/ui/ErrorHandler.qml:132
+#, kde-format
+msgctxt "@info"
+msgid "This website requires a secure connection, so it cannot be opened."
+msgstr "Ovaj sajt zahteva bezbednu vezu, pa ne može da se otvori."
+
+#: lib/contents/ui/ErrorHandler.qml:149
+#, kde-format
+msgctxt "@action:button"
+msgid "Go Back"
+msgstr "Idi nazad"
+
+#: lib/contents/ui/ErrorHandler.qml:164
+#, kde-format
+msgctxt "@action:button"
+msgid "Continue Anyway (Unsafe)"
+msgstr "Ipak nastavi (nebezbedno)"
+
+#: lib/contents/ui/ErrorHandler.qml:177
+#, kde-format
+msgctxt "@info"
+msgid "The website's certificate has expired or is not yet valid."
+msgstr "Sertifikat sajta je istekao ili još ne važi."
+
+#: lib/contents/ui/ErrorHandler.qml:179
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The website's certificate could not be verified, because it was not issued "
+"by a trusted authority. It may be self-signed."
+msgstr ""
+"Sertifikat sajta ne može da se overi, jer ga nije izdao pouzdan izdavalac. "
+"Možda je samopotpisan."
+
+#: lib/contents/ui/ErrorHandler.qml:181
+#, kde-format
+msgctxt "@info"
+msgid "The website's certificate belongs to a different website."
+msgstr "Sertifikat sajta pripada drugom sajtu."
+
+#: lib/contents/ui/ErrorHandler.qml:183
+#, kde-format
+msgctxt "@info"
+msgid "The website's certificate has been revoked."
+msgstr "Sertifikat sajta je opozvan."
+
+#: lib/contents/ui/ErrorHandler.qml:186
+#, kde-format
+msgctxt "@info"
+msgid "The website's certificate uses weak security."
+msgstr "Sertifikat sajta koristi slabu bezbednost."
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:49
+#, kde-format
+msgctxt "@title:window"
+msgid "This Page Says"
+msgstr "Ova stranica kaže"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:64
+#, kde-format
+msgid ""
+"The website asks for confirmation that you want to leave. Unsaved "
+"information might not be saved."
+msgstr ""
+"Sajt traži potvrdu da želite da odete. Nesačuvani podaci možda neće biti "
+"sačuvani."
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:79
+#, kde-format
+msgctxt "@action:button"
+msgid "Leave Page"
+msgstr "Napusti stranicu"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:87
+#, kde-format
+msgctxt "@action:button"
+msgid "Submit"
+msgstr "Predaj"
+
+#: lib/contents/ui/ListWebView.qml:43
+#, kde-format
+msgid "Download finished"
+msgstr "Preuzimanje završeno"
+
+#: lib/contents/ui/ListWebView.qml:46
+#, kde-format
+msgid "Download failed"
+msgstr "Preuzimanje propalo"
+
+#: lib/contents/ui/ListWebView.qml:80 lib/contents/ui/ListWebView.qml:83
+#, kde-format
+msgctxt "@title:webview"
+msgid "Loading"
+msgstr "Učitavam"
+
+#: lib/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"Site wants to open a new tab:\n"
+"%1"
+msgstr ""
+"Sajt želi da otvori novi jezičak:\n"
+"%1"
+
+#: lib/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "Otvori"
+
+#: lib/contents/ui/PermissionQuestion.qml:22
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>microphone</b>?"
+msgstr "Želite li da dozvolite sajtu <b>%1</b> pristup <b>mikrofonu</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:24
+#, kde-format
+msgid "Do you want to allow the website <b>%1</b> to access the <b>camera</b>?"
+msgstr "Želite li da dozvolite sajtu <b>%1</b> pristup <b>kameri</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:26
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>camera and the "
+"microphone</b>?"
+msgstr ""
+"Želite li da dozvolite sajtu <b>%1</b> pristup <b>kameri i mikrofonu</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:28
+#, kde-format
+msgid "Do you want to allow the website <b>%1</b> to share your <b>screen</b>?"
+msgstr "Želite li da dozvolite sajtu <b>%1</b> da deli vaš <b>ekran</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:30
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to share the sound <b>output</b>?"
+msgstr "Želite li da dozvolite sajtu <b>%1</b> da deli <b>izlaz</b> zvuka?"
+
+#: lib/contents/ui/PermissionQuestion.qml:32
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to send you <b>notifications</b>?"
+msgstr ""
+"Želite li da dozvolite sajtu <b>%1</b> da vam šalje <b>obaveštenja</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:34
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>geo location</b>?"
+msgstr ""
+"Želite li da dozvolite sajtu <b>%1</b> pristup <b>geografskom položaju</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:36
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>clipboard</b>?"
+msgstr "Želite li da dozvolite sajtu <b>%1</b> pristup <b>klipbordu</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:38
+#, kde-format
+msgid "Do you want to allow the website <b>%1</b> to access your <b>fonts</b>?"
+msgstr "Želite li da dozvolite sajtu <b>%1</b> pristup vašim <b>fontovima</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:40
+#, kde-format
+msgctxt ""
+"The website (website) requested an unknown permission: Do you want to allow "
+"the website (website) to access your fonts?"
+msgid "The website %1 requested an unknown permission: %2"
+msgstr "Sajt %1 je zatražio nepoznatu dozvolu: %2"
+
+#: lib/contents/ui/PermissionQuestion.qml:48
+#, kde-format
+msgctxt "@action:button"
+msgid "Accept"
+msgstr "Prihvati"
+
+#: lib/contents/ui/PermissionQuestion.qml:58
+#, kde-format
+msgctxt "@action:button"
+msgid "Decline"
+msgstr "Odbij"
+
+#: lib/contents/ui/PrintPreview.qml:36
+#, kde-format
+msgctxt "@title:window"
+msgid "Print"
+msgstr "Štampanje"
+
+#: lib/contents/ui/PrintPreview.qml:88
+#, kde-format
+msgctxt "@title:group"
+msgid "Destination"
+msgstr "Odredište"
+
+#: lib/contents/ui/PrintPreview.qml:92
+#, kde-format
+msgctxt "@title:group"
+msgid "Save to PDF"
+msgstr "Sačuvaj kao PDF"
+
+#: lib/contents/ui/PrintPreview.qml:101
+#, kde-format
+msgctxt "@title:group"
+msgid "Orientation"
+msgstr "Usmerenje"
+
+#: lib/contents/ui/PrintPreview.qml:126
+#, kde-format
+msgctxt "@label:combobox"
+msgid "Paper Size"
+msgstr "Veličina papira"
+
+#: lib/contents/ui/PrintPreview.qml:169
+#, kde-format
+msgctxt "@title:group"
+msgid "Options"
+msgstr "Opcije"
+
+#: lib/contents/ui/PrintPreview.qml:173
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Print backgrounds"
+msgstr "Štampaj pozadine"
+
+#: lib/contents/ui/WebView.qml:363
+#, kde-format
+msgctxt "@info:status"
+msgid "Website was opened in a new tab"
+msgstr "Sajt je otvoren u novom jezičku"
+
+#: lib/contents/ui/WebView.qml:381
+#, kde-format
+msgctxt "@info:status"
+msgid "Entered Full Screen mode"
+msgstr "Uključen režim celog ekrana"
+
+#: lib/contents/ui/WebView.qml:382
+#, kde-format
+msgctxt "@action:button"
+msgid "Exit Full Screen (Esc)"
+msgstr "Napusti ceo ekran (Esc)"
+
+#: lib/contents/ui/WebView.qml:541
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Play"
+msgstr "Pusti"
+
+#: lib/contents/ui/WebView.qml:542
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Pause"
+msgstr "Pauziraj"
+
+#: lib/contents/ui/WebView.qml:549
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Unmute"
+msgstr "Vrati zvuk"
+
+#: lib/contents/ui/WebView.qml:550
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Mute"
+msgstr "Utišaj"
+
+#: lib/contents/ui/WebView.qml:560
+#, kde-format
+msgctxt "@label"
+msgid "Speed"
+msgstr "Brzina"
+
+#: lib/contents/ui/WebView.qml:583
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Loop"
+msgstr "Ponavljaj"
+
+#: lib/contents/ui/WebView.qml:590
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Exit Fullscreen"
+msgstr "Napusti ceo ekran"
+
+#: lib/contents/ui/WebView.qml:590
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Enter Fullscreen"
+msgstr "Preko celog ekrana"
+
+#: lib/contents/ui/WebView.qml:603
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Controls"
+msgstr "Sakrij kontrole"
+
+#: lib/contents/ui/WebView.qml:604
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Controls"
+msgstr "Prikaži kontrole"
+
+#: lib/contents/ui/WebView.qml:612
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Video"
+msgstr "Otvori video"
+
+#: lib/contents/ui/WebView.qml:612
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Audio"
+msgstr "Otvori audio"
+
+#: lib/contents/ui/WebView.qml:613
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Video in New Tab"
+msgstr "Otvori video u novom jezičku"
+
+#: lib/contents/ui/WebView.qml:613
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Audio in New Tab"
+msgstr "Otvori audio u novom jezičku"
+
+#: lib/contents/ui/WebView.qml:625
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Save Video"
+msgstr "Sačuvaj video"
+
+#: lib/contents/ui/WebView.qml:631
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Video Link"
+msgstr "Kopiraj vezu videa"
+
+#: lib/contents/ui/WebView.qml:637
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Image"
+msgstr "Otvori sliku"
+
+#: lib/contents/ui/WebView.qml:637
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Image in New Tab"
+msgstr "Otvori sliku u novom jezičku"
+
+#: lib/contents/ui/WebView.qml:649
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Save Image"
+msgstr "Sačuvaj sliku"
+
+#: lib/contents/ui/WebView.qml:655
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Image"
+msgstr "Kopiraj sliku"
+
+#: lib/contents/ui/WebView.qml:661
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Image Link"
+msgstr "Kopiraj vezu slike"
+
+#: lib/contents/ui/WebView.qml:667
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Link"
+msgstr "Otvori vezu"
+
+#: lib/contents/ui/WebView.qml:667
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Link in New Tab"
+msgstr "Otvori vezu u novom jezičku"
+
+#: lib/contents/ui/WebView.qml:679
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmark Link"
+msgstr "Obeleži vezu"
+
+#: lib/contents/ui/WebView.qml:691
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Save Link"
+msgstr "Sačuvaj vezu"
+
+#: lib/contents/ui/WebView.qml:697
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Link"
+msgstr "Kopiraj vezu"
+
+#: lib/contents/ui/WebView.qml:704
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "Kopiraj"
+
+#: lib/contents/ui/WebView.qml:710
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Cut"
+msgstr "Iseci"
+
+#: lib/contents/ui/WebView.qml:716
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Paste"
+msgstr "Nalepi"
+
+#: lib/contents/ui/WebView.qml:724
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Search for “%1”"
+msgstr "Traži „%1“"
+
+#: lib/contents/ui/WebView.qml:737 src/qml/desktop/Desktop.qml:497
+#: src/qml/Mobile.qml:326
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Share Page"
+msgstr "Podeli stranicu"
+
+#: lib/contents/ui/WebView.qml:749
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "View Page Source"
+msgstr "Prikaži izvor stranice"
+
+#: src/main.cpp:70
+#, kde-format
+msgid "Jonah Brüchert"
+msgstr "Jonah Brüchert"
+
+#: src/main.cpp:70
+#, kde-format
+msgid "Maintainer"
+msgstr "Održavalac"
+
+#: src/main.cpp:71
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nemanja Hiršl"
+
+#: src/main.cpp:71
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nemhirsl@gmail.com"
+
+#: src/main.cpp:75
+#, kde-format
+msgid "A browser engine based on Chromium for embeding web content."
+msgstr "Motor pregledača zasnovan na Chromiumu za ugnežđivanje veb sadržaja."
+
+#: src/main.cpp:77
+#, kde-format
+msgctxt "<version number> (built against <possibly different version number>)"
+msgid "%1 (built against %2)"
+msgstr "%1 (izgrađeno prema %2)"
+
+#: src/main.cpp:83
+#, kde-format
+msgid "Web browser project developed by Google."
+msgstr "Projekat veb pregledača koji razvija Google."
+
+#: src/main.cpp:92
+#, kde-format
+msgid "URL to open"
+msgstr "URL za otvaranje"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:15
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The adblocker is missing its filter lists, do you want to download them now?"
+msgstr "AdBlock nema svoje spiskove filtera. Želite li da ih sada preuzmete?"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:37
+#, kde-format
+msgctxt "@info"
+msgid "Downloading…"
+msgstr "Preuzimam…"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:43
+#, kde-format
+msgctxt "@action:button"
+msgid "Disable Adblock"
+msgstr "Isključi AdBlock"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:49
+#, kde-format
+msgctxt "@info"
+msgid "Adblock Disabled…"
+msgstr "AdBlock isključen…"
+
+#: src/qml/Bookmarks.qml:14
+#, kde-format
+msgctxt "@title:window"
+msgid "Bookmarks"
+msgstr "Obeleživači"
+
+#: src/qml/Bookmarks.qml:24 src/qml/Downloads.qml:34 src/qml/History.qml:31
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close"
+msgstr "Zatvori"
+
+#: src/qml/desktop/Desktop.qml:156
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search or enter URL…"
+msgstr "Tražite ili unesite URL…"
+
+#: src/qml/desktop/Desktop.qml:381 src/qml/desktop/DesktopTabs.qml:272
+#: src/qml/Navigation.qml:466
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "New Tab"
+msgstr "Novi jezičak"
+
+#: src/qml/desktop/Desktop.qml:388 src/qml/Mobile.qml:90
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Leave Private Mode"
+msgstr "Napusti privatni režim"
+
+#: src/qml/desktop/Desktop.qml:388 src/qml/Mobile.qml:90
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Private Mode"
+msgstr "Privatni režim"
+
+#: src/qml/desktop/Desktop.qml:397 src/qml/Mobile.qml:106
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "History"
+msgstr "Istorijat"
+
+#: src/qml/desktop/Desktop.qml:410 src/qml/Mobile.qml:98
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmarks"
+msgstr "Obeleživači"
+
+#: src/qml/desktop/Desktop.qml:423 src/qml/Mobile.qml:110
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Downloads"
+msgstr "Preuzimanja"
+
+#: src/qml/desktop/Desktop.qml:438
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Toggle Mobile Mode"
+msgstr "Uključi/isključi mobilni režim"
+
+#: src/qml/desktop/Desktop.qml:448
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Print"
+msgstr "Štampaj"
+
+#: src/qml/desktop/Desktop.qml:454
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Full Screen"
+msgstr "Ceo ekran"
+
+#: src/qml/desktop/Desktop.qml:471
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Developer Tools"
+msgstr "Sakrij programerske alatke"
+
+#: src/qml/desktop/Desktop.qml:472 src/qml/Mobile.qml:401
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Developer Tools"
+msgstr "Prikaži programerske alatke"
+
+#: src/qml/desktop/Desktop.qml:481 src/qml/Mobile.qml:322
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Find in Page"
+msgstr "Nađi na stranici"
+
+#: src/qml/desktop/Desktop.qml:490 src/qml/Mobile.qml:384
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reader Mode"
+msgstr "Režim čitača"
+
+#: src/qml/desktop/Desktop.qml:507
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Add to Application Launcher"
+msgstr "Dodaj u pokretač programa"
+
+#: src/qml/desktop/Desktop.qml:528 src/qml/Mobile.qml:125
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Settings"
+msgstr "Postavke"
+
+#: src/qml/desktop/Desktop.qml:537
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About Angelfish"
+msgstr "O programu Angelfish"
+
+#: src/qml/desktop/Desktop.qml:561
+#, kde-format
+msgctxt "@action:toolbutton"
+msgid "New Tab"
+msgstr "Novi jezičak"
+
+#: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:246
+#, kde-format
+msgctxt "@label"
+msgid "Reader mode: %1"
+msgstr "Režim čitača: %1"
+
+#: src/qml/desktop/DesktopTabDelegate.qml:118 src/qml/Tabs.qml:262
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close tab"
+msgstr "Zatvori jezičak"
+
+#: src/qml/desktop/DesktopTabs.qml:202
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Open a new tab"
+msgstr "Otvori novi jezičak"
+
+#: src/qml/desktop/DesktopTabs.qml:235
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "List all tabs"
+msgstr "Nabroj sve jezičke"
+
+#: src/qml/desktop/DesktopTabs.qml:281
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reload Tab"
+msgstr "Ponovo učitaj jezičak"
+
+#: src/qml/desktop/DesktopTabs.qml:289
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Duplicate Tab"
+msgstr "Dupliraj jezičak"
+
+#: src/qml/desktop/DesktopTabs.qml:298
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove Bookmark"
+msgstr "Ukloni obeleživač"
+
+#: src/qml/desktop/DesktopTabs.qml:299
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmark Tab"
+msgstr "Obeleži jezičak"
+
+#: src/qml/desktop/DesktopTabs.qml:319
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Close Tab"
+msgstr "Zatvori jezičak"
+
+#: src/qml/desktop/DesktopTabs.qml:325
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reopen Closed Tab"
+msgstr "Ponovo otvori zatvoreni jezičak"
+
+#: src/qml/Downloads.qml:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Downloads"
+msgstr "Preuzimanja"
+
+#: src/qml/Downloads.qml:27
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear finished downloads"
+msgstr "Očisti završena preuzimanja"
+
+#: src/qml/Downloads.qml:47
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No running downloads"
+msgstr "Nema preuzimanja u toku"
+
+#: src/qml/Downloads.qml:96
+#, kde-format
+msgctxt "@info:progress"
+msgid "Starting…"
+msgstr "Počinjem…"
+
+#: src/qml/Downloads.qml:98
+#, kde-format
+msgctxt "@info:progress"
+msgid "Completed"
+msgstr "Završeno"
+
+#: src/qml/Downloads.qml:100
+#, kde-format
+msgctxt "@info:progress"
+msgid "Cancelled"
+msgstr "Otkazano"
+
+#: src/qml/Downloads.qml:102
+#, kde-format
+msgctxt "@info:progress"
+msgid "Interrupted"
+msgstr "Prekinuto"
+
+#: src/qml/Downloads.qml:104
+#, kde-format
+msgctxt "@info:progress"
+msgid "In progress…"
+msgstr "U toku…"
+
+#: src/qml/Downloads.qml:111
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cancel"
+msgstr "Odustani"
+
+#: src/qml/Downloads.qml:124
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Pause"
+msgstr "Pauziraj"
+
+#: src/qml/Downloads.qml:136
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Continue"
+msgstr "Nastavi"
+
+#: src/qml/FindInPageBar.qml:45
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Traži…"
+
+#: src/qml/History.qml:14
+#, kde-format
+msgctxt "@title:window"
+msgid "History"
+msgstr "Istorijat"
+
+#: src/qml/History.qml:24
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear all history"
+msgstr "Očisti ceo istorijat"
+
+#: src/qml/Mobile.qml:22
+#, kde-format
+msgctxt "@title:window"
+msgid "Angelfish Web Browser"
+msgstr "Veb pregledač Angelfish"
+
+#: src/qml/Mobile.qml:118
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Toggle Desktop Mode"
+msgstr "Uključi/isključi režim površi"
+
+#: src/qml/Mobile.qml:337
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Add to Homescreen"
+msgstr "Dodaj na domaći ekran"
+
+#: src/qml/Mobile.qml:349
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open in App"
+msgstr "Otvori u programu"
+
+#: src/qml/Mobile.qml:359
+#, kde-format
+msgctxt "@info:status"
+msgid "Bookmarked"
+msgstr "Obeleženo"
+
+#: src/qml/Mobile.qml:359
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmark"
+msgstr "Obeleži"
+
+#: src/qml/Mobile.qml:375
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Desktop Site"
+msgstr "Prikaži sajt za površ"
+
+#: src/qml/Mobile.qml:392
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Navigation Bar"
+msgstr "Sakrij traku za navigaciju"
+
+#: src/qml/Mobile.qml:411
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Go Back"
+msgstr "Idi nazad"
+
+#: src/qml/Mobile.qml:419
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Go Forward"
+msgstr "Idi napred"
+
+#: src/qml/Mobile.qml:426
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Stop Loading"
+msgstr "Zaustavi učitavanje"
+
+#: src/qml/Mobile.qml:426
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Refresh"
+msgstr "Osveži"
+
+#: src/qml/Navigation.qml:439
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Done"
+msgstr "Gotovo"
+
+#: src/qml/Navigation.qml:452
+#, kde-format
+msgctxt "@info:status"
+msgid "%1 tabs"
+msgstr "Jezičaka: %1"
+
+#: src/qml/ShareSheet.qml:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Share Page"
+msgstr "Deljenje stranice"
+
+#: src/qml/WebAppNameDialog.qml:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Add to Application Launcher"
+msgstr "Dodavanje u pokretač programa"
+
+#: src/qml/WebAppNameDialog.qml:32
+#, kde-format
+msgctxt "@info"
+msgid "Enter a name for the web application:"
+msgstr "Unesite ime veb programa:"
+
+#: src/qml/WebAppNameDialog.qml:39
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Application name"
+msgstr "Ime programa"
+
+#: src/settings/AngelfishConfigurationView.qml:14
+#: src/settings/SettingsGeneral.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "General"
+msgstr "Opšte"
+
+#: src/settings/AngelfishConfigurationView.qml:20
+#, kde-format
+msgctxt "@title:window"
+msgid "Adblock"
+msgstr "AdBlock"
+
+#: src/settings/AngelfishConfigurationView.qml:26
+#: src/settings/SettingsWebApps.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Web Apps"
+msgstr "Veb programi"
+
+#: src/settings/AngelfishConfigurationView.qml:32
+#: src/settings/SettingsSearchEnginePage.qml:118
+#, kde-format
+msgctxt "@title:window"
+msgid "Search Engines"
+msgstr "Pretraživači"
+
+#: src/settings/AngelfishConfigurationView.qml:38
+#: src/settings/DesktopHomeSettingsPage.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Toolbars"
+msgstr "Trake alatki"
+
+#: src/settings/AngelfishConfigurationView.qml:44
+#, kde-format
+msgid "About Angelfish"
+msgstr "O programu Angelfish"
+
+#: src/settings/AngelfishConfigurationView.qml:47
+#, kde-format
+msgctxt "@title:group"
+msgid "About"
+msgstr "O programu"
+
+#: src/settings/DesktopHomeSettingsPage.qml:25
+#, kde-format
+msgctxt "@label"
+msgid "Show home button:"
+msgstr "Prikaži dugme domaće stranice:"
+
+#: src/settings/DesktopHomeSettingsPage.qml:26
+#, kde-format
+msgid "The home button will be shown next to the reload button in the toolbar."
+msgstr ""
+"Dugme domaće stranice biće prikazano pored dugmeta za ponovno učitavanje na "
+"traci alatki."
+
+#: src/settings/DesktopHomeSettingsPage.qml:36
+#, kde-format
+msgctxt "@label"
+msgid "Homepage:"
+msgstr "Domaća stranica:"
+
+#: src/settings/DesktopHomeSettingsPage.qml:59
+#, kde-format
+msgctxt "@label"
+msgid "New tabs:"
+msgstr "Novi jezičci:"
+
+#: src/settings/DesktopHomeSettingsPage.qml:82
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Always show the tab bar"
+msgstr "Uvek prikaži traku jezičaka"
+
+#: src/settings/DesktopHomeSettingsPage.qml:83
+#, kde-format
+msgid "The tab bar will be displayed even if there is only one tab open."
+msgstr "Traka jezičaka biće prikazana čak i kad je otvoren samo jedan jezičak."
+
+#: src/settings/SettingsAdblock.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Adblock Settings"
+msgstr "Postavke AdBlocka"
+
+#: src/settings/SettingsAdblock.qml:23
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add filter list"
+msgstr "Dodaj spisak filtera"
+
+#: src/settings/SettingsAdblock.qml:27
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Update Lists"
+msgstr "Ažuriraj spiskove"
+
+#: src/settings/SettingsAdblock.qml:49
+#, kde-format
+msgid "The adblock functionality isn't included in this build."
+msgstr "Mogućnost AdBlocka nije uključena u ovo izdanje."
+
+#: src/settings/SettingsAdblock.qml:101
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove this filter list"
+msgstr "Ukloni ovaj spisak filtera"
+
+#: src/settings/SettingsAdblock.qml:113
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Filter List"
+msgstr "Dodaj spisak filtera"
+
+#: src/settings/SettingsAdblock.qml:125
+#, kde-format
+msgctxt "@title:group"
+msgid "Add Filter List"
+msgstr "Dodavanje spiska filtera"
+
+#: src/settings/SettingsAdblock.qml:130
+#, kde-format
+msgctxt "@label"
+msgid "Name"
+msgstr "Ime"
+
+#: src/settings/SettingsAdblock.qml:139
+#, kde-format
+msgctxt "@label"
+msgid "URL"
+msgstr "URL"
+
+#: src/settings/SettingsGeneral.qml:28
+#, kde-format
+msgid "Enable JavaScript"
+msgstr "Uključi JavaScript"
+
+#: src/settings/SettingsGeneral.qml:29
+#, kde-format
+msgid "This may be required on certain websites for them to work."
+msgstr "Ovo može biti potrebno da bi neki sajtovi radili."
+
+#: src/settings/SettingsGeneral.qml:38
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Load images"
+msgstr "Učitavaj slike"
+
+#: src/settings/SettingsGeneral.qml:39
+#, kde-format
+msgid "Whether to load images on websites."
+msgstr "Da li učitavati slike na sajtovima."
+
+#: src/settings/SettingsGeneral.qml:48
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Enable adblock"
+msgstr "Uključi AdBlock"
+
+#: src/settings/SettingsGeneral.qml:49
+#, kde-format
+msgid "Attempts to prevent advertisements on websites from showing."
+msgstr "Pokušava da spreči prikazivanje reklama na sajtovima."
+
+#: src/settings/SettingsGeneral.qml:49
+#, kde-format
+msgid "Adblock functionality was not included in this build."
+msgstr "Mogućnost AdBlocka nije uključena u ovo izdanje."
+
+#: src/settings/SettingsGeneral.qml:59
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Switch to new tab immediately"
+msgstr "Odmah pređi na novi jezičak"
+
+#: src/settings/SettingsGeneral.qml:60
+#, kde-format
+msgid ""
+"When you open a link, image or media in a new tab, switch to it immediately."
+msgstr ""
+"Kad otvorite vezu, sliku ili medij u novom jezičku, odmah se prelazi na "
+"njega."
+
+#: src/settings/SettingsGeneral.qml:69
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Use smooth scrolling"
+msgstr "Koristi glatko klizanje"
+
+#: src/settings/SettingsGeneral.qml:70
+#, kde-format
+msgid ""
+"Scrolling is smoother and will not stop suddenly when you stop scrolling. "
+"Requires app restart to take effect."
+msgstr ""
+"Klizanje je glađe i ne zaustavlja se naglo kad prestanete da klizate. "
+"Potrebno je ponovo pokrenuti program da bi stupilo na snagu."
+
+#: src/settings/SettingsGeneral.qml:79
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Use dark color scheme"
+msgstr "Koristi tamnu šemu boja"
+
+#: src/settings/SettingsGeneral.qml:80
+#, kde-format
+msgid ""
+"Websites will have their color schemes set to dark. Requires app restart to "
+"take effect."
+msgstr ""
+"Sajtovi će imati tamnu šemu boja. Potrebno je ponovo pokrenuti program da bi "
+"stupilo na snagu."
+
+#: src/settings/SettingsNavigationBarPage.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Navigation Bar"
+msgstr "Traka za navigaciju"
+
+#: src/settings/SettingsNavigationBarPage.qml:27
+#, kde-format
+msgid ""
+"Choose the buttons enabled in the navigation bar. Some of the buttons can be "
+"hidden only in portrait orientation of the browser and are always shown if "
+"the browser is wider than its height."
+msgstr ""
+"Izaberite dugmad uključenu u traci za navigaciju. Neka dugmad mogu da se "
+"sakriju samo u portretnom usmerenju pregledača i uvek se prikazuju ako je "
+"pregledač širi nego što je visok."
+
+#: src/settings/SettingsNavigationBarPage.qml:36
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Main menu in portrait"
+msgstr "Glavni meni u portretnom usmerenju"
+
+#: src/settings/SettingsNavigationBarPage.qml:42
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Tabs in portrait"
+msgstr "Jezičci u portretnom usmerenju"
+
+#: src/settings/SettingsNavigationBarPage.qml:48
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Go back"
+msgstr "Idi nazad"
+
+#: src/settings/SettingsNavigationBarPage.qml:54
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Go forward"
+msgstr "Idi napred"
+
+#: src/settings/SettingsNavigationBarPage.qml:60
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Reload/Stop"
+msgstr "Ponovo učitaj/zaustavi"
+
+#: src/settings/SettingsSearchEnginePage.qml:18
+#, kde-format
+msgctxt "@window:title"
+msgid "Search Engines"
+msgstr "Pretraživači"
+
+#: src/settings/SettingsSearchEnginePage.qml:21
+#, kde-format
+msgctxt "@label"
+msgid "Custom"
+msgstr "Poseban"
+
+#: src/settings/SettingsSearchEnginePage.qml:123
+#, kde-format
+msgctxt "@label"
+msgid "Base URL of your preferred search engine"
+msgstr "Osnovni URL željenog pretraživača"
+
+#: src/settings/SettingsWebApps.qml:73
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove app"
+msgstr "Ukloni program"
+
+#: src/settings/SettingsWebApps.qml:85
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No web apps installed"
+msgstr "Nema instaliranih veb programa"
