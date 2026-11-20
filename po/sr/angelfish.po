@@ -1,0 +1,1210 @@
+# Nemanja Hiršl <nemhirsl@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-angelfish\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-11-11 03:11+0000\n"
+"PO-Revision-Date: 2026-11-19 17:02+0100\n"
+"Last-Translator: Nemanja Hiršl <nemhirsl@gmail.com>\n"
+"Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Environment: kde\n"
+
+#: angelfish-webapp/main.cpp:65
+#, kde-format
+msgid "desktop file to open"
+msgstr ".Десктоп фајл за отварање"
+
+#: angelfish-webapp/main.cpp:90
+#, kde-format
+msgid "Angelfish Web App runtime"
+msgstr "Извршно окружење веб програма Angelfish"
+
+#: angelfish-webapp/main.cpp:92
+#, kde-format
+msgid "Copyright 2020 Angelfish developers"
+msgstr "© 2020, програмери програма Angelfish"
+
+#: angelfish-webapp/main.cpp:94
+#, kde-format
+msgid "Marco Martin"
+msgstr "Марко Мартин"
+
+#: lib/angelfishwebprofile.cpp:47
+#, kde-format
+msgid "Open"
+msgstr "Отвори"
+
+#: lib/contents/ui/AuthSheet.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Authentication Required"
+msgstr "Неопходна аутентификација"
+
+#: lib/contents/ui/AuthSheet.qml:29
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Username:"
+msgstr "Корисничко име:"
+
+#: lib/contents/ui/AuthSheet.qml:35
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Password:"
+msgstr "Лозинка:"
+
+#: lib/contents/ui/DownloadQuestion.qml:16
+#, kde-format
+msgctxt "Would you like to download (filename) from (domain)?"
+msgid "Would you like to download %1 from %2?"
+msgstr "Желите ли да преузмете %1 са %2?"
+
+#: lib/contents/ui/DownloadQuestion.qml:25
+#: src/qml/AdblockFilterDownloadQuestion.qml:32
+#, kde-format
+msgctxt "@action:button"
+msgid "Download"
+msgstr "Преузми"
+
+#: lib/contents/ui/DownloadQuestion.qml:33 lib/contents/ui/ErrorHandler.qml:150
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Одустани"
+
+#: lib/contents/ui/ErrorHandler.qml:51
+#, kde-format
+msgctxt "@title"
+msgid "Error Loading the Page"
+msgstr "Грешка при учитавању странице"
+
+#: lib/contents/ui/ErrorHandler.qml:64
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Retry"
+msgstr "Покушај поново"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:49
+#, kde-format
+msgctxt "@title:window"
+msgid "This Page Says"
+msgstr "Ова страница каже"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:64
+#, kde-format
+msgid ""
+"The website asks for confirmation that you want to leave. Unsaved "
+"information might not be saved."
+msgstr ""
+"Сајт тражи потврду да желите да одете. Несачувани подаци можда неће бити "
+"сачувани."
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:79
+#, kde-format
+msgctxt "@action:button"
+msgid "Leave Page"
+msgstr "Напусти страницу"
+
+#: lib/contents/ui/JavaScriptDialogSheet.qml:87
+#, kde-format
+msgctxt "@action:button"
+msgid "Submit"
+msgstr "Предај"
+
+#: lib/contents/ui/ListWebView.qml:43
+#, kde-format
+msgid "Download finished"
+msgstr "Преузимање завршено"
+
+#: lib/contents/ui/ListWebView.qml:46
+#, kde-format
+msgid "Download failed"
+msgstr "Преузимање пропало"
+
+#: lib/contents/ui/ListWebView.qml:80 lib/contents/ui/ListWebView.qml:83
+#, kde-format
+msgctxt "@title:webview"
+msgid "Loading"
+msgstr "Учитавам"
+
+#: lib/contents/ui/NewTabQuestion.qml:11
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"Site wants to open a new tab:\n"
+"%1"
+msgstr ""
+"Сајт жели да отвори нови језичак:\n"
+"%1"
+
+#: lib/contents/ui/NewTabQuestion.qml:19
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "Отвори"
+
+#: lib/contents/ui/PermissionQuestion.qml:22
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>microphone</b>?"
+msgstr "Желите ли да дозволите сајту <b>%1</b> приступ <b>микрофону</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:24
+#, kde-format
+msgid "Do you want to allow the website <b>%1</b> to access the <b>camera</b>?"
+msgstr "Желите ли да дозволите сајту <b>%1</b> приступ <b>камери</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:26
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>camera and the "
+"microphone</b>?"
+msgstr ""
+"Желите ли да дозволите сајту <b>%1</b> приступ <b>камери и микрофону</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:28
+#, kde-format
+msgid "Do you want to allow the website <b>%1</b> to share your <b>screen</b>?"
+msgstr "Желите ли да дозволите сајту <b>%1</b> да дели ваш <b>екран</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:30
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to share the sound <b>output</b>?"
+msgstr "Желите ли да дозволите сајту <b>%1</b> да дели <b>излаз</b> звука?"
+
+#: lib/contents/ui/PermissionQuestion.qml:32
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to send you <b>notifications</b>?"
+msgstr "Желите ли да дозволите сајту <b>%1</b> да вам шаље <b>обавештења</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:34
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>geo location</b>?"
+msgstr ""
+"Желите ли да дозволите сајту <b>%1</b> приступ <b>географском положају</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:36
+#, kde-format
+msgid ""
+"Do you want to allow the website <b>%1</b> to access the <b>clipboard</b>?"
+msgstr "Желите ли да дозволите сајту <b>%1</b> приступ <b>клипборду</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:38
+#, kde-format
+msgid "Do you want to allow the website <b>%1</b> to access your <b>fonts</b>?"
+msgstr "Желите ли да дозволите сајту <b>%1</b> приступ вашим <b>фонтовима</b>?"
+
+#: lib/contents/ui/PermissionQuestion.qml:40
+#, kde-format
+msgctxt ""
+"The website (website) requested an unknown permission: Do you want to allow "
+"the website (website) to access your fonts?"
+msgid "The website %1 requested an unknown permission: %2"
+msgstr "Сајт %1 је затражио непознату дозволу: %2"
+
+#: lib/contents/ui/PermissionQuestion.qml:48
+#, kde-format
+msgctxt "@action:button"
+msgid "Accept"
+msgstr "Прихвати"
+
+#: lib/contents/ui/PermissionQuestion.qml:58
+#, kde-format
+msgctxt "@action:button"
+msgid "Decline"
+msgstr "Одбиј"
+
+#: lib/contents/ui/PrintPreview.qml:36
+#, kde-format
+msgctxt "@title:window"
+msgid "Print"
+msgstr "Штампање"
+
+#: lib/contents/ui/PrintPreview.qml:88
+#, kde-format
+msgctxt "@title:group"
+msgid "Destination"
+msgstr "Одредиште"
+
+#: lib/contents/ui/PrintPreview.qml:92
+#, kde-format
+msgctxt "@title:group"
+msgid "Save to PDF"
+msgstr "Сачувај као ПДФ"
+
+#: lib/contents/ui/PrintPreview.qml:101
+#, kde-format
+msgctxt "@title:group"
+msgid "Orientation"
+msgstr "Усмерење"
+
+#: lib/contents/ui/PrintPreview.qml:126
+#, kde-format
+msgctxt "@label:combobox"
+msgid "Paper Size"
+msgstr "Величина папира"
+
+#: lib/contents/ui/PrintPreview.qml:169
+#, kde-format
+msgctxt "@title:group"
+msgid "Options"
+msgstr "Опције"
+
+#: lib/contents/ui/PrintPreview.qml:173
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Print backgrounds"
+msgstr "Штампај позадине"
+
+#: lib/contents/ui/WebView.qml:363
+#, kde-format
+msgctxt "@info:status"
+msgid "Website was opened in a new tab"
+msgstr "Сајт је отворен у новом језичку"
+
+#: lib/contents/ui/WebView.qml:381
+#, kde-format
+msgctxt "@info:status"
+msgid "Entered Full Screen mode"
+msgstr "Укључен режим целог екрана"
+
+#: lib/contents/ui/WebView.qml:382
+#, kde-format
+msgctxt "@action:button"
+msgid "Exit Full Screen (Esc)"
+msgstr "Напусти цео екран (Esc)"
+
+#: lib/contents/ui/WebView.qml:541
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Play"
+msgstr "Пусти"
+
+#: lib/contents/ui/WebView.qml:542
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Pause"
+msgstr "Паузирај"
+
+#: lib/contents/ui/WebView.qml:549
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Unmute"
+msgstr "Врати звук"
+
+#: lib/contents/ui/WebView.qml:550
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Mute"
+msgstr "Утишај"
+
+#: lib/contents/ui/WebView.qml:560
+#, kde-format
+msgctxt "@label"
+msgid "Speed"
+msgstr "Брзина"
+
+#: lib/contents/ui/WebView.qml:583
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Loop"
+msgstr "Понављај"
+
+#: lib/contents/ui/WebView.qml:590
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Exit Fullscreen"
+msgstr "Напусти цео екран"
+
+#: lib/contents/ui/WebView.qml:590
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Enter Fullscreen"
+msgstr "Преко целог екрана"
+
+#: lib/contents/ui/WebView.qml:603
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Controls"
+msgstr "Сакриј контроле"
+
+#: lib/contents/ui/WebView.qml:604
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Controls"
+msgstr "Прикажи контроле"
+
+#: lib/contents/ui/WebView.qml:612
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Video"
+msgstr "Отвори видео"
+
+#: lib/contents/ui/WebView.qml:612
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Audio"
+msgstr "Отвори аудио"
+
+#: lib/contents/ui/WebView.qml:613
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Video in New Tab"
+msgstr "Отвори видео у новом језичку"
+
+#: lib/contents/ui/WebView.qml:613
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Audio in New Tab"
+msgstr "Отвори аудио у новом језичку"
+
+#: lib/contents/ui/WebView.qml:625
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Save Video"
+msgstr "Сачувај видео"
+
+#: lib/contents/ui/WebView.qml:631
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Video Link"
+msgstr "Копирај везу видеа"
+
+#: lib/contents/ui/WebView.qml:637
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Image"
+msgstr "Отвори слику"
+
+#: lib/contents/ui/WebView.qml:637
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Image in New Tab"
+msgstr "Отвори слику у новом језичку"
+
+#: lib/contents/ui/WebView.qml:649
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Save Image"
+msgstr "Сачувај слику"
+
+#: lib/contents/ui/WebView.qml:655
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Image"
+msgstr "Копирај слику"
+
+#: lib/contents/ui/WebView.qml:661
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Image Link"
+msgstr "Копирај везу слике"
+
+#: lib/contents/ui/WebView.qml:667
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Link"
+msgstr "Отвори везу"
+
+#: lib/contents/ui/WebView.qml:667
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Link in New Tab"
+msgstr "Отвори везу у новом језичку"
+
+#: lib/contents/ui/WebView.qml:679
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmark Link"
+msgstr "Обележи везу"
+
+#: lib/contents/ui/WebView.qml:691
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Save Link"
+msgstr "Сачувај везу"
+
+#: lib/contents/ui/WebView.qml:697
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Link"
+msgstr "Копирај везу"
+
+#: lib/contents/ui/WebView.qml:704
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "Копирај"
+
+#: lib/contents/ui/WebView.qml:710
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Cut"
+msgstr "Исеци"
+
+#: lib/contents/ui/WebView.qml:716
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Paste"
+msgstr "Налепи"
+
+#: lib/contents/ui/WebView.qml:724
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Search for “%1”"
+msgstr "Тражи „%1“"
+
+#: lib/contents/ui/WebView.qml:737 src/qml/desktop/Desktop.qml:394
+#: src/qml/Mobile.qml:321
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Share Page"
+msgstr "Подели страницу"
+
+#: lib/contents/ui/WebView.qml:749
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "View Page Source"
+msgstr "Прикажи извор странице"
+
+#: src/main.cpp:70
+#, kde-format
+msgid "Jonah Brüchert"
+msgstr "Jonah Brüchert"
+
+#: src/main.cpp:70
+#, kde-format
+msgid "Maintainer"
+msgstr "Одржавалац"
+
+#: src/main.cpp:71
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Немања Хиршл"
+
+#: src/main.cpp:71
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nemhirsl@gmail.com"
+
+#: src/main.cpp:75
+#, kde-format
+msgid "A browser engine based on Chromium for embeding web content."
+msgstr "Мотор прегледача заснован на Кромијуму за угнежђивање веб садржаја."
+
+#: src/main.cpp:77
+#, kde-format
+msgctxt "<version number> (built against <possibly different version number>)"
+msgid "%1 (built against %2)"
+msgstr "%1 (изграђено према %2)"
+
+#: src/main.cpp:83
+#, kde-format
+msgid "Web browser project developed by Google."
+msgstr "Пројекат веб прегледача који развија Гугл."
+
+#: src/main.cpp:92
+#, kde-format
+msgid "URL to open"
+msgstr "УРЛ за отварање"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:15
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The adblocker is missing its filter lists, do you want to download them now?"
+msgstr "Адблок нема своје спискове филтера. Желите ли да их сада преузмете?"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:37
+#, kde-format
+msgctxt "@info"
+msgid "Downloading…"
+msgstr "Преузимам…"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:43
+#, kde-format
+msgctxt "@action:button"
+msgid "Disable Adblock"
+msgstr "Искључи Адблок"
+
+#: src/qml/AdblockFilterDownloadQuestion.qml:49
+#, kde-format
+msgctxt "@info"
+msgid "Adblock Disabled…"
+msgstr "Адблок искључен…"
+
+#: src/qml/Bookmarks.qml:14
+#, kde-format
+msgctxt "@title:window"
+msgid "Bookmarks"
+msgstr "Обележивачи"
+
+#: src/qml/Bookmarks.qml:24 src/qml/Downloads.qml:34 src/qml/History.qml:31
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close"
+msgstr "Затвори"
+
+#: src/qml/desktop/Desktop.qml:152
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search or enter URL…"
+msgstr "Тражите или унесите УРЛ…"
+
+#: src/qml/desktop/Desktop.qml:278 src/qml/desktop/DesktopTabs.qml:272
+#: src/qml/Navigation.qml:466
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "New Tab"
+msgstr "Нови језичак"
+
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:85
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Leave Private Mode"
+msgstr "Напусти приватни режим"
+
+#: src/qml/desktop/Desktop.qml:285 src/qml/Mobile.qml:85
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Private Mode"
+msgstr "Приватни режим"
+
+#: src/qml/desktop/Desktop.qml:294 src/qml/Mobile.qml:101
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "History"
+msgstr "Историјат"
+
+#: src/qml/desktop/Desktop.qml:307 src/qml/Mobile.qml:93
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmarks"
+msgstr "Обележивачи"
+
+#: src/qml/desktop/Desktop.qml:320 src/qml/Mobile.qml:105
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Downloads"
+msgstr "Преузимања"
+
+#: src/qml/desktop/Desktop.qml:335
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Toggle Mobile Mode"
+msgstr "Укључи/искључи мобилни режим"
+
+#: src/qml/desktop/Desktop.qml:345
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Print"
+msgstr "Штампај"
+
+#: src/qml/desktop/Desktop.qml:351
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Full Screen"
+msgstr "Цео екран"
+
+#: src/qml/desktop/Desktop.qml:368
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Developer Tools"
+msgstr "Сакриј програмерске алатке"
+
+#: src/qml/desktop/Desktop.qml:369 src/qml/Mobile.qml:396
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Developer Tools"
+msgstr "Прикажи програмерске алатке"
+
+#: src/qml/desktop/Desktop.qml:378 src/qml/Mobile.qml:317
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Find in Page"
+msgstr "Нађи на страници"
+
+#: src/qml/desktop/Desktop.qml:387 src/qml/Mobile.qml:379
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reader Mode"
+msgstr "Режим читача"
+
+#: src/qml/desktop/Desktop.qml:404
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Add to Application Launcher"
+msgstr "Додај у покретач програма"
+
+#: src/qml/desktop/Desktop.qml:425 src/qml/Mobile.qml:120
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Settings"
+msgstr "Поставке"
+
+#: src/qml/desktop/Desktop.qml:434
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About Angelfish"
+msgstr "О програму Angelfish"
+
+#: src/qml/desktop/Desktop.qml:458
+#, kde-format
+msgctxt "@action:toolbutton"
+msgid "New Tab"
+msgstr "Нови језичак"
+
+#: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:246
+#, kde-format
+msgctxt "@label"
+msgid "Reader mode: %1"
+msgstr "Режим читача: %1"
+
+#: src/qml/desktop/DesktopTabDelegate.qml:118 src/qml/Tabs.qml:262
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close tab"
+msgstr "Затвори језичак"
+
+#: src/qml/desktop/DesktopTabs.qml:202
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Open a new tab"
+msgstr "Отвори нови језичак"
+
+#: src/qml/desktop/DesktopTabs.qml:235
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "List all tabs"
+msgstr "Наброј све језичке"
+
+#: src/qml/desktop/DesktopTabs.qml:281
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reload Tab"
+msgstr "Поново учитај језичак"
+
+#: src/qml/desktop/DesktopTabs.qml:289
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Duplicate Tab"
+msgstr "Дуплирај језичак"
+
+#: src/qml/desktop/DesktopTabs.qml:298
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove Bookmark"
+msgstr "Уклони обележивач"
+
+#: src/qml/desktop/DesktopTabs.qml:299
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmark Tab"
+msgstr "Обележи језичак"
+
+#: src/qml/desktop/DesktopTabs.qml:319
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Close Tab"
+msgstr "Затвори језичак"
+
+#: src/qml/desktop/DesktopTabs.qml:325
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reopen Closed Tab"
+msgstr "Поново отвори затворени језичак"
+
+#: src/qml/Downloads.qml:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Downloads"
+msgstr "Преузимања"
+
+#: src/qml/Downloads.qml:27
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear finished downloads"
+msgstr "Очисти завршена преузимања"
+
+#: src/qml/Downloads.qml:47
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No running downloads"
+msgstr "Нема преузимања у току"
+
+#: src/qml/Downloads.qml:96
+#, kde-format
+msgctxt "@info:progress"
+msgid "Starting…"
+msgstr "Почињем…"
+
+#: src/qml/Downloads.qml:98
+#, kde-format
+msgctxt "@info:progress"
+msgid "Completed"
+msgstr "Завршено"
+
+#: src/qml/Downloads.qml:100
+#, kde-format
+msgctxt "@info:progress"
+msgid "Cancelled"
+msgstr "Отказано"
+
+#: src/qml/Downloads.qml:102
+#, kde-format
+msgctxt "@info:progress"
+msgid "Interrupted"
+msgstr "Прекинуто"
+
+#: src/qml/Downloads.qml:104
+#, kde-format
+msgctxt "@info:progress"
+msgid "In progress…"
+msgstr "У току…"
+
+#: src/qml/Downloads.qml:111
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cancel"
+msgstr "Одустани"
+
+#: src/qml/Downloads.qml:124
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Pause"
+msgstr "Паузирај"
+
+#: src/qml/Downloads.qml:136
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Continue"
+msgstr "Настави"
+
+#: src/qml/FindInPageBar.qml:45
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Тражи…"
+
+#: src/qml/History.qml:14
+#, kde-format
+msgctxt "@title:window"
+msgid "History"
+msgstr "Историјат"
+
+#: src/qml/History.qml:24
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear all history"
+msgstr "Очисти цео историјат"
+
+#: src/qml/Mobile.qml:22
+#, kde-format
+msgctxt "@title:window"
+msgid "Angelfish Web Browser"
+msgstr "Веб прегледач Angelfish"
+
+#: src/qml/Mobile.qml:113
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Toggle Desktop Mode"
+msgstr "Укључи/искључи режим површи"
+
+#: src/qml/Mobile.qml:332
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Add to Homescreen"
+msgstr "Додај на домаћи екран"
+
+#: src/qml/Mobile.qml:344
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open in App"
+msgstr "Отвори у програму"
+
+#: src/qml/Mobile.qml:354
+#, kde-format
+msgctxt "@info:status"
+msgid "Bookmarked"
+msgstr "Обележено"
+
+#: src/qml/Mobile.qml:354
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmark"
+msgstr "Обележи"
+
+#: src/qml/Mobile.qml:370
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Desktop Site"
+msgstr "Прикажи сајт за површ"
+
+#: src/qml/Mobile.qml:387
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Navigation Bar"
+msgstr "Сакриј траку за навигацију"
+
+#: src/qml/Mobile.qml:406
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Go Back"
+msgstr "Иди назад"
+
+#: src/qml/Mobile.qml:414
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Go Forward"
+msgstr "Иди напред"
+
+#: src/qml/Mobile.qml:421
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Stop Loading"
+msgstr "Заустави учитавање"
+
+#: src/qml/Mobile.qml:421
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Refresh"
+msgstr "Освежи"
+
+#: src/qml/Navigation.qml:439
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Done"
+msgstr "Готово"
+
+#: src/qml/Navigation.qml:452
+#, kde-format
+msgctxt "@info:status"
+msgid "%1 tabs"
+msgstr "Језичака: %1"
+
+#: src/qml/ShareSheet.qml:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Share Page"
+msgstr "Дељење странице"
+
+#: src/qml/WebAppNameDialog.qml:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Add to Application Launcher"
+msgstr "Додавање у покретач програма"
+
+#: src/qml/WebAppNameDialog.qml:32
+#, kde-format
+msgctxt "@info"
+msgid "Enter a name for the web application:"
+msgstr "Унесите име веб програма:"
+
+#: src/qml/WebAppNameDialog.qml:39
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Application name"
+msgstr "Име програма"
+
+#: src/settings/AngelfishConfigurationView.qml:14
+#: src/settings/SettingsGeneral.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "General"
+msgstr "Опште"
+
+#: src/settings/AngelfishConfigurationView.qml:20
+#, kde-format
+msgctxt "@title:window"
+msgid "Adblock"
+msgstr "Адблок"
+
+#: src/settings/AngelfishConfigurationView.qml:26
+#: src/settings/SettingsWebApps.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Web Apps"
+msgstr "Веб програми"
+
+#: src/settings/AngelfishConfigurationView.qml:32
+#: src/settings/SettingsSearchEnginePage.qml:118
+#, kde-format
+msgctxt "@title:window"
+msgid "Search Engines"
+msgstr "Претраживачи"
+
+#: src/settings/AngelfishConfigurationView.qml:38
+#: src/settings/DesktopHomeSettingsPage.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Toolbars"
+msgstr "Траке алатки"
+
+#: src/settings/AngelfishConfigurationView.qml:44
+#, kde-format
+msgid "About Angelfish"
+msgstr "О програму Angelfish"
+
+#: src/settings/AngelfishConfigurationView.qml:47
+#, kde-format
+msgctxt "@title:group"
+msgid "About"
+msgstr "О програму"
+
+#: src/settings/DesktopHomeSettingsPage.qml:25
+#, kde-format
+msgctxt "@label"
+msgid "Show home button:"
+msgstr "Прикажи дугме домаће странице:"
+
+#: src/settings/DesktopHomeSettingsPage.qml:26
+#, kde-format
+msgid "The home button will be shown next to the reload button in the toolbar."
+msgstr ""
+"Дугме домаће странице биће приказано поред дугмета за поновно учитавање на "
+"траци алатки."
+
+#: src/settings/DesktopHomeSettingsPage.qml:36
+#, kde-format
+msgctxt "@label"
+msgid "Homepage:"
+msgstr "Домаћа страница:"
+
+#: src/settings/DesktopHomeSettingsPage.qml:59
+#, kde-format
+msgctxt "@label"
+msgid "New tabs:"
+msgstr "Нови језичци:"
+
+#: src/settings/DesktopHomeSettingsPage.qml:82
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Always show the tab bar"
+msgstr "Увек прикажи траку језичака"
+
+#: src/settings/DesktopHomeSettingsPage.qml:83
+#, kde-format
+msgid "The tab bar will be displayed even if there is only one tab open."
+msgstr "Трака језичака биће приказана чак и кад је отворен само један језичак."
+
+#: src/settings/SettingsAdblock.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Adblock Settings"
+msgstr "Поставке Адблока"
+
+#: src/settings/SettingsAdblock.qml:23
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add filter list"
+msgstr "Додај списак филтера"
+
+#: src/settings/SettingsAdblock.qml:27
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Update Lists"
+msgstr "Ажурирај спискове"
+
+#: src/settings/SettingsAdblock.qml:49
+#, kde-format
+msgid "The adblock functionality isn't included in this build."
+msgstr "Могућност Адблока није укључена у ово издање."
+
+#: src/settings/SettingsAdblock.qml:101
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove this filter list"
+msgstr "Уклони овај списак филтера"
+
+#: src/settings/SettingsAdblock.qml:113
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Filter List"
+msgstr "Додај списак филтера"
+
+#: src/settings/SettingsAdblock.qml:125
+#, kde-format
+msgctxt "@title:group"
+msgid "Add Filter List"
+msgstr "Додавање списка филтера"
+
+#: src/settings/SettingsAdblock.qml:130
+#, kde-format
+msgctxt "@label"
+msgid "Name"
+msgstr "Име"
+
+#: src/settings/SettingsAdblock.qml:139
+#, kde-format
+msgctxt "@label"
+msgid "URL"
+msgstr "УРЛ"
+
+#: src/settings/SettingsGeneral.qml:28
+#, kde-format
+msgid "Enable JavaScript"
+msgstr "Укључи јаваскрипт"
+
+#: src/settings/SettingsGeneral.qml:29
+#, kde-format
+msgid "This may be required on certain websites for them to work."
+msgstr "Ово може бити потребно да би неки сајтови радили."
+
+#: src/settings/SettingsGeneral.qml:38
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Load images"
+msgstr "Учитавај слике"
+
+#: src/settings/SettingsGeneral.qml:39
+#, kde-format
+msgid "Whether to load images on websites."
+msgstr "Да ли учитавати слике на сајтовима."
+
+#: src/settings/SettingsGeneral.qml:48
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Enable adblock"
+msgstr "Укључи Адблок"
+
+#: src/settings/SettingsGeneral.qml:49
+#, kde-format
+msgid "Attempts to prevent advertisements on websites from showing."
+msgstr "Покушава да спречи приказивање реклама на сајтовима."
+
+#: src/settings/SettingsGeneral.qml:49
+#, kde-format
+msgid "Adblock functionality was not included in this build."
+msgstr "Могућност Адблока није укључена у ово издање."
+
+#: src/settings/SettingsGeneral.qml:59
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Switch to new tab immediately"
+msgstr "Одмах пређи на нови језичак"
+
+#: src/settings/SettingsGeneral.qml:60
+#, kde-format
+msgid ""
+"When you open a link, image or media in a new tab, switch to it immediately."
+msgstr ""
+"Кад отворите везу, слику или медиј у новом језичку, одмах се прелази на њега."
+
+#: src/settings/SettingsGeneral.qml:69
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Use smooth scrolling"
+msgstr "Користи глатко клизање"
+
+#: src/settings/SettingsGeneral.qml:70
+#, kde-format
+msgid ""
+"Scrolling is smoother and will not stop suddenly when you stop scrolling. "
+"Requires app restart to take effect."
+msgstr ""
+"Клизање је глађе и не зауставља се нагло кад престанете да клизате. Потребно "
+"је поново покренути програм да би ступило на снагу."
+
+#: src/settings/SettingsGeneral.qml:79
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Use dark color scheme"
+msgstr "Користи тамну шему боја"
+
+#: src/settings/SettingsGeneral.qml:80
+#, kde-format
+msgid ""
+"Websites will have their color schemes set to dark. Requires app restart to "
+"take effect."
+msgstr ""
+"Сајтови ће имати тамну шему боја. Потребно је поново покренути програм да би "
+"ступило на снагу."
+
+#: src/settings/SettingsNavigationBarPage.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Navigation Bar"
+msgstr "Трака за навигацију"
+
+#: src/settings/SettingsNavigationBarPage.qml:27
+#, kde-format
+msgid ""
+"Choose the buttons enabled in the navigation bar. Some of the buttons can be "
+"hidden only in portrait orientation of the browser and are always shown if "
+"the browser is wider than its height."
+msgstr ""
+"Изаберите дугмад укључену у траци за навигацију. Нека дугмад могу да се "
+"сакрију само у портретном усмерењу прегледача и увек се приказују ако је "
+"прегледач шири него што је висок."
+
+#: src/settings/SettingsNavigationBarPage.qml:36
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Main menu in portrait"
+msgstr "Главни мени у портретном усмерењу"
+
+#: src/settings/SettingsNavigationBarPage.qml:42
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Tabs in portrait"
+msgstr "Језичци у портретном усмерењу"
+
+#: src/settings/SettingsNavigationBarPage.qml:48
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Go back"
+msgstr "Иди назад"
+
+#: src/settings/SettingsNavigationBarPage.qml:54
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Go forward"
+msgstr "Иди напред"
+
+#: src/settings/SettingsNavigationBarPage.qml:60
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Reload/Stop"
+msgstr "Поново учитај/заустави"
+
+#: src/settings/SettingsSearchEnginePage.qml:18
+#, kde-format
+msgctxt "@window:title"
+msgid "Search Engines"
+msgstr "Претраживачи"
+
+#: src/settings/SettingsSearchEnginePage.qml:21
+#, kde-format
+msgctxt "@label"
+msgid "Custom"
+msgstr "Посебан"
+
+#: src/settings/SettingsSearchEnginePage.qml:123
+#, kde-format
+msgctxt "@label"
+msgid "Base URL of your preferred search engine"
+msgstr "Основни УРЛ жељеног претраживача"
+
+#: src/settings/SettingsWebApps.qml:73
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove app"
+msgstr "Уклони програм"
+
+#: src/settings/SettingsWebApps.qml:85
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No web apps installed"
+msgstr "Нема инсталираних веб програма"
