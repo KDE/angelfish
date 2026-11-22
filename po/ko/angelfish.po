@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-19 01:06+0000\n"
-"PO-Revision-Date: 2026-09-29 00:33+0200\n"
+"PO-Revision-Date: 2026-11-21 23:29+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -96,7 +96,7 @@ msgstr "다시 시도"
 #, kde-format
 msgctxt "@title"
 msgid "Connection Not Secure"
-msgstr ""
+msgstr "연결이 안전하지 않음"
 
 #: lib/contents/ui/ErrorHandler.qml:131
 #, kde-format
@@ -105,32 +105,32 @@ msgid ""
 "Someone could be trying to impersonate this website or intercept your "
 "connection. Only continue if you trust this network and website."
 msgstr ""
+"누군가가 이 웹사이트를 사칭하거나 이 연결을 가로채려고 하고 있습니다. 이 네트"
+"워크와 웹사이트를 신뢰할 수 있을 때에만 계속 진행하십시오."
 
 #: lib/contents/ui/ErrorHandler.qml:132
 #, kde-format
 msgctxt "@info"
 msgid "This website requires a secure connection, so it cannot be opened."
-msgstr ""
+msgstr "이 웹사이트에는 보안 연결이 필요하므로 열 수 없습니다."
 
 #: lib/contents/ui/ErrorHandler.qml:149
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Go Back"
+#, kde-format
 msgctxt "@action:button"
 msgid "Go Back"
-msgstr "뒤로 이동"
+msgstr "뒤로 가기"
 
 #: lib/contents/ui/ErrorHandler.qml:164
 #, kde-format
 msgctxt "@action:button"
 msgid "Continue Anyway (Unsafe)"
-msgstr ""
+msgstr "그래도 계속 진행(안전하지 않음)"
 
 #: lib/contents/ui/ErrorHandler.qml:177
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has expired or is not yet valid."
-msgstr ""
+msgstr "이 웹사이트의 인증서가 만료되었거나 아직 유효하지 않습니다."
 
 #: lib/contents/ui/ErrorHandler.qml:179
 #, kde-format
@@ -139,24 +139,26 @@ msgid ""
 "The website's certificate could not be verified, because it was not issued "
 "by a trusted authority. It may be self-signed."
 msgstr ""
+"이 웹사이트의 인증서를 검증할 수 없습니다. 신뢰할 수 있는 인증 기관에서 발행"
+"되지 않았습니다. 자가 서명되었을 수도 있습니다."
 
 #: lib/contents/ui/ErrorHandler.qml:181
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate belongs to a different website."
-msgstr ""
+msgstr "이 웹사이트의 인증서가 다른 웹사이트용으로 발급되었습니다."
 
 #: lib/contents/ui/ErrorHandler.qml:183
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate has been revoked."
-msgstr ""
+msgstr "이 웹사이트의 인증서가 취소되었습니다."
 
 #: lib/contents/ui/ErrorHandler.qml:186
 #, kde-format
 msgctxt "@info"
 msgid "The website's certificate uses weak security."
-msgstr ""
+msgstr "이 웹사이트의 인증서에서 약한 보안을 사용합니다."
 
 #: lib/contents/ui/JavaScriptDialogSheet.qml:49
 #, kde-format
@@ -576,18 +578,18 @@ msgstr "kde@peremen.name"
 #: src/main.cpp:75
 #, kde-format
 msgid "A browser engine based on Chromium for embeding web content."
-msgstr ""
+msgstr "웹 콘텐츠를 임베드할 수 있는 Chromium 기반 웹 브라우저 엔진입니다."
 
 #: src/main.cpp:77
 #, kde-format
 msgctxt "<version number> (built against <possibly different version number>)"
 msgid "%1 (built against %2)"
-msgstr ""
+msgstr "%1(%2(으)로 빌드됨)"
 
 #: src/main.cpp:83
 #, kde-format
 msgid "Web browser project developed by Google."
-msgstr ""
+msgstr "Google에서 개발한 웹 브라우저 프로젝트입니다."
 
 #: src/main.cpp:92
 #, kde-format
@@ -1210,25 +1212,14 @@ msgid "Navigation Bar"
 msgstr "탐색 표시줄"
 
 #: src/settings/SettingsNavigationBarPage.qml:27
-#, fuzzy, kde-format
-#| msgid ""
-#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-#| "hidden only in portrait orientation of the browser and are always shown "
-#| "if the browser is wider than its height.\n"
-#| "\n"
-#| " Note that if you disable the menu buttons, you will be able to access "
-#| "the menus either by swiping from the left or right side or to a side "
-#| "along the bottom of the window."
+#, kde-format
 msgid ""
 "Choose the buttons enabled in the navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
 "the browser is wider than its height."
 msgstr ""
 "탐색 표시줄에 활성화된 단추를 선택하십시오. 일부 단추는 브라우저가 가로 모드"
-"일 때 숨겨지며 브라우저 너비가 높이보다 클 때 항상 표시됩니다.\n"
-"\n"
-" 메뉴 단추를 비활성화하면 화면 왼쪽이나 오른쪽에서 밀거나 창 아래쪽에서 밀어"
-"서 메뉴에 접근할 수 있습니다."
+"일 때 숨겨지며 브라우저 너비가 높이보다 클 때 항상 표시됩니다."
 
 #: src/settings/SettingsNavigationBarPage.qml:36
 #, kde-format
