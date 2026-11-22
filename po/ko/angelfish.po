@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plasma-angelfish\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-11 03:11+0000\n"
-"PO-Revision-Date: 2026-09-29 00:33+0200\n"
+"PO-Revision-Date: 2026-11-21 23:29+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -510,18 +510,18 @@ msgstr "kde@peremen.name"
 #: src/main.cpp:75
 #, kde-format
 msgid "A browser engine based on Chromium for embeding web content."
-msgstr ""
+msgstr "웹 콘텐츠를 임베드할 수 있는 Chromium 기반 웹 브라우저 엔진입니다."
 
 #: src/main.cpp:77
 #, kde-format
 msgctxt "<version number> (built against <possibly different version number>)"
 msgid "%1 (built against %2)"
-msgstr ""
+msgstr "%1(%2(으)로 빌드됨)"
 
 #: src/main.cpp:83
 #, kde-format
 msgid "Web browser project developed by Google."
-msgstr ""
+msgstr "Google에서 개발한 웹 브라우저 프로젝트입니다."
 
 #: src/main.cpp:92
 #, kde-format
@@ -1144,25 +1144,14 @@ msgid "Navigation Bar"
 msgstr "탐색 표시줄"
 
 #: src/settings/SettingsNavigationBarPage.qml:27
-#, fuzzy, kde-format
-#| msgid ""
-#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-#| "hidden only in portrait orientation of the browser and are always shown "
-#| "if the browser is wider than its height.\n"
-#| "\n"
-#| " Note that if you disable the menu buttons, you will be able to access "
-#| "the menus either by swiping from the left or right side or to a side "
-#| "along the bottom of the window."
+#, kde-format
 msgid ""
 "Choose the buttons enabled in the navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
 "the browser is wider than its height."
 msgstr ""
 "탐색 표시줄에 활성화된 단추를 선택하십시오. 일부 단추는 브라우저가 가로 모드"
-"일 때 숨겨지며 브라우저 너비가 높이보다 클 때 항상 표시됩니다.\n"
-"\n"
-" 메뉴 단추를 비활성화하면 화면 왼쪽이나 오른쪽에서 밀거나 창 아래쪽에서 밀어"
-"서 메뉴에 접근할 수 있습니다."
+"일 때 숨겨지며 브라우저 너비가 높이보다 클 때 항상 표시됩니다."
 
 #: src/settings/SettingsNavigationBarPage.qml:36
 #, kde-format
