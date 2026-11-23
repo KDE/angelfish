@@ -112,12 +112,10 @@ msgid "This website requires a secure connection, so it cannot be opened."
 msgstr ""
 
 #: lib/contents/ui/ErrorHandler.qml:149
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Go Back"
+#, kde-format
 msgctxt "@action:button"
 msgid "Go Back"
-msgstr "后退"
+msgstr ""
 
 #: lib/contents/ui/ErrorHandler.qml:164
 #, kde-format
@@ -724,12 +722,10 @@ msgid "About Angelfish"
 msgstr "关于 Angelfish"
 
 #: src/qml/desktop/Desktop.qml:561
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "New Tab"
+#, kde-format
 msgctxt "@action:toolbutton"
 msgid "New Tab"
-msgstr "新建标签页"
+msgstr ""
 
 #: src/qml/desktop/DesktopTabDelegate.qml:88 src/qml/Tabs.qml:246
 #, kde-format
@@ -1197,24 +1193,12 @@ msgid "Navigation Bar"
 msgstr "导航栏"
 
 #: src/settings/SettingsNavigationBarPage.qml:27
-#, fuzzy, kde-format
-#| msgid ""
-#| "Choose the buttons enabled in navigation bar. Some of the buttons can be "
-#| "hidden only in portrait orientation of the browser and are always shown "
-#| "if the browser is wider than its height.\n"
-#| "\n"
-#| " Note that if you disable the menu buttons, you will be able to access "
-#| "the menus either by swiping from the left or right side or to a side "
-#| "along the bottom of the window."
+#, kde-format
 msgid ""
 "Choose the buttons enabled in the navigation bar. Some of the buttons can be "
 "hidden only in portrait orientation of the browser and are always shown if "
 "the browser is wider than its height."
 msgstr ""
-"选择导航栏中启用的按钮。某些按钮只能在竖屏模式下隐藏，并且在浏览器窗口的宽度"
-"大于其高度时总是显示。\n"
-"\n"
-" 提示：如果您禁用了菜单按钮，您依然可以在窗口底部左滑或右滑来访问菜单。"
 
 #: src/settings/SettingsNavigationBarPage.qml:36
 #, kde-format
@@ -1275,44 +1259,3 @@ msgstr "移除应用"
 msgctxt "@info:placeholder"
 msgid "No web apps installed"
 msgstr "没有已安装的网页应用"
-
-#~ msgid ""
-#~ "Do you wish to continue?\n"
-#~ "\n"
-#~ " If you wish so, you may continue with an unverified certificate.\n"
-#~ " Accepting an unverified certificate means you may not be connected with "
-#~ "the host you tried to connect to.\n"
-#~ "\n"
-#~ " Do you wish to override the security check and continue?"
-#~ msgstr ""
-#~ "您想要继续吗？\n"
-#~ "\n"
-#~ " 如果您想要继续，您可以继续使用未经验证的证书。\n"
-#~ " 接受未经验证的证书意味着您可能无法与您尝试连接的主机建立连接。\n"
-#~ "\n"
-#~ " 您想要覆盖安全检查并继续吗？"
-
-#~ msgctxt "@action:button"
-#~ msgid "Yes"
-#~ msgstr "是"
-
-#~ msgctxt "@action:button"
-#~ msgid "No"
-#~ msgstr "否"
-
-#~ msgid "Angelfish"
-#~ msgstr "Angelfish"
-
-#~ msgid "Web browser for Plasma Mobile"
-#~ msgstr "Plasma Mobile网络浏览器"
-
-#~ msgid "© 2015-2026 KDE Community"
-#~ msgstr "© 2015-2026 KDE Community"
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "Tabs"
-#~ msgstr "标签页"
-
-#~ msgctxt "@label:checkbox"
-#~ msgid "Context menu in portrait"
-#~ msgstr "竖屏上下文菜单"
