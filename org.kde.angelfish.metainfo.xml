@@ -1010,7 +1010,7 @@
           <li xml:lang="sr-ijekavian">Бољи подразумијевани кориснички агент за мобилне уређаје</li>
           <li xml:lang="sr-ijekavianlatin">Bolji podrazumijevani korisnički agent za mobilne uređaje</li>
           <li xml:lang="sv">Visa en bättre förvald användarmodul för mobilapparater</li>
-          <li xml:lang="tr">Taşınabilir aygıtlar için daha iyi bir öntanımlı kullanıcı aracısı (user-agent) kullan</li>
+          <li xml:lang="tr">Taşınabilir aygıtlar için daha iyi bir varsayılan kullanıcı aracısı (user-agent) kullan</li>
           <li xml:lang="uk">Використано кращий агент користувача для мобільних пристроїв</li>
           <li xml:lang="zh-CN">让移动设备使用更好的默认用户代理</li>
           <li xml:lang="zh-TW">為行動裝置使用更適合的預設使用者代理字串</li>
