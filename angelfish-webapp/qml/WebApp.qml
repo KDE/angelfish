@@ -44,12 +44,9 @@ Kirigami.ApplicationWindow {
         Core.ErrorHandler {
             id: errorHandler
 
-            errorString: currentWebView.errorString
-            errorCode: currentWebView.errorCode
+            webView: currentWebView
 
             anchors.fill: parent
-            visible: currentWebView.errorDomain !== null
-                     && currentWebView.errorDomain !== WebEngineLoadingInfo.HttpStatusCodeDomain
             onRefreshRequested: currentWebView.reload()
         }
 
